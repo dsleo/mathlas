@@ -1,0 +1,146 @@
+{
+ "objective": "sum of (sqrt(links) x centre distance)",
+ "totalWeightedLength": 124962,
+ "restarts": 24,
+ "feasible": 24,
+ "worstFeasible": 135852,
+ "box": [
+  1500.0,
+  1080.0
+ ],
+ "gap": 18.0,
+ "positions": {
+  "Algebra": [
+   341.8,
+   442.9
+  ],
+  "Number theory": [
+   584.0,
+   887.7
+  ],
+  "Geometry": [
+   597.7,
+   175.4
+  ],
+  "Astronomy & trigonometry": [
+   349.0,
+   593.8
+  ],
+  "Analysis": [
+   522.0,
+   332.7
+  ],
+  "Combinatorics": [
+   788.8,
+   776.9
+  ],
+  "Numerical analysis": [
+   228.7,
+   552.0
+  ],
+  "Logic & foundations": [
+   555.0,
+   496.9
+  ],
+  "Algebraic geometry": [
+   972.5,
+   470.9
+  ],
+  "Group & representation theory": [
+   871.0,
+   620.8
+  ],
+  "Applied mathematics": [
+   258.1,
+   660.8
+  ],
+  "Probability": [
+   987.0,
+   306.6
+  ],
+  "Statistics & decision theory": [
+   1052.6,
+   607.6
+  ],
+  "Differential geometry": [
+   410.0,
+   208.2
+  ],
+  "Mathematical physics": [
+   698.2,
+   293.1
+  ],
+  "Differential equations": [
+   987.4,
+   742.6
+  ],
+  "Optimization & control": [
+   937.6,
+   183.2
+  ],
+  "Complex analysis": [
+   527.5,
+   730.0
+  ],
+  "Graph theory": [
+   893.4,
+   84.2
+  ],
+  "Topology": [
+   661.9,
+   638.1
+  ],
+  "Geophysics & geodesy": [
+   1400.1,
+   667.2
+  ],
+  "Fluid mechanics": [
+   1091.1,
+   385.3
+  ],
+  "Functional equations": [
+   637.6,
+   753.4
+  ],
+  "Solid mechanics": [
+   468.8,
+   118.4
+  ],
+  "Functional & harmonic analysis": [
+   752.0,
+   503.7
+  ],
+  "Approximation theory": [
+   1125.3,
+   298.7
+  ],
+  "Dynamics": [
+   486.6,
+   622.3
+  ],
+  "Algebraic topology": [
+   817.2,
+   375.4
+  ],
+  "Game theory & economics": [
+   1129.6,
+   520.6
+  ],
+  "Computer science": [
+   777.3,
+   147.8
+  ],
+  "Algorithms & complexity": [
+   374.1,
+   714.2
+  ],
+  "Information & cryptography": [
+   834.0,
+   254.4
+  ],
+  "Category & homological algebra": [
+   671.8,
+   401.6
+  ]
+ }
+}

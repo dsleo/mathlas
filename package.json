@@ -1,0 +1,17 @@
+{
+  "name": "mathlas",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "An atlas of mathematics through time: fields as islands that emerge and grow with every recorded event.",
+  "scripts": {
+    "build": "python3 scripts/build_field_film.py",
+    "layout": "python3 scripts/layout_field_film.py",
+    "portraits": "python3 scripts/fetch_portraits.py",
+    "serve": "python3 -m http.server 5174 -d public"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0",
+    "katex": "^0.16.0"
+  }
+}
