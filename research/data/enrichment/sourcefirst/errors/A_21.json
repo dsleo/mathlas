@@ -1,8 +1,0 @@
-[
- {
-  "level": "error",
-  "file": "data/collection/enrichment/sourcefirst/A_21.json",
-  "location": "[6].milestones[0].evidence[1]",
-  "message": "Invalid evidence claim, source, kind, or URL"
- }
-]

@@ -1,10 +1,13 @@
-# Research archive
+# Research notes
 
-The raw material behind the 553 events on the map, kept for provenance. Nothing here is needed to build the site.
+What we keep from the research behind the 553 events, for extending and checking the map. The events themselves are in `data/source/field-emergence-explorer.html`.
 
-- `data/FIELD_EMERGENCE_*.md`: the method notes, studies and status write-ups.
-- `data/field-events-*.json`: the event catalogues (seed sets, candidates, merged and verified lists).
-- `data/field-map-*`: the MSC2020 audit, historian review, alias list, evidence-review queue and the additions file.
-- `data/enrichment/`: milestone research per event (pilot, scale batches, source-first passes, second blind readers, cross-check, coverage and work-verification ledgers). `STATUS.md` is the entry point and `MILESTONE_SCHEMA.md` defines the milestone format.
-- `scripts/`: the pipeline that produced and validated those files. It was written for another repository layout (paths like `data/collection/…`), so treat it as documentation of the method, not as runnable as-is.
-- `pages/`: the earlier review pages (pilot, milestone ledger, reviewed list).
+- `enrichment/MILESTONE_SCHEMA.md`: the milestone format and roles (precursor, first statement, first application, …) and the dating rules. Follow it when adding or correcting an event.
+- `enrichment/STATUS.md`: where the checking stands (directly checked versus source-first events).
+- `enrichment/coverage.json`: per event, what was researched and where gaps remain.
+- `enrichment/crosscheck/`: an independent second pass over the source-first events (README and summary).
+- `notes/FIELD_EMERGENCE_{OVERVIEW,METHOD,ENRICHMENT}.md`: how the catalogue and its milestones were built.
+- `notes/field-map-msc2020-audit.md`, `field-map-historian-review.md`, `field-map-focused-additions.json`: coverage gaps against the MSC2020 subject classes and the events proposed to fill them.
+- `notes/field-events-candidates.json`: candidate events not yet in the map.
+
+The per-batch research files, intermediate catalogues and the original pipeline scripts were dropped as no longer useful; they remain in the history of the Proofscape repository the work was done in.

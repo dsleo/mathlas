@@ -1,7 +1,0 @@
-# Batch 42: direct source adjudication
-
-Ten events have 18 cited milestones. The [work check](batch42-work-verification.json) should be read alongside the original publication pages: the generic checker does not parse the [1995 Annals articles by Wiles and Taylor–Wiles](https://annals.math.princeton.edu/1995/141-3/p01), [Fukaya’s 1993 MSRI work](https://books.google.com/books?id=EE22PgAACAAJ), or the [2009 AMS/Open Library monograph record](https://openlibrary.org/books/OL23621842M/Lagrangian_intersection_floer_theory). An earlier DOI candidate for the monograph resolved to an unrelated book and was removed.
-
-The public-version checks identify [Gowers–Maurey's 1992 preprint](https://arxiv.org/abs/math/9205204) before the 1993 journal issue, [Kashiwara's 1990 crystal-base paper](https://doi.org/10.1007/BF02097367) before the 1991 Duke treatment, the [1992 PCP conference papers](https://doi.org/10.1109/SFCS.1992.267823) before their 1998 journal versions, and [Tracy–Widom's 1992 preprint](https://arxiv.org/abs/hep-th/9210074) before the 1994 Airy-kernel publication. For K-stability, the [October 2012 proof announcement](https://arxiv.org/abs/1210.7494) precedes the November detailed series.
-
-Wiles’s 1993 talk is not treated as a public proof date, and the first public version of the corrected proof is still open. The event records explicitly preserve other priority gaps. No independent pass or grade A is implied.
