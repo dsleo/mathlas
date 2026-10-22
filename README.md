@@ -69,7 +69,9 @@ Every event is one of seven types. The type says *how* mathematics changed, and 
 
 The raw research behind the events (catalogues, milestone research per event, validation scripts) is archived in [`research/`](research/).
 
-Corrections are welcome. Open an issue.
+### Corrections
+
+Every event card and milestone has a pencil (✎) that opens a pre-filled GitHub issue (event, milestone, the page you were on, and a short form: what needs fixing, what it should say, a source). A GitHub account is needed. To accept one, add the label `accepted` and close the issue as completed: a workflow then opens a pull request that records it in `public/data/corrections.json`. Make the real data fix in that pull request and merge. Accepted corrections show in the margin of the milestone, credited to the contributor.
 
 ## Licence
 

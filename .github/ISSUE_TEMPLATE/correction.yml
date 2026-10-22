@@ -1,0 +1,52 @@
+name: Correction or missing source
+description: Fix a date, role, person or claim on the map, or add a source
+title: "Correction: "
+labels: ["correction"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you. The first three fields are filled in by the page; please leave them as they are.
+        Accepted corrections appear on the map in the margin of the milestone, credited to your GitHub username.
+  - type: input
+    id: event
+    attributes:
+      label: Event
+      description: Event id (from the page)
+    validations:
+      required: true
+  - type: input
+    id: milestone
+    attributes:
+      label: Milestone
+      description: The milestone this is about, if any
+  - type: input
+    id: page
+    attributes:
+      label: Page
+      description: Link to what you were looking at
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What needs fixing
+      options:
+        - Date
+        - Role of a milestone
+        - Person
+        - Claim or description
+        - Missing source
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: proposed
+    attributes:
+      label: What it should say
+      description: The correct version, in a sentence or two
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: A link or citation that supports it (a publication, a MacTutor page, a bibliographic record)
