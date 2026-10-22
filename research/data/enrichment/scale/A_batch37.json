@@ -1,0 +1,2407 @@
+[
+  {
+    "pid": "P547",
+    "eventId": "Q53",
+    "canonicalName": "Triangulation conjecture disproved via Pin(2)-equivariant Seiberg-Witten Floer theory",
+    "aliases": [
+      "Manolescu's non-triangulable manifolds",
+      "Triangulation conjecture in high dimensions",
+      "Pin(2)-equivariant Floer disproof of triangulation"
+    ],
+    "phases": [
+      "Triangulation programme (Galewski-Stern, 1978-1980)",
+      "Seiberg-Witten Floer theory (2003)",
+      "Pin(2)-equivariant disproof (2013-2016)"
+    ],
+    "milestones": [
+      {
+        "role": "precursor",
+        "phase": "Triangulation programme (Galewski-Stern, 1978-1980)",
+        "year": 1978,
+        "endYear": null,
+        "precision": "year",
+        "label": "Galewski-Stern classification of triangulations",
+        "work": "Galewski, Stern, Simplicial triangulations of topological manifolds, Proc. Symp. Pure Math. 32 (1978)",
+        "people": [
+          "Galewski",
+          "Stern"
+        ],
+        "description": "Galewski and Stern open the classification of triangulations of topological manifolds that frames the triangulation question.",
+        "evidence": [
+          {
+            "claim": "Galewski-Stern 1978 paper exists (title, venue, year)",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1090/pspum/032.2/520518",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Triangulation conjecture is the background of the high-dimensional disproof",
+            "source": "Wikipedia: Triangulation (topology)",
+            "url": "https://en.wikipedia.org/wiki/Triangulation_(topology)",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Content of the reduction (triangulability versus homology spheres) was not checked on a fetched text; Galewski-Stern 1980 Annals paper (DOI 10.2307/1971215) also exists. Matumoto's work not checked."
+      },
+      {
+        "role": "precursor",
+        "phase": "Seiberg-Witten Floer theory (2003)",
+        "year": 2003,
+        "endYear": null,
+        "precision": "year",
+        "label": "Seiberg-Witten Floer stable homotopy type",
+        "work": "Manolescu, Seiberg-Witten-Floer stable homotopy type of three-manifolds with b1=0, Geometry & Topology 7 (2003)",
+        "people": [
+          "Manolescu"
+        ],
+        "description": "Manolescu constructs the Seiberg-Witten Floer stable homotopy type that the later Pin(2)-equivariant argument uses as a tool.",
+        "evidence": [
+          {
+            "claim": "G&T 2003 paper, author and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.2140/gt.2003.7.889",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Manolescu's thesis topic: spectrum-valued TQFT from Seiberg-Witten equations",
+            "source": "Wikipedia: Ciprian Manolescu",
+            "url": "https://en.wikipedia.org/wiki/Ciprian_Manolescu",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "first_statement",
+        "phase": "Pin(2)-equivariant disproof (2013-2016)",
+        "year": 2013,
+        "endYear": null,
+        "precision": "year",
+        "label": "Preprint disproving the triangulation conjecture in dimension 5 and higher",
+        "work": "Manolescu, Pin(2)-equivariant Seiberg-Witten Floer homology and the triangulation conjecture, preprint (2013)",
+        "people": [
+          "Manolescu"
+        ],
+        "description": "Manolescu releases a preprint disproving the triangulation conjecture for manifolds of dimension five and higher.",
+        "evidence": [
+          {
+            "claim": "Manolescu released a paper in early 2013 disproving the triangulation conjecture for dimension 5 and higher",
+            "source": "Wikipedia: Ciprian Manolescu",
+            "url": "https://en.wikipedia.org/wiki/Ciprian_Manolescu",
+            "kind": "history_page"
+          },
+          {
+            "claim": "arXiv record not retrieved: export.arxiv.org returned HTTP 429 (rate limit) on every attempt",
+            "source": "arXiv API (blocked)",
+            "url": "https://arxiv.org",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Year from Wikipedia; arXiv preprint record not confirmed. Same preprint also serves as the first application of the Pin(2) Floer tool to triangulation (see next milestone)."
+      },
+      {
+        "role": "first_application",
+        "phase": "Pin(2)-equivariant disproof (2013-2016)",
+        "year": 2013,
+        "endYear": null,
+        "precision": "year",
+        "label": "Pin(2) Floer tool applied to triangulability",
+        "work": "Manolescu, Pin(2)-equivariant Seiberg-Witten Floer homology and the triangulation conjecture (2013 preprint)",
+        "people": [
+          "Manolescu"
+        ],
+        "description": "The Pin(2)-equivariant Seiberg-Witten Floer tool is applied to the non-triangulable homology-sphere argument.",
+        "evidence": [
+          {
+            "claim": "Same 2013 preprint applies the Floer tool to triangulability",
+            "source": "Wikipedia: Ciprian Manolescu",
+            "url": "https://en.wikipedia.org/wiki/Ciprian_Manolescu",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Same paper plays the first_statement and first_application roles; counted in both on purpose."
+      },
+      {
+        "role": "key_development",
+        "phase": "Pin(2)-equivariant disproof (2013-2016)",
+        "year": 2016,
+        "endYear": null,
+        "precision": "year",
+        "label": "Published proof in JAMS",
+        "work": "Manolescu, Pin(2)-equivariant Seiberg-Witten Floer homology and the Triangulation Conjecture, J. Amer. Math. Soc. 29 (2016)",
+        "people": [
+          "Manolescu"
+        ],
+        "description": "The disproof appears in the Journal of the American Mathematical Society, the peer-reviewed version of the argument.",
+        "evidence": [
+          {
+            "claim": "Journal of the American Mathematical Society paper, author and volume",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1090/jams829",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Disproof of triangulation conjecture for dimension 5 and higher",
+            "source": "Wikipedia: Ciprian Manolescu",
+            "url": "https://en.wikipedia.org/wiki/Ciprian_Manolescu",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "high",
+        "note": "Crossref issued date is 2015 (online); print volume 29 is 2016. Year set to print year."
+      }
+    ],
+    "people": [
+      {
+        "name": "Ciprian Manolescu",
+        "role": "disproves the triangulation conjecture with Pin(2)-equivariant Floer theory",
+        "lifespan": "1978-",
+        "biographyUrl": "https://en.wikipedia.org/wiki/Ciprian_Manolescu",
+        "works": [
+          {
+            "citation": "Pin(2)-equivariant Seiberg-Witten Floer homology and the triangulation conjecture, JAMS 29 (2016)",
+            "year": 2016,
+            "url": "https://doi.org/10.1090/jams829",
+            "whyItMatters": "Main proof of non-triangulable manifolds in dimension five and higher."
+          },
+          {
+            "citation": "Seiberg-Witten-Floer stable homotopy type of three-manifolds with b1=0, Geom. Topol. 7 (2003)",
+            "year": 2003,
+            "url": "https://doi.org/10.2140/gt.2003.7.889",
+            "whyItMatters": "Construction of the Floer invariant used as the tool."
+          }
+        ]
+      },
+      {
+        "name": "D. Galewski",
+        "role": "triangulation classification programme",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Simplicial triangulations of topological manifolds, Proc. Symp. Pure Math. 32 (1978)",
+            "year": 1978,
+            "url": "https://doi.org/10.1090/pspum/032.2/520518",
+            "whyItMatters": "Early framework for the triangulation question (with Stern)."
+          },
+          {
+            "citation": "Classification of simplicial triangulations of topological manifolds, Ann. of Math. (1980)",
+            "year": 1980,
+            "url": "https://doi.org/10.2307/1971215",
+            "whyItMatters": "Full classification paper (with Stern)."
+          }
+        ]
+      },
+      {
+        "name": "Stern",
+        "role": "triangulation classification programme (first name not checked)",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Classification of simplicial triangulations of topological manifolds, Ann. of Math. (1980)",
+            "year": 1980,
+            "url": "https://doi.org/10.2307/1971215",
+            "whyItMatters": "Co-author of the classification framework."
+          }
+        ]
+      }
+    ],
+    "notes": "Input summary is correct that Manolescu's result covers dimension five and higher. Milestone years checked: JAMS (Crossref), G&T 2003 (Crossref), Galewski-Stern 1978/1980 (Crossref). The 2013 preprint year rests on Wikipedia because arXiv returned HTTP 429 on every attempt; a retry is needed for a bibliographic_record. MacTutor Topology in mathematics topic (live) has no entry on triangulation or Hauptvermutung matching the event. No naming or institution milestone exists for this event; institutional date is null by rule.",
+    "derivedDates": {
+      "conceptual": 2013,
+      "methodological": 2013,
+      "institutional": null
+    }
+  },
+  {
+    "pid": "P243",
+    "eventId": "WB128",
+    "canonicalName": "Lattice gauge theory and Yang-Mills instantons (geometry)",
+    "aliases": [
+      "Lattice gauge theory",
+      "Yang-Mills instantons",
+      "ADHM construction",
+      "Wilson loops"
+    ],
+    "phases": [
+      "Lattice gauge theory (Wilson, 1974)",
+      "Instantons and the ADHM construction (1975-1979)"
+    ],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "phase": "Lattice gauge theory (Wilson, 1974)",
+        "year": 1974,
+        "endYear": null,
+        "precision": "year",
+        "label": "Lattice formulation and confinement of quarks",
+        "work": "Wilson, Confinement of quarks, Physical Review D 10 (1974)",
+        "people": [
+          "Kenneth G. Wilson"
+        ],
+        "description": "Wilson gives the lattice formulation of gauge theory (Wilson loops) and uses it to address confinement.",
+        "evidence": [
+          {
+            "claim": "Wilson's 1974 paper, author and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1103/physrevd.10.2445",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Wilson loops named after Kenneth G. Wilson in lattice gauge action",
+            "source": "Wikipedia: Lattice gauge theory",
+            "url": "https://en.wikipedia.org/wiki/Lattice_gauge_theory",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "high",
+        "note": "Wikipedia lattice page names Wilson only through Wilson loops; the 1974 date rests on the Crossref record. Same paper also serves as first application (confinement)."
+      },
+      {
+        "role": "first_application",
+        "phase": "Lattice gauge theory (Wilson, 1974)",
+        "year": 1974,
+        "endYear": null,
+        "precision": "year",
+        "label": "Lattice gauge theory applied to quark confinement",
+        "work": "Wilson, Confinement of quarks, Physical Review D 10 (1974)",
+        "people": [
+          "Kenneth G. Wilson"
+        ],
+        "description": "The lattice gauge framework is put to work on the confinement problem.",
+        "evidence": [
+          {
+            "claim": "Same 1974 paper addresses confinement of quarks",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1103/physrevd.10.2445",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Same paper plays first_statement and first_application roles."
+      },
+      {
+        "role": "first_statement",
+        "phase": "Instantons and the ADHM construction (1975-1979)",
+        "year": 1975,
+        "endYear": null,
+        "precision": "year",
+        "label": "BPST pseudoparticle (first instanton)",
+        "work": "Belavin, Polyakov, Schwarz, Tyupkin, Pseudoparticle solutions of the Yang-Mills equations, Physics Letters B 59 (1975)",
+        "people": [
+          "Alexander Belavin",
+          "Alexander Polyakov",
+          "Albert S. Schwarz",
+          "Yu. S. Tyupkin"
+        ],
+        "description": "The BPST solution introduces the instanton (topological charge one) of Yang-Mills theory.",
+        "evidence": [
+          {
+            "claim": "BPST discoverers named in Wikipedia; Crossref lists author 'Schwartz' for Schwarz",
+            "source": "Wikipedia: Instanton",
+            "url": "https://en.wikipedia.org/wiki/Instanton",
+            "kind": "history_page"
+          },
+          {
+            "claim": "1975 Physics Letters B paper, title and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1016/0370-2693(75)90163-x",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "Crossref author spelling 'Schwartz' differs from Wikipedia 'Schwarz'; Wikipedia spelling used here. Input summary attributes instantons to ADHM alone; BPST came first."
+      },
+      {
+        "role": "key_development",
+        "phase": "Instantons and the ADHM construction (1975-1979)",
+        "year": 1978,
+        "endYear": null,
+        "precision": "year",
+        "label": "ADHM construction classifies all instantons",
+        "work": "Atiyah, Drinfeld, Hitchin, Manin, Construction of instantons, Physics Letters A 65 (1978)",
+        "people": [
+          "Michael Atiyah",
+          "Vladimir Drinfeld",
+          "Nigel Hitchin",
+          "Yuri Manin"
+        ],
+        "description": "The ADHM construction reduces all instantons to linear-algebra data (monad construction).",
+        "evidence": [
+          {
+            "claim": "ADHM authors and paper title; all instantons built by linear algebra",
+            "source": "Wikipedia: ADHM construction",
+            "url": "https://en.wikipedia.org/wiki/ADHM_construction",
+            "kind": "history_page"
+          },
+          {
+            "claim": "1978 Physics Letters A paper, title and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1016/0375-9601(78)90141-x",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "Input summary wrote 'Atiyah-Hitchin-Singer-Drinfeld-Manin'; the ADHM authors are Atiyah, Drinfeld, Hitchin and Manin. Singer is not an author per Wikipedia and Crossref."
+      },
+      {
+        "role": "consolidation",
+        "phase": "Instantons and the ADHM construction (1975-1979)",
+        "year": 1979,
+        "endYear": null,
+        "precision": "year",
+        "label": "Atiyah's Geometry of Yang-Mills fields lectures",
+        "work": "Atiyah, Geometry of Yang-Mills fields, Lezioni Fermiane (Pisa, 1979)",
+        "people": [
+          "Michael Atiyah"
+        ],
+        "description": "Atiyah's lecture notes give the first systematic geometric treatment of Yang-Mills fields and instantons.",
+        "evidence": [
+          {
+            "claim": "Lists 'Geometry on Yang-Mills fields (1979)' among Atiyah's books",
+            "source": "MacTutor: Michael Atiyah",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Atiyah/",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Crossref has the 2008 Lecture Notes in Physics reprint of the text, not the 1979 original",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1007/3-540-08853-9_18",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The 1979 year rests on MacTutor; only the later reprint has a Crossref record."
+      }
+    ],
+    "people": [
+      {
+        "name": "Kenneth G. Wilson",
+        "role": "lattice gauge theory",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Confinement of quarks, Phys. Rev. D 10 (1974)",
+            "year": 1974,
+            "url": "https://doi.org/10.1103/physrevd.10.2445",
+            "whyItMatters": "Introduces the lattice gauge formulation with Wilson loops."
+          }
+        ]
+      },
+      {
+        "name": "Alexander Belavin",
+        "role": "BPST instanton",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Pseudoparticle solutions of the Yang-Mills equations, Phys. Lett. B 59 (1975)",
+            "year": 1975,
+            "url": "https://doi.org/10.1016/0370-2693(75)90163-x",
+            "whyItMatters": "First instanton solution (BPST)."
+          }
+        ]
+      },
+      {
+        "name": "Michael Atiyah",
+        "role": "ADHM construction and geometry of Yang-Mills fields",
+        "lifespan": "1929-2019",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Atiyah/",
+        "works": [
+          {
+            "citation": "Construction of instantons, Phys. Lett. A 65 (1978)",
+            "year": 1978,
+            "url": "https://doi.org/10.1016/0375-9601(78)90141-x",
+            "whyItMatters": "ADHM construction of all instantons."
+          },
+          {
+            "citation": "Geometry of Yang-Mills fields (lectures, 1979)",
+            "year": 1979,
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Atiyah/",
+            "whyItMatters": "Systematic geometric treatment of Yang-Mills fields."
+          }
+        ]
+      },
+      {
+        "name": "Vladimir Drinfeld",
+        "role": "ADHM construction",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Construction of instantons, Phys. Lett. A 65 (1978)",
+            "year": 1978,
+            "url": "https://doi.org/10.1016/0375-9601(78)90141-x",
+            "whyItMatters": "Co-author of the ADHM construction."
+          }
+        ]
+      },
+      {
+        "name": "Nigel Hitchin",
+        "role": "ADHM construction",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Construction of instantons, Phys. Lett. A 65 (1978)",
+            "year": 1978,
+            "url": "https://doi.org/10.1016/0375-9601(78)90141-x",
+            "whyItMatters": "Co-author of the ADHM construction."
+          }
+        ]
+      },
+      {
+        "name": "Yuri Manin",
+        "role": "ADHM construction",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Construction of instantons, Phys. Lett. A 65 (1978)",
+            "year": 1978,
+            "url": "https://doi.org/10.1016/0375-9601(78)90141-x",
+            "whyItMatters": "Co-author of the ADHM construction."
+          }
+        ]
+      }
+    ],
+    "notes": "Input record title joins two threads: Wilson's lattice gauge theory (physics, 1974) and instanton geometry (1975-1979). Derived conceptual date reflects the lattice thread. Polyakov, Schwarz and Tyupkin are omitted from people (six-person limit). Lifespans for people other than Atiyah were not sourced and are left null. No naming milestone was found for 'instanton' or 'lattice gauge theory'.",
+    "derivedDates": {
+      "conceptual": 1974,
+      "methodological": 1974,
+      "institutional": 1979
+    }
+  },
+  {
+    "pid": "P502",
+    "eventId": "P59",
+    "canonicalName": "Wu's method of characteristic sets for mechanised geometry theorem proving",
+    "aliases": [
+      "Wu's method",
+      "Wu's method of characteristic set",
+      "Mechanical theorem proving in elementary geometry",
+      "Ritt characteristic sets (machine proof)"
+    ],
+    "phases": [
+      "Ritt's characteristic sets (differential algebra)",
+      "Wu's mechanisation of geometry (1978-1986)",
+      "Systematic treatment (Chou-Gao-Zhang, 1994)"
+    ],
+    "milestones": [
+      {
+        "role": "precursor",
+        "phase": "Ritt's characteristic sets (differential algebra)",
+        "year": 1950,
+        "endYear": null,
+        "precision": "year",
+        "label": "Ritt's characteristic sets in differential algebra",
+        "work": "Ritt, Differential Algebra, AMS Colloquium Publications (1950)",
+        "people": [
+          "Joseph Fels Ritt"
+        ],
+        "description": "Ritt's characteristic sets, developed in the late 1940s, are the algebraic idea that Wu's method makes effective.",
+        "evidence": [
+          {
+            "claim": "Characteristic set introduced by Ritt in the late 1940s",
+            "source": "Wikipedia: Wu's method of characteristic set",
+            "url": "https://en.wikipedia.org/wiki/Wu's_method_of_characteristic_set",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Ritt's monograph Differential Algebra, year 1950",
+            "source": "Open Library",
+            "url": "https://openlibrary.org/search.json?q=differential+algebra+ritt",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The 1950 monograph is the bibliographic anchor; the characteristic-set idea itself dates to Ritt's late-1940s work, not separately verified."
+      },
+      {
+        "role": "first_statement",
+        "phase": "Wu's mechanisation of geometry (1978-1986)",
+        "year": 1984,
+        "endYear": null,
+        "precision": "year",
+        "label": "Mechanised decision method for elementary geometry",
+        "work": "Wu, On the decision problem and the mechanization of theorem-proving in elementary geometry, Contemporary Mathematics 29 (1984)",
+        "people": [
+          "Wen-Tsun Wu"
+        ],
+        "description": "Wu states the characteristic-set decision method for elementary geometry in its English form.",
+        "evidence": [
+          {
+            "claim": "English exposition, author and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1090/conm/029/12",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Wu's method introduced in the late 1970s",
+            "source": "Wikipedia: Wu's method of characteristic set",
+            "url": "https://en.wikipedia.org/wiki/Wu's_method_of_characteristic_set",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Wikipedia dates the method to the late 1970s (Chinese original, Scientia Sinica 1978). The 1978 original is not in Crossref and was not retrieved, so the first public statement is open between 1978 and 1984. 1984 is the earliest verified record."
+      },
+      {
+        "role": "first_application",
+        "phase": "Wu's mechanisation of geometry (1978-1986)",
+        "year": 1984,
+        "endYear": null,
+        "precision": "year",
+        "label": "Automatic proofs of elementary geometry theorems",
+        "work": "Wu, On the decision problem and the mechanization of theorem-proving in elementary geometry, Contemporary Mathematics 29 (1984)",
+        "people": [
+          "Wen-Tsun Wu"
+        ],
+        "description": "The same paper applies the method to geometric theorem proving, the first purposeful use on the target problem.",
+        "evidence": [
+          {
+            "claim": "Method applied to elementary geometry theorem proving",
+            "source": "Wikipedia: Wu's method of characteristic set",
+            "url": "https://en.wikipedia.org/wiki/Wu's_method_of_characteristic_set",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Paper title names mechanization of theorem-proving in elementary geometry",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1090/conm/029/12",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Same paper plays first_statement and first_application roles."
+      },
+      {
+        "role": "key_development",
+        "phase": "Wu's mechanisation of geometry (1978-1986)",
+        "year": 1986,
+        "endYear": null,
+        "precision": "year",
+        "label": "Basic principles of mechanical theorem proving in geometries",
+        "work": "Wu, Basic principles of mechanical theorem proving in elementary geometries, Journal of Automated Reasoning 2 (1986)",
+        "people": [
+          "Wen-Tsun Wu"
+        ],
+        "description": "The 1986 article sets out the principles of the method and their use across geometric theorems, making it matter for automated reasoning.",
+        "evidence": [
+          {
+            "claim": "1986 Journal of Automated Reasoning article, author and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1007/bf02328447",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Wu's method as a pioneer of mechanical theorem proving",
+            "source": "Wikipedia: Wu Wenjun",
+            "url": "https://en.wikipedia.org/wiki/Wu_Wenjun",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "consolidation",
+        "phase": "Systematic treatment (Chou-Gao-Zhang, 1994)",
+        "year": 1994,
+        "endYear": null,
+        "precision": "year",
+        "label": "Machine Proofs in Geometry (monograph)",
+        "work": "Chou, Gao, Zhang, Machine Proofs in Geometry, World Scientific (1994)",
+        "people": [
+          "Shang-Ching Chou",
+          "Xiao-Shan Gao",
+          "Jing-Zhong Zhang"
+        ],
+        "description": "The 1994 monograph gives the first systematic book-length treatment of the characteristic-set method for geometry.",
+        "evidence": [
+          {
+            "claim": "Monograph title, authors, year (Series on Applied Mathematics)",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1142/2196",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Chou-Gao-Zhang are the systematic developers of the geometry programme; whether this is the first book-length treatment is an inference, not checked against a bibliography."
+      }
+    ],
+    "people": [
+      {
+        "name": "Wen-Tsun Wu",
+        "role": "originator of the method",
+        "lifespan": "b. 1919",
+        "biographyUrl": "https://en.wikipedia.org/wiki/Wu_Wenjun",
+        "works": [
+          {
+            "citation": "On the decision problem and the mechanization of theorem-proving in elementary geometry, Contemp. Math. 29 (1984)",
+            "year": 1984,
+            "url": "https://doi.org/10.1090/conm/029/12",
+            "whyItMatters": "English statement of the method."
+          },
+          {
+            "citation": "Basic principles of mechanical theorem proving in elementary geometries, J. Automated Reasoning (1986)",
+            "year": 1986,
+            "url": "https://doi.org/10.1007/bf02328447",
+            "whyItMatters": "Principles and geometry applications."
+          }
+        ]
+      },
+      {
+        "name": "Joseph Fels Ritt",
+        "role": "characteristic sets",
+        "lifespan": "1893-1951",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Ritt/",
+        "works": [
+          {
+            "citation": "Differential Algebra (AMS Colloquium Publications, 1950)",
+            "year": 1950,
+            "url": "https://openlibrary.org/search.json?q=differential+algebra+ritt",
+            "whyItMatters": "Systematic theory of characteristic sets in differential algebra."
+          }
+        ]
+      },
+      {
+        "name": "Shang-Ching Chou",
+        "role": "systematic treatment of geometry proving",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Machine Proofs in Geometry (World Scientific, 1994)",
+            "year": 1994,
+            "url": "https://doi.org/10.1142/2196",
+            "whyItMatters": "Book-length treatment of the geometry programme."
+          }
+        ]
+      },
+      {
+        "name": "Xiao-Shan Gao",
+        "role": "systematic treatment of geometry proving (first name from memory)",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Machine Proofs in Geometry (World Scientific, 1994)",
+            "year": 1994,
+            "url": "https://doi.org/10.1142/2196",
+            "whyItMatters": "Co-author of the 1994 monograph."
+          }
+        ]
+      },
+      {
+        "name": "Jing-Zhong Zhang",
+        "role": "systematic treatment of geometry proving (first name from memory)",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Machine Proofs in Geometry (World Scientific, 1994)",
+            "year": 1994,
+            "url": "https://doi.org/10.1142/2196",
+            "whyItMatters": "Co-author of the 1994 monograph."
+          }
+        ]
+      }
+    ],
+    "notes": "Input summary's 'Ritt's characteristic sets' is correct in outline. The 1978 Chinese original (Scientia Sinica) was not found in Crossref, so the first public statement is recorded as 1984 with the gap stated. zbMATH returned HTTP 403 (Cloudflare) and was not usable. MacTutor has no Wu biography on the URL tried. Authors' first names other than Wu and Ritt are from memory; Crossref gives surnames.",
+    "derivedDates": {
+      "conceptual": 1984,
+      "methodological": 1984,
+      "institutional": 1994
+    }
+  },
+  {
+    "pid": "P036",
+    "eventId": "E44",
+    "canonicalName": "Monstrous moonshine (Monster group and the modular function j)",
+    "aliases": [
+      "Moonshine theory",
+      "Monstrous moonshine conjecture",
+      "Conway-Norton conjecture",
+      "Moonshine module"
+    ],
+    "phases": [
+      "McKay's observation (1978)",
+      "Conway-Norton conjecture (1979)",
+      "Vertex operator algebra construction (1988)",
+      "Borcherds' proof (1992)"
+    ],
+    "milestones": [
+      {
+        "role": "precursor",
+        "phase": "McKay's observation (1978)",
+        "year": 1978,
+        "endYear": null,
+        "precision": "year",
+        "label": "McKay's numerical observation",
+        "work": null,
+        "people": [
+          "John McKay"
+        ],
+        "description": "John McKay observes that coefficients of the j-function match dimensions of Monster representations; this is a private numerical observation, not a publication.",
+        "evidence": [
+          {
+            "claim": "McKay's first numerical observation in 1978",
+            "source": "Wikipedia: Monstrous moonshine",
+            "url": "https://en.wikipedia.org/wiki/Monstrous_moonshine",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "high",
+        "note": "Unpublished numerical observation, so it is a precursor with no bibliographic record. Searched Crossref-era sources; none retrieved for McKay alone."
+      },
+      {
+        "role": "first_statement",
+        "phase": "Conway-Norton conjecture (1979)",
+        "year": 1979,
+        "endYear": null,
+        "precision": "year",
+        "label": "Conway-Norton conjecture: 'Monstrous Moonshine'",
+        "work": "Conway, Norton, Monstrous Moonshine, Bulletin London Math. Soc. 11 (1979)",
+        "people": [
+          "John Conway",
+          "Simon P. Norton"
+        ],
+        "description": "Conway and Norton state the conjecture linking Monster characters with McKay-Thompson series of modular functions.",
+        "evidence": [
+          {
+            "claim": "Bulletin LMS 1979 paper, authors and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1112/blms/11.3.308",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Phrase coined by Conway and Norton in 1979",
+            "source": "Wikipedia: Monstrous moonshine",
+            "url": "https://en.wikipedia.org/wiki/Monstrous_moonshine",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "naming",
+        "phase": "Conway-Norton conjecture (1979)",
+        "year": 1979,
+        "endYear": null,
+        "precision": "year",
+        "label": "Coinage of 'moonshine'",
+        "work": "Conway, Norton, Monstrous Moonshine, Bulletin London Math. Soc. 11 (1979)",
+        "people": [
+          "John Conway",
+          "Simon P. Norton"
+        ],
+        "description": "The term 'monstrous moonshine' appears in the title of the 1979 Bulletin paper, which names the field.",
+        "evidence": [
+          {
+            "claim": "Phrase coined by Conway and Norton in 1979",
+            "source": "Wikipedia: Monstrous moonshine",
+            "url": "https://en.wikipedia.org/wiki/Monstrous_moonshine",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Title 'Monstrous Moonshine' in the Bulletin paper",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1112/blms/11.3.308",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "Same paper as first_statement; counted in both roles because the naming is in the title."
+      },
+      {
+        "role": "first_application",
+        "phase": "Vertex operator algebra construction (1988)",
+        "year": 1988,
+        "endYear": null,
+        "precision": "year",
+        "label": "Moonshine module built as a vertex operator algebra",
+        "work": "Frenkel, Lepowsky, Meurman, Vertex Operator Algebras and the Monster, Academic Press (1988)",
+        "people": [
+          "Igor Frenkel",
+          "James Lepowsky",
+          "Arne Meurman"
+        ],
+        "description": "The vertex operator algebra construction builds the moonshine module with a Monster action, a purposeful application of the new tool.",
+        "evidence": [
+          {
+            "claim": "Book title, authors, year 1988",
+            "source": "Open Library",
+            "url": "https://openlibrary.org/search.json?q=vertex+operator+algebras+and+the+monster",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Preface of the book (Pure and Applied Mathematics vol. 134) dated 1988",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1016/s0079-8169(08)62324-7",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "Crossref returns the preface chapter, Open Library the book record."
+      },
+      {
+        "role": "key_development",
+        "phase": "Borcherds' proof (1992)",
+        "year": 1992,
+        "endYear": null,
+        "precision": "year",
+        "label": "Borcherds proves the Conway-Norton conjecture",
+        "work": "Borcherds, Monstrous moonshine and monstrous Lie superalgebras, Inventiones Mathematicae 109 (1992)",
+        "people": [
+          "Richard Borcherds"
+        ],
+        "description": "Borcherds proves the moonshine conjectures for the moonshine module using vertex algebras and the no-ghost theorem.",
+        "evidence": [
+          {
+            "claim": "Borcherds proved the Conway-Norton conjectures in 1992",
+            "source": "Wikipedia: Monstrous moonshine",
+            "url": "https://en.wikipedia.org/wiki/Monstrous_moonshine",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Inventiones paper, author and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1007/bf01232032",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [
+      {
+        "name": "John Conway",
+        "role": "coined 'moonshine' and conjectured the link",
+        "lifespan": "1937-2020",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Conway/",
+        "works": [
+          {
+            "citation": "Monstrous Moonshine, Bull. London Math. Soc. 11 (1979)",
+            "year": 1979,
+            "url": "https://doi.org/10.1112/blms/11.3.308",
+            "whyItMatters": "States the Conway-Norton conjecture."
+          }
+        ]
+      },
+      {
+        "name": "Simon P. Norton",
+        "role": "co-author of the conjecture",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Monstrous Moonshine, Bull. London Math. Soc. 11 (1979)",
+            "year": 1979,
+            "url": "https://doi.org/10.1112/blms/11.3.308",
+            "whyItMatters": "Co-author of the conjecture."
+          }
+        ]
+      },
+      {
+        "name": "Richard Borcherds",
+        "role": "proof of the moonshine conjectures",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Monstrous moonshine and monstrous Lie superalgebras, Invent. Math. 109 (1992)",
+            "year": 1992,
+            "url": "https://doi.org/10.1007/bf01232032",
+            "whyItMatters": "Proof via vertex algebras and the no-ghost theorem."
+          }
+        ]
+      },
+      {
+        "name": "Igor Frenkel",
+        "role": "vertex operator algebra construction",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Vertex Operator Algebras and the Monster (Academic Press, 1988)",
+            "year": 1988,
+            "url": "https://openlibrary.org/search.json?q=vertex+operator+algebras+and+the+monster",
+            "whyItMatters": "Constructs the moonshine module."
+          }
+        ]
+      },
+      {
+        "name": "James Lepowsky",
+        "role": "vertex operator algebra construction",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Vertex Operator Algebras and the Monster (Academic Press, 1988)",
+            "year": 1988,
+            "url": "https://openlibrary.org/search.json?q=vertex+operator+algebras+and+the+monster",
+            "whyItMatters": "Co-author of the construction."
+          }
+        ]
+      },
+      {
+        "name": "Arne Meurman",
+        "role": "vertex operator algebra construction",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Vertex Operator Algebras and the Monster (Academic Press, 1988)",
+            "year": 1988,
+            "url": "https://openlibrary.org/search.json?q=vertex+operator+algebras+and+the+monster",
+            "whyItMatters": "Co-author of the construction."
+          }
+        ]
+      }
+    ],
+    "notes": "Input summary is correct on the dictionary; the proof needed vertex algebra theory, which the input calls string theory: Wikipedia credits the no-ghost theorem from string theory. MacTutor Frenkel biography URL refers to another person (1894-1952) and was not used. Serre, Ogg and Thompson's mid-1970s 'Jack Daniel's problem' is recorded only as background. No naming milestone beyond 1979. Lifespans for Norton, Borcherds and the 1988 coauthors not sourced.",
+    "derivedDates": {
+      "conceptual": 1979,
+      "methodological": 1988,
+      "institutional": 1979
+    }
+  },
+  {
+    "pid": "P481",
+    "eventId": "P34",
+    "canonicalName": "Wilf-Zeilberger method: rational-function certificates for hypergeometric identities",
+    "aliases": [
+      "WZ method",
+      "WZ theory",
+      "WZ pairs",
+      "Gosper's algorithm",
+      "Zeilberger's algorithm (creative telescoping)"
+    ],
+    "phases": [
+      "Gosper's algorithm (1978)",
+      "Zeilberger's algorithm and WZ pairs (1990)",
+      "Multisum and q-extensions (1992)"
+    ],
+    "milestones": [
+      {
+        "role": "precursor",
+        "phase": "Gosper's algorithm (1978)",
+        "year": 1978,
+        "endYear": null,
+        "precision": "year",
+        "label": "Gosper's decision procedure for indefinite summation",
+        "work": "Gosper, Decision procedure for indefinite hypergeometric summation, PNAS 75 (1978)",
+        "people": [
+          "Bill Gosper"
+        ],
+        "description": "Gosper's algorithm decides indefinite hypergeometric summation and is the tool that finds WZ counterparts.",
+        "evidence": [
+          {
+            "claim": "Gosper's algorithm provides the WZ counterpart",
+            "source": "Wikipedia: Wilf-Zeilberger pair",
+            "url": "https://en.wikipedia.org/wiki/Wilf–Zeilberger_pair",
+            "kind": "history_page"
+          },
+          {
+            "claim": "PNAS paper, author and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1073/pnas.75.1.40",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "first_statement",
+        "phase": "Zeilberger's algorithm and WZ pairs (1990)",
+        "year": 1990,
+        "endYear": null,
+        "precision": "year",
+        "label": "WZ pairs certify combinatorial identities",
+        "work": "Wilf, Zeilberger, Rational functions certify combinatorial identities, J. Amer. Math. Soc. 3 (1990)",
+        "people": [
+          "Herbert Wilf",
+          "Doron Zeilberger"
+        ],
+        "description": "Wilf and Zeilberger introduce WZ pairs and rational-function certificates that prove hypergeometric identities.",
+        "evidence": [
+          {
+            "claim": "Joint paper 'Rational functions certify combinatorial identities' (1990)",
+            "source": "MacTutor: Herbert Wilf",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Wilf/",
+            "kind": "history_page"
+          },
+          {
+            "claim": "JAMS paper, authors and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1090/s0894-0347-1990-1007910-7",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "first_application",
+        "phase": "Zeilberger's algorithm and WZ pairs (1990)",
+        "year": 1990,
+        "endYear": null,
+        "precision": "year",
+        "label": "Zeilberger's fast algorithm for terminating hypergeometric identities",
+        "work": "Zeilberger, A fast algorithm for proving terminating hypergeometric identities, Discrete Mathematics 80 (1990)",
+        "people": [
+          "Doron Zeilberger"
+        ],
+        "description": "Zeilberger's algorithm gives an automatic computer proof procedure for terminating hypergeometric identities, the purposeful use of the method on identities.",
+        "evidence": [
+          {
+            "claim": "Zeilberger's algorithm: automated proofs of identities",
+            "source": "Wikipedia: Doron Zeilberger",
+            "url": "https://en.wikipedia.org/wiki/Doron_Zeilberger",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Discrete Mathematics paper, author and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1016/0012-365x(90)90120-7",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "This is Zeilberger's companion algorithm (creative telescoping); the WZ certificates themselves are in the JAMS paper. Counted as the computer-application milestone."
+      },
+      {
+        "role": "key_development",
+        "phase": "Multisum and q-extensions (1992)",
+        "year": 1992,
+        "endYear": null,
+        "precision": "year",
+        "label": "Certification of multisum, integral and q-identities",
+        "work": "Wilf, Zeilberger, Rational function certification of multisum/integral/q identities, Bull. AMS (1992)",
+        "people": [
+          "Herbert Wilf",
+          "Doron Zeilberger"
+        ],
+        "description": "The 1992 Bulletin paper extends rational-function certificates to multisums, integrals and q-identities.",
+        "evidence": [
+          {
+            "claim": "Bulletin AMS 1992 paper, authors and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1090/s0273-0979-1992-00297-5",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "WZ method extended to multisums and q-analogues",
+            "source": "MacTutor: Herbert Wilf",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Wilf/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Herbert Wilf",
+        "role": "co-originator of WZ theory",
+        "lifespan": "1931-2012",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Wilf/",
+        "works": [
+          {
+            "citation": "Rational functions certify combinatorial identities, J. Amer. Math. Soc. 3 (1990)",
+            "year": 1990,
+            "url": "https://doi.org/10.1090/s0894-0347-1990-1007910-7",
+            "whyItMatters": "Introduces WZ pairs and certificates."
+          },
+          {
+            "citation": "Rational function certification of multisum/integral/q identities, Bull. AMS (1992)",
+            "year": 1992,
+            "url": "https://doi.org/10.1090/s0273-0979-1992-00297-5",
+            "whyItMatters": "Extension to multisums and q-identities."
+          }
+        ]
+      },
+      {
+        "name": "Doron Zeilberger",
+        "role": "co-originator of WZ theory and Zeilberger's algorithm",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Doron_Zeilberger",
+        "works": [
+          {
+            "citation": "A fast algorithm for proving terminating hypergeometric identities, Discrete Math. 80 (1990)",
+            "year": 1990,
+            "url": "https://doi.org/10.1016/0012-365x(90)90120-7",
+            "whyItMatters": "Computer proofs of hypergeometric identities."
+          },
+          {
+            "citation": "Rational functions certify combinatorial identities, J. Amer. Math. Soc. 3 (1990)",
+            "year": 1990,
+            "url": "https://doi.org/10.1090/s0894-0347-1990-1007910-7",
+            "whyItMatters": "Joint WZ paper."
+          }
+        ]
+      },
+      {
+        "name": "Bill Gosper",
+        "role": "Gosper's algorithm",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Decision procedure for indefinite hypergeometric summation, PNAS 75 (1978)",
+            "year": 1978,
+            "url": "https://doi.org/10.1073/pnas.75.1.40",
+            "whyItMatters": "Decision procedure that finds WZ counterparts."
+          }
+        ]
+      }
+    ],
+    "notes": "Input summary is accurate. A 'WZ method' naming milestone was not found with a bibliographic record; the 1996 A=B book was not found on Open Library. Gosper's lifespan not sourced. Wikipedia WZ pair page dates the WZ names to Wilf and Zeilberger without a year.",
+    "derivedDates": {
+      "conceptual": 1990,
+      "methodological": 1990,
+      "institutional": null
+    }
+  },
+  {
+    "pid": "P082",
+    "eventId": "B16",
+    "canonicalName": "Perfectoid spaces and tilting (Scholze)",
+    "aliases": [
+      "Perfectoid spaces",
+      "Tilting equivalence",
+      "Perfectoid tilting",
+      "Field of norms (Fontaine-Wintenberger)"
+    ],
+    "phases": [
+      "Field of norms (Fontaine-Wintenberger)",
+      "Perfectoid spaces and tilting (2012)",
+      "Textbook treatment (2020)"
+    ],
+    "milestones": [
+      {
+        "role": "precursor",
+        "phase": "Field of norms (Fontaine-Wintenberger)",
+        "year": 1983,
+        "endYear": null,
+        "precision": "year",
+        "label": "Field of norms: Galois-group equivalence for local fields",
+        "work": "Wintenberger, Le corps des normes de certaines extensions infinies de corps locaux; applications, Ann. Sci. ENS (1983)",
+        "people": [
+          "Jean-Pierre Wintenberger"
+        ],
+        "description": "The field-of-norms construction gives an equivalence of Galois groups between characteristic 0 and characteristic p fields, which tilting later generalises.",
+        "evidence": [
+          {
+            "claim": "Field of norms paper, author and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.24033/asens.1440",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Tilting moves results between characteristic p and 0 p-adic fields via Galois groups",
+            "source": "Input summary (unverified; Wikipedia: Perfectoid space)",
+            "url": "https://en.wikipedia.org/wiki/Perfectoid_space",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The 1979 Fontaine-Wintenberger note in Comptes Rendus was searched for in Crossref with no record; zbMATH returned HTTP 403. Year left as the verified 1983 paper."
+      },
+      {
+        "role": "first_statement",
+        "phase": "Perfectoid spaces and tilting (2012)",
+        "year": 2012,
+        "endYear": null,
+        "precision": "year",
+        "label": "Perfectoid spaces and tilting introduced",
+        "work": "Scholze, Perfectoid spaces, Publications Math. IHES 116 (2012)",
+        "people": [
+          "Peter Scholze"
+        ],
+        "description": "Scholze introduces perfectoid spaces and the tilting equivalence in 2012.",
+        "evidence": [
+          {
+            "claim": "Notions introduced in 2012 by Peter Scholze; tilting equivalence",
+            "source": "Wikipedia: Perfectoid space",
+            "url": "https://en.wikipedia.org/wiki/Perfectoid_space",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Publications IHES paper, author and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1007/s10240-012-0042-x",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "consolidation",
+        "phase": "Perfectoid spaces and tilting (2012)",
+        "year": 2012,
+        "endYear": null,
+        "precision": "year",
+        "label": "Survey of perfectoid spaces",
+        "work": "Scholze, Perfectoid spaces: a survey, Current Developments in Mathematics (2012)",
+        "people": [
+          "Peter Scholze"
+        ],
+        "description": "A survey gives the first systematic exposition of the perfectoid framework beyond the original paper.",
+        "evidence": [
+          {
+            "claim": "Survey, author and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.4310/cdm.2012.v2012.n1.a4",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Survey counts as consolidation (first systematic treatment) per the schema."
+      },
+      {
+        "role": "consolidation",
+        "phase": "Textbook treatment (2020)",
+        "year": 2020,
+        "endYear": null,
+        "precision": "year",
+        "label": "Berkeley Lectures on p-adic geometry: perfectoid chapter",
+        "work": "Scholze, Weinstein, Perfectoid spaces, in Berkeley Lectures on p-adic Geometry, Princeton (2020)",
+        "people": [
+          "Peter Scholze",
+          "Jared Weinstein"
+        ],
+        "description": "The Berkeley lectures treat perfectoid spaces in book form.",
+        "evidence": [
+          {
+            "claim": "Chapter 'Perfectoid spaces' in the 2020 book, co-authors Scholze and Weinstein",
+            "source": "Crossref",
+            "url": "https://doi.org/10.23943/princeton/9780691202082.003.0007",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Later textbook treatment; not the first."
+      }
+    ],
+    "people": [
+      {
+        "name": "Peter Scholze",
+        "role": "perfectoid spaces and tilting",
+        "lifespan": "1987-",
+        "biographyUrl": "https://en.wikipedia.org/wiki/Peter_Scholze",
+        "works": [
+          {
+            "citation": "Perfectoid Spaces, Publ. Math. IHES 116 (2012)",
+            "year": 2012,
+            "url": "https://doi.org/10.1007/s10240-012-0042-x",
+            "whyItMatters": "Introduces perfectoid spaces and tilting."
+          },
+          {
+            "citation": "Perfectoid spaces: a survey, Current Developments in Math (2012)",
+            "year": 2012,
+            "url": "https://doi.org/10.4310/cdm.2012.v2012.n1.a4",
+            "whyItMatters": "Survey exposition."
+          }
+        ]
+      },
+      {
+        "name": "Jean-Pierre Wintenberger",
+        "role": "field of norms",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Le corps des normes de certaines extensions infinies de corps locaux; applications, Ann. Sci. ENS (1983)",
+            "year": 1983,
+            "url": "https://doi.org/10.24033/asens.1440",
+            "whyItMatters": "Field-of-norms equivalence of Galois groups."
+          }
+        ]
+      },
+      {
+        "name": "Jared Weinstein",
+        "role": "textbook treatment of perfectoid spaces (first name from memory)",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Perfectoid spaces, Berkeley Lectures on p-adic Geometry (2020)",
+            "year": 2020,
+            "url": "https://doi.org/10.23943/princeton/9780691202082.003.0007",
+            "whyItMatters": "Co-author of the textbook chapter."
+          }
+        ]
+      }
+    ],
+    "notes": "Input summary's Galois-group description is consistent with the field-of-norms and tilting literature. Fontaine's 1979 field-of-norms note, which the input may imply, could not be verified (Crossref no record; zbMATH 403), so the precursor has the verified 1983 paper only. No first_application milestone was verified for tilting (applications to Galois representations were not checked), so methodological date is null. Institutional date is 2012 (earliest consolidation).",
+    "derivedDates": {
+      "conceptual": 2012,
+      "methodological": null,
+      "institutional": 2012
+    }
+  },
+  {
+    "pid": "P085",
+    "eventId": "B19",
+    "canonicalName": "Shannon capacity of graphs and the Lovász theta function",
+    "aliases": [
+      "Lovász number",
+      "Lovász theta function",
+      "Shannon capacity of a graph",
+      "Zero-error capacity of graphs"
+    ],
+    "phases": [
+      "Zero-error capacity (Shannon, 1956)",
+      "Lovász theta and semidefinite bounds (1979-1981)",
+      "Systematic treatment (1988)"
+    ],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "phase": "Zero-error capacity (Shannon, 1956)",
+        "year": 1956,
+        "endYear": null,
+        "precision": "year",
+        "label": "Zero-error capacity of a noisy channel",
+        "work": "Shannon, The zero error capacity of a noisy channel, IEEE Trans. Inf. Theory (1956)",
+        "people": [
+          "Claude Shannon"
+        ],
+        "description": "Shannon defines the zero-error capacity of a noisy channel, the setting in which the graph capacity arises.",
+        "evidence": [
+          {
+            "claim": "Shannon 1956 IEEE IT paper, author and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1109/tit.1956.1056798",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Shannon's information-theory work and zero-error setting",
+            "source": "MacTutor: Claude Shannon",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Shannon/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Attribution of the graph-capacity concept to this 1956 paper is from the literature and was not checked in the text; the Wikipedia Shannon capacity page does not cite 1956."
+      },
+      {
+        "role": "key_development",
+        "phase": "Lovász theta and semidefinite bounds (1979-1981)",
+        "year": 1979,
+        "endYear": null,
+        "precision": "year",
+        "label": "Theta function introduced; bound on Shannon capacity",
+        "work": "Lovász, On the Shannon capacity of a graph, IEEE Trans. Inf. Theory 25 (1979)",
+        "people": [
+          "László Lovász"
+        ],
+        "description": "Lovász introduces the theta function as a semidefinite upper bound on the Shannon capacity of a graph.",
+        "evidence": [
+          {
+            "claim": "Theta function first introduced in Lovász's 1979 paper",
+            "source": "Wikipedia: Lovász number",
+            "url": "https://en.wikipedia.org/wiki/Lovász_number",
+            "kind": "history_page"
+          },
+          {
+            "claim": "1979 IEEE IT paper, author and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1109/tit.1979.1055985",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "first_application",
+        "phase": "Lovász theta and semidefinite bounds (1979-1981)",
+        "year": 1979,
+        "endYear": null,
+        "precision": "year",
+        "label": "Theta applied to Shannon's problem on the pentagon",
+        "work": "Lovász, On the Shannon capacity of a graph, IEEE Trans. Inf. Theory 25 (1979)",
+        "people": [
+          "László Lovász"
+        ],
+        "description": "Lovász applies theta to Shannon's capacity problem, the target that motivates the bound.",
+        "evidence": [
+          {
+            "claim": "Lovász solved a long-standing problem of Shannon in coding theory",
+            "source": "MacTutor: László Lovász",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lovasz/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Same paper plays key_development and first_application roles."
+      },
+      {
+        "role": "key_development",
+        "phase": "Lovász theta and semidefinite bounds (1979-1981)",
+        "year": 1981,
+        "endYear": null,
+        "precision": "year",
+        "label": "Polynomial-time computation of theta via the ellipsoid method",
+        "work": "Grötschel, Lovász, Schrijver, The ellipsoid method and its consequences in combinatorial optimization, Combinatorica 1 (1981)",
+        "people": [
+          "Martin Grötschel",
+          "László Lovász",
+          "Alexander Schrijver"
+        ],
+        "description": "The ellipsoid-method paper shows theta is computable in polynomial time, making the bound usable.",
+        "evidence": [
+          {
+            "claim": "Theta computable in polynomial time by SDP and the ellipsoid method",
+            "source": "Wikipedia: Lovász number",
+            "url": "https://en.wikipedia.org/wiki/Lovász_number",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Combinatorica 1981 paper, authors and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1007/bf02579273",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "consolidation",
+        "phase": "Systematic treatment (1988)",
+        "year": 1988,
+        "endYear": null,
+        "precision": "year",
+        "label": "Geometric Algorithms and Combinatorial Optimization (monograph)",
+        "work": "Grötschel, Lovász, Schrijver, Geometric Algorithms and Combinatorial Optimization, Springer (1988)",
+        "people": [
+          "Martin Grötschel",
+          "László Lovász",
+          "Alexander Schrijver"
+        ],
+        "description": "The monograph gives the first systematic treatment of the ellipsoid and semidefinite methods that include theta.",
+        "evidence": [
+          {
+            "claim": "Book title, authors, year 1988",
+            "source": "Open Library",
+            "url": "https://openlibrary.org/search.json?q=geometric+algorithms+and+combinatorial+optimization",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Systematic treatment is an inference; the book is the standard reference for theta's algorithmic use."
+      },
+      {
+        "role": "key_development",
+        "phase": "Systematic treatment (1988)",
+        "year": 1994,
+        "endYear": null,
+        "precision": "year",
+        "label": "Knuth's Sandwich Theorem exposition",
+        "work": "Knuth, The Sandwich Theorem, Electronic Journal of Combinatorics (1994)",
+        "people": [
+          "Donald Knuth"
+        ],
+        "description": "Knuth gives a survey-style account of theta and the sandwich theorem, which Wikipedia attributes to Lovász.",
+        "evidence": [
+          {
+            "claim": "Sandwich Theorem, author and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.37236/1193",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Lovász sandwich theorem for theta",
+            "source": "Wikipedia: Lovász number",
+            "url": "https://en.wikipedia.org/wiki/Lovász_number",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Claude Shannon",
+        "role": "zero-error and graph capacity",
+        "lifespan": "1916-2001",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Shannon/",
+        "works": [
+          {
+            "citation": "The zero error capacity of a noisy channel, IEEE Trans. Inf. Theory (1956)",
+            "year": 1956,
+            "url": "https://doi.org/10.1109/tit.1956.1056798",
+            "whyItMatters": "Zero-error setting for graph capacity."
+          }
+        ]
+      },
+      {
+        "name": "László Lovász",
+        "role": "theta function",
+        "lifespan": "1948-",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lovasz/",
+        "works": [
+          {
+            "citation": "On the Shannon capacity of a graph, IEEE Trans. Inf. Theory 25 (1979)",
+            "year": 1979,
+            "url": "https://doi.org/10.1109/tit.1979.1055985",
+            "whyItMatters": "Introduces theta."
+          },
+          {
+            "citation": "The ellipsoid method and its consequences (with Grötschel and Schrijver), Combinatorica 1 (1981)",
+            "year": 1981,
+            "url": "https://doi.org/10.1007/bf02579273",
+            "whyItMatters": "Polynomial-time computation of theta."
+          }
+        ]
+      },
+      {
+        "name": "Martin Grötschel",
+        "role": "ellipsoid method and combinatorial optimisation",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Geometric Algorithms and Combinatorial Optimization (1988)",
+            "year": 1988,
+            "url": "https://openlibrary.org/search.json?q=geometric+algorithms+and+combinatorial+optimization",
+            "whyItMatters": "Monograph on the algorithmic use of theta."
+          }
+        ]
+      },
+      {
+        "name": "Alexander Schrijver",
+        "role": "ellipsoid method and combinatorial optimisation",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "The ellipsoid method and its consequences in combinatorial optimization, Combinatorica (1981)",
+            "year": 1981,
+            "url": "https://doi.org/10.1007/bf02579273",
+            "whyItMatters": "Co-author."
+          }
+        ]
+      },
+      {
+        "name": "Donald Knuth",
+        "role": "sandwich theorem exposition",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "The Sandwich Theorem, Electronic J. Combinatorics (1994)",
+            "year": 1994,
+            "url": "https://doi.org/10.37236/1193",
+            "whyItMatters": "Expository treatment of theta."
+          }
+        ]
+      }
+    ],
+    "notes": "Input summary: 'exact polynomial-time computation for perfect graphs' is partly right: theta equals the independence number for perfect graphs, but GLS 1981 computes theta in polynomial time for all graphs. Attribution of the 1956 graph-capacity concept to Shannon is from the literature and not checked in text. Shannon and Lovász biographies from MacTutor (live). Grötschel and Schrijver lifespans not sourced.",
+    "derivedDates": {
+      "conceptual": 1956,
+      "methodological": 1979,
+      "institutional": 1988
+    }
+  },
+  {
+    "pid": "P089",
+    "eventId": "B23",
+    "canonicalName": "Spin glasses: the Parisi formula for the Sherrington-Kirkpatrick model",
+    "aliases": [
+      "Parisi formula",
+      "Replica symmetry breaking",
+      "Sherrington-Kirkpatrick model",
+      "Parisi solution of SK model"
+    ],
+    "phases": [
+      "Solvable SK model (1975)",
+      "Parisi's replica-symmetry breaking (1979-1980)",
+      "Rigorous bounds and the Parisi formula (2003-2006)"
+    ],
+    "milestones": [
+      {
+        "role": "precursor",
+        "phase": "Solvable SK model (1975)",
+        "year": 1975,
+        "endYear": null,
+        "precision": "year",
+        "label": "Sherrington-Kirkpatrick solvable spin-glass model",
+        "work": "Sherrington, Kirkpatrick, Solvable model of a spin-glass, Physical Review Letters 35 (1975)",
+        "people": [
+          "David Sherrington",
+          "Scott Kirkpatrick"
+        ],
+        "description": "The SK model is introduced as an exactly solvable mean-field spin glass; the formula concerns its free energy.",
+        "evidence": [
+          {
+            "claim": "SK model introduced in 1975",
+            "source": "Wikipedia: Spin glass",
+            "url": "https://en.wikipedia.org/wiki/Spin_glass",
+            "kind": "history_page"
+          },
+          {
+            "claim": "PRL 1975 paper, authors and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1103/physrevlett.35.1792",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "A model, not the formula; precursor by rule."
+      },
+      {
+        "role": "first_statement",
+        "phase": "Parisi's replica-symmetry breaking (1979-1980)",
+        "year": 1979,
+        "endYear": null,
+        "precision": "year",
+        "label": "Replica-symmetry breaking formula for the SK free energy",
+        "work": "Parisi, Infinite number of order parameters for spin-glasses, Physical Review Letters 43 (1979)",
+        "people": [
+          "Giorgio Parisi"
+        ],
+        "description": "Parisi finds the equilibrium solution of the SK model by infinitely many order parameters, the formula later proved rigorous.",
+        "evidence": [
+          {
+            "claim": "Equilibrium solution of SK model found by Parisi in 1979 with replica method",
+            "source": "Wikipedia: Spin glass",
+            "url": "https://en.wikipedia.org/wiki/Spin_glass",
+            "kind": "history_page"
+          },
+          {
+            "claim": "PRL 1979 paper, author and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1103/physrevlett.43.1754",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "first_application",
+        "phase": "Parisi's replica-symmetry breaking (1979-1980)",
+        "year": 1979,
+        "endYear": null,
+        "precision": "year",
+        "label": "RSB solution applied to the SK model",
+        "work": "Parisi, Infinite number of order parameters for spin-glasses, Physical Review Letters 43 (1979)",
+        "people": [
+          "Giorgio Parisi"
+        ],
+        "description": "The 1979 paper applies the replica-symmetry-breaking idea to the SK model, its target problem.",
+        "evidence": [
+          {
+            "claim": "Parisi's 1979 solution applies to the SK model",
+            "source": "Wikipedia: Spin glass",
+            "url": "https://en.wikipedia.org/wiki/Spin_glass",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "high",
+        "note": "Same paper plays first_statement and first_application roles."
+      },
+      {
+        "role": "key_development",
+        "phase": "Parisi's replica-symmetry breaking (1979-1980)",
+        "year": 1980,
+        "endYear": null,
+        "precision": "year",
+        "label": "Order parameter as a function on [0,1]",
+        "work": "Parisi, The order parameter for spin glasses: a function on the interval 0-1, J. Phys. A 13 (1980)",
+        "people": [
+          "Giorgio Parisi"
+        ],
+        "description": "Parisi's 1980 paper gives the explicit functional order parameter, the form the formula is written in.",
+        "evidence": [
+          {
+            "claim": "J. Phys. A 1980 paper, author and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1088/0305-4470/13/3/042",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "key_development",
+        "phase": "Rigorous bounds and the Parisi formula (2003-2006)",
+        "year": 2003,
+        "endYear": null,
+        "precision": "year",
+        "label": "Broken replica symmetry bounds via interpolation",
+        "work": "Guerra, Broken replica symmetry bounds in the mean field spin glass model, Communications in Mathematical Physics (2003)",
+        "people": [
+          "Francesco Guerra"
+        ],
+        "description": "Guerra's interpolation method gives rigorous bounds on the free energy consistent with broken replica symmetry.",
+        "evidence": [
+          {
+            "claim": "CMP 2003 paper, author and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1007/s00220-002-0773-5",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Broken replica symmetry bounds in the mean-field model are the first rigorous step",
+            "source": "Input summary (interpolation); not checked on a fetched page",
+            "url": "https://en.wikipedia.org/wiki/Spin_glass",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The claim that Guerra's bound is the first rigorous step is not checked on a fetched page."
+      },
+      {
+        "role": "key_development",
+        "phase": "Rigorous bounds and the Parisi formula (2003-2006)",
+        "year": 2006,
+        "endYear": null,
+        "precision": "year",
+        "label": "Proof of the Parisi formula",
+        "work": "Talagrand, The Parisi formula, Annals of Mathematics 163 (2006)",
+        "people": [
+          "Michel Talagrand"
+        ],
+        "description": "Talagrand proves the Parisi formula for the free energy of the SK model using ultrametricity.",
+        "evidence": [
+          {
+            "claim": "Annals 2006 paper, author and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.4007/annals.2006.163.221",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Talagrand's work on rigorous results for spin glasses",
+            "source": "MacTutor: Michel Talagrand",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Talagrand/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "consolidation",
+        "phase": "Rigorous bounds and the Parisi formula (2003-2006)",
+        "year": 1987,
+        "endYear": null,
+        "precision": "year",
+        "label": "Spin Glass Theory and Beyond (monograph)",
+        "work": "Mézard, Parisi, Virasoro, Spin Glass Theory and Beyond, World Scientific (1987)",
+        "people": [
+          "Marc Mézard",
+          "Giorgio Parisi",
+          "Miguel Angel Virasoro"
+        ],
+        "description": "The 1987 monograph is the first systematic treatment of spin-glass theory with replica symmetry breaking.",
+        "evidence": [
+          {
+            "claim": "Book title, authors, year 1987",
+            "source": "Open Library",
+            "url": "https://openlibrary.org/search.json?q=spin+glass+theory+and+beyond+mezard",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Systematic-treatment claim is an inference; it precedes the Talagrand 2011 monograph."
+      }
+    ],
+    "people": [
+      {
+        "name": "David Sherrington",
+        "role": "SK model",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Solvable model of a spin-glass, Phys. Rev. Lett. 35 (1975)",
+            "year": 1975,
+            "url": "https://doi.org/10.1103/physrevlett.35.1792",
+            "whyItMatters": "Introduces the SK model."
+          }
+        ]
+      },
+      {
+        "name": "Scott Kirkpatrick",
+        "role": "SK model",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Solvable model of a spin-glass, Phys. Rev. Lett. 35 (1975)",
+            "year": 1975,
+            "url": "https://doi.org/10.1103/physrevlett.35.1792",
+            "whyItMatters": "Co-author of the SK model."
+          }
+        ]
+      },
+      {
+        "name": "Giorgio Parisi",
+        "role": "replica-symmetry breaking solution",
+        "lifespan": "1948-",
+        "biographyUrl": "https://en.wikipedia.org/wiki/Giorgio_Parisi",
+        "works": [
+          {
+            "citation": "Infinite number of order parameters for spin-glasses, PRL 43 (1979)",
+            "year": 1979,
+            "url": "https://doi.org/10.1103/physrevlett.43.1754",
+            "whyItMatters": "RSB solution of the SK model."
+          },
+          {
+            "citation": "The order parameter for spin glasses: a function on the interval 0-1, J. Phys. A (1980)",
+            "year": 1980,
+            "url": "https://doi.org/10.1088/0305-4470/13/3/042",
+            "whyItMatters": "Explicit order parameter."
+          }
+        ]
+      },
+      {
+        "name": "Francesco Guerra",
+        "role": "rigorous bounds",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Broken replica symmetry bounds in the mean field spin glass model, CMP (2003)",
+            "year": 2003,
+            "url": "https://doi.org/10.1007/s00220-002-0773-5",
+            "whyItMatters": "Interpolation bounds."
+          }
+        ]
+      },
+      {
+        "name": "Michel Talagrand",
+        "role": "proof of the Parisi formula",
+        "lifespan": "1952-",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Talagrand/",
+        "works": [
+          {
+            "citation": "The Parisi formula, Annals of Mathematics 163 (2006)",
+            "year": 2006,
+            "url": "https://doi.org/10.4007/annals.2006.163.221",
+            "whyItMatters": "Proof of the formula."
+          },
+          {
+            "citation": "Mean Field Models for Spin Glasses (Springer, 2011)",
+            "year": 2011,
+            "url": "https://openlibrary.org/search.json?q=mean+field+models+for+spin+glasses+talagrand",
+            "whyItMatters": "Systematic monograph."
+          }
+        ]
+      }
+    ],
+    "notes": "Input summary's 'interpolation and ultrametricity' is consistent with Guerra (2003) and Talagrand (2006). Sherrington and Kirkpatrick lifespans not sourced. Wikipedia Parisi formula URL 404 and Spin glass page used for the model history. The Talagrand 2011 Open Library record shows volume II; year 2011 retained.",
+    "derivedDates": {
+      "conceptual": 1979,
+      "methodological": 1979,
+      "institutional": 1987
+    }
+  },
+  {
+    "pid": "P316",
+    "eventId": "WC23/QC68",
+    "canonicalName": "Fundamental lemma (Langlands programme)",
+    "aliases": [
+      "Fundamental lemma",
+      "Langlands fundamental lemma",
+      "Ngô's proof of the fundamental lemma",
+      "Lemme fondamental"
+    ],
+    "phases": [
+      "Stable conjugacy and transfer (1979)",
+      "Hitchin fibration approach (1987)",
+      "Laumon-Ngô unitary case (2008)",
+      "Ngô's general proof (2010)"
+    ],
+    "milestones": [
+      {
+        "role": "precursor",
+        "phase": "Stable conjugacy and transfer (1979)",
+        "year": 1979,
+        "endYear": null,
+        "precision": "year",
+        "label": "Stable conjugacy and transfer lemmas",
+        "work": "Langlands, Stable conjugacy: definitions and lemmas, Canadian J. Math. 31 (1979)",
+        "people": [
+          "Robert Langlands"
+        ],
+        "description": "Langlands develops stable conjugacy and transfer, the setting in which the fundamental lemma is stated.",
+        "evidence": [
+          {
+            "claim": "CJM 1979 paper, author and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.4153/cjm-1979-069-2",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Fundamental lemma conjectured in developing the Langlands programme (no year)",
+            "source": "Wikipedia: Fundamental lemma (Langlands program)",
+            "url": "https://en.wikipedia.org/wiki/Fundamental_lemma_(Langlands_program)",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Precursor, not the first statement: the fundamental lemma's own first formulation (possibly Langlands 1983 or later) was not verified."
+      },
+      {
+        "role": "precursor",
+        "phase": "Hitchin fibration approach (1987)",
+        "year": 1987,
+        "endYear": null,
+        "precision": "year",
+        "label": "Hitchin fibration and integrable systems",
+        "work": "Hitchin, Stable bundles and integrable systems, Duke Math. J. 54 (1987)",
+        "people": [
+          "Nigel Hitchin"
+        ],
+        "description": "Hitchin's integrable systems on moduli of Higgs bundles give the Hitchin fibration used in Ngô's geometric proof.",
+        "evidence": [
+          {
+            "claim": "Duke 1987 paper, author and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1215/s0012-7094-87-05408-1",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Ngô's proof uses the Hitchin fibration (from the input summary)",
+            "source": "Input summary; not checked on a fetched page",
+            "url": "https://en.wikipedia.org/wiki/Fundamental_lemma_(Langlands_program)",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Link from Hitchin to Ngô's proof is from the input summary and literature, not checked in the Wikipedia text."
+      },
+      {
+        "role": "key_development",
+        "phase": "Hitchin fibration approach (1987)",
+        "year": 1991,
+        "endYear": null,
+        "precision": "year",
+        "label": "Waldspurger's reductions for linear groups",
+        "work": "Waldspurger, Sur les intégrales orbitales tordues pour les groupes linéaires: un lemme fondamental, Canadian J. Math. (1991)",
+        "people": [
+          "Jean-Loup Waldspurger"
+        ],
+        "description": "Waldspurger proves the fundamental lemma in important cases and reduces the general case, as Wikipedia notes.",
+        "evidence": [
+          {
+            "claim": "Waldspurger's reductions to the Lie algebra case",
+            "source": "Wikipedia: Fundamental lemma (Langlands program)",
+            "url": "https://en.wikipedia.org/wiki/Fundamental_lemma_(Langlands_program)",
+            "kind": "history_page"
+          },
+          {
+            "claim": "CJM 1991 paper, author and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.4153/cjm-1991-049-5",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Scope (linear groups) taken from the paper title; not checked in text."
+      },
+      {
+        "role": "key_development",
+        "phase": "Laumon-Ngô unitary case (2008)",
+        "year": 2008,
+        "endYear": null,
+        "precision": "year",
+        "label": "Laumon-Ngô: fundamental lemma for unitary groups",
+        "work": "Laumon, Ngô, Le lemme fondamental pour les groupes unitaires, Annals of Mathematics 168 (2008)",
+        "people": [
+          "Gérard Laumon",
+          "Bao Châu Ngô"
+        ],
+        "description": "Laumon and Ngô prove the fundamental lemma for unitary groups, the first complete case.",
+        "evidence": [
+          {
+            "claim": "Fundamental lemma proved for unitary groups by Laumon and Ngô",
+            "source": "Wikipedia: Fundamental lemma (Langlands program)",
+            "url": "https://en.wikipedia.org/wiki/Fundamental_lemma_(Langlands_program)",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Annals 2008 paper, authors and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.4007/annals.2008.168.477",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "key_development",
+        "phase": "Ngô's general proof (2010)",
+        "year": 2010,
+        "endYear": null,
+        "precision": "year",
+        "label": "Ngô proves the fundamental lemma for Lie algebras",
+        "work": "Ngô, Le lemme fondamental pour les algèbres de Lie, Publ. Math. IHES 111 (2010)",
+        "people": [
+          "Bao Châu Ngô"
+        ],
+        "description": "Ngô proves the fundamental lemma in general for Lie algebras via the Hitchin fibration, leading to the 2010 Fields Medal.",
+        "evidence": [
+          {
+            "claim": "Ngô's general proof and the 2010 Fields Medal",
+            "source": "Wikipedia: Fundamental lemma (Langlands program)",
+            "url": "https://en.wikipedia.org/wiki/Fundamental_lemma_(Langlands_program)",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Publications IHES 2010 paper, author and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1007/s10240-010-0026-7",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [
+      {
+        "name": "Robert Langlands",
+        "role": "stable conjugacy and the Langlands programme",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Stable conjugacy: definitions and lemmas, Canadian J. Math. 31 (1979)",
+            "year": 1979,
+            "url": "https://doi.org/10.4153/cjm-1979-069-2",
+            "whyItMatters": "Setting for the fundamental lemma."
+          }
+        ]
+      },
+      {
+        "name": "Nigel Hitchin",
+        "role": "Hitchin fibration",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Stable bundles and integrable systems, Duke Math. J. 54 (1987)",
+            "year": 1987,
+            "url": "https://doi.org/10.1215/s0012-7094-87-05408-1",
+            "whyItMatters": "Hitchin fibration used by Ngô."
+          }
+        ]
+      },
+      {
+        "name": "Gérard Laumon",
+        "role": "unitary-group case",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Le lemme fondamental pour les groupes unitaires, Annals of Math. 168 (2008)",
+            "year": 2008,
+            "url": "https://doi.org/10.4007/annals.2008.168.477",
+            "whyItMatters": "Co-author of the unitary case."
+          }
+        ]
+      },
+      {
+        "name": "Bao Châu Ngô",
+        "role": "general proof",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Le lemme fondamental pour les groupes unitaires (2008)",
+            "year": 2008,
+            "url": "https://doi.org/10.4007/annals.2008.168.477",
+            "whyItMatters": "Co-author of the unitary case."
+          },
+          {
+            "citation": "Le lemme fondamental pour les algèbres de Lie, Publ. Math. IHES 111 (2010)",
+            "year": 2010,
+            "url": "https://doi.org/10.1007/s10240-010-0026-7",
+            "whyItMatters": "General proof for Lie algebras."
+          }
+        ]
+      },
+      {
+        "name": "Jean-Loup Waldspurger",
+        "role": "reductions and linear-group case",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Sur les intégrales orbitales tordues pour les groupes linéaires: un lemme fondamental, Canadian J. Math. (1991)",
+            "year": 1991,
+            "url": "https://doi.org/10.4153/cjm-1991-049-5",
+            "whyItMatters": "Reductions to Lie algebras."
+          }
+        ]
+      }
+    ],
+    "notes": "The first public statement of the fundamental lemma is OPEN: Wikipedia gives no year and the 1983 'débuts' note (in the input's candidate list) was not found in Crossref. Conceptual and methodological dates are therefore null by rule. Input summary's Hitchin-fibration description is accurate for Ngô 2010. Wikipedia Ngô page URL used but not fetched (Ngô's biography was not read). Lifespans not sourced.",
+    "derivedDates": {
+      "conceptual": null,
+      "methodological": null,
+      "institutional": null
+    }
+  },
+  {
+    "pid": "P498",
+    "eventId": "P55",
+    "canonicalName": "Canonical bases and character sheaves: geometry in representation theory",
+    "aliases": [
+      "Kazhdan-Lusztig polynomials and canonical bases",
+      "Character sheaves",
+      "Perverse sheaves in representation theory",
+      "Kazhdan-Lusztig conjecture"
+    ],
+    "phases": [
+      "Kazhdan-Lusztig polynomials (1979)",
+      "Intersection cohomology and perverse sheaves (1980-1982)",
+      "Character sheaves and canonical bases (1985-1990)"
+    ],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "phase": "Kazhdan-Lusztig polynomials (1979)",
+        "year": 1979,
+        "endYear": null,
+        "precision": "year",
+        "label": "Kazhdan-Lusztig polynomials and cells",
+        "work": "Kazhdan, Lusztig, Representations of Coxeter groups and Hecke algebras, Inventiones Mathematicae 53 (1979)",
+        "people": [
+          "David Kazhdan",
+          "George Lusztig"
+        ],
+        "description": "Kazhdan and Lusztig introduce integral polynomials attached to Coxeter groups, the basis of the later geometric theory.",
+        "evidence": [
+          {
+            "claim": "KL polynomials studied in spring 1978 and introduced in the 1979 paper",
+            "source": "Wikipedia: Kazhdan-Lusztig polynomial",
+            "url": "https://en.wikipedia.org/wiki/Kazhdan–Lusztig_polynomial",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Inventiones 1979 paper, authors and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1007/bf01390031",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "first_application",
+        "phase": "Intersection cohomology and perverse sheaves (1980-1982)",
+        "year": 1980,
+        "endYear": null,
+        "precision": "year",
+        "label": "Intersection cohomology interpretation of KL polynomials",
+        "work": "Kazhdan, Lusztig, Schubert varieties and Poincaré duality, Proc. Symp. Pure Math. 36 (1980)",
+        "people": [
+          "David Kazhdan",
+          "George Lusztig"
+        ],
+        "description": "The KL polynomials are shown to compute local intersection cohomology of Schubert varieties, the geometric application.",
+        "evidence": [
+          {
+            "claim": "KL polynomials relate to intersection cohomology; the 1980 geometric paper",
+            "source": "MacTutor: David Kazhdan",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kazhdan/",
+            "kind": "history_page"
+          },
+          {
+            "claim": "PSPM 1980 paper, authors and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1090/pspum/036/573434",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "naming",
+        "phase": "Intersection cohomology and perverse sheaves (1980-1982)",
+        "year": 1982,
+        "endYear": null,
+        "precision": "year",
+        "label": "Perverse sheaves named",
+        "work": "Beilinson, Bernstein, Deligne, Gabber, Faisceaux pervers, Astérisque 100 (1982)",
+        "people": [
+          "Alexander Beilinson",
+          "Joseph Bernstein",
+          "Pierre Deligne",
+          "Ofer Gabber"
+        ],
+        "description": "The notion of perverse sheaves is introduced and named in Faisceaux pervers, the institutional name for the geometric framework.",
+        "evidence": [
+          {
+            "claim": "Perverse sheaves introduced in BBD and Gabber (1982)",
+            "source": "Wikipedia: Perverse sheaf",
+            "url": "https://en.wikipedia.org/wiki/Perverse_sheaf",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Book record of Faisceaux pervers (2018 reprint of the Astérisque volume)",
+            "source": "Open Library",
+            "url": "https://openlibrary.org/search.json?q=faisceaux+pervers",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The 1982 date comes from Wikipedia; Open Library returns the 2018 reprint only. Original Astérisque record not retrieved (zbMATH 403)."
+      },
+      {
+        "role": "key_development",
+        "phase": "Character sheaves and canonical bases (1985-1990)",
+        "year": 1985,
+        "endYear": null,
+        "precision": "year",
+        "label": "Character sheaves I",
+        "work": "Lusztig, Character sheaves I, Advances in Mathematics 56 (1985)",
+        "people": [
+          "George Lusztig"
+        ],
+        "description": "Lusztig begins the character-sheaf theory, the geometric analogue of characters for reductive groups, in the first of the series.",
+        "evidence": [
+          {
+            "claim": "Advances 1985 paper, author and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1016/0001-8708(85)90034-9",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Lusztig's role in the KL conjecture and representation theory",
+            "source": "MacTutor: David Kazhdan",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kazhdan/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "key_development",
+        "phase": "Character sheaves and canonical bases (1985-1990)",
+        "year": 1990,
+        "endYear": null,
+        "precision": "year",
+        "label": "Canonical bases for quantized enveloping algebras",
+        "work": "Lusztig, Canonical bases arising from quantized enveloping algebras, J. Amer. Math. Soc. 3 (1990)",
+        "people": [
+          "George Lusztig"
+        ],
+        "description": "Lusztig constructs canonical bases of quantized enveloping algebras using perverse sheaves, a key result of the programme.",
+        "evidence": [
+          {
+            "claim": "JAMS 1990 paper, author and year",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1090/s0894-0347-1990-1035415-6",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Canonical bases are part of the input summary's claim (perverse sheaves give canonical bases)",
+            "source": "Input summary; consistent with MacTutor: Kazhdan",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kazhdan/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [
+      {
+        "name": "David Kazhdan",
+        "role": "Kazhdan-Lusztig polynomials and their geometry",
+        "lifespan": "1946-",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kazhdan/",
+        "works": [
+          {
+            "citation": "Representations of Coxeter groups and Hecke algebras, Invent. Math. 53 (1979)",
+            "year": 1979,
+            "url": "https://doi.org/10.1007/bf01390031",
+            "whyItMatters": "Introduces KL polynomials."
+          },
+          {
+            "citation": "Schubert varieties and Poincaré duality, PSPM 36 (1980)",
+            "year": 1980,
+            "url": "https://doi.org/10.1090/pspum/036/573434",
+            "whyItMatters": "Geometric interpretation."
+          }
+        ]
+      },
+      {
+        "name": "George Lusztig",
+        "role": "character sheaves and canonical bases",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/George_Lusztig",
+        "works": [
+          {
+            "citation": "Character sheaves I, Adv. Math. 56 (1985)",
+            "year": 1985,
+            "url": "https://doi.org/10.1016/0001-8708(85)90034-9",
+            "whyItMatters": "Character-sheaf theory begins."
+          },
+          {
+            "citation": "Canonical bases arising from quantized enveloping algebras, JAMS 3 (1990)",
+            "year": 1990,
+            "url": "https://doi.org/10.1090/s0894-0347-1990-1035415-6",
+            "whyItMatters": "Canonical bases."
+          }
+        ]
+      },
+      {
+        "name": "Alexander Beilinson",
+        "role": "perverse sheaves",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Faisceaux pervers, Astérisque 100 (1982)",
+            "year": 1982,
+            "url": "https://openlibrary.org/search.json?q=faisceaux+pervers",
+            "whyItMatters": "Introduces perverse sheaves (co-author)."
+          }
+        ]
+      },
+      {
+        "name": "Joseph Bernstein",
+        "role": "perverse sheaves",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Faisceaux pervers, Astérisque 100 (1982)",
+            "year": 1982,
+            "url": "https://openlibrary.org/search.json?q=faisceaux+pervers",
+            "whyItMatters": "Co-author."
+          }
+        ]
+      },
+      {
+        "name": "Pierre Deligne",
+        "role": "perverse sheaves",
+        "lifespan": null,
+        "biographyUrl": null,
+        "works": [
+          {
+            "citation": "Faisceaux pervers, Astérisque 100 (1982)",
+            "year": 1982,
+            "url": "https://openlibrary.org/search.json?q=faisceaux+pervers",
+            "whyItMatters": "Co-author."
+          }
+        ]
+      }
+    ],
+    "notes": "Input summary is accurate. Derived dates: conceptual 1979, methodological 1980, institutional 1982 (naming). Naming year for perverse sheaves rests on Wikipedia plus a 2018 reprint record; the original 1982 record was not retrieved. Wikipedia Character sheaf URL is a redirect and was not used. Lifespans for Lusztig, Beilinson, Bernstein, Deligne not sourced.",
+    "derivedDates": {
+      "conceptual": 1979,
+      "methodological": 1980,
+      "institutional": 1982
+    }
+  }
+]

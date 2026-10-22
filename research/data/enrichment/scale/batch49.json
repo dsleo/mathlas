@@ -1,0 +1,147 @@
+[
+ {
+  "pid": "P491",
+  "eventId": "P47",
+  "name": "Cubical geometry proves the virtual Haken conjecture",
+  "type": "technique-transfer",
+  "from": [
+   "Algebra",
+   "Topology"
+  ],
+  "to": [
+   "Topology"
+  ],
+  "summary": "Wise's special cube complexes and Agol's criterion show that hyperbolic 3-manifold groups are virtually special, giving virtual Haken and virtual fibring."
+ },
+ {
+  "pid": "P535",
+  "eventId": "Q28",
+  "name": "Relative Langlands duality and electromagnetic duality",
+  "type": "dictionary-analogy",
+  "from": [
+   "automorphic periods and L-functions (relative Langlands)",
+   "Hamiltonian spaces / symplectic geometry",
+   "4d N=4 gauge theory boundary conditions (S-duality)"
+  ],
+  "to": [
+   "relative Langlands duality"
+  ],
+  "summary": "Periods and L-functions were indexed by dual Hamiltonian spaces, guided by electromagnetic duality in physics, to extend the Langlands correspondence between periods and L-functions in both directions."
+ },
+ {
+  "pid": "P553",
+  "eventId": "Q65",
+  "name": "Random hyperbolic surfaces have maximal spectral gap: random-graph technique transfer",
+  "type": "technique-transfer",
+  "from": [
+   "random graph theory (Friedman)",
+   "hyperbolic geometry (Mirzakhani)",
+   "spectral theory"
+  ],
+  "to": [
+   "spectral gap of random surfaces"
+  ],
+  "summary": "Friedman's method for handling problematic paths in random graphs was adapted to hyperbolic surfaces and Mirzakhani-style geodesic counts to prove the optimal spectral gap of 1/4 for random surfaces."
+ },
+ {
+  "pid": "P106",
+  "eventId": "B40",
+  "name": "Dynamical systems and spectral theory of Schrodinger operators",
+  "type": "technique-transfer",
+  "from": [
+   "Analysis"
+  ],
+  "to": [
+   "Physics",
+   "Analysis"
+  ],
+  "summary": "Renormalisation and cocycle dynamics are used to describe the spectrum of quasi-periodic Schrodinger operators, solving the Ten Martini type problems."
+ },
+ {
+  "pid": "P512",
+  "eventId": "P70",
+  "name": "Approximate groups and the model theory of pseudofinite structures",
+  "type": "technique-transfer",
+  "from": [
+   "model theory"
+  ],
+  "to": [
+   "additive combinatorics",
+   "group theory"
+  ],
+  "summary": "A Lie-model theorem built with nonstandard methods describes the structure of finite approximate subgroups."
+ },
+ {
+  "pid": "P527",
+  "eventId": "Q7",
+  "name": "Amplituhedron: scattering amplitudes as volumes in positive geometry",
+  "type": "import-from-outside",
+  "from": [
+   "particle physics (scattering amplitudes)",
+   "twistor theory",
+   "algebraic combinatorics"
+  ],
+  "to": [
+   "positive geometry"
+  ],
+  "summary": "Recursion relations for gluon amplitudes were shown to compute volumes of pieces of the positive Grassmannian, and amplitudes were then proposed to be the volume of a new geometric object."
+ },
+ {
+  "pid": "P331",
+  "eventId": "QC8",
+  "name": "Inverse theorem for Gowers norms and Mobius-nilsequences",
+  "type": "technique-transfer",
+  "from": [
+   "ergodic theory (Host-Kra nilsystems)",
+   "additive combinatorics"
+  ],
+  "to": [
+   "analytic number theory (linear equations in primes)"
+  ],
+  "summary": "Green-Tao-Ziegler proved nilsequences control Gowers norms, settling linear equations in primes counts."
+ },
+ {
+  "pid": "P523",
+  "eventId": "Q3",
+  "name": "Algorithmic discrepancy theory (Bansal) and the Komlos conjecture",
+  "type": "technique-transfer",
+  "from": [
+   "combinatorial discrepancy theory",
+   "algorithm design"
+  ],
+  "to": [
+   "discrepancy bounds"
+  ],
+  "summary": "Designing efficient vector-balancing algorithms, rather than existence arguments, turned out to reproduce and then improve the best known discrepancy bounds, including a new bound towards Komlos."
+ },
+ {
+  "pid": "P542",
+  "eventId": "Q42",
+  "name": "Fargues-Scholze geometrisation of the local Langlands correspondence",
+  "type": "dictionary-analogy",
+  "from": [
+   "p-adic Hodge theory (Fargues-Fontaine curve)",
+   "perfectoid geometry and diamonds",
+   "representation theory"
+  ],
+  "to": [
+   "geometrised local Langlands"
+  ],
+  "summary": "The Fargues-Fontaine curve and Scholze's diamonds were used to turn representations of Galois groups and of p-adic groups into sheaves, proving one direction of local Langlands."
+ },
+ {
+  "pid": "P550",
+  "eventId": "Q58",
+  "name": "Umbral moonshine and pariah moonshine",
+  "type": "dictionary-analogy",
+  "from": [
+   "finite group theory (Mathieu, O'Nan)",
+   "mock modular forms",
+   "string theory on K3"
+  ],
+  "to": [
+   "moonshine beyond the Monster"
+  ],
+  "summary": "Mathieu moonshine and 23 further umbral moonshines link groups to mock modular forms, proved in 2015, and a pariah group (O'Nan) was tied to weight-3/2 modular forms in 2017."
+ }
+]

@@ -1,0 +1,14 @@
+[
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_22.json",
+  "location": "[5].people[3].works[0]",
+  "message": "Invalid work citation, year, URL, or relevance"
+ },
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_22.json",
+  "location": "[5].people[4].works[0]",
+  "message": "Invalid work citation, year, URL, or relevance"
+ }
+]

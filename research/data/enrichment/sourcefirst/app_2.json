@@ -1,0 +1,158 @@
+[
+ {
+  "pid": "P069",
+  "eventId": "B03",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia 'Algebraic K-theory' (raw wikitext): Quillen's definition and his computation of K-groups of finite fields are described; that computation is the earliest application found and is dated 1972 (precursor), before the recorded 1973 first statement, so it is not eligible under the at-or-after rule",
+   "No post-1973 application of higher K-theory to a target problem identified in the Wikipedia article or the existing record; no zbMATH or Crossref search run for citing papers 1973-1975",
+   "Limit: did not fetch Quillen's 1972 Annals paper or Weibel's history; the search for a post-1973 first application is incomplete"
+  ]
+ },
+ {
+  "pid": "P087",
+  "eventId": "B21",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia 'Rational homotopy theory' (raw wikitext): the geometric application Sullivan and Vigue-Poirrier, closed geodesics via unbounded Betti numbers of the free loop space, is described with a Félix-Oprea-Tanré 2008 citation",
+   "Crossref DOI 10.4310/jdg/1214433729: Vigue-Poirrier and Sullivan, 'The homology theory of the closed geodesic problem', J. Differential Geometry 11 (1976) 633-644. This is the first documented use found but it predates the recorded 1977 first statement (Sullivan), so it is not promoted under the at-or-after rule. The 1976 vs 1977 ordering should be reviewed",
+   "zbMATH Open search 'Vigue-Poirrier Sullivan homology closed geodesic': confirms the 1976 record (zbMATH lists JDG 11, 633-644)",
+   "Not searched further: post-1977 applications of minimal models; Deligne-Griffiths-Morgan-Sullivan 1975 (Kahler formality) noted as a possible earlier application"
+  ]
+ },
+ {
+  "pid": "P125",
+  "eventId": "WA28/MA36",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia 'Sharaf al-Din al-Tusi' (raw wikitext): biography and mathematical summary read; no use of his cubic-root method on a target problem after 1165 is dated in the article",
+   "Existing record covers Khayyam (1070) precursor, Rashed 1974 and Hogendijk 1989 recognition; no separate first application identified",
+   "No zbMATH or Crossref search run for later uses (Viete, Wallis) of his method"
+  ]
+ },
+ {
+  "pid": "P146",
+  "eventId": "MA56/WA41",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia 'Adequality' (raw wikitext): Fermat's method described in 'Methodus ad disquirendam maximam et minimam', circulated in France c. 1636 in manuscript",
+   "Only dated use found is the c. 1636 manuscript Methodus itself, which predates the 1642 printed first statement (Herigone), so it is not eligible under the at-or-after rule. Flag for review of the statement year",
+   "Not searched further: Fermat's letters to Descartes and Roberval (1637-1638) and Descartes' reply as possible dated applications"
+  ]
+ },
+ {
+  "pid": "P203",
+  "eventId": "E72/MB19/WB51",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia 'Distribution (mathematics)' (raw wikitext): returned only a redirect to 'Distribution (mathematical analysis)'; the target article was not fetched",
+   "Existing record: Dirac 1930 and Sobolev 1936 precursors; Schwartz 1945 first statement; no first application identified",
+   "Gap: the redirect target and zbMATH/Crossref searches for dated applications of distributions 1945-1948 were not run"
+  ]
+ },
+ {
+  "pid": "P257",
+  "eventId": "MB7",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia 'Model theory' (raw wikitext): Tarski's semantic truth definition, the term 'Theory of Models' (1954), Lowenheim-Skolem, and Tarski-Vaught test read; no dated application of the 1933 semantic truth definition to a target problem in the article",
+   "Existing record: Lowenheim 1915 and Tarski private results precursors; Chang-Keisler 1973 consolidation",
+   "Not searched further: Tarski's 1936 German paper and his decision procedure work as candidate applications; no zbMATH query run"
+  ]
+ },
+ {
+  "pid": "P290",
+  "eventId": "MB20",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia 'Sobolev space' (raw wikitext): Sobolev spaces and embedding theorems read; the article gives no dated first application of the 1938 spaces to a target problem",
+   "Existing record: Sobolev 1936 Cauchy-problem work (precursor, before 1938 statement) and 1950 and 1975 consolidations; no application after 1938 identified",
+   "Not searched further: zbMATH or Crossref searches for 1938-1940 papers that use the spaces"
+  ]
+ },
+ {
+  "pid": "P359",
+  "eventId": "E17/M28/W64",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia 'Commutative algebra' (raw wikitext): history section read (Dedekind, Hilbert, Lasker, Noether); no dated first application of Noether's 1921 abstract ideal theory to a target problem is named",
+   "Existing record: Dedekind 1871, Hilbert 1890, Lasker 1905, Macaulay 1916 precursors; Krull 1935 and Zariski-Samuel 1958 consolidations",
+   "Not searched further: zbMATH searches for 1921-1925 papers applying Noetherian ideal theory (e.g. Krull 1928 on Noetherian rings)"
+  ]
+ },
+ {
+  "pid": "P479",
+  "eventId": "P32",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia 'Analytic combinatorics' (raw wikitext), History section: Ramanujan-Hardy partitions from 1918, Hayman 1956 saddle-point (earliest examples), Flajolet-Odlyzko 1990 singularity analysis, Flajolet-Sedgewick 2009 book; no dated application of the 1990 method to a new enumeration problem in the article",
+   "Existing record: Hardy-Ramanujan 1918 and Hayman 1956 precursors; Flajolet-Odlyzko 1990 first statement; Flajolet-Sedgewick 2009 consolidation",
+   "Not searched further: zbMATH searches for 1990-1992 papers applying singularity analysis (e.g. to trees or maps); the 1990 paper itself is the statement"
+  ]
+ },
+ {
+  "pid": "P117",
+  "eventId": "WA54/MA72",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia 'Ars Conjectandi' (raw wikitext): content, 1713 publication, and reception read; no dated application of the law of large numbers (Bernoulli's theorem) to a target problem after 1713 is named in the article",
+   "Existing record: Pascal-Fermat 1654, Huygens 1657, Jakob Bernoulli notebook 1684 precursors; De Moivre 1718 key development",
+   "Not searched further: Nicolaus Bernoulli's and Daniel Bernoulli's post-1713 applications (for example to annuities or inoculation) were not checked in zbMATH or any history source"
+  ]
+ },
+ {
+  "pid": "P136",
+  "eventId": "MA34/WA27",
+  "verdict": "existing_is_first_application",
+  "milestones": [],
+  "searched": [
+   "Wikipedia 'Omar Khayyam' (raw wikitext): states that Khayyam gave a general solution of all third-degree polynomial equations by intersecting two conic sections",
+   "Existing first_statement 1070 (Khayyam, Treatise on Demonstration of Problems of Algebra) is therefore the first application of the conic method to cubics within the at-or-after window; the existing key_development 1170 (Sharaf al-Din) is a later analysis, not a new application",
+   "Earlier uses (Al-Khazin c. 950 and others in the existing record) predate 1070 and are precursors, not counted here"
+  ]
+ },
+ {
+  "pid": "P154",
+  "eventId": "MA77",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia 'Taylor's theorem' (raw wikitext): Brook Taylor stated the theorem in 1715 (Methodus incrementorum, Prop. VII) and the article gives no dated application of the 1715 result to a target problem",
+   "Existing record: Gregory 1671 and Taylor 1712 letter precursors; Stirling 1730 key development; 'Taylor series' name c. 1785",
+   "Not searched further: Taylor's own 1715 applications (vibrating string, centre of oscillation) and zbMATH or Crossref searches for 1715-1730 applications"
+  ]
+ },
+ {
+  "pid": "P361",
+  "eventId": "M42/W44",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia 'Hilbert space' (raw wikitext): history says the inner-product idea arose in Hilbert and Schmidt's study of integral equations in the first decade of the 20th century, citing Schmidt 1908; no dated application after 1907 identified beyond that",
+   "Existing record: Fredholm 1903 precursor; Riesz 1907 first statement; Schmidt 1908 key development; Hilbert 1912 and Stone 1932 consolidations; von Neumann 1929 naming",
+   "Not searched further: zbMATH or Crossref verification of Schmidt 1908 and of Hilbert's 1904-1906 integral-equation papers (earlier than the 1907 statement)"
+  ]
+ },
+ {
+  "pid": "P409",
+  "eventId": "W70",
+  "verdict": "existing_is_first_application",
+  "milestones": [],
+  "searched": [
+   "Wikipedia 'Word problem for groups' (raw wikitext): Dehn 1911 posed the word problem; in 1912 Dehn gave an algorithm solving the word and conjugacy problems for surface groups of genus at least 2",
+   "Crossref record fetched: Dehn, 'Transformation der Kurven auf zweiseitigen Flachen', Math. Ann. 72 (1912), DOI 10.1007/bf01456725, published 1912-09. This matches the existing key_development 1912 (Dehn solves the word problem for surface groups), so it is the first application and is already recorded",
+   "Crossref also returned Dehn's 1911 Math. Ann. paper 'Uber unendliche diskontinuierliche Gruppen' (DOI 10.1007/bf01456932) as the first statement context",
+   "Not searched further: whether Dehn 1911 already applied the method to a target problem (first statement treated as the posing of the problem)"
+  ]
+ }
+]

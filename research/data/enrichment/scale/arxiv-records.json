@@ -1,0 +1,1467 @@
+{
+  "note": "Explicit-ID lookup verifies arXiv metadata, not the event's historical claim.",
+  "uniqueIds": 87,
+  "resolved": 87,
+  "rows": [
+    {
+      "arxivId": "2408.07818",
+      "citations": [
+        {
+          "eventId": "B34",
+          "citation": "Y. Deng, Z. Hani and X. Ma, Long time derivation of the Boltzmann equation from hard sphere dynamics, arXiv:2408.07818 (2024)"
+        }
+      ],
+      "title": "Long time derivation of the Boltzmann equation from hard sphere dynamics",
+      "authors": [
+        "Yu Deng",
+        "Zaher Hani",
+        "Xiao Ma"
+      ],
+      "published": "2024-08-14T21:14:18Z",
+      "url": "http://arxiv.org/abs/2408.07818v3"
+    },
+    {
+      "arxivId": "2507.12926",
+      "citations": [
+        {
+          "eventId": "Q5",
+          "citation": "Ma-Shen-Xie arXiv:2507.12926"
+        }
+      ],
+      "title": "An exponential improvement for Ramsey lower bounds",
+      "authors": [
+        "Jie Ma",
+        "Wujie Shen",
+        "Shengjie Xie"
+      ],
+      "published": "2025-07-17T09:08:08Z",
+      "url": "http://arxiv.org/abs/2507.12926v2"
+    },
+    {
+      "arxivId": "2512.17718",
+      "citations": [
+        {
+          "eventId": "Q5",
+          "citation": "Sudakov et al. arXiv:2512.17718"
+        }
+      ],
+      "title": "Gaussian random graphs and Ramsey numbers",
+      "authors": [
+        "Zach Hunter",
+        "Aleksa Milojević",
+        "Benny Sudakov"
+      ],
+      "published": "2025-12-19T15:52:01Z",
+      "url": "http://arxiv.org/abs/2512.17718v2"
+    },
+    {
+      "arxivId": "2509.03490",
+      "citations": [
+        {
+          "eventId": "Q9",
+          "citation": "Jin-Milojevic-Tomon-Zhang arXiv:2509.03490"
+        }
+      ],
+      "title": "From small eigenvalues to large cuts, and Chowla's cosine problem",
+      "authors": [
+        "Zhihan Jin",
+        "Aleksa Milojević",
+        "István Tomon",
+        "Shengtong Zhang"
+      ],
+      "published": "2025-09-03T17:21:26Z",
+      "url": "http://arxiv.org/abs/2509.03490v2"
+    },
+    {
+      "arxivId": "2507.10037",
+      "citations": [
+        {
+          "eventId": "Q9",
+          "citation": "Zhang arXiv:2507.10037"
+        }
+      ],
+      "title": "An Alon-Boppana--type bound for very dense graphs, with applications to max-cut",
+      "authors": [
+        "Shengtong Zhang"
+      ],
+      "published": "2025-07-14T08:15:11Z",
+      "url": "http://arxiv.org/abs/2507.10037v1"
+    },
+    {
+      "arxivId": "2509.05260",
+      "citations": [
+        {
+          "eventId": "Q9",
+          "citation": "Bedert arXiv:2509.05260"
+        }
+      ],
+      "title": "Polynomial bounds for the Chowla Cosine Problem",
+      "authors": [
+        "Benjamin Bedert"
+      ],
+      "published": "2025-09-05T17:20:01Z",
+      "url": "http://arxiv.org/abs/2509.05260v3"
+    },
+    {
+      "arxivId": "2012.11672",
+      "citations": [
+        {
+          "eventId": "Q67",
+          "citation": "Duminil-Copin-Kozlowski-Krachun-Manolescu-Oulamara arXiv:2012.11672"
+        }
+      ],
+      "title": "Rotational invariance in critical planar lattice models",
+      "authors": [
+        "Hugo Duminil-Copin",
+        "Karol Kajetan Kozlowski",
+        "Dmitry Krachun",
+        "Ioan Manolescu",
+        "Mendes Oulamara"
+      ],
+      "published": "2020-12-21T20:40:53Z",
+      "url": "http://arxiv.org/abs/2012.11672v2"
+    },
+    {
+      "arxivId": "2412.01768",
+      "citations": [
+        {
+          "eventId": "Q19",
+          "citation": "Koymans-Pagano arXiv:2412.01768"
+        }
+      ],
+      "title": "Hilbert's tenth problem via additive combinatorics",
+      "authors": [
+        "Peter Koymans",
+        "Carlo Pagano"
+      ],
+      "published": "2024-12-02T18:07:20Z",
+      "url": "http://arxiv.org/abs/2412.01768v3"
+    },
+    {
+      "arxivId": "2501.18774",
+      "citations": [
+        {
+          "eventId": "Q19",
+          "citation": "Alpoge-Bhargava-Ho-Shnidman arXiv:2501.18774"
+        }
+      ],
+      "title": "Rank stability in quadratic extensions and Hilbert's tenth problem for the ring of integers of a number field",
+      "authors": [
+        "Levent Alpöge",
+        "Manjul Bhargava",
+        "Wei Ho",
+        "Ari Shnidman"
+      ],
+      "published": "2025-01-30T21:56:25Z",
+      "url": "http://arxiv.org/abs/2501.18774v1"
+    },
+    {
+      "arxivId": "1303.2354",
+      "citations": [
+        {
+          "eventId": "Q53",
+          "citation": "Manolescu arXiv:1303.2354"
+        }
+      ],
+      "title": "Pin(2)-equivariant Seiberg-Witten Floer homology and the Triangulation Conjecture",
+      "authors": [
+        "Ciprian Manolescu"
+      ],
+      "published": "2013-03-10T18:16:28Z",
+      "url": "http://arxiv.org/abs/1303.2354v4"
+    },
+    {
+      "arxivId": "1410.7318",
+      "citations": [
+        {
+          "eventId": "Q39",
+          "citation": "David-Kupiainen-Rhodes-Vargas arXiv:1410.7318"
+        }
+      ],
+      "title": "Liouville Quantum Gravity on the Riemann sphere",
+      "authors": [
+        "François David",
+        "Antti Kupiainen",
+        "Rémi Rhodes",
+        "Vincent Vargas"
+      ],
+      "published": "2014-10-27T17:14:03Z",
+      "url": "http://arxiv.org/abs/1410.7318v4"
+    },
+    {
+      "arxivId": "1707.08785",
+      "citations": [
+        {
+          "eventId": "Q39",
+          "citation": "Kupiainen-Rhodes-Vargas arXiv:1707.08785"
+        }
+      ],
+      "title": "Integrability of Liouville theory: proof of the DOZZ Formula",
+      "authors": [
+        "Antti Kupiainen",
+        "Rémi Rhodes",
+        "Vincent Vargas"
+      ],
+      "published": "2017-07-27T09:00:06Z",
+      "url": "http://arxiv.org/abs/1707.08785v3"
+    },
+    {
+      "arxivId": "2005.11530",
+      "citations": [
+        {
+          "eventId": "Q39",
+          "citation": "Guillarmou-Kupiainen-Rhodes-Vargas arXiv:2005.11530"
+        }
+      ],
+      "title": "Conformal bootstrap in Liouville Theory",
+      "authors": [
+        "Colin Guillarmou",
+        "Antti Kupiainen",
+        "Rémi Rhodes",
+        "Vincent Vargas"
+      ],
+      "published": "2020-05-23T13:00:26Z",
+      "url": "http://arxiv.org/abs/2005.11530v2"
+    },
+    {
+      "arxivId": "math/0211159",
+      "citations": [
+        {
+          "eventId": "E53",
+          "citation": "G. Perelman, The entropy formula for the Ricci flow and its geometric applications, arXiv:math/0211159 (2002)"
+        },
+        {
+          "eventId": "E53",
+          "citation": "Perelman, The entropy formula for the Ricci flow, arXiv:math/0211159"
+        }
+      ],
+      "title": "The entropy formula for the Ricci flow and its geometric applications",
+      "authors": [
+        "Grisha Perelman"
+      ],
+      "published": "2002-11-11T16:11:49Z",
+      "url": "http://arxiv.org/abs/math/0211159v1"
+    },
+    {
+      "arxivId": "math/0303109",
+      "citations": [
+        {
+          "eventId": "E53",
+          "citation": "G. Perelman, Ricci flow with surgery on three-manifolds, arXiv:math/0303109 (2003)"
+        },
+        {
+          "eventId": "E53",
+          "citation": "Perelman, Ricci flow with surgery on three-manifolds, arXiv:math/0303109"
+        }
+      ],
+      "title": "Ricci flow with surgery on three-manifolds",
+      "authors": [
+        "Grisha Perelman"
+      ],
+      "published": "2003-03-10T16:44:35Z",
+      "url": "http://arxiv.org/abs/math/0303109v1"
+    },
+    {
+      "arxivId": "math/0307245",
+      "citations": [
+        {
+          "eventId": "E53",
+          "citation": "G. Perelman, Finite extinction time for the solutions to the Ricci flow on certain three-manifolds, arXiv:math/0307245 (2003)"
+        }
+      ],
+      "title": "Finite extinction time for the solutions to the Ricci flow on certain three-manifolds",
+      "authors": [
+        "Grisha Perelman"
+      ],
+      "published": "2003-07-17T15:26:38Z",
+      "url": "http://arxiv.org/abs/math/0307245v1"
+    },
+    {
+      "arxivId": "quant-ph/9508027",
+      "citations": [
+        {
+          "eventId": "P64",
+          "citation": "Shor, Polynomial-time algorithms for prime factorization and discrete logarithms on a quantum computer, SIAM J.Comput. 1997 (quant-ph/9508027)"
+        }
+      ],
+      "title": "Polynomial-Time Algorithms for Prime Factorization and Discrete Logarithms on a Quantum Computer",
+      "authors": [
+        "Peter W. Shor"
+      ],
+      "published": "1995-08-30T14:11:00Z",
+      "url": "http://arxiv.org/abs/quant-ph/9508027v2"
+    },
+    {
+      "arxivId": "2102.13459",
+      "citations": [
+        {
+          "eventId": "E66",
+          "citation": "L. Fargues and P. Scholze, Geometrization of the local Langlands correspondence, arXiv:2102.13459 (2021)"
+        },
+        {
+          "eventId": "Q42",
+          "citation": "Fargues-Scholze arXiv:2102.13459"
+        },
+        {
+          "eventId": "Q42",
+          "citation": "Fargues, Scholze, Geometrization of the local Langlands correspondence, arXiv:2102.13459"
+        }
+      ],
+      "title": "Geometrization of the local Langlands correspondence",
+      "authors": [
+        "Laurent Fargues",
+        "Peter Scholze"
+      ],
+      "published": "2021-02-26T13:34:06Z",
+      "url": "http://arxiv.org/abs/2102.13459v4"
+    },
+    {
+      "arxivId": "2405.03599",
+      "citations": [
+        {
+          "eventId": "E66",
+          "citation": "D. Gaitsgory, S. Raskin et al., Proof of the geometric Langlands conjecture I-V, arXiv:2405.03599, 2405.03648, 2409.07051, 2409.08670, 2409.09856 (2024)"
+        }
+      ],
+      "title": "Proof of the geometric Langlands conjecture I: construction of the functor",
+      "authors": [
+        "Dennis Gaitsgory",
+        "Sam Raskin"
+      ],
+      "published": "2024-05-06T16:13:20Z",
+      "url": "http://arxiv.org/abs/2405.03599v3"
+    },
+    {
+      "arxivId": "2210.06279",
+      "citations": [
+        {
+          "eventId": "Q30",
+          "citation": "Sawin-Wood arXiv:2210.06279"
+        }
+      ],
+      "title": "The moment problem for random objects in a category",
+      "authors": [
+        "Will Sawin",
+        "Melanie Matchett Wood"
+      ],
+      "published": "2022-10-12T15:03:25Z",
+      "url": "http://arxiv.org/abs/2210.06279v2"
+    },
+    {
+      "arxivId": "2301.00791",
+      "citations": [
+        {
+          "eventId": "Q30",
+          "citation": "Sawin-Wood arXiv:2301.00791"
+        }
+      ],
+      "title": "Conjectures for distributions of class groups of extensions of number fields containing roots of unity",
+      "authors": [
+        "Will Sawin",
+        "Melanie Matchett Wood"
+      ],
+      "published": "2023-01-02T18:22:15Z",
+      "url": "http://arxiv.org/abs/2301.00791v2"
+    },
+    {
+      "arxivId": "math/0212397",
+      "citations": [
+        {
+          "eventId": "P41",
+          "citation": "Hopkins, Algebraic topology and modular forms, ICM 2002 (math/0212397)"
+        }
+      ],
+      "title": "Algebraic topology and modular forms",
+      "authors": [
+        "Michael J. Hopkins"
+      ],
+      "published": "2002-12-01T00:00:00Z",
+      "url": "http://arxiv.org/abs/math/0212397v1"
+    },
+    {
+      "arxivId": "2301.01121",
+      "citations": [
+        {
+          "eventId": "Q29",
+          "citation": "Borinsky-Vogtmann arXiv:2301.01121"
+        }
+      ],
+      "title": "The Euler characteristic of the moduli space of graphs",
+      "authors": [
+        "Michael Borinsky",
+        "Karen Vogtmann"
+      ],
+      "published": "2023-01-03T14:36:56Z",
+      "url": "http://arxiv.org/abs/2301.01121v4"
+    },
+    {
+      "arxivId": "hep-th/9402147",
+      "citations": [
+        {
+          "eventId": "QC36/WC5",
+          "citation": "Kontsevich, Manin, Gromov-Witten classes, quantum cohomology, CMP 1994, arXiv:hep-th/9402147"
+        }
+      ],
+      "title": "Gromov-Witten classes, quantum cohomology, and enumerative geometry",
+      "authors": [
+        "M. Kontsevich",
+        "Yu. Manin"
+      ],
+      "published": "1994-02-26T11:37:53Z",
+      "url": "http://arxiv.org/abs/hep-th/9402147v2"
+    },
+    {
+      "arxivId": "1907.00847",
+      "citations": [
+        {
+          "eventId": "WC63/QC13",
+          "citation": "Huang, Induced subgraphs of hypercubes and a proof of the Sensitivity Conjecture, Annals 2019 (arXiv:1907.00847)"
+        }
+      ],
+      "title": "Induced subgraphs of hypercubes and a proof of the Sensitivity Conjecture",
+      "authors": [
+        "Hao Huang"
+      ],
+      "published": "2019-07-01T15:14:42Z",
+      "url": "http://arxiv.org/abs/1907.00847v2"
+    },
+    {
+      "arxivId": "hep-th/9411102",
+      "citations": [
+        {
+          "eventId": "QC37",
+          "citation": "Witten, Monopoles and four-manifolds, Math. Res. Lett. 1994, arXiv:hep-th/9411102"
+        }
+      ],
+      "title": "Monopoles and Four-Manifolds",
+      "authors": [
+        "Edward Witten"
+      ],
+      "published": "1994-11-15T02:09:04Z",
+      "url": "http://arxiv.org/abs/hep-th/9411102v1"
+    },
+    {
+      "arxivId": "0905.0465",
+      "citations": [
+        {
+          "eventId": "WC33/QC41",
+          "citation": "Lurie, On the classification of topological field theories, 2009 (arXiv:0905.0465)"
+        }
+      ],
+      "title": "On the Classification of Topological Field Theories",
+      "authors": [
+        "Jacob Lurie"
+      ],
+      "published": "2009-05-04T19:15:13Z",
+      "url": "http://arxiv.org/abs/0905.0465v1"
+    },
+    {
+      "arxivId": "2103.01507",
+      "citations": [
+        {
+          "eventId": "Q44",
+          "citation": "Abouzaid-Blumberg arXiv:2103.01507"
+        }
+      ],
+      "title": "Arnold Conjecture and Morava K-theory",
+      "authors": [
+        "Mohammed Abouzaid",
+        "Andrew J. Blumberg"
+      ],
+      "published": "2021-03-02T06:49:28Z",
+      "url": "http://arxiv.org/abs/2103.01507v1"
+    },
+    {
+      "arxivId": "2110.14320",
+      "citations": [
+        {
+          "eventId": "Q44",
+          "citation": "Abouzaid-McLean-Smith arXiv:2110.14320"
+        }
+      ],
+      "title": "Complex cobordism, Hamiltonian loops and global Kuranishi charts",
+      "authors": [
+        "Mohammed Abouzaid",
+        "Mark McLean",
+        "Ivan Smith"
+      ],
+      "published": "2021-10-27T09:59:17Z",
+      "url": "http://arxiv.org/abs/2110.14320v2"
+    },
+    {
+      "arxivId": "hep-ph/9504352",
+      "citations": [
+        {
+          "eventId": "Q56",
+          "citation": "Broadhurst-Kreimer (1994-95) arXiv:hep-ph/9504352"
+        }
+      ],
+      "title": "Knots and Numbers in $φ^4$ Theory to 7 Loops and Beyond",
+      "authors": [
+        "D. J. Broadhurst",
+        "D. Kreimer"
+      ],
+      "published": "1995-04-21T14:27:00Z",
+      "url": "http://arxiv.org/abs/hep-ph/9504352v1"
+    },
+    {
+      "arxivId": "hep-th/9606040",
+      "citations": [
+        {
+          "eventId": "WC3",
+          "citation": "Strominger-Yau-Zaslow, Mirror symmetry is T-duality, Nucl.Phys.B 1996 (hep-th/9606040)"
+        }
+      ],
+      "title": "Mirror Symmetry is T-Duality",
+      "authors": [
+        "Andrew Strominger",
+        "Shing-Tung Yau",
+        "Eric Zaslow"
+      ],
+      "published": "1996-06-07T17:29:31Z",
+      "url": "http://arxiv.org/abs/hep-th/9606040v2"
+    },
+    {
+      "arxivId": "quant-ph/9707021",
+      "citations": [
+        {
+          "eventId": "WC79",
+          "citation": "Kitaev, Fault-tolerant quantum computation by anyons, Ann.Phys. 2003 (quant-ph/9707021)"
+        }
+      ],
+      "title": "Fault-tolerant quantum computation by anyons",
+      "authors": [
+        "A. Yu. Kitaev"
+      ],
+      "published": "1997-07-09T18:28:27Z",
+      "url": "http://arxiv.org/abs/quant-ph/9707021v1"
+    },
+    {
+      "arxivId": "2311.05762",
+      "citations": [
+        {
+          "eventId": "E59",
+          "citation": "W. T. Gowers, B. Green, F. Manners and T. Tao, On a conjecture of Marton, arXiv:2311.05762 (2023)"
+        },
+        {
+          "eventId": "E59",
+          "citation": "Gowers, Green, Manners, Tao, On a conjecture of Marton, arXiv:2311.05762"
+        }
+      ],
+      "title": "On a conjecture of Marton",
+      "authors": [
+        "W. T. Gowers",
+        "Ben Green",
+        "Freddie Manners",
+        "Terence Tao"
+      ],
+      "published": "2023-11-09T22:00:17Z",
+      "url": "http://arxiv.org/abs/2311.05762v2"
+    },
+    {
+      "arxivId": "math/9908171",
+      "citations": [
+        {
+          "eventId": "WC11/QC39",
+          "citation": "Khovanov, A categorification of the Jones polynomial, Duke Math. J. 2000 (math/9908171)"
+        }
+      ],
+      "title": "A categorification of the Jones polynomial",
+      "authors": [
+        "Mikhail Khovanov"
+      ],
+      "published": "1999-08-30T22:53:01Z",
+      "url": "http://arxiv.org/abs/math/9908171v2"
+    },
+    {
+      "arxivId": "math/0101206",
+      "citations": [
+        {
+          "eventId": "P46",
+          "citation": "Ozsvath, Szabo, Holomorphic disks and topological invariants, Annals 2004, arXiv:math/0101206"
+        }
+      ],
+      "title": "Holomorphic disks and topological invariants for closed three-manifolds",
+      "authors": [
+        "Peter Ozsvath",
+        "Zoltan Szabo"
+      ],
+      "published": "2001-01-25T04:49:51Z",
+      "url": "http://arxiv.org/abs/math/0101206v4"
+    },
+    {
+      "arxivId": "math/0412127",
+      "citations": [
+        {
+          "eventId": "E55",
+          "citation": "Lott, Villani, Ricci curvature for metric-measure spaces via optimal transport, Annals 2009, arXiv:math/0412127"
+        }
+      ],
+      "title": "Ricci curvature for metric-measure spaces via optimal transport",
+      "authors": [
+        "John Lott",
+        "Cedric Villani"
+      ],
+      "published": "2004-12-07T05:06:33Z",
+      "url": "http://arxiv.org/abs/math/0412127v4"
+    },
+    {
+      "arxivId": "math/0503503",
+      "citations": [
+        {
+          "eventId": "QC18",
+          "citation": "Mossel, O'Donnell, Oleszkiewicz, Noise stability of functions with low influences, Annals 2010, arXiv:math/0503503"
+        }
+      ],
+      "title": "Noise stability of functions with low influences: invariance and optimality",
+      "authors": [
+        "Elchanan Mossel",
+        "Ryan O'Donnell",
+        "Krzysztof Oleszkiewicz"
+      ],
+      "published": "2005-03-23T18:54:38Z",
+      "url": "http://arxiv.org/abs/math/0503503v2"
+    },
+    {
+      "arxivId": "0708.0039",
+      "citations": [
+        {
+          "eventId": "QC58/WC50",
+          "citation": "Smirnov, Conformal invariance in random cluster models I, Annals 2010, arXiv:0708.0039"
+        }
+      ],
+      "title": "Conformal invariance in random cluster models. I. Holomorphic fermions in the Ising model",
+      "authors": [
+        "Stanislav Smirnov"
+      ],
+      "published": "2007-07-31T22:13:49Z",
+      "url": "http://arxiv.org/abs/0708.0039v1"
+    },
+    {
+      "arxivId": "math/0611007",
+      "citations": [
+        {
+          "eventId": "QC73",
+          "citation": "Taubes, The Seiberg-Witten equations and the Weinstein conjecture, Geom. Topol. 2007, arXiv:math/0611007"
+        }
+      ],
+      "title": "The Seiberg-Witten equations and the Weinstein conjecture",
+      "authors": [
+        "Clifford Henry Taubes"
+      ],
+      "published": "2006-10-31T23:49:17Z",
+      "url": "http://arxiv.org/abs/math/0611007v3"
+    },
+    {
+      "arxivId": "hep-th/0604151",
+      "citations": [
+        {
+          "eventId": "QC31",
+          "citation": "Kapustin, Witten, Electric-magnetic duality and the geometric Langlands program, arXiv:hep-th/0604151"
+        },
+        {
+          "eventId": "QC31",
+          "citation": "Kapustin-Witten, Electric-magnetic duality and the geometric Langlands program, 2007 (hep-th/0604151)"
+        }
+      ],
+      "title": "Electric-Magnetic Duality And The Geometric Langlands Program",
+      "authors": [
+        "Anton Kapustin",
+        "Edward Witten"
+      ],
+      "published": "2006-04-21T19:17:43Z",
+      "url": "http://arxiv.org/abs/hep-th/0604151v3"
+    },
+    {
+      "arxivId": "math/0701075",
+      "citations": [
+        {
+          "eventId": "Q71",
+          "citation": "Baker arXiv:math/0701075"
+        }
+      ],
+      "title": "Specialization of linear systems from curves to graphs",
+      "authors": [
+        "Matthew Baker"
+      ],
+      "published": "2007-01-02T21:32:42Z",
+      "url": "http://arxiv.org/abs/math/0701075v4"
+    },
+    {
+      "arxivId": "1701.06579",
+      "citations": [
+        {
+          "eventId": "Q71",
+          "citation": "Jensen-Ranganathan arXiv:1701.06579"
+        }
+      ],
+      "title": "Brill-Noether theory for curves of a fixed gonality",
+      "authors": [
+        "David Jensen",
+        "Dhruv Ranganathan"
+      ],
+      "published": "2017-01-23T19:00:07Z",
+      "url": "http://arxiv.org/abs/1701.06579v2"
+    },
+    {
+      "arxivId": "1808.01285",
+      "citations": [
+        {
+          "eventId": "Q71",
+          "citation": "Jensen-Payne arXiv:1808.01285"
+        }
+      ],
+      "title": "On the strong maximal rank conjecture in genus 22 and 23",
+      "authors": [
+        "David Jensen",
+        "Sam Payne"
+      ],
+      "published": "2018-08-03T18:00:06Z",
+      "url": "http://arxiv.org/abs/1808.01285v2"
+    },
+    {
+      "arxivId": "1011.4105",
+      "citations": [
+        {
+          "eventId": "WC66/QC23",
+          "citation": "Guth-Katz, On the Erdos distinct distances problem in the plane, Annals 2015 (arXiv:1011.4105)"
+        }
+      ],
+      "title": "On the Erdos distinct distance problem in the plane",
+      "authors": [
+        "Larry Guth",
+        "Nets Hawk Katz"
+      ],
+      "published": "2010-11-17T23:39:40Z",
+      "url": "http://arxiv.org/abs/1011.4105v3"
+    },
+    {
+      "arxivId": "1409.7055",
+      "citations": [
+        {
+          "eventId": "QC60",
+          "citation": "Duplantier, Miller, Sheffield, Liouville quantum gravity as a mating of trees, arXiv:1409.7055"
+        }
+      ],
+      "title": "Liouville quantum gravity as a mating of trees",
+      "authors": [
+        "Bertrand Duplantier",
+        "Jason Miller",
+        "Scott Sheffield"
+      ],
+      "published": "2014-09-24T19:50:15Z",
+      "url": "http://arxiv.org/abs/1409.7055v4"
+    },
+    {
+      "arxivId": "0811.2435",
+      "citations": [
+        {
+          "eventId": "WC110",
+          "citation": "Kontsevich-Soibelman, Stability structures, motivic DT invariants and cluster transformations, 2008 (arXiv:0811.2435)"
+        }
+      ],
+      "title": "Stability structures, motivic Donaldson-Thomas invariants and cluster transformations",
+      "authors": [
+        "Maxim Kontsevich",
+        "Yan Soibelman"
+      ],
+      "published": "2008-11-16T21:00:44Z",
+      "url": "http://arxiv.org/abs/0811.2435v1"
+    },
+    {
+      "arxivId": "2502.12268",
+      "citations": [
+        {
+          "eventId": "Q65",
+          "citation": "Anantharaman-Monk arXiv:2502.12268"
+        }
+      ],
+      "title": "Friedman-Ramanujan functions in random hyperbolic geometry and application to spectral gaps II",
+      "authors": [
+        "Nalini Anantharaman",
+        "Laura Monk"
+      ],
+      "published": "2025-02-17T19:08:30Z",
+      "url": "http://arxiv.org/abs/2502.12268v2"
+    },
+    {
+      "arxivId": "2304.02678",
+      "citations": [
+        {
+          "eventId": "Q65",
+          "citation": "Anantharaman-Monk arXiv:2304.02678"
+        }
+      ],
+      "title": "Friedman-Ramanujan functions in random hyperbolic geometry and application to spectral gaps I",
+      "authors": [
+        "Nalini Anantharaman",
+        "Laura Monk"
+      ],
+      "published": "2023-04-05T18:16:09Z",
+      "url": "http://arxiv.org/abs/2304.02678v4"
+    },
+    {
+      "arxivId": "2401.01601",
+      "citations": [
+        {
+          "eventId": "Q65",
+          "citation": "Anantharaman-Monk arXiv:2401.01601"
+        }
+      ],
+      "title": "A Moebius inversion formula to discard tangled hyperbolic surfaces",
+      "authors": [
+        "Nalini Anantharaman",
+        "Laura Monk"
+      ],
+      "published": "2024-01-03T08:09:45Z",
+      "url": "http://arxiv.org/abs/2401.01601v2"
+    },
+    {
+      "arxivId": "1212.5605",
+      "citations": [
+        {
+          "eventId": "Q7",
+          "citation": "Arkani-Hamed et al. arXiv:1212.5605"
+        }
+      ],
+      "title": "Scattering Amplitudes and the Positive Grassmannian",
+      "authors": [
+        "Nima Arkani-Hamed",
+        "Jacob L. Bourjaily",
+        "Freddy Cachazo",
+        "Alexander B. Goncharov",
+        "Alexander Postnikov",
+        "Jaroslav Trnka"
+      ],
+      "published": "2012-12-21T21:00:02Z",
+      "url": "http://arxiv.org/abs/1212.5605v2"
+    },
+    {
+      "arxivId": "1312.2007",
+      "citations": [
+        {
+          "eventId": "Q7",
+          "citation": "Arkani-Hamed-Trnka arXiv:1312.2007"
+        },
+        {
+          "eventId": "Q7",
+          "citation": "Arkani-Hamed, Trnka, The amplituhedron, arXiv:1312.2007"
+        }
+      ],
+      "title": "The Amplituhedron",
+      "authors": [
+        "Nima Arkani-Hamed",
+        "Jaroslav Trnka"
+      ],
+      "published": "2013-12-06T21:00:01Z",
+      "url": "http://arxiv.org/abs/1312.2007v1"
+    },
+    {
+      "arxivId": "1009.3998",
+      "citations": [
+        {
+          "eventId": "QC8",
+          "citation": "Green, Tao, Ziegler, An inverse theorem for the Gowers U^{s+1} norm, Annals 2012, arXiv:1009.3998"
+        }
+      ],
+      "title": "An inverse theorem for the Gowers U^{s+1}[N]-norm",
+      "authors": [
+        "Ben Green",
+        "Terence Tao",
+        "Tamar Ziegler"
+      ],
+      "published": "2010-09-21T05:41:11Z",
+      "url": "http://arxiv.org/abs/1009.3998v5"
+    },
+    {
+      "arxivId": "1002.2259",
+      "citations": [
+        {
+          "eventId": "Q3",
+          "citation": "Bansal arXiv:1002.2259"
+        }
+      ],
+      "title": "Constructive Algorithms for Discrepancy Minimization",
+      "authors": [
+        "Nikhil Bansal"
+      ],
+      "published": "2010-02-11T02:48:06Z",
+      "url": "http://arxiv.org/abs/1002.2259v4"
+    },
+    {
+      "arxivId": "2204.11427",
+      "citations": [
+        {
+          "eventId": "Q3",
+          "citation": "Bansal et al. arXiv:2204.11427"
+        }
+      ],
+      "title": "Smoothed Analysis of the Komlós Conjecture",
+      "authors": [
+        "Nikhil Bansal",
+        "Haotian Jiang",
+        "Raghu Meka",
+        "Sahil Singla",
+        "Makrand Sinha"
+      ],
+      "published": "2022-04-25T04:15:38Z",
+      "url": "http://arxiv.org/abs/2204.11427v1"
+    },
+    {
+      "arxivId": "2508.03961",
+      "citations": [
+        {
+          "eventId": "Q3",
+          "citation": "Bansal-Jiang arXiv:2508.03961"
+        }
+      ],
+      "title": "Decoupling via Affine Spectral-Independence: Beck-Fiala and Komlós Bounds Beyond Banaszczyk",
+      "authors": [
+        "Nikhil Bansal",
+        "Haotian Jiang"
+      ],
+      "published": "2025-08-05T22:54:28Z",
+      "url": "http://arxiv.org/abs/2508.03961v2"
+    },
+    {
+      "arxivId": "1709.07343",
+      "citations": [
+        {
+          "eventId": "Q42",
+          "citation": "Scholze arXiv:1709.07343"
+        }
+      ],
+      "title": "Etale cohomology of diamonds",
+      "authors": [
+        "Peter Scholze"
+      ],
+      "published": "2017-09-21T14:27:30Z",
+      "url": "http://arxiv.org/abs/1709.07343v4"
+    },
+    {
+      "arxivId": "1004.0956",
+      "citations": [
+        {
+          "eventId": "Q58",
+          "citation": "Eguchi-Ooguri-Tachikawa arXiv:1004.0956"
+        },
+        {
+          "eventId": "Q58",
+          "citation": "Eguchi, Ooguri, Tachikawa, Notes on the K3 surface and Mathieu group M24, arXiv:1004.0956"
+        }
+      ],
+      "title": "Notes on the K3 Surface and the Mathieu group M_24",
+      "authors": [
+        "Tohru Eguchi",
+        "Hirosi Ooguri",
+        "Yuji Tachikawa"
+      ],
+      "published": "2010-04-06T20:03:09Z",
+      "url": "http://arxiv.org/abs/1004.0956v2"
+    },
+    {
+      "arxivId": "1204.2779",
+      "citations": [
+        {
+          "eventId": "Q58",
+          "citation": "Cheng-Duncan-Harvey arXiv:1204.2779"
+        }
+      ],
+      "title": "Umbral Moonshine",
+      "authors": [
+        "Miranda C. N. Cheng",
+        "John F. R. Duncan",
+        "Jeffrey A. Harvey"
+      ],
+      "published": "2012-04-12T17:33:32Z",
+      "url": "http://arxiv.org/abs/1204.2779v3"
+    },
+    {
+      "arxivId": "1503.01472",
+      "citations": [
+        {
+          "eventId": "Q58",
+          "citation": "Duncan-Griffin-Ono arXiv:1503.01472"
+        }
+      ],
+      "title": "Proof of the Umbral Moonshine Conjecture",
+      "authors": [
+        "John F. R. Duncan",
+        "Michael J. Griffin",
+        "Ken Ono"
+      ],
+      "published": "2015-03-04T21:03:46Z",
+      "url": "http://arxiv.org/abs/1503.01472v2"
+    },
+    {
+      "arxivId": "1111.4914",
+      "citations": [
+        {
+          "eventId": "B16/QC26/WC25",
+          "citation": "Scholze, Perfectoid spaces, Publ. IHES 2012, arXiv:1111.4914"
+        }
+      ],
+      "title": "Perfectoid spaces",
+      "authors": [
+        "Peter Scholze"
+      ],
+      "published": "2011-11-21T16:14:23Z",
+      "url": "http://arxiv.org/abs/1111.4914v1"
+    },
+    {
+      "arxivId": "2001.04383",
+      "citations": [
+        {
+          "eventId": "Q45",
+          "citation": "Ji-Natarajan-Vidick-Wright-Yuen arXiv:2001.04383"
+        },
+        {
+          "eventId": "Q45",
+          "citation": "Ji, Natarajan, Vidick, Wright, Yuen, MIP*=RE, arXiv:2001.04383"
+        }
+      ],
+      "title": "MIP*=RE",
+      "authors": [
+        "Zhengfeng Ji",
+        "Anand Natarajan",
+        "Thomas Vidick",
+        "John Wright",
+        "Henry Yuen"
+      ],
+      "published": "2020-01-13T16:32:40Z",
+      "url": "http://arxiv.org/abs/2001.04383v3"
+    },
+    {
+      "arxivId": "1306.3969",
+      "citations": [
+        {
+          "eventId": "QC12",
+          "citation": "Marcus, Spielman, Srivastava, Interlacing families II, Annals 2015, arXiv:1306.3969"
+        }
+      ],
+      "title": "Interlacing Families II: Mixed Characteristic Polynomials and the Kadison-Singer Problem",
+      "authors": [
+        "Adam Marcus",
+        "Daniel A Spielman",
+        "Nikhil Srivastava"
+      ],
+      "published": "2013-06-17T19:53:32Z",
+      "url": "http://arxiv.org/abs/1306.3969v4"
+    },
+    {
+      "arxivId": "1507.00719",
+      "citations": [
+        {
+          "eventId": "Q25",
+          "citation": "Miller-Sheffield arXiv:1507.00719"
+        }
+      ],
+      "title": "Liouville quantum gravity and the Brownian map I: The QLE(8/3,0) metric",
+      "authors": [
+        "Jason Miller",
+        "Scott Sheffield"
+      ],
+      "published": "2015-07-02T19:54:32Z",
+      "url": "http://arxiv.org/abs/1507.00719v3"
+    },
+    {
+      "arxivId": "1605.03563",
+      "citations": [
+        {
+          "eventId": "Q25",
+          "citation": "Miller-Sheffield arXiv:1605.03563"
+        }
+      ],
+      "title": "Liouville quantum gravity and the Brownian map II: geodesics and continuity of the embedding",
+      "authors": [
+        "Jason Miller",
+        "Scott Sheffield"
+      ],
+      "published": "2016-05-11T19:52:10Z",
+      "url": "http://arxiv.org/abs/1605.03563v3"
+    },
+    {
+      "arxivId": "1512.01565",
+      "citations": [
+        {
+          "eventId": "QC24",
+          "citation": "Bourgain, Demeter, Guth, Proof of the main conjecture in Vinogradov's mean value theorem, Annals 2016, arXiv:1512.01565"
+        }
+      ],
+      "title": "Proof of the main conjecture in Vinogradov's mean value theorem for degrees higher than three",
+      "authors": [
+        "Jean Bourgain",
+        "Ciprian Demeter",
+        "Larry Guth"
+      ],
+      "published": "2015-12-04T21:09:37Z",
+      "url": "http://arxiv.org/abs/1512.01565v3"
+    },
+    {
+      "arxivId": "1412.5148",
+      "citations": [
+        {
+          "eventId": "Q33",
+          "citation": "Gaiotto-Kapustin-Seiberg-Willett arXiv:1412.5148"
+        }
+      ],
+      "title": "Generalized Global Symmetries",
+      "authors": [
+        "Davide Gaiotto",
+        "Anton Kapustin",
+        "Nathan Seiberg",
+        "Brian Willett"
+      ],
+      "published": "2014-12-16T20:10:29Z",
+      "url": "http://arxiv.org/abs/1412.5148v2"
+    },
+    {
+      "arxivId": "1812.02517",
+      "citations": [
+        {
+          "eventId": "Q33",
+          "citation": "Wen arXiv:1812.02517"
+        }
+      ],
+      "title": "Emergent (anomalous) higher symmetries from topological orders and from dynamical electromagnetic field in condensed matter systems",
+      "authors": [
+        "Xiao-Gang Wen"
+      ],
+      "published": "2018-12-06T13:26:43Z",
+      "url": "http://arxiv.org/abs/1812.02517v5"
+    },
+    {
+      "arxivId": "2305.05022",
+      "citations": [
+        {
+          "eventId": "Q4",
+          "citation": "Cohen arXiv:2305.05022 (Annals 2025)"
+        }
+      ],
+      "title": "Fractal uncertainty in higher dimensions",
+      "authors": [
+        "Alex Cohen"
+      ],
+      "published": "2023-05-08T19:57:48Z",
+      "url": "http://arxiv.org/abs/2305.05022v2"
+    },
+    {
+      "arxivId": "1605.09223",
+      "citations": [
+        {
+          "eventId": "QC22/WC67",
+          "citation": "Ellenberg, Gijswijt, On large subsets of F_q^n with no three-term arithmetic progression, Annals 2017, arXiv:1605.09223"
+        }
+      ],
+      "title": "On large subsets of $F_q^n$ with no three-term arithmetic progression",
+      "authors": [
+        "Jordan S. Ellenberg",
+        "Dion Gijswijt"
+      ],
+      "published": "2016-05-30T13:32:52Z",
+      "url": "http://arxiv.org/abs/1605.09223v1"
+    },
+    {
+      "arxivId": "1905.08229",
+      "citations": [
+        {
+          "eventId": "WC28/QC70",
+          "citation": "Bhatt-Scholze, Prisms and prismatic cohomology, Annals 2022 (arXiv:1905.08229)"
+        }
+      ],
+      "title": "Prisms and Prismatic Cohomology",
+      "authors": [
+        "Bhargav Bhatt",
+        "Peter Scholze"
+      ],
+      "published": "2019-05-20T17:33:23Z",
+      "url": "http://arxiv.org/abs/1905.08229v4"
+    },
+    {
+      "arxivId": "1606.03140",
+      "citations": [
+        {
+          "eventId": "Q46",
+          "citation": "Slofstra arXiv:1606.03140"
+        }
+      ],
+      "title": "Tsirelson's problem and an embedding theorem for groups arising from non-local games",
+      "authors": [
+        "William Slofstra"
+      ],
+      "published": "2016-06-09T23:01:03Z",
+      "url": "http://arxiv.org/abs/1606.03140v3"
+    },
+    {
+      "arxivId": "1709.05032",
+      "citations": [
+        {
+          "eventId": "Q46",
+          "citation": "arXiv:1709.05032"
+        }
+      ],
+      "title": "Non-closure of the set of quantum correlations via graphs",
+      "authors": [
+        "Ken Dykema",
+        "Vern I. Paulsen",
+        "Jitendra Prakash"
+      ],
+      "published": "2017-09-15T02:12:11Z",
+      "url": "http://arxiv.org/abs/1709.05032v3"
+    },
+    {
+      "arxivId": "1806.07572",
+      "citations": [
+        {
+          "eventId": "QC78/WC95",
+          "citation": "Jacot, Gabriel, Hongler, Neural tangent kernel, arXiv:1806.07572"
+        }
+      ],
+      "title": "Neural Tangent Kernel: Convergence and Generalization in Neural Networks",
+      "authors": [
+        "Arthur Jacot",
+        "Franck Gabriel",
+        "Clément Hongler"
+      ],
+      "published": "2018-06-20T06:35:46Z",
+      "url": "http://arxiv.org/abs/1806.07572v4"
+    },
+    {
+      "arxivId": "1902.03719",
+      "citations": [
+        {
+          "eventId": "WC65",
+          "citation": "Branden-Huh, Lorentzian polynomials, Annals 2020 (arXiv:1902.03719)"
+        }
+      ],
+      "title": "Lorentzian polynomials",
+      "authors": [
+        "Petter Brändén",
+        "June Huh"
+      ],
+      "published": "2019-02-11T04:06:16Z",
+      "url": "http://arxiv.org/abs/1902.03719v8"
+    },
+    {
+      "arxivId": "1810.04801",
+      "citations": [
+        {
+          "eventId": "QC99",
+          "citation": "Bakker, Klingler, Tsimerman, Tame topology of arithmetic quotients, JAMS 2019, arXiv:1810.04801"
+        }
+      ],
+      "title": "Tame topology of arithmetic quotients and algebraicity of Hodge loci",
+      "authors": [
+        "Benjamin Bakker",
+        "Bruno Klingler",
+        "Jacob Tsimerman"
+      ],
+      "published": "2018-10-01T17:05:42Z",
+      "url": "http://arxiv.org/abs/1810.04801v2"
+    },
+    {
+      "arxivId": "1808.01536",
+      "citations": [
+        {
+          "eventId": "Q13",
+          "citation": "McCann arXiv:1808.01536"
+        }
+      ],
+      "title": "Displacement convexity of Boltzmann's entropy characterizes the strong energy condition from general relativity",
+      "authors": [
+        "Robert J McCann"
+      ],
+      "published": "2018-08-04T21:30:11Z",
+      "url": "http://arxiv.org/abs/1808.01536v3"
+    },
+    {
+      "arxivId": "2004.08934",
+      "citations": [
+        {
+          "eventId": "Q13",
+          "citation": "Cavalletti-Mondino arXiv:2004.08934"
+        }
+      ],
+      "title": "Optimal transport in Lorentzian synthetic spaces, synthetic timelike Ricci curvature lower bounds and applications",
+      "authors": [
+        "Fabio Cavalletti",
+        "Andrea Mondino"
+      ],
+      "published": "2020-04-19T18:52:47Z",
+      "url": "http://arxiv.org/abs/2004.08934v3"
+    },
+    {
+      "arxivId": "2506.04934",
+      "citations": [
+        {
+          "eventId": "Q13",
+          "citation": "Cavalletti-Mondino-Manini arXiv:2506.04934"
+        }
+      ],
+      "title": "On the geometry of synthetic null hypersurfaces",
+      "authors": [
+        "Fabio Cavalletti",
+        "Davide Manini",
+        "Andrea Mondino"
+      ],
+      "published": "2025-06-05T12:09:09Z",
+      "url": "http://arxiv.org/abs/2506.04934v3"
+    },
+    {
+      "arxivId": "2111.03683",
+      "citations": [
+        {
+          "eventId": "Q1",
+          "citation": "arXiv:2111.03683"
+        }
+      ],
+      "title": "On Homomorphism Graphs",
+      "authors": [
+        "Sebastian Brandt",
+        "Yi-Jun Chang",
+        "Jan Grebík",
+        "Christoph Grunau",
+        "Václav Rozhoň",
+        "Zoltán Vidnyánszky"
+      ],
+      "published": "2021-11-05T18:21:52Z",
+      "url": "http://arxiv.org/abs/2111.03683v2"
+    },
+    {
+      "arxivId": "2508.05105",
+      "citations": [
+        {
+          "eventId": "Q10",
+          "citation": "Katzarkov-Kontsevich-Pantev-Yu arXiv:2508.05105"
+        }
+      ],
+      "title": "Birational Invariants from Hodge Structures and Quantum Multiplication",
+      "authors": [
+        "Ludmil Katzarkov",
+        "Maxim Kontsevich",
+        "Tony Pantev",
+        "Tony Yue YU"
+      ],
+      "published": "2025-08-07T07:41:17Z",
+      "url": "http://arxiv.org/abs/2508.05105v2"
+    },
+    {
+      "arxivId": "2307.13555",
+      "citations": [
+        {
+          "eventId": "Q10",
+          "citation": "Iritani arXiv:2307.13555"
+        }
+      ],
+      "title": "Quantum cohomology of blowups",
+      "authors": [
+        "Hiroshi Iritani"
+      ],
+      "published": "2023-07-25T14:59:41Z",
+      "url": "http://arxiv.org/abs/2307.13555v3"
+    },
+    {
+      "arxivId": "2111.15161",
+      "citations": [
+        {
+          "eventId": "Q38",
+          "citation": "Williamson arXiv:2111.15161"
+        }
+      ],
+      "title": "Towards combinatorial invariance for Kazhdan-Lusztig polynomials",
+      "authors": [
+        "Charles Blundell",
+        "Lars Buesing",
+        "Alex Davies",
+        "Petar Veličković",
+        "Geordie Williamson"
+      ],
+      "published": "2021-11-30T06:35:39Z",
+      "url": "http://arxiv.org/abs/2111.15161v1"
+    },
+    {
+      "arxivId": "2111.15323",
+      "citations": [
+        {
+          "eventId": "Q38",
+          "citation": "Juhasz-Lackenby arXiv:2111.15323"
+        }
+      ],
+      "title": "The signature and cusp geometry of hyperbolic knots",
+      "authors": [
+        "Alex Davies",
+        "András Juhász",
+        "Marc Lackenby",
+        "Nenad Tomasev"
+      ],
+      "published": "2021-11-30T12:08:03Z",
+      "url": "http://arxiv.org/abs/2111.15323v3"
+    },
+    {
+      "arxivId": "2408.15403",
+      "citations": [
+        {
+          "eventId": "Q62",
+          "citation": "Calegari-Dimitrov-Tang arXiv:2408.15403"
+        }
+      ],
+      "title": "The linear independence of $1$, $ζ(2)$, and $L(2,χ_{-3})$",
+      "authors": [
+        "Frank Calegari",
+        "Vesselin Dimitrov",
+        "Yunqing Tang"
+      ],
+      "published": "2024-08-27T20:54:15Z",
+      "url": "http://arxiv.org/abs/2408.15403v2"
+    },
+    {
+      "arxivId": "2210.04045",
+      "citations": [
+        {
+          "eventId": "Q68",
+          "citation": "Kauers-Moosbauer arXiv:2210.04045"
+        }
+      ],
+      "title": "The FBHHRBNRSSSHK-Algorithm for Multiplication in $\\mathbb{Z}_2^{5\\times5}$ is still not the end of the story",
+      "authors": [
+        "Manuel Kauers",
+        "Jakob Moosbauer"
+      ],
+      "published": "2022-10-08T15:04:25Z",
+      "url": "http://arxiv.org/abs/2210.04045v3"
+    },
+    {
+      "arxivId": "2401.10821",
+      "citations": [
+        {
+          "eventId": "Q22",
+          "citation": "Greenfeld-Iliopoulou-Peluse arXiv:2401.10821"
+        }
+      ],
+      "title": "On integer distance sets",
+      "authors": [
+        "Rachel Greenfeld",
+        "Marina Iliopoulou",
+        "Sarah Peluse"
+      ],
+      "published": "2024-01-19T17:13:56Z",
+      "url": "http://arxiv.org/abs/2401.10821v3"
+    },
+    {
+      "arxivId": "2502.17655",
+      "citations": [
+        {
+          "eventId": "B33",
+          "citation": "H. Wang and J. Zahl, Volume estimates for unions of convex sets, and the Kakeya set conjecture in three dimensions, arXiv:2502.17655 (2025)"
+        }
+      ],
+      "title": "Volume estimates for unions of convex sets, and the Kakeya set conjecture in three dimensions",
+      "authors": [
+        "Hong Wang",
+        "Joshua Zahl"
+      ],
+      "published": "2025-02-24T21:08:02Z",
+      "url": "http://arxiv.org/abs/2502.17655v1"
+    }
+  ]
+}

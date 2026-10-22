@@ -1,0 +1,140 @@
+[
+ {
+  "pid": "P121",
+  "eventId": "WA29/MA37",
+  "name": "Islamic spherical trigonometry",
+  "type": "birth-by-abstraction",
+  "from": [
+   "astronomy",
+   "geometry"
+  ],
+  "to": [
+   "trigonometry"
+  ],
+  "summary": "Islamic scholars used all six functions and proved spherical sine laws and identities."
+ },
+ {
+  "pid": "P160",
+  "eventId": "MA33",
+  "name": "al-Mahani: geometric problems reduced to algebra",
+  "type": "dictionary-analogy",
+  "from": [
+   "geometry (cube duplication)",
+   "algebra"
+  ],
+  "to": [
+   "algebra"
+  ],
+  "summary": "Classical construction problems were recast as algebraic (cubic) equations."
+ },
+ {
+  "pid": "P178",
+  "eventId": "WA32",
+  "name": "Ibn al-Haytham and Ibn Sinan: quadrature",
+  "type": "technique-transfer",
+  "from": [
+   "geometry",
+   "arithmetic"
+  ],
+  "to": [
+   "integration/quadrature"
+  ],
+  "summary": "Sums of powers were used for areas and volumes, and Archimedean parabola quadrature was generalised."
+ },
+ {
+  "pid": "P172",
+  "eventId": "WA31",
+  "name": "Islamic work on the parallel postulate",
+  "type": "birth-by-abstraction",
+  "from": [
+   "geometry"
+  ],
+  "to": [
+   "foundations of geometry"
+  ],
+  "summary": "Ibn al-Haytham, Khayyam and Tusi studied quadrilaterals as tests of the parallel postulate."
+ },
+ {
+  "pid": "P177",
+  "eventId": "MA32",
+  "name": "al-Karaji: binomial coefficients and early induction",
+  "type": "birth-by-abstraction",
+  "from": [
+   "arithmetic"
+  ],
+  "to": [
+   "algebra"
+  ],
+  "summary": "A table of binomial coefficients and stepwise arguments for sums of integers and cubes anticipate induction."
+ },
+ {
+  "pid": "P122",
+  "eventId": "MA31/WA25",
+  "name": "al-Karaji polynomial algebra",
+  "type": "technique-transfer",
+  "from": [
+   "arithmetic",
+   "algebra"
+  ],
+  "to": [
+   "algebra"
+  ],
+  "summary": "Algebra was freed from geometric operations, with powers and product rules defined for x and 1/x and polynomial arithmetic."
+ },
+ {
+  "pid": "P149",
+  "eventId": "MA25",
+  "name": "Numerical solution of polynomial equations in China (Ruffini-Horner)",
+  "type": "technique-transfer",
+  "from": [
+   "root extraction algorithms",
+   "algebra"
+  ],
+  "to": [
+   "numerical analysis"
+  ],
+  "summary": "Root-extraction algorithms were extended step by step to cubics and higher-degree polynomial equations."
+ },
+ {
+  "pid": "P155",
+  "eventId": "MA28",
+  "name": "Binomial coefficient triangle in China",
+  "type": "birth-by-abstraction",
+  "from": [
+   "root extraction",
+   "algebra"
+  ],
+  "to": [
+   "binomial theorem/combinatorics"
+  ],
+  "summary": "A table of binomial coefficients up to the eighth power appeared as the 'ancient method' of expanding powers."
+ },
+ {
+  "pid": "P136",
+  "eventId": "MA34/WA27",
+  "name": "Khayyam cubics via conics",
+  "type": "technique-transfer",
+  "from": [
+   "Greek conic sections",
+   "algebra"
+  ],
+  "to": [
+   "algebraic geometry (precursor)"
+  ],
+  "summary": "Cubics were classified and solved geometrically through intersections of conics, with a claim that ruler and compass are insufficient."
+ },
+ {
+  "pid": "P125",
+  "eventId": "WA28/MA36",
+  "name": "Sharaf al-Din al-Tusi",
+  "type": "technique-transfer",
+  "from": [
+   "algebra",
+   "analysis-like extremum methods"
+  ],
+  "to": [
+   "theory of cubic equations"
+  ],
+  "summary": "Existence of roots of cubics was analysed through maxima of polynomials."
+ }
+]

@@ -1,0 +1,9 @@
+# Direct audit: pilot batch 3
+
+The ten records in [`milestones3.json`](milestones3.json) contain 41 milestones. They are a direct reconciliation of the earlier A, B and direct research files, not an additional blind pass. The schema check finds no errors.
+
+The milestone sequence preserves disputes that a single date obscured. P006 distinguishes Lagrange's published permutation work (1770–72), Galois's manuscript (1830, noted only), Galois in print (1846), and Cayley's abstract group paper (1854). P048 separates Huh's [2010 graph preprint](https://arxiv.org/abs/1008.4749), the 2012 representable-matroid result, and the [2015 general-matroid preprint](https://arxiv.org/abs/1511.02888), later printed in 2018. P447 keeps Lobachevsky's 1829 account, Bolyai's 1832 Appendix, and Beltrami's 1868 model distinct. P300 uses Tao's 2015 public preprint for the complete result; the Polymath discussion and finite SAT result are precursors. P019 treats the 1942 natural-isomorphism paper as a precursor to the 1945 category paper.
+
+Two archive.org links in the earlier person-work ledger identify later scanned editions: Lobachevsky's 1887 reprint and Bolyai's 1902 Academy edition. The person-work citations now use those edition years, while the original historical dates remain separately supported by history and publication records. This removed two false metadata mismatch flags. The work checker now reports no year mismatches across the 40 completed records.
+
+Remaining priority questions include Szele versus Erdős for the probabilistic method, the exact first use of “non-Euclidean” rather than “imaginary” geometry in a title, and whether a 2006 positive-Grassmannian preprint or its later target applications best defines the cross-field event. The specific evidence and lower-confidence notes remain in the JSON. Metadata verification does not prove these priority interpretations.

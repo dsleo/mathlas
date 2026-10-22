@@ -1,0 +1,805 @@
+[
+  {
+    "eventId": "B05",
+    "canonicalName": "Nonlinear PDE proves the Calabi conjecture",
+    "aliases": [
+      "Calabi conjecture"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "key_development",
+        "year": 1978,
+        "precision": "year",
+        "label": "Yau proves the Calabi conjecture",
+        "work": "S.-T. Yau, On the Ricci curvature of a compact Kahler manifold and the complex Monge-Ampere equation, I, Comm. Pure Appl. Math. 31 (1978) 339-411",
+        "people": [
+          "Shing-Tung Yau"
+        ],
+        "description": "Solves the complex Monge-Ampere equation by a priori estimates, giving Ricci-flat Kahler metrics.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1002/cpa.3160310304",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [
+      {
+        "name": "Shing-Tung Yau",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Shing-Tung_Yau",
+        "works": [
+          {
+            "citation": "S.-T. Yau, On the Ricci curvature of a compact Kahler manifold and the complex Monge-Ampere equation, I, Comm. Pure Appl. Math. 31 (1978) 339-411",
+            "year": 1978,
+            "url": "https://api.crossref.org/works/10.1002/cpa.3160310304",
+            "whyItMatters": "The proof"
+          }
+        ]
+      }
+    ],
+    "notes": "Only Yau's 1978 paper verified (Crossref). Calabi's original conjecture statement and Yau's earlier announcements not opened, so no first_statement.",
+    "pid": "P071",
+    "searchTerms": [
+      "Analysis",
+      "Geometry"
+    ]
+  },
+  {
+    "eventId": "B06",
+    "canonicalName": "Quantum groups from statistical mechanics",
+    "aliases": [
+      "Quantum groups"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "key_development",
+        "year": 1985,
+        "precision": "year",
+        "label": "Jimbo's q-analogue of U(g)",
+        "work": "M. Jimbo, A q-difference analogue of U(g) and the Yang-Baxter equation, Lett. Math. Phys. 10 (1985) 63-69",
+        "people": [
+          "Michio Jimbo"
+        ],
+        "description": "Defines q-deformed enveloping algebras tied to the Yang-Baxter equation.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/bf00704588",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "Drinfeld's own 1985-87 papers were not opened or verified, so priority between Drinfeld and Jimbo is not assigned."
+      }
+    ],
+    "people": [
+      {
+        "name": "Michio Jimbo",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Michio_Jimbo",
+        "works": [
+          {
+            "citation": "M. Jimbo, A q-difference analogue of U(g) and the Yang-Baxter equation, Lett. Math. Phys. 10 (1985) 63-69",
+            "year": 1985,
+            "url": "https://api.crossref.org/works/10.1007/bf00704588",
+            "whyItMatters": "q-deformation of U(g)"
+          }
+        ]
+      }
+    ],
+    "notes": "Searched Crossref for Jimbo only. Drinfeld ICM 1986 and Doklady 1985 unverified; no first_statement or institution milestone.",
+    "pid": "P072",
+    "searchTerms": [
+      "Physics",
+      "Algebra"
+    ]
+  },
+  {
+    "eventId": "B07",
+    "canonicalName": "Viscosity solutions: control theory meets PDE",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1983,
+        "precision": "year",
+        "label": "Viscosity solutions defined",
+        "work": "M. G. Crandall and P.-L. Lions, Viscosity solutions of Hamilton-Jacobi equations, Trans. Amer. Math. Soc. 277 (1983) 1-42",
+        "people": [
+          "Michael G. Crandall",
+          "Pierre-Louis Lions"
+        ],
+        "description": "Introduces viscosity solutions for Hamilton-Jacobi equations.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1090/s0002-9947-1983-0690039-8",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Earlier Crandall-Evans-Lions and Lions work not checked; 1981 date in catalogue unverified."
+      }
+    ],
+    "people": [
+      {
+        "name": "Michael G. Crandall",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Michael_G._Crandall",
+        "works": [
+          {
+            "citation": "M. G. Crandall and P.-L. Lions, Viscosity solutions of Hamilton-Jacobi equations, Trans. Amer. Math. Soc. 277 (1983) 1-42",
+            "year": 1983,
+            "url": "https://api.crossref.org/works/10.1090/s0002-9947-1983-0690039-8",
+            "whyItMatters": "Foundational paper"
+          }
+        ]
+      },
+      {
+        "name": "Pierre-Louis Lions",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Pierre-Louis_Lions",
+        "works": [
+          {
+            "citation": "M. G. Crandall and P.-L. Lions, Viscosity solutions of Hamilton-Jacobi equations, Trans. Amer. Math. Soc. 277 (1983) 1-42",
+            "year": 1983,
+            "url": "https://api.crossref.org/works/10.1090/s0002-9947-1983-0690039-8",
+            "whyItMatters": "Foundational paper"
+          }
+        ]
+      }
+    ],
+    "notes": "Only the 1983 TAMS record verified. Second-order theory (Ishii, Lions) not searched.",
+    "pid": "P073",
+    "searchTerms": [
+      "Control & optimization",
+      "Analysis"
+    ]
+  },
+  {
+    "eventId": "B10",
+    "canonicalName": "Sullivan's dictionary: rational maps and Kleinian groups",
+    "aliases": [
+      "Sullivan's dictionary"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1983,
+        "precision": "year",
+        "label": "Conformal dynamical systems",
+        "work": "D. Sullivan, Conformal dynamical systems, in Geometric Dynamics, Lecture Notes in Math. 1007 (1983) 725-752",
+        "people": [
+          "Dennis Sullivan"
+        ],
+        "description": "Sullivan's article treating rational maps and Kleinian groups together.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/bfb0061443",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Crossref confirms title/year/pages only; that the dictionary is first stated here is not verified from the text."
+      },
+      {
+        "role": "key_development",
+        "year": 1985,
+        "precision": "year",
+        "label": "No wandering domains theorem",
+        "work": "D. Sullivan, Quasiconformal homeomorphisms and dynamics I: Solution of the Fatou-Julia problem on wandering domains, Ann. of Math. 122 (1985) 401-418",
+        "people": [
+          "Dennis Sullivan"
+        ],
+        "description": "Proves rational maps have no wandering domains using methods from Kleinian groups.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.2307/1971308",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [
+      {
+        "name": "Dennis Sullivan",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Dennis_Sullivan",
+        "works": [
+          {
+            "citation": "D. Sullivan, Conformal dynamical systems, in Geometric Dynamics, Lecture Notes in Math. 1007 (1983) 725-752",
+            "year": 1983,
+            "url": "https://api.crossref.org/works/10.1007/bfb0061443",
+            "whyItMatters": "Early statement"
+          },
+          {
+            "citation": "D. Sullivan, Quasiconformal homeomorphisms and dynamics I: Solution of the Fatou-Julia problem on wandering domains, Ann. of Math. 122 (1985) 401-418",
+            "year": 1985,
+            "url": "https://api.crossref.org/works/10.2307/1971308",
+            "whyItMatters": "Main application"
+          }
+        ]
+      }
+    ],
+    "notes": "McMullen 1994 book and Sullivan II (1985) not verified/used; the Sullivan II candidate year matched but inherited citation was Part I.",
+    "pid": "P076",
+    "searchTerms": [
+      "Geometry",
+      "Algebra",
+      "Analysis"
+    ]
+  },
+  {
+    "eventId": "B18",
+    "canonicalName": "Wavelets",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "key_development",
+        "year": 1988,
+        "precision": "year",
+        "label": "Compactly supported orthonormal wavelets",
+        "work": "I. Daubechies, Orthonormal bases of compactly supported wavelets, Comm. Pure Appl. Math. 41 (1988) 909-996",
+        "people": [
+          "Ingrid Daubechies"
+        ],
+        "description": "Constructs orthonormal wavelet bases with compact support.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1002/cpa.3160410705",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "key_development",
+        "year": 1989,
+        "precision": "year",
+        "label": "Multiresolution analysis",
+        "work": "S. G. Mallat, Multiresolution approximations and wavelet orthonormal bases of L^2(R), Trans. Amer. Math. Soc. 315 (1989) 69-87",
+        "people": [
+          "Stephane Mallat"
+        ],
+        "description": "Formalizes multiresolution approximation and wavelet orthonormal bases.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1090/s0002-9947-1989-1008470-5",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [
+      {
+        "name": "Ingrid Daubechies",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Ingrid_Daubechies",
+        "works": [
+          {
+            "citation": "I. Daubechies, Orthonormal bases of compactly supported wavelets, Comm. Pure Appl. Math. 41 (1988) 909-996",
+            "year": 1988,
+            "url": "https://api.crossref.org/works/10.1002/cpa.3160410705",
+            "whyItMatters": "Compact support"
+          }
+        ]
+      },
+      {
+        "name": "Stephane Mallat",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/St%C3%A9phane_Mallat",
+        "works": [
+          {
+            "citation": "S. G. Mallat, Multiresolution approximations and wavelet orthonormal bases of L^2(R), Trans. Amer. Math. Soc. 315 (1989) 69-87",
+            "year": 1989,
+            "url": "https://api.crossref.org/works/10.1090/s0002-9947-1989-1008470-5",
+            "whyItMatters": "Multiresolution"
+          }
+        ]
+      }
+    ],
+    "notes": "Grossmann-Morlet 1984 and Meyer not verified (Crossref lookup failed), so no first_statement. Candidate 10.2307/2001373 is the JSTOR duplicate of the Mallat paper.",
+    "pid": "P084",
+    "searchTerms": [
+      "Information & communication",
+      "Physics",
+      "Analysis"
+    ]
+  },
+  {
+    "eventId": "B19",
+    "canonicalName": "Shannon capacity of graphs and the Lovasz theta function",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1979,
+        "precision": "year",
+        "label": "Lovasz theta function",
+        "work": "L. Lovasz, On the Shannon capacity of a graph, IEEE Trans. Inform. Theory 25 (1979) 1-7",
+        "people": [
+          "Laszlo Lovasz"
+        ],
+        "description": "Introduces the theta bound on Shannon capacity of graphs.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1109/tit.1979.1055985",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [
+      {
+        "name": "Laszlo Lovasz",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Laszlo_Lovasz",
+        "works": [
+          {
+            "citation": "L. Lovasz, On the Shannon capacity of a graph, IEEE Trans. Inform. Theory 25 (1979) 1-7",
+            "year": 1979,
+            "url": "https://api.crossref.org/works/10.1109/tit.1979.1055985",
+            "whyItMatters": "Introduces theta"
+          }
+        ]
+      }
+    ],
+    "notes": "Shannon's 1956 zero-error paper and Grotschel-Lovasz-Schrijver SDP/polynomial-time results not opened; 1981-88 catalogue dates unverified.",
+    "pid": "P085",
+    "searchTerms": [
+      "Information & communication",
+      "Control & optimization",
+      "Combinatorics"
+    ]
+  },
+  {
+    "eventId": "B21",
+    "canonicalName": "Rational homotopy theory via differential forms",
+    "aliases": [
+      "Rational homotopy theory"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1977,
+        "precision": "year",
+        "label": "Polynomial differential forms model homotopy types",
+        "work": "D. Sullivan, Infinitesimal computations in topology, Publ. Math. IHES 47 (1977) 269-331",
+        "people": [
+          "Dennis Sullivan"
+        ],
+        "description": "Models rational homotopy types by commutative differential graded algebras.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/bf02684341",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "Quillen's 1969 rational homotopy paper not checked."
+      }
+    ],
+    "people": [
+      {
+        "name": "Dennis Sullivan",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Dennis_Sullivan",
+        "works": [
+          {
+            "citation": "D. Sullivan, Infinitesimal computations in topology, Publ. Math. IHES 47 (1977) 269-331",
+            "year": 1977,
+            "url": "https://api.crossref.org/works/10.1007/bf02684341",
+            "whyItMatters": "Founding paper"
+          }
+        ]
+      }
+    ],
+    "notes": "Only Sullivan 1977 verified.",
+    "pid": "P087",
+    "searchTerms": [
+      "Algebra",
+      "Topology"
+    ]
+  },
+  {
+    "eventId": "B22",
+    "canonicalName": "Concentration of measure",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_application",
+        "year": 1971,
+        "precision": "year",
+        "label": "Milman's proof of Dvoretzky's theorem",
+        "work": "V. D. Milman, A new proof of A. Dvoretzky's theorem on cross-sections of convex bodies, Funct. Anal. Appl. 5 (1971)",
+        "people": [
+          "Vitali Milman"
+        ],
+        "description": "A new proof of Dvoretzky's theorem, commonly credited as the first use of concentration of measure.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/bf01086740",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "low",
+        "note": "Crossref confirms only title/year (English pages 288-295, inherited 28-37 is the Russian pagination, unchecked); the concentration-use claim is not verified from the text."
+      },
+      {
+        "role": "key_development",
+        "year": 1995,
+        "precision": "year",
+        "label": "Talagrand's concentration inequalities in product spaces",
+        "work": "M. Talagrand, Concentration of measure and isoperimetric inequalities in product spaces, Publ. Math. IHES 81 (1995) 73-205",
+        "people": [
+          "Michel Talagrand"
+        ],
+        "description": "Systematic isoperimetric and concentration inequalities for product measures.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/bf02699376",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [
+      {
+        "name": "Vitali Milman",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Vitali_Milman",
+        "works": [
+          {
+            "citation": "V. D. Milman, A new proof of A. Dvoretzky's theorem on cross-sections of convex bodies, Funct. Anal. Appl. 5 (1971)",
+            "year": 1971,
+            "url": "https://api.crossref.org/works/10.1007/bf01086740",
+            "whyItMatters": "Dvoretzky proof"
+          }
+        ]
+      },
+      {
+        "name": "Michel Talagrand",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Michel_Talagrand",
+        "works": [
+          {
+            "citation": "M. Talagrand, Concentration of measure and isoperimetric inequalities in product spaces, Publ. Math. IHES 81 (1995) 73-205",
+            "year": 1995,
+            "url": "https://api.crossref.org/works/10.1007/bf02699376",
+            "whyItMatters": "Product-space theory"
+          }
+        ]
+      }
+    ],
+    "notes": "Levy's early work and Milman-Schechtman book not searched; no first_statement.",
+    "pid": "P088",
+    "searchTerms": [
+      "Probability",
+      "Geometry",
+      "Analysis"
+    ]
+  },
+  {
+    "eventId": "B23",
+    "canonicalName": "Spin glasses: the Parisi formula",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1979,
+        "precision": "year",
+        "label": "Parisi's replica-symmetry-breaking solution",
+        "work": "G. Parisi, Infinite number of order parameters for spin-glasses, Phys. Rev. Lett. 43 (1979) 1754-1756",
+        "people": [
+          "Giorgio Parisi"
+        ],
+        "description": "Proposes the hierarchical order-parameter solution of the SK model.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1103/physrevlett.43.1754",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "key_development",
+        "year": 2003,
+        "precision": "year",
+        "label": "Guerra's interpolation bound",
+        "work": "F. Guerra, Broken replica symmetry bounds in the mean field spin glass model, Comm. Math. Phys. 233 (2003) 1-12",
+        "people": [
+          "Francesco Guerra"
+        ],
+        "description": "Proves the Parisi formula is an upper bound for free energy.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/s00220-002-0773-5",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Title and year verified; the content summary is from background knowledge."
+      },
+      {
+        "role": "key_development",
+        "year": 2006,
+        "precision": "year",
+        "label": "Talagrand proves the Parisi formula",
+        "work": "M. Talagrand, The Parisi formula, Ann. of Math. 163 (2006) 221-263",
+        "people": [
+          "Michel Talagrand"
+        ],
+        "description": "Proves the Parisi formula for the SK model free energy.",
+        "evidence": [
+          {
+            "claim": "Crossref search result confirms title, author, year (Ann. Math. 163, 221-263)",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.4007/annals.2006.163.221",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [
+      {
+        "name": "Giorgio Parisi",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Giorgio_Parisi",
+        "works": [
+          {
+            "citation": "G. Parisi, Infinite number of order parameters for spin-glasses, Phys. Rev. Lett. 43 (1979) 1754-1756",
+            "year": 1979,
+            "url": "https://api.crossref.org/works/10.1103/physrevlett.43.1754",
+            "whyItMatters": "Formula"
+          }
+        ]
+      },
+      {
+        "name": "Francesco Guerra",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Francesco_Guerra",
+        "works": [
+          {
+            "citation": "F. Guerra, Broken replica symmetry bounds in the mean field spin glass model, Comm. Math. Phys. 233 (2003) 1-12",
+            "year": 2003,
+            "url": "https://api.crossref.org/works/10.1007/s00220-002-0773-5",
+            "whyItMatters": "Bound"
+          }
+        ]
+      },
+      {
+        "name": "Michel Talagrand",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Michel_Talagrand",
+        "works": [
+          {
+            "citation": "M. Talagrand, The Parisi formula, Ann. of Math. 163 (2006) 221-263",
+            "year": 2006,
+            "url": "https://api.crossref.org/works/10.4007/annals.2006.163.221",
+            "whyItMatters": "Proof"
+          }
+        ]
+      }
+    ],
+    "notes": "Talagrand's Crossref evidence is a search hit, not a DOI lookup URL; URL given is the DOI record endpoint (not opened directly).",
+    "pid": "P089",
+    "searchTerms": [
+      "Physics",
+      "Probability"
+    ]
+  },
+  {
+    "eventId": "B24",
+    "canonicalName": "D-modules and the Riemann-Hilbert correspondence",
+    "aliases": [
+      "D-modules and Riemann-Hilbert"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "key_development",
+        "year": 1984,
+        "precision": "year",
+        "label": "Kashiwara's Riemann-Hilbert correspondence",
+        "work": "M. Kashiwara, The Riemann-Hilbert problem for holonomic systems, Publ. RIMS 20 (1984) 319-365",
+        "people": [
+          "Masaki Kashiwara"
+        ],
+        "description": "Establishes the correspondence between regular holonomic D-modules and constructible complexes.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.2977/prims/1195181610",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Title/year verified; content summary from background knowledge."
+      }
+    ],
+    "people": [
+      {
+        "name": "Masaki Kashiwara",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Masaki_Kashiwara",
+        "works": [
+          {
+            "citation": "M. Kashiwara, The Riemann-Hilbert problem for holonomic systems, Publ. RIMS 20 (1984) 319-365",
+            "year": 1984,
+            "url": "https://api.crossref.org/works/10.2977/prims/1195181610",
+            "whyItMatters": "Main theorem"
+          }
+        ]
+      }
+    ],
+    "notes": "Mebkhout 1984 and Beilinson-Bernstein 1981 lookups failed, left unverified; no first_statement.",
+    "pid": "P090",
+    "searchTerms": [
+      "Analysis",
+      "Topology",
+      "Algebra",
+      "Geometry"
+    ]
+  },
+  {
+    "eventId": "B25",
+    "canonicalName": "Buildings: geometry of algebraic groups",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "consolidation",
+        "year": 1974,
+        "precision": "year",
+        "label": "Tits's Buildings of Spherical Type",
+        "work": "J. Tits, Buildings of Spherical Type and Finite BN-Pairs, Lecture Notes in Math. 386 (1974)",
+        "people": [
+          "Jacques Tits"
+        ],
+        "description": "Monograph systematizing buildings and BN-pairs.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/bfb0057391",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Crossref lists no author; authorship from the inherited citation."
+      }
+    ],
+    "people": [
+      {
+        "name": "Jacques Tits",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Jacques_Tits",
+        "works": [
+          {
+            "citation": "J. Tits, Buildings of Spherical Type and Finite BN-Pairs, Lecture Notes in Math. 386 (1974)",
+            "year": 1974,
+            "url": "https://api.crossref.org/works/10.1007/bfb0057391",
+            "whyItMatters": "Monograph"
+          }
+        ]
+      }
+    ],
+    "notes": "Tits's earlier 1950s-60s papers (first_statement) not searched. Candidate DOI 10.1007/978-3-540-38349-9 is the volume-level record.",
+    "pid": "P091",
+    "searchTerms": [
+      "Geometry",
+      "Algebra"
+    ]
+  },
+  {
+    "eventId": "B26",
+    "canonicalName": "Rigid analytic spaces",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1971,
+        "precision": "year",
+        "label": "Tate's rigid analytic spaces",
+        "work": "J. Tate, Rigid analytic spaces, Invent. Math. 12 (1971) 257-289",
+        "people": [
+          "John Tate"
+        ],
+        "description": "Defines rigid analytic spaces over non-archimedean fields.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/bf01403307",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Earlier unpublished 1962 notes by Tate not verified."
+      }
+    ],
+    "people": [
+      {
+        "name": "John Tate",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/John_Tate",
+        "works": [
+          {
+            "citation": "J. Tate, Rigid analytic spaces, Invent. Math. 12 (1971) 257-289",
+            "year": 1971,
+            "url": "https://api.crossref.org/works/10.1007/bf01403307",
+            "whyItMatters": "Founding paper"
+          }
+        ]
+      }
+    ],
+    "notes": "Only the Inventiones record verified.",
+    "pid": "P092",
+    "searchTerms": [
+      "Analysis",
+      "Geometry",
+      "Number theory"
+    ]
+  }
+]

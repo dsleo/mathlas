@@ -1,0 +1,65 @@
+[
+ {
+  "file": "M_33.json",
+  "pid": "P500",
+  "eventId": "P57",
+  "name": "Variation of Hodge structure and period domains (Griffiths)",
+  "needs": [
+   "no naming/consolidation/institution milestone"
+  ]
+ },
+ {
+  "file": "M_35.json",
+  "pid": "P259",
+  "eventId": "MB37",
+  "name": "Deligne proof of Weil conjectures",
+  "needs": [
+   "no naming/consolidation/institution milestone"
+  ]
+ },
+ {
+  "file": "M_36.json",
+  "pid": "P063",
+  "eventId": "E73",
+  "name": "Computers enter proof: four colour theorem and the Kepler conjecture",
+  "needs": [
+   "no naming/consolidation/institution milestone"
+  ]
+ },
+ {
+  "file": "M_36.json",
+  "pid": "P470",
+  "eventId": "P18",
+  "name": "Caffarelli-Kohn-Nirenberg partial regularity for Navier-Stokes",
+  "needs": [
+   "no naming/consolidation/institution milestone"
+  ]
+ },
+ {
+  "file": "M_37.json",
+  "pid": "P547",
+  "eventId": "Q53",
+  "name": "Triangulation conjecture disproved via Pin(2)-equivariant Seiberg-Witten Floer theory",
+  "needs": [
+   "no naming/consolidation/institution milestone"
+  ]
+ },
+ {
+  "file": "M_37.json",
+  "pid": "P481",
+  "eventId": "P34",
+  "name": "Wilf-Zeilberger method: rational-function certificates for hypergeometric identities",
+  "needs": [
+   "no naming/consolidation/institution milestone"
+  ]
+ },
+ {
+  "file": "M_40.json",
+  "pid": "P537",
+  "eventId": "Q30",
+  "name": "Moment problem for class-group statistics (Sawin-Wood)",
+  "needs": [
+   "no naming/consolidation/institution milestone"
+  ]
+ }
+]

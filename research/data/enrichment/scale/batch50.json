@@ -1,0 +1,147 @@
+[
+ {
+  "pid": "P298",
+  "eventId": "E57/WC52/QC63",
+  "name": "Regularity structures",
+  "type": "birth-by-fusion",
+  "from": [
+   "rough path theory",
+   "quantum field theory renormalisation",
+   "PDE"
+  ],
+  "to": [
+   "stochastic PDE"
+  ],
+  "summary": "A systematic theory of singular subcritical SPDEs such as KPZ and Phi^4_3 built via local Taylor-like expansions and renormalisation."
+ },
+ {
+  "pid": "P302",
+  "eventId": "B16/QC26/WC25",
+  "name": "Perfectoid spaces",
+  "type": "birth-by-abstraction",
+  "from": [
+   "p-adic geometry",
+   "characteristic-p geometry (tilting, Fontaine-Wintenberger)"
+  ],
+  "to": [
+   "arithmetic geometry"
+  ],
+  "summary": "Scholze generalised Fontaine-Wintenberger to perfectoid spaces, with a tilting equivalence between char 0 and char p."
+ },
+ {
+  "pid": "P544",
+  "eventId": "Q45",
+  "name": "MIP*=RE: entangled provers, computability and the Connes embedding problem",
+  "type": "technique-transfer",
+  "from": [
+   "computational complexity",
+   "quantum information"
+  ],
+  "to": [
+   "operator algebras (Connes embedding)",
+   "mathematical physics (Tsirelson problem)"
+  ],
+  "summary": "Verification with entangled provers was shown to capture exactly the halting-problem class, which refutes Tsirelson's problem and hence the Connes embedding conjecture."
+ },
+ {
+  "pid": "P552",
+  "eventId": "Q63",
+  "name": "Arc spaces of singularities and partition identities",
+  "type": "dictionary-analogy",
+  "from": [
+   "commutative algebra / singularity theory (arc and jet schemes)",
+   "combinatorics of partitions (q-series)"
+  ],
+  "to": [
+   "arc spaces and partition identities"
+  ],
+  "summary": "Arc spaces of simple singularities were found to be described by partition identities, one of several fields where the Rogers-Ramanujan identities reappear and are re-proved with local tools."
+ },
+ {
+  "pid": "P101",
+  "eventId": "B35",
+  "name": "Virtual fundamental cycles via homotopical algebra",
+  "type": "technique-transfer",
+  "from": [
+   "Algebra",
+   "Topology"
+  ],
+  "to": [
+   "Geometry"
+  ],
+  "summary": "Homotopy-coherent methods give a rigorous construction of virtual fundamental cycles on moduli spaces of pseudoholomorphic curves, underpinning Floer and Fukaya theory."
+ },
+ {
+  "pid": "P336",
+  "eventId": "WC54",
+  "name": "Paracontrolled distributions",
+  "type": "technique-transfer",
+  "from": [
+   "harmonic analysis (Littlewood-Paley paraproducts)",
+   "rough paths",
+   "stochastic PDE"
+  ],
+  "to": [
+   "singular SPDE"
+  ],
+  "summary": "Paraproduct calculus gave an alternative to regularity structures for singular SPDEs."
+ },
+ {
+  "pid": "P310",
+  "eventId": "WC62/QC20",
+  "name": "Ramanujan graphs / interlacing",
+  "type": "technique-transfer",
+  "from": [
+   "geometry of polynomials (real stable / interlacing)"
+  ],
+  "to": [
+   "spectral graph theory",
+   "operator algebras (Kadison-Singer)"
+  ],
+  "summary": "Marcus, Spielman and Srivastava proved existence of bipartite Ramanujan graphs of all degrees via interlacing polynomials, also solving Kadison-Singer."
+ },
+ {
+  "pid": "P353",
+  "eventId": "QC12",
+  "name": "Kadison-Singer via interlacing polynomials",
+  "type": "technique-transfer",
+  "from": [
+   "operator algebras",
+   "real-rooted polynomials",
+   "spectral graph theory"
+  ],
+  "to": [
+   "operator algebras"
+  ],
+  "summary": "Marcus-Spielman-Srivastava solved Kadison-Singer using interlacing families of polynomials, a method arising from graph sparsification."
+ },
+ {
+  "pid": "P534",
+  "eventId": "Q25",
+  "name": "Liouville quantum gravity, the Brownian map and SLE",
+  "type": "dictionary-analogy",
+  "from": [
+   "Liouville quantum gravity (physics)",
+   "random growth models",
+   "Schramm-Loewner evolution"
+  ],
+  "to": [
+   "random planar geometry (probability)"
+  ],
+  "summary": "Two models of random two-dimensional surfaces, one measuring area and one distance, were shown to describe the same object using SLE curves as the link."
+ },
+ {
+  "pid": "P350",
+  "eventId": "QC24",
+  "name": "Kakeya and Bourgain-Guth, decoupling for Vinogradov",
+  "type": "technique-transfer",
+  "from": [
+   "harmonic analysis (decoupling)",
+   "analytic number theory"
+  ],
+  "to": [
+   "analytic number theory"
+  ],
+  "summary": "Bourgain-Demeter-Guth proved the main Vinogradov mean-value conjecture using l^2 decoupling from harmonic analysis."
+ }
+]

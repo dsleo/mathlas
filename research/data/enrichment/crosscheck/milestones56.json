@@ -1,0 +1,591 @@
+[
+  {
+    "eventId": "E66",
+    "canonicalName": "Geometric Langlands and its physics",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "key_development",
+        "year": 1987,
+        "precision": "year",
+        "label": "Laumon: geometric Langlands for function fields",
+        "work": "G. Laumon, Correspondance de Langlands géométrique pour les corps de fonctions, Duke Math. J. 54 (1987) 309-359",
+        "people": [
+          "Gérard Laumon"
+        ],
+        "description": "Early published geometric (sheaf-theoretic) form of Langlands for function fields.",
+        "evidence": [
+          {
+            "claim": "Crossref confirms title, author, Duke Math. J. 54, 1987, pp. 309-359",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1215/s0012-7094-87-05418-4",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Role (key_development rather than first_statement) is conservative; paper content not read."
+      },
+      {
+        "role": "key_development",
+        "year": 2021,
+        "precision": "year",
+        "label": "Geometrization of local Langlands on the Fargues-Fontaine curve",
+        "work": "L. Fargues, P. Scholze, Geometrization of the local Langlands correspondence, arXiv:2102.13459 (2021)",
+        "people": [
+          "Laurent Fargues",
+          "Peter Scholze"
+        ],
+        "description": "Develops geometric Langlands foundations on the Fargues-Fontaine curve (local, p-adic setting).",
+        "evidence": [
+          {
+            "claim": "arXiv abstract page opened; submitted 2021-02-26",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/2102.13459",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "p-adic analogue, not the complex-curve geometric Langlands."
+      },
+      {
+        "role": "key_development",
+        "year": 2024,
+        "precision": "year",
+        "label": "Proof of geometric Langlands, part I",
+        "work": "D. Gaitsgory, S. Raskin, Proof of the geometric Langlands conjecture I: construction of the functor, arXiv:2405.03599 (2024)",
+        "people": [
+          "Dennis Gaitsgory",
+          "Sam Raskin"
+        ],
+        "description": "First of a five-paper series proving the conjecture (series claim confirmed on part II abstract).",
+        "evidence": [
+          {
+            "claim": "arXiv page opened; submitted 2024-05-06; part II abstract (arXiv:2405.03648) states five papers prove the conjecture",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/2405.03599",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Opened Crossref and arXiv pages. Not verified: Beilinson-Drinfeld preprint dates, Kapustin-Witten 2007, physics origin; no first_statement or naming milestone established. Parts III-V arXiv ids not opened.",
+    "pid": "P058",
+    "searchTerms": [
+      "Number theory",
+      "Physics",
+      "Geometry",
+      "Algebra"
+    ]
+  },
+  {
+    "eventId": "E67",
+    "canonicalName": "Hardy-Littlewood circle method",
+    "aliases": [
+      "Circle method"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_application",
+        "year": 1918,
+        "precision": "year",
+        "label": "Hardy-Ramanujan asymptotics for partitions",
+        "work": "G. H. Hardy, S. Ramanujan, Asymptotic formulae in combinatory analysis, Proc. London Math. Soc. (2) 17 (1918) 75-115",
+        "people": [
+          "G. H. Hardy",
+          "Srinivasa Ramanujan"
+        ],
+        "description": "Contour-integral analysis of the partition generating function giving asymptotics for p(n).",
+        "evidence": [
+          {
+            "claim": "Crossref confirms title, authors, vol. s2-17, 1918, pp. 75-115",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1112/plms/s2-17.1.75",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "That this paper is the method's origin rests on standard history, not on a page opened here."
+      },
+      {
+        "role": "key_development",
+        "year": 1923,
+        "precision": "year",
+        "label": "Partitio numerorum III: sums of primes",
+        "work": "G. H. Hardy, J. E. Littlewood, Some problems of 'Partitio numerorum' III, Acta Math. 44 (1923) 1-70",
+        "people": [
+          "G. H. Hardy",
+          "J. E. Littlewood"
+        ],
+        "description": "Applies the method to sums of primes, giving conditional results on Goldbach-type problems.",
+        "evidence": [
+          {
+            "claim": "Crossref confirms title, authors, Acta Math. 44, 1923, pp. 1-70",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1007/bf02403921",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Vinogradov 1937 and Partitio numerorum I-II not verified; no naming/institution milestone found.",
+    "pid": "P059",
+    "searchTerms": [
+      "Analysis",
+      "Number theory"
+    ]
+  },
+  {
+    "eventId": "E68",
+    "canonicalName": "Brownian motion: from physics and finance to measure on path space",
+    "aliases": [
+      "Brownian motion",
+      "Wiener process"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1905,
+        "precision": "year",
+        "label": "Einstein's molecular-kinetic theory of suspended particles",
+        "work": "A. Einstein, Über die von der molekularkinetischen Theorie der Wärme geforderte Bewegung..., Ann. Phys. 322 (1905) 549-560",
+        "people": [
+          "Albert Einstein"
+        ],
+        "description": "Physical model of the random motion of suspended particles.",
+        "evidence": [
+          {
+            "claim": "Crossref confirms title, author, Annalen der Physik 322, 1905, pp. 549-560",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1002/andp.19053220806",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 1944,
+        "precision": "year",
+        "label": "Kakutani: Brownian motion and harmonic functions",
+        "work": "S. Kakutani, Two-dimensional Brownian motion and harmonic functions, Proc. Imp. Acad. Tokyo 20 (1944) 706-714",
+        "people": [
+          "Shizuo Kakutani"
+        ],
+        "description": "Links Brownian motion to the Dirichlet problem for harmonic functions.",
+        "evidence": [
+          {
+            "claim": "Crossref confirms title, author, 1944, vol. 20",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.3792/pia/1195572706",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Page range not in the Crossref record."
+      }
+    ],
+    "people": [],
+    "notes": "Bachelier 1900 and Wiener 1923 not opened, so no first_statement or measure-on-path-space milestone recorded.",
+    "pid": "P060",
+    "searchTerms": [
+      "Physics",
+      "Economics",
+      "Probability",
+      "Analysis"
+    ]
+  },
+  {
+    "eventId": "E69",
+    "canonicalName": "General relativity and the absolute differential calculus",
+    "aliases": [
+      "General relativity and tensor geometry"
+    ],
+    "phases": [],
+    "milestones": [],
+    "people": [],
+    "notes": "Only candidate was a 1914 Bull. AMS book review of Einstein-Grossmann, not the work itself. Ricci-Levi-Civita 1900, Einstein-Grossmann 1913 and Einstein 1915 not opened. Left empty.",
+    "searchedSources": [
+      "Crossref record for 1914 Bull. AMS review (candidate, not an original work)"
+    ],
+    "pid": "P061",
+    "searchTerms": [
+      "Geometry",
+      "Physics",
+      "Geometry"
+    ]
+  },
+  {
+    "eventId": "E71",
+    "canonicalName": "Hyperbolic geometry enters three-manifold topology (Thurston)",
+    "aliases": [
+      "Thurston geometrisation"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1982,
+        "precision": "year",
+        "label": "Thurston's Bulletin AMS announcement",
+        "work": "W. P. Thurston, Three dimensional manifolds, Kleinian groups and hyperbolic geometry, Bull. AMS 6 (1982) 357-381",
+        "people": [
+          "William Thurston"
+        ],
+        "description": "Public published statement of the geometrization programme.",
+        "evidence": [
+          {
+            "claim": "Crossref confirms title, author, Bull. AMS 6, May 1982, pp. 357-382",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1090/s0273-0979-1982-15003-0",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Crossref lists pages 357-382; earlier lecture notes (c. 1978-80) not checked."
+      }
+    ],
+    "people": [],
+    "notes": "1997 book (DOI 10.1515/9781400865321) not opened, so no consolidation milestone. Catalogue start 1976 unverified.",
+    "pid": "P062",
+    "searchTerms": [
+      "Geometry",
+      "Topology"
+    ]
+  },
+  {
+    "eventId": "E73",
+    "canonicalName": "Computers enter proof: four colour theorem and the Kepler conjecture",
+    "aliases": [
+      "Four colour theorem computer proof"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_application",
+        "year": 1977,
+        "precision": "year",
+        "label": "Appel-Haken-Koch computer-assisted four colour proof",
+        "work": "K. Appel, W. Haken, Every planar map is four colorable, Part I: Discharging; Part II (with J. Koch): Reducibility, Illinois J. Math. 21 (1977)",
+        "people": [
+          "Kenneth Appel",
+          "Wolfgang Haken",
+          "John Koch"
+        ],
+        "description": "Proof of the four colour theorem relying on exhaustive computer checking of reducible configurations.",
+        "evidence": [
+          {
+            "claim": "Crossref confirms Part I (pp. 429-490, Sept 1977); Part II record https://doi.org/10.1215/ijm/1256049012 also confirmed (pp. 491-567)",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1215/ijm/1256049011",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "key_development",
+        "year": 2017,
+        "precision": "year",
+        "label": "Formal proof of the Kepler conjecture",
+        "work": "T. Hales et al., A formal proof of the Kepler conjecture, Forum Math. Pi 5 (2017)",
+        "people": [
+          "Thomas Hales"
+        ],
+        "description": "Proof assistant verification of the Kepler conjecture.",
+        "evidence": [
+          {
+            "claim": "Crossref confirms title, authors (Hales, Adams, Bauer, Dang...), Forum Math. Pi 5, 2017",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1017/fmp.2017.1",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Gonthier 2008 not opened. Appel-Haken announcement of 1976 not verified.",
+    "pid": "P063",
+    "searchTerms": [
+      "Computer science",
+      "Combinatorics",
+      "Geometry"
+    ]
+  },
+  {
+    "eventId": "E74",
+    "canonicalName": "Number theory becomes applied: public-key cryptography",
+    "aliases": [
+      "Public-key cryptography"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_application",
+        "year": 1978,
+        "precision": "year",
+        "label": "RSA cryptosystem",
+        "work": "R. L. Rivest, A. Shamir, L. Adleman, A method for obtaining digital signatures and public-key cryptosystems, Commun. ACM 21 (1978) 120-126",
+        "people": [
+          "Ron Rivest",
+          "Adi Shamir",
+          "Leonard Adleman"
+        ],
+        "description": "Public-key scheme built on modular exponentiation and the difficulty of factoring.",
+        "evidence": [
+          {
+            "claim": "Crossref confirms title, authors, CACM 21, Feb 1978, pp. 120-126",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1145/359340.359342",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "key_development",
+        "year": 1987,
+        "precision": "year",
+        "label": "Elliptic curve cryptosystems",
+        "work": "N. Koblitz, Elliptic curve cryptosystems, Math. Comp. 48 (1987) 203-209",
+        "people": [
+          "Neal Koblitz"
+        ],
+        "description": "Proposes cryptosystems based on elliptic curve groups.",
+        "evidence": [
+          {
+            "claim": "Crossref confirms title, author, Math. Comp. 48, 1987, pp. 203-209",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1090/s0025-5718-1987-0866109-5",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [],
+    "notes": "Diffie-Hellman 1976 not opened, so no first_statement milestone recorded (RSA 1978 is not the earliest public-key statement).",
+    "pid": "P064",
+    "searchTerms": [
+      "Number theory",
+      "Computer science"
+    ]
+  },
+  {
+    "eventId": "E76",
+    "canonicalName": "Geometry of numbers (Minkowski)",
+    "aliases": [
+      "Geometry of numbers"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "consolidation",
+        "year": 1959,
+        "precision": "year",
+        "label": "Cassels, An Introduction to the Geometry of Numbers",
+        "work": "J. W. S. Cassels, An Introduction to the Geometry of Numbers (Springer, 1959)",
+        "people": [
+          "J. W. S. Cassels"
+        ],
+        "description": "Systematic modern monograph on the subject.",
+        "evidence": [
+          {
+            "claim": "Crossref confirms title, author, year 1959 (Springer reprint DOI)",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1007/978-3-642-62035-5",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Not the first systematic treatment; Minkowski's own Geometrie der Zahlen (1896-1910) is unverified."
+      }
+    ],
+    "people": [],
+    "notes": "Minkowski 1896/1910 not opened; no first_statement recorded.",
+    "pid": "P065",
+    "searchTerms": [
+      "Geometry",
+      "Number theory"
+    ]
+  },
+  {
+    "eventId": "B01",
+    "canonicalName": "Cobordism: homotopy theory computes manifold invariants",
+    "aliases": [
+      "Cobordism"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1954,
+        "precision": "year",
+        "label": "Thom's cobordism paper",
+        "work": "R. Thom, Quelques propriétés globales des variétés différentiables, Comment. Math. Helv. 28 (1954) 17-86",
+        "people": [
+          "René Thom"
+        ],
+        "description": "Introduces cobordism and links it to homotopy of Thom spaces.",
+        "evidence": [
+          {
+            "claim": "Crossref confirms title, author, Comment. Math. Helv. 28, 1954, pp. 17-86",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1007/bf02566923",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [],
+    "notes": "Paper content not read; role rests on the standard attribution.",
+    "pid": "P067",
+    "searchTerms": [
+      "Topology",
+      "Algebra",
+      "Topology"
+    ]
+  },
+  {
+    "eventId": "B02",
+    "canonicalName": "Exotic spheres: algebraic topology reaches differential structures",
+    "aliases": [
+      "Exotic spheres"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1956,
+        "precision": "year",
+        "label": "Milnor's exotic 7-sphere",
+        "work": "J. Milnor, On manifolds homeomorphic to the 7-sphere, Ann. of Math. 64 (1956) 399-405",
+        "people": [
+          "John Milnor"
+        ],
+        "description": "Constructs manifolds homeomorphic but not diffeomorphic to S^7.",
+        "evidence": [
+          {
+            "claim": "Crossref confirms title, author, Ann. Math. 64, Sept 1956, p. 399 start",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.2307/1969983",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "key_development",
+        "year": 1963,
+        "precision": "year",
+        "label": "Groups of homotopy spheres I",
+        "work": "M. Kervaire, J. Milnor, Groups of homotopy spheres: I, Ann. of Math. 77 (1963) 504-537",
+        "people": [
+          "Michel Kervaire",
+          "John Milnor"
+        ],
+        "description": "Classifies homotopy spheres in high dimensions via a group structure.",
+        "evidence": [
+          {
+            "claim": "Crossref confirms title, authors, Ann. Math. 77, May 1963, p. 504 start",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.2307/1970128",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [],
+    "notes": "Content not read beyond bibliographic records.",
+    "pid": "P068",
+    "searchTerms": [
+      "Topology",
+      "Algebra",
+      "Topology"
+    ]
+  },
+  {
+    "eventId": "B03",
+    "canonicalName": "Higher algebraic K-theory",
+    "aliases": [
+      "Higher algebraic K-theory (Quillen)"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1973,
+        "precision": "year",
+        "label": "Quillen, Higher algebraic K-theory I",
+        "work": "D. Quillen, Higher algebraic K-theory: I, Lecture Notes in Math. 341 (1973) 85-147",
+        "people": [
+          "Daniel Quillen"
+        ],
+        "description": "Defines higher K-groups of rings via homotopy theory.",
+        "evidence": [
+          {
+            "claim": "Crossref confirms title, author, 1973, pp. 85-147",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1007/bfb0067053",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [],
+    "notes": "Milnor K-theory and Quillen's earlier announcements not checked.",
+    "pid": "P069",
+    "searchTerms": [
+      "Topology",
+      "Algebra"
+    ]
+  },
+  {
+    "eventId": "B04",
+    "canonicalName": "Geometric invariant theory and moduli",
+    "aliases": [
+      "Geometric invariant theory"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1965,
+        "precision": "year",
+        "label": "Mumford, Geometric Invariant Theory",
+        "work": "D. Mumford, Geometric Invariant Theory (Springer, 1965)",
+        "people": [
+          "David Mumford"
+        ],
+        "description": "Monograph constructing quotients of varieties by group actions.",
+        "evidence": [
+          {
+            "claim": "Crossref confirms title, author, year 1965 (Springer DOI)",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1007/978-3-662-00095-3",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Book also consolidates; 19th-century invariant theory and Mumford's earlier papers not checked."
+      }
+    ],
+    "people": [],
+    "notes": "Single-source record; no moduli application milestone verified.",
+    "pid": "P070",
+    "searchTerms": [
+      "Algebra",
+      "Geometry"
+    ]
+  }
+]

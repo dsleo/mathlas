@@ -1,0 +1,141 @@
+[
+ {
+  "pid": "P191",
+  "eventId": "MA106",
+  "name": "Mobius and Plucker: homogeneous coordinates",
+  "type": "technique-transfer",
+  "from": [
+   "analytic geometry",
+   "projective geometry"
+  ],
+  "to": [
+   "algebraic geometry"
+  ],
+  "summary": "Algebraic coordinates made duality and line geometry computational."
+ },
+ {
+  "pid": "P431",
+  "eventId": "H18",
+  "name": "Axioms for linear (vector) spaces: Moebius, Grassmann, Peano",
+  "type": "birth-by-abstraction",
+  "from": [
+   "geometry (barycentric calculus)",
+   "algebra"
+  ],
+  "to": [
+   "linear algebra"
+  ],
+  "summary": "Directed quantities and weighted points led Grassmann to an abstract calculus of extension, and Peano in 1888 gave the first axioms for a real linear space, soon extended to infinite-dimensional spaces."
+ },
+ {
+  "pid": "P153",
+  "eventId": "WA83",
+  "name": "Jacobi: four squares via elliptic functions",
+  "type": "technique-transfer",
+  "from": [
+   "elliptic functions"
+  ],
+  "to": [
+   "number theory"
+  ],
+  "summary": "Jacobi derived the four-square theorem from theta functions."
+ },
+ {
+  "pid": "P428",
+  "eventId": "H15",
+  "name": "Quaternions: non-commutative algebra from the geometry of 3-space",
+  "type": "birth-by-abstraction",
+  "from": [
+   "geometry / complex numbers",
+   "applied mathematics"
+  ],
+  "to": [
+   "algebra"
+  ],
+  "summary": "Hamilton's decade-long search for a multiplication on three-dimensional space ended in the four-dimensional non-commutative quaternions, the first prominent non-commutative number system, taken up in physics by Tait."
+ },
+ {
+  "pid": "P167",
+  "eventId": "MA107",
+  "name": "Plucker: line geometry and algebraic curves",
+  "type": "birth-by-abstraction",
+  "from": [
+   "projective geometry",
+   "algebraic curves"
+  ],
+  "to": [
+   "geometry"
+  ],
+  "summary": "Lines became elements of space and numerical characteristics of curves were related."
+ },
+ {
+  "pid": "P433",
+  "eventId": "H20",
+  "name": "Non-commutative ring theory: Wedderburn structure theory and chain conditions",
+  "type": "birth-by-abstraction",
+  "from": [
+   "hypercomplex number systems / quaternions",
+   "matrix algebras"
+  ],
+  "to": [
+   "ring theory"
+  ],
+  "summary": "Quaternions and matrix algebras supplied examples; Wedderburn then classified finite-dimensional algebras into radical and semisimple parts and Artin extended this with chain conditions."
+ },
+ {
+  "pid": "P009",
+  "eventId": "E11",
+  "name": "Ideals and algebraic number theory",
+  "type": "birth-by-abstraction",
+  "from": [
+   "Number theory",
+   "Algebra"
+  ],
+  "to": [
+   "Number theory"
+  ],
+  "summary": "Failure of unique factorisation in rings of integers is repaired by introducing ideal elements, later recast as ideals, which become the central object."
+ },
+ {
+  "pid": "P398",
+  "eventId": "W94",
+  "name": "Transcendence proofs for e and pi",
+  "type": "technique-transfer",
+  "from": [
+   "analysis",
+   "algebraic number theory"
+  ],
+  "to": [
+   "number theory"
+  ],
+  "summary": "Liouville, Hermite and Lindemann used analytic constructions to show specific numbers are not algebraic, settling squaring the circle."
+ },
+ {
+  "pid": "P429",
+  "eventId": "H16",
+  "name": "Matrix algebra as an abstract calculus (Cayley)",
+  "type": "birth-by-abstraction",
+  "from": [
+   "linear substitutions / determinants",
+   "quaternions"
+  ],
+  "to": [
+   "algebra"
+  ],
+  "summary": "Eisenstein and Cayley treated arrays of coefficients as algebraic objects with their own addition, product and inverse; Cayley's memoir gave the first abstract definition and showed quaternions embed as matrices."
+ },
+ {
+  "pid": "P438",
+  "eventId": "H32",
+  "name": "Transcendental numbers from continued fractions (Liouville)",
+  "type": "birth-by-abstraction",
+  "from": [
+   "Diophantine approximation / continued fractions",
+   "algebraic numbers"
+  ],
+  "to": [
+   "number theory (transcendence)"
+  ],
+  "summary": "Liouville used rational approximation by continued fractions to produce the first provably transcendental numbers, then gave an explicit example without them in 1851."
+ }
+]

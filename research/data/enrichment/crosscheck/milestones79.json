@@ -1,0 +1,792 @@
+[
+  {
+    "eventId": "MB9/WB111",
+    "canonicalName": "Von Neumann algebras",
+    "aliases": [
+      "Operator algebras"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1930,
+        "precision": "year",
+        "label": "Rings of operators introduced",
+        "work": "J. von Neumann, Zur Algebra der Funktionaloperationen und Theorie der normalen Operatoren, Math. Ann., 1930",
+        "people": [
+          "John von Neumann"
+        ],
+        "description": "Von Neumann studies algebras of bounded operators on Hilbert space closed in the weak topology.",
+        "evidence": [
+          {
+            "claim": "Crossref record: Math. Annalen, 1930 (inherited title says Funktionaloperatoren; record says Funktionaloperationen)",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1007/bf01782352",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Abstract/text not opened; that this paper is the first statement of the weakly closed algebra notion rests on the catalogue and common history, not on a page I read."
+      },
+      {
+        "role": "key_development",
+        "year": 1936,
+        "precision": "year",
+        "label": "On rings of operators (factors)",
+        "work": "F. J. Murray, J. von Neumann, On Rings of Operators, Ann. of Math., 1936",
+        "people": [
+          "Francis Murray",
+          "John von Neumann"
+        ],
+        "description": "Murray and von Neumann begin the classification of factors.",
+        "evidence": [
+          {
+            "claim": "Crossref record: Ann. Math. 1936",
+            "source": "Crossref",
+            "url": "https://doi.org/10.2307/1968693",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Content of classification not read, only metadata."
+      },
+      {
+        "role": "key_development",
+        "year": 1943,
+        "precision": "year",
+        "label": "On rings of operators IV",
+        "work": "F. J. Murray, J. von Neumann, On Rings of Operators IV, Ann. of Math., 1943",
+        "people": [
+          "Francis Murray",
+          "John von Neumann"
+        ],
+        "description": "Fourth paper in the series, completing the program (series: II 1937 Trans. AMS, III 1940 Ann. Math.).",
+        "evidence": [
+          {
+            "claim": "Crossref record: Ann. Math. Oct 1943",
+            "source": "Crossref",
+            "url": "https://doi.org/10.2307/1969107",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Crossref record for Part II, Trans. AMS 1937",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1090/s0002-9947-1937-1501899-4",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Searched Crossref only (no MacTutor/Wikipedia page opened). Catalogue date 1957 unverified, no work found. Inherited citation 'Zur Algebra der Funktionaloperatoren' corrected to 'Zur Algebra der Funktionaloperationen und Theorie der normalen Operatoren' (1930).",
+    "pid": "P234",
+    "searchTerms": [
+      "functional analysis",
+      "quantum mechanics",
+      "operator algebras"
+    ]
+  },
+  {
+    "eventId": "MB97/WB29",
+    "canonicalName": "Statistical decision theory",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1939,
+        "precision": "year",
+        "label": "Wald's decision-theoretic formulation of estimation and testing",
+        "work": "A. Wald, Contributions to the Theory of Statistical Estimation and Testing Hypotheses, Ann. Math. Statist., 1939",
+        "people": [
+          "Abraham Wald"
+        ],
+        "description": "Wald frames estimation and testing with loss and risk.",
+        "evidence": [
+          {
+            "claim": "Crossref record: Ann. Math. Statist., Dec 1939",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1214/aoms/1177732144",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "low",
+        "note": "Only metadata checked; that this paper first states the framework is the catalogue's lead (1939 start), not verified from the text."
+      },
+      {
+        "role": "key_development",
+        "year": 1949,
+        "precision": "year",
+        "label": "Statistical Decision Functions (paper)",
+        "work": "A. Wald, Statistical Decision Functions, Ann. Math. Statist., 1949",
+        "people": [
+          "Abraham Wald"
+        ],
+        "description": "Wald's general theory of decision functions, game-theoretic.",
+        "evidence": [
+          {
+            "claim": "Crossref record: Ann. Math. Statist. June 1949",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1214/aoms/1177730030",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The Wiley book of the same title (1950) was not verified."
+      }
+    ],
+    "people": [],
+    "notes": "Inherited citation 'Statistical Decision Functions (1950)' is the Wiley book; the Annals paper of the same title is 1949 (verified by Crossref). Book 1950 not opened, so no consolidation milestone.",
+    "pid": "P236",
+    "searchTerms": [
+      "statistics",
+      "game theory",
+      "decision theory"
+    ]
+  },
+  {
+    "eventId": "MB4/WB3",
+    "canonicalName": "Goedel incompleteness",
+    "aliases": [
+      "Godel's completeness and incompleteness theorems"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1930,
+        "precision": "year",
+        "label": "Completeness of first-order logic",
+        "work": "K. Gödel, Die Vollständigkeit der Axiome des logischen Funktionenkalküls, Monatsh. Math. Phys., 1930",
+        "people": [
+          "Kurt Gödel"
+        ],
+        "description": "Gödel's completeness theorem, the companion result from his thesis.",
+        "evidence": [
+          {
+            "claim": "Crossref record: Monatsh. Math. Phys. 1930",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1007/bf01696781",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Listed as precursor/companion; it is not the incompleteness result itself."
+      },
+      {
+        "role": "first_statement",
+        "year": 1931,
+        "precision": "year",
+        "label": "Incompleteness theorems published",
+        "work": "K. Gödel, Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I, Monatsh. Math. Phys., 1931",
+        "people": [
+          "Kurt Gödel"
+        ],
+        "description": "Gödel proves that consistent formal arithmetical systems have undecidable sentences.",
+        "evidence": [
+          {
+            "claim": "Crossref record: Monatsh. Math. Phys. 1931",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1007/bf01700692",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [],
+    "notes": "Crossref only. Königsberg 1930 announcement not searched. Catalogue shows 1930-1931 start; the incompleteness paper is 1931.",
+    "pid": "P237",
+    "searchTerms": [
+      "number theory",
+      "mathematical logic",
+      "proof theory"
+    ]
+  },
+  {
+    "eventId": "WB129",
+    "canonicalName": "Twistor theory",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1967,
+        "precision": "year",
+        "label": "Twistor Algebra",
+        "work": "R. Penrose, Twistor Algebra, J. Math. Phys., 1967",
+        "people": [
+          "Roger Penrose"
+        ],
+        "description": "Penrose introduces twistors as spinor-like objects encoding spacetime.",
+        "evidence": [
+          {
+            "claim": "Crossref record: J. Math. Phys. 8, Feb 1967",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1063/1.1705200",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "key_development",
+        "year": 1976,
+        "precision": "year",
+        "label": "Nonlinear gravitons",
+        "work": "R. Penrose, Nonlinear gravitons and curved twistor theory, Gen. Relativ. Gravit., 1976",
+        "people": [
+          "Roger Penrose"
+        ],
+        "description": "Extends twistor methods to curved spacetimes (anti-self-dual solutions).",
+        "evidence": [
+          {
+            "claim": "Crossref record: GRG, Jan 1976",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1007/bf00762011",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Content not read."
+      }
+    ],
+    "people": [],
+    "notes": "Crossref only. Penrose 'The twistor programme' (Rep. Math. Phys. 1977) exists per Crossref but not used.",
+    "pid": "P240",
+    "searchTerms": [
+      "complex geometry",
+      "relativity",
+      "twistor theory"
+    ]
+  },
+  {
+    "eventId": "MB121",
+    "canonicalName": "Rota combinatorial theory",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1964,
+        "precision": "year",
+        "label": "Foundations of combinatorial theory I: Möbius functions",
+        "work": "G.-C. Rota, On the foundations of combinatorial theory I. Theory of Möbius functions, Z. Wahrscheinlichkeitstheorie, 1964",
+        "people": [
+          "Gian-Carlo Rota"
+        ],
+        "description": "Rota develops Möbius inversion on locally finite partially ordered sets.",
+        "evidence": [
+          {
+            "claim": "Crossref record: Z. Wahrsch. verw. Gebiete, 1964",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1007/bf00531932",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [],
+    "notes": "Crossref only. Later parts of the series (e.g. VI, 1972) not used.",
+    "pid": "P241",
+    "searchTerms": [
+      "combinatorics",
+      "algebra",
+      "algebraic combinatorics"
+    ]
+  },
+  {
+    "eventId": "WB52",
+    "canonicalName": "Hyperfunctions and algebraic analysis",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1958,
+        "precision": "year",
+        "label": "Theory of hyperfunctions (Japanese)",
+        "work": "M. Sato, Cyōkansū no riron, Sūgaku 10(1), 1958",
+        "people": [
+          "Mikio Sato"
+        ],
+        "description": "Sato first announces hyperfunctions in Japanese.",
+        "evidence": [
+          {
+            "claim": "Wikipedia Hyperfunction page lists Sūgaku 1958 and states introduced in 1958",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Hyperfunction",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Secondary source only; Sūgaku article not opened."
+      },
+      {
+        "role": "key_development",
+        "year": 1959,
+        "precision": "year",
+        "label": "Theory of Hyperfunctions I (English)",
+        "work": "M. Sato, Theory of hyperfunctions I, J. Fac. Sci. Univ. Tokyo Sect. I 8, 1959 (II: 1960)",
+        "people": [
+          "Mikio Sato"
+        ],
+        "description": "Full English exposition of hyperfunctions.",
+        "evidence": [
+          {
+            "claim": "Wikipedia Hyperfunction page cites I (1959, 8(1) 139-193) and II (1960, 8(2) 387-437)",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Hyperfunction",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 1972,
+        "precision": "year",
+        "label": "Microlocal structure of pseudo-differential equations",
+        "work": "M. Sato, T. Kawai, M. Kashiwara, On the structure of single linear pseudo-differential equations, Proc. Japan Acad., 1972",
+        "people": [
+          "Mikio Sato",
+          "Takahiro Kawai",
+          "Masaki Kashiwara"
+        ],
+        "description": "Early microlocal paper of the Sato school.",
+        "evidence": [
+          {
+            "claim": "Crossref record: Proc. Japan Acad. 1972",
+            "source": "Crossref",
+            "url": "https://doi.org/10.3792/pja/1195519535",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "low",
+        "note": "Only an early microlocal paper found; the Lecture Notes in Math. 287 (1973) volume not verified."
+      }
+    ],
+    "people": [],
+    "notes": "Searched Wikipedia and Crossref. Catalogue 1959-70 start consistent with 1958-60. Algebraic analysis naming/institution not found.",
+    "pid": "P244",
+    "searchTerms": [
+      "several complex variables",
+      "sheaf theory",
+      "PDE",
+      "algebraic analysis"
+    ]
+  },
+  {
+    "eventId": "WB101",
+    "canonicalName": "Conformal field theory",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1984,
+        "precision": "year",
+        "label": "Infinite conformal symmetry in 2D QFT",
+        "work": "A. A. Belavin, A. M. Polyakov, A. B. Zamolodchikov, Nucl. Phys. B 241, 1984",
+        "people": [
+          "Belavin",
+          "Polyakov",
+          "Zamolodchikov"
+        ],
+        "description": "Introduces the Virasoro-based operator-algebra approach to 2D critical models.",
+        "evidence": [
+          {
+            "claim": "Crossref record: Nucl. Phys. B, July 1984",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1016/0550-3213(84)90052-x",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "Earlier conformal-invariance work (Polyakov 1970) not searched."
+      }
+    ],
+    "people": [],
+    "notes": "Crossref only; precursors and institution milestones not searched.",
+    "pid": "P246",
+    "searchTerms": [
+      "statistical physics",
+      "representation theory (Virasoro)",
+      "vertex operator algebras",
+      "representation theory"
+    ]
+  },
+  {
+    "eventId": "MB120",
+    "canonicalName": "Combinatorial game theory",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1936,
+        "precision": "year",
+        "label": "Sprague: Über mathematische Kampfspiele",
+        "work": "R. P. Sprague, Über mathematische Kampfspiele, Tôhoku Math. J. 41, 1936",
+        "people": [
+          "Roland Sprague"
+        ],
+        "description": "Assigns values to impartial games (Nim-like).",
+        "evidence": [
+          {
+            "claim": "Wikipedia Sprague-Grundy theorem cites Sprague 1936, Tohoku Math. J. 41:438-444",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Sprague%E2%80%93Grundy_theorem",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "low",
+        "note": "Secondary source; journal volume 41 may be dated 1935 by the journal. Original not opened."
+      },
+      {
+        "role": "key_development",
+        "year": 1939,
+        "precision": "year",
+        "label": "Grundy: Mathematics and games",
+        "work": "P. M. Grundy, Mathematics and games, Eureka 2, 1939",
+        "people": [
+          "Patrick Grundy"
+        ],
+        "description": "Independent development of the same theory.",
+        "evidence": [
+          {
+            "claim": "Wikipedia Sprague-Grundy theorem cites Grundy 1939, Eureka 2:6-8",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Sprague%E2%80%93Grundy_theorem",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "low"
+      }
+    ],
+    "people": [],
+    "notes": "Conway, On Numbers and Games (1976) not verified: Crossref only gives a 2000 reissue, so no consolidation milestone. Bouton 1901 and Winning Ways (1982) not verified. Catalogue 1935 start consistent with Sprague.",
+    "pid": "P250",
+    "searchTerms": [
+      "combinatorial game theory (Sprague-Grundy)",
+      "set theory / ordinal number systems",
+      "combinatorial games"
+    ]
+  },
+  {
+    "eventId": "MB31",
+    "canonicalName": "Weil: integration on topological groups, harmonic analysis",
+    "aliases": [
+      "Wiener-style harmonic analysis on groups"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1933,
+        "precision": "year",
+        "label": "Haar measure",
+        "work": "A. Haar, Der Massbegriff in der Theorie der kontinuierlichen Gruppen, Ann. of Math., 1933",
+        "people": [
+          "Alfréd Haar"
+        ],
+        "description": "Haar constructs invariant measure on separable locally compact groups.",
+        "evidence": [
+          {
+            "claim": "Crossref record: Ann. Math. Jan 1933",
+            "source": "Crossref",
+            "url": "https://doi.org/10.2307/1968346",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Wikipedia Haar measure: introduced by Haar in 1933",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Haar_measure",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "precursor",
+        "year": 1934,
+        "precision": "year",
+        "label": "Pontryagin duality",
+        "work": "L. Pontrjagin, The theory of topological commutative groups, Ann. of Math., 1934",
+        "people": [
+          "Lev Pontryagin"
+        ],
+        "description": "Duality for locally compact commutative groups.",
+        "evidence": [
+          {
+            "claim": "Crossref record: Ann. Math. Apr 1934",
+            "source": "Crossref",
+            "url": "https://doi.org/10.2307/1968438",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "consolidation",
+        "year": 1940,
+        "precision": "year",
+        "label": "L'intégration dans les groupes topologiques",
+        "work": "A. Weil, L'intégration dans les groupes topologiques et ses applications, Hermann, 1940",
+        "people": [
+          "André Weil"
+        ],
+        "description": "Systematic treatment of Haar measure in general locally compact groups.",
+        "evidence": [
+          {
+            "claim": "Wikipedia Haar measure cites Weil 1940 (Hermann) and credits general existence/uniqueness",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Haar_measure",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "No bibliographic record of the 1940 book found (Crossref gave only the 1979 Collected Papers reprint of the introduction)."
+      }
+    ],
+    "people": [],
+    "notes": "No first_statement assigned: Haar 1933 and Pontryagin 1934 are precursors; Weil 1940 is the systematic treatment. Catalogue 1933 start corresponds to Haar, not Weil.",
+    "pid": "P251",
+    "searchTerms": [
+      "topological groups (Haar measure)",
+      "harmonic analysis",
+      "abstract harmonic analysis"
+    ]
+  },
+  {
+    "eventId": "WB86",
+    "canonicalName": "Computer algebra and Groebner bases",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1965,
+        "precision": "year",
+        "label": "Buchberger's thesis",
+        "work": "B. Buchberger, PhD thesis, Innsbruck, 1965",
+        "people": [
+          "Bruno Buchberger"
+        ],
+        "description": "Thesis introducing Gröbner bases and an algorithm.",
+        "evidence": [
+          {
+            "claim": "Wikipedia Gröbner basis: introduced in Buchberger's 1965 thesis",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Gr%C3%B6bner_basis",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Thesis not opened; treated as precursor because the algorithm was published in 1970."
+      },
+      {
+        "role": "first_statement",
+        "year": 1970,
+        "precision": "year",
+        "label": "Buchberger's algorithmic criterion",
+        "work": "B. Buchberger, Ein algorithmisches Kriterium für die Lösbarkeit eines algebraischen Gleichungssystems, Aequationes Math., 1970",
+        "people": [
+          "Bruno Buchberger"
+        ],
+        "description": "First journal publication of the Gröbner basis algorithm.",
+        "evidence": [
+          {
+            "claim": "Crossref record: Aequationes Math. 1970",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1007/bf01844169",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Abstract not read."
+      },
+      {
+        "role": "key_development",
+        "year": 1975,
+        "precision": "year",
+        "label": "Cylindrical algebraic decomposition",
+        "work": "G. E. Collins, Quantifier elimination for real closed fields by cylindrical algebraic decomposition, LNCS 33, 1975",
+        "people": [
+          "George Collins"
+        ],
+        "description": "CAD gives an algorithm for real quantifier elimination.",
+        "evidence": [
+          {
+            "claim": "Crossref record: LNCS (GI Conference Kaiserslautern, 1975)",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1007/3-540-07407-4_17",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [],
+    "notes": "Crossref/Wikipedia only (Wikipedia page read to ~100k chars).",
+    "pid": "P253",
+    "searchTerms": [
+      "commutative algebra",
+      "algorithms / computer science",
+      "computer algebra (Groebner bases)"
+    ]
+  },
+  {
+    "eventId": "MB69",
+    "canonicalName": "Random graphs",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1959,
+        "precision": "year",
+        "label": "On random graphs I",
+        "work": "P. Erdős, A. Rényi, On random graphs I, Publ. Math. Debrecen 6, 1959",
+        "people": [
+          "Paul Erdős",
+          "Alfréd Rényi"
+        ],
+        "description": "Introduces the random graph model G(n,m).",
+        "evidence": [
+          {
+            "claim": "Wikipedia Erdős-Rényi model cites it with DOI 10.5486/PMD.1959.6.3-4.12",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93R%C3%A9nyi_model",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Gilbert, Random Graphs, Ann. Math. Statist. 30 (1959) 1141-1144 (DOI 10.1214/aoms/1177706098) is a simultaneous independent model, not opened."
+      },
+      {
+        "role": "key_development",
+        "year": 1960,
+        "precision": "year",
+        "label": "On the evolution of random graphs",
+        "work": "P. Erdős, A. Rényi, Publ. Math. Inst. Hungar. Acad. Sci. 5, 1960",
+        "people": [
+          "Paul Erdős",
+          "Alfréd Rényi"
+        ],
+        "description": "Threshold phenomena for graph properties.",
+        "evidence": [
+          {
+            "claim": "Wikipedia Erdős-Rényi model citation, vol. 5 pp. 17-61",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Erd%C5%91s%E2%80%93R%C3%A9nyi_model",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Crossref searches for the Erdős-Rényi papers returned nothing relevant; used Wikipedia only.",
+    "pid": "P254",
+    "searchTerms": [
+      "graph theory",
+      "probability",
+      "random graph theory"
+    ]
+  },
+  {
+    "eventId": "MB46",
+    "canonicalName": "Algebraic K-theory",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1957,
+        "precision": "year",
+        "label": "Grothendieck's K-group",
+        "work": "A. Grothendieck, K-group construction (Grothendieck-Riemann-Roch), 1957",
+        "people": [
+          "Alexander Grothendieck"
+        ],
+        "description": "Construction giving K-theory its name.",
+        "evidence": [
+          {
+            "claim": "Wikipedia Algebraic K-theory: takes its name from a 1957 construction of Grothendieck",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Algebraic_K-theory",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "low",
+        "note": "Concerns K0 of varieties; original not opened; no specific work cited."
+      },
+      {
+        "role": "key_development",
+        "year": 1967,
+        "precision": "year",
+        "label": "Milnor's K2 and congruence subgroup problem",
+        "work": "H. Bass, J. Milnor, J.-P. Serre, Solution of the congruence subgroup problem..., Publ. IHES, 1967",
+        "people": [
+          "Hyman Bass",
+          "John Milnor",
+          "Jean-Pierre Serre"
+        ],
+        "description": "K2 in use; Milnor defined K2 in spring 1967.",
+        "evidence": [
+          {
+            "claim": "Wikipedia: Milnor defined K2 in spring 1967",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Algebraic_K-theory",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Crossref record: IHES 1967",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1007/bf02684586",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "low",
+        "note": "Link between BMS paper and K2 not verified from text."
+      },
+      {
+        "role": "key_development",
+        "year": 1973,
+        "precision": "year",
+        "label": "Quillen's higher algebraic K-theory",
+        "work": "D. Quillen, Higher algebraic K-theory I, LNM 341, 1973",
+        "people": [
+          "Daniel Quillen"
+        ],
+        "description": "Defines higher K-groups of rings.",
+        "evidence": [
+          {
+            "claim": "Crossref record: LNM Higher K-Theories, 1973",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1007/bfb0067053",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Wikipedia: Q-construction found spring 1972, definitions in Quillen 1973",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Algebraic_K-theory",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [],
+    "notes": "Inherited Milnor 'Introduction to Algebraic K-Theory (1971)': Crossref lists the Princeton book only with an online date of 1972, so not used. Catalogue range 1962-72 unverified.",
+    "pid": "P255",
+    "searchTerms": [
+      "topological K-theory",
+      "ring theory / algebra",
+      "algebraic K-theory"
+    ]
+  }
+]

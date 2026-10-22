@@ -1,0 +1,145 @@
+[
+ {
+  "pid": "P003",
+  "eventId": "E05",
+  "name": "Probability from games of chance",
+  "type": "import-from-outside",
+  "from": [
+   "Games of chance",
+   "Combinatorics"
+  ],
+  "to": [
+   "Probability"
+  ],
+  "summary": "The problem of points and dice questions are solved by counting equally likely cases, then generalised into a calculus of chance and, with Laplace, an analytic one."
+ },
+ {
+  "pid": "P116",
+  "eventId": "WA46/MA61",
+  "name": "Pascal's arithmetical triangle",
+  "type": "technique-transfer",
+  "from": [
+   "combinatorics",
+   "arithmetic"
+  ],
+  "to": [
+   "probability"
+  ],
+  "summary": "The triangle and induction were used to compute fair divisions."
+ },
+ {
+  "pid": "P174",
+  "eventId": "MA62",
+  "name": "Wallis: interpolation and infinite products",
+  "type": "technique-transfer",
+  "from": [
+   "Cavalieri's indivisibles",
+   "interpolation"
+  ],
+  "to": [
+   "analysis"
+  ],
+  "summary": "Interpolating integer-power integrals gave an infinite product for pi."
+ },
+ {
+  "pid": "P443",
+  "eventId": "H38",
+  "name": "Elliptic integrals from lemniscate and elastica (Bernoulli)",
+  "type": "import-from-outside",
+  "from": [
+   "mechanics (elastic rod, pendulum)",
+   "curve geometry"
+  ],
+  "to": [
+   "analysis (elliptic integrals)"
+  ],
+  "summary": "Arc length of ellipses and spirals and the equation of a compressed elastic rod led Jacob Bernoulli to the lemniscate integral, treated by analogy with the arcsine."
+ },
+ {
+  "pid": "P170",
+  "eventId": "MA68",
+  "name": "Huygens: evolutes and the isochronous pendulum",
+  "type": "import-from-outside",
+  "from": [
+   "geometry of curves",
+   "mechanics"
+  ],
+  "to": [
+   "differential geometry",
+   "mechanics"
+  ],
+  "summary": "The cycloid's tautochrone property and evolute theory tied curve geometry to pendulum clocks."
+ },
+ {
+  "pid": "P168",
+  "eventId": "WA47",
+  "name": "Graunt: life tables",
+  "type": "import-from-outside",
+  "from": [
+   "civil records"
+  ],
+  "to": [
+   "demography",
+   "statistics"
+  ],
+  "summary": "Bills of mortality were analysed to build the first life table; Halley refined it."
+ },
+ {
+  "pid": "P163",
+  "eventId": "MA65",
+  "name": "Newton: infinite series and binomial theorem",
+  "type": "technique-transfer",
+  "from": [
+   "algebra",
+   "interpolation",
+   "quadrature"
+  ],
+  "to": [
+   "analysis"
+  ],
+  "summary": "Expansion of non-integer powers and functions as series supplied tools for quadrature."
+ },
+ {
+  "pid": "P145",
+  "eventId": "WA50/MA69",
+  "name": "Leibniz combinatorial logic",
+  "type": "birth-by-abstraction",
+  "from": [
+   "logic",
+   "combinatorics"
+  ],
+  "to": [
+   "symbolic logic"
+  ],
+  "summary": "Leibniz proposed a calculus of reasoning by symbolic manipulation, largely unpublished."
+ },
+ {
+  "pid": "P192",
+  "eventId": "MA71",
+  "name": "Leibniz: determinants",
+  "type": "birth-by-abstraction",
+  "from": [
+   "linear equations",
+   "notation"
+  ],
+  "to": [
+   "linear algebra"
+  ],
+  "summary": "Systems of linear equations were handled by an indexed notation for determinants, left unpublished."
+ },
+ {
+  "pid": "P133",
+  "eventId": "MA67/WA49",
+  "name": "Newton's Principia",
+  "type": "import-from-outside",
+  "from": [
+   "geometry",
+   "mechanics",
+   "astronomy"
+  ],
+  "to": [
+   "mechanics"
+  ],
+  "summary": "Central-force motion, universal gravitation and orbit theory were derived by geometric mathematics."
+ }
+]

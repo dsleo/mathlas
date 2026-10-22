@@ -1,0 +1,1387 @@
+[
+ {
+  "pid": "P371",
+  "eventId": "W85/M23",
+  "canonicalName": "Cartan exterior differential calculus",
+  "aliases": [
+   "exterior derivative",
+   "Pfaffian systems and moving frames",
+   "Cartan calculus"
+  ],
+  "phases": [
+   "Pfaff systems",
+   "exterior derivative",
+   "moving frames"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1899,
+    "endYear": null,
+    "precision": "year",
+    "label": "Exterior derivative in its current form",
+    "work": "Cartan, E., 'Sur certaines expressions différentielles et le problème de Pfaff', Ann. Sci. ENS 16 (1899)",
+    "people": [
+     "Élie Cartan"
+    ],
+    "description": "Cartan introduces the exterior derivative of differential forms and applies it to the Pfaff problem.",
+    "evidence": [
+     {
+      "claim": "Crossref record: title and year 1899, Annales ENS",
+      "source": "Crossref, DOI 10.24033/asens.467",
+      "url": "https://doi.org/10.24033/asens.467",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Exterior derivative first described in its current form by Cartan in 1899",
+      "source": "Wikipedia, Exterior derivative (saved lead)",
+      "url": "https://en.wikipedia.org/wiki/Exterior_derivative",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1901,
+    "endYear": null,
+    "precision": "year",
+    "label": "Integration of Pfaff systems of character two",
+    "work": "Cartan, E., 'Sur l'intégration de certains systèmes de Pfaff de caractère deux', Bull. SMF (1901)",
+    "people": [
+     "Élie Cartan"
+    ],
+    "description": "Extends the Pfaff-system method to systems of character two, one step in building the theory of exterior differential systems.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Cartan, Bull. SMF, year 1901",
+      "source": "Crossref, DOI 10.24033/bsmf.647",
+      "url": "https://doi.org/10.24033/bsmf.647",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Assessed as a development step from the bibliographic record only; full text not read."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": null,
+    "endYear": null,
+    "precision": "unknown",
+    "label": "Pfaff's problem on differential forms",
+    "work": null,
+    "people": [
+     "Johann Friedrich Pfaff"
+    ],
+    "description": "Pfaffian expressions and the Pfaff problem were the setting in which Cartan later worked; the 19th-century origin is not dated here.",
+    "evidence": [
+     {
+      "claim": "Cartan's work revives the Pfaff problem for differential expressions",
+      "source": "Wikipedia, Exterior derivative (wikitext, saved)",
+      "url": "https://en.wikipedia.org/wiki/Exterior_derivative",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Year not established; searched the saved Wikipedia lead only. Not used for ranking."
+   }
+  ],
+  "people": [
+   {
+    "name": "Élie Cartan",
+    "role": "developer",
+    "lifespan": "1869-1951",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Cartan_Elie/",
+    "works": [
+     {
+      "citation": "Cartan, 'Sur certaines expressions différentielles et le problème de Pfaff', Ann. Sci. ENS (1899)",
+      "year": 1899,
+      "url": "https://doi.org/10.24033/asens.467",
+      "whyItMatters": "first statement of the exterior derivative"
+     }
+    ],
+    "roleNote": "main architect of the exterior calculus and of moving frames"
+   }
+  ],
+  "notes": "Saved MacTutor Cartan biography page returned 404; the biography link is unverified. Milestone for consolidation (Cartan's later book on exterior differential systems) was not confirmed by a bibliographic record in this pass and is left open. The 1899 date is confirmed by Crossref and by the saved Wikipedia lead, so the input summary is consistent on that point.",
+  "derivedDates": {
+   "conceptual": 1899,
+   "methodological": null,
+   "institutional": null
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P387",
+  "eventId": "W6/M31",
+  "canonicalName": "Axiomatisation of geometry",
+  "aliases": [
+   "Hilbert's axioms",
+   "foundations of geometry",
+   "Grundlagen der Geometrie"
+  ],
+  "phases": [
+   "Pasch's rigorous geometry",
+   "Hilbert's complete axiom system"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1882,
+    "endYear": null,
+    "precision": "year",
+    "label": "Pasch's rigorous projective geometry",
+    "work": "Pasch, M., Vorlesungen über neuere Geometrie, Leipzig (1882)",
+    "people": [
+     "Moritz Pasch"
+    ],
+    "description": "Pasch's earlier rigorous treatment of geometry without relying on diagrams is a direct predecessor.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 'Vorlesungen über neuere Geometrie', year 1882",
+      "source": "zbMATH API, query 'Pasch Vorlesungen uber neuere Geometrie'",
+      "url": "https://zbmath.org/?q=Vorlesungen+%C3%BCber+neuere+Geometrie",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Recorded as a precursor, not a ranked start."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1899,
+    "endYear": null,
+    "precision": "year",
+    "label": "Complete independent axiom system for Euclidean geometry",
+    "work": "Hilbert, D., Grundlagen der Geometrie, Teubner, Leipzig (1899)",
+    "people": [
+     "David Hilbert"
+    ],
+    "description": "Gives a 20-axiom system for Euclidean geometry, with independence proved by models.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 'Grundlagen der Geometrie', year 1899",
+      "source": "zbMATH API, query 'Hilbert Grundlagen der Geometrie 1899'",
+      "url": "https://zbmath.org/?q=Grundlagen+der+Geometrie",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Hilbert's axioms proposed in 1899 in Grundlagen der Geometrie; models used to prove independence",
+      "source": "Wikipedia, Hilbert's axioms (saved wikitext)",
+      "url": "https://en.wikipedia.org/wiki/Hilbert%27s_axioms",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1968,
+    "endYear": null,
+    "precision": "year",
+    "label": "Later edition with supplements",
+    "work": "Hilbert, D., Grundlagen der Geometrie, 10th ed. with supplements by P. Bernays (1968)",
+    "people": [
+     "David Hilbert",
+     "Paul Bernays"
+    ],
+    "description": "A later edition with supplements shows the 1899 system remained the standard text; it is not a first systematic treatment.",
+    "evidence": [
+     {
+      "claim": "zbMATH record for the 1968 edition with Bernays supplements",
+      "source": "zbMATH API, query 'Hilbert Grundlagen der Geometrie 1899'",
+      "url": "https://zbmath.org/?q=Grundlagen+der+Geometrie",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Included only to show the reception; it does not set a derived date. Remove if the schema counts only the first systematic treatment."
+   }
+  ],
+  "people": [
+   {
+    "name": "David Hilbert",
+    "role": "developer",
+    "lifespan": "1862-1943",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/",
+    "works": [
+     {
+      "citation": "Grundlagen der Geometrie (Teubner, 1899)",
+      "year": 1899,
+      "url": "https://zbmath.org/?q=Grundlagen+der+Geometrie",
+      "whyItMatters": "first complete independent axiom system for Euclidean geometry"
+     }
+    ],
+    "roleNote": "author of the complete axiom system"
+   },
+   {
+    "name": "Moritz Pasch",
+    "role": "developer",
+    "lifespan": "1843-1930",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Moritz_Pasch",
+    "works": [
+     {
+      "citation": "Vorlesungen über neuere Geometrie (1882)",
+      "year": 1882,
+      "url": "https://zbmath.org/?q=Vorlesungen+%C3%BCber+neuere+Geometrie",
+      "whyItMatters": "earlier rigorous geometry without diagrams"
+     }
+    ],
+    "roleNote": "rigorous predecessor"
+   }
+  ],
+  "notes": "The 1899 date rests on the zbMATH record and the saved Wikipedia lead. The MacTutor non-Euclidean topic page is only a loose match (score 0.67) and was not used. The independence-by-models method is the same 1899 work, so it is not repeated as an application milestone. Derived methodological date is left null, because no separate first_application was established.",
+  "derivedDates": {
+   "conceptual": 1899,
+   "methodological": null,
+   "institutional": 1968
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P410",
+  "eventId": "M39",
+  "canonicalName": "Descriptive set theory",
+  "aliases": [
+   "theory of definable sets",
+   "analytic sets",
+   "projective sets"
+  ],
+  "phases": [
+   "regularity of definable sets",
+   "analytic and projective sets"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1899,
+    "endYear": null,
+    "precision": "year",
+    "label": "Baire's functions of a real variable",
+    "work": "Baire, R., 'Sur les fonctions de variables réelles', Ann. Mat. Pura Appl. (1899)",
+    "people": [
+     "René Baire"
+    ],
+    "description": "Baire's classes and his work on functions of real variables prepare the regularity questions of definable sets.",
+    "evidence": [
+     {
+      "claim": "zbMATH and Crossref record: 'Sur les fonctions de variables réelles', 1899",
+      "source": "Crossref, DOI 10.1007/bf02419243",
+      "url": "https://doi.org/10.1007/bf02419243",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Precursor only; not used for ranking."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1905,
+    "endYear": null,
+    "precision": "year",
+    "label": "Lebesgue's analytic functions and sets",
+    "work": "Lebesgue, H., 'Sur les fonctions représentables analytiquement', J. Math. Pures Appl. (1905)",
+    "people": [
+     "Henri Lebesgue"
+    ],
+    "description": "Lebesgue treats the analytically representable functions and sets that lead to the analytic-set hierarchy.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 'Sur les fonctions représentables analytiquement', year 1905",
+      "source": "zbMATH API, query 'Lebesgue Sur les fonctions representables analytiquement'",
+      "url": "https://zbmath.org/?q=Sur+les+fonctions+repr%C3%A9sentables+analytiquement",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Relevance to the analytic-set theory is assessed from the title and the MacTutor text; full text not read."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1917,
+    "endYear": null,
+    "precision": "year",
+    "label": "Suslin's definition of analytic (B) sets",
+    "work": "Suslin, M., 'Sur une définition des ensembles mesurables B sans nombres transfinis', C. R. Acad. Sci. (1917)",
+    "people": [
+     "Mikhail Suslin"
+    ],
+    "description": "Suslin gives a definition of the measurable B sets without transfinite numbers, the first explicit operation definition of analytic sets.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 'Sur une définition des ensembles mesurables B...', year 1917",
+      "source": "zbMATH API, query 'Suslin Sur une definition des ensembles mesurables B'",
+      "url": "https://zbmath.org/?q=Sur+une+d%C3%A9finition+des+ensembles+mesurables+B",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Suslin's definition and its role in the analytic-set theory",
+      "source": "MacTutor, Suslin biography (live page)",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Suslin/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The role description is from the MacTutor biography; the claim that it is the first operation definition is not separately verified."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1930,
+    "endYear": null,
+    "precision": "year",
+    "label": "Leçons sur les ensembles analytiques",
+    "work": "Lusin, N., Leçons sur les ensembles analytiques et leurs applications, Gauthier-Villars (1930)",
+    "people": [
+     "Nikolai Lusin"
+    ],
+    "description": "A systematic monograph treatment of analytic sets, the first book-length consolidation.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 'Leçons sur les ensembles analytiques', year 1930",
+      "source": "zbMATH API, query 'Lusin Lecons sur les ensembles analytiques'",
+      "url": "https://zbmath.org/?q=Le%C3%A7ons+sur+les+ensembles+analytiques",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "René Baire",
+    "role": "developer",
+    "lifespan": "1874-1932",
+    "biographyUrl": "https://en.wikipedia.org/wiki/René_Baire",
+    "works": [
+     {
+      "citation": "Sur les fonctions de variables réelles (1899)",
+      "year": 1899,
+      "url": "https://doi.org/10.1007/bf02419243",
+      "whyItMatters": "Baire classes of functions"
+     }
+    ],
+    "roleNote": "precursor on Baire classes and regularity"
+   },
+   {
+    "name": "Henri Lebesgue",
+    "role": "developer",
+    "lifespan": "1875-1941",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lebesgue/",
+    "works": [
+     {
+      "citation": "Sur les fonctions représentables analytiquement (1905)",
+      "year": 1905,
+      "url": "https://zbmath.org/?q=Sur+les+fonctions+repr%C3%A9sentables+analytiquement",
+      "whyItMatters": "analytically representable sets"
+     }
+    ],
+    "roleNote": "measure and analytic functions"
+   },
+   {
+    "name": "Mikhail Suslin",
+    "role": "developer",
+    "lifespan": "1894-1919",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Suslin/",
+    "works": [
+     {
+      "citation": "Sur une définition des ensembles mesurables B (1917)",
+      "year": 1917,
+      "url": "https://zbmath.org/?q=Sur+une+d%C3%A9finition+des+ensembles+mesurables+B",
+      "whyItMatters": "operation definition of analytic sets"
+     }
+    ],
+    "roleNote": "Suslin operation and analytic sets"
+   },
+   {
+    "name": "Nikolai Lusin",
+    "role": "systematiser",
+    "lifespan": "1883-1950",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Nikolai_Luzin",
+    "works": [
+     {
+      "citation": "Leçons sur les ensembles analytiques (1930)",
+      "year": 1930,
+      "url": "https://zbmath.org/?q=Le%C3%A7ons+sur+les+ensembles+analytiques",
+      "whyItMatters": "systematic treatment"
+     }
+    ],
+    "roleNote": "monograph on analytic sets"
+   }
+  ],
+  "notes": "Naming of 'descriptive set theory' is not established: neither the saved Wikipedia wikitext nor the MacTutor saved pages give the coinage, and no naming milestone was recorded. The Lusin monograph dates the consolidation, not the name. Lusin's 1927 paper in Fund. Math. 10 is a candidate development but was not promoted. Institutional derived date is taken from the 1930 consolidation.",
+  "derivedDates": {
+   "conceptual": 1917,
+   "methodological": null,
+   "institutional": 1930
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P060",
+  "eventId": "E68",
+  "canonicalName": "Brownian motion: from physics and finance to measure on path space",
+  "aliases": [
+   "Wiener process",
+   "Brownian motion",
+   "Bachelier model",
+   "Wiener measure"
+  ],
+  "phases": [
+   "Bachelier's speculation model",
+   "Einstein's kinetic theory",
+   "Wiener measure on path space",
+   "harmonic functions"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1900,
+    "endYear": null,
+    "precision": "year",
+    "label": "Bachelier's model of speculative prices",
+    "work": "Bachelier, L., 'Théorie de la spéculation', Ann. Sci. ENS (1900)",
+    "people": [
+     "Louis Bachelier"
+    ],
+    "description": "Bachelier models price fluctuations with a Brownian-type stochastic process in his doctoral thesis.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 'Théorie de la spéculation', year 1900",
+      "source": "zbMATH API, query 'Bachelier Theorie de la speculation'",
+      "url": "https://zbmath.org/?q=Th%C3%A9orie+de+la+sp%C3%A9culation",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Bachelier modelled the stochastic process in his 1900 thesis",
+      "source": "Wikipedia, Brownian motion (saved wikitext)",
+      "url": "https://en.wikipedia.org/wiki/Brownian_motion",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1905,
+    "endYear": null,
+    "precision": "year",
+    "label": "Einstein's kinetic theory of Brownian motion",
+    "work": "Einstein, A., 'Über die von der molekularkinetischen Theorie der Wärme geforderte Bewegung...', Ann. Phys. (1905)",
+    "people": [
+     "Albert Einstein"
+    ],
+    "description": "Einstein derives the diffusion law for particles suspended in a fluid, from a physical model of molecular motion.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Annalen der Physik, year 1905",
+      "source": "Crossref, DOI 10.1002/andp.19053220806",
+      "url": "https://doi.org/10.1002/andp.19053220806",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1923,
+    "endYear": null,
+    "precision": "year",
+    "label": "Differential space: Wiener measure on continuous paths",
+    "work": "Wiener, N., 'Differential-space', J. Math. Phys. (1923)",
+    "people": [
+     "Norbert Wiener"
+    ],
+    "description": "Wiener constructs a measure on continuous paths, the basis of the rigorous Brownian motion.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 'Differential-space', year 1923",
+      "source": "zbMATH API, query 'Wiener Differential space'",
+      "url": "https://zbmath.org/?q=Differential-space",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1944,
+    "endYear": null,
+    "precision": "year",
+    "label": "Brownian motion and harmonic functions in the plane",
+    "work": "Kakutani, S., 'Two-dimensional Brownian motion and harmonic functions', Proc. Imp. Acad. Tokyo (1944)",
+    "people": [
+     "Shizuo Kakutani"
+    ],
+    "description": "Uses Brownian paths to study harmonic functions, the step that connects the path measure to boundary value problems.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Proc. Japan Acad., year 1944",
+      "source": "Crossref, DOI 10.3792/pia/1195572706",
+      "url": "https://doi.org/10.3792/pia/1195572706",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Louis Bachelier",
+    "role": "originator",
+    "lifespan": "1870-1946",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bachelier/",
+    "works": [
+     {
+      "citation": "Théorie de la spéculation (1900)",
+      "year": 1900,
+      "url": "https://zbmath.org/?q=Th%C3%A9orie+de+la+sp%C3%A9culation",
+      "whyItMatters": "earliest stochastic model"
+     }
+    ],
+    "roleNote": "first mathematical model of Brownian motion in finance"
+   },
+   {
+    "name": "Albert Einstein",
+    "role": "developer",
+    "lifespan": "1879-1955",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Einstein/",
+    "works": [
+     {
+      "citation": "Über die molekularkinetische Theorie... (1905)",
+      "year": 1905,
+      "url": "https://doi.org/10.1002/andp.19053220806",
+      "whyItMatters": "diffusion from molecular motion"
+     }
+    ],
+    "roleNote": "physical theory of Brownian motion"
+   },
+   {
+    "name": "Norbert Wiener",
+    "role": "developer",
+    "lifespan": "1894-1964",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Norbert_Wiener",
+    "works": [
+     {
+      "citation": "Differential-space (1923)",
+      "year": 1923,
+      "url": "https://zbmath.org/?q=Differential-space",
+      "whyItMatters": "Wiener measure"
+     }
+    ],
+    "roleNote": "measure on path space"
+   },
+   {
+    "name": "Shizuo Kakutani",
+    "role": "developer",
+    "lifespan": "1911-2004",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kakutani/",
+    "works": [
+     {
+      "citation": "Two-dimensional Brownian motion and harmonic functions (1944)",
+      "year": 1944,
+      "url": "https://doi.org/10.3792/pia/1195572706",
+      "whyItMatters": "Brownian paths for harmonic functions"
+     }
+    ],
+    "roleNote": "harmonic functions via Brownian motion"
+   }
+  ],
+  "notes": "All four key years are confirmed by bibliographic records (Crossref or zbMATH). The input summary says Brownian motion was given a measure on path space and then solved boundary problems; the measure is Wiener's 1923 work and the boundary application is Kakutani's 1944 paper. The Wikipedia lead lists further years (1926, 1908) that were not checked and are not used.",
+  "derivedDates": {
+   "conceptual": 1900,
+   "methodological": 1944,
+   "institutional": null
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P402",
+  "eventId": "W47",
+  "canonicalName": "Calculus of variations to Hilbert's direct methods",
+  "aliases": [
+   "Dirichlet's principle",
+   "direct method in the calculus of variations",
+   "Hilbert's justification of Dirichlet's principle"
+  ],
+  "phases": [
+   "Riemann's use of Dirichlet's principle",
+   "Hilbert's direct method"
+  ],
+  "milestones": [
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1904,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hilbert's justification of Dirichlet's principle",
+    "work": "Hilbert, D., 'Über das Dirichletsche Prinzip', Math. Ann. 59 (1904)",
+    "people": [
+     "David Hilbert"
+    ],
+    "description": "Hilbert justifies Dirichlet's principle by the direct method of the calculus of variations, rescuing Riemann's use.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 'Über das Dirichletsche Prinzip', year 1904",
+      "source": "zbMATH API, query 'Hilbert Uber das Dirichletsche Prinzip'",
+      "url": "https://zbmath.org/?q=%C3%9Cber+das+Dirichletsche+Prinzip",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Hilbert justified Riemann's use of Dirichlet's principle by developing the direct method",
+      "source": "Wikipedia, Dirichlet's principle (saved wikitext)",
+      "url": "https://en.wikipedia.org/wiki/Dirichlet%27s_principle",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The 1900 Jahresbericht announcement is a candidate; the year 1904 is the record for the full paper. Venue Math. Ann. is taken from the zbMATH record and not separately checked."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1975,
+    "endYear": null,
+    "precision": "year",
+    "label": "Monna's history of Dirichlet's principle",
+    "work": "Monna, A. F., Dirichlet's Principle: A Mathematical Comedy of Errors (1975)",
+    "people": [
+     "A. F. Monna"
+    ],
+    "description": "Historical study of the principle and its direct-method repair; cited in the Wikipedia lead.",
+    "evidence": [
+     {
+      "claim": "Cited as the historical source for the Dirichlet principle history",
+      "source": "Wikipedia, Dirichlet's principle (saved wikitext, citing Monna 1975)",
+      "url": "https://en.wikipedia.org/wiki/Dirichlet%27s_principle",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Historical study, not a mathematical consolidation; bibliographic record not checked."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": null,
+    "endYear": null,
+    "precision": "unknown",
+    "label": "Riemann's use of Dirichlet's principle",
+    "work": null,
+    "people": [
+     "Bernhard Riemann"
+    ],
+    "description": "Riemann used the minimisation principle in complex analysis, which was later questioned; the date of his use is not verified here.",
+    "evidence": [
+     {
+      "claim": "Dirichlet's principle name due to Riemann, who applied it in complex analysis",
+      "source": "Wikipedia, Dirichlet's principle (saved wikitext)",
+      "url": "https://en.wikipedia.org/wiki/Dirichlet%27s_principle",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Year not established; the saved lead does not give one. Recorded only as a precursor."
+   }
+  ],
+  "people": [
+   {
+    "name": "David Hilbert",
+    "role": "developer",
+    "lifespan": "1862-1943",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/",
+    "works": [
+     {
+      "citation": "Über das Dirichletsche Prinzip (1904)",
+      "year": 1904,
+      "url": "https://zbmath.org/?q=%C3%9Cber+das+Dirichletsche+Prinzip",
+      "whyItMatters": "direct-method justification"
+     }
+    ],
+    "roleNote": "direct method"
+   },
+   {
+    "name": "Bernhard Riemann",
+    "role": "originator",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Riemann/",
+    "works": [
+     {
+      "citation": "Bernhard Riemann, 'Theorie der Abel'schen Functionen', Journal für die reine und angewandte Mathematik 54 (1857), 115-155, DOI 10.1515/crll.1857.54.115",
+      "year": 1857,
+      "url": "https://api.crossref.org/works/10.1515/crll.1857.54.115",
+      "whyItMatters": "Riemann reuses the minimum principle (Dirichlet's principle) in this paper, the record's 1857 key development for the event."
+     }
+    ]
+   }
+  ],
+  "notes": "The input summary is consistent with Hilbert's 1904 work. The 1900 announcement is not counted separately. The Riemann dating is open. The consolidation milestone rests on a citation in the saved lead and not on a bibliographic record, so it stays low confidence. person without verified work: Bernhard Riemann (originator).",
+  "derivedDates": {
+   "conceptual": null,
+   "methodological": 1904,
+   "institutional": 1975
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P403",
+  "eventId": "M40",
+  "canonicalName": "Fredholm integral equations",
+  "aliases": [
+   "Fredholm theory",
+   "Fredholm integral equation",
+   "Fredholm operators"
+  ],
+  "phases": [
+   "Dirichlet problem via integral equations",
+   "Fredholm theory of integral equations"
+  ],
+  "milestones": [
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1900,
+    "endYear": null,
+    "precision": "year",
+    "label": "Fredholm's solution of the Dirichlet problem",
+    "work": "Fredholm, I., 'Sur une nouvelle méthode pour la résolution du problème de Dirichlet' (1900)",
+    "people": [
+     "Ivar Fredholm"
+    ],
+    "description": "Fredholm applies an integral-equation method to the Dirichlet problem, the first purposeful use of the approach.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 'Sur une nouvelle méthode pour la résolution du problème de Dirichlet', year 1900",
+      "source": "zbMATH API, query 'Fredholm Sur une nouvelle methode pour la resolution du probleme de Dirichlet'",
+      "url": "https://zbmath.org/?q=Sur+une+nouvelle+m%C3%A9thode+pour+la+r%C3%A9solution+du+probl%C3%A8me+de+Dirichlet",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Fredholm treated integral equations as limits of linear systems and solved the Dirichlet problem",
+      "source": "Wikipedia, Fredholm integral equation (saved lead) and MacTutor Fredholm biography (live)",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Fredholm/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The 1900 paper's content is taken from the zbMATH title and the biography summary; full text not read."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1903,
+    "endYear": null,
+    "precision": "year",
+    "label": "Fredholm's classes of functional equations",
+    "work": "Fredholm, I., 'Sur une classe d'équations fonctionnelles', Acta Math. 27 (1903)",
+    "people": [
+     "Ivar Fredholm"
+    ],
+    "description": "Gives the general integral-equation theory with the Fredholm determinant, the first systematic public statement.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Acta Mathematica, year 1903",
+      "source": "Crossref, DOI 10.1007/bf02421317",
+      "url": "https://doi.org/10.1007/bf02421317",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1912,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hilbert's general theory of linear integral equations",
+    "work": "Hilbert, D., Grundzüge einer allgemeinen Theorie der linearen Integralgleichungen (1912)",
+    "people": [
+     "David Hilbert"
+    ],
+    "description": "Book-length treatment of linear integral equations and their spectral theory, which systematises the Fredholm approach.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 'Grundzüge einer allgemeinen Theorie der linearen Integralgleichungen', year 1912",
+      "source": "zbMATH API, query 'Hilbert Grundzuge einer allgemeinen Theorie der linearen Integralgleichungen'",
+      "url": "https://zbmath.org/?q=Grundz%C3%BCge+einer+allgemeinen+Theorie+der+linearen+Integralgleichungen",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Hilbert's book is a systematic treatment; Fredholm's own work is the first statement."
+   }
+  ],
+  "people": [
+   {
+    "name": "Ivar Fredholm",
+    "role": "developer",
+    "lifespan": "1866-1927",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Fredholm/",
+    "works": [
+     {
+      "citation": "Sur une classe d'équations fonctionnelles (1903)",
+      "year": 1903,
+      "url": "https://doi.org/10.1007/bf02421317",
+      "whyItMatters": "general integral equation theory"
+     }
+    ],
+    "roleNote": "integral equations and Fredholm theory"
+   },
+   {
+    "name": "David Hilbert",
+    "role": "systematiser",
+    "lifespan": "1862-1943",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/",
+    "works": [
+     {
+      "citation": "Grundzüge einer allgemeinen Theorie der linearen Integralgleichungen (1912)",
+      "year": 1912,
+      "url": "https://zbmath.org/?q=Grundz%C3%BCge+einer+allgemeinen+Theorie+der+linearen+Integralgleichungen",
+      "whyItMatters": "consolidation"
+     }
+    ],
+    "roleNote": "systematic treatment of integral equations"
+   }
+  ],
+  "notes": "The 1900 Dirichlet-problem paper is a candidate first application, recorded at medium confidence. The 1903 Acta paper is the first_statement. Riesz and Hilbert's spectral work belong to the Hilbert-space event and are not repeated here.",
+  "derivedDates": {
+   "conceptual": 1903,
+   "methodological": 1900,
+   "institutional": 1912
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P400",
+  "eventId": "M52",
+  "canonicalName": "Russell paradox, type theory and Principia Mathematica",
+  "aliases": [
+   "Russell's paradox",
+   "ramified theory of types",
+   "Principia Mathematica",
+   "PM"
+  ],
+  "phases": [
+   "Russell's paradox",
+   "ramified type theory",
+   "Principia Mathematica"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1902,
+    "endYear": null,
+    "precision": "year",
+    "label": "Russell's private letter to Frege",
+    "work": "Russell, B., letter to Frege (1902), unpublished",
+    "people": [
+     "Bertrand Russell",
+     "Gottlob Frege"
+    ],
+    "description": "Russell communicates the paradox privately to Frege in 1902, before any public statement.",
+    "evidence": [
+     {
+      "claim": "Russell found the paradox in 1902, independently found by Zermelo",
+      "source": "MacTutor, Beginnings of set theory (saved page)",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Beginnings_of_set_theory/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Private communication; not used for ranking."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1903,
+    "endYear": null,
+    "precision": "year",
+    "label": "Russell's paradox in The Principles of Mathematics",
+    "work": "Russell, B., The Principles of Mathematics (1903)",
+    "people": [
+     "Bertrand Russell"
+    ],
+    "description": "The paradox is stated publicly in the appendix of the 1903 book.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 'The principles of mathematics', year 1903",
+      "source": "zbMATH API, query 'Russell The Principles of Mathematics'",
+      "url": "https://zbmath.org/?q=The+principles+of+mathematics",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The appendix placement of the paradox is taken from the Principia Mathematica Wikipedia lead; the Principles text itself was not read."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1908,
+    "endYear": null,
+    "precision": "year",
+    "label": "Mathematical logic as based on the theory of types",
+    "work": "Russell, B., 'Mathematical logic as based on the theory of types', Amer. J. Math. 30 (1908)",
+    "people": [
+     "Bertrand Russell"
+    ],
+    "description": "Presents the ramified theory of types as the response to the paradoxes.",
+    "evidence": [
+     {
+      "claim": "Crossref record: American Journal of Mathematics, year 1908",
+      "source": "Crossref, DOI 10.2307/2369948",
+      "url": "https://doi.org/10.2307/2369948",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1910,
+    "endYear": null,
+    "precision": "year",
+    "label": "Principia Mathematica, volume 1",
+    "work": "Whitehead, A. N. and Russell, B., Principia Mathematica, vol. 1 (Cambridge UP, 1910)",
+    "people": [
+     "Alfred North Whitehead",
+     "Bertrand Russell"
+    ],
+    "description": "The formal derivation of mathematics from the theory of types, the first systematic treatment.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 'Principia mathematica', volume 1 (1910)",
+      "source": "zbMATH API, query 'Whitehead Russell Principia Mathematica'",
+      "url": "https://zbmath.org/?q=Principia+mathematica",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Volumes 2 and 3 appeared 1912-1913; the first volume's year is used."
+   }
+  ],
+  "people": [
+   {
+    "name": "Bertrand Russell",
+    "role": "originator",
+    "lifespan": "1872-1970",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Russell/",
+    "works": [
+     {
+      "citation": "Mathematical logic as based on the theory of types (1908)",
+      "year": 1908,
+      "url": "https://doi.org/10.2307/2369948",
+      "whyItMatters": "ramified type theory"
+     }
+    ],
+    "roleNote": "discoverer of the paradox and co-author of PM"
+   },
+   {
+    "name": "Alfred North Whitehead",
+    "role": "developer",
+    "lifespan": "1861-1947",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Alfred_North_Whitehead",
+    "works": [
+     {
+      "citation": "Principia Mathematica (1910-1913)",
+      "year": 1910,
+      "url": "https://zbmath.org/?q=Principia+mathematica",
+      "whyItMatters": "formal derivation"
+     }
+    ],
+    "roleNote": "co-author of PM"
+   }
+  ],
+  "notes": "The Russell-Frege letter is a private precursor (1902), not a public start. The 1903 date for the public statement rests on the zbMATH record and the Wikipedia PM lead. The Crossref lookup for PM returned an error, so the zbMATH record is the evidence. Dates here are not the bare birth of the field.",
+  "derivedDates": {
+   "conceptual": 1903,
+   "methodological": null,
+   "institutional": 1910
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P411",
+  "eventId": "M21",
+  "canonicalName": "Schur: polynomial representations of GL(n) and invariant theory",
+  "aliases": [
+   "Schur functors",
+   "Schur polynomials",
+   "rational representations of GL(n)"
+  ],
+  "phases": [
+   "Schur's dissertation on matrix classes",
+   "classification of rational representations of GL(n)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1901,
+    "endYear": null,
+    "precision": "year",
+    "label": "Schur's thesis on a class of matrices",
+    "work": "Schur, I., 'Über eine Klasse von Matrizen, die sich einer gegebenen Matrix zuordnen lassen', Dissertation (1901)",
+    "people": [
+     "Issai Schur"
+    ],
+    "description": "Schur's dissertation on matrix classes gives the first application of the representation approach that leads to GL(n).",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 'Über eine Klasse von Matrizen...', year 1901",
+      "source": "zbMATH API, query 'Schur Uber eine Klasse von Matrizen'",
+      "url": "https://zbmath.org/?q=%C3%9Cber+eine+Klasse+von+Matrizen",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The thesis content is inferred from the title and the input summary; the review was not read, so the claim that it classifies GL(n) reps is not confirmed here."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1927,
+    "endYear": null,
+    "precision": "year",
+    "label": "Rational representations of the general linear group",
+    "work": "Schur, I., 'Über die rationalen Darstellungen der allgemeinen linearen Gruppe', Sitzungsber. Preuss. Akad. (1927)",
+    "people": [
+     "Issai Schur"
+    ],
+    "description": "Gives the classification of rational representations of GL(n) through symmetric functions, the central result of this event.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 'Über die rationalen Darstellungen der allgemeinen linearen Gruppe', year 1927",
+      "source": "zbMATH API, query 'Schur Uber die rationalen Darstellungen der allgemeinen linearen Gruppe'",
+      "url": "https://zbmath.org/?q=%C3%9Cber+die+rationalen+Darstellungen+der+allgemeinen+linearen+Gruppe",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": null,
+    "endYear": null,
+    "precision": "unknown",
+    "label": "Frobenius's characters and symmetric functions",
+    "work": null,
+    "people": [
+     "Ferdinand Georg Frobenius"
+    ],
+    "description": "Frobenius's group characters and their connection to symmetric functions underlie Schur's method; the date is not verified here.",
+    "evidence": [
+     {
+      "claim": "Schur's thesis used Frobenius methods",
+      "source": "input summary and MacTutor topic pages (saved)",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Abstract_groups/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Year not established; not used for ranking."
+   }
+  ],
+  "people": [
+   {
+    "name": "Issai Schur",
+    "role": "developer",
+    "lifespan": "1875-1941",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Schur/",
+    "works": [
+     {
+      "citation": "Über die rationalen Darstellungen der allgemeinen linearen Gruppe (1927)",
+      "year": 1927,
+      "url": "https://zbmath.org/?q=%C3%9Cber+die+rationalen+Darstellungen+der+allgemeinen+linearen+Gruppe",
+      "whyItMatters": "GL(n) classification"
+     }
+    ],
+    "roleNote": "classification of rational representations of GL(n)"
+   }
+  ],
+  "notes": "The 1901 thesis is a candidate first statement, recorded at medium confidence because its content was not checked against the review. The 1927 paper is the verified key development. Frobenius's date is unverified and recorded as a precursor with no year.",
+  "derivedDates": {
+   "conceptual": 1901,
+   "methodological": null,
+   "institutional": null
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P361",
+  "eventId": "M42/W44",
+  "canonicalName": "Hilbert space and integral equations",
+  "aliases": [
+   "Hilbert space",
+   "abstract Hilbert space",
+   "L2 space",
+   "functional analysis"
+  ],
+  "phases": [
+   "Hilbert's integral equations",
+   "Riesz's function-space geometry",
+   "von Neumann's abstract Hilbert space"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1907,
+    "endYear": null,
+    "precision": "year",
+    "label": "Riesz's geometry of function spaces",
+    "work": "Riesz, F., 'Sur une espèce de géométrie analytique des systèmes de fonctions sommables', C. R. Acad. Sci. (1907)",
+    "people": [
+     "Frigyes Riesz"
+    ],
+    "description": "Riesz treats square-summable function systems as a geometry, the first public statement of the function-space picture.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 'Sur une espèce de géométrie analytique...', year 1907",
+      "source": "zbMATH API, query 'Riesz Sur une espece de geometrie analytique des systemes de fonctions sommables'",
+      "url": "https://zbmath.org/?q=Sur+une+esp%C3%A8ce+de+g%C3%A9om%C3%A9trie+analytique",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1912,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hilbert's general theory of linear integral equations",
+    "work": "Hilbert, D., Grundzüge einer allgemeinen Theorie der linearen Integralgleichungen (1912)",
+    "people": [
+     "David Hilbert"
+    ],
+    "description": "The book presents the infinite-dimensional spectral theory of integral equations, the systematic treatment that gives the event its name.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 'Grundzüge einer allgemeinen Theorie der linearen Integralgleichungen', year 1912",
+      "source": "zbMATH API, query 'Hilbert Grundzuge einer allgemeinen Theorie der linearen Integralgleichungen'",
+      "url": "https://zbmath.org/?q=Grundz%C3%BCge+einer+allgemeinen+Theorie+der+linearen+Integralgleichungen",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 1929,
+    "endYear": null,
+    "precision": "year",
+    "label": "von Neumann's abstract Hilbert space",
+    "work": "von Neumann, J., 'Allgemeine Eigenwerttheorie Hermitescher Funktionaloperatoren', Math. Ann. (1929)",
+    "people": [
+     "John von Neumann"
+    ],
+    "description": "Von Neumann coins the term 'abstract Hilbert space' in his work on Hermitian operators.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 'Allgemeine Eigenwerttheorie Hermitescher Funktionaloperatoren', year 1929",
+      "source": "zbMATH API, query 'von Neumann Allgemeine Eigenwerttheorie'",
+      "url": "https://zbmath.org/?q=Allgemeine+Eigenwerttheorie+Hermitescher+Funktionaloperatoren",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Von Neumann coined the term 'abstract Hilbert space' in his 1929 work",
+      "source": "Wikipedia, Hilbert space (saved wikitext)",
+      "url": "https://en.wikipedia.org/wiki/Hilbert_space",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Crossref gives issue date 1930 for the Math. Ann. DOI, while zbMATH gives 1929; the zbMATH year is used. The coinage is taken from the Wikipedia lead."
+   }
+  ],
+  "people": [
+   {
+    "name": "David Hilbert",
+    "role": "developer",
+    "lifespan": "1862-1943",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/",
+    "works": [
+     {
+      "citation": "Grundzüge einer allgemeinen Theorie der linearen Integralgleichungen (1912)",
+      "year": 1912,
+      "url": "https://zbmath.org/?q=Grundz%C3%BCge+einer+allgemeinen+Theorie+der+linearen+Integralgleichungen",
+      "whyItMatters": "spectral theory"
+     }
+    ],
+    "roleNote": "integral equations and sequence spaces"
+   },
+   {
+    "name": "Frigyes Riesz",
+    "role": "developer",
+    "lifespan": "1880-1956",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Riesz_Marcel/",
+    "works": [
+     {
+      "citation": "Sur une espèce de géométrie analytique... (1907)",
+      "year": 1907,
+      "url": "https://zbmath.org/?q=Sur+une+esp%C3%A8ce+de+g%C3%A9om%C3%A9trie+analytique",
+      "whyItMatters": "L2 as a Hilbert geometry"
+     }
+    ],
+    "roleNote": "function-space geometry"
+   },
+   {
+    "name": "John von Neumann",
+    "role": "developer",
+    "lifespan": "1903-1957",
+    "biographyUrl": "https://en.wikipedia.org/wiki/John_von_Neumann",
+    "works": [
+     {
+      "citation": "Allgemeine Eigenwerttheorie Hermitescher Funktionaloperatoren (1929)",
+      "year": 1929,
+      "url": "https://zbmath.org/?q=Allgemeine+Eigenwerttheorie+Hermitescher+Funktionaloperatoren",
+      "whyItMatters": "coined abstract Hilbert space"
+     }
+    ],
+    "roleNote": "abstract Hilbert space"
+   }
+  ],
+  "notes": "Riesz's 1907 note is the first_statement; the input summary's reference to integral equations is consistent with Hilbert's work, which is not recorded as a separate milestone. Derived institutional date is 1912 (earlier than the 1929 naming). Erhard Schmidt's 1907 paper is a candidate, not promoted because the year could not be fixed from the record.",
+  "derivedDates": {
+   "conceptual": 1907,
+   "methodological": null,
+   "institutional": 1912
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P381",
+  "eventId": "M53/W27",
+  "canonicalName": "Axiomatic set theory (Zermelo)",
+  "aliases": [
+   "Zermelo set theory",
+   "Zermelo axioms",
+   "axiomatic set theory",
+   "Zermelo-Fraenkel set theory"
+  ],
+  "phases": [
+   "well-ordering and choice",
+   "axiomatisation of set theory"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1902,
+    "endYear": null,
+    "precision": "year",
+    "label": "Russell's paradox found in set theory",
+    "work": null,
+    "people": [
+     "Bertrand Russell",
+     "Ernst Zermelo"
+    ],
+    "description": "The paradox that Zermelo found independently of Russell motivates the axiomatic response.",
+    "evidence": [
+     {
+      "claim": "Russell found the ultimate paradox in 1902 and Zermelo found it independently",
+      "source": "MacTutor, Beginnings of set theory (saved page)",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Beginnings_of_set_theory/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Precursor; not used for ranking."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1904,
+    "endYear": null,
+    "precision": "year",
+    "label": "Well-ordering theorem from choice",
+    "work": "Zermelo, E., 'Beweis, dass jede Menge wohlgeordnet werden kann', Math. Ann. 59 (1904)",
+    "people": [
+     "Ernst Zermelo"
+    ],
+    "description": "Zermelo proves that every set can be well-ordered by using the axiom of choice, a key step toward the axiomatisation.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Mathematische Annalen, year 1904",
+      "source": "Crossref, DOI 10.1007/bf01445300",
+      "url": "https://doi.org/10.1007/bf01445300",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1908,
+    "endYear": null,
+    "precision": "year",
+    "label": "Zermelo's axiomatic set theory",
+    "work": "Zermelo, E., 'Untersuchungen über die Grundlagen der Mengenlehre I', Math. Ann. 65 (1908)",
+    "people": [
+     "Ernst Zermelo"
+    ],
+    "description": "Zermelo gives the first axiomatisation of set theory, avoiding the paradoxes.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Mathematische Annalen, year 1908",
+      "source": "Crossref, DOI 10.1007/bf01449999",
+      "url": "https://doi.org/10.1007/bf01449999",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "zbMATH record: 'Untersuchungen über die Grundlagen der Mengenlehre I', year 1908",
+      "source": "zbMATH API, query 'Zermelo Untersuchungen uber die Grundlagen der Mengenlehre I'",
+      "url": "https://zbmath.org/?q=Untersuchungen+%C3%BCber+die+Grundlagen+der+Mengenlehre",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Ernst Zermelo",
+    "role": "systematiser",
+    "lifespan": "1871-1953",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Zermelo/",
+    "works": [
+     {
+      "citation": "Untersuchungen über die Grundlagen der Mengenlehre I (1908)",
+      "year": 1908,
+      "url": "https://doi.org/10.1007/bf01449999",
+      "whyItMatters": "first axiomatic set theory"
+     }
+    ],
+    "roleNote": "axiomatisation and well-ordering"
+   }
+  ],
+  "notes": "Dates for the 1904 and 1908 papers are confirmed by Crossref and zbMATH. The Zermelo-Fraenkel name and the Fraenkel consolidation were not checked, so no consolidation milestone is recorded. The derived institutional date is null for lack of a naming or institution record.",
+  "derivedDates": {
+   "conceptual": 1908,
+   "methodological": null,
+   "institutional": null
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ }
+]

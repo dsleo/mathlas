@@ -1,0 +1,146 @@
+[
+ {
+  "pid": "P200",
+  "eventId": "E22/MB5/WB2",
+  "name": "Computability theory (Church-Turing)",
+  "type": "birth-by-abstraction",
+  "from": [
+   "mathematical logic",
+   "mechanical calculation"
+  ],
+  "to": [
+   "computability theory"
+  ],
+  "summary": "Turing defined an abstract machine, computable numbers and a universal machine, answering the Entscheidungsproblem negatively."
+ },
+ {
+  "pid": "P425",
+  "eventId": "H10",
+  "name": "Computational group theory: computers enter group theory",
+  "type": "import-from-outside",
+  "from": [
+   "computer science",
+   "group theory"
+  ],
+  "to": [
+   "computational group theory"
+  ],
+  "summary": "From Todd-Coxeter coset enumeration to the 1967 Oxford conference, Sims's permutation methods and the Cayley and GAP systems, machine computation became a standard working method of group theory."
+ },
+ {
+  "pid": "P208",
+  "eventId": "MB13/WB15",
+  "name": "Shannon switching circuits",
+  "type": "technique-transfer",
+  "from": [
+   "Boolean algebra",
+   "electrical engineering"
+  ],
+  "to": [
+   "switching theory",
+   "digital circuit design"
+  ],
+  "summary": "Boole's algebra was applied to analyse and simplify relay circuits."
+ },
+ {
+  "pid": "P284",
+  "eventId": "WB11",
+  "name": "Operations research",
+  "type": "import-from-outside",
+  "from": [
+   "military operations",
+   "statistics",
+   "applied mathematics"
+  ],
+  "to": [
+   "applied mathematics"
+  ],
+  "summary": "Wartime scientific analysis of radar and convoys becomes a quantitative decision discipline."
+ },
+ {
+  "pid": "P423",
+  "eventId": "H6",
+  "name": "Lie-ring methods enter the Burnside problem (Magnus to Zelmanov)",
+  "type": "technique-transfer",
+  "from": [
+   "Lie theory (Baker-Hausdorff formula, Lie rings)"
+  ],
+  "to": [
+   "group theory (Burnside problems)"
+  ],
+  "summary": "Magnus tied Baker-Hausdorff-type Lie machinery to exponent questions on groups, defining the restricted Burnside problem; this Lie-algebraic route was eventually completed by Zelmanov."
+ },
+ {
+  "pid": "P479",
+  "eventId": "P32",
+  "name": "Analytic combinatorics: generating functions as complex-analytic objects",
+  "type": "birth-by-fusion",
+  "from": [
+   "Analysis",
+   "Combinatorics"
+  ],
+  "to": [
+   "Combinatorics"
+  ],
+  "summary": "Singularities of generating functions determine asymptotics of combinatorial classes, in a systematic symbolic-to-analytic method."
+ },
+ {
+  "pid": "P228",
+  "eventId": "MB82/WB110",
+  "name": "Gelfand theory of Banach algebras",
+  "type": "birth-by-fusion",
+  "from": [
+   "functional analysis",
+   "algebra",
+   "topology"
+  ],
+  "to": [
+   "Banach algebras"
+  ],
+  "summary": "Maximal ideals of normed rings gave a topological representation."
+ },
+ {
+  "pid": "P236",
+  "eventId": "MB97/WB29",
+  "name": "Statistical decision theory",
+  "type": "birth-by-fusion",
+  "from": [
+   "statistics",
+   "game theory"
+  ],
+  "to": [
+   "decision theory"
+  ],
+  "summary": "Estimation and testing recast as games."
+ },
+ {
+  "pid": "P242",
+  "eventId": "MB76",
+  "name": "Wiener-Kolmogorov filtering",
+  "type": "technique-transfer",
+  "from": [
+   "stochastic processes",
+   "Fourier analysis",
+   "engineering"
+  ],
+  "to": [
+   "signal processing"
+  ],
+  "summary": "Optimal prediction of stationary processes was solved by spectral methods."
+ },
+ {
+  "pid": "P265",
+  "eventId": "MB16",
+  "name": "Kantorovich linear programming",
+  "type": "import-from-outside",
+  "from": [
+   "functional analysis",
+   "economics",
+   "industrial planning"
+  ],
+  "to": [
+   "optimisation"
+  ],
+  "summary": "Production-planning problems were posed as linear optimisation with multipliers, with solution methods."
+ }
+]

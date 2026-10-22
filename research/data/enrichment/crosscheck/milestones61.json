@@ -1,0 +1,772 @@
+[
+  {
+    "eventId": "MB15",
+    "canonicalName": "Shannon: communication theory of secrecy",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1949,
+        "precision": "year",
+        "label": "Secrecy systems theory published",
+        "work": "Shannon, Communication Theory of Secrecy Systems, Bell System Technical Journal 28, 1949",
+        "people": [
+          "Claude Shannon"
+        ],
+        "description": "Shannon gives an information-theoretic definition and analysis of secrecy.",
+        "evidence": [
+          {
+            "claim": "Crossref: Shannon, BSTJ vol 28, Oct 1949",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1002/j.1538-7305.1949.tb00928.x",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "Earlier classified 1945 report not verified."
+      }
+    ],
+    "people": [
+      {
+        "name": "Claude Shannon",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Claude_Shannon",
+        "works": [
+          {
+            "citation": "Communication Theory of Secrecy Systems",
+            "year": 1949,
+            "url": "https://doi.org/10.1002/j.1538-7305.1949.tb00928.x",
+            "whyItMatters": "States the theory"
+          }
+        ]
+      }
+    ],
+    "notes": "Searched: Crossref record for the work; no history page opened, so priority claims beyond the record are unverified. Catalogue 1945 start (classified report) unverified.",
+    "pid": "P249",
+    "searchTerms": [
+      "information theory",
+      "cryptography",
+      "mathematical cryptography"
+    ]
+  },
+  {
+    "eventId": "MB84",
+    "canonicalName": "Kripke semantics",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1959,
+        "precision": "year",
+        "label": "Completeness theorem in modal logic",
+        "work": "Kripke, A completeness theorem in modal logic, J. Symbolic Logic 24, 1959",
+        "people": [
+          "Saul Kripke"
+        ],
+        "description": "An earlier relational completeness result for modal logic.",
+        "evidence": [
+          {
+            "claim": "Crossref: JSL vol 24, Mar 1959",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.2307/2964568",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "first_statement",
+        "year": 1963,
+        "precision": "year",
+        "label": "Semantical analysis of modal logic I",
+        "work": "Kripke, Semantical Analysis of Modal Logic I, Z. Math. Logik Grundl. Math. 9, 1963",
+        "people": [
+          "Saul Kripke"
+        ],
+        "description": "Relational semantics for normal modal propositional calculi.",
+        "evidence": [
+          {
+            "claim": "Crossref: Z. Math. Logik vol 9, 1963",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1002/malq.19630090502",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Whether 1959 or 1963 is the public start is a judgment; not checked against history pages."
+      }
+    ],
+    "people": [
+      {
+        "name": "Saul Kripke",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Saul_Kripke",
+        "works": [
+          {
+            "citation": "Semantical Analysis of Modal Logic I",
+            "year": 1963,
+            "url": "https://doi.org/10.1002/malq.19630090502",
+            "whyItMatters": "Relational semantics"
+          }
+        ]
+      }
+    ],
+    "notes": "Searched: Crossref record for the work; no history page opened, so priority claims beyond the record are unverified. 1959 vs 1963 priority unresolved.",
+    "pid": "P252",
+    "searchTerms": [
+      "model theory (relational structures)",
+      "modal logic",
+      "modal logic (possible-world semantics)"
+    ]
+  },
+  {
+    "eventId": "WB123",
+    "canonicalName": "Intersection cohomology",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1980,
+        "precision": "year",
+        "label": "Intersection homology theory",
+        "work": "Goresky and MacPherson, Intersection homology theory, Topology 19, 1980",
+        "people": [
+          "Mark Goresky",
+          "Robert MacPherson"
+        ],
+        "description": "Introduces intersection homology extending Poincare duality to singular spaces.",
+        "evidence": [
+          {
+            "claim": "Crossref: Topology vol 19, 1980",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1016/0040-9383(80)90003-8",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "key_development",
+        "year": 1983,
+        "precision": "year",
+        "label": "Intersection homology II",
+        "work": "Goresky and MacPherson, Intersection homology II, Invent. Math. 72, 1983",
+        "people": [
+          "Mark Goresky",
+          "Robert MacPherson"
+        ],
+        "description": "Sheaf-theoretic treatment and further results.",
+        "evidence": [
+          {
+            "claim": "Crossref: Invent. Math. vol 72, 1983",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/bf01389130",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Role chosen from title; content not read."
+      }
+    ],
+    "people": [
+      {
+        "name": "Mark Goresky",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Mark_Goresky",
+        "works": [
+          {
+            "citation": "Intersection homology theory",
+            "year": 1980,
+            "url": "https://doi.org/10.1016/0040-9383(80)90003-8",
+            "whyItMatters": "Founding paper"
+          }
+        ]
+      },
+      {
+        "name": "Robert MacPherson",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Robert_MacPherson",
+        "works": [
+          {
+            "citation": "Intersection homology II",
+            "year": 1983,
+            "url": "https://doi.org/10.1007/bf01389130",
+            "whyItMatters": "Sheaf-theoretic follow-up"
+          }
+        ]
+      }
+    ],
+    "notes": "Searched: Crossref record for the work; no history page opened, so priority claims beyond the record are unverified. Perverse sheaves (BBD) not searched.",
+    "pid": "P256",
+    "searchTerms": [
+      "algebraic topology",
+      "algebraic geometry",
+      "representation theory",
+      "intersection cohomology / perverse sheaves"
+    ]
+  },
+  {
+    "eventId": "WB71",
+    "canonicalName": "Ramsey theory and Hales-Jewett",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1930,
+        "precision": "year",
+        "label": "Ramsey's theorem",
+        "work": "Ramsey, On a Problem of Formal Logic, Proc. London Math. Soc. s2-30, 1930",
+        "people": [
+          "Frank Ramsey"
+        ],
+        "description": "Ramsey proves the partition theorem.",
+        "evidence": [
+          {
+            "claim": "Crossref: PLMS s2-30, 1930",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1112/plms/s2-30.1.264",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "key_development",
+        "year": 1963,
+        "precision": "year",
+        "label": "Hales-Jewett theorem",
+        "work": "Hales and Jewett, Regularity and positional games, Trans. AMS 106, 1963",
+        "people": [
+          "A. W. Hales",
+          "R. I. Jewett"
+        ],
+        "description": "Structured-colouring generalisation.",
+        "evidence": [
+          {
+            "claim": "Crossref: Trans. AMS vol 106, 1963",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1090/s0002-9947-1963-0143712-1",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [
+      {
+        "name": "Frank Ramsey",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Frank_Ramsey",
+        "works": [
+          {
+            "citation": "On a Problem of Formal Logic",
+            "year": 1930,
+            "url": "https://doi.org/10.1112/plms/s2-30.1.264",
+            "whyItMatters": "Partition theorem"
+          }
+        ]
+      },
+      {
+        "name": "Alfred W. Hales",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Alfred_W._Hales",
+        "works": [
+          {
+            "citation": "Regularity and positional games",
+            "year": 1963,
+            "url": "https://doi.org/10.1090/s0002-9947-1963-0143712-1",
+            "whyItMatters": "Hales-Jewett"
+          }
+        ]
+      }
+    ],
+    "notes": "Searched: Crossref record for the work; no history page opened, so priority claims beyond the record are unverified. Naming 'Ramsey theory' not searched.",
+    "pid": "P258",
+    "searchTerms": [
+      "mathematical logic",
+      "combinatorics",
+      "Ramsey theory"
+    ]
+  },
+  {
+    "eventId": "WB125",
+    "canonicalName": "Automata and formal verification",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1969,
+        "precision": "year",
+        "label": "Axiomatic basis for computer programming",
+        "work": "Hoare, An axiomatic basis for computer programming, CACM 12, 1969",
+        "people": [
+          "C. A. R. Hoare"
+        ],
+        "description": "Axiomatic proof rules for program correctness.",
+        "evidence": [
+          {
+            "claim": "Crossref: CACM vol 12, Oct 1969",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1145/363235.363259",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Floyd 1967 precedes; not verified."
+      }
+    ],
+    "people": [
+      {
+        "name": "C. A. R. Hoare",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/C._A._R._Hoare",
+        "works": [
+          {
+            "citation": "An axiomatic basis for computer programming",
+            "year": 1969,
+            "url": "https://doi.org/10.1145/363235.363259",
+            "whyItMatters": "Hoare logic"
+          }
+        ]
+      }
+    ],
+    "notes": "Searched: Crossref record for the work; no history page opened, so priority claims beyond the record are unverified. Floyd 1967 and automata/model checking not searched. Event name mentions automata, which the record does not cover.",
+    "pid": "P262",
+    "searchTerms": [
+      "mathematical logic",
+      "programming languages",
+      "program verification (Floyd-Hoare logic)"
+    ]
+  },
+  {
+    "eventId": "MB25",
+    "canonicalName": "Serre: spectral sequences and homotopy groups",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1951,
+        "precision": "year",
+        "label": "Homologie singuliere des espaces fibres",
+        "work": "Serre, Homologie singuliere des espaces fibres, Ann. Math. 54, 1951",
+        "people": [
+          "Jean-Pierre Serre"
+        ],
+        "description": "Applies the Leray spectral sequence to fibrations to compute homotopy information.",
+        "evidence": [
+          {
+            "claim": "Crossref: Annals vol 54, Nov 1951",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.2307/1969485",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Leray precursor not verified."
+      }
+    ],
+    "people": [
+      {
+        "name": "Jean-Pierre Serre",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Jean-Pierre_Serre",
+        "works": [
+          {
+            "citation": "Homologie singuliere des espaces fibres",
+            "year": 1951,
+            "url": "https://doi.org/10.2307/1969485",
+            "whyItMatters": "Spectral sequence applications"
+          }
+        ]
+      }
+    ],
+    "notes": "Searched: Crossref record for the work; no history page opened, so priority claims beyond the record are unverified. Leray 1946 not searched.",
+    "pid": "P263",
+    "searchTerms": [
+      "spectral sequences (Leray)",
+      "homotopy theory",
+      "algebraic topology"
+    ]
+  },
+  {
+    "eventId": "WB124",
+    "canonicalName": "Computational geometry",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1975,
+        "precision": "year",
+        "label": "Closest-point problems",
+        "work": "Shamos and Hoey, Closest-point problems, FOCS 1975",
+        "people": [
+          "Michael Shamos",
+          "Dan Hoey"
+        ],
+        "description": "Algorithms for geometric proximity problems.",
+        "evidence": [
+          {
+            "claim": "Crossref: 16th FOCS, Oct 1975",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1109/sfcs.1975.8",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Shamos naming of the field (1978 thesis) not verified."
+      }
+    ],
+    "people": [
+      {
+        "name": "Michael Shamos",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Michael_Shamos",
+        "works": [
+          {
+            "citation": "Closest-point problems",
+            "year": 1975,
+            "url": "https://doi.org/10.1109/sfcs.1975.8",
+            "whyItMatters": "Early algorithms"
+          }
+        ]
+      }
+    ],
+    "notes": "Searched: Crossref record for the work; no history page opened, so priority claims beyond the record are unverified. Naming/textbook (Preparata-Shamos 1985) unverified.",
+    "pid": "P268",
+    "searchTerms": [
+      "geometry",
+      "algorithm analysis",
+      "computational geometry"
+    ]
+  },
+  {
+    "eventId": "MB96",
+    "canonicalName": "Feynman-Kac formula",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1948,
+        "precision": "year",
+        "label": "Feynman path integral",
+        "work": "Feynman, Space-Time Approach to Non-Relativistic Quantum Mechanics, Rev. Mod. Phys. 20, 1948",
+        "people": [
+          "Richard Feynman"
+        ],
+        "description": "Path-integral formulation preceding Kac.",
+        "evidence": [
+          {
+            "claim": "Crossref: RMP vol 20, 1948",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1103/revmodphys.20.367",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "first_statement",
+        "year": 1949,
+        "precision": "year",
+        "label": "Kac on Wiener functionals",
+        "work": "Kac, On distributions of certain Wiener functionals, Trans. AMS 65, 1949",
+        "people": [
+          "Mark Kac"
+        ],
+        "description": "Links Wiener-path expectations to a PDE.",
+        "evidence": [
+          {
+            "claim": "Crossref: Trans. AMS vol 65, 1949",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1090/s0002-9947-1949-0027960-x",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Mark Kac",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Mark_Kac",
+        "works": [
+          {
+            "citation": "On distributions of certain Wiener functionals",
+            "year": 1949,
+            "url": "https://doi.org/10.1090/s0002-9947-1949-0027960-x",
+            "whyItMatters": "Formula"
+          }
+        ]
+      }
+    ],
+    "notes": "Searched: Crossref record for the work; no history page opened, so priority claims beyond the record are unverified. Content not read.",
+    "pid": "P271",
+    "searchTerms": [
+      "quantum physics",
+      "probability",
+      "PDE",
+      "probabilistic PDE"
+    ]
+  },
+  {
+    "eventId": "WB90",
+    "canonicalName": "Ribet and modularity",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "key_development",
+        "year": 1990,
+        "precision": "year",
+        "label": "Ribet's level-lowering",
+        "work": "Ribet, On modular representations of Gal(Qbar/Q) arising from modular forms, Invent. Math. 100, 1990",
+        "people": [
+          "Kenneth Ribet"
+        ],
+        "description": "Proves the level-lowering result implying modularity gives Fermat.",
+        "evidence": [
+          {
+            "claim": "Crossref: Invent. Math. vol 100, 1990",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/bf01231195",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Content from background knowledge, not read."
+      },
+      {
+        "role": "key_development",
+        "year": 1995,
+        "precision": "year",
+        "label": "Wiles proves modularity case",
+        "work": "Wiles, Modular Elliptic Curves and Fermat's Last Theorem, Ann. Math. 141, 1995",
+        "people": [
+          "Andrew Wiles"
+        ],
+        "description": "Proves modularity for semistable curves.",
+        "evidence": [
+          {
+            "claim": "Crossref: Annals vol 141, May 1995",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.2307/2118559",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [
+      {
+        "name": "Kenneth Ribet",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Kenneth_Ribet",
+        "works": [
+          {
+            "citation": "On modular representations ... arising from modular forms",
+            "year": 1990,
+            "url": "https://doi.org/10.1007/bf01231195",
+            "whyItMatters": "Level lowering"
+          }
+        ]
+      },
+      {
+        "name": "Andrew Wiles",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Andrew_Wiles",
+        "works": [
+          {
+            "citation": "Modular Elliptic Curves and Fermat's Last Theorem",
+            "year": 1995,
+            "url": "https://doi.org/10.2307/2118559",
+            "whyItMatters": "Modularity proof"
+          }
+        ]
+      }
+    ],
+    "notes": "Searched: Crossref record for the work; no history page opened, so priority claims beyond the record are unverified. Frey 1986 and Serre epsilon conjecture not verified; no first_statement set.",
+    "pid": "P273",
+    "searchTerms": [
+      "elliptic curves",
+      "Galois representations",
+      "modular forms",
+      "Diophantine equations (FLT)"
+    ]
+  },
+  {
+    "eventId": "WB99",
+    "canonicalName": "Vertex operator algebras",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1986,
+        "precision": "year",
+        "label": "Vertex algebras",
+        "work": "Borcherds, Vertex algebras, Kac-Moody algebras, and the Monster, PNAS 83, 1986",
+        "people": [
+          "Richard Borcherds"
+        ],
+        "description": "Axiomatises vertex algebras.",
+        "evidence": [
+          {
+            "claim": "Crossref: PNAS vol 83, May 1986",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1073/pnas.83.10.3068",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [
+      {
+        "name": "Richard Borcherds",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Richard_Borcherds",
+        "works": [
+          {
+            "citation": "Vertex algebras, Kac-Moody algebras, and the Monster",
+            "year": 1986,
+            "url": "https://doi.org/10.1073/pnas.83.10.3068",
+            "whyItMatters": "Axiomatisation"
+          }
+        ]
+      }
+    ],
+    "notes": "Searched: Crossref record for the work; no history page opened, so priority claims beyond the record are unverified. FLM 1988 book not verified.",
+    "pid": "P274",
+    "searchTerms": [
+      "Lie algebras",
+      "conformal field theory",
+      "finite groups",
+      "VOA"
+    ]
+  },
+  {
+    "eventId": "MB100",
+    "canonicalName": "Chern: intrinsic Gauss-Bonnet and characteristic classes",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1944,
+        "precision": "year",
+        "label": "Intrinsic Gauss-Bonnet",
+        "work": "Chern, A Simple Intrinsic Proof of the Gauss-Bonnet Formula for Closed Riemannian Manifolds, Ann. Math. 45, 1944",
+        "people": [
+          "Shiing-Shen Chern"
+        ],
+        "description": "Intrinsic proof of Gauss-Bonnet via curvature forms.",
+        "evidence": [
+          {
+            "claim": "Crossref: Annals vol 45, Oct 1944",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.2307/1969302",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [
+      {
+        "name": "Shiing-Shen Chern",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Shiing-Shen_Chern",
+        "works": [
+          {
+            "citation": "A Simple Intrinsic Proof of the Gauss-Bonnet Formula",
+            "year": 1944,
+            "url": "https://doi.org/10.2307/1969302",
+            "whyItMatters": "Founding paper"
+          }
+        ]
+      }
+    ],
+    "notes": "Searched: Crossref record for the work; no history page opened, so priority claims beyond the record are unverified. Chern 1946 characteristic-class paper not located (DOI guess failed).",
+    "pid": "P279",
+    "searchTerms": [
+      "differential geometry",
+      "topology",
+      "global differential geometry"
+    ]
+  },
+  {
+    "eventId": "MB54",
+    "canonicalName": "Several complex variables via PDE",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "key_development",
+        "year": 1965,
+        "precision": "year",
+        "label": "L2 estimates for d-bar",
+        "work": "Hormander, L2 estimates and existence theorems for the d-bar operator, Acta Math. 113, 1965",
+        "people": [
+          "Lars Hormander"
+        ],
+        "description": "L2 methods solve d-bar problems on pseudoconvex domains.",
+        "evidence": [
+          {
+            "claim": "Crossref: Acta Math vol 113, 1965",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/bf02391775",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Earlier (1958-63) work and 1966 book not verified."
+      }
+    ],
+    "people": [
+      {
+        "name": "Lars Hormander",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Lars_Hormander",
+        "works": [
+          {
+            "citation": "L2 estimates and existence theorems for the d-bar operator",
+            "year": 1965,
+            "url": "https://doi.org/10.1007/bf02391775",
+            "whyItMatters": "Main paper"
+          }
+        ]
+      }
+    ],
+    "notes": "Searched: Crossref record for the work; no history page opened, so priority claims beyond the record are unverified. No first_statement attempted beyond this.",
+    "pid": "P280",
+    "searchTerms": [
+      "partial differential equations",
+      "functional analysis",
+      "complex analysis"
+    ]
+  }
+]

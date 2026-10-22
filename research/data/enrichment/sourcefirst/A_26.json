@@ -1,0 +1,1961 @@
+[
+ {
+  "pid": "P103",
+  "eventId": "B37",
+  "canonicalName": "Kodaira vanishing via harmonic integrals",
+  "aliases": [
+   "Kodaira vanishing theorem",
+   "Harmonic integrals and the vanishing theorem",
+   "Kodaira embedding characterisation"
+  ],
+  "phases": [
+   "Harmonic forms and vanishing (1941-1953)",
+   "Intrinsic characterisation of algebraic varieties (1954)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1941,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hodge's harmonic integrals book",
+    "work": "Hodge, The Theory and Applications of Harmonic Integrals, Cambridge University Press, 1941",
+    "people": [
+     "W. V. D. Hodge"
+    ],
+    "description": "Hodge's theory of harmonic integrals supplied the analytic tools Kodaira later applied to vanishing.",
+    "evidence": [
+     {
+      "claim": "Hodge's book is dated 1941 (Cambridge University Press)",
+      "source": "Open Library record",
+      "url": "https://openlibrary.org/search?title=The+theory+and+applications+of+harmonic+integrals",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Precursor: a tool, not the event's public start."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1949,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kodaira's thesis on harmonic fields",
+    "work": "Kodaira, Harmonic fields in Riemannian manifolds, Annals of Mathematics, 1949",
+    "people": [
+     "Kunihiko Kodaira"
+    ],
+    "description": "Kodaira's doctoral work on harmonic fields on Riemannian manifolds, which he later carried into complex geometry.",
+    "evidence": [
+     {
+      "claim": "Thesis published as an 80-page paper in the Annals in 1949",
+      "source": "MacTutor biography of Kodaira",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kodaira/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Crossref did not return this 1949 record; year rests on MacTutor."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1953,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kodaira's differential-geometric method (PNAS)",
+    "work": "Kodaira, On a differential-geometric method in the theory of analytic stacks, PNAS 39 (1953) 1268-1273",
+    "people": [
+     "Kunihiko Kodaira"
+    ],
+    "description": "Kodaira's public statement of the harmonic-form method for vanishing on complex manifolds.",
+    "evidence": [
+     {
+      "claim": "Title, journal, volume, pages and year verified",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1073/pnas.39.12.1268",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Attribution of the vanishing theorem to this paper",
+      "source": "MacTutor biography of Kodaira (vanishing work with harmonic forms)",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kodaira/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Year and venue verified. That the vanishing statement is in this paper was not checked against the text."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1953,
+    "endYear": null,
+    "precision": "year",
+    "label": "Vanishing theorem from harmonic forms (same paper)",
+    "work": "Kodaira, PNAS 39 (1953) 1268-1273 (as above)",
+    "people": [
+     "Kunihiko Kodaira"
+    ],
+    "description": "The same 1953 paper applies the harmonic-form method to the vanishing theorem for line bundles.",
+    "evidence": [
+     {
+      "claim": "Same publication as the first statement",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1073/pnas.39.12.1268",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Same paper plays both first_statement and first_application (schema rule 2)."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1954,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kodaira's intrinsic characterisation of algebraic varieties",
+    "work": "Kodaira, On Kahler varieties of restricted type (an intrinsic characterization of algebraic varieties), Annals of Mathematics 60 (1954)",
+    "people": [
+     "Kunihiko Kodaira"
+    ],
+    "description": "Uses harmonic-form methods to characterise projective varieties intrinsically, a result that made the vanishing method central.",
+    "evidence": [
+     {
+      "claim": "Title, journal, volume and year verified",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1969701",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Kodaira's 1954 work on algebraic varieties and Fields Medal nomination",
+      "source": "MacTutor biography of Kodaira",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kodaira/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Kunihiko Kodaira",
+    "role": "developer",
+    "lifespan": "1915-1997",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kodaira/",
+    "works": [
+     {
+      "citation": "Kodaira, PNAS 39 (1953) 1268-1273",
+      "year": 1953,
+      "url": "https://doi.org/10.1073/pnas.39.12.1268",
+      "whyItMatters": "Public statement of the method."
+     },
+     {
+      "citation": "Kodaira, Annals of Mathematics 60 (1954)",
+      "year": 1954,
+      "url": "https://doi.org/10.2307/1969701",
+      "whyItMatters": "Intrinsic characterisation of algebraic varieties."
+     }
+    ],
+    "roleNote": "main developer of the harmonic-form vanishing method"
+   },
+   {
+    "name": "W. V. D. Hodge",
+    "role": "developer",
+    "lifespan": "1903-1975",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hodge/",
+    "works": [
+     {
+      "citation": "Hodge, The Theory and Applications of Harmonic Integrals, Cambridge University Press",
+      "year": 1941,
+      "url": "https://openlibrary.org/search?title=The+theory+and+applications+of+harmonic+integrals",
+      "whyItMatters": "Harmonic-integral framework used by Kodaira."
+     }
+    ],
+    "roleNote": "developer of the harmonic-integral theory"
+   }
+  ],
+  "notes": "Derived dates: conceptual and methodological both 1953 from one paper (rule 2 note). No consolidation or naming milestone established in this pass (a monograph such as Griffiths-Harris was not checked). Input summary says Hodge theory gives vanishing theorems; this matches the sources, and the 1953 vanishing claim is medium confidence because the paper text was not read.",
+  "searchedSources": [
+   "enrichment/sources/wikipedia-leads.json (B37 candidates only: Integral, Divergence theorem, Integration by parts; not relevant)",
+   "enrichment/sources/mactutor-topics.json (category-analysis only; no Kodaira content)",
+   "Wikipedia raw wikitext: Kodaira_vanishing_theorem (no 1953 date given)",
+   "MacTutor biography Kodaira",
+   "Crossref DOI and query",
+   "Open Library (Hodge 1941)"
+  ],
+  "derivedDates": {
+   "conceptual": 1953,
+   "methodological": 1953,
+   "institutional": null
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P215",
+  "eventId": "MB49/WB13",
+  "canonicalName": "Nash equilibrium: existence via fixed points",
+  "aliases": [
+   "Nash equilibrium",
+   "Equilibrium points in n-person games",
+   "Non-cooperative games"
+  ],
+  "phases": [
+   "Mixed strategies before Nash (1944)",
+   "Equilibrium points via fixed points (1950-1951)",
+   "Textbook consolidation (1957)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1941,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kakutani's fixed-point theorem",
+    "work": "Kakutani, A generalization of Brouwer's fixed point theorem, Duke Mathematical Journal 8 (1941)",
+    "people": [
+     "Shizuo Kakutani"
+    ],
+    "description": "Fixed-point tool that Nash used to prove existence in 1950; a tool, not the event's start.",
+    "evidence": [
+     {
+      "claim": "Title, journal and year verified",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1215/S0012-7094-41-00838-4",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1944,
+    "endYear": null,
+    "precision": "year",
+    "label": "von Neumann-Morgenstern mixed strategies",
+    "work": "von Neumann and Morgenstern, Theory of Games and Economic Behavior, 1944",
+    "people": [
+     "John von Neumann",
+     "Oskar Morgenstern"
+    ],
+    "description": "Introduced mixed-strategy equilibrium, but their analysis was restricted to zero-sum games.",
+    "evidence": [
+     {
+      "claim": "Mixed-strategy equilibrium introduced in the 1944 book; restricted to zero-sum games",
+      "source": "Wikipedia: Nash equilibrium",
+      "url": "https://en.wikipedia.org/wiki/Nash_equilibrium",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "The 1944 date rests on Wikipedia; the book was not checked in a catalogue."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1950,
+    "endYear": null,
+    "precision": "year",
+    "label": "Equilibrium points in n-person games (PNAS)",
+    "work": "Nash, Equilibrium points in n-person games, PNAS 36 (1950) 48-49",
+    "people": [
+     "John Nash"
+    ],
+    "description": "Nash's public statement of the equilibrium concept with an existence proof.",
+    "evidence": [
+     {
+      "claim": "Title, journal, volume, pages and year verified",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1073/pnas.36.1.48",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Nash used the Kakutani fixed-point theorem in the 1950 paper",
+      "source": "Wikipedia: Nash equilibrium",
+      "url": "https://en.wikipedia.org/wiki/Nash_equilibrium",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1950,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kakutani fixed point applied to game existence (same paper)",
+    "work": "Nash, PNAS 36 (1950) 48-49 (as above)",
+    "people": [
+     "John Nash",
+     "Shizuo Kakutani"
+    ],
+    "description": "Applies a fixed-point theorem to prove existence of equilibria in finite games.",
+    "evidence": [
+     {
+      "claim": "Same publication; existence proof via Kakutani",
+      "source": "Wikipedia: Nash equilibrium",
+      "url": "https://en.wikipedia.org/wiki/Nash_equilibrium",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper plays first_statement and first_application (rule 2)."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1951,
+    "endYear": null,
+    "precision": "year",
+    "label": "Non-cooperative games: mixed equilibria via Brouwer",
+    "work": "Nash, Non-cooperative games, Annals of Mathematics 54 (1951) 286-295",
+    "people": [
+     "John Nash"
+    ],
+    "description": "Defines mixed-strategy equilibrium for any finite game and proves existence using the simpler Brouwer theorem.",
+    "evidence": [
+     {
+      "claim": "Title, journal, volume and year verified",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1969529",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "1951 paper defines mixed-strategy equilibrium and uses Brouwer",
+      "source": "Wikipedia: Nash equilibrium",
+      "url": "https://en.wikipedia.org/wiki/Nash_equilibrium",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1957,
+    "endYear": null,
+    "precision": "year",
+    "label": "Games and Decisions (textbook)",
+    "work": "Luce and Raiffa, Games and Decisions, Wiley, 1957",
+    "people": [
+     "R. Duncan Luce",
+     "Howard Raiffa"
+    ],
+    "description": "Textbook-scale treatment of non-cooperative equilibrium, used to consolidate the concept for later readers.",
+    "evidence": [
+     {
+      "claim": "Book dated 1957 (Wiley)",
+      "source": "Open Library record",
+      "url": "https://openlibrary.org/search?title=Games+and+decisions",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Judgment: von Neumann-Morgenstern (1944) is an earlier monograph but predates the Nash concept; no earlier textbook-scale treatment was checked."
+   }
+  ],
+  "people": [
+   {
+    "name": "John Nash",
+    "role": "developer",
+    "lifespan": "1928-2015",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Nash/",
+    "works": [
+     {
+      "citation": "Nash, Equilibrium points in n-person games, PNAS 36 (1950) 48-49",
+      "year": 1950,
+      "url": "https://doi.org/10.1073/pnas.36.1.48",
+      "whyItMatters": "Defines the equilibrium concept with existence."
+     },
+     {
+      "citation": "Nash, Non-cooperative games, Annals of Mathematics 54 (1951) 286-295",
+      "year": 1951,
+      "url": "https://doi.org/10.2307/1969529",
+      "whyItMatters": "Mixed-strategy existence for finite games."
+     }
+    ],
+    "roleNote": "proved existence of equilibria"
+   },
+   {
+    "name": "Shizuo Kakutani",
+    "role": "developer",
+    "lifespan": "1911-2004",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kakutani/",
+    "works": [
+     {
+      "citation": "Kakutani, A generalization of Brouwer's fixed point theorem, Duke Mathematical Journal 8 (1941)",
+      "year": 1941,
+      "url": "https://doi.org/10.1215/S0012-7094-41-00838-4",
+      "whyItMatters": "Fixed-point theorem used by Nash."
+     }
+    ],
+    "roleNote": "fixed-point theorem used for existence"
+   },
+   {
+    "name": "John von Neumann and Oskar Morgenstern",
+    "role": "developer",
+    "lifespan": "1903-1957 (von Neumann)",
+    "biographyUrl": "https://en.wikipedia.org/wiki/John_von_Neumann_and_Oskar_Morgenstern",
+    "works": [
+     {
+      "citation": "von Neumann and Morgenstern, Theory of Games and Economic Behavior, Princeton University Press, 1944",
+      "year": 1944,
+      "url": "https://en.wikipedia.org/wiki/Nash_equilibrium",
+      "whyItMatters": "Introduced mixed strategies; the book itself was not checked in a catalogue."
+     }
+    ],
+    "roleNote": "mixed-strategy equilibrium (zero-sum)"
+   },
+   {
+    "name": "R. Duncan Luce",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/R._Duncan_Luce",
+    "works": [
+     {
+      "citation": "Luce and Raiffa, Games and Decisions, Wiley",
+      "year": 1957,
+      "url": "https://openlibrary.org/search?title=Games+and+decisions",
+      "whyItMatters": "Textbook treatment of games and equilibrium."
+     }
+    ],
+    "roleNote": "textbook consolidation (with Howard Raiffa)"
+   }
+  ],
+  "notes": "Naming gap: the term 'Nash equilibrium' has no dated first use in this pass, so no naming milestone. The 1957 consolidation is a judgment call (see milestone note). The input summary's 'fixed-point arguments' is confirmed for 1950-1951. Saved mactutor-topics.json has no game-theory page; the topic page used is not relevant, so bios were fetched live.",
+  "searchedSources": [
+   "enrichment/sources/wikipedia-leads.json (MB49/WB13 candidates: Nash equilibrium, Subgame perfect equilibrium, Nash equilibrium computation; intros empty)",
+   "Wikipedia raw wikitext: Nash_equilibrium",
+   "MacTutor biography Nash",
+   "Crossref DOI",
+   "Open Library (Luce and Raiffa)"
+  ],
+  "derivedDates": {
+   "conceptual": 1950,
+   "methodological": 1950,
+   "institutional": 1957
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P067",
+  "eventId": "B01",
+  "canonicalName": "Cobordism: homotopy computes manifold invariants",
+  "aliases": [
+   "Cobordism theory",
+   "Thom cobordism",
+   "Unoriented cobordism",
+   "Complex cobordism"
+  ],
+  "phases": [
+   "Thom's cobordism computation (1954)",
+   "Complex cobordism (1960)",
+   "Book treatment (1968)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1954,
+    "endYear": null,
+    "precision": "year",
+    "label": "Thom's global properties of differentiable manifolds",
+    "work": "Thom, Quelques proprietes globales des varietes differentiables, Commentarii Mathematici Helvetici 28 (1954) 17-86",
+    "people": [
+     "René Thom"
+    ],
+    "description": "Thom's public statement that classifies manifolds up to cobordism through homotopy of Thom spaces.",
+    "evidence": [
+     {
+      "claim": "Title, journal, volume, pages and year verified",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/BF02566923",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "In 1954 Thom proved the unoriented cobordism ring is a polynomial algebra over F2",
+      "source": "Wikipedia: Cobordism",
+      "url": "https://en.wikipedia.org/wiki/Cobordism",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1954,
+    "endYear": null,
+    "precision": "year",
+    "label": "Unoriented cobordism ring computed (same paper)",
+    "work": "Thom, Commentarii Mathematici Helvetici 28 (1954) 17-86 (as above)",
+    "people": [
+     "René Thom"
+    ],
+    "description": "The same paper computes the unoriented cobordism ring, the first purposeful use of the idea on a manifold invariant.",
+    "evidence": [
+     {
+      "claim": "Computation of the unoriented cobordism ring in 1954",
+      "source": "Wikipedia: Cobordism",
+      "url": "https://en.wikipedia.org/wiki/Cobordism",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Same publication as first_statement",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/BF02566923",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper plays first_statement and first_application (rule 2)."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1960,
+    "endYear": null,
+    "precision": "year",
+    "label": "Complex analogue of cobordism",
+    "work": "Milnor, On the cobordism ring Omega* and a complex analogue, Part I, American Journal of Mathematics 82 (1960) 505",
+    "people": [
+     "John Milnor"
+    ],
+    "description": "Introduces the complex analogue of cobordism, the start of complex cobordism theory.",
+    "evidence": [
+     {
+      "claim": "Title, journal, volume, page and year verified",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/2372970",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1968,
+    "endYear": null,
+    "precision": "year",
+    "label": "Notes on Cobordism Theory (book)",
+    "work": "Stong, Notes on Cobordism Theory, Princeton University Press, 1968",
+    "people": [
+     "Robert E. Stong"
+    ],
+    "description": "Book-length exposition of cobordism theory.",
+    "evidence": [
+     {
+      "claim": "Book dated 1968 (Princeton University Press)",
+      "source": "Open Library record",
+      "url": "https://openlibrary.org/search?title=Notes+on+cobordism+theory",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Judgment: book-length treatment. Not checked whether an earlier book-length treatment exists."
+   }
+  ],
+  "people": [
+   {
+    "name": "René Thom",
+    "role": "originator",
+    "lifespan": "1923-2002",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Thom/",
+    "works": [
+     {
+      "citation": "Thom, Quelques proprietes globales des varietes differentiables, Comment. Math. Helv. 28 (1954)",
+      "year": 1954,
+      "url": "https://doi.org/10.1007/BF02566923",
+      "whyItMatters": "Founds cobordism via Thom spaces."
+     }
+    ],
+    "roleNote": "founder of cobordism theory"
+   },
+   {
+    "name": "John Milnor",
+    "role": "developer",
+    "lifespan": "1931-",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Milnor/",
+    "works": [
+     {
+      "citation": "Milnor, On the cobordism ring Omega* and a complex analogue, Part I, American Journal of Mathematics 82 (1960)",
+      "year": 1960,
+      "url": "https://doi.org/10.2307/2372970",
+      "whyItMatters": "Complex analogue of cobordism."
+     }
+    ],
+    "roleNote": "complex cobordism"
+   },
+   {
+    "name": "Robert E. Stong",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Robert_E._Stong",
+    "works": [
+     {
+      "citation": "Stong, Notes on Cobordism Theory, Princeton University Press",
+      "year": 1968,
+      "url": "https://openlibrary.org/search?title=Notes+on+cobordism+theory",
+      "whyItMatters": "Book-length consolidation."
+     }
+    ],
+    "roleNote": "book treatment"
+   }
+  ],
+  "notes": "The input summary is correct on Thom's 1954 start. Naming: 'cobordism' is said to come from French 'bord' (Wikipedia); no dated first use was found, so no naming milestone. No precursor milestone: Pontryagin's work and a dated precursor were not checked. The saved wikipedia-leads.json Cobordism intro was used and found consistent.",
+  "searchedSources": [
+   "enrichment/sources/wikipedia-leads.json (B01 candidate Cobordism, intro)",
+   "Wikipedia raw wikitext: Cobordism",
+   "MacTutor biography Thom and Milnor",
+   "Crossref DOI",
+   "Open Library (Stong)"
+  ],
+  "derivedDates": {
+   "conceptual": 1954,
+   "methodological": 1954,
+   "institutional": 1968
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P263",
+  "eventId": "MB25",
+  "canonicalName": "Serre's spectral sequence and homotopy groups",
+  "aliases": [
+   "Serre spectral sequence",
+   "Leray-Serre spectral sequence",
+   "Homotopy groups of spheres via fibrations"
+  ],
+  "phases": [
+   "Homology of fibre spaces (1951)",
+   "Homotopy groups of spheres (1953)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1951,
+    "endYear": null,
+    "precision": "year",
+    "label": "Homologie singuliere des espaces fibres",
+    "work": "Serre, Homologie singuliere des espaces fibres, Annals of Mathematics 54 (1951)",
+    "people": [
+     "Jean-Pierre Serre"
+    ],
+    "description": "Serre's thesis develops the spectral sequence for fibre spaces in singular homology.",
+    "evidence": [
+     {
+      "claim": "Title, journal and year verified",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1969485",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Doctorate from the Sorbonne in 1951 on this thesis",
+      "source": "MacTutor biography of Serre",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Serre/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1953,
+    "endYear": null,
+    "precision": "year",
+    "label": "Homotopy groups via Serre classes",
+    "work": "Serre, Groupes d'homotopie et classes de groupes abeliens, Annals of Mathematics 58 (1953)",
+    "people": [
+     "Jean-Pierre Serre"
+    ],
+    "description": "Applies the fibration method to compute homotopy groups, the purpose MacTutor gives for the extension.",
+    "evidence": [
+     {
+      "claim": "Title, journal and year verified",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1969789",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Serre found that Leray's theory could be extended to compute homotopy groups",
+      "source": "MacTutor biography of Serre (paraphrased)",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Serre/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Claim that this is the first such application rests on MacTutor's account and was not checked against other histories."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": null,
+    "endYear": null,
+    "precision": "unknown",
+    "label": "Leray's spectral sequence for fibrations",
+    "work": null,
+    "people": [
+     "Jean Leray"
+    ],
+    "description": "Leray's spectral sequence for fibre spaces, which Serre extended to homotopy.",
+    "evidence": [
+     {
+      "claim": "Serre's early work extended Leray's spectral sequence theory; Leray invented spectral sequences",
+      "source": "MacTutor biography of Serre",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Serre/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Year not verified (Leray's paper not checked); precursor with unknown year, allowed by schema."
+   }
+  ],
+  "people": [
+   {
+    "name": "Jean-Pierre Serre",
+    "role": "developer",
+    "lifespan": "1926-",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Serre/",
+    "works": [
+     {
+      "citation": "Serre, Homologie singuliere des espaces fibres, Annals of Mathematics 54 (1951)",
+      "year": 1951,
+      "url": "https://doi.org/10.2307/1969485",
+      "whyItMatters": "Thesis; spectral sequence for fibrations."
+     },
+     {
+      "citation": "Serre, Groupes d'homotopie et classes de groupes abeliens, Annals of Mathematics 58 (1953)",
+      "year": 1953,
+      "url": "https://doi.org/10.2307/1969789",
+      "whyItMatters": "Homotopy groups of spheres."
+     }
+    ],
+    "roleNote": "developer of the fibration method"
+   }
+  ],
+  "notes": "Only one person with verified works (Serre). Leray is listed as precursor, but no verified work is cited, so he is not in people. Consolidation and naming not established: the 1952 Princeton lectures on C-theory mentioned by MacTutor were not checked. Saved mactutor-topics.json only has a Serre hit in the Development of group theory page, which is not relevant to the milestones.",
+  "searchedSources": [
+   "enrichment/sources/wikipedia-leads.json (MB25 candidates: disambiguation Serre, Jean-Pierre Serre; infobox and intro used)",
+   "Wikipedia raw wikitext: Spectral_sequence (no year), Jean-Pierre_Serre",
+   "MacTutor biography of Serre",
+   "Crossref DOI"
+  ],
+  "derivedDates": {
+   "conceptual": 1951,
+   "methodological": 1953,
+   "institutional": null
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P291",
+  "eventId": "MB32",
+  "canonicalName": "Tate's thesis and adelic harmonic analysis",
+  "aliases": [
+   "Tate's thesis",
+   "Fourier analysis in number fields and Hecke's zeta-functions",
+   "Iwasawa-Tate method"
+  ],
+  "phases": [
+   "Princeton thesis (1950, unpublished)",
+   "Publication in Cassels-Frohlich (1967)",
+   "GL(n) generalisation (1972)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1950,
+    "endYear": null,
+    "precision": "year",
+    "label": "Tate's Princeton thesis (unpublished)",
+    "work": "Tate, Fourier analysis in number fields and Hecke's zeta-functions, PhD thesis, Princeton, 1950",
+    "people": [
+     "John Tate"
+    ],
+    "description": "Tate's thesis proved the functional equation of Hecke L-functions by Fourier analysis on the ideles, unpublished until 1967.",
+    "evidence": [
+     {
+      "claim": "Doctorate in 1950 under Artin on this thesis",
+      "source": "MacTutor biography of Tate",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Tate/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Thesis proved Hecke's functional equation via Fourier analysis on idele groups; published as a chapter in 1967",
+      "source": "Wikipedia: Tate's thesis",
+      "url": "https://en.wikipedia.org/wiki/Tate%27s_thesis",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Unpublished until 1967, so a precursor under rule 3. An Iwasawa 1950 ICM announcement is a candidate only and is not promoted."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1967,
+    "endYear": null,
+    "precision": "year",
+    "label": "Tate's thesis in print (Cassels-Frohlich volume)",
+    "work": "Tate, Fourier analysis in number fields and Hecke's zeta-functions, in Cassels and Frohlich (eds.), Algebraic Number Theory, 1967",
+    "people": [
+     "John Tate"
+    ],
+    "description": "The first public statement of the thesis, in the 1967 volume.",
+    "evidence": [
+     {
+      "claim": "Book dated 1967 (Algebraic Number Theory, Cassels ed.)",
+      "source": "Open Library record",
+      "url": "https://openlibrary.org/search?title=Algebraic+number+theory",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Thesis published as a book chapter in 1967",
+      "source": "Wikipedia: Tate's thesis",
+      "url": "https://en.wikipedia.org/wiki/Tate%27s_thesis",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Publication year governs. The 1967 record matches the book, not the chapter, so the chapter record was not checked separately."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1967,
+    "endYear": null,
+    "precision": "year",
+    "label": "Functional equation of Hecke L-functions (same publication)",
+    "work": "Tate, in Cassels and Frohlich (eds.), 1967 (as above)",
+    "people": [
+     "John Tate"
+    ],
+    "description": "The thesis applies Fourier analysis on ideles to Hecke's functional equation, its first purposeful use.",
+    "evidence": [
+     {
+      "claim": "Thesis gave a new proof of the functional equation of Hecke L-series",
+      "source": "MacTutor biography of Tate",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Tate/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Same publication as first_statement (rule 2)."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1972,
+    "endYear": null,
+    "precision": "year",
+    "label": "Generalisation to GL(n)",
+    "work": "Godement and Jacquet, Zeta Functions of Simple Algebras, Lecture Notes in Mathematics 260 (1972)",
+    "people": [
+     "Roger Godement",
+     "Herve Jacquet"
+    ],
+    "description": "Extends Iwasawa-Tate theory to GL(n) over number fields and automorphic representations.",
+    "evidence": [
+     {
+      "claim": "Godement and Jacquet extended Iwasawa-Tate theory to GL(n) in 1972",
+      "source": "Wikipedia: Tate's thesis",
+      "url": "https://en.wikipedia.org/wiki/Tate%27s_thesis",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Book year taken from Wikipedia; not checked in a catalogue."
+   }
+  ],
+  "people": [
+   {
+    "name": "John Tate",
+    "role": "developer",
+    "lifespan": "1925-2019",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Tate/",
+    "works": [
+     {
+      "citation": "Tate, Fourier analysis in number fields and Hecke's zeta-functions, PhD thesis, Princeton 1950 (published 1967)",
+      "year": 1950,
+      "url": "https://en.wikipedia.org/wiki/Tate%27s_thesis",
+      "whyItMatters": "Thesis; unpublished until 1967."
+     }
+    ],
+    "roleNote": "thesis author"
+   },
+   {
+    "name": "Roger Godement and Herve Jacquet",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Roger_Godement_and_Herve_Jacquet",
+    "works": [
+     {
+      "citation": "Godement and Jacquet, Zeta Functions of Simple Algebras, LNM 260",
+      "year": 1972,
+      "url": "https://en.wikipedia.org/wiki/Tate%27s_thesis",
+      "whyItMatters": "Extension to GL(n); year from Wikipedia."
+     }
+    ],
+    "roleNote": "GL(n) generalisation"
+   }
+  ],
+  "notes": "Input name 'adelic harmonic analysis' is supported. Naming: the term 'adele' and 'adelic' have no dated first use in this pass (not checked), so no naming milestone. Because the thesis was unpublished, conceptual and methodological derived dates both fall on the 1967 publication, not the 1950 thesis. The MacTutor topic page is off-topic (the saved 'Number e' match is a false match).",
+  "searchedSources": [
+   "enrichment/sources/wikipedia-leads.json (MB32: no candidates)",
+   "enrichment/sources/mactutor-topics.json (MB32 match 'Number e' is off-topic)",
+   "Wikipedia raw wikitext: Tate's_thesis",
+   "MacTutor biography Tate",
+   "Open Library (Cassels-Frohlich 1967)"
+  ],
+  "derivedDates": {
+   "conceptual": 1967,
+   "methodological": 1967,
+   "institutional": null
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P239",
+  "eventId": "MB62",
+  "canonicalName": "Kleene's theorem: regular events and finite automata",
+  "aliases": [
+   "Kleene's theorem",
+   "Regular events",
+   "Representation of events in nerve nets and finite automata"
+  ],
+  "phases": [
+   "Nerve nets (1943-1951)",
+   "Kleene's characterisation (1956)",
+   "Decision problems (1959)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1943,
+    "endYear": null,
+    "precision": "year",
+    "label": "McCulloch-Pitts nerve nets",
+    "work": "McCulloch and Pitts, A logical calculus of the ideas immanent in nervous activity, 1943",
+    "people": [
+     "Warren McCulloch",
+     "Walter Pitts"
+    ],
+    "description": "The nerve-net model whose events Kleene later represented by finite automata.",
+    "evidence": [
+     {
+      "claim": "Paper dated 1943 (reprint record cites the original year)",
+      "source": "Crossref reprint record",
+      "url": "https://doi.org/10.7551/mitpress/12274.003.0011",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1951,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kleene's RAND memorandum on nerve nets",
+    "work": null,
+    "people": [
+     "Stephen Cole Kleene"
+    ],
+    "description": "Kleene spent summer 1951 at RAND and found the characterisation; the memorandum is an unpublished precursor.",
+    "evidence": [
+     {
+      "claim": "Summer 1951 at RAND; characterisation of finite automata found there",
+      "source": "MacTutor biography of Kleene",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kleene/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "RAND report title and number not checked in a catalogue. Public statement is the 1956 publication (rule 3)."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1956,
+    "endYear": null,
+    "precision": "year",
+    "label": "Representation of events in nerve nets and finite automata",
+    "work": "Kleene, Representation of Events in Nerve Nets and Finite Automata, in Automata Studies (AM-34), Princeton, 1956",
+    "people": [
+     "Stephen Cole Kleene"
+    ],
+    "description": "Kleene's public statement that regular events are exactly the events represented by finite automata.",
+    "evidence": [
+     {
+      "claim": "Title, volume and year verified",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1515/9781400882618-002",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1956,
+    "endYear": null,
+    "precision": "year",
+    "label": "Nerve-net representation (same publication)",
+    "work": "Kleene, Automata Studies (AM-34), 1956 (as above)",
+    "people": [
+     "Stephen Cole Kleene"
+    ],
+    "description": "The same paper applies the characterisation to the nerve-net problem posed by McCulloch and Pitts.",
+    "evidence": [
+     {
+      "claim": "Same publication; paper addresses nerve nets",
+      "source": "Crossref title",
+      "url": "https://doi.org/10.1515/9781400882618-002",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Same publication as first_statement (rule 2)."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1959,
+    "endYear": null,
+    "precision": "year",
+    "label": "Finite automata and their decision problems",
+    "work": "Rabin and Scott, Finite automata and their decision problems, IBM Journal of Research and Development 3 (1959) 114-125",
+    "people": [
+     "Michael O. Rabin",
+     "Dana Scott"
+    ],
+    "description": "Introduces nondeterministic finite automata and decision problems, extending the automata side of the correspondence.",
+    "evidence": [
+     {
+      "claim": "Title, journal, volume, pages and year verified",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1147/rd.32.0114",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Role judgment; the link to Kleene's theorem is not checked against the paper text."
+   }
+  ],
+  "people": [
+   {
+    "name": "Stephen Cole Kleene",
+    "role": "developer",
+    "lifespan": "1909-1994",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kleene/",
+    "works": [
+     {
+      "citation": "Kleene, Representation of events in nerve nets and finite automata, Automata Studies (1956)",
+      "year": 1956,
+      "url": "https://doi.org/10.1515/9781400882618-002",
+      "whyItMatters": "Kleene's theorem."
+     }
+    ],
+    "roleNote": "characterisation of regular events"
+   },
+   {
+    "name": "Warren McCulloch and Walter Pitts",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Warren_McCulloch_and_Walter_Pitts",
+    "works": [
+     {
+      "citation": "McCulloch and Pitts, A logical calculus of the ideas immanent in nervous activity (1943)",
+      "year": 1943,
+      "url": "https://doi.org/10.7551/mitpress/12274.003.0011",
+      "whyItMatters": "Nerve-net model."
+     }
+    ],
+    "roleNote": "nerve-net model"
+   },
+   {
+    "name": "Michael O. Rabin and Dana Scott",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Michael_O._Rabin_and_Dana_Scott",
+    "works": [
+     {
+      "citation": "Rabin and Scott, Finite automata and their decision problems, IBM J. Res. Dev. 3 (1959)",
+      "year": 1959,
+      "url": "https://doi.org/10.1147/rd.32.0114",
+      "whyItMatters": "Decision problems for finite automata."
+     }
+    ],
+    "roleNote": "nondeterministic automata and decision problems"
+   }
+  ],
+  "notes": "Input summary says 'finite automata and regular events were shown equivalent'; this is supported by the 1956 publication, with the 1951 RAND memo as the precursor. Institution and consolidation not established (no textbook checked). Saved wikipedia-leads.json has no candidate for MB62 with an intro (Regular language page is a redirect target only). MacTutor saved topics have no match. A regular-events naming date was not checked.",
+  "searchedSources": [
+   "enrichment/sources/wikipedia-leads.json (MB62 candidates: Regular language, Stephen Cole Kleene, Kleene algebra; intros empty)",
+   "Wikipedia wikitext: Kleene's_theorem (redirect to Regular language, not used)",
+   "MacTutor biography Kleene",
+   "Crossref DOI and query"
+  ],
+  "derivedDates": {
+   "conceptual": 1956,
+   "methodological": 1956,
+   "institutional": null
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P224",
+  "eventId": "MB78/WB113",
+  "canonicalName": "Dynamic programming: Bellman's principle of optimality",
+  "aliases": [
+   "Dynamic programming",
+   "Bellman's principle of optimality",
+   "Theory of dynamic programming"
+  ],
+  "phases": [
+   "Multi-stage decisions as recursion (1952-1954)",
+   "Monograph (1957)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1952,
+    "endYear": null,
+    "precision": "year",
+    "label": "On the theory of dynamic programming (PNAS)",
+    "work": "Bellman, On the theory of dynamic programming, PNAS 38 (1952) 716-719",
+    "people": [
+     "Richard Bellman"
+    ],
+    "description": "Bellman's first public statement of the method, recasting multi-stage decisions as recursion.",
+    "evidence": [
+     {
+      "claim": "Title, journal, volume, pages and year verified",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1073/pnas.38.8.716",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "First publication on dynamic programming appeared in 1952",
+      "source": "MacTutor biography of Bellman",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Bellman/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 1952,
+    "endYear": null,
+    "precision": "year",
+    "label": "Term 'dynamic programming' first used in a title",
+    "work": "Bellman, On the theory of dynamic programming, PNAS 38 (1952) 716-719 (as above)",
+    "people": [
+     "Richard Bellman"
+    ],
+    "description": "The first use of the term in a title, per the Wikipedia account of the origin of the name.",
+    "evidence": [
+     {
+      "claim": "Bellman's first paper using the term appeared in 1952",
+      "source": "Wikipedia: Dynamic programming (citing Russell and Norvig)",
+      "url": "https://en.wikipedia.org/wiki/Dynamic_programming",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Same publication as first_statement",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1073/pnas.38.8.716",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper plays first_statement and naming (rule 2)."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1954,
+    "endYear": null,
+    "precision": "year",
+    "label": "The theory of dynamic programming (Bulletin survey)",
+    "work": "Bellman, The theory of dynamic programming, Bulletin of the American Mathematical Society 60 (1954) 503-515",
+    "people": [
+     "Richard Bellman"
+    ],
+    "description": "A survey that organises the theory and its applications, with a bibliography up to 1954.",
+    "evidence": [
+     {
+      "claim": "Title, journal, volume, pages and year verified",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/S0002-9904-1954-09848-8",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Survey includes a bibliography up to 1954",
+      "source": "Wikipedia: Dynamic programming",
+      "url": "https://en.wikipedia.org/wiki/Dynamic_programming",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Role judgment: a survey, used here as key development rather than consolidation."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1957,
+    "endYear": null,
+    "precision": "year",
+    "label": "Dynamic Programming (monograph)",
+    "work": "Bellman, Dynamic Programming, Princeton University Press, 1957",
+    "people": [
+     "Richard Bellman"
+    ],
+    "description": "Book-length treatment of dynamic programming.",
+    "evidence": [
+     {
+      "claim": "Book dated 1957 (Princeton University Press)",
+      "source": "Open Library record",
+      "url": "https://openlibrary.org/search?title=Dynamic+programming",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Open Library lists a 1956 record too; 1957 is used as the commonly cited year. First systematic treatment not checked against the 1953 RAND introduction."
+   }
+  ],
+  "people": [
+   {
+    "name": "Richard Bellman",
+    "role": "developer",
+    "lifespan": "1920-1984",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bellman/",
+    "works": [
+     {
+      "citation": "Bellman, On the theory of dynamic programming, PNAS 38 (1952) 716-719",
+      "year": 1952,
+      "url": "https://doi.org/10.1073/pnas.38.8.716",
+      "whyItMatters": "First statement and naming."
+     },
+     {
+      "citation": "Bellman, The theory of dynamic programming, Bull. AMS 60 (1954) 503-515",
+      "year": 1954,
+      "url": "https://doi.org/10.1090/S0002-9904-1954-09848-8",
+      "whyItMatters": "Survey."
+     },
+     {
+      "citation": "Bellman, Dynamic Programming, Princeton University Press",
+      "year": 1957,
+      "url": "https://openlibrary.org/search?title=Dynamic+programming",
+      "whyItMatters": "Monograph."
+     }
+    ],
+    "roleNote": "developer and namer of dynamic programming"
+   }
+  ],
+  "notes": "Derived: institutional 1952 comes from naming, which shares the 1952 paper. The earliest first_application (applications at RAND) was not established, so methodological is null. Input summary's 'principle of optimality recast multi-stage decisions as recursion' is supported. Bellman's 1953 RAND introduction is mentioned by MacTutor but not verified as a record. Saved wikipedia-leads.json MB78 intro was used.",
+  "searchedSources": [
+   "enrichment/sources/wikipedia-leads.json (MB78/WB113 candidate Dynamic programming, intro)",
+   "Wikipedia raw wikitext: Dynamic_programming",
+   "MacTutor biography Bellman",
+   "Crossref DOI",
+   "Open Library (Bellman 1957)"
+  ],
+  "derivedDates": {
+   "conceptual": 1952,
+   "methodological": null,
+   "institutional": 1952
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P469",
+  "eventId": "P17",
+  "canonicalName": "Calderon-Zygmund singular integrals in PDE",
+  "aliases": [
+   "Calderon-Zygmund theory",
+   "Singular integral operators in PDE",
+   "L^p estimates for elliptic equations"
+  ],
+  "phases": [
+   "Singular integrals (1952-1956)",
+   "Application to differential equations (1957)",
+   "Monograph (1970)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1952,
+    "endYear": null,
+    "precision": "year",
+    "label": "On the existence of certain singular integrals",
+    "work": "Calderon and Zygmund, On the existence of certain singular integrals, Acta Mathematica 88 (1952)",
+    "people": [
+     "Alberto Calderon",
+     "Antoni Zygmund"
+    ],
+    "description": "Public statement of the singular integral theory on L^p, the harmonic-analysis base for later PDE use.",
+    "evidence": [
+     {
+      "claim": "Title, journal, volume and year verified",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02392130",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Calderon and Zygmund's collaboration on singular integrals",
+      "source": "MacTutor biography of Calderon",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Calderon/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1956,
+    "endYear": null,
+    "precision": "year",
+    "label": "On singular integrals (general theory)",
+    "work": "Calderon and Zygmund, On singular integrals, American Journal of Mathematics 78 (1956)",
+    "people": [
+     "Alberto Calderon",
+     "Antoni Zygmund"
+    ],
+    "description": "General theory of singular integral operators, which the PDE application uses.",
+    "evidence": [
+     {
+      "claim": "Title, journal, volume and year verified",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/2372517",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Role judgment that this is the key development for PDE use."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1957,
+    "endYear": null,
+    "precision": "year",
+    "label": "Singular integral operators and differential equations",
+    "work": "Calderon and Zygmund, Singular integral operators and differential equations, American Journal of Mathematics 79 (1957)",
+    "people": [
+     "Alberto Calderon",
+     "Antoni Zygmund"
+    ],
+    "description": "Applies singular integral operators to differential equations, the first PDE use named in the title.",
+    "evidence": [
+     {
+      "claim": "Title, journal, volume and year verified",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/2372441",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "PDE use is taken from the title; the body text was not read."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1970,
+    "endYear": null,
+    "precision": "year",
+    "label": "Singular Integrals and Differentiability Properties of Functions",
+    "work": "Stein, Singular Integrals and Differentiability Properties of Functions, Princeton University Press, 1970",
+    "people": [
+     "Elias M. Stein"
+    ],
+    "description": "Book-length treatment of singular integrals and their differentiability applications.",
+    "evidence": [
+     {
+      "claim": "Book dated 1970 (Princeton University Press)",
+      "source": "Open Library record",
+      "url": "https://openlibrary.org/search?title=Singular+integrals+and+differentiability+properties+of+functions",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Alberto Calderon",
+    "role": "developer",
+    "lifespan": "1920-1998",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Calderon/",
+    "works": [
+     {
+      "citation": "Calderon and Zygmund, On the existence of certain singular integrals, Acta Math. 88 (1952)",
+      "year": 1952,
+      "url": "https://doi.org/10.1007/bf02392130",
+      "whyItMatters": "Foundational singular integral theory."
+     },
+     {
+      "citation": "Calderon and Zygmund, Singular integral operators and differential equations, Amer. J. Math. 79 (1957)",
+      "year": 1957,
+      "url": "https://doi.org/10.2307/2372441",
+      "whyItMatters": "PDE application."
+     }
+    ],
+    "roleNote": "singular integral theory"
+   },
+   {
+    "name": "Antoni Zygmund",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Zygmund/",
+    "works": [
+     {
+      "citation": "Calderon and Zygmund, On singular integrals, Amer. J. Math. 78 (1956)",
+      "year": 1956,
+      "url": "https://doi.org/10.2307/2372517",
+      "whyItMatters": "General theory."
+     }
+    ],
+    "roleNote": "co-author of singular integral theory"
+   },
+   {
+    "name": "Elias M. Stein",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Stein/",
+    "works": [
+     {
+      "citation": "Stein, Singular Integrals and Differentiability Properties of Functions, Princeton University Press",
+      "year": 1970,
+      "url": "https://openlibrary.org/search?title=Singular+integrals+and+differentiability+properties+of+functions",
+      "whyItMatters": "Monograph."
+     }
+    ],
+    "roleNote": "consolidation"
+   }
+  ],
+  "notes": "Input summary says the singular integrals enter PDE: supported by the 1957 title. Calderon-Zygmund's 1952 work is harmonic analysis, so conceptual is 1952 and methodological is 1957. Agmon-Douglis-Nirenberg (CPAM, 1959) is an elliptic-estimate candidate that was found on Crossref but not promoted, since its use of singular integrals was not checked. No naming milestone was established. Saved wikipedia lemma page had no dated first use.",
+  "searchedSources": [
+   "enrichment/sources/wikipedia-leads.json (P17: no candidates)",
+   "Wikipedia raw wikitext: Calderon-Zygmund_lemma (no years)",
+   "MacTutor biography Calderon",
+   "Crossref DOI and query"
+  ],
+  "derivedDates": {
+   "conceptual": 1952,
+   "methodological": 1957,
+   "institutional": 1970
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P020",
+  "eventId": "E28",
+  "canonicalName": "Roth's theorem: Fourier-analytic method for 3-term progressions",
+  "aliases": [
+   "Roth's theorem",
+   "Erdos-Turan conjecture for k=3",
+   "Three-term progressions in dense sets"
+  ],
+  "phases": [
+   "Roth's 1953 proof",
+   "Szemeredi's extension (1975)",
+   "Gowers's Fourier proof (2001)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1953,
+    "endYear": null,
+    "precision": "year",
+    "label": "On certain sets of integers",
+    "work": "Roth, On certain sets of integers, Journal of the London Mathematical Society 28 (1953) 104-109",
+    "people": [
+     "Klaus Roth"
+    ],
+    "description": "Roth's public statement that dense sets of integers contain three-term progressions, by a circle-method argument.",
+    "evidence": [
+     {
+      "claim": "Title, journal, volume, pages and year verified",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1112/jlms/s1-28.1.104",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Case k=3 established in 1953 via an adaptation of the Hardy-Littlewood circle method",
+      "source": "Wikipedia: Szemeredi's theorem",
+      "url": "https://en.wikipedia.org/wiki/Szemer%C3%A9di%27s_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1953,
+    "endYear": null,
+    "precision": "year",
+    "label": "Circle method applied to progressions (same paper)",
+    "work": "Roth, On certain sets of integers, JLMS 28 (1953) 104-109 (as above)",
+    "people": [
+     "Klaus Roth"
+    ],
+    "description": "The same paper applies the circle method to the progression problem, the first purposeful use on the target.",
+    "evidence": [
+     {
+      "claim": "Same publication; circle-method argument",
+      "source": "Wikipedia: Szemeredi's theorem",
+      "url": "https://en.wikipedia.org/wiki/Szemer%C3%A9di%27s_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper plays first_statement and first_application (rule 2)."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1975,
+    "endYear": null,
+    "precision": "year",
+    "label": "Szemeredi's theorem for all k",
+    "work": "Szemeredi, On sets of integers containing k elements in arithmetic progression, Acta Arithmetica 27 (1975) 199-245",
+    "people": [
+     "Endre Szemeredi"
+    ],
+    "description": "Extends the 3-term result to all k, using a combinatorial argument.",
+    "evidence": [
+     {
+      "claim": "Title, journal, volume, pages and year verified",
+      "source": "Crossref",
+      "url": "https://doi.org/10.4064/aa-27-1-199-245",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Szemeredi proved the general case in 1975",
+      "source": "Wikipedia: Szemeredi's theorem",
+      "url": "https://en.wikipedia.org/wiki/Szemer%C3%A9di%27s_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2001,
+    "endYear": null,
+    "precision": "year",
+    "label": "New proof combining Fourier analysis and combinatorics",
+    "work": "Gowers, A new proof of Szemeredi's theorem, GAFA 11 (2001) 465-588",
+    "people": [
+     "Timothy Gowers"
+    ],
+    "description": "Combines Fourier analysis with combinatorial arguments in a new proof, which later work built on.",
+    "evidence": [
+     {
+      "claim": "Title, journal, volume, pages and year verified",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/s00039-001-0332-9",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Gowers's 2001 proof uses Fourier analysis and combinatorics",
+      "source": "Wikipedia: Szemeredi's theorem",
+      "url": "https://en.wikipedia.org/wiki/Szemer%C3%A9di%27s_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Klaus Roth",
+    "role": "developer",
+    "lifespan": "1925-2015",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Roth_Klaus/",
+    "works": [
+     {
+      "citation": "Roth, On certain sets of integers, JLMS 28 (1953) 104-109",
+      "year": 1953,
+      "url": "https://doi.org/10.1112/jlms/s1-28.1.104",
+      "whyItMatters": "Case k=3 of the progression theorem."
+     }
+    ],
+    "roleNote": "3-term progressions"
+   },
+   {
+    "name": "Endre Szemeredi",
+    "role": "developer",
+    "lifespan": "1940-",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Szemeredi/",
+    "works": [
+     {
+      "citation": "Szemeredi, On sets of integers containing k elements in arithmetic progression, Acta Arith. 27 (1975)",
+      "year": 1975,
+      "url": "https://doi.org/10.4064/aa-27-1-199-245",
+      "whyItMatters": "General k."
+     }
+    ],
+    "roleNote": "general k"
+   },
+   {
+    "name": "Timothy Gowers",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Gowers/",
+    "works": [
+     {
+      "citation": "Gowers, A new proof of Szemeredi's theorem, GAFA 11 (2001)",
+      "year": 2001,
+      "url": "https://doi.org/10.1007/s00039-001-0332-9",
+      "whyItMatters": "Fourier-combinatorial proof."
+     }
+    ],
+    "roleNote": "Fourier proof"
+   }
+  ],
+  "notes": "The input summary says the proof is a circle-method argument with density increment. Wikipedia says the k=3 case used an adaptation of the Hardy-Littlewood circle method; the density-increment framing was not verified and is not used. Naming ('Roth's theorem') has no dated first use in this pass, so no naming milestone. No consolidation milestone established. Saved wikipedia-leads.json E28 candidate (Fourier analysis) is generic and was not used.",
+  "searchedSources": [
+   "enrichment/sources/wikipedia-leads.json (E28: candidate Fourier analysis, generic)",
+   "Wikipedia raw wikitext: Szemeredi's_theorem, Roth's_theorem",
+   "MacTutor biographies Roth (Klaus) and Szemeredi",
+   "Crossref DOI"
+  ],
+  "derivedDates": {
+   "conceptual": 1953,
+   "methodological": 1953,
+   "institutional": null
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P266",
+  "eventId": "WB31",
+  "canonicalName": "Markov chain Monte Carlo and the Bayesian revival",
+  "aliases": [
+   "MCMC",
+   "Metropolis sampling",
+   "Metropolis-Hastings",
+   "Gibbs sampling"
+  ],
+  "phases": [
+   "Metropolis sampler (1953)",
+   "Hastings generalisation (1970)",
+   "Gibbs sampling in image analysis (1984)",
+   "Bayesian revival (1990)",
+   "Monograph (1999)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1949,
+    "endYear": null,
+    "precision": "year",
+    "label": "Monte Carlo method (Metropolis and Ulam)",
+    "work": "Metropolis and Ulam, The Monte Carlo method, 1949",
+    "people": [
+     "Nicholas Metropolis",
+     "Stanislaw Ulam"
+    ],
+    "description": "The Monte Carlo idea of random sampling that the Metropolis sampler later refined.",
+    "evidence": [
+     {
+      "claim": "Popular description of the Monte Carlo method dated 1949",
+      "source": "OSTI record",
+      "url": "https://doi.org/10.2172/4427100",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The JASA 1949 article was not separately verified; the OSTI record is used. Precursor, so no derived date."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1953,
+    "endYear": null,
+    "precision": "year",
+    "label": "Equation of state calculations by fast computing machines",
+    "work": "Metropolis, Rosenbluth, Rosenbluth, Teller, Teller, Equation of state calculations by fast computing machines, J. Chem. Phys. 21 (1953) 1087-1092",
+    "people": [
+     "Nicholas Metropolis",
+     "Arianna Rosenbluth",
+     "Marshall Rosenbluth",
+     "Augusta Teller",
+     "Edward Teller"
+    ],
+    "description": "The first public statement of Metropolis-type acceptance sampling, applied to an equation-of-state calculation.",
+    "evidence": [
+     {
+      "claim": "Title, journal, volume, pages and year verified",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1063/1.1699114",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Metropolis algorithm designed for high-dimensional integration on early computers, 1953",
+      "source": "Wikipedia: Markov chain Monte Carlo",
+      "url": "https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1953,
+    "endYear": null,
+    "precision": "year",
+    "label": "Equation-of-state application (same paper)",
+    "work": "Metropolis et al., J. Chem. Phys. 21 (1953) 1087-1092 (as above)",
+    "people": [
+     "Nicholas Metropolis"
+    ],
+    "description": "The same paper uses the sampler to compute an equation of state, the first purposeful application.",
+    "evidence": [
+     {
+      "claim": "Same publication as first_statement",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1063/1.1699114",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper plays first_statement and first_application (rule 2)."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1970,
+    "endYear": null,
+    "precision": "year",
+    "label": "Monte Carlo sampling using Markov chains (Hastings)",
+    "work": "Hastings, Monte Carlo sampling methods using Markov chains and their applications, Biometrika 57 (1970) 97-109",
+    "people": [
+     "W. K. Hastings"
+    ],
+    "description": "Generalises the Metropolis sampler to non-symmetric proposals, the Metropolis-Hastings form.",
+    "evidence": [
+     {
+      "claim": "Title, journal, volume, pages and year verified",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1093/biomet/57.1.97",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "W. K. Hastings's 1970 generalisation",
+      "source": "Wikipedia: Markov chain Monte Carlo",
+      "url": "https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 1984,
+    "endYear": null,
+    "precision": "year",
+    "label": "Gibbs sampling named in image processing",
+    "work": "Geman and Geman, Stochastic relaxation, Gibbs distributions, and the Bayesian restoration of images, IEEE TPAMI 6 (1984) 721-741",
+    "people": [
+     "Stuart Geman",
+     "Donald Geman"
+    ],
+    "description": "The formal naming of Gibbs sampling in image processing, per Wikipedia.",
+    "evidence": [
+     {
+      "claim": "Title, journal, volume, pages and year verified",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1109/TPAMI.1984.4767596",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Formal naming of Gibbs sampling in image processing by Geman and Geman (1984)",
+      "source": "Wikipedia: Markov chain Monte Carlo",
+      "url": "https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Naming refers to the Gibbs sampler term in image processing, not to MCMC as a whole."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1990,
+    "endYear": null,
+    "precision": "year",
+    "label": "Sampling-based marginal densities (Bayesian revival)",
+    "work": "Gelfand and Smith, Sampling-based approaches to calculating marginal densities, JASA 85 (1990)",
+    "people": [
+     "Alan E. Gelfand",
+     "Adrian F. M. Smith"
+    ],
+    "description": "Shows sampling methods give practical Bayesian posterior computation, the basis of the statistical revival.",
+    "evidence": [
+     {
+      "claim": "Title, journal and year verified",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1080/01621459.1990.10476213",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Revolution in mainstream statistics followed demonstrations of Gibbs sampling",
+      "source": "Wikipedia: Markov chain Monte Carlo",
+      "url": "https://en.wikipedia.org/wiki/Markov_chain_Monte_Carlo",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Role judgment: the 1990 paper is the revival milestone the input summary names."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1999,
+    "endYear": null,
+    "precision": "year",
+    "label": "Monte Carlo Statistical Methods (book)",
+    "work": "Robert and Casella, Monte Carlo Statistical Methods, Springer, 1999",
+    "people": [
+     "Christian P. Robert",
+     "George Casella"
+    ],
+    "description": "Book-length treatment of Monte Carlo and MCMC methods for statistics.",
+    "evidence": [
+     {
+      "claim": "Book dated 1999 (Springer)",
+      "source": "Open Library record",
+      "url": "https://openlibrary.org/search?title=Monte+Carlo+statistical+methods",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Gilks et al. (1996) MCMC in Practice is another candidate; Crossref returned chapter records only, not the book."
+   }
+  ],
+  "people": [
+   {
+    "name": "Nicholas Metropolis",
+    "role": "developer",
+    "lifespan": "1915-1999",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Nicholas_Metropolis",
+    "works": [
+     {
+      "citation": "Metropolis et al., Equation of state calculations by fast computing machines, J. Chem. Phys. 21 (1953)",
+      "year": 1953,
+      "url": "https://doi.org/10.1063/1.1699114",
+      "whyItMatters": "First statement."
+     },
+     {
+      "citation": "Metropolis and Ulam, The Monte Carlo method (1949)",
+      "year": 1949,
+      "url": "https://doi.org/10.2172/4427100",
+      "whyItMatters": "Monte Carlo precursor."
+     }
+    ],
+    "roleNote": "sampler"
+   },
+   {
+    "name": "W. K. Hastings",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/W._K._Hastings",
+    "works": [
+     {
+      "citation": "Hastings, Biometrika 57 (1970) 97-109",
+      "year": 1970,
+      "url": "https://doi.org/10.1093/biomet/57.1.97",
+      "whyItMatters": "Metropolis-Hastings."
+     }
+    ],
+    "roleNote": "generalisation"
+   },
+   {
+    "name": "Stuart Geman and Donald Geman",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Stuart_Geman_and_Donald_Geman",
+    "works": [
+     {
+      "citation": "Geman and Geman, IEEE TPAMI 6 (1984) 721-741",
+      "year": 1984,
+      "url": "https://doi.org/10.1109/TPAMI.1984.4767596",
+      "whyItMatters": "Gibbs sampling in image processing."
+     }
+    ],
+    "roleNote": "Gibbs sampling naming"
+   },
+   {
+    "name": "Alan E. Gelfand and Adrian F. M. Smith",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Alan_E._Gelfand_and_Adrian_F._M._Smith",
+    "works": [
+     {
+      "citation": "Gelfand and Smith, JASA 85 (1990)",
+      "year": 1990,
+      "url": "https://doi.org/10.1080/01621459.1990.10476213",
+      "whyItMatters": "Sampling-based posterior computation."
+     }
+    ],
+    "roleNote": "Bayesian revival"
+   },
+   {
+    "name": "Christian P. Robert and George Casella",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Christian_P._Robert_and_George_Casella",
+    "works": [
+     {
+      "citation": "Robert and Casella, Monte Carlo Statistical Methods, Springer",
+      "year": 1999,
+      "url": "https://openlibrary.org/search?title=Monte+Carlo+statistical+methods",
+      "whyItMatters": "Monograph."
+     }
+    ],
+    "roleNote": "consolidation"
+   }
+  ],
+  "notes": "Derived: conceptual and methodological are 1953 (same paper, rule 2). Institutional is 1984 (naming), earlier than consolidation (1999). The term 'MCMC' itself has no dated first use in this pass. The input summary's 'MCMC revival of Bayesian statistics' is supported by Gelfand-Smith 1990 as key_development. The saved wikipedia-leads.json has no candidates for WB31; the saved MacTutor match is off-topic. The Metropolis 1949 record is a popular description, not the JASA article.",
+  "searchedSources": [
+   "enrichment/sources/wikipedia-leads.json (WB31: no candidates)",
+   "Wikipedia raw wikitext: Markov_chain_Monte_Carlo",
+   "Crossref DOI and query",
+   "OSTI record (Metropolis-Ulam 1949)",
+   "Open Library (Robert and Casella 1999; Gilks 1996 fetch blocked by a bot-check page)"
+  ],
+  "derivedDates": {
+   "conceptual": 1953,
+   "methodological": 1953,
+   "institutional": 1984
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ }
+]

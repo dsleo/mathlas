@@ -1,0 +1,3695 @@
+{
+  "totalEvents": 410,
+  "events": [
+    {
+      "eventId": "E01",
+      "pid": "P000",
+      "canonicalName": "Archimedes' mechanical method for areas and volumes",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E31",
+      "pid": "P023",
+      "canonicalName": "Weil conjectures: topology enters arithmetic",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E37",
+      "pid": "P029",
+      "canonicalName": "Random matrix statistics and the zeros of zeta",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E38",
+      "pid": "P030",
+      "canonicalName": "Furstenberg: ergodic theory proves Szemeredi's theorem",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E41",
+      "pid": "P033",
+      "canonicalName": "Gauge theory transforms four-manifold topology",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E43",
+      "pid": "P035",
+      "canonicalName": "Symplectic topology",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E47",
+      "pid": "P039",
+      "canonicalName": "Mirror symmetry",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E48",
+      "pid": "P040",
+      "canonicalName": "Modularity of elliptic curves and Fermat's Last Theorem",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E53",
+      "pid": "P045",
+      "canonicalName": "Perelman's proof of the Poincare conjecture",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E58",
+      "pid": "P050",
+      "canonicalName": "Erdos discrepancy problem",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E63",
+      "pid": "P055",
+      "canonicalName": "K-theory and Grothendieck-Riemann-Roch: algebraic geometry enters topology",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E66",
+      "pid": "P058",
+      "canonicalName": "Geometric Langlands and its physics",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E73",
+      "pid": "P063",
+      "canonicalName": "Computers enter proof: four colour theorem and the Kepler conjecture",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E74",
+      "pid": "P064",
+      "canonicalName": "Number theory becomes applied: public-key cryptography",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B10",
+      "pid": "P076",
+      "canonicalName": "Sullivan's dictionary: rational maps and Kleinian groups",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B18",
+      "pid": "P084",
+      "canonicalName": "Wavelets",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B32",
+      "pid": "P098",
+      "canonicalName": "Fourier integral operators and microlocal analysis",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E13/M8/W26",
+      "pid": "P357",
+      "canonicalName": "Cantor's set theory",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E15/M16/W9",
+      "pid": "P358",
+      "canonicalName": "Lie theory",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E21/M36/W52",
+      "pid": "P365",
+      "canonicalName": "Ergodic theory",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H3",
+      "pid": "P420",
+      "canonicalName": "Combinatorial group theory from topology and geometry",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H10",
+      "pid": "P425",
+      "canonicalName": "Computational group theory: computers enter group theory",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H44",
+      "pid": "P448",
+      "canonicalName": "Beltrami and Klein models: differential geometry proves relative consistency",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P12",
+      "pid": "P464",
+      "canonicalName": "Fibre bundles and characteristic classes join topology and differential geometry",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P45",
+      "pid": "P489",
+      "canonicalName": "Topological and conformal field theory as axioms (Atiyah, Segal, Witten)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P55",
+      "pid": "P498",
+      "canonicalName": "Canonical bases and character sheaves: geometry in representation theory",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P64",
+      "pid": "P507",
+      "canonicalName": "Quantum computation: Shor's algorithm",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P77",
+      "pid": "P519",
+      "canonicalName": "Thermodynamic formalism for hyperbolic dynamics (Sinai, Ruelle, Bowen)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "Q9",
+      "pid": "P528",
+      "canonicalName": "Chowla cosine problem via Cayley graph eigenvalues and MaxCut",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "Q39",
+      "pid": "P540",
+      "canonicalName": "Probabilistic construction of Liouville conformal field theory",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 3,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E11",
+      "pid": "P009",
+      "canonicalName": "Ideals and algebraic number theory",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E17",
+      "pid": "P012",
+      "canonicalName": "Commutative algebra from invariant theory and ideals",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E19",
+      "pid": "P014",
+      "canonicalName": "Measure theory meets probability (Kolmogorov)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E20",
+      "pid": "P015",
+      "canonicalName": "Group representations enter quantum mechanics",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E28",
+      "pid": "P020",
+      "canonicalName": "Fourier analysis for density problems (Roth)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E40",
+      "pid": "P032",
+      "canonicalName": "Noncommutative geometry",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E45",
+      "pid": "P037",
+      "canonicalName": "Two-dimensional gravity and the moduli space of curves",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E62",
+      "pid": "P054",
+      "canonicalName": "Homological algebra",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E67",
+      "pid": "P059",
+      "canonicalName": "Hardy-Littlewood circle method",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E68",
+      "pid": "P060",
+      "canonicalName": "Brownian motion: from physics and finance to measure on path space",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E71",
+      "pid": "P062",
+      "canonicalName": "Hyperbolic geometry enters three-manifold topology (Thurston)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B02",
+      "pid": "P068",
+      "canonicalName": "Exotic spheres: algebraic topology reaches differential structures",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B22",
+      "pid": "P088",
+      "canonicalName": "Concentration of measure",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B23",
+      "pid": "P089",
+      "canonicalName": "Spin glasses: the Parisi formula",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B25",
+      "pid": "P091",
+      "canonicalName": "Buildings: geometry of algebraic groups",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B29",
+      "pid": "P095",
+      "canonicalName": "Forcing: independence results enter algebra and analysis",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B30",
+      "pid": "P096",
+      "canonicalName": "Superrigidity and arithmeticity of lattices",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B37",
+      "pid": "P103",
+      "canonicalName": "Harmonic integrals and the vanishing theorem (Kodaira)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E22/MB5/WB2",
+      "pid": "P200",
+      "canonicalName": "Computability theory (Church-Turing)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E24/MB14/WB14",
+      "pid": "P201",
+      "canonicalName": "Information theory",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB13/WB15",
+      "pid": "P208",
+      "canonicalName": "Shannon switching circuits",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB22/WB7",
+      "pid": "P210",
+      "canonicalName": "Axiomatic homology",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB74/WB21",
+      "pid": "P222",
+      "canonicalName": "NP-completeness",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WB74",
+      "pid": "P245",
+      "canonicalName": "Matroid theory and combinatorial geometry",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB99",
+      "pid": "P248",
+      "canonicalName": "Hodge theory of harmonic integrals",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WB71",
+      "pid": "P258",
+      "canonicalName": "Ramsey theory and Hales-Jewett",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB101",
+      "pid": "P282",
+      "canonicalName": "Hirzebruch Riemann-Roch",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB34",
+      "pid": "P286",
+      "canonicalName": "Abelian categories and derived functors (Tohoku)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WC7",
+      "pid": "P320",
+      "canonicalName": "Vassiliev invariants",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E06/W87",
+      "pid": "P354",
+      "canonicalName": "Graph theory birth",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E70/W76/M33",
+      "pid": "P366",
+      "canonicalName": "Automorphic functions and uniformisation",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W10/M19",
+      "pid": "P377",
+      "canonicalName": "Killing-Cartan classification",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "M53/W27",
+      "pid": "P381",
+      "canonicalName": "Axiomatic set theory (Zermelo)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "M22",
+      "pid": "P419",
+      "canonicalName": "Burnside's use of character theory for finite group theory",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H4",
+      "pid": "P421",
+      "canonicalName": "Knot problems become group-theoretic: knot groups (Dehn)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H13",
+      "pid": "P427",
+      "canonicalName": "Permutation-group algorithms meet complexity theory",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H20",
+      "pid": "P433",
+      "canonicalName": "Non-commutative ring theory: Wedderburn structure theory and chain conditions",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H24",
+      "pid": "P435",
+      "canonicalName": "Lebesgue measure and integral: set theory enters analysis",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H45",
+      "pid": "P449",
+      "canonicalName": "Projective geometry from Renaissance perspective",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P13",
+      "pid": "P465",
+      "canonicalName": "Bott periodicity: Morse theory on loop spaces computes homotopy of Lie groups",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P40",
+      "pid": "P485",
+      "canonicalName": "Noncommutative projective geometry (Artin-Schelter-Zhang)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P51",
+      "pid": "P494",
+      "canonicalName": "Higgs bundles and the Hitchin system",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P53",
+      "pid": "P496",
+      "canonicalName": "Inverse scattering transform and Lax pairs for soliton equations",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P57",
+      "pid": "P500",
+      "canonicalName": "Variation of Hodge structure and period domains (Griffiths)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P61",
+      "pid": "P504",
+      "canonicalName": "Ellipsoid method in combinatorial optimisation",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P80",
+      "pid": "P521",
+      "canonicalName": "Constructive quantum field theory",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "Q5",
+      "pid": "P525",
+      "canonicalName": "Ramsey lower bounds from high-dimensional sphere geometry",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "Q19",
+      "pid": "P531",
+      "canonicalName": "Hilbert's tenth problem over rings of integers: elliptic curves and additive combinatorics",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "Q30",
+      "pid": "P537",
+      "canonicalName": "Moment problem for class-group statistics (Sawin-Wood)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 2,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E18",
+      "pid": "P013",
+      "canonicalName": "Functional analysis",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E23",
+      "pid": "P016",
+      "canonicalName": "Weil's dictionary: number fields, function fields, Riemann surfaces",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E35",
+      "pid": "P027",
+      "canonicalName": "Unipotent flows and the Oppenheim conjecture",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E39",
+      "pid": "P031",
+      "canonicalName": "Geometric group theory",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E44",
+      "pid": "P036",
+      "canonicalName": "Monstrous moonshine",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E60",
+      "pid": "P052",
+      "canonicalName": "Computer science separates from mathematics",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E61",
+      "pid": "P053",
+      "canonicalName": "Complex analysis and the primes: Riemann's zeta function to the prime number theorem",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E69",
+      "pid": "P061",
+      "canonicalName": "General relativity and the absolute differential calculus",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E76",
+      "pid": "P065",
+      "canonicalName": "Geometry of numbers (Minkowski)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B01",
+      "pid": "P067",
+      "canonicalName": "Cobordism: homotopy theory computes manifold invariants",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B03",
+      "pid": "P069",
+      "canonicalName": "Higher algebraic K-theory",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B04",
+      "pid": "P070",
+      "canonicalName": "Geometric invariant theory and moduli",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B05",
+      "pid": "P071",
+      "canonicalName": "Nonlinear PDE proves the Calabi conjecture",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B06",
+      "pid": "P072",
+      "canonicalName": "Quantum groups from statistical mechanics",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B07",
+      "pid": "P073",
+      "canonicalName": "Viscosity solutions: control theory meets PDE",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B19",
+      "pid": "P085",
+      "canonicalName": "Shannon capacity of graphs and the Lovasz theta function",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B21",
+      "pid": "P087",
+      "canonicalName": "Rational homotopy theory via differential forms",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B24",
+      "pid": "P090",
+      "canonicalName": "D-modules and the Riemann-Hilbert correspondence",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B26",
+      "pid": "P092",
+      "canonicalName": "Rigid analytic spaces",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B31",
+      "pid": "P097",
+      "canonicalName": "Supersymmetry and Morse theory",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B34",
+      "pid": "P100",
+      "canonicalName": "Deriving the Boltzmann equation from hard-sphere dynamics",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B36",
+      "pid": "P102",
+      "canonicalName": "Real-variable methods in complex analysis (Hardy spaces)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B39",
+      "pid": "P105",
+      "canonicalName": "Morse theory and handle decompositions prove high-dimensional Poincare",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA39/MA49",
+      "pid": "P143",
+      "canonicalName": "Napier's logarithms",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA50/MA69",
+      "pid": "P145",
+      "canonicalName": "Leibniz combinatorial logic",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA99",
+      "pid": "P161",
+      "canonicalName": "Abel: elliptic functions as inverses of elliptic integrals",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA4",
+      "pid": "P195",
+      "canonicalName": "Eudoxus: theory of proportion and exhaustion",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E21/MB11",
+      "pid": "P199",
+      "canonicalName": "Ergodic theory from statistical mechanics",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E43/MB110/WB93",
+      "pid": "P202",
+      "canonicalName": "Symplectic topology (Gromov)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB64/WB82",
+      "pid": "P204",
+      "canonicalName": "Fermi-Pasta-Ulam and solitons",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB26/WB45",
+      "pid": "P211",
+      "canonicalName": "Coherent sheaves (FAC)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB38/WB103",
+      "pid": "P213",
+      "canonicalName": "Topological K-theory",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB42/WB79",
+      "pid": "P214",
+      "canonicalName": "Smale hyperbolic dynamics",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB53/WB50",
+      "pid": "P217",
+      "canonicalName": "Pseudodifferential operators",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB61/WB39",
+      "pid": "P219",
+      "canonicalName": "Recursion theory and realizability",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB63/WB25",
+      "pid": "P220",
+      "canonicalName": "Monte Carlo",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB73/WB20",
+      "pid": "P221",
+      "canonicalName": "Computational complexity",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB77/WB33",
+      "pid": "P223",
+      "canonicalName": "Kalman filter",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB89/WB36",
+      "pid": "P233",
+      "canonicalName": "Ax-Kochen",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB91/WB17",
+      "pid": "P235",
+      "canonicalName": "Algebraic coding theory",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB109/WB92",
+      "pid": "P238",
+      "canonicalName": "Floer homology",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB62",
+      "pid": "P239",
+      "canonicalName": "Kleene theorem on regular events",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB76",
+      "pid": "P242",
+      "canonicalName": "Wiener-Kolmogorov filtering",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WB128",
+      "pid": "P243",
+      "canonicalName": "Lattice gauge and Yang-Mills geometry",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB3",
+      "pid": "P247",
+      "canonicalName": "Kolmogorov diffusion theory and PDE",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB15",
+      "pid": "P249",
+      "canonicalName": "Shannon: communication theory of secrecy",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB84",
+      "pid": "P252",
+      "canonicalName": "Kripke semantics",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WB123",
+      "pid": "P256",
+      "canonicalName": "Intersection cohomology",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WB125",
+      "pid": "P262",
+      "canonicalName": "Automata and formal verification",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB25",
+      "pid": "P263",
+      "canonicalName": "Serre: spectral sequences and homotopy groups",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WB124",
+      "pid": "P268",
+      "canonicalName": "Computational geometry",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB96",
+      "pid": "P271",
+      "canonicalName": "Feynman-Kac formula",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WB90",
+      "pid": "P273",
+      "canonicalName": "Ribet and modularity",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WB99",
+      "pid": "P274",
+      "canonicalName": "Vertex operator algebras",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB100",
+      "pid": "P279",
+      "canonicalName": "Chern: intrinsic Gauss-Bonnet and characteristic classes",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB54",
+      "pid": "P280",
+      "canonicalName": "Several complex variables via PDE",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB24",
+      "pid": "P281",
+      "canonicalName": "Lie algebra cohomology",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WB78",
+      "pid": "P283",
+      "canonicalName": "Feigenbaum universality",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB43",
+      "pid": "P285",
+      "canonicalName": "Global analysis and mathematical economics",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WB60",
+      "pid": "P287",
+      "canonicalName": "Gromov polynomial growth via geometry",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB32",
+      "pid": "P291",
+      "canonicalName": "Tate's thesis and adelic harmonic analysis",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E44/QC55/WC37",
+      "pid": "P293",
+      "canonicalName": "Monstrous moonshine",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WC30/QC46",
+      "pid": "P301",
+      "canonicalName": "Bloch-Kato / norm residue",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WC21/QC69",
+      "pid": "P307",
+      "canonicalName": "Local Langlands for GL_n",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WC91/QC75",
+      "pid": "P312",
+      "canonicalName": "Topological data analysis",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "QC36/WC5",
+      "pid": "P314",
+      "canonicalName": "Gromov-Witten / quantum cohomology",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WC23/QC68",
+      "pid": "P316",
+      "canonicalName": "Fundamental lemma",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WC20",
+      "pid": "P330",
+      "canonicalName": "Sato-Tate conjecture",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WC40",
+      "pid": "P332",
+      "canonicalName": "Restricted Burnside problem",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W71/M59",
+      "pid": "P355",
+      "canonicalName": "Tensor calculus (Ricci)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E12/W22/M1",
+      "pid": "P356",
+      "canonicalName": "Riemann surfaces",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W45/M41",
+      "pid": "P360",
+      "canonicalName": "Volterra functionals",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W85/M23",
+      "pid": "P371",
+      "canonicalName": "Cartan exterior differential calculus",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "M6/W25",
+      "pid": "P373",
+      "canonicalName": "Arithmetization and construction of the reals",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W59/M76",
+      "pid": "P376",
+      "canonicalName": "Fisher statistical inference",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "M77/W86",
+      "pid": "P378",
+      "canonicalName": "Vector analysis",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W39/M46",
+      "pid": "P383",
+      "canonicalName": "Brouwer topology",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W88/M82",
+      "pid": "P390",
+      "canonicalName": "Ramsey theory",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W68",
+      "pid": "P391",
+      "canonicalName": "Representations of compact and continuous groups (Schur, Weyl, Peter-Weyl)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W13",
+      "pid": "P393",
+      "canonicalName": "Geometric (Clifford) algebra",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W63",
+      "pid": "P394",
+      "canonicalName": "Hilbert's Nullstellensatz and algebraic geometry as ideal theory",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W84",
+      "pid": "P396",
+      "canonicalName": "Rigorous foundations of algebraic geometry via commutative algebra",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W79",
+      "pid": "P399",
+      "canonicalName": "Differential Galois theory",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "M40",
+      "pid": "P403",
+      "canonicalName": "Fredholm integral equations",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "M38",
+      "pid": "P404",
+      "canonicalName": "Borel sets and measure",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W82",
+      "pid": "P407",
+      "canonicalName": "Several complex variables and Hartogs",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W70",
+      "pid": "P409",
+      "canonicalName": "Decision problems for groups (Dehn)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W77",
+      "pid": "P412",
+      "canonicalName": "Riemann-Hilbert problem and monodromy",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "M29",
+      "pid": "P414",
+      "canonicalName": "Noncommutative algebras, representation theory and number theory",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "M12",
+      "pid": "P418",
+      "canonicalName": "Hasse local-global principle",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H6",
+      "pid": "P423",
+      "canonicalName": "Lie-ring methods enter the Burnside problem (Magnus to Zelmanov)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H12",
+      "pid": "P426",
+      "canonicalName": "Knuth-Bendix rewriting: universal algebra meets word problems",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H16",
+      "pid": "P429",
+      "canonicalName": "Matrix algebra as an abstract calculus (Cayley)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H19",
+      "pid": "P432",
+      "canonicalName": "Complex numbers as plane points and as real two-dimensional algebra",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H26",
+      "pid": "P436",
+      "canonicalName": "Logicism: reducing arithmetic to logic (Frege, Russell, Whitehead)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H31",
+      "pid": "P437",
+      "canonicalName": "Normal numbers: measure and probability applied to digit expansions (Borel)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H41",
+      "pid": "P446",
+      "canonicalName": "Calculus of variations from the brachistochrone",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P1",
+      "pid": "P462",
+      "canonicalName": "Control theory becomes a mathematical discipline (Kalman state space; ICM 1966 section)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P10",
+      "pid": "P463",
+      "canonicalName": "Topological degree methods for nonlinear PDE (Leray-Schauder)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P14",
+      "pid": "P466",
+      "canonicalName": "Singularity theory (Whitney, Thom, Mather, Arnold)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P16",
+      "pid": "P468",
+      "canonicalName": "Nash: hard implicit function theorems and isometric embedding",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P17",
+      "pid": "P469",
+      "canonicalName": "Calderon-Zygmund singular integrals enter PDE",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P18",
+      "pid": "P470",
+      "canonicalName": "Caffarelli-Kohn-Nirenberg: geometric measure theory gives partial regularity for Navier-Stokes",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P19",
+      "pid": "P471",
+      "canonicalName": "Lojasiewicz-Simon: real-analytic gradient inequalities control geometric flows",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P25",
+      "pid": "P474",
+      "canonicalName": "Hida theory: p-adic families of modular forms",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P32",
+      "pid": "P479",
+      "canonicalName": "Analytic combinatorics: generating functions as complex-analytic objects",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P33",
+      "pid": "P480",
+      "canonicalName": "Combinatorial theory as incidence algebra and Mobius inversion (Rota)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P34",
+      "pid": "P481",
+      "canonicalName": "Wilf-Zeilberger method: computer algebra certifies combinatorial identities",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P39",
+      "pid": "P484",
+      "canonicalName": "Deformation theory of rings and algebras (Gerstenhaber)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P41",
+      "pid": "P486",
+      "canonicalName": "Elliptic cohomology and topological modular forms",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P42",
+      "pid": "P487",
+      "canonicalName": "Chromatic homotopy theory and the nilpotence theorem",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P43",
+      "pid": "P488",
+      "canonicalName": "Kervaire invariant one problem solved by equivariant homotopy",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P58",
+      "pid": "P501",
+      "canonicalName": "Pattern theory and variational image models (Mumford)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P65",
+      "pid": "P508",
+      "canonicalName": "Counting complexity (Valiant's #P)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P72",
+      "pid": "P514",
+      "canonicalName": "Teichmuller dynamics: homogeneous dynamics on moduli spaces",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P75",
+      "pid": "P517",
+      "canonicalName": "Contact topology and the h-principle (Eliashberg)",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P76",
+      "pid": "P518",
+      "canonicalName": "Furstenberg: random matrix products and boundaries of Lie groups",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P79",
+      "pid": "P520",
+      "canonicalName": "Ito calculus and stochastic differential equations",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "Q29",
+      "pid": "P536",
+      "canonicalName": "Euler characteristic of Out(F_n) from Feynman-diagram counting",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "Q53",
+      "pid": "P547",
+      "canonicalName": "Manolescu's non-triangulable manifolds via Pin(2)-equivariant Floer theory",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "Q67",
+      "pid": "P554",
+      "canonicalName": "Universality of rotational invariance at 2D criticality via coupling and integrability",
+      "reviewTier": "read_confirmed_records",
+      "confirmedRecordCount": 1,
+      "newLeadTitleSimilarity": null,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA46/MA61",
+      "pid": "P116",
+      "canonicalName": "Pascal's arithmetical triangle",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 1.0,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA12/MA15",
+      "pid": "P127",
+      "canonicalName": "Ptolemy's Almagest",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 1.0,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB36/WB47",
+      "pid": "P212",
+      "canonicalName": "Etale cohomology",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 1.0,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB80/WB119",
+      "pid": "P226",
+      "canonicalName": "Algorithmic information theory",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 1.0,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB9/WB111",
+      "pid": "P234",
+      "canonicalName": "Von Neumann algebras",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 1.0,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB69",
+      "pid": "P254",
+      "canonicalName": "Random graphs",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 1.0,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB79",
+      "pid": "P269",
+      "canonicalName": "Pontryagin maximum principle",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 1.0,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WB61",
+      "pid": "P292",
+      "canonicalName": "Bass-Serre theory",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 1.0,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W19/M11",
+      "pid": "P389",
+      "canonicalName": "p-adic numbers",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 1.0,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "M39",
+      "pid": "P410",
+      "canonicalName": "Descriptive set theory",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 1.0,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W67/M20",
+      "pid": "P384",
+      "canonicalName": "Representation theory of finite groups",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.95,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "M64",
+      "pid": "P392",
+      "canonicalName": "Weyl's gauge theory",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.944,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W92/M78",
+      "pid": "P386",
+      "canonicalName": "Heaviside operational calculus",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.938,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W6/M31",
+      "pid": "P387",
+      "canonicalName": "Axiomatisation of geometry",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.929,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA24/WA17",
+      "pid": "P137",
+      "canonicalName": "Chinese remainder theorem",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.926,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB18/WB10",
+      "pid": "P209",
+      "canonicalName": "Linear programming and simplex method",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.919,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H57",
+      "pid": "P454",
+      "canonicalName": "Noether's theorem: symmetries and conservation laws",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.868,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA52/WA44",
+      "pid": "P112",
+      "canonicalName": "Desargues projective geometry",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.829,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA54/MA72",
+      "pid": "P117",
+      "canonicalName": "Bernoulli Ars Conjectandi",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.82,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB120",
+      "pid": "P250",
+      "canonicalName": "Combinatorial game theory",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.818,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA71/MA92",
+      "pid": "P139",
+      "canonicalName": "Monge descriptive geometry",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.812,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WB11",
+      "pid": "P284",
+      "canonicalName": "Operations research",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.809,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB4/WB3",
+      "pid": "P237",
+      "canonicalName": "Goedel incompleteness",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.8,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W20/M13",
+      "pid": "P385",
+      "canonicalName": "Class field theory",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.8,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WB101",
+      "pid": "P246",
+      "canonicalName": "Conformal field theory",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.786,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA63/MA58",
+      "pid": "P114",
+      "canonicalName": "Fermat number theory",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.769,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA81/MA89",
+      "pid": "P124",
+      "canonicalName": "Gauss Disquisitiones Arithmeticae",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.767,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA22",
+      "pid": "P187",
+      "canonicalName": "Jaina permutations and combinations",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.75,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB124/WB100",
+      "pid": "P206",
+      "canonicalName": "Kac-Moody algebras",
+      "reviewTier": "check_new_title_lead",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.75,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA50",
+      "pid": "P194",
+      "canonicalName": "Kepler: infinitesimal volumes of solids of revolution",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.747,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E05",
+      "pid": "P003",
+      "canonicalName": "Probability from games of chance",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.744,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B16",
+      "pid": "P082",
+      "canonicalName": "Perfectoid spaces and tilting",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.739,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WB56",
+      "pid": "P277",
+      "canonicalName": "Surgery theory",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.737,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E10",
+      "pid": "P008",
+      "canonicalName": "Riemannian geometry and manifolds",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.736,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E06",
+      "pid": "P004",
+      "canonicalName": "Graph theory from the Konigsberg bridges",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.732,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "M47/W34",
+      "pid": "P388",
+      "canonicalName": "Intuitionism",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.727,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W46/M45",
+      "pid": "P362",
+      "canonicalName": "Banach spaces",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.722,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB46",
+      "pid": "P255",
+      "canonicalName": "Algebraic K-theory",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.711,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA34/WA27",
+      "pid": "P136",
+      "canonicalName": "Khayyam cubics via conics",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.71,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB55/WB84",
+      "pid": "P218",
+      "canonicalName": "Catastrophe theory",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.706,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB97/WB29",
+      "pid": "P236",
+      "canonicalName": "Statistical decision theory",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.701,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA67/WA49",
+      "pid": "P133",
+      "canonicalName": "Newton's Principia",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.692,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E14",
+      "pid": "P010",
+      "canonicalName": "Klein's Erlangen programme: geometry as invariants of a group",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.691,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B28",
+      "pid": "P094",
+      "canonicalName": "The large sieve: harmonic analysis in analytic number theory",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.685,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E72/MB19/WB51",
+      "pid": "P203",
+      "canonicalName": "Distributions",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.684,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W8/M15",
+      "pid": "P382",
+      "canonicalName": "Abstract group concept",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.679,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA7",
+      "pid": "P184",
+      "canonicalName": "Eudoxus homocentric spheres",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.675,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB126/WB102",
+      "pid": "P207",
+      "canonicalName": "Yang-Baxter and solvable lattice models",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.659,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB121",
+      "pid": "P241",
+      "canonicalName": "Rota combinatorial theory",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.656,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W55/M72",
+      "pid": "P369",
+      "canonicalName": "Markov chains",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.65,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "M21",
+      "pid": "P411",
+      "canonicalName": "Schur: polynomial representations of GL(n) and invariant theory",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.646,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "M75/W58",
+      "pid": "P375",
+      "canonicalName": "Biometric mathematical statistics",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.645,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA73/MA105",
+      "pid": "P113",
+      "canonicalName": "Poncelet projective geometry",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.644,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB49/WB13",
+      "pid": "P215",
+      "canonicalName": "Nash equilibrium",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.64,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB117/WB117",
+      "pid": "P205",
+      "canonicalName": "Finite element method",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.636,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB44",
+      "pid": "P276",
+      "canonicalName": "Blum-Shub-Smale real computation",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.635,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA83",
+      "pid": "P169",
+      "canonicalName": "Clairaut: curves in space",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.625,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H70",
+      "pid": "P456",
+      "canonicalName": "Social choice theory: Condorcet's probability to Arrow's theorem",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.625,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P31",
+      "pid": "P478",
+      "canonicalName": "Analysis of algorithms (Knuth)",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.623,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA4",
+      "pid": "P156",
+      "canonicalName": "Discovery of incommensurable magnitudes",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.619,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W61",
+      "pid": "P417",
+      "canonicalName": "Subjective probability and decision",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.617,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB102",
+      "pid": "P261",
+      "canonicalName": "Kodaira-Spencer deformation theory",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.613,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E03/MA54/WA42",
+      "pid": "P109",
+      "canonicalName": "Analytic geometry (Descartes, Fermat)",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.607,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA31",
+      "pid": "P172",
+      "canonicalName": "Islamic work on the parallel postulate",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.605,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "M50/W31",
+      "pid": "P374",
+      "canonicalName": "Peano arithmetic axioms",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.604,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA29/MA37",
+      "pid": "P121",
+      "canonicalName": "Islamic spherical trigonometry",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.603,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H40",
+      "pid": "P445",
+      "canonicalName": "Vibrating-string controversy and the general function concept",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.602,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA106",
+      "pid": "P191",
+      "canonicalName": "Mobius and Plucker: homogeneous coordinates",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.6,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB85/WB41",
+      "pid": "P230",
+      "canonicalName": "Curry-Howard",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.6,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA30",
+      "pid": "P196",
+      "canonicalName": "Transmission of Hindu-Arabic numerals to the Islamic world",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.596,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "M5",
+      "pid": "P415",
+      "canonicalName": "Dirichlet principle: potential theory as a tool for function theory",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.595,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB78/WB113",
+      "pid": "P224",
+      "canonicalName": "Dynamic programming",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.585,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H17",
+      "pid": "P430",
+      "canonicalName": "Spectral ideas from vibrating systems and quadratic forms",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.578,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P54",
+      "pid": "P497",
+      "canonicalName": "KP hierarchy and the infinite Grassmannian (Sato)",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.574,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA82/WA60",
+      "pid": "P120",
+      "canonicalName": "Euler polyhedron formula",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.571,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB17",
+      "pid": "P270",
+      "canonicalName": "Kantorovich functional analysis for numerical methods",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.566,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E16",
+      "pid": "P011",
+      "canonicalName": "Algebraic topology: Betti numbers to homology groups",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.558,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA13/MA16",
+      "pid": "P123",
+      "canonicalName": "Diophantus",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.556,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA14",
+      "pid": "P176",
+      "canonicalName": "Babylonian astronomical parameters enter Greek astronomy",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.545,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H15",
+      "pid": "P428",
+      "canonicalName": "Quaternions: non-commutative algebra from the geometry of 3-space",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.545,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA83",
+      "pid": "P153",
+      "canonicalName": "Jacobi: four squares via elliptic functions",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.543,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA40",
+      "pid": "P171",
+      "canonicalName": "Saint-Vincent and Sarasa: area under hyperbola and logarithm",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.54,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA28/MA36",
+      "pid": "P125",
+      "canonicalName": "Sharaf al-Din al-Tusi",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.537,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA77",
+      "pid": "P154",
+      "canonicalName": "Taylor: finite differences and Taylor's theorem",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.535,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA68",
+      "pid": "P170",
+      "canonicalName": "Huygens: evolutes and the isochronous pendulum",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.528,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA74",
+      "pid": "P152",
+      "canonicalName": "De Moivre: normal approximation to the binomial",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.526,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA19/WA21",
+      "pid": "P126",
+      "canonicalName": "Indian indeterminate/Pell equations",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.525,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA75",
+      "pid": "P162",
+      "canonicalName": "D'Alembert and Euler: wave equation and PDEs",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.523,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W75/M66",
+      "pid": "P364",
+      "canonicalName": "Hilbert-space quantum mechanics",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.523,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB86/WB126",
+      "pid": "P231",
+      "canonicalName": "Domain theory",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.51,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WB129",
+      "pid": "P240",
+      "canonicalName": "Twistor theory",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.509,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "M52",
+      "pid": "P400",
+      "canonicalName": "Russell paradox, type theory and Principia Mathematica",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.509,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB16",
+      "pid": "P265",
+      "canonicalName": "Kantorovich linear programming",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.507,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H23",
+      "pid": "P434",
+      "canonicalName": "Cardinality meets dimension: R^n equinumerous with R",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.505,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA47",
+      "pid": "P193",
+      "canonicalName": "Viete: trigonometry applied to algebra",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.5,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WB105",
+      "pid": "P272",
+      "canonicalName": "Heat equation proof of index theorem",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.5,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA84/WA67",
+      "pid": "P135",
+      "canonicalName": "Lagrange analytical mechanics",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.496,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA100",
+      "pid": "P182",
+      "canonicalName": "Abel's theorem and abelian integrals",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.495,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB20",
+      "pid": "P290",
+      "canonicalName": "Sobolev generalised solutions",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.495,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB37",
+      "pid": "P259",
+      "canonicalName": "Deligne proof of Weil conjectures",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.494,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA101",
+      "pid": "P166",
+      "canonicalName": "Jacobi: theta functions and elliptic function theory",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.493,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H39",
+      "pid": "P444",
+      "canonicalName": "Fundamental theorem of algebra: analytic and topological proofs",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.492,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W47",
+      "pid": "P402",
+      "canonicalName": "Calculus of variations to Hilbert's direct methods",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.489,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H74",
+      "pid": "P458",
+      "canonicalName": "Complex numbers born from the cubic: Cardano and Bombelli",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.488,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E07",
+      "pid": "P005",
+      "canonicalName": "Analytic number theory I: Euler's product and Dirichlet characters",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.486,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA91/MA76",
+      "pid": "P131",
+      "canonicalName": "Bayes inverse probability",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.484,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA28",
+      "pid": "P155",
+      "canonicalName": "Binomial coefficient triangle in China",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.479,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WB18",
+      "pid": "P267",
+      "canonicalName": "Cellular automata and self-reproducing machines",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.479,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H18",
+      "pid": "P431",
+      "canonicalName": "Axioms for linear (vector) spaces: Moebius, Grassmann, Peano",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.479,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA56",
+      "pid": "P185",
+      "canonicalName": "De Moivre: chances and trigonometry/complex fusion",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.478,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB83/WB40",
+      "pid": "P229",
+      "canonicalName": "Elementary topos theory",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.476,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W38",
+      "pid": "P395",
+      "canonicalName": "Homology groups (Noether) and algebraic topology",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.476,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P26",
+      "pid": "P475",
+      "canonicalName": "Selberg trace formula links spectra of surfaces to number theory",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.473,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WB104",
+      "pid": "P260",
+      "canonicalName": "Operator K-theory and KK-theory",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.471,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WB112",
+      "pid": "P275",
+      "canonicalName": "Mathematical economics via fixed points",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.471,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P59",
+      "pid": "P502",
+      "canonicalName": "Wu's method: mechanised geometry theorem proving",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.471,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA75",
+      "pid": "P150",
+      "canonicalName": "De Moivre's formula: trigonometry and complex powers",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.468,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W93/M60",
+      "pid": "P372",
+      "canonicalName": "Affine connections (Levi-Civita, Weyl)",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.465,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WB52",
+      "pid": "P244",
+      "canonicalName": "Hyperfunctions and algebraic analysis",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.459,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA107",
+      "pid": "P167",
+      "canonicalName": "Plucker: line geometry and algebraic curves",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.457,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H8",
+      "pid": "P424",
+      "canonicalName": "Golod-Shafarevich: nil algebras produce infinite periodic groups",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.457,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WB114",
+      "pid": "P278",
+      "canonicalName": "Network flows and combinatorial optimisation",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.456,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H5",
+      "pid": "P422",
+      "canonicalName": "Undecidability of the word problem: logic and computability enter group theory",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.452,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H58",
+      "pid": "P455",
+      "canonicalName": "Lorentz group and Minkowski spacetime: group theory enters physics",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.452,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B14",
+      "pid": "P080",
+      "canonicalName": "Landau damping: plasma physics to nonlinear PDE",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.444,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA79/WA61",
+      "pid": "P142",
+      "canonicalName": "Euler's Introductio",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.442,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA51",
+      "pid": "P147",
+      "canonicalName": "Seki: resultants, determinants, elimination",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.438,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P28",
+      "pid": "P477",
+      "canonicalName": "Explicit expander graphs from property (T) (Margulis)",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.435,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H32",
+      "pid": "P438",
+      "canonicalName": "Transcendental numbers from continued fractions (Liouville)",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.431,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA31/WA25",
+      "pid": "P122",
+      "canonicalName": "al-Karaji polynomial algebra",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.429,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E02",
+      "pid": "P001",
+      "canonicalName": "Algebra as a discipline (al-Khwarizmi)",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.427,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA20/MA20",
+      "pid": "P141",
+      "canonicalName": "Indian sine",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.423,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB7",
+      "pid": "P257",
+      "canonicalName": "Tarski truth definition and model theory",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.419,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB82/WB110",
+      "pid": "P228",
+      "canonicalName": "Gelfand theory of Banach algebras",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.418,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H35",
+      "pid": "P440",
+      "canonicalName": "Hausdorff dimension: measure meets dimension theory",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.418,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WB75",
+      "pid": "P264",
+      "canonicalName": "Algebraic combinatorics / Young tableaux",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.416,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA47",
+      "pid": "P168",
+      "canonicalName": "Graunt: life tables",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.414,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA32",
+      "pid": "P177",
+      "canonicalName": "al-Karaji: binomial coefficients and early induction",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.409,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H75",
+      "pid": "P459",
+      "canonicalName": "Trigonometry from astronomy: Hipparchus and chord tables",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.406,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B27",
+      "pid": "P093",
+      "canonicalName": "Faltings: Mordell's conjecture via moduli and heights",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.404,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA80",
+      "pid": "P190",
+      "canonicalName": "Euler: complex logarithms and exponentials",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.404,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H37",
+      "pid": "P442",
+      "canonicalName": "Fractal geometry: self-similarity, dimension and computer experiment (Mandelbrot)",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.404,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P22",
+      "pid": "P473",
+      "canonicalName": "Mathematical general relativity: nonlinear PDE for Einstein's equations",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.404,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA30",
+      "pid": "P158",
+      "canonicalName": "Nasir al-Din al-Tusi: trigonometry as independent discipline",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.403,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA22/MA42",
+      "pid": "P129",
+      "canonicalName": "Kerala series",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.4,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA71",
+      "pid": "P192",
+      "canonicalName": "Leibniz: determinants",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.4,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "M54/W33",
+      "pid": "P370",
+      "canonicalName": "Hilbert's programme",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.4,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA65",
+      "pid": "P163",
+      "canonicalName": "Newton: infinite series and binomial theorem",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.397,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA68",
+      "pid": "P157",
+      "canonicalName": "Euler: geodesics from mechanics",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.395,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B17",
+      "pid": "P083",
+      "canonicalName": "Entropy of dynamical systems from information theory",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.391,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "B38",
+      "pid": "P104",
+      "canonicalName": "Covering surfaces and value distribution (Ahlfors)",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.391,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA9",
+      "pid": "P164",
+      "canonicalName": "Euclid Books VII-IX: arithmetic as a deductive theory",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.391,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WB86",
+      "pid": "P253",
+      "canonicalName": "Computer algebra and Groebner bases",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.389,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W37",
+      "pid": "P397",
+      "canonicalName": "Betti numbers and early combinatorial topology",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.384,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W94",
+      "pid": "P398",
+      "canonicalName": "Transcendence proofs for e and pi",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.382,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA17/WA19",
+      "pid": "P111",
+      "canonicalName": "Indian zero and place value",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.378,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB31",
+      "pid": "P251",
+      "canonicalName": "Weil: integration on topological groups, harmonic analysis",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.374,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H47",
+      "pid": "P450",
+      "canonicalName": "Topology from the geometry of position: Euler to Listing",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.374,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA65/MA98",
+      "pid": "P138",
+      "canonicalName": "Quintic impossibility",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.371,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W32/M55",
+      "pid": "P380",
+      "canonicalName": "Model theory beginnings",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.371,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA11",
+      "pid": "P189",
+      "canonicalName": "Menelaus: spherical trigonometry",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.367,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA33/MA40",
+      "pid": "P110",
+      "canonicalName": "Oresme: graphing motion",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.366,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA87/WA90",
+      "pid": "P130",
+      "canonicalName": "Laplace analytic probability",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.366,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H71",
+      "pid": "P457",
+      "canonicalName": "Kirkman's schoolgirl problem and combinatorial designs",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.364,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA32",
+      "pid": "P178",
+      "canonicalName": "Ibn al-Haytham and Ibn Sinan: quadrature",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.359,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H50",
+      "pid": "P452",
+      "canonicalName": "Vortex atoms: knot theory from the physics of ether",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.359,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA3",
+      "pid": "P197",
+      "canonicalName": "Pythagorean number theory and musical ratios",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.356,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P52",
+      "pid": "P495",
+      "canonicalName": "Finite-gap integration of soliton equations",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.355,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA45",
+      "pid": "P183",
+      "canonicalName": "Cardano: first treatise on chance",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.353,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB52/WB53",
+      "pid": "P216",
+      "canonicalName": "Hormander linear PDE",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.351,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H38",
+      "pid": "P443",
+      "canonicalName": "Elliptic integrals from lemniscate and elastica (Bernoulli)",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.351,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P7",
+      "pid": "P461",
+      "canonicalName": "Nonstandard analysis: model theory gives infinitesimals a rigorous footing",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.349,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA26",
+      "pid": "P173",
+      "canonicalName": "Tian yuan: Chinese celestial-element algebra",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.346,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA27",
+      "pid": "P148",
+      "canonicalName": "Interpolation and finite differences from Chinese astronomy",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.343,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA111/WA69",
+      "pid": "P144",
+      "canonicalName": "Hamiltonian optics and mechanics",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.341,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WB31",
+      "pid": "P266",
+      "canonicalName": "MCMC revival of Bayesian statistics",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.34,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H48",
+      "pid": "P451",
+      "canonicalName": "Abstract topological spaces from point-set analysis",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.34,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W83/M71",
+      "pid": "P379",
+      "canonicalName": "Italian algebraic geometry",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.335,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E17/M28/W64",
+      "pid": "P359",
+      "canonicalName": "Commutative algebra from invariant theory and ideals",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.33,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA43/MA57",
+      "pid": "P115",
+      "canonicalName": "Indivisibles (Cavalieri)",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.324,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA86",
+      "pid": "P180",
+      "canonicalName": "Lagrange: algebraic foundation for the calculus",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.323,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H36",
+      "pid": "P441",
+      "canonicalName": "Complex dynamics: iteration of rational functions (Julia and Fatou)",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.318,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "W51/M35",
+      "pid": "P368",
+      "canonicalName": "Lyapunov stability",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.312,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA70/MA93",
+      "pid": "P118",
+      "canonicalName": "Euler-Monge differential geometry of surfaces",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.302,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P15",
+      "pid": "P467",
+      "canonicalName": "KAM theory: stability of Hamiltonian systems",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.299,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "M79",
+      "pid": "P416",
+      "canonicalName": "Mathematical biology",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.292,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA62",
+      "pid": "P174",
+      "canonicalName": "Wallis: interpolation and infinite products",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.29,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA97/WA80",
+      "pid": "P128",
+      "canonicalName": "Cauchy complex analysis",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.286,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H76",
+      "pid": "P460",
+      "canonicalName": "Trigonometry and the exponential: Cotes, De Moivre, Euler",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.286,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA87",
+      "pid": "P181",
+      "canonicalName": "Kirchhoff: circuits and graphs",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.284,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA46/WA38",
+      "pid": "P140",
+      "canonicalName": "Viete symbolic algebra",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.278,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H33",
+      "pid": "P439",
+      "canonicalName": "Transcendence of pi settles squaring the circle (Lindemann)",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.273,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA33",
+      "pid": "P160",
+      "canonicalName": "al-Mahani: geometric problems reduced to algebra",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.271,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E04",
+      "pid": "P002",
+      "canonicalName": "The calculus",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.269,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB8/WB87",
+      "pid": "P225",
+      "canonicalName": "Tarski quantifier elimination",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.268,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA56/WA41",
+      "pid": "P146",
+      "canonicalName": "Fermat adequality",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.264,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA51",
+      "pid": "P165",
+      "canonicalName": "Kepler's laws: conic geometry into planetary astronomy",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.263,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "E09",
+      "pid": "P007",
+      "canonicalName": "Fourier series: heat flow to analysis",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.257,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P71",
+      "pid": "P513",
+      "canonicalName": "Classification theory in model theory (Morley, Shelah)",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.253,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "M42/W44",
+      "pid": "P361",
+      "canonicalName": "Hilbert space and integral equations",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.25,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA3",
+      "pid": "P175",
+      "canonicalName": "Pingala: combinatorics of poetic meters",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.236,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA90/WA89",
+      "pid": "P132",
+      "canonicalName": "Least squares",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.232,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "WA34",
+      "pid": "P198",
+      "canonicalName": "Regiomontanus: trigonometry separated from astronomy in Europe",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.232,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "H52",
+      "pid": "P453",
+      "canonicalName": "Map colouring becomes graph and surface colouring (Kempe and Heawood)",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.226,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB27",
+      "pid": "P289",
+      "canonicalName": "Serre GAGA",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.213,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "M63",
+      "pid": "P413",
+      "canonicalName": "Weyl's Riemann surface and abstract manifold concept",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.199,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "P56",
+      "pid": "P499",
+      "canonicalName": "Mixed Hodge theory (Deligne)",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.179,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA88",
+      "pid": "P188",
+      "canonicalName": "Potential theory in celestial mechanics and physics",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.174,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MB81/WB34",
+      "pid": "P227",
+      "canonicalName": "Fuzzy sets",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.108,
+      "historicalRolesOpen": true
+    },
+    {
+      "eventId": "MA25",
+      "pid": "P149",
+      "canonicalName": "Numerical solution of polynomial equations in China (Ruffini-Horner)",
+      "reviewTier": "targeted_primary_or_history_search",
+      "confirmedRecordCount": 0,
+      "newLeadTitleSimilarity": 0.09,
+      "historicalRolesOpen": true
+    }
+  ]
+}

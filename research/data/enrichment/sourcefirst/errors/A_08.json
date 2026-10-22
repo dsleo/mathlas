@@ -1,0 +1,26 @@
+[
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_08.json",
+  "location": "[0].people[0]",
+  "message": "Expected 1\u20133 works; found 4"
+ },
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_08.json",
+  "location": "[5].people[2].works[0]",
+  "message": "Invalid work citation, year, URL, or relevance"
+ },
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_08.json",
+  "location": "[5].people[3].works[0]",
+  "message": "Invalid work citation, year, URL, or relevance"
+ },
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_08.json",
+  "location": "[6].people[2].works[0]",
+  "message": "Invalid work citation, year, URL, or relevance"
+ }
+]

@@ -1,0 +1,131 @@
+[
+  {
+    "pid": "P006",
+    "name": "Group theory from the solution of polynomial equations",
+    "type": "birth-by-abstraction",
+    "from": [
+      "Algebra"
+    ],
+    "to": [
+      "Algebra"
+    ],
+    "summary": "Permutations of roots, first a tool for solving equations, become an object studied for its own structure and are then axiomatised independently of permutations."
+  },
+  {
+    "pid": "P018",
+    "name": "The probabilistic method in combinatorics",
+    "type": "technique-transfer",
+    "from": [
+      "Probability"
+    ],
+    "to": [
+      "Combinatorics"
+    ],
+    "summary": "Existence of a combinatorial object is proved by showing a random object has the property with positive probability."
+  },
+  {
+    "pid": "P048",
+    "name": "Hodge theory proves log-concavity conjectures",
+    "type": "technique-transfer",
+    "from": [
+      "Geometry"
+    ],
+    "to": [
+      "Combinatorics"
+    ],
+    "summary": "Heron-Rota-Welsh log-concavity of chromatic polynomials and Rota's conjecture are proved using Hodge-Riemann relations on Chow rings of matroid-like objects."
+  },
+  {
+    "pid": "P447",
+    "name": "Non-Euclidean geometry: the independence of the parallel postulate",
+    "type": "birth-by-abstraction",
+    "from": [
+      "Euclidean geometry"
+    ],
+    "to": [
+      "hyperbolic geometry"
+    ],
+    "summary": "After Saccheri and Lambert explored denials of the fifth postulate, Gauss privately, then Bolyai and Lobachevsky openly, developed a consistent geometry with many parallels."
+  },
+  {
+    "pid": "P300",
+    "name": "Erdos discrepancy",
+    "type": "technique-transfer",
+    "from": [
+      "analytic number theory (multiplicative functions)",
+      "combinatorics"
+    ],
+    "to": [
+      "discrepancy theory"
+    ],
+    "summary": "Tao used Polymath5's reduction and Fourier/entropy methods for multiplicative functions to settle the Erdos discrepancy problem; SAT solvers had done the c=2 case earlier."
+  },
+  {
+    "pid": "P505",
+    "name": "Lenstra-Lenstra-Lovasz lattice basis reduction",
+    "type": "technique-transfer",
+    "from": [
+      "geometry of numbers"
+    ],
+    "to": [
+      "computational algebra and number theory",
+      "theoretical computer science (cryptanalysis, integer programming)"
+    ],
+    "summary": "Geometry-of-numbers ideas give a polynomial-time algorithm that factors polynomials and attacks integer programming and knapsack cryptosystems."
+  },
+  {
+    "pid": "P151",
+    "name": "Differential equations from calculus",
+    "type": "birth-by-fusion",
+    "from": [
+      "calculus",
+      "mechanics"
+    ],
+    "to": [
+      "differential equations"
+    ],
+    "summary": "Newton solved fluxional equations by series; Leibniz separated variables; Bernoullis solved named equations."
+  },
+  {
+    "pid": "P526",
+    "name": "Positive Grassmannian as a hub between combinatorics, probability and integrable systems",
+    "type": "dictionary-analogy",
+    "from": [
+      "total positivity / algebraic combinatorics",
+      "interacting particle systems (ASEP)",
+      "integrable systems (KP solitons)"
+    ],
+    "to": [
+      "positive Grassmannian combinatorics"
+    ],
+    "summary": "Total positivity extended to the Grassmannian produced cell-counting polynomials that also give probabilities in exclusion processes and describe soliton solutions of the KP equation."
+  },
+  {
+    "pid": "P401",
+    "name": "Steinitz abstract field theory",
+    "type": "birth-by-abstraction",
+    "from": [
+      "algebraic number theory",
+      "function fields",
+      "finite fields",
+      "p-adic numbers"
+    ],
+    "to": [
+      "abstract field theory"
+    ],
+    "summary": "Steinitz gave the first abstract definition of field and proved every field has an algebraic closure."
+  },
+  {
+    "pid": "P019",
+    "name": "Category theory",
+    "type": "reification",
+    "from": [
+      "Topology",
+      "Algebra"
+    ],
+    "to": [
+      "Algebra"
+    ],
+    "summary": "Natural isomorphisms noticed in homology computations are formalised as functors and natural transformations, and the resulting structure becomes a general language."
+  }
+]

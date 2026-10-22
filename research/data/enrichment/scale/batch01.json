@@ -1,0 +1,141 @@
+[
+ {
+  "pid": "P197",
+  "eventId": "MA3",
+  "name": "Pythagorean number theory and musical ratios",
+  "type": "import-from-outside",
+  "from": [
+   "music (string lengths)",
+   "arithmetic"
+  ],
+  "to": [
+   "number theory"
+  ],
+  "summary": "Whole-number ratios behind consonant string lengths supported a programme of studying even, odd, triangular and perfect numbers as objects in themselves."
+ },
+ {
+  "pid": "P184",
+  "eventId": "MA7",
+  "name": "Eudoxus homocentric spheres",
+  "type": "import-from-outside",
+  "from": [
+   "geometry",
+   "astronomy"
+  ],
+  "to": [
+   "mathematical astronomy"
+  ],
+  "summary": "Planetary motion was modelled by nested rotating spheres whose combined motion produces the observed paths."
+ },
+ {
+  "pid": "P195",
+  "eventId": "WA4",
+  "name": "Eudoxus: theory of proportion and exhaustion",
+  "type": "birth-by-abstraction",
+  "from": [
+   "geometry",
+   "arithmetic"
+  ],
+  "to": [
+   "theory of ratios",
+   "limit methods"
+  ],
+  "summary": "Eudoxus gave a theory of ratios for incommensurables and the exhaustion method, a precursor of integration."
+ },
+ {
+  "pid": "P164",
+  "eventId": "MA9",
+  "name": "Euclid Books VII-IX: arithmetic as a deductive theory",
+  "type": "birth-by-abstraction",
+  "from": [
+   "arithmetic",
+   "geometry (line-segment representation)"
+  ],
+  "to": [
+   "number theory"
+  ],
+  "summary": "Divisibility, the Euclidean algorithm and geometric progressions of integers were developed as a self-contained deductive body."
+ },
+ {
+  "pid": "P175",
+  "eventId": "WA3",
+  "name": "Pingala: combinatorics of poetic meters",
+  "type": "import-from-outside",
+  "from": [
+   "prosody"
+  ],
+  "to": [
+   "combinatorics"
+  ],
+  "summary": "Counting patterns of long and short syllables yielded binomial-type identities and a binary-like device; Halayudha later described the triangle."
+ },
+ {
+  "pid": "P000",
+  "eventId": "E01",
+  "name": "Archimedes' mechanical method for areas and volumes",
+  "type": "technique-transfer",
+  "from": [
+   "Physics"
+  ],
+  "to": [
+   "Geometry"
+  ],
+  "summary": "Balancing figures on a lever (centres of gravity) is used to discover area and volume results later proved by exhaustion."
+ },
+ {
+  "pid": "P176",
+  "eventId": "MA14",
+  "name": "Babylonian astronomical parameters enter Greek astronomy",
+  "type": "import-from-outside",
+  "from": [
+   "Babylonian astronomy",
+   "Greek geometry"
+  ],
+  "to": [
+   "mathematical astronomy"
+  ],
+  "summary": "Greek geometric lunar models were tested and calibrated against Babylonian period parameters and eclipse records."
+ },
+ {
+  "pid": "P459",
+  "eventId": "H75",
+  "name": "Trigonometry from astronomy: Hipparchus and chord tables",
+  "type": "import-from-outside",
+  "from": [
+   "astronomy",
+   "geometry"
+  ],
+  "to": [
+   "trigonometry"
+  ],
+  "summary": "Hipparchus compiled chord tables for astronomical computation, and later Menelaus, Indian astronomers and Pitiscus developed spherical trigonometry, sine tables and the name."
+ },
+ {
+  "pid": "P189",
+  "eventId": "WA11",
+  "name": "Menelaus: spherical trigonometry",
+  "type": "birth-by-fusion",
+  "from": [
+   "spherical astronomy",
+   "geometry"
+  ],
+  "to": [
+   "spherical trigonometry"
+  ],
+  "summary": "Menelaus' Sphaerica gave theorems on spherical triangles."
+ },
+ {
+  "pid": "P127",
+  "eventId": "WA12/MA15",
+  "name": "Ptolemy's Almagest",
+  "type": "birth-by-fusion",
+  "from": [
+   "geometry",
+   "astronomy"
+  ],
+  "to": [
+   "trigonometry"
+  ],
+  "summary": "Ptolemy extended chord tables with sum, difference and half-angle formulas for astronomical computation."
+ }
+]

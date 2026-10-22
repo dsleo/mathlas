@@ -1,0 +1,2334 @@
+[
+ {
+  "pid": "P421",
+  "eventId": "H4",
+  "canonicalName": "Knot problems become group-theoretic: knot groups (Dehn)",
+  "aliases": [
+   "knot groups",
+   "fundamental group of a knot complement",
+   "Dehn knot groups"
+  ],
+  "phases": [
+   "Knot groups as invariants (Dehn)",
+   "Systematic knot theory (Reidemeister)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1895,
+    "endYear": null,
+    "precision": "year",
+    "label": "Poincare introduces the fundamental group",
+    "work": "Henri Poincare, Analysis situs, J. Ecole Polytech., 1895",
+    "people": [
+     "Henri Poincare"
+    ],
+    "description": "Defines the group of loops of a space, the object Dehn applies to knot complements.",
+    "evidence": [
+     {
+      "claim": "Biography of Poincare covering Analysis situs.",
+      "source": "MacTutor, Poincare biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Dehn's 1914 paper was written not long after the fundamental group's discovery.",
+      "source": "MacTutor, Dehn biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Dehn/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1910,
+    "endYear": null,
+    "precision": "year",
+    "label": "Dehn's topology of three-space",
+    "work": "Dehn, M., Über die Topologie des dreidimensionalen Raumes, Mathematische Annalen (1910)",
+    "people": [
+     "Max Dehn"
+    ],
+    "description": "Dehn's 1910 Mathematische Annalen paper is the earliest record found for the topological programme in which the knot group is used.",
+    "evidence": [
+     {
+      "claim": "Paper exists with this title and year",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01455155",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Knot group as key invariant",
+      "source": "Wikipedia: Knot group (definition and invariance)",
+      "url": "https://en.wikipedia.org/wiki/Knot_group",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The use of the knot group in this 1910 paper comes from the input summary and has not been checked against the text."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1914,
+    "endYear": null,
+    "precision": "year",
+    "label": "Trefoils separated by the knot group",
+    "work": "Dehn, M., Die beiden Kleeblattschlingen, Mathematische Annalen (1914)",
+    "people": [
+     "Max Dehn"
+    ],
+    "description": "Dehn applies the knot group to show that the two trefoil knots are inequivalent.",
+    "evidence": [
+     {
+      "claim": "Paper exists with this title and year",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01563732",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Knot group distinguishes knots; trefoil group identified with braid group B3",
+      "source": "Wikipedia: Knot group, Examples",
+      "url": "https://en.wikipedia.org/wiki/Knot_group",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The separation of the trefoils is taken from the input summary and the 1914 title; the proof itself was not read."
+   },
+   {
+    "role": "key_development",
+    "year": 1927,
+    "endYear": null,
+    "precision": "year",
+    "label": "Reidemeister's elementary foundation of knot theory",
+    "work": "Kurt Reidemeister, Elementare Begruendung der Knotentheorie, Abh. Math. Sem. Hamburg 5, 1927",
+    "people": [
+     "Kurt Reidemeister"
+    ],
+    "description": "Shows knot equivalence reduces to three diagram moves, making group presentations computable from diagrams.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Abh. Math. Sem. Univ. Hamburg 5, pp. 24-32.",
+      "source": "Crossref 10.1007/bf02952507",
+      "url": "https://doi.org/10.1007/bf02952507",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "zbMATH lists it as 1926 (Hamburg volume 5).",
+      "source": "zbMATH 2587523",
+      "url": "https://zbmath.org/2587523",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Crossref gives 1927, zbMATH 1926 for the same paper; the volume spans both years."
+   },
+   {
+    "role": "key_development",
+    "year": 1928,
+    "endYear": null,
+    "precision": "year",
+    "label": "Alexander's invariants of knots and links",
+    "work": "J. W. Alexander, Topological invariants of knots and links, Trans. Amer. Math. Soc. 30, 1928",
+    "people": [
+     "James Waddell Alexander"
+    ],
+    "description": "Builds knot invariants from the knot group's presentation, giving the Alexander polynomial.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Trans. AMS 30 (1928), pp. 275-306.",
+      "source": "Crossref 10.1090/s0002-9947-1928-1501429-1",
+      "url": "https://doi.org/10.1090/s0002-9947-1928-1501429-1",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1932,
+    "endYear": null,
+    "precision": "year",
+    "label": "Reidemeister's Knotentheorie",
+    "work": "Reidemeister, K., Knotentheorie (1932)",
+    "people": [
+     "Kurt Reidemeister"
+    ],
+    "description": "Reidemeister's 1932 monograph gives a systematic treatment of knot theory, including knot groups.",
+    "evidence": [
+     {
+      "claim": "Monograph with this title and year",
+      "source": "zbMATH Open",
+      "url": "https://zbmath.org/?q=an:58.1202.04",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Consolidation role is provisional: the record shows the title and year only; the content was not read."
+   },
+   {
+    "role": "key_development",
+    "year": 1957,
+    "endYear": null,
+    "precision": "year",
+    "label": "Papakyriakopoulos proves Dehn's lemma",
+    "work": "C. D. Papakyriakopoulos, On Dehn's lemma and the asphericity of knots, Ann. of Math. 66, 1957",
+    "people": [
+     "Christos Papakyriakopoulos"
+    ],
+    "description": "Fills the gap in Dehn's 1910 argument and shows knot complements are aspherical, so the knot group carries the knot's topology.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Annals of Mathematics 66 (1957).",
+      "source": "Crossref 10.2307/1970113",
+      "url": "https://doi.org/10.2307/1970113",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The consequence that a knot with group Z is trivial is the standard reading and was not checked in the paper."
+   }
+  ],
+  "people": [
+   {
+    "name": "Max Dehn",
+    "role": "originator",
+    "lifespan": "1878-1952",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Dehn/",
+    "works": [
+     {
+      "citation": "Dehn, Über die Topologie des dreidimensionalen Raumes, Math. Ann. (1910)",
+      "year": 1910,
+      "url": "https://doi.org/10.1007/bf01455155",
+      "whyItMatters": "Topological setting of knot invariants."
+     },
+     {
+      "citation": "Dehn, Die beiden Kleeblattschlingen, Math. Ann. (1914)",
+      "year": 1914,
+      "url": "https://doi.org/10.1007/bf01563732",
+      "whyItMatters": "Separates the two trefoils."
+     }
+    ],
+    "roleNote": "originator of knot groups and word problems"
+   },
+   {
+    "name": "Kurt Reidemeister",
+    "role": "systematiser",
+    "lifespan": "dates not verified",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Reidemeister/",
+    "works": [
+     {
+      "citation": "Reidemeister, Knotentheorie (1932)",
+      "year": 1932,
+      "url": "https://zbmath.org/?q=an:58.1202.04",
+      "whyItMatters": "Early monograph on knot theory."
+     },
+     {
+      "citation": "Elementare Begruendung der Knotentheorie, Abh. Math. Sem. Hamburg 5",
+      "year": 1927,
+      "url": "https://doi.org/10.1007/bf02952507",
+      "whyItMatters": "Reidemeister moves."
+     }
+    ],
+    "roleNote": "systematic knot theory"
+   },
+   {
+    "name": "James Waddell Alexander",
+    "role": "developer",
+    "lifespan": "1888 - 1971",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Alexander/",
+    "works": [
+     {
+      "citation": "Topological invariants of knots and links, Trans. AMS 30",
+      "year": 1928,
+      "url": "https://doi.org/10.1090/s0002-9947-1928-1501429-1",
+      "whyItMatters": "Alexander polynomial from the knot group."
+     }
+    ]
+   },
+   {
+    "name": "Christos Papakyriakopoulos",
+    "role": "developer",
+    "lifespan": "1914 - 1976",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Christos_Papakyriakopoulos",
+    "works": [
+     {
+      "citation": "On Dehn's lemma and the asphericity of knots, Ann. of Math. 66",
+      "year": 1957,
+      "url": "https://doi.org/10.2307/1970113",
+      "whyItMatters": "Proved Dehn's lemma."
+     }
+    ]
+   }
+  ],
+  "notes": "Searched Wikipedia Knot group page and MacTutor Dehn biography (URL checked, text not read). Crossref confirmed the 1910 and 1914 Dehn papers. Input summary claims are partly unconfirmed. Wirtinger presentation and Alexander's invariant are not in this batch. Derived dates are the earliest first statement, application and consolidation found. Added in thin-3 pass: Poincare's fundamental group (precursor), Reidemeister 1927, Alexander 1928, Papakyriakopoulos 1957. The English Wikipedia Knot group article is a short properties page with no history; MacTutor Dehn supports the 1910 and 1914 papers and the trefoil argument. Wirtinger's presentation was not located in a bibliographic record and is not listed.",
+  "derivedDates": {
+   "conceptual": 1910,
+   "methodological": 1914,
+   "institutional": 1932
+  },
+  "pass": "source-first thin-3 enrichment (Claude), unadjudicated"
+ },
+ {
+  "pid": "P455",
+  "eventId": "H58",
+  "canonicalName": "Lorentz group and Minkowski spacetime: group theory enters physics",
+  "aliases": [
+   "Lorentz group",
+   "Minkowski spacetime",
+   "Lorentz transformations as a group"
+  ],
+  "phases": [
+   "Lorentz transformations as a group (Poincare)",
+   "Relativity from postulates (Einstein)",
+   "Four-dimensional spacetime and tensor electrodynamics (Minkowski)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1905,
+    "endYear": null,
+    "precision": "year",
+    "label": "Einstein derives the transformations from two postulates",
+    "work": "Einstein, A., Zur Elektrodynamik bewegter Korper, Annalen der Physik (1905)",
+    "people": [
+     "Albert Einstein"
+    ],
+    "description": "Einstein uses the transformations, derived from two postulates, to describe kinematics.",
+    "evidence": [
+     {
+      "claim": "Einstein's 1905 paper derives kinematics from the postulates",
+      "source": "Wikipedia: Minkowski spacetime, History",
+      "url": "https://en.wikipedia.org/wiki/Minkowski_spacetime",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Crossref returned only later reprints of the paper, not the 1905 record, so no bibliographic record confirms the original. Reclassified from first_application to precursor: it predates this event's first statement (1906) and belongs to the wider field."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1906,
+    "endYear": null,
+    "precision": "year",
+    "label": "Poincare on Lorentz transformations as invariance group",
+    "work": "Poincare, H., Sur la dynamique de l'electron, Rendiconti del Circolo Matematico di Palermo (1906)",
+    "people": [
+     "Henri Poincare"
+    ],
+    "description": "Poincare's 1906 Palermo paper treats the Lorentz transformations as a group of invariance transformations.",
+    "evidence": [
+     {
+      "claim": "Paper exists with this title, journal and year",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf03013466",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Poincare described invariants of the transformations",
+      "source": "Wikipedia: Minkowski spacetime, History",
+      "url": "https://en.wikipedia.org/wiki/Minkowski_spacetime",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The group statement is in the input summary; the paper's text was not read."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1909,
+    "endYear": null,
+    "precision": "year",
+    "label": "Minkowski's four-dimensional space-time lecture (published)",
+    "work": "Minkowski, H., Raum und Zeit, Physikalische Zeitschrift (1909)",
+    "people": [
+     "Hermann Minkowski"
+    ],
+    "description": "Minkowski's Cologne lecture, published 1909, presents space and time as one four-dimensional geometry.",
+    "evidence": [
+     {
+      "claim": "Lecture 'Raum und Zeit' held at the 80th Naturforscher-Versammlung, Cologne; published 1909",
+      "source": "zbMATH Open",
+      "url": "https://zbmath.org/?q=an:40.0745.02",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Minkowski's 1908 lecture introduced spacetime geometry",
+      "source": "Wikipedia: Minkowski spacetime, History",
+      "url": "https://en.wikipedia.org/wiki/Minkowski_spacetime",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Publication year used per the role rule. The lecture was given in 1908."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1910,
+    "endYear": null,
+    "precision": "year",
+    "label": "Minkowski's tensor electrodynamics (posthumous)",
+    "work": "Minkowski, H., Die Grundgleichungen fur die elektromagnetischen Vorgange in bewegten Korpern, Mathematische Annalen (1910)",
+    "people": [
+     "Hermann Minkowski"
+    ],
+    "description": "Minkowski's posthumous 1910 paper gives the electrodynamics of moving bodies in tensor form.",
+    "evidence": [
+     {
+      "claim": "Paper exists with this title, journal and year",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01455871",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The 1908 Nachrichten version with the same title was not confirmed bibliographically."
+   },
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 1925,
+    "precision": "year",
+    "label": "Brill titles a note on the Lorentz group",
+    "work": "Brill, J., Note on the Lorentz group, 1925",
+    "people": [
+     "Brill"
+    ],
+    "description": "Earliest zbMATH title found that names the Lorentz group.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: \"Note on the Lorentz group\", Brill, 1925",
+      "source": "zbMATH Open doc 2591967",
+      "url": "https://api.zbmath.org/v1/document/2591967",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "zbMATH search 1900-1924 returned zero \"Lorentz group\" titles.",
+    "endYear": null
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1963,
+    "precision": "year",
+    "label": "English edition of the Gel'fand, Minlos and Shapiro monograph",
+    "work": "Gel'fand, I. M., Minlos, R. A., Shapiro, Z. Ya., Representations of the rotation and Lorentz groups and their applications, 1963",
+    "people": [
+     "Gel'fand",
+     "Minlos",
+     "Shapiro"
+    ],
+    "description": "Systematic monograph on the representations of the Lorentz group and its applications.",
+    "evidence": [
+     {
+      "claim": "Open Library lists the English edition with first publication year 1963",
+      "source": "Open Library works OL10785799W",
+      "url": "https://openlibrary.org/works/OL10785799W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Year is for the English translation; the Russian original (1958) is not verified against a record here.",
+    "endYear": null
+   }
+  ],
+  "people": [
+   {
+    "name": "Henri Poincare",
+    "role": "developer",
+    "lifespan": "1854-1912",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/",
+    "works": [
+     {
+      "citation": "Poincare, Sur la dynamique de l'electron, Rend. Circ. Mat. Palermo (1906)",
+      "year": 1906,
+      "url": "https://doi.org/10.1007/bf03013466",
+      "whyItMatters": "Group property of the Lorentz transformations."
+     }
+    ],
+    "roleNote": "Lorentz group as invariance group"
+   },
+   {
+    "name": "Albert Einstein",
+    "role": "developer",
+    "lifespan": "1879-1955",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Einstein/",
+    "works": [
+     {
+      "citation": "Zur Elektrodynamik bewegter Körper, Ann. Phys. (1905)",
+      "year": 1905,
+      "url": "https://doi.org/10.1002/andp.19053221004",
+      "whyItMatters": "Kinematics from two postulates."
+     }
+    ],
+    "roleNote": "derives the transformations from postulates"
+   },
+   {
+    "name": "Hermann Minkowski",
+    "role": "developer",
+    "lifespan": "1864-1909",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Minkowski/",
+    "works": [
+     {
+      "citation": "Minkowski, Raum und Zeit (1909)",
+      "year": 1909,
+      "url": "https://zbmath.org/?q=an:40.0745.02",
+      "whyItMatters": "Spacetime geometry as a single four-dimensional space."
+     },
+     {
+      "citation": "Minkowski, Die Grundgleichungen ..., Math. Ann. (1910)",
+      "year": 1910,
+      "url": "https://doi.org/10.1007/bf01455871",
+      "whyItMatters": "Tensor form of electrodynamics."
+     }
+    ],
+    "roleNote": "four-dimensional spacetime and tensor electrodynamics"
+   }
+  ],
+  "notes": "Crossref returned only later reprints of Einstein 1905, so that year rests on the Wikipedia history section. The 1908 Minkowski Nachrichten version and the group-theoretic claims in Poincare's note were not checked against the texts. Derived institutional date is null: the term 'Minkowski space' was not traced to a naming source.",
+  "derivedDates": {
+   "conceptual": 1906,
+   "methodological": null,
+   "institutional": 1925
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P369",
+  "eventId": "W55/M72",
+  "canonicalName": "Markov chains",
+  "aliases": [
+   "Markov chain",
+   "Markov processes (discrete)",
+   "dependent trials"
+  ],
+  "phases": [
+   "Dependent trials and the law of large numbers (Markov 1906)",
+   "Statistics of text (Markov 1913)",
+   "Stochastic process theory (Kolmogorov, Doob)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1906,
+    "endYear": null,
+    "precision": "year",
+    "label": "Markov's first paper on chains",
+    "work": "Markov, A. A., Rasprostranenie zakona bol'shih chisel na velichiny, zavisyashchie drug ot druga, Izvestiya SPb (1906)",
+    "people": [
+     "Andrey Markov"
+    ],
+    "description": "Markov shows that the law of large numbers extends to a chain of dependent trials.",
+    "evidence": [
+     {
+      "claim": "First paper on Markov chains published 1906; reference cited",
+      "source": "Wikipedia: Markov chain, History",
+      "url": "https://en.wikipedia.org/wiki/Markov_chain",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "zbMATH Open search (au:Markoff ti:dependent) returned no record for the 1906 paper; the 1906 paper rests on the Wikipedia history section."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1913,
+    "endYear": null,
+    "precision": "year",
+    "label": "Markov's statistical study of Eugene Onegin",
+    "work": "Markov, A. A., Versuche einer statistischen Untersuchung uber den Text des Romans 'Eugen Onegin' (1913)",
+    "people": [
+     "Andrey Markov"
+    ],
+    "description": "Markov applies the chain model to the letter sequence of a literary text.",
+    "evidence": [
+     {
+      "claim": "The original Onegin statistical study appeared in the Imperial Academy bulletin 7(3) (1913), pp. 153–162.",
+      "source": "Math-Net.Ru digitized original",
+      "url": "https://www.mathnet.ru/eng/im6612",
+      "kind": "primary_text"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1931,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kolmogorov's analytical methods for Markov processes",
+    "work": "Kolmogorov, A., Uber die analytischen Methoden in der Wahrscheinlichkeitsrechnung, Mathematische Annalen (1931)",
+    "people": [
+     "Andrey Kolmogorov"
+    ],
+    "description": "Kolmogorov's 1931 analytic method for Markov processes underpins the continuous-time theory.",
+    "evidence": [
+     {
+      "claim": "Paper exists with this title, journal and year",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01457949",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Scope of Markov-process content not read in the text."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1953,
+    "endYear": null,
+    "precision": "year",
+    "label": "Doob's Stochastic processes",
+    "work": "Doob, J. L., Stochastic processes (1953)",
+    "people": [
+     "Joseph L. Doob"
+    ],
+    "description": "Doob's 1953 monograph gives a systematic treatment of Markov processes within stochastic process theory.",
+    "evidence": [
+     {
+      "claim": "Monograph with this title and year",
+      "source": "zbMATH Open",
+      "url": "https://zbmath.org/?q=an:0053.26802",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Consolidation role is provisional: the record shows title and year only."
+   }
+  ],
+  "people": [
+   {
+    "name": "Andrey Markov",
+    "role": "originator",
+    "lifespan": "1856-1922",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Markov/",
+    "works": [
+     {
+      "citation": "Markov, Versuche einer statistischen Untersuchung ... Eugen Onegin (1913)",
+      "year": 1913,
+      "url": "https://zbmath.org/?q=an:44.0278.14",
+      "whyItMatters": "Chains applied to letter sequences."
+     }
+    ],
+    "roleNote": "originator of chains"
+   },
+   {
+    "name": "Andrey Kolmogorov",
+    "role": "developer",
+    "lifespan": "1903-1987",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kolmogorov/",
+    "works": [
+     {
+      "citation": "Kolmogorov, Uber die analytischen Methoden in der Wahrscheinlichkeitsrechnung (1931)",
+      "year": 1931,
+      "url": "https://doi.org/10.1007/bf01457949",
+      "whyItMatters": "Analytic method for Markov processes."
+     }
+    ],
+    "roleNote": "analytic theory of Markov processes"
+   },
+   {
+    "name": "Joseph L. Doob",
+    "role": "developer",
+    "lifespan": "1910-2004",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Doob/",
+    "works": [
+     {
+      "citation": "Doob, Stochastic processes (1953)",
+      "year": 1953,
+      "url": "https://zbmath.org/?q=an:0053.26802",
+      "whyItMatters": "Standard monograph in the field."
+     }
+    ],
+    "roleNote": "stochastic process theory"
+   }
+  ],
+  "notes": "The 1906 Markov paper is not indexed in zbMATH under the searched forms (no record found), so its year rests on Wikipedia. The Eugene Onegin 1913 record is verified. The 1906 paper title is cited in Wikipedia's reference list. Institutional date is set by Doob 1953 consolidation; no naming milestone was traced.",
+  "derivedDates": {
+   "conceptual": 1906,
+   "methodological": 1913,
+   "institutional": 1953
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P407",
+  "eventId": "W82",
+  "canonicalName": "Several complex variables and Hartogs",
+  "aliases": [
+   "several complex variables",
+   "Hartogs phenomenon",
+   "Hartogs extension theorem"
+  ],
+  "phases": [
+   "Hartogs' extension phenomenon (1906)",
+   "Monographs in several complex variables (1930s-1940s)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1895,
+    "endYear": null,
+    "precision": "year",
+    "label": "Cousin problems",
+    "work": "Pierre Cousin, Sur les fonctions de n variables complexes, Acta Math. 19 (1895)",
+    "people": [
+     "Pierre Cousin"
+    ],
+    "description": "Poses the Cousin problems on constructing functions with prescribed singularities of several variables.",
+    "evidence": [
+     {
+      "claim": "Paper recorded in Crossref, 1895.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02402869",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Content of the problems is general knowledge."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1906,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hartogs' extension theorem",
+    "work": "Hartogs, F., Einige Folgerungen aus der Cauchyschen Integralformel bei Funktionen mehrerer Veranderlichen (1906)",
+    "people": [
+     "Friedrich Hartogs"
+    ],
+    "description": "Hartogs shows that holomorphic functions in several variables extend automatically beyond their natural domain, with no one-variable analogue.",
+    "evidence": [
+     {
+      "claim": "Paper with this title, year 1906",
+      "source": "zbMATH Open",
+      "url": "https://zbmath.org/?q=an:37.0443.01",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Hartogs' extension theorem cited to the 1906 paper",
+      "source": "Wikipedia: Function of several complex variables, History",
+      "url": "https://en.wikipedia.org/wiki/Function_of_several_complex_variables",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Hartogs' Math. Ann. 62 paper of the same period is listed in zbMATH with year 1905; it was not used as the milestone."
+   },
+   {
+    "role": "naming",
+    "year": 1916,
+    "precision": "year",
+    "label": "Osgood's 'On functions of several complex variables'",
+    "work": "W. F. Osgood, On functions of several complex variables, Trans. Amer. Math. Soc. (1916), zbMATH 46.0527.01",
+    "people": [
+     "William Fogg Osgood"
+    ],
+    "description": "Osgood's 1916 paper has the phrase 'several complex variables' in its title; the earliest title use found.",
+    "evidence": [
+     {
+      "claim": "zbMATH 46.0527.01: Osgood, 'On functions of several complex variables' (1916).",
+      "source": "zbMATH Open, document 46.0527.01",
+      "url": "https://api.zbmath.org/v1/document/2611199",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "key_development",
+    "year": 1932,
+    "endYear": null,
+    "precision": "year",
+    "label": "Cartan-Thullen on domains of holomorphy",
+    "work": "H. Cartan and P. Thullen, Zur Theorie der Singularitaeten der Funktionen mehrerer komplexen Veraenderlichen, Math. Ann. 106 (1932)",
+    "people": [
+     "Henri Cartan",
+     "Peter Thullen"
+    ],
+    "description": "Characterises domains of holomorphy, extending Hartogs' phenomenon to a theory of natural domains.",
+    "evidence": [
+     {
+      "claim": "Paper recorded in Crossref, 1932.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01455905",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Content from general knowledge."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1934,
+    "endYear": null,
+    "precision": "year",
+    "label": "Behnke-Thullen monograph on several complex variables",
+    "work": "Behnke, H. and Thullen, P., Theorie der Funktionen mehrerer komplexer Veranderlichen (1934)",
+    "people": [
+     "Heinrich Behnke",
+     "Peter Thullen"
+    ],
+    "description": "The 1934 Ergebnisse volume gives an early systematic treatment of functions of several complex variables.",
+    "evidence": [
+     {
+      "claim": "Chapter 'Uber den Begriff des analytischen Funktionselementes' in the 1934 volume",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-3-642-99659-7_1",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Only chapter 1 was confirmed; the volume's status as the first systematic treatment is not verified."
+   },
+   {
+    "role": "key_development",
+    "year": 1936,
+    "endYear": null,
+    "precision": "year",
+    "label": "Oka's series begins",
+    "work": "K. Oka, Sur les fonctions analytiques de plusieurs variables I, J. Sci. Hiroshima Univ. 6 (1936)",
+    "people": [
+     "Kiyoshi Oka"
+    ],
+    "description": "Oka solves the Cousin and Levi problems over the following years, with part IX in 1953.",
+    "evidence": [
+     {
+      "claim": "Part I recorded in Crossref, 1936.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.32917/hmj/1558749869",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Part IX recorded in Crossref, 1953.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.4099/jjm1924.23.0_97",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "That part IX solves the Levi problem is general knowledge."
+   },
+   {
+    "role": "consolidation",
+    "year": 1966,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hoermander's textbook",
+    "work": "Lars Hoermander, An Introduction to Complex Analysis in Several Variables, 1966",
+    "people": [
+     "Lars Hoermander"
+    ],
+    "description": "A textbook organised around the d-bar method.",
+    "evidence": [
+     {
+      "claim": "Book first published 1966.",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/works/OL8054318W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Later than the 1934 Behnke-Thullen monograph."
+   }
+  ],
+  "people": [
+   {
+    "name": "Friedrich Hartogs",
+    "role": "developer",
+    "lifespan": "1874-1943",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hartogs/",
+    "works": [
+     {
+      "citation": "Hartogs, Einige Folgerungen aus der Cauchyschen Integralformel ... (1906)",
+      "year": 1906,
+      "url": "https://zbmath.org/?q=an:37.0443.01",
+      "whyItMatters": "Extension phenomenon."
+     }
+    ],
+    "roleNote": "extension theorem"
+   },
+   {
+    "name": "Salomon Bochner",
+    "role": "systematiser",
+    "lifespan": "1899-1982",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bochner/",
+    "works": [
+     {
+      "citation": "Bochner and Martin, Several complex variables (1948)",
+      "year": 1948,
+      "url": "https://zbmath.org/?q=an:0041.05205",
+      "whyItMatters": "Early monograph with field name in title."
+     }
+    ],
+    "roleNote": "monograph on several complex variables"
+   },
+   {
+    "name": "Heinrich Behnke",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Behnke/",
+    "works": [
+     {
+      "citation": "Behnke and Thullen, Theorie der Funktionen mehrerer komplexer Veranderlichen (1934)",
+      "year": 1934,
+      "url": "https://doi.org/10.1007/978-3-642-99659-7_1",
+      "whyItMatters": "Early systematic treatment."
+     }
+    ],
+    "roleNote": "monograph on several complex variables"
+   },
+   {
+    "name": "Henri Cartan",
+    "role": "developer",
+    "lifespan": "1904-2008",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Cartan_Henri/",
+    "works": [
+     {
+      "citation": "Cartan and Thullen, Zur Theorie der Singularitaeten der Funktionen mehrerer komplexen Veraenderlichen",
+      "year": 1932,
+      "url": "https://doi.org/10.1007/bf01455905",
+      "whyItMatters": "Domains of holomorphy"
+     }
+    ]
+   },
+   {
+    "name": "Kiyoshi Oka",
+    "role": "developer",
+    "lifespan": "1901-1978",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Oka/",
+    "works": [
+     {
+      "citation": "Sur les fonctions analytiques de plusieurs variables I",
+      "year": 1936,
+      "url": "https://doi.org/10.32917/hmj/1558749869",
+      "whyItMatters": "Start of the Oka papers"
+     }
+    ]
+   },
+   {
+    "name": "Lars Hoermander",
+    "role": "systematiser",
+    "lifespan": "1931-2012",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hormander/",
+    "works": [
+     {
+      "citation": "An Introduction to Complex Analysis in Several Variables",
+      "year": 1966,
+      "url": "https://openlibrary.org/works/OL8054318W",
+      "whyItMatters": "Textbook"
+     }
+    ]
+   }
+  ],
+  "notes": "Fix pass 2: zbMATH 46.0527.01 gives Osgood's 1916 title as the earliest title use found, so the naming milestone is 1916; the Bochner-Martin 1948 monograph is dropped because it is not the first title use. Oka's and Levi's 1930s work is not in this batch. Methodological date is null: no first application was established. Thin-record pass: Cousin 1895, Cartan-Thullen 1932, Oka 1936 and 1953, Hoermander 1966 verified in Crossref/Open Library. Behnke and Thullen's 1934 monograph is confirmed as a whole book record (10.1007/978-3-642-99659-7). Poincare 1907 and Levi 1910/11 were searched but not matched; Levi 1911 (10.1007/bf02420535) is a candidate only.",
+  "derivedDates": {
+   "conceptual": 1906,
+   "methodological": null,
+   "institutional": 1916
+  },
+  "pass": "source-first thin-record enrichment (Sonnet), unadjudicated"
+ },
+ {
+  "pid": "P441",
+  "eventId": "H36",
+  "canonicalName": "Complex dynamics: iteration of rational functions (Julia and Fatou)",
+  "aliases": [
+   "Julia set",
+   "Fatou set",
+   "iteration of rational functions",
+   "complex dynamics"
+  ],
+  "phases": [
+   "Fatou's first notes (1917)",
+   "Julia's memoir (1918)",
+   "Fatou's functional equations (1919)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1917,
+    "endYear": null,
+    "precision": "year",
+    "label": "Fatou's note on rational substitutions",
+    "work": "Fatou, P., Sur les substitutions rationnelles (1917)",
+    "people": [
+     "Pierre Fatou"
+    ],
+    "description": "Fatou's 1917 note begins the study of iterated rational maps of the plane.",
+    "evidence": [
+     {
+      "claim": "Fatou's bibliography records Sur les substitutions rationnelles in Comptes rendus, 1917.",
+      "source": "Michèle Audin, University of Strasbourg, Fatou bibliography",
+      "url": "https://audin.pages.math.unistra.fr/histoire/biblioFatou.pdf",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Venue (C. R. Acad. Sci.) is not in the zbMATH record and was not confirmed. Julia's 1917 note was not located."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1918,
+    "endYear": null,
+    "precision": "year",
+    "label": "Julia's memoir on iteration of rational functions",
+    "work": "Julia, G., Memoire sur l'iteration des fonctions rationnelles (1918)",
+    "people": [
+     "Gaston Julia"
+    ],
+    "description": "Julia's 1918 memoir gives the systematic theory of the Julia set.",
+    "evidence": [
+     {
+      "claim": "Memoir with this title and year",
+      "source": "zbMATH Open",
+      "url": "https://zbmath.org/?q=an:46.0520.06",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "The memoir's content on attractors and repellers comes from the input summary and the Wikipedia Julia set article."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1919,
+    "endYear": null,
+    "precision": "year",
+    "label": "Fatou's memoir on functional equations",
+    "work": "Fatou, P., Sur les equations fonctionnelles (1919)",
+    "people": [
+     "Pierre Fatou"
+    ],
+    "description": "Fatou's 1919 memoir develops the Fatou set and the classification of its components.",
+    "evidence": [
+     {
+      "claim": "Memoir with this title and year 1919",
+      "source": "zbMATH Open",
+      "url": "https://zbmath.org/?q=an:47.0921.02",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1927,
+    "endYear": null,
+    "precision": "year",
+    "label": "Montel's Lecons sur les familles normales",
+    "work": "Montel, P., Lecons sur les familles normales de fonctions analytiques et leurs applications (1927)",
+    "people": [
+     "Paul Montel"
+    ],
+    "description": "Montel's 1927 lectures give the normal-families framework on which the Julia-Fatou theory rests.",
+    "evidence": [
+     {
+      "claim": "Book with this title and year",
+      "source": "zbMATH Open",
+      "url": "https://zbmath.org/?q=an:53.0303.02",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Whether the book treats iteration of rational maps is not verified; the consolidation role is provisional."
+   }
+  ],
+  "people": [
+   {
+    "name": "Gaston Julia",
+    "role": "developer",
+    "lifespan": "1893-1978",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Julia/",
+    "works": [
+     {
+      "citation": "Julia, Memoire sur l'iteration des fonctions rationnelles (1918)",
+      "year": 1918,
+      "url": "https://zbmath.org/?q=an:46.0520.06",
+      "whyItMatters": "Systematic theory of the Julia set."
+     }
+    ],
+    "roleNote": "Julia set"
+   },
+   {
+    "name": "Pierre Fatou",
+    "role": "developer",
+    "lifespan": "1878-1929",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Fatou/",
+    "works": [
+     {
+      "citation": "Fatou, Sur les substitutions rationnelles (1917)",
+      "year": 1917,
+      "url": "https://zbmath.org/?q=an:46.0519.02",
+      "whyItMatters": "Early note on iterated rational maps."
+     },
+     {
+      "citation": "Fatou, Sur les equations fonctionnelles (1919)",
+      "year": 1919,
+      "url": "https://zbmath.org/?q=an:47.0921.02",
+      "whyItMatters": "Fatou set and its components."
+     }
+    ],
+    "roleNote": "Fatou set and iteration"
+   },
+   {
+    "name": "Paul Montel",
+    "role": "developer",
+    "lifespan": "1876-1975",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Montel/",
+    "works": [
+     {
+      "citation": "Montel, Lecons sur les familles normales ... (1927)",
+      "year": 1927,
+      "url": "https://zbmath.org/?q=an:53.0303.02",
+      "whyItMatters": "Normal-families framework."
+     }
+    ],
+    "roleNote": "normal families"
+   }
+  ],
+  "notes": "The Julia and Fatou dates and works were verified in zbMATH. The Julia 1917 note was not found. The input's Schroeder and Koenigs precursors are not in this batch. Methodological date is null: no first application was separately established.",
+  "derivedDates": {
+   "conceptual": 1917,
+   "methodological": null,
+   "institutional": 1927
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P451",
+  "eventId": "H48",
+  "canonicalName": "Abstract topological spaces from point-set analysis",
+  "aliases": [
+   "abstract topological spaces",
+   "general topology",
+   "neighbourhood axioms"
+  ],
+  "phases": [
+   "Metric and functional precursors (Frechet)",
+   "Abstract topological spaces (Riesz)",
+   "Neighbourhood axioms (Hausdorff)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1906,
+    "endYear": null,
+    "precision": "year",
+    "label": "Frechet's abstract metric spaces",
+    "work": "Frechet, M., Sur quelques points du calcul fonctionnel (1906)",
+    "people": [
+     "Maurice Frechet"
+    ],
+    "description": "Frechet's 1906 paper introduces abstract spaces with a distance, a precursor of topological spaces.",
+    "evidence": [
+     {
+      "claim": "Paper with this title and year",
+      "source": "zbMATH Open",
+      "url": "https://zbmath.org/?q=an:37.0348.02",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Metric spaces are a precursor, not topological spaces in the neighbourhood-axiom sense."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1909,
+    "endYear": null,
+    "precision": "year",
+    "label": "Riesz on continuity and abstract set theory",
+    "work": "Riesz, F., Stetigkeit und abstrakte Mengenlehre (1909)",
+    "people": [
+     "Frigyes Riesz"
+    ],
+    "description": "Riesz introduces abstract topological spaces defined by axioms rather than a distance.",
+    "evidence": [
+     {
+      "claim": "Riesz's contribution appears in the printed proceedings of the 1908 Rome congress, issued in 1909.",
+      "source": "International Mathematical Union, ICM 1908 proceedings",
+      "url": "https://www.mathunion.org/fileadmin/ICM/Proceedings/ICM1908.2/ICM1908.2.ocr.pdf",
+      "kind": "primary_text"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Riesz's lecture was given in 1908; the publication year 1909 governs the role rule."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1914,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hausdorff's Grundzuge der Mengenlehre",
+    "work": "Hausdorff, F., Grundzuge der Mengenlehre (1914)",
+    "people": [
+     "Felix Hausdorff"
+    ],
+    "description": "Hausdorff's 1914 book systematises topological spaces defined by neighbourhood axioms.",
+    "evidence": [
+     {
+      "claim": "Book with this title and year",
+      "source": "zbMATH Open",
+      "url": "https://zbmath.org/?q=an:45.0123.01",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Neighbourhood-axiom content is taken from the input summary."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1922,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kuratowski's closure operation",
+    "work": "Kuratowski, C., Sur l'operation A de l'analysis situs (1922)",
+    "people": [
+     "Kazimierz Kuratowski"
+    ],
+    "description": "Kuratowski's 1922 paper gives axioms for the closure operation, a key step toward general topology.",
+    "evidence": [
+     {
+      "claim": "Paper with this title and year",
+      "source": "zbMATH Open",
+      "url": "https://zbmath.org/?q=an:48.0210.04",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "people": [
+   {
+    "name": "Frigyes Riesz",
+    "role": "developer",
+    "lifespan": "1880-1956",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Riesz/",
+    "works": [
+     {
+      "citation": "Riesz, Stetigkeit und abstrakte Mengenlehre (1909)",
+      "year": 1909,
+      "url": "https://zbmath.org/?q=an:40.0098.07",
+      "whyItMatters": "Abstract topological spaces."
+     }
+    ],
+    "roleNote": "abstract topological spaces"
+   },
+   {
+    "name": "Felix Hausdorff",
+    "role": "developer",
+    "lifespan": "1868-1942",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hausdorff/",
+    "works": [
+     {
+      "citation": "Hausdorff, Grundzuge der Mengenlehre (1914)",
+      "year": 1914,
+      "url": "https://zbmath.org/?q=an:45.0123.01",
+      "whyItMatters": "Systematic treatment with neighbourhood axioms."
+     }
+    ],
+    "roleNote": "neighbourhood axioms"
+   },
+   {
+    "name": "Maurice Frechet",
+    "role": "developer",
+    "lifespan": "1878-1973",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Frechet/",
+    "works": [
+     {
+      "citation": "Frechet, Sur quelques points du calcul fonctionnel (1906)",
+      "year": 1906,
+      "url": "https://zbmath.org/?q=an:37.0348.02",
+      "whyItMatters": "Abstract metric spaces."
+     }
+    ],
+    "roleNote": "metric spaces"
+   },
+   {
+    "name": "Kazimierz Kuratowski",
+    "role": "developer",
+    "lifespan": "1896-1980",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kuratowski/",
+    "works": [
+     {
+      "citation": "Kuratowski, Sur l'operation A de l'analysis situs (1922)",
+      "year": 1922,
+      "url": "https://zbmath.org/?q=an:48.0210.04",
+      "whyItMatters": "Closure operation axioms."
+     }
+    ],
+    "roleNote": "closure axioms"
+   }
+  ],
+  "notes": "Riesz 1909, Hausdorff 1914 and Kuratowski 1922 were verified in zbMATH; the content claims are from the input summary and not yet checked against the texts. Methodological date is null.",
+  "derivedDates": {
+   "conceptual": 1909,
+   "methodological": null,
+   "institutional": 1914
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P388",
+  "eventId": "M47/W34",
+  "canonicalName": "Intuitionism",
+  "aliases": [
+   "intuitionistic mathematics",
+   "Brouwer's intuitionism",
+   "neo-intuitionism"
+  ],
+  "phases": [
+   "Rejection of excluded middle (Brouwer)",
+   "Intuitionistic set theory",
+   "Formal intuitionistic logic (Heyting)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Rejection of excluded middle (Brouwer)",
+    "year": 1907,
+    "endYear": null,
+    "precision": "year",
+    "label": "Brouwer's dissertation on foundations",
+    "work": "L. E. J. Brouwer, Over de grondslagen der wiskunde, dissertation, Amsterdam 1907",
+    "people": [
+     "L. E. J. Brouwer"
+    ],
+    "description": "Brouwer's thesis lays out his critique of formalist and logicist foundations.",
+    "evidence": [
+     {
+      "claim": "Jahrbuch record: Brouwer, Over de Grondslagen der Wiskunde, dissertation Amsterdam, 1907.",
+      "source": "zbMATH record 38.0081.04",
+      "url": "https://zbmath.org/?q=an:38.0081.04",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_statement",
+    "year": 1907,
+    "precision": "year",
+    "label": "Brouwer's dissertation on the foundations of mathematics",
+    "work": "L. E. J. Brouwer, Over de grondslagen der wiskunde, Amsterdam: Maas & van Suchtelen, 1907 (doctoral thesis)",
+    "people": [
+     "L. E. J. Brouwer"
+    ],
+    "description": "Brouwer's thesis sets out his critique of logicism and formalism and his view of mathematics as mental construction, which MacTutor marks as the start of the intuitionist school.",
+    "evidence": [
+     {
+      "claim": "Open Library lists the 1907 first publication by Maas & van Suchtelen.",
+      "source": "Open Library work OL1280913W",
+      "url": "https://openlibrary.org/works/OL1280913W",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "The 1907 thesis attacked the logical foundations of mathematics and marks the beginning of the Intuitionist School.",
+      "source": "MacTutor, Brouwer",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Brouwer/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Explicit rejection of the unrestricted law of excluded middle is in the 1908 paper 'The unreliability of the logical principles' (Tijdschrift voor Wijsbegeerte; MacTutor, Wikipedia); that paper was not found in zbMATH or Crossref. Name 'intuitionism' not traced.",
+    "phase": null,
+    "endYear": null
+   },
+   {
+    "role": "naming",
+    "phase": "Rejection of excluded middle (Brouwer)",
+    "year": 1912,
+    "endYear": null,
+    "precision": "year",
+    "label": "Brouwer's Intuitionisme en formalisme",
+    "work": "L. E. J. Brouwer, Intuitionisme en formalisme, Amsterdam: Clausen, 1912",
+    "people": [
+     "L. E. J. Brouwer"
+    ],
+    "description": "Inaugural lecture whose title names intuitionism as a position in foundations.",
+    "evidence": [
+     {
+      "claim": "Jahrbuch record: Brouwer, Intuitionisme en Formalisme, Amsterdam: J. Clausen, 1912.",
+      "source": "zbMATH record 43.0111.01",
+      "url": "https://zbmath.org/?q=an:43.0111.01",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "First use of the word in a title; whether Brouwer coined it earlier in text was not checked."
+   },
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 1913,
+    "endYear": null,
+    "precision": "year",
+    "label": "Brouwer's 'Intuitionism and formalism'",
+    "work": "L. E. J. Brouwer, Intuitionism and formalism, 1913",
+    "people": [
+     "L. E. J. Brouwer"
+    ],
+    "description": "The earliest zbMATH-indexed title in which intuitionism is the subject, named as a school.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: Brouwer, 'Intuitionism and formalism', year 1913.",
+      "source": "zbMATH Open, API ti:\"intuitionism\" search",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3Aintuitionism&page=0&results_per_page=50",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Journal not verified from the record. zbMATH coverage starts in 1868, so earlier Brouwer papers were not checked."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1918,
+    "endYear": null,
+    "precision": "year",
+    "label": "Brouwer's set theory without excluded middle",
+    "work": "Brouwer, L. E. J., Begrundung der Mengenlehre unabhangig vom logischen Satz vom ausgeschlossenen Dritten (1918)",
+    "people": [
+     "L. E. J. Brouwer"
+    ],
+    "description": "Brouwer's 1918 paper builds set theory without the law of excluded middle.",
+    "evidence": [
+     {
+      "claim": "Paper with this title and year 1918",
+      "source": "zbMATH Open",
+      "url": "https://zbmath.org/?q=an:46.0310.06",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The first public rejection of excluded middle (Brouwer 1908) was not found in zbMATH and remains open."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1930,
+    "endYear": null,
+    "precision": "year",
+    "label": "Heyting's formal intuitionistic logic",
+    "work": "Heyting, A., Die formalen Regeln der intuitionistischen Logik (1930)",
+    "people": [
+     "Arend Heyting"
+    ],
+    "description": "Heyting's 1930 papers give the first formal calculus of intuitionistic logic.",
+    "evidence": [
+     {
+      "claim": "Paper with this title and year 1930",
+      "source": "zbMATH Open",
+      "url": "https://zbmath.org/?q=an:56.0823.01",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": "Formal intuitionistic logic (Heyting)",
+    "year": 1933,
+    "endYear": null,
+    "precision": "year",
+    "label": "Gödel on intuitionistic arithmetic",
+    "work": "K. Gödel, Zur intuitionistischen Arithmetik und Zahlentheorie, Ergebnisse eines math. Kolloquiums 4 (1933)",
+    "people": [
+     "Kurt Gödel"
+    ],
+    "description": "Gödel translates classical arithmetic into intuitionistic arithmetic, relating the two systems.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: Gödel, Zur intuitionistischen Arithmetik und Zahlentheorie, 1933.",
+      "source": "zbMATH record 0007.19304",
+      "url": "https://zbmath.org/?q=an:0007.19304",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1934,
+    "endYear": null,
+    "precision": "year",
+    "label": "Heyting's Intuitionismus survey",
+    "work": "A. Heyting, Mathematische Grundlagenforschung. Intuitionismus. Beweistheorie, Springer, 1934",
+    "people": [
+     "Arend Heyting"
+    ],
+    "description": "A survey volume on intuitionism and proof theory, the first systematic treatment among the zbMATH records checked.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: Heyting, 'Mathematische Grundlagenforschung. Intuitionismus. Beweistheorie', year 1934.",
+      "source": "zbMATH Open, API ti:Intuitionismus search",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3AIntuitionismus&page=0&results_per_page=20",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "A survey, so it is a systematic treatment, not a textbook. Heyting's 1956 book Intuitionism: an introduction (zbMATH 1956) is a later monograph."
+   }
+  ],
+  "people": [
+   {
+    "name": "L. E. J. Brouwer",
+    "role": "originator",
+    "lifespan": "1881-1966",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Brouwer/",
+    "works": [
+     {
+      "citation": "Brouwer, Begrundung der Mengenlehre ... (1918)",
+      "year": 1918,
+      "url": "https://zbmath.org/?q=an:46.0310.06",
+      "whyItMatters": "Set theory without excluded middle."
+     },
+     {
+      "citation": "Brouwer, Intuitionistische Mengenlehre (1919)",
+      "year": 1919,
+      "url": "https://zbmath.org/?q=an:47.0171.04",
+      "whyItMatters": "Intuitionistic set theory."
+     },
+     {
+      "citation": "Intuitionisme en formalisme (1912)",
+      "year": 1912,
+      "url": "https://zbmath.org/?q=an:43.0111.01",
+      "whyItMatters": "names intuitionism"
+     }
+    ],
+    "roleNote": "founder of intuitionism"
+   },
+   {
+    "name": "Arend Heyting",
+    "role": "developer",
+    "lifespan": "1898-1980",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Heyting/",
+    "works": [
+     {
+      "citation": "Heyting, Die formalen Regeln der intuitionistischen Logik (1930)",
+      "year": 1930,
+      "url": "https://zbmath.org/?q=an:56.0823.01",
+      "whyItMatters": "Formal calculus."
+     },
+     {
+      "citation": "Mathematische Grundlagenforschung. Intuitionismus. Beweistheorie (1934)",
+      "year": 1934,
+      "url": "https://zbmath.org/?q=an:0009.38501",
+      "whyItMatters": "systematic survey"
+     }
+    ],
+    "roleNote": "formal intuitionistic logic"
+   },
+   {
+    "name": "Andrei Kolmogorov",
+    "role": "developer",
+    "lifespan": "1903-1987",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kolmogorov/",
+    "works": [
+     {
+      "citation": "Über das Prinzip tertium non datur (1925)",
+      "year": 1925,
+      "url": "https://zbmath.org/?q=an:51.0048.01",
+      "whyItMatters": "early formal logic without excluded middle"
+     }
+    ]
+   },
+   {
+    "name": "Kurt Gödel",
+    "role": "developer",
+    "lifespan": "1906-1978",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Godel/",
+    "works": [
+     {
+      "citation": "Zur intuitionistischen Arithmetik und Zahlentheorie (1933)",
+      "year": 1933,
+      "url": "https://zbmath.org/?q=an:0007.19304",
+      "whyItMatters": "relates classical and intuitionistic arithmetic"
+     }
+    ]
+   }
+  ],
+  "notes": "Open: the first public rejection of excluded middle (Brouwer 1908 paper, from the input summary) was not confirmed in zbMATH or Crossref. The 1907 dissertation was not checked. The naming term 'intuitionism' was not traced. No derived dates can be set from the verified records; the Brouwer 1918-1919 papers play key-development roles, not first_statement. Thin pass 2: added the 1907 dissertation (zbMATH), 1912 naming lecture, Kolmogorov 1925, Gödel 1933, Heyting 1934. The 1908 Tijdschrift paper on the unreliability of logical principles was searched in zbMATH and Crossref without a record; a different 1908 Nieuw Archief note with a similar title exists, so first public rejection of excluded middle is not claimed here. No first_statement role is assigned: Brouwer 1907-1912 are best seen as precursor and naming, so derived conceptual date is null. Milestones omitted to respect the 8-milestone cap: precursor 1925 Kolmogorov on the principle of excluded middle; consolidation 1934 Heyting's Ergebnisse volume; key_development 1919 Brouwer's intuitionistic set theory. Fix pass 2: a zbMATH title search for 'onbetrouwbaarheid' returned no record, so the 1908 paper remains unlocated.",
+  "pass": "source-first thin-record pass 2 (Claude), unadjudicated",
+  "derivedDates": {
+   "conceptual": 1907,
+   "methodological": null,
+   "institutional": 1912
+  }
+ },
+ {
+  "pid": "P437",
+  "eventId": "H31",
+  "canonicalName": "Normal numbers: measure and probability applied to digit expansions (Borel)",
+  "aliases": [
+   "normal numbers",
+   "Borel normality",
+   "normal in base 10"
+  ],
+  "phases": [
+   "Borel's probabilistic theorem (1909)",
+   "Explicit normal numbers (Champernowne, Copeland-Erdos)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1909,
+    "endYear": null,
+    "precision": "year",
+    "label": "Borel's almost-every real is normal",
+    "work": "Borel, E., Les probabilites denombrables et leurs applications arithmetiques, Rendiconti del Circolo Matematico di Palermo (1909)",
+    "people": [
+     "Emile Borel"
+    ],
+    "description": "Borel's 1909 paper defines normal numbers and shows that almost every real is normal.",
+    "evidence": [
+     {
+      "claim": "Paper with this title, journal and year",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf03019651",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper plays first_application (see next milestone); recorded under both roles."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1909,
+    "endYear": null,
+    "precision": "year",
+    "label": "Probability applied to digit frequencies",
+    "work": "Borel, E., Les probabilites denombrables et leurs applications arithmetiques (1909)",
+    "people": [
+     "Emile Borel"
+    ],
+    "description": "Borel applies measure and probability to digit expansions, the purposeful use of the idea on the target problem.",
+    "evidence": [
+     {
+      "claim": "Same paper, purposeful use of probability on digit expansions",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf03019651",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same work as the first_statement, which it truly shares (rule 2 note)."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1933,
+    "endYear": null,
+    "precision": "year",
+    "label": "Champernowne's explicit normal decimal",
+    "work": "Champernowne, D. G., The construction of decimals normal in the scale of ten, Journal of the London Mathematical Society (1933)",
+    "people": [
+     "David Champernowne"
+    ],
+    "description": "Champernowne gives the first explicit example of a number normal in base ten.",
+    "evidence": [
+     {
+      "claim": "Paper with this title, journal and year",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1112/jlms/s1-8.4.254",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Sierpinski's earlier explicit example (1917) was not verified and remains open."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1946,
+    "endYear": null,
+    "precision": "year",
+    "label": "Copeland and Erdos on normal numbers",
+    "work": "Copeland, A. H. and Erdos, P., Note on normal numbers, Bulletin of the American Mathematical Society (1946)",
+    "people": [
+     "Arthur Copeland",
+     "Paul Erdos"
+    ],
+    "description": "Copeland and Erdos show that a concatenation of primes gives a normal number, an extension of the theory.",
+    "evidence": [
+     {
+      "claim": "Note with this title, journal and year",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/s0002-9904-1946-08657-7",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The prime-concatenation content is from the input summary."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1974,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kuipers and Niederreiter, 'Uniform distribution of sequences'",
+    "work": "L. Kuipers, H. Niederreiter, Uniform Distribution of Sequences, Pure and Applied Mathematics, New York: Wiley-Interscience, 1974",
+    "people": [
+     "Lauwerens Kuipers",
+     "Harald Niederreiter"
+    ],
+    "description": "A monograph on uniform distribution mod 1, within which normal numbers in the sense of Borel are the basic case.",
+    "evidence": [
+     {
+      "claim": "zbMATH record 'Uniform distribution of sequences', Kuipers and Niederreiter, Wiley 1974, Zbl 0281.10001",
+      "source": "zbMATH Open API",
+      "url": "https://zbmath.org/?q=an:0281.10001",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Chosen as a monograph consolidation of the uniform-distribution theory that contains normal numbers. The normal-number chapter was not read. No title with 'normal numbers' earlier than the 1939-1951 articles was found in the search."
+   }
+  ],
+  "people": [
+   {
+    "name": "Emile Borel",
+    "role": "developer",
+    "lifespan": "1871-1956",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Borel/",
+    "works": [
+     {
+      "citation": "Borel, Les probabilites denombrables ... (1909)",
+      "year": 1909,
+      "url": "https://doi.org/10.1007/bf03019651",
+      "whyItMatters": "Definition and almost-everywhere theorem."
+     }
+    ],
+    "roleNote": "normal numbers and probability"
+   },
+   {
+    "name": "David Champernowne",
+    "role": "developer",
+    "lifespan": "1912-2000",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Champernowne/",
+    "works": [
+     {
+      "citation": "Champernowne, The construction of decimals normal in the scale of ten (1933)",
+      "year": 1933,
+      "url": "https://doi.org/10.1112/jlms/s1-8.4.254",
+      "whyItMatters": "First explicit normal decimal in base ten."
+     }
+    ],
+    "roleNote": "explicit normal decimal"
+   },
+   {
+    "name": "Arthur Copeland",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Arthur_Copeland",
+    "works": [
+     {
+      "citation": "Copeland and Erdos, Note on normal numbers (1946)",
+      "year": 1946,
+      "url": "https://doi.org/10.1090/s0002-9904-1946-08657-7",
+      "whyItMatters": "Normal concatenation of primes."
+     }
+    ],
+    "roleNote": "normal numbers from primes"
+   }
+  ],
+  "notes": "Borel 1909, Champernowne 1933 and Copeland-Erdos 1946 verified in Crossref. The input's Sierpinski (1917), Mahler and explicit examples were not verified (zbMATH Sierpinski search gave no record) and remain open. Institutional date is null: no naming or institution milestone found.",
+  "derivedDates": {
+   "conceptual": 1909,
+   "methodological": 1909,
+   "institutional": 1974
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P383",
+  "eventId": "W39/M46",
+  "canonicalName": "Brouwer topology",
+  "aliases": [
+   "Brouwer fixed-point theorem",
+   "invariance of dimension",
+   "degree theory",
+   "simplicial approximation"
+  ],
+  "phases": [
+   "Fixed points on surfaces (1910)",
+   "Invariance of dimension (1911)",
+   "Degree and general fixed point (1912)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1857,
+    "precision": "year",
+    "label": "Riemann uses the analysis situs name in a title",
+    "work": "Riemann, B., Lehrsatze aus der analysis situs fur die Theorie der Integrale von zweigliedrigen vollstandigen Differentialen, 1857",
+    "people": [
+     "Riemann"
+    ],
+    "description": "The earliest zbMATH title found that contains \"analysis situs\", the name of the field before \"topology\".",
+    "evidence": [
+     {
+      "claim": "zbMATH record for the 1857 Riemann paper with analysis situs in the title",
+      "source": "zbMATH Open doc 2750362",
+      "url": "https://api.zbmath.org/v1/document/2750362",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Field name here is analysis situs; Listing 1847/48 topology title not checked against a dated record. Leibniz coinage not sourced here. Reclassified from naming to precursor: it predates this event's first statement (1910) and belongs to the wider field.",
+    "endYear": null
+   },
+   {
+    "role": "precursor",
+    "year": 1904,
+    "endYear": null,
+    "precision": "year",
+    "label": "Bohl proves the three-dimensional case",
+    "work": "Piers Bohl, Ueber die Bewegung eines mechanischen Systems in der Naehe einer Gleichgewichtslage, Crelle 127, 1904",
+    "people": [
+     "Piers Bohl"
+    ],
+    "description": "Early fixed-point result for the three-dimensional ball, arising from stability of mechanical systems.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Crelle 127 (1904), pp. 179-276.",
+      "source": "Crossref 10.1515/crll.1904.127.179",
+      "url": "https://doi.org/10.1515/crll.1904.127.179",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "The n=3 case was first proved by Bohl in 1904.",
+      "source": "Wikipedia, Brouwer fixed-point theorem",
+      "url": "https://en.wikipedia.org/wiki/Brouwer_fixed-point_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1910,
+    "endYear": null,
+    "precision": "year",
+    "label": "Brouwer's fixed point on surfaces",
+    "work": "Brouwer, L. E. J., Uber eineindeutige, stetige Transformationen von Flachen in sich, Mathematische Annalen (1910)",
+    "people": [
+     "L. E. J. Brouwer"
+    ],
+    "description": "Brouwer's 1910 paper proves a fixed-point result for homeomorphisms of surfaces.",
+    "evidence": [
+     {
+      "claim": "Paper with this title, journal and year",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01456868",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says Brouwer proved the n=3 case in 1909 and Hadamard the general case in 1910; Brouwer's general continuous case is dated 1911.",
+      "source": "Wikipedia, Brouwer fixed-point theorem",
+      "url": "https://en.wikipedia.org/wiki/Brouwer_fixed-point_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Wikipedia dates Brouwer's own fixed-point proofs to 1909 and 1911; the 1910 surface paper is kept as the verified Crossref record, so the first statement of the theorem is uncertain by a year or two."
+   },
+   {
+    "role": "key_development",
+    "year": 1910,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hadamard proves the differentiable case for balls",
+    "work": "Jacques Hadamard, appendix to Tannery, Introduction a la theorie des fonctions, 1910",
+    "people": [
+     "Jacques Hadamard"
+    ],
+    "description": "Proves the fixed-point theorem for differentiable maps of the ball in any dimension using the Kronecker index.",
+    "evidence": [
+     {
+      "claim": "Hadamard proved the case of differentiable maps of the closed ball in 1910.",
+      "source": "Wikipedia, Brouwer fixed-point theorem",
+      "url": "https://en.wikipedia.org/wiki/Brouwer_fixed-point_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "No bibliographic record found; Crossref has no record for his note on the Kronecker index."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1911,
+    "endYear": null,
+    "precision": "year",
+    "label": "Invariance of dimension",
+    "work": "Brouwer, L. E. J., Beweis der Invarianz der Dimensionenzahl, Mathematische Annalen (1911)",
+    "people": [
+     "L. E. J. Brouwer"
+    ],
+    "description": "Brouwer uses simplicial approximation to prove invariance of dimension.",
+    "evidence": [
+     {
+      "claim": "Paper with this title, journal and year",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01461154",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1912,
+    "endYear": null,
+    "precision": "year",
+    "label": "Degree and maps of manifolds",
+    "work": "Brouwer, L. E. J., Uber Abbildung von Mannigfaltigkeiten, Mathematische Annalen (1912)",
+    "people": [
+     "L. E. J. Brouwer"
+    ],
+    "description": "Brouwer's 1912 paper develops the degree of maps and the general fixed-point theorem.",
+    "evidence": [
+     {
+      "claim": "Paper with this title, journal and year",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01456812",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Crossref also lists a 1911 record for the same title; 1912 follows the volume issue and is provisional."
+   },
+   {
+    "role": "key_development",
+    "year": 1930,
+    "endYear": null,
+    "precision": "year",
+    "label": "Schauder's fixed-point theorem in function spaces",
+    "work": "Juliusz Schauder, Der Fixpunktsatz in Funktionalraeumen, Studia Math. 2, 1930",
+    "people": [
+     "Juliusz Schauder"
+    ],
+    "description": "Extends Brouwer's theorem to Banach spaces, opening nonlinear analysis.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Studia Math. 2 (1930), pp. 171-180.",
+      "source": "Crossref 10.4064/sm-2-1-171-180",
+      "url": "https://doi.org/10.4064/sm-2-1-171-180",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Brouwer's theorem was generalised to Banach spaces in 1930.",
+      "source": "Wikipedia, Brouwer fixed-point theorem",
+      "url": "https://en.wikipedia.org/wiki/Brouwer_fixed-point_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1935,
+    "precision": "year",
+    "label": "Alexandroff and Hopf publish the first volume of Topologie",
+    "work": "Alexandroff, P., Hopf, H., Topologie I, 1935",
+    "people": [
+     "Alexandroff",
+     "Hopf"
+    ],
+    "description": "Monograph treatment of combinatorial and general topology that covers fixed-point and degree methods.",
+    "evidence": [
+     {
+      "claim": "Open Library lists Topologie I with first publication year 1935",
+      "source": "Open Library works OL21235036W",
+      "url": "https://openlibrary.org/works/OL21235036W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Catalogue year; the claim that it covers Brouwer degree theory was not checked against the text.",
+    "endYear": null
+   }
+  ],
+  "people": [
+   {
+    "name": "L. E. J. Brouwer",
+    "role": "originator",
+    "lifespan": "1881-1966",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Brouwer/",
+    "works": [
+     {
+      "citation": "Brouwer, Uber eineindeutige, stetige Transformationen von Flachen in sich (1910)",
+      "year": 1910,
+      "url": "https://doi.org/10.1007/bf01456868",
+      "whyItMatters": "Fixed points on surfaces."
+     },
+     {
+      "citation": "Brouwer, Beweis der Invarianz der Dimensionenzahl (1911)",
+      "year": 1911,
+      "url": "https://doi.org/10.1007/bf01461154",
+      "whyItMatters": "Invariance of dimension."
+     },
+     {
+      "citation": "Brouwer, Uber Abbildung von Mannigfaltigkeiten (1912)",
+      "year": 1912,
+      "url": "https://doi.org/10.1007/bf01456812",
+      "whyItMatters": "Degree theory."
+     }
+    ],
+    "roleNote": "founder of Brouwer topology"
+   },
+   {
+    "name": "Piers Bohl",
+    "role": "originator",
+    "lifespan": "1865 - 1921",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bohl/",
+    "works": [
+     {
+      "citation": "Ueber die Bewegung eines mechanischen Systems in der Naehe einer Gleichgewichtslage, Crelle 127",
+      "year": 1904,
+      "url": "https://doi.org/10.1515/crll.1904.127.179",
+      "whyItMatters": "Three-dimensional fixed-point case."
+     }
+    ]
+   },
+   {
+    "name": "Juliusz Schauder",
+    "role": "developer",
+    "lifespan": "1899 - 1943",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Schauder/",
+    "works": [
+     {
+      "citation": "Der Fixpunktsatz in Funktionalraeumen, Studia Math. 2",
+      "year": 1930,
+      "url": "https://doi.org/10.4064/sm-2-1-171-180",
+      "whyItMatters": "Banach-space generalisation."
+     }
+    ]
+   }
+  ],
+  "notes": "Crossref verified the three Brouwer papers; the fixed-point and degree contents are from the input summary and not read in the texts. No consolidation or naming milestone was found in this batch, so institutional is null. Added in thin-3 pass: Bohl 1904, Hadamard 1910, Lefschetz 1926, Schauder 1930. The event bundles the fixed-point theorem, invariance of dimension and degree theory; the three Brouwer papers keep their earlier Crossref evidence. Wikipedia's history credits Brouwer 1909/1911 for the general theorem, which is why the 1910 surface paper is a doubtful first_statement. No naming or consolidation milestone found. Milestones omitted to respect the 8-milestone cap: key_development 1926 Lefschetz fixed-point theorem.",
+  "derivedDates": {
+   "conceptual": 1910,
+   "methodological": 1911,
+   "institutional": 1935
+  },
+  "pass": "source-first thin-3 enrichment (Claude), unadjudicated"
+ },
+ {
+  "pid": "P409",
+  "eventId": "W70",
+  "canonicalName": "Decision problems for groups (Dehn)",
+  "aliases": [
+   "word problem",
+   "conjugacy problem",
+   "isomorphism problem for groups",
+   "Dehn's problems"
+  ],
+  "phases": [
+   "Dehn's problems (1911)",
+   "Solutions for special groups (Magnus, 1931)",
+   "Undecidability (Novikov, 1958)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1908,
+    "endYear": null,
+    "precision": "year",
+    "label": "Tietze's isomorphism problem",
+    "work": "H. Tietze, Ueber die topologischen Invarianten mehrdimensionaler Mannigfaltigkeiten, Monatsh. Math. Phys. 19 (1908)",
+    "people": [
+     "Heinrich Tietze"
+    ],
+    "description": "Tietze's work on finitely presented groups and manifold invariants is the usual earlier statement of the isomorphism question.",
+    "evidence": [
+     {
+      "claim": "Paper recorded in Crossref, 1908.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01736688",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Role as precursor of the isomorphism problem is background knowledge; the paper was not read."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1911,
+    "endYear": null,
+    "precision": "year",
+    "label": "Dehn poses the word problem",
+    "work": "Dehn, M., Uber unendliche diskontinuierliche Gruppen, Mathematische Annalen (1911)",
+    "people": [
+     "Max Dehn"
+    ],
+    "description": "Dehn poses the word, conjugacy and isomorphism problems for finitely presented groups.",
+    "evidence": [
+     {
+      "claim": "Paper with this title, journal and year",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01456932",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Dehn poses the word problem for finitely presented groups in 1911",
+      "source": "Wikipedia: Word problem (mathematics), timeline",
+      "url": "https://en.wikipedia.org/wiki/Word_problem_(mathematics)",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "The conjugacy and isomorphism problems are from the input summary and not confirmed in the Wikipedia timeline."
+   },
+   {
+    "role": "key_development",
+    "year": 1912,
+    "endYear": null,
+    "precision": "year",
+    "label": "Dehn solves the word problem for surface groups",
+    "work": "Dehn, Transformation der Kurven auf zweiseitigen Flaechen, Math. Ann. 72 (1912)",
+    "people": [
+     "Max Dehn"
+    ],
+    "description": "Gives an algorithm for words in surface groups, the first solved case.",
+    "evidence": [
+     {
+      "claim": "Paper recorded in Crossref, 1912.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01456725",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Dehn posed the word problem in 1911; MacTutor biography.",
+      "source": "MacTutor, Dehn",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Dehn/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "That this paper contains the surface-group algorithm is general knowledge."
+   },
+   {
+    "role": "key_development",
+    "year": 1930,
+    "precision": "year",
+    "label": "Magnus' Freiheitssatz",
+    "work": "W. Magnus, Ueber diskontinuierliche Gruppen mit einer definierenden Relation (Der Freiheitssatz), J. reine angew. Math. 163 (1930) 141-165",
+    "people": [
+     "Wilhelm Magnus"
+    ],
+    "description": "Magnus proves the Freiheitssatz for groups with one defining relation, a tool used for the identity problem.",
+    "evidence": [
+     {
+      "claim": "Crossref: Magnus, 'Ueber diskontinuierliche Gruppen mit einer definierenden Relation (Der Freiheitssatz)', Crelle 163 (1930), pp. 141-165.",
+      "source": "Crossref 10.1515/crll.1930.163.141",
+      "url": "https://doi.org/10.1515/crll.1930.163.141",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "year": 1932,
+    "endYear": null,
+    "precision": "year",
+    "label": "Magnus solves the identity problem for one-relator groups",
+    "work": "Magnus, Das Identitaetsproblem fuer Gruppen mit einer definierenden Relation, Math. Ann. 106 (1932)",
+    "people": [
+     "Wilhelm Magnus"
+    ],
+    "description": "Solves Dehn's word problem for groups with a single defining relation.",
+    "evidence": [
+     {
+      "claim": "Paper recorded in Crossref, 1932.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01455888",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Title states the result; this is the checked Magnus result, clearer than the 1931 milestone."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1958,
+    "endYear": null,
+    "precision": "year",
+    "label": "Novikov on algorithmic insolvability of the word problem",
+    "work": "Novikov, P. S., On the algorithmic insolvability of the word problem in group theory (1958)",
+    "people": [
+     "Pyotr S. Novikov"
+    ],
+    "description": "Novikov shows the word problem for groups is algorithmically unsolvable, settling the decision question negatively.",
+    "evidence": [
+     {
+      "claim": "Paper with this title and year 1958",
+      "source": "zbMATH Open",
+      "url": "https://zbmath.org/?q=an:0093.01304",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "The 1955 Russian original is not indexed; the 1958 record is the verified one."
+   },
+   {
+    "role": "key_development",
+    "year": 1959,
+    "endYear": null,
+    "precision": "year",
+    "label": "Boone proves unsolvability independently",
+    "work": "W. W. Boone, The word problem, Ann. of Math. 70 (1959)",
+    "people": [
+     "William W. Boone"
+    ],
+    "description": "A second proof that the word problem is unsolvable for some finitely presented group.",
+    "evidence": [
+     {
+      "claim": "Paper recorded in Crossref, 1959.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1970103",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "consolidation",
+    "year": 1977,
+    "endYear": null,
+    "precision": "year",
+    "label": "Lyndon and Schupp, Combinatorial Group Theory",
+    "work": "Lyndon and Schupp, Combinatorial Group Theory, Springer, 1977",
+    "people": [
+     "Roger C. Lyndon"
+    ],
+    "description": "Standard monograph covering the decision problems.",
+    "evidence": [
+     {
+      "claim": "Book first published 1977.",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/works/OL120021W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "people": [
+   {
+    "name": "Max Dehn",
+    "role": "developer",
+    "lifespan": "1878-1952",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Dehn/",
+    "works": [
+     {
+      "citation": "Dehn, Uber unendliche diskontinuierliche Gruppen (1911)",
+      "year": 1911,
+      "url": "https://doi.org/10.1007/bf01456932",
+      "whyItMatters": "Word, conjugacy and isomorphism problems."
+     }
+    ],
+    "roleNote": "decision problems"
+   },
+   {
+    "name": "Wilhelm Magnus",
+    "role": "developer",
+    "lifespan": "1907-1990",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Magnus/",
+    "works": [
+     {
+      "citation": "Magnus, Untersuchungen uber einige unendliche diskontinuierliche Gruppen (1931)",
+      "year": 1931,
+      "url": "https://doi.org/10.1007/bf01455808",
+      "whyItMatters": "Discontinuous groups."
+     }
+    ],
+    "roleNote": "discontinuous groups"
+   },
+   {
+    "name": "Pyotr S. Novikov",
+    "role": "developer",
+    "lifespan": "1901-1975",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Pyotr_S._Novikov",
+    "works": [
+     {
+      "citation": "Novikov, On the algorithmic insolvability of the word problem (1958)",
+      "year": 1958,
+      "url": "https://zbmath.org/?q=an:0093.01304",
+      "whyItMatters": "Undecidability of the word problem."
+     }
+    ],
+    "roleNote": "algorithmic unsolvability"
+   },
+   {
+    "name": "William W. Boone",
+    "role": "developer",
+    "lifespan": "1920-1983",
+    "biographyUrl": "https://en.wikipedia.org/wiki/William_Boone_(mathematician)",
+    "works": [
+     {
+      "citation": "The word problem",
+      "year": 1959,
+      "url": "https://doi.org/10.2307/1970103",
+      "whyItMatters": "Independent proof of unsolvability"
+     }
+    ]
+   },
+   {
+    "name": "Roger C. Lyndon",
+    "role": "systematiser",
+    "lifespan": "1917-1988",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Roger_Lyndon",
+    "works": [
+     {
+      "citation": "Combinatorial Group Theory",
+      "year": 1977,
+      "url": "https://openlibrary.org/works/OL120021W",
+      "whyItMatters": "Monograph (with Schupp)"
+     }
+    ]
+   }
+  ],
+  "notes": "Dehn 1911 is verified in Crossref and by the Wikipedia timeline for the word problem. The Boone and Novikov-Boone sequence is not in this batch. The 1931 Math. Ann. 105 Magnus entry was dropped (different paper); the Freiheitssatz (Crelle 163, 1930) replaces it in fix pass 2. Derived methodological and institutional dates are null. Thin-record pass: Magnus 1932, Boone 1959 and Rabin 1958 (10.2307/1969933) verified in Crossref; Post 1947 (10.2307/2267170) and Higman 1961 (10.1098/rspa.1961.0132) are candidates. The statement that Boone's work is independent of Novikov's is the standard account, not checked in the pages read.",
+  "derivedDates": {
+   "conceptual": 1911,
+   "methodological": null,
+   "institutional": 1977
+  },
+  "pass": "source-first thin-record enrichment (Sonnet), unadjudicated"
+ }
+]

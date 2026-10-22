@@ -1,0 +1,1020 @@
+{
+  "files": [
+    "data/collection/enrichment/scale/milestones43.json"
+  ],
+  "works": 56,
+  "resultCounts": {
+    "verified": 46,
+    "unsupported": 10
+  },
+  "resultCountsByType": {
+    "person_work": {
+      "verified": 29,
+      "unsupported": 7
+    },
+    "milestone_work": {
+      "verified": 17,
+      "unsupported": 3
+    }
+  },
+  "fileErrors": [],
+  "citations": [
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "WC33/QC41",
+      "itemType": "person_work",
+      "person": "John Baez",
+      "citation": "Higher-dimensional Algebra and Topological Quantum Field Theory",
+      "claimedYear": 1995,
+      "citedUrl": "https://arxiv.org/abs/q-alg/9503002",
+      "result": "verified",
+      "recordTitle": "Higher-dimensional Algebra and Topological Quantum Field Theory",
+      "recordYears": [
+        1995
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=q-alg%2F9503002",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "WC33/QC41",
+      "itemType": "person_work",
+      "person": "James Dolan",
+      "citation": "Higher-dimensional Algebra and Topological Quantum Field Theory",
+      "claimedYear": 1995,
+      "citedUrl": "https://arxiv.org/abs/q-alg/9503002",
+      "result": "verified",
+      "recordTitle": "Higher-dimensional Algebra and Topological Quantum Field Theory",
+      "recordYears": [
+        1995
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=q-alg%2F9503002",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "WC33/QC41",
+      "itemType": "person_work",
+      "person": "Jacob Lurie",
+      "citation": "On the Classification of Topological Field Theories",
+      "claimedYear": 2009,
+      "citedUrl": "https://arxiv.org/abs/0905.0465",
+      "result": "verified",
+      "recordTitle": "On the Classification of Topological Field Theories",
+      "recordYears": [
+        2009
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=0905.0465",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "WC33/QC41",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "Higher-dimensional Algebra and Topological Quantum Field Theory (1995)",
+      "claimedYear": 1995,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/q-alg/9503002",
+      "result": "verified",
+      "recordTitle": "Higher-dimensional Algebra and Topological Quantum Field Theory",
+      "recordYears": [
+        1995
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=q-alg%2F9503002",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "WC33/QC41",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "key_development",
+      "citation": "On the Classification of Topological Field Theories (2009)",
+      "claimedYear": 2009,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/0905.0465",
+      "result": "verified",
+      "recordTitle": "On the Classification of Topological Field Theories",
+      "recordYears": [
+        2009
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=0905.0465",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "WC12",
+      "itemType": "person_work",
+      "person": "Edward Witten",
+      "citation": "Monopoles and Four-Manifolds",
+      "claimedYear": 1994,
+      "citedUrl": "https://arxiv.org/abs/hep-th/9411102",
+      "result": "verified",
+      "recordTitle": "Monopoles and Four-Manifolds",
+      "recordYears": [
+        1994
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=hep-th%2F9411102",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "WC12",
+      "itemType": "person_work",
+      "person": "Peter Ozsváth",
+      "citation": "Holomorphic disks and topological invariants for closed three-manifolds",
+      "claimedYear": 2001,
+      "citedUrl": "https://arxiv.org/abs/math/0101206",
+      "result": "verified",
+      "recordTitle": "Holomorphic disks and topological invariants for closed three-manifolds",
+      "recordYears": [
+        2001
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0101206",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "WC12",
+      "itemType": "person_work",
+      "person": "Peter Ozsváth",
+      "citation": "Holomorphic disks and three-manifold invariants: properties and applications",
+      "claimedYear": 2001,
+      "citedUrl": "https://arxiv.org/abs/math/0105202",
+      "result": "verified",
+      "recordTitle": "Holomorphic disks and three-manifold invariants: properties and applications",
+      "recordYears": [
+        2001
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0105202",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "WC12",
+      "itemType": "person_work",
+      "person": "Zoltán Szabó",
+      "citation": "Holomorphic disks and topological invariants for closed three-manifolds",
+      "claimedYear": 2001,
+      "citedUrl": "https://arxiv.org/abs/math/0101206",
+      "result": "verified",
+      "recordTitle": "Holomorphic disks and topological invariants for closed three-manifolds",
+      "recordYears": [
+        2001
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0101206",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "WC12",
+      "itemType": "person_work",
+      "person": "Zoltán Szabó",
+      "citation": "Holomorphic disks and three-manifold invariants: properties and applications",
+      "claimedYear": 2001,
+      "citedUrl": "https://arxiv.org/abs/math/0105202",
+      "result": "verified",
+      "recordTitle": "Holomorphic disks and three-manifold invariants: properties and applications",
+      "recordYears": [
+        2001
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0105202",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "WC12",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "Monopoles and Four-Manifolds (1994)",
+      "claimedYear": 1994,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/hep-th/9411102",
+      "result": "verified",
+      "recordTitle": "Monopoles and Four-Manifolds",
+      "recordYears": [
+        1994
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=hep-th%2F9411102",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "WC12",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "first_statement",
+      "citation": "Holomorphic disks and topological invariants for closed three-manifolds (2001)",
+      "claimedYear": 2001,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/math/0101206",
+      "result": "verified",
+      "recordTitle": "Holomorphic disks and topological invariants for closed three-manifolds",
+      "recordYears": [
+        2001
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0101206",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "WC12",
+      "itemType": "milestone_work",
+      "milestoneIndex": 2,
+      "milestoneRole": "first_application",
+      "citation": "Holomorphic disks and three-manifold invariants: properties and applications (2001)",
+      "claimedYear": 2001,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/math/0105202",
+      "result": "verified",
+      "recordTitle": "Holomorphic disks and three-manifold invariants: properties and applications",
+      "recordYears": [
+        2001
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0105202",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "WC83",
+      "itemType": "person_work",
+      "person": "Alexander Razborov",
+      "citation": "Natural Proofs",
+      "claimedYear": 1994,
+      "citedUrl": "https://eccc.weizmann.ac.il/report/1994/010/",
+      "result": "unsupported",
+      "recordTitle": null,
+      "recordYears": [],
+      "recordUrl": null,
+      "recordNote": null,
+      "titleCheck": "unavailable"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "WC83",
+      "itemType": "person_work",
+      "person": "Steven Rudich",
+      "citation": "Natural Proofs",
+      "claimedYear": 1994,
+      "citedUrl": "https://eccc.weizmann.ac.il/report/1994/010/",
+      "result": "unsupported",
+      "recordTitle": null,
+      "recordYears": [],
+      "recordUrl": null,
+      "recordNote": null,
+      "titleCheck": "unavailable"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "WC83",
+      "itemType": "person_work",
+      "person": "Scott Aaronson",
+      "citation": "Algebrization: A New Barrier in Complexity Theory",
+      "claimedYear": 2008,
+      "citedUrl": "https://eccc.weizmann.ac.il/report/2008/005/",
+      "result": "unsupported",
+      "recordTitle": null,
+      "recordYears": [],
+      "recordUrl": null,
+      "recordNote": null,
+      "titleCheck": "unavailable"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "WC83",
+      "itemType": "person_work",
+      "person": "Avi Wigderson",
+      "citation": "Algebrization: A New Barrier in Complexity Theory",
+      "claimedYear": 2008,
+      "citedUrl": "https://eccc.weizmann.ac.il/report/2008/005/",
+      "result": "unsupported",
+      "recordTitle": null,
+      "recordYears": [],
+      "recordUrl": null,
+      "recordNote": null,
+      "titleCheck": "unavailable"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "WC83",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "Natural Proofs (1994)",
+      "claimedYear": 1994,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://eccc.weizmann.ac.il/report/1994/010/",
+      "result": "unsupported",
+      "recordTitle": null,
+      "recordYears": [],
+      "recordUrl": null,
+      "recordNote": null,
+      "titleCheck": "unavailable"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "WC83",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "key_development",
+      "citation": "Algebrization: A New Barrier in Complexity Theory (2008)",
+      "claimedYear": 2008,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://eccc.weizmann.ac.il/report/2008/005/",
+      "result": "unsupported",
+      "recordTitle": null,
+      "recordYears": [],
+      "recordUrl": null,
+      "recordNote": null,
+      "titleCheck": "unavailable"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "QC49",
+      "itemType": "person_work",
+      "person": "Michah Sageev",
+      "citation": "Ends of Group Pairs and Non-Positively Curved Cube Complexes",
+      "claimedYear": 1995,
+      "citedUrl": "https://doi.org/10.1112/plms/s3-71.3.585",
+      "result": "verified",
+      "recordTitle": "Ends of Group Pairs and Non-Positively Curved Cube Complexes",
+      "recordYears": [
+        1995,
+        2016
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1112/plms/s3-71.3.585",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "QC49",
+      "itemType": "person_work",
+      "person": "Frédéric Haglund",
+      "citation": "Special Cube Complexes",
+      "claimedYear": 2008,
+      "citedUrl": "https://doi.org/10.1007/s00039-007-0629-4",
+      "result": "verified",
+      "recordTitle": "Special Cube Complexes",
+      "recordYears": [
+        2007,
+        2008
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1007/s00039-007-0629-4",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "QC49",
+      "itemType": "person_work",
+      "person": "Daniel Wise",
+      "citation": "Special Cube Complexes",
+      "claimedYear": 2008,
+      "citedUrl": "https://doi.org/10.1007/s00039-007-0629-4",
+      "result": "verified",
+      "recordTitle": "Special Cube Complexes",
+      "recordYears": [
+        2007,
+        2008
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1007/s00039-007-0629-4",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "QC49",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "key_development",
+      "citation": "Ends of Group Pairs and Non-Positively Curved Cube Complexes (1995)",
+      "claimedYear": 1995,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.1112/plms/s3-71.3.585",
+      "result": "verified",
+      "recordTitle": "Ends of Group Pairs and Non-Positively Curved Cube Complexes",
+      "recordYears": [
+        1995,
+        2016
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1112/plms/s3-71.3.585",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "QC49",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "key_development",
+      "citation": "Special Cube Complexes (2008)",
+      "claimedYear": 2008,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.1007/s00039-007-0629-4",
+      "result": "verified",
+      "recordTitle": "Special Cube Complexes",
+      "recordYears": [
+        2007,
+        2008
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1007/s00039-007-0629-4",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "QC40",
+      "itemType": "person_work",
+      "person": "Louis Crane",
+      "citation": "Four dimensional topological quantum field theory, Hopf categories, and the canonical bases",
+      "claimedYear": 1994,
+      "citedUrl": "https://arxiv.org/abs/hep-th/9405183",
+      "result": "verified",
+      "recordTitle": "Four dimensional topological quantum field theory, Hopf categories, and the canonical bases",
+      "recordYears": [
+        1994
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=hep-th%2F9405183",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "QC40",
+      "itemType": "person_work",
+      "person": "Igor Frenkel",
+      "citation": "Four dimensional topological quantum field theory, Hopf categories, and the canonical bases",
+      "claimedYear": 1994,
+      "citedUrl": "https://arxiv.org/abs/hep-th/9405183",
+      "result": "verified",
+      "recordTitle": "Four dimensional topological quantum field theory, Hopf categories, and the canonical bases",
+      "recordYears": [
+        1994
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=hep-th%2F9405183",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "QC40",
+      "itemType": "person_work",
+      "person": "Mikhail Khovanov",
+      "citation": "A diagrammatic approach to categorification of quantum groups I",
+      "claimedYear": 2008,
+      "citedUrl": "https://arxiv.org/abs/0803.4121",
+      "result": "verified",
+      "recordTitle": "A diagrammatic approach to categorification of quantum groups I",
+      "recordYears": [
+        2008
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=0803.4121",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "QC40",
+      "itemType": "person_work",
+      "person": "Aaron Lauda",
+      "citation": "A diagrammatic approach to categorification of quantum groups I",
+      "claimedYear": 2008,
+      "citedUrl": "https://arxiv.org/abs/0803.4121",
+      "result": "verified",
+      "recordTitle": "A diagrammatic approach to categorification of quantum groups I",
+      "recordYears": [
+        2008
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=0803.4121",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "QC40",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "precursor",
+      "citation": "Four dimensional topological quantum field theory, Hopf categories, and the canonical bases (1994)",
+      "claimedYear": 1994,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/hep-th/9405183",
+      "result": "verified",
+      "recordTitle": "Four dimensional topological quantum field theory, Hopf categories, and the canonical bases",
+      "recordYears": [
+        1994
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=hep-th%2F9405183",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "QC40",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "key_development",
+      "citation": "A diagrammatic approach to categorification of quantum groups I (2008)",
+      "claimedYear": 2008,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/0803.4121",
+      "result": "verified",
+      "recordTitle": "A diagrammatic approach to categorification of quantum groups I",
+      "recordYears": [
+        2008
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=0803.4121",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "QC37",
+      "itemType": "person_work",
+      "person": "Edward Witten",
+      "citation": "Monopoles and Four-Manifolds",
+      "claimedYear": 1994,
+      "citedUrl": "https://arxiv.org/abs/hep-th/9411102",
+      "result": "verified",
+      "recordTitle": "Monopoles and Four-Manifolds",
+      "recordYears": [
+        1994
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=hep-th%2F9411102",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "QC37",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "Monopoles and Four-Manifolds (1994)",
+      "claimedYear": 1994,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/hep-th/9411102",
+      "result": "verified",
+      "recordTitle": "Monopoles and Four-Manifolds",
+      "recordYears": [
+        1994
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=hep-th%2F9411102",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "QC43",
+      "itemType": "person_work",
+      "person": "Bertrand Toën",
+      "citation": "From HAG to DAG: derived moduli spaces",
+      "claimedYear": 2002,
+      "citedUrl": "https://arxiv.org/abs/math/0210407",
+      "result": "verified",
+      "recordTitle": "From HAG to DAG: derived moduli spaces",
+      "recordYears": [
+        2002
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0210407",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "QC43",
+      "itemType": "person_work",
+      "person": "Bertrand Toën",
+      "citation": "Homotopical Algebraic Geometry II: Geometric Stacks and Applications",
+      "claimedYear": 2004,
+      "citedUrl": "https://arxiv.org/abs/math/0404373",
+      "result": "verified",
+      "recordTitle": "Homotopical Algebraic Geometry II: geometric stacks and applications",
+      "recordYears": [
+        2004
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0404373",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "QC43",
+      "itemType": "person_work",
+      "person": "Gabriele Vezzosi",
+      "citation": "From HAG to DAG: derived moduli spaces",
+      "claimedYear": 2002,
+      "citedUrl": "https://arxiv.org/abs/math/0210407",
+      "result": "verified",
+      "recordTitle": "From HAG to DAG: derived moduli spaces",
+      "recordYears": [
+        2002
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0210407",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "QC43",
+      "itemType": "person_work",
+      "person": "Gabriele Vezzosi",
+      "citation": "Homotopical Algebraic Geometry II: Geometric Stacks and Applications",
+      "claimedYear": 2004,
+      "citedUrl": "https://arxiv.org/abs/math/0404373",
+      "result": "verified",
+      "recordTitle": "Homotopical Algebraic Geometry II: geometric stacks and applications",
+      "recordYears": [
+        2004
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0404373",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "QC43",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "From HAG to DAG: derived moduli spaces (2002)",
+      "claimedYear": 2002,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/math/0210407",
+      "result": "verified",
+      "recordTitle": "From HAG to DAG: derived moduli spaces",
+      "recordYears": [
+        2002
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0210407",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "QC43",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "key_development",
+      "citation": "Homotopical Algebraic Geometry II: Geometric Stacks and Applications (2004)",
+      "claimedYear": 2004,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/math/0404373",
+      "result": "verified",
+      "recordTitle": "Homotopical Algebraic Geometry II: geometric stacks and applications",
+      "recordYears": [
+        2004
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0404373",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "P36",
+      "itemType": "person_work",
+      "person": "Michel Goemans",
+      "citation": ".879-approximation algorithms for MAX CUT and MAX 2SAT",
+      "claimedYear": 1994,
+      "citedUrl": "https://doi.org/10.1145/195058.195216",
+      "result": "verified",
+      "recordTitle": ".879-approximation algorithms for MAX CUT and MAX 2SAT",
+      "recordYears": [
+        1994
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1145/195058.195216",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "P36",
+      "itemType": "person_work",
+      "person": "Michel Goemans",
+      "citation": "Improved approximation algorithms for maximum cut and satisfiability problems using semidefinite programming",
+      "claimedYear": 1995,
+      "citedUrl": "https://doi.org/10.1145/227683.227684",
+      "result": "verified",
+      "recordTitle": "Improved approximation algorithms for maximum cut and satisfiability problems using semidefinite programming",
+      "recordYears": [
+        1995
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1145/227683.227684",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "P36",
+      "itemType": "person_work",
+      "person": "David Williamson",
+      "citation": ".879-approximation algorithms for MAX CUT and MAX 2SAT",
+      "claimedYear": 1994,
+      "citedUrl": "https://doi.org/10.1145/195058.195216",
+      "result": "verified",
+      "recordTitle": ".879-approximation algorithms for MAX CUT and MAX 2SAT",
+      "recordYears": [
+        1994
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1145/195058.195216",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "P36",
+      "itemType": "person_work",
+      "person": "David Williamson",
+      "citation": "Improved approximation algorithms for maximum cut and satisfiability problems using semidefinite programming",
+      "claimedYear": 1995,
+      "citedUrl": "https://doi.org/10.1145/227683.227684",
+      "result": "verified",
+      "recordTitle": "Improved approximation algorithms for maximum cut and satisfiability problems using semidefinite programming",
+      "recordYears": [
+        1995
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1145/227683.227684",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "P36",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": ".879-approximation algorithms for MAX CUT and MAX 2SAT (1994)",
+      "claimedYear": 1994,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.1145/195058.195216",
+      "result": "verified",
+      "recordTitle": ".879-approximation algorithms for MAX CUT and MAX 2SAT",
+      "recordYears": [
+        1994
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1145/195058.195216",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "P36",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "consolidation",
+      "citation": "Improved approximation algorithms for maximum cut and satisfiability problems using semidefinite programming (1995)",
+      "claimedYear": 1995,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.1145/227683.227684",
+      "result": "verified",
+      "recordTitle": "Improved approximation algorithms for maximum cut and satisfiability problems using semidefinite programming",
+      "recordYears": [
+        1995
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1145/227683.227684",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "P67",
+      "itemType": "person_work",
+      "person": "Constantinos Daskalakis",
+      "citation": "The complexity of computing a Nash equilibrium",
+      "claimedYear": 2005,
+      "citedUrl": "https://eccc.weizmann.ac.il/report/2005/115/",
+      "result": "unsupported",
+      "recordTitle": null,
+      "recordYears": [],
+      "recordUrl": null,
+      "recordNote": null,
+      "titleCheck": "unavailable"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "P67",
+      "itemType": "person_work",
+      "person": "Constantinos Daskalakis",
+      "citation": "The Complexity of Computing a Nash Equilibrium",
+      "claimedYear": 2009,
+      "citedUrl": "https://doi.org/10.1137/070699652",
+      "result": "verified",
+      "recordTitle": "The Complexity of Computing a Nash Equilibrium",
+      "recordYears": [
+        2009
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1137/070699652",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "P67",
+      "itemType": "person_work",
+      "person": "Paul Goldberg",
+      "citation": "The complexity of computing a Nash equilibrium",
+      "claimedYear": 2005,
+      "citedUrl": "https://eccc.weizmann.ac.il/report/2005/115/",
+      "result": "unsupported",
+      "recordTitle": null,
+      "recordYears": [],
+      "recordUrl": null,
+      "recordNote": null,
+      "titleCheck": "unavailable"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "P67",
+      "itemType": "person_work",
+      "person": "Paul Goldberg",
+      "citation": "The Complexity of Computing a Nash Equilibrium",
+      "claimedYear": 2009,
+      "citedUrl": "https://doi.org/10.1137/070699652",
+      "result": "verified",
+      "recordTitle": "The Complexity of Computing a Nash Equilibrium",
+      "recordYears": [
+        2009
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1137/070699652",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "P67",
+      "itemType": "person_work",
+      "person": "Christos Papadimitriou",
+      "citation": "The complexity of computing a Nash equilibrium",
+      "claimedYear": 2005,
+      "citedUrl": "https://eccc.weizmann.ac.il/report/2005/115/",
+      "result": "unsupported",
+      "recordTitle": null,
+      "recordYears": [],
+      "recordUrl": null,
+      "recordNote": null,
+      "titleCheck": "unavailable"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "P67",
+      "itemType": "person_work",
+      "person": "Christos Papadimitriou",
+      "citation": "The Complexity of Computing a Nash Equilibrium",
+      "claimedYear": 2009,
+      "citedUrl": "https://doi.org/10.1137/070699652",
+      "result": "verified",
+      "recordTitle": "The Complexity of Computing a Nash Equilibrium",
+      "recordYears": [
+        2009
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1137/070699652",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "P67",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "The complexity of computing a Nash equilibrium (2005)",
+      "claimedYear": 2005,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://eccc.weizmann.ac.il/report/2005/115/",
+      "result": "unsupported",
+      "recordTitle": null,
+      "recordYears": [],
+      "recordUrl": null,
+      "recordNote": null,
+      "titleCheck": "unavailable"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "P67",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "key_development",
+      "citation": "The Complexity of Computing a Nash Equilibrium (2009)",
+      "claimedYear": 2009,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.1137/070699652",
+      "result": "verified",
+      "recordTitle": "The Complexity of Computing a Nash Equilibrium",
+      "recordYears": [
+        2009
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1137/070699652",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "P73",
+      "itemType": "person_work",
+      "person": "Maxim Kontsevich",
+      "citation": "Homological Algebra of Mirror Symmetry",
+      "claimedYear": 1994,
+      "citedUrl": "https://arxiv.org/abs/alg-geom/9411018",
+      "result": "verified",
+      "recordTitle": "Homological Algebra of Mirror Symmetry",
+      "recordYears": [
+        1994
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=alg-geom%2F9411018",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "P73",
+      "itemType": "person_work",
+      "person": "Paul Seidel",
+      "citation": "Fukaya Categories and Picard–Lefschetz Theory",
+      "claimedYear": 2008,
+      "citedUrl": "https://doi.org/10.4171/063",
+      "result": "verified",
+      "recordTitle": "Fukaya Categories and Picard–Lefschetz Theory",
+      "recordYears": [
+        2008
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.4171/063",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "P73",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "Homological Algebra of Mirror Symmetry (1994)",
+      "claimedYear": 1994,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/alg-geom/9411018",
+      "result": "verified",
+      "recordTitle": "Homological Algebra of Mirror Symmetry",
+      "recordYears": [
+        1994
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=alg-geom%2F9411018",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones43.json",
+      "eventId": "P73",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "consolidation",
+      "citation": "Fukaya Categories and Picard–Lefschetz Theory (2008)",
+      "claimedYear": 2008,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.4171/063",
+      "result": "verified",
+      "recordTitle": "Fukaya Categories and Picard–Lefschetz Theory",
+      "recordYears": [
+        2008
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.4171/063",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    }
+  ]
+}

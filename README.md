@@ -67,6 +67,8 @@ Every event is one of seven types. The type says *how* mathematics changed, and 
 - Dates are the first public statement, which is often later than when an idea was first used, and may be earlier than its acceptance.
 - Source-first events have not been independently verified milestone by milestone.
 
+The raw research behind the events (catalogues, milestone research per event, validation scripts) is archived in [`research/`](research/).
+
 Corrections are welcome. Open an issue.
 
 ## Licence

@@ -1,0 +1,144 @@
+[
+ {
+  "pid": "P092",
+  "eventId": "B26",
+  "name": "Rigid analytic spaces",
+  "type": "technique-transfer",
+  "from": [
+   "Analysis",
+   "Geometry"
+  ],
+  "to": [
+   "Number theory"
+  ],
+  "summary": "Complex-analytic ideas (coherent sheaves, analytic continuation) are made to work over complete non-archimedean fields, giving p-adic uniformisation of elliptic curves."
+ },
+ {
+  "pid": "P251",
+  "eventId": "MB31",
+  "name": "Weil: integration on topological groups, harmonic analysis",
+  "type": "birth-by-fusion",
+  "from": [
+   "topological groups (Haar measure)",
+   "harmonic analysis"
+  ],
+  "to": [
+   "abstract harmonic analysis"
+  ],
+  "summary": "Haar measure and Pontryagin duality were systematised in a general setting."
+ },
+ {
+  "pid": "P540",
+  "eventId": "Q39",
+  "name": "Probabilistic construction of Liouville conformal field theory",
+  "type": "import-from-outside",
+  "from": [
+   "probability (Gaussian free field, Gaussian multiplicative chaos)",
+   "conformal field theory (Liouville, bootstrap, DOZZ)"
+  ],
+  "to": [
+   "probabilistic Liouville CFT"
+  ],
+  "summary": "Polyakov's path integral for Liouville theory was made rigorous via the Gaussian free field and Kahane's multiplicative chaos, and its correlation functions were shown to agree with the physicists' bootstrap and the DOZZ formula."
+ },
+ {
+  "pid": "P262",
+  "eventId": "WB125",
+  "name": "Automata and formal verification",
+  "type": "technique-transfer",
+  "from": [
+   "mathematical logic",
+   "programming languages"
+  ],
+  "to": [
+   "program verification (Floyd-Hoare logic)"
+  ],
+  "summary": "Floyd and Hoare apply logic to program correctness."
+ },
+ {
+  "pid": "P448",
+  "eventId": "H44",
+  "name": "Beltrami and Klein models: differential geometry proves relative consistency",
+  "type": "technique-transfer",
+  "from": [
+   "differential geometry (surfaces)",
+   "projective geometry"
+  ],
+  "to": [
+   "non-Euclidean geometry"
+  ],
+  "summary": "Beltrami realised hyperbolic geometry on a surface in Euclidean space and Klein completed models using Cayley's distance, reducing consistency of non-Euclidean geometry to Euclidean."
+ },
+ {
+  "pid": "P273",
+  "eventId": "WB90",
+  "name": "Ribet and modularity",
+  "type": "technique-transfer",
+  "from": [
+   "elliptic curves",
+   "Galois representations",
+   "modular forms"
+  ],
+  "to": [
+   "Diophantine equations (FLT)"
+  ],
+  "summary": "Ribet shows Frey curve would contradict modularity."
+ },
+ {
+  "pid": "P289",
+  "eventId": "MB27",
+  "name": "Serre GAGA",
+  "type": "dictionary-analogy",
+  "from": [
+   "complex analytic geometry",
+   "algebraic geometry"
+  ],
+  "to": [
+   "algebraic geometry"
+  ],
+  "summary": "Analytic and algebraic coherent sheaf cohomology on projective varieties were shown to agree."
+ },
+ {
+  "pid": "P103",
+  "eventId": "B37",
+  "name": "Harmonic integrals and the vanishing theorem (Kodaira)",
+  "type": "technique-transfer",
+  "from": [
+   "Analysis",
+   "Geometry"
+  ],
+  "to": [
+   "Geometry"
+  ],
+  "summary": "Hodge theory (harmonic forms) is applied to compact Kahler manifolds to prove vanishing theorems and characterise projective varieties."
+ },
+ {
+  "pid": "P521",
+  "eventId": "P80",
+  "name": "Constructive quantum field theory",
+  "type": "import-from-outside",
+  "from": [
+   "quantum field theory",
+   "probability (Markov fields)",
+   "functional analysis"
+  ],
+  "to": [
+   "constructive quantum field theory"
+  ],
+  "summary": "Quantum fields in low dimensions are built rigorously from Markov random fields and reflection-positivity."
+ },
+ {
+  "pid": "P440",
+  "eventId": "H35",
+  "name": "Hausdorff dimension: measure meets dimension theory",
+  "type": "birth-by-fusion",
+  "from": [
+   "topology (dimension)",
+   "measure theory"
+  ],
+  "to": [
+   "geometric measure theory (fractional dimension)"
+  ],
+  "summary": "Hausdorff allowed non-integer dimensions defined metrically, Besicovitch developed the theory, and Mandelbrot's fractal definition set it against topological dimension."
+ }
+]

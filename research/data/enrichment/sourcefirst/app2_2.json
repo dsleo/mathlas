@@ -1,0 +1,152 @@
+[
+ {
+  "pid": "P166",
+  "eventId": "MA101",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia raw wikitext (Elliptic function, Theta function): read history/background sections and citations; history section dates the elliptic-function theory to Abel/Jacobi 1827-1829 and the Fundamenta 1829; no dated application of theta functions after 1829 is given",
+   "zbMATH Open search: Fundamenta nova title query returned no record (HTTP 404); a second query on elliptic functions 1829 gave only later monographs (2006, 2017), no 1829-1830s application paper",
+   "MacTutor: Jacobi biography (Biographies/Jacobi) read: discusses Fundamenta 1829 and supplements as the theory's foundation; no specific first application named"
+  ],
+  "searched_note": "Candidate application inside the 1829 Fundamenta (for example number-theoretic use) not confirmed by any dated history source; treated as not established."
+ },
+ {
+  "pid": "P429",
+  "eventId": "H16",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia raw wikitext (Matrix (mathematics)): read history/background sections and citations; history section credits Cayley 1850s matrix theory and Sylvester naming; no dated first application of the matrix calculus to a target problem found",
+   "zbMATH Open search: memoir on the theory of matrices query returned 404 (no record); other matrix-theory queries not run beyond that",
+   "MacTutor: Cayley biography read: matrix papers 1855-1858 and later use in linear transformations; no specific first application year stated"
+  ],
+  "searched_note": "Cayley's 1858 memoir applies matrices to linear transformations, but no history source singles it out as the first purposeful application, so it is not promoted."
+ },
+ {
+  "pid": "P070",
+  "eventId": "B04",
+  "verdict": "found",
+  "milestones": [
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1969,
+    "endYear": null,
+    "precision": "year",
+    "label": "Deligne-Mumford: irreducibility of the moduli of curves via stable curves",
+    "work": "Deligne, P.; Mumford, D., The irreducibility of the space of curves of given genus, Publ. Math. IHES 36, 1969, 75-109",
+    "people": [
+     "Pierre Deligne",
+     "David Mumford"
+    ],
+    "description": "Mumford's quotient construction is used to build the moduli space of stable curves as a quotient of a Hilbert-scheme open set, applied to the irreducibility problem.",
+    "evidence": [
+     {
+      "claim": "Deligne and Mumford's 1969 paper proves irreducibility of the moduli of curves; the moduli space is a quotient of a Hilbert-scheme subset by PGL, and the GIT article states that quotients as moduli were the motivation of Mumford's theory",
+      "source": "Wikipedia, Moduli of algebraic curves and Geometric invariant theory (raw wikitext)",
+      "url": "https://en.wikipedia.org/w/index.php?action=raw&title=Moduli_of_algebraic_curves",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Bibliographic record: 'The irreducibility of the space of curves of given genus', Publ. Math. IHES 36 (1969) pp. 75-109",
+      "source": "zbMATH Open search",
+      "url": "https://api.zbmath.org/v1/document/_search?page=0&size=5&search_string=irreducibility%20of%20the%20space%20of%20curves%20of%20given%20genus",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Year and paper supported. That it is the first purposeful GIT application (versus earlier moduli uses by Mumford himself in 1965-1968) is not verified by a history source, and the history source supports GIT use only indirectly. Do not promote without a further check."
+   }
+  ],
+  "searched": [
+   "Wikipedia raw wikitext (Geometric invariant theory, Moduli of algebraic curves): read history/background sections and citations; GIT article history: Mumford's quotient motivated by moduli; moduli-of-curves article: stable-curve moduli as H_g/PGL and the 1969 Deligne-Mumford theorem",
+   "zbMATH Open search: 'Mumford geometric invariant theory' and 'Mumford moduli curves 1969' queries: 1965 book, 1969 Deligne-Mumford irreducibility record",
+   "MacTutor: MacTutor Mumford biography read: moduli as a central theme; no specific dated first GIT application identified"
+  ]
+ },
+ {
+  "pid": "P147",
+  "eventId": "WA51",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia raw wikitext (Takakazu Seki (redirect to Seki Takakazu), Seki Takakazu page): read history/background sections and citations; Seki Takakazu page (redirected) and history: determinant and elimination in 1683 manuscripts; no dated first application beyond the 1685 statement",
+   "zbMATH Open search: 'Seki resultant determinant' query returned one 2014 record on the sangaku determinant, no 1685-1700 application",
+   "MacTutor: MacTutor Seki biography read: elimination and determinant work 1674-1683; the next use named is in Takebe's text, not a separate application"
+  ],
+  "searched_note": "No dated application after the 1685 statement was found."
+ },
+ {
+  "pid": "P410",
+  "eventId": "M39",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia raw wikitext (Descriptive set theory): read history/background sections and citations; history section cites Lusin and Suslin; no dated application of analytic-set theory to a target problem after 1917 found in the article",
+   "zbMATH Open search: 'Suslin analytic sets' query: 1974-1987 records only, no 1917-1930 application",
+   "MacTutor: MacTutor Suslin biography read: 1917 student period and analytic-set definition; no dated application named"
+  ],
+  "searched_note": "Later Lusin-Sierpinski work is outside the strict candidate window established here and was not promoted."
+ },
+ {
+  "pid": "P186",
+  "eventId": "MA2",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia raw wikitext (Babylonian mathematics): read history/background sections and citations; history section covers Old Babylonian quadratic procedures; no dated first application of the procedure after its first statement is distinguished",
+   "zbMATH Open search: 'Babylonian quadratic equations' query returned 1981 and later records, none establishing a dated application",
+   "MacTutor: MacTutor: no dedicated Babylonian biography; Neugebauer biography not fetched for this event"
+  ],
+  "searched_note": "Event is a long-term procedure; no separate first application is documented. Second family is zbMATH plus Wikipedia, MacTutor gap noted."
+ },
+ {
+  "pid": "P069",
+  "eventId": "B03",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia raw wikitext (Algebraic K-theory): read history/background sections and citations; history section: Quillen's higher K-theory 1973-1975 and Thomason; applications listed are internal (finite fields, localization)",
+   "zbMATH Open search: 'Quillen higher algebraic K-theory' query: 1973-1975 records of Quillen's own papers, no later dated application record",
+   "MacTutor: MacTutor Quillen biography read: K-theory and cohomology; Quillen-Suslin 1976 considered as a candidate and rejected (it uses patching, not the higher K-groups)"
+  ],
+  "searched_note": "Quillen 1976 'Projective modules over polynomial rings' is the closest candidate, but it does not use the higher K-theory idea; not promoted."
+ },
+ {
+  "pid": "P146",
+  "eventId": "MA56/WA41",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia raw wikitext (Pierre de Fermat): read history/background sections and citations; Fermat article history: adequality and tangents; no dated first application of the method after 1642 named",
+   "zbMATH Open search: 'Fermat methodus maxima minima' query: 1990-2016 studies of Fermat's method and diffusion, no 1642-1680 application record",
+   "MacTutor: MacTutor Fermat biography read: method of maxima and tangents; no dated application named"
+  ],
+  "searched_note": "Historians discuss diffusion but no dated application record is found in the sources read."
+ },
+ {
+  "pid": "P290",
+  "eventId": "MB20",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia raw wikitext (Sobolev space): read history/background sections and citations; Sobolev space article history: 1938 function spaces; no dated application of the spaces to a specific problem after 1938 identified",
+   "zbMATH Open search: 'Sobolev spaces' query: 1938 Sobolev paper, 1950/1988 monograph records; no separate 1938-1945 application paper found",
+   "MacTutor: MacTutor Sobolev biography read: 1938 function spaces and applications to mathematical physics; no dated first application named"
+  ],
+  "searched_note": "The 1938 paper itself is the first statement; no dated application is confirmed by a history source."
+ },
+ {
+  "pid": "P117",
+  "eventId": "WA54/MA72",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia raw wikitext (Law of large numbers, Ars Conjectandi): read history/background sections and citations; Law of large numbers article history: Ars Conjectandi 1713 and de Moivre; no dated first application of the theorem after 1713 named",
+   "zbMATH Open search: 'Ars conjectandi' query: 1977-2006 studies, no 1713-1730 application record",
+   "MacTutor: MacTutor Bernoulli (Jacob) biography read: 1713 publication and posthumous edition; no separate first application identified"
+  ],
+  "searched_note": "Applications in Part IV of Ars Conjectandi are in the same book as the first statement and are not treated as a later first application."
+ }
+]

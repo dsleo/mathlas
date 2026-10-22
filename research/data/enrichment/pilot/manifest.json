@@ -1,0 +1,276 @@
+{
+  "source": "field-events-merged.json at commit 5aad831",
+  "sampleMethod": "Six random events per period (seed 21), plus six known cases selected by name; original order and grouping preserved from the interrupted run.",
+  "events": [
+    {
+      "pid": "P367",
+      "eventId": "E75/W50/M34",
+      "name": "Dynamical systems from celestial mechanics",
+      "batch": 1,
+      "era": "1850-1929",
+      "sourceFamily": "Period run 1850-1930",
+      "catalogueYear": 1881
+    },
+    {
+      "pid": "P363",
+      "eventId": "W40/M43",
+      "name": "Metric spaces (Frechet)",
+      "batch": 1,
+      "era": "1850-1929",
+      "sourceFamily": "Period run 1850-1930",
+      "catalogueYear": 1906
+    },
+    {
+      "pid": "P026",
+      "eventId": "E34",
+      "name": "The Langlands programme: automorphic forms and Galois representations over number fields",
+      "batch": 1,
+      "era": "1930-1989",
+      "sourceFamily": "Seed set A",
+      "catalogueYear": 1967
+    },
+    {
+      "pid": "P232",
+      "eventId": "MB87/WB19",
+      "name": "Formal language theory",
+      "batch": 1,
+      "era": "1930-1989",
+      "sourceFamily": "Period run 1930-1990",
+      "catalogueYear": 1956
+    },
+    {
+      "pid": "P406",
+      "eventId": "W78",
+      "name": "Frobenius method and singular ODE theory",
+      "batch": 1,
+      "era": "1850-1929",
+      "sourceFamily": "Period run 1850-1930",
+      "catalogueYear": 1865
+    },
+    {
+      "pid": "P159",
+      "eventId": "WA57",
+      "name": "Cotes: logarithm of complex arguments",
+      "batch": 1,
+      "era": "before 1850",
+      "sourceFamily": "Period run before 1850",
+      "catalogueYear": 1714
+    },
+    {
+      "pid": "P134",
+      "eventId": "MA8/WA5",
+      "name": "Euclid's Elements",
+      "batch": 1,
+      "era": "before 1850",
+      "sourceFamily": "Period run before 1850",
+      "catalogueYear": -325
+    },
+    {
+      "pid": "P066",
+      "eventId": "E77",
+      "name": "Boolean algebra: logic as algebra, then topology (Boole to Stone)",
+      "batch": 1,
+      "era": "before 1850",
+      "sourceFamily": "Seed set A",
+      "catalogueYear": 1847
+    },
+    {
+      "pid": "P057",
+      "eventId": "E65",
+      "name": "Function-field Langlands: Drinfeld and Lafforgue",
+      "batch": 1,
+      "era": "1930-1989",
+      "sourceFamily": "Seed set A",
+      "catalogueYear": 1967
+    },
+    {
+      "pid": "P533",
+      "eventId": "Q23",
+      "name": "Murmurations: machine learning and statistics reveal patterns in elliptic curves",
+      "batch": 1,
+      "era": "1990-2026",
+      "sourceFamily": "Open harvest",
+      "catalogueYear": 2020
+    },
+    {
+      "pid": "P108",
+      "eventId": "B42",
+      "name": "Large deviations from statistical mechanics",
+      "batch": 2,
+      "era": "1930-1989",
+      "sourceFamily": "Seed set B",
+      "catalogueYear": 1966
+    },
+    {
+      "pid": "P086",
+      "eventId": "B20",
+      "name": "Hardness versus randomness",
+      "batch": 2,
+      "era": "1990-2026",
+      "sourceFamily": "Seed set B",
+      "catalogueYear": 1994
+    },
+    {
+      "pid": "P329",
+      "eventId": "WC47",
+      "name": "Ergodic theory and Littlewood conjecture",
+      "batch": 2,
+      "era": "1990-2026",
+      "sourceFamily": "Period run 1990-2026",
+      "catalogueYear": 1996
+    },
+    {
+      "pid": "P186",
+      "eventId": "MA2",
+      "name": "Babylonian quadratic and cubic problem-solving",
+      "batch": 2,
+      "era": "before 1850",
+      "sourceFamily": "Period run before 1850",
+      "catalogueYear": -1900
+    },
+    {
+      "pid": "P119",
+      "eventId": "WA7/MA11",
+      "name": "Archimedes statics",
+      "batch": 2,
+      "era": "before 1850",
+      "sourceFamily": "Period run before 1850",
+      "catalogueYear": 212
+    },
+    {
+      "pid": "P408",
+      "eventId": "W65",
+      "name": "Abstract rings and fields",
+      "batch": 2,
+      "era": "1850-1929",
+      "sourceFamily": "Period run 1850-1930",
+      "catalogueYear": 1871
+    },
+    {
+      "pid": "P179",
+      "eventId": "WA55",
+      "name": "Arbuthnot: significance testing",
+      "batch": 2,
+      "era": "before 1850",
+      "sourceFamily": "Period run before 1850",
+      "catalogueYear": 1710
+    },
+    {
+      "pid": "P021",
+      "eventId": "E29",
+      "name": "Sheaf theory",
+      "batch": 2,
+      "era": "1930-1989",
+      "sourceFamily": "Seed set A",
+      "catalogueYear": 1945
+    },
+    {
+      "pid": "P288",
+      "eventId": "WB67",
+      "name": "Iwasawa theory",
+      "batch": 2,
+      "era": "1930-1989",
+      "sourceFamily": "Period run 1930-1990",
+      "catalogueYear": 1959
+    },
+    {
+      "pid": "P405",
+      "eventId": "W35",
+      "name": "Many-valued logics",
+      "batch": 2,
+      "era": "1850-1929",
+      "sourceFamily": "Period run 1850-1930",
+      "catalogueYear": 1920
+    },
+    {
+      "pid": "P006",
+      "eventId": "E08",
+      "name": "Group theory from the solution of polynomial equations",
+      "batch": 3,
+      "era": "before 1850",
+      "sourceFamily": "Seed set A",
+      "catalogueYear": 1770
+    },
+    {
+      "pid": "P018",
+      "eventId": "E26",
+      "name": "The probabilistic method in combinatorics",
+      "batch": 3,
+      "era": "1930-1989",
+      "sourceFamily": "Seed set A",
+      "catalogueYear": 1947
+    },
+    {
+      "pid": "P048",
+      "eventId": "E56",
+      "name": "Hodge theory proves log-concavity conjectures",
+      "batch": 3,
+      "era": "1990-2026",
+      "sourceFamily": "Seed set A",
+      "catalogueYear": 2010
+    },
+    {
+      "pid": "P447",
+      "eventId": "H43",
+      "name": "Non-Euclidean geometry: the independence of the parallel postulate",
+      "batch": 3,
+      "era": "before 1850",
+      "sourceFamily": "Open harvest",
+      "catalogueYear": 1817
+    },
+    {
+      "pid": "P300",
+      "eventId": "E58/WC68",
+      "name": "Erdos discrepancy",
+      "batch": 3,
+      "era": "1990-2026",
+      "sourceFamily": "Period run 1990-2026",
+      "catalogueYear": 2010
+    },
+    {
+      "pid": "P505",
+      "eventId": "P62",
+      "name": "Lenstra-Lenstra-Lovasz lattice basis reduction",
+      "batch": 3,
+      "era": "1930-1989",
+      "sourceFamily": "Open harvest",
+      "catalogueYear": 1982
+    },
+    {
+      "pid": "P151",
+      "eventId": "WA52",
+      "name": "Differential equations from calculus",
+      "batch": 3,
+      "era": "before 1850",
+      "sourceFamily": "Period run before 1850",
+      "catalogueYear": 1671
+    },
+    {
+      "pid": "P526",
+      "eventId": "Q6",
+      "name": "Positive Grassmannian as a hub between combinatorics, probability and integrable systems",
+      "batch": 3,
+      "era": "1990-2026",
+      "sourceFamily": "Open harvest",
+      "catalogueYear": 1994
+    },
+    {
+      "pid": "P401",
+      "eventId": "M27",
+      "name": "Steinitz abstract field theory",
+      "batch": 3,
+      "era": "1850-1929",
+      "sourceFamily": "Period run 1850-1930",
+      "catalogueYear": 1910
+    },
+    {
+      "pid": "P019",
+      "eventId": "E27",
+      "name": "Category theory",
+      "batch": 3,
+      "era": "1930-1989",
+      "sourceFamily": "Seed set A",
+      "catalogueYear": 1942
+    }
+  ]
+}

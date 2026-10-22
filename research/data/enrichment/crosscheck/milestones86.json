@@ -1,0 +1,635 @@
+[
+  {
+    "pid": "P459",
+    "eventId": "H75",
+    "canonicalName": "Trigonometry from astronomy: Hipparchus and chord tables",
+    "aliases": [
+      "Hipparchus chord table"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": -150,
+        "precision": "range",
+        "label": "Hipparchus' table of chords",
+        "work": "Hipparchus, table of chords (lost)",
+        "people": [
+          "Hipparchus"
+        ],
+        "description": "Hipparchus is credited with constructing the first table of chords for astronomical computation; the table itself does not survive.",
+        "evidence": [
+          {
+            "claim": "Toomer: highly probable Hipparchus was first to construct a table of chords; working career c. 162-127 BC",
+            "source": "MacTutor Hipparchus",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hipparchus/",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Credited with first trigonometric table, chords at 7.5 degree steps",
+            "source": "Wikipedia Hipparchus",
+            "url": "https://en.wikipedia.org/wiki/Hipparchus",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "low",
+        "endYear": -127,
+        "note": "Exact date unknown; range reflects his working period only."
+      },
+      {
+        "role": "naming",
+        "year": 1595,
+        "precision": "year",
+        "label": "Pitiscus coins 'trigonometry' in a title",
+        "work": "B. Pitiscus, Trigonometria, Heidelberg 1595",
+        "people": [
+          "Bartholomeo Pitiscus"
+        ],
+        "description": "The word trigonometry first appears in the title of Pitiscus' work, published as the last part of Scultetus' Sphaericorum libri tres.",
+        "evidence": [
+          {
+            "claim": "Word first appears in Pitiscus' Trigonometria, Heidelberg 1595",
+            "source": "MacTutor Pitiscus",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Pitiscus/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Searched MacTutor Hipparchus/Pitiscus, Wikipedia. Menelaus and Indian sine tables not checked, so no milestones for them. Inherited -140..150 range unverified.",
+    "searchTerms": [
+      "astronomy",
+      "geometry",
+      "trigonometry"
+    ]
+  },
+  {
+    "pid": "P460",
+    "eventId": "H76",
+    "canonicalName": "Trigonometry and the exponential: Cotes, De Moivre, Euler",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1714,
+        "precision": "year",
+        "label": "Cotes' Logometria",
+        "work": "R. Cotes, Logometria, Phil. Trans. 1714 (reprinted in Harmonia mensurarum, 1722)",
+        "people": [
+          "Roger Cotes"
+        ],
+        "description": "Cotes' logarithmic work implies ln(cos q + i sin q) = iq, a precursor of Euler's formula.",
+        "evidence": [
+          {
+            "claim": "Logometria published March 1714; relation ln(cos q + i sin q)=iq underlies his logarithm work",
+            "source": "MacTutor Cotes",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Cotes/",
+            "kind": "history_page"
+          },
+          {
+            "claim": "1714 argument amounts to ix = ln(cos x + i sin x) after correcting a factor",
+            "source": "Wikipedia Euler's formula",
+            "url": "https://en.wikipedia.org/wiki/Euler%27s_formula",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Inherited 1722 is the posthumous Harmonia mensurarum; first public paper is 1714."
+      },
+      {
+        "role": "first_statement",
+        "year": 1748,
+        "precision": "year",
+        "label": "Euler publishes exp(ix)=cos x + i sin x",
+        "work": "L. Euler, Introductio in analysin infinitorum, 1748",
+        "people": [
+          "Leonhard Euler"
+        ],
+        "description": "Euler first published the formula connecting the exponential with cosine and sine.",
+        "evidence": [
+          {
+            "claim": "Euler first published the formula in Introductio, 1748",
+            "source": "Wikipedia Euler's formula",
+            "url": "https://en.wikipedia.org/wiki/Euler%27s_formula",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "De Moivre 1722 and Bernoulli 1702 not independently verified (Wikipedia page does not mention De Moivre); no milestone. Euler Archive E101 not opened.",
+    "searchTerms": [
+      "trigonometry",
+      "logarithms and the exponential (analysis)",
+      "complex numbers",
+      "analysis of elementary functions"
+    ]
+  },
+  {
+    "pid": "P461",
+    "eventId": "P7",
+    "canonicalName": "Nonstandard analysis: model theory gives infinitesimals a rigorous footing",
+    "aliases": [
+      "Non-standard analysis"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1961,
+        "precision": "year",
+        "label": "Robinson's first paper on non-standard analysis",
+        "work": "A. Robinson, Non-standard analysis, Proc. Kon. Nederl. Akad. Wetensch. A 64 (Indag. Math. 23), 1961, 432-440",
+        "people": [
+          "Abraham Robinson"
+        ],
+        "description": "Robinson's article introduced non-standard analysis using model theory.",
+        "evidence": [
+          {
+            "claim": "Robinson, Non-Standard Analysis, 1961, pp. 432-440",
+            "source": "Wikipedia Non-standard analysis",
+            "url": "https://en.wikipedia.org/wiki/Non-standard_analysis",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Robinson introduced non-standard analysis in 1961",
+            "source": "MacTutor Robinson",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Robinson/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "consolidation",
+        "year": 1966,
+        "precision": "year",
+        "label": "Robinson's book Non-standard Analysis",
+        "work": "A. Robinson, Non-standard Analysis, North-Holland, 1966",
+        "people": [
+          "Abraham Robinson"
+        ],
+        "description": "The book gave the first full treatment of the theory.",
+        "evidence": [
+          {
+            "claim": "1966 book is the first full treatment",
+            "source": "Wikipedia Non-standard analysis",
+            "url": "https://en.wikipedia.org/wiki/Non-standard_analysis",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Text published 1966",
+            "source": "MacTutor Robinson",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Robinson/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Crossref has no record found for 1961 paper; relied on Wikipedia and MacTutor. Catalogue 1960 date unverified (MacTutor mentions no 1960 lecture). 1974 ICM congress claim not checked.",
+    "searchTerms": [
+      "Logic & foundations",
+      "Analysis"
+    ]
+  },
+  {
+    "pid": "P467",
+    "eventId": "P15",
+    "canonicalName": "KAM theory: stability of Hamiltonian systems",
+    "aliases": [
+      "KAM theory"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1954,
+        "precision": "year",
+        "label": "Kolmogorov's note on persistence of tori",
+        "work": "A. N. Kolmogorov, On the conservation of conditionally periodic motions under small perturbation of the Hamiltonian, Dokl. Akad. Nauk SSSR 98 (1954), 527-530",
+        "people": [
+          "Andrey Kolmogorov"
+        ],
+        "description": "Kolmogorov announced persistence of quasiperiodic motions under small Hamiltonian perturbation.",
+        "evidence": [
+          {
+            "claim": "Review of the 1954 note, cites Dokl. 98, 527-530",
+            "source": "Chierchia-Fascitiello, arXiv:2402.00178",
+            "url": "https://arxiv.org/abs/2402.00178",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Kolmogorov's 1954 paper was the original breakthrough",
+            "source": "Wikipedia KAM theorem",
+            "url": "https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Arnold%E2%80%93Moser_theorem",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "key_development",
+        "year": 1962,
+        "precision": "year",
+        "label": "Moser: smooth twist maps",
+        "work": "J. Moser, On invariant curves of area-preserving mappings of an annulus, Nachr. Akad. Wiss. Gottingen 1962",
+        "people": [
+          "Jurgen Moser"
+        ],
+        "description": "Moser rigorously proved and extended the result for smooth twist maps.",
+        "evidence": [
+          {
+            "claim": "Moser 1962 citation",
+            "source": "Wikipedia KAM theorem",
+            "url": "https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Arnold%E2%80%93Moser_theorem",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 1963,
+        "precision": "year",
+        "label": "Arnold: analytic Hamiltonian systems",
+        "work": "V. I. Arnold, Proof of a theorem of A. N. Kolmogorov..., Uspekhi Mat. Nauk 18 (1963)",
+        "people": [
+          "Vladimir Arnold"
+        ],
+        "description": "Arnold gave a proof for analytic Hamiltonian systems.",
+        "evidence": [
+          {
+            "claim": "Arnold 1963 citation",
+            "source": "Wikipedia KAM theorem",
+            "url": "https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Arnold%E2%80%93Moser_theorem",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Moser and Arnold records only seen via Wikipedia; original journal pages not opened. Note Arnold's journal is Russian Math Surveys 18 (1963) in English translation.",
+    "searchTerms": [
+      "celestial mechanics / Hamiltonian dynamics",
+      "analysis (Newton-type iteration, small divisors)",
+      "dynamical systems"
+    ]
+  },
+  {
+    "pid": "P473",
+    "eventId": "P22",
+    "canonicalName": "Mathematical general relativity: nonlinear PDE for Einstein's equations",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1952,
+        "precision": "year",
+        "label": "Well-posedness of Einstein equations",
+        "work": "Y. Fourès-Bruhat, Théorème d'existence pour certains systèmes d'équations aux dérivées partielles non linéaires, Acta Math. 88 (1952), 141-225",
+        "people": [
+          "Yvonne Choquet-Bruhat"
+        ],
+        "description": "The paper's existence theorem underlies the well-posedness of the Einstein equations as a hyperbolic system.",
+        "evidence": [
+          {
+            "claim": "Cited as 1952, Acta Math 88:141-225, basis of dissertation on well-posedness",
+            "source": "Wikipedia Yvonne Choquet-Bruhat",
+            "url": "https://en.wikipedia.org/wiki/Yvonne_Choquet-Bruhat",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Springer page could not be opened; Einstein-equation application is in the 1952 paper per Wikipedia; her explicit Einstein-specific statement may be a separate 1952 note (unverified)."
+      },
+      {
+        "role": "key_development",
+        "year": 1993,
+        "precision": "year",
+        "label": "Global nonlinear stability of Minkowski space",
+        "work": "D. Christodoulou, S. Klainerman, The Global Nonlinear Stability of the Minkowski Space, Princeton, 1993",
+        "people": [
+          "Demetrios Christodoulou",
+          "Sergiu Klainerman"
+        ],
+        "description": "They proved nonlinear stability of Minkowski spacetime.",
+        "evidence": [
+          {
+            "claim": "1993 book presents the proof",
+            "source": "Wikipedia Christodoulou",
+            "url": "https://en.wikipedia.org/wiki/Demetrios_Christodoulou",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Wikipedia page 'Mathematical general relativity' returned 404. Shock formation work (2007) not added. Catalogue 1927 date unverified.",
+    "searchTerms": [
+      "Physics",
+      "Analysis",
+      "Geometry"
+    ]
+  },
+  {
+    "pid": "P475",
+    "eventId": "P26",
+    "canonicalName": "Selberg trace formula links spectra of surfaces to number theory",
+    "aliases": [
+      "Selberg trace formula and automorphic representations"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1956,
+        "precision": "year",
+        "label": "Selberg's trace formula",
+        "work": "A. Selberg, Harmonic analysis and discontinuous groups in weakly symmetric Riemannian spaces with applications to Dirichlet series, J. Indian Math. Soc. 20 (1956), 47-87",
+        "people": [
+          "Atle Selberg"
+        ],
+        "description": "Selberg introduced the trace formula for compact Riemann surfaces.",
+        "evidence": [
+          {
+            "claim": "Cited as J. Indian Math. Soc. 20, 47-87; formula introduced 1956",
+            "source": "Wikipedia Selberg trace formula",
+            "url": "https://en.wikipedia.org/wiki/Selberg_trace_formula",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Original journal page not opened. Gelfand-Graev-Piatetski-Shapiro book is 1990 per Wikipedia (inherited 1969 is the Russian edition, unverified); not added. Arthur generalisation not dated.",
+    "searchTerms": [
+      "spectral theory / harmonic analysis on symmetric spaces",
+      "hyperbolic geometry",
+      "automorphic forms and number theory"
+    ]
+  },
+  {
+    "pid": "P477",
+    "eventId": "P28",
+    "canonicalName": "Explicit expander graphs from property (T) (Margulis)",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1973,
+        "precision": "year",
+        "label": "Margulis' explicit concentrators",
+        "work": "G. A. Margulis, Explicit constructions of concentrators, Probl. Peredachi Inf. 9:4 (1973), 71-80",
+        "people": [
+          "Grigory Margulis"
+        ],
+        "description": "Margulis built concentrators (expanders) explicitly using group representation theory.",
+        "evidence": [
+          {
+            "claim": "Record: vol 9 no 4, 1973, pp 71-80; uses representation theory",
+            "source": "Mathnet.ru",
+            "url": "https://mathnet.ru/eng/ppi925",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [],
+    "notes": "Mathnet abstract says representation theory; explicit mention of Kazhdan property (T) not seen.",
+    "searchTerms": [
+      "representation theory of Lie groups (Kazhdan property T)",
+      "graph theory",
+      "theoretical computer science"
+    ]
+  },
+  {
+    "pid": "P478",
+    "eventId": "P31",
+    "canonicalName": "Analysis of algorithms (Knuth)",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "consolidation",
+        "year": 1968,
+        "precision": "year",
+        "label": "The Art of Computer Programming, vol. 1",
+        "work": "D. E. Knuth, The Art of Computer Programming, vol. 1, Fundamental Algorithms, 1968",
+        "people": [
+          "Donald Knuth"
+        ],
+        "description": "The first volume of the series presents algorithms with their quantitative analysis.",
+        "evidence": [
+          {
+            "claim": "Vol 1 1968; series presents algorithms and their analysis; 1962 start",
+            "source": "Wikipedia TAOCP",
+            "url": "https://en.wikipedia.org/wiki/The_Art_of_Computer_Programming",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Volumes 2 (1969) and 3 (1973) not added. Wikipedia says Knuth coined 'analysis of algorithms' but gives no year, so no naming milestone. Catalogue 1962 is project start only. No first_statement: analysis-of-algorithms naming year unverified.",
+    "searchTerms": [
+      "Combinatorics",
+      "Analysis",
+      "Computer science"
+    ]
+  },
+  {
+    "pid": "P495",
+    "eventId": "P52",
+    "canonicalName": "Finite-gap integration of soliton equations",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1976,
+        "precision": "year",
+        "label": "Dubrovin-Matveev-Novikov survey",
+        "work": "B. A. Dubrovin, V. B. Matveev, S. P. Novikov, Non-linear equations of Korteweg-de Vries type, finite-zone linear operators, and Abelian varieties, Russian Math. Surveys 31:1 (1976), 59-146",
+        "people": [
+          "Boris Dubrovin",
+          "Vladimir Matveev",
+          "Sergei Novikov"
+        ],
+        "description": "The survey describes finite-zone spectra and explicit Abelian-function solutions.",
+        "evidence": [
+          {
+            "claim": "Record and abstract, 1976",
+            "source": "Mathnet.ru",
+            "url": "https://mathnet.ru/eng/rm3642",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "A survey; earlier 1974-75 original papers (Its-Matveev, Dubrovin-Novikov) not checked, so first-statement date may be too late."
+      },
+      {
+        "role": "key_development",
+        "year": 1977,
+        "precision": "year",
+        "label": "Krichever's algebraic-geometric integration",
+        "work": "I. M. Krichever, Integration of nonlinear equations by the methods of algebraic geometry, Funct. Anal. Appl. 11:1 (1977), 12-26",
+        "people": [
+          "Igor Krichever"
+        ],
+        "description": "Krichever integrated nonlinear equations using algebraic curves.",
+        "evidence": [
+          {
+            "claim": "Record, 1977, received 1976",
+            "source": "Mathnet.ru",
+            "url": "https://mathnet.ru/eng/faa2041",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Krichever's Russian Math Surveys 32:6 (1977) review also exists (via search).",
+    "searchTerms": [
+      "algebraic geometry (Riemann surfaces, theta functions, Jacobians)",
+      "integrable systems / nonlinear PDE"
+    ]
+  },
+  {
+    "pid": "P497",
+    "eventId": "P54",
+    "canonicalName": "KP hierarchy and the infinite Grassmannian (Sato)",
+    "aliases": [],
+    "phases": [],
+    "milestones": [],
+    "people": [],
+    "notes": "Searched for Sato RIMS Kokyuroku and Date-Jimbo-Kashiwara-Miwa Transformation groups for soliton equations (Proc. Japan Acad. 57A, 1981; later parts to 1983) and Wikipedia Sato. Only secondary snippets found; no record page opened, so left empty. Inherited Kokyuroku 439 (1981) seems to be Sato-Sato, not Sato alone (unverified).",
+    "searchedSources": [
+      "Wikipedia Mikio Sato",
+      "Wikipedia KP equation",
+      "web search for Date-Jimbo-Kashiwara-Miwa Transformation groups for soliton equations"
+    ],
+    "searchTerms": [
+      "integrable systems",
+      "infinite-dimensional Lie algebras / Grassmannians",
+      "integrable systems and representation theory"
+    ]
+  },
+  {
+    "pid": "P499",
+    "eventId": "P56",
+    "canonicalName": "Mixed Hodge theory (Deligne)",
+    "aliases": [
+      "Nonabelian Hodge, Hodge theory of Deligne"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1971,
+        "precision": "year",
+        "label": "Deligne, Theorie de Hodge II",
+        "work": "P. Deligne, Theorie de Hodge II, Publ. Math. IHES 40 (1971)",
+        "people": [
+          "Pierre Deligne"
+        ],
+        "description": "Deligne introduced mixed Hodge structures on cohomology of general varieties.",
+        "evidence": [
+          {
+            "claim": "Record: Publ. IHES 40, 1971",
+            "source": "Numdam",
+            "url": "https://www.numdam.org/item/PMIHES_1971__40__5_0/",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Abstract not read; Deligne's Nice ICM 1970 talk may predate it."
+      },
+      {
+        "role": "key_development",
+        "year": 1974,
+        "precision": "year",
+        "label": "Deligne, Theorie de Hodge III",
+        "work": "P. Deligne, Theorie de Hodge III, Publ. Math. IHES 44 (1974)",
+        "people": [
+          "Pierre Deligne"
+        ],
+        "description": "Part III extends the theory to simplicial and singular varieties.",
+        "evidence": [
+          {
+            "claim": "Record: Publ. IHES 44, 1974",
+            "source": "Numdam",
+            "url": "https://www.numdam.org/item/PMIHES_1974__44__5_0/",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Content description from general knowledge."
+      }
+    ],
+    "people": [],
+    "notes": "Wikipedia Mixed Hodge structure has no history. Catalogue 1968-70 unverified.",
+    "searchTerms": [
+      "Hodge theory (complex geometry)",
+      "l-adic cohomology and weights (Weil conjectures)",
+      "mixed Hodge theory"
+    ]
+  },
+  {
+    "pid": "P502",
+    "eventId": "P59",
+    "canonicalName": "Wu's method: mechanised geometry theorem proving",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1977,
+        "precision": "range",
+        "label": "Wu introduces mechanical geometry proving",
+        "work": null,
+        "people": [
+          "Wen-Tsun Wu"
+        ],
+        "description": "Wu's method turns geometry statements into polynomial questions via Ritt characteristic sets.",
+        "evidence": [
+          {
+            "claim": "Wu introduced his method in 1977",
+            "source": "MacTutor Wu",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Wu_Wen-Tsun/",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Introduced late 1970s, based on Ritt characteristic sets",
+            "source": "Wikipedia Wu's method",
+            "url": "https://en.wikipedia.org/wiki/Wu%27s_method_of_characteristic_set",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "low",
+        "endYear": 1978,
+        "note": "Sci. Sinica 21 (1978) 159-172 cited by search results but not opened."
+      }
+    ],
+    "people": [],
+    "notes": "Crossref shows only reprints (1984, 2008). No bibliographic record of the 1978 original opened.",
+    "searchTerms": [
+      "differential algebra (Ritt characteristic sets)",
+      "elementary geometry",
+      "automated theorem proving (mathematics mechanization)"
+    ]
+  }
+]

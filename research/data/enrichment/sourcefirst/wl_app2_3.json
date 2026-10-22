@@ -1,0 +1,392 @@
+[
+ {
+  "pid": "P248",
+  "eventId": "MB99",
+  "name": "Hodge theory of harmonic integrals",
+  "basisNow": "no first application or key development",
+  "firstStatement": 1935,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1929,
+    "label": "Lefschetz topological ideas for integrals on curves"
+   },
+   {
+    "role": "precursor",
+    "year": 1933,
+    "label": "Kähler metric on complex manifolds"
+   },
+   {
+    "role": "first_statement",
+    "year": 1935,
+    "label": "Hodge: harmonic integrals associated with algebraic varieties"
+   },
+   {
+    "role": "consolidation",
+    "year": 1941,
+    "label": "Hodge: The Theory and Applications of Harmonic Integrals"
+   }
+  ],
+  "people": [
+   "William V. D. Hodge",
+   "Erich Kähler"
+  ]
+ },
+ {
+  "pid": "P485",
+  "eventId": "P40",
+  "name": "Noncommutative projective geometry (Artin-Schelter-Zhang)",
+  "basisNow": "no first application or key development",
+  "firstStatement": 1994,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1987,
+    "label": "Regular graded algebras of dimension 3 as noncommutative P^2"
+   },
+   {
+    "role": "precursor",
+    "year": 1990,
+    "label": "Point modules and automorphisms of elliptic curves"
+   },
+   {
+    "role": "precursor",
+    "year": 1991,
+    "label": "Modules over regular algebras of dimension 3"
+   },
+   {
+    "role": "first_statement",
+    "year": 1994,
+    "label": "Noncommutative projective schemes"
+   },
+   {
+    "role": "consolidation",
+    "year": 2001,
+    "label": "Survey of noncommutative curves and surfaces"
+   }
+  ],
+  "people": [
+   "Michael Artin",
+   "Schelter",
+   "John Tate",
+   "Michel Van den Bergh",
+   "James J. Zhang",
+   "J. T. Stafford"
+  ]
+ },
+ {
+  "pid": "P091",
+  "eventId": "B25",
+  "name": "Buildings: geometry of algebraic groups",
+  "basisNow": "no first application or key development",
+  "firstStatement": 1974,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1964,
+    "label": "Tits' abstract simple groups and BN-pairs"
+   },
+   {
+    "role": "precursor",
+    "year": 1972,
+    "label": "Bruhat-Tits buildings for p-adic reductive groups"
+   },
+   {
+    "role": "first_statement",
+    "year": 1974,
+    "label": "Tits' monograph defining buildings"
+   },
+   {
+    "role": "consolidation",
+    "year": 1974,
+    "label": "Tits' Lecture Notes volume on buildings"
+   }
+  ],
+  "people": [
+   "Jacques Tits",
+   "François Bruhat"
+  ]
+ },
+ {
+  "pid": "P229",
+  "eventId": "MB83/WB40",
+  "name": "Elementary topos theory",
+  "basisNow": "no first application or key development",
+  "firstStatement": 1971,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1964,
+    "label": "Elementary theory of the category of sets"
+   },
+   {
+    "role": "first_statement",
+    "year": 1971,
+    "label": "Lawvere announces the axioms of an elementary topos"
+   },
+   {
+    "role": "naming",
+    "year": 1972,
+    "label": "'Topos' in SGA 4"
+   },
+   {
+    "role": "consolidation",
+    "year": 1977,
+    "label": "Topos Theory monograph"
+   },
+   {
+    "role": "consolidation",
+    "year": 1992,
+    "label": "Sheaves in Geometry and Logic"
+   }
+  ],
+  "people": [
+   "F. William Lawvere",
+   "Alexander Grothendieck",
+   "Peter Johnstone",
+   "Saunders Mac Lane"
+  ]
+ },
+ {
+  "pid": "P119",
+  "eventId": "WA7/MA11",
+  "name": "Archimedean statics and hydrostatics",
+  "basisNow": "earliest key development; no first application found",
+  "firstStatement": 1586,
+  "existing": [
+   {
+    "role": "key_development",
+    "year": 1586,
+    "label": "Stevin's published statics treatise"
+   },
+   {
+    "role": "consolidation",
+    "year": 1897,
+    "label": "Heath publishes English Archimedes edition"
+   },
+   {
+    "role": "precursor",
+    "year": null,
+    "label": "Archimedes' statics treatises, undated"
+   }
+  ],
+  "people": [
+   "Archimedes of Syracuse"
+  ]
+ },
+ {
+  "pid": "P391",
+  "eventId": "W68",
+  "name": "Representations of compact and continuous groups (Schur, Weyl, Peter-Weyl)",
+  "basisNow": "earliest key development; no first application found",
+  "firstStatement": 1927,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1925,
+    "label": "Weyl's representation theory of semisimple Lie groups"
+   },
+   {
+    "role": "first_statement",
+    "year": 1927,
+    "label": "Peter-Weyl completeness of primitive representations"
+   },
+   {
+    "role": "key_development",
+    "year": 1930,
+    "label": "Cartan on linear representations of closed groups"
+   },
+   {
+    "role": "key_development",
+    "year": 1933,
+    "label": "Haar's invariant measure"
+   },
+   {
+    "role": "consolidation",
+    "year": 1939,
+    "label": "Weyl's The Classical Groups"
+   }
+  ],
+  "people": [
+   "Hermann Weyl",
+   "Fritz Peter",
+   "Elie Cartan",
+   "Alfred Haar"
+  ]
+ },
+ {
+  "pid": "P087",
+  "eventId": "B21",
+  "name": "Rational homotopy theory via differential forms",
+  "basisNow": "no first application or key development",
+  "firstStatement": 1977,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1951,
+    "label": "Rational homotopy groups of spheres"
+   },
+   {
+    "role": "precursor",
+    "year": 1969,
+    "label": "Rational homotopy via DG Lie algebras"
+   },
+   {
+    "role": "precursor",
+    "year": 1970,
+    "label": "Sullivan's MIT notes on localisation and minimal models"
+   },
+   {
+    "role": "precursor",
+    "year": 1976,
+    "label": "Closed geodesics via rational homotopy"
+   },
+   {
+    "role": "first_statement",
+    "year": 1977,
+    "label": "Minimal models from differential forms"
+   },
+   {
+    "role": "consolidation",
+    "year": 2001,
+    "label": "Graduate-text treatment of rational homotopy"
+   }
+  ],
+  "people": [
+   "Dennis Sullivan",
+   "Daniel Quillen",
+   "Micheline Vigue-Poirrier",
+   "Yves Felix"
+  ]
+ },
+ {
+  "pid": "P203",
+  "eventId": "E72/MB19/WB51",
+  "name": "Distributions",
+  "basisNow": "no first application or key development",
+  "firstStatement": 1945,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1930,
+    "label": "Dirac's delta function in quantum mechanics"
+   },
+   {
+    "role": "precursor",
+    "year": 1936,
+    "label": "Sobolev's generalised solutions of the Cauchy problem"
+   },
+   {
+    "role": "first_statement",
+    "year": 1945,
+    "label": "Schwartz's generalisation of the notion of function"
+   },
+   {
+    "role": "naming",
+    "year": 1948,
+    "label": "Schwartz's title 'Theorie des distributions'"
+   },
+   {
+    "role": "consolidation",
+    "year": 1950,
+    "label": "Schwartz's Theorie des distributions, Tome I"
+   }
+  ],
+  "people": [
+   "Laurent Schwartz",
+   "Sergei Sobolev",
+   "Paul Dirac"
+  ]
+ },
+ {
+  "pid": "P359",
+  "eventId": "E17/M28/W64",
+  "name": "Commutative algebra from invariant theory and ideals",
+  "basisNow": "no first application or key development",
+  "firstStatement": 1921,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1871,
+    "label": "Dedekind's ideal theory of algebraic integers"
+   },
+   {
+    "role": "precursor",
+    "year": 1890,
+    "label": "Hilbert's basis theorem applied to invariants"
+   },
+   {
+    "role": "precursor",
+    "year": 1905,
+    "label": "Lasker's primary decomposition"
+   },
+   {
+    "role": "precursor",
+    "year": 1916,
+    "label": "Macaulay's uniqueness of primary decomposition"
+   },
+   {
+    "role": "first_statement",
+    "year": 1921,
+    "label": "Noether's abstract ideal theory in commutative rings"
+   },
+   {
+    "role": "consolidation",
+    "year": 1935,
+    "label": "Krull's Idealtheorie monograph"
+   },
+   {
+    "role": "naming",
+    "year": 1958,
+    "label": "Zariski and Samuel, Commutative Algebra"
+   }
+  ],
+  "people": [
+   "David Hilbert",
+   "Emanuel Lasker",
+   "Francis S. Macaulay",
+   "Emmy Noether",
+   "Wolfgang Krull",
+   "Oscar Zariski"
+  ]
+ },
+ {
+  "pid": "P154",
+  "eventId": "MA77",
+  "name": "Taylor: finite differences and Taylor's theorem",
+  "basisNow": "earliest key development; no first application found",
+  "firstStatement": 1715,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1671,
+    "label": "Gregory's earlier series result"
+   },
+   {
+    "role": "precursor",
+    "year": 1712,
+    "label": "Taylor's letter to Machin"
+   },
+   {
+    "role": "first_statement",
+    "year": 1715,
+    "label": "Methodus incrementorum directa et inversa"
+   },
+   {
+    "role": "key_development",
+    "year": 1730,
+    "label": "Stirling's Methodus differentialis"
+   },
+   {
+    "role": "naming",
+    "year": 1785,
+    "label": "Name 'Taylor series' in use"
+   }
+  ],
+  "people": [
+   "Brook Taylor",
+   "James Gregory",
+   "James Stirling"
+  ]
+ }
+]

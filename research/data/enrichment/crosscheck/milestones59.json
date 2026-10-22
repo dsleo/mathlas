@@ -1,0 +1,798 @@
+[
+  {
+    "eventId": "E21/MB11",
+    "canonicalName": "Ergodic theory from statistical mechanics",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1931,
+        "precision": "year",
+        "label": "Koopman's Hilbert-space view of Hamiltonian flows",
+        "work": "B. O. Koopman, Hamiltonian Systems and Transformation in Hilbert Space, PNAS 17 (1931)",
+        "people": [
+          "Bernard Koopman"
+        ],
+        "description": "Koopman associates a unitary operator on function space with a Hamiltonian flow.",
+        "evidence": [
+          {
+            "claim": "Crossref: Koopman, PNAS 17, May 1931",
+            "source": "Crossref record",
+            "url": "https://api.crossref.org/works/10.1073/pnas.17.5.315",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 1931,
+        "precision": "year",
+        "label": "Birkhoff's pointwise ergodic theorem",
+        "work": "G. D. Birkhoff, Proof of the Ergodic Theorem, PNAS 17 (1931)",
+        "people": [
+          "George Birkhoff"
+        ],
+        "description": "Birkhoff proves the pointwise ergodic theorem.",
+        "evidence": [
+          {
+            "claim": "Crossref: Birkhoff, PNAS 17, Dec 1931",
+            "source": "Crossref record",
+            "url": "https://api.crossref.org/works/10.1073/pnas.17.12.656",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "first_application",
+        "year": 1932,
+        "precision": "year",
+        "label": "von Neumann's operator proof of the quasi-ergodic hypothesis",
+        "work": "J. von Neumann, Proof of the Quasi-Ergodic Hypothesis, PNAS 18 (1932)",
+        "people": [
+          "John von Neumann"
+        ],
+        "description": "Von Neumann applies Koopman's operator method to prove a mean ergodic theorem.",
+        "evidence": [
+          {
+            "claim": "Crossref: von Neumann, PNAS 18, Jan 1932",
+            "source": "Crossref record",
+            "url": "https://api.crossref.org/works/10.1073/pnas.18.1.70",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Bernard Koopman",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Bernard_Koopman",
+        "works": [
+          {
+            "citation": "Hamiltonian Systems and Transformation in Hilbert Space",
+            "year": 1931,
+            "url": "https://doi.org/10.1073/pnas.17.5.315",
+            "whyItMatters": "Operator viewpoint"
+          }
+        ]
+      },
+      {
+        "name": "John von Neumann",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/John_von_Neumann",
+        "works": [
+          {
+            "citation": "Proof of the Quasi-Ergodic Hypothesis",
+            "year": 1932,
+            "url": "https://doi.org/10.1073/pnas.18.1.70",
+            "whyItMatters": "Mean ergodic theorem"
+          }
+        ]
+      }
+    ],
+    "notes": "Role assignment rests on the bibliographic record (title, author, year) and the inherited catalogue summary; paper content was not independently read. Catalogue dates (1931-1932) are consistent with the records. Von Neumann's Annals paper 'Zur Operatorenmethode in der klassischen Mechanik' (1932, doi 10.2307/1968537, Crossref-checked title/year) was not used as a milestone. No naming/institution milestone sought (not verified). Searched: Crossref only.",
+    "pid": "P199",
+    "searchTerms": [
+      "operator theory",
+      "statistical mechanics",
+      "dynamical systems",
+      "ergodic theory"
+    ]
+  },
+  {
+    "eventId": "E22/MB5/WB2",
+    "canonicalName": "Computability theory (Church-Turing)",
+    "aliases": [
+      "Computability theory"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1931,
+        "precision": "year",
+        "label": "Goedel's incompleteness paper",
+        "work": "K. Goedel, Ueber formal unentscheidbare Saetze der Principia Mathematica und verwandter Systeme I, Monatsh. Math. Phys. 38 (1931)",
+        "people": [
+          "Kurt Goedel"
+        ],
+        "description": "Arithmetization and undecidable sentences prepare the ground for formal notions of effective computation.",
+        "evidence": [
+          {
+            "claim": "Crossref: Goedel, Monatsh. Math. Phys. 38, issued Dec 1931",
+            "source": "Crossref record",
+            "url": "https://api.crossref.org/works/10.1007/bf01700692",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "first_statement",
+        "year": 1936,
+        "precision": "year",
+        "label": "Church's unsolvable problem",
+        "work": "A. Church, An Unsolvable Problem of Elementary Number Theory, Amer. J. Math. 58 (1936)",
+        "people": [
+          "Alonzo Church"
+        ],
+        "description": "Church identifies effective calculability with lambda-definability and exhibits an unsolvable problem.",
+        "evidence": [
+          {
+            "claim": "Crossref: Church, Amer. J. Math. 58, Apr 1936",
+            "source": "Crossref record",
+            "url": "https://api.crossref.org/works/10.2307/2371045",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 1937,
+        "precision": "year",
+        "label": "Turing's computable numbers and the Entscheidungsproblem",
+        "work": "A. M. Turing, On Computable Numbers, with an Application to the Entscheidungsproblem, Proc. London Math. Soc. (2) 42 (1936-37)",
+        "people": [
+          "Alan Turing"
+        ],
+        "description": "Turing defines his machines and shows the Entscheidungsproblem unsolvable.",
+        "evidence": [
+          {
+            "claim": "Crossref: Turing, PLMS s2-42, issued 1937",
+            "source": "Crossref record",
+            "url": "https://api.crossref.org/works/10.1112/plms/s2-42.1.230",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Crossref issue year is 1937; the paper is conventionally dated 1936 (volume 42 spans 1936-37). Year 1937 follows the record."
+      }
+    ],
+    "people": [
+      {
+        "name": "Alonzo Church",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Alonzo_Church",
+        "works": [
+          {
+            "citation": "An Unsolvable Problem of Elementary Number Theory",
+            "year": 1936,
+            "url": "https://doi.org/10.2307/2371045",
+            "whyItMatters": "Church's thesis"
+          }
+        ]
+      },
+      {
+        "name": "Alan Turing",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Alan_Turing",
+        "works": [
+          {
+            "citation": "On Computable Numbers",
+            "year": 1937,
+            "url": "https://doi.org/10.1112/plms/s2-42.1.230",
+            "whyItMatters": "Turing machines"
+          }
+        ]
+      }
+    ],
+    "notes": "Role assignment rests on the bibliographic record (title, author, year) and the inherited catalogue summary; paper content was not independently read. Inherited dates 1936 kept as leads; Turing year per Crossref differs. No naming/institution milestone verified.",
+    "pid": "P200",
+    "searchTerms": [
+      "mathematical logic",
+      "mechanical calculation",
+      "computability theory"
+    ]
+  },
+  {
+    "eventId": "E24/MB14/WB14",
+    "canonicalName": "Information theory",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1948,
+        "precision": "year",
+        "label": "Shannon's mathematical theory of communication",
+        "work": "C. E. Shannon, A Mathematical Theory of Communication, Bell System Tech. J. 27 (1948)",
+        "people": [
+          "Claude Shannon"
+        ],
+        "description": "Shannon defines entropy and channel capacity and proves coding theorems.",
+        "evidence": [
+          {
+            "claim": "Crossref: Shannon, BSTJ 27, July 1948 (part 2 Oct 1948, doi 10.1002/j.1538-7305.1948.tb00917.x)",
+            "source": "Crossref record",
+            "url": "https://api.crossref.org/works/10.1002/j.1538-7305.1948.tb01338.x",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "The two candidate DOIs are the two instalments (July and October 1948) of one paper."
+      }
+    ],
+    "people": [
+      {
+        "name": "Claude Shannon",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Claude_Shannon",
+        "works": [
+          {
+            "citation": "A Mathematical Theory of Communication",
+            "year": 1948,
+            "url": "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x",
+            "whyItMatters": "Founding paper"
+          }
+        ]
+      }
+    ],
+    "notes": "Catalogue 1950-1960 institutional range not verified. No naming/institution milestone found; only Crossref searched.",
+    "pid": "P201",
+    "searchTerms": [
+      "probability",
+      "communication engineering",
+      "statistical mechanics",
+      "information theory"
+    ]
+  },
+  {
+    "eventId": "E43/MB110/WB93",
+    "canonicalName": "Symplectic topology (Gromov)",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1985,
+        "precision": "year",
+        "label": "Gromov's pseudo-holomorphic curves",
+        "work": "M. Gromov, Pseudo holomorphic curves in symplectic manifolds, Invent. Math. 82 (1985)",
+        "people": [
+          "Mikhail Gromov"
+        ],
+        "description": "Gromov introduces pseudo-holomorphic curves and derives symplectic rigidity such as non-squeezing.",
+        "evidence": [
+          {
+            "claim": "Crossref: Gromov, Invent. Math. 82, June 1985",
+            "source": "Crossref record",
+            "url": "https://api.crossref.org/works/10.1007/bf01388806",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Mikhail Gromov",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Mikhail_Gromov",
+        "works": [
+          {
+            "citation": "Pseudo holomorphic curves in symplectic manifolds",
+            "year": 1985,
+            "url": "https://doi.org/10.1007/bf01388806",
+            "whyItMatters": "Founding paper"
+          }
+        ]
+      }
+    ],
+    "notes": "Role assignment rests on the bibliographic record (title, author, year) and the inherited catalogue summary; paper content was not independently read. Earlier symplectic rigidity (Eliashberg, Arnold conjecture) not searched. No naming/institution milestone verified.",
+    "pid": "P202",
+    "searchTerms": [
+      "elliptic PDE",
+      "symplectic geometry",
+      "symplectic topology"
+    ]
+  },
+  {
+    "eventId": "MB64/WB82",
+    "canonicalName": "Fermi-Pasta-Ulam and solitons",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1955,
+        "precision": "year",
+        "label": "Fermi-Pasta-Ulam(-Tsingou) report",
+        "work": "Fermi, Pasta, Ulam (Tsingou), Studies of the Nonlinear Problems, Los Alamos report (1955)",
+        "people": [
+          "Enrico Fermi",
+          "John Pasta",
+          "Stanislaw Ulam",
+          "Mary Tsingou"
+        ],
+        "description": "Numerical experiment on a nonlinear lattice shows recurrence instead of equipartition.",
+        "evidence": [
+          {
+            "claim": "Crossref/OSTI: report issued May 1955",
+            "source": "Crossref record",
+            "url": "https://api.crossref.org/works/10.2172/4376203",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "naming",
+        "year": 1965,
+        "precision": "year",
+        "label": "Zabusky-Kruskal coin 'solitons'",
+        "work": "N. J. Zabusky, M. D. Kruskal, Interaction of 'Solitons' in a Collisionless Plasma and the Recurrence of Initial States, Phys. Rev. Lett. 15 (1965)",
+        "people": [
+          "Norman Zabusky",
+          "Martin Kruskal"
+        ],
+        "description": "The title uses the term solitons while explaining FPU recurrence numerically.",
+        "evidence": [
+          {
+            "claim": "Crossref: Zabusky-Kruskal, PRL 15, Aug 1965; term in title",
+            "source": "Crossref record",
+            "url": "https://api.crossref.org/works/10.1103/physrevlett.15.240",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "That this is the coinage is the standard account but was not checked against a history page."
+      }
+    ],
+    "people": [
+      {
+        "name": "Norman Zabusky",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Norman_Zabusky",
+        "works": [
+          {
+            "citation": "Interaction of Solitons in a Collisionless Plasma",
+            "year": 1965,
+            "url": "https://doi.org/10.1103/physrevlett.15.240",
+            "whyItMatters": "Names and studies solitons"
+          }
+        ]
+      }
+    ],
+    "notes": "Role assignment rests on the bibliographic record (title, author, year) and the inherited catalogue summary; paper content was not independently read. Catalogue date 1965-1967 suggests Gardner-Greene-Kruskal-Miura (1967) inverse scattering, not searched or included.",
+    "pid": "P204",
+    "searchTerms": [
+      "physics (nonlinear lattices)",
+      "computer experiment",
+      "PDE",
+      "soliton theory / integrable systems"
+    ]
+  },
+  {
+    "eventId": "MB13/WB15",
+    "canonicalName": "Shannon switching circuits",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_application",
+        "year": 1938,
+        "precision": "year",
+        "label": "Shannon applies Boolean algebra to relay circuits",
+        "work": "C. E. Shannon, A symbolic analysis of relay and switching circuits, Trans. AIEE 57 (1938)",
+        "people": [
+          "Claude Shannon"
+        ],
+        "description": "Shannon uses Boolean algebra to analyse and simplify switching circuits.",
+        "evidence": [
+          {
+            "claim": "Crossref: Shannon, Trans. AIEE 57, Dec 1938",
+            "source": "Crossref record",
+            "url": "https://api.crossref.org/works/10.1109/t-aiee.1938.5057767",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Catalogue's 1937 start (master's thesis) is a lead only; not verified."
+      }
+    ],
+    "people": [
+      {
+        "name": "Claude Shannon",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Claude_Shannon",
+        "works": [
+          {
+            "citation": "A symbolic analysis of relay and switching circuits",
+            "year": 1938,
+            "url": "https://doi.org/10.1109/t-aiee.1938.5057767",
+            "whyItMatters": "Founding application"
+          }
+        ]
+      }
+    ],
+    "notes": "Role assignment rests on the bibliographic record (title, author, year) and the inherited catalogue summary; paper content was not independently read. Two candidate DOIs: Crossref confirmed only the T-AIEE one; the other (ee.1938.6431064) not checked. Thesis precursor not verified.",
+    "pid": "P208",
+    "searchTerms": [
+      "Boolean algebra",
+      "electrical engineering",
+      "switching theory",
+      "digital circuit design"
+    ]
+  },
+  {
+    "eventId": "MB22/WB7",
+    "canonicalName": "Axiomatic homology",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1945,
+        "precision": "year",
+        "label": "Eilenberg-Steenrod axioms announced",
+        "work": "S. Eilenberg, N. Steenrod, Axiomatic Approach to Homology Theory, PNAS 31 (1945)",
+        "people": [
+          "Samuel Eilenberg",
+          "Norman Steenrod"
+        ],
+        "description": "Homology is characterised by axioms.",
+        "evidence": [
+          {
+            "claim": "Crossref: PNAS 31, Apr 1945",
+            "source": "Crossref record",
+            "url": "https://api.crossref.org/works/10.1073/pnas.31.4.117",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "consolidation",
+        "year": 1952,
+        "precision": "year",
+        "label": "Foundations of Algebraic Topology",
+        "work": "Eilenberg, Steenrod, Foundations of Algebraic Topology, Princeton Univ. Press (1952)",
+        "people": [
+          "Samuel Eilenberg",
+          "Norman Steenrod"
+        ],
+        "description": "Book-length systematic axiomatic treatment.",
+        "evidence": [
+          {
+            "claim": "Crossref: Princeton book record, 1952",
+            "source": "Crossref record",
+            "url": "https://api.crossref.org/works/10.1515/9781400877492",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [
+      {
+        "name": "Samuel Eilenberg",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Samuel_Eilenberg",
+        "works": [
+          {
+            "citation": "Axiomatic Approach to Homology Theory",
+            "year": 1945,
+            "url": "https://doi.org/10.1073/pnas.31.4.117",
+            "whyItMatters": "Axioms"
+          }
+        ]
+      },
+      {
+        "name": "Norman Steenrod",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Norman_Steenrod",
+        "works": [
+          {
+            "citation": "Foundations of Algebraic Topology",
+            "year": 1952,
+            "url": "https://doi.org/10.1515/9781400877492",
+            "whyItMatters": "Monograph"
+          }
+        ]
+      }
+    ],
+    "notes": "Role assignment rests on the bibliographic record (title, author, year) and the inherited catalogue summary; paper content was not independently read. Crossref gives 1952 for the book DOI (Dec 31, 1952 reissue-date field); original publication year 1952 as expected.",
+    "pid": "P210",
+    "searchTerms": [
+      "algebraic topology",
+      "category theory",
+      "axiomatic homology theory"
+    ]
+  },
+  {
+    "eventId": "MB26/WB45",
+    "canonicalName": "Coherent sheaves (FAC)",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1955,
+        "precision": "year",
+        "label": "Serre's FAC",
+        "work": "J.-P. Serre, Faisceaux algebriques coherents, Ann. of Math. 61 (1955)",
+        "people": [
+          "Jean-Pierre Serre"
+        ],
+        "description": "Sheaf cohomology applied to algebraic varieties with the Zariski topology.",
+        "evidence": [
+          {
+            "claim": "Crossref: Serre, Ann. Math. 61, Mar 1955",
+            "source": "Crossref record",
+            "url": "https://api.crossref.org/works/10.2307/1969915",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [
+      {
+        "name": "Jean-Pierre Serre",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Jean-Pierre_Serre",
+        "works": [
+          {
+            "citation": "Faisceaux algebriques coherents",
+            "year": 1955,
+            "url": "https://doi.org/10.2307/1969915",
+            "whyItMatters": "Founding paper"
+          }
+        ]
+      }
+    ],
+    "notes": "Role assignment rests on the bibliographic record (title, author, year) and the inherited catalogue summary; paper content was not independently read. Catalogue 1955-1956 range not resolved (GAGA 1956 not searched).",
+    "pid": "P211",
+    "searchTerms": [
+      "sheaf theory",
+      "algebraic geometry",
+      "algebraic geometry"
+    ]
+  },
+  {
+    "eventId": "MB38/WB103",
+    "canonicalName": "Topological K-theory",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1961,
+        "precision": "year",
+        "label": "Atiyah-Hirzebruch vector bundles and homogeneous spaces",
+        "work": "M. Atiyah, F. Hirzebruch, Vector bundles and homogeneous spaces, Proc. Symp. Pure Math. 3 (1961)",
+        "people": [
+          "Michael Atiyah",
+          "Friedrich Hirzebruch"
+        ],
+        "description": "Introduces K-theory built from vector bundles for topological spaces.",
+        "evidence": [
+          {
+            "claim": "Crossref: Proc. Symp. Pure Math., 1961",
+            "source": "Crossref record",
+            "url": "https://api.crossref.org/works/10.1090/pspum/003/0139181",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Earlier Hirzebruch-Atiyah announcements (1959) and Bott periodicity not verified."
+      }
+    ],
+    "people": [
+      {
+        "name": "Michael Atiyah",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Michael_Atiyah",
+        "works": [
+          {
+            "citation": "Vector bundles and homogeneous spaces",
+            "year": 1961,
+            "url": "https://doi.org/10.1090/pspum/003/0139181",
+            "whyItMatters": "Early K-theory"
+          }
+        ]
+      }
+    ],
+    "notes": "Role assignment rests on the bibliographic record (title, author, year) and the inherited catalogue summary; paper content was not independently read. Atiyah's 1967 book K-theory not located; consolidation not claimed.",
+    "pid": "P213",
+    "searchTerms": [
+      "algebraic geometry (Grothendieck K-theory)",
+      "algebraic topology",
+      "K-theory"
+    ]
+  },
+  {
+    "eventId": "MB42/WB79",
+    "canonicalName": "Smale hyperbolic dynamics",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "consolidation",
+        "year": 1967,
+        "precision": "year",
+        "label": "Smale's survey Differentiable dynamical systems",
+        "work": "S. Smale, Differentiable dynamical systems, Bull. AMS 73 (1967)",
+        "people": [
+          "Stephen Smale"
+        ],
+        "description": "Survey presenting horseshoe, Axiom A and structural stability.",
+        "evidence": [
+          {
+            "claim": "Crossref: Bull. AMS 73, 1967",
+            "source": "Crossref record",
+            "url": "https://api.crossref.org/works/10.1090/s0002-9904-1967-11798-1",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Role 'consolidation' is inferred from the paper's survey character, not read."
+      }
+    ],
+    "people": [
+      {
+        "name": "Stephen Smale",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Stephen_Smale",
+        "works": [
+          {
+            "citation": "Differentiable dynamical systems",
+            "year": 1967,
+            "url": "https://doi.org/10.1090/s0002-9904-1967-11798-1",
+            "whyItMatters": "Survey"
+          }
+        ]
+      }
+    ],
+    "notes": "Role assignment rests on the bibliographic record (title, author, year) and the inherited catalogue summary; paper content was not independently read. Earlier horseshoe work (c.1960-61) in catalogue dates unverified; no first_statement established.",
+    "pid": "P214",
+    "searchTerms": [
+      "differential topology",
+      "dynamical systems",
+      "differentiable (hyperbolic) dynamics"
+    ]
+  },
+  {
+    "eventId": "MB53/WB50",
+    "canonicalName": "Pseudodifferential operators",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1965,
+        "precision": "year",
+        "label": "Kohn-Nirenberg algebra of pseudo-differential operators",
+        "work": "J. J. Kohn, L. Nirenberg, An algebra of pseudo-differential operators, CPAM 18 (1965)",
+        "people": [
+          "Joseph Kohn",
+          "Louis Nirenberg"
+        ],
+        "description": "Symbol calculus for pseudo-differential operators.",
+        "evidence": [
+          {
+            "claim": "Crossref: CPAM 18, Feb 1965",
+            "source": "Crossref record",
+            "url": "https://api.crossref.org/works/10.1002/cpa.3160180121",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Joseph Kohn",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Joseph_J._Kohn",
+        "works": [
+          {
+            "citation": "An algebra of pseudo-differential operators",
+            "year": 1965,
+            "url": "https://doi.org/10.1002/cpa.3160180121",
+            "whyItMatters": "Symbol calculus"
+          }
+        ]
+      }
+    ],
+    "notes": "Role assignment rests on the bibliographic record (title, author, year) and the inherited catalogue summary; paper content was not independently read. Hormander's 1985 volumes not located; Calderon-Zygmund precursors not searched.",
+    "pid": "P217",
+    "searchTerms": [
+      "harmonic analysis (singular integrals)",
+      "PDE",
+      "microlocal analysis"
+    ]
+  },
+  {
+    "eventId": "MB61/WB39",
+    "canonicalName": "Recursion theory and realizability",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1945,
+        "precision": "year",
+        "label": "Kleene's realizability",
+        "work": "S. C. Kleene, On the interpretation of intuitionistic number theory, J. Symbolic Logic 10 (1945)",
+        "people": [
+          "Stephen Kleene"
+        ],
+        "description": "Interprets intuitionistic arithmetic via recursive functions.",
+        "evidence": [
+          {
+            "claim": "Crossref: JSL 10, Dec 1945",
+            "source": "Crossref record",
+            "url": "https://api.crossref.org/works/10.2307/2269016",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Stephen Kleene",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Stephen_Cole_Kleene",
+        "works": [
+          {
+            "citation": "On the interpretation of intuitionistic number theory",
+            "year": 1945,
+            "url": "https://doi.org/10.2307/2269016",
+            "whyItMatters": "Realizability"
+          }
+        ]
+      }
+    ],
+    "notes": "Role assignment rests on the bibliographic record (title, author, year) and the inherited catalogue summary; paper content was not independently read. Catalogue 1943 start (Kleene's earlier recursive-function work) not verified.",
+    "pid": "P219",
+    "searchTerms": [
+      "logic",
+      "recursive functions",
+      "intuitionism",
+      "constructive logic",
+      "proof theory"
+    ]
+  }
+]

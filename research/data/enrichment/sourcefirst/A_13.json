@@ -1,0 +1,2547 @@
+[
+ {
+  "pid": "P373",
+  "eventId": "M6/W25",
+  "canonicalName": "Arithmetization of analysis and the construction of the real numbers",
+  "aliases": [
+   "Arithmetization of analysis",
+   "Construction of the real numbers",
+   "Dedekind cuts",
+   "Cantor-Heine fundamental sequences"
+  ],
+  "phases": [
+   "Private constructions (Dedekind 1858, Weierstrass 1865)",
+   "Published constructions (Meray 1869; Heine, Cantor, Dedekind 1872)",
+   "Textbook and axiomatic treatments"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1858,
+    "precision": "year",
+    "label": "Dedekind devises cuts (unpublished)",
+    "work": null,
+    "people": [
+     "Richard Dedekind"
+    ],
+    "description": "Dedekind worked out his definition of real numbers by cuts of the rationals but kept it private for years.",
+    "evidence": [
+     {
+      "claim": "Cuts were worked out in 1858 and published only in 1872.",
+      "source": "MacTutor, Real numbers 2",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Real_numbers_2/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "precursor",
+    "year": 1865,
+    "precision": "year",
+    "label": "Weierstrass lectures on real numbers (unpublished)",
+    "work": "Weierstrass, Berlin lectures from 1865 (not published at the time)",
+    "people": [
+     "Karl Weierstrass"
+    ],
+    "description": "Weierstrass gave his own theory of the real numbers in Berlin lectures that circulated through students, not in print.",
+    "evidence": [
+     {
+      "claim": "His theory was given in lectures beginning in 1865 and not published.",
+      "source": "MacTutor, Real numbers 2",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Real_numbers_2/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Lecture-based precursor; the theory reached print via students such as Hankel and later editions."
+   },
+   {
+    "role": "first_statement",
+    "year": 1869,
+    "precision": "year",
+    "label": "Meray publishes an arithmetical theory of irrationals",
+    "work": "Meray, Remarques sur la nature des quantites definies par la condition de servir de limites a des variables donnees, Revue des Societes savantes, 1869",
+    "people": [
+     "Charles Meray"
+    ],
+    "description": "Meray defined irrational numbers as limits of convergent rational sequences, the first such theory to appear in print.",
+    "evidence": [
+     {
+      "claim": "Cited as the first published arithmetical theory of irrational numbers (1869).",
+      "source": "MacTutor, Meray biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Meray/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Original journal not located in Crossref; year rests on MacTutor. Hankel 1867 is described as proposing the change of viewpoint, not a construction."
+   },
+   {
+    "role": "key_development",
+    "year": 1872,
+    "precision": "year",
+    "label": "Heine's construction by fundamental sequences",
+    "work": "E. Heine, Die Elemente der Functionenlehre, J. reine angew. Math. 74, 1872",
+    "people": [
+     "Eduard Heine"
+    ],
+    "description": "Heine built real numbers from Cauchy-type rational sequences with arithmetic and order, following Cantor's idea.",
+    "evidence": [
+     {
+      "claim": "Crossref lists the paper in volume 74 (1872).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1515/crll.1872.74.172",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Heine introduced arithmetic operations and an order on his sequences.",
+      "source": "MacTutor, Real numbers 2",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Real_numbers_2/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "year": 1872,
+    "precision": "year",
+    "label": "Cantor's real numbers from fundamental sequences",
+    "work": "G. Cantor, Ueber die Ausdehnung eines Satzes aus der Theorie der trigonometrischen Reihen, Math. Ann. 5, 1872",
+    "people": [
+     "Georg Cantor"
+    ],
+    "description": "Cantor defined real numbers as classes of rational Cauchy sequences within a paper on trigonometric series.",
+    "evidence": [
+     {
+      "claim": "Crossref records the paper in Math. Ann. 5 (1872).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01446327",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Cantor published a version in 1872 using Cauchy sequences of rationals.",
+      "source": "MacTutor, Real numbers 2",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Real_numbers_2/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "year": 1872,
+    "precision": "year",
+    "label": "Dedekind's cuts published",
+    "work": "R. Dedekind, Stetigkeit und irrationale Zahlen, Braunschweig: Vieweg, 1872",
+    "people": [
+     "Richard Dedekind"
+    ],
+    "description": "Dedekind published his definition of the reals by partitions of the rationals, showing continuity without geometric appeal.",
+    "evidence": [
+     {
+      "claim": "Archive.org record: Stetigkeit und irrationale Zahlen, Vieweg, 1872.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/rcin.org.pl.WA35_13029_4795_Stetigkeit_2281",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Dedekind published after realising Heine and Cantor were about to.",
+      "source": "MacTutor, Real numbers 2",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Real_numbers_2/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "naming",
+    "year": 1899,
+    "precision": "year",
+    "label": "Pierpont titles a survey 'On the arithmetization of mathematics'",
+    "work": "J. Pierpont, On the arithmetization of mathematics, Bull. AMS 5, 1899",
+    "people": [
+     "James Pierpont"
+    ],
+    "description": "A survey carrying the name of the programme in its title; an earlier coinage by Kronecker is mentioned but undated here.",
+    "evidence": [
+     {
+      "claim": "Crossref records the article in Bull. AMS 5 (1899).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/s0002-9904-1899-00620-7",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Kronecker is said to have introduced the term, later shifted in meaning.",
+      "source": "Wikipedia, Arithmetization of analysis",
+      "url": "https://en.wikipedia.org/wiki/Arithmetization_of_analysis",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Earliest coinage not established; Kronecker (e.g. 1887, Ueber den Zahlbegriff, Crelle 101) and Klein (1895) are candidates, not verified as first use."
+   },
+   {
+    "role": "consolidation",
+    "year": 1930,
+    "precision": "year",
+    "label": "Landau's Grundlagen der Analysis",
+    "work": "E. Landau, Grundlagen der Analysis, 1930",
+    "people": [
+     "Edmund Landau"
+    ],
+    "description": "A textbook building naturals, rationals, reals and complexes step by step from Peano axioms.",
+    "evidence": [
+     {
+      "claim": "Contemporary review in Amer. Math. Monthly 37 (1930).",
+      "source": "Crossref (review record)",
+      "url": "https://doi.org/10.2307/2298247",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Dated from a review; not the first systematic treatment of the construction, but a standard one."
+   }
+  ],
+  "people": [
+   {
+    "name": "Richard Dedekind",
+    "role": "developer",
+    "lifespan": "1831-1916",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Dedekind/",
+    "works": [
+     {
+      "citation": "Stetigkeit und irrationale Zahlen, 1872",
+      "year": 1872,
+      "url": "https://archive.org/details/rcin.org.pl.WA35_13029_4795_Stetigkeit_2281",
+      "whyItMatters": "published the cut construction"
+     }
+    ],
+    "roleNote": "cuts of rationals"
+   },
+   {
+    "name": "Georg Cantor",
+    "role": "developer",
+    "lifespan": "1845-1918",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Cantor/",
+    "works": [
+     {
+      "citation": "Ueber die Ausdehnung eines Satzes aus der Theorie der trigonometrischen Reihen, Math. Ann. 5",
+      "year": 1872,
+      "url": "https://doi.org/10.1007/bf01446327",
+      "whyItMatters": "reals as sequence classes"
+     }
+    ],
+    "roleNote": "fundamental sequences"
+   },
+   {
+    "name": "Karl Weierstrass",
+    "role": "popularizer",
+    "lifespan": "1815-1897",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Weierstrass/",
+    "works": [
+     {
+      "citation": "Memoir on single valued analytic functions (transl. E. Picard)",
+      "year": 1879,
+      "url": "https://zbmath.org/?q=an:11.0264.01",
+      "whyItMatters": "Power-series foundation of analysis without geometric intuition."
+     }
+    ],
+    "roleNote": "unpublished lectures on real numbers"
+   },
+   {
+    "name": "Charles Meray",
+    "role": "originator",
+    "lifespan": "1835-1911",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Meray/",
+    "works": [
+     {
+      "citation": "Remarques sur la nature des quantites definies par la condition de servir de limites a des variables donnees",
+      "year": 1869,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Meray/",
+      "whyItMatters": "earliest printed arithmetical theory"
+     }
+    ],
+    "roleNote": "first published theory of irrationals"
+   },
+   {
+    "name": "Eduard Heine",
+    "role": "developer",
+    "lifespan": "1821-1881",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Heine/",
+    "works": [
+     {
+      "citation": "Die Elemente der Functionenlehre, Crelle 74",
+      "year": 1872,
+      "url": "https://doi.org/10.1515/crll.1872.74.172",
+      "whyItMatters": "published construction following Cantor"
+     }
+    ],
+    "roleNote": "sequence construction"
+   }
+  ],
+  "notes": "Priority is spread: Meray (1869) is first in print, Weierstrass and Dedekind earlier in private. Weierstrass's lectures are undated beyond 'from 1865'. Hankel 1867 not verified in a record. Naming milestone is low confidence; Kronecker's coinage and Klein's 1895 address were not verified.",
+  "derivedDates": {
+   "conceptual": 1869,
+   "methodological": null,
+   "institutional": 1899
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P053",
+  "eventId": "E61",
+  "canonicalName": "Riemann's zeta function and the prime number theorem",
+  "aliases": [
+   "Analytic number theory",
+   "Complex analysis and the primes",
+   "Prime number theorem (Hadamard, de la Vallee Poussin)"
+  ],
+  "phases": [
+   "Real-variable precursors (Euler, Chebyshev)",
+   "Riemann's complex-variable programme",
+   "Proof of the prime number theorem"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1737,
+    "precision": "year",
+    "label": "Euler's zeta function over the reals",
+    "work": null,
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "Euler studied the zeta series and its product over primes for real arguments, linking primes to analysis.",
+    "evidence": [
+     {
+      "claim": "Euler used the zeta function with real argument as early as 1737.",
+      "source": "Wikipedia, Prime number theorem",
+      "url": "https://en.wikipedia.org/wiki/Prime_number_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "precursor",
+    "year": 1848,
+    "endYear": 1850,
+    "precision": "range",
+    "label": "Chebyshev's partial results",
+    "work": null,
+    "people": [
+     "Pafnuty Chebyshev"
+    ],
+    "description": "Chebyshev, using real zeta values, showed the prime counting ratio is bounded above and below and that any limit must equal one.",
+    "evidence": [
+     {
+      "claim": "Two papers from 1848 and 1850 attempted the asymptotic law.",
+      "source": "Wikipedia, Prime number theorem",
+      "url": "https://en.wikipedia.org/wiki/Prime_number_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "first_statement",
+    "year": 1859,
+    "precision": "year",
+    "label": "Riemann's memoir on the number of primes",
+    "work": "B. Riemann, Ueber die Anzahl der Primzahlen unter einer gegebenen Grosse, Monatsberichte der Berliner Akademie, 1859",
+    "people": [
+     "Bernhard Riemann"
+    ],
+    "description": "Riemann continued zeta to the complex plane and tied its zeros to the primes, proposing complex methods for counting primes.",
+    "evidence": [
+     {
+      "claim": "The 1859 memoir connects the primes to zeros of the continued zeta function.",
+      "source": "Wikipedia, Prime number theorem",
+      "url": "https://en.wikipedia.org/wiki/Prime_number_theorem",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Crossref records the memoir reprinted in the Gesammelte Werke (original year from the citation).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1017/cbo9781139568050.008",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "The reprint record carries no 1859 date; the year comes from the journal citation on the history page."
+   },
+   {
+    "role": "key_development",
+    "year": 1895,
+    "precision": "year",
+    "label": "von Mangoldt proves Riemann's formula",
+    "work": "H. von Mangoldt, Zu Riemanns Abhandlung 'Ueber die Anzahl der Primzahlen unter einer gegebenen Grosse', Crelle 114, 1895",
+    "people": [
+     "Hans von Mangoldt"
+    ],
+    "description": "von Mangoldt gave rigorous proofs of the explicit formula suggested by Riemann, preparing the ground for the final proof.",
+    "evidence": [
+     {
+      "claim": "Crossref: Crelle 114 (1895), title referencing Riemann's memoir.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1515/crll.1895.114.255",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Description of content from the title and background knowledge; not read in the paper."
+   },
+   {
+    "role": "first_application",
+    "year": 1896,
+    "precision": "year",
+    "label": "Hadamard proves the prime number theorem",
+    "work": "J. Hadamard, Sur la distribution des zeros de la fonction zeta(s) et ses consequences arithmetiques, Bull. SMF 24, 1896",
+    "people": [
+     "Jacques Hadamard"
+    ],
+    "description": "Hadamard showed zeta has no zeros on the line Re s = 1 and deduced the asymptotic law for primes.",
+    "evidence": [
+     {
+      "claim": "Crossref: Bull. Soc. Math. France, 1896.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.24033/bsmf.545",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Both 1896 proofs use complex analysis and non-vanishing on Re s = 1.",
+      "source": "Wikipedia, Prime number theorem",
+      "url": "https://en.wikipedia.org/wiki/Prime_number_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "year": 1896,
+    "precision": "year",
+    "label": "de la Vallee Poussin's independent proof",
+    "work": "C.-J. de la Vallee Poussin, Recherches analytiques sur la theorie des nombres premiers, Ann. Soc. Sci. Bruxelles 20-21, 1896",
+    "people": [
+     "Charles de la Vallee Poussin"
+    ],
+    "description": "An independent proof in the same year, with a later 1899 memoir adding an error term.",
+    "evidence": [
+     {
+      "claim": "Proved independently of Hadamard in 1896.",
+      "source": "Wikipedia, Prime number theorem",
+      "url": "https://en.wikipedia.org/wiki/Prime_number_theorem",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Hadamard and de la Vallee Poussin proved it in 1896.",
+      "source": "MacTutor, Prime numbers",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Prime_numbers/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "No Crossref record found; Wikipedia gives the Brussels citation."
+   },
+   {
+    "role": "consolidation",
+    "year": 1909,
+    "precision": "year",
+    "label": "Landau's Handbuch der Lehre von der Verteilung der Primzahlen",
+    "work": "E. Landau, Handbuch der Lehre von der Verteilung der Primzahlen, Leipzig: Teubner, 1909",
+    "people": [
+     "Edmund Landau"
+    ],
+    "description": "A two-volume treatise collecting the analytic theory of primes, including the complex-analytic proof.",
+    "evidence": [
+     {
+      "claim": "Archive.org record dated 1909.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/handbuchderlehre01landuoft",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Bernhard Riemann",
+    "role": "originator",
+    "lifespan": "1826-1866",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Riemann/",
+    "works": [
+     {
+      "citation": "Ueber die Anzahl der Primzahlen unter einer gegebenen Grosse",
+      "year": 1859,
+      "url": "https://doi.org/10.1017/cbo9781139568050.008",
+      "whyItMatters": "continuation of zeta and link to primes"
+     }
+    ],
+    "roleNote": "introduced complex methods for primes"
+   },
+   {
+    "name": "Jacques Hadamard",
+    "role": "developer",
+    "lifespan": "1865-1963",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hadamard/",
+    "works": [
+     {
+      "citation": "Sur la distribution des zeros de la fonction zeta(s)",
+      "year": 1896,
+      "url": "https://doi.org/10.24033/bsmf.545",
+      "whyItMatters": "no zeros on Re s = 1"
+     }
+    ],
+    "roleNote": "proved the prime number theorem"
+   },
+   {
+    "name": "Charles de la Vallee Poussin",
+    "role": "developer",
+    "lifespan": "1866-1962",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Charles_Jean_de_la_Vall%C3%A9e_Poussin",
+    "works": [
+     {
+      "citation": "Recherches analytiques sur la theorie des nombres premiers",
+      "year": 1896,
+      "url": "https://en.wikipedia.org/wiki/Prime_number_theorem",
+      "whyItMatters": "second 1896 proof"
+     }
+    ],
+    "roleNote": "independent proof"
+   },
+   {
+    "name": "Hans von Mangoldt",
+    "role": "developer",
+    "lifespan": "1854-1925",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Hans_Carl_Friedrich_von_Mangoldt",
+    "works": [
+     {
+      "citation": "Zu Riemanns Abhandlung",
+      "year": 1895,
+      "url": "https://doi.org/10.1515/crll.1895.114.255",
+      "whyItMatters": "rigorous explicit formula"
+     }
+    ],
+    "roleNote": "made Riemann's formula rigorous"
+   },
+   {
+    "name": "Pafnuty Chebyshev",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Chebyshev/",
+    "works": [
+     {
+      "citation": "Pafnuty Chebyshev, 'Mémoire sur les nombres premiers', Journal de Mathématiques Pures et Appliquées 17 (1852)",
+      "year": 1852,
+      "url": "https://www.numdam.org/item/JMPA_1852_1_17__366_0/",
+      "whyItMatters": "Chebyshev's published memoir on the prime-counting function, the partial results the record credits to him before Riemann's 1859 memoir."
+     }
+    ]
+   }
+  ],
+  "notes": "Riemann's date is cited from journal references, the reprint record has no original year. Hadamard and de la Vallee Poussin are simultaneous. Naming ('Riemann zeta function') and an MSC/institution entry (11M) were not dated here. Later simplifications (Selberg and Erdos 1949, Newman 1980) are outside the scope. person without verified work: Pafnuty Chebyshev (developer).",
+  "derivedDates": {
+   "conceptual": 1859,
+   "methodological": 1896,
+   "institutional": 1909
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P452",
+  "eventId": "H50",
+  "canonicalName": "Vortex atoms and the origin of knot tabulation",
+  "aliases": [
+   "Vortex theory of the atom",
+   "Kelvin's vortex atoms",
+   "Tait's knot tables",
+   "Origins of knot theory"
+  ],
+  "phases": [
+   "Vortex atoms (Helmholtz, Thomson)",
+   "Knot tables (Tait, Kirkman)",
+   "Topological knot theory (Alexander, Reidemeister)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1858,
+    "precision": "year",
+    "label": "Helmholtz on vortex motion",
+    "work": "H. Helmholtz, Ueber Integrale der hydrodynamischen Gleichungen, welche den Wirbelbewegungen entsprechen, Crelle 55, 1858",
+    "people": [
+     "Hermann von Helmholtz"
+    ],
+    "description": "Helmholtz showed vortex filaments in an ideal fluid persist and can form closed rings.",
+    "evidence": [
+     {
+      "claim": "Crossref: Crelle 55 (1858).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1515/crll.1858.55.25",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Helmholtz showed vortex cores are filaments forming rings, with no link to matter theory.",
+      "source": "Wikipedia, Vortex theory of the atom",
+      "url": "https://en.wikipedia.org/wiki/Vortex_theory_of_the_atom",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_statement",
+    "year": 1867,
+    "precision": "year",
+    "label": "Thomson proposes vortex atoms",
+    "work": "W. Thomson, On vortex atoms, Phil. Mag. 34, 1867",
+    "people": [
+     "William Thomson (Lord Kelvin)"
+    ],
+    "description": "Thomson proposed atoms as stable knotted vortex rings in the aether, so that kinds of knot would give kinds of atom.",
+    "evidence": [
+     {
+      "claim": "Crossref: Phil. Mag. (4) 34 (1867), 'On vortex atoms'.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1080/14786446708639836",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Published in Proc. Roy. Soc. Edinburgh in 1867 per the history page.",
+      "source": "Wikipedia, Vortex theory of the atom",
+      "url": "https://en.wikipedia.org/wiki/Vortex_theory_of_the_atom",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "The Proc. Roy. Soc. Edinburgh volume 6 is dated 1869 in Crossref; the paper itself dates from 1867."
+   },
+   {
+    "role": "first_application",
+    "year": 1877,
+    "precision": "year",
+    "label": "Tait's first paper On Knots",
+    "work": "P. G. Tait, On Knots, Trans. Roy. Soc. Edinburgh 28, 1877",
+    "people": [
+     "Peter Guthrie Tait"
+    ],
+    "description": "Tait took up the knot question raised by vortex atoms and began enumerating knots.",
+    "evidence": [
+     {
+      "claim": "Crossref: Trans. Roy. Soc. Edinburgh 28 (1877), 'On Knots'.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1017/s0080456800090633",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Tait was drawn in by Thomson's idea and began a classification of knots.",
+      "source": "MacTutor, Tait biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Tait/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Volume 28 spans 1876-78; Tait's first communication may predate the printed year."
+   },
+   {
+    "role": "key_development",
+    "year": 1884,
+    "precision": "year",
+    "label": "Kirkman's enumeration of knots",
+    "work": "T. P. Kirkman, The enumeration, description and construction of knots of fewer than ten crossings, Trans. Roy. Soc. Edinburgh 32, 1884",
+    "people": [
+     "Thomas Kirkman"
+    ],
+    "description": "Kirkman, working with Tait, enumerated knots up to nine and then ten crossings, extending the first knot tables.",
+    "evidence": [
+     {
+      "claim": "Crossref: Trans. Roy. Soc. Edinburgh 32 (1884).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1017/s0080456800026788",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Kirkman published his first knot paper in 1884 and with Tait produced tables up to 10 crossings.",
+      "source": "MacTutor, Kirkman biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kirkman/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Tait's Part II (1884) and Part III (1886) in the same transactions also belong here; Wikipedia dates Tait's ten-crossing table to 1885. C. N. Little's 1885 role is not verified."
+   },
+   {
+    "role": "key_development",
+    "year": 1928,
+    "precision": "year",
+    "label": "Alexander's invariants of knots and links",
+    "work": "J. W. Alexander, Topological invariants of knots and links, Trans. AMS 30, 1928",
+    "people": [
+     "James W. Alexander"
+    ],
+    "description": "Alexander introduced a polynomial invariant, moving knot theory from tabulation towards topology.",
+    "evidence": [
+     {
+      "claim": "Crossref: Trans. AMS 30 (1928).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/s0002-9947-1928-1501429-1",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Early 20th century topologists used the knot group and Alexander polynomial.",
+      "source": "Wikipedia, Knot theory",
+      "url": "https://en.wikipedia.org/wiki/Knot_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "year": 1932,
+    "precision": "year",
+    "label": "Reidemeister's Knotentheorie",
+    "work": "K. Reidemeister, Knotentheorie, Ergebnisse der Mathematik, Berlin: Springer, 1932",
+    "people": [
+     "Kurt Reidemeister"
+    ],
+    "description": "A monograph giving the topological theory of knots under the name Knotentheorie.",
+    "evidence": [
+     {
+      "claim": "Reviews in 1933 record the 1932 Springer volume.",
+      "source": "Crossref (review records)",
+      "url": "https://doi.org/10.2307/3605348",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Also the title-level naming 'Knotentheorie'; 'first monograph' is not independently verified."
+   },
+   {
+    "role": "institution",
+    "year": 1992,
+    "precision": "year",
+    "label": "Journal of Knot Theory and Its Ramifications",
+    "work": "J. Knot Theory Ramifications, vol. 1, 1992",
+    "people": [],
+    "description": "A dedicated journal for the field appears.",
+    "evidence": [
+     {
+      "claim": "Crossref lists volume 1 (1992).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1142/s0218216592000264",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "William Thomson (Lord Kelvin)",
+    "role": "originator",
+    "lifespan": "1824-1907",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Thomson/",
+    "works": [
+     {
+      "citation": "On vortex atoms, Phil. Mag. 34",
+      "year": 1867,
+      "url": "https://doi.org/10.1080/14786446708639836",
+      "whyItMatters": "motivated knot classification"
+     }
+    ],
+    "roleNote": "proposed vortex atoms"
+   },
+   {
+    "name": "Peter Guthrie Tait",
+    "role": "originator",
+    "lifespan": "1831-1901",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Tait/",
+    "works": [
+     {
+      "citation": "On Knots, Trans. RSE 28",
+      "year": 1877,
+      "url": "https://doi.org/10.1017/s0080456800090633",
+      "whyItMatters": "began classification"
+     }
+    ],
+    "roleNote": "first knot tables"
+   },
+   {
+    "name": "Thomas Kirkman",
+    "role": "developer",
+    "lifespan": "1806-1895",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kirkman/",
+    "works": [
+     {
+      "citation": "Enumeration, description and construction of knots of fewer than ten crossings",
+      "year": 1884,
+      "url": "https://doi.org/10.1017/s0080456800026788",
+      "whyItMatters": "extended tables"
+     }
+    ],
+    "roleNote": "knot enumeration"
+   },
+   {
+    "name": "Hermann von Helmholtz",
+    "role": "developer",
+    "lifespan": "1821-1894",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Helmholtz/",
+    "works": [
+     {
+      "citation": "Ueber Integrale der hydrodynamischen Gleichungen",
+      "year": 1858,
+      "url": "https://doi.org/10.1515/crll.1858.55.25",
+      "whyItMatters": "persistence of vortex lines"
+     }
+    ],
+    "roleNote": "vortex dynamics"
+   }
+  ],
+  "notes": "Tait's first printed paper is dated 1877 (Crossref) although work began earlier; Wikipedia gives 1885 for his ten-crossing table. Little's contribution (1885) is mentioned in the literature but unverified here. Naming 'knot theory' pre-dates Reidemeister (German Knotentheorie) but earlier use was not searched.",
+  "derivedDates": {
+   "conceptual": 1867,
+   "methodological": 1877,
+   "institutional": 1932
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P448",
+  "eventId": "H44",
+  "canonicalName": "Beltrami and Klein models of non-Euclidean geometry",
+  "aliases": [
+   "Beltrami-Klein model",
+   "Cayley-Klein model",
+   "Projective model of hyperbolic geometry",
+   "Beltrami's interpretation of non-Euclidean geometry"
+  ],
+  "phases": [
+   "Beltrami's differential-geometric interpretation (1868)",
+   "Klein's projective models (1871)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1859,
+    "precision": "year",
+    "label": "Cayley's projective definition of distance",
+    "work": "A. Cayley, A sixth memoir upon quantics, Phil. Trans. 149, 1859",
+    "people": [
+     "Arthur Cayley"
+    ],
+    "description": "Cayley defined metric notions inside projective geometry via an absolute conic, the tool Klein would later use.",
+    "evidence": [
+     {
+      "claim": "Crossref: Phil. Trans. 1859.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1098/rstl.1859.0004",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Cayley's 1859 cross-ratio definition of angle became the Cayley metric.",
+      "source": "Wikipedia, Beltrami-Klein model",
+      "url": "https://en.wikipedia.org/wiki/Beltrami%E2%80%93Klein_model",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_statement",
+    "year": 1868,
+    "precision": "year",
+    "label": "Beltrami's Saggio: hyperbolic geometry on surfaces",
+    "work": "E. Beltrami, Saggio di interpretazione della geometria non-euclidea, Giornale di Matematiche 6, 1868",
+    "people": [
+     "Eugenio Beltrami"
+    ],
+    "description": "Beltrami realised Lobachevsky's plane on surfaces of constant negative curvature, linking it to Riemann's geometry.",
+    "evidence": [
+     {
+      "claim": "The 1868 essay gives a concrete realisation using the pseudosphere.",
+      "source": "MacTutor, Beltrami biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Beltrami/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Citation: Giornale di Matematiche 6 (1868).",
+      "source": "Wikipedia, Eugenio Beltrami",
+      "url": "https://en.wikipedia.org/wiki/Eugenio_Beltrami",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "MacTutor stresses Beltrami did not set out to prove consistency; others drew that consequence."
+   },
+   {
+    "role": "key_development",
+    "year": 1868,
+    "precision": "year",
+    "label": "Beltrami's Teoria fondamentale: higher-dimensional and projective model",
+    "work": "E. Beltrami, Teoria fondamentale degli spazii di curvatura costante, Annali di Matematica (2) 2, 1868",
+    "people": [
+     "Eugenio Beltrami"
+    ],
+    "description": "The general n-dimensional treatment, in which the model with straight lines inside a ball first appears.",
+    "evidence": [
+     {
+      "claim": "Crossref: Annali di Matematica 2 (1868).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/BF02419615",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "The model first appeared in two 1868 memoirs of Beltrami.",
+      "source": "Wikipedia, Beltrami-Klein model",
+      "url": "https://en.wikipedia.org/wiki/Beltrami%E2%80%93Klein_model",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "year": 1870,
+    "precision": "year",
+    "label": "Houel translates Beltrami and notes independence of the parallel postulate",
+    "work": "J. Houel, French translations of Lobachevsky and Beltrami, 1870",
+    "people": [
+     "Jules Houel"
+    ],
+    "description": "Houel saw that Beltrami's interpretation shows the parallel postulate cannot be derived from the others.",
+    "evidence": [
+     {
+      "claim": "Houel translated both works in 1870 and noted the independence.",
+      "source": "MacTutor, Beltrami biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Beltrami/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Dated from MacTutor only; the translation itself was not located in a bibliographic record."
+   },
+   {
+    "role": "key_development",
+    "year": 1871,
+    "precision": "year",
+    "label": "Klein's Cayley-metric models of non-Euclidean geometry",
+    "work": "F. Klein, Ueber die sogenannte Nicht-Euklidische Geometrie, Math. Ann. 4, 1871",
+    "people": [
+     "Felix Klein"
+    ],
+    "description": "Klein used Cayley's projective distance to build models of hyperbolic and elliptic geometry inside projective geometry.",
+    "evidence": [
+     {
+      "claim": "Crossref: Math. Ann. 4 (1871).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02100583",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Klein realised Cayley's ideas give a projective model of the non-Euclidean plane.",
+      "source": "Wikipedia, Beltrami-Klein model",
+      "url": "https://en.wikipedia.org/wiki/Beltrami%E2%80%93Klein_model",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Eugenio Beltrami",
+    "role": "developer",
+    "lifespan": "1835-1900",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Beltrami/",
+    "works": [
+     {
+      "citation": "Teoria fondamentale degli spazii di curvatura costante",
+      "year": 1868,
+      "url": "https://doi.org/10.1007/BF02419615",
+      "whyItMatters": "n-dimensional model"
+     }
+    ],
+    "roleNote": "interpretation by constant-curvature surfaces"
+   },
+   {
+    "name": "Felix Klein",
+    "role": "developer",
+    "lifespan": "1849-1925",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Klein/",
+    "works": [
+     {
+      "citation": "Ueber die sogenannte Nicht-Euklidische Geometrie",
+      "year": 1871,
+      "url": "https://doi.org/10.1007/bf02100583",
+      "whyItMatters": "model via Cayley metric"
+     }
+    ],
+    "roleNote": "projective models"
+   },
+   {
+    "name": "Arthur Cayley",
+    "role": "developer",
+    "lifespan": "1821-1895",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Cayley/",
+    "works": [
+     {
+      "citation": "A sixth memoir upon quantics",
+      "year": 1859,
+      "url": "https://doi.org/10.1098/rstl.1859.0004",
+      "whyItMatters": "distance from an absolute"
+     }
+    ],
+    "roleNote": "projective metric"
+   },
+   {
+    "name": "Jules Houel",
+    "role": "popularizer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Houel/",
+    "works": [
+     {
+      "citation": "Eugenio Beltrami, 'Essai d'interpretation de la geometrie non-euclidienne' (original Italian 1868), French translation by J. Houel, Annales scientifiques de l'Ecole normale superieure 6 (1869), p. 251 ff.",
+      "year": 1869,
+      "url": "https://www.numdam.org/item/ASENS_1869_1_6__251_0/",
+      "whyItMatters": "Houel's translation makes Beltrami's model of non-Euclidean geometry available in French, the popularising step the event records."
+     }
+    ]
+   }
+  ],
+  "notes": "The summary credits Klein with the consistency proof; MacTutor says Beltrami himself did not aim at it and Houel/others drew the consequence, while Cremona delayed publication over circularity worries. Naming 'Beltrami-Klein model' is modern and undated. Klein's 1873 follow-up (Math. Ann. 6) not used as a separate milestone. person without verified work: Jules Houel (popularizer).",
+  "derivedDates": {
+   "conceptual": 1868,
+   "methodological": 1870,
+   "institutional": null
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P355",
+  "eventId": "W71/M59",
+  "canonicalName": "Tensor calculus (absolute differential calculus of Ricci and Levi-Civita)",
+  "aliases": [
+   "Absolute differential calculus",
+   "Ricci calculus",
+   "Tensor analysis",
+   "Calcul differentiel absolu"
+  ],
+  "phases": [
+   "Christoffel's covariant derivative",
+   "Ricci's absolute differential calculus",
+   "Ricci-Levi-Civita and parallelism",
+   "Relativity"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1869,
+    "precision": "year",
+    "label": "Christoffel on transformation of quadratic differential forms",
+    "work": "E. B. Christoffel, Ueber die Transformation der homogenen Differentialausdrucke zweiten Grades, Crelle 70, 1869",
+    "people": [
+     "Elwin Christoffel"
+    ],
+    "description": "Christoffel solved when two quadratic differential forms are equivalent, introducing the symbols that define covariant differentiation.",
+    "evidence": [
+     {
+      "claim": "Crossref: Crelle 70 (1869).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1515/crll.1869.70.46",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Christoffel's paper was the main influence on Ricci's 1884 start; symbols fundamental in tensor analysis.",
+      "source": "MacTutor, Ricci-Curbastro and Christoffel biographies",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Christoffel/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "MacTutor's Ricci page dates the paper to 1868; Crossref gives volume year 1869."
+   },
+   {
+    "role": "precursor",
+    "year": 1883,
+    "precision": "year",
+    "label": "Ricci's theory of quadratic differential forms",
+    "work": "G. Ricci, Principii di una teoria delle forme differenziali quadratiche, Annali di Matematica 12, 1883-84",
+    "people": [
+     "Gregorio Ricci-Curbastro"
+    ],
+    "description": "Ricci began his work on invariants of quadratic differential forms, the seed of the absolute differential calculus.",
+    "evidence": [
+     {
+      "claim": "Crossref issue date 1883 (volume 12 spans 1883-84).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02420468",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Ricci began investigations on quadratic differential forms in 1884.",
+      "source": "MacTutor, Ricci-Curbastro biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ricci-Curbastro/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Year 1883 (record) versus 1884 (MacTutor)."
+   },
+   {
+    "role": "first_statement",
+    "year": 1888,
+    "precision": "year",
+    "label": "Ricci's systematic presentation of absolute differential calculus",
+    "work": "G. Ricci, paper for the 800th anniversary of the University of Bologna, 1888",
+    "people": [
+     "Gregorio Ricci-Curbastro"
+    ],
+    "description": "Ricci first set out the covariant and contravariant technique systematically, completing four publications by 1892.",
+    "evidence": [
+     {
+      "claim": "Systematic presentation in 1888, with four publications between 1888 and 1892.",
+      "source": "MacTutor, Ricci-Curbastro biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ricci-Curbastro/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Wikipedia (Tensor) instead dates the original presentation to the 1892 Bull. Sci. Math. paper (vol. 16, pp. 167-189), which is the widely cited French exposition."
+   },
+   {
+    "role": "naming",
+    "year": 1898,
+    "precision": "year",
+    "label": "Voigt's modern use of 'tensor'",
+    "work": "W. Voigt, Die fundamentalen physikalischen Eigenschaften der Krystalle in elementarer Darstellung, 1898",
+    "people": [
+     "Woldemar Voigt"
+    ],
+    "description": "Voigt introduced the contemporary meaning of the word tensor in crystal physics; Ricci's own term was 'systems'.",
+    "evidence": [
+     {
+      "claim": "Crossref records the 1898 book.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1515/9783112439449",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "The contemporary usage was introduced by Voigt in 1898.",
+      "source": "Wikipedia, Tensor",
+      "url": "https://en.wikipedia.org/wiki/Tensor",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "consolidation",
+    "year": 1900,
+    "precision": "year",
+    "label": "Ricci and Levi-Civita, Methodes de calcul differentiel absolu",
+    "work": "G. Ricci, T. Levi-Civita, Methodes de calcul differentiel absolu et leurs applications, Math. Ann. 54, 1900",
+    "people": [
+     "Gregorio Ricci-Curbastro",
+     "Tullio Levi-Civita"
+    ],
+    "description": "The joint exposition that made the calculus accessible and showed applications to geometry and mechanics.",
+    "evidence": [
+     {
+      "claim": "Crossref: Math. Ann. 54 (1900).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01454201",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Described as the 1900 classic that made tensor calculus accessible.",
+      "source": "Wikipedia, Tensor",
+      "url": "https://en.wikipedia.org/wiki/Tensor",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "year": 1916,
+    "precision": "year",
+    "label": "Levi-Civita's parallelism",
+    "work": "T. Levi-Civita, Nozione di parallelismo in una varieta qualunque, Rend. Circ. Mat. Palermo 42, 1917",
+    "people": [
+     "Tullio Levi-Civita"
+    ],
+    "description": "Levi-Civita gave a geometric meaning to covariant differentiation as parallel transport on a manifold.",
+    "evidence": [
+     {
+      "claim": "Crossref lists vol. 42 with issued date 1916.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf03014898",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Volume year versus print year (1916/1917)."
+   },
+   {
+    "role": "key_development",
+    "year": 1916,
+    "precision": "year",
+    "label": "Einstein's general relativity written in tensor calculus",
+    "work": "A. Einstein, Die Grundlage der allgemeinen Relativitatstheorie, Ann. Phys. 354, 1916",
+    "people": [
+     "Albert Einstein"
+    ],
+    "description": "Einstein's field theory made absolute differential calculus the standard language of geometry and physics.",
+    "evidence": [
+     {
+      "claim": "Crossref: Ann. Phys. 354 (1916).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1002/andp.19163540702",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The earlier Einstein-Grossmann Entwurf (1913) is the first physical use but was not verified in a record."
+   }
+  ],
+  "people": [
+   {
+    "name": "Gregorio Ricci-Curbastro",
+    "role": "originator",
+    "lifespan": "1853-1925",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Ricci-Curbastro/",
+    "works": [
+     {
+      "citation": "Principii di una teoria delle forme differenziali quadratiche",
+      "year": 1883,
+      "url": "https://doi.org/10.1007/bf02420468",
+      "whyItMatters": "started the theory"
+     }
+    ],
+    "roleNote": "founder of absolute differential calculus"
+   },
+   {
+    "name": "Tullio Levi-Civita",
+    "role": "developer",
+    "lifespan": "1873-1941",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Levi-Civita/",
+    "works": [
+     {
+      "citation": "Methodes de calcul differentiel absolu et leurs applications",
+      "year": 1900,
+      "url": "https://doi.org/10.1007/bf01454201",
+      "whyItMatters": "standard exposition"
+     }
+    ],
+    "roleNote": "co-author and parallel transport"
+   },
+   {
+    "name": "Elwin Christoffel",
+    "role": "developer",
+    "lifespan": "1829-1900",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Christoffel/",
+    "works": [
+     {
+      "citation": "Ueber die Transformation der homogenen Differentialausdrucke zweiten Grades",
+      "year": 1869,
+      "url": "https://doi.org/10.1515/crll.1869.70.46",
+      "whyItMatters": "Christoffel symbols"
+     }
+    ],
+    "roleNote": "covariant differentiation"
+   },
+   {
+    "name": "Woldemar Voigt",
+    "role": "developer",
+    "lifespan": "1850-1919",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Woldemar_Voigt",
+    "works": [
+     {
+      "citation": "Die fundamentalen physikalischen Eigenschaften der Krystalle",
+      "year": 1898,
+      "url": "https://doi.org/10.1515/9783112439449",
+      "whyItMatters": "modern term"
+     }
+    ],
+    "roleNote": "term 'tensor' in modern sense"
+   }
+  ],
+  "notes": "Dates for Ricci disagree between MacTutor (systematic presentation 1888) and Wikipedia (1892 Bull. Sci. Math.); the 1888 Bologna paper and the 1892 paper were not found in a bibliographic record. Riemann's 1854 lecture (published 1868) is a background precursor not listed. The Tensor milestone for naming is the modern physics sense, distinct from Hamilton's older use.",
+  "derivedDates": {
+   "conceptual": 1888,
+   "methodological": null,
+   "institutional": 1898
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P358",
+  "eventId": "E15/M16/W9",
+  "canonicalName": "Lie theory (continuous transformation groups)",
+  "aliases": [
+   "Lie groups",
+   "Lie algebras",
+   "Theory of continuous transformation groups",
+   "Infinitesimal groups"
+  ],
+  "phases": [
+   "Contact transformations and PDEs",
+   "Continuous groups and infinitesimal generators",
+   "Structure and classification (Killing, Cartan, Weyl)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1872,
+    "precision": "year",
+    "label": "Lie's contact transformations and PDEs",
+    "work": "S. Lie, Ueber Complexe, insbesondere Linien- und Kugel-Complexe, mit Anwendung auf die Theorie partieller Differentialgleichungen, Math. Ann. 5, 1872",
+    "people": [
+     "Sophus Lie"
+    ],
+    "description": "Lie used contact transformations (found in Paris) to treat complexes and first-order partial differential equations.",
+    "evidence": [
+     {
+      "claim": "Crossref: Math. Ann. 5 (1872).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01446331",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Contact transformations discovered in Paris; doctorate 1872.",
+      "source": "MacTutor, Lie biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lie/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "precursor",
+    "year": 1873,
+    "endYear": 1874,
+    "precision": "range",
+    "label": "Winter 1873-74: Lie starts the theory of continuous groups",
+    "work": null,
+    "people": [
+     "Sophus Lie"
+    ],
+    "description": "Lie turned from PDEs to systematic work on continuous transformation groups and infinitesimal generators.",
+    "evidence": [
+     {
+      "claim": "Lie began developing the theory of continuous transformation groups in winter 1873-74.",
+      "source": "MacTutor, Lie biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lie/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Lie considered that winter the birth of the theory; Hawkins suggests a longer period.",
+      "source": "Wikipedia, Lie group",
+      "url": "https://en.wikipedia.org/wiki/Lie_group",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_statement",
+    "year": 1876,
+    "precision": "year",
+    "label": "Lie's Theorie der Transformationsgruppen in the Christiania archive",
+    "work": "S. Lie, Theorie der Transformations-Gruppen I, II, Archiv for Mathematik og Naturvidenskab 1, 1876",
+    "people": [
+     "Sophus Lie"
+    ],
+    "description": "Lie set out transformation groups and their infinitesimal generators in a Norwegian journal.",
+    "evidence": [
+     {
+      "claim": "Cited with pages 19-57 and 152-193, 1876.",
+      "source": "Wikipedia, Lie group (reference list)",
+      "url": "https://en.wikipedia.org/wiki/Lie_group",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "An 1874 Gottingen Nachrichten note on groups of transformations probably precedes this; its original year was not confirmed (only a modern reprint record was found)."
+   },
+   {
+    "role": "key_development",
+    "year": 1880,
+    "precision": "year",
+    "label": "Theorie der Transformationsgruppen I in Math. Annalen",
+    "work": "S. Lie, Theorie der Transformationsgruppen I, Math. Ann. 16, 1880",
+    "people": [
+     "Sophus Lie"
+    ],
+    "description": "A major German-language account that brought the theory to a wide readership.",
+    "evidence": [
+     {
+      "claim": "Crossref: Math. Ann. 16 (1880).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01446218",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "year": 1888,
+    "precision": "year",
+    "label": "Killing's classification work on finite continuous groups",
+    "work": "W. Killing, Die Zusammensetzung der stetigen endlichen Transformationsgruppen, Math. Ann. 33, 1888",
+    "people": [
+     "Wilhelm Killing"
+    ],
+    "description": "Killing began the structural classification of the algebras of continuous groups, later completed by Cartan.",
+    "evidence": [
+     {
+      "claim": "Crossref: Math. Ann. 33 (1888), with sequels in vols 34 and 36.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01444109",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Significance stated from background knowledge, not read in the paper."
+   },
+   {
+    "role": "consolidation",
+    "year": 1888,
+    "endYear": 1893,
+    "precision": "range",
+    "label": "Lie and Engel, Theorie der Transformationsgruppen (three volumes)",
+    "work": "S. Lie, F. Engel, Theorie der Transformationsgruppen, Leipzig: Teubner, 1888-93",
+    "people": [
+     "Sophus Lie",
+     "Friedrich Engel"
+    ],
+    "description": "The first systematic treatise on continuous groups, in three volumes.",
+    "evidence": [
+     {
+      "claim": "Archive.org record: Leipzig, Teubner, 1888-93.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/theotransformation02liesrich",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Three volumes published 1888, 1890, 1893.",
+      "source": "Wikipedia, Lie group",
+      "url": "https://en.wikipedia.org/wiki/Lie_group",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "naming",
+    "year": 1893,
+    "precision": "year",
+    "label": "'Groupes de Lie' first appears",
+    "work": "A. Tresse, Sur les invariants differentiels des groupes continus de transformations, 1893",
+    "people": [
+     "Arthur Tresse"
+    ],
+    "description": "The term for Lie groups arises in French in the thesis of Lie's student Tresse.",
+    "evidence": [
+     {
+      "claim": "The term 'groupes de Lie' first appeared in 1893 in Tresse's thesis.",
+      "source": "Wikipedia, Lie group",
+      "url": "https://en.wikipedia.org/wiki/Lie_group",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "key_development",
+    "year": 1925,
+    "precision": "year",
+    "label": "Weyl's representation theory of semisimple groups",
+    "work": "H. Weyl, Theorie der Darstellung kontinuierlicher halb-einfacher Gruppen durch lineare Transformationen, Math. Z. 23, 1925",
+    "people": [
+     "Hermann Weyl"
+    ],
+    "description": "Weyl turned Lie groups into a central tool for representation theory and mathematical physics.",
+    "evidence": [
+     {
+      "claim": "Crossref: Math. Z. 23 (1925).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01506234",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Significance from background knowledge."
+   }
+  ],
+  "people": [
+   {
+    "name": "Sophus Lie",
+    "role": "originator",
+    "lifespan": "1842-1899",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lie/",
+    "works": [
+     {
+      "citation": "Theorie der Transformationsgruppen I",
+      "year": 1880,
+      "url": "https://doi.org/10.1007/bf01446218",
+      "whyItMatters": "main early exposition"
+     }
+    ],
+    "roleNote": "founder"
+   },
+   {
+    "name": "Friedrich Engel",
+    "role": "developer",
+    "lifespan": "1861-1941",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Engel/",
+    "works": [
+     {
+      "citation": "Theorie der Transformationsgruppen (with Lie)",
+      "year": 1888,
+      "url": "https://archive.org/details/theotransformation02liesrich",
+      "whyItMatters": "systematic treatise"
+     }
+    ],
+    "roleNote": "collaborator"
+   },
+   {
+    "name": "Wilhelm Killing",
+    "role": "developer",
+    "lifespan": "1847-1923",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Killing/",
+    "works": [
+     {
+      "citation": "Die Zusammensetzung der stetigen endlichen Transformationsgruppen",
+      "year": 1888,
+      "url": "https://doi.org/10.1007/bf01444109",
+      "whyItMatters": "classification of algebras"
+     }
+    ],
+    "roleNote": "structure theory"
+   },
+   {
+    "name": "Felix Klein",
+    "role": "developer",
+    "lifespan": "1849-1925",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Klein/",
+    "works": [
+     {
+      "citation": "Vergleichende Betrachtungen über neuere geometrische Forschungen, Math. Ann. 43 (1893)",
+      "year": 1893,
+      "url": "https://doi.org/10.1007/BF01446615",
+      "whyItMatters": "Groups of transformations as the organising principle of geometry."
+     }
+    ],
+    "roleNote": "collaborator and promoter"
+   },
+   {
+    "name": "Hermann Weyl",
+    "role": "developer",
+    "lifespan": "1885-1955",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Hermann_Weyl",
+    "works": [
+     {
+      "citation": "Theorie der Darstellung kontinuierlicher halb-einfacher Gruppen",
+      "year": 1925,
+      "url": "https://doi.org/10.1007/bf01506234",
+      "whyItMatters": "compact group representations"
+     }
+    ],
+    "roleNote": "representation theory"
+   }
+  ],
+  "notes": "The first_statement is low-precision: Lie's 1874 Gottingen note and 1876 Archiv papers are both candidates and only the 1876 citation is on a history page. No first_application recorded; Lie's integration of ODEs by groups was not dated from a record. The term 'Lie algebra' (Weyl, 1930s) was not searched.",
+  "derivedDates": {
+   "conceptual": 1876,
+   "methodological": null,
+   "institutional": 1888
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P365",
+  "eventId": "E21/M36/W52",
+  "canonicalName": "Ergodic theory",
+  "aliases": [
+   "Ergodic hypothesis",
+   "Birkhoff and von Neumann ergodic theorems",
+   "Quasi-ergodic hypothesis"
+  ],
+  "phases": [
+   "Boltzmann's ergodic hypothesis",
+   "Rigorous ergodic theorems (1931-32)",
+   "Monographs and modern ergodic theory"
+  ],
+  "milestones": [
+   {
+    "role": "first_application",
+    "year": 1931,
+    "precision": "year",
+    "label": "Koopman: Hamiltonian systems as unitary operators on Hilbert space",
+    "work": "B. O. Koopman, Hamiltonian systems and transformation in Hilbert space, PNAS 17, 1931",
+    "people": [
+     "Bernard Koopman"
+    ],
+    "description": "Koopman represented classical flows by unitary operators on Hilbert space, the idea von Neumann then used.",
+    "evidence": [
+     {
+      "claim": "Crossref: PNAS 17 (1931).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1073/pnas.17.5.315",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Koopman's idea of operators on a function space stimulated von Neumann's ergodic theorem.",
+      "source": "MacTutor, von Neumann biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Von_Neumann/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_statement",
+    "year": 1931,
+    "precision": "year",
+    "label": "Birkhoff's ergodic theorem",
+    "work": "G. D. Birkhoff, Proof of the ergodic theorem, PNAS 17, 1931",
+    "people": [
+     "George David Birkhoff"
+    ],
+    "description": "Birkhoff proved that time averages exist almost everywhere for measure-preserving flows.",
+    "evidence": [
+     {
+      "claim": "Crossref: PNAS 17 (1931).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1073/pnas.17.2.656",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "The Birkhoff (1931) and von Neumann theorems are the two key ergodic theorems.",
+      "source": "Wikipedia, Ergodic theory",
+      "url": "https://en.wikipedia.org/wiki/Ergodic_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Priority with von Neumann (whose proof was earlier but printed in 1932) is discussed by Zund 2002, cited on the history page."
+   },
+   {
+    "role": "key_development",
+    "year": 1932,
+    "precision": "year",
+    "label": "von Neumann's mean ergodic theorem",
+    "work": "J. von Neumann, Proof of the quasi-ergodic hypothesis, PNAS 18, 1932",
+    "people": [
+     "John von Neumann"
+    ],
+    "description": "Von Neumann proved the mean ergodic theorem using Hilbert space methods, giving a rigorous basis to Boltzmann's hypothesis.",
+    "evidence": [
+     {
+      "claim": "Crossref: PNAS 18 (1932).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1073/pnas.18.1.70",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Described as the first rigorous proof of an ergodic theorem.",
+      "source": "MacTutor, von Neumann biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Von_Neumann/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "year": 1932,
+    "precision": "year",
+    "label": "Birkhoff and Koopman survey of recent ergodic theory",
+    "work": "G. D. Birkhoff, B. O. Koopman, Recent contributions to the ergodic theory, PNAS 18, 1932",
+    "people": [
+     "George David Birkhoff",
+     "Bernard Koopman"
+    ],
+    "description": "An early survey of the new theorems and their connections.",
+    "evidence": [
+     {
+      "claim": "Crossref: PNAS 18 (1932).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1073/pnas.18.3.279",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "consolidation",
+    "year": 1937,
+    "precision": "year",
+    "label": "Hopf's Ergodentheorie",
+    "work": "E. Hopf, Ergodentheorie, Ergebnisse der Mathematik, Berlin: Springer, 1937",
+    "people": [
+     "Eberhard Hopf"
+    ],
+    "description": "A monograph presenting the theory, including geodesic flow on surfaces of negative curvature.",
+    "evidence": [
+     {
+      "claim": "Crossref: Springer 1937, Ergodentheorie.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-3-642-86630-2",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "'First monograph' not verified."
+   },
+   {
+    "role": "key_development",
+    "year": 1977,
+    "precision": "year",
+    "label": "Furstenberg's ergodic proof of Szemeredi's theorem",
+    "work": "H. Furstenberg, Ergodic behavior of diagonal measures and a theorem of Szemeredi on arithmetic progressions, J. Anal. Math. 31, 1977",
+    "people": [
+     "Hillel Furstenberg"
+    ],
+    "description": "Ergodic methods were used to prove a deep combinatorial theorem, extending the field's reach.",
+    "evidence": [
+     {
+      "claim": "Crossref: J. Analyse Math. 31 (1977).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02813304",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "institution",
+    "year": 1981,
+    "precision": "year",
+    "label": "Ergodic Theory and Dynamical Systems journal",
+    "work": "Ergodic Theory Dynam. Systems, vol. 1, 1981",
+    "people": [],
+    "description": "A journal named after the field starts.",
+    "evidence": [
+     {
+      "claim": "Crossref lists volume 1 (1981).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1017/s0143385700001425",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "George David Birkhoff",
+    "role": "developer",
+    "lifespan": "1884-1944",
+    "biographyUrl": "https://en.wikipedia.org/wiki/George_David_Birkhoff",
+    "works": [
+     {
+      "citation": "Proof of the ergodic theorem",
+      "year": 1931,
+      "url": "https://doi.org/10.1073/pnas.17.2.656",
+      "whyItMatters": "almost-everywhere time averages"
+     }
+    ],
+    "roleNote": "pointwise ergodic theorem"
+   },
+   {
+    "name": "John von Neumann",
+    "role": "developer",
+    "lifespan": "1903-1957",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Von_Neumann/",
+    "works": [
+     {
+      "citation": "Proof of the quasi-ergodic hypothesis",
+      "year": 1932,
+      "url": "https://doi.org/10.1073/pnas.18.1.70",
+      "whyItMatters": "Hilbert-space proof"
+     }
+    ],
+    "roleNote": "mean ergodic theorem"
+   },
+   {
+    "name": "Bernard Koopman",
+    "role": "developer",
+    "lifespan": "1900-1981",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Bernard_Koopman",
+    "works": [
+     {
+      "citation": "Hamiltonian systems and transformation in Hilbert space",
+      "year": 1931,
+      "url": "https://doi.org/10.1073/pnas.17.5.315",
+      "whyItMatters": "unitary representation of flows"
+     }
+    ],
+    "roleNote": "operator viewpoint"
+   },
+   {
+    "name": "Ludwig Boltzmann",
+    "role": "developer",
+    "lifespan": "1844-1906",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Boltzmann/",
+    "works": [
+     {
+      "citation": "Ueber die Eigenschaften monocyklischer und anderer damit verwandter Systeme (1885)",
+      "year": 1885,
+      "url": "https://zbmath.org/?q=an:16.0863.02",
+      "whyItMatters": "Ergodic hypothesis for mechanical systems."
+     }
+    ],
+    "roleNote": "ergodic hypothesis"
+   },
+   {
+    "name": "Eberhard Hopf",
+    "role": "systematiser",
+    "lifespan": "1902-1983",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Eberhard_Hopf",
+    "works": [
+     {
+      "citation": "Ergodentheorie",
+      "year": 1937,
+      "url": "https://doi.org/10.1007/978-3-642-86630-2",
+      "whyItMatters": "systematic treatment"
+     }
+    ],
+    "roleNote": "monograph and geodesic flows"
+   }
+  ],
+  "notes": "Boltzmann's hypothesis is credited on the history page to his gas theory lectures (1898 Part 2, term 'Ergoden'); the earliest coinage and original 1860s-1880s papers were not verified, so no precursor or naming milestone is recorded. Birkhoff and von Neumann priority is disputed. Poincare recurrence (1890) not included.",
+  "derivedDates": {
+   "conceptual": 1931,
+   "methodological": 1931,
+   "institutional": 1932
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P010",
+  "eventId": "E14",
+  "canonicalName": "Klein's Erlangen programme",
+  "aliases": [
+   "Erlanger Programm",
+   "Erlangen programme",
+   "Geometry as invariants of a group",
+   "Vergleichende Betrachtungen uber neuere geometrische Forschungen"
+  ],
+  "phases": [
+   "Projective and non-Euclidean precursors",
+   "The programme (1872)",
+   "Reprint and translation (1893)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1859,
+    "precision": "year",
+    "label": "Cayley: metric geometry inside projective geometry",
+    "work": "A. Cayley, A sixth memoir upon quantics, Phil. Trans. 149, 1859",
+    "people": [
+     "Arthur Cayley"
+    ],
+    "description": "Cayley showed Euclidean metric geometry can be defined from projective geometry.",
+    "evidence": [
+     {
+      "claim": "Crossref: Phil. Trans. 1859.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1098/rstl.1859.0004",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "1859 definition of distance via cross-ratio became the Cayley metric.",
+      "source": "Wikipedia, Beltrami-Klein model",
+      "url": "https://en.wikipedia.org/wiki/Beltrami%E2%80%93Klein_model",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "precursor",
+    "year": 1871,
+    "precision": "year",
+    "label": "Klein's non-Euclidean models from projective geometry",
+    "work": "F. Klein, Ueber die sogenannte Nicht-Euklidische Geometrie, Math. Ann. 4, 1871",
+    "people": [
+     "Felix Klein"
+    ],
+    "description": "Klein related the geometries by projective means, preparing the group-theoretic classification.",
+    "evidence": [
+     {
+      "claim": "Crossref: Math. Ann. 4 (1871).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02100583",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_statement",
+    "year": 1872,
+    "precision": "year",
+    "label": "Klein's Vergleichende Betrachtungen (Erlangen programme)",
+    "work": "F. Klein, Vergleichende Betrachtungen uber neuere geometrische Forschungen, Erlangen: Deichert, 1872",
+    "people": [
+     "Felix Klein"
+    ],
+    "description": "Klein proposed classifying geometries by the group of transformations whose invariants they study.",
+    "evidence": [
+     {
+      "claim": "Archive.org record: Erlangen, A. Deichert, 1872.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/vergleichendebe00kleigoog",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "The Erlanger Programm (1872) unified geometry as study of group invariants.",
+      "source": "MacTutor, Klein biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Klein/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Written for Klein's Erlangen appointment; not the talk he gave."
+   },
+   {
+    "role": "key_development",
+    "year": 1893,
+    "precision": "year",
+    "label": "Programme reprinted in Math. Annalen",
+    "work": "F. Klein, Vergleichende Betrachtungen uber neuere geometrische Forschungen, Math. Ann. 43, 1893",
+    "people": [
+     "Felix Klein"
+    ],
+    "description": "Reprinted with a note, giving it wide circulation.",
+    "evidence": [
+     {
+      "claim": "Crossref: Math. Ann. 43 (1893).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01446615",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same text as the 1872 pamphlet."
+   },
+   {
+    "role": "key_development",
+    "year": 1893,
+    "precision": "year",
+    "label": "English translation by Haskell",
+    "work": "F. Klein (tr. M. W. Haskell), A comparative review of recent researches in geometry, Bull. NY Math. Soc. 2, 1893",
+    "people": [
+     "Felix Klein"
+    ],
+    "description": "The English translation spread the programme in the English-speaking world.",
+    "evidence": [
+     {
+      "claim": "Crossref: Bull. AMS (formerly Bull. NY Math. Soc.) 2 (1893).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/s0002-9904-1893-00147-x",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Felix Klein",
+    "role": "developer",
+    "lifespan": "1849-1925",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Klein/",
+    "works": [
+     {
+      "citation": "Vergleichende Betrachtungen uber neuere geometrische Forschungen",
+      "year": 1872,
+      "url": "https://archive.org/details/vergleichendebe00kleigoog",
+      "whyItMatters": "the programme"
+     }
+    ],
+    "roleNote": "author"
+   },
+   {
+    "name": "Sophus Lie",
+    "role": "developer",
+    "lifespan": "1842-1899",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lie/",
+    "works": [
+     {
+      "citation": "Theorie der Transformationsgruppen I, Math. Ann. (1880)",
+      "year": 1880,
+      "url": "https://doi.org/10.1007/BF01446218",
+      "whyItMatters": "Continuous transformation groups, the framework for Lie theory."
+     }
+    ],
+    "roleNote": "collaborator, group theory"
+   },
+   {
+    "name": "Arthur Cayley",
+    "role": "developer",
+    "lifespan": "1821-1895",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Cayley/",
+    "works": [
+     {
+      "citation": "A sixth memoir upon quantics",
+      "year": 1859,
+      "url": "https://doi.org/10.1098/rstl.1859.0004",
+      "whyItMatters": "distance from an absolute"
+     }
+    ],
+    "roleNote": "projective metric"
+   }
+  ],
+  "notes": "No first_application or naming milestone established: the name 'Erlangen programme' and the first uses of the group-classification (e.g. by Cartan, Veblen) were not dated in records. MacTutor says the programme was written for the inaugural occasion but not the talk given.",
+  "derivedDates": {
+   "conceptual": 1872,
+   "methodological": null,
+   "institutional": null
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P100",
+  "eventId": "B34",
+  "canonicalName": "Derivation of the Boltzmann equation from hard-sphere dynamics",
+  "aliases": [
+   "Lanford's theorem",
+   "Boltzmann-Grad limit",
+   "Hilbert's sixth problem for kinetic theory",
+   "From Newton to Boltzmann"
+  ],
+  "phases": [
+   "Boltzmann and Hilbert's programme",
+   "Short-time derivation (Lanford)",
+   "Long-time derivation (2024)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1872,
+    "precision": "year",
+    "label": "Boltzmann's kinetic equation",
+    "work": "L. Boltzmann, Weitere Studien uber das Warmegleichgewicht unter Gasmolekulen, Wiener Berichte, 1872",
+    "people": [
+     "Ludwig Boltzmann"
+    ],
+    "description": "Boltzmann derived the kinetic equation for gas density from collisions, with a molecular chaos assumption.",
+    "evidence": [
+     {
+      "claim": "The Boltzmann equation was devised by Boltzmann in 1872.",
+      "source": "Wikipedia, Boltzmann equation",
+      "url": "https://en.wikipedia.org/wiki/Boltzmann_equation",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "precursor",
+    "year": 1900,
+    "precision": "year",
+    "label": "Hilbert's sixth problem",
+    "work": "D. Hilbert, Mathematical problems, address 1900; Bull. AMS 8, 1902",
+    "people": [
+     "David Hilbert"
+    ],
+    "description": "Hilbert asked for rigorous axiomatisation of mechanics and a treatment of kinetic gas theory limits.",
+    "evidence": [
+     {
+      "claim": "Hilbert's sixth problem asks for rigorous methods of mean values in kinetic gas theory.",
+      "source": "Wikipedia, Hilbert's sixth problem",
+      "url": "https://en.wikipedia.org/wiki/Hilbert%27s_sixth_problem",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Bull. AMS 8 (1902) English version.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/s0002-9904-1902-00923-3",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Talk given 1900; the cited record is the 1902 translation."
+   },
+   {
+    "role": "precursor",
+    "year": 1972,
+    "precision": "year",
+    "label": "Cercignani on the rigid-sphere Boltzmann equation",
+    "work": "C. Cercignani, On the Boltzmann equation for rigid spheres, Transport Theory Statist. Phys. 2, 1972",
+    "people": [
+     "Carlo Cercignani"
+    ],
+    "description": "A study of the Boltzmann equation for hard spheres, the model later treated by Lanford.",
+    "evidence": [
+     {
+      "claim": "Crossref: Transport Theory Stat. Phys. 2 (1972).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1080/00411457208232538",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Relevance assessed from the title only."
+   },
+   {
+    "role": "first_statement",
+    "year": 1975,
+    "precision": "year",
+    "label": "Lanford's derivation for short times",
+    "work": "O. E. Lanford, Time evolution of large classical systems, Lecture Notes in Physics 38, 1975",
+    "people": [
+     "Oscar Lanford"
+    ],
+    "description": "Lanford first derived the Boltzmann equation from hard-sphere Newtonian dynamics for a short fraction of a collision time.",
+    "evidence": [
+     {
+      "claim": "Crossref: Lecture Notes in Physics (1975).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/3-540-07171-7_1",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Lanford was first to derive the equation for small times in 1975.",
+      "source": "Wikipedia, Hilbert's sixth problem",
+      "url": "https://en.wikipedia.org/wiki/Hilbert%27s_sixth_problem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "A companion paper is in Asterisque 40 (1976)."
+   },
+   {
+    "role": "key_development",
+    "year": 1986,
+    "precision": "year",
+    "label": "Illner and Pulvirenti: global validity for a rare gas in vacuum",
+    "work": "R. Illner, M. Pulvirenti, Global validity of the Boltzmann equation for a two-dimensional rare gas in vacuum, Comm. Math. Phys. 105, 1986",
+    "people": [
+     "Reinhard Illner",
+     "Mario Pulvirenti"
+    ],
+    "description": "Extended validity to all times for rarefied gases expanding in vacuum.",
+    "evidence": [
+     {
+      "claim": "Crossref: CMP 105 (1986).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01211098",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Content from the title."
+   },
+   {
+    "role": "consolidation",
+    "year": 2014,
+    "precision": "year",
+    "label": "Gallagher, Saint-Raymond, Texier: From Newton to Boltzmann",
+    "work": "I. Gallagher, L. Saint-Raymond, B. Texier, From Newton to Boltzmann: hard spheres and short-range potentials, EMS, 2014",
+    "people": [
+     "Isabelle Gallagher",
+     "Laure Saint-Raymond",
+     "Benjamin Texier"
+    ],
+    "description": "A lecture-notes monograph giving a full proof of the derivation and extensions to short-range potentials.",
+    "evidence": [
+     {
+      "claim": "Crossref: EMS Zurich Lectures in Advanced Mathematics.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.4171/129",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Earlier book treatments (Cercignani-Illner-Pulvirenti, 1994) were not searched."
+   },
+   {
+    "role": "key_development",
+    "year": 2024,
+    "precision": "year",
+    "label": "Deng, Hani, Ma: long-time derivation",
+    "work": "Y. Deng, Z. Hani, X. Ma, Long time derivation of the Boltzmann equation from hard sphere dynamics, arXiv:2408.07818, 2024",
+    "people": [
+     "Yu Deng",
+     "Zaher Hani",
+     "Xiao Ma"
+    ],
+    "description": "Extended the derivation from hard-sphere dynamics from a fraction of a collision time to arbitrarily long times.",
+    "evidence": [
+     {
+      "claim": "arXiv record submitted 2024-08-14.",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2408.07818",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Preprint; peer-review status not checked."
+   },
+   {
+    "role": "recognition",
+    "year": 2026,
+    "precision": "year",
+    "label": "Fields Medal to Yu Deng",
+    "work": null,
+    "people": [
+     "Yu Deng"
+    ],
+    "description": "Wikipedia links Deng's Hilbert sixth-problem work to a 2026 Fields Medal.",
+    "evidence": [
+     {
+      "claim": "The sixth-problem work led Deng to win the 2026 Fields Medal.",
+      "source": "Wikipedia, Hilbert's sixth problem",
+      "url": "https://en.wikipedia.org/wiki/Hilbert%27s_sixth_problem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Taken from Wikipedia, which cites BBC; not independently checked."
+   }
+  ],
+  "people": [
+   {
+    "name": "Ludwig Boltzmann",
+    "role": "developer",
+    "lifespan": "1844-1906",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Boltzmann/",
+    "works": [
+     {
+      "citation": "Weitere Studien über das Wärmegleichgewicht unter Gasmolekülen (1872), reprinted in Kinetische Theorie II (1970)",
+      "year": 1872,
+      "url": "https://doi.org/10.1007/978-3-322-84986-1_3",
+      "whyItMatters": "Derives the Boltzmann transport equation for dilute gases."
+     }
+    ],
+    "roleNote": "kinetic equation"
+   },
+   {
+    "name": "Oscar Lanford",
+    "role": "developer",
+    "lifespan": "1940-2013",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Oscar_Lanford",
+    "works": [
+     {
+      "citation": "Time evolution of large classical systems",
+      "year": 1975,
+      "url": "https://doi.org/10.1007/3-540-07171-7_1",
+      "whyItMatters": "first derivation from Newtonian dynamics"
+     }
+    ],
+    "roleNote": "short-time derivation"
+   },
+   {
+    "name": "Yu Deng",
+    "role": "developer",
+    "lifespan": "b. 1989",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Yu_Deng",
+    "works": [
+     {
+      "citation": "Long time derivation of the Boltzmann equation from hard sphere dynamics",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2408.07818",
+      "whyItMatters": "removed the short-time restriction"
+     }
+    ],
+    "roleNote": "long-time derivation"
+   },
+   {
+    "name": "Zaher Hani",
+    "role": "developer",
+    "lifespan": "living",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Zaher_Hani",
+    "works": [
+     {
+      "citation": "Long time derivation of the Boltzmann equation from hard sphere dynamics",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2408.07818",
+      "whyItMatters": "coauthor"
+     }
+    ],
+    "roleNote": "long-time derivation"
+   },
+   {
+    "name": "Laure Saint-Raymond",
+    "role": "developer",
+    "lifespan": "living",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Laure_Saint-Raymond",
+    "works": [
+     {
+      "citation": "From Newton to Boltzmann (with Gallagher, Texier)",
+      "year": 2014,
+      "url": "https://doi.org/10.4171/129",
+      "whyItMatters": "full proof"
+     }
+    ],
+    "roleNote": "hydrodynamic limits and book"
+   },
+   {
+    "name": "David Hilbert",
+    "role": "developer",
+    "lifespan": "1862-1943",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/",
+    "works": [
+     {
+      "citation": "Mathematical problems",
+      "year": 1902,
+      "url": "https://doi.org/10.1090/s0002-9904-1902-00923-3",
+      "whyItMatters": "sixth problem"
+     }
+    ],
+    "roleNote": "posed the problem"
+   }
+  ],
+  "notes": "The input says long-time hard-sphere derivation; the 2024 arXiv result is the long-time result, Lanford 1975 the first. Grad's scaling (1958) and King's thesis were not searched. Lifespans for living people are shown as 'living'. No first_application recorded.",
+  "derivedDates": {
+   "conceptual": 1975,
+   "methodological": null,
+   "institutional": 2014
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P357",
+  "eventId": "E13/M8/W26",
+  "canonicalName": "Cantor's set theory",
+  "aliases": [
+   "Transfinite set theory",
+   "Mengenlehre",
+   "Mannigfaltigkeitslehre",
+   "Theory of transfinite numbers"
+  ],
+  "phases": [
+   "Point sets and trigonometric series (1872)",
+   "Countability and cardinality (1874-1878)",
+   "Transfinite ordinals (1883)",
+   "Systematic exposition (1895-97)"
+  ],
+  "milestones": [
+   {
+    "role": "first_application",
+    "year": 1872,
+    "precision": "year",
+    "label": "Cantor's derived sets in the uniqueness of trigonometric series",
+    "work": "G. Cantor, Ueber die Ausdehnung eines Satzes aus der Theorie der trigonometrischen Reihen, Math. Ann. 5, 1872",
+    "people": [
+     "Georg Cantor"
+    ],
+    "description": "Cantor extended uniqueness of trigonometric series to exceptional point sets defined by repeated derived sets.",
+    "evidence": [
+     {
+      "claim": "Crossref: Math. Ann. 5 (1872).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01446327",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Set theory arose from the study of singularities of functions in analysis.",
+      "source": "Wikipedia, Arithmetization of analysis",
+      "url": "https://en.wikipedia.org/wiki/Arithmetization_of_analysis",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "precursor",
+    "year": 1873,
+    "precision": "year",
+    "label": "Uncountability of the reals found in correspondence",
+    "work": null,
+    "people": [
+     "Georg Cantor",
+     "Richard Dedekind"
+    ],
+    "description": "Cantor had proved the reals are not countable by December 1873, in discussion with Dedekind.",
+    "evidence": [
+     {
+      "claim": "Proved by December 1873 and published in 1874; letters with Dedekind.",
+      "source": "MacTutor, Cantor biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Cantor/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_statement",
+    "year": 1874,
+    "precision": "year",
+    "label": "Cantor's proof that the reals are uncountable",
+    "work": "G. Cantor, Ueber eine Eigenschaft des Inbegriffs aller reellen algebraischen Zahlen, Crelle 77, 1874",
+    "people": [
+     "Georg Cantor"
+    ],
+    "description": "Showed the algebraic numbers are countable but the real numbers are not, with an implicit one-to-one correspondence idea.",
+    "evidence": [
+     {
+      "claim": "Crossref: Crelle 77 (1874).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1515/crll.1874.77.258",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "The 1874 paper uses a one-one correspondence implicitly.",
+      "source": "MacTutor, Cantor biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Cantor/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "naming",
+    "year": 1878,
+    "precision": "year",
+    "label": "Ein Beitrag zur Mannigfaltigkeitslehre",
+    "work": "G. Cantor, Ein Beitrag zur Mannigfaltigkeitslehre, Crelle 84, 1878",
+    "people": [
+     "Georg Cantor"
+    ],
+    "description": "Cantor named his subject 'Mannigfaltigkeitslehre' in a paper comparing the size of sets by one-to-one correspondence.",
+    "evidence": [
+     {
+      "claim": "Crossref: Crelle 84 (1878).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1515/crll.1878.84.242",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "First use of the name in a title is inferred from the record; earlier titles were not exhaustively checked."
+   },
+   {
+    "role": "key_development",
+    "year": 1883,
+    "precision": "year",
+    "label": "Transfinite ordinals in Punktmannichfaltigkeiten V and Grundlagen",
+    "work": "G. Cantor, Ueber unendliche, lineare Punktmannichfaltigkeiten V, Math. Ann. 21, 1883; separately as Grundlagen einer allgemeinen Mannigfaltigkeitslehre",
+    "people": [
+     "Georg Cantor"
+    ],
+    "description": "The fifth paper of the series introduced the transfinite numbers as a systematic extension of the naturals.",
+    "evidence": [
+     {
+      "claim": "Crossref: Math. Ann. 21 (1883), pp. 545-591.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01446819",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "The fifth paper of the six, 1883, also issued as a monograph.",
+      "source": "Wikipedia, Georg Cantor",
+      "url": "https://en.wikipedia.org/wiki/Georg_Cantor",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "year": 1891,
+    "precision": "year",
+    "label": "Cantor's diagonal argument",
+    "work": "G. Cantor, Ueber eine elementare Frage der Mannigfaltigkeitslehre, Jahresbericht der DMV 1, 1891",
+    "people": [
+     "Georg Cantor"
+    ],
+    "description": "A short note with the diagonal argument showing there is no largest cardinality.",
+    "evidence": [
+     {
+      "claim": "Cited as Jahresbericht DMV 1 (1891), pp. 75-78.",
+      "source": "Wikipedia, Georg Cantor (reference list)",
+      "url": "https://en.wikipedia.org/wiki/Georg_Cantor",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Content of the note from background knowledge; only the citation was confirmed."
+   },
+   {
+    "role": "consolidation",
+    "year": 1895,
+    "endYear": 1897,
+    "precision": "range",
+    "label": "Beitrage zur Begrundung der transfiniten Mengenlehre",
+    "work": "G. Cantor, Beitrage zur Begrundung der transfiniten Mengenlehre, Math. Ann. 46, 1895 and 49, 1897",
+    "people": [
+     "Georg Cantor"
+    ],
+    "description": "Cantor's systematic two-part presentation of cardinals and ordinals; also the first appearance of 'Mengenlehre' in a title in this search.",
+    "evidence": [
+     {
+      "claim": "Crossref: Math. Ann. 46 (1895), second part 49 (1897).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02124929",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Second part.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01444205",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Georg Cantor",
+    "role": "originator",
+    "lifespan": "1845-1918",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Cantor/",
+    "works": [
+     {
+      "citation": "Ueber eine Eigenschaft des Inbegriffs aller reellen algebraischen Zahlen",
+      "year": 1874,
+      "url": "https://doi.org/10.1515/crll.1874.77.258",
+      "whyItMatters": "uncountability of the reals"
+     },
+     {
+      "citation": "Beitrage zur Begrundung der transfiniten Mengenlehre",
+      "year": 1895,
+      "url": "https://doi.org/10.1007/bf02124929",
+      "whyItMatters": "systematic exposition"
+     }
+    ],
+    "roleNote": "founder"
+   },
+   {
+    "name": "Richard Dedekind",
+    "role": "developer",
+    "lifespan": "1831-1916",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Dedekind/",
+    "works": [
+     {
+      "citation": "Stetigkeit und irrationale Zahlen (Braunschweig 1872)",
+      "year": 1872,
+      "url": "https://zbmath.org/?q=an:36.0242.01",
+      "whyItMatters": "Dedekind cut: construction of the reals."
+     }
+    ],
+    "roleNote": "correspondent"
+   }
+  ],
+  "notes": "Cantor's Math. Ann. series 1879-84 has six parts, only Parts I and V are cited. The diagonal paper (1891) and Grundlagen (1883 monograph) rest partly on history-page citations. A milestone on institutional recognition (DMV 1890, ICM 1897) was not established; MSC 03Exx not dated here. person without verified work: Karl Weierstrass (popularizer).",
+  "derivedDates": {
+   "conceptual": 1874,
+   "methodological": 1872,
+   "institutional": 1878
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ }
+]

@@ -1,0 +1,26 @@
+[
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_28.json",
+  "location": "[0].people[2]",
+  "message": "Invalid person name, role, or biography URL"
+ },
+ {
+  "level": "warning",
+  "file": "data/collection/enrichment/sourcefirst/A_28.json",
+  "location": "[2].milestones[1]",
+  "message": "Same work appears under different roles; explain dual role in note"
+ },
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_28.json",
+  "location": "[4].people[1]",
+  "message": "Invalid person name, role, or biography URL"
+ },
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_28.json",
+  "location": "[8].people[0].works[0]",
+  "message": "Invalid work citation, year, URL, or relevance"
+ }
+]

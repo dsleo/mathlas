@@ -1,0 +1,141 @@
+[
+ {
+  "pid": "P268",
+  "eventId": "WB124",
+  "name": "Computational geometry",
+  "type": "birth-by-fusion",
+  "from": [
+   "geometry",
+   "algorithm analysis"
+  ],
+  "to": [
+   "computational geometry"
+  ],
+  "summary": "Shamos names the field and gives algorithms for geometric problems."
+ },
+ {
+  "pid": "P283",
+  "eventId": "WB78",
+  "name": "Feigenbaum universality",
+  "type": "import-from-outside",
+  "from": [
+   "dynamical systems",
+   "statistical physics (renormalisation)"
+  ],
+  "to": [
+   "dynamical systems"
+  ],
+  "summary": "Renormalisation explains universal constants in the period-doubling route."
+ },
+ {
+  "pid": "P531",
+  "eventId": "Q19",
+  "name": "Hilbert's tenth problem over rings of integers: elliptic curves and additive combinatorics",
+  "type": "technique-transfer",
+  "from": [
+   "computability and logic",
+   "elliptic curves",
+   "additive combinatorics"
+  ],
+  "to": [
+   "undecidability over number-field rings of integers"
+  ],
+  "summary": "The remaining cases of undecidability for Diophantine equations over rings of integers were settled using a specially built elliptic curve with quadratic twists and prime selection from additive combinatorics."
+ },
+ {
+  "pid": "P062",
+  "eventId": "E71",
+  "name": "Hyperbolic geometry enters three-manifold topology (Thurston)",
+  "type": "technique-transfer",
+  "from": [
+   "Geometry"
+  ],
+  "to": [
+   "Topology"
+  ],
+  "summary": "Three-manifolds are decomposed into pieces carrying one of eight model geometries, hyperbolic being generic, so topology is studied with geometric tools."
+ },
+ {
+  "pid": "P063",
+  "eventId": "E73",
+  "name": "Computers enter proof: four colour theorem and the Kepler conjecture",
+  "type": "import-from-outside",
+  "from": [
+   "Computer science"
+  ],
+  "to": [
+   "Combinatorics",
+   "Geometry"
+  ],
+  "summary": "Exhaustive case analysis by computer is accepted as proof in graph theory, and later whole proofs are re-verified in proof assistants."
+ },
+ {
+  "pid": "P064",
+  "eventId": "E74",
+  "name": "Number theory becomes applied: public-key cryptography",
+  "type": "technique-transfer",
+  "from": [
+   "Number theory"
+  ],
+  "to": [
+   "Computer science"
+  ],
+  "summary": "Modular exponentiation, discrete logarithms, factoring and later elliptic curves are used to build secure protocols, turning classical number theory into infrastructure."
+ },
+ {
+  "pid": "P071",
+  "eventId": "B05",
+  "name": "Nonlinear PDE proves the Calabi conjecture",
+  "type": "technique-transfer",
+  "from": [
+   "Analysis"
+  ],
+  "to": [
+   "Geometry"
+  ],
+  "summary": "The complex Monge-Ampere equation is solved with a priori estimates, producing Ricci-flat Kahler metrics and showing a topological condition forces a metric."
+ },
+ {
+  "pid": "P470",
+  "eventId": "P18",
+  "name": "Caffarelli-Kohn-Nirenberg: geometric measure theory gives partial regularity for Navier-Stokes",
+  "type": "technique-transfer",
+  "from": [
+   "geometric measure theory (Hausdorff measure, partial regularity from minimal surfaces)"
+  ],
+  "to": [
+   "fluid PDE (Navier-Stokes)"
+  ],
+  "summary": "Hausdorff-measure covering arguments show that suitable weak solutions of the 3D Navier-Stokes equations have a singular set of one-dimensional parabolic measure zero."
+ },
+ {
+  "pid": "P501",
+  "eventId": "P58",
+  "name": "Pattern theory and variational image models (Mumford)",
+  "type": "import-from-outside",
+  "from": [
+   "probability / statistics",
+   "calculus of variations",
+   "vision science"
+  ],
+  "to": [
+   "mathematical image analysis / pattern theory"
+  ],
+  "summary": "Statistical and variational models of images and signals are developed as a mathematical theory of perception and vision."
+ },
+ {
+  "pid": "P504",
+  "eventId": "P61",
+  "name": "Ellipsoid method in combinatorial optimisation",
+  "type": "technique-transfer",
+  "from": [
+   "Geometry",
+   "Control & optimization"
+  ],
+  "to": [
+   "Combinatorics",
+   "Computer science"
+  ],
+  "summary": "Khachiyan's ellipsoid algorithm is used to prove polynomial solvability of combinatorial problems via separation oracles."
+ }
+]

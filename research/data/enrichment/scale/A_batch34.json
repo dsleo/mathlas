@@ -1,0 +1,1944 @@
+[
+ {
+  "pid": "P285",
+  "eventId": "MB43",
+  "canonicalName": "Global analysis and mathematical economics",
+  "aliases": [
+   "Global analysis in general equilibrium theory",
+   "Differential-topological methods in economics",
+   "Analysis on manifolds in mathematical economics"
+  ],
+  "phases": [
+   "Debreu's Sard-lemma existence and finiteness results",
+   "Smale's global analysis of equilibria and dynamics"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Debreu's Sard-lemma existence and finiteness results",
+    "year": 1970,
+    "endYear": null,
+    "precision": "year",
+    "label": "Debreu, Economies with a finite set of equilibria",
+    "work": "Debreu, Economies with a finite set of equilibria, Econometrica 38 (1970)",
+    "people": [
+     "Gerard Debreu"
+    ],
+    "description": "Debreu applies Sard's theorem and Baire-category arguments to show that general equilibrium economies generically have finitely many equilibria.",
+    "evidence": [
+     {
+      "claim": "Article record: Econometrica, 1970, Debreu, Economies with a finite set of equilibria",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1909545",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia credits Debreu and Smale with the global-analysis proof method for equilibrium existence",
+      "source": "Wikipedia, General equilibrium theory",
+      "url": "https://en.wikipedia.org/wiki/General_equilibrium_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper is also the earliest purposeful use of the method, so it is listed as first_application too. Chronologically it precedes Smale's 1973 programme."
+   },
+   {
+    "role": "first_application",
+    "phase": "Debreu's Sard-lemma existence and finiteness results",
+    "year": 1970,
+    "endYear": null,
+    "precision": "year",
+    "label": "Debreu applies Sard's lemma to equilibria",
+    "work": "Debreu, Economies with a finite set of equilibria, Econometrica 38 (1970)",
+    "people": [
+     "Gerard Debreu"
+    ],
+    "description": "The first application of differential-topological tools to a target problem in economic equilibrium theory.",
+    "evidence": [
+     {
+      "claim": "Same bibliographic record as the first_statement milestone",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1909545",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper as the first_statement milestone (it plays both roles)."
+   },
+   {
+    "role": "naming",
+    "phase": "Smale's global analysis of equilibria and dynamics",
+    "year": 1973,
+    "endYear": null,
+    "precision": "year",
+    "label": "'Global Analysis and Economics I' in a title",
+    "work": "Smale, Global Analysis and Economics I: Pareto Optimum and a Generalization of Morse Theory, in Dynamical Systems (Peixoto ed.), 1973",
+    "people": [
+     "Stephen Smale"
+    ],
+    "description": "Smale's chapter is the earliest title found that uses the phrase 'global analysis and economics'; it generalises Morse theory to Pareto optima.",
+    "evidence": [
+     {
+      "claim": "Book-chapter record dated 1973 with the title 'Global Analysis and Economics I'",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1016/b978-0-12-550350-1.50044-8",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor: Smale worked on economics during much of the 1970s, injecting topology and dynamics into general equilibrium",
+      "source": "MacTutor, Stephen Smale",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Smale/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Crossref also lists a 1974 Journal of Mathematical Economics series 'Global analysis and economics' (parts III, IIA, V) and a 1975 Synthese article with the same title. The original part I journal record was not found in Crossref, so the 1973 chapter is taken as the earliest title."
+   }
+  ],
+  "people": [
+   {
+    "name": "Gerard Debreu",
+    "role": "Sard-lemma existence and finiteness of equilibria",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Debreu, Economies with a finite set of equilibria, Econometrica 38 (1970)",
+      "year": 1970,
+      "url": "https://doi.org/10.2307/1909545",
+      "whyItMatters": "Applies Sard's theorem to show generic finiteness of equilibria."
+     }
+    ]
+   },
+   {
+    "name": "Stephen Smale",
+    "role": "global analysis of economic equilibria and dynamics",
+    "lifespan": "1930-",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Smale/",
+    "works": [
+     {
+      "citation": "Smale, Global Analysis and Economics I: Pareto Optimum and a Generalization of Morse Theory, in Dynamical Systems, 1973",
+      "year": 1973,
+      "url": "https://doi.org/10.1016/b978-0-12-550350-1.50044-8",
+      "whyItMatters": "Carries the phrase 'global analysis and economics' into a title and links Morse theory to Pareto optima."
+     },
+     {
+      "citation": "Smale, Global analysis and economics, Synthese, 1975",
+      "year": 1975,
+      "url": "https://doi.org/10.1007/bf00485983",
+      "whyItMatters": "Later survey-level article with the same title (content not checked)."
+     }
+    ]
+   }
+  ],
+  "notes": "Searched: en.wikipedia (Global analysis, General equilibrium theory, Stephen Smale; raw wikitext), MacTutor Smale biography, Crossref for Smale and Debreu titles. The Wikipedia 'Global analysis' article is a generic definition with no history of the economics use. Gap: the Smale 1974 Journal of Mathematical Economics part I record was not retrieved; Mas-Colell's 1985 monograph was not verified in a bibliographic record. 'Global analysis' in the input is a loose label; the economics strand starts with Debreu (1970), not with Smale. The first_statement and first_application coincide in Debreu (1970), so the methodological and conceptual derived dates are equal.",
+  "derivedDates": {
+   "conceptual": 1970,
+   "methodological": 1970,
+   "institutional": 1973
+  }
+ },
+ {
+  "pid": "P307",
+  "eventId": "WC21/QC69",
+  "canonicalName": "Local Langlands for GL_n",
+  "aliases": [
+   "Local Langlands correspondence for GL_n",
+   "Local Langlands conjectures for GL(n)",
+   "Harris-Taylor theorem"
+  ],
+  "phases": [
+   "Langlands' programme (1967-1970)",
+   "Shimura-variety proof for GL_n (Harris-Taylor 2001)",
+   "Characterisation (Henniart 2002)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Langlands' programme (1967-1970)",
+    "year": 1967,
+    "endYear": null,
+    "precision": "year",
+    "label": "Langlands' letter to Weil",
+    "work": "Langlands, letter to A. Weil, January 1967 (unpublished)",
+    "people": [
+     "Robert Langlands"
+    ],
+    "description": "A typed, unpublished letter sets out the non-abelian reciprocity ideas later called the Langlands programme.",
+    "evidence": [
+     {
+      "claim": "MacTutor: Langlands wrote a 17-page letter to Weil in January 1967 that circulated widely",
+      "source": "MacTutor, Robert Langlands",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Langlands/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Private letter, so a precursor and not a public first statement."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Langlands' programme (1967-1970)",
+    "year": 1970,
+    "endYear": null,
+    "precision": "year",
+    "label": "Langlands' published programme (1970)",
+    "work": "Langlands, Problems in the theory of automorphic forms, Lecture Notes in Math. 170 (1970)",
+    "people": [
+     "Robert Langlands"
+    ],
+    "description": "The public statement of the programme in which local and global correspondences are conjectured; the local statement is the origin of the GL_n conjecture.",
+    "evidence": [
+     {
+      "claim": "Wikipedia dates Langlands' proposals to 1967 and 1970",
+      "source": "Wikipedia, Langlands program",
+      "url": "https://en.wikipedia.org/wiki/Langlands_program",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Bibliographic record for the LNM volume not retrieved (Crossref query failed). Whether the 1970 text states the local GL_n form in full is not checked."
+   },
+   {
+    "role": "first_application",
+    "phase": "Shimura-variety proof for GL_n (Harris-Taylor 2001)",
+    "year": 2001,
+    "endYear": null,
+    "precision": "year",
+    "label": "Harris-Taylor prove local Langlands for GL_n via Shimura varieties",
+    "work": "Harris, Taylor, The Geometry and Cohomology of Some Simple Shimura Varieties, Annals of Math. Studies 151, Princeton UP (2001)",
+    "people": [
+     "Michael Harris",
+     "Richard Taylor"
+    ],
+    "description": "Harris and Taylor use the cohomology of Shimura varieties to prove the local Langlands correspondence for GL_n, the first purposeful use of the global geometric method on this local problem.",
+    "evidence": [
+     {
+      "claim": "Open Library record: Michael Harris, The geometry and cohomology of some simple Shimura varieties, Princeton, first published 2001",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?title=The+geometry+and+cohomology+of+some+simple+Shimura+varieties",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Input summary attributes the GL_n proof to Harris-Taylor and Henniart",
+      "source": "input batch34 summary",
+      "url": "https://en.wikipedia.org/wiki/Local_Langlands_conjectures",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Open Library lists Harris as author; the co-authorship with Taylor is taken from the standard citation and the Wikipedia biography. Crossref lists a 2002 reissue (AM-151)."
+   },
+   {
+    "role": "key_development",
+    "phase": "Characterisation (Henniart 2002)",
+    "year": 2002,
+    "endYear": null,
+    "precision": "year",
+    "label": "Henniart characterises the GL_n correspondence",
+    "work": "Henniart, Une caractérisation de la correspondance de Langlands locale pour GL(n), Bull. SMF (2002)",
+    "people": [
+     "Guy Henniart"
+    ],
+    "description": "Henniart gives a characterisation of the local correspondence for GL_n by its behaviour under a small set of operations, giving an independent confirmation.",
+    "evidence": [
+     {
+      "claim": "Crossref: journal article, Bulletin de la Societe Mathematique de France, 2002",
+      "source": "Crossref",
+      "url": "https://doi.org/10.24033/bsmf.2431",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Crossref date is 2002 (the paper circulated earlier as a preprint, not checked). Relevance to the event is confirmed by the title only."
+   }
+  ],
+  "people": [
+   {
+    "name": "Robert Langlands",
+    "role": "originator of the programme and local conjecture",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Langlands/",
+    "works": [
+     {
+      "citation": "Langlands, Problems in the theory of automorphic forms, Lecture Notes in Math. 170 (1970)",
+      "year": 1970,
+      "url": "https://en.wikipedia.org/wiki/Langlands_program",
+      "whyItMatters": "Public statement of the programme that the local conjecture belongs to; year taken from Wikipedia, not from a record."
+     }
+    ]
+   },
+   {
+    "name": "Michael Harris",
+    "role": "co-author of the GL_n proof",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Michael_Harris_(mathematician)",
+    "works": [
+     {
+      "citation": "Harris, Taylor, The Geometry and Cohomology of Some Simple Shimura Varieties, Princeton UP (2001)",
+      "year": 2001,
+      "url": "https://openlibrary.org/search?title=The+geometry+and+cohomology+of+some+simple+Shimura+varieties",
+      "whyItMatters": "Proof of the local Langlands correspondence for GL_n via Shimura varieties."
+     }
+    ]
+   },
+   {
+    "name": "Richard Taylor",
+    "role": "co-author of the GL_n proof",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Richard_Taylor_(mathematician)",
+    "works": [
+     {
+      "citation": "Harris, Taylor, The Geometry and Cohomology of Some Simple Shimura Varieties, Princeton UP (2001)",
+      "year": 2001,
+      "url": "https://openlibrary.org/search?title=The+geometry+and+cohomology+of+some+simple+Shimura+varieties",
+      "whyItMatters": "Same monograph; co-author."
+     }
+    ]
+   },
+   {
+    "name": "Guy Henniart",
+    "role": "characterisation of the GL_n correspondence",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Henniart, Une caractérisation de la correspondance de Langlands locale pour GL(n), Bull. SMF (2002)",
+      "year": 2002,
+      "url": "https://doi.org/10.24033/bsmf.2431",
+      "whyItMatters": "Independent characterisation of the GL_n correspondence."
+     }
+    ]
+   }
+  ],
+  "notes": "Searched: en.wikipedia (Local Langlands conjectures, Langlands program, Harris and Taylor biographies), MacTutor Langlands biography, Crossref (Henniart, Harris-Taylor), Open Library (Harris-Taylor). Gaps: the 1970 LNM volume and the 1967 letter are not in a bibliographic record; the Harris-Taylor and Henniart dates are from Open Library and Crossref. The term 'local Langlands' naming milestone was not established (no title use checked), so no naming milestone is given. A consolidation milestone (Bushnell-Kutzko 1993 or Bushnell-Henniart on GL(2)) was not verified and is omitted. Derived conceptual 1970 relies on Wikipedia, not on a bibliographic record.",
+  "derivedDates": {
+   "conceptual": 1970,
+   "methodological": 2001,
+   "institutional": null
+  }
+ },
+ {
+  "pid": "P554",
+  "eventId": "Q67",
+  "canonicalName": "Universality of rotational invariance at 2D criticality via coupling and integrability",
+  "aliases": [
+   "Rotational invariance of critical planar lattice models",
+   "Rotation invariance at criticality (coupling + integrability)"
+  ],
+  "phases": [
+   "Preprint (2020) on critical planar lattice models",
+   "Expository account (Bourbaki 2024)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Preprint (2020) on critical planar lattice models",
+    "year": 2020,
+    "endYear": null,
+    "precision": "year",
+    "label": "Rotational invariance in critical planar lattice models (arXiv)",
+    "work": "Duminil-Copin, Kozlowski, Krachun, Manolescu, Oulamara, Rotational invariance in critical planar lattice models, arXiv:2012.11672 (2020)",
+    "people": [
+     "Hugo Duminil-Copin",
+     "Karol Kozlowski",
+     "Dmitry Krachun",
+     "Ioan Manolescu",
+     "Mendes Oulamara"
+    ],
+    "description": "Rotation invariance at criticality is proved for a class of planar lattice models by coupling a lattice with its rotation and using integrability inputs.",
+    "evidence": [
+     {
+      "claim": "arXiv record: title and authors match; first version 21 December 2020",
+      "source": "arXiv API",
+      "url": "https://arxiv.org/abs/2012.11672",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "A preprint. Journal publication was not checked, so the date is the arXiv date. Priority within the coupling literature was not checked."
+   },
+   {
+    "role": "key_development",
+    "phase": "Integrability input (2022)",
+    "year": 2022,
+    "endYear": null,
+    "precision": "year",
+    "label": "Six-vertex free energy (integrability input)",
+    "work": "Duminil-Copin, Kozlowski, Krachun, Manolescu, Tikhonovskaia, On the six-vertex model's free energy, Commun. Math. Phys. (2022)",
+    "people": [
+     "Hugo Duminil-Copin",
+     "Karol Kozlowski",
+     "Dmitry Krachun",
+     "Ioan Manolescu"
+    ],
+    "description": "An integrability result for the six-vertex model, the kind of input the rotational-invariance argument is described as using.",
+    "evidence": [
+     {
+      "claim": "Crossref: journal article, Communications in Mathematical Physics, 2022, On the Six-Vertex Model's Free Energy",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/s00220-022-04459-x",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Relevance to the event is not verified in the 2020 preprint text (not read); listed only to show the integrability input. Author list matches the Crossref record."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Expository account (Bourbaki 2024)",
+    "year": 2024,
+    "endYear": null,
+    "precision": "year",
+    "label": "Bourbaki exposé on rotation invariance (after the same authors)",
+    "work": "Duminil-Copin et al., Exposé Bourbaki 1210, Rotation invariance of critical planar percolation, Astérisque (2024)",
+    "people": [
+     "Hugo Duminil-Copin",
+     "Karol Kozlowski",
+     "Dmitry Krachun",
+     "Ioan Manolescu",
+     "Mendes Oulamara"
+    ],
+    "description": "An expository treatment by the same group of the rotation-invariance results, presented in Bourbaki's seminar.",
+    "evidence": [
+     {
+      "claim": "Crossref: Exposé Bourbaki 1210, Astérisque, 2024; authors include the five arXiv authors",
+      "source": "Crossref",
+      "url": "https://doi.org/10.24033/ast.1219",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Its title concerns critical planar percolation, which is a different model from the lattice models in the 2020 preprint. It is listed as a survey by the same group, not as proof of the event's exact statement."
+   }
+  ],
+  "people": [
+   {
+    "name": "Hugo Duminil-Copin",
+    "role": "lead author",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Duminil-Copin, Kozlowski, Krachun, Manolescu, Oulamara, Rotational invariance in critical planar lattice models, arXiv:2012.11672 (2020)",
+      "year": 2020,
+      "url": "https://arxiv.org/abs/2012.11672",
+      "whyItMatters": "Main preprint of the event."
+     }
+    ]
+   },
+   {
+    "name": "Karol Kozlowski",
+    "role": "co-author",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Duminil-Copin et al., arXiv:2012.11672 (2020)",
+      "year": 2020,
+      "url": "https://arxiv.org/abs/2012.11672",
+      "whyItMatters": "Co-author of the integrability input."
+     }
+    ]
+   },
+   {
+    "name": "Dmitry Krachun",
+    "role": "co-author",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Duminil-Copin et al., arXiv:2012.11672 (2020)",
+      "year": 2020,
+      "url": "https://arxiv.org/abs/2012.11672",
+      "whyItMatters": "Co-author."
+     }
+    ]
+   },
+   {
+    "name": "Ioan Manolescu",
+    "role": "co-author",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Duminil-Copin et al., arXiv:2012.11672 (2020)",
+      "year": 2020,
+      "url": "https://arxiv.org/abs/2012.11672",
+      "whyItMatters": "Co-author."
+     }
+    ]
+   },
+   {
+    "name": "Mendes Oulamara",
+    "role": "co-author",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Duminil-Copin et al., arXiv:2012.11672 (2020)",
+      "year": 2020,
+      "url": "https://arxiv.org/abs/2012.11672",
+      "whyItMatters": "Co-author."
+     }
+    ]
+   }
+  ],
+  "notes": "Searched: Wikipedia (no article on this result found in the leads file), Crossref (title and author queries), arXiv API (title and author query). The event is recent: only the 2020 preprint and a 2024 exposition were found, so the milestone set is short and the record is weak on priority and on the journal version. The 2022 six-vertex free-energy paper is added as a low-confidence integrability input. No precursor was found in the bibliographic records checked. Derived dates: conceptual 2020 (preprint), methodological null (no separate first_application), institutional 2024 (consolidation).",
+  "derivedDates": {
+   "conceptual": 2020,
+   "methodological": null,
+   "institutional": 2024
+  }
+ },
+ {
+  "pid": "P088",
+  "eventId": "B22",
+  "canonicalName": "Concentration of measure",
+  "aliases": [
+   "Concentration of measure phenomenon",
+   "Isoperimetric concentration",
+   "Milman's concentration inequality"
+  ],
+  "phases": [
+   "Physics precursor (Khinchin 1943)",
+   "Asymptotic geometry of Banach spaces (Milman 1971-1986)",
+   "Product spaces and probability (Talagrand 1995)",
+   "Monograph (Ledoux 2001)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Physics precursor (Khinchin 1943)",
+    "year": 1943,
+    "endYear": null,
+    "precision": "year",
+    "label": "Khinchin's rigorous ensemble-equivalence results",
+    "work": "Khinchin (1943) on equivalence of ensembles in statistical mechanics",
+    "people": [
+     "Aleksandr Khinchin"
+    ],
+    "description": "Rigorous statements that equivalence of statistical ensembles follows from a concentration of energy-shell measure, an early precursor of the concentration phenomenon.",
+    "evidence": [
+     {
+      "claim": "Wikipedia: rigorous results on energy concentration under regularity conditions, attributed to Khinchin (1943)",
+      "source": "Wikipedia, Concentration of measure",
+      "url": "https://en.wikipedia.org/wiki/Concentration_of_measure",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Khinchin's 1943 work is not checked in a bibliographic record. It is a physics precursor, not the mathematical concept."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Asymptotic geometry of Banach spaces (Milman 1971-1986)",
+    "year": 1971,
+    "endYear": null,
+    "precision": "year",
+    "label": "Milman's new proof of Dvoretzky's theorem",
+    "work": "Milman, New proof of the theorem of A. Dvoretzky on intersections of convex bodies, Funct. Anal. Appl. 5 (1971)",
+    "people": [
+     "Vitali Milman"
+    ],
+    "description": "Milman's proof of Dvoretzky's theorem uses concentration of the measure of Lipschitz functions on high-dimensional spheres, giving the first public statement of the concentration mechanism in analysis.",
+    "evidence": [
+     {
+      "claim": "Crossref: journal article, Functional Analysis and Its Applications, 1971, Milman, New proof of the theorem of A. Dvoretzky",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01086740",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia: Milman is credited with the concentration phenomenon in asymptotic geometry",
+      "source": "Wikipedia, Vitali Milman",
+      "url": "https://en.wikipedia.org/wiki/Vitali_Milman",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "The earlier concentration-on-sphere ideas of Levy are not verified here, since the Levy 1922 record was not found."
+   },
+   {
+    "role": "first_application",
+    "phase": "Asymptotic geometry of Banach spaces (Milman 1971-1986)",
+    "year": 1971,
+    "endYear": null,
+    "precision": "year",
+    "label": "Dvoretzky's theorem via concentration",
+    "work": "Milman, New proof of the theorem of A. Dvoretzky on intersections of convex bodies, Funct. Anal. Appl. 5 (1971)",
+    "people": [
+     "Vitali Milman"
+    ],
+    "description": "The first purposeful use of concentration on a target problem: sections of convex bodies in high dimension.",
+    "evidence": [
+     {
+      "claim": "Same bibliographic record as the first_statement milestone",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01086740",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper plays both first_statement and first_application."
+   },
+   {
+    "role": "key_development",
+    "phase": "Product spaces and probability (Talagrand 1995)",
+    "year": 1995,
+    "endYear": null,
+    "precision": "year",
+    "label": "Talagrand's isoperimetric inequalities in product spaces",
+    "work": "Talagrand, Concentration of measure and isoperimetric inequalities in product spaces, Publ. Math. IHES 81 (1995)",
+    "people": [
+     "Michel Talagrand"
+    ],
+    "description": "Sharp concentration and isoperimetric inequalities in product spaces, making the phenomenon a general tool in probability.",
+    "evidence": [
+     {
+      "claim": "Crossref: journal article, Publications Mathematiques de l'IHES, 1995",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02699376",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": ""
+   },
+   {
+    "role": "consolidation",
+    "phase": "Asymptotic geometry of Banach spaces (Milman 1971-1986)",
+    "year": 1986,
+    "endYear": null,
+    "precision": "year",
+    "label": "Milman-Schechtman monograph",
+    "work": "Milman, Schechtman, Asymptotic Theory of Finite Dimensional Normed Spaces, Lecture Notes in Math. 1200, Springer (1986)",
+    "people": [
+     "Vitali Milman",
+     "Gideon Schechtman"
+    ],
+    "description": "First systematic treatment of concentration and related asymptotic methods for finite-dimensional normed spaces.",
+    "evidence": [
+     {
+      "claim": "Open Library record: Vitali D. Milman, Asymptotic theory of finite dimensional normed spaces, Springer-Verlag, first published 1986",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?title=Asymptotic+theory+of+finite+dimensional+normed+spaces",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Gideon Schechtman is named from the standard citation, not from the record fetched."
+   },
+   {
+    "role": "naming",
+    "phase": "Monograph (Ledoux 2001)",
+    "year": 2001,
+    "endYear": null,
+    "precision": "year",
+    "label": "'The Concentration of Measure Phenomenon' in a title",
+    "work": "Ledoux, The Concentration of Measure Phenomenon, Mathematical Surveys and Monographs 89, AMS (2001)",
+    "people": [
+     "Michel Ledoux"
+    ],
+    "description": "The title fixes the name 'concentration of measure phenomenon' for the field.",
+    "evidence": [
+     {
+      "claim": "Open Library record: Michel Ledoux, The Concentration of Measure Phenomenon, AMS, first published 2001",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?title=The+Concentration+of+Measure+Phenomenon",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Earlier use of the phrase in Milman's own papers was not checked, so this is the earliest title found, not proof of coinage. Derived institutional date is taken from the earlier consolidation (1986)."
+   }
+  ],
+  "people": [
+   {
+    "name": "Vitali Milman",
+    "role": "concentration in asymptotic geometry",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Vitali_Milman",
+    "works": [
+     {
+      "citation": "Milman, New proof of the theorem of A. Dvoretzky on intersections of convex bodies, Funct. Anal. Appl. 5 (1971)",
+      "year": 1971,
+      "url": "https://doi.org/10.1007/bf01086740",
+      "whyItMatters": "First public use of concentration to prove Dvoretzky's theorem."
+     },
+     {
+      "citation": "Milman, Schechtman, Asymptotic Theory of Finite Dimensional Normed Spaces, LNM 1200 (1986)",
+      "year": 1986,
+      "url": "https://openlibrary.org/search?title=Asymptotic+theory+of+finite+dimensional+normed+spaces",
+      "whyItMatters": "First systematic treatment."
+     }
+    ]
+   },
+   {
+    "name": "Michel Talagrand",
+    "role": "product-space concentration",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Talagrand, Concentration of measure and isoperimetric inequalities in product spaces, Publ. Math. IHES 81 (1995)",
+      "year": 1995,
+      "url": "https://doi.org/10.1007/bf02699376",
+      "whyItMatters": "Sharp inequalities in product spaces."
+     }
+    ]
+   },
+   {
+    "name": "Michel Ledoux",
+    "role": "monograph author",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Ledoux, The Concentration of Measure Phenomenon, AMS (2001)",
+      "year": 2001,
+      "url": "https://openlibrary.org/search?title=The+Concentration+of+Measure+Phenomenon",
+      "whyItMatters": "Title gives the field its name."
+     }
+    ]
+   }
+  ],
+  "notes": "Searched: en.wikipedia (Concentration of measure history section; Vitali Milman, raw wikitext), Crossref (Talagrand, Milman 1971), Open Library (Ledoux, Milman-Schechtman). Gaps: Levy's 1922 book and Khinchin 1943 were not confirmed in a bibliographic record; the 1971 paper is the first verified statement. Milman's 1971 paper is both first_statement and first_application (noted). Derived institutional 1986 is the earliest naming/consolidation/institution milestone.",
+  "derivedDates": {
+   "conceptual": 1971,
+   "methodological": 1971,
+   "institutional": 1986
+  }
+ },
+ {
+  "pid": "P098",
+  "eventId": "B32",
+  "canonicalName": "Fourier integral operators and microlocal analysis",
+  "aliases": [
+   "Fourier integral operators (FIOs)",
+   "Microlocal analysis",
+   "Pseudo-differential and Fourier integral operators"
+  ],
+  "phases": [
+   "Pseudo-differential calculus (1965)",
+   "Hörmander's FIO calculus (1971-1972)",
+   "Textbook consolidation (1980)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Pseudo-differential calculus (1965)",
+    "year": 1965,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kohn-Nirenberg algebra of pseudo-differential operators",
+    "work": "Kohn, Nirenberg, An algebra of pseudo-differential operators, Comm. Pure Appl. Math. 18 (1965)",
+    "people": [
+     "Joseph Kohn",
+     "Louis Nirenberg"
+    ],
+    "description": "Pseudo-differential operators with symbols give the calculus on which Fourier integral operators were later built.",
+    "evidence": [
+     {
+      "claim": "Crossref: journal article, Communications on Pure and Applied Mathematics, 1965",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1002/cpa.3160180121",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Precursor, not the start of FIO theory."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Hörmander's FIO calculus (1971-1972)",
+    "year": 1971,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hörmander, Fourier integral operators I",
+    "work": "Hörmander, Fourier integral operators. I, Acta Math. 127 (1971)",
+    "people": [
+     "Lars Hörmander"
+    ],
+    "description": "The first systematic definition and calculus of Fourier integral operators with phase functions and symbols.",
+    "evidence": [
+     {
+      "claim": "Crossref: journal article, Acta Mathematica, 1971, Fourier integral operators. I",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02392052",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor: Hörmander's pseudo-differential and FIO theory is the basis of his PDE work",
+      "source": "MacTutor, Lars Hörmander",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hormander/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": ""
+   },
+   {
+    "role": "key_development",
+    "phase": "Hörmander's FIO calculus (1971-1972)",
+    "year": 1972,
+    "endYear": null,
+    "precision": "year",
+    "label": "Duistermaat-Hörmander, Fourier integral operators II",
+    "work": "Duistermaat, Hörmander, Fourier integral operators. II, Acta Math. 128 (1972)",
+    "people": [
+     "Johannes Duistermaat",
+     "Lars Hörmander"
+    ],
+    "description": "Extends the FIO calculus to the composition and singularity analysis that makes FIOs usable on PDE problems.",
+    "evidence": [
+     {
+      "claim": "Crossref: journal article, Acta Mathematica, 1972, Fourier integral operators. II",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02392165",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "The specific propagation-of-singularities result is not checked in the record; the role rests on the title and the sequel's place in the programme."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Textbook consolidation (1980)",
+    "year": 1980,
+    "endYear": null,
+    "precision": "year",
+    "label": "Treves, Introduction to pseudodifferential and Fourier integral operators",
+    "work": "Treves, Introduction to Pseudodifferential and Fourier Integral Operators, Plenum (1980)",
+    "people": [
+     "Francois Treves"
+    ],
+    "description": "A systematic textbook treatment of pseudo-differential and Fourier integral operators.",
+    "evidence": [
+     {
+      "claim": "Open Library record: François Treves, Introduction to pseudodifferential and Fourier integral operators, Plenum, first published 1980",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?title=Introduction+to+pseudodifferential+and+Fourier+integral+operators",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Hörmander's Analysis of Linear PDO III/IV (1985) is also a consolidation but its first-edition record was not retrieved."
+   }
+  ],
+  "people": [
+   {
+    "name": "Lars Hörmander",
+    "role": "FIO calculus and PDE analysis",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hormander/",
+    "works": [
+     {
+      "citation": "Hörmander, Fourier integral operators. I, Acta Math. 127 (1971)",
+      "year": 1971,
+      "url": "https://doi.org/10.1007/bf02392052",
+      "whyItMatters": "Foundational FIO calculus."
+     },
+     {
+      "citation": "Duistermaat, Hörmander, Fourier integral operators. II, Acta Math. 128 (1972)",
+      "year": 1972,
+      "url": "https://doi.org/10.1007/bf02392165",
+      "whyItMatters": "Calculus continued for singularity analysis."
+     }
+    ]
+   },
+   {
+    "name": "Joseph Kohn",
+    "role": "pseudo-differential calculus",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Kohn, Nirenberg, An algebra of pseudo-differential operators, Comm. Pure Appl. Math. 18 (1965)",
+      "year": 1965,
+      "url": "https://doi.org/10.1002/cpa.3160180121",
+      "whyItMatters": "Calculus underpinning FIOs."
+     }
+    ]
+   },
+   {
+    "name": "Louis Nirenberg",
+    "role": "pseudo-differential calculus",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Kohn, Nirenberg, An algebra of pseudo-differential operators, Comm. Pure Appl. Math. 18 (1965)",
+      "year": 1965,
+      "url": "https://doi.org/10.1002/cpa.3160180121",
+      "whyItMatters": "Same paper."
+     }
+    ]
+   },
+   {
+    "name": "Francois Treves",
+    "role": "textbook author",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Treves, Introduction to Pseudodifferential and Fourier Integral Operators, Plenum (1980)",
+      "year": 1980,
+      "url": "https://openlibrary.org/search?title=Introduction+to+pseudodifferential+and+Fourier+integral+operators",
+      "whyItMatters": "Systematic consolidation."
+     }
+    ]
+   }
+  ],
+  "notes": "Searched: en.wikipedia (Fourier integral operator, Microlocal analysis, Lars Hörmander, Mikio Sato; raw wikitext), MacTutor Hörmander, Crossref (Kohn-Nirenberg, FIO I and II, Sato-Kawai-Kashiwara), Open Library (Treves). Gaps: the microlocal name is not dated (Sato's microfunction work of about 1969-1973 was not verified in a record), so there is no naming milestone; the Sato 1969 precursor is not included. The Crossref query for LNM 287 (Sato-Kawai-Kashiwara) did not match. Derived methodological date is null because no first_application was separately verified.",
+  "derivedDates": {
+   "conceptual": 1971,
+   "methodological": null,
+   "institutional": 1980
+  }
+ },
+ {
+  "pid": "P102",
+  "eventId": "B36",
+  "canonicalName": "Real-variable methods in complex analysis (Hardy spaces)",
+  "aliases": [
+   "Real-variable Hardy space theory",
+   "Real-variable methods in harmonic analysis",
+   "H^p theory (real characterisation)"
+  ],
+  "phases": [
+   "Calderon-Zygmund singular integrals (1952)",
+   "Stein's real-variable monograph (1970)",
+   "H^1-BMO duality and several variables (1971-1972)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Calderon-Zygmund singular integrals (1952)",
+    "year": 1952,
+    "endYear": null,
+    "precision": "year",
+    "label": "Calderon-Zygmund real-variable singular integrals",
+    "work": "Calderón, Zygmund, On the existence of certain singular integrals, Acta Math. 88 (1952)",
+    "people": [
+     "Alberto Calderon",
+     "Antoni Zygmund"
+    ],
+    "description": "Real-variable estimates for singular integrals, the technique later used to characterise Hardy spaces without complex analysis.",
+    "evidence": [
+     {
+      "claim": "Crossref: journal article, Acta Mathematica, 1952",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02392130",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor: Alberto Calderón's biography covers his work in harmonic analysis with Zygmund",
+      "source": "MacTutor, Alberto Calderón",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Calderon/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Precursor: the paper is about singular integrals, not Hardy spaces."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Stein's real-variable monograph (1970)",
+    "year": 1970,
+    "endYear": null,
+    "precision": "year",
+    "label": "Stein, Singular Integrals and Differentiability Properties of Functions",
+    "work": "Stein, Singular Integrals and Differentiability Properties of Functions, Princeton UP (1970)",
+    "people": [
+     "Elias Stein"
+    ],
+    "description": "The first systematic treatment of real-variable methods for singular integrals and function spaces.",
+    "evidence": [
+     {
+      "claim": "Open Library record: Elias M. Stein, Singular integrals and differentiability properties of functions, Princeton UP, 1970",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?title=Singular+integrals+and+differentiability+properties+of+functions",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor: Stein published this book in 1970; his Hardy-space work transformed the subject",
+      "source": "MacTutor, Elias Stein",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Stein/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Consolidation precedes the H^p statements. Derived institutional date therefore comes from this book."
+   },
+   {
+    "role": "first_statement",
+    "phase": "H^1-BMO duality and several variables (1971-1972)",
+    "year": 1971,
+    "endYear": null,
+    "precision": "year",
+    "label": "Fefferman's characterisations of BMO",
+    "work": "Fefferman, Characterizations of bounded mean oscillation, Bull. AMS 77 (1971)",
+    "people": [
+     "Charles Fefferman"
+    ],
+    "description": "Real-variable characterisations of BMO that underlie the H^1-BMO duality used for Hardy spaces.",
+    "evidence": [
+     {
+      "claim": "Crossref: journal article, Bulletin of the American Mathematical Society, 1971",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/s0002-9904-1971-12763-5",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor: Fefferman's early work was supervised by Stein at Princeton",
+      "source": "MacTutor, Charles Fefferman",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Fefferman/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The announced duality is taken from the standard account; the 1971 note itself was not read in full."
+   },
+   {
+    "role": "first_application",
+    "phase": "H^1-BMO duality and several variables (1971-1972)",
+    "year": 1972,
+    "endYear": null,
+    "precision": "year",
+    "label": "Fefferman-Stein, H^p spaces of several variables",
+    "work": "Fefferman, Stein, H^p spaces of several variables, Acta Math. 129 (1972)",
+    "people": [
+     "Charles Fefferman",
+     "Elias Stein"
+    ],
+    "description": "Applies the real-variable H^p theory to several variables, a purposeful extension of the 1971 characterisations.",
+    "evidence": [
+     {
+      "claim": "Crossref: journal article, Acta Mathematica, 1972, H^p spaces of several variables",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02392215",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": ""
+   }
+  ],
+  "people": [
+   {
+    "name": "Elias Stein",
+    "role": "real-variable methods and Hardy spaces",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Stein/",
+    "works": [
+     {
+      "citation": "Stein, Singular Integrals and Differentiability Properties of Functions, Princeton UP (1970)",
+      "year": 1970,
+      "url": "https://openlibrary.org/search?title=Singular+integrals+and+differentiability+properties+of+functions",
+      "whyItMatters": "Systematic real-variable treatment."
+     },
+     {
+      "citation": "Fefferman, Stein, H^p spaces of several variables, Acta Math. 129 (1972)",
+      "year": 1972,
+      "url": "https://doi.org/10.1007/bf02392215",
+      "whyItMatters": "Hardy spaces in several variables."
+     }
+    ]
+   },
+   {
+    "name": "Charles Fefferman",
+    "role": "BMO and H^p characterisations",
+    "lifespan": "1949-",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Fefferman/",
+    "works": [
+     {
+      "citation": "Fefferman, Characterizations of bounded mean oscillation, Bull. AMS 77 (1971)",
+      "year": 1971,
+      "url": "https://doi.org/10.1090/s0002-9904-1971-12763-5",
+      "whyItMatters": "BMO characterisations behind H^1-BMO duality."
+     },
+     {
+      "citation": "Fefferman, Stein, H^p spaces of several variables, Acta Math. 129 (1972)",
+      "year": 1972,
+      "url": "https://doi.org/10.1007/bf02392215",
+      "whyItMatters": "Several-variable Hardy spaces."
+     }
+    ]
+   },
+   {
+    "name": "Alberto Calderon",
+    "role": "singular integrals",
+    "lifespan": "1920-1998",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Calderon/",
+    "works": [
+     {
+      "citation": "Calderón, Zygmund, On the existence of certain singular integrals, Acta Math. 88 (1952)",
+      "year": 1952,
+      "url": "https://doi.org/10.1007/bf02392130",
+      "whyItMatters": "Real-variable singular-integral method."
+     }
+    ]
+   },
+   {
+    "name": "Antoni Zygmund",
+    "role": "singular integrals",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Calderón, Zygmund, On the existence of certain singular integrals, Acta Math. 88 (1952)",
+      "year": 1952,
+      "url": "https://doi.org/10.1007/bf02392130",
+      "whyItMatters": "Co-author."
+     }
+    ]
+   }
+  ],
+  "notes": "Searched: en.wikipedia (Hardy space, Charles Fefferman, Elias M. Stein), MacTutor (Stein, Fefferman, Calderón), Crossref (CZ 1952, Fefferman 1971 and 1979, Fefferman-Stein 1972), Open Library (Stein 1970). Gaps: the Hardy-space programme before 1952 (Riesz, Hardy-Littlewood) is not dated in a checked record, and the Stein-Weiss 1960 precursor was not verified. The 1971 BAMS statement of the H^1-BMO duality is not read in full. The title 'real-variable methods' is not dated (no naming milestone).",
+  "derivedDates": {
+   "conceptual": 1971,
+   "methodological": 1972,
+   "institutional": 1970
+  }
+ },
+ {
+  "pid": "P222",
+  "eventId": "MB74/WB21",
+  "canonicalName": "NP-completeness",
+  "aliases": [
+   "NP-complete problems",
+   "Cook-Levin theorem",
+   "Polynomial-time reducibility to satisfiability"
+  ],
+  "phases": [
+   "Cook's satisfiability theorem (1971)",
+   "Karp's reductions (1972)",
+   "Levin's independent result (1973)",
+   "Garey-Johnson catalogue (1979)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Cook's satisfiability theorem (1971)",
+    "year": 1971,
+    "endYear": null,
+    "precision": "year",
+    "label": "Cook: satisfiability is universal for NP",
+    "work": "Cook, The complexity of theorem-proving procedures, Proc. 3rd ACM STOC (1971)",
+    "people": [
+     "Stephen Cook"
+    ],
+    "description": "Cook shows that satisfiability is NP-complete under polynomial-time reductions, the first public statement of the notion.",
+    "evidence": [
+     {
+      "claim": "Crossref: proceedings article, third annual ACM symposium, 1971, The complexity of theorem-proving procedures",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1145/800157.805047",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia: the concept of NP-completeness was introduced in 1971, the term later",
+      "source": "Wikipedia, NP-completeness",
+      "url": "https://en.wikipedia.org/wiki/NP-completeness",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": ""
+   },
+   {
+    "role": "first_application",
+    "phase": "Karp's reductions (1972)",
+    "year": 1972,
+    "endYear": null,
+    "precision": "year",
+    "label": "Karp's 21 NP-complete problems",
+    "work": "Karp, Reducibility among combinatorial problems, in Complexity of Computer Computations (1972)",
+    "people": [
+     "Richard Karp"
+    ],
+    "description": "Karp uses polynomial reductions to show that many combinatorial problems are NP-complete, the first systematic use of the notion on target problems.",
+    "evidence": [
+     {
+      "claim": "Crossref: book chapter, Complexity of Computer Computations, 1972, Reducibility among combinatorial problems",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-1-4684-2001-2_9",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": ""
+   },
+   {
+    "role": "key_development",
+    "phase": "Levin's independent result (1973)",
+    "year": 1973,
+    "endYear": null,
+    "precision": "year",
+    "label": "Levin's universal sequential search problems",
+    "work": "Levin, Universal sequential search problems, Problemy Peredachi Informatsii (1973)",
+    "people": [
+     "Leonid Levin"
+    ],
+    "description": "Levin independently proves the existence of universal search problems in the Soviet literature, paralleling Cook.",
+    "evidence": [
+     {
+      "claim": "Wikipedia: Levin is credited with the discovery of NP-completeness",
+      "source": "Wikipedia, Leonid Levin",
+      "url": "https://en.wikipedia.org/wiki/Leonid_Levin",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "The 1973 year and title are not verified in a bibliographic record (Crossref returned no match). The work was published in Russian and is cited from memory of the standard reference; treat as open."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Garey-Johnson catalogue (1979)",
+    "year": 1979,
+    "endYear": null,
+    "precision": "year",
+    "label": "Garey and Johnson, Computers and Intractability",
+    "work": "Garey, Johnson, Computers and Intractability: A Guide to the Theory of NP-Completeness, W.H. Freeman (1979)",
+    "people": [
+     "Michael Garey",
+     "David Johnson"
+    ],
+    "description": "The first systematic book-length treatment, with a catalogue of NP-complete problems.",
+    "evidence": [
+     {
+      "claim": "Open Library record: Michael R. Garey, Computers and intractability, W.H. Freeman, first published 1979",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?title=Computers+and+intractability",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": ""
+   }
+  ],
+  "people": [
+   {
+    "name": "Stephen Cook",
+    "role": "first statement of NP-completeness",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Stephen_Cook",
+    "works": [
+     {
+      "citation": "Cook, The complexity of theorem-proving procedures, STOC 1971",
+      "year": 1971,
+      "url": "https://doi.org/10.1145/800157.805047",
+      "whyItMatters": "Satisfiability is NP-complete."
+     }
+    ]
+   },
+   {
+    "name": "Richard Karp",
+    "role": "reductions among combinatorial problems",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Richard_M._Karp",
+    "works": [
+     {
+      "citation": "Karp, Reducibility among combinatorial problems, Complexity of Computer Computations (1972)",
+      "year": 1972,
+      "url": "https://doi.org/10.1007/978-1-4684-2001-2_9",
+      "whyItMatters": "Many natural problems shown NP-complete."
+     }
+    ]
+   },
+   {
+    "name": "Leonid Levin",
+    "role": "independent result",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Leonid_Levin",
+    "works": [
+     {
+      "citation": "Levin, Universal sequential search problems (1973), Problemy Peredachi Informatsii",
+      "year": 1973,
+      "url": "https://en.wikipedia.org/wiki/Leonid_Levin",
+      "whyItMatters": "Independent discovery; year not verified in a record."
+     }
+    ]
+   },
+   {
+    "name": "Michael Garey",
+    "role": "consolidation",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Garey, Johnson, Computers and Intractability, W.H. Freeman (1979)",
+      "year": 1979,
+      "url": "https://openlibrary.org/search?title=Computers+and+intractability",
+      "whyItMatters": "Standard reference."
+     }
+    ]
+   }
+  ],
+  "notes": "Searched: en.wikipedia (NP-completeness, Stephen Cook, Leonid Levin, Richard M. Karp; raw wikitext), Crossref (Cook 1971, Karp 1972, Levin), Open Library (Garey-Johnson). MacTutor's 'Karp' page is for a different person (Carol Karp) and was not used. Gaps: Levin's 1973 record is not verified (low confidence). Gödel's 1956 letter was not checked (no precursor). The term 'NP-complete' is dated only as 'later' by Wikipedia, so no naming milestone is given. Derived institutional 1979 comes from the consolidation milestone.",
+  "derivedDates": {
+   "conceptual": 1971,
+   "methodological": 1972,
+   "institutional": 1979
+  }
+ },
+ {
+  "pid": "P029",
+  "eventId": "E37",
+  "canonicalName": "Random matrix statistics and the zeros of zeta",
+  "aliases": [
+   "Montgomery's pair correlation conjecture",
+   "Montgomery-Odlyzko law",
+   "Random matrix theory and zeta zeros"
+  ],
+  "phases": [
+   "Random-matrix background (1967)",
+   "Montgomery's pair correlation (1973)",
+   "Numerical verification (1987)",
+   "Families of L-functions (1996)",
+   "Monograph consolidation (1999)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Random-matrix background (1967)",
+    "year": 1967,
+    "endYear": null,
+    "precision": "year",
+    "label": "Mehta's random-matrix statistics",
+    "work": "Mehta, Random Matrices, Academic Press (1967)",
+    "people": [
+     "Madan Lal Mehta"
+    ],
+    "description": "The statistical theory of eigenvalue spacings in random matrix ensembles, the background into which the zeta correlation fits.",
+    "evidence": [
+     {
+      "claim": "Open Library record: Madan Lal Mehta, Random Matrices, Elsevier, first published 1967",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?title=Random+matrices&author=Mehta",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Precursor background only; the edition with the 1967 date was not identified precisely."
+   },
+   {
+    "role": "precursor",
+    "phase": "Montgomery's pair correlation (1973)",
+    "year": null,
+    "endYear": null,
+    "precision": "unknown",
+    "label": "Dyson's remark on the pair correlation",
+    "work": null,
+    "people": [
+     "Freeman Dyson",
+     "Hugh Montgomery"
+    ],
+    "description": "Dyson pointed out to Montgomery that the pair correlation of the zeros matches that of random unitary matrices, an observation not in a dated record.",
+    "evidence": [
+     {
+      "claim": "Wikipedia: Dyson pointed out the connection to Montgomery",
+      "source": "Wikipedia, Montgomery's pair correlation conjecture",
+      "url": "https://en.wikipedia.org/wiki/Montgomery%27s_pair_correlation_conjecture",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Date of the conversation not established; left null as allowed for an undated precursor."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Montgomery's pair correlation (1973)",
+    "year": 1973,
+    "endYear": null,
+    "precision": "year",
+    "label": "Montgomery's pair correlation of zeta zeros",
+    "work": "Montgomery, The pair correlation of zeros of the zeta function, Proc. Symp. Pure Math. 24 (1973)",
+    "people": [
+     "Hugh Montgomery"
+    ],
+    "description": "The public statement of the conjectural pair-correlation formula for zeros of the Riemann zeta function.",
+    "evidence": [
+     {
+      "claim": "Crossref: Proceedings of Symposia in Pure Mathematics, 1973, The pair correlation of zeros of the zeta function",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/pspum/024/9944",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": ""
+   },
+   {
+    "role": "first_application",
+    "phase": "Numerical verification (1987)",
+    "year": 1987,
+    "endYear": null,
+    "precision": "year",
+    "label": "Odlyzko's numerical spacings of zeta zeros",
+    "work": "Odlyzko, On the distribution of spacings between zeros of the zeta function, Math. Comp. 48 (1987)",
+    "people": [
+     "Andrew Odlyzko"
+    ],
+    "description": "Large-scale numerical computation of zero spacings confirms the random-matrix (GUE) prediction, the first purposeful use of the correspondence on data.",
+    "evidence": [
+     {
+      "claim": "Crossref: journal article, Mathematics of Computation, 1987",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/s0025-5718-1987-0866115-0",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "The numerical-confirmation claim is from the paper's subject; the abstract was not read in full."
+   },
+   {
+    "role": "key_development",
+    "phase": "Families of L-functions (1996)",
+    "year": 1996,
+    "endYear": null,
+    "precision": "year",
+    "label": "Rudnick-Sarnak n-level correlations for L-functions",
+    "work": "Rudnick, Sarnak, Zeros of principal L-functions and random matrix theory, Duke Math. J. 81 (1996)",
+    "people": [
+     "Zeev Rudnick",
+     "Peter Sarnak"
+    ],
+    "description": "Extends the random-matrix correspondence from the Riemann zeta function to families of L-functions.",
+    "evidence": [
+     {
+      "claim": "Crossref: journal article, Duke Mathematical Journal, 1996, Zeros of principal L-functions and random matrix theory",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1215/s0012-7094-96-08115-6",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": ""
+   },
+   {
+    "role": "consolidation",
+    "phase": "Monograph consolidation (1999)",
+    "year": 1999,
+    "endYear": null,
+    "precision": "year",
+    "label": "Katz-Sarnak monograph",
+    "work": "Katz, Sarnak, Random Matrices, Frobenius Eigenvalues and Monodromy, AMS Colloquium Publications 45 (1999)",
+    "people": [
+     "Nicholas Katz",
+     "Peter Sarnak"
+    ],
+    "description": "Systematic monograph linking zeros of L-functions over function fields with random-matrix ensembles.",
+    "evidence": [
+     {
+      "claim": "Crossref: AMS Colloquium Publications volume 45, DOI 10.1090/coll/045 (Crossref dates items 1998)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/coll/045",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Crossref dates the volume 1998 while the printed volume is 1999; 1999 is used. Check the printed date before relying on it."
+   }
+  ],
+  "people": [
+   {
+    "name": "Hugh Montgomery",
+    "role": "pair correlation conjecture",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Montgomery, The pair correlation of zeros of the zeta function, Proc. Symp. Pure Math. 24 (1973)",
+      "year": 1973,
+      "url": "https://doi.org/10.1090/pspum/024/9944",
+      "whyItMatters": "Pair-correlation formula for zeta zeros."
+     }
+    ]
+   },
+   {
+    "name": "Andrew Odlyzko",
+    "role": "numerical verification",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Andrew_Odlyzko",
+    "works": [
+     {
+      "citation": "Odlyzko, On the distribution of spacings between zeros of the zeta function, Math. Comp. 48 (1987)",
+      "year": 1987,
+      "url": "https://doi.org/10.1090/s0025-5718-1987-0866115-0",
+      "whyItMatters": "Numerical confirmation of the spacing statistics."
+     }
+    ]
+   },
+   {
+    "name": "Zeev Rudnick",
+    "role": "families of L-functions",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Rudnick, Sarnak, Zeros of principal L-functions and random matrix theory, Duke Math. J. 81 (1996)",
+      "year": 1996,
+      "url": "https://doi.org/10.1215/s0012-7094-96-08115-6",
+      "whyItMatters": "Extends the correspondence to L-function families."
+     }
+    ]
+   },
+   {
+    "name": "Peter Sarnak",
+    "role": "families of L-functions and monograph",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Rudnick, Sarnak, Zeros of principal L-functions and random matrix theory, Duke Math. J. 81 (1996)",
+      "year": 1996,
+      "url": "https://doi.org/10.1215/s0012-7094-96-08115-6",
+      "whyItMatters": "Co-author."
+     },
+     {
+      "citation": "Katz, Sarnak, Random Matrices, Frobenius Eigenvalues and Monodromy, AMS (1999)",
+      "year": 1999,
+      "url": "https://doi.org/10.1090/coll/045",
+      "whyItMatters": "Monograph consolidation."
+     }
+    ]
+   },
+   {
+    "name": "Madan Lal Mehta",
+    "role": "random-matrix statistics",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Mehta, Random Matrices (1967)",
+      "year": 1967,
+      "url": "https://openlibrary.org/search?title=Random+matrices&author=Mehta",
+      "whyItMatters": "Background statistics of random ensembles."
+     }
+    ]
+   }
+  ],
+  "notes": "Searched: en.wikipedia (Montgomery's pair correlation conjecture, Random matrix, Andrew Odlyzko, Hugh Montgomery placeholder; raw wikitext), Crossref (Montgomery, Odlyzko, Rudnick-Sarnak, Katz-Sarnak), Open Library (Mehta). The Wikipedia page for Hugh Montgomery returned no content. MacTutor's 'Montgomery' page is for Deane Montgomery and was not used. Gaps: the Dyson conversation has no date; Özlük's 1982 Dirichlet-L-function result is not checked; Mehta's 1967 edition is not matched precisely. Derived conceptual 1973, methodological 1987, institutional 1999 (Katz-Sarnak, the earliest consolidation found; the 1967 Mehta book is background, not a consolidation of the zeta link).",
+  "derivedDates": {
+   "conceptual": 1973,
+   "methodological": 1987,
+   "institutional": 1999
+  }
+ },
+ {
+  "pid": "P069",
+  "eventId": "B03",
+  "canonicalName": "Higher algebraic K-theory",
+  "aliases": [
+   "Higher K-theory of rings",
+   "Quillen's K-theory",
+   "Algebraic K-theory of rings (higher K-groups)"
+  ],
+  "phases": [
+   "Grothendieck's K_0 (1957)",
+   "Bass's algebraic K-theory book (1968)",
+   "Quillen's plus construction and finite fields (1972)",
+   "Quillen's higher algebraic K-theory (1973)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Grothendieck's K_0 (1957)",
+    "year": 1957,
+    "endYear": null,
+    "precision": "year",
+    "label": "Grothendieck's K-group construction",
+    "work": "Grothendieck, Classes de faisceaux et théorème de Riemann-Roch, mimeographed notes, Princeton (1957)",
+    "people": [
+     "Alexander Grothendieck"
+    ],
+    "description": "The K_0 group of a scheme in the Grothendieck-Riemann-Roch theorem, from which the name 'K-theory' is taken.",
+    "evidence": [
+     {
+      "claim": "Wikipedia: the subject takes its name from a 1957 construction of Grothendieck",
+      "source": "Wikipedia, Algebraic K-theory",
+      "url": "https://en.wikipedia.org/wiki/Algebraic_K-theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Only K_0; the notes are mimeographed and not a bibliographic record."
+   },
+   {
+    "role": "naming",
+    "phase": "Bass's algebraic K-theory book (1968)",
+    "year": 1968,
+    "endYear": null,
+    "precision": "year",
+    "label": "Bass, Algebraic K-theory",
+    "work": "Bass, Algebraic K-theory, W. A. Benjamin (1968)",
+    "people": [
+     "Hyman Bass"
+    ],
+    "description": "The first book title using the name 'algebraic K-theory', covering the lower K-groups.",
+    "evidence": [
+     {
+      "claim": "Open Library record: Hyman Bass, Algebraic K-theory, W.A. Benjamin, first published 1968",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?title=Algebraic+K-theory&author=Bass",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Covers lower K-theory only; higher K-groups come with Quillen. Its role as the earliest name is a title-based claim."
+   },
+   {
+    "role": "first_application",
+    "phase": "Quillen's plus construction and finite fields (1972)",
+    "year": 1972,
+    "endYear": null,
+    "precision": "year",
+    "label": "Quillen computes higher K-groups of finite fields",
+    "work": "Quillen, On the cohomology and K-theory of the general linear groups over a finite field, Annals of Math. 96 (1972)",
+    "people": [
+     "Daniel Quillen"
+    ],
+    "description": "The first computation of higher K-groups of finite fields by the plus-construction method, a purposeful use on a target problem.",
+    "evidence": [
+     {
+      "claim": "Crossref: journal article, The Annals of Mathematics, 1972",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1970825",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor: Quillen was the principal architect of higher algebraic K-theory in 1972",
+      "source": "MacTutor, Daniel Quillen",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Quillen/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "The 1972 paper already contains the first computations; the public definition appears in the 1973 LNM. See notes."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Quillen's higher algebraic K-theory (1973)",
+    "year": 1973,
+    "endYear": null,
+    "precision": "year",
+    "label": "Quillen, Higher algebraic K-theory I",
+    "work": "Quillen, Higher algebraic K-theory: I, Lecture Notes in Math. 341 (1973)",
+    "people": [
+     "Daniel Quillen"
+    ],
+    "description": "The public definition of higher K-groups of rings through the plus construction and the Q-construction.",
+    "evidence": [
+     {
+      "claim": "Crossref: Lecture Notes in Mathematics, 1973, Higher algebraic K-theory: I",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bfb0067053",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor: the 63-page LNM paper built higher K-theory from first principles",
+      "source": "MacTutor, Daniel Quillen",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Quillen/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Conceptual derived date is 1973 by the rule (earliest first_statement), though the 1972 Annals paper already contains the idea for finite fields. Revisit if the rule is read differently."
+   }
+  ],
+  "people": [
+   {
+    "name": "Daniel Quillen",
+    "role": "creator of higher algebraic K-theory",
+    "lifespan": "1940-2011",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Quillen/",
+    "works": [
+     {
+      "citation": "Quillen, On the cohomology and K-theory of the general linear groups over a finite field, Annals of Math. 96 (1972)",
+      "year": 1972,
+      "url": "https://doi.org/10.2307/1970825",
+      "whyItMatters": "First computation of higher K-groups of finite fields."
+     },
+     {
+      "citation": "Quillen, Higher algebraic K-theory: I, LNM 341 (1973)",
+      "year": 1973,
+      "url": "https://doi.org/10.1007/bfb0067053",
+      "whyItMatters": "Public definition of higher K-groups."
+     }
+    ]
+   },
+   {
+    "name": "Hyman Bass",
+    "role": "lower algebraic K-theory and naming",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Bass, Algebraic K-theory, W. A. Benjamin (1968)",
+      "year": 1968,
+      "url": "https://openlibrary.org/search?title=Algebraic+K-theory&author=Bass",
+      "whyItMatters": "Title introduces the name."
+     }
+    ]
+   },
+   {
+    "name": "Alexander Grothendieck",
+    "role": "K_0 construction",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Grothendieck, Classes de faisceaux et théorème de Riemann-Roch, mimeographed notes (1957)",
+      "year": 1957,
+      "url": "https://en.wikipedia.org/wiki/Algebraic_K-theory",
+      "whyItMatters": "Origin of the name (K_0)."
+     }
+    ]
+   }
+  ],
+  "notes": "Searched: en.wikipedia (Algebraic K-theory, Daniel Quillen, Plus construction; raw wikitext), MacTutor Quillen, Crossref (Quillen 1972 and 1973), Open Library (Bass 1968). Gaps: the Grothendieck 1957 notes are not a bibliographic record; Quillen's plus-construction preprint date is not separately checked. The Milnor 1967 K_2 and Matsumoto 1968 results are not milestones here. Derived methodological 1972 (Annals), conceptual 1973 (LNM 341), institutional 1968 (Bass naming).",
+  "derivedDates": {
+   "conceptual": 1973,
+   "methodological": 1972,
+   "institutional": 1968
+  }
+ },
+ {
+  "pid": "P218",
+  "eventId": "MB55/WB84",
+  "canonicalName": "Catastrophe theory",
+  "aliases": [
+   "Thom's catastrophe theory",
+   "Thom-Zeeman catastrophe theory",
+   "Singularity theory applied to morphogenesis"
+  ],
+  "phases": [
+   "Whitney and Thom's singularity classification (1955-1956)",
+   "Thom's morphogenesis models (1969)",
+   "Thom's book (1972)",
+   "Zeeman's popularisation (1977)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Whitney and Thom's singularity classification (1955-1956)",
+    "year": 1955,
+    "endYear": null,
+    "precision": "year",
+    "label": "Whitney's singularities of mappings",
+    "work": "Whitney, On singularities of mappings of Euclidean spaces. I, Annals of Math. 62 (1955)",
+    "people": [
+     "Hassler Whitney"
+    ],
+    "description": "Classification of singularities of smooth maps (folds and cusps) that catastrophe theory later reinterprets.",
+    "evidence": [
+     {
+      "claim": "Crossref: journal article, The Annals of Mathematics, 1955",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1970070",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Precursor: singularity theory of maps, not catastrophe theory."
+   },
+   {
+    "role": "precursor",
+    "phase": "Whitney and Thom's singularity classification (1955-1956)",
+    "year": 1956,
+    "endYear": null,
+    "precision": "year",
+    "label": "Thom's singularities of differentiable maps",
+    "work": "Thom, Les singularités des applications différentiables, Ann. Inst. Fourier 6 (1956)",
+    "people": [
+     "René Thom"
+    ],
+    "description": "Thom's early classification of singularities, the source of his later morphogenesis models.",
+    "evidence": [
+     {
+      "claim": "Crossref: journal article, Annales de l'Institut Fourier, 1956",
+      "source": "Crossref",
+      "url": "https://doi.org/10.5802/aif.60",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor: Thom's earlier work made him well known before catastrophe theory",
+      "source": "MacTutor, René Thom",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Thom/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": ""
+   },
+   {
+    "role": "first_statement",
+    "phase": "Thom's morphogenesis models (1969)",
+    "year": 1969,
+    "endYear": null,
+    "precision": "year",
+    "label": "Thom, Topological models in biology",
+    "work": "Thom, Topological models in biology, Topology 8 (1969)",
+    "people": [
+     "René Thom"
+    ],
+    "description": "The public statement of catastrophe-type classification as a model of discontinuous change in morphogenesis.",
+    "evidence": [
+     {
+      "claim": "Crossref: journal article, Topology, 1969, Topological models in biology",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1016/0040-9383(69)90018-4",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": ""
+   },
+   {
+    "role": "first_application",
+    "phase": "Thom's morphogenesis models (1969)",
+    "year": 1969,
+    "endYear": null,
+    "precision": "year",
+    "label": "Thom applies singularities to biological morphogenesis",
+    "work": "Thom, Topological models in biology, Topology 8 (1969)",
+    "people": [
+     "René Thom"
+    ],
+    "description": "The first purposeful application of the singularity classification to biological form.",
+    "evidence": [
+     {
+      "claim": "Same bibliographic record as the first_statement milestone",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1016/0040-9383(69)90018-4",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper plays both roles. Other early applications (physics, chemistry) were not checked."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Thom's book (1972)",
+    "year": 1972,
+    "endYear": null,
+    "precision": "year",
+    "label": "Thom, Stabilité structurelle et morphogenèse",
+    "work": "Thom, Stabilité structurelle et morphogenèse, Benjamin (1972)",
+    "people": [
+     "René Thom"
+    ],
+    "description": "The first systematic book treatment of structural stability, catastrophes and morphogenesis.",
+    "evidence": [
+     {
+      "claim": "Open Library record: René Thom, Stabilité structurelle et morphogénèse, Benjamin, first published 1972",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?title=Stabilit%C3%A9+structurelle+et+morphog%C3%A9n%C3%A8se",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor: Thom presented catastrophe theory in this 1972 work",
+      "source": "MacTutor, René Thom",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Thom/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": ""
+   },
+   {
+    "role": "naming",
+    "phase": "Zeeman's popularisation (1977)",
+    "year": 1977,
+    "endYear": null,
+    "precision": "year",
+    "label": "Zeeman, Catastrophe theory (selected papers)",
+    "work": "Zeeman, Catastrophe Theory: Selected Papers 1972-1977, Addison-Wesley (1977)",
+    "people": [
+     "Christopher Zeeman"
+    ],
+    "description": "The title and the popular account that made 'catastrophe theory' the field's name.",
+    "evidence": [
+     {
+      "claim": "Open Library record: E. C. Zeeman, Catastrophe theory, Addison-Wesley, first published 1977",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?title=Catastrophe+theory&author=Zeeman",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor: Zeeman brought catastrophe theory to the general public",
+      "source": "MacTutor, Christopher Zeeman",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Zeeman/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The earliest title use of 'catastrophe theory' was not checked against Zeeman's 1972-1976 papers; 1977 is the earliest book title found. Derived institutional 1972 comes from Thom's consolidation."
+   }
+  ],
+  "people": [
+   {
+    "name": "René Thom",
+    "role": "originator",
+    "lifespan": "1923-2002",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Thom/",
+    "works": [
+     {
+      "citation": "Thom, Les singularités des applications différentiables, Ann. Inst. Fourier 6 (1956)",
+      "year": 1956,
+      "url": "https://doi.org/10.5802/aif.60",
+      "whyItMatters": "Singularity classification underlying the theory."
+     },
+     {
+      "citation": "Thom, Topological models in biology, Topology 8 (1969)",
+      "year": 1969,
+      "url": "https://doi.org/10.1016/0040-9383(69)90018-4",
+      "whyItMatters": "First public morphogenesis application."
+     },
+     {
+      "citation": "Thom, Stabilité structurelle et morphogenèse, Benjamin (1972)",
+      "year": 1972,
+      "url": "https://openlibrary.org/search?title=Stabilit%C3%A9+structurelle+et+morphog%C3%A9n%C3%A8se",
+      "whyItMatters": "First systematic book."
+     }
+    ]
+   },
+   {
+    "name": "Christopher Zeeman",
+    "role": "popularisation and naming",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Zeeman/",
+    "works": [
+     {
+      "citation": "Zeeman, Catastrophe Theory: Selected Papers 1972-1977, Addison-Wesley (1977)",
+      "year": 1977,
+      "url": "https://openlibrary.org/search?title=Catastrophe+theory&author=Zeeman",
+      "whyItMatters": "Book title that names the field."
+     }
+    ]
+   },
+   {
+    "name": "Hassler Whitney",
+    "role": "singularities of mappings",
+    "lifespan": "1907-1989",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Whitney/",
+    "works": [
+     {
+      "citation": "Whitney, On singularities of mappings of Euclidean spaces. I, Annals of Math. 62 (1955)",
+      "year": 1955,
+      "url": "https://doi.org/10.2307/1970070",
+      "whyItMatters": "Classification of fold and cusp singularities."
+     }
+    ]
+   }
+  ],
+  "notes": "Searched: en.wikipedia (Catastrophe theory, René Thom, Christopher Zeeman, Hassler Whitney; raw wikitext), MacTutor (Thom, Zeeman, Whitney), Crossref (Whitney 1955, Thom 1956 and 1969), Open Library (Thom 1972, Zeeman 1977). Gaps: Zeeman's Scientific American article (1976) is not checked; the first use of the name 'catastrophe theory' in a title is not verified before 1977; Zahler and Sussmann's 1977 critique is context only. Derived conceptual 1969, methodological 1969 (same paper), institutional 1972.",
+  "derivedDates": {
+   "conceptual": 1969,
+   "methodological": 1969,
+   "institutional": 1972
+  }
+ }
+]

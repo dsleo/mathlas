@@ -1,0 +1,1166 @@
+[
+  {
+    "eventId": "E25",
+    "canonicalName": "Game theory",
+    "aliases": [
+      "minimax theorem",
+      "strategic games",
+      "Nash equilibrium"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1928,
+        "precision": "year",
+        "label": "Von Neumann formulates minimax games",
+        "work": "J. von Neumann, Zur Theorie der Gesellschaftsspiele, Math. Ann. 100 (1928)",
+        "people": [
+          "John von Neumann"
+        ],
+        "description": "The article gives a mathematical framework for two-person zero-sum games.",
+        "evidence": [
+          {
+            "claim": "Published minimax article in 1928",
+            "source": "Mathematische Annalen / Crossref",
+            "url": "https://doi.org/10.1007/BF01448847",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "This publication truly makes the statement and applies its minimax method; see the adjacent milestone for the second role."
+      },
+      {
+        "role": "first_application",
+        "year": 1928,
+        "precision": "year",
+        "label": "Minimax applied to strategic games",
+        "work": "J. von Neumann, Zur Theorie der Gesellschaftsspiele, Math. Ann. 100 (1928)",
+        "people": [
+          "John von Neumann"
+        ],
+        "description": "Von Neumann uses the minimax principle on the target class of strategic games.",
+        "evidence": [
+          {
+            "claim": "Published minimax article in 1928",
+            "source": "Mathematische Annalen / Crossref",
+            "url": "https://doi.org/10.1007/BF01448847",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "The same article truly plays both first-statement and first-application roles."
+      },
+      {
+        "role": "consolidation",
+        "year": 1944,
+        "precision": "year",
+        "label": "Theory of Games and Economic Behavior",
+        "work": "J. von Neumann and O. Morgenstern, Theory of Games and Economic Behavior (1944)",
+        "people": [
+          "John von Neumann"
+        ],
+        "description": "Von Neumann and Morgenstern establish a named book-length treatment of game theory.",
+        "evidence": [
+          {
+            "claim": "First edition of the named book, 1944",
+            "source": "Open Library",
+            "url": "https://openlibrary.org/books/OL186826M/Theory_of_Games_and_Economic_Behavior",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "key_development",
+        "year": 1950,
+        "precision": "year",
+        "label": "Nash's n-person equilibrium",
+        "work": "J. Nash, Equilibrium points in n-person games, PNAS 36 (1950)",
+        "people": [
+          "John Nash"
+        ],
+        "description": "Nash extends strategic equilibrium beyond two-person zero-sum games.",
+        "evidence": [
+          {
+            "claim": "Published n-person equilibrium paper, 1950",
+            "source": "PNAS / Crossref",
+            "url": "https://doi.org/10.1073/pnas.36.1.48",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [
+      {
+        "name": "John von Neumann",
+        "role": "originator",
+        "lifespan": "1903–1957",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Von_Neumann/",
+        "works": [
+          {
+            "citation": "Zur Theorie der Gesellschaftsspiele",
+            "year": 1928,
+            "url": "https://doi.org/10.1007/BF01448847",
+            "whyItMatters": "Minimax framework"
+          },
+          {
+            "citation": "Theory of Games and Economic Behavior (with Oskar Morgenstern)",
+            "year": 1944,
+            "url": "https://openlibrary.org/books/OL186826M/Theory_of_Games_and_Economic_Behavior",
+            "whyItMatters": "Named systematic book"
+          }
+        ]
+      },
+      {
+        "name": "John Nash",
+        "role": "developer",
+        "lifespan": "1928–2015",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Nash/",
+        "works": [
+          {
+            "citation": "Equilibrium points in n-person games",
+            "year": 1950,
+            "url": "https://doi.org/10.1073/pnas.36.1.48",
+            "whyItMatters": "Extends equilibrium beyond zero-sum games"
+          }
+        ]
+      }
+    ],
+    "notes": "Borel's earlier game papers are priority precursors, not erased by the 1928 minimax anchor. Nash's 1950 contribution is a later generalization. The 1944 textbook is an institutional anchor, not the origin date. Borel's earlier game papers remain a priority precursor, but no particular one was dated here without a checked publication record."
+  },
+  {
+    "eventId": "E30",
+    "canonicalName": "Scheme theory",
+    "aliases": [
+      "schemes",
+      "Spec of a ring",
+      "Éléments de géométrie algébrique"
+    ],
+    "phases": [
+      "Scheme language",
+      "Scheme geometry"
+    ],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1960,
+        "precision": "year",
+        "label": "EGA I states the scheme language",
+        "work": "A. Grothendieck, Éléments de géométrie algébrique I: Le langage des schémas, Publ. Math. IHÉS 4 (1960)",
+        "people": [
+          "Alexander Grothendieck"
+        ],
+        "description": "The first checked public systematic definition of schemes appears in EGA I.",
+        "evidence": [
+          {
+            "claim": "EGA I published in 1960 with the language of schemes",
+            "source": "Numdam / IHÉS",
+            "url": "https://numdam.org/item/PMIHES_1960__4__5_0/",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "phase": "Scheme language",
+        "note": "Earlier 1958 lectures and notes may contain the definition; their publication timing has not been established. EGA I truly plays both statement and consolidation roles."
+      },
+      {
+        "role": "consolidation",
+        "year": 1960,
+        "precision": "year",
+        "label": "EGA I consolidates the language",
+        "work": "A. Grothendieck, Éléments de géométrie algébrique I: Le langage des schémas, Publ. Math. IHÉS 4 (1960)",
+        "people": [
+          "Alexander Grothendieck"
+        ],
+        "description": "The book-length treatment makes schemes the working language of algebraic geometry.",
+        "evidence": [
+          {
+            "claim": "EGA I published in 1960 with the language of schemes",
+            "source": "Numdam / IHÉS",
+            "url": "https://numdam.org/item/PMIHES_1960__4__5_0/",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "phase": "Scheme language",
+        "note": "This publication truly serves both as the first checked statement and systematic consolidation."
+      },
+      {
+        "role": "first_application",
+        "year": 1961,
+        "precision": "year",
+        "label": "EGA II applies schemes to morphisms",
+        "work": "A. Grothendieck, EGA II: Étude globale élémentaire de quelques classes de morphismes, Publ. Math. IHÉS 8 (1961)",
+        "people": [
+          "Alexander Grothendieck"
+        ],
+        "description": "The second installment develops global classes of morphisms using the scheme framework.",
+        "evidence": [
+          {
+            "claim": "EGA II published 28 December 1961",
+            "source": "Numdam / IHÉS",
+            "url": "https://numdam.org/item/PMIHES_1961__8__5_0/",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "phase": "Scheme geometry",
+        "note": "EGA I already uses examples, but EGA II is the first separate checked target-problem development; the prior flat direct pass put methodological at 1960."
+      }
+    ],
+    "people": [
+      {
+        "name": "Alexander Grothendieck",
+        "role": "originator",
+        "lifespan": "1928–2014",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Grothendieck/",
+        "works": [
+          {
+            "citation": "Éléments de géométrie algébrique I: Le langage des schémas",
+            "year": 1960,
+            "url": "https://numdam.org/item/PMIHES_1960__4__5_0/",
+            "whyItMatters": "Systematic scheme language"
+          },
+          {
+            "citation": "Éléments de géométrie algébrique II: Étude globale élémentaire de quelques classes de morphismes",
+            "year": 1961,
+            "url": "https://numdam.org/item/PMIHES_1961__8__5_0/",
+            "whyItMatters": "Early application of schemes to morphisms"
+          }
+        ]
+      }
+    ],
+    "notes": "1960 is the first checked systematic publication, not a claim that no earlier public scheme definition exists. Dieudonné's editorial collaboration is recorded in EGA's publication history, but a separate event-specific work record for him has not been checked here. Conceptual 1960 means first checked public definition, not proof that no earlier printed exposition exists. Methodological 1960 versus 1961 remains an interpretation question."
+  },
+  {
+    "eventId": "E32",
+    "canonicalName": "Logic solves Hilbert's tenth problem",
+    "aliases": [
+      "Hilbert's tenth problem",
+      "DPRM theorem",
+      "Diophantine undecidability"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1961,
+        "precision": "year",
+        "label": "Davis–Putnam–Robinson reduction",
+        "work": "M. Davis, H. Putnam and J. Robinson, The decision problem for exponential Diophantine equations, Ann. Math. 74 (1961)",
+        "people": [
+          "Julia Robinson"
+        ],
+        "description": "The reduction makes the missing exponential-Diophantine step decisive but does not yet solve Hilbert's tenth problem.",
+        "evidence": [
+          {
+            "claim": "1961 reduction to exponential Diophantine equations",
+            "source": "Annals of Mathematics / JSTOR",
+            "url": "https://doi.org/10.2307/1970289",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "first_statement",
+        "year": 1970,
+        "precision": "year",
+        "label": "Matiyasevich closes Hilbert's tenth problem",
+        "work": "Yu. Matiyasevich, The Diophantineness of enumerable sets, Dokl. Akad. Nauk SSSR 191 (1970)",
+        "people": [
+          "Yuri Matiyasevich"
+        ],
+        "description": "The article establishes the Diophantineness result needed for the negative solution.",
+        "evidence": [
+          {
+            "claim": "Original Russian article published in 1970",
+            "source": "Math-Net.Ru",
+            "url": "https://www.mathnet.ru/dan35274",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "The paper truly states the result and applies logic to the target decision problem."
+      },
+      {
+        "role": "first_application",
+        "year": 1970,
+        "precision": "year",
+        "label": "Undecidability follows for Hilbert's tenth",
+        "work": "Yu. Matiyasevich, The Diophantineness of enumerable sets, Dokl. Akad. Nauk SSSR 191 (1970)",
+        "people": [
+          "Yuri Matiyasevich"
+        ],
+        "description": "The Diophantine representation is used to finish the algorithmic unsolvability argument.",
+        "evidence": [
+          {
+            "claim": "Original Russian article published in 1970",
+            "source": "Math-Net.Ru",
+            "url": "https://www.mathnet.ru/dan35274",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "The same paper truly plays both statement and purposeful-application roles."
+      },
+      {
+        "role": "key_development",
+        "year": 1972,
+        "precision": "year",
+        "label": "Detailed account of Diophantine sets",
+        "work": "Yu. Matiyasevich, Diophantine sets, Russian Math. Surveys 27 (1972)",
+        "people": [
+          "Yuri Matiyasevich"
+        ],
+        "description": "Matiyasevich gives a fuller account of the result and the logic behind it.",
+        "evidence": [
+          {
+            "claim": "Detailed survey published in 1972",
+            "source": "Math-Net.Ru / journal record",
+            "url": "https://www.mathnet.ru/eng/rm5112",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Yuri Matiyasevich",
+        "role": "originator",
+        "lifespan": "born 1947",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Matiyasevich/",
+        "works": [
+          {
+            "citation": "The Diophantineness of enumerable sets",
+            "year": 1970,
+            "url": "https://www.mathnet.ru/dan35274",
+            "whyItMatters": "Completes the unsolvability proof"
+          },
+          {
+            "citation": "Diophantine sets",
+            "year": 1972,
+            "url": "https://www.mathnet.ru/eng/rm5112",
+            "whyItMatters": "Fuller account of the result"
+          }
+        ]
+      },
+      {
+        "name": "Julia Robinson",
+        "role": "developer",
+        "lifespan": "1919–1985",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Robinson_Julia/",
+        "works": [
+          {
+            "citation": "The decision problem for exponential Diophantine equations",
+            "year": 1961,
+            "url": "https://doi.org/10.2307/1970289",
+            "whyItMatters": "Joint precursor with Davis and Putnam"
+          }
+        ]
+      }
+    ],
+    "notes": "The 1961 Davis–Putnam–Robinson paper is retained as a precursor; it did not yet settle Hilbert's tenth problem. The original 1970 Russian article, rather than a later English translation, dates the completed result."
+  },
+  {
+    "eventId": "E33",
+    "canonicalName": "Atiyah-Singer index theorem",
+    "aliases": [
+      "index theorem",
+      "elliptic operator index",
+      "topological index"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1960,
+        "precision": "year",
+        "label": "Gel'fand poses the index problem",
+        "work": null,
+        "people": [
+          "Israel Gel'fand"
+        ],
+        "description": "Gel'fand asks for topological information about the index of elliptic operators.",
+        "evidence": [
+          {
+            "claim": "Gel'fand's 1960 index question",
+            "source": "Atiyah's historical account",
+            "url": "https://celebratio.org/Atiyah_MF/article/40/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "first_statement",
+        "year": 1963,
+        "precision": "year",
+        "label": "Atiyah–Singer theorem announced",
+        "work": "M. Atiyah and I. Singer, The index of elliptic operators on compact manifolds, Bull. AMS 69 (1963)",
+        "people": [
+          "Michael Atiyah",
+          "Isadore Singer"
+        ],
+        "description": "Atiyah and Singer publish the equality of analytic and topological indices.",
+        "evidence": [
+          {
+            "claim": "Published theorem announcement in 1963",
+            "source": "AMS / Crossref",
+            "url": "https://doi.org/10.1090/S0002-9904-1963-10957-X",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "The announcement truly gives both the theorem statement and its index application."
+      },
+      {
+        "role": "first_application",
+        "year": 1963,
+        "precision": "year",
+        "label": "Topological index computes analytic index",
+        "work": "M. Atiyah and I. Singer, The index of elliptic operators on compact manifolds, Bull. AMS 69 (1963)",
+        "people": [
+          "Michael Atiyah",
+          "Isadore Singer"
+        ],
+        "description": "The index formula is applied to elliptic operators on compact manifolds.",
+        "evidence": [
+          {
+            "claim": "Published theorem announcement in 1963",
+            "source": "AMS / Crossref",
+            "url": "https://doi.org/10.1090/S0002-9904-1963-10957-X",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "The same published announcement truly plays both statement and application roles."
+      },
+      {
+        "role": "key_development",
+        "year": 1968,
+        "precision": "year",
+        "label": "Detailed proof in the Annals",
+        "work": "M. Atiyah and I. Singer, The index of elliptic operators I, Ann. Math. 87 (1968)",
+        "people": [
+          "Michael Atiyah",
+          "Isadore Singer"
+        ],
+        "description": "The first paper in the index-operator series gives the detailed K-theoretic proof.",
+        "evidence": [
+          {
+            "claim": "Annals paper published in 1968",
+            "source": "Annals / JSTOR",
+            "url": "https://doi.org/10.2307/1970715",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [
+      {
+        "name": "Michael Atiyah",
+        "role": "originator",
+        "lifespan": "1929–2019",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Atiyah/",
+        "works": [
+          {
+            "citation": "The index of elliptic operators on compact manifolds",
+            "year": 1963,
+            "url": "https://doi.org/10.1090/S0002-9904-1963-10957-X",
+            "whyItMatters": "Published theorem announcement"
+          }
+        ]
+      },
+      {
+        "name": "Isadore Singer",
+        "role": "originator",
+        "lifespan": "1924–2021",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Singer/",
+        "works": [
+          {
+            "citation": "The index of elliptic operators. I",
+            "year": 1968,
+            "url": "https://doi.org/10.2307/1970715",
+            "whyItMatters": "Full proof series"
+          }
+        ]
+      }
+    ],
+    "notes": "The 1963 announcement is public; the detailed Annals proof appeared in 1968. Gelfand's 1960 problem statement is a precursor, not the theorem's public proof."
+  },
+  {
+    "eventId": "E36",
+    "canonicalName": "Topology proves Kneser's conjecture",
+    "aliases": [
+      "topological combinatorics",
+      "Kneser graphs",
+      "neighborhood complex"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1955,
+        "precision": "year",
+        "label": "Kneser states the coloring conjecture",
+        "work": null,
+        "people": [
+          "Martin Kneser"
+        ],
+        "description": "The combinatorial problem predates its topological solution.",
+        "evidence": [
+          {
+            "claim": "Kneser's 1955 Aufgabe 360 is cited in later mathematical literature",
+            "source": "Kneser problem bibliography",
+            "url": "https://www.math.unam.mx/~urrutia/online_papers/knesser.pdf",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Some catalogues list the problem in a 1956 issue; check the original issue before treating this as an exact publication anchor."
+      },
+      {
+        "role": "first_statement",
+        "year": 1978,
+        "precision": "year",
+        "label": "Lovász proves Kneser's conjecture",
+        "work": "L. Lovász, Kneser's conjecture, chromatic number, and homotopy, JCTA 25 (1978)",
+        "people": [
+          "László Lovász"
+        ],
+        "description": "The paper states the graph-coloring result through a topological argument.",
+        "evidence": [
+          {
+            "claim": "1978 published proof using homotopy",
+            "source": "Journal of Combinatorial Theory / Crossref",
+            "url": "https://doi.org/10.1016/0097-3165(78)90022-5",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "This paper truly states the result and applies topology to the combinatorial target."
+      },
+      {
+        "role": "first_application",
+        "year": 1978,
+        "precision": "year",
+        "label": "Homotopy used on Kneser graphs",
+        "work": "L. Lovász, Kneser's conjecture, chromatic number, and homotopy, JCTA 25 (1978)",
+        "people": [
+          "László Lovász"
+        ],
+        "description": "Lovász applies the topology of a graph complex to the chromatic-number problem.",
+        "evidence": [
+          {
+            "claim": "1978 published proof using homotopy",
+            "source": "Journal of Combinatorial Theory / Crossref",
+            "url": "https://doi.org/10.1016/0097-3165(78)90022-5",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "The same paper truly plays both statement and first-application roles."
+      },
+      {
+        "role": "key_development",
+        "year": 1978,
+        "precision": "year",
+        "label": "Bárány's short topological proof",
+        "work": "I. Bárány, A short proof of Kneser's conjecture, JCTA 25 (1978)",
+        "people": [
+          "Imre Bárány"
+        ],
+        "description": "A different short proof follows using Borsuk–Ulam ideas.",
+        "evidence": [
+          {
+            "claim": "Short proof in JCTA 25, 1978",
+            "source": "Journal of Combinatorial Theory / Crossref",
+            "url": "https://doi.org/10.1016/0097-3165(78)90023-7",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "László Lovász",
+        "role": "originator",
+        "lifespan": "born 1948",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lovasz/",
+        "works": [
+          {
+            "citation": "Kneser's conjecture, chromatic number, and homotopy",
+            "year": 1978,
+            "url": "https://doi.org/10.1016/0097-3165(78)90022-5",
+            "whyItMatters": "Topological proof of the graph-coloring conjecture"
+          }
+        ]
+      }
+    ],
+    "notes": "Kneser formulated the conjecture in 1955; the topological transfer in this event is the 1978 published proof."
+  },
+  {
+    "eventId": "E42",
+    "canonicalName": "Jones polynomial from operator algebras",
+    "aliases": [
+      "Jones polynomial",
+      "knot invariant from operator algebras",
+      "braid representations"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1985,
+        "precision": "year",
+        "label": "Jones polynomial published",
+        "work": "V. Jones, A polynomial invariant for knots via von Neumann algebras, Bull. AMS 12 (1985)",
+        "people": [
+          "Vaughan Jones"
+        ],
+        "description": "Jones announces a polynomial knot invariant arising from von Neumann algebra methods.",
+        "evidence": [
+          {
+            "claim": "Published 1985 knot-invariant article",
+            "source": "AMS / Crossref",
+            "url": "https://doi.org/10.1090/S0273-0979-1985-15304-2",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "The discovery is often dated 1984, but the checked public paper is 1985. It truly makes both statement and application."
+      },
+      {
+        "role": "first_application",
+        "year": 1985,
+        "precision": "year",
+        "label": "Operator algebras applied to knots",
+        "work": "V. Jones, A polynomial invariant for knots via von Neumann algebras, Bull. AMS 12 (1985)",
+        "people": [
+          "Vaughan Jones"
+        ],
+        "description": "The published construction deliberately transfers algebraic operator methods to knot theory.",
+        "evidence": [
+          {
+            "claim": "Published 1985 knot-invariant article",
+            "source": "AMS / Crossref",
+            "url": "https://doi.org/10.1090/S0273-0979-1985-15304-2",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "The same paper truly plays both statement and purposeful-application roles."
+      },
+      {
+        "role": "key_development",
+        "year": 1987,
+        "precision": "year",
+        "label": "Braid-group and link-polynomial extension",
+        "work": "V. Jones, Hecke algebra representations of braid groups and link polynomials, Ann. Math. 126 (1987)",
+        "people": [
+          "Vaughan Jones"
+        ],
+        "description": "Jones develops Hecke-algebra representations and a two-variable link invariant.",
+        "evidence": [
+          {
+            "claim": "Annals article, volume 126 (1987), pages 335–388",
+            "source": "Annals of Mathematics",
+            "url": "https://annals.math.princeton.edu/1987/126-2/p05",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [
+      {
+        "name": "Vaughan Jones",
+        "role": "originator",
+        "lifespan": "1952–2020",
+        "biographyUrl": "https://en.wikipedia.org/wiki/Vaughan_Jones",
+        "works": [
+          {
+            "citation": "A polynomial invariant for knots via von Neumann algebras",
+            "year": 1985,
+            "url": "https://doi.org/10.1090/S0273-0979-1985-15304-2",
+            "whyItMatters": "Original knot polynomial from operator algebras"
+          },
+          {
+            "citation": "Hecke algebra representations of braid groups and link polynomials",
+            "year": 1987,
+            "url": "https://doi.org/10.2307/1971403",
+            "whyItMatters": "Extends the operator-algebraic knot invariant"
+          }
+        ]
+      }
+    ],
+    "notes": "Jones's 1984 discovery predates the January 1985 publication; the date field follows the public paper. Witten's 1989 field-theoretic interpretation is a later development, not the origin."
+  },
+  {
+    "eventId": "E49",
+    "canonicalName": "Schramm-Loewner evolution",
+    "aliases": [
+      "SLE",
+      "stochastic Loewner evolution",
+      "Schramm–Loewner evolution"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1999,
+        "precision": "year",
+        "label": "Schramm proposes stochastic Loewner evolution",
+        "work": "O. Schramm, Scaling limits of loop-erased random walks and uniform spanning trees, arXiv:math/9904022 (1999)",
+        "people": [
+          "Oded Schramm"
+        ],
+        "description": "The public preprint identifies a conformally invariant scaling-limit framework.",
+        "evidence": [
+          {
+            "claim": "Public preprint submitted in 1999",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/math/9904022",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "The 2000 journal publication is the same work; the public 1999 posting governs."
+      },
+      {
+        "role": "first_application",
+        "year": 1999,
+        "precision": "year",
+        "label": "Scaling limits targeted at LERW and UST",
+        "work": "O. Schramm, Scaling limits of loop-erased random walks and uniform spanning trees, arXiv:math/9904022 (1999)",
+        "people": [
+          "Oded Schramm"
+        ],
+        "description": "The construction is directed at loop-erased walks and uniform spanning trees.",
+        "evidence": [
+          {
+            "claim": "Public preprint submitted in 1999",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/math/9904022",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "The same preprint truly plays both first-statement and purposeful-application roles."
+      },
+      {
+        "role": "key_development",
+        "year": 2001,
+        "precision": "year",
+        "label": "LERW and UST conformal invariance proved",
+        "work": "G. Lawler, O. Schramm and W. Werner, Conformal invariance of planar loop-erased random walks and uniform spanning trees, arXiv:math/0112234 (2001)",
+        "people": [
+          "Oded Schramm"
+        ],
+        "description": "Lawler, Schramm and Werner identify the LERW scaling limit with SLE(2).",
+        "evidence": [
+          {
+            "claim": "Public preprint submitted in 2001",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/math/0112234",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [
+      {
+        "name": "Oded Schramm",
+        "role": "originator",
+        "lifespan": "1961–2008",
+        "biographyUrl": "https://en.wikipedia.org/wiki/Oded_Schramm",
+        "works": [
+          {
+            "citation": "Scaling limits of loop-erased random walks and uniform spanning trees",
+            "year": 2000,
+            "url": "https://doi.org/10.1007/BF02803524",
+            "whyItMatters": "Published journal form of the 1999 SLE preprint"
+          },
+          {
+            "citation": "Scaling limits of loop-erased random walks and uniform spanning trees (preprint)",
+            "year": 1999,
+            "url": "https://arxiv.org/abs/math/9904022",
+            "whyItMatters": "First public SLE formulation"
+          },
+          {
+            "citation": "Conformal invariance of planar loop-erased random walks and uniform spanning trees (with Lawler and Werner)",
+            "year": 2001,
+            "url": "https://arxiv.org/abs/math/0112234",
+            "whyItMatters": "Proof of a predicted scaling limit"
+          }
+        ]
+      }
+    ],
+    "notes": "This entry treats an arXiv posting as a public bibliographic preprint. If the catalogue requires peer-reviewed publication only, use the 2000 journal date instead; both dates and the reason are preserved here."
+  },
+  {
+    "eventId": "E50",
+    "canonicalName": "Green-Tao: primes contain long arithmetic progressions",
+    "aliases": [
+      "Green–Tao theorem",
+      "arithmetic progressions in primes",
+      "relative Szemerédi theorem"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 2003,
+        "precision": "year",
+        "label": "Green proves Roth's theorem in the primes",
+        "work": "B. Green, Roth's theorem in the primes, arXiv:math/0302311 (2003)",
+        "people": [
+          "Ben Green"
+        ],
+        "description": "Green's three-term progression result is a precursor to arbitrary lengths.",
+        "evidence": [
+          {
+            "claim": "Public preprint submitted in 2003",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/math/0302311",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "first_statement",
+        "year": 2004,
+        "precision": "year",
+        "label": "Green–Tao theorem made public",
+        "work": "B. Green and T. Tao, The primes contain arbitrarily long arithmetic progressions, arXiv:math/0404188 (2004)",
+        "people": [
+          "Ben Green",
+          "Terence Tao"
+        ],
+        "description": "The preprint states that primes contain arbitrarily long arithmetic progressions.",
+        "evidence": [
+          {
+            "claim": "Public preprint submitted in 2004",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/math/0404188",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "The preprint truly states the theorem and applies a relative Szemerédi method; its journal form appeared in 2008."
+      },
+      {
+        "role": "first_application",
+        "year": 2004,
+        "precision": "year",
+        "label": "Transference method applied to primes",
+        "work": "B. Green and T. Tao, The primes contain arbitrarily long arithmetic progressions, arXiv:math/0404188 (2004)",
+        "people": [
+          "Ben Green",
+          "Terence Tao"
+        ],
+        "description": "The proof uses a pseudorandom majorant and relative combinatorial method on the primes.",
+        "evidence": [
+          {
+            "claim": "Public preprint submitted in 2004",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/math/0404188",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "The same preprint truly plays both statement and purposeful-application roles."
+      }
+    ],
+    "people": [
+      {
+        "name": "Ben Green",
+        "role": "originator",
+        "lifespan": "born 1977",
+        "biographyUrl": "https://en.wikipedia.org/wiki/Ben_Green_(mathematician)",
+        "works": [
+          {
+            "citation": "The primes contain arbitrarily long arithmetic progressions",
+            "year": 2008,
+            "url": "https://doi.org/10.4007/annals.2008.167.481",
+            "whyItMatters": "Published theorem proof"
+          },
+          {
+            "citation": "Roth's theorem in the primes",
+            "year": 2003,
+            "url": "https://arxiv.org/abs/math/0302311",
+            "whyItMatters": "Immediate three-term precursor"
+          }
+        ]
+      },
+      {
+        "name": "Terence Tao",
+        "role": "originator",
+        "lifespan": "born 1975",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Tao/",
+        "works": [
+          {
+            "citation": "The primes contain arbitrarily long arithmetic progressions",
+            "year": 2008,
+            "url": "https://doi.org/10.4007/annals.2008.167.481",
+            "whyItMatters": "Transference and sieve proof"
+          }
+        ]
+      }
+    ],
+    "notes": "The public 2004 preprint, not the 2008 journal publication, is used for first public statement; the later journal work remains linked for both authors."
+  },
+  {
+    "eventId": "E51",
+    "canonicalName": "The polynomial method in combinatorics",
+    "aliases": [
+      "polynomial method",
+      "finite-field Kakeya",
+      "polynomial partitioning"
+    ],
+    "phases": [
+      "Finite-field Kakeya",
+      "Polynomial partitioning"
+    ],
+    "milestones": [
+      {
+        "role": "first_application",
+        "year": 2008,
+        "precision": "year",
+        "label": "Dvir applies polynomials to finite-field Kakeya",
+        "work": "Z. Dvir, On the size of Kakeya sets in finite fields, arXiv:0803.2336 (2008)",
+        "people": [
+          "Zeev Dvir"
+        ],
+        "description": "A low-degree polynomial argument proves the finite-field Kakeya bound.",
+        "evidence": [
+          {
+            "claim": "Public preprint submitted in March 2008",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/0803.2336",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "phase": "Finite-field Kakeya"
+      },
+      {
+        "role": "key_development",
+        "year": 2010,
+        "precision": "year",
+        "label": "Guth–Katz polynomial partitioning",
+        "work": "L. Guth and N. H. Katz, On the Erdős distinct distances problem in the plane, arXiv:1011.4105 (2010)",
+        "people": [
+          "Larry Guth"
+        ],
+        "description": "A different polynomial technique attacks the Erdős distinct-distance problem.",
+        "evidence": [
+          {
+            "claim": "Public preprint submitted in November 2010",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1011.4105",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "phase": "Polynomial partitioning"
+      },
+      {
+        "role": "consolidation",
+        "year": 2016,
+        "precision": "year",
+        "label": "Guth's Polynomial Methods in Combinatorics",
+        "work": "L. Guth, Polynomial Methods in Combinatorics, University Lecture Series 64 (2016)",
+        "people": [
+          "Larry Guth"
+        ],
+        "description": "The AMS lecture-series volume gives a named systematic treatment of several polynomial methods.",
+        "evidence": [
+          {
+            "claim": "AMS named lecture-series book, 2016",
+            "source": "AMS book record",
+            "url": "https://doi.org/10.1090/ulect/064",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [
+      {
+        "name": "Zeev Dvir",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://www.cs.princeton.edu/~zdvir/",
+        "works": [
+          {
+            "citation": "On the size of Kakeya sets in finite fields",
+            "year": 2009,
+            "url": "https://doi.org/10.1090/S0894-0347-08-00607-3",
+            "whyItMatters": "Polynomial proof of finite-field Kakeya"
+          },
+          {
+            "citation": "On the size of Kakeya sets in finite fields (preprint)",
+            "year": 2008,
+            "url": "https://arxiv.org/abs/0803.2336",
+            "whyItMatters": "Public application before the 2009 journal version"
+          }
+        ]
+      },
+      {
+        "name": "Larry Guth",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Larry_Guth",
+        "works": [
+          {
+            "citation": "On the Erdős distinct distances problem in the plane",
+            "year": 2015,
+            "url": "https://doi.org/10.4007/annals.2015.181.1.2",
+            "whyItMatters": "Polynomial partitioning for distance bounds"
+          },
+          {
+            "citation": "On the Erdős distinct distances problem in the plane (with Nets Hawk Katz)",
+            "year": 2010,
+            "url": "https://arxiv.org/abs/1011.4105",
+            "whyItMatters": "Polynomial partitioning application"
+          },
+          {
+            "citation": "Polynomial Methods in Combinatorics",
+            "year": 2016,
+            "url": "https://doi.org/10.1090/ulect/064",
+            "whyItMatters": "Named systematic treatment"
+          }
+        ]
+      }
+    ],
+    "notes": "These are two different targets under a broad catalogue label. Their public preprint years are 2008 and 2010 respectively; neither should be promoted to the origin of the entire polynomial method. Birth years were not verified in the consulted biographies and are left blank. The broad polynomial method predates Dvir; no defensible first public statement of the entire method has been isolated, so conceptual stays open. The 2016 book is a consolidation anchor, not an origin."
+  },
+  {
+    "eventId": "E52",
+    "canonicalName": "Additive combinatorics proves expansion in groups",
+    "aliases": [
+      "sum-product and expansion",
+      "SL2 expander graphs",
+      "growth in finite groups"
+    ],
+    "phases": [
+      "Finite-field sum-product tools",
+      "Expansion in groups"
+    ],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 2003,
+        "precision": "year",
+        "label": "Finite-field sum-product preprint",
+        "work": "J. Bourgain, N. Katz and T. Tao, A sum-product estimate in finite fields and applications, arXiv:math/0301343 (2003)",
+        "people": [
+          "Jean Bourgain"
+        ],
+        "description": "Bourgain, Katz and Tao establish a tool later used in expansion arguments.",
+        "evidence": [
+          {
+            "claim": "Public preprint submitted in 2003",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/math/0301343",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "phase": "Finite-field sum-product tools"
+      },
+      {
+        "role": "first_statement",
+        "year": 2008,
+        "precision": "year",
+        "label": "Bourgain–Gamburd expansion theorem",
+        "work": "J. Bourgain and A. Gamburd, Uniform expansion bounds for Cayley graphs of SL₂(Fp), Ann. Math. 167 (2008)",
+        "people": [
+          "Jean Bourgain",
+          "Alex Gamburd"
+        ],
+        "description": "The paper establishes uniform expansion bounds for Cayley graphs of SL₂(Fp).",
+        "evidence": [
+          {
+            "claim": "Annals article, volume 167 (2008), pages 625–642",
+            "source": "Annals of Mathematics / Crossref",
+            "url": "https://doi.org/10.4007/annals.2008.167.625",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "phase": "Expansion in groups",
+        "note": "The publication truly states the theorem and applies additive-combinatorial growth tools to group expansion. A possible earlier public preprint remains unverified."
+      },
+      {
+        "role": "first_application",
+        "year": 2008,
+        "precision": "year",
+        "label": "Growth tools applied to SL₂ expansion",
+        "work": "J. Bourgain and A. Gamburd, Uniform expansion bounds for Cayley graphs of SL₂(Fp), Ann. Math. 167 (2008)",
+        "people": [
+          "Jean Bourgain",
+          "Alex Gamburd"
+        ],
+        "description": "The proof deliberately transfers sum-product and group-growth estimates to expander graphs.",
+        "evidence": [
+          {
+            "claim": "Annals article, volume 167 (2008), pages 625–642",
+            "source": "Annals of Mathematics / Crossref",
+            "url": "https://doi.org/10.4007/annals.2008.167.625",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "phase": "Expansion in groups",
+        "note": "The same article truly plays both first-statement and purposeful-application roles."
+      }
+    ],
+    "people": [
+      {
+        "name": "Jean Bourgain",
+        "role": "originator",
+        "lifespan": "1954–2018",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bourgain/",
+        "works": [
+          {
+            "citation": "Uniform expansion bounds for Cayley graphs of SL2(Fp)",
+            "year": 2008,
+            "url": "https://doi.org/10.4007/annals.2008.167.625",
+            "whyItMatters": "Expansion theorem"
+          },
+          {
+            "citation": "A sum-product estimate in finite fields and applications (with Katz and Tao)",
+            "year": 2003,
+            "url": "https://arxiv.org/abs/math/0301343",
+            "whyItMatters": "Precursor tool for expansion"
+          }
+        ]
+      },
+      {
+        "name": "Alex Gamburd",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Alexander_Gamburd",
+        "works": [
+          {
+            "citation": "Uniform expansion bounds for Cayley graphs of SL2(Fp)",
+            "year": 2008,
+            "url": "https://doi.org/10.4007/annals.2008.167.625",
+            "whyItMatters": "Coauthor of expansion theorem"
+          }
+        ]
+      }
+    ],
+    "notes": "Bourgain–Katz–Tao's 2003 public sum-product preprint (https://arxiv.org/abs/math/0301343) is a tool precursor, not yet this group-expansion result. Helfgott's 2008 group-growth paper (https://doi.org/10.4007/annals.2008.167.601) is another precursor. Gamburd's birth year was not verified and is blank."
+  }
+]

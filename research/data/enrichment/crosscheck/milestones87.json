@@ -1,0 +1,91 @@
+[
+  {
+    "eventId": "P71",
+    "canonicalName": "Classification theory in model theory (Morley, Shelah)",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1965,
+        "precision": "year",
+        "label": "Morley's categoricity theorem",
+        "work": "M. Morley, Categoricity in power, Trans. AMS (1965)",
+        "people": [
+          "Michael Morley"
+        ],
+        "description": "Morley proves that a countable first-order theory categorical in one uncountable cardinal is categorical in all, opening the classification of theories by their models.",
+        "evidence": [
+          {
+            "claim": "Crossref record: 'Categoricity in power', Trans. AMS, 1965",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works?query.bibliographic=Morley+Categoricity+in+power&rows=3&select=DOI,title,issued",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Wikipedia dates Morley's theorem to 1965 and cites this paper",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Morley%27s_categoricity_theorem",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Abstract itself not opened; theorem content from Wikipedia."
+      },
+      {
+        "role": "key_development",
+        "year": 1971,
+        "precision": "year",
+        "label": "Shelah on the number of models of unstable theories",
+        "work": "S. Shelah, The number of non-isomorphic models of an unstable first-order theory, Israel J. Math. (1971)",
+        "people": [
+          "Saharon Shelah"
+        ],
+        "description": "Shelah's paper links instability of a theory to many non-isomorphic models, an early step of the stability dividing line.",
+        "evidence": [
+          {
+            "claim": "Crossref record gives title, author, Israel J. Math., Feb 1971",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works?query.bibliographic=Shelah+Classification+theory+and+the+number+of+non-isomorphic+models&rows=3&select=DOI,title,author,issued,container-title,publisher",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Only metadata checked; role inferred from title."
+      },
+      {
+        "role": "consolidation",
+        "year": 1978,
+        "precision": "year",
+        "label": "Shelah's Classification Theory book",
+        "work": "S. Shelah, Classification Theory and the Number of Non-Isomorphic Models (North-Holland, 1978)",
+        "people": [
+          "Saharon Shelah"
+        ],
+        "description": "Systematic monograph on stability theory and the classification programme.",
+        "evidence": [
+          {
+            "claim": "Reference list gives first publication 1978, 2nd edition 1990",
+            "source": "Wikipedia (Stability spectrum)",
+            "url": "https://en.wikipedia.org/wiki/Stability_spectrum",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Crossref: review of the revised edition (1990) of this book",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works?query.bibliographic=Shelah+Classification+theory+and+the+number+of+non-isomorphic+models&rows=3&select=DOI,title,author,issued,container-title,publisher",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Searched Crossref, Wikipedia (Morley's categoricity theorem, Stability spectrum). MacTutor Shelah page timed out. Unverified: catalogue dates 1969, Baldwin-Lachlan 1971, Shelah's first stability papers (c.1969-70), naming/institution milestone. Catalogue range 1965-1971 partly supported.",
+    "pid": "P513",
+    "searchTerms": [
+      "Logic & foundations",
+      "Logic & foundations"
+    ]
+  }
+]

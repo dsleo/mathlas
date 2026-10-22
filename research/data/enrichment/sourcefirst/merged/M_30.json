@@ -1,0 +1,2708 @@
+[
+ {
+  "pid": "P214",
+  "eventId": "MB42/WB79",
+  "canonicalName": "Smale's hyperbolic dynamics (Axiom A, structural stability)",
+  "aliases": [
+   "Smale hyperbolic dynamics",
+   "Axiom A",
+   "Smale's axiom A",
+   "Morse-Smale systems",
+   "structural stability programme",
+   "strange attractors"
+  ],
+  "phases": [
+   "Topological methods for dynamics (1958-1960)",
+   "Axiom A and hyperbolicity (1967)",
+   "Markov partitions and strange attractors (1970-1971)",
+   "Textbook consolidation (1982)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1958,
+    "endYear": null,
+    "precision": "year",
+    "label": "Smale learns of Pontryagin's structural stability work",
+    "work": null,
+    "people": [
+     "Stephen Smale"
+    ],
+    "description": "Smale starts applying topological methods to structural stability after learning Pontryagin's work on structurally stable vector fields.",
+    "evidence": [
+     {
+      "claim": "Smale began topological work on structural stability in 1958, after Pontryagin's results",
+      "source": "MacTutor, Smale biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Smale/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Learning date, not a publication; precursor only, does not set a derived date."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1960,
+    "endYear": null,
+    "precision": "year",
+    "label": "Morse inequalities for a dynamical system",
+    "work": "Stephen Smale, Morse inequalities for a dynamical system, Bull. Amer. Math. Soc. 66 (1960) 43-49",
+    "people": [
+     "Stephen Smale"
+    ],
+    "description": "Smale applies Morse-theoretic counting to a dynamical system, introducing what became Morse-Smale systems.",
+    "evidence": [
+     {
+      "claim": "Smale 1960 Bull. AMS record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/S0002-9904-1960-10386-2",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Smale introduced Morse-Smale systems, citing the 1960 paper",
+      "source": "Wikipedia, Stephen Smale",
+      "url": "https://en.wikipedia.org/wiki/Stephen_Smale",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Reclassified from first_application to precursor: it predates this event's first statement (1967) and belongs to the wider field."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1967,
+    "endYear": null,
+    "precision": "year",
+    "label": "Smale's survey 'Differentiable dynamical systems' defines Axiom A",
+    "work": "Stephen Smale, Differentiable dynamical systems, Bull. Amer. Math. Soc. 73 (1967) 747-817",
+    "people": [
+     "Stephen Smale"
+    ],
+    "description": "Smale's survey sets out the axiom A class of dynamical systems, a term that originates with him.",
+    "evidence": [
+     {
+      "claim": "Smale 1967 Bull. AMS record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/S0002-9904-1967-11798-1",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Term 'axiom A' originates with Smale, citing the 1967 survey",
+      "source": "Wikipedia, Axiom A",
+      "url": "https://en.wikipedia.org/wiki/Axiom_A",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 1967,
+    "endYear": null,
+    "precision": "year",
+    "label": "'Axiom A' term introduced",
+    "work": "Stephen Smale, Differentiable dynamical systems, Bull. Amer. Math. Soc. 73 (1967)",
+    "people": [
+     "Stephen Smale"
+    ],
+    "description": "The label 'axiom A' for the class of systems is first used in the same survey.",
+    "evidence": [
+     {
+      "claim": "Term 'axiom A' originates with Smale",
+      "source": "Wikipedia, Axiom A",
+      "url": "https://en.wikipedia.org/wiki/Axiom_A",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper as the first_statement milestone; it plays both roles."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1970,
+    "endYear": null,
+    "precision": "year",
+    "label": "Markov partitions for Axiom A diffeomorphisms",
+    "work": "Rufus Bowen, Markov partitions for Axiom A diffeomorphisms, Amer. J. Math. 92 (1970) 725-747",
+    "people": [
+     "Rufus Bowen"
+    ],
+    "description": "Bowen shows the non-wandering set of an axiom A diffeomorphism carries a Markov partition, so the dynamics is conjugate to a shift of finite type on a generic subset.",
+    "evidence": [
+     {
+      "claim": "Bowen 1970 Am. J. Math. record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/2373370",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Markov partition result cited to Bowen 1970",
+      "source": "Wikipedia, Axiom A",
+      "url": "https://en.wikipedia.org/wiki/Axiom_A",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1971,
+    "endYear": null,
+    "precision": "year",
+    "label": "Structural stability theorem (Robbin)",
+    "work": "Joel Robbin, A structural stability theorem, Annals of Math. 94 (1971)",
+    "people": [
+     "Joel Robbin"
+    ],
+    "description": "Robbin's structural stability theorem is a core result of the programme that Smale outlined.",
+    "evidence": [
+     {
+      "claim": "Robbin 1971 Annals record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1970766",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Scope of the theorem not checked line by line; only the record and its place in the programme are established."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1971,
+    "endYear": null,
+    "precision": "year",
+    "label": "Ruelle and Takens: strange attractors and turbulence",
+    "work": "David Ruelle and Floris Takens, On the nature of turbulence, Comm. Math. Phys. 20 (1971) 167-192",
+    "people": [
+     "David Ruelle",
+     "Floris Takens"
+    ],
+    "description": "Ruelle and Takens propose strange attractors as a route to turbulence, bringing the chaotic dynamics of the hyperbolic programme into physics.",
+    "evidence": [
+     {
+      "claim": "Ruelle-Takens 1971 record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/BF01646553",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "The physics claim is from general knowledge of the paper; only the record was checked."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1982,
+    "endYear": null,
+    "precision": "year",
+    "label": "Palis and de Melo, Geometric Theory of Dynamical Systems",
+    "work": "Jacob Palis and Welington de Melo, Geometric Theory of Dynamical Systems, Springer (1982)",
+    "people": [
+     "Jacob Palis"
+    ],
+    "description": "A textbook treatment of structural stability and hyperbolic dynamics.",
+    "evidence": [
+     {
+      "claim": "Palis 1982 book record",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?q=Geometric+theory+of+dynamical+systems+Palis",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Textbook role inferred from the title and date; no review was read."
+   }
+  ],
+  "people": [
+   {
+    "name": "Stephen Smale",
+    "role": "originator",
+    "lifespan": "1930-",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Smale/",
+    "works": [
+     {
+      "citation": "Morse inequalities for a dynamical system, Bull. AMS 66 (1960)",
+      "year": 1960,
+      "url": "https://doi.org/10.1090/S0002-9904-1960-10386-2",
+      "whyItMatters": "Introduces Morse-Smale systems and dynamical Morse inequalities."
+     },
+     {
+      "citation": "Differentiable dynamical systems, Bull. AMS 73 (1967)",
+      "year": 1967,
+      "url": "https://doi.org/10.1090/S0002-9904-1967-11798-1",
+      "whyItMatters": "Survey defining axiom A and the programme."
+     }
+    ],
+    "roleNote": "Founder of the hyperbolic and structural-stability programme"
+   },
+   {
+    "name": "Rufus Bowen",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Rufus_Bowen",
+    "works": [
+     {
+      "citation": "Markov partitions for Axiom A diffeomorphisms, Amer. J. Math. 92 (1970)",
+      "year": 1970,
+      "url": "https://doi.org/10.2307/2373370",
+      "whyItMatters": "Gives the Markov partition used to code axiom A dynamics."
+     }
+    ],
+    "roleNote": "Markov partitions for axiom A"
+   },
+   {
+    "name": "David Ruelle",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/David_Ruelle",
+    "works": [
+     {
+      "citation": "Ruelle and Takens, On the nature of turbulence, Comm. Math. Phys. 20 (1971)",
+      "year": 1971,
+      "url": "https://doi.org/10.1007/BF01646553",
+      "whyItMatters": "Introduces strange attractors into the physics of turbulence."
+     }
+    ],
+    "roleNote": "Strange attractors and thermodynamic formalism"
+   },
+   {
+    "name": "Floris Takens",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Floris_Takens",
+    "works": [
+     {
+      "citation": "Ruelle and Takens, On the nature of turbulence, Comm. Math. Phys. 20 (1971)",
+      "year": 1971,
+      "url": "https://doi.org/10.1007/BF01646553",
+      "whyItMatters": "Co-author of the strange-attractor paper."
+     }
+    ],
+    "roleNote": "Co-author of strange attractors model"
+   },
+   {
+    "name": "Joel Robbin",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Joel_Robbin",
+    "works": [
+     {
+      "citation": "A structural stability theorem, Annals of Math. 94 (1971)",
+      "year": 1971,
+      "url": "https://doi.org/10.2307/1970766",
+      "whyItMatters": "Structural stability theorem in the programme."
+     }
+    ],
+    "roleNote": "Structural stability"
+   },
+   {
+    "name": "Jacob Palis",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Palis/",
+    "works": [
+     {
+      "citation": "Geometric Theory of Dynamical Systems (with W. de Melo), Springer (1982)",
+      "year": 1982,
+      "url": "https://openlibrary.org/search?q=Geometric+theory+of+dynamical+systems+Palis",
+      "whyItMatters": "Systematic textbook treatment."
+     }
+    ],
+    "roleNote": "Textbook consolidation of structural stability"
+   }
+  ],
+  "notes": "Input summary is loose: the topology-to-dynamics transfer started in 1958-1960 (Morse inequalities), axiom A was named in the 1967 survey, and strange attractors enter via Ruelle-Takens 1971. Robbin and Palis entries are record-checked only. Pontryagin's 1930s structural-stability work is not verified here. Derived dates use roles only.",
+  "derivedDates": {
+   "conceptual": 1967,
+   "methodological": null,
+   "institutional": 1967
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P223",
+  "eventId": "MB77/WB33",
+  "canonicalName": "Kalman filter (recursive state-space estimation)",
+  "aliases": [
+   "Kalman filtering",
+   "linear quadratic estimation",
+   "Kalman-Bucy filter",
+   "Stratonovich-Kalman-Bucy filter"
+  ],
+  "phases": [
+   "Recursive estimation precursors (1880-1959)",
+   "State-space filtering (1960-1961)",
+   "Consolidation (1979)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1880,
+    "endYear": null,
+    "precision": "year",
+    "label": "Thiele's recursive estimation procedure",
+    "work": "T. N. Thiele, 1880 (analysed in S. L. Lauritzen, Int. Stat. Rev. 49 (1981) 319-331)",
+    "people": [
+     "Thorvald Nicolai Thiele"
+    ],
+    "description": "Thiele derives a recursive procedure for estimating a regression component from a time series.",
+    "evidence": [
+     {
+      "claim": "Lauritzen 1981 analysis of Thiele's 1880 contribution",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1402616",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia notes Thiele's recursive procedure as earlier",
+      "source": "Wikipedia, Kalman filter",
+      "url": "https://en.wikipedia.org/wiki/Kalman_filter",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Precursor only; the 1880 original was not opened."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1959,
+    "endYear": null,
+    "precision": "year",
+    "label": "Stratonovich's nonlinear filter",
+    "work": "R. L. Stratonovich, Optimum nonlinear systems which select a signal with constant parameters from noise (Russian, 1959); English reprint 1965",
+    "people": [
+     "Ruslan Stratonovich"
+    ],
+    "description": "Stratonovich gives a nonlinear filter that the Kalman-Bucy filter is a special case of.",
+    "evidence": [
+     {
+      "claim": "English translation chapter record (1965)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1016/b978-1-4832-3230-0.50042-0",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Original dated 1959 and linked to the Kalman-Bucy filter",
+      "source": "Wikipedia, Kalman filter",
+      "url": "https://en.wikipedia.org/wiki/Kalman_filter",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Year 1959 for the Russian original taken from Wikipedia; the 1965 record is the English translation."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1960,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kalman's 'A New Approach to Linear Filtering and Prediction Problems'",
+    "work": "Rudolf E. Kalman, A new approach to linear filtering and prediction problems, J. Basic Eng. 82 (1960) 35-45",
+    "people": [
+     "Rudolf Kalman"
+    ],
+    "description": "Kalman introduces recursive state-space filtering for linear systems with noise.",
+    "evidence": [
+     {
+      "claim": "Kalman 1960 record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1115/1.3662552",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Kalman filter attributed to Kalman 1960 and Kalman-Bucy 1961",
+      "source": "Wikipedia, Kalman filter",
+      "url": "https://en.wikipedia.org/wiki/Kalman_filter",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1961,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kalman and Bucy: continuous-time filter and Riccati variance equation",
+    "work": "Rudolf E. Kalman and Richard S. Bucy, New results in linear filtering and prediction theory, J. Basic Eng. 83 (1961) 95-108",
+    "people": [
+     "Rudolf Kalman",
+     "Richard Bucy"
+    ],
+    "description": "Derives the Riccati variance equation for the optimal filter, giving the continuous-time Kalman-Bucy filter.",
+    "evidence": [
+     {
+      "claim": "Kalman-Bucy 1961 record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1115/1.3658902",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Kalman-Bucy filter as the continuous form",
+      "source": "MacTutor, Kalman biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kalman/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1979,
+    "endYear": null,
+    "precision": "year",
+    "label": "Anderson and Moore, Optimal Filtering",
+    "work": "Brian D. O. Anderson and John B. Moore, Optimal Filtering, Prentice-Hall (1979)",
+    "people": [
+     "Brian Anderson",
+     "John Moore"
+    ],
+    "description": "A systematic monograph treatment of optimal (Kalman-type) filtering.",
+    "evidence": [
+     {
+      "claim": "Anderson 1979 book record",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?q=Optimal+filtering+Anderson+Moore",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Rudolf E. Kalman",
+    "role": "developer",
+    "lifespan": "1930-2016",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kalman/",
+    "works": [
+     {
+      "citation": "A new approach to linear filtering and prediction problems, J. Basic Eng. 82 (1960)",
+      "year": 1960,
+      "url": "https://doi.org/10.1115/1.3662552",
+      "whyItMatters": "Introduces the recursive filter."
+     },
+     {
+      "citation": "New results in linear filtering and prediction theory (with R. S. Bucy), J. Basic Eng. 83 (1961)",
+      "year": 1961,
+      "url": "https://doi.org/10.1115/1.3658902",
+      "whyItMatters": "Continuous-time Kalman-Bucy filter."
+     }
+    ],
+    "roleNote": "Author of the state-space filter"
+   },
+   {
+    "name": "Richard S. Bucy",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Richard_S._Bucy",
+    "works": [
+     {
+      "citation": "New results in linear filtering and prediction theory (with R. E. Kalman), J. Basic Eng. 83 (1961)",
+      "year": 1961,
+      "url": "https://doi.org/10.1115/1.3658902",
+      "whyItMatters": "Co-author of the Kalman-Bucy result."
+     }
+    ],
+    "roleNote": "Co-author of the continuous-time filter"
+   },
+   {
+    "name": "Thorvald Nicolai Thiele",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Thorvald_Nicolai_Thiele",
+    "works": [
+     {
+      "citation": "Thiele 1880 time-series recursion (analysed by Lauritzen 1981)",
+      "year": 1880,
+      "url": "https://doi.org/10.2307/1402616",
+      "whyItMatters": "Recursive procedure for time-series regression components; the 1880 original was not opened."
+     }
+    ],
+    "roleNote": "Earlier recursive estimation"
+   },
+   {
+    "name": "Ruslan Stratonovich",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Ruslan_Stratonovich",
+    "works": [
+     {
+      "citation": "Optimum nonlinear systems which select a signal with constant parameters from noise (1959; English 1965)",
+      "year": 1959,
+      "url": "https://doi.org/10.1016/b978-1-4832-3230-0.50042-0",
+      "whyItMatters": "Nonlinear filter of which the Kalman-Bucy filter is a special case."
+     }
+    ],
+    "roleNote": "Nonlinear generalisation"
+   }
+  ],
+  "notes": "Apollo use: Wikipedia credits Stanley Schmidt (NASA Ames) with the first implementation, and NASA TN D-4027 (August 1967, Suddath, Kidd, Reinhold) documents the Apollo lunar-module error analysis. Neither first-application date was verified from its primary source, so no first_application milestone is set and methodological is null. Swerling (1958) is named in Wikipedia as a parallel technical report, not opened. No naming milestone was found for the term 'Kalman filter' (name first use not established).",
+  "derivedDates": {
+   "conceptual": 1960,
+   "methodological": null,
+   "institutional": 1979
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P226",
+  "eventId": "MB80/WB119",
+  "canonicalName": "Algorithmic information theory (randomness via program length)",
+  "aliases": [
+   "algorithmic complexity",
+   "Kolmogorov complexity",
+   "program-size complexity",
+   "algorithmic probability",
+   "Solomonoff induction",
+   "Martin-Lof randomness"
+  ],
+  "phases": [
+   "Algorithmic probability (1960-1964)",
+   "Program-size complexity and randomness (1965-1975)",
+   "Naming and consolidation (1987-1993)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1960,
+    "endYear": null,
+    "precision": "year",
+    "label": "Solomonoff's 'A Preliminary Report on a General Theory of Inductive Inference'",
+    "work": "Ray Solomonoff, A preliminary report on a general theory of inductive inference, Zator Report V-131 (1960)",
+    "people": [
+     "Ray Solomonoff"
+    ],
+    "description": "Solomonoff's first circulated report of algorithmic probability; a technical report, not a journal publication.",
+    "evidence": [
+     {
+      "claim": "Solomonoff's 1960 report named in the history section",
+      "source": "Wikipedia, Algorithmic information theory",
+      "url": "https://en.wikipedia.org/wiki/Algorithmic_information_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Technical report (Zator Co.); precursor only, does not set a derived date."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1964,
+    "endYear": null,
+    "precision": "year",
+    "label": "Solomonoff: algorithmic probability applied to inductive inference",
+    "work": "Ray Solomonoff, A formal theory of inductive inference, Part I, Information and Control 7 (1964) 1-22",
+    "people": [
+     "Ray Solomonoff"
+    ],
+    "description": "Applies algorithmic (universal) probability to the problem of induction.",
+    "evidence": [
+     {
+      "claim": "Solomonoff 1964 Part I record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1016/S0019-9958(64)90223-2",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Algorithmic probability as the basis of the field, founded by Solomonoff",
+      "source": "Wikipedia, Algorithmic information theory",
+      "url": "https://en.wikipedia.org/wiki/Algorithmic_information_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The 'first application' claim rests on the field history; the record is verified. Reclassified from first_application to precursor: it predates this event's first statement (1965) and belongs to the wider field."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1965,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kolmogorov's 'Three approaches to the quantitative definition of information'",
+    "work": "A. N. Kolmogorov, Three approaches to the quantitative definition of information, Problems of Information Transmission 1 (1965)",
+    "people": [
+     "Andrey Kolmogorov"
+    ],
+    "description": "Kolmogorov defines the complexity of a finite object as the length of its shortest program, so randomness is incompressibility.",
+    "evidence": [
+     {
+      "claim": "Crossref record of the 1968 reprint (same title) in Int. J. Comput. Math.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1080/00207166808803030",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Kolmogorov's biography (1965 Lenin Prize context only)",
+      "source": "MacTutor, Kolmogorov biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kolmogorov/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The 1965 original is not indexed in Crossref; the 1965 year is taken from the standard citation, and the 1968 reprint is the verified record."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1966,
+    "endYear": null,
+    "precision": "year",
+    "label": "Chaitin: program length for finite binary sequences",
+    "work": "Gregory J. Chaitin, On the length of programs for computing finite binary sequences, J. ACM 13 (1966)",
+    "people": [
+     "Gregory Chaitin"
+    ],
+    "description": "Chaitin defines the minimal program length of a finite binary string as a complexity measure.",
+    "evidence": [
+     {
+      "claim": "Chaitin 1966 JACM record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1145/321356.321363",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1966,
+    "endYear": null,
+    "precision": "year",
+    "label": "Martin-Lof: definition of random sequences",
+    "work": "Per Martin-Lof, The definition of random sequences, Information and Control 9 (1966)",
+    "people": [
+     "Per Martin-Lof"
+    ],
+    "description": "Gives a constructive test-based definition of random infinite sequences (Martin-Lof randomness).",
+    "evidence": [
+     {
+      "claim": "Martin-Lof 1966 record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1016/s0019-9958(66)80018-9",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Martin-Lof randomness named after him",
+      "source": "Wikipedia, Algorithmic information theory",
+      "url": "https://en.wikipedia.org/wiki/Algorithmic_information_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1975,
+    "endYear": null,
+    "precision": "year",
+    "label": "Chaitin: program size formally identical to information theory",
+    "work": "Gregory J. Chaitin, A theory of program size formally identical to information theory, J. ACM 22 (1975) 329-340",
+    "people": [
+     "Gregory Chaitin"
+    ],
+    "description": "Chaitin shows program-size complexity obeys information-theoretic relations, uniting randomness with information theory.",
+    "evidence": [
+     {
+      "claim": "Chaitin 1975 JACM record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1145/321892.321894",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Chaitin 1975 cited as the source of the entropy analogy",
+      "source": "Wikipedia, Algorithmic information theory",
+      "url": "https://en.wikipedia.org/wiki/Algorithmic_information_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 1987,
+    "endYear": null,
+    "precision": "year",
+    "label": "Chaitin's 'Algorithmic Information Theory' (book)",
+    "work": "Gregory J. Chaitin, Algorithmic Information Theory, Cambridge University Press (1987)",
+    "people": [
+     "Gregory Chaitin"
+    ],
+    "description": "The book title fixes the name of the field.",
+    "evidence": [
+     {
+      "claim": "Chaitin 1987 book record (title 'Algorithmic information theory')",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?q=Algorithmic+information+theory+Chaitin",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1993,
+    "endYear": null,
+    "precision": "year",
+    "label": "Li and Vitanyi, Introduction to Kolmogorov Complexity",
+    "work": "Ming Li and Paul Vitanyi, An Introduction to Kolmogorov Complexity and Its Applications, Springer (1st ed. 1993)",
+    "people": [
+     "Ming Li",
+     "Paul Vitanyi"
+    ],
+    "description": "The standard systematic textbook of the field.",
+    "evidence": [
+     {
+      "claim": "First edition 1993 record",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?q=Introduction+to+Kolmogorov+complexity+and+its+applications+Li",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "2nd edition (1997) record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-1-4757-2606-0",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "The Crossref record is the 1997 second edition; the 1993 first edition is from Open Library."
+   }
+  ],
+  "people": [
+   {
+    "name": "Ray Solomonoff",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Ray_Solomonoff",
+    "works": [
+     {
+      "citation": "A formal theory of inductive inference, Part I, Information and Control 7 (1964)",
+      "year": 1964,
+      "url": "https://doi.org/10.1016/S0019-9958(64)90223-2",
+      "whyItMatters": "Algorithmic probability applied to induction."
+     },
+     {
+      "citation": "A preliminary report on a general theory of inductive inference (Zator V-131, 1960)",
+      "year": 1960,
+      "url": "https://en.wikipedia.org/wiki/Algorithmic_information_theory",
+      "whyItMatters": "Earliest circulated report; technical report."
+     }
+    ],
+    "roleNote": "Algorithmic probability"
+   },
+   {
+    "name": "Andrey Kolmogorov",
+    "role": "developer",
+    "lifespan": "1903-1987",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kolmogorov/",
+    "works": [
+     {
+      "citation": "Three approaches to the quantitative definition of information (Problems Inf. Transm., 1965; reprint 1968)",
+      "year": 1965,
+      "url": "https://doi.org/10.1080/00207166808803030",
+      "whyItMatters": "Defines complexity via shortest programs."
+     }
+    ],
+    "roleNote": "Complexity of finite objects"
+   },
+   {
+    "name": "Gregory Chaitin",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Gregory_Chaitin",
+    "works": [
+     {
+      "citation": "On the length of programs for computing finite binary sequences, J. ACM 13 (1966)",
+      "year": 1966,
+      "url": "https://doi.org/10.1145/321356.321363",
+      "whyItMatters": "Program-length complexity of finite strings."
+     },
+     {
+      "citation": "A theory of program size formally identical to information theory, J. ACM 22 (1975)",
+      "year": 1975,
+      "url": "https://doi.org/10.1145/321892.321894",
+      "whyItMatters": "Connects program size with information theory."
+     },
+     {
+      "citation": "Algorithmic Information Theory, Cambridge UP (1987)",
+      "year": 1987,
+      "url": "https://openlibrary.org/search?q=Algorithmic+information+theory+Chaitin",
+      "whyItMatters": "Book giving the field its name."
+     }
+    ],
+    "roleNote": "Program-size complexity and the name of the field"
+   },
+   {
+    "name": "Per Martin-Lof",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Per_Martin-L%C3%B6f",
+    "works": [
+     {
+      "citation": "The definition of random sequences, Information and Control 9 (1966)",
+      "year": 1966,
+      "url": "https://doi.org/10.1016/s0019-9958(66)80018-9",
+      "whyItMatters": "Constructive definition of random sequences."
+     }
+    ],
+    "roleNote": "Randomness of infinite sequences"
+   }
+  ],
+  "notes": "Input summary says randomness via shortest program length; the first public statement of that link is Kolmogorov (1965), with Solomonoff (1960 report, 1964 paper) and Chaitin (1966) as the parallel and follow-up strands. Kolmogorov 1965 original not checked on Crossref (only the 1968 reprint). Levin's 1974 prefix complexity is not added. Derived dates are role-based.",
+  "derivedDates": {
+   "conceptual": 1965,
+   "methodological": null,
+   "institutional": 1987
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P277",
+  "eventId": "WB56",
+  "canonicalName": "Surgery theory (controlled modification of manifolds)",
+  "aliases": [
+   "surgery",
+   "surgery on manifolds",
+   "spherical modification",
+   "surgery obstructions",
+   "Wall surgery"
+  ],
+  "phases": [
+   "Milnor's surgery and exotic spheres (1961-1963)",
+   "Surgery as a method (1969-1972)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1961,
+    "endYear": null,
+    "precision": "year",
+    "label": "Milnor's surgery procedure for killing homotopy groups",
+    "work": "John Milnor, A procedure for killing homotopy groups of differentiable manifolds, Proc. Symp. Pure Math. 3 (1961)",
+    "people": [
+     "John Milnor"
+    ],
+    "description": "Milnor introduces the cutting-and-gluing operation that defines surgery.",
+    "evidence": [
+     {
+      "claim": "Milnor 1961 Proc. Symp. Pure Math. record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/pspum/003/0130696",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Surgery technique introduced by Milnor in 1961",
+      "source": "Wikipedia, Surgery theory",
+      "url": "https://en.wikipedia.org/wiki/Surgery_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 1961,
+    "endYear": null,
+    "precision": "year",
+    "label": "Milnor names the technique 'surgery'",
+    "work": "John Milnor, A procedure for killing homotopy groups of differentiable manifolds (1961)",
+    "people": [
+     "John Milnor"
+    ],
+    "description": "Milnor calls the technique surgery; Wallace called it spherical modification.",
+    "evidence": [
+     {
+      "claim": "Milnor called the technique surgery",
+      "source": "Wikipedia, Surgery theory",
+      "url": "https://en.wikipedia.org/wiki/Surgery_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper as the first_statement milestone; it plays both roles."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1963,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kervaire-Milnor: groups of homotopy spheres (exotic spheres)",
+    "work": "Michel Kervaire and John Milnor, Groups of homotopy spheres I, Annals of Math. 77 (1963)",
+    "people": [
+     "Michel Kervaire",
+     "John Milnor"
+    ],
+    "description": "Applies surgery to classify exotic spheres; Wikipedia says this classification led to surgery as a major tool.",
+    "evidence": [
+     {
+      "claim": "Kervaire-Milnor 1963 Annals record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1970128",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Classification of exotic spheres led to surgery as a tool",
+      "source": "Wikipedia, Surgery theory",
+      "url": "https://en.wikipedia.org/wiki/Surgery_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1969,
+    "endYear": null,
+    "precision": "year",
+    "label": "Browder: Kervaire invariant of framed manifolds",
+    "work": "William Browder, The Kervaire invariant of framed manifolds and its generalization, Annals of Math. 90 (1969) 157-186",
+    "people": [
+     "William Browder"
+    ],
+    "description": "Browder reduces the Kervaire invariant problem to stable homotopy theory and shows it vanishes outside dimensions 2^k-2.",
+    "evidence": [
+     {
+      "claim": "Browder 1969 Annals record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1970686",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Browder's reduction and dimension restriction",
+      "source": "Wikipedia, Kervaire invariant",
+      "url": "https://en.wikipedia.org/wiki/Kervaire_invariant",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1970,
+    "endYear": null,
+    "precision": "year",
+    "label": "Wall, Surgery on Compact Manifolds",
+    "work": "C. T. C. Wall, Surgery on Compact Manifolds, Academic Press (1970)",
+    "people": [
+     "C. T. C. Wall"
+    ],
+    "description": "The first systematic monograph on surgery theory for compact manifolds.",
+    "evidence": [
+     {
+      "claim": "Wall 1970 book record",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?q=Surgery+on+compact+manifolds+Wall",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "AMS reprint (1999) in the Surveys series",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/surv/069",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wall's book listed as 1970",
+      "source": "MacTutor, Wall biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Wall/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1972,
+    "endYear": null,
+    "precision": "year",
+    "label": "Browder, Surgery on Simply-Connected Manifolds",
+    "work": "William Browder, Surgery on Simply-Connected Manifolds, Ergebnisse 65, Springer (1972)",
+    "people": [
+     "William Browder"
+    ],
+    "description": "Systematic treatment of surgery for simply-connected manifolds.",
+    "evidence": [
+     {
+      "claim": "Browder 1972 book record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-3-642-50020-6",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "John Milnor",
+    "role": "originator",
+    "lifespan": "1931-",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Milnor/",
+    "works": [
+     {
+      "citation": "A procedure for killing homotopy groups of differentiable manifolds, Proc. Symp. Pure Math. 3 (1961)",
+      "year": 1961,
+      "url": "https://doi.org/10.1090/pspum/003/0130696",
+      "whyItMatters": "Introduces surgery."
+     },
+     {
+      "citation": "Groups of homotopy spheres I (with M. Kervaire), Annals of Math. 77 (1963)",
+      "year": 1963,
+      "url": "https://doi.org/10.2307/1970128",
+      "whyItMatters": "Surgery applied to exotic spheres."
+     }
+    ],
+    "roleNote": "Originator of surgery"
+   },
+   {
+    "name": "Michel Kervaire",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Michel_Kervaire",
+    "works": [
+     {
+      "citation": "Groups of homotopy spheres I (with J. Milnor), Annals of Math. 77 (1963)",
+      "year": 1963,
+      "url": "https://doi.org/10.2307/1970128",
+      "whyItMatters": "Co-author of the exotic-sphere classification."
+     }
+    ],
+    "roleNote": "Exotic spheres and the Kervaire invariant"
+   },
+   {
+    "name": "William Browder",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/William_Browder_(mathematician)",
+    "works": [
+     {
+      "citation": "The Kervaire invariant of framed manifolds and its generalization, Annals of Math. 90 (1969)",
+      "year": 1969,
+      "url": "https://doi.org/10.2307/1970686",
+      "whyItMatters": "Reduces the Kervaire problem to stable homotopy."
+     },
+     {
+      "citation": "Surgery on Simply-Connected Manifolds, Springer (1972)",
+      "year": 1972,
+      "url": "https://doi.org/10.1007/978-3-642-50020-6",
+      "whyItMatters": "Monograph on simply-connected surgery."
+     }
+    ],
+    "roleNote": "Kervaire invariant and surgery on simply-connected manifolds"
+   },
+   {
+    "name": "C. T. C. Wall",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Wall/",
+    "works": [
+     {
+      "citation": "Surgery on Compact Manifolds, Academic Press (1970)",
+      "year": 1970,
+      "url": "https://openlibrary.org/search?q=Surgery+on+compact+manifolds+Wall",
+      "whyItMatters": "First systematic monograph on surgery."
+     }
+    ],
+    "roleNote": "Surgery obstructions and monographs"
+   }
+  ],
+  "notes": "Input summary says surgery classifies manifolds via algebraic obstruction groups; the obstruction-group theory is Wall's, and Wall's 1970 monograph is taken as the consolidation. Novikov is not included because no verified work was retrieved. Precursor not added (no verified dated precursor). Derived dates: naming (Milnor 1961) sets institutional.",
+  "derivedDates": {
+   "conceptual": 1961,
+   "methodological": 1963,
+   "institutional": 1961
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P330",
+  "eventId": "WC20",
+  "canonicalName": "Sato-Tate conjecture (Frobenius angle distribution of elliptic curves)",
+  "aliases": [
+   "Sato-Tate distribution",
+   "Sato-Tate equidistribution",
+   "Frobenius angles of elliptic curves",
+   "Sato-Tate for totally real fields"
+  ],
+  "phases": [
+   "Conjecture and statement (c. 1960-1965)",
+   "Numerical evidence (1968)",
+   "Modularity and potential automorphy proof (2008-2011)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1960,
+    "endYear": null,
+    "precision": "year",
+    "label": "Sato and Tate pose the conjecture independently",
+    "work": null,
+    "people": [
+     "Mikio Sato",
+     "John Tate"
+    ],
+    "description": "Sato and Tate independently pose the conjecture around 1960, before any publication.",
+    "evidence": [
+     {
+      "claim": "Sato and Tate independently posed the conjecture around 1960",
+      "source": "Wikipedia, Sato-Tate conjecture",
+      "url": "https://en.wikipedia.org/wiki/Sato%E2%80%93Tate_conjecture",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Precursor only; the year is a 'circa' date in Wikipedia."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1965,
+    "endYear": null,
+    "precision": "year",
+    "label": "Tate's statement in 'Algebraic cycles and poles of zeta functions'",
+    "work": "John Tate, Algebraic cycles and poles of zeta functions, in Arithmetical Algebraic Geometry (1965) 93-110",
+    "people": [
+     "John Tate"
+    ],
+    "description": "The first published mention of the conjecture, in Tate's 1965 conference paper.",
+    "evidence": [
+     {
+      "claim": "Wikipedia cites Tate 1965 as the first published mention",
+      "source": "Wikipedia, Sato-Tate conjecture",
+      "url": "https://en.wikipedia.org/wiki/Sato%E2%80%93Tate_conjecture",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Tate's work on zeta functions and cycles",
+      "source": "MacTutor, Tate biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Tate/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The 1965 volume was not verified in Crossref or Open Library (zbMATH blocked); year rests on the Wikipedia citation."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1968,
+    "endYear": null,
+    "precision": "year",
+    "label": "Birch: numerical test of the distribution",
+    "work": "Bryan Birch, How the number of points of an elliptic curve over a fixed prime field varies, J. London Math. Soc. 43 (1968) 57-60",
+    "people": [
+     "Bryan Birch"
+    ],
+    "description": "Birch tests the distribution of point counts numerically over a fixed prime field, the first systematic check of the conjectured law.",
+    "evidence": [
+     {
+      "claim": "Birch 1968 J. LMS record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1112/jlms/s1-43.1.57",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Described as the first numerical check in the summary; the 'first' claim is medium confidence."
+   },
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 1970,
+    "precision": "year",
+    "label": "Ogg titles a remark on the Sato-Tate conjecture",
+    "work": "Ogg, A. P., A remark on the Sato-Tate conjecture, 1970",
+    "people": [
+     "Ogg"
+    ],
+    "description": "Earliest zbMATH title found that names the Sato-Tate conjecture.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: \"A remark on the Sato-Tate conjecture\", Ogg, 1970",
+      "source": "zbMATH Open doc 3348298",
+      "url": "https://api.zbmath.org/v1/document/3348298",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "No zbMATH title with the name in 1960-1969 (zero hits).",
+    "endYear": null
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2008,
+    "endYear": null,
+    "precision": "year",
+    "label": "Clozel, Harris, Shepherd-Barron, Taylor: automorphy of l-adic lifts",
+    "work": "Laurent Clozel, Michael Harris, Nicholas Shepherd-Barron, Richard Taylor, Automorphy for some l-adic lifts of automorphic mod l Galois representations, Publ. Math. IHES 108 (2008) 1-181",
+    "people": [
+     "Laurent Clozel",
+     "Michael Harris",
+     "Nicholas Shepherd-Barron",
+     "Richard Taylor"
+    ],
+    "description": "Proves the Sato-Tate conjecture for elliptic curves over totally real fields under a multiplicative-reduction hypothesis.",
+    "evidence": [
+     {
+      "claim": "CHSBT 2008 IHES record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/s10240-008-0016-1",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Proof of Sato-Tate under mild assumptions in 2008",
+      "source": "Wikipedia, Sato-Tate conjecture",
+      "url": "https://en.wikipedia.org/wiki/Sato%E2%80%93Tate_conjecture",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2010,
+    "endYear": null,
+    "precision": "year",
+    "label": "Harris, Shepherd-Barron, Taylor: Calabi-Yau family and potential automorphy",
+    "work": "Michael Harris, Nicholas Shepherd-Barron, Richard Taylor, A family of Calabi-Yau varieties and potential automorphy, Annals of Math. 171 (2010)",
+    "people": [
+     "Michael Harris",
+     "Richard Taylor"
+    ],
+    "description": "Potential automorphy for a family of Calabi-Yau varieties (Dwork-type), the input method for the Sato-Tate proof.",
+    "evidence": [
+     {
+      "claim": "HST 2010 Annals record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.4007/annals.2010.171.779",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Link to Sato-Tate taken from the input summary (Dwork families) and the 2011 follow-up; the 2010 paper's role is not read in full."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2011,
+    "endYear": null,
+    "precision": "year",
+    "label": "Barnet-Lamb, Geraghty, Harris, Taylor: completion of the Sato-Tate proof",
+    "work": "Thomas Barnet-Lamb, David Geraghty, Michael Harris, Richard Taylor, A family of Calabi-Yau varieties and potential automorphy II, Publ. RIMS 47 (2011)",
+    "people": [
+     "Thomas Barnet-Lamb",
+     "David Geraghty",
+     "Michael Harris",
+     "Richard Taylor"
+    ],
+    "description": "Completes the proof of Sato-Tate for elliptic curves over totally real fields.",
+    "evidence": [
+     {
+      "claim": "BGHT 2011 record (Publ. RIMS)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2977/prims/31",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Completion in 2011",
+      "source": "Wikipedia, Sato-Tate conjecture",
+      "url": "https://en.wikipedia.org/wiki/Sato%E2%80%93Tate_conjecture",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "John Tate",
+    "role": "originator",
+    "lifespan": "1925-2019",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Tate/",
+    "works": [
+     {
+      "citation": "Algebraic cycles and poles of zeta functions, in Arithmetical Algebraic Geometry (1965)",
+      "year": 1965,
+      "url": "https://en.wikipedia.org/wiki/Sato%E2%80%93Tate_conjecture",
+      "whyItMatters": "First published mention per Wikipedia (not verified in a bibliographic index)."
+     }
+    ],
+    "roleNote": "Conjecture co-author and first statement"
+   },
+   {
+    "name": "Bryan Birch",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Bryan_Birch",
+    "works": [
+     {
+      "citation": "How the number of points of an elliptic curve over a fixed prime field varies, J. London Math. Soc. 43 (1968)",
+      "year": 1968,
+      "url": "https://doi.org/10.1112/jlms/s1-43.1.57",
+      "whyItMatters": "First numerical check of the distribution."
+     }
+    ],
+    "roleNote": "Numerical evidence"
+   },
+   {
+    "name": "Laurent Clozel",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Laurent_Clozel",
+    "works": [
+     {
+      "citation": "Automorphy for some l-adic lifts of automorphic mod l Galois representations, Publ. IHES 108 (2008)",
+      "year": 2008,
+      "url": "https://doi.org/10.1007/s10240-008-0016-1",
+      "whyItMatters": "Proof of Sato-Tate for totally real fields."
+     }
+    ],
+    "roleNote": "Proof co-author"
+   },
+   {
+    "name": "Richard Taylor",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Richard_Taylor_(mathematician)",
+    "works": [
+     {
+      "citation": "Automorphy for some l-adic lifts ... II, Publ. IHES 108 (2008)",
+      "year": 2008,
+      "url": "https://doi.org/10.1007/s10240-008-0015-2",
+      "whyItMatters": "Companion paper in the 2008 proof."
+     },
+     {
+      "citation": "A family of Calabi-Yau varieties and potential automorphy (with M. Harris and N. Shepherd-Barron), Annals 171 (2010)",
+      "year": 2010,
+      "url": "https://doi.org/10.4007/annals.2010.171.779",
+      "whyItMatters": "Potential automorphy for the Calabi-Yau family."
+     }
+    ],
+    "roleNote": "Proof and potential automorphy"
+   },
+   {
+    "name": "Thomas Barnet-Lamb",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Thomas_Barnet-Lamb",
+    "works": [
+     {
+      "citation": "A family of Calabi-Yau varieties and potential automorphy II (with D. Geraghty, M. Harris, R. Taylor), Publ. RIMS 47 (2011)",
+      "year": 2011,
+      "url": "https://doi.org/10.2977/prims/31",
+      "whyItMatters": "Completes the proof."
+     }
+    ],
+    "roleNote": "Completion of the proof"
+   },
+   {
+    "name": "Michael Harris",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Michael_Harris_(mathematician)",
+    "works": [
+     {
+      "citation": "A family of Calabi-Yau varieties and potential automorphy (with N. Shepherd-Barron and R. Taylor), Annals 171 (2010)",
+      "year": 2010,
+      "url": "https://doi.org/10.4007/annals.2010.171.779",
+      "whyItMatters": "Calabi-Yau potential automorphy."
+     }
+    ],
+    "roleNote": "Proof and Calabi-Yau potential automorphy"
+   }
+  ],
+  "notes": "Input summary is right on the 2008-2011 proof and the Dwork-family input. Birch 1968 is the first numerical test; Tate 1965 is the first published mention per Wikipedia (volume not verified). No naming or institutional milestone was found for the name 'Sato-Tate' (who coined it not established), so institutional is null. Sato's own papers were not verified and he is not listed as a person with works.",
+  "derivedDates": {
+   "conceptual": 1965,
+   "methodological": 1968,
+   "institutional": 1970
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P461",
+  "eventId": "P7",
+  "canonicalName": "Nonstandard analysis (Robinson's infinitesimals via model theory)",
+  "aliases": [
+   "Non-standard analysis",
+   "NSA",
+   "hyperreal numbers",
+   "infinitesimal analysis"
+  ],
+  "phases": [
+   "Model-theoretic foundation (1961)",
+   "Monograph (1966)",
+   "Measure theory and pedagogy (1975-1976)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1961,
+    "endYear": null,
+    "precision": "year",
+    "label": "Robinson, 'Non-standard analysis'",
+    "work": "Abraham Robinson, Non-standard analysis, Indagationes Math. 23 (1961)",
+    "people": [
+     "Abraham Robinson"
+    ],
+    "description": "Robinson builds a model-theoretic extension of the reals containing infinitesimals and states its analysis programme.",
+    "evidence": [
+     {
+      "claim": "Robinson 1961 Indag. Math. record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1016/s1385-7258(61)50044-3",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Non-standard analysis introduced in 1961",
+      "source": "MacTutor, Robinson biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Robinson/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 1961,
+    "endYear": null,
+    "precision": "year",
+    "label": "The name 'Non-standard analysis' in a title",
+    "work": "Abraham Robinson, Non-standard analysis, Indag. Math. 23 (1961)",
+    "people": [
+     "Abraham Robinson"
+    ],
+    "description": "The field name appears in the title of the 1961 paper.",
+    "evidence": [
+     {
+      "claim": "1961 article has the title 'Non-standard analysis'",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1016/s1385-7258(61)50044-3",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper as the first_statement milestone; it plays both roles."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1966,
+    "endYear": null,
+    "precision": "year",
+    "label": "Robinson, Non-standard Analysis (monograph)",
+    "work": "Abraham Robinson, Non-standard Analysis, North-Holland (1966)",
+    "people": [
+     "Abraham Robinson"
+    ],
+    "description": "Robinson's monograph is the systematic treatment of the field.",
+    "evidence": [
+     {
+      "claim": "1966 monograph, cited in MacTutor and Wikipedia",
+      "source": "MacTutor, Robinson biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Robinson/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Monograph published in 1966 (North-Holland)",
+      "source": "Wikipedia, Nonstandard analysis",
+      "url": "https://en.wikipedia.org/wiki/Nonstandard_analysis",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1975,
+    "endYear": null,
+    "precision": "year",
+    "label": "Loeb measure: nonstandard to standard measure spaces",
+    "work": "Peter A. Loeb, Conversion from nonstandard to standard measure spaces and applications in probability theory, Trans. AMS 211 (1975) 113-122",
+    "people": [
+     "Peter Loeb"
+    ],
+    "description": "Loeb's construction turns a nonstandard measure space into a standard measure space, making NSA useful in probability.",
+    "evidence": [
+     {
+      "claim": "Loeb 1975 TAMS record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/S0002-9947-1975-0390154-8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1976,
+    "endYear": null,
+    "precision": "year",
+    "label": "Keisler, Elementary Calculus: An Infinitesimal Approach",
+    "work": "H. Jerome Keisler, Elementary Calculus: An Infinitesimal Approach, Prindle, Weber and Schmidt (1976)",
+    "people": [
+     "H. Jerome Keisler"
+    ],
+    "description": "A textbook teaching calculus with infinitesimals, the main pedagogical consolidation.",
+    "evidence": [
+     {
+      "claim": "Keisler 1976 textbook cited in Wikipedia",
+      "source": "Wikipedia, Nonstandard analysis",
+      "url": "https://en.wikipedia.org/wiki/Nonstandard_analysis",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Not verified in a bibliographic index."
+   }
+  ],
+  "people": [
+   {
+    "name": "Abraham Robinson",
+    "role": "originator",
+    "lifespan": "1918-1974",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Robinson/",
+    "works": [
+     {
+      "citation": "Non-standard analysis, Indag. Math. 23 (1961)",
+      "year": 1961,
+      "url": "https://doi.org/10.1016/s1385-7258(61)50044-3",
+      "whyItMatters": "Introduces the framework."
+     },
+     {
+      "citation": "Non-standard Analysis, North-Holland (1966)",
+      "year": 1966,
+      "url": "https://en.wikipedia.org/wiki/Nonstandard_analysis",
+      "whyItMatters": "Monograph."
+     }
+    ],
+    "roleNote": "Founder of nonstandard analysis"
+   },
+   {
+    "name": "W. A. J. Luxemburg",
+    "role": "popularizer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/W._A._J._Luxemburg",
+    "works": [
+     {
+      "citation": "Non-standard analysis (lecture notes)",
+      "year": 1962,
+      "url": "https://openlibrary.org/search?q=Non-standard+analysis+Luxemburg",
+      "whyItMatters": "Early lecture-notes treatment; the Open Library record is the only check."
+     }
+    ],
+    "roleNote": "Early lecture notes on NSA"
+   },
+   {
+    "name": "Peter A. Loeb",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Peter_A._Loeb",
+    "works": [
+     {
+      "citation": "Conversion from nonstandard to standard measure spaces, Trans. AMS 211 (1975)",
+      "year": 1975,
+      "url": "https://doi.org/10.1090/S0002-9947-1975-0390154-8",
+      "whyItMatters": "Loeb measure."
+     }
+    ],
+    "roleNote": "Measure theory in NSA"
+   },
+   {
+    "name": "H. Jerome Keisler",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/H._Jerome_Keisler",
+    "works": [
+     {
+      "citation": "Elementary Calculus: An Infinitesimal Approach (1976)",
+      "year": 1976,
+      "url": "https://en.wikipedia.org/wiki/Nonstandard_analysis",
+      "whyItMatters": "Textbook using infinitesimals."
+     }
+    ],
+    "roleNote": "Pedagogy of infinitesimal calculus"
+   }
+  ],
+  "notes": "Input summary's claim that the 1974 congress president called NSA a fresh direction was not verified and is left out. No first_application milestone was verified (the summary's 'reprove results' is not sourced), so methodological is null. Robinson's 1961 paper is both the first statement and the naming milestone. The Luxemburg 1962 record is an Open Library lecture-notes entry; its year is not confirmed beyond that record.",
+  "derivedDates": {
+   "conceptual": 1961,
+   "methodological": null,
+   "institutional": 1961
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P488",
+  "eventId": "P43",
+  "canonicalName": "Kervaire invariant one problem (solved by equivariant homotopy)",
+  "aliases": [
+   "Kervaire invariant problem",
+   "Kervaire invariant one",
+   "Arf-Kervaire problem",
+   "Hill-Hopkins-Ravenel theorem"
+  ],
+  "phases": [
+   "Kervaire invariant defined (1950-1963)",
+   "Reduction and dimension 62 (1969-1984)",
+   "Equivariant solution and dimension 126 (2009-2024)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1950,
+    "endYear": null,
+    "precision": "year",
+    "label": "Pontryagin's Arf invariant of framed surfaces",
+    "work": null,
+    "people": [
+     "Lev Pontryagin"
+    ],
+    "description": "Pontryagin uses the Arf invariant of framed surfaces to compute a stable homotopy group, the seed of the Kervaire invariant.",
+    "evidence": [
+     {
+      "claim": "Pontryagin's 1950 use of the Arf invariant",
+      "source": "Wikipedia, Kervaire invariant",
+      "url": "https://en.wikipedia.org/wiki/Kervaire_invariant",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Precursor only; year as stated in Wikipedia, no primary paper checked."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1960,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kervaire's invariant and the manifold without smooth structure",
+    "work": "Michel Kervaire, A manifold which does not admit any differentiable structure, Comment. Math. Helv. 34 (1960)",
+    "people": [
+     "Michel Kervaire"
+    ],
+    "description": "Kervaire defines the invariant and uses it to build a PL manifold with no smooth structure, in dimension 10.",
+    "evidence": [
+     {
+      "claim": "Kervaire 1960 Comment. Math. Helv. record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02565940",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Invariant used to construct the Kervaire manifold in dimension 10",
+      "source": "Wikipedia, Kervaire invariant",
+      "url": "https://en.wikipedia.org/wiki/Kervaire_invariant",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1963,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kervaire-Milnor: invariant nonzero in dimensions 6 and 14",
+    "work": "Michel Kervaire and John Milnor, Groups of homotopy spheres I, Annals of Math. 77 (1963)",
+    "people": [
+     "Michel Kervaire",
+     "John Milnor"
+    ],
+    "description": "The invariant is computed to be nonzero in dimensions 6 and 14, one step in the exotic-sphere computation.",
+    "evidence": [
+     {
+      "claim": "Kervaire-Milnor 1963 Annals record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1970128",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Nonzero in dimensions 6 and 14",
+      "source": "Wikipedia, Kervaire invariant",
+      "url": "https://en.wikipedia.org/wiki/Kervaire_invariant",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 1965,
+    "endYear": 1966,
+    "precision": "range",
+    "label": "Brown and Peterson's 'The Kervaire invariant of (8k+2)-manifolds'",
+    "work": "E. H. Brown Jr. and F. P. Peterson, The Kervaire invariant of (8k+2)-manifolds, 1965-1966",
+    "people": [
+     "Edgar H. Brown Jr.",
+     "Franklin P. Peterson"
+    ],
+    "description": "The earliest zbMATH-indexed title naming the Kervaire invariant.",
+    "evidence": [
+     {
+      "claim": "zbMATH records: Brown and Peterson, 'The Kervaire invariant of (8k+2)-manifolds', with two entries dated 1965 and 1966.",
+      "source": "zbMATH Open, API ti:\"Kervaire invariant\" search",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3A%22Kervaire%20invariant%22&page=0&results_per_page=50",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Two zbMATH entries with the same title carry different years (1965 and 1966), so the year is a range. Kervaire's 1960 paper is pre-zbMATH and the name may have been used earlier."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1969,
+    "endYear": null,
+    "precision": "year",
+    "label": "Browder: reduction to stable homotopy",
+    "work": "William Browder, The Kervaire invariant of framed manifolds and its generalization, Annals of Math. 90 (1969)",
+    "people": [
+     "William Browder"
+    ],
+    "description": "Shows the invariant vanishes outside dimensions 2^k-2 and reduces the problem to stable homotopy.",
+    "evidence": [
+     {
+      "claim": "Browder 1969 Annals record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1970686",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Browder's dimension restriction",
+      "source": "Wikipedia, Kervaire invariant",
+      "url": "https://en.wikipedia.org/wiki/Kervaire_invariant",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1984,
+    "endYear": null,
+    "precision": "year",
+    "label": "Barratt-Jones-Mahowald: nonzero in dimension 62",
+    "work": "M. G. Barratt, J. D. S. Jones, M. E. Mahowald, Relations amongst Toda brackets and the Kervaire invariant in dimension 62, J. London Math. Soc. 30 (1984) 533-550",
+    "people": [
+     "Michael Barratt",
+     "J. D. S. Jones",
+     "Mark Mahowald"
+    ],
+    "description": "Establishes a nonzero Kervaire invariant element in dimension 62.",
+    "evidence": [
+     {
+      "claim": "BJM 1984 JLMS record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1112/jlms/s2-30.3.533",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2016,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hill-Hopkins-Ravenel: no elements in dimensions 2^k-2 for k at least 8",
+    "work": "Michael A. Hill, Michael J. Hopkins, Douglas C. Ravenel, On the nonexistence of elements of Kervaire invariant one, Annals of Math. 184 (2016) 1-262",
+    "people": [
+     "Michael Hill",
+     "Michael Hopkins",
+     "Douglas Ravenel"
+    ],
+    "description": "Uses equivariant stable homotopy and a slice spectral sequence to show the invariant is zero in dimensions 2^k-2 for k at least 8.",
+    "evidence": [
+     {
+      "claim": "HHR 2016 Annals record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.4007/annals.2016.184.1.1",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Preprint arXiv:0908.3724 posted 2009-08-26 (first public statement)",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/0908.3724",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "The preprint is the first public statement (2009); the milestone is dated to the 2016 publication because it is the key result; the arXiv date is in the note."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2024,
+    "endYear": null,
+    "precision": "year",
+    "label": "Lin-Wang-Xu: existence in dimension 126",
+    "work": "Weinan Lin, Guozhen Wang, Zhouli Xu, On the Last Kervaire Invariant Problem, arXiv:2412.10879 (2024)",
+    "people": [
+     "Weinan Lin",
+     "Guozhen Wang",
+     "Zhouli Xu"
+    ],
+    "description": "Preprint proving a smooth framed manifold with Kervaire invariant one exists in dimension 126, completing the list of dimensions.",
+    "evidence": [
+     {
+      "claim": "arXiv record, posted 2024-12-14",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2412.10879",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Dimension 126 settled by 2024 preprint",
+      "source": "Wikipedia, Kervaire invariant",
+      "url": "https://en.wikipedia.org/wiki/Kervaire_invariant",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Preprint, not peer-reviewed at the time of checking."
+   }
+  ],
+  "people": [
+   {
+    "name": "Michel Kervaire",
+    "role": "originator",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Michel_Kervaire",
+    "works": [
+     {
+      "citation": "A manifold which does not admit any differentiable structure, Comment. Math. Helv. 34 (1960)",
+      "year": 1960,
+      "url": "https://doi.org/10.1007/bf02565940",
+      "whyItMatters": "Defines the invariant."
+     }
+    ],
+    "roleNote": "Invariant and first statement"
+   },
+   {
+    "name": "John Milnor",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Milnor/",
+    "works": [
+     {
+      "citation": "Groups of homotopy spheres I (with M. Kervaire), Annals of Math. 77 (1963)",
+      "year": 1963,
+      "url": "https://doi.org/10.2307/1970128",
+      "whyItMatters": "Computes nonzero cases in dimensions 6 and 14."
+     }
+    ],
+    "roleNote": "Exotic spheres application"
+   },
+   {
+    "name": "William Browder",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/William_Browder_(mathematician)",
+    "works": [
+     {
+      "citation": "The Kervaire invariant of framed manifolds and its generalization, Annals of Math. 90 (1969)",
+      "year": 1969,
+      "url": "https://doi.org/10.2307/1970686",
+      "whyItMatters": "Dimension restriction and reduction."
+     }
+    ],
+    "roleNote": "Reduction to stable homotopy"
+   },
+   {
+    "name": "Michael Hill",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Mike_Hill_(mathematician)",
+    "works": [
+     {
+      "citation": "On the nonexistence of elements of Kervaire invariant one (with M. Hopkins and D. Ravenel), Annals 184 (2016)",
+      "year": 2016,
+      "url": "https://doi.org/10.4007/annals.2016.184.1.1",
+      "whyItMatters": "Main nonexistence theorem."
+     }
+    ],
+    "roleNote": "Equivariant solution"
+   },
+   {
+    "name": "Michael Hopkins",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Michael_J._Hopkins",
+    "works": [
+     {
+      "citation": "On the nonexistence of elements of Kervaire invariant one (with M. Hill and D. Ravenel), Annals 184 (2016)",
+      "year": 2016,
+      "url": "https://doi.org/10.4007/annals.2016.184.1.1",
+      "whyItMatters": "Main nonexistence theorem."
+     }
+    ],
+    "roleNote": "Equivariant solution"
+   },
+   {
+    "name": "Douglas Ravenel",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Douglas_Ravenel",
+    "works": [
+     {
+      "citation": "On the nonexistence of elements of Kervaire invariant one (with M. Hill and M. Hopkins), Annals 184 (2016)",
+      "year": 2016,
+      "url": "https://doi.org/10.4007/annals.2016.184.1.1",
+      "whyItMatters": "Main nonexistence theorem."
+     }
+    ],
+    "roleNote": "Equivariant solution"
+   }
+  ],
+  "notes": "Correction to the input summary: the Kervaire invariant one elements exist in dimensions 2, 6, 14, 30, 62 and (by the 2024 preprint of Lin-Wang-Xu) 126; Hill-Hopkins-Ravenel show none in dimensions 2^k-2 with k at least 8, so the summary's 'only up to 126' is right only as a consequence. The 2016 HHR result is the equivariant solution (arXiv 2009). Xu's 2016 paper on the dimension-62 case is not added. Dimension 30 (Mahowald-Tangora 1967) and Anderson-Brown-Peterson 1966 are cited in Wikipedia and not checked. No consolidation or naming milestone found.",
+  "derivedDates": {
+   "conceptual": 1960,
+   "methodological": 1963,
+   "institutional": 1965
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P518",
+  "eventId": "P76",
+  "canonicalName": "Furstenberg: random matrix products and boundaries of Lie groups",
+  "aliases": [
+   "products of random matrices",
+   "Furstenberg boundary",
+   "Furstenberg-Kesten theorem",
+   "Poisson boundary of Lie groups",
+   "random walks on Lie groups"
+  ],
+  "phases": [
+   "Random matrix products (1960)",
+   "Boundary theory and Poisson formula (1963)",
+   "Consolidation (1985)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1960,
+    "endYear": null,
+    "precision": "year",
+    "label": "Furstenberg-Kesten: products of random matrices",
+    "work": "Harry Furstenberg and Harry Kesten, Products of random matrices, Ann. Math. Statist. 31 (1960) 457-469",
+    "people": [
+     "Harry Furstenberg",
+     "Harry Kesten"
+    ],
+    "description": "Establishes limiting behaviour of random matrix products, the starting point of the theory.",
+    "evidence": [
+     {
+      "claim": "Furstenberg-Kesten 1960 record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1214/aoms/1177705909",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Furstenberg as pioneer of products of random matrices",
+      "source": "MacTutor, Furstenberg biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Furstenberg/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1963,
+    "endYear": null,
+    "precision": "year",
+    "label": "Furstenberg: noncommuting random products",
+    "work": "Harry Furstenberg, Noncommuting random products, Trans. AMS 108 (1963)",
+    "people": [
+     "Harry Furstenberg"
+    ],
+    "description": "Extends the random-products theory to noncommuting matrices, the setting that the boundary theory then controls.",
+    "evidence": [
+     {
+      "claim": "Furstenberg 1963 Trans. AMS record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/s0002-9947-1963-0163345-0",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Scope inferred from the title and the MacTutor description of his matrix work; the body was not read."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1963,
+    "endYear": null,
+    "precision": "year",
+    "label": "Furstenberg: Poisson formula for semi-simple Lie groups",
+    "work": "Harry Furstenberg, A Poisson formula for semi-simple Lie groups, Annals of Math. 77 (1963)",
+    "people": [
+     "Harry Furstenberg"
+    ],
+    "description": "Introduces the boundary of a semi-simple Lie group and a Poisson formula for random walks on it.",
+    "evidence": [
+     {
+      "claim": "Furstenberg 1963 Annals record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1970220",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Series of articles beginning in 1963 with this paper",
+      "source": "Wikipedia, Hillel Furstenberg",
+      "url": "https://en.wikipedia.org/wiki/Hillel_Furstenberg",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Record checked; no page range given."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1985,
+    "endYear": null,
+    "precision": "year",
+    "label": "Bougerol and Lacroix, Products of Random Matrices",
+    "work": "Philippe Bougerol and Jean Lacroix, Products of Random Matrices with Applications to Schrodinger Operators, Birkhauser (1985)",
+    "people": [
+     "Philippe Bougerol",
+     "Jean Lacroix"
+    ],
+    "description": "The systematic monograph on random matrix products and their applications.",
+    "evidence": [
+     {
+      "claim": "Bougerol-Lacroix 1985 record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-1-4684-9172-2",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Harry Furstenberg",
+    "role": "originator",
+    "lifespan": "1935-",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Furstenberg/",
+    "works": [
+     {
+      "citation": "Noncommuting random products, Trans. AMS 108 (1963)",
+      "year": 1963,
+      "url": "https://doi.org/10.1090/s0002-9947-1963-0163345-0",
+      "whyItMatters": "Non-commuting random products."
+     },
+     {
+      "citation": "A Poisson formula for semi-simple Lie groups, Annals of Math. 77 (1963)",
+      "year": 1963,
+      "url": "https://doi.org/10.2307/1970220",
+      "whyItMatters": "Boundary and Poisson formula."
+     }
+    ],
+    "roleNote": "Founder of random matrix products and boundary theory"
+   },
+   {
+    "name": "Harry Kesten",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Harry_Kesten",
+    "works": [
+     {
+      "citation": "Products of random matrices (with H. Furstenberg), Ann. Math. Statist. 31 (1960)",
+      "year": 1960,
+      "url": "https://doi.org/10.1214/aoms/1177705909",
+      "whyItMatters": "Furstenberg-Kesten theorem."
+     }
+    ],
+    "roleNote": "Co-author of the random-products theorem"
+   },
+   {
+    "name": "Philippe Bougerol",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Philippe_Bougerol",
+    "works": [
+     {
+      "citation": "Products of Random Matrices with Applications to Schrodinger Operators (with J. Lacroix), Birkhauser (1985)",
+      "year": 1985,
+      "url": "https://doi.org/10.1007/978-1-4684-9172-2",
+      "whyItMatters": "Systematic treatment."
+     }
+    ],
+    "roleNote": "Monograph co-author"
+   },
+   {
+    "name": "Jean Lacroix",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Jean_Lacroix",
+    "works": [
+     {
+      "citation": "Products of Random Matrices with Applications to Schrodinger Operators (with P. Bougerol), Birkhauser (1985)",
+      "year": 1985,
+      "url": "https://doi.org/10.1007/978-1-4684-9172-2",
+      "whyItMatters": "Systematic treatment."
+     }
+    ],
+    "roleNote": "Monograph co-author"
+   }
+  ],
+  "notes": "Input summary is broadly right. Oseledets's multiplicative ergodic theorem (1968) is the usual key development but was not verified here and is left out. No verified first_application milestone (the summary does not state one), so methodological is null. The 1963 Poisson paper's page range is from memory; the record was checked.",
+  "derivedDates": {
+   "conceptual": 1960,
+   "methodological": null,
+   "institutional": 1985
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P264",
+  "eventId": "WB75",
+  "canonicalName": "Algebraic combinatorics: Young tableaux and symmetric functions",
+  "aliases": [
+   "Young tableaux",
+   "Young diagrams",
+   "Robinson-Schensted correspondence",
+   "plactic monoid",
+   "tableau algebra",
+   "algebraic combinatorics"
+  ],
+  "phases": [
+   "Young tableaux (1900)",
+   "Combinatorial algorithms (1961-1970)",
+   "Plactic monoid and monographs (1981-1997)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1900,
+    "endYear": null,
+    "precision": "year",
+    "label": "Young: 'On quantitative substitutional analysis'",
+    "work": "Alfred Young, On quantitative substitutional analysis, Proc. London Math. Soc. (1) 33 (1900) 97-145",
+    "people": [
+     "Alfred Young"
+    ],
+    "description": "Introduces the tableaux (now Young tableaux) to study the symmetric group.",
+    "evidence": [
+     {
+      "claim": "Young 1900 Proc. LMS record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1112/plms/s1-33.1.97",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Tableaux introduced by Young in 1900",
+      "source": "Wikipedia, Young tableau",
+      "url": "https://en.wikipedia.org/wiki/Young_tableau",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Young's work on substitutional analysis",
+      "source": "MacTutor, Young biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Young_Alfred/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1961,
+    "endYear": null,
+    "precision": "year",
+    "label": "Schensted: longest increasing subsequences via tableau insertion",
+    "work": "Craige Schensted, Longest increasing and decreasing subsequences, Canad. J. Math. 13 (1961) 179-191",
+    "people": [
+     "Craige Schensted"
+    ],
+    "description": "Applies a tableau-insertion operation to find longest increasing subsequences of permutations, the first combinatorial algorithm on tableaux in this line.",
+    "evidence": [
+     {
+      "claim": "Schensted 1961 Canad. J. Math. record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.4153/CJM-1961-015-3",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Operation from Schensted's 1961 study of longest increasing subsequences",
+      "source": "Wikipedia, Plactic monoid",
+      "url": "https://en.wikipedia.org/wiki/Plactic_monoid",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1970,
+    "endYear": null,
+    "precision": "year",
+    "label": "Knuth: generalized Young tableaux and the tableau algebra",
+    "work": "Donald E. Knuth, Permutations, matrices, and generalized Young tableaux, Pacific J. Math. 34 (1970) 709-727",
+    "people": [
+     "Donald Knuth"
+    ],
+    "description": "Generalises Schensted's insertion to two-line arrays (the RSK correspondence) and discovers the plactic monoid as a tableau algebra.",
+    "evidence": [
+     {
+      "claim": "Knuth 1970 Pacific J. Math. record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2140/pjm.1970.34.709",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Plactic monoid discovered by Knuth in 1970",
+      "source": "Wikipedia, Plactic monoid",
+      "url": "https://en.wikipedia.org/wiki/Plactic_monoid",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 1981,
+    "endYear": null,
+    "precision": "year",
+    "label": "Lascoux and Schutzenberger name the plactic monoid",
+    "work": "Alain Lascoux and Marcel-Paul Schutzenberger, Le monoide plaxique, in Noncommutative Structures in Algebra and Geometric Combinatorics, CNR Rome (1981)",
+    "people": [
+     "Alain Lascoux",
+     "Marcel-Paul Schutzenberger"
+    ],
+    "description": "Lascoux and Schutzenberger coin the name 'monoide plaxique' and study the associative product on tableaux.",
+    "evidence": [
+     {
+      "claim": "Plactic monoid named 'monoide plaxique' by Lascoux-Schutzenberger 1981",
+      "source": "Wikipedia, Plactic monoid",
+      "url": "https://en.wikipedia.org/wiki/Plactic_monoid",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "This names a sub-object (the plactic monoid), not the field; no field-level naming milestone was found. The 1981 record is not in Crossref."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1997,
+    "endYear": null,
+    "precision": "year",
+    "label": "Fulton, Young Tableaux",
+    "work": "William Fulton, Young Tableaux, with Applications to Representation Theory and Geometry, Cambridge University Press (1997)",
+    "people": [
+     "William Fulton"
+    ],
+    "description": "A systematic monograph on tableaux and their applications to representations.",
+    "evidence": [
+     {
+      "claim": "Fulton 1997 book cited in Wikipedia (ISBN given)",
+      "source": "Wikipedia, Young tableau",
+      "url": "https://en.wikipedia.org/wiki/Young_tableau",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Not verified in a bibliographic index; year from Wikipedia."
+   }
+  ],
+  "people": [
+   {
+    "name": "Alfred Young",
+    "role": "originator",
+    "lifespan": "1873-1940",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Young_Alfred/",
+    "works": [
+     {
+      "citation": "On quantitative substitutional analysis, Proc. London Math. Soc. 33 (1900)",
+      "year": 1900,
+      "url": "https://doi.org/10.1112/plms/s1-33.1.97",
+      "whyItMatters": "Introduces Young tableaux."
+     }
+    ],
+    "roleNote": "Introduces tableaux"
+   },
+   {
+    "name": "Craige Schensted",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Craige_Schensted",
+    "works": [
+     {
+      "citation": "Longest increasing and decreasing subsequences, Canad. J. Math. 13 (1961)",
+      "year": 1961,
+      "url": "https://doi.org/10.4153/CJM-1961-015-3",
+      "whyItMatters": "Tableau insertion for permutations."
+     }
+    ],
+    "roleNote": "Longest increasing subsequence"
+   },
+   {
+    "name": "Donald Knuth",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Donald_Knuth",
+    "works": [
+     {
+      "citation": "Permutations, matrices, and generalized Young tableaux, Pacific J. Math. 34 (1970)",
+      "year": 1970,
+      "url": "https://doi.org/10.2140/pjm.1970.34.709",
+      "whyItMatters": "RSK generalisation."
+     }
+    ],
+    "roleNote": "RSK generalisation and plactic monoid"
+   },
+   {
+    "name": "Alain Lascoux",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Alain_Lascoux",
+    "works": [
+     {
+      "citation": "Le monoide plaxique (with M.-P. Schutzenberger), CNR Rome (1981)",
+      "year": 1981,
+      "url": "https://en.wikipedia.org/wiki/Plactic_monoid",
+      "whyItMatters": "Names the plactic monoid."
+     }
+    ],
+    "roleNote": "Plactic monoid"
+   },
+   {
+    "name": "Marcel-Paul Schutzenberger",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Marcel-Paul_Sch%C3%BCtzenberger",
+    "works": [
+     {
+      "citation": "Le monoide plaxique (with A. Lascoux), CNR Rome (1981)",
+      "year": 1981,
+      "url": "https://en.wikipedia.org/wiki/Plactic_monoid",
+      "whyItMatters": "Plactic monoid and jeu de taquin."
+     }
+    ],
+    "roleNote": "Plactic monoid and jeu de taquin"
+   },
+   {
+    "name": "Richard Stanley",
+    "role": "developer",
+    "lifespan": "1944-",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Stanley/",
+    "works": [
+     {
+      "citation": "Enumerative Combinatorics, Vol. I (1986)",
+      "year": 1986,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Stanley/",
+      "whyItMatters": "Standard textbook of enumerative combinatorics; year from MacTutor, not from a bibliographic index."
+     }
+    ],
+    "roleNote": "Enumerative and algebraic combinatorics"
+   }
+  ],
+  "notes": "Input summary is right that the tableaux-representation link runs through Schensted and Stanley. The name 'algebraic combinatorics' as a field label was not dated: no first-use milestone found, so the institutional date comes only from the plactic-monoid naming (a sub-term), which should be read with care. Frobenius (1900-1903) and Robinson (1938) are not included. Stanley's Enumerative Combinatorics (1986) is named in MacTutor but not added as a milestone.",
+  "derivedDates": {
+   "conceptual": 1900,
+   "methodological": 1961,
+   "institutional": 1981
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P092",
+  "eventId": "B26",
+  "canonicalName": "Rigid analytic spaces (Tate; analytic geometry over non-archimedean fields)",
+  "aliases": [
+   "rigid analytic geometry",
+   "rigid analytic varieties",
+   "rigid geometry",
+   "p-adic uniformisation of elliptic curves",
+   "Tate's rigid spaces"
+  ],
+  "phases": [
+   "Tate's uniformisation notes (1962)",
+   "Publication and foundations (1971-1984)",
+   "Formal models and Berkovich spaces (1974-1990)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1962,
+    "endYear": null,
+    "precision": "year",
+    "label": "Tate's unpublished notes on rigid spaces",
+    "work": null,
+    "people": [
+     "John Tate"
+    ],
+    "description": "Tate introduces rigid spaces in 1962 as part of his work on uniformising p-adic elliptic curves with bad reduction; the notes are unpublished.",
+    "evidence": [
+     {
+      "claim": "Rigid spaces introduced by Tate in 1962",
+      "source": "Wikipedia, Rigid analytic space",
+      "url": "https://en.wikipedia.org/wiki/Rigid_analytic_space",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Unpublished notes; precursor only, does not set a derived date."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1971,
+    "endYear": null,
+    "precision": "year",
+    "label": "Tate: 'Rigid analytic spaces'",
+    "work": "John Tate, Rigid analytic spaces, Invent. Math. 12 (1971) 257-289",
+    "people": [
+     "John Tate"
+    ],
+    "description": "Tate's first published definition of rigid analytic spaces via affinoid covers.",
+    "evidence": [
+     {
+      "claim": "Tate 1971 Inventiones record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/BF01403307",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Original notes dated 1962, published 1971",
+      "source": "Wikipedia, Rigid analytic space",
+      "url": "https://en.wikipedia.org/wiki/Rigid_analytic_space",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 1971,
+    "endYear": null,
+    "precision": "year",
+    "label": "Name 'rigid analytic space' in a title",
+    "work": "John Tate, Rigid analytic spaces, Invent. Math. 12 (1971)",
+    "people": [
+     "John Tate"
+    ],
+    "description": "The term 'rigid analytic space' appears in the title of the 1971 paper.",
+    "evidence": [
+     {
+      "claim": "1971 title 'Rigid analytic spaces'",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/BF01403307",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper as the first_statement milestone; it plays both roles."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1974,
+    "endYear": null,
+    "precision": "year",
+    "label": "Raynaud: rigid spaces as generic fibres of formal schemes",
+    "work": "Michel Raynaud, Geometrie analytique rigide d'apres Tate, Kiehl, ..., Bull. Soc. Math. France Mem. 39/40 (1974) 319-327",
+    "people": [
+     "Michel Raynaud"
+    ],
+    "description": "Raynaud (around 1970) interprets rigid spaces as generic fibres of formal schemes over a valuation ring, the key bridge to algebraic geometry.",
+    "evidence": [
+     {
+      "claim": "Raynaud 1974 Bull. SMF exposé cited in Wikipedia",
+      "source": "Wikipedia, Rigid analytic space",
+      "url": "https://en.wikipedia.org/wiki/Rigid_analytic_space",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Year 1974 is the publication of the exposé; the formal-model result is dated 'around 1970' in Wikipedia."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1984,
+    "endYear": null,
+    "precision": "year",
+    "label": "Bosch, Guntzer, Remmert: Non-Archimedean Analysis",
+    "work": "Siegfried Bosch, Ulrich Guntzer, Reinhold Remmert, Non-Archimedean Analysis, Grundlehren 261, Springer (1984)",
+    "people": [
+     "Siegfried Bosch",
+     "Ulrich Guntzer",
+     "Reinhold Remmert"
+    ],
+    "description": "The standard systematic monograph on rigid and non-archimedean analysis.",
+    "evidence": [
+     {
+      "claim": "Bosch-Guntzer-Remmert 1984 record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-3-642-52229-1",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1990,
+    "endYear": null,
+    "precision": "year",
+    "label": "Berkovich: spectral theory over non-archimedean fields",
+    "work": "Vladimir Berkovich, Spectral Theory and Analytic Geometry over Non-Archimedean Fields, AMS Math. Surveys 33 (1990)",
+    "people": [
+     "Vladimir Berkovich"
+    ],
+    "description": "Reformulates rigid analytic geometry via spectra of Banach algebras, giving compact, connected non-archimedean spaces.",
+    "evidence": [
+     {
+      "claim": "AMS Surveys 33 record (2012 reprint in Crossref)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/surv/033",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Berkovich reformulated the theory in the late 1980s",
+      "source": "Wikipedia, Rigid analytic space",
+      "url": "https://en.wikipedia.org/wiki/Rigid_analytic_space",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Original year 1990 is from the standard citation; Crossref shows the 2012 reprint."
+   }
+  ],
+  "people": [
+   {
+    "name": "John Tate",
+    "role": "originator",
+    "lifespan": "1925-2019",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Tate/",
+    "works": [
+     {
+      "citation": "Rigid analytic spaces, Invent. Math. 12 (1971)",
+      "year": 1971,
+      "url": "https://doi.org/10.1007/BF01403307",
+      "whyItMatters": "First published definition."
+     }
+    ],
+    "roleNote": "Founder of rigid analytic geometry"
+   },
+   {
+    "name": "Siegfried Bosch",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Siegfried_Bosch",
+    "works": [
+     {
+      "citation": "Non-Archimedean Analysis (with U. Guntzer and R. Remmert), Springer (1984)",
+      "year": 1984,
+      "url": "https://doi.org/10.1007/978-3-642-52229-1",
+      "whyItMatters": "Systematic treatment."
+     }
+    ],
+    "roleNote": "Monograph co-author"
+   },
+   {
+    "name": "Ulrich Guntzer",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Ulrich_Guntzer",
+    "works": [
+     {
+      "citation": "Non-Archimedean Analysis (with S. Bosch and R. Remmert), Springer (1984)",
+      "year": 1984,
+      "url": "https://doi.org/10.1007/978-3-642-52229-1",
+      "whyItMatters": "Systematic treatment."
+     }
+    ],
+    "roleNote": "Monograph co-author"
+   },
+   {
+    "name": "Michel Raynaud",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Michel_Raynaud",
+    "works": [
+     {
+      "citation": "Geometrie analytique rigide d'apres Tate, Kiehl, ..., Bull. SMF Mem. 39/40 (1974)",
+      "year": 1974,
+      "url": "https://en.wikipedia.org/wiki/Rigid_analytic_space",
+      "whyItMatters": "Formal models interpretation."
+     }
+    ],
+    "roleNote": "Formal models of rigid spaces"
+   },
+   {
+    "name": "Vladimir Berkovich",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Vladimir_Berkovich",
+    "works": [
+     {
+      "citation": "Spectral Theory and Analytic Geometry over Non-Archimedean Fields, AMS (1990)",
+      "year": 1990,
+      "url": "https://doi.org/10.1090/surv/033",
+      "whyItMatters": "Berkovich spaces."
+     }
+    ],
+    "roleNote": "Spectral reformulation"
+   }
+  ],
+  "notes": "Tate's 1962 date is from the Wikipedia citation (orig-year 1962) and treated as an unpublished precursor. No first_application milestone was verified (the uniformisation of Tate curves is not dated here), so methodological is null. The Huber adic-space work is not included. Raynaud's 1974 exposé and the Berkovich 1990 date are cited via Wikipedia and Crossref reprint; both marked medium.",
+  "derivedDates": {
+   "conceptual": 1971,
+   "methodological": null,
+   "institutional": 1971
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ }
+]

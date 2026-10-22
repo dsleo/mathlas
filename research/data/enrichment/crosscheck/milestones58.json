@@ -1,0 +1,474 @@
+[
+  {
+    "pid": "P095",
+    "eventId": "B29",
+    "canonicalName": "Forcing: independence results enter algebra and analysis",
+    "aliases": [
+      "Forcing and independence"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1963,
+        "precision": "year",
+        "label": "Independence of the continuum hypothesis",
+        "work": "P. J. Cohen, The independence of the continuum hypothesis, Proc. Natl. Acad. Sci. USA 50 (1963) 1143-1148",
+        "people": [
+          "Paul Cohen"
+        ],
+        "description": "Cohen announces the forcing method and the independence of CH.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author, journal and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1073/pnas.50.6.1143",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "key_development",
+        "year": 1974,
+        "precision": "year",
+        "label": "Whitehead problem independent of ZFC",
+        "work": "S. Shelah, Infinite abelian groups, Whitehead problem and some constructions, Israel J. Math. 18 (1974) 243-256",
+        "people": [
+          "Saharon Shelah"
+        ],
+        "description": "Shelah carries independence techniques into abelian group theory via the Whitehead problem.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author, journal and year; the independence claim itself comes from the catalogue summary, abstract not opened",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/bf02757281",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Searched Crossref/arXiv records for the candidate DOIs; titles, journals and years confirmed there. Abstracts and full texts not opened; role assignments rest on titles and the catalogue summary.",
+    "searchTerms": [
+      "Logic & foundations",
+      "Algebra",
+      "Analysis"
+    ]
+  },
+  {
+    "pid": "P096",
+    "eventId": "B30",
+    "canonicalName": "Superrigidity and arithmeticity of lattices",
+    "aliases": [
+      "Margulis superrigidity and arithmeticity"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "consolidation",
+        "year": 1991,
+        "precision": "year",
+        "label": "Margulis monograph on discrete subgroups",
+        "work": "G. A. Margulis, Discrete Subgroups of Semisimple Lie Groups, Springer (1991)",
+        "people": [
+          "Grigory Margulis"
+        ],
+        "description": "Systematic book treatment of superrigidity and arithmeticity.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author, journal and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/978-3-642-51445-6",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Searched Crossref/arXiv records for the candidate DOIs; titles, journals and years confirmed there. Abstracts and full texts not opened; role assignments rest on titles and the catalogue summary. Margulis ICM 1974 and the 1975 proceedings paper not verified; 1991 book is consolidation only, first_statement left open. No first_statement found.",
+    "searchTerms": [
+      "Analysis",
+      "Algebra",
+      "Number theory",
+      "Algebra"
+    ]
+  },
+  {
+    "pid": "P097",
+    "eventId": "B31",
+    "canonicalName": "Supersymmetry and Morse theory",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1982,
+        "precision": "year",
+        "label": "Supersymmetry and Morse theory",
+        "work": "E. Witten, Supersymmetry and Morse theory, J. Differential Geom. 17 (1982) 661-692",
+        "people": [
+          "Edward Witten"
+        ],
+        "description": "Witten gives a supersymmetric quantum-mechanical derivation of the Morse inequalities.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author, journal and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.4310/jdg/1214437492",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [],
+    "notes": "Searched Crossref/arXiv records for the candidate DOIs; titles, journals and years confirmed there. Abstracts and full texts not opened; role assignments rest on titles and the catalogue summary.",
+    "searchTerms": [
+      "Physics",
+      "Topology",
+      "Geometry"
+    ]
+  },
+  {
+    "pid": "P098",
+    "eventId": "B32",
+    "canonicalName": "Fourier integral operators and microlocal analysis",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1971,
+        "precision": "year",
+        "label": "Fourier integral operators I",
+        "work": "L. Hormander, Fourier integral operators I, Acta Math. 127 (1971) 79-183",
+        "people": [
+          "Lars Hormander"
+        ],
+        "description": "Hormander introduces Fourier integral operators.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author, journal and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/bf02392052",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "key_development",
+        "year": 1972,
+        "precision": "year",
+        "label": "Fourier integral operators II",
+        "work": "J. J. Duistermaat and L. Hormander, Fourier integral operators II, Acta Math. 128 (1972) 183-269",
+        "people": [
+          "Hans Duistermaat",
+          "Lars Hormander"
+        ],
+        "description": "The sequel develops the calculus of these operators.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author, journal and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/bf02392165",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [],
+    "notes": "Searched Crossref/arXiv records for the candidate DOIs; titles, journals and years confirmed there. Abstracts and full texts not opened; role assignments rest on titles and the catalogue summary.",
+    "searchTerms": [
+      "Analysis",
+      "Geometry",
+      "Analysis"
+    ]
+  },
+  {
+    "pid": "P100",
+    "eventId": "B34",
+    "canonicalName": "Deriving the Boltzmann equation from hard-sphere dynamics",
+    "aliases": [
+      "Boltzmann from hard spheres"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "key_development",
+        "year": 2024,
+        "precision": "year",
+        "label": "Long-time derivation from hard spheres",
+        "work": "Y. Deng, Z. Hani, X. Ma, Long time derivation of the Boltzmann equation from hard sphere dynamics, arXiv:2408.07818 (2024)",
+        "people": [
+          "Yu Deng",
+          "Zaher Hani",
+          "Xiao Ma"
+        ],
+        "description": "Preprint derives the Boltzmann equation from hard-sphere dynamics over long times.",
+        "evidence": [
+          {
+            "claim": "arXiv API record confirms title, authors and 14 Aug 2024 posting",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.48550/arXiv.2408.07818",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Searched Crossref/arXiv records for the candidate DOIs; titles, journals and years confirmed there. Abstracts and full texts not opened; role assignments rest on titles and the catalogue summary. No first_statement: the long-time result is a 2024 preprint; earlier Lanford (1975) short-time derivation not verified.",
+    "searchTerms": [
+      "Physics",
+      "Analysis"
+    ]
+  },
+  {
+    "pid": "P102",
+    "eventId": "B36",
+    "canonicalName": "Real-variable methods in complex analysis (Hardy spaces)",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1972,
+        "precision": "year",
+        "label": "H^p spaces of several variables",
+        "work": "C. Fefferman and E. M. Stein, H^p spaces of several variables, Acta Math. 129 (1972) 137-193",
+        "people": [
+          "Charles Fefferman",
+          "Elias Stein"
+        ],
+        "description": "Real-variable theory of Hardy spaces and H^1-BMO duality.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author, journal and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/bf02392215",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Searched Crossref/arXiv records for the candidate DOIs; titles, journals and years confirmed there. Abstracts and full texts not opened; role assignments rest on titles and the catalogue summary.",
+    "searchTerms": [
+      "Analysis",
+      "Analysis"
+    ]
+  },
+  {
+    "pid": "P103",
+    "eventId": "B37",
+    "canonicalName": "Harmonic integrals and the vanishing theorem (Kodaira)",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1953,
+        "precision": "year",
+        "label": "Kodaira, differential-geometric method",
+        "work": "K. Kodaira, On a differential-geometric method in the theory of analytic stacks, PNAS 39 (1953) 1268-1273",
+        "people": [
+          "Kunihiko Kodaira"
+        ],
+        "description": "Harmonic-integral methods applied to analytic stacks (sheaves).",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author, journal and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1073/pnas.39.12.1268",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 1954,
+        "precision": "year",
+        "label": "Kahler varieties of restricted type",
+        "work": "K. Kodaira, On Kahler varieties of restricted type, Ann. of Math. 60 (1954) 28-48",
+        "people": [
+          "Kunihiko Kodaira"
+        ],
+        "description": "Characterises projective varieties among compact Kahler manifolds.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author, journal and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.2307/1969701",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Searched Crossref/arXiv records for the candidate DOIs; titles, journals and years confirmed there. Abstracts and full texts not opened; role assignments rest on titles and the catalogue summary.",
+    "searchTerms": [
+      "Analysis",
+      "Geometry",
+      "Geometry"
+    ]
+  },
+  {
+    "pid": "P105",
+    "eventId": "B39",
+    "canonicalName": "Morse theory and handle decompositions prove high-dimensional Poincare",
+    "aliases": [
+      "High-dimensional Poincare and handle theory"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1961,
+        "precision": "year",
+        "label": "Generalized Poincare conjecture, dimension > 4",
+        "work": "S. Smale, Generalized Poincare's conjecture in dimensions greater than four, Ann. of Math. 74 (1961) 391-406",
+        "people": [
+          "Stephen Smale"
+        ],
+        "description": "Smale proves the generalized Poincare conjecture in high dimensions.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author, journal and year",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.2307/1970239",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Searched Crossref/arXiv records for the candidate DOIs; titles, journals and years confirmed there. Abstracts and full texts not opened; role assignments rest on titles and the catalogue summary. Smale 1962 not verified.",
+    "searchTerms": [
+      "Analysis",
+      "Topology",
+      "Topology"
+    ]
+  },
+  {
+    "pid": "P143",
+    "eventId": "WA39/MA49",
+    "canonicalName": "Napier's logarithms",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1614,
+        "precision": "year",
+        "label": "Napier's Descriptio",
+        "work": "J. Napier, Mirifici logarithmorum canonis descriptio (1614)",
+        "people": [
+          "John Napier"
+        ],
+        "description": "Napier publishes the first logarithm tables and their use.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, author, journal and year (library digitisation record)",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.5479/sil.79926.39088002089738",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [],
+    "notes": "Searched Crossref/arXiv records for the candidate DOIs; titles, journals and years confirmed there. Abstracts and full texts not opened; role assignments rest on titles and the catalogue summary. Briggs 1617 not verified.",
+    "searchTerms": [
+      "arithmetic progressions",
+      "geometry",
+      "trigonometry",
+      "logarithms"
+    ]
+  },
+  {
+    "pid": "P145",
+    "eventId": "WA50/MA69",
+    "canonicalName": "Leibniz combinatorial logic",
+    "aliases": [],
+    "phases": [],
+    "milestones": [],
+    "people": [],
+    "notes": "No milestones: no verifiable dated source found. Candidate was a 2018 secondary chapter on the calculus ratiocinator (DOI unopened); Leibniz material is mostly unpublished.",
+    "searchedSources": [
+      "Crossref (candidate DOI record)"
+    ],
+    "searchTerms": [
+      "logic",
+      "combinatorics",
+      "symbolic logic"
+    ]
+  },
+  {
+    "pid": "P161",
+    "eventId": "MA99",
+    "canonicalName": "Abel: elliptic functions as inverses of elliptic integrals",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1827,
+        "precision": "year",
+        "label": "Abel, Recherches sur les fonctions elliptiques",
+        "work": "N. H. Abel, Recherches sur les fonctions elliptiques, J. reine angew. Math. 2 (1827) 101-181",
+        "people": [
+          "Niels Henrik Abel"
+        ],
+        "description": "Abel treats elliptic functions as inverses of elliptic integrals.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, journal, pages and year 1827 (author field absent in record)",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1515/crll.1827.2.101",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Searched Crossref/arXiv records for the candidate DOIs; titles, journals and years confirmed there. Abstracts and full texts not opened; role assignments rest on titles and the catalogue summary.",
+    "searchTerms": [
+      "elliptic integrals",
+      "complex analysis",
+      "elliptic function theory"
+    ]
+  },
+  {
+    "pid": "P195",
+    "eventId": "WA4",
+    "canonicalName": "Eudoxus: theory of proportion and exhaustion",
+    "aliases": [
+      "Eudoxus theory of proportion",
+      "Eudoxus method of exhaustion"
+    ],
+    "phases": [],
+    "milestones": [],
+    "people": [],
+    "notes": "No milestones: no verifiable dated source found. Candidate was a 1902 Nature review of Euclid XI, unrelated to Eudoxus; Eudoxus survives only via Euclid V/XII and Archimedes, needing primary-text checks.",
+    "searchedSources": [
+      "Crossref (candidate DOI record)"
+    ],
+    "searchTerms": [
+      "geometry",
+      "arithmetic",
+      "theory of ratios",
+      "limit methods"
+    ]
+  }
+]

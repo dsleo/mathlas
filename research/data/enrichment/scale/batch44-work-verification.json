@@ -1,0 +1,802 @@
+{
+  "files": [
+    "data/collection/enrichment/scale/milestones44.json"
+  ],
+  "works": 43,
+  "resultCounts": {
+    "verified": 43
+  },
+  "resultCountsByType": {
+    "person_work": {
+      "verified": 26
+    },
+    "milestone_work": {
+      "verified": 17
+    }
+  },
+  "fileErrors": [],
+  "citations": [
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "E46",
+      "itemType": "person_work",
+      "person": "Ehud Hrushovski",
+      "citation": "The Mordell-Lang conjecture for function fields",
+      "claimedYear": 1996,
+      "citedUrl": "https://doi.org/10.1090/S0894-0347-96-00202-0",
+      "result": "verified",
+      "recordTitle": "The Mordell-Lang conjecture for function fields",
+      "recordYears": [
+        1996
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1090/s0894-0347-96-00202-0",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "E46",
+      "itemType": "person_work",
+      "person": "Ehud Hrushovski",
+      "citation": "The Manin–Mumford conjecture and the model theory of difference fields",
+      "claimedYear": 2001,
+      "citedUrl": "https://doi.org/10.1016/S0168-0072(01)00096-3",
+      "result": "verified",
+      "recordTitle": "The Manin–Mumford conjecture and the model theory of difference fields",
+      "recordYears": [
+        2001
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1016/s0168-0072(01)00096-3",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "E46",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "key_development",
+      "citation": "The Mordell-Lang conjecture for function fields (1996)",
+      "claimedYear": 1996,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.1090/S0894-0347-96-00202-0",
+      "result": "verified",
+      "recordTitle": "The Mordell-Lang conjecture for function fields",
+      "recordYears": [
+        1996
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1090/s0894-0347-96-00202-0",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "E46",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "key_development",
+      "citation": "The Manin–Mumford conjecture and the model theory of difference fields (2001)",
+      "claimedYear": 2001,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.1016/S0168-0072(01)00096-3",
+      "result": "verified",
+      "recordTitle": "The Manin–Mumford conjecture and the model theory of difference fields",
+      "recordYears": [
+        2001
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1016/s0168-0072(01)00096-3",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "B09",
+      "itemType": "person_work",
+      "person": "Maxim Kontsevich",
+      "citation": "Deformation Quantization of Poisson Manifolds",
+      "claimedYear": 1997,
+      "citedUrl": "https://arxiv.org/abs/q-alg/9709040",
+      "result": "verified",
+      "recordTitle": "Deformation quantization of Poisson manifolds, I",
+      "recordYears": [
+        1997
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=q-alg%2F9709040",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "B09",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "Deformation Quantization of Poisson Manifolds (1997)",
+      "claimedYear": 1997,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/q-alg/9709040",
+      "result": "verified",
+      "recordTitle": "Deformation quantization of Poisson manifolds, I",
+      "recordYears": [
+        1997
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=q-alg%2F9709040",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "B11",
+      "itemType": "person_work",
+      "person": "Fabien Morel",
+      "citation": "A¹-homotopy theory of schemes",
+      "claimedYear": 1999,
+      "citedUrl": "https://numdam.org/item/PMIHES_1999__90__45_0/",
+      "result": "verified",
+      "recordTitle": "$A^1$-homotopy theory of schemes",
+      "recordYears": [
+        1999
+      ],
+      "recordUrl": "https://numdam.org/item/PMIHES_1999__90__45_0/",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "B11",
+      "itemType": "person_work",
+      "person": "Vladimir Voevodsky",
+      "citation": "A¹-homotopy theory of schemes",
+      "claimedYear": 1999,
+      "citedUrl": "https://numdam.org/item/PMIHES_1999__90__45_0/",
+      "result": "verified",
+      "recordTitle": "$A^1$-homotopy theory of schemes",
+      "recordYears": [
+        1999
+      ],
+      "recordUrl": "https://numdam.org/item/PMIHES_1999__90__45_0/",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "B11",
+      "itemType": "person_work",
+      "person": "Vladimir Voevodsky",
+      "citation": "Motivic cohomology with Z/2-coefficients",
+      "claimedYear": 2003,
+      "citedUrl": "https://numdam.org/item/PMIHES_2003__98__59_0/",
+      "result": "verified",
+      "recordTitle": "Motivic cohomology with $\\mathbf {Z}/2$-coefficients",
+      "recordYears": [
+        2003
+      ],
+      "recordUrl": "https://numdam.org/item/PMIHES_2003__98__59_0/",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "B11",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "key_development",
+      "citation": "A¹-homotopy theory of schemes (1999)",
+      "claimedYear": 1999,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://numdam.org/item/PMIHES_1999__90__45_0/",
+      "result": "verified",
+      "recordTitle": "$A^1$-homotopy theory of schemes",
+      "recordYears": [
+        1999
+      ],
+      "recordUrl": "https://numdam.org/item/PMIHES_1999__90__45_0/",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "B11",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "key_development",
+      "citation": "Motivic cohomology with Z/2-coefficients (2003)",
+      "claimedYear": 2003,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://numdam.org/item/PMIHES_2003__98__59_0/",
+      "result": "verified",
+      "recordTitle": "Motivic cohomology with $\\mathbf {Z}/2$-coefficients",
+      "recordYears": [
+        2003
+      ],
+      "recordUrl": "https://numdam.org/item/PMIHES_2003__98__59_0/",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "WC79",
+      "itemType": "person_work",
+      "person": "Alexei Kitaev",
+      "citation": "Fault-tolerant quantum computation by anyons",
+      "claimedYear": 1997,
+      "citedUrl": "https://arxiv.org/abs/quant-ph/9707021",
+      "result": "verified",
+      "recordTitle": "Fault-tolerant quantum computation by anyons",
+      "recordYears": [
+        1997
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=quant-ph%2F9707021",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "WC79",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "Fault-tolerant quantum computation by anyons (1997)",
+      "claimedYear": 1997,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/quant-ph/9707021",
+      "result": "verified",
+      "recordTitle": "Fault-tolerant quantum computation by anyons",
+      "recordYears": [
+        1997
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=quant-ph%2F9707021",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "WC3",
+      "itemType": "person_work",
+      "person": "Andrew Strominger",
+      "citation": "Mirror Symmetry is T-Duality",
+      "claimedYear": 1996,
+      "citedUrl": "https://arxiv.org/abs/hep-th/9606040",
+      "result": "verified",
+      "recordTitle": "Mirror Symmetry is T-Duality",
+      "recordYears": [
+        1996
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=hep-th%2F9606040",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "WC3",
+      "itemType": "person_work",
+      "person": "Shing-Tung Yau",
+      "citation": "Mirror Symmetry is T-Duality",
+      "claimedYear": 1996,
+      "citedUrl": "https://arxiv.org/abs/hep-th/9606040",
+      "result": "verified",
+      "recordTitle": "Mirror Symmetry is T-Duality",
+      "recordYears": [
+        1996
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=hep-th%2F9606040",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "WC3",
+      "itemType": "person_work",
+      "person": "Eric Zaslow",
+      "citation": "Mirror Symmetry is T-Duality",
+      "claimedYear": 1996,
+      "citedUrl": "https://arxiv.org/abs/hep-th/9606040",
+      "result": "verified",
+      "recordTitle": "Mirror Symmetry is T-Duality",
+      "recordYears": [
+        1996
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=hep-th%2F9606040",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "WC3",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "Mirror Symmetry is T-Duality (1996)",
+      "claimedYear": 1996,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/hep-th/9606040",
+      "result": "verified",
+      "recordTitle": "Mirror Symmetry is T-Duality",
+      "recordYears": [
+        1996
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=hep-th%2F9606040",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "WC87",
+      "itemType": "person_work",
+      "person": "Miklós Ajtai",
+      "citation": "Generating hard instances of lattice problems (extended abstract)",
+      "claimedYear": 1996,
+      "citedUrl": "https://doi.org/10.1145/237814.237838",
+      "result": "verified",
+      "recordTitle": "Generating hard instances of lattice problems (extended abstract)",
+      "recordYears": [
+        1996
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1145/237814.237838",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "WC87",
+      "itemType": "person_work",
+      "person": "Oded Regev",
+      "citation": "On lattices, learning with errors, random linear codes, and cryptography",
+      "claimedYear": 2005,
+      "citedUrl": "https://doi.org/10.1145/1060590.1060603",
+      "result": "verified",
+      "recordTitle": "On lattices, learning with errors, random linear codes, and cryptography",
+      "recordYears": [
+        2005
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1145/1060590.1060603",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "WC87",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "precursor",
+      "citation": "Generating hard instances of lattice problems (extended abstract) (1996)",
+      "claimedYear": 1996,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.1145/237814.237838",
+      "result": "verified",
+      "recordTitle": "Generating hard instances of lattice problems (extended abstract)",
+      "recordYears": [
+        1996
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1145/237814.237838",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "WC87",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "first_statement",
+      "citation": "On lattices, learning with errors, random linear codes, and cryptography (2005)",
+      "claimedYear": 2005,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.1145/1060590.1060603",
+      "result": "verified",
+      "recordTitle": "On lattices, learning with errors, random linear codes, and cryptography",
+      "recordYears": [
+        2005
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1145/1060590.1060603",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "WC78",
+      "itemType": "person_work",
+      "person": "Peter Shor",
+      "citation": "Scheme for reducing decoherence in quantum computer memory",
+      "claimedYear": 1995,
+      "citedUrl": "https://doi.org/10.1103/PhysRevA.52.R2493",
+      "result": "verified",
+      "recordTitle": "Scheme for reducing decoherence in quantum computer memory",
+      "recordYears": [
+        1995
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1103/physreva.52.r2493",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "WC78",
+      "itemType": "person_work",
+      "person": "Peter Shor",
+      "citation": "Good quantum error-correcting codes exist",
+      "claimedYear": 1996,
+      "citedUrl": "https://doi.org/10.1103/PhysRevA.54.1098",
+      "result": "verified",
+      "recordTitle": "Good quantum error-correcting codes exist",
+      "recordYears": [
+        1996
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1103/physreva.54.1098",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "WC78",
+      "itemType": "person_work",
+      "person": "A. Robert Calderbank",
+      "citation": "Good quantum error-correcting codes exist",
+      "claimedYear": 1996,
+      "citedUrl": "https://doi.org/10.1103/PhysRevA.54.1098",
+      "result": "verified",
+      "recordTitle": "Good quantum error-correcting codes exist",
+      "recordYears": [
+        1996
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1103/physreva.54.1098",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "WC78",
+      "itemType": "person_work",
+      "person": "Dorit Aharonov",
+      "citation": "Fault-tolerant quantum computation with constant error",
+      "claimedYear": 1997,
+      "citedUrl": "https://doi.org/10.1145/258533.258579",
+      "result": "verified",
+      "recordTitle": "Fault-tolerant quantum computation with constant error",
+      "recordYears": [
+        1997
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1145/258533.258579",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "WC78",
+      "itemType": "person_work",
+      "person": "Michael Ben-Or",
+      "citation": "Fault-tolerant quantum computation with constant error",
+      "claimedYear": 1997,
+      "citedUrl": "https://doi.org/10.1145/258533.258579",
+      "result": "verified",
+      "recordTitle": "Fault-tolerant quantum computation with constant error",
+      "recordYears": [
+        1997
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1145/258533.258579",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "WC78",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "Scheme for reducing decoherence in quantum computer memory (1995)",
+      "claimedYear": 1995,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.1103/PhysRevA.52.R2493",
+      "result": "verified",
+      "recordTitle": "Scheme for reducing decoherence in quantum computer memory",
+      "recordYears": [
+        1995
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1103/physreva.52.r2493",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "WC78",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "key_development",
+      "citation": "Good quantum error-correcting codes exist (1996)",
+      "claimedYear": 1996,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.1103/PhysRevA.54.1098",
+      "result": "verified",
+      "recordTitle": "Good quantum error-correcting codes exist",
+      "recordYears": [
+        1996
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1103/physreva.54.1098",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "WC78",
+      "itemType": "milestone_work",
+      "milestoneIndex": 2,
+      "milestoneRole": "key_development",
+      "citation": "Fault-tolerant quantum computation with constant error (1997)",
+      "claimedYear": 1997,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.1145/258533.258579",
+      "result": "verified",
+      "recordTitle": "Fault-tolerant quantum computation with constant error",
+      "recordYears": [
+        1997
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1145/258533.258579",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "P74",
+      "itemType": "person_work",
+      "person": "Jan Denef",
+      "citation": "Germs of arcs on singular algebraic varieties and motivic integration",
+      "claimedYear": 1998,
+      "citedUrl": "https://arxiv.org/abs/math/9803039",
+      "result": "verified",
+      "recordTitle": "Germs of arcs on singular algebraic varieties and motivic integration",
+      "recordYears": [
+        1998
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F9803039",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "P74",
+      "itemType": "person_work",
+      "person": "François Loeser",
+      "citation": "Germs of arcs on singular algebraic varieties and motivic integration",
+      "claimedYear": 1998,
+      "citedUrl": "https://arxiv.org/abs/math/9803039",
+      "result": "verified",
+      "recordTitle": "Germs of arcs on singular algebraic varieties and motivic integration",
+      "recordYears": [
+        1998
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F9803039",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "P74",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "key_development",
+      "citation": "Germs of arcs on singular algebraic varieties and motivic integration (1998)",
+      "claimedYear": 1998,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/math/9803039",
+      "result": "verified",
+      "recordTitle": "Germs of arcs on singular algebraic varieties and motivic integration",
+      "recordYears": [
+        1998
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F9803039",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "Q44",
+      "itemType": "person_work",
+      "person": "Mohammed Abouzaid",
+      "citation": "Arnold Conjecture and Morava K-theory",
+      "claimedYear": 2021,
+      "citedUrl": "https://arxiv.org/abs/2103.01507",
+      "result": "verified",
+      "recordTitle": "Arnold Conjecture and Morava K-theory",
+      "recordYears": [
+        2021
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=2103.01507",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "Q44",
+      "itemType": "person_work",
+      "person": "Andrew Blumberg",
+      "citation": "Arnold Conjecture and Morava K-theory",
+      "claimedYear": 2021,
+      "citedUrl": "https://arxiv.org/abs/2103.01507",
+      "result": "verified",
+      "recordTitle": "Arnold Conjecture and Morava K-theory",
+      "recordYears": [
+        2021
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=2103.01507",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "Q44",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "key_development",
+      "citation": "Arnold Conjecture and Morava K-theory (2021)",
+      "claimedYear": 2021,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/2103.01507",
+      "result": "verified",
+      "recordTitle": "Arnold Conjecture and Morava K-theory",
+      "recordYears": [
+        2021
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=2103.01507",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "Q56",
+      "itemType": "person_work",
+      "person": "David Broadhurst",
+      "citation": "Knots and Numbers in φ⁴ Theory to 7 Loops and Beyond",
+      "claimedYear": 1995,
+      "citedUrl": "https://arxiv.org/abs/hep-ph/9504352",
+      "result": "verified",
+      "recordTitle": "Knots and Numbers in $φ^4$ Theory to 7 Loops and Beyond",
+      "recordYears": [
+        1995
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=hep-ph%2F9504352",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "Q56",
+      "itemType": "person_work",
+      "person": "Dirk Kreimer",
+      "citation": "Knots and Numbers in φ⁴ Theory to 7 Loops and Beyond",
+      "claimedYear": 1995,
+      "citedUrl": "https://arxiv.org/abs/hep-ph/9504352",
+      "result": "verified",
+      "recordTitle": "Knots and Numbers in $φ^4$ Theory to 7 Loops and Beyond",
+      "recordYears": [
+        1995
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=hep-ph%2F9504352",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "Q56",
+      "itemType": "person_work",
+      "person": "Dirk Kreimer",
+      "citation": "On Motives Associated to Graph Polynomials",
+      "claimedYear": 2005,
+      "citedUrl": "https://arxiv.org/abs/math/0510011",
+      "result": "verified",
+      "recordTitle": "On Motives Associated to Graph Polynomials",
+      "recordYears": [
+        2005
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0510011",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "Q56",
+      "itemType": "person_work",
+      "person": "Spencer Bloch",
+      "citation": "On Motives Associated to Graph Polynomials",
+      "claimedYear": 2005,
+      "citedUrl": "https://arxiv.org/abs/math/0510011",
+      "result": "verified",
+      "recordTitle": "On Motives Associated to Graph Polynomials",
+      "recordYears": [
+        2005
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0510011",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "Q56",
+      "itemType": "person_work",
+      "person": "Francis Brown",
+      "citation": "On the periods of some Feynman integrals",
+      "claimedYear": 2009,
+      "citedUrl": "https://arxiv.org/abs/0910.0114",
+      "result": "verified",
+      "recordTitle": "On the periods of some Feynman integrals",
+      "recordYears": [
+        2009
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=0910.0114",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "Q56",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "precursor",
+      "citation": "Knots and Numbers in φ⁴ Theory to 7 Loops and Beyond (1995)",
+      "claimedYear": 1995,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/hep-ph/9504352",
+      "result": "verified",
+      "recordTitle": "Knots and Numbers in $φ^4$ Theory to 7 Loops and Beyond",
+      "recordYears": [
+        1995
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=hep-ph%2F9504352",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "Q56",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "key_development",
+      "citation": "On Motives Associated to Graph Polynomials (2005)",
+      "claimedYear": 2005,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/math/0510011",
+      "result": "verified",
+      "recordTitle": "On Motives Associated to Graph Polynomials",
+      "recordYears": [
+        2005
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0510011",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones44.json",
+      "eventId": "Q56",
+      "itemType": "milestone_work",
+      "milestoneIndex": 2,
+      "milestoneRole": "key_development",
+      "citation": "On the periods of some Feynman integrals (2009)",
+      "claimedYear": 2009,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/0910.0114",
+      "result": "verified",
+      "recordTitle": "On the periods of some Feynman integrals",
+      "recordYears": [
+        2009
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=0910.0114",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    }
+  ]
+}

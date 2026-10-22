@@ -1,0 +1,604 @@
+[
+  {
+    "pid": "P111",
+    "eventId": "MA17/WA19",
+    "milestones": [],
+    "searched": [
+      "zbMATH title 'place value' 0-1900: one hit (1829, numeral systems of different nations), not the field name",
+      "zbMATH coverage of pre-1868 titles is partial; no naming or textbook record for 'Indian zero' or 'Hindu-Arabic numerals' found in the searched window",
+      "No Open Library or archive.org check run for this event"
+    ]
+  },
+  {
+    "pid": "P178",
+    "eventId": "WA32",
+    "milestones": [],
+    "searched": [
+      "zbMATH title 'quadrature' 0-1650: zero hits (coverage of this period is partial)",
+      "No Open Library or Crossref check run for an Arabic-quadrature textbook"
+    ]
+  },
+  {
+    "pid": "P149",
+    "eventId": "MA25",
+    "milestones": [],
+    "searched": [
+      "zbMATH title 'numerical solution of equations' 1600-1850: zero hits (coverage of this period is partial)",
+      "No Open Library check run for Horner-method monographs"
+    ]
+  },
+  {
+    "pid": "P110",
+    "eventId": "WA33/MA40",
+    "milestones": [],
+    "searched": [
+      "zbMATH title 'latitude of forms' 1200-1600: zero hits (coverage of this period is partial)",
+      "No check run for a medieval textbook or chair naming graphical representation of motion"
+    ]
+  },
+  {
+    "pid": "P458",
+    "eventId": "H74",
+    "milestones": [],
+    "searched": [
+      "zbMATH title 'imaginary numbers' 1500-1800: zero hits (coverage of this period is partial)",
+      "No Open Library check run for 16th-century algebra texts using imaginary numbers"
+    ]
+  },
+  {
+    "pid": "P194",
+    "eventId": "MA50",
+    "milestones": [],
+    "searched": [
+      "zbMATH title 'infinitesimal' 1600-1700: zero hits (coverage of this period is partial)",
+      "Kepler 1615 title checked only as a first_statement already in the record; the field-name question was not resolved"
+    ]
+  },
+  {
+    "pid": "P443",
+    "eventId": "H38",
+    "milestones": [],
+    "searched": [
+      "zbMATH title 'lemniscate' 1690-1720: zero hits (coverage of this period is partial)",
+      "zbMATH title 'elliptic integrals' 1700-1800: zero hits (coverage of this period is partial)",
+      "No Open Library check run for early elliptic-integral monographs"
+    ]
+  },
+  {
+    "pid": "P163",
+    "eventId": "MA65",
+    "milestones": [],
+    "searched": [
+      "zbMATH title 'binomial theorem' 1650-1700: zero hits (coverage of this period is partial)",
+      "No Open Library check run for Newton-era binomial-series texts"
+    ]
+  },
+  {
+    "pid": "P147",
+    "eventId": "WA51",
+    "milestones": [],
+    "searched": [
+      "zbMATH title 'resultant' 1660-1720: zero hits (coverage of this period is partial)",
+      "No check run for Japanese wasan texts on elimination theory"
+    ]
+  },
+  {
+    "pid": "P157",
+    "eventId": "WA68",
+    "milestones": [],
+    "searched": [
+      "zbMATH title 'geodesic' 1725-1740: zero hits (coverage of this period is partial)",
+      "No Open Library check run for early geodesic-theory texts"
+    ]
+  },
+  {
+    "pid": "P445",
+    "eventId": "H40",
+    "milestones": [],
+    "searched": [
+      "zbMATH title 'vibrating string' 1740-1760: zero hits (coverage of this period is partial)",
+      "The field name here (function theory or function concept) was not reduced to a single title phrase; no naming milestone assigned"
+    ]
+  },
+  {
+    "pid": "P432",
+    "eventId": "H19",
+    "milestones": [],
+    "searched": [
+      "zbMATH title 'complex plane' 1790-1840 and 'Argand' 1790-1840: zero hits (coverage of this period is partial)",
+      "zbMATH title 'complex numbers' 1868-1900 with book filter: first hit 1873 'Theorie elementaire des quantites complexes' (zbMATH 2716756), not checked as the first systematic treatment, so no consolidation claim made",
+      "Pre-1868 monographs on the geometric representation were not found in the searched sources; no Open Library check run"
+    ]
+  },
+  {
+    "pid": "P128",
+    "eventId": "MA97/WA80",
+    "milestones": [],
+    "searched": [
+      "zbMATH title 'functions of a complex variable' 1820-1880: no exact-phrase title hit found in the returned results",
+      "zbMATH title 'complex analysis' 1868-1900: zero hits",
+      "zbMATH title 'theory of functions' with book filter 1868-1900: hits are general function-theory texts (for example 1882), not checked as the first systematic treatment of complex analysis"
+    ]
+  },
+  {
+    "pid": "P161",
+    "eventId": "MA99",
+    "milestones": [],
+    "searched": [
+      "zbMATH title 'elliptic functions' 1820-1830: Abel's 1827 memoir 'Recherches sur les fonctions elliptiques' (zbMATH 2751756) uses the phrase, but an earlier Legendre 'Traite des fonctions elliptiques' (1825-1828) is a lead that could not be dated from a record: the Open Library hit for that title is a 1970 reprint, so Abel was not assigned a naming role",
+      "zbMATH title 'elliptic functions' with book filter 1868-1900: hits are later texts (for example 1874), not earlier than the Legendre lead",
+      "Open Library title search 'traite des fonctions elliptiques': returned 1886 (Halphen), 1970 (Legendre reprint), 1867 (Broch)"
+    ]
+  },
+  {
+    "pid": "P433",
+    "eventId": "H20",
+    "milestones": [],
+    "searched": [
+      "zbMATH title 'ring theory' 1868-1950 and 1868-1935 (also book filter): zero hits",
+      "zbMATH title 'hypercomplex' 1840-1900: zero hits (coverage of this period is partial)",
+      "No Open Library check run for Wedderburn-era monographs"
+    ]
+  },
+  {
+    "pid": "P181",
+    "eventId": "WA87",
+    "milestones": [
+      {
+        "role": "naming",
+        "year": 1932,
+        "endYear": null,
+        "precision": "year",
+        "label": "'Note on network theory' (earliest zbMATH title with the phrase in the 1845-1950 window)",
+        "work": "J. G. Brainerd, 'Note on network theory', journal article, pages 1660-1664, zbMATH record 3006808, 1932",
+        "people": ["J. G. Brainerd"],
+        "description": "The earliest title found in the searched window that uses the phrase 'network theory' for the field that Kirchhoff's circuit laws started.",
+        "evidence": [
+          {
+            "claim": "zbMATH record gives title 'Note on network theory', author J. G. Brainerd, year 1932, journal article, pages 1660-1664",
+            "source": "zbMATH Open API, document 3006808",
+            "url": "https://api.zbmath.org/v1/document/3006808",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "low",
+        "note": "Only a title-phrase lead: zbMATH coverage of 1845-1931 is partial and the journal name was not extracted; a naming role needs a stronger check before use. Kirchhoff (1845, 1847) is the event itself and is not repeated here."
+      }
+    ],
+    "searched": [
+      "zbMATH title 'network theory' 1845-1950: 1932 Brainerd note is earliest hit",
+      "zbMATH title 'graph theory' 1845-1950: earliest hit 1947 (Tutte, 'A ring in graph theory'), which is not the field name's origin",
+      "zbMATH title 'electric networks' with book filter 1845-1960: 1950 'Matrix analysis of electrical networks' (zbMATH 3063851), not checked as first monograph, so no consolidation claim",
+      "zbMATH title 'network theory' with book filter 1845-1960: zero hits"
+    ]
+  },
+  {
+    "pid": "P448",
+    "eventId": "H44",
+    "milestones": [
+      {
+        "role": "naming",
+        "year": 1868,
+        "endYear": null,
+        "precision": "year",
+        "label": "Beltrami's 'Essai d'interpretation de la geometrie non-euclidienne'",
+        "work": "E. Beltrami, 'Essai d'interpretation de la geometrie non-euclidienne' (in French; Italian original in Giornale di Matematiche, 1868), zbMATH record 2720244",
+        "people": ["Eugenio Beltrami"],
+        "description": "Beltrami's 1868 paper on an interpretation of non-Euclidean geometry, with 'non-Euclidean geometry' in the title, is the earliest title found that uses the field's name.",
+        "evidence": [
+          {
+            "claim": "zbMATH record 2720244, year 1868, original title 'Essai d'interpretation de la geometrie non-euclidienne'; the English title field and source note are muddled, citing Giornale di Matematiche and Hoffmann Z. 130-132 (1868)",
+            "source": "zbMATH Open API, document 2720244",
+            "url": "https://api.zbmath.org/v1/document/2720244",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The zbMATH record is ambiguous about which version it describes (Italian original versus Hoüel's French translation); the year 1868 is consistent across the search hits. Klein's 1871 title 'Ueber die sogenannte Nicht-Euklidische Geometrie' is a later title and was not assigned a role."
+      }
+    ],
+    "searched": [
+      "zbMATH title 'non-Euclidean geometry' 1865-1880: 16 hits, earliest 1868 (Beltrami, French title)",
+      "zbMATH title 'non-Euclidean' with book filter 1850-1900: zero hits"
+    ]
+  },
+  {
+    "pid": "P016",
+    "eventId": "E23",
+    "milestones": [],
+    "searched": [
+      "zbMATH title 'function fields' 1880-1950: 15 hits, none with the exact phrase in the first returned results, not checked further",
+      "zbMATH title 'Funktionenkorper' 1868-1950: 1913 onward (for example 'Rationale Funktionenkorper'), a German term for the field name rather than the field name itself",
+      "zbMATH title 'function field' with book filter 1868-1950: zero hits"
+    ]
+  },
+  {
+    "pid": "P371",
+    "eventId": "W85/M23",
+    "milestones": [],
+    "searched": [
+      "zbMATH title 'exterior' 1895-1900: zero hits",
+      "zbMATH title 'differential forms' 1895-1905: earliest hits 1902-1904 on invariants of differential forms, not the exterior-calculus name",
+      "zbMATH title 'Pfaff' 1868-1905: hits on the Pfaff problem (1873, 1876) predating Cartan's 1899 paper, but not the field name"
+    ]
+  },
+  {
+    "pid": "P381",
+    "eventId": "M53/W27",
+    "milestones": [
+      {
+        "role": "naming",
+        "year": 1937,
+        "endYear": null,
+        "precision": "year",
+        "label": "Bernays, 'A system of axiomatic set theory. I'",
+        "work": "P. Bernays, 'A system of axiomatic set theory. I', Journal of Symbolic Logic, pages 65-77, zbMATH record 3031148, 1937",
+        "people": ["Paul Bernays"],
+        "description": "Bernays's 1937 paper is the earliest title in the searched window that uses the phrase 'axiomatic set theory' for the field.",
+        "evidence": [
+          {
+            "claim": "zbMATH record gives title 'A system of axiomatic set theory. I', author P. Bernays, year 1937, journal article, pages 65-77, in a journal with ISSN 0022-4812",
+            "source": "zbMATH Open API, document 3031148",
+            "url": "https://api.zbmath.org/v1/document/3031148",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Earliest zbMATH title hit for 'axiomatic set theory' in 1900-1950. Zermelo's own 1908 papers were not checked for title wording, and the 1914 Hausdorff monograph 'Grundzuge der Mengenlehre' was not assigned a consolidation role because the first systematic treatment was not verified."
+      }
+    ],
+    "searched": [
+      "zbMATH title 'axiomatic set theory' 1900-1950: 9 hits, earliest 1937 (Bernays)",
+      "zbMATH title 'set theory' 1900-1910: zero hits",
+      "zbMATH title 'set theory' with book filter 1900-1930: earliest 1914 (Hausdorff, 'Grundzuge der Mengenlehre'), not checked as first systematic treatment"
+    ]
+  },
+  {
+    "pid": "P437",
+    "eventId": "H31",
+    "milestones": [],
+    "searched": [
+      "zbMATH title 'normal numbers' 1900-1912: zero hits",
+      "zbMATH title 'normal numbers' 1912-1960: earliest 1939 ('On normal numbers'), after Borel's 1909 paper",
+      "Crossref record for Borel 1909 (DOI 10.1007/bf03019651) gives title 'Les probabilites denombrables et leurs applications arithmetiques' without the term, so the coinage claim needs a source that was not fetched; no milestone assigned"
+    ]
+  },
+  {
+    "pid": "P418",
+    "eventId": "M12",
+    "milestones": [],
+    "searched": [
+      "zbMATH title 'local-global' 1900-1930 and 1930-1960: zero hits",
+      "zbMATH title 'Hasse principle' 1923-1935: zero hits",
+      "zbMATH title 'quadratic forms' with book filter 1923-1935: zero hits"
+    ]
+  },
+  {
+    "pid": "P525",
+    "eventId": "Q5",
+    "milestones": [
+      {
+        "role": "naming",
+        "year": 1972,
+        "endYear": null,
+        "precision": "year",
+        "label": "Chvatal and Harary, 'Generalized Ramsey theory for graphs'",
+        "work": "V. Chvatal and F. Harary, 'Generalized Ramsey theory for graphs', Bulletin of the AMS (ISSN 0002-9904), pages 423-426, zbMATH record 3370375, 1972",
+        "people": ["Vasek Chvatal", "Frank Harary"],
+        "description": "A 1972 paper with 'Ramsey theory' in its title is the earliest title found in the searched window that uses the field's name.",
+        "evidence": [
+          {
+            "claim": "zbMATH record gives title 'Generalized Ramsey theory for graphs', authors Chvatal and Harary, year 1972, pages 423-426, ISSN 0002-9904",
+            "source": "zbMATH Open API, document 3370375",
+            "url": "https://api.zbmath.org/v1/document/3370375",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Earliest zbMATH title hit for 'Ramsey theory' in 1928-1990; Ramsey's own 1930 paper does not use the phrase in its title. Only zbMATH was searched for this check."
+      },
+      {
+        "role": "consolidation",
+        "year": 1980,
+        "endYear": null,
+        "precision": "year",
+        "label": "Graham, Rothschild and Spencer, 'Ramsey Theory' (book)",
+        "work": "R. L. Graham, B. L. Rothschild, J. H. Spencer, Ramsey Theory, Wiley-Interscience Series in Discrete Mathematics, 1980, zbMATH record 3711961",
+        "people": ["Ronald L. Graham", "Bruce L. Rothschild", "Joel H. Spencer"],
+        "description": "A 1980 book titled 'Ramsey theory' is the earliest book hit in the searched window with the field's name and gives a monograph-level treatment.",
+        "evidence": [
+          {
+            "claim": "zbMATH record gives title 'Ramsey theory', document type book, authors Graham, Rothschild and Spencer, year 1980, Wiley-Interscience series",
+            "source": "zbMATH Open API, document 3711961",
+            "url": "https://api.zbmath.org/v1/document/3711961",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "Earliest book with the field name in the zbMATH book search 1928-2026. An earlier monograph could exist outside zbMATH coverage; not checked."
+      }
+    ],
+    "searched": [
+      "zbMATH title 'Ramsey theory' 1928-1990: earliest 1972 (Chvatal and Harary)",
+      "zbMATH title 'Ramsey theory' with book filter 1928-2026: earliest 1980 (Graham, Rothschild and Spencer)"
+    ]
+  },
+  {
+    "pid": "P263",
+    "eventId": "MB25",
+    "milestones": [
+      {
+        "role": "naming",
+        "year": 1942,
+        "endYear": null,
+        "precision": "year",
+        "label": "Lefschetz, 'Algebraic topology' (AMS Colloquium Publications)",
+        "work": "S. Lefschetz, Algebraic Topology, American Mathematical Society Colloquium Publications vol. 27, 1942, zbMATH record 3102166",
+        "people": ["Solomon Lefschetz"],
+        "description": "A 1942 monograph titled 'Algebraic topology' is the earliest title found with the field's name in the searched window.",
+        "evidence": [
+          {
+            "claim": "zbMATH record gives title 'Algebraic topology', author S. Lefschetz, document type book, year 1942, ISBN 0-8218-1027-8 (paperback)",
+            "source": "zbMATH Open API, document 3102166",
+            "url": "https://api.zbmath.org/v1/document/3102166",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "This is also a monograph (consolidation role), but it is recorded once as naming. The 1868-1941 title search found zero hits for 'algebraic topology', so 1942 is the earliest in that window; 'Analysis situs' titles were not searched."
+      }
+    ],
+    "searched": [
+      "zbMATH title 'algebraic topology' 1868-1941 (with and without book filter): zero hits",
+      "zbMATH title 'algebraic topology' 1935-1950: earliest 1942 (Lefschetz book), then 1947 journal hit",
+      "zbMATH title 'spectral sequences' 1945-1955: zero hits"
+    ]
+  },
+  {
+    "pid": "P020",
+    "eventId": "E28",
+    "milestones": [],
+    "searched": [
+      "zbMATH title 'arithmetic progressions' 1940-1955: 5 hits, none with a field-name title for the Fourier method",
+      "zbMATH title 'arithmetic progressions' with book filter 1952-1980: one unrelated hit (1980)"
+    ]
+  },
+  {
+    "pid": "P289",
+    "eventId": "MB27",
+    "milestones": [
+      {
+        "role": "naming",
+        "year": 1956,
+        "endYear": null,
+        "precision": "year",
+        "label": "Serre, 'Geometrie algebrique et geometrie analytique'",
+        "work": "J.-P. Serre, 'Geometrie algebrique et geometrie analytique', Annales de l'Institut Fourier 6 (1955-56), DOI 10.5802/aif.59",
+        "people": ["Jean-Pierre Serre"],
+        "description": "Serre's paper, whose French title names the two fields compared in GAGA, is the first title that uses this field name.",
+        "evidence": [
+          {
+            "claim": "Crossref record gives title 'Geometrie algebrique et geometrie analytique', author Serre, container Annales de l'Institut Fourier, year 1956",
+            "source": "Crossref, DOI 10.5802/aif.59",
+            "url": "https://doi.org/10.5802/aif.59",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "The title names the comparison of the two fields rather than the label 'GAGA' itself. Year from Crossref issued date."
+      }
+    ],
+    "searched": [
+      "Crossref DOI 10.5802/aif.59 checked for Serre's title and year",
+      "zbMATH title 'GAGA' 1950-1960: zero hits",
+      "zbMATH title 'algebraic and analytic geometry' 1950-1960: zero hits"
+    ]
+  },
+  {
+    "pid": "P484",
+    "eventId": "P39",
+    "milestones": [
+      {
+        "role": "naming",
+        "year": 1964,
+        "endYear": null,
+        "precision": "year",
+        "label": "Gerstenhaber, 'On the deformation of rings and algebras'",
+        "work": "M. Gerstenhaber, 'On the deformation of rings and algebras', Annals of Mathematics 79 (1964), DOI 10.2307/1970484",
+        "people": ["Murray Gerstenhaber"],
+        "description": "Gerstenhaber's 1964 Annals paper names the field in its title: deformations of rings and algebras.",
+        "evidence": [
+          {
+            "claim": "Crossref record gives title 'On the Deformation of Rings and Algebras', author Gerstenhaber, container The Annals of Mathematics, year 1964",
+            "source": "Crossref, DOI 10.2307/1970484",
+            "url": "https://doi.org/10.2307/1970484",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "Dwork's 1963 title 'A deformation theory for the zeta function of a hypersurface' (zbMATH 3313320) uses 'deformation theory' for a different subject and was not assigned a role."
+      }
+    ],
+    "searched": [
+      "Crossref DOI 10.2307/1970484 checked for title, author and year",
+      "zbMATH title 'deformation of rings and algebras' 1960-1970: 3 hits, earliest 1964 (Gerstenhaber)",
+      "zbMATH title 'deformation theory' 1955-1970 and with book filter 1960-1970: unrelated hits"
+    ]
+  },
+  {
+    "pid": "P307",
+    "eventId": "WC21/QC69",
+    "milestones": [
+      {
+        "role": "naming",
+        "year": 1978,
+        "endYear": null,
+        "precision": "year",
+        "label": "Tunnell, 'On the local Langlands conjecture for GL(2)'",
+        "work": "J. B. Tunnell, 'On the local Langlands conjecture for GL(2)', Inventiones Mathematicae, pages 179-200, zbMATH record 3598559, 1978",
+        "people": ["Jerrold B. Tunnell"],
+        "description": "Tunnell's 1978 paper is the earliest title found in the searched window that uses the phrase 'local Langlands' for the GL(2) case, a precursor to the GL(n) problem.",
+        "evidence": [
+          {
+            "claim": "zbMATH record gives title 'On the local Langlands conjecture for GL(2)', author J. B. Tunnell, year 1978, journal article, pages 179-200, ISSN 0020-9910 (Inventiones)",
+            "source": "zbMATH Open API, document 3598559",
+            "url": "https://api.zbmath.org/v1/document/3598559",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Earliest zbMATH title hit for 'local Langlands' in 1975-1985. It names the GL(2) case, not the GL(n) event, so the naming role is a lead for the field name. Langlands' 1967 letter is already a precursor in the record."
+      }
+    ],
+    "searched": [
+      "zbMATH title 'Langlands' 1967-1975: 8 hits, none with a clear field-name title (not checked individually)",
+      "zbMATH title 'local Langlands' 1975-1985: earliest 1978 (Tunnell)",
+      "zbMATH title 'local Langlands' with book filter 1967-1990: 1980 'Remarks on a local Langlands...' (not checked as the first)"
+    ]
+  },
+  {
+    "pid": "P283",
+    "eventId": "WB78",
+    "milestones": [
+      {
+        "role": "naming",
+        "year": 1978,
+        "endYear": null,
+        "precision": "year",
+        "label": "Feigenbaum, 'Quantitative universality for a class of nonlinear transformations'",
+        "work": "M. J. Feigenbaum, 'Quantitative universality for a class of nonlinear transformations', Journal of Statistical Physics, DOI 10.1007/BF01020332, 1978",
+        "people": ["Mitchell Feigenbaum"],
+        "description": "Feigenbaum's 1978 paper names the universality property in its title, the first title found with the term for this field.",
+        "evidence": [
+          {
+            "claim": "Crossref record gives title 'Quantitative universality for a class of nonlinear transformations', author Feigenbaum, container Journal of Statistical Physics, year 1978",
+            "source": "Crossref, DOI 10.1007/BF01020332",
+            "url": "https://doi.org/10.1007/BF01020332",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "Universality titles in zbMATH 1975-1980 are unrelated. The 1975 discovery is an unpublished precursor already in the record."
+      }
+    ],
+    "searched": [
+      "Crossref DOI 10.1007/BF01020332 checked for title, author and year",
+      "zbMATH title 'universality' 1975-1980: 27 hits, none on period-doubling universality in the first results",
+      "zbMATH title 'period doubling' 1975-1979: zero hits; 1975-1990 window found 1980 hits (not field-name titles)"
+    ]
+  },
+  {
+    "pid": "P064",
+    "eventId": "E74",
+    "milestones": [
+      {
+        "role": "naming",
+        "year": 1978,
+        "endYear": null,
+        "precision": "year",
+        "label": "Rivest, Shamir and Adleman, 'A method for obtaining digital signatures and public-key cryptosystems'",
+        "work": "R. L. Rivest, A. Shamir, L. Adleman, 'A method for obtaining digital signatures and public-key cryptosystems', Communications of the ACM, pages 120-126, zbMATH record 3575463, 1978",
+        "people": ["Ronald L. Rivest", "Adi Shamir", "Leonard Adleman"],
+        "description": "The 1978 RSA paper uses the term 'public-key cryptosystems' in its title, the earliest exact-term title found in the searched window.",
+        "evidence": [
+          {
+            "claim": "zbMATH record gives title 'A method for obtaining digital signatures and public-key cryptosystems', three authors, year 1978, pages 120-126, ISSN 0001-0782 (Communications of the ACM)",
+            "source": "zbMATH Open API, document 3575463",
+            "url": "https://api.zbmath.org/v1/document/3575463",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The title says 'public-key cryptosystems', not the exact field name 'public-key cryptography'. Herlestam's 1978 'Critical remarks on some public-key cryptosystems' (zbMATH 3626638, BIT, pages 493-496) is the same year and was not chosen. The first exact-phrase title found is Grollmann 1982 'Public key cryptography and complexity theory' (zbMATH 3846870), a Dortmund report, so it was not used."
+      }
+    ],
+    "searched": [
+      "zbMATH title 'public-key' 1970-1983: earliest 1978 hits (Herlestam; Rivest, Shamir and Adleman)",
+      "zbMATH title 'public key' 1970-1983: same earliest hits",
+      "zbMATH title 'public key' with book filter 1970-1995: earliest 1982 (Grollmann; Merkle's 1979 thesis revised 1982)",
+      "zbMATH title 'cryptology' 1970-1990: 1979 journal hits, not the field name",
+      "Open Library and institution (journal or conference) check not run"
+    ]
+  },
+  {
+    "pid": "P481",
+    "eventId": "P34",
+    "milestones": [],
+    "searched": [
+      "zbMATH title 'Wilf-Zeilberger' 1985-1995: zero hits",
+      "zbMATH title 'creative telescoping' 1985-1995: one hit, Zeilberger 1991 'The method of creative telescoping' (zbMATH 12493, Journal of Symbolic Computation, pages 195-204). It names the family of the method but not the WZ method, so no naming role was assigned",
+      "No Open Library check run"
+    ]
+  },
+  {
+    "pid": "P287",
+    "eventId": "WB60",
+    "milestones": [
+      {
+        "role": "naming",
+        "year": 1972,
+        "endYear": null,
+        "precision": "year",
+        "label": "Bass, 'The degree of polynomial growth of finitely generated nilpotent groups'",
+        "work": "H. Bass, 'The degree of polynomial growth of finitely generated nilpotent groups', Proceedings of the London Mathematical Society, DOI 10.1112/plms/s3-25.4.603, 1972",
+        "people": ["Hyman Bass"],
+        "description": "Bass's 1972 paper uses 'polynomial growth' for finitely generated groups in its title, the earliest such title found in the searched window.",
+        "evidence": [
+          {
+            "claim": "Crossref record gives title 'The Degree of Polynomial Growth of Finitely Generated Nilpotent Groups', author Bass, container Proceedings of the London Mathematical Society, year 1972",
+            "source": "Crossref, DOI 10.1112/plms/s3-25.4.603",
+            "url": "https://doi.org/10.1112/plms/s3-25.4.603",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Gromov's 1981 title 'Groups of polynomial growth and expanding maps' is already the first_statement in the record. Earlier titles outside zbMATH coverage were not checked. zbMATH 'polynomial growth' hits 1968-1985 included loosely related titles (for example 1970 holomorphic functions), so the phrase search was treated as fuzzy."
+      }
+    ],
+    "searched": [
+      "Crossref DOI 10.1112/plms/s3-25.4.603 checked for title, author and year",
+      "zbMATH title 'polynomial growth' 1968-1985: 36 hits, mostly unrelated, earliest title use in the group sense is Bass 1972 (Crossref-verified)",
+      "zbMATH title 'polynomial growth' 1980-1990: 51 hits, not used"
+    ]
+  },
+  {
+    "pid": "P097",
+    "eventId": "B31",
+    "milestones": [
+      {
+        "role": "naming",
+        "year": 1982,
+        "endYear": null,
+        "precision": "year",
+        "label": "Witten, 'Supersymmetry and Morse theory'",
+        "work": "E. Witten, 'Supersymmetry and Morse theory', Journal of Differential Geometry 17 (1982), DOI 10.4310/jdg/1214437492",
+        "people": ["Edward Witten"],
+        "description": "Witten's 1982 paper names both fields, supersymmetry and Morse theory, in its title, the field name of this event.",
+        "evidence": [
+          {
+            "claim": "Crossref record gives title 'Supersymmetry and Morse theory', author Witten, container Journal of Differential Geometry, year 1982",
+            "source": "Crossref, DOI 10.4310/jdg/1214437492",
+            "url": "https://doi.org/10.4310/jdg/1214437492",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high",
+        "note": "Title use of the combined field name; the 1981 'Dynamical breaking of supersymmetry' is a precursor already in the record. zbMATH 'supersymmetry' hits 1978-1990 were checked only as a loose search (for example 1979 graded-manifold titles)."
+      }
+    ],
+    "searched": [
+      "Crossref DOI 10.4310/jdg/1214437492 checked for title, author and year",
+      "zbMATH title 'supersymmetry' 1978-1984 and with book filter 1978-1990: first hits 1979 (graded manifolds, not the field name) and 1983 (supergravity books)"
+    ]
+  },
+  {
+    "pid": "P076",
+    "eventId": "B10",
+    "milestones": [],
+    "searched": [
+      "zbMATH title 'complex dynamics' 1950-1990: 6 hits, earliest 1980 (Mira, 'Complex dynamics in two-dimensional endomorphisms', not about rational-map iteration), not used",
+      "zbMATH title 'complex dynamics' with book filter 1970-1995: earliest 1993 (Complex dynamics, book), after Sullivan's 1985 dictionary, so not a consolidation milestone for this event",
+      "Kleinian-group titles and Open Library were not checked"
+    ]
+  }
+]

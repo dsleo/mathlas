@@ -1,0 +1,254 @@
+[
+ {
+  "file": "A_01.json",
+  "pid": "P195",
+  "event": "Eudoxus: theory of proportion and method of exhaustion",
+  "person": "Antiphon",
+  "role": "originator"
+ },
+ {
+  "file": "A_01.json",
+  "pid": "P175",
+  "event": "Pingala: combinatorics of poetic metres",
+  "person": "Halayudha",
+  "role": "systematiser"
+ },
+ {
+  "file": "A_01.json",
+  "pid": "P176",
+  "event": "Babylonian astronomical parameters enter Greek astronomy",
+  "person": "Hypsicles",
+  "role": "developer"
+ },
+ {
+  "file": "A_01.json",
+  "pid": "P189",
+  "event": "Menelaus: Sphaerica and spherical trigonometry",
+  "person": "Theodosius of Bithynia",
+  "role": "developer"
+ },
+ {
+  "file": "A_02.json",
+  "pid": "P156",
+  "event": "Discovery of incommensurable magnitudes (irrationality of the diagonal)",
+  "person": "Theodorus of Cyrene",
+  "role": "developer"
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P121",
+  "event": "Islamic spherical trigonometry",
+  "person": "Abu Mahmud al-Khujandi",
+  "role": "developer"
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P121",
+  "event": "Islamic spherical trigonometry",
+  "person": "Nasir al-Din al-Tusi",
+  "role": "systematiser"
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P160",
+  "event": "Al-Mahani: geometric problems reduced to algebra",
+  "person": "Abu Ja'far al-Khazin",
+  "role": "developer"
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P178",
+  "event": "Ibn al-Haytham and Ibn Sinan: quadrature",
+  "person": "Thabit ibn Qurra",
+  "role": "originator"
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P178",
+  "event": "Ibn al-Haytham and Ibn Sinan: quadrature",
+  "person": "Ibn al-Haytham",
+  "role": "developer"
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P172",
+  "event": "Islamic work on the parallel postulate",
+  "person": "Omar Khayyam",
+  "role": "developer"
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P177",
+  "event": "Al-Karaji: binomial coefficients and early induction",
+  "person": "Al-Samaw'al",
+  "role": "developer"
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P122",
+  "event": "Al-Karaji polynomial algebra",
+  "person": "Al-Samaw'al",
+  "role": "developer"
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P155",
+  "event": "Binomial coefficient triangle in China",
+  "person": "Jia Xian",
+  "role": "originator"
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P136",
+  "event": "Khayyam cubics via conics",
+  "person": "Abu Ja'far al-Khazin",
+  "role": "developer"
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P125",
+  "event": "Sharaf al-Din al-Tusi",
+  "person": "Sharaf al-Din al-Tusi",
+  "role": "originator"
+ },
+ {
+  "file": "A_04.json",
+  "pid": "P158",
+  "event": "Al-Tusi: trigonometry as an independent discipline",
+  "person": "Al-Jayyani",
+  "role": "developer"
+ },
+ {
+  "file": "A_06.json",
+  "pid": "P116",
+  "event": "Pascal's arithmetical triangle",
+  "person": "Yang Hui",
+  "role": "developer"
+ },
+ {
+  "file": "A_06.json",
+  "pid": "P174",
+  "event": "Wallis: interpolation and infinite products",
+  "person": "Isaac Newton",
+  "role": "developer"
+ },
+ {
+  "file": "A_06.json",
+  "pid": "P443",
+  "event": "Elliptic integrals from lemniscate and elastica (Bernoulli)",
+  "person": "Leonhard Euler",
+  "role": "developer"
+ },
+ {
+  "file": "A_06.json",
+  "pid": "P192",
+  "event": "Leibniz: determinants",
+  "person": "Seki Takakazu",
+  "role": "developer"
+ },
+ {
+  "file": "A_06.json",
+  "pid": "P133",
+  "event": "Newton's Principia",
+  "person": "Robert Hooke",
+  "role": "developer"
+ },
+ {
+  "file": "A_08.json",
+  "pid": "P430",
+  "event": "Spectral ideas: eigenvalues from vibrating systems and quadratic forms",
+  "person": "Joseph-Louis Lagrange",
+  "role": "developer"
+ },
+ {
+  "file": "A_09.json",
+  "pid": "P120",
+  "event": "Euler's polyhedron formula (V - E + F = 2)",
+  "person": "Francesco Maurolico",
+  "role": "developer"
+ },
+ {
+  "file": "A_09.json",
+  "pid": "P135",
+  "event": "Lagrange's analytical mechanics",
+  "person": "Adrien-Marie Legendre",
+  "role": "developer"
+ },
+ {
+  "file": "A_09.json",
+  "pid": "P188",
+  "event": "Potential theory in celestial mechanics and physics",
+  "person": "Adrien-Marie Legendre",
+  "role": "developer"
+ },
+ {
+  "file": "A_09.json",
+  "pid": "P124",
+  "event": "Gauss's Disquisitiones Arithmeticae",
+  "person": "Adrien-Marie Legendre",
+  "role": "developer"
+ },
+ {
+  "file": "A_09.json",
+  "pid": "P124",
+  "event": "Gauss's Disquisitiones Arithmeticae",
+  "person": "Joseph-Louis Lagrange",
+  "role": "systematiser"
+ },
+ {
+  "file": "A_12.json",
+  "pid": "P457",
+  "event": "Kirkman's schoolgirl problem and combinatorial designs",
+  "person": "James Joseph Sylvester",
+  "role": "developer"
+ },
+ {
+  "file": "A_12.json",
+  "pid": "P415",
+  "event": "Dirichlet's principle",
+  "person": "Peter Gustav Lejeune Dirichlet",
+  "role": "popularizer"
+ },
+ {
+  "file": "A_13.json",
+  "pid": "P053",
+  "event": "Riemann's zeta function and the prime number theorem",
+  "person": "Pafnuty Chebyshev",
+  "role": "developer"
+ },
+ {
+  "file": "A_13.json",
+  "pid": "P357",
+  "event": "Cantor's set theory",
+  "person": "Karl Weierstrass",
+  "role": "popularizer"
+ },
+ {
+  "file": "A_14.json",
+  "pid": "P378",
+  "event": "Vector analysis",
+  "person": "William Rowan Hamilton",
+  "role": "developer"
+ },
+ {
+  "file": "A_17.json",
+  "pid": "P402",
+  "event": "Calculus of variations to Hilbert's direct methods",
+  "person": "Bernhard Riemann",
+  "role": "originator"
+ },
+ {
+  "file": "A_22.json",
+  "pid": "P250",
+  "event": "Combinatorial game theory (impartial and partisan games)",
+  "person": "Patrick Grundy",
+  "role": "developer"
+ },
+ {
+  "file": "A_27.json",
+  "pid": "P204",
+  "event": "Fermi-Pasta-Ulam problem and solitons",
+  "person": "Mary Tsingou",
+  "role": "developer"
+ }
+]

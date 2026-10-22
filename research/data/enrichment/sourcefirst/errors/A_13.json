@@ -1,0 +1,56 @@
+[
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_13.json",
+  "location": "[0].people[2]",
+  "message": "Expected 1\u20133 works; found 0"
+ },
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_13.json",
+  "location": "[1].people[4]",
+  "message": "Expected 1\u20133 works; found 0"
+ },
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_13.json",
+  "location": "[3].people[3]",
+  "message": "Expected 1\u20133 works; found 0"
+ },
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_13.json",
+  "location": "[5].people[3]",
+  "message": "Expected 1\u20133 works; found 0"
+ },
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_13.json",
+  "location": "[6].people[3]",
+  "message": "Expected 1\u20133 works; found 0"
+ },
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_13.json",
+  "location": "[7].people[1]",
+  "message": "Expected 1\u20133 works; found 0"
+ },
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_13.json",
+  "location": "[8].people[0]",
+  "message": "Expected 1\u20133 works; found 0"
+ },
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_13.json",
+  "location": "[9].people[1]",
+  "message": "Expected 1\u20133 works; found 0"
+ },
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_13.json",
+  "location": "[9].people[2]",
+  "message": "Expected 1\u20133 works; found 0"
+ }
+]

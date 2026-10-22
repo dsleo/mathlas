@@ -1,0 +1,8 @@
+[
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_20.json",
+  "location": "[6].people[1].works[0]",
+  "message": "Invalid work citation, year, URL, or relevance"
+ }
+]

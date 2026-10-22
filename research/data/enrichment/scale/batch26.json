@@ -1,0 +1,143 @@
+[
+ {
+  "pid": "P103",
+  "eventId": "B37",
+  "name": "Harmonic integrals and the vanishing theorem (Kodaira)",
+  "type": "technique-transfer",
+  "from": [
+   "Analysis",
+   "Geometry"
+  ],
+  "to": [
+   "Geometry"
+  ],
+  "summary": "Hodge theory (harmonic forms) is applied to compact Kahler manifolds to prove vanishing theorems and characterise projective varieties."
+ },
+ {
+  "pid": "P215",
+  "eventId": "MB49/WB13",
+  "name": "Nash equilibrium",
+  "type": "technique-transfer",
+  "from": [
+   "topology (fixed point theorems)",
+   "game theory"
+  ],
+  "to": [
+   "game theory",
+   "economics"
+  ],
+  "summary": "Equilibria of non-cooperative games were shown to exist via fixed-point arguments."
+ },
+ {
+  "pid": "P067",
+  "eventId": "B01",
+  "name": "Cobordism: homotopy theory computes manifold invariants",
+  "type": "technique-transfer",
+  "from": [
+   "Topology",
+   "Algebra"
+  ],
+  "to": [
+   "Topology"
+  ],
+  "summary": "Manifolds up to cobordism are classified by homotopy groups of Thom spaces, turning geometric questions into computations in stable homotopy theory."
+ },
+ {
+  "pid": "P263",
+  "eventId": "MB25",
+  "name": "Serre: spectral sequences and homotopy groups",
+  "type": "technique-transfer",
+  "from": [
+   "spectral sequences (Leray)",
+   "homotopy theory"
+  ],
+  "to": [
+   "algebraic topology"
+  ],
+  "summary": "Leray's spectral sequence applied to fibrations gave homotopy results for spheres."
+ },
+ {
+  "pid": "P291",
+  "eventId": "MB32",
+  "name": "Tate's thesis and adelic harmonic analysis",
+  "type": "technique-transfer",
+  "from": [
+   "Fourier analysis",
+   "algebraic number theory"
+  ],
+  "to": [
+   "automorphic L-functions"
+  ],
+  "summary": "Fourier analysis on idele groups gave a new proof of functional equations for Hecke L-functions."
+ },
+ {
+  "pid": "P239",
+  "eventId": "MB62",
+  "name": "Kleene theorem on regular events",
+  "type": "birth-by-fusion",
+  "from": [
+   "logic",
+   "neural/finite automata"
+  ],
+  "to": [
+   "automata theory"
+  ],
+  "summary": "Finite automata and regular events were shown equivalent."
+ },
+ {
+  "pid": "P224",
+  "eventId": "MB78/WB113",
+  "name": "Dynamic programming",
+  "type": "birth-by-abstraction",
+  "from": [
+   "optimisation",
+   "control",
+   "operations research"
+  ],
+  "to": [
+   "dynamic programming"
+  ],
+  "summary": "Principle of optimality recast multi-stage decisions as recursion."
+ },
+ {
+  "pid": "P469",
+  "eventId": "P17",
+  "name": "Calderon-Zygmund singular integrals enter PDE",
+  "type": "technique-transfer",
+  "from": [
+   "harmonic analysis (Hilbert transform, Fourier series)"
+  ],
+  "to": [
+   "elliptic and parabolic PDE"
+  ],
+  "summary": "Singular integral operators from harmonic analysis give L^p estimates and uniqueness results for elliptic and parabolic equations."
+ },
+ {
+  "pid": "P020",
+  "eventId": "E28",
+  "name": "Fourier analysis for density problems (Roth)",
+  "type": "technique-transfer",
+  "from": [
+   "Analysis",
+   "Number theory"
+  ],
+  "to": [
+   "Combinatorics"
+  ],
+  "summary": "A circle-method style Fourier argument with a density-increment iteration shows dense integer sets contain three-term progressions."
+ },
+ {
+  "pid": "P266",
+  "eventId": "WB31",
+  "name": "MCMC revival of Bayesian statistics",
+  "type": "technique-transfer",
+  "from": [
+   "statistical physics",
+   "statistics"
+  ],
+  "to": [
+   "Bayesian statistics"
+  ],
+  "summary": "Metropolis-type samplers, via Gibbs sampling, make posterior computation feasible."
+ }
+]

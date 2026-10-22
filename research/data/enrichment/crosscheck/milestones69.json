@@ -1,0 +1,728 @@
+[
+  {
+    "eventId": "P76",
+    "canonicalName": "Furstenberg: random matrix products and boundaries of Lie groups",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1963,
+        "precision": "year",
+        "label": "Noncommuting random products",
+        "work": "H. Furstenberg, Noncommuting random products, Trans. Amer. Math. Soc. 108 (1963)",
+        "people": [
+          "Harry Furstenberg"
+        ],
+        "description": "Furstenberg's paper studies products of random matrices, the basis of the boundary theory for random walks on Lie groups.",
+        "evidence": [
+          {
+            "claim": "Crossref record: title, author Furstenberg, Trans. AMS vol. 108, 1963",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1090/s0002-9947-1963-0163345-0",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Role inferred from title and venue; abstract not read."
+      }
+    ],
+    "people": [
+      {
+        "name": "Harry Furstenberg",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Harry_Furstenberg",
+        "works": [
+          {
+            "citation": "Noncommuting random products",
+            "year": 1963,
+            "url": "https://doi.org/10.1090/s0002-9947-1963-0163345-0",
+            "whyItMatters": "Founding paper on random matrix products"
+          }
+        ]
+      }
+    ],
+    "notes": "Only bibliographic records (Crossref API / arXiv API) were opened; abstracts and full texts were not read, so role assignments rest on title, authors and year. No separate naming/institution milestone searched or verified; catalogue date ranges unverified.",
+    "pid": "P518",
+    "searchTerms": [
+      "probability",
+      "Lie groups / harmonic analysis on symmetric spaces",
+      "random walks on groups and boundary theory"
+    ]
+  },
+  {
+    "eventId": "P77",
+    "canonicalName": "Thermodynamic formalism for hyperbolic dynamics (Sinai, Ruelle, Bowen)",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1972,
+        "precision": "year",
+        "label": "Gibbs measures in ergodic theory",
+        "work": "Ya. Sinai, Gibbs measures in ergodic theory, Russian Math. Surveys 27(4) (1972)",
+        "people": [
+          "Yakov Sinai"
+        ],
+        "description": "Sinai's survey brings Gibbs measures from statistical mechanics into ergodic theory of hyperbolic systems.",
+        "evidence": [
+          {
+            "claim": "Crossref record: Sinai, Russian Math. Surveys vol. 27, 31 Aug 1972",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1070/rm1972v027n04abeh001383",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Role inferred from title; earlier Sinai/Ruelle papers not searched."
+      },
+      {
+        "role": "key_development",
+        "year": 1975,
+        "precision": "year",
+        "label": "Bowen's equilibrium states lecture notes",
+        "work": "R. Bowen, Equilibrium States and the Ergodic Theory of Anosov Diffeomorphisms, LNM (1975)",
+        "people": [
+          "Rufus Bowen"
+        ],
+        "description": "Bowen's lecture notes develop equilibrium states for Anosov systems.",
+        "evidence": [
+          {
+            "claim": "Crossref record: Bowen, Lecture Notes in Mathematics, 1975",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1007/bfb0081279",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Yakov Sinai",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Yakov_Sinai",
+        "works": [
+          {
+            "citation": "Gibbs measures in ergodic theory",
+            "year": 1972,
+            "url": "https://doi.org/10.1070/rm1972v027n04abeh001383",
+            "whyItMatters": "Introduces Gibbs measures into ergodic theory"
+          }
+        ]
+      },
+      {
+        "name": "Rufus Bowen",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Rufus_Bowen",
+        "works": [
+          {
+            "citation": "Equilibrium States and the Ergodic Theory of Anosov Diffeomorphisms",
+            "year": 1975,
+            "url": "https://doi.org/10.1007/bfb0081279",
+            "whyItMatters": "Equilibrium states for Anosov maps"
+          }
+        ]
+      }
+    ],
+    "notes": "Only bibliographic records (Crossref API / arXiv API) were opened; abstracts and full texts were not read, so role assignments rest on title, authors and year. Ruelle, Thermodynamic Formalism (1978) was not located, so no consolidation milestone. Candidate bfb0081284 (Bowen, Ergodic theory of Axiom A diffeomorphisms, 1975) is a chapter of the same LNM volume, not a separate milestone.",
+    "pid": "P519",
+    "searchTerms": [
+      "statistical mechanics (Gibbs states)",
+      "ergodic theory and hyperbolic dynamics"
+    ]
+  },
+  {
+    "eventId": "P79",
+    "canonicalName": "Ito calculus and stochastic differential equations",
+    "aliases": [
+      "Ito calculus"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "key_development",
+        "year": 1951,
+        "precision": "year",
+        "label": "On stochastic differential equations",
+        "work": "K. Ito, On stochastic differential equations, Mem. AMS 4 (1951)",
+        "people": [
+          "Kiyosi Ito"
+        ],
+        "description": "Ito's memoir treats stochastic differential equations driven by Brownian motion.",
+        "evidence": [
+          {
+            "claim": "Crossref record: Ito, Memoirs of the AMS, 1951",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1090/memo/0004",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Crossref lists volume as 0; the Mem. AMS 4 number comes from the inherited citation and the DOI memo/0004."
+      }
+    ],
+    "people": [
+      {
+        "name": "Kiyosi Ito",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Kiyosi_Itô",
+        "works": [
+          {
+            "citation": "On stochastic differential equations",
+            "year": 1951,
+            "url": "https://doi.org/10.1090/memo/0004",
+            "whyItMatters": "SDE theory"
+          }
+        ]
+      }
+    ],
+    "notes": "Only bibliographic records (Crossref API / arXiv API) were opened; abstracts and full texts were not read, so role assignments rest on title, authors and year. The inherited 1944 'Stochastic integral' paper (Proc. Imp. Acad. Tokyo) could not be verified (Crossref search failed), so no first_statement is claimed; the true first statement likely precedes 1951.",
+    "pid": "P520",
+    "searchTerms": [
+      "probability (Brownian motion, Markov processes)",
+      "analysis (differential and integral calculus, ODE)",
+      "stochastic analysis"
+    ]
+  },
+  {
+    "eventId": "P80",
+    "canonicalName": "Constructive quantum field theory",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1973,
+        "precision": "year",
+        "label": "Construction of quantum fields from Markoff fields",
+        "work": "E. Nelson, Construction of quantum fields from Markoff fields, J. Funct. Anal. 12 (1973)",
+        "people": [
+          "Edward Nelson"
+        ],
+        "description": "Nelson constructs quantum fields from Markov random fields.",
+        "evidence": [
+          {
+            "claim": "Crossref record: Nelson, J. Funct. Anal. vol. 12, Jan 1973",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1016/0022-1236(73)90091-8",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Role inferred from title; earlier constructive work (1960s) not searched."
+      }
+    ],
+    "people": [
+      {
+        "name": "Edward Nelson",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Edward_Nelson",
+        "works": [
+          {
+            "citation": "Construction of quantum fields from Markoff fields",
+            "year": 1973,
+            "url": "https://doi.org/10.1016/0022-1236(73)90091-8",
+            "whyItMatters": "Markov field construction"
+          }
+        ]
+      }
+    ],
+    "notes": "Only bibliographic records (Crossref API / arXiv API) were opened; abstracts and full texts were not read, so role assignments rest on title, authors and year. Nelson's 'Quantum fields and Markoff fields' (Proc. Symp. Pure Math. 23, 1973, doi 10.1090/pspum/023/0337206) exists in Crossref but was not used as a milestone. No institution/naming checked.",
+    "pid": "P521",
+    "searchTerms": [
+      "quantum field theory",
+      "probability (Markov fields)",
+      "functional analysis",
+      "constructive quantum field theory"
+    ]
+  },
+  {
+    "eventId": "Q5",
+    "canonicalName": "Ramsey lower bounds from high-dimensional sphere geometry",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 2025,
+        "precision": "year",
+        "label": "Exponential improvement on Ramsey lower bounds",
+        "work": "J. Ma, W. Shen, S. Xie, An exponential improvement for Ramsey lower bounds, arXiv:2507.12926 (2025)",
+        "people": [
+          "Jie Ma",
+          "Wujie Shen",
+          "Shengjie Xie"
+        ],
+        "description": "Ma, Shen and Xie give an exponential improvement on Ramsey lower bounds.",
+        "evidence": [
+          {
+            "claim": "arXiv record lists title, authors and 2025 submission",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/2507.12926",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Sphere-geometry method is from the catalogue summary; abstract not read."
+      },
+      {
+        "role": "key_development",
+        "year": 2025,
+        "precision": "year",
+        "label": "Gaussian random graphs and Ramsey numbers",
+        "work": "Z. Hunter, A. Milojevic, B. Sudakov, Gaussian random graphs and Ramsey numbers, arXiv:2512.17718 (2025)",
+        "people": [
+          "Zach Hunter",
+          "Aleksa Milojević",
+          "Benny Sudakov"
+        ],
+        "description": "A follow-up paper on Gaussian random graphs and Ramsey numbers.",
+        "evidence": [
+          {
+            "claim": "arXiv record lists title, authors and 2025 submission",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/2512.17718",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Only bibliographic records (Crossref API / arXiv API) were opened; abstracts and full texts were not read, so role assignments rest on title, authors and year. Inherited 'Sudakov et al.' is actually Hunter-Milojevic-Sudakov. Erdos 1947 precursor not verified.",
+    "pid": "P525",
+    "searchTerms": [
+      "probabilistic method in Ramsey theory",
+      "geometry of high-dimensional spheres",
+      "off-diagonal Ramsey numbers"
+    ]
+  },
+  {
+    "eventId": "Q9",
+    "canonicalName": "Chowla cosine problem via Cayley graph eigenvalues and MaxCut",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 2025,
+        "precision": "year",
+        "label": "Alon-Boppana-type bound",
+        "work": "S. Zhang, An Alon-Boppana-type bound for very dense graphs, with applications to max-cut, arXiv:2507.10037 (2025)",
+        "people": [
+          "Shengtong Zhang"
+        ],
+        "description": "Zhang proves an Alon-Boppana-type bound for very dense graphs with max-cut applications.",
+        "evidence": [
+          {
+            "claim": "arXiv record lists title, authors and 2025 submission",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/2507.10037",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Whether this paper itself addresses Chowla's problem was not checked in the abstract."
+      },
+      {
+        "role": "first_application",
+        "year": 2025,
+        "precision": "year",
+        "label": "Eigenvalues to cuts to Chowla",
+        "work": "Z. Jin, A. Milojevic, I. Tomon, S. Zhang, From small eigenvalues to large cuts, and Chowla's cosine problem, arXiv:2509.03490 (2025)",
+        "people": [
+          "Zhihan Jin",
+          "Aleksa Milojević",
+          "István Tomon",
+          "Shengtong Zhang"
+        ],
+        "description": "This paper links small eigenvalues, large cuts and Chowla's cosine problem.",
+        "evidence": [
+          {
+            "claim": "arXiv record lists title, authors and 2025 submission",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/2509.03490",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 2025,
+        "precision": "year",
+        "label": "Polynomial bounds for Chowla",
+        "work": "B. Bedert, Polynomial bounds for the Chowla Cosine Problem, arXiv:2509.05260 (2025)",
+        "people": [
+          "Benjamin Bedert"
+        ],
+        "description": "Bedert gives polynomial bounds for the Chowla cosine problem.",
+        "evidence": [
+          {
+            "claim": "arXiv record lists title, authors and 2025 submission",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/2509.05260",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Only bibliographic records (Crossref API / arXiv API) were opened; abstracts and full texts were not read, so role assignments rest on title, authors and year. 1960s origin of Chowla's problem not verified.",
+    "pid": "P528",
+    "searchTerms": [
+      "extremal graph theory",
+      "spectral graph theory",
+      "harmonic analysis of cosine sums"
+    ]
+  },
+  {
+    "eventId": "Q19",
+    "canonicalName": "Hilbert's tenth problem over rings of integers: elliptic curves and additive combinatorics",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 2024,
+        "precision": "year",
+        "label": "Hilbert's tenth problem via additive combinatorics",
+        "work": "P. Koymans, C. Pagano, Hilbert's tenth problem via additive combinatorics, arXiv:2412.01768 (2024)",
+        "people": [
+          "Peter Koymans",
+          "Carlo Pagano"
+        ],
+        "description": "Koymans and Pagano treat Hilbert's tenth problem using additive combinatorics.",
+        "evidence": [
+          {
+            "claim": "arXiv record lists title, authors and 2024 submission",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/2412.01768",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 2025,
+        "precision": "year",
+        "label": "Rank stability and Hilbert's tenth problem",
+        "work": "L. Alpoge, M. Bhargava, W. Ho, A. Shnidman, Rank stability in quadratic extensions and Hilbert's tenth problem for the ring of integers of a number field, arXiv:2501.18774 (2025)",
+        "people": [
+          "Levent Alpöge",
+          "Manjul Bhargava",
+          "Wei Ho",
+          "Ari Shnidman"
+        ],
+        "description": "A second paper treats the problem for rings of integers of number fields via rank stability.",
+        "evidence": [
+          {
+            "claim": "arXiv record lists title, authors and 2025 submission",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/2501.18774",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Only bibliographic records (Crossref API / arXiv API) were opened; abstracts and full texts were not read, so role assignments rest on title, authors and year. Earlier history (Matiyasevich, Denef-Lipshitz, Shlapentokh, Mazur-Rubin, etc.) not searched; no precursors listed.",
+    "pid": "P531",
+    "searchTerms": [
+      "computability and logic",
+      "elliptic curves",
+      "additive combinatorics",
+      "undecidability over number-field rings of integers"
+    ]
+  },
+  {
+    "eventId": "Q30",
+    "canonicalName": "Moment problem for class-group statistics (Sawin-Wood)",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 2022,
+        "precision": "year",
+        "label": "Moment problem for random objects",
+        "work": "W. Sawin, M. Wood, The moment problem for random objects in a category, arXiv:2210.06279 (2022)",
+        "people": [
+          "Will Sawin",
+          "Melanie Matchett Wood"
+        ],
+        "description": "Sawin and Wood study when moments determine the distribution of random objects in a category.",
+        "evidence": [
+          {
+            "claim": "arXiv record lists title, authors and 2022 submission",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/2210.06279",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "first_application",
+        "year": 2023,
+        "precision": "year",
+        "label": "Class group distribution conjectures",
+        "work": "W. Sawin, M. Wood, Conjectures for distributions of class groups of extensions of number fields containing roots of unity, arXiv:2301.00791 (2023)",
+        "people": [
+          "Will Sawin",
+          "Melanie Matchett Wood"
+        ],
+        "description": "Applies the moment framework to conjectures on class group distributions.",
+        "evidence": [
+          {
+            "claim": "arXiv record lists title, authors and 2023 submission",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/2301.00791",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Application role inferred from the title."
+      }
+    ],
+    "people": [
+      {
+        "name": "Will Sawin",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Will_Sawin",
+        "works": [
+          {
+            "citation": "The moment problem for random objects in a category",
+            "year": 2022,
+            "url": "https://arxiv.org/abs/2210.06279",
+            "whyItMatters": "Core theorem"
+          }
+        ]
+      }
+    ],
+    "notes": "Only bibliographic records (Crossref API / arXiv API) were opened; abstracts and full texts were not read, so role assignments rest on title, authors and year. Ellenberg-Venkatesh-Westerland (Annals 2016) not verified.",
+    "pid": "P537",
+    "searchTerms": [
+      "probability (random groups, moments)",
+      "algebraic number theory (class-group statistics)"
+    ]
+  },
+  {
+    "eventId": "Q39",
+    "canonicalName": "Probabilistic construction of Liouville conformal field theory",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 2014,
+        "precision": "year",
+        "label": "Liouville quantum gravity on the sphere",
+        "work": "F. David, A. Kupiainen, R. Rhodes, V. Vargas, Liouville Quantum Gravity on the Riemann sphere, arXiv:1410.7318 (2014)",
+        "people": [
+          "François David",
+          "Antti Kupiainen",
+          "Rémi Rhodes",
+          "Vincent Vargas"
+        ],
+        "description": "Constructs Liouville quantum gravity on the sphere probabilistically.",
+        "evidence": [
+          {
+            "claim": "arXiv record lists title, authors and 2014 submission",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1410.7318",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 2017,
+        "precision": "year",
+        "label": "Proof of the DOZZ formula",
+        "work": "A. Kupiainen, R. Rhodes, V. Vargas, Integrability of Liouville theory: proof of the DOZZ Formula, arXiv:1707.08785 (2017)",
+        "people": [
+          "Antti Kupiainen",
+          "Rémi Rhodes",
+          "Vincent Vargas"
+        ],
+        "description": "Proves the DOZZ formula for the probabilistic Liouville theory.",
+        "evidence": [
+          {
+            "claim": "arXiv record lists title, authors and 2017 submission",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1707.08785",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 2020,
+        "precision": "year",
+        "label": "Conformal bootstrap in Liouville theory",
+        "work": "C. Guillarmou, A. Kupiainen, R. Rhodes, V. Vargas, Conformal bootstrap in Liouville Theory, arXiv:2005.11530 (2020)",
+        "people": [
+          "Colin Guillarmou",
+          "Antti Kupiainen",
+          "Rémi Rhodes",
+          "Vincent Vargas"
+        ],
+        "description": "Proves the conformal bootstrap for Liouville theory.",
+        "evidence": [
+          {
+            "claim": "arXiv record lists title, authors and 2020 submission",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/2005.11530",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Vincent Vargas",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Vincent_Vargas",
+        "works": [
+          {
+            "citation": "Integrability of Liouville theory: proof of the DOZZ Formula",
+            "year": 2017,
+            "url": "https://arxiv.org/abs/1707.08785",
+            "whyItMatters": "DOZZ"
+          }
+        ]
+      }
+    ],
+    "notes": "Only bibliographic records (Crossref API / arXiv API) were opened; abstracts and full texts were not read, so role assignments rest on title, authors and year. Polyakov 1981 and Kahane chaos precursors not verified; the 2014 paper may not be the first probabilistic construction (check Duplantier-Sheffield, Rhodes-Vargas).",
+    "pid": "P540",
+    "searchTerms": [
+      "probability (Gaussian free field, Gaussian multiplicative chaos)",
+      "conformal field theory (Liouville, bootstrap, DOZZ)",
+      "probabilistic Liouville CFT"
+    ]
+  },
+  {
+    "eventId": "Q53",
+    "canonicalName": "Manolescu's non-triangulable manifolds via Pin(2)-equivariant Floer theory",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 2013,
+        "precision": "year",
+        "label": "Pin(2) Floer homology and triangulation",
+        "work": "C. Manolescu, Pin(2)-equivariant Seiberg-Witten Floer homology and the Triangulation Conjecture, arXiv:1303.2354 (2013)",
+        "people": [
+          "Ciprian Manolescu"
+        ],
+        "description": "Manolescu uses Pin(2)-equivariant Floer homology to disprove the triangulation conjecture in high dimensions.",
+        "evidence": [
+          {
+            "claim": "arXiv record lists title, authors and 2013 submission",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1303.2354",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Conclusion from the catalogue summary and title; abstract not read."
+      }
+    ],
+    "people": [
+      {
+        "name": "Ciprian Manolescu",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Ciprian_Manolescu",
+        "works": [
+          {
+            "citation": "Pin(2)-equivariant Seiberg-Witten Floer homology and the Triangulation Conjecture",
+            "year": 2013,
+            "url": "https://arxiv.org/abs/1303.2354",
+            "whyItMatters": "Main result"
+          }
+        ]
+      }
+    ],
+    "notes": "Only bibliographic records (Crossref API / arXiv API) were opened; abstracts and full texts were not read, so role assignments rest on title, authors and year. Galewski-Stern and Matumoto (1970s) reductions not verified, so no precursor.",
+    "pid": "P547",
+    "searchTerms": [
+      "Seiberg-Witten Floer theory / equivariant stable homotopy",
+      "high-dimensional PL topology",
+      "triangulation conjecture"
+    ]
+  },
+  {
+    "eventId": "Q67",
+    "canonicalName": "Universality of rotational invariance at 2D criticality via coupling and integrability",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 2020,
+        "precision": "year",
+        "label": "Rotational invariance in planar lattice models",
+        "work": "H. Duminil-Copin, K. K. Kozlowski, D. Krachun, I. Manolescu, M. Oulamara, Rotational invariance in critical planar lattice models, arXiv:2012.11672 (2020)",
+        "people": [
+          "Hugo Duminil-Copin",
+          "Karol Kajetan Kozlowski",
+          "Dmitry Krachun",
+          "Ioan Manolescu",
+          "Mendes Oulamara"
+        ],
+        "description": "Proves rotational invariance for critical planar lattice models.",
+        "evidence": [
+          {
+            "claim": "arXiv record lists title, authors and 2020 submission",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/2012.11672",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Hugo Duminil-Copin",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Hugo_Duminil-Copin",
+        "works": [
+          {
+            "citation": "Rotational invariance in critical planar lattice models",
+            "year": 2020,
+            "url": "https://arxiv.org/abs/2012.11672",
+            "whyItMatters": "Main result"
+          }
+        ]
+      }
+    ],
+    "notes": "Only bibliographic records (Crossref API / arXiv API) were opened; abstracts and full texts were not read, so role assignments rest on title, authors and year. Smirnov 2001/2006 precursors not verified.",
+    "pid": "P554",
+    "searchTerms": [
+      "probabilistic coupling",
+      "integrable systems",
+      "statistical mechanics",
+      "scaling limits of planar critical models"
+    ]
+  }
+]

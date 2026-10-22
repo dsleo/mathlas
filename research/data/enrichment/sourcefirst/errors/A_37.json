@@ -1,0 +1,32 @@
+[
+ {
+  "level": "warning",
+  "file": "data/collection/enrichment/sourcefirst/A_37.json",
+  "location": "[1].milestones[1]",
+  "message": "Same work appears under different roles; explain dual role in note"
+ },
+ {
+  "level": "warning",
+  "file": "data/collection/enrichment/sourcefirst/A_37.json",
+  "location": "[2].milestones[2]",
+  "message": "Same work appears under different roles; explain dual role in note"
+ },
+ {
+  "level": "warning",
+  "file": "data/collection/enrichment/sourcefirst/A_37.json",
+  "location": "[6].milestones[2]",
+  "message": "Same work appears under different roles; explain dual role in note"
+ },
+ {
+  "level": "warning",
+  "file": "data/collection/enrichment/sourcefirst/A_37.json",
+  "location": "[7].milestones[2]",
+  "message": "Same work appears under different roles; explain dual role in note"
+ },
+ {
+  "level": "warning",
+  "file": "data/collection/enrichment/sourcefirst/A_37.json",
+  "location": "[8]",
+  "message": "No first_statement milestone; explain source gap in notes"
+ }
+]

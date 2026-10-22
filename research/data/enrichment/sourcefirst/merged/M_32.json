@@ -1,0 +1,2676 @@
+[
+ {
+  "pid": "P217",
+  "eventId": "MB53/WB50",
+  "canonicalName": "Pseudodifferential operators",
+  "aliases": [
+   "pseudo-differential operators",
+   "pseudodifferential calculus",
+   "PDO / psi-DO"
+  ],
+  "phases": [
+   "Singular integrals (Calderon-Zygmund)",
+   "Symbol calculus (Kohn-Nirenberg, Hormander)",
+   "Fourier integral operators and propagation of singularities"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Singular integrals (Calderon-Zygmund)",
+    "year": 1952,
+    "endYear": null,
+    "precision": "year",
+    "label": "Calderon-Zygmund singular integral operators",
+    "work": "Calderon, A. P.; Zygmund, A., On the existence of certain singular integrals, Acta Mathematica 88 (1952)",
+    "people": [
+     "Alberto Calderon",
+     "Antoni Zygmund"
+    ],
+    "description": "Singular integral theory on which the later symbol calculus was built; a precursor, not a pseudodifferential calculus.",
+    "evidence": [
+     {
+      "claim": "Paper published in Acta Mathematica 1952 (DOI 10.1007/bf02392130), zbMATH 0047.10201, authors Calderon and Zygmund",
+      "source": "Crossref; zbMATH",
+      "url": "https://doi.org/10.1007/bf02392130",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Calderon-Zygmund singular integral theory is the root of the calculus and its later extension",
+      "source": "MacTutor, Calderon biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Calderon/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_statement",
+    "phase": "Symbol calculus (Kohn-Nirenberg, Hormander)",
+    "year": 1965,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kohn-Nirenberg algebra of pseudo-differential operators",
+    "work": "Kohn, J. J.; Nirenberg, L., An algebra of pseudo-differential operators, Communications on Pure and Applied Mathematics 18 (1965)",
+    "people": [
+     "Joseph J. Kohn",
+     "Louis Nirenberg"
+    ],
+    "description": "Introduces the operator algebra with symbols in the form that became the standard pseudodifferential calculus.",
+    "evidence": [
+     {
+      "claim": "Title and 1965 year of the Kohn-Nirenberg paper (DOI 10.1002/cpa.3160180121)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1002/cpa.3160180121",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia dates the start of the field to the mid 1960s work of Kohn, Nirenberg, Hormander, Unterberger and Bokobza",
+      "source": "Wikipedia, Pseudo-differential operator (History)",
+      "url": "https://en.wikipedia.org/wiki/Pseudo-differential_operator",
+      "kind": "history_page"
+     },
+     {
+      "claim": "zbMATH: Unterberger-Bokobza, 'Les operateurs pseudo-differentiels d'ordre variable', C. R. Acad. Sci. Paris 261 (1965) 2271-2273; the 1964 note 3231475 has no such term in its title",
+      "source": "zbMATH Open 3231478, 3231475",
+      "url": "https://zbmath.org/3231478",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper also carries the name in its title (naming milestone below), so it plays both roles. A 1964 note by Unterberger and Bokobza (C. R. Acad. Sci. Paris 259, 1612-1614; zbMATH 3231475) is related, but its title does not use the term. The first title found using 'pseudo-differentiels' is their C. R. 261 (1965) note (zbMATH 3231478), after Kohn-Nirenberg, so 1965 stands."
+   },
+   {
+    "role": "naming",
+    "phase": "Symbol calculus (Kohn-Nirenberg, Hormander)",
+    "year": 1965,
+    "endYear": null,
+    "precision": "year",
+    "label": "Term 'pseudo-differential operators' in a title",
+    "work": "Kohn, J. J.; Nirenberg, L., An algebra of pseudo-differential operators (1965)",
+    "people": [
+     "Joseph J. Kohn",
+     "Louis Nirenberg"
+    ],
+    "description": "The field's name appears in the title of the 1965 Kohn-Nirenberg paper.",
+    "evidence": [
+     {
+      "claim": "Title of the 1965 paper uses the term",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1002/cpa.3160180121",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Same paper as the first_statement milestone; an earlier use of the term in a French title was not excluded."
+   },
+   {
+    "role": "first_application",
+    "phase": "Symbol calculus (Kohn-Nirenberg, Hormander)",
+    "year": 1967,
+    "endYear": null,
+    "precision": "year",
+    "label": "Pseudo-differential operators applied to hypoelliptic equations",
+    "work": "Hormander, L., Pseudo-differential operators and hypoelliptic equations, Proceedings of Symposia in Pure Mathematics 10 (1967)",
+    "people": [
+     "Lars Hormander"
+    ],
+    "description": "Uses the symbol calculus on a target problem, the hypoellipticity of differential equations.",
+    "evidence": [
+     {
+      "claim": "Hormander 1967 paper in Proc. Symp. Pure Math. 10 (DOI 10.1090/pspum/010/0383152)",
+      "source": "Crossref; zbMATH 0167.09603",
+      "url": "https://doi.org/10.1090/pspum/010/0383152",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Earliest verified application on a target problem in the records consulted; the applications inside the 1965 Kohn-Nirenberg paper were not checked."
+   },
+   {
+    "role": "key_development",
+    "phase": "Fourier integral operators and propagation of singularities",
+    "year": 1972,
+    "endYear": null,
+    "precision": "year",
+    "label": "Fourier integral operators II (propagation of singularities)",
+    "work": "Duistermaat, J. J.; Hormander, L., Fourier integral operators II, Acta Mathematica 128 (1972) 183-269",
+    "people": [
+     "J. J. Duistermaat",
+     "Lars Hormander"
+    ],
+    "description": "Extends the calculus to Fourier integral operators, the setting in which singularities propagate along bicharacteristics.",
+    "evidence": [
+     {
+      "claim": "Duistermaat-Hormander, Fourier integral operators II, Acta Math. 1972, pages 183-269",
+      "source": "zbMATH 0232.47055",
+      "url": "https://zbmath.org/?q=an:0232.47055",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The input summary names propagation of singularities as the outcome; this paper is the standard record of that step, but the wording of the result was not checked against the paper itself."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Symbol calculus (Kohn-Nirenberg, Hormander)",
+    "year": 1981,
+    "endYear": null,
+    "precision": "year",
+    "label": "Taylor's monograph Pseudodifferential Operators",
+    "work": "Taylor, M. E., Pseudodifferential Operators, Princeton University Press (1981)",
+    "people": [
+     "Michael E. Taylor"
+    ],
+    "description": "A textbook treatment that systematised the calculus for a wider readership.",
+    "evidence": [
+     {
+      "claim": "Book title and 1981 year (Princeton, Mathematical Notes series PMS-34, DOI 10.1515/9781400886104)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1515/9781400886104",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Alberto Calderon",
+    "role": "developer",
+    "lifespan": "1920-1998",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Calderon/",
+    "works": [
+     {
+      "citation": "Calderon, A. P.; Zygmund, A., On the existence of certain singular integrals, Acta Math. 88 (1952)",
+      "year": 1952,
+      "url": "https://doi.org/10.1007/bf02392130",
+      "whyItMatters": "Foundation of the singular integral theory from which the calculus grew."
+     }
+    ],
+    "roleNote": "singular integral theory"
+   },
+   {
+    "name": "Antoni Zygmund",
+    "role": "developer",
+    "lifespan": "1900-1992",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Zygmund/",
+    "works": [
+     {
+      "citation": "Calderon, A. P.; Zygmund, A., On the existence of certain singular integrals, Acta Math. 88 (1952)",
+      "year": 1952,
+      "url": "https://doi.org/10.1007/bf02392130",
+      "whyItMatters": "Co-author of the singular integral foundations."
+     }
+    ],
+    "roleNote": "singular integral theory"
+   },
+   {
+    "name": "Joseph J. Kohn",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Joseph_J._Kohn",
+    "works": [
+     {
+      "citation": "Kohn, J. J.; Nirenberg, L., An algebra of pseudo-differential operators, Comm. Pure Appl. Math. 18 (1965)",
+      "year": 1965,
+      "url": "https://doi.org/10.1002/cpa.3160180121",
+      "whyItMatters": "Defines the operator algebra and calculus."
+     }
+    ],
+    "roleNote": "co-author of the symbol calculus"
+   },
+   {
+    "name": "Louis Nirenberg",
+    "role": "developer",
+    "lifespan": "1925-2020",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Nirenberg/",
+    "works": [
+     {
+      "citation": "Kohn, J. J.; Nirenberg, L., An algebra of pseudo-differential operators, Comm. Pure Appl. Math. 18 (1965)",
+      "year": 1965,
+      "url": "https://doi.org/10.1002/cpa.3160180121",
+      "whyItMatters": "Defines the operator algebra and calculus."
+     }
+    ],
+    "roleNote": "co-author of the symbol calculus"
+   },
+   {
+    "name": "Lars Hormander",
+    "role": "developer",
+    "lifespan": "1931-2012",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hormander/",
+    "works": [
+     {
+      "citation": "Hormander, L., Pseudo-differential operators and hypoelliptic equations, Proc. Sympos. Pure Math. 10 (1967)",
+      "year": 1967,
+      "url": "https://doi.org/10.1090/pspum/010/0383152",
+      "whyItMatters": "First verified application of the calculus to a target problem."
+     },
+     {
+      "citation": "Duistermaat, J. J.; Hormander, L., Fourier integral operators II, Acta Math. 128 (1972)",
+      "year": 1972,
+      "url": "https://zbmath.org/?q=an:0232.47055",
+      "whyItMatters": "Extends the calculus to propagation of singularities."
+     }
+    ],
+    "roleNote": "developer of the calculus and hypoellipticity"
+   },
+   {
+    "name": "Michael E. Taylor",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Michael_E._Taylor",
+    "works": [
+     {
+      "citation": "Taylor, M. E., Pseudodifferential Operators, Princeton University Press (1981)",
+      "year": 1981,
+      "url": "https://doi.org/10.1515/9781400886104",
+      "whyItMatters": "Systematic monograph that consolidated the calculus."
+     }
+    ],
+    "roleNote": "textbook author"
+   }
+  ],
+  "notes": "Sources: Wikipedia (raw wikitext, Pseudo-differential operator, history section); MacTutor biographies of Calderon, Zygmund, Hormander, Nirenberg; Crossref and zbMATH for all works. The saved Wikipedia leads for this eventId were empty. Dispute: the naming and first_statement milestones are the same 1965 paper, and the precedence of the French notes by Unterberger and Bokobza was checked in zbMATH: the 1964 note (3231475) does not use the term in its title, and the first title using 'pseudo-differentiels' is C. R. 261 (1965), after the Kohn-Nirenberg paper; the order of the two 1965 items rests on volume numbers. The 1965 KN paper is the earliest verified statement, so derived dates rely on the Crossref record. Lifespans left null where no source was checked.",
+  "searchedSources": [
+   "en.wikipedia.org raw: Pseudo-differential_operator (redirect target)",
+   "mathshistory Biographies: Calderon, Zygmund, Hormander, Nirenberg",
+   "Crossref query: Kohn-Nirenberg, Calderon-Zygmund, Hormander 1967, Duistermaat-Hormander, Taylor 1981",
+   "zbMATH: Calderon-Zygmund 1952, Unterberger-Bokobza 1965, Hormander 1967, Duistermaat-Hormander 1972, Hormander 1985"
+  ],
+  "derivedDates": {
+   "conceptual": 1965,
+   "methodological": 1967,
+   "institutional": 1965
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P227",
+  "eventId": "MB81/WB34",
+  "canonicalName": "Fuzzy sets",
+  "aliases": [
+   "fuzzy set theory",
+   "fuzzy logic (membership grades)",
+   "L-fuzzy sets"
+  ],
+  "phases": [
+   "Graded membership (Zadeh 1965)",
+   "L-valued generalisation (Goguen 1967)",
+   "Fuzzy control and applications (1975)",
+   "Systematic treatment (1980)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Graded membership (Zadeh 1965)",
+    "year": 1937,
+    "endYear": null,
+    "precision": "year",
+    "label": "Max Black on vagueness",
+    "work": "Black, M., Vagueness, Philosophy of Science 4 (1937)",
+    "people": [],
+    "description": "A philosophical analysis of vague predicates that anticipates graded membership without the mathematical structure.",
+    "evidence": [
+     {
+      "claim": "Black's Vagueness paper, Philosophy of Science 1937 (DOI 10.1086/286476)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1086/286476",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Included as a precursor only. Whether Black anticipates the mathematical notion is a judgement, not established by the record."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Graded membership (Zadeh 1965)",
+    "year": 1965,
+    "endYear": null,
+    "precision": "year",
+    "label": "Zadeh introduces fuzzy sets",
+    "work": "Zadeh, L. A., Fuzzy sets, Information and Control 8 (1965)",
+    "people": [
+     "Lotfi A. Zadeh"
+    ],
+    "description": "Defines sets whose elements have degrees of membership in the unit interval.",
+    "evidence": [
+     {
+      "claim": "Zadeh's Fuzzy sets, Information and Control (1965), DOI 10.1016/s0019-9958(65)90241-x",
+      "source": "Crossref; zbMATH",
+      "url": "https://doi.org/10.1016/s0019-9958(65)90241-x",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia states fuzzy sets were introduced by Zadeh in 1965",
+      "source": "Wikipedia, Fuzzy set",
+      "url": "https://en.wikipedia.org/wiki/Fuzzy_set",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "naming",
+    "phase": "Graded membership (Zadeh 1965)",
+    "year": 1965,
+    "endYear": null,
+    "precision": "year",
+    "label": "Term 'fuzzy sets' in the title",
+    "work": "Zadeh, L. A., Fuzzy sets (1965)",
+    "people": [
+     "Lotfi A. Zadeh"
+    ],
+    "description": "The name of the field is coined in this title.",
+    "evidence": [
+     {
+      "claim": "Title of the 1965 paper",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1016/s0019-9958(65)90241-x",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper as first_statement; it plays both roles."
+   },
+   {
+    "role": "key_development",
+    "phase": "L-valued generalisation (Goguen 1967)",
+    "year": 1967,
+    "endYear": null,
+    "precision": "year",
+    "label": "Goguen's L-fuzzy sets",
+    "work": "Goguen, J. A., L-fuzzy sets, Journal of Mathematical Analysis and Applications 18 (1967) 145-174",
+    "people": [
+     "Joseph A. Goguen"
+    ],
+    "description": "Replaces the unit interval by a general lattice, making fuzzy structures an algebraic setting.",
+    "evidence": [
+     {
+      "claim": "Goguen, L-fuzzy sets, 1967, pages 145-174; the container ISSN 0022-247X is J. Math. Anal. Appl.",
+      "source": "zbMATH 0145.24404",
+      "url": "https://zbmath.org/?q=an:0145.24404",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia notes a more general L-relation structure studied in the same period",
+      "source": "Wikipedia, Fuzzy set",
+      "url": "https://en.wikipedia.org/wiki/Fuzzy_set",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "first_application",
+    "phase": "Fuzzy control and applications (1975)",
+    "year": 1975,
+    "endYear": null,
+    "precision": "year",
+    "label": "Fuzzy logic controller experiment",
+    "work": "Mamdani, E. H.; Assilian, S., An experiment in linguistic synthesis with a fuzzy logic controller, Int. J. Man-Machine Studies 7 (1975) 1-13",
+    "people": [
+     "Ebrahim H. Mamdani"
+    ],
+    "description": "Uses fuzzy rules as a controller on a target engineering problem, the first purposeful application in the records consulted.",
+    "evidence": [
+     {
+      "claim": "Mamdani-Assilian paper, Int. J. Man-Machine Studies 1975 (DOI 10.1016/s0020-7373(75)80002-2), pages 1-13",
+      "source": "Crossref; zbMATH 0301.68076",
+      "url": "https://doi.org/10.1016/s0020-7373(75)80002-2",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Earliest application found in the sources consulted; earlier engineering uses were not searched exhaustively."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Systematic treatment (1980)",
+    "year": 1980,
+    "endYear": null,
+    "precision": "year",
+    "label": "Dubois treatise Fuzzy sets and systems",
+    "work": "Dubois, D.; Prade, H., Fuzzy Sets and Systems: Theory and Applications, Academic Press (1980)",
+    "people": [
+     "Didier Dubois"
+    ],
+    "description": "A book-length systematic treatment of fuzzy sets and their applications.",
+    "evidence": [
+     {
+      "claim": "Open Library lists 'Fuzzy sets and systems' with first publication 1980 under Didier Dubois",
+      "source": "Open Library search",
+      "url": "https://openlibrary.org/search.json?q=Dubois+Prade+Fuzzy+sets+and+systems",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The Open Library record lists Dubois as the author; the co-author Prade is taken from the standard citation and was not confirmed in the record itself."
+   }
+  ],
+  "people": [
+   {
+    "name": "Lotfi A. Zadeh",
+    "role": "originator",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Lotfi_A._Zadeh",
+    "works": [
+     {
+      "citation": "Zadeh, L. A., Fuzzy sets, Information and Control 8 (1965)",
+      "year": 1965,
+      "url": "https://doi.org/10.1016/s0019-9958(65)90241-x",
+      "whyItMatters": "Originating paper of the field and its name."
+     }
+    ],
+    "roleNote": "introduced fuzzy sets"
+   },
+   {
+    "name": "Joseph A. Goguen",
+    "role": "developer",
+    "lifespan": "1941-2006",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Joseph_A._Goguen",
+    "works": [
+     {
+      "citation": "Goguen, J. A., L-fuzzy sets, J. Math. Anal. Appl. 18 (1967) 145-174",
+      "year": 1967,
+      "url": "https://zbmath.org/?q=an:0145.24404",
+      "whyItMatters": "Generalises the membership range from the unit interval to a lattice."
+     }
+    ],
+    "roleNote": "L-valued generalisation"
+   },
+   {
+    "name": "Ebrahim H. Mamdani",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Ebrahim_Mamdani",
+    "works": [
+     {
+      "citation": "Mamdani, E. H.; Assilian, S., An experiment in linguistic synthesis with a fuzzy logic controller, Int. J. Man-Machine Studies 7 (1975)",
+      "year": 1975,
+      "url": "https://doi.org/10.1016/s0020-7373(75)80002-2",
+      "whyItMatters": "First fuzzy controller application in the sources consulted."
+     }
+    ],
+    "roleNote": "fuzzy control"
+   },
+   {
+    "name": "Didier Dubois",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Didier_Dubois",
+    "works": [
+     {
+      "citation": "Dubois, D.; Prade, H., Fuzzy Sets and Systems: Theory and Applications, Academic Press (1980)",
+      "year": 1980,
+      "url": "https://openlibrary.org/search.json?q=Dubois+Prade+Fuzzy+sets+and+systems",
+      "whyItMatters": "Consolidates the theory into a textbook."
+     }
+    ],
+    "roleNote": "co-author of the systematic treatment"
+   }
+  ],
+  "notes": "Sources: Wikipedia (raw wikitext, Fuzzy set, lead and history statements), Crossref and zbMATH for the 1937, 1965, 1967 and 1975 works, Open Library for the 1980 book. Dispute: the Wikipedia lead says Zadeh's 1965 introduction was independent and that a related L-relation structure was defined at the same time; Wikipedia's cited second structure is V. N. Salii, Binary L-relations (Izv. Vyssh. Uchebn. Zaved. Mat. 1965); a zbMATH search did not return Salii's paper, but returned Klaua, Monatsber. Dt. Akad. Wiss. Berlin 7 (1965) 859-867 (zbMATH 3248026), an independent related 1965 work. Neither is a milestone. Goguen's 1941-2006 dates come from the title of a 2007 tribute in Fuzzy Sets and Systems (Crossref). The input summary's 'generalised set theory' wording matches the 1965 paper. Institutional journal Fuzzy Sets and Systems not dated here.",
+  "searchedSources": [
+   "en.wikipedia.org raw: Fuzzy_set",
+   "Crossref: Zadeh 1965, Goguen, Black 1937, Mamdani-Assilian 1975",
+   "zbMATH: Zadeh, Goguen 1967, Mamdani-Assilian 1975",
+   "Open Library: Dubois-Prade book"
+  ],
+  "derivedDates": {
+   "conceptual": 1965,
+   "methodological": 1975,
+   "institutional": 1965
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P233",
+  "eventId": "MB89/WB36",
+  "canonicalName": "Ax-Kochen",
+  "aliases": [
+   "Ax-Kochen",
+   "Ax-Kochen theorem",
+   "Ax-Kochen-Ershov principle (later form)",
+   "model theory of valued fields"
+  ],
+  "phases": [
+   "Transfer via ultraproducts (1965)",
+   "Decidability of p-adic fields (1966)",
+   "Model-theoretic methods for topological fields (1978)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Transfer via ultraproducts (1965)",
+    "year": 1965,
+    "endYear": null,
+    "precision": "year",
+    "label": "Ax-Kochen complete axioms for p-adic fields",
+    "work": "Ax, J.; Kochen, S., Diophantine problems over local fields I, II, Amer. J. Math. 87 (1965) 605-648",
+    "people": [
+     "James Ax",
+     "Simon B. Kochen"
+    ],
+    "description": "Gives a complete axiomatisation of the p-adic fields and shows that truth transfers through ultraproducts over large primes.",
+    "evidence": [
+     {
+      "claim": "Part I and II, Amer. J. Math. 87 (1965), pages 605-630 and 631-648, DOI 10.2307/2373065",
+      "source": "zbMATH 0136.32805; Crossref",
+      "url": "https://doi.org/10.2307/2373065",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "The proof uses ultraproducts over primes and Lang's theorem for Laurent series over finite fields",
+      "source": "Wikipedia, Ax-Kochen theorem (proof section)",
+      "url": "https://en.wikipedia.org/wiki/Ax%E2%80%93Kochen_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": "Transfer via ultraproducts (1965)",
+    "year": 1965,
+    "endYear": null,
+    "precision": "year",
+    "label": "Finite exceptional set for degree-d forms over p-adic fields",
+    "work": "Ax, J.; Kochen, S., Diophantine problems over local fields I, II, Amer. J. Math. 87 (1965)",
+    "people": [
+     "James Ax",
+     "Simon B. Kochen"
+    ],
+    "description": "Applies the transfer to show that homogeneous forms of degree d have p-adic zeros for all but finitely many primes in enough variables, answering an Artin-type question.",
+    "evidence": [
+     {
+      "claim": "The theorem states a finite exceptional set of primes for each degree d, with at least d squared plus 1 variables",
+      "source": "Wikipedia, Ax-Kochen theorem (lead)",
+      "url": "https://en.wikipedia.org/wiki/Ax%E2%80%93Kochen_theorem",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Same 1965 paper as the first_statement milestone",
+      "source": "zbMATH 0136.32805",
+      "url": "https://zbmath.org/?q=an:0136.32805",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Same paper as first_statement; it plays both roles. The input summary's 'Artin's conjecture holds for large primes' overstates the claim: the paper gives a finite exceptional set, which is the Artin-type statement. Ershov's independent 1965 papers are in zbMATH (3243872, 3430642); see the event notes."
+   },
+   {
+    "role": "key_development",
+    "phase": "Decidability of p-adic fields (1966)",
+    "year": 1966,
+    "endYear": null,
+    "precision": "year",
+    "label": "Decidability of p-adic fields",
+    "work": "Ax, J.; Kochen, S., Diophantine problems over local fields III: Decidable fields, Annals of Mathematics 83 (1966) 437-456",
+    "people": [
+     "James Ax",
+     "Simon B. Kochen"
+    ],
+    "description": "Proves that the theory of p-adic fields is decidable, showing the method yields a full decision result and not only a transfer.",
+    "evidence": [
+     {
+      "claim": "Part III, Annals of Mathematics (1966), pages 437-456, DOI 10.2307/1970476",
+      "source": "zbMATH 0223.02050; Crossref",
+      "url": "https://doi.org/10.2307/1970476",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": "Model-theoretic methods for topological fields (1978)",
+    "year": 1978,
+    "endYear": null,
+    "precision": "year",
+    "label": "Prestel-Ziegler model-theoretic methods for topological fields",
+    "work": "Prestel, A.; Ziegler, M., Model-theoretic methods in the theory of topological fields, J. reine angew. Math. 299/300 (1978) 318-341",
+    "people": [
+     "Alexander Prestel",
+     "Martin Ziegler"
+    ],
+    "description": "A systematic model-theoretic treatment of fields that extends the Ax-Kochen method to topological and valued settings.",
+    "evidence": [
+     {
+      "claim": "Prestel-Ziegler, Crelle 299/300 (1978), pages 318-341, DOI 10.1515/crll.1978.299-300.318",
+      "source": "Crossref; zbMATH 0367.12014",
+      "url": "https://doi.org/10.1515/crll.1978.299-300.318",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Judged as the first systematic treatment of this strand; no separate survey earlier than 1978 was checked."
+   }
+  ],
+  "people": [
+   {
+    "name": "James Ax",
+    "role": "developer",
+    "lifespan": "1937-2006",
+    "biographyUrl": "https://en.wikipedia.org/wiki/James_Ax",
+    "works": [
+     {
+      "citation": "Ax, J.; Kochen, S., Diophantine problems over local fields I, II, Amer. J. Math. 87 (1965)",
+      "year": 1965,
+      "url": "https://doi.org/10.2307/2373065",
+      "whyItMatters": "Completeness and transfer for p-adic fields."
+     },
+     {
+      "citation": "Ax, J.; Kochen, S., Diophantine problems over local fields III: Decidable fields, Ann. of Math. 83 (1966)",
+      "year": 1966,
+      "url": "https://doi.org/10.2307/1970476",
+      "whyItMatters": "Decidability of p-adic fields."
+     }
+    ],
+    "roleNote": "co-author of the Ax-Kochen theorem"
+   },
+   {
+    "name": "Simon B. Kochen",
+    "role": "developer",
+    "lifespan": "b. 1934",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Simon_B._Kochen",
+    "works": [
+     {
+      "citation": "Ax, J.; Kochen, S., Diophantine problems over local fields I, II, Amer. J. Math. 87 (1965)",
+      "year": 1965,
+      "url": "https://doi.org/10.2307/2373065",
+      "whyItMatters": "Completeness and transfer for p-adic fields."
+     },
+     {
+      "citation": "Ax, J.; Kochen, S., Diophantine problems over local fields III: Decidable fields, Ann. of Math. 83 (1966)",
+      "year": 1966,
+      "url": "https://doi.org/10.2307/1970476",
+      "whyItMatters": "Decidability of p-adic fields."
+     }
+    ],
+    "roleNote": "co-author of the Ax-Kochen theorem"
+   },
+   {
+    "name": "Alexander Prestel",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Alexander_Prestel",
+    "works": [
+     {
+      "citation": "Prestel, A.; Ziegler, M., Model-theoretic methods in the theory of topological fields, J. reine angew. Math. 299/300 (1978)",
+      "year": 1978,
+      "url": "https://doi.org/10.1515/crll.1978.299-300.318",
+      "whyItMatters": "Systematises model-theoretic methods for fields."
+     }
+    ],
+    "roleNote": "co-author of the topological-field treatment"
+   },
+   {
+    "name": "Martin Ziegler",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Martin_Ziegler",
+    "works": [
+     {
+      "citation": "Prestel, A.; Ziegler, M., Model-theoretic methods in the theory of topological fields, J. reine angew. Math. 299/300 (1978)",
+      "year": 1978,
+      "url": "https://doi.org/10.1515/crll.1978.299-300.318",
+      "whyItMatters": "Systematises model-theoretic methods for fields."
+     }
+    ],
+    "roleNote": "co-author of the topological-field treatment"
+   }
+  ],
+  "notes": "Sources: Wikipedia (raw wikitext, Ax-Kochen theorem; its proof section), Crossref and zbMATH for the 1965, 1966 and 1978 papers. Dispute: the input summary says the ultraproduct result shows Artin's conjecture holds for large primes; the verified statement is a finite exceptional set of primes for each degree, which is the form the summary paraphrases. Ershov's contemporaneous independent work is verified in zbMATH (Algebra i Logika 4, 1965, zbMATH 3430642; Soviet Math. Dokl. 6, 1965, zbMATH 3243872) and is not used as a milestone, since its relation to the Ax-Kochen result is not established here. Ax's 1968 paper on finite fields is outside this event's core. A precursor (Los's ultraproduct theorem) was not dated from a bibliographic record, so no precursor milestone is given. No naming or institution milestone was established.",
+  "searchedSources": [
+   "en.wikipedia.org raw: Ax-Kochen_theorem",
+   "en.wikipedia.org lead: James Ax, Simon B. Kochen (saved leads)",
+   "Crossref: Ax-Kochen I, III; Prestel-Ziegler",
+   "zbMATH: Ax-Kochen I-II, III; Ax 1968; Prestel-Ziegler 1978"
+  ],
+  "derivedDates": {
+   "conceptual": 1965,
+   "methodological": 1965,
+   "institutional": 1978
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P496",
+  "eventId": "P53",
+  "canonicalName": "Inverse scattering transform and Lax pairs for soliton equations",
+  "aliases": [
+   "inverse scattering transform (IST)",
+   "inverse scattering method",
+   "Lax pair method",
+   "AKNS scheme"
+  ],
+  "phases": [
+   "Inverse spectral precursors (1951)",
+   "Soliton numerics (1965)",
+   "KdV solved by IST (1967)",
+   "Lax pairs and generalisations (1968-1974)",
+   "Textbook (1981)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Inverse spectral precursors (1951)",
+    "year": 1951,
+    "endYear": null,
+    "precision": "year",
+    "label": "Gelfand-Levitan inverse spectral problem",
+    "work": "Gelfand, I. M.; Levitan, B. M., On the determination of a differential equation from its spectral function, Izv. Akad. Nauk SSSR 15 (1951) 309-360",
+    "people": [],
+    "description": "Reconstructs a Schrodinger operator from spectral data, the linear core of the later scattering-data method.",
+    "evidence": [
+     {
+      "claim": "Gelfand-Levitan paper, pages 309-360, zbMATH 0044.09301 (1951)",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/?q=an:0044.09301",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Precursor only; the link to the nonlinear method is a historical judgement not stated in the record itself."
+   },
+   {
+    "role": "precursor",
+    "phase": "Soliton numerics (1965)",
+    "year": 1965,
+    "endYear": null,
+    "precision": "year",
+    "label": "Zabusky-Kruskal numerical soliton collisions",
+    "work": "Zabusky, N. J.; Kruskal, M. D., Interaction of 'solitons' in a collisionless plasma and the recurrence of initial states, Phys. Rev. Lett. 15 (1965) 240-243",
+    "people": [
+     "Norman J. Zabusky",
+     "Martin D. Kruskal"
+    ],
+    "description": "Numerically finds that solitary waves emerge from collisions with their shape restored, which motivated the exact method.",
+    "evidence": [
+     {
+      "claim": "Paper in Phys. Rev. Lett. 15 (1965), DOI 10.1103/physrevlett.15.240",
+      "source": "Crossref; zbMATH 1201.35174",
+      "url": "https://doi.org/10.1103/physrevlett.15.240",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia credits Zabusky and Kruskal's numerical work with the particle-like soliton collisions that led to the method",
+      "source": "Wikipedia, Inverse scattering transform (History)",
+      "url": "https://en.wikipedia.org/wiki/Inverse_scattering_transform",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_statement",
+    "phase": "KdV solved by IST (1967)",
+    "year": 1967,
+    "endYear": null,
+    "precision": "year",
+    "label": "Gardner-Greene-Kruskal-Miura method for the KdV equation",
+    "work": "Gardner, C. S.; Greene, J. M.; Kruskal, M. D.; Miura, R. M., Method for solving the Korteweg-de Vries equation, Phys. Rev. Lett. 19 (1967) 1095-1097",
+    "people": [
+     "Clifford S. Gardner",
+     "Martin D. Kruskal",
+     "Robert M. Miura"
+    ],
+    "description": "Introduces the inverse scattering transform for solving the KdV equation.",
+    "evidence": [
+     {
+      "claim": "Paper in Phys. Rev. Lett. 19 (1967), DOI 10.1103/physrevlett.19.1095",
+      "source": "Crossref; zbMATH 1061.35520",
+      "url": "https://doi.org/10.1103/physrevlett.19.1095",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia credits this group with introducing the inverse scattering transform for KdV",
+      "source": "Wikipedia, Inverse scattering transform (History)",
+      "url": "https://en.wikipedia.org/wiki/Inverse_scattering_transform",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": "KdV solved by IST (1967)",
+    "year": 1967,
+    "endYear": null,
+    "precision": "year",
+    "label": "Exact solution of the KdV initial-value problem",
+    "work": "Gardner, C. S.; Greene, J. M.; Kruskal, M. D.; Miura, R. M., Method for solving the Korteweg-de Vries equation, Phys. Rev. Lett. 19 (1967)",
+    "people": [
+     "Clifford S. Gardner",
+     "Martin D. Kruskal"
+    ],
+    "description": "The same paper first applies the transform to the KdV equation, which is the target problem.",
+    "evidence": [
+     {
+      "claim": "Same 1967 paper as the first_statement milestone",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1103/physrevlett.19.1095",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper as first_statement; it plays both roles."
+   },
+   {
+    "role": "key_development",
+    "phase": "Lax pairs and generalisations (1968-1974)",
+    "year": 1968,
+    "endYear": null,
+    "precision": "year",
+    "label": "Lax pair and isospectral flow",
+    "work": "Lax, P. D., Integrals of nonlinear equations of evolution and solitary waves, Comm. Pure Appl. Math. 21 (1968) 467-490",
+    "people": [
+     "Peter D. Lax"
+    ],
+    "description": "Recasts nonlinear evolution equations as isospectral flows of an operator pair, which gives the conserved quantities and the general structure.",
+    "evidence": [
+     {
+      "claim": "Lax's paper in CPAM 21 (1968), pages 467-490, DOI 10.1002/cpa.3160210503",
+      "source": "Crossref; zbMATH 0162.41103",
+      "url": "https://doi.org/10.1002/cpa.3160210503",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia says Lax generalised the KdV approach to other equations",
+      "source": "Wikipedia, Inverse scattering transform (History)",
+      "url": "https://en.wikipedia.org/wiki/Inverse_scattering_transform",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": "Lax pairs and generalisations (1968-1974)",
+    "year": 1974,
+    "endYear": null,
+    "precision": "year",
+    "label": "Zakharov-Shabat scheme for nonlinear Schrodinger and general scattering problems",
+    "work": "Zakharov, V. E.; Shabat, A. B., A scheme for integrating the nonlinear equations of mathematical physics by the method of the inverse scattering problem, Funct. Anal. Appl. 8 (1974) 226-235",
+    "people": [
+     "V. E. Zakharov",
+     "A. B. Shabat"
+    ],
+    "description": "Extends the scheme to a new nonlinear equation (the nonlinear Schrodinger equation), which is the step beyond KdV.",
+    "evidence": [
+     {
+      "claim": "Zakharov-Shabat scheme indexed by zbMATH 0303.35024, pages 226-235 (1974)",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/?q=an:0303.35024",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia lists the nonlinear Schrodinger equation among equations solved by the generalised approach",
+      "source": "Wikipedia, Inverse scattering transform (History)",
+      "url": "https://en.wikipedia.org/wiki/Inverse_scattering_transform",
+      "kind": "history_page"
+     },
+     {
+      "claim": "zbMATH 3474158: Funct. Anal. Appl. 8 (1974) 226-235, translation of Funkts. Anal. Prilozh. 8, No. 3 (1974) 43-53",
+      "source": "zbMATH Open 3474158",
+      "url": "https://zbmath.org/3474158",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The 1972 JETP paper on self-focusing, usually cited as the NLS application, was not found in Crossref or zbMATH; the 1974 zbMATH record is used instead. The year of the first NLS application may therefore be earlier than 1974."
+   },
+   {
+    "role": "naming",
+    "phase": "Lax pairs and generalisations (1968-1974)",
+    "year": 1974,
+    "endYear": null,
+    "precision": "year",
+    "label": "Name 'inverse scattering transform' in a title",
+    "work": "Ablowitz, M. J.; Kaup, D. J.; Newell, A. C.; Segur, H., The inverse scattering transform-Fourier analysis for nonlinear problems, Studies in Applied Mathematics 53 (1974) 249-315",
+    "people": [
+     "Mark J. Ablowitz",
+     "David J. Kaup",
+     "Alan C. Newell",
+     "Harvey Segur"
+    ],
+    "description": "Uses the name of the method in the title and gives the general AKNS framework.",
+    "evidence": [
+     {
+      "claim": "AKNS paper, Stud. Appl. Math. 53 (1974), DOI 10.1002/sapm1974534249, pages 249-315",
+      "source": "Crossref; zbMATH 0408.35068",
+      "url": "https://doi.org/10.1002/sapm1974534249",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": "Textbook (1981)",
+    "year": 1981,
+    "endYear": null,
+    "precision": "year",
+    "label": "Ablowitz-Segur monograph on solitons and IST",
+    "work": "Ablowitz, M. J.; Segur, H., Solitons and the Inverse Scattering Transform, SIAM (1981)",
+    "people": [
+     "Mark J. Ablowitz",
+     "Harvey Segur"
+    ],
+    "description": "The first book-length treatment of the method and its soliton applications.",
+    "evidence": [
+     {
+      "claim": "Monograph in SIAM (1981), DOI 10.1137/1.9781611970883",
+      "source": "Crossref; zbMATH 0472.35002",
+      "url": "https://doi.org/10.1137/1.9781611970883",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Clifford S. Gardner",
+    "role": "originator",
+    "lifespan": "1924-2013",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Clifford_S._Gardner",
+    "works": [
+     {
+      "citation": "Gardner, C. S.; Greene, J. M.; Kruskal, M. D.; Miura, R. M., Method for solving the Korteweg-de Vries equation, Phys. Rev. Lett. 19 (1967)",
+      "year": 1967,
+      "url": "https://doi.org/10.1103/physrevlett.19.1095",
+      "whyItMatters": "Originating paper of the inverse scattering transform."
+     }
+    ],
+    "roleNote": "introduced the transform for KdV"
+   },
+   {
+    "name": "Martin D. Kruskal",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Martin_David_Kruskal",
+    "works": [
+     {
+      "citation": "Zabusky, N. J.; Kruskal, M. D., Interaction of solitons..., Phys. Rev. Lett. 15 (1965)",
+      "year": 1965,
+      "url": "https://doi.org/10.1103/physrevlett.15.240",
+      "whyItMatters": "Numerical discovery of soliton collisions."
+     },
+     {
+      "citation": "Gardner, C. S.; Greene, J. M.; Kruskal, M. D.; Miura, R. M., Method for solving the Korteweg-de Vries equation, Phys. Rev. Lett. 19 (1967)",
+      "year": 1967,
+      "url": "https://doi.org/10.1103/physrevlett.19.1095",
+      "whyItMatters": "Introduces the transform."
+     }
+    ],
+    "roleNote": "soliton numerics and IST"
+   },
+   {
+    "name": "Peter D. Lax",
+    "role": "developer",
+    "lifespan": "1926-2025",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lax_Peter/",
+    "works": [
+     {
+      "citation": "Lax, P. D., Integrals of nonlinear equations of evolution and solitary waves, Comm. Pure Appl. Math. 21 (1968)",
+      "year": 1968,
+      "url": "https://doi.org/10.1002/cpa.3160210503",
+      "whyItMatters": "Lax pair formalism and conserved integrals."
+     }
+    ],
+    "roleNote": "Lax pairs"
+   },
+   {
+    "name": "Norman J. Zabusky",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Norman_J._Zabusky",
+    "works": [
+     {
+      "citation": "Zabusky, N. J.; Kruskal, M. D., Interaction of solitons..., Phys. Rev. Lett. 15 (1965)",
+      "year": 1965,
+      "url": "https://doi.org/10.1103/physrevlett.15.240",
+      "whyItMatters": "Numerical discovery of soliton collisions."
+     }
+    ],
+    "roleNote": "soliton numerics"
+   },
+   {
+    "name": "V. E. Zakharov",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/V._E._Zakharov",
+    "works": [
+     {
+      "citation": "Zakharov, V. E.; Shabat, A. B., scheme for integrating nonlinear equations by inverse scattering, zbMATH 0303.35024 (1974)",
+      "year": 1974,
+      "url": "https://zbmath.org/?q=an:0303.35024",
+      "whyItMatters": "Extends the method beyond KdV."
+     }
+    ],
+    "roleNote": "scheme for nonlinear equations"
+   },
+   {
+    "name": "Mark J. Ablowitz",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Mark_J._Ablowitz",
+    "works": [
+     {
+      "citation": "Ablowitz, M. J.; Kaup, D. J.; Newell, A. C.; Segur, H., The inverse scattering transform-Fourier analysis..., Stud. Appl. Math. 53 (1974)",
+      "year": 1974,
+      "url": "https://doi.org/10.1002/sapm1974534249",
+      "whyItMatters": "Names the method and gives the AKNS framework."
+     },
+     {
+      "citation": "Ablowitz, M. J.; Segur, H., Solitons and the Inverse Scattering Transform, SIAM (1981)",
+      "year": 1981,
+      "url": "https://doi.org/10.1137/1.9781611970883",
+      "whyItMatters": "First monograph."
+     }
+    ],
+    "roleNote": "general scheme and monograph"
+   }
+  ],
+  "notes": "Sources: Wikipedia (raw wikitext, Inverse scattering transform, history section); MacTutor biography of Peter Lax (1926-2025; the MacTutor page for 'Lax' without the first name is a different person and was not used); Crossref and zbMATH for the works. Dispute: the 1972 JETP self-focusing paper by Zakharov and Shabat was not found in either index, and a second zbMATH search (title 'self-focusing' 1971-1973; authors Zakharov and Shabat 1971-1974) also found no 1972 record, so that step stays unresolved. The 1974 zbMATH record stands in for it: zbMATH 3474158, Funct. Anal. Appl. 8 (1974) 226-235, a translation of Funkts. Anal. Prilozh. 8 (1974) 43-53. The 1967 GGKM paper plays both first_statement and first_application (same paper, noted). Kruskal's lifespan and the other co-authors' lifespans were not checked.",
+  "searchedSources": [
+   "en.wikipedia.org raw: Inverse_scattering_transform",
+   "mathshistory Biographies: Lax_Peter",
+   "Crossref: GGKM 1967, Zabusky-Kruskal 1965, Lax 1968, AKNS 1974, Ablowitz-Segur 1981",
+   "zbMATH: Gelfand-Levitan 1951, Zakharov-Shabat 1974, Lax 1968, AKNS 1974, Ablowitz-Segur 1981"
+  ],
+  "derivedDates": {
+   "conceptual": 1967,
+   "methodological": 1967,
+   "institutional": 1974
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P513",
+  "eventId": "P71",
+  "canonicalName": "Classification theory in model theory (Morley, Shelah)",
+  "aliases": [
+   "classification theory",
+   "stability theory (Shelah)",
+   "Morley categoricity and stability"
+  ],
+  "phases": [
+   "Conjecture on categoricity (1954)",
+   "Stability and dividing lines (1965-1971)",
+   "Classification programme in monograph form (1978)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Conjecture on categoricity (1954)",
+    "year": 1954,
+    "endYear": null,
+    "precision": "year",
+    "label": "Los's question on categoricity in uncountable cardinals",
+    "work": null,
+    "people": [],
+    "description": "Jerzy Los noticed the categoricity question that Morley answered; it is a precursor, not a publication.",
+    "evidence": [
+     {
+      "claim": "Wikipedia says that in 1954 Jerzy Los noticed the link between categoricity and the number of models",
+      "source": "Wikipedia, Categorical theory (History)",
+      "url": "https://en.wikipedia.org/wiki/Categorical_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Precursor only; does not set a derived date."
+   },
+   {
+    "role": "precursor",
+    "phase": "Stability and dividing lines (1965-1971)",
+    "year": 1965,
+    "endYear": null,
+    "precision": "year",
+    "label": "Morley's categoricity theorem",
+    "work": "Morley, M., Categoricity in power, Trans. Amer. Math. Soc. 114 (1965) 514-538",
+    "people": [
+     "Michael Morley"
+    ],
+    "description": "Proves that a countable theory categorical in one uncountable cardinal is categorical in all uncountable cardinals; the theorem that drove the classification programme.",
+    "evidence": [
+     {
+      "claim": "Paper in Trans. Amer. Math. Soc. (1965), DOI 10.1090/s0002-9947-1965-0175782-0, pages 514-538",
+      "source": "Crossref; zbMATH 0151.01101",
+      "url": "https://doi.org/10.1090/s0002-9947-1965-0175782-0",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Morley's theorem is the source of stability theory",
+      "source": "Wikipedia, Stable theory (lead)",
+      "url": "https://en.wikipedia.org/wiki/Stable_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Reclassified from key_development to precursor: it predates this event's first statement (1969) and belongs to the wider field."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Stability and dividing lines (1965-1971)",
+    "year": 1969,
+    "endYear": null,
+    "precision": "year",
+    "label": "Shelah defines stable theories",
+    "work": "Shelah, S., Stable theories, Israel J. Math. 7 (1969) 187-202",
+    "people": [
+     "Saharon Shelah"
+    ],
+    "description": "Introduces stability as a dividing line between theories with a classifiable and theories with too many models.",
+    "evidence": [
+     {
+      "claim": "Paper in Israel J. Math. (1969), DOI 10.1007/bf02787611, pages 187-202",
+      "source": "Crossref; zbMATH 0193.30002",
+      "url": "https://doi.org/10.1007/bf02787611",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia dates stable theories to Shelah's classification theory programme",
+      "source": "Wikipedia, Stable theory (lead; redirect target)",
+      "url": "https://en.wikipedia.org/wiki/Stable_theory",
+      "kind": "history_page"
+     },
+     {
+      "claim": "zbMATH: Shelah, 'Stable theories', Israel J. Math. 7 (1969) 187-202",
+      "source": "zbMATH Open 3307522",
+      "url": "https://zbmath.org/3307522",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": "Stability and dividing lines (1965-1971)",
+    "year": 1970,
+    "endYear": null,
+    "precision": "year",
+    "label": "Stability in power applied to counting models",
+    "work": "Shelah, S., Finite diagrams stable in power, Annals of Mathematical Logic 2 (1970) 69-118",
+    "people": [
+     "Saharon Shelah"
+    ],
+    "description": "Applies the stability notion to count non-isomorphic models of a theory of a given power, the target problem of the classification programme.",
+    "evidence": [
+     {
+      "claim": "Paper in Annals of Mathematical Logic 2 (1970), DOI 10.1016/0003-4843(70)90007-0, pages 69-118",
+      "source": "Crossref; zbMATH 0204.31104",
+      "url": "https://doi.org/10.1016/0003-4843(70)90007-0",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Judged as the first purposeful application; the paper's contents were checked only at the level of the title and record."
+   },
+   {
+    "role": "key_development",
+    "phase": "Stability and dividing lines (1965-1971)",
+    "year": 1971,
+    "endYear": null,
+    "precision": "year",
+    "label": "Superstability and the finite cover property",
+    "work": "Shelah, S., Stability, the f.c.p., and superstability; model theoretic properties of formulas in first order theory, Annals of Mathematical Logic 3 (1971)",
+    "people": [
+     "Saharon Shelah"
+    ],
+    "description": "Separates stable from unstable theories with the finite cover property and introduces superstability, sharpening the dividing line.",
+    "evidence": [
+     {
+      "claim": "Paper in Annals of Mathematical Logic 3 (1971), DOI 10.1016/0003-4843(71)90015-5",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1016/0003-4843(71)90015-5",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "naming",
+    "phase": "Classification programme in monograph form (1978)",
+    "year": 1978,
+    "endYear": null,
+    "precision": "year",
+    "label": "Title 'Classification theory' in a monograph",
+    "work": "Shelah, S., Classification Theory and the Number of Non-Isomorphic Models, North-Holland (1978)",
+    "people": [
+     "Saharon Shelah"
+    ],
+    "description": "The name 'classification theory' is fixed by this monograph title.",
+    "evidence": [
+     {
+      "claim": "Monograph title and 1978 year (zbMATH 0388.03009)",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/?q=an:0388.03009",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same book as the consolidation milestone; it plays both roles."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Classification programme in monograph form (1978)",
+    "year": 1978,
+    "endYear": null,
+    "precision": "year",
+    "label": "Shelah's monograph on classification theory",
+    "work": "Shelah, S., Classification Theory and the Number of Non-Isomorphic Models, North-Holland (1978)",
+    "people": [
+     "Saharon Shelah"
+    ],
+    "description": "The first systematic book-length treatment of the classification programme.",
+    "evidence": [
+     {
+      "claim": "Monograph title and 1978 year",
+      "source": "zbMATH 0388.03009; MacTutor, Shelah biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Shelah/",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same book as the naming milestone; MacTutor reports the book as a 1978 publication."
+   }
+  ],
+  "people": [
+   {
+    "name": "Michael Morley",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Michael_Morley",
+    "works": [
+     {
+      "citation": "Morley, M., Categoricity in power, Trans. Amer. Math. Soc. 114 (1965) 514-538",
+      "year": 1965,
+      "url": "https://doi.org/10.1090/s0002-9947-1965-0175782-0",
+      "whyItMatters": "Categoricity theorem that set the programme."
+     }
+    ],
+    "roleNote": "categoricity theorem"
+   },
+   {
+    "name": "Saharon Shelah",
+    "role": "developer",
+    "lifespan": "b. 1945",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Shelah/",
+    "works": [
+     {
+      "citation": "Shelah, S., Stable theories, Israel J. Math. 7 (1969) 187-202",
+      "year": 1969,
+      "url": "https://doi.org/10.1007/bf02787611",
+      "whyItMatters": "Defines stability as the dividing line."
+     },
+     {
+      "citation": "Shelah, S., Stability, the f.c.p., and superstability, Ann. Math. Logic 3 (1971)",
+      "year": 1971,
+      "url": "https://doi.org/10.1016/0003-4843(71)90015-5",
+      "whyItMatters": "Superstability and finite cover property."
+     },
+     {
+      "citation": "Shelah, S., Classification Theory and the Number of Non-Isomorphic Models, North-Holland (1978)",
+      "year": 1978,
+      "url": "https://zbmath.org/?q=an:0388.03009",
+      "whyItMatters": "Monograph that names and organises the classification programme."
+     }
+    ],
+    "roleNote": "classification theory"
+   }
+  ],
+  "notes": "Sources: Wikipedia (raw wikitext: Categorical theory history; Stable theory lead, whose raw page is a redirect that was followed through the saved text), MacTutor Shelah biography (1945 birth year), Crossref and zbMATH for the 1965-1978 works. Dispute: the input summary says categoricity in uncountable cardinals leads to stability; the historical sources give Morley's theorem as the key development and Shelah's stability notions as the dividing line, with the first_statement placed at Shelah's 1969 paper. The 1969, 1970 and 1971 Shelah papers are now confirmed in zbMATH (3307522, 3324724, 3440427), and Morley's 1965 paper in zbMATH (3242162). Their contents are still checked by record only. The MacTutor 'Morley' biography URL is for a different Morley (Frank Morley) and was not used. No institution milestone was found beyond the monograph.",
+  "searchedSources": [
+   "en.wikipedia.org raw: Categorical_theory, Stable_theory (redirect to Stable theory)",
+   "mathshistory Biographies: Shelah",
+   "Crossref: Morley 1965, Shelah 1969-1971 and 1978",
+   "zbMATH: Morley 1965, Shelah 1969, 1970, 1978"
+  ],
+  "derivedDates": {
+   "conceptual": 1969,
+   "methodological": 1970,
+   "institutional": 1978
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P528",
+  "eventId": "Q9",
+  "canonicalName": "Chowla cosine problem via Cayley graph eigenvalues and MaxCut",
+  "aliases": [
+   "Chowla's cosine problem",
+   "minimum of sums of cosines",
+   "Chowla cosine problem (polynomial bounds)"
+  ],
+  "phases": [
+   "Chowla's problem (1965)",
+   "Spectral-clique method (2025)",
+   "Improved exponent (2025)",
+   "Refined eigenvalue estimates (2026)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Chowla's problem (1965)",
+    "year": 1965,
+    "endYear": null,
+    "precision": "year",
+    "label": "Chowla's cosine problem posed",
+    "work": "Chowla, S. (1965), original paper not located in Crossref or zbMATH",
+    "people": [],
+    "description": "A problem about the largest possible minimum of sums of cosines of distinct positive integers, posed by Chowla.",
+    "evidence": [
+     {
+      "claim": "The problem is described as Chowla's cosine problem (1965)",
+      "source": "arXiv:2509.03490 abstract (Jin, Milojevic, Tomon, Zhang)",
+      "url": "https://arxiv.org/abs/2509.03490",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Year taken from a 2025 abstract; the 1965 publication was not verified in a bibliographic index. Precursor only."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 2010,
+    "precision": "year",
+    "label": "Sanders titles the paper Chowla's cosine problem",
+    "work": "Sanders, T., Chowla's cosine problem, 2010",
+    "people": [
+     "Sanders"
+    ],
+    "description": "Earliest zbMATH title found that uses the Chowla name for the cosine problem.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: \"Chowla's cosine problem\", Sanders, 2010",
+      "source": "zbMATH Open doc 5823080",
+      "url": "https://api.zbmath.org/v1/document/5823080",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Earlier cosine-problem titles (Uchiyama 1960, Kolountzakis 1994) do not name Chowla. Based on the top zbMATH hits for the phrase, so not fully exhaustive. Reclassified from naming to precursor: it predates this event's first statement (2025) and belongs to the wider field.",
+    "endYear": null
+   },
+   {
+    "role": "first_statement",
+    "phase": "Spectral-clique method (2025)",
+    "year": 2025,
+    "endYear": null,
+    "precision": "year",
+    "label": "First polynomial bound for the Chowla cosine problem",
+    "work": "Jin, Z.; Milojevic, A.; Tomon, I.; Zhang, S., From small eigenvalues to large cuts, and Chowla's cosine problem, arXiv:2509.03490 (2025)",
+    "people": [
+     "Zhihan Jin",
+     "Aleksa Milojevic",
+     "Istvan Tomon",
+     "Shengtong Zhang"
+    ],
+    "description": "Shows that graphs with small least eigenvalue contain large cliques, which gives the bound that the minimum of the cosine sum is at most minus |A| to the power 1/10 minus o(1).",
+    "evidence": [
+     {
+      "claim": "Abstract states the first polynomial bound for Chowla's problem with exponent 1/10 minus o(1)",
+      "source": "arXiv abstract 2509.03490v2 (submitted 3 Sept 2025)",
+      "url": "https://arxiv.org/abs/2509.03490",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Arxiv preprint; the 'first' claim is the authors' own and was not independently checked. The input summary's wording (clique-free Cayley graphs) is not in the abstract consulted, so it is treated as unverified. Same paper as first_application."
+   },
+   {
+    "role": "first_application",
+    "phase": "Spectral-clique method (2025)",
+    "year": 2025,
+    "endYear": null,
+    "precision": "year",
+    "label": "Spectral-clique method applied to Chowla",
+    "work": "Jin, Z.; Milojevic, A.; Tomon, I.; Zhang, S., From small eigenvalues to large cuts, and Chowla's cosine problem, arXiv:2509.03490 (2025)",
+    "people": [
+     "Zhihan Jin",
+     "Istvan Tomon"
+    ],
+    "description": "The first use of the graph-eigenvalue method on the cosine problem, as the abstract presents it.",
+    "evidence": [
+     {
+      "claim": "Same preprint as the first_statement milestone",
+      "source": "arXiv:2509.03490",
+      "url": "https://arxiv.org/abs/2509.03490",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Same paper as first_statement; it plays both roles."
+   },
+   {
+    "role": "key_development",
+    "phase": "Improved exponent (2025)",
+    "year": 2025,
+    "endYear": null,
+    "precision": "year",
+    "label": "Polynomial bound with exponent 1/5",
+    "work": "Bedert, B., Polynomial bounds for the Chowla cosine problem, arXiv:2509.05260 (2025)",
+    "people": [
+     "Benjamin Bedert"
+    ],
+    "description": "Proves min over x of the cosine sum is at most minus n to the power 1/5 minus o(1), an improved polynomial exponent.",
+    "evidence": [
+     {
+      "claim": "Abstract: min f_A(x) <= -n^(1/5 - o(1)) for n = |A| distinct positive integers",
+      "source": "arXiv abstract 2509.05260v3 (submitted 5 Sept 2025)",
+      "url": "https://arxiv.org/abs/2509.05260",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Submitted two days after the Jin et al. preprint with a better exponent; the priority question is not settled by the arXiv dates."
+   },
+   {
+    "role": "key_development",
+    "phase": "Refined eigenvalue estimates (2026)",
+    "year": 2026,
+    "endYear": null,
+    "precision": "year",
+    "label": "Refined least-eigenvalue estimates for Chowla's problem",
+    "work": "Yip, F., Lower bounds for the magnitude of the minimum eigenvalue of graphs with applications to MaxCut and Chowla's cosine problem, arXiv:2610.01657 (2026)",
+    "people": [
+     "Fredy Yip"
+    ],
+    "description": "Refines the Jin-Milojevic-Tomon-Zhang recursive estimate and applies it to Chowla's problem.",
+    "evidence": [
+     {
+      "claim": "Abstract says the refinement yields improved estimates for Chowla's cosine problem",
+      "source": "arXiv abstract 2610.01657v2 (2026-10-01)",
+      "url": "https://arxiv.org/abs/2610.01657",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Recent preprint; the authors list was taken from the arXiv entry as retrieved (only one name appeared in the record parsed) and the exponent claim was not checked."
+   }
+  ],
+  "people": [
+   {
+    "name": "Benjamin Bedert",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Benjamin_Bedert",
+    "works": [
+     {
+      "citation": "Bedert, B., Polynomial bounds for the Chowla cosine problem, arXiv:2509.05260 (2025)",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2509.05260",
+      "whyItMatters": "Best exponent in the abstracts consulted."
+     }
+    ],
+    "roleNote": "polynomial bound with exponent 1/5"
+   },
+   {
+    "name": "Zhihan Jin",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Zhihan_Jin",
+    "works": [
+     {
+      "citation": "Jin, Z.; Milojevic, A.; Tomon, I.; Zhang, S., From small eigenvalues to large cuts, and Chowla's cosine problem, arXiv:2509.03490 (2025)",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2509.03490",
+      "whyItMatters": "First polynomial bound claimed by the authors."
+     }
+    ],
+    "roleNote": "spectral-clique method"
+   },
+   {
+    "name": "Aleksa Milojevic",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Aleksa_Milojevic",
+    "works": [
+     {
+      "citation": "Jin, Z.; Milojevic, A.; Tomon, I.; Zhang, S., From small eigenvalues to large cuts, and Chowla's cosine problem, arXiv:2509.03490 (2025)",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2509.03490",
+      "whyItMatters": "Co-author of the first polynomial bound."
+     }
+    ],
+    "roleNote": "spectral-clique method"
+   },
+   {
+    "name": "Istvan Tomon",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Istvan_Tomon",
+    "works": [
+     {
+      "citation": "Jin, Z.; Milojevic, A.; Tomon, I.; Zhang, S., From small eigenvalues to large cuts, and Chowla's cosine problem, arXiv:2509.03490 (2025)",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2509.03490",
+      "whyItMatters": "Co-author of the first polynomial bound."
+     }
+    ],
+    "roleNote": "spectral-clique method"
+   },
+   {
+    "name": "Shengtong Zhang",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Shengtong_Zhang",
+    "works": [
+     {
+      "citation": "Jin, Z.; Milojevic, A.; Tomon, I.; Zhang, S., From small eigenvalues to large cuts, and Chowla's cosine problem, arXiv:2509.03490 (2025)",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2509.03490",
+      "whyItMatters": "Co-author of the first polynomial bound."
+     }
+    ],
+    "roleNote": "spectral-clique method"
+   }
+  ],
+  "notes": "Sources: arXiv API (abstracts of 2509.03490, 2509.05260, 2610.01657 and related search results); Crossref and zbMATH searches for Chowla's 1965 paper (not located). Wikipedia has no article on Chowla's cosine problem (raw page returned 404), and MacTutor's Chowla biography (Sarvadaman Chowla) does not discuss the problem, so the 1965 date rests on the 2025 abstract. Dispute: the input summary says the eigenvalue approach gave the first power-of-N bounds; the JMTZ abstract makes that claim, Bedert's submission two days later improves the exponent, and the 2026 refinement builds on JMTZ. The priority of the 'first' bound is not settled by the arXiv dates; both are preprints. The summary's 'clique-free Cayley graphs' framing was not confirmed against the abstract. Derived institutional date is null because no naming, consolidation or institution milestone was found.",
+  "searchedSources": [
+   "arXiv API: Chowla cosine queries (ti/abs/all) and id_list 2509.03490, 2509.05260",
+   "Crossref and zbMATH: Chowla 1965 (not found)",
+   "en.wikipedia.org raw: Chowla_cosine_problem (404)"
+  ],
+  "derivedDates": {
+   "conceptual": 2025,
+   "methodological": 2025,
+   "institutional": null
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P206",
+  "eventId": "MB124/WB100",
+  "canonicalName": "Kac-Moody algebras",
+  "aliases": [
+   "Kac-Moody Lie algebras",
+   "generalised Cartan matrix algebras",
+   "infinite-dimensional Lie algebras from Cartan matrices"
+  ],
+  "phases": [
+   "Cartan-matrix background (Serre 1966)",
+   "Moody and Kac construction (1967-68)",
+   "Textbook treatment (1983)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Cartan-matrix background (Serre 1966)",
+    "year": 1966,
+    "endYear": null,
+    "precision": "year",
+    "label": "Serre's presentation of finite-dimensional simple Lie algebras",
+    "work": null,
+    "people": [
+     "Jean-Pierre Serre"
+    ],
+    "description": "Serre showed that the Chevalley-Harish-Chandra relations present simple Lie algebras from the Cartan matrix, which is the setting the generalisation extends.",
+    "evidence": [
+     {
+      "claim": "Wikipedia says Serre showed in 1966 that the relations give a defining presentation",
+      "source": "Wikipedia, Kac-Moody algebra (History)",
+      "url": "https://en.wikipedia.org/wiki/Kac%E2%80%93Moody_algebra",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Precursor only; Serre's own 1966 publication was not checked in Crossref or zbMATH."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Moody and Kac construction (1967-68)",
+    "year": 1967,
+    "endYear": null,
+    "precision": "year",
+    "label": "Lie algebras from generalised Cartan matrices",
+    "work": "Moody, R. V., Lie algebras associated with generalized Cartan matrices, Bull. Amer. Math. Soc. 73 (1967) 217-221",
+    "people": [
+     "Robert V. Moody"
+    ],
+    "description": "Associates an infinite-dimensional Lie algebra to a Cartan matrix that is no longer positive definite.",
+    "evidence": [
+     {
+      "claim": "Paper in Bull. Amer. Math. Soc. (1967), DOI 10.1090/s0002-9904-1967-11688-4, pages 217-221",
+      "source": "Crossref; zbMATH 0154.27303",
+      "url": "https://doi.org/10.1090/s0002-9904-1967-11688-4",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia says Kac and Moody independently developed the construction in 1967-68",
+      "source": "Wikipedia, Kac-Moody algebra (lead and History)",
+      "url": "https://en.wikipedia.org/wiki/Kac%E2%80%93Moody_algebra",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": "Moody and Kac construction (1967-68)",
+    "year": 1968,
+    "endYear": null,
+    "precision": "year",
+    "label": "Classification of graded Lie algebras of finite growth",
+    "work": "Kac, V. G., Simple irreducible graded Lie algebras of finite growth, Izv. Akad. Nauk SSSR (1968)",
+    "people": [
+     "Victor G. Kac"
+    ],
+    "description": "Uses the Cartan-matrix construction on a target problem: classifying graded Lie algebras of finite growth.",
+    "evidence": [
+     {
+      "claim": "Paper in Mathematics of the USSR-Izvestiya (1968), DOI 10.1070/im1968v002n06abeh000729",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1070/im1968v002n06abeh000729",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": "Moody and Kac construction (1967-68)",
+    "year": 1968,
+    "endYear": null,
+    "precision": "year",
+    "label": "Moody's new class of Lie algebras",
+    "work": "Moody, R. V., A new class of Lie algebras, J. Algebra (1968), pages 221-230 as indexed by zbMATH",
+    "people": [
+     "Robert V. Moody"
+    ],
+    "description": "Gives the full structure of the algebras and shows that the class contains the known examples.",
+    "evidence": [
+     {
+      "claim": "Paper in J. Algebra (1968), DOI 10.1016/0021-8693(68)90096-3; zbMATH 0191.03005 indexes pages 221-230",
+      "source": "Crossref; zbMATH",
+      "url": "https://doi.org/10.1016/0021-8693(68)90096-3",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The journal citation is given without the starting page; zbMATH 0191.03005 indexes pages 221-230, which was not reconciled with the printed first page."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Textbook treatment (1983)",
+    "year": 1983,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kac's textbook Infinite dimensional Lie algebras",
+    "work": "Kac, V. G., Infinite Dimensional Lie Algebras, first edition (1983); later edition Cambridge University Press (1990)",
+    "people": [
+     "Victor G. Kac"
+    ],
+    "description": "A textbook treatment of Kac-Moody algebras; the first edition year is taken from Open Library.",
+    "evidence": [
+     {
+      "claim": "Open Library lists 'Infinite dimensional Lie algebras' by Victor G. Kac with first publication 1983",
+      "source": "Open Library search",
+      "url": "https://openlibrary.org/search.json?q=Infinite+dimensional+Lie+algebras+Kac",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Later edition DOI 10.1017/cbo9780511626234 (1990)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1017/cbo9780511626234",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The 1983 date is from an Open Library record; the publisher of the first edition was not confirmed."
+   }
+  ],
+  "people": [
+   {
+    "name": "Robert V. Moody",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Robert_V._Moody",
+    "works": [
+     {
+      "citation": "Moody, R. V., Lie algebras associated with generalized Cartan matrices, Bull. Amer. Math. Soc. 73 (1967) 217-221",
+      "year": 1967,
+      "url": "https://doi.org/10.1090/s0002-9904-1967-11688-4",
+      "whyItMatters": "First statement of the construction."
+     },
+     {
+      "citation": "Moody, R. V., A new class of Lie algebras, J. Algebra 10 (1968)",
+      "year": 1968,
+      "url": "https://doi.org/10.1016/0021-8693(68)90096-3",
+      "whyItMatters": "Full structure of the class."
+     }
+    ],
+    "roleNote": "independent construction"
+   },
+   {
+    "name": "Victor G. Kac",
+    "role": "developer",
+    "lifespan": "b. 1943",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Victor_Kac",
+    "works": [
+     {
+      "citation": "Kac, V. G., Simple irreducible graded Lie algebras of finite growth, Izv. Akad. Nauk SSSR (1968)",
+      "year": 1968,
+      "url": "https://doi.org/10.1070/im1968v002n06abeh000729",
+      "whyItMatters": "Classification application on finite growth."
+     },
+     {
+      "citation": "Kac, V. G., Infinite Dimensional Lie Algebras (1983; 1990 CUP edition)",
+      "year": 1983,
+      "url": "https://doi.org/10.1017/cbo9780511626234",
+      "whyItMatters": "Standard textbook."
+     }
+    ],
+    "roleNote": "independent construction and classification"
+   }
+  ],
+  "notes": "Sources: Wikipedia (raw wikitext, Kac-Moody algebra; the article names Serre 1966 and the 1967-68 independent discovery), Crossref, zbMATH and Open Library for the works. MacTutor's 'Kac' biography is of Mark Kac (1914-1984) and was not used. Serre's 1966 publication and I. L. Kantor's Moscow work mentioned in the Wikipedia history were not verified, so they are not milestones. The derived institutional date comes from the 1983 book; no naming milestone was found because the name 'Kac-Moody' is attributed to the authors rather than dated to a title. Lifespan of Moody not checked.",
+  "searchedSources": [
+   "en.wikipedia.org raw: Kac-Moody_algebra",
+   "Crossref: Moody 1967, Moody 1968, Kac 1968, Kac 1990 book",
+   "zbMATH: Moody 1967, 1968; Kac 1968",
+   "Open Library: Kac 1983 book"
+  ],
+  "derivedDates": {
+   "conceptual": 1967,
+   "methodological": 1968,
+   "institutional": 1983
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P207",
+  "eventId": "MB126/WB102",
+  "canonicalName": "Yang-Baxter and solvable lattice models",
+  "aliases": [
+   "Yang-Baxter equation",
+   "star-triangle relation",
+   "quantum integrability (Yang-Baxter)",
+   "quantum inverse scattering method"
+  ],
+  "phases": [
+   "Delta-function many-body problem (1964-67)",
+   "Solvable lattice models (1972)",
+   "Quantum inverse problem method (1979)",
+   "Monograph (1982)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Delta-function many-body problem (1964-67)",
+    "year": 1964,
+    "endYear": null,
+    "precision": "year",
+    "label": "McGuire's exactly soluble delta-interaction N-body problem",
+    "work": "McGuire, J. B., Study of exactly soluble one-dimensional N-body problems, J. Math. Phys. 5 (1964) 622-636",
+    "people": [
+     "J. B. McGuire"
+    ],
+    "description": "Solves a one-dimensional N-body problem by factorised scattering, the setting in which the Yang-Baxter relation first appears.",
+    "evidence": [
+     {
+      "claim": "Paper in J. Math. Phys. (1964), DOI 10.1063/1.1704156, pages 622-636",
+      "source": "Crossref; zbMATH 0131.43804",
+      "url": "https://doi.org/10.1063/1.1704156",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia cites Jimbo that the equation appears in McGuire's 1964 work and Yang's 1967 work",
+      "source": "Wikipedia, Yang-Baxter equation (History)",
+      "url": "https://en.wikipedia.org/wiki/Yang%E2%80%93Baxter_equation",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_statement",
+    "phase": "Delta-function many-body problem (1964-67)",
+    "year": 1967,
+    "endYear": null,
+    "precision": "year",
+    "label": "Yang's exact results for repulsive delta-function bosons",
+    "work": "Yang, C. N., Some exact results for the many-body problem in one dimension with repulsive delta-function interaction, Phys. Rev. Lett. 19 (1967)",
+    "people": [
+     "Chen-Ning Yang"
+    ],
+    "description": "States the factorisation of the many-body scattering matrix, the consistency condition later named after Yang and Baxter.",
+    "evidence": [
+     {
+      "claim": "Paper in Phys. Rev. Lett. 19 (1967), DOI 10.1103/PhysRevLett.19.1312, published 4 December 1967",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1103/PhysRevLett.19.1312",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia says the Yang-Baxter equation appears in Yang's 1967 work",
+      "source": "Wikipedia, Yang-Baxter equation (History)",
+      "url": "https://en.wikipedia.org/wiki/Yang%E2%80%93Baxter_equation",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "The Crossref title differs from the commonly quoted 'Some exactly solvable many-body problems'; the record title is used."
+   },
+   {
+    "role": "first_application",
+    "phase": "Solvable lattice models (1972)",
+    "year": 1972,
+    "endYear": null,
+    "precision": "year",
+    "label": "Baxter's solution of the eight-vertex model",
+    "work": "Baxter, R. J., Partition function of the eight-vertex lattice model, Annals of Physics 70 (1972) 193-228",
+    "people": [
+     "Rodney J. Baxter"
+    ],
+    "description": "Uses the star-triangle consistency relation to solve the eight-vertex lattice model exactly, a major solvable lattice model in this line.",
+    "evidence": [
+     {
+      "claim": "Paper in Annals of Physics 70 (1972), DOI 10.1016/0003-4916(72)90335-1, pages 193-228",
+      "source": "Crossref; zbMATH 0236.60070",
+      "url": "https://doi.org/10.1016/0003-4916(72)90335-1",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia says the search for solvable lattice models culminated in Baxter's 1972 solution of the eight-vertex model",
+      "source": "Wikipedia, Yang-Baxter equation (History)",
+      "url": "https://en.wikipedia.org/wiki/Yang%E2%80%93Baxter_equation",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": "Quantum inverse problem method (1979)",
+    "year": 1979,
+    "endYear": null,
+    "precision": "year",
+    "label": "Quantum inverse problem method",
+    "work": "Faddeev, L. D.; Sklyanin, E. K.; Takhtajan, L. A., The quantum inverse problem method I, Theoret. and Math. Phys. (1979)",
+    "people": [
+     "Ludwig D. Faddeev",
+     "Evgeny K. Sklyanin",
+     "Leon A. Takhtajan"
+    ],
+    "description": "Builds the general operator framework that makes the Yang-Baxter relation the defining condition of quantum integrability.",
+    "evidence": [
+     {
+      "claim": "Paper titled 'Quantum inverse problem method. I' in Theoret. and Math. Phys., Crossref year 1979, DOI 10.1007/bf01018718",
+      "source": "Crossref; zbMATH 0449.35096",
+      "url": "https://doi.org/10.1007/bf01018718",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "zbMATH indexes the Russian-language author order differently in different entries; the author list here follows the Crossref record."
+   },
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 1981,
+    "endYear": null,
+    "precision": "year",
+    "label": "Yang-Baxter equation named in a title",
+    "work": "Kulish, P. P.; Reshetikhin, N. Yu., Yang-Baxter equation and representation theory. I, Letters in Mathematical Physics 5 (1981) 393-403",
+    "people": [
+     "P. P. Kulish",
+     "N. Yu. Reshetikhin"
+    ],
+    "description": "The earliest zbMATH title found that uses the name 'Yang-Baxter equation'.",
+    "evidence": [
+     {
+      "claim": "zbMATH title 'Yang-Baxter equation and representation theory. I' (1981); a title search for 'Yang-Baxter' over 1950-1980 returned no record",
+      "source": "zbMATH Open 3790922",
+      "url": "https://zbmath.org/3790922",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Based on a title-string search of zbMATH; spelling variants were not searched, so this is the earliest title found, not proof of the first use."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Monograph (1982)",
+    "year": 1982,
+    "endYear": null,
+    "precision": "year",
+    "label": "Baxter's monograph Exactly Solved Models in Statistical Mechanics",
+    "work": "Baxter, R. J., Exactly Solved Models in Statistical Mechanics, Academic Press (1982)",
+    "people": [
+     "Rodney J. Baxter"
+    ],
+    "description": "The first book-length systematic treatment of solvable lattice models and the Yang-Baxter relation.",
+    "evidence": [
+     {
+      "claim": "Monograph indexed by zbMATH with 1982 year (0538.60093)",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/?q=an:0538.60093",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "A later Crossref entry (1985) is a reprint in a series, so 1982 is the first edition year."
+   }
+  ],
+  "people": [
+   {
+    "name": "Chen-Ning Yang",
+    "role": "originator",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Chen-Ning_Yang",
+    "works": [
+     {
+      "citation": "Yang, C. N., Some exact results for the many-body problem in one dimension with repulsive delta-function interaction, Phys. Rev. Lett. 19 (1967)",
+      "year": 1967,
+      "url": "https://doi.org/10.1103/PhysRevLett.19.1312",
+      "whyItMatters": "First statement of the Yang relation."
+     }
+    ],
+    "roleNote": "first statement of the factorised many-body solution"
+   },
+   {
+    "name": "J. B. McGuire",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/J._B._McGuire",
+    "works": [
+     {
+      "citation": "McGuire, J. B., Study of exactly soluble one-dimensional N-body problems, J. Math. Phys. 5 (1964) 622-636",
+      "year": 1964,
+      "url": "https://doi.org/10.1063/1.1704156",
+      "whyItMatters": "Precursor solution with factorised scattering."
+     }
+    ],
+    "roleNote": "delta-interaction N-body solution"
+   },
+   {
+    "name": "Rodney J. Baxter",
+    "role": "systematiser",
+    "lifespan": "b. 1940",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Rodney_Baxter",
+    "works": [
+     {
+      "citation": "Baxter, R. J., Partition function of the eight-vertex lattice model, Ann. Physics 70 (1972) 193-228",
+      "year": 1972,
+      "url": "https://doi.org/10.1016/0003-4916(72)90335-1",
+      "whyItMatters": "Exact solution using star-triangle consistency."
+     },
+     {
+      "citation": "Baxter, R. J., Exactly Solved Models in Statistical Mechanics, Academic Press (1982)",
+      "year": 1982,
+      "url": "https://zbmath.org/?q=an:0538.60093",
+      "whyItMatters": "Standard monograph."
+     }
+    ],
+    "roleNote": "eight-vertex model and monograph"
+   },
+   {
+    "name": "Ludwig D. Faddeev",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Ludvig_Faddeev",
+    "works": [
+     {
+      "citation": "Faddeev, L. D.; Sklyanin, E. K.; Takhtajan, L. A., Quantum inverse problem method I (1979)",
+      "year": 1979,
+      "url": "https://doi.org/10.1007/bf01018718",
+      "whyItMatters": "General operator framework for quantum integrability."
+     }
+    ],
+    "roleNote": "quantum inverse problem method"
+   },
+   {
+    "name": "Evgeny K. Sklyanin",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Evgeny_K._Sklyanin",
+    "works": [
+     {
+      "citation": "Faddeev, L. D.; Sklyanin, E. K.; Takhtajan, L. A., Quantum inverse problem method I (1979)",
+      "year": 1979,
+      "url": "https://doi.org/10.1007/bf01018718",
+      "whyItMatters": "Co-author of the framework."
+     }
+    ],
+    "roleNote": "quantum inverse problem method"
+   },
+   {
+    "name": "Leon A. Takhtajan",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Leon_A._Takhtajan",
+    "works": [
+     {
+      "citation": "Faddeev, L. D.; Sklyanin, E. K.; Takhtajan, L. A., Quantum inverse problem method I (1979)",
+      "year": 1979,
+      "url": "https://doi.org/10.1007/bf01018718",
+      "whyItMatters": "Co-author of the framework."
+     }
+    ],
+    "roleNote": "quantum inverse problem method"
+   }
+  ],
+  "notes": "Sources: Wikipedia (raw wikitext, Yang-Baxter equation; history section citing Jimbo's account), Crossref and zbMATH for the 1964-1982 works. MacTutor's 'Baxter' biography is of Agnes Baxter (1870-1917) and was not used. Dispute: the input summary gives only 'Yang-Baxter equation'; the record shows the factorised solution (McGuire, Yang) as precursor and Baxter's 1972 solution as the first application to solvable lattice models. Onsager's 1944 star-triangle relation is mentioned in the Wikipedia history but not verified as a milestone. The name 'Yang-Baxter equation' is now dated by a zbMATH title search: no title with 'Yang-Baxter' appears for 1950-1980, and Kulish-Reshetikhin (1981) is the first hit, recorded as a naming milestone. Onsager's star-triangle claim remains unverified. The Faddeev-Sklyanin-Takhtajan paper's zbMATH author order differs from Crossref; the Crossref order is used.",
+  "searchedSources": [
+   "en.wikipedia.org raw: Yang-Baxter_equation",
+   "Crossref: McGuire 1964, Yang 1967 (DOI), Baxter 1972, FST 1979, Baxter 1982 book",
+   "zbMATH: McGuire 1964, Baxter 1972, FST 1979/1980, Baxter 1982"
+  ],
+  "derivedDates": {
+   "conceptual": 1967,
+   "methodological": 1972,
+   "institutional": 1981
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P240",
+  "eventId": "WB129",
+  "canonicalName": "Twistor theory",
+  "aliases": [
+   "twistor programme",
+   "Penrose twistor theory",
+   "twistor transform (Penrose transform)"
+  ],
+  "phases": [
+   "Twistor algebra (1967)",
+   "Nonlinear gravitons (1976)",
+   "Instantons and self-duality (1977-78)",
+   "Textbook (1990)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Twistor algebra (1967)",
+    "year": 1967,
+    "endYear": null,
+    "precision": "year",
+    "label": "Penrose's twistor algebra",
+    "work": "Penrose, R., Twistor algebra, J. Math. Phys. 8 (1967) 345-366",
+    "people": [
+     "Roger Penrose"
+    ],
+    "description": "Introduces twistor space as the spinor-like setting for massless fields in spacetime.",
+    "evidence": [
+     {
+      "claim": "Paper in J. Math. Phys. 8 (1967), DOI 10.1063/1.1705200, pages 345-366",
+      "source": "Crossref; zbMATH 0163.22602",
+      "url": "https://doi.org/10.1063/1.1705200",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia says twistor theory was proposed by Penrose in 1967, citing this paper",
+      "source": "Wikipedia, Twistor theory (lead)",
+      "url": "https://en.wikipedia.org/wiki/Twistor_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "naming",
+    "phase": "Twistor algebra (1967)",
+    "year": 1967,
+    "endYear": null,
+    "precision": "year",
+    "label": "Term 'twistor' in a title",
+    "work": "Penrose, R., Twistor algebra (1967)",
+    "people": [
+     "Roger Penrose"
+    ],
+    "description": "The term 'twistor' is fixed in this paper title.",
+    "evidence": [
+     {
+      "claim": "Title of the 1967 paper",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1063/1.1705200",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper as first_statement; it plays both roles."
+   },
+   {
+    "role": "key_development",
+    "phase": "Nonlinear gravitons (1976)",
+    "year": 1976,
+    "endYear": null,
+    "precision": "year",
+    "label": "Nonlinear gravitons and curved twistor theory",
+    "work": "Penrose, R., Nonlinear gravitons and curved twistor theory, General Relativity and Gravitation 7 (1976)",
+    "people": [
+     "Roger Penrose"
+    ],
+    "description": "Extends twistor methods to curved space and gives the nonlinear graviton construction for self-dual gravitational fields.",
+    "evidence": [
+     {
+      "claim": "Paper in General Relativity and Gravitation (1976), DOI 10.1007/bf00762011",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf00762011",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": "Instantons and self-duality (1977-78)",
+    "year": 1977,
+    "endYear": null,
+    "precision": "year",
+    "label": "Twistors applied to instantons",
+    "work": "Atiyah, M. F.; Ward, R. S., Instantons and algebraic geometry, Comm. Math. Phys. 55 (1977) 117-124",
+    "people": [
+     "Michael Atiyah",
+     "R. S. Ward"
+    ],
+    "description": "Applies the twistor correspondence to classify self-dual Yang-Mills instantons through algebraic geometry on twistor space.",
+    "evidence": [
+     {
+      "claim": "Paper in Comm. Math. Phys. (1977), DOI 10.1007/bf01626514, zbMATH 0362.14004, pages 117-124",
+      "source": "Crossref; zbMATH",
+      "url": "https://doi.org/10.1007/bf01626514",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": "Instantons and self-duality (1977-78)",
+    "year": 1978,
+    "endYear": null,
+    "precision": "year",
+    "label": "Self-duality in four-dimensional Riemannian geometry",
+    "work": "Atiyah, M. F.; Hitchin, N. J.; Singer, I. M., Self-duality in four-dimensional Riemannian geometry, Proc. Roy. Soc. London A 362 (1978) 425-461",
+    "people": [
+     "Michael Atiyah",
+     "Nigel Hitchin",
+     "Isadore Singer"
+    ],
+    "description": "Computes the dimension of moduli spaces of self-dual connections by the index theorem; the twistor methods handle the classification.",
+    "evidence": [
+     {
+      "claim": "Paper in Proc. Roy. Soc. A (1978), DOI 10.1098/rspa.1978.0143, zbMATH 0389.53011, pages 425-461",
+      "source": "Crossref; zbMATH",
+      "url": "https://doi.org/10.1098/rspa.1978.0143",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": "Textbook (1990)",
+    "year": 1990,
+    "endYear": null,
+    "precision": "year",
+    "label": "Ward and Wells textbook on twistor geometry",
+    "work": "Ward, R. S.; Wells, R. O. jun., Twistor Geometry and Field Theory, Cambridge University Press (1990)",
+    "people": [
+     "R. S. Ward",
+     "Raymond O. Wells jun."
+    ],
+    "description": "A systematic textbook treatment of twistor geometry and its field-theoretic applications.",
+    "evidence": [
+     {
+      "claim": "Book in Cambridge University Press (1990), DOI 10.1017/cbo9780511524493",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1017/cbo9780511524493",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "zbMATH indexes the book as 0714.53059 (1989 entry)",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/?q=an:0714.53059",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "zbMATH's indexing year is 1989; the CUP publication year 1990 from Crossref is used."
+   }
+  ],
+  "people": [
+   {
+    "name": "Roger Penrose",
+    "role": "originator",
+    "lifespan": "b. 1931",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Penrose/",
+    "works": [
+     {
+      "citation": "Penrose, R., Twistor algebra, J. Math. Phys. 8 (1967) 345-366",
+      "year": 1967,
+      "url": "https://doi.org/10.1063/1.1705200",
+      "whyItMatters": "Originating paper."
+     },
+     {
+      "citation": "Penrose, R., Nonlinear gravitons and curved twistor theory, Gen. Relativity Gravitation 7 (1976)",
+      "year": 1976,
+      "url": "https://doi.org/10.1007/bf00762011",
+      "whyItMatters": "Extends the programme to curved space."
+     }
+    ],
+    "roleNote": "originator of twistor theory"
+   },
+   {
+    "name": "Michael Atiyah",
+    "role": "developer",
+    "lifespan": "1929-2019",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Michael_Atiyah",
+    "works": [
+     {
+      "citation": "Atiyah, M. F.; Ward, R. S., Instantons and algebraic geometry, Comm. Math. Phys. 55 (1977)",
+      "year": 1977,
+      "url": "https://doi.org/10.1007/bf01626514",
+      "whyItMatters": "Twistor classification of instantons."
+     },
+     {
+      "citation": "Atiyah, M. F.; Hitchin, N. J.; Singer, I. M., Self-duality in four-dimensional Riemannian geometry, Proc. Roy. Soc. A 362 (1978)",
+      "year": 1978,
+      "url": "https://doi.org/10.1098/rspa.1978.0143",
+      "whyItMatters": "Self-duality classification."
+     }
+    ],
+    "roleNote": "instantons and self-duality"
+   },
+   {
+    "name": "R. S. Ward",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/R._S._Ward",
+    "works": [
+     {
+      "citation": "Atiyah, M. F.; Ward, R. S., Instantons and algebraic geometry, Comm. Math. Phys. 55 (1977)",
+      "year": 1977,
+      "url": "https://doi.org/10.1007/bf01626514",
+      "whyItMatters": "Twistor classification of instantons."
+     },
+     {
+      "citation": "Ward, R. S.; Wells, R. O. jun., Twistor Geometry and Field Theory, CUP (1990)",
+      "year": 1990,
+      "url": "https://doi.org/10.1017/cbo9780511524493",
+      "whyItMatters": "Standard textbook."
+     }
+    ],
+    "roleNote": "instantons and textbook"
+   },
+   {
+    "name": "Raymond O. Wells jun.",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Raymond_O._Wells_jun.",
+    "works": [
+     {
+      "citation": "Ward, R. S.; Wells, R. O. jun., Twistor Geometry and Field Theory, CUP (1990)",
+      "year": 1990,
+      "url": "https://doi.org/10.1017/cbo9780511524493",
+      "whyItMatters": "Standard textbook."
+     }
+    ],
+    "roleNote": "textbook author"
+   },
+   {
+    "name": "Nigel Hitchin",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hitchin/",
+    "works": [
+     {
+      "citation": "Atiyah, M. F.; Hitchin, N. J.; Singer, I. M., Self-duality in four-dimensional Riemannian geometry, Proc. Roy. Soc. A 362 (1978)",
+      "year": 1978,
+      "url": "https://doi.org/10.1098/rspa.1978.0143",
+      "whyItMatters": "Self-duality classification."
+     }
+    ],
+    "roleNote": "self-duality classification"
+   },
+   {
+    "name": "Isadore Singer",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Singer/",
+    "works": [
+     {
+      "citation": "Atiyah, M. F.; Hitchin, N. J.; Singer, I. M., Self-duality in four-dimensional Riemannian geometry, Proc. Roy. Soc. A 362 (1978)",
+      "year": 1978,
+      "url": "https://doi.org/10.1098/rspa.1978.0143",
+      "whyItMatters": "Self-duality classification."
+     }
+    ],
+    "roleNote": "self-duality classification"
+   }
+  ],
+  "notes": "Sources: Wikipedia (raw wikitext, Twistor theory lead), MacTutor Penrose biography, Crossref and zbMATH for the works. Dispute: the input summary says Penrose encodes fields as complex geometry; the record supports this as the twistor transform, but the 1967 paper is the origin only. Penrose's birth year is from MacTutor (1931, living). The zbMATH entry for the 1976 Penrose paper was not indexed, so Crossref is the only record. Atiyah's lifespan is from Wikipedia's lead. Other co-authors' lifespans not checked.",
+  "searchedSources": [
+   "en.wikipedia.org raw: Twistor_theory",
+   "mathshistory Biographies: Penrose",
+   "Crossref: Penrose 1967, 1976; Atiyah-Ward 1977; AHS 1978; Ward-Wells 1990",
+   "zbMATH: Penrose 1967; Atiyah-Ward 1977; AHS 1978; Ward-Wells 1989/1991"
+  ],
+  "derivedDates": {
+   "conceptual": 1967,
+   "methodological": 1977,
+   "institutional": 1967
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P262",
+  "eventId": "WB125",
+  "canonicalName": "Automata and formal verification",
+  "aliases": [
+   "Floyd-Hoare logic",
+   "Hoare logic",
+   "program verification",
+   "model checking",
+   "automata-based verification"
+  ],
+  "phases": [
+   "Automata decision methods (1962)",
+   "Floyd-Hoare program logic (1967-69)",
+   "Temporal logic (1977)",
+   "Automata and model checking (1981-82)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Automata decision methods (1962)",
+    "year": 1962,
+    "endYear": null,
+    "precision": "year",
+    "label": "Buchi's automata decision method",
+    "work": "Buchi, J. R., On a decision method in restricted second order arithmetic, in Logic, Methodology and Philosophy of Science (1962)",
+    "people": [
+     "J. Richard Buchi"
+    ],
+    "description": "Uses finite automata on infinite words to decide a logic, the mathematical backbone later used for automata-based verification.",
+    "evidence": [
+     {
+      "claim": "Paper indexed by zbMATH as 0147.25103 (1962)",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/?q=an:0147.25103",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Precursor only: Buchi's paper is about decidability of logic, not about program verification. The Crossref reprint is 1990 and the symposium volume is 1966."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Floyd-Hoare program logic (1967-69)",
+    "year": 1967,
+    "endYear": null,
+    "precision": "year",
+    "label": "Floyd's assertions for programs",
+    "work": "Floyd, R. W., Assigning meanings to programs, Proc. Sympos. Appl. Math. 19 (1967)",
+    "people": [
+     "Robert W. Floyd"
+    ],
+    "description": "Proposes attaching assertions to flowchart points to prove program correctness.",
+    "evidence": [
+     {
+      "claim": "Paper in Proc. Sympos. Appl. Math. 19 (1967), DOI 10.1090/psapm/019/0235771",
+      "source": "Crossref; zbMATH 0189.50204",
+      "url": "https://doi.org/10.1090/psapm/019/0235771",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia says Hoare logic was seeded by Floyd's similar system for flowcharts",
+      "source": "Wikipedia, Hoare logic (lead)",
+      "url": "https://en.wikipedia.org/wiki/Hoare_logic",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": "Floyd-Hoare program logic (1967-69)",
+    "year": 1969,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hoare's axiomatic basis and Hoare triples",
+    "work": "Hoare, C. A. R., An axiomatic basis for computer programming, Comm. ACM 12 (1969) 576-580",
+    "people": [
+     "C. A. R. Hoare"
+    ],
+    "description": "Gives the Hoare triple and axioms for language constructs, which made the logic a usable rule system.",
+    "evidence": [
+     {
+      "claim": "Paper in Comm. ACM 12 (1969), pages 576-580",
+      "source": "zbMATH 0179.23105",
+      "url": "https://zbmath.org/?q=an:0179.23105",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia gives 1969 as the year the logic was proposed",
+      "source": "Wikipedia, Hoare logic (lead)",
+      "url": "https://en.wikipedia.org/wiki/Hoare_logic",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": "Temporal logic (1977)",
+    "year": 1977,
+    "endYear": null,
+    "precision": "year",
+    "label": "Pnueli's temporal logic of programs",
+    "work": "Pnueli, A., The temporal logic of programs, 18th Annual Symposium on Foundations of Computer Science (1977)",
+    "people": [
+     "Amir Pnueli"
+    ],
+    "description": "Introduces temporal logic for specifying and verifying concurrent programs, the specification language later used for model checking.",
+    "evidence": [
+     {
+      "claim": "Paper in FOCS 1977 (DOI 10.1109/sfcs.1977.32)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1109/sfcs.1977.32",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia says Pnueli pioneered temporal logic in computing science",
+      "source": "Wikipedia, Model checking (History)",
+      "url": "https://en.wikipedia.org/wiki/Model_checking",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": "Floyd-Hoare program logic (1967-69)",
+    "year": 1981,
+    "endYear": null,
+    "precision": "year",
+    "label": "Apt's survey Ten years of Hoare's logic",
+    "work": "Apt, K. R., Ten years of Hoare's logic: a survey, Part I (1981), zbMATH 0471.68006, pages 431-483",
+    "people": [],
+    "description": "A survey that consolidates Hoare's logic for a wider audience ten years after the axioms.",
+    "evidence": [
+     {
+      "claim": "Survey indexed by zbMATH as 0471.68006, pages 431-483 (1981)",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/?q=an:0471.68006",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Survey rather than textbook, which is why it is marked consolidation with medium confidence."
+   },
+   {
+    "role": "first_application",
+    "phase": "Automata and model checking (1981-82)",
+    "year": 1982,
+    "endYear": null,
+    "precision": "year",
+    "label": "Model checking of synchronisation skeletons",
+    "work": "Clarke, E. M.; Emerson, E. A., Design and synthesis of synchronization skeletons using branching time temporal logic, in Logics of Programs, LNCS 131 (1982)",
+    "people": [
+     "Edmund M. Clarke",
+     "E. Allen Emerson"
+    ],
+    "description": "Applies a temporal-logic model checker to automatically verify concurrent synchronisation skeletons, the first purposeful automatic verification of this kind in the records consulted.",
+    "evidence": [
+     {
+      "claim": "Paper in LNCS 131 (1982), DOI 10.1007/bfb0025774; zbMATH 0546.68014 (1982)",
+      "source": "Crossref; zbMATH",
+      "url": "https://doi.org/10.1007/bfb0025774",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia says model checking began with Clarke, Emerson, Queille and Sifakis",
+      "source": "Wikipedia, Model checking (History)",
+      "url": "https://en.wikipedia.org/wiki/Model_checking",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Queille and Sifakis (CESAR, 1982, DOI 10.1007/3-540-11494-7_22) are an independent contemporaneous strand, also verified by Crossref and zbMATH; the Clarke-Emerson paper is chosen as the first application because it introduced the model checking algorithm. The term 'model checking' is not dated here."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Automata and model checking (1981-82)",
+    "year": 1999,
+    "endYear": null,
+    "precision": "year",
+    "label": "Clarke-Grumberg-Peled monograph Model Checking",
+    "work": "Clarke, E. M.; Grumberg, O.; Peled, D., Model Checking, MIT Press (1999)",
+    "people": [
+     "Edmund M. Clarke"
+    ],
+    "description": "A textbook treatment of model checking that consolidated the strand after its first decades.",
+    "evidence": [
+     {
+      "claim": "Open Library lists 'Model checking' (1999) by Edmund M. Clarke Jr. and Orna Grumberg",
+      "source": "Open Library search",
+      "url": "https://openlibrary.org/search.json?q=Model+checking+Clarke+Grumberg",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The Open Library record lists Clarke and Grumberg; Peled is from the standard citation and not confirmed in the record."
+   }
+  ],
+  "people": [
+   {
+    "name": "Robert W. Floyd",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Robert_W._Floyd",
+    "works": [
+     {
+      "citation": "Floyd, R. W., Assigning meanings to programs, Proc. Sympos. Appl. Math. 19 (1967)",
+      "year": 1967,
+      "url": "https://doi.org/10.1090/psapm/019/0235771",
+      "whyItMatters": "Origin of assertion-based verification."
+     }
+    ],
+    "roleNote": "assertions for flowcharts"
+   },
+   {
+    "name": "C. A. R. Hoare",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Tony_Hoare",
+    "works": [
+     {
+      "citation": "Hoare, C. A. R., An axiomatic basis for computer programming, Comm. ACM 12 (1969) 576-580",
+      "year": 1969,
+      "url": "https://zbmath.org/?q=an:0179.23105",
+      "whyItMatters": "Hoare logic axioms."
+     }
+    ],
+    "roleNote": "Hoare triples and axioms"
+   },
+   {
+    "name": "J. Richard Buchi",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/J._Richard_Buchi",
+    "works": [
+     {
+      "citation": "Buchi, J. R., On a decision method in restricted second order arithmetic (1962)",
+      "year": 1962,
+      "url": "https://zbmath.org/?q=an:0147.25103",
+      "whyItMatters": "Automata on infinite words, the basis of later automata-based verification."
+     }
+    ],
+    "roleNote": "automata decision method"
+   },
+   {
+    "name": "Amir Pnueli",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Amir_Pnueli",
+    "works": [
+     {
+      "citation": "Pnueli, A., The temporal logic of programs, FOCS 1977 (DOI 10.1109/sfcs.1977.32)",
+      "year": 1977,
+      "url": "https://doi.org/10.1109/sfcs.1977.32",
+      "whyItMatters": "Temporal logic specification for concurrent programs."
+     }
+    ],
+    "roleNote": "temporal logic of programs"
+   },
+   {
+    "name": "Edmund M. Clarke",
+    "role": "developer",
+    "lifespan": "1945-2020",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Edmund_M._Clarke",
+    "works": [
+     {
+      "citation": "Clarke, E. M.; Emerson, E. A., Design and synthesis of synchronization skeletons using branching time temporal logic, LNCS 131 (1982)",
+      "year": 1982,
+      "url": "https://doi.org/10.1007/bfb0025774",
+      "whyItMatters": "First automatic model checking application."
+     },
+     {
+      "citation": "Clarke, E. M.; Grumberg, O.; Peled, D., Model Checking, MIT Press (1999)",
+      "year": 1999,
+      "url": "https://openlibrary.org/search.json?q=Model+checking+Clarke+Grumberg",
+      "whyItMatters": "Textbook of model checking."
+     }
+    ],
+    "roleNote": "model checking"
+   },
+   {
+    "name": "E. Allen Emerson",
+    "role": "developer",
+    "lifespan": "1954-2024",
+    "biographyUrl": "https://en.wikipedia.org/wiki/E._Allen_Emerson",
+    "works": [
+     {
+      "citation": "Clarke, E. M.; Emerson, E. A., Design and synthesis of synchronization skeletons using branching time temporal logic, LNCS 131 (1982)",
+      "year": 1982,
+      "url": "https://doi.org/10.1007/bfb0025774",
+      "whyItMatters": "First automatic model checking application."
+     }
+    ],
+    "roleNote": "model checking"
+   }
+  ],
+  "notes": "Sources: Wikipedia (raw wikitext: Hoare logic lead; Model checking history), Crossref and zbMATH for the 1962-1982 works, Open Library for the 1999 textbook. Dispute and scope: the event title says 'automata and formal verification' while the input summary is about Floyd and Hoare; both strands are kept as phases. The strands meet at Pnueli's temporal logic and the 1982 model-checking papers. No naming milestone was established: the term 'Hoare logic' and the term 'model checking' are not dated by a source consulted (the zbMATH 2008 record 'The birth of model checking' by Clarke was seen but not used). Turing's 1949 checking paper was not verified, so it is not a milestone. Lifespans of Floyd, Hoare, Buchi and Pnueli were not checked.",
+  "searchedSources": [
+   "en.wikipedia.org raw: Hoare_logic, Model_checking",
+   "en.wikipedia.org lead: Edmund M. Clarke, E. Allen Emerson",
+   "Crossref: Floyd 1967, Pnueli 1977, Clarke-Emerson 1982, Queille-Sifakis 1982, Buchi 1990 reprint",
+   "zbMATH: Buchi 1962, Floyd 1967, Hoare 1969, Clarke-Emerson 1982, Apt 1981, Queille-Sifakis 1982",
+   "Open Library: Clarke-Grumberg 1999"
+  ],
+  "derivedDates": {
+   "conceptual": 1967,
+   "methodological": 1982,
+   "institutional": 1981
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ }
+]

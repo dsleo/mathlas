@@ -1,0 +1,7 @@
+# Batch 46: direct source adjudication
+
+Ten events have 18 cited milestones. The [work check](batch46-work-verification.json) verifies title and year for 29 of 30 cited work entries. The remaining entry is the [original 6 August 2002 AKS preprint](https://cse.iitk.ac.in/users/manindra/algebra/primality_original.pdf): the generic metadata checker cannot parse that primary PDF, but the dated original and [IIT account](https://www.iitk.ac.in/dora/spark/issue-4/) establish its public posting. The [2004 Annals version](https://annals.math.princeton.edu/2004/160-2/p12) is a separate later milestone.
+
+The key priority correction is [Toën–Vezzosi’s July 2002 public preprint](https://arxiv.org/abs/math/0207028), whose abstract already investigates higher topoi. Lurie’s [2006 preprint](https://arxiv.org/abs/math/0608040) is a later development and his 2009 book a consolidation. Other preprint/journal distinctions are [Okounkov 1999/2001](https://arxiv.org/abs/math/9907127), [Fomin–Zelevinsky 2001/2002](https://arxiv.org/abs/math/0104151), [Ozsváth–Szabó 2001/2004](https://arxiv.org/abs/math/0101206), and the [sphere-packing proofs posted in March 2016](https://arxiv.org/abs/1603.04246) before their 2017 journal issues.
+
+Three events carry verified developments but no asserted conceptual first: the random-partition/Gromov–Witten bridge, arithmetic quantum unique ergodicity, and higher composition laws. Their notes identify the priority searches still needed. No independent pass or grade A is implied.

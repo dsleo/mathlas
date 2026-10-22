@@ -1,0 +1,442 @@
+[
+ {
+  "pid": "P139",
+  "eventId": "WA71/MA92",
+  "name": "Monge's descriptive geometry",
+  "basisNow": "no first application or key development",
+  "firstStatement": 1799,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1525,
+    "label": "Dürer's published projection methods"
+   },
+   {
+    "role": "precursor",
+    "year": 1765,
+    "label": "Monge's first discoveries as a draftsman"
+   },
+   {
+    "role": "precursor",
+    "year": 1794,
+    "label": "Monge becomes instructor in descriptive geometry"
+   },
+   {
+    "role": "first_statement",
+    "year": 1799,
+    "label": "Géométrie descriptive published"
+   },
+   {
+    "role": "consolidation",
+    "year": 1799,
+    "label": "First systematic treatise"
+   }
+  ],
+  "people": [
+   "Gaspard Monge",
+   "Jean Nicolas Pierre Hachette",
+   "Albrecht Dürer"
+  ]
+ },
+ {
+  "pid": "P284",
+  "eventId": "WB11",
+  "name": "Operations research",
+  "basisNow": "no first application or key development",
+  "firstStatement": 1950,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1937,
+    "label": "Operational studies at Bawdsey Research Station"
+   },
+   {
+    "role": "precursor",
+    "year": 1941,
+    "label": "Blackett's Coastal Command convoy analysis"
+   },
+   {
+    "role": "first_statement",
+    "year": 1950,
+    "label": "Blackett's article titled 'Operational Research' (first issue of Operational Research Quarterly)"
+   },
+   {
+    "role": "consolidation",
+    "year": 1951,
+    "label": "Morse and Kimball's Methods of Operations Research"
+   },
+   {
+    "role": "institution",
+    "year": 1952,
+    "label": "Operations Research Society of America and its journal"
+   }
+  ],
+  "people": [
+   "Patrick Blackett",
+   "Philip M. Morse",
+   "George E. Kimball"
+  ]
+ },
+ {
+  "pid": "P397",
+  "eventId": "W37",
+  "name": "Betti numbers and early combinatorial topology",
+  "basisNow": "earliest key development; no first application found",
+  "firstStatement": 1870,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1847,
+    "label": "Listing's Vorstudien zur Topologie"
+   },
+   {
+    "role": "precursor",
+    "year": 1847,
+    "label": "Kirchhoff's cyclomatic number"
+   },
+   {
+    "role": "precursor",
+    "year": 1851,
+    "label": "Riemann studies connectivity of surfaces"
+   },
+   {
+    "role": "first_statement",
+    "year": 1870,
+    "label": "Betti's spaces of any number of dimensions"
+   },
+   {
+    "role": "consolidation",
+    "year": 1895,
+    "label": "Poincaré's Analysis situs"
+   },
+   {
+    "role": "key_development",
+    "year": 1920,
+    "label": "Noether's modern formulation"
+   }
+  ],
+  "people": [
+   "Enrico Betti",
+   "Bernhard Riemann",
+   "Johann Benedict Listing",
+   "Gustav Kirchhoff",
+   "Henri Poincaré"
+  ]
+ },
+ {
+  "pid": "P130",
+  "eventId": "MA87/WA90",
+  "name": "Laplace's analytic probability",
+  "basisNow": "no first application or key development",
+  "firstStatement": 1782,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1718,
+    "label": "De Moivre's The Doctrine of Chances"
+   },
+   {
+    "role": "precursor",
+    "year": 1774,
+    "label": "Laplace's memoir on the probability of causes"
+   },
+   {
+    "role": "precursor",
+    "year": 1779,
+    "label": "Laplace's generating-function method for probabilities"
+   },
+   {
+    "role": "first_statement",
+    "year": 1782,
+    "label": "Laplace introduces generating functions"
+   },
+   {
+    "role": "consolidation",
+    "year": 1812,
+    "label": "Théorie analytique des probabilités"
+   },
+   {
+    "role": "naming",
+    "year": 1812,
+    "label": "'Théorie analytique' in the book title"
+   }
+  ],
+  "people": [
+   "Pierre-Simon Laplace",
+   "Adrien-Marie Legendre",
+   "Abraham de Moivre",
+   "Stephen M. Stigler"
+  ]
+ },
+ {
+  "pid": "P276",
+  "eventId": "MB44",
+  "name": "Blum-Shub-Smale real computation",
+  "basisNow": "no first application or key development",
+  "firstStatement": 1989,
+  "existing": [
+   {
+    "role": "first_statement",
+    "year": 1989,
+    "label": "Real-number machine model"
+   },
+   {
+    "role": "consolidation",
+    "year": 1998,
+    "label": "Monograph on real computation"
+   }
+  ],
+  "people": [
+   "Lenore Blum",
+   "Mike Shub",
+   "Steve Smale",
+   "Felipe Cucker"
+  ]
+ },
+ {
+  "pid": "P140",
+  "eventId": "MA46/WA38",
+  "name": "Viete: symbolic algebra (the analytic art)",
+  "basisNow": "earliest key development; no first application found",
+  "firstStatement": 1591,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1572,
+    "label": "Bombelli's L'algebra"
+   },
+   {
+    "role": "first_statement",
+    "year": 1591,
+    "label": "In artem analyticem isagoge"
+   },
+   {
+    "role": "naming",
+    "year": 1591,
+    "label": "'Species logistic' named in the Isagoge"
+   },
+   {
+    "role": "key_development",
+    "year": 1631,
+    "label": "Harriot's Artis analyticae praxis"
+   },
+   {
+    "role": "key_development",
+    "year": 1637,
+    "label": "Descartes' convention"
+   },
+   {
+    "role": "consolidation",
+    "year": 1646,
+    "label": "Opera mathematica"
+   }
+  ],
+  "people": [
+   "Francois Viete",
+   "Rene Descartes",
+   "Frans van Schooten",
+   "Thomas Harriot"
+  ]
+ },
+ {
+  "pid": "P430",
+  "eventId": "H17",
+  "name": "Spectral ideas: eigenvalues from vibrating systems and quadratic forms",
+  "basisNow": "earliest key development; no first application found",
+  "firstStatement": 1751,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1751,
+    "label": "Euler on principal axes of a rotating body"
+   },
+   {
+    "role": "naming",
+    "year": 1839,
+    "label": "Cauchy's équation caractéristique"
+   },
+   {
+    "role": "key_development",
+    "year": 1855,
+    "label": "Hermite extends to Hermitian matrices"
+   },
+   {
+    "role": "naming",
+    "year": 1904,
+    "label": "Hilbert introduces 'eigen'"
+   },
+   {
+    "role": "first_statement",
+    "year": null,
+    "label": "Cauchy: real symmetric matrices diagonalise"
+   },
+   {
+    "role": "key_development",
+    "year": null,
+    "label": "Sturm and Liouville on second-order differential eigenproblems"
+   }
+  ],
+  "people": [
+   "Leonhard Euler",
+   "Augustin-Louis Cauchy",
+   "Charles-François Sturm",
+   "David Hilbert"
+  ]
+ },
+ {
+  "pid": "P125",
+  "eventId": "WA28/MA36",
+  "name": "Sharaf al-Din al-Tusi",
+  "basisNow": "no first application or key development",
+  "firstStatement": 1165,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1070,
+    "label": "Khayyam's conic treatment of cubics"
+   },
+   {
+    "role": "first_statement",
+    "year": 1165,
+    "label": "Sharaf al-Din al-Tusi, Treatise on equations"
+   },
+   {
+    "role": "recognition",
+    "year": 1974,
+    "label": "Rashed's study linking Sharaf al-Din and Viete"
+   },
+   {
+    "role": "recognition",
+    "year": 1989,
+    "label": "Hogendijk on positive roots of cubics"
+   }
+  ],
+  "people": [
+   "Omar Khayyam",
+   "Roshdi Rashed",
+   "Jan P. Hogendijk",
+   "Sharaf al-Din al-Tusi"
+  ]
+ },
+ {
+  "pid": "P257",
+  "eventId": "MB7",
+  "name": "Tarski's semantic truth definition and model theory",
+  "basisNow": "no first application or key development",
+  "firstStatement": 1933,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1915,
+    "label": "Lowenheim's downward result"
+   },
+   {
+    "role": "precursor",
+    "year": 1929,
+    "label": "Tarski's private results before 1933"
+   },
+   {
+    "role": "first_statement",
+    "year": 1933,
+    "label": "Tarski's semantic definition of truth"
+   },
+   {
+    "role": "naming",
+    "year": 1954,
+    "label": "'Theory of models' coined"
+   },
+   {
+    "role": "consolidation",
+    "year": 1973,
+    "label": "Chang and Keisler's Model Theory"
+   }
+  ],
+  "people": [
+   "Alfred Tarski",
+   "Leopold Lowenheim",
+   "C. C. Chang"
+  ]
+ },
+ {
+  "pid": "P479",
+  "eventId": "P32",
+  "name": "Analytic combinatorics: generating functions as complex-analytic objects",
+  "basisNow": "no first application or key development",
+  "firstStatement": 1990,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1918,
+    "label": "Hardy and Ramanujan's asymptotics for partitions"
+   },
+   {
+    "role": "precursor",
+    "year": 1956,
+    "label": "Hayman's generalisation of Stirling's formula"
+   },
+   {
+    "role": "first_statement",
+    "year": 1990,
+    "label": "Flajolet and Odlyzko's singularity analysis"
+   },
+   {
+    "role": "consolidation",
+    "year": 2009,
+    "label": "Flajolet and Sedgewick's Analytic Combinatorics"
+   }
+  ],
+  "people": [
+   "G. H. Hardy",
+   "Srinivasa Ramanujan",
+   "Walter Hayman",
+   "Philippe Flajolet",
+   "Andrew Odlyzko",
+   "Robert Sedgewick"
+  ]
+ },
+ {
+  "pid": "P361",
+  "eventId": "M42/W44",
+  "name": "Hilbert space and integral equations",
+  "basisNow": "earliest key development; no first application found",
+  "firstStatement": 1907,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1903,
+    "label": "Fredholm's integral equations"
+   },
+   {
+    "role": "first_statement",
+    "year": 1907,
+    "label": "Riesz's geometry of function spaces"
+   },
+   {
+    "role": "key_development",
+    "year": 1908,
+    "label": "Schmidt on infinitely many linear equations"
+   },
+   {
+    "role": "consolidation",
+    "year": 1912,
+    "label": "Hilbert's general theory of linear integral equations"
+   },
+   {
+    "role": "naming",
+    "year": 1929,
+    "label": "von Neumann's abstract Hilbert space"
+   },
+   {
+    "role": "consolidation",
+    "year": 1932,
+    "label": "Stone's Linear Transformations in Hilbert Space"
+   }
+  ],
+  "people": [
+   "David Hilbert",
+   "Frigyes Riesz",
+   "John von Neumann",
+   "Marshall H. Stone"
+  ]
+ }
+]

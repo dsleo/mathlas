@@ -1,0 +1,2454 @@
+[
+ {
+  "pid": "P083",
+  "eventId": "B17",
+  "canonicalName": "Entropy of dynamical systems (Kolmogorov-Sinai entropy)",
+  "aliases": [
+   "Kolmogorov-Sinai entropy",
+   "metric entropy",
+   "measure-theoretic entropy",
+   "entropy of measure-preserving transformations"
+  ],
+  "phases": [
+   "Shannon's information entropy (1948)",
+   "Kolmogorov-Sinai invariant (1958-59)",
+   "Ornstein isomorphism theory (1970)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1948,
+    "endYear": null,
+    "precision": "year",
+    "label": "Shannon's entropy of a message source",
+    "work": "Shannon, A Mathematical Theory of Communication, Bell System Technical Journal, 1948",
+    "people": [
+     "Claude Shannon"
+    ],
+    "description": "Shannon defines entropy for a source of messages; the dynamical invariant is later built from this quantity.",
+    "evidence": [
+     {
+      "claim": "BSTJ article with this title dated 1948",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Not a dynamical-systems statement; listed as the information-theoretic source only."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1958,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kolmogorov's metric invariant of dynamical systems",
+    "work": "Kolmogorov, A new metric invariant of transitive dynamical systems and automorphisms of Lebesgue spaces, Doklady Akad. Nauk SSSR 119 (1958) 861-864",
+    "people": [
+     "Andrei Kolmogorov"
+    ],
+    "description": "Kolmogorov introduces entropy of a measure-preserving transformation as an isomorphism invariant.",
+    "evidence": [
+     {
+      "claim": "zbMATH review of the 1986 reprint cites this 1958 Doklady paper (Zbl 0083.106)",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/3996042",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Crossref does not index the Doklady paper; the year rests on the zbMATH review text. The reprint record is the bibliographic anchor. Content of the 1958 paper not read directly."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1959,
+    "endYear": null,
+    "precision": "year",
+    "label": "Sinai's theorems make entropy computable",
+    "work": "Sinai, On the concept of entropy of a dynamical system, Doklady Akad. Nauk SSSR (1959)",
+    "people": [
+     "Yakov Sinai"
+    ],
+    "description": "Sinai's first 1959 paper gives theorems that make the entropy calculable for a large class of systems, which is the first purposeful use of the invariant.",
+    "evidence": [
+     {
+      "claim": "MacTutor: Sinai's 1959 paper gives theorems for calculating entropy for a large variety of systems",
+      "source": "MacTutor Sinai biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Sinai/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "zbMATH record of 'On the concept of entropy of a dynamical system' dated 1959",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/3140805",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Same 1959 paper as the key development below; the application role is taken from the MacTutor summary."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1959,
+    "endYear": null,
+    "precision": "year",
+    "label": "Generator theorem: supremum attained on generating partitions",
+    "work": "Sinai, On the concept of entropy of a dynamical system, Doklady Akad. Nauk SSSR (1959)",
+    "people": [
+     "Yakov Sinai"
+    ],
+    "description": "Sinai shows the supremum defining the entropy is attained on generating partitions, which makes the invariant computable.",
+    "evidence": [
+     {
+      "claim": "Wikipedia: a theorem of Sinai in 1959 shows the supremum is attained on generators",
+      "source": "Wikipedia Measure-preserving dynamical system",
+      "url": "https://en.wikipedia.org/wiki/Measure-preserving_dynamical_system",
+      "kind": "history_page"
+     },
+     {
+      "claim": "zbMATH record for Sinai 1959",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/3140805",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1970,
+    "endYear": null,
+    "precision": "year",
+    "label": "Ornstein: equal entropy implies Bernoulli isomorphism",
+    "work": "Ornstein, Bernoulli shifts with the same entropy are isomorphic, Advances in Mathematics 4 (1970)",
+    "people": [
+     "Donald Ornstein"
+    ],
+    "description": "Ornstein proves that two Bernoulli shifts with equal entropy are isomorphic, so entropy is a complete invariant for Bernoulli shifts.",
+    "evidence": [
+     {
+      "claim": "Crossref record: article title and Advances in Mathematics, 1970",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1016/0001-8708(70)90029-0",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Bernoulli scheme: the Ornstein isomorphism theorem states equal entropy implies isomorphic",
+      "source": "Wikipedia Bernoulli scheme",
+      "url": "https://en.wikipedia.org/wiki/Bernoulli_scheme",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1989,
+    "endYear": null,
+    "precision": "year",
+    "label": "Survey of entropy theory",
+    "work": "Cornfeld and Sinai, Entropy Theory of Dynamical Systems, Encyclopaedia of Mathematical Sciences (1989)",
+    "people": [
+     "Yakov Sinai"
+    ],
+    "description": "A survey chapter that systematises the entropy theory after the Ornstein results.",
+    "evidence": [
+     {
+      "claim": "Crossref record: chapter 'Entropy Theory of Dynamical Systems' in Encyclopaedia of Mathematical Sciences, 1989",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-3-662-06788-8_3",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "A survey, not a textbook; counted as consolidation under the rule that surveys qualify. No earlier monograph was verified."
+   }
+  ],
+  "people": [
+   {
+    "name": "Claude Shannon",
+    "role": "developer",
+    "lifespan": "1916-2001",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Shannon/",
+    "works": [
+     {
+      "citation": "Shannon, A Mathematical Theory of Communication, BSTJ (1948)",
+      "year": 1948,
+      "url": "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x",
+      "whyItMatters": "Defines the information entropy that the dynamical invariant borrows."
+     }
+    ],
+    "roleNote": "information theorist, source of the entropy formula"
+   },
+   {
+    "name": "Andrei Kolmogorov",
+    "role": "originator",
+    "lifespan": "1903-1987",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kolmogorov/",
+    "works": [
+     {
+      "citation": "Kolmogorov, A new metric invariant of transitive dynamical systems ..., Doklady 119 (1958)",
+      "year": 1958,
+      "url": "https://zbmath.org/3996042",
+      "whyItMatters": "First public statement of entropy as an isomorphism invariant."
+     }
+    ],
+    "roleNote": "introduced the metric invariant"
+   },
+   {
+    "name": "Yakov Sinai",
+    "role": "developer",
+    "lifespan": "1935-",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Sinai/",
+    "works": [
+     {
+      "citation": "Sinai, On the concept of entropy of a dynamical system (1959)",
+      "year": 1959,
+      "url": "https://zbmath.org/3140805",
+      "whyItMatters": "Generator theorem and calculability of entropy."
+     }
+    ],
+    "roleNote": "developed the entropy calculus"
+   },
+   {
+    "name": "Donald Ornstein",
+    "role": "developer",
+    "lifespan": "n.d.",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Ornstein/",
+    "works": [
+     {
+      "citation": "Ornstein, Bernoulli shifts with the same entropy are isomorphic, Adv. Math. 4 (1970)",
+      "year": 1970,
+      "url": "https://doi.org/10.1016/0001-8708(70)90029-0",
+      "whyItMatters": "Entropy as a complete invariant for Bernoulli shifts."
+     }
+    ],
+    "roleNote": "proved the isomorphism theorem for Bernoulli shifts"
+   }
+  ],
+  "notes": "Input summary says entropy settles that Bernoulli shifts with different entropy are not isomorphic. That follows from invariance (Kolmogorov 1958), and the converse (equal entropy implies isomorphism) is Ornstein 1970; the input wording is only half of the story. The 1958 application is therefore not claimed as a first_application; the 1959 Sinai application is used instead. Naming: the term 'Kolmogorov-Sinai entropy' is said by MacTutor to be quickly established, but no dated title was found, so no naming milestone. Searched: Wikipedia (Measure-preserving dynamical system, Bernoulli scheme, Claude Shannon), MacTutor (Kolmogorov, Sinai), Crossref, zbMATH, Open Library. The Shannon 1948 entry is a precursor only.",
+  "searchedSources": [
+   "Wikipedia",
+   "MacTutor biographies",
+   "Crossref",
+   "zbMATH",
+   "wikipedia-leads.json (no lead for B17)"
+  ],
+  "derivedDates": {
+   "conceptual": 1958,
+   "methodological": 1959,
+   "institutional": 1989
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P212",
+  "eventId": "MB36/WB47",
+  "canonicalName": "Etale cohomology",
+  "aliases": [
+   "etale cohomology",
+   "Grothendieck etale cohomology",
+   "etale topology",
+   "l-adic cohomology (Deligne's use)"
+  ],
+  "phases": [
+   "Motivation: Weil conjectures (1949)",
+   "Grothendieck's etale theory and SGA 4 (1960s)",
+   "Deligne's proof of the Weil conjectures (1974)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1949,
+    "endYear": null,
+    "precision": "year",
+    "label": "Weil's conjectures on zeta functions over finite fields",
+    "work": "Weil, Numbers of solutions of equations in finite fields, Bull. AMS 55 (1949) 497-508",
+    "people": [
+     "Andre Weil"
+    ],
+    "description": "Weil states the conjectures that a cohomology theory for varieties over finite fields was meant to prove.",
+    "evidence": [
+     {
+      "claim": "Crossref record for Weil 1949 in Bull. AMS",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/s0002-9904-1949-09219-4",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor Weil: Weil proved the Riemann hypothesis for curves over finite fields and the conjectures were posed",
+      "source": "MacTutor Weil biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Weil/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Motivating conjectures, not an etale statement; not a derived date."
+   },
+   {
+    "role": "first_statement",
+    "year": 1960,
+    "precision": "year",
+    "label": "Grothendieck proposes a Weil cohomology from unramified coverings",
+    "work": "A. Grothendieck, The cohomology theory of abstract algebraic varieties, Proc. International Congress of Mathematicians (Edinburgh, 1958), Cambridge Univ. Press, 1960, pp. 103-118",
+    "people": [
+     "Alexander Grothendieck"
+    ],
+    "description": "Grothendieck proposes defining the Weil cohomology from Galois cohomology and local triviality on unramified coverings, the starting point of etale cohomology.",
+    "evidence": [
+     {
+      "claim": "The text says the Weil cohomology must come from a different approach, suggested by sheaf and Galois cohomology and unramified coverings, and that this opens a route to the Weil conjectures.",
+      "source": "Copy of the paper text (ICM 1958 lecture)",
+      "url": "https://download.uni-mainz.de/mathematik/Algebraische%20Geometrie/Lehre/WS23.Padische.1958.Grothendieck.pdf",
+      "kind": "primary_text"
+     },
+     {
+      "claim": "zbMATH dates the paper 1960.",
+      "source": "zbMATH Open document 3194966",
+      "url": "https://zbmath.org/3194966",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia gives Grothendieck (1960) as the introduction of etale cohomology.",
+      "source": "Wikipedia, Etale cohomology",
+      "url": "https://en.wikipedia.org/wiki/%C3%89tale_cohomology",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Lecture was given in 1958, printed in 1960 (publication year used). The text does not use the word etale or define the topology; it states the idea only. Serre's 1956 Mexico paper is a precursor. Artin's 1962 notes and SGA 4 come later.",
+    "phase": null,
+    "endYear": null
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1966,
+    "endYear": null,
+    "precision": "year",
+    "label": "Lefschetz formula and rationality of L-functions via etale methods",
+    "work": "Grothendieck, Lefschetz formula and rationality of L-functions, Seminaire Bourbaki 1964/65 (published 1966)",
+    "people": [
+     "Alexander Grothendieck"
+    ],
+    "description": "Grothendieck applies etale cohomology to the Lefschetz formula and the rationality of L-functions, the first purposeful use on the Weil problems.",
+    "evidence": [
+     {
+      "claim": "zbMATH record 'Lefschetz formula and rationality of L-functions' by Grothendieck, dated 1966",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/3317598",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia: Grothendieck used etale cohomology to prove some of the Weil conjectures",
+      "source": "Wikipedia Etale cohomology",
+      "url": "https://en.wikipedia.org/wiki/%C3%89tale_cohomology",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The Bourbaki record is the earliest public write-up I could date. Lectures and seminar notes may be earlier, so this year may be a later bound. Dwork's 1960 rationality proof is p-adic and not counted."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1972,
+    "endYear": null,
+    "precision": "year",
+    "label": "SGA 4: systematic foundations of etale cohomology",
+    "work": "Artin, Grothendieck, Verdier (eds.), Theorie des topos et cohomologie etale des schemas, SGA 4, Springer LNM 269 (1972)",
+    "people": [
+     "Michael Artin",
+     "Alexander Grothendieck"
+    ],
+    "description": "The seminar notes give the first systematic treatment of etale cohomology and its topos foundations.",
+    "evidence": [
+     {
+      "claim": "Open Library record for the Springer 1972 volume SGA 4 (Michael Artin as author of the entry)",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/works/OL4613907W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Seminar volume written 1963-64, published 1972; Open Library shows 1972 and 1973 entries for the same volume."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1974,
+    "endYear": null,
+    "precision": "year",
+    "label": "Deligne's proof of the Weil conjectures (l-adic cohomology)",
+    "work": "Deligne, La conjecture de Weil I, Publ. Math. IHES 43 (1974)",
+    "people": [
+     "Pierre Deligne"
+    ],
+    "description": "Deligne proves the remaining Riemann hypothesis part of the Weil conjectures using l-adic etale cohomology.",
+    "evidence": [
+     {
+      "claim": "Crossref record: La conjecture de Weil I, Publ. Math. IHES, 1974",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02684373",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia: the Riemann-hypothesis analogue was proved by Deligne in 1974 using l-adic cohomology",
+      "source": "Wikipedia Etale cohomology",
+      "url": "https://en.wikipedia.org/wiki/%C3%89tale_cohomology",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1980,
+    "endYear": null,
+    "precision": "year",
+    "label": "Milne's textbook on etale cohomology",
+    "work": "Milne, Etale Cohomology, Princeton University Press (1980)",
+    "people": [
+     "James S. Milne"
+    ],
+    "description": "The first monograph treatment at textbook level after SGA 4.",
+    "evidence": [
+     {
+      "claim": "Open Library record: Etale cohomology, Princeton University Press, 1980",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/works/OL5273913W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "A later textbook; the 1972 SGA 4 volume is the earlier systematic treatment."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": null,
+    "endYear": null,
+    "precision": "unknown",
+    "label": "Grothendieck's introduction of etale cohomology (undated)",
+    "work": null,
+    "people": [
+     "Alexander Grothendieck",
+     "Jean-Pierre Serre"
+    ],
+    "description": "Grothendieck introduced the etale theory, using suggestions from Serre, to build a Weil cohomology theory.",
+    "evidence": [
+     {
+      "claim": "Wikipedia: etale cohomology was introduced by Grothendieck, using suggestions by Serre, to prove the Weil conjectures",
+      "source": "Wikipedia Etale cohomology",
+      "url": "https://en.wikipedia.org/wiki/%C3%89tale_cohomology",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Year not established. The Wikipedia citation for the introduction is blank in the wikitext, and the MacTutor Grothendieck biography does not date it. Searched: Wikipedia, MacTutor Grothendieck, Crossref, Open Library. Left undated rather than guessed."
+   }
+  ],
+  "people": [
+   {
+    "name": "Alexander Grothendieck",
+    "role": "originator",
+    "lifespan": "1928-2014",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Grothendieck/",
+    "works": [
+     {
+      "citation": "Grothendieck, Lefschetz formula and rationality of L-functions (Bourbaki 1964/65, pub. 1966)",
+      "year": 1966,
+      "url": "https://zbmath.org/3317598",
+      "whyItMatters": "Uses etale cohomology for L-function rationality."
+     },
+     {
+      "citation": "Artin, Grothendieck, Verdier (eds.), SGA 4, LNM 269 (1972)",
+      "year": 1972,
+      "url": "https://openlibrary.org/works/OL4613907W",
+      "whyItMatters": "Foundational seminar notes."
+     }
+    ],
+    "roleNote": "creator of the etale theory"
+   },
+   {
+    "name": "Andre Weil",
+    "role": "developer",
+    "lifespan": "1906-1998",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Weil/",
+    "works": [
+     {
+      "citation": "Weil, Numbers of solutions of equations in finite fields, Bull. AMS (1949)",
+      "year": 1949,
+      "url": "https://doi.org/10.1090/s0002-9904-1949-09219-4",
+      "whyItMatters": "Statement of the conjectures."
+     }
+    ],
+    "roleNote": "posed the Weil conjectures that motivated the theory"
+   },
+   {
+    "name": "Pierre Deligne",
+    "role": "developer",
+    "lifespan": "1944-",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Deligne/",
+    "works": [
+     {
+      "citation": "Deligne, La conjecture de Weil I, Publ. Math. IHES 43 (1974)",
+      "year": 1974,
+      "url": "https://doi.org/10.1007/bf02684373",
+      "whyItMatters": "Proof of the Riemann hypothesis part."
+     }
+    ],
+    "roleNote": "proved the Weil conjectures"
+   },
+   {
+    "name": "Michael Artin",
+    "role": "developer",
+    "lifespan": "1934-",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Michael_Artin",
+    "works": [
+     {
+      "citation": "Artin, Grothendieck, Verdier (eds.), SGA 4, LNM 269 (1972)",
+      "year": 1972,
+      "url": "https://openlibrary.org/works/OL4613907W",
+      "whyItMatters": "Systematic foundations."
+     }
+    ],
+    "roleNote": "co-editor of SGA 4"
+   },
+   {
+    "name": "James S. Milne",
+    "role": "popularizer",
+    "lifespan": "n.d.",
+    "biographyUrl": "https://en.wikipedia.org/wiki/James_S._Milne",
+    "works": [
+     {
+      "citation": "Milne, Etale Cohomology, Princeton (1980)",
+      "year": 1980,
+      "url": "https://openlibrary.org/works/OL5273913W",
+      "whyItMatters": "Standard textbook."
+     }
+    ],
+    "roleNote": "expositor of etale cohomology"
+   }
+  ],
+  "notes": "No verified first_statement: the public etale statement is not dated in any bibliographic record I could reach (Artin's 1962 Harvard notes and the 1963-64 seminar are not verified in Crossref, zbMATH or Open Library), so the conceptual derived date is null. The 1966 Bourbaki record is a candidate first application, not a confirmed first. Naming: the term 'etale' is not dated in the sources read. Input summary says 'Grothendieck topologies gave cohomology theories as required by Weil', which is consistent with the sources. Searched: Wikipedia Etale cohomology, MacTutor Grothendieck and Weil, Crossref, zbMATH, Open Library.",
+  "searchedSources": [
+   "Wikipedia Etale cohomology",
+   "MacTutor Grothendieck",
+   "MacTutor Weil",
+   "Crossref",
+   "zbMATH",
+   "Open Library",
+   "wikipedia-leads.json (no lead for MB36/WB47)"
+  ],
+  "derivedDates": {
+   "conceptual": 1960,
+   "methodological": 1966,
+   "institutional": 1972
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P244",
+  "eventId": "WB52",
+  "canonicalName": "Hyperfunctions and algebraic analysis",
+  "aliases": [
+   "Sato hyperfunctions",
+   "hyperfunction theory",
+   "algebraic analysis",
+   "microlocal analysis (Sato school)"
+  ],
+  "phases": [
+   "Hyperfunctions (1958-60)",
+   "Applications to PDE (1970)",
+   "Consolidation in lecture notes (1973)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1958,
+    "endYear": null,
+    "precision": "year",
+    "label": "Sato's first announcement of hyperfunctions (Japanese)",
+    "work": null,
+    "people": [
+     "Mikio Sato"
+    ],
+    "description": "Sato introduces hyperfunctions in a Japanese-language announcement before the English papers.",
+    "evidence": [
+     {
+      "claim": "Wikipedia: hyperfunctions were introduced by Sato in 1958 in Japanese, with English papers in 1959 and 1960",
+      "source": "Wikipedia Hyperfunction",
+      "url": "https://en.wikipedia.org/wiki/Hyperfunction",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The Japanese announcement is not verified bibliographically; listed as precursor only, not a derived date."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1959,
+    "endYear": null,
+    "precision": "year",
+    "label": "Theory of hyperfunctions I",
+    "work": "Sato, Theory of hyperfunctions I, J. Fac. Sci. Univ. Tokyo Sect. I 8 (1959) 139-193",
+    "people": [
+     "Mikio Sato"
+    ],
+    "description": "Sato defines hyperfunctions as boundary values of holomorphic functions and gives the basic theory.",
+    "evidence": [
+     {
+      "claim": "zbMATH record 'Theory of hyperfunctions. I' in J. Fac. Sci. Univ. Tokyo 8, 1959",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/3143096",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1960,
+    "endYear": null,
+    "precision": "year",
+    "label": "Theory of hyperfunctions II",
+    "work": "Sato, Theory of hyperfunctions II, J. Fac. Sci. Univ. Tokyo Sect. I 8 (1960) 387-437",
+    "people": [
+     "Mikio Sato"
+    ],
+    "description": "The second part develops the theory further and makes it usable for analysis.",
+    "evidence": [
+     {
+      "claim": "zbMATH record 'Theory of hyperfunctions. II', 1960",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/3158986",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1970,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hyperfunctions and partial differential equations",
+    "work": "Sato, Hyperfunctions and partial differential equations (1970)",
+    "people": [
+     "Mikio Sato"
+    ],
+    "description": "Sato's 1970 paper applies hyperfunctions to linear partial differential equations, the route to algebraic and microlocal analysis.",
+    "evidence": [
+     {
+      "claim": "zbMATH record 'Hyperfunctions and partial differential equations', Sato, 1970",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/3331746",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Record gives author and year but no journal; the claim about its content is from the title and the Wikipedia overview of applications."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1973,
+    "endYear": null,
+    "precision": "year",
+    "label": "Introduction to the theory of hyperfunctions (Komatsu)",
+    "work": "Komatsu, An introduction to the theory of hyperfunctions, Springer LNM (1973)",
+    "people": [
+     "Hikosaburo Komatsu"
+    ],
+    "description": "A lecture-notes introduction giving the first systematic exposition in English.",
+    "evidence": [
+     {
+      "claim": "Crossref record: 'An introduction to the theory of hyperfunctions', Lecture Notes in Mathematics, 1973",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bfb0068144",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "A lecture-notes introduction rather than a monograph; the Sato school's microfunction work (1970s) is not separately verified."
+   }
+  ],
+  "people": [
+   {
+    "name": "Mikio Sato",
+    "role": "originator",
+    "lifespan": "1928-2023",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Mikio_Sato",
+    "works": [
+     {
+      "citation": "Sato, Theory of hyperfunctions I, J. Fac. Sci. Univ. Tokyo 8 (1959)",
+      "year": 1959,
+      "url": "https://zbmath.org/3143096",
+      "whyItMatters": "Foundational paper."
+     },
+     {
+      "citation": "Sato, Theory of hyperfunctions II, J. Fac. Sci. Univ. Tokyo 8 (1960)",
+      "year": 1960,
+      "url": "https://zbmath.org/3158986",
+      "whyItMatters": "Development of the theory."
+     },
+     {
+      "citation": "Sato, Hyperfunctions and partial differential equations (1970)",
+      "year": 1970,
+      "url": "https://zbmath.org/3331746",
+      "whyItMatters": "Application to PDE."
+     }
+    ],
+    "roleNote": "founder of hyperfunction theory and algebraic analysis"
+   },
+   {
+    "name": "Hikosaburo Komatsu",
+    "role": "popularizer",
+    "lifespan": "n.d.",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Hikosaburo_Komatsu",
+    "works": [
+     {
+      "citation": "Komatsu, An introduction to the theory of hyperfunctions, LNM (1973)",
+      "year": 1973,
+      "url": "https://doi.org/10.1007/bfb0068144",
+      "whyItMatters": "Lecture-notes introduction."
+     }
+    ],
+    "roleNote": "expositor of hyperfunctions"
+   }
+  ],
+  "notes": "The input's event title pairs hyperfunctions with algebraic analysis; the algebraic-analysis term is Sato's and its coinage date was not found, so no naming milestone. No first_application is verified: the PDE application in 1970 is a candidate, so methodological is null. Laurent Schwartz and Grothendieck are cited by Wikipedia as influences but no dated work was checked, so they are not listed as people. Searched: Wikipedia Hyperfunction, Wikipedia Mikio Sato, zbMATH, Crossref. Fresh check: zbMATH returned no coinage record for 'algebraic analysis', only Komatsu's 1989 volume dedicated to Sato; the 1970 milestone keeps its existing zbMATH evidence (3331746), which this pass did not re-fetch.",
+  "searchedSources": [
+   "Wikipedia Hyperfunction",
+   "Wikipedia Mikio Sato",
+   "zbMATH",
+   "Crossref",
+   "wikipedia-leads.json (no lead for WB52)"
+  ],
+  "derivedDates": {
+   "conceptual": 1959,
+   "methodological": null,
+   "institutional": 1973
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P261",
+  "eventId": "MB102",
+  "canonicalName": "Kodaira-Spencer deformation theory",
+  "aliases": [
+   "deformation theory of complex structures",
+   "Kodaira-Spencer theory",
+   "Kodaira-Spencer-Kuranishi deformation theory"
+  ],
+  "phases": [
+   "Cohomological deformation theory (1958)",
+   "Existence and stability theorems (1958-60)",
+   "Monograph consolidation (1986)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1958,
+    "endYear": null,
+    "precision": "year",
+    "label": "Deformations of complex analytic structures I",
+    "work": "Kodaira and Spencer, On deformations of complex analytic structures I, Ann. of Math. 67 (1958) 328-401",
+    "people": [
+     "Kunihiko Kodaira",
+     "Donald Spencer"
+    ],
+    "description": "Kodaira and Spencer set up the deformation theory of complex structures using sheaf cohomology.",
+    "evidence": [
+     {
+      "claim": "Crossref record: On Deformations of Complex Analytic Structures I, Annals of Mathematics, 1958",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1970009",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1958,
+    "endYear": null,
+    "precision": "year",
+    "label": "Cohomological method applied to deformations",
+    "work": "Kodaira and Spencer, On deformations of complex analytic structures I (1958)",
+    "people": [
+     "Kunihiko Kodaira",
+     "Donald Spencer"
+    ],
+    "description": "The same paper applies the cohomological method to deformations of compact complex structures.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Spencer: deformation theory of structures from differential geometry; zbMATH record of the 1958 paper",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/3208805",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Same paper as first_statement; kept under the rule that one paper can play both roles. The application claim is from the paper's described content and the input's summary."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1958,
+    "endYear": null,
+    "precision": "year",
+    "label": "Existence of deformations of complex analytic structures",
+    "work": "Kodaira, Nirenberg and Spencer, On the existence of deformations of complex analytic structures, Ann. of Math. 68 (1958) 450-459",
+    "people": [
+     "Kunihiko Kodaira",
+     "Louis Nirenberg",
+     "Donald Spencer"
+    ],
+    "description": "The existence theorem shows that every small deformation of a compact complex structure is realised, which made the theory matter.",
+    "evidence": [
+     {
+      "claim": "Crossref record: On the Existence of Deformations of Complex Analytic Structures, Annals of Mathematics, 1958",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1970256",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1960,
+    "endYear": null,
+    "precision": "year",
+    "label": "Stability theorems for complex structures",
+    "work": "Kodaira and Spencer, On deformations of complex analytic structures III: stability theorems, Ann. of Math. 71 (1960) 43-76",
+    "people": [
+     "Kunihiko Kodaira",
+     "Donald Spencer"
+    ],
+    "description": "Stability theorems show that small deformations of a stable complex structure keep the structure, the main extension of the programme.",
+    "evidence": [
+     {
+      "claim": "zbMATH record for part III, Annals of Mathematics 71 (1960)",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/3208806",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1986,
+    "endYear": null,
+    "precision": "year",
+    "label": "Monograph on complex manifolds and deformations",
+    "work": "Kodaira, Complex Manifolds and Deformation of Complex Structures, Springer (1986; later English reprint 2006)",
+    "people": [
+     "Kunihiko Kodaira"
+    ],
+    "description": "A systematic treatment of the theory after the 1958-60 papers.",
+    "evidence": [
+     {
+      "claim": "Open Library record: Springer-Verlag 1986 edition under the Japanese title, and Springer London 2006 English reprint",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/works/OL5479258W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The English original year is not verified; the 1986 Springer-Verlag record carries a Japanese title. The 2006 reprint is verified in Open Library."
+   }
+  ],
+  "people": [
+   {
+    "name": "Kunihiko Kodaira",
+    "role": "developer",
+    "lifespan": "1915-1997",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kodaira/",
+    "works": [
+     {
+      "citation": "Kodaira and Spencer, On deformations of complex analytic structures I, Ann. Math. 67 (1958)",
+      "year": 1958,
+      "url": "https://doi.org/10.2307/1970009",
+      "whyItMatters": "Foundational paper."
+     },
+     {
+      "citation": "Kodaira and Spencer, On deformations ... III, Ann. Math. 71 (1960)",
+      "year": 1960,
+      "url": "https://zbmath.org/3208806",
+      "whyItMatters": "Stability theorems."
+     },
+     {
+      "citation": "Kodaira, Complex Manifolds and Deformation of Complex Structures (1986)",
+      "year": 1986,
+      "url": "https://openlibrary.org/works/OL5479258W",
+      "whyItMatters": "Monograph."
+     }
+    ],
+    "roleNote": "principal author"
+   },
+   {
+    "name": "Donald Spencer",
+    "role": "developer",
+    "lifespan": "1912-2001",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Donald_C._Spencer",
+    "works": [
+     {
+      "citation": "Kodaira and Spencer, On deformations of complex analytic structures I, Ann. Math. 67 (1958)",
+      "year": 1958,
+      "url": "https://doi.org/10.2307/1970009",
+      "whyItMatters": "Co-author of the foundational paper."
+     }
+    ],
+    "roleNote": "co-author"
+   },
+   {
+    "name": "Louis Nirenberg",
+    "role": "developer",
+    "lifespan": "1925-2020",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Nirenberg/",
+    "works": [
+     {
+      "citation": "Kodaira, Nirenberg and Spencer, On the existence of deformations ..., Ann. Math. 68 (1958)",
+      "year": 1958,
+      "url": "https://doi.org/10.2307/1970256",
+      "whyItMatters": "Existence theorem."
+     }
+    ],
+    "roleNote": "co-author of the existence theorem"
+   }
+  ],
+  "notes": "Input says deformations were studied by cohomology; that is confirmed for the 1958 paper. The Kuranishi existence theory (1962-64) is a later extension, not verified in this pass, so it is not listed as a milestone. The monograph year is medium confidence. Searched: Wikipedia Deformation (mathematics), Wikipedia Donald C. Spencer, MacTutor Kodaira, Crossref, zbMATH, Open Library. A Wikipedia Kuranishi page was not found under the title tried.",
+  "searchedSources": [
+   "Wikipedia Deformation (mathematics)",
+   "Wikipedia Donald C. Spencer",
+   "Wikipedia Kunihiko Kodaira",
+   "MacTutor Kodaira",
+   "Crossref",
+   "zbMATH",
+   "Open Library",
+   "wikipedia-leads.json (no lead for MB102)"
+  ],
+  "derivedDates": {
+   "conceptual": 1958,
+   "methodological": 1958,
+   "institutional": 1986
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P280",
+  "eventId": "MB54",
+  "canonicalName": "Several complex variables via PDE (L2 methods for the d-bar equation)",
+  "aliases": [
+   "L2 methods for the d-bar operator",
+   "Hormander's L2 estimates",
+   "Kohn-Hormander theory",
+   "PDE methods in several complex variables"
+  ],
+  "phases": [
+   "Kohn's harmonic integrals (1963)",
+   "Hormander's L2 estimates (1965)",
+   "Monograph consolidation (1966)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1963,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kohn's harmonic integrals on strongly pseudoconvex manifolds",
+    "work": "Kohn, Harmonic integrals on strongly pseudo-convex manifolds I, Ann. of Math. 78 (1963)",
+    "people": [
+     "Joseph J. Kohn"
+    ],
+    "description": "Kohn solves the d-bar problem on strongly pseudoconvex manifolds by harmonic integrals, a PDE method.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Harmonic Integrals on Strongly Pseudo-Convex Manifolds I, Annals of Mathematics, 1963",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1970506",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Kohn's work is a precursor to the general L2 theory and is listed as key development on the strongly pseudoconvex case. Reclassified from key_development to precursor: it predates this event's first statement (1965) and belongs to the wider field."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1965,
+    "endYear": null,
+    "precision": "year",
+    "label": "L2 estimates and existence theorems for the d-bar operator",
+    "work": "Hormander, L2 estimates and existence theorems for the d-bar operator, Acta Math. 113 (1965) 89-152",
+    "people": [
+     "Lars Hormander"
+    ],
+    "description": "Hormander proves L2 estimates for the d-bar operator, giving existence theorems on pseudoconvex domains by PDE methods.",
+    "evidence": [
+     {
+      "claim": "Crossref record: L2 estimates and existence theorems for the d-bar operator, Acta Mathematica, 1965",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02391775",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1965,
+    "endYear": null,
+    "precision": "year",
+    "label": "Existence theorems on pseudoconvex domains",
+    "work": "Hormander, L2 estimates and existence theorems for the d-bar operator, Acta Math. 113 (1965)",
+    "people": [
+     "Lars Hormander"
+    ],
+    "description": "The same paper applies the L2 estimates to existence of holomorphic functions on pseudoconvex domains, the problem the input names.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Pseudoconvexity: pseudoconvex domains defined by plurisubharmonic exhaustion; the 1965 paper is the record for the application",
+      "source": "Wikipedia Pseudoconvexity",
+      "url": "https://en.wikipedia.org/wiki/Pseudoconvexity",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Same paper as first_statement; kept under the one-paper-two-roles rule. Its content on pseudoconvex domains is from the input summary and not checked line by line."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1965,
+    "endYear": null,
+    "precision": "year",
+    "label": "Carleman estimates on complex manifolds",
+    "work": "Andreotti and Vesentini, Carleman estimates for the Laplace-Beltrami equation on complex manifolds, Publ. Math. IHES 25 (1965) 81-130",
+    "people": [
+     "Aldo Andreotti",
+     "Edoardo Vesentini"
+    ],
+    "description": "A parallel L2 (Carleman-type) method for complex manifolds that supports the same PDE-based program.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Carleman estimates for the Laplace-Beltrami equation on complex manifolds, Publ. Math. IHES, 1965",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02684398",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1966,
+    "endYear": null,
+    "precision": "year",
+    "label": "Introduction to complex analysis in several variables",
+    "work": "Hormander, An Introduction to Complex Analysis in Several Variables, Van Nostrand (1966)",
+    "people": [
+     "Lars Hormander"
+    ],
+    "description": "The first textbook treatment of the L2 method together with the basic theory of several complex variables.",
+    "evidence": [
+     {
+      "claim": "Open Library record: An introduction to complex analysis in several variables, Van Nostrand, 1966",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/works/OL8054318W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Lars Hormander",
+    "role": "developer",
+    "lifespan": "1931-2012",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hormander/",
+    "works": [
+     {
+      "citation": "Hormander, L2 estimates and existence theorems for the d-bar operator, Acta Math. 113 (1965)",
+      "year": 1965,
+      "url": "https://doi.org/10.1007/bf02391775",
+      "whyItMatters": "Core L2 estimates."
+     },
+     {
+      "citation": "Hormander, An Introduction to Complex Analysis in Several Variables (1966)",
+      "year": 1966,
+      "url": "https://openlibrary.org/works/OL8054318W",
+      "whyItMatters": "Textbook consolidation."
+     }
+    ],
+    "roleNote": "main architect of the L2 method"
+   },
+   {
+    "name": "Joseph J. Kohn",
+    "role": "developer",
+    "lifespan": "n.d.",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Joseph_J._Kohn",
+    "works": [
+     {
+      "citation": "Kohn, Harmonic Integrals on Strongly Pseudo-Convex Manifolds I, Ann. of Math. 78 (1963)",
+      "year": 1963,
+      "url": "https://doi.org/10.2307/1970506",
+      "whyItMatters": "Earlier PDE-based solution."
+     }
+    ],
+    "roleNote": "harmonic integrals for the d-bar problem"
+   },
+   {
+    "name": "Aldo Andreotti",
+    "role": "developer",
+    "lifespan": "1924-1980",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Andreotti/",
+    "works": [
+     {
+      "citation": "Andreotti and Vesentini, Carleman estimates ..., Publ. Math. IHES 25 (1965)",
+      "year": 1965,
+      "url": "https://doi.org/10.1007/bf02684398",
+      "whyItMatters": "Parallel L2 method."
+     }
+    ],
+    "roleNote": "co-author of Carleman estimates"
+   },
+   {
+    "name": "Edoardo Vesentini",
+    "role": "developer",
+    "lifespan": "n.d.",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Edoardo_Vesentini",
+    "works": [
+     {
+      "citation": "Andreotti and Vesentini, Carleman estimates ..., Publ. Math. IHES 25 (1965)",
+      "year": 1965,
+      "url": "https://doi.org/10.1007/bf02684398",
+      "whyItMatters": "Parallel L2 method."
+     }
+    ],
+    "roleNote": "co-author of Carleman estimates"
+   }
+  ],
+  "notes": "The input's 'solved problems about pseudoconvex domains' fits the 1965 Hormander paper, but the application claim is taken from the input and the Wikipedia Pseudoconvexity article, not from the paper text. The Wikipedia Several complex variables article (Oka, Hartogs, sheaf methods) gives the pre-PDE background; no pre-1963 PDE statement was verified, so there is no precursor milestone. Searched: Wikipedia Lars Hormander, Wikipedia Pseudoconvexity, Wikipedia Function of several complex variables, MacTutor Hormander, Crossref, Open Library.",
+  "searchedSources": [
+   "Wikipedia Lars Hormander",
+   "Wikipedia Pseudoconvexity",
+   "Wikipedia Function of several complex variables",
+   "MacTutor Hormander",
+   "Crossref",
+   "Open Library",
+   "wikipedia-leads.json (no usable lead for MB54)"
+  ],
+  "derivedDates": {
+   "conceptual": 1965,
+   "methodological": 1965,
+   "institutional": 1966
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P213",
+  "eventId": "MB38/WB103",
+  "canonicalName": "Topological K-theory",
+  "aliases": [
+   "K-theory of vector bundles",
+   "Atiyah-Hirzebruch K-theory",
+   "K^0 of spaces",
+   "generalised cohomology from vector bundles"
+  ],
+  "phases": [
+   "Grothendieck's K_0 (1957)",
+   "Atiyah-Hirzebruch topological K-theory (1959-61)",
+   "Bott periodicity (1959)",
+   "Consolidation (1964)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1957,
+    "endYear": null,
+    "precision": "year",
+    "label": "Grothendieck's K_0 and Riemann-Roch for varieties",
+    "work": "Grothendieck, Sur quelques points d'algebre homologique, Tohoku Math. J. (1957)",
+    "people": [
+     "Alexander Grothendieck"
+    ],
+    "description": "Grothendieck's group of coherent sheaves (K_0) for algebraic varieties, the algebraic precursor of the topological theory.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Sur quelques points d'algebre homologique, Tohoku Mathematical Journal, 1957",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2748/tmj/1178244839",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia K-theory: the subject is said to begin with Grothendieck (1957), who used it for Riemann-Roch",
+      "source": "Wikipedia K-theory",
+      "url": "https://en.wikipedia.org/wiki/K-theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Algebraic precursor; the topological theory is not a copy of this, so it does not set a derived date."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1959,
+    "endYear": null,
+    "precision": "year",
+    "label": "Topological K(X) from vector bundles",
+    "work": "Atiyah and Hirzebruch, Riemann-Roch theorems for differentiable manifolds, Bull. AMS 65 (1959) 276-281",
+    "people": [
+     "Michael Atiyah",
+     "Friedrich Hirzebruch"
+    ],
+    "description": "Atiyah and Hirzebruch define K(X) for topological spaces from vector bundles, the first public version of the theory.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Riemann-Roch theorems for differentiable manifolds, Bull. AMS, 1959",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/s0002-9904-1959-10344-x",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia K-theory: Atiyah and Hirzebruch defined K(X) for topological spaces in 1959",
+      "source": "Wikipedia K-theory",
+      "url": "https://en.wikipedia.org/wiki/K-theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The definition of K(X) in this paper is from the Wikipedia summary; the Bull. AMS record is verified."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1959,
+    "endYear": null,
+    "precision": "year",
+    "label": "Riemann-Roch for differentiable manifolds",
+    "work": "Atiyah and Hirzebruch, Riemann-Roch theorems for differentiable manifolds, Bull. AMS 65 (1959)",
+    "people": [
+     "Michael Atiyah",
+     "Friedrich Hirzebruch"
+    ],
+    "description": "The same paper uses K-theory on a target problem, a Riemann-Roch theorem for differentiable manifolds.",
+    "evidence": [
+     {
+      "claim": "Crossref record for the Bull. AMS paper (title names the Riemann-Roch application)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/s0002-9904-1959-10344-x",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Same paper as first_statement. The input's claim that K-theory was used on Hopf invariant problems is not confirmed: Wikipedia credits Adams's 1960 Hopf invariant one proof to secondary cohomology operations, so that link is not used here."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1959,
+    "endYear": null,
+    "precision": "year",
+    "label": "Bott periodicity",
+    "work": "Bott, The stable homotopy of the classical groups, Ann. of Math. 70 (1959)",
+    "people": [
+     "Raoul Bott"
+    ],
+    "description": "Bott periodicity makes topological K-theory a generalised cohomology theory with a periodic structure.",
+    "evidence": [
+     {
+      "claim": "Crossref record: The Stable Homotopy of the Classical Groups, Annals of Mathematics, 1959",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1970106",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia K-theory: Bott periodicity is one of the main tools of the K-theory approach",
+      "source": "Wikipedia K-theory",
+      "url": "https://en.wikipedia.org/wiki/K-theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1961,
+    "endYear": null,
+    "precision": "year",
+    "label": "K-theory of homogeneous spaces",
+    "work": "Atiyah and Hirzebruch, Vector bundles and homogeneous spaces, Proc. Symp. Pure Math. 3 (1961)",
+    "people": [
+     "Michael Atiyah",
+     "Friedrich Hirzebruch"
+    ],
+    "description": "Applies topological K-theory to homogeneous spaces, showing the theory computes useful invariants.",
+    "evidence": [
+     {
+      "claim": "Crossref record for the 1961 Proceedings of Symposia in Pure Mathematics volume 3",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/pspum/003/0139181",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1964,
+    "endYear": null,
+    "precision": "year",
+    "label": "Atiyah's book K-theory",
+    "work": "Atiyah, K-theory, W. A. Benjamin (1964)",
+    "people": [
+     "Michael Atiyah"
+    ],
+    "description": "The first book-length treatment of topological K-theory.",
+    "evidence": [
+     {
+      "claim": "Open Library record: K-theory, Atiyah, W. A. Benjamin, first publish year 1964",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/works/OL4475226W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Open Library gives 1964 for the Benjamin edition; the commonly cited book date is later (about 1967) and was not verified, so the year is the bibliographic record only."
+   }
+  ],
+  "people": [
+   {
+    "name": "Michael Atiyah",
+    "role": "originator",
+    "lifespan": "1929-2019",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Atiyah/",
+    "works": [
+     {
+      "citation": "Atiyah and Hirzebruch, Riemann-Roch theorems for differentiable manifolds, Bull. AMS 65 (1959)",
+      "year": 1959,
+      "url": "https://doi.org/10.1090/s0002-9904-1959-10344-x",
+      "whyItMatters": "Definition and first application."
+     },
+     {
+      "citation": "Atiyah, K-theory, W. A. Benjamin (1964)",
+      "year": 1964,
+      "url": "https://openlibrary.org/works/OL4475226W",
+      "whyItMatters": "First book."
+     }
+    ],
+    "roleNote": "creator of topological K-theory"
+   },
+   {
+    "name": "Friedrich Hirzebruch",
+    "role": "originator",
+    "lifespan": "1927-2012",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hirzebruch/",
+    "works": [
+     {
+      "citation": "Atiyah and Hirzebruch, Vector bundles and homogeneous spaces (1961)",
+      "year": 1961,
+      "url": "https://doi.org/10.1090/pspum/003/0139181",
+      "whyItMatters": "Applications to homogeneous spaces."
+     }
+    ],
+    "roleNote": "co-author of the foundations"
+   },
+   {
+    "name": "Raoul Bott",
+    "role": "developer",
+    "lifespan": "1923-2005",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bott/",
+    "works": [
+     {
+      "citation": "Bott, The stable homotopy of the classical groups, Ann. of Math. 70 (1959)",
+      "year": 1959,
+      "url": "https://doi.org/10.2307/1970106",
+      "whyItMatters": "Periodicity."
+     }
+    ],
+    "roleNote": "proved periodicity"
+   },
+   {
+    "name": "Alexander Grothendieck",
+    "role": "developer",
+    "lifespan": "1928-2014",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Grothendieck/",
+    "works": [
+     {
+      "citation": "Grothendieck, Sur quelques points d'algebre homologique, Tohoku (1957)",
+      "year": 1957,
+      "url": "https://doi.org/10.2748/tmj/1178244839",
+      "whyItMatters": "K_0 of varieties."
+     }
+    ],
+    "roleNote": "algebraic K-theory precursor"
+   }
+  ],
+  "notes": "The derived dates are the 1959 Atiyah-Hirzebruch paper (conceptual and methodological) and the 1964 book (institutional). The Adams 1960 Hopf invariant paper is verified as a record but its K-theory content was not, so it is not a milestone. The K-theory term's origin (Klasse) is from Wikipedia and undated. Searched: Wikipedia K-theory, MacTutor Atiyah, Bott, Grothendieck, Crossref, zbMATH, Open Library, Wikipedia Adams.",
+  "searchedSources": [
+   "Wikipedia K-theory",
+   "Wikipedia Frank Adams",
+   "MacTutor Atiyah",
+   "MacTutor Bott",
+   "MacTutor Grothendieck",
+   "Crossref",
+   "Open Library",
+   "wikipedia-leads.json (no lead for MB38/WB103)"
+  ],
+  "derivedDates": {
+   "conceptual": 1959,
+   "methodological": 1959,
+   "institutional": 1964
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P252",
+  "eventId": "MB84",
+  "canonicalName": "Kripke semantics (possible-world semantics for modal logic)",
+  "aliases": [
+   "Kripke semantics",
+   "possible-world semantics",
+   "relational semantics for modal logic",
+   "Kripke frames and models"
+  ],
+  "phases": [
+   "Relational semantics precursor (1957)",
+   "Kripke's completeness theorem (1959)",
+   "Systematic semantics (1963)",
+   "Textbook consolidation (1968)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1959,
+    "endYear": null,
+    "precision": "year",
+    "label": "Completeness theorem for modal logic via relational models",
+    "work": "Kripke, A completeness theorem in modal logic, J. Symbolic Logic 24 (1959) 1-14",
+    "people": [
+     "Saul Kripke"
+    ],
+    "description": "Kripke proves completeness for modal systems with respect to relational (possible-world) models.",
+    "evidence": [
+     {
+      "claim": "Crossref record: A completeness theorem in modal logic, Journal of Symbolic Logic, 1959",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/2964568",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Saul Kripke: he wrote his first completeness theorem in modal logic and had it published a year later; his semantics is now called Kripke semantics",
+      "source": "Wikipedia Saul Kripke",
+      "url": "https://en.wikipedia.org/wiki/Saul_Kripke",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1959,
+    "endYear": null,
+    "precision": "year",
+    "label": "Completeness proofs for modal systems",
+    "work": "Kripke, A completeness theorem in modal logic, J. Symbolic Logic 24 (1959)",
+    "people": [
+     "Saul Kripke"
+    ],
+    "description": "The same paper uses the relational models to prove completeness for particular modal systems, the first purposeful application.",
+    "evidence": [
+     {
+      "claim": "Crossref record for the 1959 paper (title names the completeness application)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/2964568",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Same paper as first_statement; kept under the one-paper-two-roles rule."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1963,
+    "endYear": null,
+    "precision": "year",
+    "label": "Semantical analysis of normal modal propositional calculi",
+    "work": "Kripke, Semantical analysis of modal logic I: normal propositional calculi, Z. Math. Logik Grundlagen Math. 9 (1963) 67-96",
+    "people": [
+     "Saul Kripke"
+    ],
+    "description": "Systematic semantical analysis of normal modal calculi with frames and accessibility relations.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Semantical Analysis of Modal Logic I, Mathematical Logic Quarterly, 1963",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1002/malq.19630090502",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1963,
+    "endYear": null,
+    "precision": "year",
+    "label": "Semantical considerations on modal logic",
+    "work": "Kripke, Semantical considerations on modal logic, Acta Philosophica Fennica 16 (1963) 83-94",
+    "people": [
+     "Saul Kripke"
+    ],
+    "description": "The informal account of the possible-world semantics, reaching a wider audience.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: Semantical considerations on modal logic, Acta Philosophica Fennica 16, 1963",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/3212004",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1968,
+    "endYear": null,
+    "precision": "year",
+    "label": "Textbook: An Introduction to Modal Logic",
+    "work": "Hughes and Cresswell, An Introduction to Modal Logic, Methuen (1968)",
+    "people": [
+     "George Hughes",
+     "Max Cresswell"
+    ],
+    "description": "First textbook treatment of modal logic with the relational semantics.",
+    "evidence": [
+     {
+      "claim": "Open Library record: An introduction to modal logic, Methuen, 1968 (G. E. Hughes)",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/works/OL2912865W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Co-author Cresswell appears on later editions (1990, 1996); the 1968 record is listed under Hughes."
+   }
+  ],
+  "people": [
+   {
+    "name": "Saul Kripke",
+    "role": "originator",
+    "lifespan": "1940-",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Saul_Kripke",
+    "works": [
+     {
+      "citation": "Kripke, A completeness theorem in modal logic, J. Symbolic Logic 24 (1959)",
+      "year": 1959,
+      "url": "https://doi.org/10.2307/2964568",
+      "whyItMatters": "Completeness for relational models."
+     },
+     {
+      "citation": "Kripke, Semantical analysis of modal logic I, Z. Math. Logik 9 (1963)",
+      "year": 1963,
+      "url": "https://doi.org/10.1002/malq.19630090502",
+      "whyItMatters": "Systematic semantics."
+     }
+    ],
+    "roleNote": "introduced the relational semantics"
+   },
+   {
+    "name": "Stig Kanger",
+    "role": "developer",
+    "lifespan": "1924-1988",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Stig_Kanger",
+    "works": [
+     {
+      "citation": "Kanger, Provability in Logic, Almqvist and Wiksell (1957)",
+      "year": 1957,
+      "url": "https://openlibrary.org/search?q=provability+in+logic+kanger",
+      "whyItMatters": "Candidate precursor; content of the semantics not checked."
+     }
+    ],
+    "roleNote": "candidate precursor of relational semantics"
+   },
+   {
+    "name": "George Hughes",
+    "role": "systematiser",
+    "lifespan": "n.d.",
+    "biographyUrl": "https://en.wikipedia.org/wiki/George_Hughes",
+    "works": [
+     {
+      "citation": "Hughes and Cresswell, An Introduction to Modal Logic, Methuen (1968)",
+      "year": 1968,
+      "url": "https://openlibrary.org/works/OL2912865W",
+      "whyItMatters": "Early textbook."
+     }
+    ],
+    "roleNote": "textbook author"
+   }
+  ],
+  "notes": "Kanger (1957) is a candidate precursor only: the bibliographic record is verified, but its relational-semantics content was not read, so it is not a milestone. The 'Kripke semantics' label is said by Wikipedia to be later usage and the naming date was not found. First-application claim is the same 1959 paper. Searched: Wikipedia Saul Kripke, Wikipedia Kripke semantics, Crossref, zbMATH, Open Library. Fresh check: a zbMATH search for Kanger's 'Provability in logic' returned no Kanger record, so the 1957 date stays unresolved.",
+  "searchedSources": [
+   "Wikipedia Saul Kripke",
+   "Wikipedia Kripke semantics",
+   "Crossref",
+   "zbMATH",
+   "Open Library",
+   "wikipedia-leads.json (no lead for MB84)"
+  ],
+  "derivedDates": {
+   "conceptual": 1959,
+   "methodological": 1959,
+   "institutional": 1968
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P254",
+  "eventId": "MB69",
+  "canonicalName": "Random graph theory",
+  "aliases": [
+   "random graphs",
+   "Erdos-Renyi model G(n,M)",
+   "Gilbert model G(n,p)",
+   "probabilistic graph theory"
+  ],
+  "phases": [
+   "Gilbert and Erdos-Renyi models (1959)",
+   "Evolution and thresholds (1960)",
+   "Monograph consolidation (1985)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1959,
+    "endYear": null,
+    "precision": "year",
+    "label": "Gilbert's random graph model G(n,p)",
+    "work": "Gilbert, Random graphs, Ann. Math. Statist. 30 (1959) 1141-1144",
+    "people": [
+     "Edgar Gilbert"
+    ],
+    "description": "Gilbert defines the random graph in which each edge occurs independently with a fixed probability.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Random Graphs, Annals of Mathematical Statistics, 1959",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1214/aoms/1177706098",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Random graph: the model is most commonly studied as proposed by Edgar Gilbert",
+      "source": "Wikipedia Random graph",
+      "url": "https://en.wikipedia.org/wiki/Random_graph",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 1959,
+    "endYear": null,
+    "precision": "year",
+    "label": "'On random graphs I' names the subject",
+    "work": "Erdos and Renyi, On random graphs I, Publ. Math. Debrecen 6 (1959) 290-297",
+    "people": [
+     "Paul Erdos",
+     "Alfred Renyi"
+    ],
+    "description": "The first use of 'random graphs' in a title by Erdos and Renyi, the model that later carries their name.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: On random graphs. I, Publicationes Mathematicae Debrecen 6, 1959",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/3150484",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Gilbert's 1959 title is identical in wording and the same year; the order of the two papers is not resolved, so naming is recorded jointly for 1959."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1960,
+    "endYear": null,
+    "precision": "year",
+    "label": "Evolution of random graphs: thresholds and giant component",
+    "work": "Erdos and Renyi, On the evolution of random graphs, Publ. Math. Inst. Hungar. Acad. Sci. 5 (1960) 17-61",
+    "people": [
+     "Paul Erdos",
+     "Alfred Renyi"
+    ],
+    "description": "Studies the threshold behaviour of properties (connectivity, giant component) as the number of edges grows, the work that made the topic central.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: On the evolution of random graphs, 1960",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/3168330",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor Renyi: the most important joint work on random graphs is On the evolution of random graphs (1960)",
+      "source": "MacTutor Renyi biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Renyi/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1985,
+    "endYear": null,
+    "precision": "year",
+    "label": "Monograph Random Graphs",
+    "work": "Bollobas, Random Graphs, Academic Press (1985)",
+    "people": [
+     "Bela Bollobas"
+    ],
+    "description": "The first book-length treatment of random graph theory.",
+    "evidence": [
+     {
+      "claim": "Open Library record: Random graphs, Bollobas, Academic Press, 1985",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/works/OL38357W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Paul Erdos",
+    "role": "originator",
+    "lifespan": "1913-1996",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Erdos/",
+    "works": [
+     {
+      "citation": "Erdos and Renyi, On random graphs I, Publ. Math. Debrecen 6 (1959)",
+      "year": 1959,
+      "url": "https://zbmath.org/3150484",
+      "whyItMatters": "Model and naming."
+     },
+     {
+      "citation": "Erdos and Renyi, On the evolution of random graphs (1960)",
+      "year": 1960,
+      "url": "https://zbmath.org/3168330",
+      "whyItMatters": "Thresholds."
+     }
+    ],
+    "roleNote": "co-founder of random graph theory"
+   },
+   {
+    "name": "Alfred Renyi",
+    "role": "originator",
+    "lifespan": "1921-1970",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Renyi/",
+    "works": [
+     {
+      "citation": "Erdos and Renyi, On the evolution of random graphs (1960)",
+      "year": 1960,
+      "url": "https://zbmath.org/3168330",
+      "whyItMatters": "Thresholds."
+     }
+    ],
+    "roleNote": "co-founder of random graph theory"
+   },
+   {
+    "name": "Edgar Gilbert",
+    "role": "originator",
+    "lifespan": "1923-2013",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Edgar_Gilbert",
+    "works": [
+     {
+      "citation": "Gilbert, Random graphs, Ann. Math. Statist. 30 (1959)",
+      "year": 1959,
+      "url": "https://doi.org/10.1214/aoms/1177706098",
+      "whyItMatters": "Gilbert model."
+     }
+    ],
+    "roleNote": "introduced the G(n,p) model"
+   },
+   {
+    "name": "Bela Bollobas",
+    "role": "systematiser",
+    "lifespan": "n.d.",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bollobas/",
+    "works": [
+     {
+      "citation": "Bollobas, Random Graphs, Academic Press (1985)",
+      "year": 1985,
+      "url": "https://openlibrary.org/works/OL38357W",
+      "whyItMatters": "Standard monograph."
+     }
+    ],
+    "roleNote": "monograph author"
+   }
+  ],
+  "notes": "The naming milestone is joint for 1959 (Erdos-Renyi title and Gilbert title). The input says random graphs were studied for thresholds; the threshold results are in the 1960 paper, and no earlier first_application was verified, so methodological is null. Probabilistic-method precursors (Erdos 1947) were not checked and are not listed. Searched: Wikipedia Random graph, Wikipedia Edgar Gilbert, MacTutor Erdos and Renyi, Crossref, zbMATH, Open Library. The wikipedia-leads entry for MB69 gives only the Random graph article.",
+  "searchedSources": [
+   "Wikipedia Random graph",
+   "Wikipedia Edgar Gilbert",
+   "MacTutor Erdos",
+   "MacTutor Renyi",
+   "Crossref",
+   "zbMATH",
+   "Open Library",
+   "wikipedia-leads.json (candidate Random graph only)"
+  ],
+  "derivedDates": {
+   "conceptual": 1959,
+   "methodological": null,
+   "institutional": 1959
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P332",
+  "eventId": "WC40",
+  "canonicalName": "Restricted Burnside problem",
+  "aliases": [
+   "restricted Burnside problem (RBP)",
+   "finiteness of B(m,n)",
+   "Burnside groups with bounded generators"
+  ],
+  "phases": [
+   "Early partial results (1930s-1950s)",
+   "Hall-Higman reduction and Kostrikin's prime case (1956-58)",
+   "Zelmanov's solution (1990-91)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1933,
+    "endYear": null,
+    "precision": "year",
+    "label": "Levi and van der Waerden: B(m,3) is finite",
+    "work": null,
+    "people": [
+     "Friedrich Levi",
+     "Bartel van der Waerden"
+    ],
+    "description": "Independent proof that the three-exponent Burnside group is finite, the earliest partial results on the restricted problem.",
+    "evidence": [
+     {
+      "claim": "MacTutor Burnside problem topic: in 1933 Levi and van der Waerden showed B(m,3) has finite order",
+      "source": "MacTutor Burnside problem topic",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Burnside_problem/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The Levi-van der Waerden paper was not verified bibliographically; the year is from MacTutor."
+   },
+   {
+    "role": "first_statement",
+    "year": 1940,
+    "precision": "year",
+    "label": "First paper on the restricted Burnside problem",
+    "work": "O. Gruen, Zusammenhang zwischen Potenzbildung und Kommutatorbildung, J. reine angew. Math. 182 (1940), 158-177",
+    "people": [
+     "Otto Gruen"
+    ],
+    "description": "Gruen's paper is the first published work aimed at the restricted Burnside problem, which had circulated orally since the 1930s.",
+    "evidence": [
+     {
+      "claim": "The first paper addressing the restricted problem appeared in 1940 (Gruen); the problem was only present in seminars in the 1930s; the name came from Magnus in 1950.",
+      "source": "MacTutor, History of the Burnside problem",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Burnside_problem/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "zbMATH lists the 1940 paper, J. reine angew. Math. 182, pp. 158-177.",
+      "source": "zbMATH Open document 2508900",
+      "url": "https://zbmath.org/2508900",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "A first printed treatment, not an explicit statement of the problem; the original poser is unknown (oral tradition, 1930s). Magnus 1950 coined the name (zbMATH 3056912), already in the record as naming.",
+    "phase": null,
+    "endYear": null
+   },
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 1950,
+    "endYear": null,
+    "precision": "year",
+    "label": "Restricted Burnside problem term coined (Magnus)",
+    "work": "Magnus, A connection between the Baker-Hausdorff formula and a problem of Burnside, Ann. of Math. (1950)",
+    "people": [
+     "Wilhelm Magnus"
+    ],
+    "description": "MacTutor says the term 'Restricted Burnside Problem' was coined by Magnus in 1950.",
+    "evidence": [
+     {
+      "claim": "zbMATH record for Magnus 1950 (Burnside problem)",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/3056912",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor Burnside problem topic: the term was coined by Magnus in 1950",
+      "source": "MacTutor Burnside problem topic",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Burnside_problem/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The coinage is from MacTutor; the verified Magnus record concerns a related Burnside paper, so the coinage claim is secondary."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1956,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hall-Higman reduction theorem",
+    "work": "Hall and Higman, On the p-length of p-soluble groups and reduction theorems for Burnside's problem, Proc. London Math. Soc. (1956)",
+    "people": [
+     "Marshall Hall Jr.",
+     "Graham Higman"
+    ],
+    "description": "A reduction theorem that reduces the restricted problem to prime-power exponents, the first purposeful use on the target problem.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Hall and Higman, Proc. London Math. Soc., 1956",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1112/plms/s3-6.1.1",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor Burnside problem topic: the 1956 Hall-Higman paper contains a reduction theorem for the RBP",
+      "source": "MacTutor Burnside problem topic",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Burnside_problem/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1958,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kostrikin: restricted problem for prime exponent",
+    "work": "Kostrikin, On Burnside's problem, Doklady Akad. Nauk SSSR 119 (1958) 1081-1084",
+    "people": [
+     "Aleksei Kostrikin"
+    ],
+    "description": "Kostrikin proves the restricted problem for prime exponent, the first complete solution for a class of exponents.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: Kostrikin, On Burnside's problem, Dokl. Akad. Nauk SSSR 119 (1958)",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/3138256",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Burnside problem: Kostrikin proved in 1958 the restricted problem for prime exponent",
+      "source": "Wikipedia Burnside problem",
+      "url": "https://en.wikipedia.org/wiki/Burnside_problem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1990,
+    "endYear": null,
+    "precision": "year",
+    "label": "Zelmanov: restricted problem for odd exponent",
+    "work": "Zelmanov, Solution of the restricted Burnside problem for groups of odd exponent, Izv. Akad. Nauk SSSR Ser. Mat. 54 (1990) 42-59",
+    "people": [
+     "Efim Zelmanov"
+    ],
+    "description": "Zelmanov solves the restricted problem for groups of odd exponent using Lie-ring methods.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: Zelmanov, Solution of the restricted Burnside problem for groups of odd exponent, Izv. 54 (1990)",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/4154724",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1990,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kostrikin's monograph Around Burnside",
+    "work": "Kostrikin, Around Burnside, Ergebnisse der Mathematik 20, Springer (1990)",
+    "people": [
+     "Aleksei Kostrikin"
+    ],
+    "description": "The first monograph on the Burnside problems, including the restricted case.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: Around Burnside (Springer, Ergebnisse 20, 1990)",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/47848",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1991,
+    "endYear": null,
+    "precision": "year",
+    "label": "Zelmanov: restricted problem for 2-groups",
+    "work": "Zelmanov, Solution of the restricted Burnside problem for 2-groups, Mat. Sb. 182 (1991) 568-592",
+    "people": [
+     "Efim Zelmanov"
+    ],
+    "description": "Completes the restricted problem for all exponents by treating the 2-group case.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: Zelmanov, Solution of the restricted Burnside problem for 2-groups, Mat. Sb. 182 (1991)",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/4216727",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Efim Zelmanov",
+    "role": "developer",
+    "lifespan": "1955-",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Zelmanov/",
+    "works": [
+     {
+      "citation": "Zelmanov, Solution of the restricted Burnside problem for groups of odd exponent, Izv. 54 (1990)",
+      "year": 1990,
+      "url": "https://zbmath.org/4154724",
+      "whyItMatters": "Odd exponent."
+     },
+     {
+      "citation": "Zelmanov, Solution of the restricted Burnside problem for 2-groups, Mat. Sb. 182 (1991)",
+      "year": 1991,
+      "url": "https://zbmath.org/4216727",
+      "whyItMatters": "2-groups."
+     }
+    ],
+    "roleNote": "solved the restricted problem for all exponents"
+   },
+   {
+    "name": "Aleksei Kostrikin",
+    "role": "systematiser",
+    "lifespan": "n.d.",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kostrikin/",
+    "works": [
+     {
+      "citation": "Kostrikin, On Burnside's problem, Dokl. Akad. Nauk SSSR 119 (1958)",
+      "year": 1958,
+      "url": "https://zbmath.org/3138256",
+      "whyItMatters": "Prime exponent."
+     },
+     {
+      "citation": "Kostrikin, Around Burnside, Springer (1990)",
+      "year": 1990,
+      "url": "https://zbmath.org/47848",
+      "whyItMatters": "Monograph."
+     }
+    ],
+    "roleNote": "prime-exponent solution and monograph"
+   },
+   {
+    "name": "Marshall Hall Jr.",
+    "role": "developer",
+    "lifespan": "1910-1990",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Marshall_Hall_Jr.",
+    "works": [
+     {
+      "citation": "Hall and Higman, On the p-length ... reduction theorems for Burnside's problem, Proc. LMS (1956)",
+      "year": 1956,
+      "url": "https://doi.org/10.1112/plms/s3-6.1.1",
+      "whyItMatters": "Reduction theorem."
+     }
+    ],
+    "roleNote": "reduction theorem co-author"
+   },
+   {
+    "name": "Graham Higman",
+    "role": "developer",
+    "lifespan": "1917-2008",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Higman/",
+    "works": [
+     {
+      "citation": "Hall and Higman, On the p-length ... reduction theorems for Burnside's problem, Proc. LMS (1956)",
+      "year": 1956,
+      "url": "https://doi.org/10.1112/plms/s3-6.1.1",
+      "whyItMatters": "Reduction theorem."
+     }
+    ],
+    "roleNote": "reduction theorem co-author"
+   },
+   {
+    "name": "Wilhelm Magnus",
+    "role": "originator",
+    "lifespan": "1907-1990",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Magnus/",
+    "works": [
+     {
+      "citation": "Magnus, A connection between the Baker-Hausdorff formula and a problem of Burnside, Ann. of Math. (1950)",
+      "year": 1950,
+      "url": "https://zbmath.org/3056912",
+      "whyItMatters": "Related Burnside paper; coinage per MacTutor."
+     }
+    ],
+    "roleNote": "coined the term (per MacTutor)"
+   }
+  ],
+  "notes": "No first_statement: the restricted problem is posed in the 1930s by the MacTutor and Wikipedia summaries but no dated first public statement was verified, so the conceptual derived date is null. The naming milestone (Magnus 1950) is medium confidence and drives the institutional derived date. Input's Lie-ring claim matches Zelmanov (1990-91). Searched: Wikipedia Burnside problem and Efim Zelmanov, MacTutor Burnside topic and Zelmanov, Crossref, zbMATH. Milestones omitted to respect the 8-milestone cap: recognition 1994 Fields Medal to Zelmanov.",
+  "searchedSources": [
+   "Wikipedia Burnside problem",
+   "Wikipedia Efim Zelmanov",
+   "MacTutor Burnside problem topic",
+   "MacTutor Zelmanov",
+   "Crossref",
+   "zbMATH",
+   "wikipedia-leads.json (no lead for WC40)"
+  ],
+  "derivedDates": {
+   "conceptual": 1940,
+   "methodological": 1956,
+   "institutional": 1950
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P105",
+  "eventId": "B39",
+  "canonicalName": "Handle decompositions and the high-dimensional Poincare (h-cobordism) theorem",
+  "aliases": [
+   "generalised Poincare conjecture (dimension at least 5)",
+   "h-cobordism theorem",
+   "handle cancellation",
+   "Morse theory and handlebodies"
+  ],
+  "phases": [
+   "Morse theory (1934)",
+   "Smale's handle cancellation (1960-62)",
+   "Lectures on the h-cobordism theorem (1965)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1934,
+    "endYear": null,
+    "precision": "year",
+    "label": "Morse's calculus of variations in the large",
+    "work": "Morse, The calculus of variations in the large, AMS Colloquium Publications 18 (1934)",
+    "people": [
+     "Marston Morse"
+    ],
+    "description": "Morse theory relates critical points of a function to the topology of a manifold, the basis of handle decompositions.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: Morse, The calculus of variations in the large (1934)",
+      "source": "zbMATH",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=au%3AMorse%20ti%3Acalculus%20of%20variations%20in%20the%20large",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Precursor; the handle-cancellation argument is Smale's."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1960,
+    "endYear": null,
+    "precision": "year",
+    "label": "Announcement of the generalised Poincare conjecture in higher dimensions",
+    "work": "Smale, The generalized Poincare conjecture in higher dimensions, Bull. AMS 66 (1960) 373-375",
+    "people": [
+     "Stephen Smale"
+    ],
+    "description": "Smale announces the high-dimensional Poincare conjecture, with dimension range first n at least 7 and later extended to 5.",
+    "evidence": [
+     {
+      "claim": "Crossref record: The generalized Poincare conjecture in higher dimensions, Bull. AMS, 1960",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/s0002-9904-1960-10458-2",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Generalized Poincare conjecture: Smale proved n at least 7 in 1960 and extended to n at least 5",
+      "source": "Wikipedia Generalized Poincare conjecture",
+      "url": "https://en.wikipedia.org/wiki/Generalized_Poincar%C3%A9_conjecture",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Announcement; the full proof is the 1961 Annals paper."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1960,
+    "endYear": null,
+    "precision": "year",
+    "label": "Polyhedral homotopy-spheres (Stallings's parallel proof)",
+    "work": "Stallings, Polyhedral homotopy-spheres, Bull. AMS 66 (1960) 485-488",
+    "people": [
+     "John Stallings"
+    ],
+    "description": "Stallings gives a parallel PL proof for dimensions at least 7 using engulfing, a different route to the same result.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Polyhedral homotopy-spheres, Bull. AMS, 1960",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/s0002-9904-1960-10511-3",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Generalized Poincare conjecture: Stallings gave a different proof in dimensions at least 7 using engulfing",
+      "source": "Wikipedia Generalized Poincare conjecture",
+      "url": "https://en.wikipedia.org/wiki/Generalized_Poincar%C3%A9_conjecture",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1961,
+    "endYear": null,
+    "precision": "year",
+    "label": "Handle cancellation proves the Poincare conjecture for dimensions at least 5",
+    "work": "Smale, Generalized Poincare's conjecture in dimensions greater than four, Ann. of Math. 74 (1961) 391-406",
+    "people": [
+     "Stephen Smale"
+    ],
+    "description": "Smale uses handle decompositions and cancellation of handles to prove the generalised Poincare conjecture in dimensions at least 5.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Generalized Poincare's Conjecture in Dimensions Greater Than Four, Annals of Mathematics, 1961",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1970239",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor Smale: Smale proved the higher dimensional Poincare conjecture in 1961 for n at least 5",
+      "source": "MacTutor Smale biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Smale/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1962,
+    "endYear": null,
+    "precision": "year",
+    "label": "Structure of manifolds: the h-cobordism theorem",
+    "work": "Smale, On the structure of manifolds (1962)",
+    "people": [
+     "Stephen Smale"
+    ],
+    "description": "Smale proves the h-cobordism theorem for high dimensions, which underlies the Poincare results.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: Smale, On the structure of manifolds, 1962",
+      "source": "zbMATH",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=au%3ASmale%20ti%3Astructure%20of%20manifolds",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia H-cobordism: the theorem was first proved by Smale",
+      "source": "Wikipedia H-cobordism",
+      "url": "https://en.wikipedia.org/wiki/H-cobordism",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Year verified in zbMATH; the journal and page range were not read from the record, so the venue is not stated here."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1965,
+    "endYear": null,
+    "precision": "year",
+    "label": "Milnor's Lectures on the h-cobordism theorem",
+    "work": "Milnor, Lectures on the h-cobordism theorem, Princeton Mathematical Notes (1965)",
+    "people": [
+     "John Milnor"
+    ],
+    "description": "Lecture notes giving the first systematic treatment of the h-cobordism theorem for smooth manifolds.",
+    "evidence": [
+     {
+      "claim": "zbMATH record for Milnor's Lectures on the h-cobordism theorem, 1965",
+      "source": "zbMATH",
+      "url": "https://zbmath.org/3258063",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Crossref record: Lectures on the H-Cobordism Theorem (Princeton, 1965)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1515/9781400878055",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Stephen Smale",
+    "role": "developer",
+    "lifespan": "1930-",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Smale/",
+    "works": [
+     {
+      "citation": "Smale, The generalized Poincare conjecture in higher dimensions, Bull. AMS 66 (1960)",
+      "year": 1960,
+      "url": "https://doi.org/10.1090/s0002-9904-1960-10458-2",
+      "whyItMatters": "Announcement."
+     },
+     {
+      "citation": "Smale, Generalized Poincare's conjecture in dimensions greater than four, Ann. of Math. 74 (1961)",
+      "year": 1961,
+      "url": "https://doi.org/10.2307/1970239",
+      "whyItMatters": "Full proof for dimensions at least 5."
+     },
+     {
+      "citation": "Smale, On the structure of manifolds (1962)",
+      "year": 1962,
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=au%3ASmale%20ti%3Astructure%20of%20manifolds",
+      "whyItMatters": "h-cobordism theorem."
+     }
+    ],
+    "roleNote": "proved the high-dimensional Poincare conjecture"
+   },
+   {
+    "name": "John Milnor",
+    "role": "popularizer",
+    "lifespan": "1931-",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Milnor/",
+    "works": [
+     {
+      "citation": "Milnor, Lectures on the h-cobordism theorem (1965)",
+      "year": 1965,
+      "url": "https://zbmath.org/3258063",
+      "whyItMatters": "Consolidation."
+     },
+     {
+      "citation": "Milnor, Morse theory (1963)",
+      "year": 1963,
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=au%3AMilnor%20ti%3AMorse%20theory",
+      "whyItMatters": "Morse-theory background."
+     }
+    ],
+    "roleNote": "lecture notes on the h-cobordism theorem"
+   },
+   {
+    "name": "John Stallings",
+    "role": "developer",
+    "lifespan": "n.d.",
+    "biographyUrl": "https://en.wikipedia.org/wiki/John_R._Stallings",
+    "works": [
+     {
+      "citation": "Stallings, Polyhedral homotopy-spheres, Bull. AMS 66 (1960)",
+      "year": 1960,
+      "url": "https://doi.org/10.1090/s0002-9904-1960-10511-3",
+      "whyItMatters": "Engulfing proof."
+     }
+    ],
+    "roleNote": "parallel proof by engulfing"
+   },
+   {
+    "name": "Marston Morse",
+    "role": "originator",
+    "lifespan": "1892-1977",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Morse/",
+    "works": [
+     {
+      "citation": "Morse, The calculus of variations in the large (1934)",
+      "year": 1934,
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=au%3AMorse%20ti%3Acalculus%20of%20variations%20in%20the%20large",
+      "whyItMatters": "Morse theory."
+     }
+    ],
+    "roleNote": "founder of Morse theory"
+   }
+  ],
+  "notes": "Input summary is broadly right but the dimension range is staged: Smale's 1960 announcement covers n at least 7 (Wikipedia), and the 1961 Annals paper covers n at least 5. Stallings 1960 is an independent parallel route. The derived methodological date is 1961 (first full proof by handle cancellation). The h-cobordism term's coinage was not dated. Searched: Wikipedia Generalized Poincare conjecture, H-cobordism, Morse theory, Stephen Smale; MacTutor Smale, Milnor, Morse; Crossref; zbMATH; wikipedia-leads.json (no lead for B39).",
+  "searchedSources": [
+   "Wikipedia Generalized Poincare conjecture",
+   "Wikipedia H-cobordism",
+   "Wikipedia Morse theory",
+   "Wikipedia Stephen Smale",
+   "MacTutor Smale",
+   "MacTutor Milnor",
+   "MacTutor Morse",
+   "Crossref",
+   "zbMATH"
+  ],
+  "derivedDates": {
+   "conceptual": 1960,
+   "methodological": 1961,
+   "institutional": 1965
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ }
+]

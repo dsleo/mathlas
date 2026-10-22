@@ -1,0 +1,26 @@
+[
+ {
+  "level": "warning",
+  "file": "data/collection/enrichment/sourcefirst/A_36.json",
+  "location": "[0].milestones[2]",
+  "message": "Same work appears under different roles; explain dual role in note"
+ },
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_36.json",
+  "location": "[3].people[2]",
+  "message": "Invalid person name, role, or biography URL"
+ },
+ {
+  "level": "warning",
+  "file": "data/collection/enrichment/sourcefirst/A_36.json",
+  "location": "[4]",
+  "message": "No first_statement milestone; explain source gap in notes"
+ },
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_36.json",
+  "location": "[5].people[2]",
+  "message": "Invalid person name, role, or biography URL"
+ }
+]

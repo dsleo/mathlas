@@ -1,0 +1,169 @@
+[
+ {
+  "pid": "P070",
+  "eventId": "B04",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Pre-listed events only: no Wikipedia/MacTutor fetch completed in this pass"
+  ]
+ },
+ {
+  "pid": "P091",
+  "eventId": "B25",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia Building (mathematics) raw wikitext fetched; no first application stated"
+  ]
+ },
+ {
+  "pid": "P130",
+  "eventId": "MA87/WA90",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Not researched in this pass; only the wl_app_3 record was read"
+  ]
+ },
+ {
+  "pid": "P147",
+  "eventId": "WA51",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Not researched in this pass; only the wl_app_3 record was read"
+  ]
+ },
+ {
+  "pid": "P229",
+  "eventId": "MB83/WB40",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia Topos raw wikitext fetched; no first application stated"
+  ]
+ },
+ {
+  "pid": "P276",
+  "eventId": "MB44",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia Blum-Shub-Smale machine raw wikitext fetched; too short to state an application"
+  ]
+ },
+ {
+  "pid": "P311",
+  "eventId": "WC11/QC39",
+  "verdict": "found",
+  "milestones": [
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 2004,
+    "endYear": null,
+    "precision": "year",
+    "label": "Rasmussen applies Khovanov homology to the slice genus (s-invariant)",
+    "work": "Rasmussen, J., Khovanov homology and the slice genus, arXiv:math/0402131, 2004; Invent. Math. 182 (2010) 419-447",
+    "people": [
+     "Jacob Rasmussen"
+    ],
+    "description": "Rasmussen used Khovanov homology to define a knot invariant that bounds the slice genus, the first use of the theory on a classical problem.",
+    "evidence": [
+     {
+      "claim": "Wikipedia states the first application of Khovanov homology was Rasmussen s-invariant, giving a slice genus bound and the Milnor conjecture",
+      "source": "Wikipedia, Khovanov homology (raw wikitext)",
+      "url": "https://en.wikipedia.org/w/index.php?title=Khovanov_homology&action=raw",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Preprint math/0402131 titled Khovanov homology and the slice genus, submitted 9 Feb 2004",
+      "source": "arXiv abstract page",
+      "url": "https://arxiv.org/abs/math/0402131",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Published Invent. Math. 182 (2010) 419-447, by Jacob Rasmussen",
+      "source": "zbMATH Open record (API search)",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=Rasmussen%20Khovanov%20homology%20slice%20genus",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Year is the preprint date; the journal version is 2010."
+   }
+  ],
+  "searched": [
+   "Wikipedia Khovanov homology (raw wikitext) fetched",
+   "arXiv abstract page math/0402131 fetched",
+   "zbMATH Open API record for Rasmussen 2010 paper"
+  ]
+ },
+ {
+  "pid": "P410",
+  "eventId": "M39",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Wikipedia Descriptive set theory raw wikitext fetched; grep for first use failed (tool error), not conclusive"
+  ]
+ },
+ {
+  "pid": "P482",
+  "eventId": "P36",
+  "verdict": "existing_is_first_application",
+  "milestones": [],
+  "searched": [
+   "Wikipedia Semidefinite programming (raw wikitext) fetched",
+   "Crossref record for JACM 1995 journal version of Goemans-Williamson",
+   "Feige-Goemans 1995 ISTCS record (Crossref) checked",
+   "Existing key development 1994 (.879 MAX-CUT SDP rounding) is itself the first application of semidefinite rounding; the 1994 STOC year is taken from the existing record, not independently verified"
+  ]
+ },
+ {
+  "pid": "P119",
+  "eventId": "WA7/MA11",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Not researched in this pass; only the wl_app_3 record was read"
+  ]
+ },
+ {
+  "pid": "P140",
+  "eventId": "MA46/WA38",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Not researched in this pass; only the wl_app_3 record was read"
+  ]
+ },
+ {
+  "pid": "P186",
+  "eventId": "MA2",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Not researched in this pass; only the wl_app_3 record was read"
+  ]
+ },
+ {
+  "pid": "P391",
+  "eventId": "W68",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Not researched in this pass; only the wl_app_3 record was read"
+  ]
+ },
+ {
+  "pid": "P430",
+  "eventId": "H17",
+  "verdict": "not_found",
+  "milestones": [],
+  "searched": [
+   "Not researched in this pass; only the wl_app_3 record was read"
+  ]
+ }
+]

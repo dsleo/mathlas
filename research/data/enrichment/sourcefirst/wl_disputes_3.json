@@ -1,0 +1,546 @@
+[
+ {
+  "pid": "P000",
+  "eventId": "E01",
+  "name": "Archimedes' mechanical method for areas and volumes",
+  "file": "A_01.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Dates of Archimedes' treatises are uncertain, so the first three milestones share the whole of his working life as a range. Archimedes did not count the method as a proof; he proved the same results by exhaustion (Wikipedia). Because the Method was lost until 1906, it had no direct influence on later calculus. No consolidation or naming milestone found; institutional date is null. Democritus' life"
+   }
+  ]
+ },
+ {
+  "pid": "P001",
+  "eventId": "E02",
+  "name": "Algebra as a discipline (al-Khwarizmi, al-Jabr)",
+  "file": "A_02.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Disputed: whether al-Khwarizmi is more entitled to be called father of algebra than Diophantus (Wikipedia notes the claim). The original Arabic title and date are approximate (around 820-825). Methodological date left null: first purposeful application (inheritance and legal problems in the book itself, see Gandz 1938 doi 10.1086/368492) is in the same work. Abu Kamil dating: lifespans from MacTut"
+   }
+  ]
+ },
+ {
+  "pid": "P173",
+  "eventId": "MA26",
+  "name": "Tian yuan (celestial element) algebra",
+  "file": "A_04.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Origin is open: MacTutor says the method must predate Li Zhi, so 1248 is the earliest surviving source, not the invention. Modern studies (Libbrecht 1973, Hoe 1977) were located only as book/review records and not used for dates. The summary's 'four unknowns' belongs to Zhu 1303, not to the first statement. No institution or naming milestone found; the term tian yuan is already in Li Zhi's text. E"
+   }
+  ]
+ },
+ {
+  "pid": "P140",
+  "eventId": "MA46/WA38",
+  "name": "Viete: symbolic algebra (the analytic art)",
+  "file": "A_04.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Open: first purposeful application (Zetetica, 1593) not verified; the Isagoge scan is catalogued as 1591. Gradual predecessors (Diophantus, Cardano, Bombelli's abbreviations) were not researched. Lifespans for Descartes and van Schooten are unsourced here. English Wikipedia could not be read in this pass (API returned rate-limit errors for every request), so the source-first step used MacTutor bio"
+   }
+  ]
+ },
+ {
+  "pid": "P443",
+  "eventId": "H38",
+  "name": "Elliptic integrals from lemniscate and elastica (Bernoulli)",
+  "file": "A_06.json",
+  "flags": [
+   {
+    "where": "milestone first_statement 1694",
+    "text": "Year of the curve is confirmed; I did not read the 1694 article, so the exact paper, the integral and any analogy with the arcsine are unverified. The input's claim that Bernoulli recognised an elliptic integral is not established by the pages read."
+   }
+  ]
+ },
+ {
+  "pid": "P117",
+  "eventId": "WA54/MA72",
+  "name": "Bernoulli's Ars Conjectandi and the law of large numbers",
+  "file": "A_07.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "The input summary 'proved the first law of large numbers' is consistent with Wikipedia ('very first version') but the proof is in the posthumous book, with composition dated 1684-1689 by Wikipedia's account of the Meditationes; the date of the actual proof was not established. The Latin edition is also catalogued under 1713 with later reprints. No naming or institution milestone applies (pre-MSC; "
+   }
+  ]
+ },
+ {
+  "pid": "P135",
+  "eventId": "MA84/WA67",
+  "name": "Lagrange's analytical mechanics",
+  "file": "A_09.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Sources: MacTutor Lagrange, MacTutor Euler, Wikipedia Lagrange, Crossref. Open gap: the 1788 first printing was not located in a bibliographic record. Candidates not promoted: Lagrange's variational/Turin papers of the 1760s (the 1760-62 Turin work on virtual work and least action), d'Alembert's 1743 Trait\u00e9 de dynamique (precursor of the principle used). Naming: the term 'Lagrangian mechanics' app"
+   }
+  ]
+ },
+ {
+  "pid": "P153",
+  "eventId": "WA83",
+  "name": "Jacobi: four squares via elliptic (theta) functions",
+  "file": "A_11.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Sources read: Wikipedia 'Jacobi's four-square theorem' and 'Lagrange's four-square theorem', MacTutor biography of Jacobi (no mention of four squares) and topic page Elliptic functions (saved, covers only the early period). Date conflict: Wikipedia 1834 versus the 1829 book's corollary. The exact section of Fundamenta nova (reported as around sections 40-42 in secondary literature) was not confirm"
+   }
+  ]
+ },
+ {
+  "pid": "P397",
+  "eventId": "W37",
+  "name": "Betti numbers and early combinatorial topology",
+  "file": "A_12.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "The summary attributes the extension to Betti; sources confirm the paper. Jordan's independent-circuit method is described by MacTutor without a year and was not dated. Heegaard's critique of Betti's definition (no year given) and the 1899 Compl\u00e9ment were not examined. The 1847 Listing milestone concerns the field name, not Betti numbers. Dates of the Betti paper conflict between Crossref (1870) a"
+   },
+   {
+    "where": "milestone consolidation 1895",
+    "text": "Exact first printed use of the term 'Betti numbers' not located (Poincar\u00e9's Compl\u00e9ment \u00e0 l'Analysis situs of 1899 is Crossref 10.1007/bf03024461)."
+   }
+  ]
+ },
+ {
+  "pid": "P436",
+  "eventId": "H26",
+  "name": "Logicism: reducing arithmetic to logic",
+  "file": "A_14.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Dedekind's 1888 and Peano's 1889 works were considered as precursors but the archive and Crossref searches only produced later printings or unrelated records, so no milestones. Origin of the word 'logicism' not found. No institution milestone. Frege's Grundgesetze vol. II (1903) not separately verified."
+   }
+  ]
+ },
+ {
+  "pid": "P065",
+  "eventId": "E76",
+  "name": "Geometry of numbers (Minkowski)",
+  "file": "A_15.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Hurwitz and Cassels biographies were not fetched (null URLs; lifespans from general knowledge); Hurwitz has no works listed. Not established: the exact year of first public statement (a series of notes in the early 1890s may precede the 1896 book), the first application to class-number finiteness (Wikipedia credits geometry of numbers with the first proof the ideal class group is finite but gives "
+   }
+  ]
+ },
+ {
+  "pid": "P361",
+  "eventId": "M42/W44",
+  "name": "Hilbert space and integral equations",
+  "file": "A_17.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Riesz's 1907 note is the first_statement; the input summary's reference to integral equations is consistent with Hilbert's work, which is not recorded as a separate milestone. Derived institutional date is 1912 (earlier than the 1929 naming). Erhard Schmidt's 1907 paper is a candidate, not promoted because the year could not be fixed from the record."
+   }
+  ]
+ },
+ {
+  "pid": "P440",
+  "eventId": "H35",
+  "name": "Hausdorff dimension and fractal dimension",
+  "file": "A_19.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Input summary names Hausdorff's fractional dimension and Mandelbrot's fractal definition; both confirmed. Hausdorff's paper year is disputed between 1918 (communication) and 1919 (printed). Besicovitch's earliest 1934 paper and the 1982 Mandelbrot book were not verified. Derived dates: conceptual 1919, methodological 1935 (earliest verified application), institutional 1975 (the naming)."
+   },
+   {
+    "where": "milestone first_statement 1919",
+    "text": "Sources conflict: the fractals page gives March 1918, the biography and the printed volume give 1919. The publication year (1919) is used under the rule; the 1918 date is recorded as the communication date."
+   }
+  ]
+ },
+ {
+  "pid": "P364",
+  "eventId": "W75/M66",
+  "name": "Hilbert-space quantum mechanics",
+  "file": "A_20.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Input summary is right that Hilbert, Dirac and von Neumann unified the formalisms, but the first Hilbert-space statement in print is the 1928 paper (with Nordheim) and von Neumann's 1927 Goettingen note is an unverified candidate. The 1928 paper plays both first_statement and first_application roles (noted). Dirac's book is key_development, not a Hilbert-space first. Wikipedia 'Mathematical formul"
+   }
+  ]
+ },
+ {
+  "pid": "P290",
+  "eventId": "MB20",
+  "name": "Sobolev spaces and generalised solutions",
+  "file": "A_22.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Wikipedia lead data for MB20 had no candidates; live Wikipedia wikitext for Sobolev space used. MacTutor topic match ('Analysis' category) not used. Methodological derived date null: Sobolev's 1936 Cauchy-problem paper (generalised solutions of hyperbolic equations), the likely first application, could not be verified (zbMATH blocked, Crossref empty), so it is left open. Naming: 'Sobolev space' no"
+   }
+  ]
+ },
+ {
+  "pid": "P216",
+  "eventId": "MB52/WB53",
+  "name": "H\u00f6rmander linear partial differential operators",
+  "file": "A_27.json",
+  "flags": [
+   {
+    "where": "milestone consolidation 1963",
+    "text": "Year conflict between catalogue records (1963 vs 1964); 1963 used."
+   }
+  ]
+ },
+ {
+  "pid": "P244",
+  "eventId": "WB52",
+  "name": "Hyperfunctions and algebraic analysis",
+  "file": "A_29.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "The input's event title pairs hyperfunctions with algebraic analysis; the algebraic-analysis term is Sato's and its coinage date was not found, so no naming milestone. No first_application is verified: the PDE application in 1970 is a candidate, so methodological is null. Laurent Schwartz and Grothendieck are cited by Wikipedia as influences but no dated work was checked, so they are not listed as"
+   }
+  ]
+ },
+ {
+  "pid": "P513",
+  "eventId": "P71",
+  "name": "Classification theory in model theory (Morley, Shelah)",
+  "file": "A_32.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Sources: Wikipedia (raw wikitext: Categorical theory history; Stable theory lead, whose raw page is a redirect that was followed through the saved text), MacTutor Shelah biography (1945 birth year), Crossref and zbMATH for the 1965-1978 works. Dispute: the input summary says categoricity in uncountable cardinals leads to stability; the historical sources give Morley's theorem as the key developmen"
+   }
+  ]
+ },
+ {
+  "pid": "P088",
+  "eventId": "B22",
+  "name": "Concentration of measure",
+  "file": "A_34.json",
+  "flags": [
+   {
+    "where": "milestone first_statement 1971",
+    "text": "The earlier concentration-on-sphere ideas of Levy are not verified here, since the Levy 1922 record was not found."
+   }
+  ]
+ },
+ {
+  "pid": "P082",
+  "eventId": "B16",
+  "name": "Perfectoid spaces and tilting (Scholze)",
+  "file": "A_37.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Input summary's Galois-group description is consistent with the field-of-norms and tilting literature. Fontaine's 1979 field-of-norms note, which the input may imply, could not be verified (Crossref no record; zbMATH 403), so the precursor has the verified 1983 paper only. No first_application milestone was verified for tilting (applications to Galois representations were not checked), so methodol"
+   }
+  ]
+ },
+ {
+  "pid": "P097",
+  "eventId": "B31",
+  "name": "Supersymmetry and Morse theory",
+  "file": "A_39.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Schema pid P097/eventId B31. Searched: Wikipedia Morse theory and Supersymmetric quantum mechanics (raw); MacTutor Witten biography (live). No consolidation (monograph or survey) for the supersymmetric proof was found in this session, so none is listed. Disputes: MacTutor dates the paper 1984; Crossref dates the JDG paper 1982. Floer 1988 relation is medium confidence."
+   }
+  ]
+ },
+ {
+  "pid": "P184",
+  "eventId": "MA7",
+  "name": "Eudoxus' homocentric spheres",
+  "file": "A_01.json",
+  "flags": [
+   {
+    "where": "milestone precursor -387",
+    "text": "Dating is by the period of Eudoxus' Academy contacts. MacTutor records a dispute over whether Plato or the Pythagoreans inspired the model."
+   }
+  ]
+ },
+ {
+  "pid": "P141",
+  "eventId": "WA20/MA20",
+  "name": "Indian sine (jya) and the birth of trigonometric functions",
+  "file": "A_02.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Disputed: whether the Aryabhata table adapts Greek chords (Wikipedia says the argument was refuted); date of the Siddhantas; Surya Siddhanta dating. Methodological date left null: the first purposeful use on planetary computation is inside Aryabhatiya and Siddhantas. Institutional date is the Latin naming and should be read as low confidence. Hipparchus biography URL not checked for 200 status (Ma"
+   }
+  ]
+ },
+ {
+  "pid": "P149",
+  "eventId": "MA25",
+  "name": "Numerical solution of polynomial equations in China (Ruffini-Horner)",
+  "file": "A_03.json",
+  "flags": [
+   {
+    "where": "milestone key_development 1819",
+    "text": "Dispute: Wikipedia says the method is described in 1819; MacTutor (citing Fuller 1999, Crossref 10.1006/hmat.1998.2214) says 1830. Left unresolved."
+   }
+  ]
+ },
+ {
+  "pid": "P198",
+  "eventId": "WA34",
+  "name": "Regiomontanus: trigonometry separated from astronomy in Europe",
+  "file": "A_04.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Open: whether De triangulis was composed before or after 1464 and the manuscript's circulation. Indirect source influence: MacTutor says one of Regiomontanus' sources was al-Jayyani. Zeller 1946 (Development of trigonometry from Regiomontanus to Pitiscus) named on MacTutor, not checked. Event overlaps with Tusi event P158. English Wikipedia could not be read in this pass (API returned rate-limit e"
+   }
+  ]
+ },
+ {
+  "pid": "P115",
+  "eventId": "WA43/MA57",
+  "name": "Method of indivisibles (Cavalieri, Torricelli, Wallis)",
+  "file": "A_05.json",
+  "flags": [
+   {
+    "where": "milestone key_development 1693",
+    "text": "Priority between Roberval and Cavalieri is a dispute; this is publication year only."
+   }
+  ]
+ },
+ {
+  "pid": "P446",
+  "eventId": "H41",
+  "name": "Calculus of variations from the brachistochrone",
+  "file": "A_07.json",
+  "flags": [
+   {
+    "where": "milestone precursor 1687",
+    "text": "Whether this counts as the start of the field is disputed; kept as precursor."
+   },
+   {
+    "where": "milestone key_development 1762",
+    "text": "Publication year 1762 taken from a secondary page; the Turin volume was not located in a catalogue. The 1755 letter to Euler is a private precursor."
+   }
+  ]
+ },
+ {
+  "pid": "P430",
+  "eventId": "H17",
+  "name": "Spectral ideas: eigenvalues from vibrating systems and quadratic forms",
+  "file": "A_08.json",
+  "flags": [
+   {
+    "where": "milestone precursor 1751",
+    "text": "Presented 1751; Wikipedia's note says published 1760, which I could not confirm. The input's 'd'Alembert's loaded string' origin is not supported by the pages I read: the pages name Euler, Segner (1755), Lagrange and Cauchy. Lagrange's discrete-mass string is mentioned by MacTutor without a year."
+   }
+  ]
+ },
+ {
+  "pid": "P161",
+  "eventId": "MA99",
+  "name": "Abel: elliptic functions as inverses of elliptic integrals",
+  "file": "A_10.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Input summary says inverting elliptic integrals gave doubly periodic functions: supported. Abel and Jacobi worked at the same time (1827), so priority is shared in effect; Gauss's unpublished earlier work on lemniscatic functions is a possible precursor but was not located in a source read (MacTutor reference list mentions a study) and is not a milestone. The Wikipedia lead file has no candidate f"
+   }
+  ]
+ },
+ {
+  "pid": "P356",
+  "eventId": "E12/W22/M1",
+  "name": "Riemann surfaces",
+  "file": "A_12.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Riemann's thesis (1851) and the 1857 paper are the dated milestones; MacTutor's biography and its topology history differ slightly on which introduced the surfaces. No dated first use of the name 'Riemann surface' was found; naming and institution milestones are open. Klein 1882 and the later triangulation theorem (Rado) were not located in bibliographic databases and are not listed. Puiseux's lif"
+   },
+   {
+    "where": "milestone first_statement 1851",
+    "text": "The thesis was not found in Crossref, zbMATH or Open Library; evidence is a history page. The topology page links the surface introduction to 1857, the biography to the thesis, so the exact date of the first statement is slightly uncertain."
+   }
+  ]
+ },
+ {
+  "pid": "P355",
+  "eventId": "W71/M59",
+  "name": "Tensor calculus (absolute differential calculus of Ricci and Levi-Civita)",
+  "file": "A_13.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Dates for Ricci disagree between MacTutor (systematic presentation 1888) and Wikipedia (1892 Bull. Sci. Math.); the 1888 Bologna paper and the 1892 paper were not found in a bibliographic record. Riemann's 1854 lecture (published 1868) is a background precursor not listed. The Tensor milestone for naming is the modern physics sense, distinct from Hamilton's older use."
+   }
+  ]
+ },
+ {
+  "pid": "P013",
+  "eventId": "E18",
+  "name": "Functional analysis",
+  "file": "A_15.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Sources: Wikipedia Functional_analysis; MacTutor biographies of Volterra, Hadamard, Frechet, Fredholm, Banach, Hilbert. Hilbert's integral-equation communications began in 1904 (not independently checked here); only the 1906 fourth communication and the 1910/1912 book were confirmed in zbMATH, so it is kept in people, not milestones. Riesz 1910 (Math. Ann. 69, Crossref 10.1007/BF01457637, L^p spac"
+   }
+  ]
+ },
+ {
+  "pid": "P371",
+  "eventId": "W85/M23",
+  "name": "Cartan exterior differential calculus",
+  "file": "A_17.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Saved MacTutor Cartan biography page returned 404; the biography link is unverified. Milestone for consolidation (Cartan's later book on exterior differential systems) was not confirmed by a bibliographic record in this pass and is left open. The 1899 date is confirmed by Crossref and by the saved Wikipedia lead, so the input summary is consistent on that point."
+   }
+  ]
+ },
+ {
+  "pid": "P388",
+  "eventId": "M47/W34",
+  "name": "Intuitionism",
+  "file": "A_18.json",
+  "flags": [
+   {
+    "where": "milestone key_development 1918",
+    "text": "The first public rejection of excluded middle (Brouwer 1908) was not found in zbMATH and remains open."
+   }
+  ]
+ },
+ {
+  "pid": "P418",
+  "eventId": "M12",
+  "name": "Hasse local-global principle",
+  "file": "A_20.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Candidates not promoted: Minkowski's local-global result for forms over Q has no verified year or paper, so the precursor is marked low confidence. Later extensions (Birch 1950s, Selmer's cubic counterexample, Brauer-Manin obstructions) are in Wikipedia but were not dated from bibliographic records. No consolidation (textbook) milestone was verified: Cassels-Frohlich lookup returned only a 1991 re"
+   }
+  ]
+ },
+ {
+  "pid": "P257",
+  "eventId": "MB7",
+  "name": "Tarski's semantic truth definition and model theory",
+  "file": "A_22.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Wikipedia lead data for MB7 had no candidates. Live Wikipedia wikitext used instead (Tarski undefinability, Model theory). MacTutor topic match for MB7 is absent; MacTutor Tarski biography used. The 1933 date for the first statement is disputed (see milestone note). Methodological derived date null: no first_application was established in the sources searched (Tarski's later decision-procedure and"
+   },
+   {
+    "where": "milestone first_statement 1933",
+    "text": "Publication year disputed. The Polish 1933 monograph is the date used (MacTutor, Wikipedia); the Polish original was not found in Crossref. The German version is often dated 1935-36 and Milne (2024) is about that date. Confirm before relying on 1933 as the exact year."
+   }
+  ]
+ },
+ {
+  "pid": "P267",
+  "eventId": "WB18",
+  "name": "Cellular automata and self-reproducing machines",
+  "file": "A_25.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Input summary is correct in outline. The year 1951 is a medium-confidence statement that rests on the Hixon volume record. The earliest published cellular-automaton construction is von Neumann's 1966 book (publication governs). The naming (coinage of 'cellular automata') was not found in the sources checked; no naming milestone is recorded. Wolfram 2002 is provisional consolidation."
+   },
+   {
+    "where": "milestone consolidation 2002",
+    "text": "Not the first systematic monograph; earlier systematic treatments were not checked, so this is a provisional consolidation."
+   }
+  ]
+ },
+ {
+  "pid": "P269",
+  "eventId": "MB79",
+  "name": "Pontryagin maximum principle",
+  "file": "A_28.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Wikipedia says the initial application was maximising the terminal speed of a rocket, and that the result derives from classical variational ideas; no bibliographic record for the application or the 1956 statement was checked. Derived dates: conceptual 1956 (low confidence), methodological null, institutional 1962. Precursor (classical calculus of variations) not separately dated. People list is s"
+   },
+   {
+    "where": "milestone first_statement 1956",
+    "text": "Year from Wikipedia only. No Crossref or zbMATH record was found for the 1956 publication (zbMATH blocked by a bot-check page). Left at low confidence; the exact publication should be checked."
+   }
+  ]
+ },
+ {
+  "pid": "P227",
+  "eventId": "MB81/WB34",
+  "name": "Fuzzy sets",
+  "file": "A_32.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Sources: Wikipedia (raw wikitext, Fuzzy set, lead and history statements), Crossref and zbMATH for the 1937, 1965, 1967 and 1975 works, Open Library for the 1980 book. Dispute: the Wikipedia lead says Zadeh's 1965 introduction was independent and that a related L-relation structure was defined at the same time; the second author's name was lost in the saved text and was not recovered, so no milest"
+   }
+  ]
+ },
+ {
+  "pid": "P426",
+  "eventId": "H12",
+  "name": "Knuth-Bendix rewriting: universal algebra meets word problems",
+  "file": "A_33.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Derived dates: conceptual 1970 and methodological 1970 rest on the same paper. Institutional uses the Baader-Nipkow monograph (1998). The saved Wikipedia lead for Peter Bendix is a different person (a baseball executive); no mathematical biography was located, so his lifespan is null. Thue's 1914 paper was not checked in a bibliographic record. MacTutor topic pages for rewriting were not found."
+   }
+  ]
+ },
+ {
+  "pid": "P504",
+  "eventId": "P61",
+  "name": "Ellipsoid method in combinatorial optimisation",
+  "file": "A_36.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Input summary's description matches the sources. Shor's early ellipsoid-type method is named by Wikipedia without a verified date, so it is not a milestone; a zbMATH query for it failed. The Yudin-Nemirovski date conflicts with the 1972 study cited by Wikipedia; the 1976 record governs here. Searched Wikipedia (Ellipsoid method, Leonid Khachiyan), MacTutor (Lovasz), Crossref, zbMATH, Open Library."
+   }
+  ]
+ },
+ {
+  "pid": "P033",
+  "eventId": "E41",
+  "name": "Gauge theory transforms four-manifold topology",
+  "file": "A_39.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Schema pid P033/eventId E41. Searched: Wikipedia Donaldson theory and Seiberg-Witten invariants (raw wikitext); MacTutor Donaldson biography (live); Crossref and arXiv not needed beyond DOI records. The saved leads file has no entry for E41. Disputes: within-year priority of the 1983 Bull announcement and JDG paper not settled. Seiberg-Witten 1994 is listed as key_development, not first_statement "
+   }
+  ]
+ },
+ {
+  "pid": "P517",
+  "eventId": "P75",
+  "name": "Contact topology and the h-principle (Eliashberg)",
+  "file": "A_39.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Schema pid P517/eventId P75. Searched: Wikipedia Contact geometry and the H-principle redirect (raw); MacTutor Eliashberg and Gromov biographies (live); Crossref records. Eliashberg's 1989 classification is first_statement and first_application (same paper). The Gromov 1969 date is the precursor year, not a first use of the term. Gap: the naming of the h-principle is not dated here, so no naming m"
+   }
+  ]
+ }
+]

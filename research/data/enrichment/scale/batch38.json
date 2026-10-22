@@ -1,0 +1,143 @@
+[
+ {
+  "pid": "P508",
+  "eventId": "P65",
+  "name": "Counting complexity (Valiant's #P)",
+  "type": "birth-by-abstraction",
+  "from": [
+   "computational complexity",
+   "combinatorics (permanents, enumeration)"
+  ],
+  "to": [
+   "Computer science"
+  ],
+  "summary": "Counting solutions defines a complexity class, and computing the permanent is shown complete for it."
+ },
+ {
+  "pid": "P032",
+  "eventId": "E40",
+  "name": "Noncommutative geometry",
+  "type": "birth-by-fusion",
+  "from": [
+   "Analysis",
+   "Topology"
+  ],
+  "to": [
+   "Geometry"
+  ],
+  "summary": "Geometric invariants (cohomology, index theory) are extended to operator algebras viewed as spaces of noncommutative functions."
+ },
+ {
+  "pid": "P090",
+  "eventId": "B24",
+  "name": "D-modules and the Riemann-Hilbert correspondence",
+  "type": "dictionary-analogy",
+  "from": [
+   "Analysis",
+   "Topology"
+  ],
+  "to": [
+   "Algebra",
+   "Geometry"
+  ],
+  "summary": "Systems of linear PDE (D-modules) are matched with constructible sheaves, and localisation matches D-modules with representations of Lie algebras."
+ },
+ {
+  "pid": "P301",
+  "eventId": "WC30/QC46",
+  "name": "Bloch-Kato / norm residue",
+  "type": "technique-transfer",
+  "from": [
+   "motivic homotopy",
+   "algebraic K-theory"
+  ],
+  "to": [
+   "Galois cohomology",
+   "algebraic K-theory"
+  ],
+  "summary": "Motivic Steenrod operations proved the norm residue isomorphism in all primes."
+ },
+ {
+  "pid": "P427",
+  "eventId": "H13",
+  "name": "Permutation-group algorithms meet complexity theory",
+  "type": "birth-by-fusion",
+  "from": [
+   "theoretical computer science (complexity)",
+   "permutation group theory"
+  ],
+  "to": [
+   "algorithmic group theory"
+  ],
+  "summary": "Complexity-theoretic analysis was applied to permutation groups, giving polynomial-time versions of Sylow-type and quotient computations that fed back into practical systems."
+ },
+ {
+  "pid": "P031",
+  "eventId": "E39",
+  "name": "Geometric group theory",
+  "type": "birth-by-fusion",
+  "from": [
+   "Geometry",
+   "Algebra"
+  ],
+  "to": [
+   "Algebra"
+  ],
+  "summary": "Finitely generated groups are studied as metric spaces up to quasi-isometry, so large-scale geometry classifies algebraic properties."
+ },
+ {
+  "pid": "P073",
+  "eventId": "B07",
+  "name": "Viscosity solutions: control theory meets PDE",
+  "type": "technique-transfer",
+  "from": [
+   "Control & optimization"
+  ],
+  "to": [
+   "Analysis"
+  ],
+  "summary": "Dynamic-programming value functions, merely continuous, are given a rigorous notion of solution for fully nonlinear first and second order PDE."
+ },
+ {
+  "pid": "P287",
+  "eventId": "WB60",
+  "name": "Gromov polynomial growth via geometry",
+  "type": "technique-transfer",
+  "from": [
+   "Riemannian geometry",
+   "group theory"
+  ],
+  "to": [
+   "group theory"
+  ],
+  "summary": "Large-scale geometry shows polynomial growth implies virtual nilpotence."
+ },
+ {
+  "pid": "P497",
+  "eventId": "P54",
+  "name": "KP hierarchy and the infinite Grassmannian (Sato)",
+  "type": "dictionary-analogy",
+  "from": [
+   "integrable systems",
+   "infinite-dimensional Lie algebras / Grassmannians"
+  ],
+  "to": [
+   "integrable systems and representation theory"
+  ],
+  "summary": "Soliton hierarchies are viewed as flows on an infinite-dimensional Grassmannian, tying integrable equations to representation theory."
+ },
+ {
+  "pid": "P540",
+  "eventId": "Q39",
+  "name": "Probabilistic construction of Liouville conformal field theory",
+  "type": "import-from-outside",
+  "from": [
+   "probability (Gaussian free field, Gaussian multiplicative chaos)",
+   "conformal field theory (Liouville, bootstrap, DOZZ)"
+  ],
+  "to": [
+   "probabilistic Liouville CFT"
+  ],
+  "summary": "Polyakov's path integral for Liouville theory was made rigorous via the Gaussian free field and Kahane's multiplicative chaos, and its correlation functions were shown to agree with the physicists' bootstrap and the DOZZ formula."
+ }
+]

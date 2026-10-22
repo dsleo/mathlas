@@ -1,0 +1,145 @@
+[
+ {
+  "pid": "P078",
+  "eventId": "B12",
+  "name": "Random partitions, representation theory and Gromov-Witten theory",
+  "type": "dictionary-analogy",
+  "from": [
+   "Probability",
+   "Algebra"
+  ],
+  "to": [
+   "Geometry"
+  ],
+  "summary": "Measures on partitions defined by Schur functions are analysed as determinantal point processes, and the same structures compute Gromov-Witten and Hurwitz invariants."
+ },
+ {
+  "pid": "P081",
+  "eventId": "B15",
+  "name": "Higher composition laws and arithmetic statistics",
+  "type": "technique-transfer",
+  "from": [
+   "Algebra",
+   "Geometry"
+  ],
+  "to": [
+   "Number theory"
+  ],
+  "summary": "Gauss's composition of quadratic forms is extended to cubes and higher spaces via prehomogeneous representations, and geometry of numbers counts the resulting number fields and ranks."
+ },
+ {
+  "pid": "P315",
+  "eventId": "QC21/WC84",
+  "name": "Geometric complexity theory",
+  "type": "birth-by-fusion",
+  "from": [
+   "representation theory",
+   "algebraic geometry",
+   "complexity"
+  ],
+  "to": [
+   "geometric complexity theory"
+  ],
+  "summary": "Mulmuley-Sohoni proposed attacking P versus NP via orbit closures and representation theory."
+ },
+ {
+  "pid": "P483",
+  "eventId": "P38",
+  "name": "Cluster algebras",
+  "type": "birth-by-fusion",
+  "from": [
+   "Lie theory (total positivity, canonical bases)",
+   "combinatorics"
+  ],
+  "to": [
+   "cluster algebras"
+  ],
+  "summary": "Mutation rules on seeds generate algebras whose combinatorics matches total positivity and canonical bases in Lie theory."
+ },
+ {
+  "pid": "P490",
+  "eventId": "P46",
+  "name": "Heegaard Floer homology",
+  "type": "birth-by-fusion",
+  "from": [
+   "symplectic geometry (Lagrangian Floer theory)",
+   "low-dimensional topology"
+  ],
+  "to": [
+   "Topology"
+  ],
+  "summary": "Holomorphic-disc counts in symmetric products of Heegaard surfaces give invariants of three-manifolds and knots with strong genus bounds."
+ },
+ {
+  "pid": "P313",
+  "eventId": "WC82/QC17",
+  "name": "Unique games conjecture",
+  "type": "birth-by-abstraction",
+  "from": [
+   "PCP theory",
+   "semidefinite programming",
+   "Fourier analysis"
+  ],
+  "to": [
+   "hardness of approximation"
+  ],
+  "summary": "A conjecture about label cover instances yields tight hardness for many problems via Fourier-analytic dictatorship tests and SDP integrality gaps."
+ },
+ {
+  "pid": "P317",
+  "eventId": "WC32/QC42",
+  "name": "Higher topos theory",
+  "type": "birth-by-fusion",
+  "from": [
+   "homotopy theory",
+   "higher category theory",
+   "algebraic geometry"
+  ],
+  "to": [
+   "derived algebraic geometry"
+  ],
+  "summary": "Quasicategory-based infinity-topoi and derived geometry reframed homotopy theory and moduli problems."
+ },
+ {
+  "pid": "P319",
+  "eventId": "WC80",
+  "name": "AKS primality",
+  "type": "technique-transfer",
+  "from": [
+   "algebra of polynomial rings over finite fields"
+  ],
+  "to": [
+   "computational complexity",
+   "computational number theory"
+  ],
+  "summary": "Agrawal, Kayal and Saxena gave an unconditional deterministic polynomial-time primality test using polynomial congruences."
+ },
+ {
+  "pid": "P046",
+  "eventId": "E54",
+  "name": "Sphere packing in dimensions 8 and 24",
+  "type": "technique-transfer",
+  "from": [
+   "Number theory",
+   "Analysis"
+  ],
+  "to": [
+   "Geometry"
+  ],
+  "summary": "A modular-form construction produces the magic function required by the Fourier linear programming bound, matching the E8 and Leech lattice packing densities."
+ },
+ {
+  "pid": "P079",
+  "eventId": "B13",
+  "name": "Measure rigidity and arithmetic quantum unique ergodicity",
+  "type": "technique-transfer",
+  "from": [
+   "Analysis"
+  ],
+  "to": [
+   "Number theory",
+   "Physics"
+  ],
+  "summary": "Entropy and measure-rigidity methods for diagonal group actions show that Hecke eigenfunctions on arithmetic surfaces do not concentrate, a quantum chaos statement."
+ }
+]

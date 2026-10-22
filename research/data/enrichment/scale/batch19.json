@@ -1,0 +1,145 @@
+[
+ {
+  "pid": "P422",
+  "eventId": "H5",
+  "name": "Undecidability of the word problem: logic and computability enter group theory",
+  "type": "technique-transfer",
+  "from": [
+   "mathematical logic / computability",
+   "group theory"
+  ],
+  "to": [
+   "combinatorial group theory"
+  ],
+  "summary": "After Dehn posed decision problems for presented groups and Church proposed a logical route, Post, Markov, Boone and Novikov proved word problems insoluble and Higman's embedding theorem tied recursive presentation to finite presentation."
+ },
+ {
+  "pid": "P413",
+  "eventId": "M63",
+  "name": "Weyl's Riemann surface and abstract manifold concept",
+  "type": "birth-by-abstraction",
+  "from": [
+   "complex analysis",
+   "topology"
+  ],
+  "to": [
+   "manifold theory / abstract Riemann surfaces"
+  ],
+  "summary": "Weyl gave a rigorous definition of Riemann surface as a topological manifold with charts."
+ },
+ {
+  "pid": "P440",
+  "eventId": "H35",
+  "name": "Hausdorff dimension: measure meets dimension theory",
+  "type": "birth-by-fusion",
+  "from": [
+   "topology (dimension)",
+   "measure theory"
+  ],
+  "to": [
+   "geometric measure theory (fractional dimension)"
+  ],
+  "summary": "Hausdorff allowed non-integer dimensions defined metrically, Besicovitch developed the theory, and Mandelbrot's fractal definition set it against topological dimension."
+ },
+ {
+  "pid": "P380",
+  "eventId": "W32/M55",
+  "name": "Model theory beginnings",
+  "type": "birth-by-abstraction",
+  "from": [
+   "logic",
+   "algebra"
+  ],
+  "to": [
+   "model theory"
+  ],
+  "summary": "Loewenheim and Skolem showed that first-order theories with infinite models have countable ones, opening semantic study of formal theories."
+ },
+ {
+  "pid": "P454",
+  "eventId": "H57",
+  "name": "Noether's theorem: symmetries and conservation laws",
+  "type": "technique-transfer",
+  "from": [
+   "calculus of variations",
+   "continuous groups (Lie theory)",
+   "general relativity"
+  ],
+  "to": [
+   "mathematical physics (symmetries and conservation laws)"
+  ],
+  "summary": "Hilbert's variational derivation of gravitation led to identities that Noether tied to symmetries, giving her 1918 theorem."
+ },
+ {
+  "pid": "P372",
+  "eventId": "W93/M60",
+  "name": "Affine connections (Levi-Civita, Weyl)",
+  "type": "import-from-outside",
+  "from": [
+   "general relativity",
+   "Riemannian geometry"
+  ],
+  "to": [
+   "differential geometry"
+  ],
+  "summary": "Levi-Civita introduced parallel transport, Weyl generalised to gauge geometry, and Cartan developed connections and moving frames."
+ },
+ {
+  "pid": "P059",
+  "eventId": "E67",
+  "name": "Hardy-Littlewood circle method",
+  "type": "technique-transfer",
+  "from": [
+   "Analysis"
+  ],
+  "to": [
+   "Number theory"
+  ],
+  "summary": "Contour integration of generating functions and exponential sums are used to count representations of integers (partitions, sums of primes), the method behind later Fourier-analytic density arguments."
+ },
+ {
+  "pid": "P376",
+  "eventId": "W59/M76",
+  "name": "Fisher statistical inference",
+  "type": "import-from-outside",
+  "from": [
+   "genetics",
+   "agriculture",
+   "probability"
+  ],
+  "to": [
+   "statistics"
+  ],
+  "summary": "Fisher unified chi-squared, small-sample t and variance analysis into a framework tested on Rothamsted crop data."
+ },
+ {
+  "pid": "P392",
+  "eventId": "M64",
+  "name": "Weyl's gauge theory",
+  "type": "import-from-outside",
+  "from": [
+   "electromagnetism",
+   "differential geometry"
+  ],
+  "to": [
+   "differential geometry",
+   "mathematical physics"
+  ],
+  "summary": "Weyl proposed local scale invariance."
+ },
+ {
+  "pid": "P362",
+  "eventId": "W46/M45",
+  "name": "Banach spaces",
+  "type": "birth-by-abstraction",
+  "from": [
+   "integral equations",
+   "function spaces",
+   "topology"
+  ],
+  "to": [
+   "functional analysis"
+  ],
+  "summary": "Banach defined complete normed spaces and proved the key theorems on operators, forming the Lwow school."
+ }
+]

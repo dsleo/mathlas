@@ -1,0 +1,3245 @@
+{
+  "method": "two consecutive direct research batches; no independent comparison",
+  "events": [
+    {
+      "pid": "P367",
+      "eventId": "E75/W50/M34",
+      "canonicalName": "Dynamical systems from celestial mechanics",
+      "aliases": [
+        "qualitative dynamics",
+        "celestial mechanics",
+        "three-body problem"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1881,
+          "end": 1881,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Poincaré's first Sur les courbes paper was published in 1881.",
+              "source": "Numdam journal record",
+              "url": "https://www.numdam.org/item/JMPA_1881_3_7__375_0/",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "methodological": {
+          "start": 1890,
+          "end": 1890,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The published three-body memoir applies qualitative dynamics to celestial mechanics.",
+              "source": "Henri Poincaré Papers bibliographic record",
+              "url": "https://henripoincarepapers.univ-nantes.fr/en/bibliohp/ajax.php?bibkey=hp1890am",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": 1927,
+          "end": 1927,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Birkhoff's textbook is titled Dynamical Systems.",
+              "source": "AMS book record",
+              "url": "https://doi.org/10.1090/coll/009",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Henri Poincaré",
+          "role": "originator",
+          "lifespan": "1854–1912",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/",
+          "works": [
+            {
+              "citation": "Sur les courbes définies par une équation différentielle",
+              "year": 1881,
+              "url": "https://www.numdam.org/item/JMPA_1881_3_7__375_0/",
+              "whyItMatters": "Qualitative study of differential-equation curves"
+            }
+          ]
+        },
+        {
+          "name": "George David Birkhoff",
+          "role": "systematiser",
+          "lifespan": "1884–1944",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Birkhoff/",
+          "works": [
+            {
+              "citation": "Dynamical Systems",
+              "year": 1927,
+              "url": "https://doi.org/10.1090/coll/009",
+              "whyItMatters": "Named textbook"
+            }
+          ]
+        }
+      ],
+      "notes": "The 1881 conceptual paper is not yet the three-body application; Poincaré's 1890 memoir is the checked target-problem anchor."
+    },
+    {
+      "pid": "P363",
+      "eventId": "W40/M43",
+      "canonicalName": "Metric spaces (Frechet)",
+      "aliases": [
+        "metric space",
+        "abstract distance",
+        "espace métrique"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1906,
+          "end": 1906,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Fréchet's 1906 thesis gives the abstract-space framework used for metric spaces.",
+              "source": "Crossref original article record",
+              "url": "https://doi.org/10.1007/BF03018603",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": "A 1905 note on écart is a precursor; whether it satisfies the full metric axioms needs checking."
+        },
+        "methodological": {
+          "start": 1906,
+          "end": 1906,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Fréchet's work applies abstract distance to functional calculus.",
+              "source": "Crossref original article record",
+              "url": "https://doi.org/10.1007/BF03018603",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched Crossref for Fréchet 1906, Hausdorff 1914 and Fréchet 1928 books; no checked earliest title that names metric spaces."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Maurice Fréchet",
+          "role": "originator",
+          "lifespan": "1878–1973",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Frechet/",
+          "works": [
+            {
+              "citation": "Sur quelques points du calcul fonctionnel",
+              "year": 1906,
+              "url": "https://doi.org/10.1007/BF03018603",
+              "whyItMatters": "Abstract-distance framework"
+            }
+          ]
+        }
+      ],
+      "notes": "Do not infer that the term metric space appeared in the 1906 title."
+    },
+    {
+      "pid": "P026",
+      "eventId": "E34",
+      "canonicalName": "The Langlands programme: automorphic forms and Galois representations over number fields",
+      "aliases": [
+        "Langlands program",
+        "Langlands correspondence",
+        "automorphic–Galois reciprocity"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1970,
+          "end": 1970,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The published account Problems in the theory of automorphic forms appeared in 1970.",
+              "source": "Springer book chapter record",
+              "url": "https://doi.org/10.1007/BFb0079065",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": "The January 1967 Weil letter circulated privately; IAS identifies 1970 as the first published account."
+        },
+        "methodological": {
+          "start": 1970,
+          "end": 1970,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Jacquet and Langlands use the programme's ideas for GL(2).",
+              "source": "Springer book record",
+              "url": "https://doi.org/10.1007/BFb0058988",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched Crossref/IAS for earliest textbook or paper title explicitly naming the Langlands programme; the 1970 publications do not name the programme in their titles."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Robert Langlands",
+          "role": "originator",
+          "lifespan": "born 1936",
+          "biographyUrl": "https://www.ias.edu/scholars/langlands",
+          "works": [
+            {
+              "citation": "Problems in the theory of automorphic forms",
+              "year": 1970,
+              "url": "https://doi.org/10.1007/BFb0079065",
+              "whyItMatters": "First published account"
+            }
+          ]
+        },
+        {
+          "name": "Hervé Jacquet",
+          "role": "developer",
+          "lifespan": "born 1939",
+          "biographyUrl": "https://en.wikipedia.org/wiki/Herv%C3%A9_Jacquet",
+          "works": [
+            {
+              "citation": "Automorphic Forms on GL(2)",
+              "year": 1970,
+              "url": "https://doi.org/10.1007/BFb0058988",
+              "whyItMatters": "Early target case"
+            }
+          ]
+        }
+      ],
+      "notes": "1967 private-letter priority is preserved separately: https://publications.ias.edu/book/export/html/43. It cannot be the conceptual publication date. IAS publication history: https://publications.ias.edu/rpl/problems."
+    },
+    {
+      "pid": "P232",
+      "eventId": "MB87/WB19",
+      "canonicalName": "Formal language theory",
+      "aliases": [
+        "formal grammars",
+        "Chomsky hierarchy",
+        "generative grammar"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1956,
+          "end": 1956,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Chomsky compares formal models for language in a 1956 publication.",
+              "source": "IEEE original article record",
+              "url": "https://doi.org/10.1109/TIT.1956.1056813",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "methodological": {
+          "start": 1956,
+          "end": 1956,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The paper purposely tests grammar models against language description.",
+              "source": "IEEE original article record",
+              "url": "https://doi.org/10.1109/TIT.1956.1056813",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched Crossref for formal-language textbook and journal titles; no checked earliest institutional anchor."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Noam Chomsky",
+          "role": "originator",
+          "lifespan": "born 1928",
+          "biographyUrl": "https://en.wikipedia.org/wiki/Noam_Chomsky",
+          "works": [
+            {
+              "citation": "Three models for the description of language",
+              "year": 1956,
+              "url": "https://doi.org/10.1109/TIT.1956.1056813",
+              "whyItMatters": "Formal grammar classes applied to language"
+            }
+          ]
+        }
+      ],
+      "notes": "The 1956 journal date, rather than the date of any talk, governs the entry."
+    },
+    {
+      "pid": "P406",
+      "eventId": "W78",
+      "canonicalName": "Frobenius method and singular ODE theory",
+      "aliases": [
+        "Fuchsian equations",
+        "regular singular point",
+        "Frobenius series"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1866,
+          "end": 1866,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Fuchs published the theory of variable-coefficient linear differential equations in 1866.",
+              "source": "De Gruyter original article record",
+              "url": "https://doi.org/10.1515/crll.1866.66.121",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "methodological": {
+          "start": 1873,
+          "end": 1873,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Frobenius deliberately integrates linear ODEs by power series.",
+              "source": "De Gruyter original article record",
+              "url": "https://doi.org/10.1515/crll.1873.76.214",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched the 1866 Fuchs and 1873 Frobenius article records; neither establishes a first named textbook, journal, lecture series, or title for the field."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Lazarus Fuchs",
+          "role": "originator",
+          "lifespan": "1833–1902",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Fuchs/",
+          "works": [
+            {
+              "citation": "Zur Theorie der linearen Differentialgleichungen mit veränderlichen Coefficienten",
+              "year": 1866,
+              "url": "https://doi.org/10.1515/crll.1866.66.121",
+              "whyItMatters": "Regular singular equations"
+            }
+          ]
+        },
+        {
+          "name": "Ferdinand Georg Frobenius",
+          "role": "developer",
+          "lifespan": "1849–1917",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Frobenius/",
+          "works": [
+            {
+              "citation": "Ueber die Integration der linearen Differentialgleichungen durch Reihen",
+              "year": 1873,
+              "url": "https://doi.org/10.1515/crll.1873.76.214",
+              "whyItMatters": "Series solution method"
+            }
+          ]
+        }
+      ],
+      "notes": "The name Frobenius method postdates the 1866 Fuchs precursor; the two dates describe different contributions."
+    },
+    {
+      "pid": "P159",
+      "eventId": "WA57",
+      "canonicalName": "Cotes: logarithm of complex arguments",
+      "aliases": [
+        "Cotes formula",
+        "complex logarithms",
+        "Logometria"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1714,
+          "end": 1714,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Cotes published Logometria in Philosophical Transactions in 1714.",
+              "source": "Royal Society original article record",
+              "url": "https://doi.org/10.1098/rstl.1714.0002",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "methodological": {
+          "start": 1714,
+          "end": 1714,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Logometria uses logarithmic measures for circular angles.",
+              "source": "Royal Society original article record",
+              "url": "https://doi.org/10.1098/rstl.1714.0002",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched the Royal Society 1714 article and Open Library's 1722 Harmonia Mensurarum edition; neither identifies a separately named field institution."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Roger Cotes",
+          "role": "originator",
+          "lifespan": "1682–1716",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Cotes/",
+          "works": [
+            {
+              "citation": "Logometria",
+              "year": 1714,
+              "url": "https://doi.org/10.1098/rstl.1714.0002",
+              "whyItMatters": "Published logarithm/angle result"
+            }
+          ]
+        }
+      ],
+      "notes": "Harmonia Mensurarum was published posthumously in 1722 (https://openlibrary.org/books/OL19111135M/Harmonia_mensurarum), not 1714."
+    },
+    {
+      "pid": "P134",
+      "eventId": "MA8/WA5",
+      "canonicalName": "Euclid's Elements",
+      "aliases": [
+        "Elements",
+        "Euclidean geometry",
+        "axiomatic geometry"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched Open Library editions and MacTutor Euclid history. The original Greek composition has no verifiable publication year; circa 300 BCE is a historical estimate, not a bibliographic publication date."
+        },
+        "methodological": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched MacTutor Euclid biography and Open Library editions; no datable first purposeful use separate from the treatise."
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched Open Library's Elements records; an ancient school adoption or first named institution cannot be dated to a publication year."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Euclid",
+          "role": "systematiser",
+          "lifespan": null,
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/",
+          "works": [
+            {
+              "citation": "Elements (original composition undated; first printed edition)",
+              "year": 1482,
+              "url": "https://openlibrary.org/books/OL25760900M/Preclarissimus_liber_elementorum_Euclidis_perspicacissimi_in_artem_geometrie_incipit_qua_m_foeliciss",
+              "whyItMatters": "Surviving bibliographic anchor for the treatise, not its ancient origin"
+            }
+          ]
+        }
+      ],
+      "notes": "Historical estimate around 300 BCE: https://mathshistory.st-andrews.ac.uk/Extras/Valdivia_aspects_maths/. Do not substitute the 1482 edition date for ancient emergence."
+    },
+    {
+      "pid": "P066",
+      "eventId": "E77",
+      "canonicalName": "Boolean algebra: logic as algebra, then topology (Boole to Stone)",
+      "aliases": [
+        "algebra of logic",
+        "Boolean algebra",
+        "Stone duality",
+        "Stone representation theorem"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1847,
+          "end": 1847,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Boole's Mathematical Analysis of Logic was published in 1847.",
+              "source": "Open Library edition record",
+              "url": "https://openlibrary.org/works/OL2630394W/The_mathematical_analysis_of_logic",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "methodological": {
+          "start": 1847,
+          "end": 1847,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Boole applies algebraic calculation to logic in the 1847 book.",
+              "source": "Open Library edition record",
+              "url": "https://openlibrary.org/works/OL2630394W/The_mathematical_analysis_of_logic",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched the 1847 Boole and 1936 Stone records; neither title literally names 'Boolean algebra' as a field, and no first named textbook/title has been established for the merged subject."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "George Boole",
+          "role": "originator",
+          "lifespan": "1815–1864",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Boole/",
+          "works": [
+            {
+              "citation": "The Mathematical Analysis of Logic",
+              "year": 1847,
+              "url": "https://openlibrary.org/works/OL2630394W/The_mathematical_analysis_of_logic",
+              "whyItMatters": "Introduces algebraic logic"
+            }
+          ]
+        },
+        {
+          "name": "Marshall Harvey Stone",
+          "role": "developer",
+          "lifespan": "1903–1989",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Stone/",
+          "works": [
+            {
+              "citation": "The theory of representations for Boolean algebras",
+              "year": 1936,
+              "url": "https://doi.org/10.1090/S0002-9947-1936-1501865-8",
+              "whyItMatters": "Topological representation phase"
+            }
+          ]
+        }
+      ],
+      "notes": "This merged event covers two phases, 1847 Boole and 1936 Stone. They are not competing priority dates."
+    },
+    {
+      "pid": "P057",
+      "eventId": "E65",
+      "canonicalName": "Function-field Langlands: Drinfeld and Lafforgue",
+      "aliases": [
+        "Langlands over function fields",
+        "Drinfeld modules",
+        "shtukas",
+        "global Langlands correspondence"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1974,
+          "end": 1974,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Drinfeld's elliptic modules paper appeared in 1974.",
+              "source": "Crossref original article record",
+              "url": "https://doi.org/10.1070/SM1974V023N04ABEH001731",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": "1974 is the geometric-tool precursor, not the proof of the correspondence."
+        },
+        "methodological": {
+          "start": 1983,
+          "end": 1983,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Drinfeld applied the geometric machinery to two-dimensional representations over a finite field.",
+              "source": "Annals article record",
+              "url": "https://doi.org/10.2307/2374382",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched Drinfeld 1974/1983 and Lafforgue 2002 records; none establishes the first named textbook, journal, lecture series or title 'function-field Langlands'."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Vladimir Drinfeld",
+          "role": "originator",
+          "lifespan": "born 1954",
+          "biographyUrl": "https://en.wikipedia.org/wiki/Vladimir_Drinfeld",
+          "works": [
+            {
+              "citation": "Elliptic modules",
+              "year": 1974,
+              "url": "https://doi.org/10.1070/SM1974V023N04ABEH001731",
+              "whyItMatters": "Geometric objects"
+            },
+            {
+              "citation": "Two-dimensional l-adic representations of the fundamental group of a curve over a finite field",
+              "year": 1983,
+              "url": "https://doi.org/10.2307/2374382",
+              "whyItMatters": "Rank-two correspondence"
+            }
+          ]
+        },
+        {
+          "name": "Laurent Lafforgue",
+          "role": "developer",
+          "lifespan": "born 1966",
+          "biographyUrl": "https://en.wikipedia.org/wiki/Laurent_Lafforgue",
+          "works": [
+            {
+              "citation": "Chtoucas de Drinfeld et correspondance de Langlands",
+              "year": 2002,
+              "url": "https://doi.org/10.1007/s002220100174",
+              "whyItMatters": "General GL(n) breakthrough"
+            }
+          ]
+        }
+      ],
+      "notes": "The 2002 Lafforgue extension is kept as a later milestone, not backdated into the original emergence."
+    },
+    {
+      "pid": "P533",
+      "eventId": "Q23",
+      "canonicalName": "Murmurations: machine learning and statistics reveal patterns in elliptic curves",
+      "aliases": [
+        "elliptic curve murmurations",
+        "Frobenius-trace murmurations",
+        "rank patterns"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 2022,
+          "end": 2022,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The public arXiv record first appeared on 21 April 2022.",
+              "source": "arXiv preprint record",
+              "url": "https://arxiv.org/abs/2204.10140",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "methodological": {
+          "start": 2022,
+          "end": 2022,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The preprint applies data-scientific classification to elliptic-curve ranks.",
+              "source": "arXiv preprint record",
+              "url": "https://arxiv.org/abs/2204.10140",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": 2022,
+          "end": 2022,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The public preprint title Murmurations of elliptic curves names the phenomenon.",
+              "source": "arXiv preprint record",
+              "url": "https://arxiv.org/abs/2204.10140",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": "The journal version appeared in 2024."
+        }
+      },
+      "firstTermUse": {
+        "term": "Murmurations of elliptic curves",
+        "year": 2022,
+        "url": "https://arxiv.org/abs/2204.10140",
+        "status": "earliest_checked_title; broader priority search pending"
+      },
+      "people": [
+        {
+          "name": "Yang-Hui He",
+          "role": "originator",
+          "lifespan": "born 1975",
+          "biographyUrl": "https://en.wikipedia.org/wiki/Yang-Hui_He",
+          "works": [
+            {
+              "citation": "Murmurations of elliptic curves",
+              "year": 2022,
+              "url": "https://arxiv.org/abs/2204.10140",
+              "whyItMatters": "First public preprint and data analysis"
+            }
+          ]
+        }
+      ],
+      "notes": "The catalogue's 2020 date is unsupported by the checked 2022 preprint. The 2024 journal date should not displace the earlier public arXiv date."
+    },
+    {
+      "pid": "P108",
+      "eventId": "B42",
+      "canonicalName": "Large deviations from statistical mechanics",
+      "aliases": [
+        "large deviation principle",
+        "Donsker–Varadhan theory",
+        "rare-event asymptotics"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1966,
+          "end": 1966,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Varadhan's paper on asymptotic probabilities was published in 1966.",
+              "source": "Wiley original article record",
+              "url": "https://doi.org/10.1002/CPA.3160190303",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "methodological": {
+          "start": 1975,
+          "end": 1975,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Donsker and Varadhan apply asymptotic evaluation to long-time Markov process expectations.",
+              "source": "Wiley original article record",
+              "url": "https://doi.org/10.1002/CPA.3160280102",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched the 1966 and 1975 article records and AMS Large Deviations books; no checked first textbook or title naming this probability field."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "S. R. S. Varadhan",
+          "role": "originator",
+          "lifespan": "born 1940",
+          "biographyUrl": "https://en.wikipedia.org/wiki/S._R._S._Varadhan",
+          "works": [
+            {
+              "citation": "Asymptotic probabilities and differential equations",
+              "year": 1966,
+              "url": "https://doi.org/10.1002/CPA.3160190303",
+              "whyItMatters": "Early large-deviation analysis"
+            }
+          ]
+        },
+        {
+          "name": "Monroe D. Donsker",
+          "role": "developer",
+          "lifespan": "1924–1991",
+          "biographyUrl": "https://en.wikipedia.org/wiki/Monroe_D._Donsker",
+          "works": [
+            {
+              "citation": "Asymptotic evaluation of certain Markov process expectations for large time, I",
+              "year": 1975,
+              "url": "https://doi.org/10.1002/CPA.3160280102",
+              "whyItMatters": "Markov-process application"
+            }
+          ]
+        }
+      ],
+      "notes": "1966 and 1975 are different stages; the 1975 article supplies the explicit target-problem evidence."
+    },
+    {
+      "pid": "P086",
+      "eventId": "B20",
+      "canonicalName": "Hardness versus randomness",
+      "aliases": [
+        "derandomization",
+        "hardness versus randomness",
+        "Nisan–Wigderson generator"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1988,
+          "end": 1988,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The FOCS paper Hardness vs. randomness was published in 1988.",
+              "source": "IEEE conference record",
+              "url": "https://doi.org/10.1109/SFCS.1988.21916",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": "The journal version followed in 1994."
+        },
+        "methodological": {
+          "start": 1988,
+          "end": 1988,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The paper constructs a pseudorandom generator from a hard function.",
+              "source": "IEEE conference record",
+              "url": "https://doi.org/10.1109/SFCS.1988.21916",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": 1988,
+          "end": 1988,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The paper title names Hardness vs. randomness.",
+              "source": "IEEE conference record",
+              "url": "https://doi.org/10.1109/SFCS.1988.21916",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        }
+      },
+      "firstTermUse": {
+        "term": "Hardness vs. randomness",
+        "year": 1988,
+        "url": "https://doi.org/10.1109/SFCS.1988.21916",
+        "status": "earliest_checked_title; broader priority search pending"
+      },
+      "people": [
+        {
+          "name": "Noam Nisan",
+          "role": "originator",
+          "lifespan": "born 1961",
+          "biographyUrl": "https://en.wikipedia.org/wiki/Noam_Nisan",
+          "works": [
+            {
+              "citation": "Hardness vs. randomness",
+              "year": 1988,
+              "url": "https://doi.org/10.1109/SFCS.1988.21916",
+              "whyItMatters": "Explicit hardness-to-randomness reduction"
+            }
+          ]
+        },
+        {
+          "name": "Avi Wigderson",
+          "role": "originator",
+          "lifespan": "born 1956",
+          "biographyUrl": "https://en.wikipedia.org/wiki/Avi_Wigderson",
+          "works": [
+            {
+              "citation": "Hardness vs randomness",
+              "year": 1994,
+              "url": "https://doi.org/10.1016/S0022-0000(05)80043-1",
+              "whyItMatters": "Expanded journal account"
+            }
+          ]
+        }
+      ],
+      "notes": "The catalogue's 1994 date is the journal issue, not the first public publication. The paper notes a 1988 conference presentation; the 1988 proceedings record independently confirms publication."
+    },
+    {
+      "pid": "P329",
+      "eventId": "WC47",
+      "canonicalName": "Ergodic theory and Littlewood conjecture",
+      "aliases": [
+        "measure rigidity",
+        "Littlewood conjecture exceptions",
+        "higher-rank dynamics"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 2006,
+          "end": 2006,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The Annals article connecting invariant measures to Littlewood exceptions is dated 2006.",
+              "source": "Annals original article record",
+              "url": "https://doi.org/10.4007/annals.2006.164.513",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "methodological": {
+          "start": 2006,
+          "end": 2006,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Its abstract applies measure classification to prove dimension zero for the exceptional set.",
+              "source": "Annals original article record",
+              "url": "https://doi.org/10.4007/annals.2006.164.513",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched Annals and Crossref for a first named textbook, journal, lecture series, or title for the combined field; no earlier institutional anchor checked."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Manfred Einsiedler",
+          "role": "developer",
+          "lifespan": null,
+          "biographyUrl": "https://en.wikipedia.org/wiki/Manfred_Einsiedler",
+          "works": [
+            {
+              "citation": "Invariant measures and the set of exceptions to Littlewood’s conjecture",
+              "year": 2006,
+              "url": "https://doi.org/10.4007/annals.2006.164.513",
+              "whyItMatters": "Measure rigidity applied to Littlewood"
+            }
+          ]
+        },
+        {
+          "name": "Anatole Katok",
+          "role": "developer",
+          "lifespan": "1944–2018",
+          "biographyUrl": "https://en.wikipedia.org/wiki/Anatole_Katok",
+          "works": [
+            {
+              "citation": "Invariant measures and the set of exceptions to Littlewood’s conjecture",
+              "year": 2006,
+              "url": "https://doi.org/10.4007/annals.2006.164.513",
+              "whyItMatters": "Joint theorem"
+            }
+          ]
+        },
+        {
+          "name": "Elon Lindenstrauss",
+          "role": "developer",
+          "lifespan": "born 1970",
+          "biographyUrl": "https://en.wikipedia.org/wiki/Elon_Lindenstrauss",
+          "works": [
+            {
+              "citation": "Invariant measures and the set of exceptions to Littlewood’s conjecture",
+              "year": 2006,
+              "url": "https://doi.org/10.4007/annals.2006.164.513",
+              "whyItMatters": "Joint theorem"
+            }
+          ]
+        }
+      ],
+      "notes": "The catalogue's 1996 date has not been supported by a record for this specific Littlewood application."
+    },
+    {
+      "pid": "P186",
+      "eventId": "MA2",
+      "canonicalName": "Babylonian quadratic and cubic problem-solving",
+      "aliases": [
+        "Old Babylonian algebra",
+        "BM 85200 + VAT 6599",
+        "cellar problems"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched MacTutor Babylonian mathematics, Schøyen MS 3048 and publications on BM 85200+VAT 6599. The surviving tablets are dated only by broad archaeological periods; no public publication year is recoverable."
+        },
+        "methodological": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched the BM 85200+VAT 6599 tablet analysis and MacTutor account; a first purposeful application of the method cannot be ordered across undated tablets."
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched museum tablet descriptions and bibliographies; no ancient named textbook, chair, lecture series, or classification anchor found."
+        }
+      },
+      "firstTermUse": null,
+      "people": [],
+      "notes": "Evidence of cubic problem-solving: https://mathshistory.st-andrews.ac.uk/HistTopics/Babylonian_mathematics/ and object record https://www.schoyencollection.com/mathematics-collection/9-3-algebra/cubic-equations-table-ms-3048. Anonymous scribes cannot be assigned named-person entries. Catalogue -1900 is not a publication date."
+    },
+    {
+      "pid": "P119",
+      "eventId": "WA7/MA11",
+      "canonicalName": "Archimedes statics",
+      "aliases": [
+        "Archimedean statics",
+        "law of the lever",
+        "On the Equilibrium of Planes"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched MacTutor Archimedes biography and On the Equilibrium of Planes extract plus Open Library editions; no dated original publication of the ancient treatise."
+        },
+        "methodological": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched the extant Equilibrium of Planes text and Archimedes biography; applications to balance are described but not independently datable."
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched Archimedes treatise catalogues; no first institutional naming date established in antiquity."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Archimedes",
+          "role": "originator",
+          "lifespan": "c. 287–212 BCE",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/",
+          "works": [
+            {
+              "citation": "On the Equilibrium of Planes (in The Works of Archimedes)",
+              "year": 1897,
+              "url": "https://openlibrary.org/works/OL5681640W/The_works_of_Archimedes",
+              "whyItMatters": "Primary treatise surviving in a modern bibliographic edition"
+            }
+          ]
+        }
+      ],
+      "notes": "MacTutor original-text extract: https://mathshistory.st-andrews.ac.uk/Extras/Archimedes_on_statics/. The catalogue's +212 is his death year, not an emergence publication date."
+    },
+    {
+      "pid": "P408",
+      "eventId": "W65",
+      "canonicalName": "Abstract rings and fields",
+      "aliases": [
+        "abstract ring",
+        "abstract field",
+        "Körper",
+        "ideal theory"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1893,
+          "end": 1893,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Weber's paper supplies a checked abstract-field/Galois framework in 1893.",
+              "source": "Springer original article record",
+              "url": "https://doi.org/10.1007/BF01446451",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": "The ring half emerged separately: Fraenkel 1915 and Noether 1921. This single date is a field-theory anchor, not a date for both structures."
+        },
+        "methodological": {
+          "start": 1921,
+          "end": 1921,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Noether applies abstract commutative ring ideas to ideal theory.",
+              "source": "Springer original article record",
+              "url": "https://doi.org/10.1007/BF01464225",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched Weber 1893, Fraenkel 1915, Noether 1921 and van der Waerden's 1930 Moderne Algebra. The event merges rings and fields; no single first institutional anchor for both has been established."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Heinrich Weber",
+          "role": "developer",
+          "lifespan": "1842–1913",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Weber/",
+          "works": [
+            {
+              "citation": "Die allgemeinen Grundlagen der Galois'schen Gleichungstheorie",
+              "year": 1893,
+              "url": "https://doi.org/10.1007/BF01446451",
+              "whyItMatters": "Abstract field setting"
+            }
+          ]
+        },
+        {
+          "name": "Emmy Noether",
+          "role": "systematiser",
+          "lifespan": "1882–1935",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/",
+          "works": [
+            {
+              "citation": "Idealtheorie in Ringbereichen",
+              "year": 1921,
+              "url": "https://doi.org/10.1007/BF01464225",
+              "whyItMatters": "Unified commutative ideal theory"
+            }
+          ]
+        }
+      ],
+      "notes": "Dedekind's 1871 ideal work is a precursor (https://plato.stanford.edu/entries/dedekind-foundations/), not yet a modern abstract-ring axiomatisation. Fraenkel's 1915 explicit ring paper: https://doi.org/10.1515/crll.1915.145.139. MacTutor history: https://mathshistory.st-andrews.ac.uk/HistTopics/Ring_theory/."
+    },
+    {
+      "pid": "P179",
+      "eventId": "WA55",
+      "canonicalName": "Arbuthnot: significance testing",
+      "aliases": [
+        "Arbuthnot test",
+        "sign test",
+        "sex-ratio hypothesis test"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1710,
+          "end": 1710,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Arbuthnot's argument was published in Philosophical Transactions in 1710.",
+              "source": "Royal Society original article record",
+              "url": "https://doi.org/10.1098/rstl.1710.0011",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "methodological": {
+          "start": 1710,
+          "end": 1710,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The article tests the London birth-sex counts against equal likelihood.",
+              "source": "Royal Society original article record",
+              "url": "https://doi.org/10.1098/rstl.1710.0011",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched the Royal Society paper and later bibliographies; no first named textbook, journal, lecture series, or title for significance testing established in 1710."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "John Arbuthnot",
+          "role": "originator",
+          "lifespan": "1667–1735",
+          "biographyUrl": "https://en.wikipedia.org/wiki/John_Arbuthnot",
+          "works": [
+            {
+              "citation": "An argument for divine providence taken from the constant regularity observed in the births of both sexes",
+              "year": 1710,
+              "url": "https://doi.org/10.1098/rstl.1710.0011",
+              "whyItMatters": "Binomial-tail style inference on birth records"
+            }
+          ]
+        }
+      ],
+      "notes": "The Royal Society archive distinguishes the 1710 published article from an April 1711 manuscript copy: https://makingscience.royalsociety.org/items/el_a_54/paper-an-argument-for-divine-providence-taken-from-the-constant-regularity-observed-in-the-birth-of-bothe-sexes-by-john-arbuthnot."
+    },
+    {
+      "pid": "P021",
+      "eventId": "E29",
+      "canonicalName": "Sheaf theory",
+      "aliases": [
+        "faisceaux",
+        "sheaves",
+        "coherent sheaves"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1946,
+          "end": 1946,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Leray's Comptes rendus note introduced faisceaux in 1946.",
+              "source": "MathSciNet bibliographic record",
+              "url": "https://mathscinet.ams.org/mathscinet-getitem?mr=8%2C49d",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": "The 1945 captivity-course paper is a precursor, but a full-text search found no 'faisceau' there. The 1946 original scan is https://ncatlab.org/nlab/files/Leray-0.pdf."
+        },
+        "methodological": {
+          "start": 1946,
+          "end": 1946,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Leray uses sheaves for the homology of a representation in the same published note that introduces them.",
+              "source": "MathSciNet bibliographic record",
+              "url": "https://mathscinet.ams.org/mathscinet-getitem?mr=8%2C49d",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": "Serre's 1955 FAC paper is a later application to algebraic geometry, not the first purposeful use of sheaves."
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched Leray 1945 and Serre's 1955 Faisceaux algébriques cohérents title; a named 1955 article exists, but earlier sheaf-title use has not been ruled out."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Jean Leray",
+          "role": "originator",
+          "lifespan": "1906–1998",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Leray/",
+          "works": [
+            {
+              "citation": "L'anneau d'homologie d'une représentation",
+              "year": 1946,
+              "url": "https://mathscinet.ams.org/mathscinet-getitem?mr=8%2C49d",
+              "whyItMatters": "Introduces sheaves for cohomology of maps"
+            }
+          ]
+        },
+        {
+          "name": "Jean-Pierre Serre",
+          "role": "developer",
+          "lifespan": "born 1926",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Serre/",
+          "works": [
+            {
+              "citation": "Faisceaux algébriques cohérents",
+              "year": 1955,
+              "url": "https://doi.org/10.2307/1969915",
+              "whyItMatters": "Sheaf method in algebraic geometry"
+            }
+          ]
+        }
+      ],
+      "notes": "Leray's 1945 paper was based on captivity lectures but did not yet name faisceaux. The 1946 note is cited in Numdam (https://www.numdam.org/item/BSMF_1954__82__97_0/) with linked MathSciNet and zbMATH records. The 1946 date, not the 27 May submission/presentation notation, governs. Historical analysis: https://math.mit.edu/~hrm/papers/ss.pdf."
+    },
+    {
+      "pid": "P288",
+      "eventId": "WB67",
+      "canonicalName": "Iwasawa theory",
+      "aliases": [
+        "cyclotomic Iwasawa theory",
+        "Z_p-extensions",
+        "Iwasawa invariants"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1959,
+          "end": 1959,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Iwasawa's On the Theory of Cyclotomic Fields was published in 1959.",
+              "source": "Annals original article record",
+              "url": "https://doi.org/10.2307/1970328",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "methodological": {
+          "start": 1959,
+          "end": 1959,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The paper studies class-group growth in cyclotomic towers.",
+              "source": "Annals original article record",
+              "url": "https://doi.org/10.2307/1970328",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched Annals and AMS histories of Iwasawa theory; the 1959 title says cyclotomic fields, not 'Iwasawa theory', and no first named textbook/title anchor is checked."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Kenkichi Iwasawa",
+          "role": "originator",
+          "lifespan": "1917–1998",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Iwasawa/",
+          "works": [
+            {
+              "citation": "On the Theory of Cyclotomic Fields",
+              "year": 1959,
+              "url": "https://doi.org/10.2307/1970328",
+              "whyItMatters": "Cyclotomic tower and class-group framework"
+            }
+          ]
+        }
+      ],
+      "notes": "AMS survey confirms a late-1950s series, so 1959 is a checked anchor rather than a proven first: https://doi.org/10.1090/surv/280."
+    },
+    {
+      "pid": "P405",
+      "eventId": "W35",
+      "canonicalName": "Many-valued logics",
+      "aliases": [
+        "three-valued logic",
+        "Łukasiewicz logic",
+        "many-valued logic",
+        "Post logic"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1920,
+          "end": 1920,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Łukasiewicz's O logice trójwartościowej was printed in Ruch Filozoficzny in 1920.",
+              "source": "Digitized original journal issue",
+              "url": "https://kpbc.umk.pl/Content/247342/PDF/EOD_OPEN_006_12_nr_09.pdf",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "methodological": {
+          "start": 1920,
+          "end": 1920,
+          "precision": "year",
+          "confidence": "low",
+          "grade": "C",
+          "evidence": [
+            {
+              "claim": "The publication develops a third truth value to address future contingents.",
+              "source": "Stanford Encyclopedia of Philosophy",
+              "url": "https://plato.stanford.edu/entries/lukasiewicz/",
+              "kind": "history_page"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": 1920,
+          "end": 1920,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The article title names three-valued logic.",
+              "source": "Digitized original journal issue",
+              "url": "https://kpbc.umk.pl/Content/247342/PDF/EOD_OPEN_006_12_nr_09.pdf",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": "This names three-valued logic, not necessarily the entire later family of many-valued logics."
+        }
+      },
+      "firstTermUse": {
+        "term": "O logice trójwartościowej (on three-valued logic)",
+        "year": 1920,
+        "url": "https://kpbc.umk.pl/Content/247342/PDF/EOD_OPEN_006_12_nr_09.pdf",
+        "status": "earliest_checked_title; broader priority search pending"
+      },
+      "people": [
+        {
+          "name": "Jan Łukasiewicz",
+          "role": "originator",
+          "lifespan": "1878–1956",
+          "biographyUrl": "https://plato.stanford.edu/entries/lukasiewicz/",
+          "works": [
+            {
+              "citation": "O logice trójwartościowej",
+              "year": 1920,
+              "url": "https://kpbc.umk.pl/Content/247342/PDF/EOD_OPEN_006_12_nr_09.pdf",
+              "whyItMatters": "First printed three-valued account"
+            }
+          ]
+        },
+        {
+          "name": "Emil Post",
+          "role": "developer",
+          "lifespan": "1897–1954",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Post/",
+          "works": [
+            {
+              "citation": "Introduction to a General Theory of Elementary Propositions",
+              "year": 1921,
+              "url": "https://doi.org/10.2307/2370324",
+              "whyItMatters": "General finite-valued propositional systems"
+            }
+          ]
+        }
+      ],
+      "notes": "Łukasiewicz's 1917 discovery and 1918 lecture are not the publication date; SEP identifies the 1920 print account."
+    },
+    {
+      "pid": "P006",
+      "eventId": "E08",
+      "canonicalName": "Group theory from the solution of polynomial equations",
+      "aliases": [
+        "Galois theory",
+        "permutation groups",
+        "resolvents",
+        "abstract group theory"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1772,
+          "end": 1772,
+          "precision": "year",
+          "confidence": "low",
+          "grade": "C",
+          "evidence": [
+            {
+              "claim": "The 1770-volume first sections of Lagrange's Réflexions were printed in 1772.",
+              "source": "EMS Press historical bibliography",
+              "url": "https://ems.press/content/book-chapter-files/20478?nt=1",
+              "kind": "history_page"
+            }
+          ],
+          "note": "The academy volume is labelled 1770; its first part was printed in 1772 and continuation in 1773. A direct original-volume catalogue record is still needed."
+        },
+        "methodological": {
+          "start": 1772,
+          "end": 1772,
+          "precision": "year",
+          "confidence": "low",
+          "grade": "C",
+          "evidence": [
+            {
+              "claim": "Lagrange used permutations of roots to analyse solvability of polynomial equations.",
+              "source": "EMS Press historical analysis",
+              "url": "https://ems.press/content/book-chapter-files/20478?nt=1",
+              "kind": "history_page"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": 1854,
+          "end": 1854,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Cayley's paper title names the theory of groups.",
+              "source": "Taylor & Francis original article record",
+              "url": "https://doi.org/10.1080/14786445408647421",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Joseph-Louis Lagrange",
+          "role": "originator",
+          "lifespan": "1736–1813",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+          "works": [
+            {
+              "citation": "Oeuvres de Lagrange (collected edition including Réflexions)",
+              "year": 1867,
+              "url": "https://openlibrary.org/books/OL23322801M/Oeuvres.",
+              "whyItMatters": "Bibliographic record of collected work; original 1772 print still needs a direct record"
+            }
+          ]
+        },
+        {
+          "name": "Arthur Cayley",
+          "role": "systematiser",
+          "lifespan": "1821–1895",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Cayley/",
+          "works": [
+            {
+              "citation": "On the theory of groups, as depending on the symbolic equation θⁿ=1",
+              "year": 1854,
+              "url": "https://doi.org/10.1080/14786445408647421",
+              "whyItMatters": "Named abstract-group paper"
+            }
+          ]
+        }
+      ],
+      "notes": "Do not confuse academy volume year 1770 with publication year 1772, or Galois's 1831 submitted memoir with its 1846 publication. The 1854 paper names groups but does not prove it is the first institutional anchor for the entire later field."
+    },
+    {
+      "pid": "P018",
+      "eventId": "E26",
+      "canonicalName": "The probabilistic method in combinatorics",
+      "aliases": [
+        "probabilistic method",
+        "Erdős random construction",
+        "random graphs"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1947,
+          "end": 1947,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Erdős's graph paper appeared in the Bulletin in 1947.",
+              "source": "AMS original article record",
+              "url": "https://doi.org/10.1090/S0002-9904-1947-08785-1",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "methodological": {
+          "start": 1947,
+          "end": 1947,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The paper uses existence through a random graph argument for a combinatorial bound.",
+              "source": "AMS original article record",
+              "url": "https://doi.org/10.1090/S0002-9904-1947-08785-1",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched AMS 1947 record, Erdős–Rényi 1959, and Alon–Spencer textbook records; a 1992 first edition record for The Probabilistic Method has not been checked."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Paul Erdős",
+          "role": "originator",
+          "lifespan": "1913–1996",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Erdos/",
+          "works": [
+            {
+              "citation": "Some remarks on the theory of graphs",
+              "year": 1947,
+              "url": "https://doi.org/10.1090/S0002-9904-1947-08785-1",
+              "whyItMatters": "Random graph existence proof"
+            }
+          ]
+        }
+      ],
+      "notes": "The method predates the literal phrase 'probabilistic method'; 1947 is a publication anchor for the named event, not a claim that all randomized combinatorics began then."
+    },
+    {
+      "pid": "P048",
+      "eventId": "E56",
+      "canonicalName": "Hodge theory proves log-concavity conjectures",
+      "aliases": [
+        "matroid Hodge theory",
+        "log-concavity",
+        "Bergman fan",
+        "chromatic polynomial"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 2012,
+          "end": 2012,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Huh's chromatic-polynomial and Huh–Katz matroid papers appeared in 2012.",
+              "source": "AMS original article record",
+              "url": "https://doi.org/10.1090/S0894-0347-2012-00731-0",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "methodological": {
+          "start": 2012,
+          "end": 2012,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Huh and Katz apply geometric methods to log-concavity of matroid characteristic polynomials.",
+              "source": "Springer original article record",
+              "url": "https://doi.org/10.1007/s00208-011-0777-6",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched Huh 2012, Huh–Katz 2012, and Adiprasito–Huh–Katz 2018. The 2018 article title names Hodge theory for combinatorial geometries, but its status as the first such title is unverified."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "June Huh",
+          "role": "originator",
+          "lifespan": "born 1983",
+          "biographyUrl": "https://en.wikipedia.org/wiki/June_Huh",
+          "works": [
+            {
+              "citation": "Milnor numbers of projective hypersurfaces and the chromatic polynomial of graphs",
+              "year": 2012,
+              "url": "https://doi.org/10.1090/S0894-0347-2012-00731-0",
+              "whyItMatters": "Chromatic log-concavity"
+            },
+            {
+              "citation": "Hodge theory for combinatorial geometries",
+              "year": 2018,
+              "url": "https://doi.org/10.4007/annals.2018.188.2.1",
+              "whyItMatters": "Full matroid Hodge theory"
+            }
+          ]
+        },
+        {
+          "name": "Eric Katz",
+          "role": "developer",
+          "lifespan": null,
+          "biographyUrl": "https://people.math.osu.edu/katz.60/",
+          "works": [
+            {
+              "citation": "Log-concavity of characteristic polynomials and the Bergman fan of matroids",
+              "year": 2012,
+              "url": "https://doi.org/10.1007/s00208-011-0777-6",
+              "whyItMatters": "Geometric matroid application"
+            }
+          ]
+        }
+      ],
+      "notes": "The 2018 Annals paper was received in 2015; neither date replaces the 2012 publications for the first checked conceptual/application stage."
+    },
+    {
+      "pid": "P447",
+      "eventId": "H43",
+      "canonicalName": "Non-Euclidean geometry: the independence of the parallel postulate",
+      "aliases": [
+        "hyperbolic geometry",
+        "parallel postulate",
+        "Bolyai–Lobachevsky geometry"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1829,
+          "end": 1829,
+          "precision": "year",
+          "confidence": "low",
+          "grade": "C",
+          "evidence": [
+            {
+              "claim": "Lobachevsky's first account of non-Euclidean geometry appeared in the Kazan Messenger in 1829.",
+              "source": "MacTutor biography",
+              "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lobachevsky/",
+              "kind": "history_page"
+            }
+          ],
+          "note": "First original bibliographic record not found in Crossref/Open Library; see Bolyai's independent publication dispute in disputedDates."
+        },
+        "methodological": {
+          "start": 1829,
+          "end": 1829,
+          "precision": "year",
+          "confidence": "low",
+          "grade": "C",
+          "evidence": [
+            {
+              "claim": "Lobachevsky's publication works through a geometry denying the parallel postulate.",
+              "source": "MacTutor history",
+              "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Non-Euclidean_geometry/",
+              "kind": "history_page"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched Lobachevsky Kazan Messenger, Bolyai Appendix, and early non-Euclidean geometry histories; no checked earliest named textbook or chair distinct from original treatises."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Nikolai Lobachevsky",
+          "role": "originator",
+          "lifespan": "1792–1856",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lobachevsky/",
+          "works": [
+            {
+              "citation": "Geometrische Untersuchungen zur Theorie der Parallellinien",
+              "year": 1840,
+              "url": "https://openlibrary.org/works/OL38541616W/Geometrische_Untersuchungen_zur_Theorie_der_Parallellinien",
+              "whyItMatters": "Later catalogued exposition; first 1829 account has history-source evidence only"
+            }
+          ]
+        },
+        {
+          "name": "János Bolyai",
+          "role": "originator",
+          "lifespan": "1802–1860",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bolyai/",
+          "works": [
+            {
+              "citation": "Appendix to Tentamen",
+              "year": 1832,
+              "url": "https://openlibrary.org/works/OL17311426W/Tentamen_juventutem_studiosam_in_elementa_matheseos_purae_elementaris_ac_sublimioris_methodo_intuiti",
+              "whyItMatters": "Independent published construction included in the 1832 edition"
+            }
+          ]
+        }
+      ],
+      "notes": "Gauss's 1817 private correspondence is a precursor, not a published date. MacTutor says a Bolyai reprint was sent to Gauss by June 1831, while the Hungarian Academy dates the Tentamen edition to 1832; preserve both.",
+      "disputedDates": [
+        {
+          "year": 1831,
+          "claim": "Bolyai's Appendix had been printed in time for a June 1831 reprint to Gauss.",
+          "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Bolyai/",
+          "reason": "early separate printing or advance copy"
+        },
+        {
+          "year": 1832,
+          "claim": "The Hungarian Academy dates the Tentamen edition containing the Appendix to 1832.",
+          "url": "https://mta200.hu/kincseink/bolyai-janos-appendix-106388",
+          "reason": "bound-edition publication date"
+        }
+      ]
+    },
+    {
+      "pid": "P300",
+      "eventId": "E58/WC68",
+      "canonicalName": "Erdos discrepancy",
+      "aliases": [
+        "Erdős discrepancy problem",
+        "Polymath5",
+        "multiplicative discrepancy"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 2015,
+          "end": 2015,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Tao released the full proof as a public preprint on 17 September 2015.",
+              "source": "arXiv preprint record",
+              "url": "https://arxiv.org/abs/1509.05363",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": "The conjecture itself is much older; this date marks the proof technique in the event summary."
+        },
+        "methodological": {
+          "start": 2015,
+          "end": 2015,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The proof uses Polymath5 reductions and multiplicative-function methods to settle discrepancy.",
+              "source": "arXiv preprint record",
+              "url": "https://arxiv.org/abs/1509.05363",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched Tao's 2015 arXiv and 2016 Discrete Analysis records; the problem name predates this solution, and no first title use has been established."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Terence Tao",
+          "role": "developer",
+          "lifespan": "born 1975",
+          "biographyUrl": "https://en.wikipedia.org/wiki/Terence_Tao",
+          "works": [
+            {
+              "citation": "The Erdős discrepancy problem",
+              "year": 2015,
+              "url": "https://arxiv.org/abs/1509.05363",
+              "whyItMatters": "Proof using multiplicative functions"
+            }
+          ]
+        }
+      ],
+      "notes": "2010 is associated with Polymath5's earlier work, not a verified public statement of Tao's final method. Journal version: https://doi.org/10.19086/da.609. The SAT c=2 result is separate: https://doi.org/10.1007/978-3-319-09284-3_17."
+    },
+    {
+      "pid": "P505",
+      "eventId": "P62",
+      "canonicalName": "Lenstra-Lenstra-Lovasz lattice basis reduction",
+      "aliases": [
+        "LLL algorithm",
+        "lattice basis reduction",
+        "Lenstra–Lenstra–Lovász algorithm"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1982,
+          "end": 1982,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Factoring polynomials with rational coefficients appeared in 1982.",
+              "source": "Springer original article record",
+              "url": "https://doi.org/10.1007/BF01457454",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "methodological": {
+          "start": 1982,
+          "end": 1982,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The paper introduces lattice basis reduction to factor rational polynomials.",
+              "source": "Springer original article record",
+              "url": "https://doi.org/10.1007/BF01457454",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched the 1982 paper and Crossref for first named LLL textbook or paper title; the original title does not itself name lattice basis reduction."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Arjen K. Lenstra",
+          "role": "originator",
+          "lifespan": "born 1956",
+          "biographyUrl": "https://en.wikipedia.org/wiki/Arjen_Lenstra",
+          "works": [
+            {
+              "citation": "Factoring polynomials with rational coefficients",
+              "year": 1982,
+              "url": "https://doi.org/10.1007/BF01457454",
+              "whyItMatters": "Lattice-reduction algorithm"
+            }
+          ]
+        },
+        {
+          "name": "Hendrik W. Lenstra",
+          "role": "originator",
+          "lifespan": "born 1949",
+          "biographyUrl": "https://en.wikipedia.org/wiki/Hendrik_Lenstra",
+          "works": [
+            {
+              "citation": "Factoring polynomials with rational coefficients",
+              "year": 1982,
+              "url": "https://doi.org/10.1007/BF01457454",
+              "whyItMatters": "Joint algorithm"
+            }
+          ]
+        },
+        {
+          "name": "László Lovász",
+          "role": "originator",
+          "lifespan": "born 1948",
+          "biographyUrl": "https://en.wikipedia.org/wiki/L%C3%A1szl%C3%B3_Lov%C3%A1sz",
+          "works": [
+            {
+              "citation": "Factoring polynomials with rational coefficients",
+              "year": 1982,
+              "url": "https://doi.org/10.1007/BF01457454",
+              "whyItMatters": "Joint algorithm"
+            }
+          ]
+        }
+      ],
+      "notes": "No earlier presentation date is substituted for the 1982 journal publication."
+    },
+    {
+      "pid": "P151",
+      "eventId": "WA52",
+      "canonicalName": "Differential equations from calculus",
+      "aliases": [
+        "ordinary differential equations",
+        "fluxional equations",
+        "separation of variables",
+        "Bernoulli equation"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1693,
+          "end": 1693,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Leibniz's Supplementum geometriae practicae was published in Acta Eruditorum in 1693.",
+              "source": "Museo Galileo bibliographic catalogue",
+              "url": "https://opac.museogalileo.it/imss/resource?dcnr=6&uri=177222&v=l",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": "Newton's 1671 manuscript was not published until 1736; earlier published calculus applications may still predate 1693."
+        },
+        "methodological": {
+          "start": 1693,
+          "end": 1693,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Leibniz's 1693 paper deliberately uses series to address transcendental problems.",
+              "source": "Museo Galileo bibliographic catalogue",
+              "url": "https://opac.museogalileo.it/imss/resource?dcnr=6&uri=177222&v=l",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched Newton's Methodus Fluxionum editions and Leibniz/Bernoulli Acta references; first named textbook/title of differential equations not checked."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Gottfried Wilhelm Leibniz",
+          "role": "developer",
+          "lifespan": "1646–1716",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Leibniz/",
+          "works": [
+            {
+              "citation": "Supplementum geometriae practicae sese ad problemata transcendentia extendens ope nova methodi generalissima per series infinita",
+              "year": 1693,
+              "url": "https://opac.museogalileo.it/imss/resource?dcnr=6&uri=177222&v=l",
+              "whyItMatters": "Published series method for transcendental problems"
+            }
+          ]
+        },
+        {
+          "name": "Isaac Newton",
+          "role": "originator",
+          "lifespan": "1642–1727",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Newton/",
+          "works": [
+            {
+              "citation": "The Method of Fluxions and Infinite Series",
+              "year": 1736,
+              "url": "https://openlibrary.org/books/OL7105241M/The_method_of_fluxions_and_infinite_series",
+              "whyItMatters": "1671 manuscript finally published in 1736"
+            }
+          ]
+        }
+      ],
+      "notes": "The original catalogue date 1671 is a manuscript date, not a public publication date. A historical discussion of the 1693 differential-equation use is at https://schoolbag.info/mathematics/history/35.html; 1693 is the first directly catalogued candidate found here, not proven global priority."
+    },
+    {
+      "pid": "P526",
+      "eventId": "Q6",
+      "canonicalName": "Positive Grassmannian as a hub between combinatorics, probability and integrable systems",
+      "aliases": [
+        "totally nonnegative Grassmannian",
+        "positive Grassmannian",
+        "permutation tableaux",
+        "KP solitons"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 2005,
+          "end": 2005,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Williams's paper on totally positive Grassmann cells was published in 2005.",
+              "source": "Elsevier original article record",
+              "url": "https://www.sciencedirect.com/science/article/pii/S0001870804000544",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": "This is a checked Grassmannian-combinatorics anchor; Lusztig's 1994 flag-variety work is a precursor."
+        },
+        "methodological": {
+          "start": 2006,
+          "end": 2006,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Corteel and Williams's public preprint connects Grassmannian-derived tableaux to exclusion-process probabilities.",
+              "source": "arXiv preprint record",
+              "url": "https://arxiv.org/abs/math/0602109",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": "Kodama–Williams connected the same geometry to KP solitons in a 2011 public preprint."
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched Williams 2005, Postnikov 2006, Corteel–Williams 2006 and Kodama–Williams 2011 titles; no single first institutional title naming this three-way hub."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Lauren Williams",
+          "role": "developer",
+          "lifespan": null,
+          "biographyUrl": "https://math.berkeley.edu/~williams/",
+          "works": [
+            {
+              "citation": "Enumeration of totally positive Grassmann cells",
+              "year": 2005,
+              "url": "https://www.sciencedirect.com/science/article/pii/S0001870804000544",
+              "whyItMatters": "Cell-counting combinatorics"
+            },
+            {
+              "citation": "Tableaux combinatorics for the asymmetric exclusion process",
+              "year": 2006,
+              "url": "https://arxiv.org/abs/math/0602109",
+              "whyItMatters": "Probability connection"
+            },
+            {
+              "citation": "KP solitons and total positivity for the Grassmannian",
+              "year": 2011,
+              "url": "https://arxiv.org/abs/1106.0023",
+              "whyItMatters": "Integrable-systems connection"
+            }
+          ]
+        },
+        {
+          "name": "Alexander Postnikov",
+          "role": "originator",
+          "lifespan": null,
+          "biographyUrl": "https://math.mit.edu/~apost/",
+          "works": [
+            {
+              "citation": "Total positivity, Grassmannians, and networks",
+              "year": 2006,
+              "url": "https://arxiv.org/abs/math/0609764",
+              "whyItMatters": "Positive-Grassmannian network model"
+            }
+          ]
+        }
+      ],
+      "notes": "The event merges connections made in 2005, 2006 and 2011. It cannot honestly have a single 1994 emergence for all three."
+    },
+    {
+      "pid": "P401",
+      "eventId": "M27",
+      "canonicalName": "Steinitz abstract field theory",
+      "aliases": [
+        "abstract field",
+        "field extensions",
+        "Steinitz field theory"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1910,
+          "end": 1910,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Steinitz's Algebraische Theorie der Körper appeared in 1910.",
+              "source": "De Gruyter original article record",
+              "url": "https://doi.org/10.1515/CRLL.1910.137.167",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "methodological": {
+          "start": 1910,
+          "end": 1910,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The paper systematically studies abstract fields and extensions.",
+              "source": "De Gruyter original article record",
+              "url": "https://doi.org/10.1515/CRLL.1910.137.167",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched Steinitz 1910 and Weber 1893 field/Galois titles. Steinitz's title names algebraic field theory, but earlier institutional title use has not been ruled out."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Ernst Steinitz",
+          "role": "systematiser",
+          "lifespan": "1871–1928",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Steinitz/",
+          "works": [
+            {
+              "citation": "Algebraische Theorie der Körper",
+              "year": 1910,
+              "url": "https://doi.org/10.1515/CRLL.1910.137.167",
+              "whyItMatters": "Systematic abstract field theory"
+            }
+          ]
+        }
+      ],
+      "notes": "Weber's 1893 abstract Galois framework is an earlier related publication (https://doi.org/10.1007/BF01446451); 1910 marks Steinitz's systematic treatment, not all field theory's birth."
+    },
+    {
+      "pid": "P019",
+      "eventId": "E27",
+      "canonicalName": "Category theory",
+      "aliases": [
+        "categories",
+        "functors",
+        "natural transformations",
+        "natural equivalences"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1945,
+          "end": 1945,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Eilenberg and Mac Lane's General theory of natural equivalences was published in 1945.",
+              "source": "AMS original article record",
+              "url": "https://doi.org/10.1090/S0002-9947-1945-0013131-6",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": "Their 1942 paper addresses natural isomorphisms but does not yet give general category theory."
+        },
+        "methodological": {
+          "start": 1945,
+          "end": 1945,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The paper introduces categories and functors to study natural equivalences.",
+              "source": "AMS original article record",
+              "url": "https://doi.org/10.1090/S0002-9947-1945-0013131-6",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched 1945 Eilenberg–Mac Lane and Mac Lane's 1971 Categories for the Working Mathematician. The 1971 book names the subject but has not been shown to be the first named textbook or title."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Samuel Eilenberg",
+          "role": "originator",
+          "lifespan": "1913–1998",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Eilenberg/",
+          "works": [
+            {
+              "citation": "General theory of natural equivalences",
+              "year": 1945,
+              "url": "https://doi.org/10.1090/S0002-9947-1945-0013131-6",
+              "whyItMatters": "Introduces category/functor framework"
+            }
+          ]
+        },
+        {
+          "name": "Saunders Mac Lane",
+          "role": "originator",
+          "lifespan": "1909–2005",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/MacLane/",
+          "works": [
+            {
+              "citation": "General theory of natural equivalences",
+              "year": 1945,
+              "url": "https://doi.org/10.1090/S0002-9947-1945-0013131-6",
+              "whyItMatters": "Joint founding paper"
+            },
+            {
+              "citation": "Categories for the Working Mathematician",
+              "year": 1971,
+              "url": "https://doi.org/10.1007/978-1-4612-9839-7",
+              "whyItMatters": "Named systematic textbook"
+            }
+          ]
+        }
+      ],
+      "notes": "The 1942 Natural Isomorphisms in Group Theory article is a precursor: https://pubmed.ncbi.nlm.nih.gov/16588584/. Publication, not presentation, fixes the 1945 category date."
+    },
+    {
+      "eventId": "E25",
+      "canonicalName": "Game theory",
+      "aliases": [
+        "minimax theorem",
+        "strategic games",
+        "Nash equilibrium"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1928,
+          "end": 1928,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Von Neumann's article gives the minimax theorem for strategic games.",
+              "source": "Mathematische Annalen record",
+              "url": "https://doi.org/10.1007/BF01448847",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "methodological": {
+          "start": 1928,
+          "end": 1928,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The article applies minimax to two-person zero-sum games.",
+              "source": "Mathematische Annalen record",
+              "url": "https://doi.org/10.1007/BF01448847",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": 1944,
+          "end": 1944,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Theory of Games and Economic Behavior is a named field monograph.",
+              "source": "Open Library first-edition record",
+              "url": "https://openlibrary.org/books/OL186826M/Theory_of_Games_and_Economic_Behavior",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "John von Neumann",
+          "role": "originator",
+          "lifespan": "1903–1957",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Von_Neumann/",
+          "works": [
+            {
+              "citation": "Zur Theorie der Gesellschaftsspiele",
+              "year": 1928,
+              "url": "https://doi.org/10.1007/BF01448847",
+              "whyItMatters": "Minimax framework"
+            }
+          ]
+        },
+        {
+          "name": "John Nash",
+          "role": "developer",
+          "lifespan": "1928–2015",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Nash/",
+          "works": [
+            {
+              "citation": "Equilibrium points in n-person games",
+              "year": 1950,
+              "url": "https://doi.org/10.1073/pnas.36.1.48",
+              "whyItMatters": "Extends equilibrium beyond zero-sum games"
+            }
+          ]
+        }
+      ],
+      "notes": "Borel's earlier game papers are priority precursors, not erased by the 1928 minimax anchor. Nash's 1950 contribution is a later generalization. The 1944 textbook is an institutional anchor, not the origin date."
+    },
+    {
+      "eventId": "E30",
+      "canonicalName": "Scheme theory",
+      "aliases": [
+        "schemes",
+        "Spec of a ring",
+        "Éléments de géométrie algébrique"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched EGA I (1960), the 1958 ICM programme, and Grothendieck's Bourbaki seminars. An earlier publicly published scheme definition has not been isolated."
+        },
+        "methodological": {
+          "start": 1960,
+          "end": 1960,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "EGA I develops schemes as a working tool for algebraic geometry.",
+              "source": "Numdam original article record",
+              "url": "https://numdam.org/item/PMIHES_1960__4__5_0/",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": 1960,
+          "end": 1960,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "EGA I is a named systematic treatise subtitled Le langage des schémas.",
+              "source": "Numdam original article record",
+              "url": "https://numdam.org/item/PMIHES_1960__4__5_0/",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Alexander Grothendieck",
+          "role": "originator",
+          "lifespan": "1928–2014",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Grothendieck/",
+          "works": [
+            {
+              "citation": "Éléments de géométrie algébrique I: Le langage des schémas",
+              "year": 1960,
+              "url": "https://numdam.org/item/PMIHES_1960__4__5_0/",
+              "whyItMatters": "Systematic scheme language"
+            }
+          ]
+        }
+      ],
+      "notes": "1960 is the first checked systematic publication, not a claim that no earlier public scheme definition exists. Dieudonné's editorial collaboration is recorded in EGA's publication history, but a separate event-specific work record for him has not been checked here."
+    },
+    {
+      "eventId": "E32",
+      "canonicalName": "Logic solves Hilbert's tenth problem",
+      "aliases": [
+        "Hilbert's tenth problem",
+        "DPRM theorem",
+        "Diophantine undecidability"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1970,
+          "end": 1970,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Matiyasevich published the result that enumerable sets are Diophantine.",
+              "source": "Math-Net.Ru original article record",
+              "url": "https://www.mathnet.ru/dan35274",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "methodological": {
+          "start": 1970,
+          "end": 1970,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The result completes the Diophantine representation needed for the negative solution.",
+              "source": "Math-Net.Ru original article record",
+              "url": "https://www.mathnet.ru/dan35274",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": "Davis, Putnam, and Robinson's 1961 exponential-Diophantine reduction is a necessary precursor."
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched Math-Net.Ru and Annals records for the 1961/1970 papers. Neither is a first named textbook, journal, lecture series, or classification anchor for this bridge."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Yuri Matiyasevich",
+          "role": "originator",
+          "lifespan": "born 1947",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Matiyasevich/",
+          "works": [
+            {
+              "citation": "The Diophantineness of enumerable sets",
+              "year": 1970,
+              "url": "https://www.mathnet.ru/dan35274",
+              "whyItMatters": "Completes the unsolvability proof"
+            }
+          ]
+        },
+        {
+          "name": "Julia Robinson",
+          "role": "developer",
+          "lifespan": "1919–1985",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Robinson_Julia/",
+          "works": [
+            {
+              "citation": "The decision problem for exponential Diophantine equations",
+              "year": 1961,
+              "url": "https://doi.org/10.2307/1970289",
+              "whyItMatters": "Joint precursor with Davis and Putnam"
+            }
+          ]
+        }
+      ],
+      "notes": "The 1961 Davis–Putnam–Robinson paper is retained as a precursor; it did not yet settle Hilbert's tenth problem. The original 1970 Russian article, rather than a later English translation, dates the completed result."
+    },
+    {
+      "eventId": "E33",
+      "canonicalName": "Atiyah-Singer index theorem",
+      "aliases": [
+        "index theorem",
+        "elliptic operator index",
+        "topological index"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1963,
+          "end": 1963,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Atiyah and Singer announced the index theorem for elliptic operators on compact manifolds.",
+              "source": "AMS original article record",
+              "url": "https://doi.org/10.1090/S0002-9904-1963-10957-X",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "methodological": {
+          "start": 1963,
+          "end": 1963,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The published note computes an analytic index from topological data.",
+              "source": "AMS original article record",
+              "url": "https://doi.org/10.1090/S0002-9904-1963-10957-X",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched the AMS 1963 announcement and Annals 1968 proof series; neither establishes the first textbook, named lecture series, or field classification."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Michael Atiyah",
+          "role": "originator",
+          "lifespan": "1929–2019",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Atiyah/",
+          "works": [
+            {
+              "citation": "The index of elliptic operators on compact manifolds",
+              "year": 1963,
+              "url": "https://doi.org/10.1090/S0002-9904-1963-10957-X",
+              "whyItMatters": "Published theorem announcement"
+            }
+          ]
+        },
+        {
+          "name": "Isadore Singer",
+          "role": "originator",
+          "lifespan": "1924–2021",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Singer/",
+          "works": [
+            {
+              "citation": "The index of elliptic operators. I",
+              "year": 1968,
+              "url": "https://doi.org/10.2307/1970715",
+              "whyItMatters": "Full proof series"
+            }
+          ]
+        }
+      ],
+      "notes": "The 1963 announcement is public; the detailed Annals proof appeared in 1968. Gelfand's 1960 problem statement is a precursor, not the theorem's public proof."
+    },
+    {
+      "eventId": "E36",
+      "canonicalName": "Topology proves Kneser's conjecture",
+      "aliases": [
+        "topological combinatorics",
+        "Kneser graphs",
+        "neighborhood complex"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1978,
+          "end": 1978,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Lovász published a homotopy-theoretic solution of Kneser's conjecture.",
+              "source": "Elsevier original article record",
+              "url": "https://doi.org/10.1016/0097-3165(78)90022-5",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "methodological": {
+          "start": 1978,
+          "end": 1978,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The paper uses graph-neighborhood topology to prove a chromatic-number bound.",
+              "source": "Elsevier original article record",
+              "url": "https://doi.org/10.1016/0097-3165(78)90022-5",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched the 1978 Lovász record and later topological-combinatorics book references; earliest named institutional anchor not verified."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "László Lovász",
+          "role": "originator",
+          "lifespan": "born 1948",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lovasz/",
+          "works": [
+            {
+              "citation": "Kneser's conjecture, chromatic number, and homotopy",
+              "year": 1978,
+              "url": "https://doi.org/10.1016/0097-3165(78)90022-5",
+              "whyItMatters": "Topological proof of the graph-coloring conjecture"
+            }
+          ]
+        }
+      ],
+      "notes": "Kneser formulated the conjecture in 1955; the topological transfer in this event is the 1978 published proof."
+    },
+    {
+      "eventId": "E42",
+      "canonicalName": "Jones polynomial from operator algebras",
+      "aliases": [
+        "Jones polynomial",
+        "knot invariant from operator algebras",
+        "braid representations"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1985,
+          "end": 1985,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Jones published a polynomial knot invariant derived from von Neumann algebras.",
+              "source": "AMS original article record",
+              "url": "https://doi.org/10.1090/S0273-0979-1985-15304-2",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "methodological": {
+          "start": 1985,
+          "end": 1985,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The paper uses operator-algebra and braid constructions to distinguish knots.",
+              "source": "AMS original article record",
+              "url": "https://doi.org/10.1090/S0273-0979-1985-15304-2",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched the 1985 AMS paper and 1987 follow-up; the first named textbook or classification for this cross-field connection is not verified."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Vaughan Jones",
+          "role": "originator",
+          "lifespan": "1952–2020",
+          "biographyUrl": "https://en.wikipedia.org/wiki/Vaughan_Jones",
+          "works": [
+            {
+              "citation": "A polynomial invariant for knots via von Neumann algebras",
+              "year": 1985,
+              "url": "https://doi.org/10.1090/S0273-0979-1985-15304-2",
+              "whyItMatters": "Original knot polynomial from operator algebras"
+            }
+          ]
+        }
+      ],
+      "notes": "Jones's 1984 discovery predates the January 1985 publication; the date field follows the public paper. Witten's 1989 field-theoretic interpretation is a later development, not the origin."
+    },
+    {
+      "eventId": "E49",
+      "canonicalName": "Schramm-Loewner evolution",
+      "aliases": [
+        "SLE",
+        "stochastic Loewner evolution",
+        "Schramm–Loewner evolution"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 1999,
+          "end": 1999,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Schramm's public preprint describes Brownian-driven Loewner scaling limits.",
+              "source": "arXiv preprint record",
+              "url": "https://arxiv.org/abs/math/9904022",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": "The journal version appeared in 2000."
+        },
+        "methodological": {
+          "start": 1999,
+          "end": 1999,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The preprint applies the construction to loop-erased random walk and uniform spanning trees.",
+              "source": "arXiv preprint record",
+              "url": "https://arxiv.org/abs/math/9904022",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched the 1999 arXiv and 2000 Israel Journal record; earliest explicitly named SLE textbook or section not checked."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Oded Schramm",
+          "role": "originator",
+          "lifespan": "1961–2008",
+          "biographyUrl": "https://en.wikipedia.org/wiki/Oded_Schramm",
+          "works": [
+            {
+              "citation": "Scaling limits of loop-erased random walks and uniform spanning trees",
+              "year": 2000,
+              "url": "https://doi.org/10.1007/BF02803524",
+              "whyItMatters": "Published journal form of the 1999 SLE preprint"
+            }
+          ]
+        }
+      ],
+      "notes": "This entry treats an arXiv posting as a public bibliographic preprint. If the catalogue requires peer-reviewed publication only, use the 2000 journal date instead; both dates and the reason are preserved here."
+    },
+    {
+      "eventId": "E50",
+      "canonicalName": "Green-Tao: primes contain long arithmetic progressions",
+      "aliases": [
+        "Green–Tao theorem",
+        "arithmetic progressions in primes",
+        "relative Szemerédi theorem"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 2004,
+          "end": 2004,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Green and Tao publicly posted the theorem that primes contain arbitrarily long progressions.",
+              "source": "arXiv preprint record",
+              "url": "https://arxiv.org/abs/math/0404188",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": "The journal article appeared in 2008."
+        },
+        "methodological": {
+          "start": 2004,
+          "end": 2004,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The preprint applies a transference principle and sieve majorant to the primes.",
+              "source": "arXiv preprint record",
+              "url": "https://arxiv.org/abs/math/0404188",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched the 2004 arXiv and 2008 Annals records; no first named textbook, lecture series, or classification for this particular bridge established."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Ben Green",
+          "role": "originator",
+          "lifespan": "born 1977",
+          "biographyUrl": "https://en.wikipedia.org/wiki/Ben_Green_(mathematician)",
+          "works": [
+            {
+              "citation": "The primes contain arbitrarily long arithmetic progressions",
+              "year": 2008,
+              "url": "https://doi.org/10.4007/annals.2008.167.481",
+              "whyItMatters": "Published theorem proof"
+            }
+          ]
+        },
+        {
+          "name": "Terence Tao",
+          "role": "originator",
+          "lifespan": "born 1975",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Tao/",
+          "works": [
+            {
+              "citation": "The primes contain arbitrarily long arithmetic progressions",
+              "year": 2008,
+              "url": "https://doi.org/10.4007/annals.2008.167.481",
+              "whyItMatters": "Transference and sieve proof"
+            }
+          ]
+        }
+      ],
+      "notes": "The public 2004 preprint, not the 2008 journal publication, is used for first public statement; the later journal work remains linked for both authors."
+    },
+    {
+      "eventId": "E51",
+      "canonicalName": "The polynomial method in combinatorics",
+      "aliases": [
+        "polynomial method",
+        "finite-field Kakeya",
+        "polynomial partitioning"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched Dvir's 2008 Kakeya preprint and Guth–Katz's 2010 distances preprint. The broad polynomial method predates these breakthroughs; an earliest public general formulation is not established."
+        },
+        "methodological": {
+          "start": 2008,
+          "end": 2008,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Dvir's preprint applies low-degree polynomials to the finite-field Kakeya problem.",
+              "source": "arXiv preprint record",
+              "url": "https://arxiv.org/abs/0803.2336",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": "Guth and Katz apply polynomial partitioning to distinct distances in a separate 2010 public preprint, journal 2015."
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched the Dvir 2009 and Guth–Katz 2015 journal records; earliest named field textbook or title-use anchor not verified."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Zeev Dvir",
+          "role": "developer",
+          "lifespan": null,
+          "biographyUrl": "https://www.cs.princeton.edu/~zdvir/",
+          "works": [
+            {
+              "citation": "On the size of Kakeya sets in finite fields",
+              "year": 2009,
+              "url": "https://doi.org/10.1090/S0894-0347-08-00607-3",
+              "whyItMatters": "Polynomial proof of finite-field Kakeya"
+            }
+          ]
+        },
+        {
+          "name": "Larry Guth",
+          "role": "developer",
+          "lifespan": null,
+          "biographyUrl": "https://en.wikipedia.org/wiki/Larry_Guth",
+          "works": [
+            {
+              "citation": "On the Erdős distinct distances problem in the plane",
+              "year": 2015,
+              "url": "https://doi.org/10.4007/annals.2015.181.1.2",
+              "whyItMatters": "Polynomial partitioning for distance bounds"
+            }
+          ]
+        }
+      ],
+      "notes": "These are two different targets under a broad catalogue label. Their public preprint years are 2008 and 2010 respectively; neither should be promoted to the origin of the entire polynomial method. Birth years were not verified in the consulted biographies and are left blank."
+    },
+    {
+      "eventId": "E52",
+      "canonicalName": "Additive combinatorics proves expansion in groups",
+      "aliases": [
+        "sum-product and expansion",
+        "SL2 expander graphs",
+        "growth in finite groups"
+      ],
+      "dates": {
+        "conceptual": {
+          "start": 2008,
+          "end": 2008,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "Bourgain and Gamburd published expansion bounds for Cayley graphs of SL2(Fp).",
+              "source": "Annals original article record",
+              "url": "https://doi.org/10.4007/annals.2008.167.625",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": "The article was received in 2005 and appeared in the 2008 journal volume; a prior public preprint date needs checking."
+        },
+        "methodological": {
+          "start": 2008,
+          "end": 2008,
+          "precision": "year",
+          "confidence": "medium",
+          "grade": "B",
+          "evidence": [
+            {
+              "claim": "The article deliberately combines finite-field growth estimates with spectral expansion.",
+              "source": "Annals original article record",
+              "url": "https://doi.org/10.4007/annals.2008.167.625",
+              "kind": "bibliographic_record"
+            }
+          ],
+          "note": ""
+        },
+        "institutional": {
+          "start": null,
+          "end": null,
+          "precision": "unknown",
+          "confidence": "none",
+          "grade": null,
+          "evidence": [],
+          "note": "Searched the 2004 sum-product and 2008 Annals expansion records; no first named textbook, journal, lecture series, or classification for the bridge established."
+        }
+      },
+      "firstTermUse": null,
+      "people": [
+        {
+          "name": "Jean Bourgain",
+          "role": "originator",
+          "lifespan": "1954–2018",
+          "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bourgain/",
+          "works": [
+            {
+              "citation": "Uniform expansion bounds for Cayley graphs of SL2(Fp)",
+              "year": 2008,
+              "url": "https://doi.org/10.4007/annals.2008.167.625",
+              "whyItMatters": "Expansion theorem"
+            }
+          ]
+        },
+        {
+          "name": "Alex Gamburd",
+          "role": "developer",
+          "lifespan": null,
+          "biographyUrl": "https://en.wikipedia.org/wiki/Alexander_Gamburd",
+          "works": [
+            {
+              "citation": "Uniform expansion bounds for Cayley graphs of SL2(Fp)",
+              "year": 2008,
+              "url": "https://doi.org/10.4007/annals.2008.167.625",
+              "whyItMatters": "Coauthor of expansion theorem"
+            }
+          ]
+        }
+      ],
+      "notes": "Bourgain–Katz–Tao's 2003 public sum-product preprint (https://arxiv.org/abs/math/0301343) is a tool precursor, not yet this group-expansion result. Helfgott's 2008 group-growth paper (https://doi.org/10.4007/annals.2008.167.601) is another precursor. Gamburd's birth year was not verified and is blank."
+    }
+  ]
+}

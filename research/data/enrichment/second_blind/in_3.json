@@ -1,0 +1,139 @@
+[
+ {
+  "pid": "P143",
+  "eventId": "WA39/MA49",
+  "name": "Napier's logarithms",
+  "type": "birth-by-fusion",
+  "from": [
+   "arithmetic progressions",
+   "geometry",
+   "trigonometry"
+  ],
+  "to": [
+   "logarithms"
+  ],
+  "summary": "Napier linked arithmetic and geometric progressions to speed trigonometric calculation; Briggs made decimal tables."
+ },
+ {
+  "pid": "P033",
+  "eventId": "E41",
+  "name": "Gauge theory transforms four-manifold topology",
+  "type": "import-from-outside",
+  "from": [
+   "Physics",
+   "Analysis"
+  ],
+  "to": [
+   "Topology"
+  ],
+  "summary": "Solutions of the Yang-Mills and later Seiberg-Witten equations give invariants distinguishing smooth structures on four-manifolds, results unreachable by classical topology."
+ },
+ {
+  "pid": "P458",
+  "eventId": "H74",
+  "name": "Complex numbers born from the cubic: Cardano and Bombelli",
+  "type": "birth-by-abstraction",
+  "from": [
+   "algebra (cubic equations)"
+  ],
+  "to": [
+   "complex numbers"
+  ],
+  "summary": "The Cardano-Tartaglia cubic formula gave square roots of negative numbers in the irreducible case, which Bombelli analysed."
+ },
+ {
+  "pid": "P098",
+  "eventId": "B32",
+  "name": "Fourier integral operators and microlocal analysis",
+  "type": "birth-by-fusion",
+  "from": [
+   "Analysis",
+   "Geometry"
+  ],
+  "to": [
+   "Analysis"
+  ],
+  "summary": "Fourier transforms and symplectic geometry of the cotangent bundle are combined to study singularities of solutions of linear PDE."
+ },
+ {
+  "pid": "P076",
+  "eventId": "B10",
+  "name": "Sullivan's dictionary: rational maps and Kleinian groups",
+  "type": "dictionary-analogy",
+  "from": [
+   "Geometry",
+   "Algebra"
+  ],
+  "to": [
+   "Analysis"
+  ],
+  "summary": "Iteration of rational maps is matched term by term with the theory of Kleinian groups, so results and techniques of one side suggest and prove statements on the other."
+ },
+ {
+  "pid": "P414",
+  "eventId": "M29",
+  "name": "Noncommutative algebras, representation theory and number theory",
+  "type": "technique-transfer",
+  "from": [
+   "algebraic number theory (class field theory, p-adic local theory)"
+  ],
+  "to": [
+   "theory of noncommutative algebras"
+  ],
+  "summary": "Noether, Brauer and Hasse linked hypercomplex systems to commutative algebra and arithmetic via modules and cohomological ideas."
+ },
+ {
+  "pid": "P498",
+  "eventId": "P55",
+  "name": "Canonical bases and character sheaves: geometry in representation theory",
+  "type": "technique-transfer",
+  "from": [
+   "algebraic geometry and topology (intersection cohomology, perverse sheaves)"
+  ],
+  "to": [
+   "representation theory"
+  ],
+  "summary": "Intersection cohomology and perverse sheaves give the Kazhdan-Lusztig polynomials and canonical bases of quantum groups."
+ },
+ {
+  "pid": "P100",
+  "eventId": "B34",
+  "name": "Deriving the Boltzmann equation from hard-sphere dynamics",
+  "type": "import-from-outside",
+  "from": [
+   "Physics"
+  ],
+  "to": [
+   "Analysis"
+  ],
+  "summary": "Hilbert's sixth-problem programme of deriving kinetic equations from Newtonian particle systems is carried to long times for hard spheres."
+ },
+ {
+  "pid": "P508",
+  "eventId": "P65",
+  "name": "Counting complexity (Valiant's #P)",
+  "type": "birth-by-abstraction",
+  "from": [
+   "computational complexity",
+   "combinatorics (permanents, enumeration)"
+  ],
+  "to": [
+   "Computer science"
+  ],
+  "summary": "Counting solutions defines a complexity class, and computing the permanent is shown complete for it."
+ },
+ {
+  "pid": "P396",
+  "eventId": "W84",
+  "name": "Rigorous foundations of algebraic geometry via commutative algebra",
+  "type": "technique-transfer",
+  "from": [
+   "commutative algebra",
+   "algebraic geometry"
+  ],
+  "to": [
+   "algebraic geometry"
+  ],
+  "summary": "Van der Waerden, Zariski and Weil used valuation and ideal theory to rebuild the Italian school's results rigorously."
+ }
+]

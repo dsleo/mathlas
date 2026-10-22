@@ -1,0 +1,20 @@
+[
+ {
+  "level": "warning",
+  "file": "data/collection/enrichment/sourcefirst/A_29.json",
+  "location": "[0].milestones[3]",
+  "message": "Same work appears under different roles; explain dual role in note"
+ },
+ {
+  "level": "warning",
+  "file": "data/collection/enrichment/sourcefirst/A_29.json",
+  "location": "[1]",
+  "message": "No first_statement milestone; explain source gap in notes"
+ },
+ {
+  "level": "warning",
+  "file": "data/collection/enrichment/sourcefirst/A_29.json",
+  "location": "[8]",
+  "message": "No first_statement milestone; explain source gap in notes"
+ }
+]

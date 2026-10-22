@@ -1,0 +1,8 @@
+[
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_40.json",
+  "location": "[7].people[2]",
+  "message": "Invalid person name, role, or biography URL"
+ }
+]

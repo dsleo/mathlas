@@ -1,0 +1,2900 @@
+{
+  "retrievedAt": "2026-10-17T20:31:28.490839+00:00",
+  "source": "Crossref REST API",
+  "status": "candidates_unverified",
+  "events": {
+    "E75/W50/M34": {
+      "name": "Dynamical systems from celestial mechanics",
+      "queries": [
+        {
+          "citation": "Poincare, Sur les courbes definies par une equation differentielle, 1881-86",
+          "candidates": [
+            {
+              "title": "Sur les systèmes de courbes d'ordre quelconque: courbes exceptionnelles, par M. Chasles.",
+              "year": null,
+              "authors": [],
+              "doi": "10.1163/9789004460409_mor2-b30634581",
+              "url": "https://doi.org/10.1163/9789004460409_mor2-b30634581"
+            },
+            {
+              "title": "Remarques sur les questions de contact de courbes d'ordre quelconque avec une courbe donnée dont les points se déterminent individuellement, par M. Chasles.",
+              "year": null,
+              "authors": [],
+              "doi": "10.1163/9789004460409_mor2-b30634106",
+              "url": "https://doi.org/10.1163/9789004460409_mor2-b30634106"
+            },
+            {
+              "title": "Géométrie des courbes : une approche explicite par les invariants",
+              "year": null,
+              "authors": [
+                "Thomas Bouchet"
+              ],
+              "doi": "10.70675/a1ee35cbz9a54z4016za5fdze5d630752b25",
+              "url": "https://doi.org/10.70675/a1ee35cbz9a54z4016za5fdze5d630752b25"
+            }
+          ]
+        },
+        {
+          "citation": "Poincare, Les methodes nouvelles de la mecanique celeste, 1892-99",
+          "candidates": [
+            {
+              "title": "METHODES QUALITATIVES EN MECANIQUE CELESTE",
+              "year": 1977,
+              "authors": [
+                "Christian Marchal"
+              ],
+              "doi": "10.1016/b978-0-08-021053-7.50008-2",
+              "url": "https://doi.org/10.1016/b978-0-08-021053-7.50008-2"
+            },
+            {
+              "title": "Les Methodes Nouvelles en Analyse Quantique (Mecanique quantique, Mecanique ondulatoire)",
+              "year": 1930,
+              "authors": [
+                "L.E.P."
+              ],
+              "doi": "10.1016/s0016-0032(30)90756-9",
+              "url": "https://doi.org/10.1016/s0016-0032(30)90756-9"
+            },
+            {
+              "title": "ETUDE DE LA MECANIQUE VENTILATOIRE PAR APPLICATION DU PRINCIPE DE LA MINIMISATION DE L' ENERGIE, PAR DES METHODES MATHEMATIQUES ET NUMERIQUES",
+              "year": null,
+              "authors": [
+                "Ιωάννης Καρπούζας"
+              ],
+              "doi": "10.12681/eadd/4510",
+              "url": "https://doi.org/10.12681/eadd/4510"
+            }
+          ]
+        },
+        {
+          "citation": "Birkhoff, Dynamical Systems, 1927",
+          "candidates": [
+            {
+              "title": "Dynamical Systems",
+              "year": 1927,
+              "authors": [
+                "George Birkhoff"
+              ],
+              "doi": "10.1090/coll/009",
+              "url": "https://doi.org/10.1090/coll/009"
+            },
+            {
+              "title": "On the periodic motions of dynamical systems",
+              "year": 1927,
+              "authors": [
+                "George D. Birkhoff"
+              ],
+              "doi": "10.1007/bf02421325",
+              "url": "https://doi.org/10.1007/bf02421325"
+            },
+            {
+              "title": "George David Birkhoff, Dynamical systems (1927)",
+              "year": 2005,
+              "authors": [
+                "David Aubin"
+              ],
+              "doi": "10.1016/b978-044450871-3/50149-2",
+              "url": "https://doi.org/10.1016/b978-044450871-3/50149-2"
+            }
+          ]
+        },
+        {
+          "citation": "H. Poincare, Les methodes nouvelles de la mecanique celeste, 3 vols (1892-1899)",
+          "candidates": [
+            {
+              "title": "METHODES QUALITATIVES EN MECANIQUE CELESTE",
+              "year": 1977,
+              "authors": [
+                "Christian Marchal"
+              ],
+              "doi": "10.1016/b978-0-08-021053-7.50008-2",
+              "url": "https://doi.org/10.1016/b978-0-08-021053-7.50008-2"
+            },
+            {
+              "title": "Les Methodes Nouvelles en Analyse Quantique (Mecanique quantique, Mecanique ondulatoire)",
+              "year": 1930,
+              "authors": [
+                "L.E.P."
+              ],
+              "doi": "10.1016/s0016-0032(30)90756-9",
+              "url": "https://doi.org/10.1016/s0016-0032(30)90756-9"
+            },
+            {
+              "title": "ETUDE DE LA MECANIQUE VENTILATOIRE PAR APPLICATION DU PRINCIPE DE LA MINIMISATION DE L' ENERGIE, PAR DES METHODES MATHEMATIQUES ET NUMERIQUES",
+              "year": null,
+              "authors": [
+                "Ιωάννης Καρπούζας"
+              ],
+              "doi": "10.12681/eadd/4510",
+              "url": "https://doi.org/10.12681/eadd/4510"
+            }
+          ]
+        },
+        {
+          "citation": "G. D. Birkhoff, Dynamical Systems, AMS Colloquium Publications 9 (1927)",
+          "candidates": [
+            {
+              "title": "Dynamical Systems",
+              "year": 1927,
+              "authors": [
+                "George Birkhoff"
+              ],
+              "doi": "10.1090/coll/009",
+              "url": "https://doi.org/10.1090/coll/009"
+            },
+            {
+              "title": "Physical aspects of dynamical systems",
+              "year": 1927,
+              "authors": [],
+              "doi": "10.1090/coll/009/01",
+              "url": "https://doi.org/10.1090/coll/009/01"
+            },
+            {
+              "title": "General theory of dynamical systems",
+              "year": 1927,
+              "authors": [],
+              "doi": "10.1090/coll/009/07",
+              "url": "https://doi.org/10.1090/coll/009/07"
+            }
+          ]
+        },
+        {
+          "citation": "S. Smale, Differentiable dynamical systems, Bull. Amer. Math. Soc. 73 (1967) 747-817",
+          "candidates": [
+            {
+              "title": "Differentiable dynamical systems",
+              "year": 1967,
+              "authors": [
+                "S. Smale"
+              ],
+              "doi": "10.1090/s0002-9904-1967-11798-1",
+              "url": "https://doi.org/10.1090/s0002-9904-1967-11798-1"
+            },
+            {
+              "title": "Commentary on “Differentiable dynamical systems” by Stephen Smale",
+              "year": 2018,
+              "authors": [
+                "Maciej Zworski"
+              ],
+              "doi": "10.1090/bull/1618",
+              "url": "https://doi.org/10.1090/bull/1618"
+            },
+            {
+              "title": "Miscellaneous front pages, Bull. Amer. Math. Soc., Volume 73, Number 4 (1967)",
+              "year": 1967,
+              "authors": [],
+              "doi": "10.1090/s0002-9904-1967-11716-6",
+              "url": "https://doi.org/10.1090/s0002-9904-1967-11716-6"
+            }
+          ]
+        }
+      ]
+    },
+    "W40/M43": {
+      "name": "Metric spaces (Frechet)",
+      "queries": [
+        {
+          "citation": "Frechet, Sur quelques points du calcul fonctionnel, 1906",
+          "candidates": [
+            {
+              "title": "Sur quelques points du calcul fonctionnel",
+              "year": 1906,
+              "authors": [
+                "M. Maurice Fréchet"
+              ],
+              "doi": "10.1007/bf03018603",
+              "url": "https://doi.org/10.1007/bf03018603"
+            },
+            {
+              "title": "Bemerkungen zu den Untersuchungen des Herrn M. Fréchet: Sur quelques points du calcul fonctionnel",
+              "year": 1996,
+              "authors": [
+                "Hans Hahn"
+              ],
+              "doi": "10.1007/978-3-7091-6590-4_23",
+              "url": "https://doi.org/10.1007/978-3-7091-6590-4_23"
+            },
+            {
+              "title": "Sur quelques points du calcul fonctionnel",
+              "year": 1908,
+              "authors": [
+                "Hans Hahn"
+              ],
+              "doi": "10.1007/bf01736775",
+              "url": "https://doi.org/10.1007/bf01736775"
+            }
+          ]
+        }
+      ]
+    },
+    "E34": {
+      "name": "The Langlands programme: automorphic forms and Galois representations over number fields",
+      "queries": [
+        {
+          "citation": "R. P. Langlands, letter to A. Weil (January 1967)",
+          "candidates": [
+            {
+              "title": "On the genesis of Robert P. Langlands’ conjectures and his letter to André Weil",
+              "year": 2018,
+              "authors": [
+                "Julia Mueller"
+              ],
+              "doi": "10.1090/bull/1609",
+              "url": "https://doi.org/10.1090/bull/1609"
+            },
+            {
+              "title": "Reliability and quality assurance informal progress letter No. 41A for second quarter, CY 1967 covering January, February, and March 1967",
+              "year": 1967,
+              "authors": [
+                ""
+              ],
+              "doi": "10.2172/4220197",
+              "url": "https://doi.org/10.2172/4220197"
+            },
+            {
+              "title": "AEC, Letter, Seaborg to The President, January 30, 1967, Top Secret/Formerly Restricted Data, LBJL.",
+              "year": null,
+              "authors": [],
+              "doi": "10.1163/9789004346673.wmdo-07_173",
+              "url": "https://doi.org/10.1163/9789004346673.wmdo-07_173"
+            }
+          ]
+        },
+        {
+          "citation": "R. P. Langlands, Problems in the theory of automorphic forms, in Lectures in Modern Analysis and Applications III, Lecture Notes in Math. 170 (1970)",
+          "candidates": [
+            {
+              "title": "Problems in the theory of automorphic forms to Salomon Bochner in gratitude",
+              "year": 1970,
+              "authors": [
+                "R. P. Langlands"
+              ],
+              "doi": "10.1007/bfb0079065",
+              "url": "https://doi.org/10.1007/bfb0079065"
+            },
+            {
+              "title": "Lectures in modern analysis and applications II",
+              "year": 1970,
+              "authors": [
+                "R. M. Dudley",
+                "J. Feldman",
+                "B. Kostant",
+                "R. P. Langlands",
+                "E. M. Stein"
+              ],
+              "doi": "10.1007/bfb0079070",
+              "url": "https://doi.org/10.1007/bfb0079070"
+            },
+            {
+              "title": "Lectures in modern analysis and applications I",
+              "year": 1970,
+              "authors": [
+                "R. M. Dudley",
+                "J. Feldman",
+                "B. Kostant",
+                "R. P. Langlands",
+                "E. M. Stein"
+              ],
+              "doi": "10.1007/bfb0079069",
+              "url": "https://doi.org/10.1007/bfb0079069"
+            }
+          ]
+        },
+        {
+          "citation": "H. Jacquet and R. P. Langlands, Automorphic Forms on GL(2), Lecture Notes in Math. 114 (1970)",
+          "candidates": [
+            {
+              "title": "Automorphic Forms on GL (2)",
+              "year": 1970,
+              "authors": [
+                "H. Jacquet",
+                "R. P. Langlands"
+              ],
+              "doi": "10.1007/bfb0058988",
+              "url": "https://doi.org/10.1007/bfb0058988"
+            },
+            {
+              "title": "Local Theory",
+              "year": 1970,
+              "authors": [
+                "H. Jacquet",
+                "R. P. Langlands"
+              ],
+              "doi": "10.1007/bfb0058989",
+              "url": "https://doi.org/10.1007/bfb0058989"
+            },
+            {
+              "title": "Global Theory",
+              "year": 1970,
+              "authors": [
+                "H. Jacquet",
+                "R. P. Langlands"
+              ],
+              "doi": "10.1007/bfb0058990",
+              "url": "https://doi.org/10.1007/bfb0058990"
+            }
+          ]
+        },
+        {
+          "citation": "J. Tate, Fourier analysis in number fields and Hecke's zeta-functions (1950; in Cassels-Frohlich, Algebraic Number Theory, 1967)",
+          "candidates": [
+            {
+              "title": "Zeta-functions of A-fields",
+              "year": 1967,
+              "authors": [
+                "André Weil"
+              ],
+              "doi": "10.1007/978-3-662-00046-5_7",
+              "url": "https://doi.org/10.1007/978-3-662-00046-5_7"
+            },
+            {
+              "title": "Asymptotic probability measures of zeta-functions of algebraic number fields",
+              "year": 1992,
+              "authors": [
+                "Kohji Matsumoto"
+              ],
+              "doi": "10.1016/0022-314x(92)90039-r",
+              "url": "https://doi.org/10.1016/0022-314x(92)90039-r"
+            },
+            {
+              "title": "On the Zeta-Functions of Algebraic Number Fields II",
+              "year": 1950,
+              "authors": [
+                "Richard Brauer"
+              ],
+              "doi": "10.2307/2372290",
+              "url": "https://doi.org/10.2307/2372290"
+            }
+          ]
+        },
+        {
+          "citation": "M. Harris and R. Taylor, The Geometry and Cohomology of Some Simple Shimura Varieties, Annals of Math. Studies 151 (2001)",
+          "candidates": [
+            {
+              "title": "The Geometry and Cohomology of Some Simple Shimura Varieties. (AM-151)",
+              "year": 2002,
+              "authors": [
+                "Michael Harris",
+                "Richard Taylor"
+              ],
+              "doi": "10.1515/9781400837205",
+              "url": "https://doi.org/10.1515/9781400837205"
+            },
+            {
+              "title": "Chapter III. Some simple Shimura varieties",
+              "year": 2002,
+              "authors": [],
+              "doi": "10.1515/9781400837205-005",
+              "url": "https://doi.org/10.1515/9781400837205-005"
+            },
+            {
+              "title": "Frontmatter",
+              "year": 2002,
+              "authors": [],
+              "doi": "10.1515/9781400837205-fm",
+              "url": "https://doi.org/10.1515/9781400837205-fm"
+            }
+          ]
+        },
+        {
+          "citation": "B. C. Ngo, Le lemme fondamental pour les algebres de Lie, Publ. Math. IHES 111 (2010) 1-169",
+          "candidates": [
+            {
+              "title": "Le lemme fondamental pour les algèbres de Lie",
+              "year": 2010,
+              "authors": [
+                "Baochâu Ngô"
+              ],
+              "doi": "10.1007/s10240-010-0026-7",
+              "url": "https://doi.org/10.1007/s10240-010-0026-7"
+            },
+            {
+              "title": "Le lemme fondamental pondéré pour le groupe métaplectique",
+              "year": 2012,
+              "authors": [
+                "Wen-Wei Li"
+              ],
+              "doi": "10.4153/cjm-2011-088-1",
+              "url": "https://doi.org/10.4153/cjm-2011-088-1"
+            },
+            {
+              "title": "Fonctions élémentaires et lemme fondamental pour le changement de base stable",
+              "year": 1990,
+              "authors": [
+                "J.-P. Labesse"
+              ],
+              "doi": "10.1215/s0012-7094-90-06120-4",
+              "url": "https://doi.org/10.1215/s0012-7094-90-06120-4"
+            }
+          ]
+        },
+        {
+          "citation": "Langlands, Letter to Weil (1967)",
+          "candidates": [
+            {
+              "title": "On the genesis of Robert P. Langlands’ conjectures and his letter to André Weil",
+              "year": 2018,
+              "authors": [
+                "Julia Mueller"
+              ],
+              "doi": "10.1090/bull/1609",
+              "url": "https://doi.org/10.1090/bull/1609"
+            },
+            {
+              "title": "Use of thorotrast",
+              "year": 1967,
+              "authors": [
+                "A. O. Langlands"
+              ],
+              "doi": "10.1136/bmj.4.5574.298-e",
+              "url": "https://doi.org/10.1136/bmj.4.5574.298-e"
+            },
+            {
+              "title": "The Weil Representation",
+              "year": 2006,
+              "authors": [],
+              "doi": "10.1007/3-540-31511-x_9",
+              "url": "https://doi.org/10.1007/3-540-31511-x_9"
+            }
+          ]
+        },
+        {
+          "citation": "Langlands, Problems in the theory of automorphic forms (1970)",
+          "candidates": [
+            {
+              "title": "Problems in the theory of automorphic forms to Salomon Bochner in gratitude",
+              "year": 1970,
+              "authors": [
+                "R. P. Langlands"
+              ],
+              "doi": "10.1007/bfb0079065",
+              "url": "https://doi.org/10.1007/bfb0079065"
+            },
+            {
+              "title": "Local Theory",
+              "year": 1970,
+              "authors": [
+                "H. Jacquet",
+                "R. P. Langlands"
+              ],
+              "doi": "10.1007/bfb0058989",
+              "url": "https://doi.org/10.1007/bfb0058989"
+            },
+            {
+              "title": "Global Theory",
+              "year": 1970,
+              "authors": [
+                "H. Jacquet",
+                "R. P. Langlands"
+              ],
+              "doi": "10.1007/bfb0058990",
+              "url": "https://doi.org/10.1007/bfb0058990"
+            }
+          ]
+        }
+      ]
+    },
+    "MB87/WB19": {
+      "name": "Formal language theory",
+      "queries": [
+        {
+          "citation": "Chomsky, Three models for the description of language (1956)",
+          "candidates": [
+            {
+              "title": "Three models for the description of language",
+              "year": 1956,
+              "authors": [
+                "N. Chomsky"
+              ],
+              "doi": "10.1109/tit.1956.1056813",
+              "url": "https://doi.org/10.1109/tit.1956.1056813"
+            },
+            {
+              "title": "Three Models for the Description of Language",
+              "year": 2026,
+              "authors": [
+                "Noam Chomsky"
+              ],
+              "doi": "10.4324/9781003763796-2",
+              "url": "https://doi.org/10.4324/9781003763796-2"
+            },
+            {
+              "title": "Noam Chomsky. Three models for the description of language. Institute of Radio Engineers, Transactions on information theory, vol. IT-2 no. 3 (1956), pp. 113–124.",
+              "year": 1958,
+              "authors": [
+                "Lars Svenonius"
+              ],
+              "doi": "10.2307/2964524",
+              "url": "https://doi.org/10.2307/2964524"
+            }
+          ]
+        }
+      ]
+    },
+    "W78": {
+      "name": "Frobenius method and singular ODE theory",
+      "queries": [
+        {
+          "citation": "Fuchs, Zur Theorie der linearen Differentialgleichungen, 1866",
+          "candidates": [
+            {
+              "title": "Zur Theorie der linearen Differentialgleichungen mit veränderlichen Coefficienten.",
+              "year": 1866,
+              "authors": [],
+              "doi": "10.1515/crll.1866.66.121",
+              "url": "https://doi.org/10.1515/crll.1866.66.121"
+            },
+            {
+              "title": "Bemerkung zu vorstehender Abhandlung des Herrn <i>Heffter</i> zur Theorie der linearen Differentialgleichungen.",
+              "year": 1890,
+              "authors": [
+                "L. Fuchs"
+              ],
+              "doi": "10.1515/crll.1890.106.283",
+              "url": "https://doi.org/10.1515/crll.1890.106.283"
+            },
+            {
+              "title": "Zur Theorie der linearen Differentialgleichungen.",
+              "year": 1884,
+              "authors": [
+                "L.W. Thomé"
+              ],
+              "doi": "10.1515/crll.1884.96.185",
+              "url": "https://doi.org/10.1515/crll.1884.96.185"
+            }
+          ]
+        },
+        {
+          "citation": "Frobenius, Ueber die Integration der linearen Differentialgleichungen durch Reihen, 1873",
+          "candidates": [
+            {
+              "title": "Ueber die Integration der linearen Differentialgleichungen durch Reihen.",
+              "year": 1873,
+              "authors": [],
+              "doi": "10.1515/crll.1873.76.214",
+              "url": "https://doi.org/10.1515/crll.1873.76.214"
+            },
+            {
+              "title": "Über die Integration der linearen Differentialgleichungen durch Reihen",
+              "year": 1968,
+              "authors": [
+                "Ferdinand Georg Frobenius",
+                "Jean-Pierre Serre"
+              ],
+              "doi": "10.1007/978-3-642-49211-2_4",
+              "url": "https://doi.org/10.1007/978-3-642-49211-2_4"
+            },
+            {
+              "title": "Ueber den Begriff der Irreductibilität in der Theorie der linearen Differentialgleichungen.",
+              "year": 1873,
+              "authors": [],
+              "doi": "10.1515/crll.1873.76.236",
+              "url": "https://doi.org/10.1515/crll.1873.76.236"
+            }
+          ]
+        }
+      ]
+    },
+    "WA57": {
+      "name": "Cotes: logarithm of complex arguments",
+      "queries": [
+        {
+          "citation": "Cotes, Harmonia Mensurarum (1714)",
+          "candidates": [
+            {
+              "title": "Logometria auċtore Rogero Cotes, Trin. Coll. Cantab. Soc., Astr. &amp; Ph. Exp. Professore Plumiano, &amp; R. S. S",
+              "year": 1714,
+              "authors": [
+                "Roger Cotes",
+                "Edmond Halley"
+              ],
+              "doi": "10.1098/rstl.1714.0002",
+              "url": "https://doi.org/10.1098/rstl.1714.0002"
+            },
+            {
+              "title": "LETTER LXXXIX. Newton to Keil, May 15, 1714",
+              "year": 2014,
+              "authors": [],
+              "doi": "10.4324/9781315032542-95",
+              "url": "https://doi.org/10.4324/9781315032542-95"
+            },
+            {
+              "title": "LETTER LXXXVIII. Newton to Keil, May 11, 1714",
+              "year": 2014,
+              "authors": [],
+              "doi": "10.4324/9781315032542-94",
+              "url": "https://doi.org/10.4324/9781315032542-94"
+            }
+          ]
+        }
+      ]
+    },
+    "MA8/WA5": {
+      "name": "Euclid's Elements",
+      "queries": [
+        {
+          "citation": "Euclid, Elements (c. 300 BCE)",
+          "candidates": [
+            {
+              "title": "Climate and Environment in the Southern Levant, 1300–300 BCE",
+              "year": 2026,
+              "authors": [
+                "Dafna Langgut"
+              ],
+              "doi": "10.1017/9781009558341",
+              "url": "https://doi.org/10.1017/9781009558341"
+            },
+            {
+              "title": "Imperial Beginnings (300–129 BCE)",
+              "year": 2021,
+              "authors": [],
+              "doi": "10.1017/9781108938471.003",
+              "url": "https://doi.org/10.1017/9781108938471.003"
+            },
+            {
+              "title": "Logic",
+              "year": 2016,
+              "authors": [],
+              "doi": "10.2307/j.ctvc77h7p.12",
+              "url": "https://doi.org/10.2307/j.ctvc77h7p.12"
+            }
+          ]
+        }
+      ]
+    },
+    "E77": {
+      "name": "Boolean algebra: logic as algebra, then topology (Boole to Stone)",
+      "queries": [
+        {
+          "citation": "G. Boole, The Mathematical Analysis of Logic (1847)",
+          "candidates": [
+            {
+              "title": "The Mathematical Background of George Boole’s Mathematical Analysis of Logic (1847)",
+              "year": 2000,
+              "authors": [
+                "Maria Panteki"
+              ],
+              "doi": "10.1007/978-94-015-9385-4_10",
+              "url": "https://doi.org/10.1007/978-94-015-9385-4_10"
+            },
+            {
+              "title": "On Boole’s Algebraic Logic after The Mathematical Analysis of Logic",
+              "year": 2000,
+              "authors": [
+                "Ivor Grattan-Guinness"
+              ],
+              "doi": "10.1007/978-94-015-9385-4_11",
+              "url": "https://doi.org/10.1007/978-94-015-9385-4_11"
+            },
+            {
+              "title": "The Mathematical Analysis of Logic.",
+              "year": 1950,
+              "authors": [
+                "J. C. C. McKinsey",
+                "George Boole"
+              ],
+              "doi": "10.2307/2306226",
+              "url": "https://doi.org/10.2307/2306226"
+            }
+          ]
+        },
+        {
+          "citation": "G. Boole, An Investigation of the Laws of Thought (1854)",
+          "candidates": [
+            {
+              "title": "From An Investigation of the Laws of Thought (1854)",
+              "year": 2009,
+              "authors": [
+                "George Boole"
+              ],
+              "doi": "10.1093/owc/9780199554652.003.0010",
+              "url": "https://doi.org/10.1093/owc/9780199554652.003.0010"
+            },
+            {
+              "title": "An investigation of the laws of thought on which are founded the mathematical theories of logic and probabilities",
+              "year": 1854,
+              "authors": [
+                "George Boole"
+              ],
+              "doi": "10.5962/bhl.title.29413",
+              "url": "https://doi.org/10.5962/bhl.title.29413"
+            },
+            {
+              "title": "An Investigation of the Laws of Thought on Which Are Founded the Mathematical Theories of Logic and Probabilities (1854)",
+              "year": 2021,
+              "authors": [
+                "George Boole"
+              ],
+              "doi": "10.7551/mitpress/12274.003.0006",
+              "url": "https://doi.org/10.7551/mitpress/12274.003.0006"
+            }
+          ]
+        },
+        {
+          "citation": "M. H. Stone, The theory of representations for Boolean algebras, Trans. Amer. Math. Soc. 40 (1936) 37-111",
+          "candidates": [
+            {
+              "title": "The theory of representations for Boolean algebras",
+              "year": 1936,
+              "authors": [
+                "M. H. Stone"
+              ],
+              "doi": "10.1090/s0002-9947-1936-1501865-8",
+              "url": "https://doi.org/10.1090/s0002-9947-1936-1501865-8"
+            },
+            {
+              "title": "M. H. Stone. The theory of representations for Boolean algebras. Transactions of the American Mathematical Society, vol. 40 (1936), pp. 37–111.",
+              "year": 1936,
+              "authors": [
+                "Alonzo Church"
+              ],
+              "doi": "10.2307/2269054",
+              "url": "https://doi.org/10.2307/2269054"
+            },
+            {
+              "title": "The Theory of Representation for Boolean Algebras",
+              "year": 1936,
+              "authors": [
+                "M. H. Stone"
+              ],
+              "doi": "10.2307/1989664",
+              "url": "https://doi.org/10.2307/1989664"
+            }
+          ]
+        },
+        {
+          "citation": "Boole, Mathematical Analysis of Logic (1847)",
+          "candidates": [
+            {
+              "title": "The Mathematical Background of George Boole’s Mathematical Analysis of Logic (1847)",
+              "year": 2000,
+              "authors": [
+                "Maria Panteki"
+              ],
+              "doi": "10.1007/978-94-015-9385-4_10",
+              "url": "https://doi.org/10.1007/978-94-015-9385-4_10"
+            },
+            {
+              "title": "On Boole’s Algebraic Logic after The Mathematical Analysis of Logic",
+              "year": 2000,
+              "authors": [
+                "Ivor Grattan-Guinness"
+              ],
+              "doi": "10.1007/978-94-015-9385-4_11",
+              "url": "https://doi.org/10.1007/978-94-015-9385-4_11"
+            },
+            {
+              "title": "The Mathematical Analysis of Logic.",
+              "year": 1950,
+              "authors": [
+                "J. C. C. McKinsey",
+                "George Boole"
+              ],
+              "doi": "10.2307/2306226",
+              "url": "https://doi.org/10.2307/2306226"
+            }
+          ]
+        },
+        {
+          "citation": "Boole, An Investigation of the Laws of Thought, 1854",
+          "candidates": [
+            {
+              "title": "From An Investigation of the Laws of Thought (1854)",
+              "year": 2009,
+              "authors": [
+                "George Boole"
+              ],
+              "doi": "10.1093/owc/9780199554652.003.0010",
+              "url": "https://doi.org/10.1093/owc/9780199554652.003.0010"
+            },
+            {
+              "title": "An investigation of the laws of thought on which are founded the mathematical theories of logic and probabilities",
+              "year": 1854,
+              "authors": [
+                "George Boole"
+              ],
+              "doi": "10.5962/bhl.title.29413",
+              "url": "https://doi.org/10.5962/bhl.title.29413"
+            },
+            {
+              "title": "An Investigation of the Laws of Thought on Which Are Founded the Mathematical Theories of Logic and Probabilities (1854)",
+              "year": 2021,
+              "authors": [
+                "George Boole"
+              ],
+              "doi": "10.7551/mitpress/12274.003.0006",
+              "url": "https://doi.org/10.7551/mitpress/12274.003.0006"
+            }
+          ]
+        },
+        {
+          "citation": "Schroeder, Vorlesungen ueber die Algebra der Logik, 1890-95",
+          "candidates": [
+            {
+              "title": "Besprechung von E. Schröder, Vorlesungen über die Algebra der Logik (Exakte Logik), I. Band, Leipzig 1890.",
+              "year": 1979,
+              "authors": [
+                "Bernhard Rang"
+              ],
+              "doi": "10.1007/978-94-009-9265-8_1",
+              "url": "https://doi.org/10.1007/978-94-009-9265-8_1"
+            },
+            {
+              "title": "Ueber die Harnstoffbildung der Haifische.",
+              "year": 1890,
+              "authors": [
+                "W. v. Schroeder"
+              ],
+              "doi": "10.1515/bchm1.1890.14.6.576",
+              "url": "https://doi.org/10.1515/bchm1.1890.14.6.576"
+            },
+            {
+              "title": "III. ABSCHNITT: Die wissenschaftlichen Methoden",
+              "year": 1990,
+              "authors": [],
+              "doi": "10.13109/9783666303258.95",
+              "url": "https://doi.org/10.13109/9783666303258.95"
+            }
+          ]
+        }
+      ]
+    },
+    "E65": {
+      "name": "Function-field Langlands: Drinfeld and Lafforgue",
+      "queries": [
+        {
+          "citation": "V. G. Drinfeld, Elliptic modules, Mat. Sb. 94 (1974) 594-627",
+          "candidates": [
+            {
+              "title": "ELLIPTIC MODULES",
+              "year": 1974,
+              "authors": [
+                "V G Drinfel'd"
+              ],
+              "doi": "10.1070/sm1974v023n04abeh001731",
+              "url": "https://doi.org/10.1070/sm1974v023n04abeh001731"
+            },
+            {
+              "title": "Elliptic Modules: Analytic Definition",
+              "year": 2012,
+              "authors": [
+                "Yuval Z. Flicker"
+              ],
+              "doi": "10.1007/978-1-4614-5888-3_2",
+              "url": "https://doi.org/10.1007/978-1-4614-5888-3_2"
+            },
+            {
+              "title": "Elliptic Modules: Algebraic Definition",
+              "year": 2012,
+              "authors": [
+                "Yuval Z. Flicker"
+              ],
+              "doi": "10.1007/978-1-4614-5888-3_3",
+              "url": "https://doi.org/10.1007/978-1-4614-5888-3_3"
+            }
+          ]
+        },
+        {
+          "citation": "V. G. Drinfeld, Two-dimensional l-adic representations of the fundamental group of a curve over a finite field and automorphic forms on GL(2), Amer. J. Math. 105 (1983) 85-114",
+          "candidates": [
+            {
+              "title": "Two-Dimensional l-Adic Representations of the Fundamental Group of a Curve Over a Finite Field and Automorphic Forms on GL(2)",
+              "year": 1983,
+              "authors": [
+                "V. G. Drinfeld"
+              ],
+              "doi": "10.2307/2374382",
+              "url": "https://doi.org/10.2307/2374382"
+            },
+            {
+              "title": "Representations of <i>GL</i>(2) Over a <i>p</i>-adic Field",
+              "year": 1997,
+              "authors": [],
+              "doi": "10.1017/cbo9780511609572.008",
+              "url": "https://doi.org/10.1017/cbo9780511609572.008"
+            },
+            {
+              "title": "Two-dimensional l-adic representations of the Galois group of a global field of characteristic P and automorphic forms on Gl(2)",
+              "year": 1987,
+              "authors": [
+                "V. G. Drinfel'd"
+              ],
+              "doi": "10.1007/bf01104975",
+              "url": "https://doi.org/10.1007/bf01104975"
+            }
+          ]
+        },
+        {
+          "citation": "L. Lafforgue, Chtoucas de Drinfeld et correspondance de Langlands, Invent. Math. 147 (2002) 1-241",
+          "candidates": [
+            {
+              "title": "Chtoucas de Drinfeld et correspondance de Langlands",
+              "year": 2002,
+              "authors": [
+                "Laurent Lafforgue"
+              ],
+              "doi": "10.1007/s002220100174",
+              "url": "https://doi.org/10.1007/s002220100174"
+            },
+            {
+              "title": "Mauvaise réduction des variétés de Drinfeld et correspondance de Langlands locale",
+              "year": 1999,
+              "authors": [
+                "P. Boyer"
+              ],
+              "doi": "10.1007/s002220050354",
+              "url": "https://doi.org/10.1007/s002220050354"
+            },
+            {
+              "title": "Chtoucas de Drinfeld et conjecture de Ramanujan-Petersson",
+              "year": 2018,
+              "authors": [
+                "Laurent LAFFORGUE"
+              ],
+              "doi": "10.24033/ast.383",
+              "url": "https://doi.org/10.24033/ast.383"
+            }
+          ]
+        },
+        {
+          "citation": "Lafforgue, Chtoucas de Drinfeld et correspondance de Langlands, Invent. 2002",
+          "candidates": [
+            {
+              "title": "Chtoucas de Drinfeld et correspondance de Langlands",
+              "year": 2002,
+              "authors": [
+                "Laurent Lafforgue"
+              ],
+              "doi": "10.1007/s002220100174",
+              "url": "https://doi.org/10.1007/s002220100174"
+            },
+            {
+              "title": "Chtoucas de Drinfeld et conjecture de Ramanujan-Petersson",
+              "year": 2018,
+              "authors": [
+                "Laurent LAFFORGUE"
+              ],
+              "doi": "10.24033/ast.383",
+              "url": "https://doi.org/10.24033/ast.383"
+            },
+            {
+              "title": "Mauvaise réduction des variétés de Drinfeld et correspondance de Langlands locale",
+              "year": 1999,
+              "authors": [
+                "P. Boyer"
+              ],
+              "doi": "10.1007/s002220050354",
+              "url": "https://doi.org/10.1007/s002220050354"
+            }
+          ]
+        }
+      ]
+    },
+    "Q23": {
+      "name": "Murmurations: machine learning and statistics reveal patterns in elliptic curves",
+      "queries": [
+        {
+          "citation": "He-Lee-Oliver-Pozdnyakov arXiv:2204.10140",
+          "candidates": [
+            {
+              "title": "Murmurations of Elliptic Curves",
+              "year": 2024,
+              "authors": [
+                "Yang-Hui He",
+                "Kyu-Hwan Lee",
+                "Thomas Oliver",
+                "Alexey Pozdnyakov"
+              ],
+              "doi": "10.1080/10586458.2024.2382361",
+              "url": "https://doi.org/10.1080/10586458.2024.2382361"
+            },
+            {
+              "title": "Murmurations of Dirichlet Characters",
+              "year": 2025,
+              "authors": [
+                "Kyu-Hwan Lee",
+                "Thomas Oliver",
+                "Alexey Pozdnyakov"
+              ],
+              "doi": "10.1093/imrn/rnae277",
+              "url": "https://doi.org/10.1093/imrn/rnae277"
+            },
+            {
+              "title": "Bing-Neel syndrome",
+              "year": null,
+              "authors": [
+                "Alex Pozdnyakov",
+                "Stefanie Y. Lee, MD, FRCPC"
+              ],
+              "doi": "10.1148/cases.20214197",
+              "url": "https://doi.org/10.1148/cases.20214197"
+            }
+          ]
+        },
+        {
+          "citation": "Zubrilina arXiv:2310.07681",
+          "candidates": [
+            {
+              "title": "aRxiv: Interface to the arXiv API",
+              "year": 2014,
+              "authors": [
+                "Karthik Ram",
+                "Karl Broman"
+              ],
+              "doi": "10.32614/cran.package.arxiv",
+              "url": "https://doi.org/10.32614/cran.package.arxiv"
+            },
+            {
+              "title": "The arXiv of the future will not look like the arXiv",
+              "year": null,
+              "authors": [
+                "Alberto Pepe",
+                "Matteo Cantiello",
+                "Josh Nicholson"
+              ],
+              "doi": "10.22541/au.149693987.70506124",
+              "url": "https://doi.org/10.22541/au.149693987.70506124"
+            },
+            {
+              "title": "Adoption of public interventions for adolescent alcohol use in Portugal: challenges and opportunities",
+              "year": 2020,
+              "authors": [
+                "João Picoito"
+              ],
+              "doi": "10.14744/iacapaparxiv.2020.20003",
+              "url": "https://doi.org/10.14744/iacapaparxiv.2020.20003"
+            }
+          ]
+        },
+        {
+          "citation": "Bober-Booker-Lee-Lowry-Duda arXiv:2310.07746",
+          "candidates": [
+            {
+              "title": "Murmurations of modular forms in the weight aspect",
+              "year": 2026,
+              "authors": [
+                "Jonathan Bober",
+                "Andrew R. Booker",
+                "Min Lee",
+                "David Lowry-Duda"
+              ],
+              "doi": "10.2140/ant.2026.20.299",
+              "url": "https://doi.org/10.2140/ant.2026.20.299"
+            },
+            {
+              "title": "Computing Classical Modular Forms",
+              "year": 2021,
+              "authors": [
+                "Alex J. Best",
+                "Jonathan Bober",
+                "Andrew R. Booker",
+                "Edgar Costa",
+                "John E. Cremona",
+                "Maarten Derickx"
+              ],
+              "doi": "10.1007/978-3-030-80914-0_4",
+              "url": "https://doi.org/10.1007/978-3-030-80914-0_4"
+            },
+            {
+              "title": "Review of: \"Riemann Hypothesis on Grönwall's Function\"",
+              "year": 2023,
+              "authors": [
+                "David Lowry-Duda"
+              ],
+              "doi": "10.32388/qi6uex",
+              "url": "https://doi.org/10.32388/qi6uex"
+            }
+          ]
+        }
+      ]
+    },
+    "B42": {
+      "name": "Large deviations from statistical mechanics",
+      "queries": [
+        {
+          "citation": "M. D. Donsker and S. R. S. Varadhan, Asymptotic evaluation of certain Markov process expectations for large time, I, Comm. Pure Appl. Math. 28 (1975) 1-47",
+          "candidates": [
+            {
+              "title": "Asymptotic evaluation of certain markov process expectations for large time, I",
+              "year": 1975,
+              "authors": [
+                "M. D. Donsker",
+                "S. R. S. Varadhan"
+              ],
+              "doi": "10.1002/cpa.3160280102",
+              "url": "https://doi.org/10.1002/cpa.3160280102"
+            },
+            {
+              "title": "Asymptotic evaluation of certain markov process expectations for large time, II",
+              "year": 1975,
+              "authors": [
+                "M. D. Donsker",
+                "S. R. S. Varadhan"
+              ],
+              "doi": "10.1002/cpa.3160280206",
+              "url": "https://doi.org/10.1002/cpa.3160280206"
+            },
+            {
+              "title": "Asymptotic evaluation of certain Markov process expectations for large time—III",
+              "year": 1976,
+              "authors": [
+                "M. D. Donsker",
+                "S. R. S. Varadhan"
+              ],
+              "doi": "10.1002/cpa.3160290405",
+              "url": "https://doi.org/10.1002/cpa.3160290405"
+            }
+          ]
+        },
+        {
+          "citation": "S. R. S. Varadhan, Asymptotic probabilities and differential equations, Comm. Pure Appl. Math. 19 (1966) 261-286",
+          "candidates": [
+            {
+              "title": "Asymptotic probabilities and differential equations",
+              "year": 1966,
+              "authors": [
+                "S. R. S. Varadhan"
+              ],
+              "doi": "10.1002/cpa.3160190303",
+              "url": "https://doi.org/10.1002/cpa.3160190303"
+            },
+            {
+              "title": "A laurent expansion for solutions of linear elliptic differential equations",
+              "year": 1966,
+              "authors": [
+                "Michael Balch"
+              ],
+              "doi": "10.1002/cpa.3160190402",
+              "url": "https://doi.org/10.1002/cpa.3160190402"
+            },
+            {
+              "title": "Control in finite time of differential equations in banach space",
+              "year": 1966,
+              "authors": [
+                "H. O. Fattorini"
+              ],
+              "doi": "10.1002/cpa.3160190103",
+              "url": "https://doi.org/10.1002/cpa.3160190103"
+            }
+          ]
+        }
+      ]
+    },
+    "B20": {
+      "name": "Hardness versus randomness",
+      "queries": [
+        {
+          "citation": "N. Nisan and A. Wigderson, Hardness vs randomness, Proc. 29th IEEE FOCS (1988); J. Comput. System Sci. 49 (1994) 149-167",
+          "candidates": [
+            {
+              "title": "Hardness vs randomness",
+              "year": 1994,
+              "authors": [
+                "Noam Nisan",
+                "Avi Wigderson"
+              ],
+              "doi": "10.1016/s0022-0000(05)80043-1",
+              "url": "https://doi.org/10.1016/s0022-0000(05)80043-1"
+            },
+            {
+              "title": "Hardness vs. randomness",
+              "year": 1988,
+              "authors": [
+                "N. Nisan",
+                "A. Wigderson"
+              ],
+              "doi": "10.1109/sfcs.1988.21916",
+              "url": "https://doi.org/10.1109/sfcs.1988.21916"
+            },
+            {
+              "title": "Hardness vs. randomness-a survey",
+              "year": null,
+              "authors": [
+                "N. Nisan",
+                "A. Wigderson"
+              ],
+              "doi": "10.1109/sct.1989.41802",
+              "url": "https://doi.org/10.1109/sct.1989.41802"
+            }
+          ]
+        },
+        {
+          "citation": "R. Impagliazzo and A. Wigderson, P = BPP if E requires exponential circuits: derandomizing the XOR lemma, Proc. 29th ACM STOC (1997) 220-229",
+          "candidates": [
+            {
+              "title": "<i>P = BPP</i> if <i>E</i> requires exponential circuits",
+              "year": 1997,
+              "authors": [
+                "Russell Impagliazzo",
+                "Avi Wigderson"
+              ],
+              "doi": "10.1145/258533.258590",
+              "url": "https://doi.org/10.1145/258533.258590"
+            },
+            {
+              "title": "Derandomizing polynomial identity tests means proving circuit lower bounds",
+              "year": 2003,
+              "authors": [
+                "Valentine Kabanets",
+                "Russell Impagliazzo"
+              ],
+              "doi": "10.1145/780591.780595",
+              "url": "https://doi.org/10.1145/780591.780595"
+            },
+            {
+              "title": "Pseudorandomness for network algorithms",
+              "year": 1994,
+              "authors": [
+                "Russell Impagliazzo",
+                "Noam Nisan",
+                "Avi Wigderson"
+              ],
+              "doi": "10.1145/195058.195190",
+              "url": "https://doi.org/10.1145/195058.195190"
+            }
+          ]
+        }
+      ]
+    },
+    "WC47": {
+      "name": "Ergodic theory and Littlewood conjecture",
+      "queries": [
+        {
+          "citation": "Einsiedler-Katok-Lindenstrauss, Invariant measures and the set of exceptions to Littlewood's conjecture, Annals 2006",
+          "candidates": [
+            {
+              "title": "Invariant measures and the set of exceptions to Littlewood’s conjecture",
+              "year": 2006,
+              "authors": [
+                "Manfred Einsiedler",
+                "Anatole Katok",
+                "Elon Lindenstrauss"
+              ],
+              "doi": "10.4007/annals.2006.164.513",
+              "url": "https://doi.org/10.4007/annals.2006.164.513"
+            },
+            {
+              "title": "The work of Einsiedler, Katok and Lindenstrauss on the Littlewood conjecture",
+              "year": 2007,
+              "authors": [
+                "Akshay Venkatesh"
+              ],
+              "doi": "10.1090/s0273-0979-07-01194-9",
+              "url": "https://doi.org/10.1090/s0273-0979-07-01194-9"
+            },
+            {
+              "title": "On measures invariant under tori on quotients of semisimple groups",
+              "year": 2015,
+              "authors": [
+                "Manfred Einsiedler",
+                "Elon Lindenstrauss"
+              ],
+              "doi": "10.4007/annals.2015.181.3.3",
+              "url": "https://doi.org/10.4007/annals.2015.181.3.3"
+            }
+          ]
+        },
+        {
+          "citation": "Lindenstrauss, Invariant measures and arithmetic quantum unique ergodicity, Annals 2006",
+          "candidates": [
+            {
+              "title": "Invariant measures and arithmetic quantum unique ergodicity",
+              "year": 2006,
+              "authors": [
+                "Elon Lindenstrauss"
+              ],
+              "doi": "10.4007/annals.2006.163.165",
+              "url": "https://doi.org/10.4007/annals.2006.163.165"
+            },
+            {
+              "title": "Adelic Dynamics and Arithmetic Quantum Unique Ergodicity",
+              "year": 2004,
+              "authors": [
+                "Elon Lindenstrauss"
+              ],
+              "doi": "10.4310/cdm.2004.v2004.n1.a4",
+              "url": "https://doi.org/10.4310/cdm.2004.v2004.n1.a4"
+            },
+            {
+              "title": "Arithmetic quantum unique ergodicity for symplectic linear maps of the multidimensional torus",
+              "year": 2010,
+              "authors": [
+                "Dubi Kelmer"
+              ],
+              "doi": "10.4007/annals.2010.171.815",
+              "url": "https://doi.org/10.4007/annals.2010.171.815"
+            }
+          ]
+        }
+      ]
+    },
+    "MA2": {
+      "name": "Babylonian quadratic and cubic problem-solving",
+      "queries": [
+        {
+          "citation": "Old Babylonian tablets; BM 85200+ (cellar problems)",
+          "candidates": [
+            {
+              "title": "The Babylonian Cellar Text BM 85200 + VAT 6599 Retranslation and Analysis",
+              "year": 1992,
+              "authors": [
+                "Jens Høyrup"
+              ],
+              "doi": "10.1007/978-3-0348-8599-7_16",
+              "url": "https://doi.org/10.1007/978-3-0348-8599-7_16"
+            },
+            {
+              "title": "Other Late Old Babylonian Tablets (Nos. 109–10)",
+              "year": 2025,
+              "authors": [
+                "Ilya Arkhipov",
+                "A. R. George"
+              ],
+              "doi": "10.2307/jj.33941352.13",
+              "url": "https://doi.org/10.2307/jj.33941352.13"
+            },
+            {
+              "title": "The Old Babylonian Tablets from Al-Rimah",
+              "year": 1980,
+              "authors": [
+                "Jack M. Sasson",
+                "Stephanie Dalley",
+                "C. B. F. Walker",
+                "J. D. Hawkins"
+              ],
+              "doi": "10.2307/602090",
+              "url": "https://doi.org/10.2307/602090"
+            }
+          ]
+        }
+      ]
+    },
+    "WA7/MA11": {
+      "name": "Archimedes statics",
+      "queries": [
+        {
+          "citation": "Archimedes, On the Equilibrium of Planes",
+          "candidates": [
+            {
+              "title": "Chapter XII. On the Equilibrium of Planes. Book II",
+              "year": 1987,
+              "authors": [],
+              "doi": "10.1515/9781400858613.346",
+              "url": "https://doi.org/10.1515/9781400858613.346"
+            },
+            {
+              "title": "Chapter IX. On the Equilibrium of Planes or Centres of Gravity of Planes. Book I",
+              "year": 1987,
+              "authors": [],
+              "doi": "10.1515/9781400858613.286",
+              "url": "https://doi.org/10.1515/9781400858613.286"
+            },
+            {
+              "title": "4.6 Archimedes, Planes in Equilibrium",
+              "year": 2024,
+              "authors": [],
+              "doi": "10.1515/9780691257686-058",
+              "url": "https://doi.org/10.1515/9780691257686-058"
+            }
+          ]
+        },
+        {
+          "citation": "Archimedes, On Floating Bodies",
+          "candidates": [
+            {
+              "title": "Chapter XIV. Floating Bodies",
+              "year": 1987,
+              "authors": [],
+              "doi": "10.1515/9781400858613.373",
+              "url": "https://doi.org/10.1515/9781400858613.373"
+            },
+            {
+              "title": "Floating Bodies",
+              "year": 1999,
+              "authors": [],
+              "doi": "10.1090/clrm/011/08",
+              "url": "https://doi.org/10.1090/clrm/011/08"
+            },
+            {
+              "title": "4.9 Archimedes, On Floating Bodies",
+              "year": 2024,
+              "authors": [],
+              "doi": "10.1515/9780691257686-061",
+              "url": "https://doi.org/10.1515/9780691257686-061"
+            }
+          ]
+        }
+      ]
+    },
+    "W65": {
+      "name": "Abstract rings and fields",
+      "queries": [
+        {
+          "citation": "Weber, Die allgemeinen Grundlagen der Galois'schen Gleichungstheorie, Math. Ann. 1893",
+          "candidates": [
+            {
+              "title": "Die allgemeinen Grundlagen der Galois'schen Gleichungstheorie",
+              "year": 1893,
+              "authors": [
+                "H. Weber"
+              ],
+              "doi": "10.1007/bf01446451",
+              "url": "https://doi.org/10.1007/bf01446451"
+            },
+            {
+              "title": "Die allgemeinen pathomorphologischen Grundlagen des Ablaufs der Tuberkulose als infektiöser Gesamthandlung",
+              "year": 1927,
+              "authors": [
+                "W. Pagel"
+              ],
+              "doi": "10.1007/978-3-642-90799-9_3",
+              "url": "https://doi.org/10.1007/978-3-642-90799-9_3"
+            },
+            {
+              "title": "Die Zelle und die Gewebe. Grundzüge der Allgemeinen Anatomie und Physiologie",
+              "year": 1893,
+              "authors": [
+                "Oscar Hertwig"
+              ],
+              "doi": "10.5962/bhl.title.1992",
+              "url": "https://doi.org/10.5962/bhl.title.1992"
+            }
+          ]
+        },
+        {
+          "citation": "Steinitz, Algebraische Theorie der Koerper, Crelle 1910",
+          "candidates": [
+            {
+              "title": "Algebraische Theorie der Körper.",
+              "year": 1910,
+              "authors": [
+                "Ernst Steinitz"
+              ],
+              "doi": "10.1515/crll.1910.137.167",
+              "url": "https://doi.org/10.1515/crll.1910.137.167"
+            },
+            {
+              "title": "Algebraische Theorie der zerlegbaren Ringe [7]. Algebraische Theorie der Ringe. IIΙ)",
+              "year": 1999,
+              "authors": [],
+              "doi": "10.1515/9783110801026.212",
+              "url": "https://doi.org/10.1515/9783110801026.212"
+            },
+            {
+              "title": "Algebraische Theorie der zerlegbaren Ringe",
+              "year": 1924,
+              "authors": [
+                "Wolfgang Krull"
+              ],
+              "doi": "10.1007/bf01448006",
+              "url": "https://doi.org/10.1007/bf01448006"
+            }
+          ]
+        },
+        {
+          "citation": "van der Waerden, Moderne Algebra, 1930-31",
+          "candidates": [
+            {
+              "title": "Fortsetzung der Gruppentheorie",
+              "year": 1930,
+              "authors": [
+                "B. L. Waerden"
+              ],
+              "doi": "10.1007/978-3-662-41906-9_7",
+              "url": "https://doi.org/10.1007/978-3-662-41906-9_7"
+            },
+            {
+              "title": "Moderne Algebra",
+              "year": 1930,
+              "authors": [
+                "B. L. Waerden"
+              ],
+              "doi": "10.1007/978-3-662-41906-9",
+              "url": "https://doi.org/10.1007/978-3-662-41906-9"
+            },
+            {
+              "title": "Einleitung",
+              "year": 1930,
+              "authors": [
+                "B. L. Waerden"
+              ],
+              "doi": "10.1007/978-3-662-41906-9_1",
+              "url": "https://doi.org/10.1007/978-3-662-41906-9_1"
+            }
+          ]
+        }
+      ]
+    },
+    "WA55": {
+      "name": "Arbuthnot: significance testing",
+      "queries": [
+        {
+          "citation": "Arbuthnot (1710)",
+          "candidates": [
+            {
+              "title": "The Correspondence of Charles Arbuthnot",
+              "year": 1941,
+              "authors": [],
+              "doi": "10.1017/s2042171000005112",
+              "url": "https://doi.org/10.1017/s2042171000005112"
+            },
+            {
+              "title": "823. Arbuthnot to Flamsteed, 14 March 1710/11",
+              "year": 1975,
+              "authors": [],
+              "doi": "10.1017/9781108642453.067",
+              "url": "https://doi.org/10.1017/9781108642453.067"
+            },
+            {
+              "title": "824. Flamsteed to Arbuthnot, 23/25 March 1710/11",
+              "year": 1975,
+              "authors": [],
+              "doi": "10.1017/9781108642453.068",
+              "url": "https://doi.org/10.1017/9781108642453.068"
+            }
+          ]
+        }
+      ]
+    },
+    "E29": {
+      "name": "Sheaf theory",
+      "queries": [
+        {
+          "citation": "J. Leray, Sur la forme des espaces topologiques et sur les points fixes des representations, J. Math. Pures Appl. 24 (1945)",
+          "candidates": [
+            {
+              "title": "Théorie des points fixes : sur les rétractes de voisinage des espaces convexoïdes",
+              "year": 1959,
+              "authors": [
+                "Aristide Deleanu"
+              ],
+              "doi": "10.24033/bsmf.1520",
+              "url": "https://doi.org/10.24033/bsmf.1520"
+            },
+            {
+              "title": "",
+              "year": 2018,
+              "authors": [],
+              "doi": "10.69777/295111",
+              "url": "https://doi.org/10.69777/295111"
+            },
+            {
+              "title": "Fonctions plurisousharmoniques sur les espaces vectoriels topologiques et applications à l'étude des fonctions analytiques",
+              "year": 1970,
+              "authors": [
+                "Gérard Cœuré"
+              ],
+              "doi": "10.5802/aif.345",
+              "url": "https://doi.org/10.5802/aif.345"
+            }
+          ]
+        },
+        {
+          "citation": "J.-P. Serre, Faisceaux algebriques coherents, Ann. of Math. 61 (1955)",
+          "candidates": [
+            {
+              "title": "Faisceaux Algebriques Coherents",
+              "year": 1955,
+              "authors": [
+                "Jean-Pierre Serre"
+              ],
+              "doi": "10.2307/1969915",
+              "url": "https://doi.org/10.2307/1969915"
+            },
+            {
+              "title": "Prolongement de faisceaux analytiques coherents",
+              "year": 1969,
+              "authors": [
+                "J. Frisch",
+                "J. Guenot"
+              ],
+              "doi": "10.1007/bf01425539",
+              "url": "https://doi.org/10.1007/bf01425539"
+            },
+            {
+              "title": "Faisceaux coherents en geometrie algebrique reelle",
+              "year": 1984,
+              "authors": [
+                "Hamet Seydi"
+              ],
+              "doi": "10.1216/rmj-1984-14-4-981",
+              "url": "https://doi.org/10.1216/rmj-1984-14-4-981"
+            }
+          ]
+        },
+        {
+          "citation": "Leray, Sur la forme des espaces topologiques, 1946",
+          "candidates": [
+            {
+              "title": "Espaces vectoriels topologiques sur un corps valué",
+              "year": null,
+              "authors": [],
+              "doi": "10.1007/978-3-540-34498-8_1",
+              "url": "https://doi.org/10.1007/978-3-540-34498-8_1"
+            },
+            {
+              "title": "La dualité dans les espaces vectoriels topologiques",
+              "year": null,
+              "authors": [],
+              "doi": "10.1007/978-3-540-34498-8_4",
+              "url": "https://doi.org/10.1007/978-3-540-34498-8_4"
+            },
+            {
+              "title": "",
+              "year": 2018,
+              "authors": [],
+              "doi": "10.69777/295111",
+              "url": "https://doi.org/10.69777/295111"
+            }
+          ]
+        }
+      ]
+    },
+    "WB67": {
+      "name": "Iwasawa theory",
+      "queries": [
+        {
+          "citation": "Iwasawa, On the theory of cyclotomic fields, 1959",
+          "candidates": [
+            {
+              "title": "On the Theory of Cyclotomic Fields",
+              "year": 1959,
+              "authors": [
+                "Kenkichi Iwasawa"
+              ],
+              "doi": "10.2307/1970328",
+              "url": "https://doi.org/10.2307/1970328"
+            },
+            {
+              "title": "On Some Invariants of Cyclotomic Fields",
+              "year": 1959,
+              "authors": [
+                "K. Iwasawa"
+              ],
+              "doi": "10.2307/2372857",
+              "url": "https://doi.org/10.2307/2372857"
+            },
+            {
+              "title": "On the theory of cyclotomic fields",
+              "year": 1959,
+              "authors": [
+                "Ichiro Satake",
+                "Genjiro Fujisaki",
+                "Kazuya Kato",
+                "Masato Kurihara",
+                "Shoichi Nakajima"
+              ],
+              "doi": "10.1007/978-4-431-67947-9_37",
+              "url": "https://doi.org/10.1007/978-4-431-67947-9_37"
+            }
+          ]
+        }
+      ]
+    },
+    "W35": {
+      "name": "Many-valued logics",
+      "queries": [
+        {
+          "citation": "Lukasiewicz, O logice trojwartosciowej, 1920",
+          "candidates": [
+            {
+              "title": "O logice Stoików",
+              "year": 2011,
+              "authors": [
+                "Jan Lukasiewicz"
+              ],
+              "doi": "10.4000/philosant.1227",
+              "url": "https://doi.org/10.4000/philosant.1227"
+            },
+            {
+              "title": "2.2.5.1. Das dreiwertige System L3 von Lukasiewicz [1920]",
+              "year": 1990,
+              "authors": [],
+              "doi": "10.1515/9783112620021-025",
+              "url": "https://doi.org/10.1515/9783112620021-025"
+            },
+            {
+              "title": "logice, adv.",
+              "year": 2023,
+              "authors": [],
+              "doi": "10.1093/oed/5056856547",
+              "url": "https://doi.org/10.1093/oed/5056856547"
+            }
+          ]
+        },
+        {
+          "citation": "Post, Introduction to a general theory of elementary propositions, Am. J. Math. 1921",
+          "candidates": [
+            {
+              "title": "Introduction to a General Theory of Elementary Propositions",
+              "year": 1921,
+              "authors": [
+                "Emil L. Post"
+              ],
+              "doi": "10.2307/2370324",
+              "url": "https://doi.org/10.2307/2370324"
+            },
+            {
+              "title": "1 General introduction and elementary price Index theory 1",
+              "year": null,
+              "authors": [],
+              "doi": "10.3726/978-3-653-01120-3/3",
+              "url": "https://doi.org/10.3726/978-3-653-01120-3/3"
+            },
+            {
+              "title": "An elementary general equilibrium model: The Robinson Crusoe economy",
+              "year": 2011,
+              "authors": [],
+              "doi": "10.1017/cbo9780511975356.006",
+              "url": "https://doi.org/10.1017/cbo9780511975356.006"
+            }
+          ]
+        }
+      ]
+    },
+    "E08": {
+      "name": "Group theory from the solution of polynomial equations",
+      "queries": [
+        {
+          "citation": "J.-L. Lagrange, Reflexions sur la resolution algebrique des equations, Nouv. Mem. Acad. Berlin (1770-71)",
+          "candidates": [
+            {
+              "title": "Reflexions sur la constitution des Pays-Bas-catholiques;",
+              "year": null,
+              "authors": [],
+              "doi": "10.1163/2214-8264_dutchpamphlets-kb2-kb27864",
+              "url": "https://doi.org/10.1163/2214-8264_dutchpamphlets-kb2-kb27864"
+            },
+            {
+              "title": "Reflexions |sur l'ecrit intitulé, Recherche des motifs, ou raisons de la conduite de la Grande Bretagne.",
+              "year": null,
+              "authors": [],
+              "doi": "10.1163/2214-8264_dutchpamphlets-kb1-kb19684",
+              "url": "https://doi.org/10.1163/2214-8264_dutchpamphlets-kb1-kb19684"
+            },
+            {
+              "title": "Reflexions sur la guerre : en reponse aux reflexions sur la paix [de Mme de Stael] adressees a Mr. Pitt en aux Francais.",
+              "year": null,
+              "authors": [],
+              "doi": "10.1163/2214-8264_dutchpamphlets-va0-va01932",
+              "url": "https://doi.org/10.1163/2214-8264_dutchpamphlets-va0-va01932"
+            }
+          ]
+        },
+        {
+          "citation": "N. H. Abel, J. reine angew. Math. 1 (1826)",
+          "candidates": [
+            {
+              "title": "Abel, Clarke (1780–1826)",
+              "year": 2018,
+              "authors": [],
+              "doi": "10.1093/odnb/9780192683120.013.30",
+              "url": "https://doi.org/10.1093/odnb/9780192683120.013.30"
+            },
+            {
+              "title": "Abel, Sir Frederick Augustus, (1826–6 Sept. 1902)",
+              "year": 2007,
+              "authors": [],
+              "doi": "10.1093/ww/9780199540884.013.u183020",
+              "url": "https://doi.org/10.1093/ww/9780199540884.013.u183020"
+            },
+            {
+              "title": "Erratum to Table of Contents (J. reine angew. Math. 785 (2022), i–iv)",
+              "year": 2022,
+              "authors": [],
+              "doi": "10.1515/crelle-2022-2001",
+              "url": "https://doi.org/10.1515/crelle-2022-2001"
+            }
+          ]
+        },
+        {
+          "citation": "E. Galois, Memoire sur les conditions de resolubilite des equations par radicaux (1831; publ. J. Math. Pures Appl. 11 (1846), in Liouville's edition of the Oeuvres, 381-444)",
+          "candidates": [
+            {
+              "title": "Le mémoire d’Évariste Galois sur les conditions de résolubilité des équations par radicaux (1831)",
+              "year": 2023,
+              "authors": [
+                "Caroline Ehrhardt"
+              ],
+              "doi": "10.4000/bibnum.616",
+              "url": "https://doi.org/10.4000/bibnum.616"
+            },
+            {
+              "title": "THÉORIE DES NOMBRES. – Memoire sur la décomposition des nombres entiers en facteurs radicaux.",
+              "year": 2009,
+              "authors": [],
+              "doi": "10.1017/cbo9780511702396.052",
+              "url": "https://doi.org/10.1017/cbo9780511702396.052"
+            },
+            {
+              "title": "THÉORIE DES NOMBRES. – Mémoire sur les ratines des équations algébriques à coefficients entiers, et sur les polynômes radicaux",
+              "year": 2009,
+              "authors": [],
+              "doi": "10.1017/cbo9780511702396.036",
+              "url": "https://doi.org/10.1017/cbo9780511702396.036"
+            }
+          ]
+        },
+        {
+          "citation": "A. Cayley, On the theory of groups, as depending on the symbolic equation theta^n = 1, Phil. Mag. 7 (1854)",
+          "candidates": [
+            {
+              "title": "VII. <i>On the theory of groups, as depending on the symbolic equation</i> <i>θ<sup>n</sup> </i>=1",
+              "year": 1854,
+              "authors": [
+                "A. Cayley"
+              ],
+              "doi": "10.1080/14786445408647421",
+              "url": "https://doi.org/10.1080/14786445408647421"
+            },
+            {
+              "title": "LXV. <i>On the theory of groups, as depending on the symbolic equation θ<sup>n</sup> </i>=1.—Part II",
+              "year": 1854,
+              "authors": [
+                "A. Cayley"
+              ],
+              "doi": "10.1080/14786445408651852",
+              "url": "https://doi.org/10.1080/14786445408651852"
+            },
+            {
+              "title": "On the Theory of Groups as depending on the Symbolic Equation θ<sup>n</sup> = 1. Third Part",
+              "year": 2009,
+              "authors": [],
+              "doi": "10.1017/cbo9780511703706.022",
+              "url": "https://doi.org/10.1017/cbo9780511703706.022"
+            }
+          ]
+        },
+        {
+          "citation": "C. Jordan, Traite des substitutions et des equations algebriques (1870)",
+          "candidates": [
+            {
+              "title": "Traité des Substitutions et des Equations Algébriques. By Camille Jordan. Pp. 667. Fr. 7500. 1957. (Blanchard, Paris)",
+              "year": 1960,
+              "authors": [],
+              "doi": "10.1017/s0025557200043199",
+              "url": "https://doi.org/10.1017/s0025557200043199"
+            },
+            {
+              "title": "Deux cours de professeurs de droit français toulousains du xviiième siècle conservés à Nancy : le Traite des peines des secondes noces de Laviguerie et le traite [...] concernant les substitutions de Delort",
+              "year": 2007,
+              "authors": [
+                "Hugues Richard"
+              ],
+              "doi": "10.4000/books.putc.13302",
+              "url": "https://doi.org/10.4000/books.putc.13302"
+            },
+            {
+              "title": "Traite des êtres humains et traite des migrants",
+              "year": 2012,
+              "authors": [
+                "Johanne Vernier"
+              ],
+              "doi": "10.4000/crdf.5256",
+              "url": "https://doi.org/10.4000/crdf.5256"
+            }
+          ]
+        },
+        {
+          "citation": "H. Weber, Math. Ann. 43 (1893)",
+          "candidates": [
+            {
+              "title": "Leopold Kronecker",
+              "year": 1893,
+              "authors": [
+                "H. Weber"
+              ],
+              "doi": "10.1007/bf01446613",
+              "url": "https://doi.org/10.1007/bf01446613"
+            },
+            {
+              "title": "Die allgemeinen Grundlagen der Galois'schen Gleichungstheorie",
+              "year": 1893,
+              "authors": [
+                "H. Weber"
+              ],
+              "doi": "10.1007/bf01446451",
+              "url": "https://doi.org/10.1007/bf01446451"
+            },
+            {
+              "title": "Ein Beitrag zur Transformationstheorie der elliptischen Functionen mit einer Anwendung auf Zahlentheorie",
+              "year": 1893,
+              "authors": [
+                "Heinrich Weber"
+              ],
+              "doi": "10.1007/bf01443643",
+              "url": "https://doi.org/10.1007/bf01443643"
+            }
+          ]
+        },
+        {
+          "citation": "Lagrange, Reflexions sur la resolution algebrique (1770)",
+          "candidates": [
+            {
+              "title": "Reflexions sur la guerre : en reponse aux reflexions sur la paix [de Mme de Stael] adressees a Mr. Pitt en aux Francais.",
+              "year": null,
+              "authors": [],
+              "doi": "10.1163/2214-8264_dutchpamphlets-va0-va01932",
+              "url": "https://doi.org/10.1163/2214-8264_dutchpamphlets-va0-va01932"
+            },
+            {
+              "title": "reflexions sur la sante a madagascar",
+              "year": null,
+              "authors": [
+                "aquine razafimahery"
+              ],
+              "doi": "10.63917/mem.2010.333",
+              "url": "https://doi.org/10.63917/mem.2010.333"
+            },
+            {
+              "title": "reflexions sur la fermeture de la fpvm taninanandrano",
+              "year": null,
+              "authors": [
+                "imboharivola nandrianina rateloson"
+              ],
+              "doi": "10.63917/mem.2006.797",
+              "url": "https://doi.org/10.63917/mem.2006.797"
+            }
+          ]
+        },
+        {
+          "citation": "Vandermonde (1771)",
+          "candidates": [
+            {
+              "title": "Fast Inversion of Vandermonde and Vandermonde-Like Matrices",
+              "year": 1997,
+              "authors": [
+                "I. Gohberg",
+                "V. Olshevsky"
+              ],
+              "doi": "10.1007/978-1-4615-6281-8_10",
+              "url": "https://doi.org/10.1007/978-1-4615-6281-8_10"
+            },
+            {
+              "title": "On inverses of Vandermonde and confluent Vandermonde matrices. II",
+              "year": 1963,
+              "authors": [
+                "Walter Gautschi"
+              ],
+              "doi": "10.1007/bf01385906",
+              "url": "https://doi.org/10.1007/bf01385906"
+            },
+            {
+              "title": "Vandermonde",
+              "year": 1994,
+              "authors": [],
+              "doi": "10.4000/books.editionsulm.629",
+              "url": "https://doi.org/10.4000/books.editionsulm.629"
+            }
+          ]
+        }
+      ]
+    },
+    "E26": {
+      "name": "The probabilistic method in combinatorics",
+      "queries": [
+        {
+          "citation": "P. Erdos, Some remarks on the theory of graphs, Bull. Amer. Math. Soc. 53 (1947)",
+          "candidates": [
+            {
+              "title": "Some remarks on the theory of graphs",
+              "year": 1947,
+              "authors": [
+                "P. Erdös"
+              ],
+              "doi": "10.1090/s0002-9904-1947-08785-1",
+              "url": "https://doi.org/10.1090/s0002-9904-1947-08785-1"
+            },
+            {
+              "title": "Some remarks on polynomials",
+              "year": 1947,
+              "authors": [
+                "P. Erdös"
+              ],
+              "doi": "10.1090/s0002-9904-1947-08938-2",
+              "url": "https://doi.org/10.1090/s0002-9904-1947-08938-2"
+            },
+            {
+              "title": "Some remarks and corrections to one of my papers",
+              "year": 1947,
+              "authors": [
+                "Paul Erdös"
+              ],
+              "doi": "10.1090/s0002-9904-1947-08868-6",
+              "url": "https://doi.org/10.1090/s0002-9904-1947-08868-6"
+            }
+          ]
+        },
+        {
+          "citation": "P. Erdos and A. Renyi, On random graphs I, Publ. Math. Debrecen 6 (1959)",
+          "candidates": [
+            {
+              "title": "Random cherry graphs",
+              "year": 2019,
+              "authors": [
+                "Tamas F. Mori",
+                "Sandor Rokob"
+              ],
+              "doi": "10.5486/pmd.2019.8384",
+              "url": "https://doi.org/10.5486/pmd.2019.8384"
+            },
+            {
+              "title": "On random graphs. I.",
+              "year": 2022,
+              "authors": [
+                "P. Erdős",
+                "A. Rényi"
+              ],
+              "doi": "10.5486/pmd.1959.6.3-4.12",
+              "url": "https://doi.org/10.5486/pmd.1959.6.3-4.12"
+            },
+            {
+              "title": "Erdos--Suranyi sequences and trigonometric integrals",
+              "year": 2016,
+              "authors": [
+                "Liam Baker",
+                "Stephan Wagner"
+              ],
+              "doi": "10.5486/pmd.2016.7452",
+              "url": "https://doi.org/10.5486/pmd.2016.7452"
+            }
+          ]
+        },
+        {
+          "citation": "N. Alon and J. Spencer, The Probabilistic Method (1992)",
+          "candidates": [
+            {
+              "title": "The Probabilistic Method",
+              "year": 2000,
+              "authors": [
+                "Noga Alon",
+                "Joel H. Spencer"
+              ],
+              "doi": "10.1002/0471722154",
+              "url": "https://doi.org/10.1002/0471722154"
+            },
+            {
+              "title": "The Probabilistic Method",
+              "year": 2008,
+              "authors": [
+                "Noga Alon",
+                "Joel H. Spencer"
+              ],
+              "doi": "10.1002/9780470277331",
+              "url": "https://doi.org/10.1002/9780470277331"
+            },
+            {
+              "title": "Non-periodic inspection by Bayesian method I",
+              "year": 1992,
+              "authors": [
+                "George Deodatis",
+                "Yukio Fujimoto",
+                "Seiichi Ito",
+                "Jack Spencer",
+                "Hiroshi Itagaki"
+              ],
+              "doi": "10.1016/0266-8920(92)90023-b",
+              "url": "https://doi.org/10.1016/0266-8920(92)90023-b"
+            }
+          ]
+        },
+        {
+          "citation": "Erdos, Some remarks on the theory of graphs (Bull. AMS 1947)",
+          "candidates": [
+            {
+              "title": "Some remarks on the theory of graphs",
+              "year": 1947,
+              "authors": [
+                "P. Erdös"
+              ],
+              "doi": "10.1090/s0002-9904-1947-08785-1",
+              "url": "https://doi.org/10.1090/s0002-9904-1947-08785-1"
+            },
+            {
+              "title": "Some Remarks on Set Theory",
+              "year": 1943,
+              "authors": [
+                "P. Erdos"
+              ],
+              "doi": "10.2307/1969101",
+              "url": "https://doi.org/10.2307/1969101"
+            },
+            {
+              "title": "Some Remarks on Set Theory",
+              "year": 1950,
+              "authors": [
+                "P. Erdos"
+              ],
+              "doi": "10.2307/2031913",
+              "url": "https://doi.org/10.2307/2031913"
+            }
+          ]
+        }
+      ]
+    },
+    "E56": {
+      "name": "Hodge theory proves log-concavity conjectures",
+      "queries": [
+        {
+          "citation": "J. Huh, Milnor numbers of projective hypersurfaces and the chromatic polynomial of a graph, J. Amer. Math. Soc. 25 (2012)",
+          "candidates": [
+            {
+              "title": "Milnor numbers of projective hypersurfaces and the chromatic polynomial of graphs",
+              "year": 2012,
+              "authors": [
+                "June Huh"
+              ],
+              "doi": "10.1090/s0894-0347-2012-00731-0",
+              "url": "https://doi.org/10.1090/s0894-0347-2012-00731-0"
+            },
+            {
+              "title": "Milnor numbers of projective hypersurfaces with isolated singularities",
+              "year": 2014,
+              "authors": [
+                "June Huh"
+              ],
+              "doi": "10.1215/00127094-2713700",
+              "url": "https://doi.org/10.1215/00127094-2713700"
+            },
+            {
+              "title": "Milnor numbers and the topology of polynomial hypersurfaces",
+              "year": 1988,
+              "authors": [
+                "S. A. Broughton"
+              ],
+              "doi": "10.1007/bf01404452",
+              "url": "https://doi.org/10.1007/bf01404452"
+            }
+          ]
+        },
+        {
+          "citation": "J. Huh and E. Katz, Log-concavity of characteristic polynomials and the Bergman fan of matroids, Math. Ann. 354 (2012)",
+          "candidates": [
+            {
+              "title": "Log-concavity of characteristic polynomials and the Bergman fan of matroids",
+              "year": 2012,
+              "authors": [
+                "June Huh",
+                "Eric Katz"
+              ],
+              "doi": "10.1007/s00208-011-0777-6",
+              "url": "https://doi.org/10.1007/s00208-011-0777-6"
+            },
+            {
+              "title": "Log-concave polynomials III: Mason’s ultra-log-concavity conjecture for independent sets of matroids",
+              "year": 2024,
+              "authors": [
+                "Nima Anari",
+                "Kuikui Liu",
+                "Shayan Oveis Gharan",
+                "Cynthia Vinzant"
+              ],
+              "doi": "10.1090/proc/16724",
+              "url": "https://doi.org/10.1090/proc/16724"
+            },
+            {
+              "title": "The log-concavity of Kazhdan-Lusztig polynomials of thagomizer matroids",
+              "year": 2023,
+              "authors": [
+                "Siyi Wu",
+                "Philip B. Zhang"
+              ],
+              "doi": "10.1016/j.disc.2023.113381",
+              "url": "https://doi.org/10.1016/j.disc.2023.113381"
+            }
+          ]
+        },
+        {
+          "citation": "K. Adiprasito, J. Huh and E. Katz, Hodge theory for combinatorial geometries, Ann. of Math. 188 (2018)",
+          "candidates": [
+            {
+              "title": "Hodge theory for combinatorial geometries",
+              "year": 2018,
+              "authors": [
+                "Kareem Adiprasito",
+                "June Huh",
+                "Eric Katz"
+              ],
+              "doi": "10.4007/annals.2018.188.2.1",
+              "url": "https://doi.org/10.4007/annals.2018.188.2.1"
+            },
+            {
+              "title": "Hodge Theory of Matroids",
+              "year": 2017,
+              "authors": [
+                "Karim Adiprasito",
+                "June Huh",
+                "Eric Katz"
+              ],
+              "doi": "10.1090/noti1463",
+              "url": "https://doi.org/10.1090/noti1463"
+            },
+            {
+              "title": "Singular Hodge theory for combinatorial geometries",
+              "year": 2026,
+              "authors": [
+                "Tom Braden",
+                "June Huh",
+                "Jacob Matherne",
+                "Nicholas Proudfoot",
+                "Botong Wang"
+              ],
+              "doi": "10.1090/jams/1083",
+              "url": "https://doi.org/10.1090/jams/1083"
+            }
+          ]
+        },
+        {
+          "citation": "Adiprasito-Huh-Katz, Hodge theory for combinatorial geometries, Annals 2018 (arXiv:1511.02888)",
+          "candidates": [
+            {
+              "title": "Hodge theory for combinatorial geometries",
+              "year": 2018,
+              "authors": [
+                "Kareem Adiprasito",
+                "June Huh",
+                "Eric Katz"
+              ],
+              "doi": "10.4007/annals.2018.188.2.1",
+              "url": "https://doi.org/10.4007/annals.2018.188.2.1"
+            },
+            {
+              "title": "Hodge Theory of Matroids",
+              "year": 2017,
+              "authors": [
+                "Karim Adiprasito",
+                "June Huh",
+                "Eric Katz"
+              ],
+              "doi": "10.1090/noti1463",
+              "url": "https://doi.org/10.1090/noti1463"
+            },
+            {
+              "title": "Singular Hodge theory for combinatorial geometries",
+              "year": 2026,
+              "authors": [
+                "Tom Braden",
+                "June Huh",
+                "Jacob Matherne",
+                "Nicholas Proudfoot",
+                "Botong Wang"
+              ],
+              "doi": "10.1090/jams/1083",
+              "url": "https://doi.org/10.1090/jams/1083"
+            }
+          ]
+        },
+        {
+          "citation": "Huh-Katz, Log-concavity of characteristic polynomials and the Bergman fan of matroids, Math.Ann. 2012",
+          "candidates": [
+            {
+              "title": "Log-concavity of characteristic polynomials and the Bergman fan of matroids",
+              "year": 2012,
+              "authors": [
+                "June Huh",
+                "Eric Katz"
+              ],
+              "doi": "10.1007/s00208-011-0777-6",
+              "url": "https://doi.org/10.1007/s00208-011-0777-6"
+            },
+            {
+              "title": "Log-concave polynomials III: Mason’s ultra-log-concavity conjecture for independent sets of matroids",
+              "year": 2024,
+              "authors": [
+                "Nima Anari",
+                "Kuikui Liu",
+                "Shayan Oveis Gharan",
+                "Cynthia Vinzant"
+              ],
+              "doi": "10.1090/proc/16724",
+              "url": "https://doi.org/10.1090/proc/16724"
+            },
+            {
+              "title": "The log-concavity of Kazhdan-Lusztig polynomials of thagomizer matroids",
+              "year": 2023,
+              "authors": [
+                "Siyi Wu",
+                "Philip B. Zhang"
+              ],
+              "doi": "10.1016/j.disc.2023.113381",
+              "url": "https://doi.org/10.1016/j.disc.2023.113381"
+            }
+          ]
+        }
+      ]
+    },
+    "H43": {
+      "name": "Non-Euclidean geometry: the independence of the parallel postulate",
+      "queries": [
+        {
+          "citation": "Bolyai, appendix to Farkas Bolyai's book (c. 1825)",
+          "candidates": [
+            {
+              "title": "Biography: Bolyai Farkas. [Wolfgang Bolyai]",
+              "year": 1896,
+              "authors": [
+                "George Bruce Halsted"
+              ],
+              "doi": "10.2307/2968693",
+              "url": "https://doi.org/10.2307/2968693"
+            },
+            {
+              "title": "Bolyai Farkas. [Wolfgang Bolyai.]",
+              "year": 1896,
+              "authors": [
+                "George Bruce Halsted"
+              ],
+              "doi": "10.1080/00029890.1896.11998735",
+              "url": "https://doi.org/10.1080/00029890.1896.11998735"
+            },
+            {
+              "title": "Az iskolai siker az adhd tünetek tükrében",
+              "year": 2021,
+              "authors": [
+                "",
+                "Brigitte-Ildikó Bányai",
+                "Susana Jancsó-Farkas",
+                ""
+              ],
+              "doi": "10.24193/pedacta.11.2.4",
+              "url": "https://doi.org/10.24193/pedacta.11.2.4"
+            }
+          ]
+        },
+        {
+          "citation": "Lobachevsky, Kazan Messenger (1829)",
+          "candidates": [
+            {
+              "title": "Technique for determining the orthotropic properties of the bone organ according to computer tomography",
+              "year": 2019,
+              "authors": [
+                "",
+                "Nikita Kharin",
+                "Oleg Gerasimov",
+                "",
+                "Pavel Bolshakov",
+                ""
+              ],
+              "doi": "10.15593/rjbiomech/2019.3.11",
+              "url": "https://doi.org/10.15593/rjbiomech/2019.3.11"
+            },
+            {
+              "title": "Numerical simulation of high-permeability waterflooded sublayer water shut-off under uncertainty of its location in a petroleum reservoir",
+              "year": 2023,
+              "authors": [
+                "",
+                "D. R. Salimyanova",
+                "K. A. Potashev",
+                ""
+              ],
+              "doi": "10.5510/ogp20230400921",
+              "url": "https://doi.org/10.5510/ogp20230400921"
+            },
+            {
+              "title": "DIAGNOSTICS OF A DISTURBED REGION OF THE IONOSPHERE BASED ON OPTICAL MEASUREMENTS AND GNSS RADIO SOUNDING",
+              "year": 2024,
+              "authors": [
+                "",
+                "V.V. Emelyanov",
+                "D.A. Kogogin",
+                "",
+                "D.S. Maksimov",
+                ""
+              ],
+              "doi": "10.62955/0135-3748-2024-141",
+              "url": "https://doi.org/10.62955/0135-3748-2024-141"
+            }
+          ]
+        },
+        {
+          "citation": "Lobachevsky, Geometrical investigations on the theory of parallels (1840)",
+          "candidates": [
+            {
+              "title": "Geometrical Researches on the Theory of Parallels.",
+              "year": 1915,
+              "authors": [
+                "L. C. Karpinski",
+                "Nicholaus Lobatschevski",
+                "George Bruce Halsted"
+              ],
+              "doi": "10.2307/2973730",
+              "url": "https://doi.org/10.2307/2973730"
+            },
+            {
+              "title": "Book Review: Geometrical Researches on the Theory of Parallels",
+              "year": 1918,
+              "authors": [
+                "R. C. Archibald"
+              ],
+              "doi": "10.1090/s0002-9904-1918-03114-5",
+              "url": "https://doi.org/10.1090/s0002-9904-1918-03114-5"
+            },
+            {
+              "title": "Chapter VI: Geometrical investigations",
+              "year": 1897,
+              "authors": [],
+              "doi": "10.3792/chmm/1428686985",
+              "url": "https://doi.org/10.3792/chmm/1428686985"
+            }
+          ]
+        },
+        {
+          "citation": "Lobachevsky (Kazan Messenger, 1829)",
+          "candidates": [
+            {
+              "title": "Technique for determining the orthotropic properties of the bone organ according to computer tomography",
+              "year": 2019,
+              "authors": [
+                "",
+                "Nikita Kharin",
+                "Oleg Gerasimov",
+                "",
+                "Pavel Bolshakov",
+                ""
+              ],
+              "doi": "10.15593/rjbiomech/2019.3.11",
+              "url": "https://doi.org/10.15593/rjbiomech/2019.3.11"
+            },
+            {
+              "title": "Numerical simulation of high-permeability waterflooded sublayer water shut-off under uncertainty of its location in a petroleum reservoir",
+              "year": 2023,
+              "authors": [
+                "",
+                "D. R. Salimyanova",
+                "K. A. Potashev",
+                ""
+              ],
+              "doi": "10.5510/ogp20230400921",
+              "url": "https://doi.org/10.5510/ogp20230400921"
+            },
+            {
+              "title": "DIAGNOSTICS OF A DISTURBED REGION OF THE IONOSPHERE BASED ON OPTICAL MEASUREMENTS AND GNSS RADIO SOUNDING",
+              "year": 2024,
+              "authors": [
+                "",
+                "V.V. Emelyanov",
+                "D.A. Kogogin",
+                "",
+                "D.S. Maksimov",
+                ""
+              ],
+              "doi": "10.62955/0135-3748-2024-141",
+              "url": "https://doi.org/10.62955/0135-3748-2024-141"
+            }
+          ]
+        },
+        {
+          "citation": "Bolyai, Appendix (1831)",
+          "candidates": [
+            {
+              "title": "Appendix",
+              "year": 1831,
+              "authors": [],
+              "doi": "10.1017/s0261340900017562",
+              "url": "https://doi.org/10.1017/s0261340900017562"
+            },
+            {
+              "title": "Appendix One: Chapter of 1831",
+              "year": 2017,
+              "authors": [],
+              "doi": "10.12987/9780300162073-010",
+              "url": "https://doi.org/10.12987/9780300162073-010"
+            },
+            {
+              "title": "APPENDIX",
+              "year": 2014,
+              "authors": [],
+              "doi": "10.1017/cbo9781107478688.016",
+              "url": "https://doi.org/10.1017/cbo9781107478688.016"
+            }
+          ]
+        }
+      ]
+    },
+    "E58/WC68": {
+      "name": "Erdos discrepancy",
+      "queries": [
+        {
+          "citation": "Tao, The Erdos discrepancy problem, Discrete Analysis 2016 (arXiv:1509.05363)",
+          "candidates": [
+            {
+              "title": "The Erdős discrepancy problem",
+              "year": 2016,
+              "authors": [
+                "Terence Tao"
+              ],
+              "doi": "10.19086/da.609",
+              "url": "https://doi.org/10.19086/da.609"
+            },
+            {
+              "title": "-power-saving-for-the-brown-erdos-sos-problem",
+              "year": 2025,
+              "authors": [],
+              "doi": "10.19086/da.138191",
+              "url": "https://doi.org/10.19086/da.138191"
+            },
+            {
+              "title": "Discrepancy of high-dimensional permutations",
+              "year": 2016,
+              "authors": [
+                "Nathan Linial",
+                "Zur Luria"
+              ],
+              "doi": "10.19086/da.845",
+              "url": "https://doi.org/10.19086/da.845"
+            }
+          ]
+        },
+        {
+          "citation": "Konev-Lisitsa, A SAT attack on the Erdos discrepancy conjecture, 2014",
+          "candidates": [
+            {
+              "title": "A SAT Attack on the Erdős Discrepancy Conjecture",
+              "year": 2014,
+              "authors": [
+                "Boris Konev",
+                "Alexei Lisitsa"
+              ],
+              "doi": "10.1007/978-3-319-09284-3_17",
+              "url": "https://doi.org/10.1007/978-3-319-09284-3_17"
+            },
+            {
+              "title": "Computer-aided proof of Erdős discrepancy properties",
+              "year": 2015,
+              "authors": [
+                "Boris Konev",
+                "Alexei Lisitsa"
+              ],
+              "doi": "10.1016/j.artint.2015.03.004",
+              "url": "https://doi.org/10.1016/j.artint.2015.03.004"
+            },
+            {
+              "title": "An attack on the Erdos conjecture",
+              "year": 1987,
+              "authors": [
+                "Nick Mackinnon",
+                "John Eastmond"
+              ],
+              "doi": "10.2307/3616280",
+              "url": "https://doi.org/10.2307/3616280"
+            }
+          ]
+        }
+      ]
+    },
+    "P62": {
+      "name": "Lenstra-Lenstra-Lovasz lattice basis reduction",
+      "queries": [
+        {
+          "citation": "A. K. Lenstra, H. W. Lenstra, L. Lovasz, Factoring polynomials with rational coefficients, Math. Ann. 261 (1982)",
+          "candidates": [
+            {
+              "title": "Factoring polynomials with rational coefficients",
+              "year": 1982,
+              "authors": [
+                "A. K. Lenstra",
+                "H. W. Lenstra",
+                "L. Lovász"
+              ],
+              "doi": "10.1007/bf01457454",
+              "url": "https://doi.org/10.1007/bf01457454"
+            },
+            {
+              "title": "Shortest Vector Problem, 1982; Lenstra, Lenstra, Lovasz",
+              "year": null,
+              "authors": [],
+              "doi": "10.1007/springerreference_57893",
+              "url": "https://doi.org/10.1007/springerreference_57893"
+            },
+            {
+              "title": "Shortest Vector Problem",
+              "year": 2008,
+              "authors": [
+                "Daniele Micciancio"
+              ],
+              "doi": "10.1007/978-0-387-30162-4_374",
+              "url": "https://doi.org/10.1007/978-0-387-30162-4_374"
+            }
+          ]
+        }
+      ]
+    },
+    "WA52": {
+      "name": "Differential equations from calculus",
+      "queries": [
+        {
+          "citation": "Newton, Methodus Fluxionum (1671)",
+          "candidates": [
+            {
+              "title": "DIFFERENTIAL CALCULUS: THE USE OF NEWTON’S METHODUS FLUXIONUM ET SERIERUM INFINITARUM IN AN EDUCATION CONTEXT",
+              "year": 2015,
+              "authors": [
+                "Paolo Bussotti"
+              ],
+              "doi": "10.33225/pec/15.65.39",
+              "url": "https://doi.org/10.33225/pec/15.65.39"
+            },
+            {
+              "title": "David Gregory's manuscript ‘Isaaci Neutoni Methodus fluxionum’ (1694): A study on the early publication of Newton's discoveries on calculus",
+              "year": 2021,
+              "authors": [
+                "Niccolò Guicciardini"
+              ],
+              "doi": "10.1098/rsnr.2021.0013",
+              "url": "https://doi.org/10.1098/rsnr.2021.0013"
+            },
+            {
+              "title": "Methodus",
+              "year": null,
+              "authors": [],
+              "doi": "10.5771/0718-2775",
+              "url": "https://doi.org/10.5771/0718-2775"
+            }
+          ]
+        },
+        {
+          "citation": "Jacob Bernoulli (1695)",
+          "candidates": [
+            {
+              "title": "Bernoulli, Jacob [Jacques, James]",
+              "year": null,
+              "authors": [],
+              "doi": "10.1007/springerreference_58145",
+              "url": "https://doi.org/10.1007/springerreference_58145"
+            },
+            {
+              "title": "<i>Der Briefwechsel von Jacob Bernoulli</i>. Jacob Bernoulli, Andre Weil, Clifford Truesdell, Fritz Nagel<i>Die Werke von Jakob Bernoulli. Volume 4: Reihentheorie</i>. Jakob Bernoulli, Andre Weil",
+              "year": 1995,
+              "authors": [],
+              "doi": "10.1086/357193",
+              "url": "https://doi.org/10.1086/357193"
+            },
+            {
+              "title": "On the law of the iterated logarithm and strong invariance principles in stochastic geometry",
+              "year": 2021,
+              "authors": [
+                "Johannes Krebs"
+              ],
+              "doi": "10.3150/20-bej1288",
+              "url": "https://doi.org/10.3150/20-bej1288"
+            }
+          ]
+        }
+      ]
+    },
+    "Q6": {
+      "name": "Positive Grassmannian as a hub between combinatorics, probability and integrable systems",
+      "queries": [
+        {
+          "citation": "Lusztig and Postnikov (c. 1998-2006, per article)",
+          "candidates": [
+            {
+              "title": "Canonical bases and Hall algebras",
+              "year": 1998,
+              "authors": [
+                "George Lusztig"
+              ],
+              "doi": "10.1007/978-94-015-9131-7_9",
+              "url": "https://doi.org/10.1007/978-94-015-9131-7_9"
+            },
+            {
+              "title": "On Quiver Varieties",
+              "year": 1998,
+              "authors": [
+                "G. Lusztig"
+              ],
+              "doi": "10.1006/aima.1998.1729",
+              "url": "https://doi.org/10.1006/aima.1998.1729"
+            },
+            {
+              "title": "Induction and Restriction of Kazhdan–Lusztig Cells",
+              "year": 1998,
+              "authors": [
+                "Yuval Roichman"
+              ],
+              "doi": "10.1006/aima.1997.1712",
+              "url": "https://doi.org/10.1006/aima.1997.1712"
+            }
+          ]
+        },
+        {
+          "citation": "Corteel-Williams on exclusion processes",
+          "candidates": [
+            {
+              "title": "Tableaux combinatorics for the asymmetric exclusion process",
+              "year": 2007,
+              "authors": [
+                "Sylvie Corteel",
+                "Lauren K. Williams"
+              ],
+              "doi": "10.1016/j.aam.2006.08.002",
+              "url": "https://doi.org/10.1016/j.aam.2006.08.002"
+            },
+            {
+              "title": "Combinatorics of the 2-Species Exclusion Processes, Marked Laguerre Histories, and Partially Signed Permutations",
+              "year": 2020,
+              "authors": [
+                "Sylvie Corteel",
+                "Arthur Nunge"
+              ],
+              "doi": "10.37236/8910",
+              "url": "https://doi.org/10.37236/8910"
+            },
+            {
+              "title": "Macdonald–Koornwinder moments and the two-species exclusion process",
+              "year": 2017,
+              "authors": [
+                "Sylvie Corteel",
+                "Lauren K. Williams"
+              ],
+              "doi": "10.1007/s00029-017-0375-x",
+              "url": "https://doi.org/10.1007/s00029-017-0375-x"
+            }
+          ]
+        }
+      ]
+    },
+    "M27": {
+      "name": "Steinitz abstract field theory",
+      "queries": [
+        {
+          "citation": "Steinitz, Algebraische Theorie der Koerper, Crelle 1910",
+          "candidates": [
+            {
+              "title": "Algebraische Theorie der Körper.",
+              "year": 1910,
+              "authors": [
+                "Ernst Steinitz"
+              ],
+              "doi": "10.1515/crll.1910.137.167",
+              "url": "https://doi.org/10.1515/crll.1910.137.167"
+            },
+            {
+              "title": "Algebraische Theorie der zerlegbaren Ringe [7]. Algebraische Theorie der Ringe. IIΙ)",
+              "year": 1999,
+              "authors": [],
+              "doi": "10.1515/9783110801026.212",
+              "url": "https://doi.org/10.1515/9783110801026.212"
+            },
+            {
+              "title": "Algebraische Theorie der zerlegbaren Ringe",
+              "year": 1924,
+              "authors": [
+                "Wolfgang Krull"
+              ],
+              "doi": "10.1007/bf01448006",
+              "url": "https://doi.org/10.1007/bf01448006"
+            }
+          ]
+        }
+      ]
+    },
+    "E27": {
+      "name": "Category theory",
+      "queries": [
+        {
+          "citation": "S. Eilenberg and S. Mac Lane, General theory of natural equivalences, Trans. Amer. Math. Soc. 58 (1945)",
+          "candidates": [
+            {
+              "title": "General theory of natural equivalences",
+              "year": 1945,
+              "authors": [
+                "Samuel Eilenberg",
+                "Saunders MacLane"
+              ],
+              "doi": "10.1090/s0002-9947-1945-0013131-6",
+              "url": "https://doi.org/10.1090/s0002-9947-1945-0013131-6"
+            },
+            {
+              "title": "General Theory of Natural Equivalences",
+              "year": 1979,
+              "authors": [
+                "Samuel Eilenberg",
+                "Saunders Maclane"
+              ],
+              "doi": "10.1007/978-1-4615-7831-4_13",
+              "url": "https://doi.org/10.1007/978-1-4615-7831-4_13"
+            },
+            {
+              "title": "General Theory of Natural Equivalences",
+              "year": 1945,
+              "authors": [
+                "Samuel Eilenberg",
+                "Saunders MacLane"
+              ],
+              "doi": "10.2307/1990284",
+              "url": "https://doi.org/10.2307/1990284"
+            }
+          ]
+        },
+        {
+          "citation": "S. Mac Lane, Categories for the Working Mathematician (1971)",
+          "candidates": [
+            {
+              "title": "Abelian Categories",
+              "year": 1971,
+              "authors": [
+                "Saunders Mac Lane"
+              ],
+              "doi": "10.1007/978-1-4612-9839-7_9",
+              "url": "https://doi.org/10.1007/978-1-4612-9839-7_9"
+            },
+            {
+              "title": "Abelian Categories",
+              "year": 1978,
+              "authors": [
+                "Saunders Mac Lane"
+              ],
+              "doi": "10.1007/978-1-4757-4721-8_9",
+              "url": "https://doi.org/10.1007/978-1-4757-4721-8_9"
+            },
+            {
+              "title": "Categories for the Working Mathematician",
+              "year": 1971,
+              "authors": [
+                "Saunders Mac Lane"
+              ],
+              "doi": "10.1007/978-1-4612-9839-7",
+              "url": "https://doi.org/10.1007/978-1-4612-9839-7"
+            }
+          ]
+        },
+        {
+          "citation": "Eilenberg-Mac Lane, General theory of natural equivalences (1945)",
+          "candidates": [
+            {
+              "title": "General Theory of Natural Equivalences",
+              "year": 1979,
+              "authors": [
+                "Samuel Eilenberg",
+                "Saunders Maclane"
+              ],
+              "doi": "10.1007/978-1-4615-7831-4_13",
+              "url": "https://doi.org/10.1007/978-1-4615-7831-4_13"
+            },
+            {
+              "title": "General Theory of Natural Equivalences",
+              "year": 1945,
+              "authors": [
+                "Samuel Eilenberg",
+                "Saunders MacLane"
+              ],
+              "doi": "10.2307/1990284",
+              "url": "https://doi.org/10.2307/1990284"
+            },
+            {
+              "title": "General theory of natural equivalences",
+              "year": 1945,
+              "authors": [
+                "Samuel Eilenberg",
+                "Saunders MacLane"
+              ],
+              "doi": "10.1090/s0002-9947-1945-0013131-6",
+              "url": "https://doi.org/10.1090/s0002-9947-1945-0013131-6"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

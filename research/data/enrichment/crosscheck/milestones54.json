@@ -1,0 +1,567 @@
+[
+  {
+    "eventId": "E01",
+    "canonicalName": "Archimedes' mechanical method for areas and volumes",
+    "aliases": [
+      "Archimedes' mechanical method"
+    ],
+    "phases": [],
+    "milestones": [],
+    "people": [],
+    "notes": "Searched Wikipedia article pages and Crossref candidates (Princeton chapter, Springer chapter); those are modern editions/translations, not the 3rd-century text, and no source opened here established a dated first statement or the 1906 rediscovery. Left empty; unverified.",
+    "searchedSources": [
+      "en.wikipedia.org The Method of Mechanical Theorems (no usable text extracted)",
+      "Crossref candidates 10.1515/9781400858613.313, 10.1007/978-90-481-9091-1_23 (modern editions, not opened as evidence)"
+    ],
+    "pid": "P000",
+    "searchTerms": [
+      "Physics",
+      "Geometry"
+    ]
+  },
+  {
+    "eventId": "E11",
+    "canonicalName": "Ideals and algebraic number theory",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1847,
+        "precision": "year",
+        "label": "Kummer's ideal complex numbers",
+        "work": "E. E. Kummer, Zur Theorie der complexen Zahlen, J. reine angew. Math. 35 (1847) 319-326",
+        "people": [
+          "Ernst Kummer"
+        ],
+        "description": "Kummer's 1847 note announces ideal complex numbers to restore unique factorisation in cyclotomic integers.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, venue and year of the work",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1515/crll.1847.35.319",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Crossref confirms title/volume/year only; content role rests on the standard account, not text opened."
+      }
+    ],
+    "people": [],
+    "notes": "Crossref verified the Kummer 1847 pair (both Crelle 35). Dedekind 1871 supplement and Hilbert Zahlbericht 1897 not verified against a record (Wikipedia Zahlbericht page only listed category 1897); omitted. Companion paper 327-367 (doi 10.1515/crll.1847.35.327) also confirmed by Crossref.",
+    "pid": "P009",
+    "searchTerms": [
+      "Number theory",
+      "Algebra",
+      "Number theory"
+    ]
+  },
+  {
+    "eventId": "E17",
+    "canonicalName": "Commutative algebra from invariant theory and ideals",
+    "aliases": [
+      "Invariant theory and Hilbert basis theorem"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1868,
+        "precision": "year",
+        "label": "Gordan's finiteness for binary forms",
+        "work": "Gordan, Beweis, dass jede Covariante und Invariante einer binaeren Form ... endlichen Anzahl solcher Formen ist, J. reine angew. Math. 69 (1868)",
+        "people": [
+          "Paul Gordan"
+        ],
+        "description": "Gordan proved finiteness of invariants of binary forms by explicit computation, the constructive result Hilbert later replaced.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, venue and year of the work",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1515/crll.1868.69.323",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 1890,
+        "precision": "year",
+        "label": "Hilbert's basis theorem paper",
+        "work": "D. Hilbert, Ueber die Theorie der algebraischen Formen, Math. Ann. 36 (1890)",
+        "people": [
+          "David Hilbert"
+        ],
+        "description": "Hilbert proves finiteness of invariants non-constructively via the basis theorem for polynomial ideals.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, venue and year of the work",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/bf01208503",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 1893,
+        "precision": "year",
+        "label": "Hilbert on complete invariant systems",
+        "work": "D. Hilbert, Ueber die vollen Invariantensysteme, Math. Ann. 42 (1893)",
+        "people": [
+          "David Hilbert"
+        ],
+        "description": "Hilbert's follow-up treats full systems of invariants and the Nullstellensatz setting.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, venue and year of the work",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/bf01444162",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Crossref verified Gordan 1868, Hilbert 1890 and 1893 titles/years. Noether 1921 and van der Waerden 1930-31 not verified (Crossref search for Noether returned only a 1983 reprint); omitted. No first_statement/naming milestone established.",
+    "pid": "P012",
+    "searchTerms": [
+      "Algebra",
+      "Number theory",
+      "Geometry",
+      "Algebra"
+    ]
+  },
+  {
+    "eventId": "E18",
+    "canonicalName": "Functional analysis",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1906,
+        "precision": "year",
+        "label": "Frechet's functional calculus / metric spaces",
+        "work": "M. Frechet, Sur quelques points du calcul fonctionnel, Rend. Circ. Mat. Palermo 22 (1906)",
+        "people": [
+          "Maurice Frechet"
+        ],
+        "description": "Frechet's thesis paper introduces abstract metric spaces for the study of functionals.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, venue and year of the work",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/bf03018603",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Crossref verified Frechet 1906. Hilbert 1904-12, Riesz 1909 and Banach 1932 not checked against records; omitted. Role is medium: year verified, role from standard account.",
+    "pid": "P013",
+    "searchTerms": [
+      "Analysis",
+      "Algebra",
+      "Topology",
+      "Analysis"
+    ]
+  },
+  {
+    "eventId": "E19",
+    "canonicalName": "Measure theory meets probability (Kolmogorov)",
+    "aliases": [
+      "Kolmogorov axiomatic probability",
+      "Measure-theoretic probability"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1902,
+        "precision": "year",
+        "label": "Lebesgue's integral thesis paper",
+        "work": "H. Lebesgue, Integrale, longueur, aire, Ann. Mat. Pura Appl. 7 (1902)",
+        "people": [
+          "Henri Lebesgue"
+        ],
+        "description": "Lebesgue's thesis develops the measure-based integral on which Kolmogorov's framework rests.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, venue and year of the work",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/bf02420592",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Crossref verified Lebesgue 1902. The Borel 1898 DOI candidate resolves in Crossref to a Monatshefte review (vol 9), not the book; rejected. Kolmogorov 1933 Grundbegriffe not confirmed from any record opened (Wikipedia fetch yielded nothing); omitted, so no first_statement.",
+    "pid": "P014",
+    "searchTerms": [
+      "Analysis",
+      "Logic & foundations",
+      "Probability"
+    ]
+  },
+  {
+    "eventId": "E20",
+    "canonicalName": "Group representations enter quantum mechanics",
+    "aliases": [
+      "Group theory in quantum mechanics"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "key_development",
+        "year": 1927,
+        "precision": "year",
+        "label": "Peter-Weyl completeness theorem",
+        "work": "F. Peter and H. Weyl, Die Vollstaendigkeit der primitiven Darstellungen einer geschlossenen kontinuierlichen Gruppe, Math. Ann. 97 (1927)",
+        "people": [
+          "Fritz Peter",
+          "Hermann Weyl"
+        ],
+        "description": "The Peter-Weyl theorem gives the representation theory of compact groups used in quantum mechanics.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, venue and year of the work",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/bf01447892",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Link to quantum mechanics rests on standard account."
+      }
+    ],
+    "people": [],
+    "notes": "Crossref verified Peter-Weyl 1927 (title garbled in encoding). Weyl 1928 and Wigner 1931 not verified (Wigner DOI is a Springer book-level record, not opened); omitted.",
+    "pid": "P015",
+    "searchTerms": [
+      "Physics",
+      "Algebra",
+      "Analysis"
+    ]
+  },
+  {
+    "eventId": "E23",
+    "canonicalName": "Weil's dictionary: number fields, function fields, Riemann surfaces",
+    "aliases": [
+      "Number fields / function fields dictionary"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1882,
+        "precision": "year",
+        "label": "Dedekind-Weber algebraic functions",
+        "work": "R. Dedekind and H. Weber, Theorie der algebraischen Functionen einer Veraenderlichen, J. reine angew. Math. 92 (1882)",
+        "people": [
+          "Richard Dedekind",
+          "Heinrich Weber"
+        ],
+        "description": "Dedekind and Weber treat algebraic function fields by ideal-theoretic methods parallel to number fields.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, venue and year of the work",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1515/crll.1882.92.181",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Crossref verified 1882 paper. Weil's 1940 letter to Simone Weil and any 1974 exposition not located in a record; omitted.",
+    "pid": "P016",
+    "searchTerms": [
+      "Geometry",
+      "Algebra",
+      "Number theory"
+    ]
+  },
+  {
+    "eventId": "E28",
+    "canonicalName": "Fourier analysis for density problems (Roth)",
+    "aliases": [
+      "Roth: Fourier analysis for progressions"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1953,
+        "precision": "year",
+        "label": "Roth's theorem on three-term progressions",
+        "work": "K. F. Roth, On certain sets of integers, J. London Math. Soc. 28 (1953)",
+        "people": [
+          "Klaus Roth"
+        ],
+        "description": "Roth proves dense sets of integers contain three-term progressions by a Fourier density-increment argument.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, venue and year of the work",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1112/jlms/s1-28.1.104",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 2001,
+        "precision": "year",
+        "label": "Gowers' new proof of Szemeredi",
+        "work": "W. T. Gowers, A new proof of Szemeredi's theorem, Geom. Funct. Anal. 11 (2001)",
+        "people": [
+          "Timothy Gowers"
+        ],
+        "description": "Gowers extends Fourier-analytic density increment to all lengths of progression.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, venue and year of the work",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/s00039-001-0332-9",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Crossref verified both works. Method content from standard account; first_application not separately established.",
+    "pid": "P020",
+    "searchTerms": [
+      "Analysis",
+      "Number theory",
+      "Combinatorics"
+    ]
+  },
+  {
+    "eventId": "E31",
+    "canonicalName": "Weil conjectures: topology enters arithmetic",
+    "aliases": [
+      "Weil conjectures"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1949,
+        "precision": "year",
+        "label": "Weil's conjectures stated",
+        "work": "A. Weil, Numbers of solutions of equations in finite fields, Bull. Amer. Math. Soc. 55 (1949)",
+        "people": [
+          "Andre Weil"
+        ],
+        "description": "Weil states the conjectured zeta-function properties for varieties over finite fields.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, venue and year of the work",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1090/s0002-9904-1949-09219-4",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 1960,
+        "precision": "year",
+        "label": "Dwork proves rationality",
+        "work": "B. Dwork, On the rationality of the zeta function of an algebraic variety, Amer. J. Math. 82 (1960)",
+        "people": [
+          "Bernard Dwork"
+        ],
+        "description": "Dwork proves rationality of the zeta function by p-adic methods.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, venue and year of the work",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.2307/2372974",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Crossref verified both. Deligne 1974 and SGA 4 not opened; omitted.",
+    "pid": "P023",
+    "searchTerms": [
+      "Topology",
+      "Geometry",
+      "Number theory"
+    ]
+  },
+  {
+    "eventId": "E35",
+    "canonicalName": "Unipotent flows and the Oppenheim conjecture",
+    "aliases": [],
+    "phases": [],
+    "milestones": [],
+    "people": [],
+    "notes": "Crossref search for Margulis 1987 C. R. note found only a 1989 Banach Center item and a 1993 chapter, not the 1987 note; Ratner 1991 (doi 10.2307/2944357, Annals 134) is verified but is a later general theorem, not placed. No milestone verified; left empty.",
+    "searchedSources": [
+      "Crossref bibliographic search for Margulis 1987 note (not found)",
+      "Crossref record for Ratner 1991 Annals 134",
+      "en.wikipedia.org Oppenheim conjecture (no usable text extracted)"
+    ],
+    "pid": "P027",
+    "searchTerms": [
+      "Analysis",
+      "Algebra",
+      "Number theory"
+    ]
+  },
+  {
+    "eventId": "E37",
+    "canonicalName": "Random matrix statistics and the zeros of zeta",
+    "aliases": [
+      "Random matrices and zeta zeros"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1973,
+        "precision": "year",
+        "label": "Montgomery pair correlation",
+        "work": "H. L. Montgomery, The pair correlation of zeros of the zeta function, Proc. Sympos. Pure Math. 24 (1973)",
+        "people": [
+          "Hugh Montgomery"
+        ],
+        "description": "Montgomery obtains the pair correlation of zeta zeros, later matched with random matrix statistics.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, venue and year of the work",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1090/pspum/024/9944",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The link to random unitary matrices (Dyson) is not in the record opened."
+      },
+      {
+        "role": "key_development",
+        "year": 1987,
+        "precision": "year",
+        "label": "Odlyzko numerical spacings",
+        "work": "A. M. Odlyzko, On the distribution of spacings between zeros of the zeta function, Math. Comp. 48 (1987)",
+        "people": [
+          "Andrew Odlyzko"
+        ],
+        "description": "Odlyzko's computations support the random matrix prediction for zero spacings.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, venue and year of the work",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1090/s0025-5718-1987-0866115-0",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 2000,
+        "precision": "year",
+        "label": "Keating-Snaith moments",
+        "work": "J. P. Keating and N. C. Snaith, Random matrix theory and zeta(1/2+it), Comm. Math. Phys. 214 (2000)",
+        "people": [
+          "Jonathan Keating",
+          "Nina Snaith"
+        ],
+        "description": "They use characteristic polynomials of random unitary matrices to predict moments of zeta.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, venue and year of the work",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/s002200000261",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Crossref verified three works. Katz-Sarnak 1999 not opened; omitted.",
+    "pid": "P029",
+    "searchTerms": [
+      "Physics",
+      "Number theory"
+    ]
+  },
+  {
+    "eventId": "E38",
+    "canonicalName": "Furstenberg: ergodic theory proves Szemeredi's theorem",
+    "aliases": [
+      "Furstenberg ergodic Szemeredi"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1975,
+        "precision": "year",
+        "label": "Szemeredi's combinatorial theorem",
+        "work": "E. Szemeredi, On sets of integers containing no k elements in arithmetic progression, Acta Arith. 27 (1975)",
+        "people": [
+          "Endre Szemeredi"
+        ],
+        "description": "Szemeredi's combinatorial proof of the density theorem Furstenberg reproved.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, venue and year of the work",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.4064/aa-27-1-199-245",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "first_statement",
+        "year": 1977,
+        "precision": "year",
+        "label": "Furstenberg's ergodic proof",
+        "work": "H. Furstenberg, Ergodic behavior of diagonal measures and a theorem of Szemeredi on arithmetic progressions, J. Analyse Math. 31 (1977)",
+        "people": [
+          "Hillel Furstenberg"
+        ],
+        "description": "Furstenberg translates Szemeredi's theorem into multiple recurrence and proves it.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, venue and year of the work",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/bf02813304",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Same paper is statement and application of the correspondence."
+      }
+    ],
+    "people": [],
+    "notes": "Crossref verified both. 1981 book DOI returned no Crossref record; omitted.",
+    "pid": "P030",
+    "searchTerms": [
+      "Analysis",
+      "Combinatorics",
+      "Number theory"
+    ]
+  }
+]

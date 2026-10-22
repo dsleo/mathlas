@@ -1,0 +1,26 @@
+[
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_25.json",
+  "location": "[5].milestones[5]",
+  "message": "Invalid endYear"
+ },
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_25.json",
+  "location": "[6].people[0].works[0]",
+  "message": "Invalid work citation, year, URL, or relevance"
+ },
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_25.json",
+  "location": "[6].people[0].works[1]",
+  "message": "Invalid work citation, year, URL, or relevance"
+ },
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_25.json",
+  "location": "[9].people[2].works[0]",
+  "message": "Invalid work citation, year, URL, or relevance"
+ }
+]

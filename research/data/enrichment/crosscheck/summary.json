@@ -1,0 +1,840 @@
+{
+ "method": "Independent bibliographic pass (Crossref/arXiv/MacTutor/Wikipedia) over 400 events, compared with the source-first milestone records. A milestone year within one year of any source-first year counts as corroborated. Others are either new facts or conflicts to adjudicate; none has been merged into the explorer.",
+ "totals": {
+  "year-corroborated": 525,
+  "not-in-source-first": 40,
+  "undated": 8
+ },
+ "eventsChecked": 37,
+ "unmatched": [
+  {
+   "pid": "P012",
+   "eventId": "E17",
+   "name": "Commutative algebra from invariant theory and ideals",
+   "role": "precursor",
+   "year": 1868,
+   "label": "Gordan's finiteness for binary forms",
+   "confidence": "medium",
+   "sourceFirstYears": [
+    1871,
+    1890,
+    1893,
+    1905,
+    1921,
+    1929,
+    1930,
+    1958
+   ],
+   "evidence": [
+    "https://api.crossref.org/works/10.1515/crll.1868.69.323"
+   ],
+   "file": "milestones54.json"
+  },
+  {
+   "pid": "P052",
+   "eventId": "E60",
+   "name": "Computer science separates from mathematics",
+   "role": "consolidation",
+   "year": 1974,
+   "label": "Knuth: Computer science and its relation to mathematics",
+   "confidence": "medium",
+   "sourceFirstYears": [
+    1936,
+    1937,
+    1953,
+    1959,
+    1962,
+    1967
+   ],
+   "evidence": [
+    "https://doi.org/10.1080/00029890.1974.11993556"
+   ],
+   "file": "milestones55.json"
+  },
+  {
+   "pid": "P055",
+   "eventId": "E63",
+   "name": "K-theory and Grothendieck-Riemann-Roch: algebraic geometry enters topology",
+   "role": "key_development",
+   "year": 1961,
+   "label": "Atiyah-Hirzebruch: Vector bundles and homogeneous spaces",
+   "confidence": "high",
+   "sourceFirstYears": [
+    1954,
+    1957,
+    1958,
+    1959,
+    1964
+   ],
+   "evidence": [
+    "https://doi.org/10.1090/pspum/003/0139181"
+   ],
+   "file": "milestones55.json"
+  },
+  {
+   "pid": "P058",
+   "eventId": "E66",
+   "name": "Geometric Langlands and its physics",
+   "role": "key_development",
+   "year": 2021,
+   "label": "Geometrization of local Langlands on the Fargues-Fontaine curve",
+   "confidence": "medium",
+   "sourceFirstYears": [
+    1967,
+    1983,
+    1987,
+    2007,
+    2024
+   ],
+   "evidence": [
+    "https://arxiv.org/abs/2102.13459"
+   ],
+   "file": "milestones56.json"
+  },
+  {
+   "pid": "P063",
+   "eventId": "E73",
+   "name": "Computers enter proof: four colour theorem and the Kepler conjecture",
+   "role": "key_development",
+   "year": 2017,
+   "label": "Formal proof of the Kepler conjecture",
+   "confidence": "medium",
+   "sourceFirstYears": [
+    1969,
+    1976,
+    1977,
+    1989,
+    1997,
+    2005
+   ],
+   "evidence": [
+    "https://doi.org/10.1017/fmp.2017.1"
+   ],
+   "file": "milestones56.json"
+  },
+  {
+   "pid": "P095",
+   "eventId": "B29",
+   "name": "Forcing: independence results enter algebra and analysis",
+   "role": "key_development",
+   "year": 1974,
+   "label": "Whitehead problem independent of ZFC",
+   "confidence": "medium",
+   "sourceFirstYears": [
+    1940,
+    1963,
+    1964,
+    1966,
+    1980
+   ],
+   "evidence": [
+    "https://api.crossref.org/works/10.1007/bf02757281"
+   ],
+   "file": "milestones58.json"
+  },
+  {
+   "pid": "P200",
+   "eventId": "E22/MB5/WB2",
+   "name": "Computability theory (Church-Turing)",
+   "role": "precursor",
+   "year": 1931,
+   "label": "Goedel's incompleteness paper",
+   "confidence": "medium",
+   "sourceFirstYears": [
+    1933,
+    1936,
+    1937,
+    1952
+   ],
+   "evidence": [
+    "https://api.crossref.org/works/10.1007/bf01700692"
+   ],
+   "file": "milestones59.json"
+  },
+  {
+   "pid": "P285",
+   "eventId": "MB43",
+   "name": "Global analysis and mathematical economics",
+   "role": "consolidation",
+   "year": 1981,
+   "label": "Global analysis and economics (Handbook chapter)",
+   "confidence": "high",
+   "sourceFirstYears": [
+    1954,
+    1959,
+    1970,
+    1973,
+    1974,
+    1985
+   ],
+   "evidence": [
+    "https://api.crossref.org/works/10.1016/s1573-4382(81)01012-6"
+   ],
+   "file": "milestones62.json"
+  },
+  {
+   "pid": "P354",
+   "eventId": "E06/W87",
+   "name": "Graph theory birth",
+   "role": "key_development",
+   "year": 1930,
+   "label": "Kuratowski's planarity characterisation",
+   "confidence": "high",
+   "sourceFirstYears": [
+    1736,
+    1847,
+    1852,
+    1857,
+    1878,
+    1936
+   ],
+   "evidence": [
+    "https://api.crossref.org/works/10.4064/fm-15-1-271-283"
+   ],
+   "file": "milestones63.json"
+  },
+  {
+   "pid": "P420",
+   "eventId": "H3",
+   "name": "Combinatorial group theory from topology and geometry",
+   "role": "key_development",
+   "year": 1927,
+   "label": "Schreier on subgroups of free groups",
+   "confidence": "medium",
+   "sourceFirstYears": [
+    1856,
+    1882,
+    1895,
+    1908,
+    1911,
+    1924,
+    1959,
+    1966
+   ],
+   "evidence": [
+    "https://api.crossref.org/works/10.1007/bf02952517"
+   ],
+   "file": "milestones65.json"
+  },
+  {
+   "pid": "P432",
+   "eventId": "H19",
+   "name": "Complex numbers as plane points and as real two-dimensional algebra",
+   "role": "precursor",
+   "year": 1797,
+   "label": "Wessel's memoir presented to the Danish Academy",
+   "confidence": "medium",
+   "sourceFirstYears": [
+    1685,
+    1799,
+    1806,
+    1831,
+    1833,
+    1837
+   ],
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Complex_plane"
+   ],
+   "file": "milestones66.json"
+  },
+  {
+   "pid": "P449",
+   "eventId": "H45",
+   "name": "Projective geometry from Renaissance perspective",
+   "role": "precursor",
+   "year": 1425,
+   "label": "Brunelleschi investigates perspective geometry",
+   "confidence": "low",
+   "sourceFirstYears": [
+    1413,
+    1435,
+    1474,
+    1600,
+    1639,
+    1822
+   ],
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Projective_geometry"
+   ],
+   "file": "milestones66.json"
+  },
+  {
+   "pid": "P488",
+   "eventId": "P43",
+   "name": "Kervaire invariant one problem solved by equivariant homotopy",
+   "role": "key_development",
+   "year": 2009,
+   "label": "Nonexistence of Kervaire invariant one elements (dimension >126)",
+   "confidence": "medium",
+   "sourceFirstYears": [
+    1950,
+    1960,
+    1963,
+    1965,
+    1969,
+    1984,
+    2016,
+    2024
+   ],
+   "evidence": [
+    "https://arxiv.org/abs/0908.3724",
+    "https://api.crossref.org/works/10.4007/annals.2016.184.1.1"
+   ],
+   "file": "milestones68.json"
+  },
+  {
+   "pid": "P540",
+   "eventId": "Q39",
+   "name": "Probabilistic construction of Liouville conformal field theory",
+   "role": "first_statement",
+   "year": 2014,
+   "label": "Liouville quantum gravity on the sphere",
+   "confidence": "medium",
+   "sourceFirstYears": [
+    1981,
+    1985,
+    2016,
+    2018,
+    2020
+   ],
+   "evidence": [
+    "https://arxiv.org/abs/1410.7318"
+   ],
+   "file": "milestones69.json"
+  },
+  {
+   "pid": "P080",
+   "eventId": "B14",
+   "name": "Landau damping: plasma physics to nonlinear PDE",
+   "role": "key_development",
+   "year": 2009,
+   "label": "Mouhot-Villani nonlinear Landau damping preprint",
+   "confidence": "high",
+   "sourceFirstYears": [
+    1946,
+    1961,
+    1962,
+    1964,
+    2011,
+    2016
+   ],
+   "evidence": [
+    "https://arxiv.org/abs/0904.2760",
+    "https://api.crossref.org/works/10.1007/s11511-011-0068-9"
+   ],
+   "file": "milestones70.json"
+  },
+  {
+   "pid": "P114",
+   "eventId": "WA63/MA58",
+   "name": "Fermat number theory",
+   "role": "key_development",
+   "year": 1736,
+   "label": "First published proof of little theorem",
+   "confidence": "medium",
+   "sourceFirstYears": [
+    1621,
+    1640,
+    1670,
+    1679,
+    1741
+   ],
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Fermat%27s_little_theorem"
+   ],
+   "file": "milestones71.json"
+  },
+  {
+   "pid": "P118",
+   "eventId": "WA70/MA93",
+   "name": "Euler-Monge differential geometry of surfaces",
+   "role": "precursor",
+   "year": 1731,
+   "label": "Clairaut on curves of double curvature",
+   "confidence": "medium",
+   "sourceFirstYears": [
+    1729,
+    1767,
+    1772,
+    1795,
+    1828
+   ],
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Alexis_Clairaut"
+   ],
+   "file": "milestones71.json"
+  },
+  {
+   "pid": "P118",
+   "eventId": "WA70/MA93",
+   "name": "Euler-Monge differential geometry of surfaces",
+   "role": "key_development",
+   "year": 1785,
+   "label": "Monge memoir on generation of surfaces",
+   "confidence": "low",
+   "sourceFirstYears": [
+    1729,
+    1767,
+    1772,
+    1795,
+    1828
+   ],
+   "evidence": [
+    "https://mathshistory.st-andrews.ac.uk/Biographies/Monge/"
+   ],
+   "file": "milestones71.json"
+  },
+  {
+   "pid": "P125",
+   "eventId": "WA28/MA36",
+   "name": "Sharaf al-Din al-Tusi",
+   "role": "key_development",
+   "year": 1209,
+   "label": "Treatise on equations (al-Mu'adalat) on cubic roots",
+   "confidence": "low",
+   "sourceFirstYears": [
+    1070,
+    1165,
+    1974,
+    1989
+   ],
+   "evidence": [
+    "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Tusi_Sharaf/"
+   ],
+   "file": "milestones72.json"
+  },
+  {
+   "pid": "P129",
+   "eventId": "WA22/MA42",
+   "name": "Kerala series",
+   "role": "consolidation",
+   "year": 1530,
+   "label": "Yuktibhasa gives proofs",
+   "confidence": "low",
+   "sourceFirstYears": [
+    1400,
+    1501,
+    1550,
+    1834,
+    1973
+   ],
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Kerala_school_of_astronomy_and_mathematics"
+   ],
+   "file": "milestones72.json"
+  },
+  {
+   "pid": "P132",
+   "eventId": "MA90/WA89",
+   "name": "Least squares",
+   "role": "key_development",
+   "year": 1822,
+   "label": "Gauss optimality of least squares",
+   "confidence": "low",
+   "sourceFirstYears": [
+    1795,
+    1801,
+    1805,
+    1808,
+    1809,
+    1863,
+    1868
+   ],
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Least_squares"
+   ],
+   "file": "milestones72.json"
+  },
+  {
+   "pid": "P135",
+   "eventId": "MA84/WA67",
+   "name": "Lagrange analytical mechanics",
+   "role": "consolidation",
+   "year": 1811,
+   "label": "Expanded second edition",
+   "confidence": "medium",
+   "sourceFirstYears": [
+    1736,
+    1782,
+    1788,
+    1834
+   ],
+   "evidence": [
+    "https://en.wikipedia.org/wiki/M%C3%A9canique_analytique"
+   ],
+   "file": "milestones72.json"
+  },
+  {
+   "pid": "P149",
+   "eventId": "MA25",
+   "name": "Numerical solution of polynomial equations in China (Ruffini-Horner)",
+   "role": "precursor",
+   "year": 600,
+   "label": "Wang Xiaotong's cubic approximation",
+   "confidence": "low",
+   "sourceFirstYears": [
+    620,
+    1050,
+    1247,
+    1303,
+    1804,
+    1819,
+    1973
+   ],
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Horner%27s_method"
+   ],
+   "file": "milestones73.json"
+  },
+  {
+   "pid": "P155",
+   "eventId": "MA28",
+   "name": "Binomial coefficient triangle in China",
+   "role": "precursor",
+   "year": 1000,
+   "label": "Jia Xian and the triangle (11th century)",
+   "confidence": "low",
+   "sourceFirstYears": [
+    -250,
+    975,
+    1050,
+    1261,
+    1303,
+    1665,
+    1708
+   ],
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Pascal%27s_triangle"
+   ],
+   "file": "milestones74.json"
+  },
+  {
+   "pid": "P175",
+   "eventId": "WA3",
+   "name": "Pingala: combinatorics of poetic meters",
+   "role": "first_statement",
+   "year": -250,
+   "label": "Chandahshastra (c. 3rd-2nd c. BCE)",
+   "confidence": "low",
+   "sourceFirstYears": [
+    -300,
+    600,
+    950,
+    1665,
+    1708,
+    1863
+   ],
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Pingala"
+   ],
+   "file": "milestones75.json"
+  },
+  {
+   "pid": "P176",
+   "eventId": "MA14",
+   "name": "Babylonian astronomical parameters enter Greek astronomy",
+   "role": "key_development",
+   "year": -140,
+   "label": "Hipparchus tests lunar models on Babylonian data",
+   "confidence": "low",
+   "sourceFirstYears": [
+    -432,
+    -175,
+    -147,
+    150,
+    1900,
+    1975
+   ],
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Hipparchus"
+   ],
+   "file": "milestones75.json"
+  },
+  {
+   "pid": "P185",
+   "eventId": "WA56",
+   "name": "De Moivre: chances and trigonometry/complex fusion",
+   "role": "key_development",
+   "year": 1733,
+   "label": "Normal approximation to the binomial",
+   "confidence": "medium",
+   "sourceFirstYears": [
+    1707,
+    1711,
+    1718,
+    1722,
+    1748
+   ],
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Abraham_de_Moivre"
+   ],
+   "file": "milestones76.json"
+  },
+  {
+   "pid": "P189",
+   "eventId": "WA11",
+   "name": "Menelaus: spherical trigonometry",
+   "role": "first_statement",
+   "year": 100,
+   "label": "Sphaerica",
+   "confidence": "low",
+   "sourceFirstYears": [
+    -330,
+    -100,
+    98,
+    850,
+    1758,
+    2017
+   ],
+   "evidence": [
+    "https://mathshistory.st-andrews.ac.uk/Biographies/Menelaus/",
+    "https://en.wikipedia.org/wiki/Menelaus_of_Alexandria"
+   ],
+   "file": "milestones76.json"
+  },
+  {
+   "pid": "P190",
+   "eventId": "MA80",
+   "name": "Euler: complex logarithms and exponentials",
+   "role": "precursor",
+   "year": 1727,
+   "label": "ln(-1)=pi i found",
+   "confidence": "medium",
+   "sourceFirstYears": [
+    1702,
+    1714,
+    1748,
+    1751
+   ],
+   "evidence": [
+    "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/"
+   ],
+   "file": "milestones76.json"
+  },
+  {
+   "pid": "P234",
+   "eventId": "MB9/WB111",
+   "name": "Von Neumann algebras",
+   "role": "key_development",
+   "year": 1943,
+   "label": "On rings of operators IV",
+   "confidence": "medium",
+   "sourceFirstYears": [
+    1930,
+    1936,
+    1957
+   ],
+   "evidence": [
+    "https://doi.org/10.2307/1969107",
+    "https://doi.org/10.1090/s0002-9947-1937-1501899-4"
+   ],
+   "file": "milestones79.json"
+  },
+  {
+   "pid": "P250",
+   "eventId": "MB120",
+   "name": "Combinatorial game theory",
+   "role": "first_statement",
+   "year": 1936,
+   "label": "Sprague: Über mathematische Kampfspiele",
+   "confidence": "low",
+   "sourceFirstYears": [
+    1901,
+    1930,
+    1976,
+    1982
+   ],
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sprague%E2%80%93Grundy_theorem"
+   ],
+   "file": "milestones79.json"
+  },
+  {
+   "pid": "P250",
+   "eventId": "MB120",
+   "name": "Combinatorial game theory",
+   "role": "key_development",
+   "year": 1939,
+   "label": "Grundy: Mathematics and games",
+   "confidence": "low",
+   "sourceFirstYears": [
+    1901,
+    1930,
+    1976,
+    1982
+   ],
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Sprague%E2%80%93Grundy_theorem"
+   ],
+   "file": "milestones79.json"
+  },
+  {
+   "pid": "P253",
+   "eventId": "WB86",
+   "name": "Computer algebra and Groebner bases",
+   "role": "key_development",
+   "year": 1975,
+   "label": "Cylindrical algebraic decomposition",
+   "confidence": "high",
+   "sourceFirstYears": [
+    1964,
+    1970,
+    1971,
+    1985,
+    1999
+   ],
+   "evidence": [
+    "https://doi.org/10.1007/3-540-07407-4_17"
+   ],
+   "file": "milestones79.json"
+  },
+  {
+   "pid": "P260",
+   "eventId": "WB104",
+   "name": "Operator K-theory and KK-theory",
+   "role": "first_statement",
+   "year": 1975,
+   "label": "Kasparov's K-homology of elliptic operators",
+   "confidence": "medium",
+   "sourceFirstYears": [
+    1973,
+    1977,
+    1979,
+    1980,
+    1983,
+    1986,
+    1987,
+    1988
+   ],
+   "evidence": [
+    "https://api.crossref.org/works/10.1070/im1975v009n04abeh001497"
+   ],
+   "file": "milestones80.json"
+  },
+  {
+   "pid": "P267",
+   "eventId": "WB18",
+   "name": "Cellular automata and self-reproducing machines",
+   "role": "precursor",
+   "year": 1949,
+   "label": "Von Neumann lectures on self-reproducing automata",
+   "confidence": "low",
+   "sourceFirstYears": [
+    1951,
+    1962,
+    1966,
+    1968,
+    1969,
+    2002
+   ],
+   "evidence": [
+    "https://en.wikipedia.org/wiki/Von_Neumann_universal_constructor"
+   ],
+   "file": "milestones80.json"
+  },
+  {
+   "pid": "P272",
+   "eventId": "WB105",
+   "name": "Heat equation proof of index theorem",
+   "role": "key_development",
+   "year": 1983,
+   "label": "Getzler's supersymmetric proof",
+   "confidence": "medium",
+   "sourceFirstYears": [
+    1963,
+    1973,
+    1986,
+    1992
+   ],
+   "evidence": [
+    "https://api.crossref.org/works/10.1007/bf01210843"
+   ],
+   "file": "milestones80.json"
+  },
+  {
+   "pid": "P370",
+   "eventId": "M54/W33",
+   "name": "Hilbert's programme",
+   "role": "consolidation",
+   "year": 1928,
+   "label": "Grundzuege der theoretischen Logik",
+   "confidence": "low",
+   "sourceFirstYears": [
+    1900,
+    1905,
+    1922,
+    1931,
+    1934,
+    1936
+   ],
+   "evidence": [
+    "https://plato.stanford.edu/entries/hilbert-program/"
+   ],
+   "file": "milestones82.json"
+  },
+  {
+   "pid": "P389",
+   "eventId": "W19/M11",
+   "name": "p-adic numbers",
+   "role": "first_statement",
+   "year": 1897,
+   "label": "Hensel invents p-adic numbers",
+   "confidence": "low",
+   "sourceFirstYears": [
+    1899,
+    1908,
+    1913,
+    1916,
+    1923
+   ],
+   "evidence": [
+    "https://mathshistory.st-andrews.ac.uk/Biographies/Hensel/",
+    "https://en.wikipedia.org/wiki/P-adic_number"
+   ],
+   "file": "milestones83.json"
+  },
+  {
+   "pid": "P389",
+   "eventId": "W19/M11",
+   "name": "p-adic numbers",
+   "role": "key_development",
+   "year": 1921,
+   "label": "Hasse local-global principle",
+   "confidence": "low",
+   "sourceFirstYears": [
+    1899,
+    1908,
+    1913,
+    1916,
+    1923
+   ],
+   "evidence": [
+    "https://mathshistory.st-andrews.ac.uk/Biographies/Hensel/"
+   ],
+   "file": "milestones83.json"
+  },
+  {
+   "pid": "P459",
+   "eventId": "H75",
+   "name": "Trigonometry from astronomy: Hipparchus and chord tables",
+   "role": "first_statement",
+   "year": -150,
+   "label": "Hipparchus' table of chords",
+   "confidence": "low",
+   "sourceFirstYears": [
+    -330,
+    -140,
+    100,
+    150,
+    499,
+    1250,
+    1595
+   ],
+   "evidence": [
+    "https://mathshistory.st-andrews.ac.uk/Biographies/Hipparchus/",
+    "https://en.wikipedia.org/wiki/Hipparchus"
+   ],
+   "file": "milestones86.json"
+  }
+ ]
+}

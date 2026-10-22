@@ -1,0 +1,26 @@
+[
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_35.json",
+  "location": "[2].people[0]",
+  "message": "Expected 1\u20133 works; found 4"
+ },
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_35.json",
+  "location": "[2].people[2]",
+  "message": "Invalid person name, role, or biography URL"
+ },
+ {
+  "level": "warning",
+  "file": "data/collection/enrichment/sourcefirst/A_35.json",
+  "location": "[3]",
+  "message": "No first_statement milestone; explain source gap in notes"
+ },
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_35.json",
+  "location": "[4].people[0].works[0]",
+  "message": "Invalid work citation, year, URL, or relevance"
+ }
+]

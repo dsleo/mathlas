@@ -1,0 +1,143 @@
+[
+ {
+  "pid": "P347",
+  "eventId": "WC78",
+  "name": "Quantum error correction and fault tolerance",
+  "type": "birth-by-fusion",
+  "from": [
+   "coding theory",
+   "quantum mechanics"
+  ],
+  "to": [
+   "quantum information"
+  ],
+  "summary": "Quantum codes and the threshold theorem showed reliable quantum computation is possible with noisy gates."
+ },
+ {
+  "pid": "P516",
+  "eventId": "P74",
+  "name": "Motivic integration",
+  "type": "birth-by-fusion",
+  "from": [
+   "algebraic geometry",
+   "p-adic integration (number theory)",
+   "model theory"
+  ],
+  "to": [
+   "algebraic geometry"
+  ],
+  "summary": "Measures on arc spaces are valued in a Grothendieck ring of varieties, generalising p-adic integration with model-theoretic tools."
+ },
+ {
+  "pid": "P543",
+  "eventId": "Q44",
+  "name": "Floer homology with Morava K-theory proves Arnold conjecture over any ring",
+  "type": "technique-transfer",
+  "from": [
+   "chromatic stable homotopy theory (Morava K-theory)"
+  ],
+  "to": [
+   "symplectic topology (Arnold conjecture)"
+  ],
+  "summary": "Floer's orbit-counting method was combined with chromatic homotopy theory to count fixed points of Hamiltonian diffeomorphisms using generalised cohomology, proving Arnold's conjecture in cases classical Floer theory could not reach."
+ },
+ {
+  "pid": "P548",
+  "eventId": "Q56",
+  "name": "Feynman periods and motives",
+  "type": "dictionary-analogy",
+  "from": [
+   "quantum field theory (Feynman integrals)",
+   "motivic algebraic geometry",
+   "number theory (multiple zeta values)"
+  ],
+  "to": [
+   "periods of Feynman graphs"
+  ],
+  "summary": "Particle-collision amplitudes were found to be periods of motives, and not all are multiple zeta values, prompting a search for an underlying Galois-type symmetry."
+ },
+ {
+  "pid": "P038",
+  "eventId": "E46",
+  "name": "Stability theory in diophantine geometry (Hrushovski)",
+  "type": "technique-transfer",
+  "from": [
+   "Logic & foundations"
+  ],
+  "to": [
+   "Number theory"
+  ],
+  "summary": "Stability-theoretic results about definable groups prove the Mordell-Lang conjecture for function fields and give a model-theoretic proof of Manin-Mumford."
+ },
+ {
+  "pid": "P077",
+  "eventId": "B11",
+  "name": "A^1-homotopy theory and motivic cohomology",
+  "type": "technique-transfer",
+  "from": [
+   "Topology"
+  ],
+  "to": [
+   "Geometry"
+  ],
+  "summary": "Homotopy theory is rebuilt over schemes with the affine line as the interval, giving motivic cohomology and the proof of the Milnor conjecture."
+ },
+ {
+  "pid": "P337",
+  "eventId": "WC3",
+  "name": "SYZ conjecture",
+  "type": "import-from-outside",
+  "from": [
+   "string theory (T-duality)",
+   "differential geometry (special Lagrangian fibrations)"
+  ],
+  "to": [
+   "mirror symmetry / Calabi-Yau geometry"
+  ],
+  "summary": "Mirror pairs were conjectured to be dual special Lagrangian torus fibrations, giving a geometric picture of mirror symmetry."
+ },
+ {
+  "pid": "P340",
+  "eventId": "WC87",
+  "name": "Learning with errors and lattice cryptography",
+  "type": "technique-transfer",
+  "from": [
+   "geometry of numbers (lattices)",
+   "cryptography",
+   "quantum computation"
+  ],
+  "to": [
+   "lattice-based cryptography"
+  ],
+  "summary": "Regev's LWE gave worst-case to average-case reductions and a quantum reduction from lattice problems."
+ },
+ {
+  "pid": "P075",
+  "eventId": "B09",
+  "name": "Deformation quantization of Poisson manifolds",
+  "type": "import-from-outside",
+  "from": [
+   "Physics"
+  ],
+  "to": [
+   "Algebra",
+   "Geometry"
+  ],
+  "summary": "The passage from classical to quantum observables is solved for every Poisson manifold by a formality theorem using string-theory-inspired graph integrals."
+ },
+ {
+  "pid": "P335",
+  "eventId": "WC79",
+  "name": "Kitaev's topological quantum computation",
+  "type": "birth-by-fusion",
+  "from": [
+   "topological quantum field theory / modular tensor categories",
+   "condensed-matter physics (anyons)",
+   "quantum computation"
+  ],
+  "to": [
+   "topological quantum computation"
+  ],
+  "summary": "Fault-tolerant quantum computation by anyons used modular tensor categories and links to Jones-type invariants."
+ }
+]

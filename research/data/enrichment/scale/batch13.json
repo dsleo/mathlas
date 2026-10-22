@@ -1,0 +1,142 @@
+[
+ {
+  "pid": "P373",
+  "eventId": "M6/W25",
+  "name": "Arithmetization and construction of the reals",
+  "type": "reification",
+  "from": [
+   "analysis",
+   "arithmetic",
+   "set theory"
+  ],
+  "to": [
+   "foundations of analysis"
+  ],
+  "summary": "Weierstrass, Cantor and Dedekind defined real numbers from rationals via limits or cuts, removing reliance on geometric intuition."
+ },
+ {
+  "pid": "P053",
+  "eventId": "E61",
+  "name": "Complex analysis and the primes: Riemann's zeta function to the prime number theorem",
+  "type": "technique-transfer",
+  "from": [
+   "Analysis"
+  ],
+  "to": [
+   "Number theory"
+  ],
+  "summary": "The zeta function is continued to the complex plane and its zeros are tied to the distribution of primes, so function-theoretic facts (no zeros on Re s = 1) give the asymptotic law."
+ },
+ {
+  "pid": "P452",
+  "eventId": "H50",
+  "name": "Vortex atoms: knot theory from the physics of ether",
+  "type": "import-from-outside",
+  "from": [
+   "hydrodynamics / atomic theory",
+   "chemical graph notation"
+  ],
+  "to": [
+   "knot theory"
+  ],
+  "summary": "Thomson's proposal that atoms are knotted vortex tubes motivated Tait's classification of knots and links, helped by Kirkman and Little, giving the first knot tables."
+ },
+ {
+  "pid": "P448",
+  "eventId": "H44",
+  "name": "Beltrami and Klein models: differential geometry proves relative consistency",
+  "type": "technique-transfer",
+  "from": [
+   "differential geometry (surfaces)",
+   "projective geometry"
+  ],
+  "to": [
+   "non-Euclidean geometry"
+  ],
+  "summary": "Beltrami realised hyperbolic geometry on a surface in Euclidean space and Klein completed models using Cayley's distance, reducing consistency of non-Euclidean geometry to Euclidean."
+ },
+ {
+  "pid": "P355",
+  "eventId": "W71/M59",
+  "name": "Tensor calculus (Ricci)",
+  "type": "birth-by-abstraction",
+  "from": [
+   "Riemannian geometry",
+   "invariant theory"
+  ],
+  "to": [
+   "differential geometry"
+  ],
+  "summary": "Christoffel and Ricci developed coordinate-independent calculus of tensors, systematised by Ricci and Levi-Civita."
+ },
+ {
+  "pid": "P358",
+  "eventId": "E15/M16/W9",
+  "name": "Lie theory",
+  "type": "birth-by-fusion",
+  "from": [
+   "differential equations",
+   "geometry",
+   "group theory"
+  ],
+  "to": [
+   "Lie theory"
+  ],
+  "summary": "Lie combined contact transformations with integration theory of PDE to build continuous transformation groups and infinitesimal generators."
+ },
+ {
+  "pid": "P365",
+  "eventId": "E21/M36/W52",
+  "name": "Ergodic theory",
+  "type": "import-from-outside",
+  "from": [
+   "statistical mechanics",
+   "measure theory",
+   "dynamical systems"
+  ],
+  "to": [
+   "ergodic theory"
+  ],
+  "summary": "Boltzmann's ergodic hypothesis became a rigorous theorem when Birkhoff and von Neumann used Lebesgue measure and Hilbert space."
+ },
+ {
+  "pid": "P010",
+  "eventId": "E14",
+  "name": "Klein's Erlangen programme: geometry as invariants of a group",
+  "type": "dictionary-analogy",
+  "from": [
+   "Algebra"
+  ],
+  "to": [
+   "Geometry"
+  ],
+  "summary": "Each geometry is characterised by a transformation group and its invariants, giving a dictionary between geometric and algebraic statements and ordering the projective, affine, Euclidean and non-Euclidean geometries."
+ },
+ {
+  "pid": "P100",
+  "eventId": "B34",
+  "name": "Deriving the Boltzmann equation from hard-sphere dynamics",
+  "type": "import-from-outside",
+  "from": [
+   "Physics"
+  ],
+  "to": [
+   "Analysis"
+  ],
+  "summary": "Hilbert's sixth-problem programme of deriving kinetic equations from Newtonian particle systems is carried to long times for hard spheres."
+ },
+ {
+  "pid": "P357",
+  "eventId": "E13/M8/W26",
+  "name": "Cantor's set theory",
+  "type": "birth-by-abstraction",
+  "from": [
+   "real analysis (trigonometric series)",
+   "number theory"
+  ],
+  "to": [
+   "set theory"
+  ],
+  "summary": "Cantor's study of exceptional sets for trigonometric series led to countability, uncountability of the reals, and then transfinite ordinals and cardinals."
+ }
+]

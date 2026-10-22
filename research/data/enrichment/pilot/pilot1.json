@@ -1,0 +1,306 @@
+[
+ {
+  "pid": "P367",
+  "name": "Dynamical systems from celestial mechanics",
+  "type": "birth-by-fusion",
+  "from": [
+   "celestial mechanics",
+   "topology",
+   "differential equations"
+  ],
+  "to": [
+   "dynamical systems"
+  ],
+  "summary": "Poincare studied orbits geometrically rather than by formulae, uncovering homoclinic phenomena in the three-body problem, and Birkhoff built on this.",
+  "currentDates": [
+   [
+    1881,
+    1890
+   ],
+   [
+    1892,
+    1899
+   ],
+   [
+    1927,
+    1927
+   ]
+  ],
+  "currentKeyWorks": [
+   "Poincare, Sur les courbes definies par une equation differentielle, 1881-86",
+   "Poincare, Les methodes nouvelles de la mecanique celeste, 1892-99",
+   "Birkhoff, Dynamical Systems, 1927",
+   "H. Poincare, Les methodes nouvelles de la mecanique celeste, 3 vols (1892-1899)",
+   "G. D. Birkhoff, Dynamical Systems, AMS Colloquium Publications 9 (1927)",
+   "S. Smale, Differentiable dynamical systems, Bull. Amer. Math. Soc. 73 (1967) 747-817"
+  ]
+ },
+ {
+  "pid": "P363",
+  "name": "Metric spaces (Frechet)",
+  "type": "birth-by-abstraction",
+  "from": [
+   "function-space analysis",
+   "point-set topology"
+  ],
+  "to": [
+   "general topology"
+  ],
+  "summary": "Frechet unified earlier function-space work by Cantor, Volterra, Arzela and Hadamard into abstract metric spaces.",
+  "currentDates": [
+   [
+    1906,
+    1906
+   ],
+   [
+    1906,
+    1910
+   ],
+   [
+    1914,
+    1914
+   ]
+  ],
+  "currentKeyWorks": [
+   "Frechet, Sur quelques points du calcul fonctionnel, 1906"
+  ]
+ },
+ {
+  "pid": "P026",
+  "name": "The Langlands programme: automorphic forms and Galois representations over number fields",
+  "type": "dictionary-analogy",
+  "from": [
+   "Analysis",
+   "Algebra"
+  ],
+  "to": [
+   "Number theory"
+  ],
+  "summary": "Galois representations are conjecturally matched with automorphic representations, linking arithmetic, representation theory and harmonic analysis.",
+  "currentDates": [
+   [
+    1967,
+    1970
+   ],
+   [
+    1970,
+    2010
+   ],
+   null
+  ],
+  "currentKeyWorks": [
+   "R. P. Langlands, letter to A. Weil (January 1967)",
+   "R. P. Langlands, Problems in the theory of automorphic forms, in Lectures in Modern Analysis and Applications III, Lecture Notes in Math. 170 (1970)",
+   "H. Jacquet and R. P. Langlands, Automorphic Forms on GL(2), Lecture Notes in Math. 114 (1970)",
+   "J. Tate, Fourier analysis in number fields and Hecke's zeta-functions (1950; in Cassels-Frohlich, Algebraic Number Theory, 1967)",
+   "M. Harris and R. Taylor, The Geometry and Cohomology of Some Simple Shimura Varieties, Annals of Math. Studies 151 (2001)",
+   "B. C. Ngo, Le lemme fondamental pour les algebres de Lie, Publ. Math. IHES 111 (2010) 1-169",
+   "Langlands, Letter to Weil (1967)",
+   "Langlands, Problems in the theory of automorphic forms (1970)"
+  ]
+ },
+ {
+  "pid": "P232",
+  "name": "Formal language theory",
+  "type": "import-from-outside",
+  "from": [
+   "linguistics",
+   "automata"
+  ],
+  "to": [
+   "formal language theory"
+  ],
+  "summary": "Grammar types were classified by automata.",
+  "currentDates": [
+   [
+    1956,
+    1959
+   ],
+   [
+    1959,
+    1959
+   ],
+   null
+  ],
+  "currentKeyWorks": [
+   "Chomsky, Three models for the description of language (1956)"
+  ]
+ },
+ {
+  "pid": "P406",
+  "name": "Frobenius method and singular ODE theory",
+  "type": "technique-transfer",
+  "from": [
+   "complex analysis",
+   "differential equations"
+  ],
+  "to": [
+   "differential equations"
+  ],
+  "summary": "Fuchs and Frobenius used series in the complex domain to solve linear ODEs with regular singular points.",
+  "currentDates": [
+   [
+    1865,
+    1866
+   ],
+   [
+    1866,
+    1873
+   ],
+   null
+  ],
+  "currentKeyWorks": [
+   "Fuchs, Zur Theorie der linearen Differentialgleichungen, 1866",
+   "Frobenius, Ueber die Integration der linearen Differentialgleichungen durch Reihen, 1873"
+  ]
+ },
+ {
+  "pid": "P159",
+  "name": "Cotes: logarithm of complex arguments",
+  "type": "dictionary-analogy",
+  "from": [
+   "logarithms",
+   "trigonometry"
+  ],
+  "to": [
+   "complex analysis"
+  ],
+  "summary": "Cotes showed log(cos+i sin)=i theta.",
+  "currentDates": [
+   "1714",
+   null,
+   null
+  ],
+  "currentKeyWorks": [
+   "Cotes, Harmonia Mensurarum (1714)"
+  ]
+ },
+ {
+  "pid": "P134",
+  "name": "Euclid's Elements",
+  "type": "reification",
+  "from": [
+   "Greek geometry",
+   "number theory",
+   "proportion theory"
+  ],
+  "to": [
+   "mathematics"
+  ],
+  "summary": "Results from earlier geometers were arranged as proofs from stated definitions, postulates and common notions in one treatise.",
+  "currentDates": [
+   [
+    -325,
+    -300
+   ],
+   [
+    -325,
+    -300
+   ],
+   [
+    -300,
+    -300
+   ]
+  ],
+  "currentKeyWorks": [
+   "Euclid, Elements (c. 300 BCE)"
+  ]
+ },
+ {
+  "pid": "P066",
+  "name": "Boolean algebra: logic as algebra, then topology (Boole to Stone)",
+  "type": "dictionary-analogy",
+  "from": [
+   "Algebra",
+   "Topology"
+  ],
+  "to": [
+   "Logic & foundations"
+  ],
+  "summary": "Propositional logic is treated as an algebra, and Stone's theorem gives a topological dictionary for it, anticipating duality methods in logic and model theory.",
+  "currentDates": [
+   [
+    1847,
+    1854
+   ],
+   [
+    1936,
+    1936
+   ],
+   [
+    1847,
+    1847
+   ]
+  ],
+  "currentKeyWorks": [
+   "G. Boole, The Mathematical Analysis of Logic (1847)",
+   "G. Boole, An Investigation of the Laws of Thought (1854)",
+   "M. H. Stone, The theory of representations for Boolean algebras, Trans. Amer. Math. Soc. 40 (1936) 37-111",
+   "Boole, Mathematical Analysis of Logic (1847)",
+   "Boole, An Investigation of the Laws of Thought, 1854",
+   "Schroeder, Vorlesungen ueber die Algebra der Logik, 1890-95"
+  ]
+ },
+ {
+  "pid": "P057",
+  "name": "Function-field Langlands: Drinfeld and Lafforgue",
+  "type": "technique-transfer",
+  "from": [
+   "Geometry"
+  ],
+  "to": [
+   "Number theory"
+  ],
+  "summary": "Moduli of Drinfeld modules and shtukas, objects of algebraic geometry over finite fields, are used to prove the Langlands correspondence for function fields.",
+  "currentDates": [
+   [
+    1967,
+    1974
+   ],
+   [
+    1974,
+    2002
+   ],
+   null
+  ],
+  "currentKeyWorks": [
+   "V. G. Drinfeld, Elliptic modules, Mat. Sb. 94 (1974) 594-627",
+   "V. G. Drinfeld, Two-dimensional l-adic representations of the fundamental group of a curve over a finite field and automorphic forms on GL(2), Amer. J. Math. 105 (1983) 85-114",
+   "L. Lafforgue, Chtoucas de Drinfeld et correspondance de Langlands, Invent. Math. 147 (2002) 1-241",
+   "Lafforgue, Chtoucas de Drinfeld et correspondance de Langlands, Invent. 2002"
+  ]
+ },
+ {
+  "pid": "P533",
+  "name": "Murmurations: machine learning and statistics reveal patterns in elliptic curves",
+  "type": "import-from-outside",
+  "from": [
+   "machine learning",
+   "statistics",
+   "number theory (L-functions, modular forms)"
+  ],
+  "to": [
+   "experimental arithmetic geometry"
+  ],
+  "summary": "Classifiers trained on elliptic-curve data and averages of Frobenius traces exposed oscillating patterns that were then explained for Dirichlet characters and modular forms.",
+  "currentDates": [
+   [
+    2020,
+    2022
+   ],
+   [
+    2023,
+    2023
+   ],
+   [
+    2023,
+    2023
+   ]
+  ],
+  "currentKeyWorks": [
+   "He-Lee-Oliver-Pozdnyakov arXiv:2204.10140",
+   "Zubrilina arXiv:2310.07681",
+   "Bober-Booker-Lee-Lowry-Duda arXiv:2310.07746"
+  ]
+ }
+]

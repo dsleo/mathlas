@@ -1,0 +1,79 @@
+[
+ {
+  "pid": "P248", "eventId": "MB99", "verdict": "not_found", "milestones": [],
+  "searched": [
+   "Wikipedia raw wikitext, Hodge theory (https://en.wikipedia.org/w/index.php?title=Hodge_theory&action=raw): history section covers 1928-1931 de Rham and the 1930s origins; no first application named.",
+   "zBMATH Open search 'Hodge harmonic integrals 1936' (https://api.zbmath.org/v1/document/_search): returned Hodge 1936 'The existence theorem for harmonic integrals' (a development of the theory, not an application to a target problem).",
+   "zBMATH Open search for Deligne-Griffiths-Morgan-Sullivan was not run for this event; not_found is provisional."
+  ]
+ },
+ {
+  "pid": "P485", "eventId": "P40", "verdict": "not_found", "milestones": [],
+  "searched": [
+   "Wikipedia raw wikitext, Noncommutative projective scheme (title lookup returned a Wikimedia error page; no article text read).",
+   "zBMATH Open search 'noncommutative projective scheme Artin Schelter Zhang' (https://api.zbmath.org/v1/document/_search): returned mostly later work (Artin 1992 'Geometry of quantum planes', 2006+ papers); no 1994-1996 application found."
+  ]
+ },
+ {
+  "pid": "P091", "eventId": "B25", "verdict": "not_found", "milestones": [],
+  "searched": [
+   "Wikipedia raw wikitext, Building (mathematics) (https://en.wikipedia.org/w/index.php?title=Building_(mathematics)&action=raw): Applications section names later uses (Mostow rigidity, Kac-Moody groups, hyperbolic groups) without dates for a first application.",
+   "zBMATH Open search 'buildings Tits 1974 rigidity' (https://api.zbmath.org/v1/document/_search): returned Ronan 2000/2004 and Eschenburg 2001, all after the event; no 1974-1980 application found."
+  ]
+ },
+ {
+  "pid": "P229", "eventId": "MB83/WB40", "verdict": "not_found", "milestones": [],
+  "searched": [
+   "Wikipedia raw wikitext, Topos (https://en.wikipedia.org/w/index.php?title=Topos&action=raw): history on Lawvere and Grothendieck; no dated first application named.",
+   "zBMATH Open search 'elementary topos Lawvere 1971' (https://api.zbmath.org/v1/document/_search): returned Johnstone 1974 and Bunge 1974 (topos-theoretic work, Souslin's hypothesis and associated sheaf functor); these are applications of topos theory to other problems and should be checked as candidates in a follow-up, but no year is confirmed by a history page here."
+  ]
+ },
+ {
+  "pid": "P119", "eventId": "WA7/MA11", "verdict": "not_found", "milestones": [],
+  "searched": [
+   "Wikipedia raw wikitext, Hydrostatics (https://en.wikipedia.org/w/index.php?title=Hydrostatics&action=raw): history credits Archimedes' principle to antiquity and Pascal 1647 for pressure transmission; no date for an application.",
+   "Wikipedia raw wikitext, Archimedes' principle (https://en.wikipedia.org/w/index.php?title=Archimedes%27_principle&action=raw): Archimedes credited with the principle; no dated first application.",
+   "MacTutor, Archimedes biography (https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/): On Floating Bodies lays out basic hydrostatics and the principle. This is a work that predates the event's first_statement of 1586 (Stevin); flagged for review of the first_statement entry, not promoted here as an application."
+  ]
+ },
+ {
+  "pid": "P391", "eventId": "W68", "verdict": "not_found", "milestones": [],
+  "searched": [
+   "Wikipedia raw wikitext, Peter-Weyl theorem (https://en.wikipedia.org/w/index.php?title=Peter%E2%80%93Weyl_theorem&action=raw): states the 1927 Peter-Weyl proof; no first application named.",
+   "zBMATH Open search 'Peter Weyl theorem compact groups 1927' (https://api.zbmath.org/v1/document/_search): returned Mackey 1992 and Coquand-Spitters 2005; no 1927-1935 application found."
+  ]
+ },
+ {
+  "pid": "P087", "eventId": "B21", "verdict": "not_found", "milestones": [],
+  "searched": [
+   "Wikipedia raw wikitext, Rational homotopy theory (https://en.wikipedia.org/w/index.php?title=Rational_homotopy_theory&action=raw): credits Sullivan 1977 and Quillen 1969; formality of compact Kähler manifolds cited to Félix-Oprea-Tanré, not to a dated application.",
+   "zBMATH Open search 'Real homotopy theory of Kähler manifolds' (https://api.zbmath.org/v1/document/_search): returned Deligne, Griffiths, Morgan, 'Real homotopy theory of Kähler manifolds', Invent. Math. 29 (1975), zbMATH 3488289, DOI 10.1007/BF01389853. This is a 1975 application of differential-form methods to Kähler manifolds, which would predate the 1977 first_statement; however, no history page read here credits it, so it is not promoted. Lead for follow-up.",
+   "MacTutor, Sullivan biography (https://mathshistory.st-andrews.ac.uk/Biographies/Sullivan/): says Sullivan later applied rational homotopy theory to Kähler manifolds, undated; does not establish the 1975 attribution.",
+   "Wikipedia raw wikitext, Dennis Sullivan (https://en.wikipedia.org/w/index.php?title=Dennis_Sullivan&action=raw): no 1975 Kähler application mentioned."
+  ]
+ },
+ {
+  "pid": "P203", "eventId": "E72/MB19/WB51", "verdict": "not_found", "milestones": [],
+  "searched": [
+   "Wikipedia raw wikitext, Distribution (mathematical analysis) (https://en.wikipedia.org/w/index.php?title=Distribution_(mathematical_analysis)&action=raw): Sobolev 1936 and Schwartz late 1940s; no dated first application.",
+   "MacTutor, Laurent Schwartz biography (https://mathshistory.st-andrews.ac.uk/Biographies/Schwartz/): first publication 'Generalisation de la notion de fonction' (1945); no first application dated.",
+   "zBMATH Open search 'Schwartz Théorie des distributions' (https://api.zbmath.org/v1/document/_search): returned Schwartz 1950/1951 treatise and 1963 'Some applications of the theory of distributions' (too late to be a first application)."
+  ]
+ },
+ {
+  "pid": "P359", "eventId": "E17/M28/W64", "verdict": "not_found", "milestones": [],
+  "searched": [
+   "Wikipedia raw wikitext, Commutative algebra (https://en.wikipedia.org/w/index.php?title=Commutative_algebra&action=raw): history credits Noether, Lasker, Krull; no dated first application of abstract ideal theory.",
+   "MacTutor, Emmy Noether biography (https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/): 1921 'Idealtheorie in Ringbereichen' and 1924 abstract composition paper; no application to a target problem dated.",
+   "zBMATH Open search 'Noether Idealtheorie in Ringbereichen 1921' (https://api.zbmath.org/v1/document/_search): returned Noether 1921 Math. Ann. 83 and 1926 Math. Ann. 96 papers; neither is an application of the new theory to a target problem."
+  ]
+ },
+ {
+  "pid": "P154", "eventId": "MA77", "verdict": "not_found", "milestones": [],
+  "searched": [
+   "Wikipedia raw wikitext, Taylor series (https://en.wikipedia.org/w/index.php?title=Taylor_series&action=raw): Madhava, Gregory and Newton precursors; no dated first application of Taylor's 1715 method.",
+   "MacTutor, Brook Taylor biography (https://mathshistory.st-andrews.ac.uk/Biographies/Taylor/): 1715 Methodus incrementorum with the Taylor series; mentions singular solutions and a change of variables formula but no dated application.",
+   "zBMATH Open search 'Methodus incrementorum directa et inversa' (https://api.zbmath.org/v1/document/_search): returned only 1937 and 1985 secondary literature (Taylor studies); no primary-source application record, consistent with zbMATH's pre-1868 gap."
+  ]
+ }
+]

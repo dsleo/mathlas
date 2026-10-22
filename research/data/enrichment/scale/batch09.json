@@ -1,0 +1,141 @@
+[
+ {
+  "pid": "P120",
+  "eventId": "MA82/WA60",
+  "name": "Euler polyhedron formula",
+  "type": "birth-by-abstraction",
+  "from": [
+   "geometry of polyhedra",
+   "combinatorics"
+  ],
+  "to": [
+   "topology"
+  ],
+  "summary": "A relation between numbers of vertices, edges and faces was found for convex polyhedra."
+ },
+ {
+  "pid": "P135",
+  "eventId": "MA84/WA67",
+  "name": "Lagrange analytical mechanics",
+  "type": "reification",
+  "from": [
+   "mechanics",
+   "analysis"
+  ],
+  "to": [
+   "analytical mechanics"
+  ],
+  "summary": "Mechanics was reduced to analysis based on virtual velocities, with no diagrams."
+ },
+ {
+  "pid": "P131",
+  "eventId": "WA91/MA76",
+  "name": "Bayes inverse probability",
+  "type": "birth-by-abstraction",
+  "from": [
+   "probability"
+  ],
+  "to": [
+   "statistical inference"
+  ],
+  "summary": "Bayes derived a posterior for the binomial."
+ },
+ {
+  "pid": "P130",
+  "eventId": "MA87/WA90",
+  "name": "Laplace analytic probability",
+  "type": "technique-transfer",
+  "from": [
+   "analysis (generating functions)"
+  ],
+  "to": [
+   "probability"
+  ],
+  "summary": "Generating functions and asymptotic approximations were used to solve probability problems."
+ },
+ {
+  "pid": "P188",
+  "eventId": "MA88",
+  "name": "Potential theory in celestial mechanics and physics",
+  "type": "import-from-outside",
+  "from": [
+   "mechanics",
+   "partial differential equations"
+  ],
+  "to": [
+   "potential theory"
+  ],
+  "summary": "The potential function and its equation were introduced for attracting masses, then used in electrostatics."
+ },
+ {
+  "pid": "P456",
+  "eventId": "H70",
+  "name": "Social choice theory: Condorcet's probability to Arrow's theorem",
+  "type": "import-from-outside",
+  "from": [
+   "probability",
+   "voting and economics"
+  ],
+  "to": [
+   "social choice theory"
+  ],
+  "summary": "Condorcet applied probability to majority decisions and found cycles, and Arrow proved no aggregation satisfies reasonable fairness conditions at once."
+ },
+ {
+  "pid": "P132",
+  "eventId": "MA90/WA89",
+  "name": "Least squares",
+  "type": "technique-transfer",
+  "from": [
+   "probability",
+   "astronomy",
+   "analysis"
+  ],
+  "to": [
+   "statistics"
+  ],
+  "summary": "Fitting observations by minimising squared errors predicted Ceres."
+ },
+ {
+  "pid": "P139",
+  "eventId": "WA71/MA92",
+  "name": "Monge descriptive geometry",
+  "type": "import-from-outside",
+  "from": [
+   "engineering drawing",
+   "geometry"
+  ],
+  "to": [
+   "descriptive geometry"
+  ],
+  "summary": "Monge turned military engineering projections into a geometric discipline."
+ },
+ {
+  "pid": "P124",
+  "eventId": "WA81/MA89",
+  "name": "Gauss Disquisitiones Arithmeticae",
+  "type": "reification",
+  "from": [
+   "arithmetic",
+   "algebra",
+   "roots of unity"
+  ],
+  "to": [
+   "number theory"
+  ],
+  "summary": "Congruence notation, quadratic forms and cyclotomy were unified."
+ },
+ {
+  "pid": "P180",
+  "eventId": "MA86",
+  "name": "Lagrange: algebraic foundation for the calculus",
+  "type": "technique-transfer",
+  "from": [
+   "algebra"
+  ],
+  "to": [
+   "calculus"
+  ],
+  "summary": "A programme grounded calculus on power series without limits or infinitesimals."
+ }
+]

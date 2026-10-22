@@ -1,0 +1,2583 @@
+[
+ {
+  "pid": "P439",
+  "eventId": "H33",
+  "canonicalName": "Transcendence of pi and the impossibility of squaring the circle",
+  "aliases": [
+   "Lindemann's theorem",
+   "Hermite-Lindemann theorem",
+   "Lindemann-Weierstrass theorem",
+   "quadrature of the circle impossibility"
+  ],
+  "phases": [
+   "Constructible lengths are algebraic",
+   "Hermite's method for e",
+   "Lindemann's transcendence of pi"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1837,
+    "precision": "year",
+    "label": "Constructible lengths shown to be algebraic",
+    "work": "Wantzel, Recherches sur les moyens de reconnaitre si un probleme de geometrie peut se resoudre avec la regle et le compas, J. Math. Pures Appl. 2, 1837",
+    "people": [
+     "Pierre Wantzel"
+    ],
+    "description": "Wantzel showed that lengths obtainable by ruler and compass must be algebraic, so transcendence of pi would rule out squaring the circle.",
+    "evidence": [
+     {
+      "claim": "Narrates Wantzel's 1837 result that constructible lengths are algebraic, so a transcendental pi would make the construction impossible.",
+      "source": "Wikipedia: Squaring the circle",
+      "url": "https://en.wikipedia.org/wiki/Squaring_the_circle",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Constructible lengths are algebraic",
+    "note": "No Crossref record found for the original 1837 paper (searched); year from the Wikipedia history section."
+   },
+   {
+    "role": "first_statement",
+    "year": 1873,
+    "precision": "year",
+    "label": "Hermite proves e is transcendental",
+    "work": "Hermite, Sur la fonction exponentielle, Comptes Rendus 77, 1873",
+    "people": [
+     "Charles Hermite"
+    ],
+    "description": "Hermite published the first proof that e is transcendental, introducing the method that Lindemann adapted nine years later.",
+    "evidence": [
+     {
+      "claim": "States that Hermite published the first proof of the transcendence of e in 1873 and that Lindemann used similar methods in 1882.",
+      "source": "MacTutor biography of Hermite",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hermite/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Crossref lists the memoir 'Sur la fonction exponentielle' in Hermite's Oeuvres (a 2009 reprint; the original 1873 Comptes Rendus run is not in Crossref).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1017/cbo9780511702778.012",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Hermite's method for e",
+    "note": "Year of the original comes from the history page; Crossref only has the reprint."
+   },
+   {
+    "role": "first_application",
+    "year": 1882,
+    "precision": "year",
+    "label": "Lindemann proves pi is transcendental",
+    "work": "Lindemann, Ueber die Zahl pi, Mathematische Annalen 20, 213-225, 1882",
+    "people": [
+     "Ferdinand von Lindemann"
+    ],
+    "description": "Lindemann extended Hermite's method to show pi is transcendental, which together with algebraicity of constructible lengths ends the squaring problem.",
+    "evidence": [
+     {
+      "claim": "Record: Mathematische Annalen 20 (1882) 213-225, Lindemann, 'Ueber die Zahl pi'.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01446522",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Credits Lindemann as first to prove pi transcendental, answering the classical squaring problem.",
+      "source": "MacTutor biography of Lindemann",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lindemann/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Dates the proof of impossibility to 1882 via the Lindemann-Weierstrass theorem.",
+      "source": "Wikipedia: Squaring the circle",
+      "url": "https://en.wikipedia.org/wiki/Squaring_the_circle",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Lindemann's transcendence of pi",
+    "note": "MacTutor's squaring-the-circle topic page dates the proof to 1880; the publication record gives 1882."
+   },
+   {
+    "role": "key_development",
+    "year": 1885,
+    "precision": "year",
+    "label": "Weierstrass gives the full theorem",
+    "work": "Weierstrass, Zu Lindemann's Abhandlung 'Ueber die Ludolph'sche Zahl', Sitzungsber. Berlin, 1885",
+    "people": [
+     "Karl Weierstrass"
+    ],
+    "description": "Weierstrass supplied a complete proof of the general statement now called the Lindemann-Weierstrass theorem, filling gaps in Lindemann's argument.",
+    "evidence": [
+     {
+      "claim": "Says Lindemann allowed algebraic numbers into Hermite's work in 1882 and Weierstrass shortly afterwards obtained the full result.",
+      "source": "Wikipedia: Lindemann%E2%80%93Weierstrass theorem",
+      "url": "https://en.wikipedia.org/wiki/Lindemann%E2%80%93Weierstrass_theorem",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Crossref lists the paper in 'Pi: A Source Book' (reprint; original year not given by the record).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-1-4757-3240-5_23",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Lindemann's transcendence of pi",
+    "note": "Year 1885 is the standard citation but not shown by the reprint record."
+   },
+   {
+    "role": "key_development",
+    "year": 1893,
+    "precision": "year",
+    "label": "Hilbert's short proof",
+    "work": "Hilbert, Ueber die Transcendenz der Zahlen e und pi, Math. Ann. 43, 216-219, 1893",
+    "people": [
+     "David Hilbert"
+    ],
+    "description": "Hilbert gave a much shorter proof of the transcendence of e and pi that became the textbook version.",
+    "evidence": [
+     {
+      "claim": "Record: Mathematische Annalen 43 (1893) 216-219.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01443645",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Lindemann's transcendence of pi",
+    "note": "Simplification, not a new result."
+   }
+  ],
+  "people": [
+   {
+    "name": "Charles Hermite",
+    "role": "Proved e transcendental by an exponential-polynomial method",
+    "lifespan": "1822-1901",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hermite/",
+    "works": [
+     {
+      "citation": "Sur la fonction exponentielle, Comptes Rendus 77",
+      "year": 1873,
+      "url": "https://doi.org/10.1017/cbo9780511702778.012",
+      "whyItMatters": "Method that Lindemann reused"
+     }
+    ]
+   },
+   {
+    "name": "Ferdinand von Lindemann",
+    "role": "Proved pi transcendental",
+    "lifespan": "1852-1939",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lindemann/",
+    "works": [
+     {
+      "citation": "Ueber die Zahl pi, Math. Ann. 20",
+      "year": 1882,
+      "url": "https://doi.org/10.1007/bf01446522",
+      "whyItMatters": "Closed the squaring-the-circle problem"
+     }
+    ]
+   },
+   {
+    "name": "Karl Weierstrass",
+    "role": "Gave the general theorem",
+    "lifespan": "1815-1897",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Weierstrass/",
+    "works": [
+     {
+      "citation": "Zu Lindemann's Abhandlung, Sitzungsber. Berlin",
+      "year": 1885,
+      "url": "https://doi.org/10.1007/978-1-4757-3240-5_23",
+      "whyItMatters": "Full proof of the Lindemann-Weierstrass theorem"
+     }
+    ]
+   },
+   {
+    "name": "David Hilbert",
+    "role": "Simplified the proof",
+    "lifespan": "1862-1943",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/",
+    "works": [
+     {
+      "citation": "Ueber die Transcendenz der Zahlen e und pi, Math. Ann. 43",
+      "year": 1893,
+      "url": "https://doi.org/10.1007/bf01443645",
+      "whyItMatters": "Short proof"
+     }
+    ]
+   }
+  ],
+  "notes": "Technique transfer: Hermite's analytic transcendence method for e carried to pi and then to a ruler-and-compass impossibility via Wantzel's algebraic criterion. Wantzel's 1837 paper has no Crossref record, so its milestone rests on Wikipedia. Wantzel biography page not fetched: biographyUrl for him points to Hermite's page and should be replaced. No naming/institution milestone applies (theorem name is a later label). Weierstrass year 1885 not independently verified in a record. MacTutor topic page gives 1880 for Lindemann's proof; the journal record says 1882.",
+  "derivedDates": {
+   "conceptual": 1873,
+   "methodological": 1882,
+   "institutional": null
+  }
+ },
+ {
+  "pid": "P393",
+  "eventId": "W13",
+  "canonicalName": "Geometric (Clifford) algebra",
+  "aliases": [
+   "Clifford algebra",
+   "geometric algebra",
+   "Applications of Grassmann's extensive algebra",
+   "geometric calculus"
+  ],
+  "phases": [
+   "Quaternions and exterior algebra",
+   "Clifford's geometric algebras",
+   "Hestenes' revival"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1844,
+    "precision": "year",
+    "label": "Grassmann's extension theory",
+    "work": "Grassmann, Die lineale Ausdehnungslehre, 1844",
+    "people": [
+     "Hermann Grassmann"
+    ],
+    "description": "Grassmann created exterior algebra and briefly noted a second product combining its elements, one root of the geometric product.",
+    "evidence": [
+     {
+      "claim": "Archive.org record: Die Lineale Ausdehnungslehre, 1844.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/dielinealeausde00grasgoog",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "States the geometric product was first briefly mentioned by Grassmann.",
+      "source": "Wikipedia: Geometric algebra",
+      "url": "https://en.wikipedia.org/wiki/Geometric_algebra",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Quaternions and exterior algebra"
+   },
+   {
+    "role": "precursor",
+    "year": 1853,
+    "precision": "year",
+    "label": "Hamilton's systematic quaternion lectures",
+    "work": "Hamilton, Lectures on Quaternions, 1853",
+    "people": [
+     "William Rowan Hamilton"
+    ],
+    "description": "Hamilton's quaternion algebra, the other ingredient fused by Clifford, was set out systematically in this book.",
+    "evidence": [
+     {
+      "claim": "Archive.org record: Lectures on quaternions, 1853.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/lecturesonquater00hami",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says Hamilton discovered the quaternions.",
+      "source": "MacTutor biography of Hamilton",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hamilton/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Quaternions and exterior algebra",
+    "note": "Quaternions were discovered in 1843; the book is the first full public treatment."
+   },
+   {
+    "role": "precursor",
+    "year": 1873,
+    "precision": "year",
+    "label": "Clifford's biquaternions",
+    "work": "Clifford, Preliminary sketch of biquaternions, Proc. London Math. Soc. s1-4, 381-395",
+    "people": [
+     "William Kingdon Clifford"
+    ],
+    "description": "Clifford generalised quaternions to biquaternions for motions in non-Euclidean spaces, an earlier step towards his algebras.",
+    "evidence": [
+     {
+      "claim": "Dates the biquaternion paper to 1873.",
+      "source": "MacTutor biography of Clifford",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Clifford/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Crossref record for the paper (volume-level date 1871).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1112/plms/s1-4.1.381",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Clifford's geometric algebras",
+    "note": "MacTutor says 1873; Crossref dates the volume 1871-73. Year taken from MacTutor."
+   },
+   {
+    "role": "first_statement",
+    "year": 1878,
+    "precision": "year",
+    "label": "Clifford unifies Grassmann and Hamilton",
+    "work": "Clifford, Applications of Grassmann's Extensive Algebra, American Journal of Mathematics 1, 350-358, 1878",
+    "people": [
+     "William Kingdon Clifford"
+    ],
+    "description": "Clifford defined the algebra now named after him as a union of Grassmann's exterior algebra and Hamilton's quaternions.",
+    "evidence": [
+     {
+      "claim": "Record: Am. J. Math. 1 (1878) 350, Clifford.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/2369379",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says he introduced Clifford algebras in this 1878 paper.",
+      "source": "MacTutor biography of Clifford",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Clifford/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Says Clifford joined Grassmann's exterior algebra to Hamilton's quaternions in 1878.",
+      "source": "MacTutor biography of Grassmann",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Grassmann/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Clifford's geometric algebras"
+   },
+   {
+    "role": "naming",
+    "year": 1878,
+    "precision": "year",
+    "label": "'Geometric algebras' as Clifford's own term",
+    "work": "Same paper (Am. J. Math. 1, 1878)",
+    "people": [
+     "William Kingdon Clifford"
+    ],
+    "description": "Clifford himself called his algebras geometric algebras, the name later revived.",
+    "evidence": [
+     {
+      "claim": "Notes that Clifford himself chose to call them geometric algebras.",
+      "source": "Wikipedia: Geometric algebra",
+      "url": "https://en.wikipedia.org/wiki/Geometric_algebra",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Clifford's geometric algebras",
+    "note": "Same paper as the first statement; the naming claim rests on Wikipedia only and the paper text was not read."
+   },
+   {
+    "role": "key_development",
+    "year": 1960,
+    "precision": "decade",
+    "label": "Hestenes revives geometric algebra for physics",
+    "work": "Hestenes, Space-Time Algebra (1960s)",
+    "people": [
+     "David Hestenes"
+    ],
+    "description": "In the 1960s Hestenes advocated the term and framework for relativistic physics, ending a long neglect.",
+    "evidence": [
+     {
+      "claim": "Says the term was repopularised in the 1960s by Hestenes.",
+      "source": "Wikipedia: Geometric algebra",
+      "url": "https://en.wikipedia.org/wiki/Geometric_algebra",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Crossref lists a 2015 Springer reissue of Space-Time Algebra.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-3-319-18413-5",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Hestenes' revival",
+    "note": "Exact first edition year (1966) not confirmed in a record, so decade precision."
+   },
+   {
+    "role": "consolidation",
+    "year": 1984,
+    "precision": "year",
+    "label": "Hestenes-Sobczyk textbook",
+    "work": "Hestenes and Sobczyk, Clifford Algebra to Geometric Calculus, Reidel, 1984",
+    "people": [
+     "David Hestenes",
+     "Garret Sobczyk"
+    ],
+    "description": "A systematic monograph presenting geometric algebra and calculus as a unified language.",
+    "evidence": [
+     {
+      "claim": "Archive.org record: 1984.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/cliffordalgebrat0000hest",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Hestenes' revival"
+   }
+  ],
+  "people": [
+   {
+    "name": "William Kingdon Clifford",
+    "role": "Created Clifford algebras",
+    "lifespan": "1845-1879",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Clifford/",
+    "works": [
+     {
+      "citation": "Applications of Grassmann's Extensive Algebra",
+      "year": 1878,
+      "url": "https://doi.org/10.2307/2369379",
+      "whyItMatters": "Founding paper"
+     }
+    ]
+   },
+   {
+    "name": "Hermann Grassmann",
+    "role": "Exterior algebra",
+    "lifespan": "1809-1877",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Grassmann/",
+    "works": [
+     {
+      "citation": "Die lineale Ausdehnungslehre",
+      "year": 1844,
+      "url": "https://archive.org/details/dielinealeausde00grasgoog",
+      "whyItMatters": "Exterior algebra"
+     }
+    ]
+   },
+   {
+    "name": "William Rowan Hamilton",
+    "role": "Quaternions",
+    "lifespan": "1805-1865",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hamilton/",
+    "works": [
+     {
+      "citation": "Lectures on Quaternions",
+      "year": 1853,
+      "url": "https://archive.org/details/lecturesonquater00hami",
+      "whyItMatters": "Quaternion algebra"
+     }
+    ]
+   },
+   {
+    "name": "David Hestenes",
+    "role": "Modern revival",
+    "lifespan": "1933-",
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Clifford Algebra to Geometric Calculus",
+      "year": 1984,
+      "url": "https://archive.org/details/cliffordalgebrat0000hest",
+      "whyItMatters": "Textbook"
+     }
+    ]
+   }
+  ],
+  "notes": "Hestenes' biography is not on MacTutor, so his biographyUrl points to Clifford's page; replace if needed. Lipschitz independently found related algebras around 1880 (Wikipedia, Lipschitz group) but no record was verified, so no milestone. Hestenes' first edition year not confirmed. Naming claim rests on Wikipedia.",
+  "derivedDates": {
+   "conceptual": 1878,
+   "methodological": null,
+   "institutional": 1878
+  }
+ },
+ {
+  "pid": "P434",
+  "eventId": "H23",
+  "canonicalName": "Cardinality versus dimension: R^n equinumerous with R",
+  "aliases": [
+   "Cantor's dimension paradox",
+   "invariance of dimension",
+   "space-filling curves and dimension",
+   "dimension theory"
+  ],
+  "phases": [
+   "Cantor's bijections",
+   "Invariance of dimension",
+   "Topological dimension theory"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1877,
+    "precision": "year",
+    "label": "Cantor's letter to Dedekind",
+    "work": "Cantor to Dedekind, 1877 (private letter)",
+    "people": [
+     "Georg Cantor",
+     "Richard Dedekind"
+    ],
+    "description": "Cantor privately reported a one-to-one match between the interval and higher-dimensional space and was himself astonished.",
+    "evidence": [
+     {
+      "claim": "Says he wrote to Dedekind in 1877 proving a one-to-one correspondence between [0,1] and p-dimensional space.",
+      "source": "MacTutor biography of Cantor",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Cantor/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Cantor's bijections",
+    "note": "Private letter, hence precursor."
+   },
+   {
+    "role": "first_statement",
+    "year": 1878,
+    "precision": "year",
+    "label": "Cantor's published contribution to the theory of manifolds",
+    "work": "Cantor, Ein Beitrag zur Mannigfaltigkeitslehre, J. reine angew. Math. 84, 242-258, 1878",
+    "people": [
+     "Georg Cantor"
+    ],
+    "description": "Cantor published the bijection between R^n and R and the notion of equivalence of sets by one-to-one correspondence.",
+    "evidence": [
+     {
+      "claim": "Record: Crelle 84 (1878) 242-258.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1515/crll.1878.84.242",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Notes the dimension paper submitted to Crelle in 1877 was delayed by Kronecker's suspicion.",
+      "source": "MacTutor biography of Cantor",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Cantor/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Cantor's bijections",
+    "note": "Submitted 1877, published 1878."
+   },
+   {
+    "role": "key_development",
+    "year": 1879,
+    "precision": "year",
+    "label": "Netto: no continuous bijection between dimensions",
+    "work": "Netto, Beitrag zur Mannigfaltigkeitslehre, Crelle 86, 263-268, 1879",
+    "people": [
+     "Eugen Netto"
+    ],
+    "description": "Netto showed a continuous one-to-one map cannot join spaces of different dimension, in the restricted setting of the time.",
+    "evidence": [
+     {
+      "claim": "Record: Crelle 86 (1879) 263-268, same title; author missing from the Crossref entry.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1515/crll.1879.86.263",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Invariance of dimension",
+    "note": "Author attribution rests on the standard citation, not on the record's metadata."
+   },
+   {
+    "role": "key_development",
+    "year": 1890,
+    "precision": "year",
+    "label": "Peano's space-filling curve",
+    "work": "Peano, Sur une courbe, qui remplit toute une aire plane, Math. Ann. 36, 157-160, 1890",
+    "people": [
+     "Giuseppe Peano"
+    ],
+    "description": "Peano built a continuous map from the line onto a square, showing continuity alone does not protect dimension.",
+    "evidence": [
+     {
+      "claim": "Record: Math. Ann. 36 (1890) 157-160.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01199438",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Invariance of dimension"
+   },
+   {
+    "role": "key_development",
+    "year": 1911,
+    "precision": "year",
+    "label": "Brouwer proves invariance of dimension",
+    "work": "Brouwer, Beweis der Invarianz der Dimensionenzahl, Math. Ann. 70, 161-165, 1911",
+    "people": [
+     "L. E. J. Brouwer"
+    ],
+    "description": "Brouwer proved that homeomorphic Euclidean spaces have equal dimension, settling the question raised by Cantor's bijections.",
+    "evidence": [
+     {
+      "claim": "Record: Math. Ann. 70 (1911) 161-165.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01461154",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Associates the invariance of domain theorem with Brouwer, published 1912.",
+      "source": "Wikipedia: Invariance of domain",
+      "url": "https://en.wikipedia.org/wiki/Invariance_of_domain",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Invariance of dimension",
+    "note": "The domain-invariance paper is Math. Ann. 71 (1911) in Crossref, 1912 per Wikipedia."
+   },
+   {
+    "role": "key_development",
+    "year": 1923,
+    "precision": "range",
+    "label": "Intrinsic definitions of dimension",
+    "work": "Menger, Ueber die Dimensionalitaet von Punktmengen, Monatsh. Math. Phys. 33, 1923; Urysohn, Memoire sur les multiplicites Cantoriennes, Fund. Math. 7, 1925",
+    "people": [
+     "Karl Menger",
+     "Pavel Urysohn"
+    ],
+    "description": "Menger and Urysohn introduced topological notions of dimension defined from the space itself rather than from point counts.",
+    "evidence": [
+     {
+      "claim": "Record: Monatsh. Math. Phys. 33 (1923) 148-160.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01705597",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Record: Fund. Math. 7 (1925) 30-137.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.4064/fm-7-1-30-137",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Topological dimension theory",
+    "endYear": 1926,
+    "note": "Description based on titles and standard history; paper contents were not read."
+   },
+   {
+    "role": "consolidation",
+    "year": 1941,
+    "precision": "year",
+    "label": "Hurewicz-Wallman monograph",
+    "work": "Hurewicz and Wallman, Dimension Theory, Princeton, 1941",
+    "people": [
+     "Witold Hurewicz",
+     "Henry Wallman"
+    ],
+    "description": "First English systematic treatment of dimension theory.",
+    "evidence": [
+     {
+      "claim": "Archive.org record for Dimension Theory (the listed record is a later printing dated 1948).",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/dimensiontheory00hure",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Topological dimension theory",
+    "note": "First-edition year 1941 not shown by the record found; later printing 1948."
+   }
+  ],
+  "people": [
+   {
+    "name": "Georg Cantor",
+    "role": "Bijection R^n to R",
+    "lifespan": "1845-1918",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Cantor/",
+    "works": [
+     {
+      "citation": "Ein Beitrag zur Mannigfaltigkeitslehre",
+      "year": 1878,
+      "url": "https://doi.org/10.1515/crll.1878.84.242",
+      "whyItMatters": "Published statement"
+     }
+    ]
+   },
+   {
+    "name": "Giuseppe Peano",
+    "role": "Space-filling curve",
+    "lifespan": "1858-1932",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Peano/",
+    "works": [
+     {
+      "citation": "Sur une courbe, qui remplit toute une aire plane",
+      "year": 1890,
+      "url": "https://doi.org/10.1007/bf01199438",
+      "whyItMatters": "Continuous surjection"
+     }
+    ]
+   },
+   {
+    "name": "L. E. J. Brouwer",
+    "role": "Invariance of dimension",
+    "lifespan": "1881-1966",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Brouwer/",
+    "works": [
+     {
+      "citation": "Beweis der Invarianz der Dimensionenzahl",
+      "year": 1911,
+      "url": "https://doi.org/10.1007/bf01461154",
+      "whyItMatters": "Dimension is a topological invariant"
+     }
+    ]
+   },
+   {
+    "name": "Karl Menger",
+    "role": "Dimension theory",
+    "lifespan": "1902-1985",
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Ueber die Dimensionalitaet von Punktmengen",
+      "year": 1923,
+      "url": "https://doi.org/10.1007/bf01705597",
+      "whyItMatters": "Intrinsic dimension"
+     }
+    ]
+   }
+  ],
+  "notes": "Menger's biography page not fetched, so his biographyUrl points to Brouwer's page; replace it. Menger's 1928 Dimensionstheorie book (naming) was searched for on archive.org and not found, so no naming milestone. No first_application is established. Netto's authorship rests on the standard citation.",
+  "derivedDates": {
+   "conceptual": 1878,
+   "methodological": null,
+   "institutional": 1941
+  }
+ },
+ {
+  "pid": "P436",
+  "eventId": "H26",
+  "canonicalName": "Logicism: reducing arithmetic to logic",
+  "aliases": [
+   "logicist programme",
+   "Frege-Russell logicism",
+   "Principia Mathematica",
+   "ramified theory of types"
+  ],
+  "phases": [
+   "Frege's programme",
+   "Russell's paradox and type theory",
+   "Principia Mathematica"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1879,
+    "precision": "year",
+    "label": "Frege's Begriffsschrift",
+    "work": "Frege, Begriffsschrift, Halle, 1879",
+    "people": [
+     "Gottlob Frege"
+    ],
+    "description": "Frege's formal language for pure thought, the logical system on which his logicism rests.",
+    "evidence": [
+     {
+      "claim": "Archive.org record: Begriffsschrift, 1879.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/11388662",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Dates the Begriffsschrift to 1879.",
+      "source": "MacTutor biography of Frege",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Frege/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Frege's programme",
+    "note": "A logical system, not yet the reduction of arithmetic."
+   },
+   {
+    "role": "first_statement",
+    "year": 1884,
+    "precision": "year",
+    "label": "Frege's Foundations of Arithmetic",
+    "work": "Frege, Die Grundlagen der Arithmetik, Breslau, 1884",
+    "people": [
+     "Gottlob Frege"
+    ],
+    "description": "Frege argued that arithmetic is reducible to logic and analysed the concept of number accordingly.",
+    "evidence": [
+     {
+      "claim": "Archive.org record: 1884.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/11650895",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Cites Frege 1884, 1893, 1903 as defining mathematical notions through logical ones.",
+      "source": "Wikipedia: Logicism",
+      "url": "https://en.wikipedia.org/wiki/Logicism",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Frege's programme"
+   },
+   {
+    "role": "first_application",
+    "year": 1893,
+    "precision": "year",
+    "label": "Frege's Grundgesetze volume I",
+    "work": "Frege, Grundgesetze der Arithmetik I, Jena, 1893",
+    "people": [
+     "Gottlob Frege"
+    ],
+    "description": "Frege carried out the reduction in his formal system, deriving arithmetic from logical laws.",
+    "evidence": [
+     {
+      "claim": "Archive.org record: 1893.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/11505810",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Cites the 1893 work.",
+      "source": "Wikipedia: Logicism",
+      "url": "https://en.wikipedia.org/wiki/Logicism",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Frege's programme"
+   },
+   {
+    "role": "precursor",
+    "year": 1902,
+    "precision": "year",
+    "label": "Russell's letter to Frege about the paradox",
+    "work": "Russell to Frege, 16 June 1902 (private letter)",
+    "people": [
+     "Bertrand Russell",
+     "Gottlob Frege"
+    ],
+    "description": "Russell pointed out that Frege's axioms yield a contradiction.",
+    "evidence": [
+     {
+      "claim": "States Frege received Russell's letter on 16 June 1902 pointing out the contradiction in his axioms.",
+      "source": "MacTutor biography of Frege",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Frege/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Russell's paradox and type theory",
+    "note": "Private; Russell found the paradox in May 1901 per MacTutor."
+   },
+   {
+    "role": "key_development",
+    "year": 1903,
+    "precision": "year",
+    "label": "Russell's Principles of Mathematics",
+    "work": "Russell, The Principles of Mathematics, 1903",
+    "people": [
+     "Bertrand Russell"
+    ],
+    "description": "Russell published the logicist thesis and the paradox bearing his name.",
+    "evidence": [
+     {
+      "claim": "Archive.org record: 1903.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/principlesmathe00russgoog",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says the paradox arose while working on the Principles (1903).",
+      "source": "MacTutor biography of Russell",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Russell/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Russell's paradox and type theory"
+   },
+   {
+    "role": "key_development",
+    "year": 1908,
+    "precision": "year",
+    "label": "Theory of types",
+    "work": "Russell, Mathematical Logic as Based on the Theory of Types, Am. J. Math. 30, 222-262, 1908",
+    "people": [
+     "Bertrand Russell"
+    ],
+    "description": "Russell presented the ramified theory of types as a way to avoid the paradoxes.",
+    "evidence": [
+     {
+      "claim": "Record: Am. J. Math. 30 (1908) 222.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/2369948",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says the mature theory of types appears in the 1908 article and Principia.",
+      "source": "MacTutor biography of Russell",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Russell/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Russell's paradox and type theory"
+   },
+   {
+    "role": "consolidation",
+    "year": 1910,
+    "precision": "range",
+    "label": "Principia Mathematica",
+    "work": "Whitehead and Russell, Principia Mathematica, 3 vols, 1910-1913",
+    "people": [
+     "Alfred North Whitehead",
+     "Bertrand Russell"
+    ],
+    "description": "A monumental systematic derivation of mathematics from logic using types.",
+    "evidence": [
+     {
+      "claim": "Archive.org record: vol. 1, 1910.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/cu31924001575244",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Archive.org record: vol. 2, 1912.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/B-001-004-307",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Lists Principia as 1910, 1912, 1913.",
+      "source": "MacTutor biography of Russell",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Russell/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Principia Mathematica",
+    "endYear": 1913
+   }
+  ],
+  "people": [
+   {
+    "name": "Gottlob Frege",
+    "role": "Initiated logicism",
+    "lifespan": "1848-1925",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Frege/",
+    "works": [
+     {
+      "citation": "Die Grundlagen der Arithmetik",
+      "year": 1884,
+      "url": "https://archive.org/details/11650895",
+      "whyItMatters": "Programme"
+     },
+     {
+      "citation": "Grundgesetze der Arithmetik I",
+      "year": 1893,
+      "url": "https://archive.org/details/11505810",
+      "whyItMatters": "Formal derivation"
+     }
+    ]
+   },
+   {
+    "name": "Bertrand Russell",
+    "role": "Paradox and type theory",
+    "lifespan": "1872-1970",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Russell/",
+    "works": [
+     {
+      "citation": "Mathematical Logic as Based on the Theory of Types",
+      "year": 1908,
+      "url": "https://doi.org/10.2307/2369948",
+      "whyItMatters": "Type theory"
+     }
+    ]
+   },
+   {
+    "name": "Alfred North Whitehead",
+    "role": "Co-author of Principia",
+    "lifespan": "1861-1947",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Whitehead/",
+    "works": [
+     {
+      "citation": "Principia Mathematica",
+      "year": 1910,
+      "url": "https://archive.org/details/cu31924001575244",
+      "whyItMatters": "Consolidation"
+     }
+    ]
+   },
+   {
+    "name": "Richard Dedekind",
+    "role": "Developed logicism early",
+    "lifespan": "1831-1916",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Dedekind/",
+    "works": []
+   },
+   {
+    "name": "Giuseppe Peano",
+    "role": "Symbolic logic of arithmetic",
+    "lifespan": "1858-1932",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Peano/",
+    "works": []
+   }
+  ],
+  "notes": "Dedekind's 1888 and Peano's 1889 works were considered as precursors but the archive and Crossref searches only produced later printings or unrelated records, so no milestones. Origin of the word 'logicism' not found. No institution milestone. Frege's Grundgesetze vol. II (1903) not separately verified.",
+  "derivedDates": {
+   "conceptual": 1884,
+   "methodological": 1893,
+   "institutional": 1910
+  }
+ },
+ {
+  "pid": "P366",
+  "eventId": "E70/W76/M33",
+  "canonicalName": "Automorphic functions and uniformisation",
+  "aliases": [
+   "Fuchsian functions",
+   "Kleinian groups",
+   "uniformization theorem",
+   "automorphic forms (early)"
+  ],
+  "phases": [
+   "Fuchsian functions",
+   "Klein's modular and automorphic functions",
+   "Uniformisation"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1866,
+    "precision": "year",
+    "label": "Fuchs on linear differential equations",
+    "work": "Fuchs, Zur Theorie der linearen Differentialgleichungen mit veraenderlichen Coefficienten, Crelle 66, 121-160, 1866",
+    "people": [
+     "Lazarus Fuchs"
+    ],
+    "description": "Fuchs's study of linear equations with singular points supplied the problem that Poincare's functions were built to solve.",
+    "evidence": [
+     {
+      "claim": "Record: Crelle 66 (1866) 121-160.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1515/crll.1866.66.121",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says Poincare named the new functions Fuchsian after Fuchs.",
+      "source": "MacTutor biography of Poincare",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Fuchsian functions",
+    "note": "Authorship missing from the Crossref entry; the link to Poincare is through his naming."
+   },
+   {
+    "role": "first_statement",
+    "year": 1881,
+    "precision": "year",
+    "label": "Poincare's first notes on Fuchsian functions",
+    "work": "Poincare, notes in Comptes Rendus, 1881",
+    "people": [
+     "Henri Poincare"
+    ],
+    "description": "Poincare began publishing his theory of Fuchsian functions in 1881, linking their groups to non-Euclidean geometry.",
+    "evidence": [
+     {
+      "claim": "Says Poincare began publishing an outline of automorphic function theory in 1881.",
+      "source": "MacTutor biography of Klein",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Klein/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Describes the insight that Fuchsian transformations are those of non-Euclidean geometry.",
+      "source": "MacTutor biography of Poincare",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Fuchsian functions",
+    "note": "Individual notes were not located in Crossref; year from MacTutor."
+   },
+   {
+    "role": "naming",
+    "year": 1882,
+    "precision": "year",
+    "label": "Theory of Fuchsian groups",
+    "work": "Poincare, Theorie des groupes fuchsiens, Acta Math. 1, 1-62, 1882",
+    "people": [
+     "Henri Poincare"
+    ],
+    "description": "Poincare's Acta paper names and develops the groups of the theory.",
+    "evidence": [
+     {
+      "claim": "Record: Acta Math. 1 (1882) 1-62.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02592124",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says he named the functions Fuchsian after Fuchs; later called automorphic.",
+      "source": "MacTutor biography of Poincare",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Fuchsian functions"
+   },
+   {
+    "role": "first_application",
+    "year": 1882,
+    "precision": "year",
+    "label": "Memoir on Fuchsian functions",
+    "work": "Poincare, Memoire sur les fonctions fuchsiennes, Acta Math. 1, 193-294, 1882",
+    "people": [
+     "Henri Poincare"
+    ],
+    "description": "The memoir uses the new functions to solve linear differential equations.",
+    "evidence": [
+     {
+      "claim": "Record: Acta Math. 1 (1882) 193-294.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02592135",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says the functions arose from the search for solutions of differential equations.",
+      "source": "MacTutor biography of Poincare",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Fuchsian functions",
+    "note": "That the memoir integrates linear equations is from MacTutor's account; the paper was not read."
+   },
+   {
+    "role": "key_development",
+    "year": 1883,
+    "precision": "year",
+    "label": "Klein on Riemann function theory",
+    "work": "Klein, Neue Beitraege zur Riemann'schen Functionentheorie, Math. Ann. 21, 141-218, 1883",
+    "people": [
+     "Felix Klein"
+    ],
+    "description": "Klein linked automorphic functions to Riemann surfaces and framed the uniformisation programme.",
+    "evidence": [
+     {
+      "claim": "Record: Math. Ann. 21 (1883) 141-218.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01442920",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Describes the Klein-Poincare race to formulate a grand uniformization theorem.",
+      "source": "MacTutor biography of Klein",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Klein/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Klein's modular and automorphic functions",
+    "note": "Paper contents not read."
+   },
+   {
+    "role": "consolidation",
+    "year": 1897,
+    "precision": "year",
+    "label": "Fricke-Klein lectures on automorphic functions",
+    "work": "Fricke and Klein, Vorlesungen ueber die Theorie der automorphen Functionen, vol. 1, 1897",
+    "people": [
+     "Felix Klein",
+     "Robert Fricke"
+    ],
+    "description": "First systematic textbook treatment under the name automorphic functions.",
+    "evidence": [
+     {
+      "claim": "Archive.org record: 1897.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/vorlesungenber01fricuoft",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Klein's modular and automorphic functions"
+   },
+   {
+    "role": "key_development",
+    "year": 1907,
+    "precision": "year",
+    "label": "Rigorous uniformisation proofs",
+    "work": "Poincare, Sur l'uniformisation des fonctions analytiques, Acta Math. 31, 1-63; Koebe, Goettinger Nachrichten, 1907",
+    "people": [
+     "Henri Poincare",
+     "Paul Koebe"
+    ],
+    "description": "Poincare and Koebe independently gave the first rigorous proofs of the general uniformisation theorem.",
+    "evidence": [
+     {
+      "claim": "Says the first rigorous proofs were by Poincare and Koebe, completed by 1907.",
+      "source": "Wikipedia: Uniformization theorem",
+      "url": "https://en.wikipedia.org/wiki/Uniformization_theorem",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Record: Acta Math. 31 (1908) 1-63.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02415442",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Uniformisation",
+    "note": "Submitted 1907, published in the 1908 volume."
+   }
+  ],
+  "people": [
+   {
+    "name": "Henri Poincare",
+    "role": "Fuchsian functions and uniformisation",
+    "lifespan": "1854-1912",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/",
+    "works": [
+     {
+      "citation": "Theorie des groupes fuchsiens",
+      "year": 1882,
+      "url": "https://doi.org/10.1007/bf02592124",
+      "whyItMatters": "Founding paper"
+     }
+    ]
+   },
+   {
+    "name": "Felix Klein",
+    "role": "Automorphic functions",
+    "lifespan": "1849-1925",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Klein/",
+    "works": [
+     {
+      "citation": "Neue Beitraege zur Riemann'schen Functionentheorie",
+      "year": 1883,
+      "url": "https://doi.org/10.1007/bf01442920",
+      "whyItMatters": "Programme"
+     }
+    ]
+   },
+   {
+    "name": "Lazarus Fuchs",
+    "role": "Linear ODEs",
+    "lifespan": "1833-1902",
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Zur Theorie der linearen Differentialgleichungen",
+      "year": 1866,
+      "url": "https://doi.org/10.1515/crll.1866.66.121",
+      "whyItMatters": "Background"
+     }
+    ]
+   },
+   {
+    "name": "Robert Fricke",
+    "role": "Textbook",
+    "lifespan": "1861-1930",
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Vorlesungen ueber die Theorie der automorphen Functionen",
+      "year": 1897,
+      "url": "https://archive.org/details/vorlesungenber01fricuoft",
+      "whyItMatters": "Textbook"
+     }
+    ]
+   },
+   {
+    "name": "Paul Koebe",
+    "role": "Uniformisation proofs",
+    "lifespan": "1882-1945",
+    "biographyUrl": null,
+    "works": []
+   }
+  ],
+  "notes": "Fuchs's and Fricke's and Koebe's biography pages were not fetched; those biographyUrl values point to related MacTutor pages and should be replaced. The coinage of 'automorphic' (Klein, around 1890) is not verified, so the 1897 book is marked consolidation, not naming. The 1882 'first_application' is medium confidence.",
+  "derivedDates": {
+   "conceptual": 1881,
+   "methodological": 1882,
+   "institutional": 1882
+  }
+ },
+ {
+  "pid": "P385",
+  "eventId": "W20/M13",
+  "canonicalName": "Class field theory",
+  "aliases": [
+   "Takagi-Artin class field theory",
+   "Artin reciprocity",
+   "Hilbert class field"
+  ],
+  "phases": [
+   "Weber and Hilbert: class fields",
+   "Takagi and Artin: existence and reciprocity",
+   "Applications and surveys"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "year": 1897,
+    "precision": "year",
+    "label": "Weber on number groups in algebraic fields",
+    "work": "Weber, Ueber Zahlengruppen in algebraischen Koerpern, Math. Ann. 48, 433-473, 1897",
+    "people": [
+     "Heinrich Weber"
+    ],
+    "description": "Weber introduced class fields as extensions attached to groups of ideal classes.",
+    "evidence": [
+     {
+      "claim": "Record: Math. Ann. 48 (1897) 433-473.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01447919",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says Weber coined the term before Hilbert's papers.",
+      "source": "Wikipedia: Class field theory",
+      "url": "https://en.wikipedia.org/wiki/Class_field_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Weber and Hilbert: class fields",
+    "note": "Content not read; first Weber paper in the series (further parts: Math. Ann. 49, 50)."
+   },
+   {
+    "role": "naming",
+    "year": 1897,
+    "precision": "year",
+    "label": "The term class field",
+    "work": "Weber, Math. Ann. 48 (1897)",
+    "people": [
+     "Heinrich Weber"
+    ],
+    "description": "Weber coined the term class field in this period.",
+    "evidence": [
+     {
+      "claim": "Says it was Weber who coined the term before Hilbert's fundamental papers.",
+      "source": "Wikipedia: Class field theory",
+      "url": "https://en.wikipedia.org/wiki/Class_field_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "phase": "Weber and Hilbert: class fields",
+    "note": "Exact paper for the coinage not verified; assumed from the Weber series."
+   },
+   {
+    "role": "consolidation",
+    "year": 1897,
+    "precision": "year",
+    "label": "Hilbert's Zahlbericht",
+    "work": "Hilbert, Die Theorie der algebraischen Zahlkoerper, Jahresbericht DMV 4, 1897",
+    "people": [
+     "David Hilbert"
+    ],
+    "description": "A report that synthesised algebraic number theory and contains the ideas of class field theory.",
+    "evidence": [
+     {
+      "claim": "Says the Zahlbericht (1897) is a synthesis of Kummer, Kronecker and Dedekind and contains the ideas of class field theory.",
+      "source": "MacTutor biography of Hilbert",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Crossref record: modern article on the Zahlbericht.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1365/s13291-017-0168-3",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Weber and Hilbert: class fields"
+   },
+   {
+    "role": "key_development",
+    "year": 1898,
+    "precision": "year",
+    "label": "Hilbert's relative abelian fields",
+    "work": "Hilbert, Ueber die Theorie der relativ-Abel'schen Zahlkoerper, Goett. Nachr. 1898 (Acta Math. 26, 1902)",
+    "people": [
+     "David Hilbert"
+    ],
+    "description": "Hilbert formulated the conjectures on class fields that Takagi and Artin later proved.",
+    "evidence": [
+     {
+      "claim": "Crossref: Acta Math. 26 (1902) 99-131, same title.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02415486",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says Hilbert's conjectures were proved by Takagi and Artin.",
+      "source": "Wikipedia: Class field theory",
+      "url": "https://en.wikipedia.org/wiki/Class_field_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Weber and Hilbert: class fields",
+    "note": "1898 date is the Goettingen original; the Crossref record is the 1902 Acta version."
+   },
+   {
+    "role": "key_development",
+    "year": 1920,
+    "precision": "year",
+    "label": "Takagi's existence theorem",
+    "work": "Takagi, Ueber eine Theorie des relativ Abel'schen Zahlkoerpers, J. Coll. Sci. Tokyo 41, 1920",
+    "people": [
+     "Teiji Takagi"
+    ],
+    "description": "Takagi proved the classification of abelian extensions by ideal class groups.",
+    "evidence": [
+     {
+      "claim": "Says his most important paper of 1920 introduced Takagi class field theory.",
+      "source": "MacTutor biography of Takagi",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Takagi/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Crossref: reprint in collected works.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-4-431-54995-6_13",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Takagi and Artin: existence and reciprocity"
+   },
+   {
+    "role": "consolidation",
+    "year": 1926,
+    "precision": "range",
+    "label": "Hasse's report on class field theory",
+    "work": "Hasse, Bericht ueber neuere Untersuchungen und Probleme aus der Theorie der algebraischen Zahlkoerper, 1926-1930",
+    "people": [
+     "Helmut Hasse"
+    ],
+    "description": "The survey that made the theory accessible.",
+    "evidence": [
+     {
+      "claim": "Says Hasse included Takagi's theory in his treatise on class field theory.",
+      "source": "MacTutor biography of Takagi",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Takagi/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Crossref: chapter 'Klassenkoerpertheorie' in the 1965 reprint.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-3-662-39429-8_1",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Applications and surveys",
+    "endYear": 1930,
+    "note": "Years from standard citation; only a 1965 reprint is in Crossref."
+   },
+   {
+    "role": "key_development",
+    "year": 1927,
+    "precision": "year",
+    "label": "Artin's general reciprocity law",
+    "work": "Artin, Beweis des allgemeinen Reziprozitaetsgesetzes, Abh. Math. Sem. Hamburg 5, 353-363, 1927",
+    "people": [
+     "Emil Artin"
+    ],
+    "description": "Artin proved the general reciprocity law, subsuming earlier reciprocity laws.",
+    "evidence": [
+     {
+      "claim": "Record: 1927.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02952531",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says he gave a general reciprocity law in 1927.",
+      "source": "MacTutor biography of Artin",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Artin/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Takagi and Artin: existence and reciprocity"
+   },
+   {
+    "role": "first_application",
+    "year": 1929,
+    "precision": "year",
+    "label": "Principal ideal theorem",
+    "work": "Furtwaengler, Beweis des Hauptidealsatzes fuer die Klassenkoerper algebraischer Zahlkoerper, Abh. Math. Sem. Hamburg 7, 14-36, 1929",
+    "people": [
+     "Philipp Furtwangler"
+    ],
+    "description": "Furtwangler used Artin's reciprocity to prove the principal ideal theorem.",
+    "evidence": [
+     {
+      "claim": "Record: Abh. Hamburg 7 (1929) 14-36.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02941157",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Calls Furtwangler's principal ideal proof the most striking application.",
+      "source": "MacTutor biography of Artin",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Artin/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Applications and surveys"
+   }
+  ],
+  "people": [
+   {
+    "name": "Heinrich Weber",
+    "role": "Class field concept",
+    "lifespan": "1842-1913",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Weber/",
+    "works": [
+     {
+      "citation": "Ueber Zahlengruppen in algebraischen Koerpern",
+      "year": 1897,
+      "url": "https://doi.org/10.1007/bf01447919",
+      "whyItMatters": "Introduces class fields"
+     }
+    ]
+   },
+   {
+    "name": "David Hilbert",
+    "role": "Conjectures",
+    "lifespan": "1862-1943",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/",
+    "works": [
+     {
+      "citation": "Die Theorie der algebraischen Zahlkoerper",
+      "year": 1897,
+      "url": "https://doi.org/10.1365/s13291-017-0168-3",
+      "whyItMatters": "Zahlbericht"
+     }
+    ]
+   },
+   {
+    "name": "Teiji Takagi",
+    "role": "Existence theorem",
+    "lifespan": "1875-1960",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Takagi/",
+    "works": []
+   },
+   {
+    "name": "Emil Artin",
+    "role": "Reciprocity law",
+    "lifespan": "1898-1962",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Artin/",
+    "works": [
+     {
+      "citation": "Beweis des allgemeinen Reziprozitaetsgesetzes",
+      "year": 1927,
+      "url": "https://doi.org/10.1007/bf02952531",
+      "whyItMatters": "Reciprocity"
+     }
+    ]
+   },
+   {
+    "name": "Helmut Hasse",
+    "role": "Survey",
+    "lifespan": "1898-1979",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hasse/",
+    "works": []
+   },
+   {
+    "name": "Leopold Kronecker",
+    "role": "Precursor, Kronecker-Weber",
+    "lifespan": "1823-1891",
+    "biographyUrl": null,
+    "works": []
+   }
+  ],
+  "notes": "Kronecker's 1853 abelian-extension result (Kronecker-Weber) is a precursor but no record was verified. Furtwangler's page and Kronecker's page were not fetched, Kronecker's URL points to Weber's. The 1897 naming milestone is low confidence, and the Takagi 1920 year comes from MacTutor only (Crossref lists a 1990 reprint). Chevalley's idelic work (1933, 1940) searched but not added.",
+  "derivedDates": {
+   "conceptual": 1897,
+   "methodological": 1929,
+   "institutional": 1897
+  }
+ },
+ {
+  "pid": "P378",
+  "eventId": "M77/W86",
+  "canonicalName": "Vector analysis",
+  "aliases": [
+   "vector calculus",
+   "Gibbs-Heaviside vector analysis",
+   "Vector Analysis (Gibbs-Wilson)"
+  ],
+  "phases": [
+   "Quaternions and extension theory",
+   "Gibbs and Heaviside's vector methods",
+   "Textbook formation"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1844,
+    "precision": "year",
+    "label": "Grassmann's extension theory",
+    "work": "Grassmann, Die lineale Ausdehnungslehre, 1844",
+    "people": [
+     "Hermann Grassmann"
+    ],
+    "description": "An algebra of vector-like quantities that later vector analysts drew on.",
+    "evidence": [
+     {
+      "claim": "Archive.org record: 1844.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/dielinealeausde00grasgoog",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Quaternions and extension theory"
+   },
+   {
+    "role": "precursor",
+    "year": 1853,
+    "precision": "year",
+    "label": "Hamilton's Lectures on Quaternions",
+    "work": "Hamilton, Lectures on Quaternions, 1853",
+    "people": [
+     "William Rowan Hamilton"
+    ],
+    "description": "Quaternions, with their scalar and vector parts, were the starting point of vector analysis.",
+    "evidence": [
+     {
+      "claim": "Archive.org record: 1853.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/lecturesonquater00hami",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says vector calculus was developed from quaternion theory by Gibbs and Heaviside.",
+      "source": "Wikipedia: Vector calculus",
+      "url": "https://en.wikipedia.org/wiki/Vector_calculus",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Quaternions and extension theory"
+   },
+   {
+    "role": "first_statement",
+    "year": 1881,
+    "precision": "range",
+    "label": "Gibbs's Elements of Vector Analysis",
+    "work": "Gibbs, Elements of Vector Analysis, New Haven, 1881-1884 (privately printed)",
+    "people": [
+     "J. Willard Gibbs"
+    ],
+    "description": "Gibbs extracted vector methods from quaternions in a pamphlet for his students, apparently the first text of its kind.",
+    "evidence": [
+     {
+      "claim": "Archive.org record: 1881.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/elementsvectora00gibb",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Archive.org record: 1884 edition.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/elementsvectora00gibbgoog",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Gibbs and Heaviside's vector methods",
+    "endYear": 1884,
+    "note": "Privately printed pamphlet in two parts (1881, 1884). The 'first text' claim is from the pamphlet's date, not a priority search."
+   },
+   {
+    "role": "first_application",
+    "year": 1885,
+    "precision": "range",
+    "label": "Heaviside's vector treatment of electromagnetism",
+    "work": "Heaviside, Electromagnetic induction and its propagation, The Electrician, 1885-1887",
+    "people": [
+     "Oliver Heaviside"
+    ],
+    "description": "Heaviside used vector methods to restate Maxwell's theory.",
+    "evidence": [
+     {
+      "claim": "Says his vector methods overshadowed his electromagnetism results.",
+      "source": "MacTutor biography of Heaviside",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Heaviside/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Record: reprint in Electrical Papers.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1017/cbo9780511983139.005",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Gibbs and Heaviside's vector methods",
+    "endYear": 1887,
+    "note": "Dates from the Electrician series; the reprint is 2011."
+   },
+   {
+    "role": "key_development",
+    "year": 1891,
+    "precision": "year",
+    "label": "Gibbs defends vectors against quaternionists",
+    "work": "Gibbs, Quaternions and the Ausdehnungslehre, Nature 44, 79-82, 1891",
+    "people": [
+     "J. Willard Gibbs",
+     "Peter Guthrie Tait"
+    ],
+    "description": "A public exchange in Nature made the case for vector analysis over quaternions.",
+    "evidence": [
+     {
+      "claim": "Record: Nature 44 (1891) 79-82.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1038/044079b0",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Tait's reply, Nature 44 (1891) 105-106.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1038/044105c0",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Gibbs and Heaviside's vector methods"
+   },
+   {
+    "role": "consolidation",
+    "year": 1901,
+    "precision": "year",
+    "label": "Gibbs-Wilson Vector Analysis",
+    "work": "Gibbs and Wilson, Vector Analysis, Yale, 1901",
+    "people": [
+     "J. Willard Gibbs",
+     "Edwin Bidwell Wilson"
+    ],
+    "description": "The textbook that fixed the notation and terminology.",
+    "evidence": [
+     {
+      "claim": "Archive.org record: 1901.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/vectoranalysisa00wilsgoog",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says most notation was established by the 1901 book.",
+      "source": "Wikipedia: Vector calculus",
+      "url": "https://en.wikipedia.org/wiki/Vector_calculus",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Textbook formation"
+   }
+  ],
+  "people": [
+   {
+    "name": "J. Willard Gibbs",
+    "role": "Vector analysis",
+    "lifespan": "1839-1903",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Gibbs/",
+    "works": [
+     {
+      "citation": "Elements of Vector Analysis",
+      "year": 1881,
+      "url": "https://archive.org/details/elementsvectora00gibb",
+      "whyItMatters": "Pamphlet"
+     }
+    ]
+   },
+   {
+    "name": "Oliver Heaviside",
+    "role": "Vector methods",
+    "lifespan": "1850-1925",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Heaviside/",
+    "works": []
+   },
+   {
+    "name": "William Rowan Hamilton",
+    "role": "Quaternions",
+    "lifespan": "1805-1865",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hamilton/",
+    "works": []
+   },
+   {
+    "name": "Hermann Grassmann",
+    "role": "Extension theory",
+    "lifespan": "1809-1877",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Grassmann/",
+    "works": []
+   },
+   {
+    "name": "Edwin Bidwell Wilson",
+    "role": "Co-author",
+    "lifespan": "1879-1964",
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Vector Analysis",
+      "year": 1901,
+      "url": "https://archive.org/details/vectoranalysisa00wilsgoog",
+      "whyItMatters": "Textbook"
+     }
+    ]
+   }
+  ],
+  "notes": "Wilson's page not fetched, URL points to Gibbs. Heaviside's Electromagnetic Theory vol. 1 (1893, archive.org record exists) is not used as a milestone as its vector chapter was not read. Origin of the name 'vector analysis' not established.",
+  "derivedDates": {
+   "conceptual": 1881,
+   "methodological": 1885,
+   "institutional": 1901
+  }
+ },
+ {
+  "pid": "P016",
+  "eventId": "E23",
+  "canonicalName": "Weil's dictionary: number fields, function fields, Riemann surfaces",
+  "aliases": [
+   "Weil's Rosetta stone",
+   "function field analogy",
+   "Weil conjectures program"
+  ],
+  "phases": [
+   "Dedekind-Weber analogy",
+   "Riemann hypothesis for function fields",
+   "Weil's explicit dictionary"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1882,
+    "precision": "year",
+    "label": "Dedekind-Weber algebraic functions",
+    "work": "Dedekind and Weber, Theorie der algebraischen Functionen einer Veraenderlichen, Crelle 92, 181-290, 1882",
+    "people": [
+     "Richard Dedekind",
+     "Heinrich Weber"
+    ],
+    "description": "They treated algebraic functions by the same ideal-theoretic means as number fields.",
+    "evidence": [
+     {
+      "claim": "Record: Crelle 92 (1882) 181-290.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1515/crll.1882.92.181",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Dedekind-Weber analogy",
+    "note": "Content not read; claim based on the standard account."
+   },
+   {
+    "role": "key_development",
+    "year": 1924,
+    "precision": "year",
+    "label": "Artin on quadratic function fields",
+    "work": "Artin, Quadratische Koerper im Gebiete der hoeheren Kongruenzen, Math. Z. 19, 153-206, 1924",
+    "people": [
+     "Emil Artin"
+    ],
+    "description": "Artin formulated the zeta function of function fields over finite fields with its Riemann hypothesis.",
+    "evidence": [
+     {
+      "claim": "Record: Math. Z. 19 (1924) 153-206.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01181074",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Riemann hypothesis for function fields",
+    "note": "Content not read."
+   },
+   {
+    "role": "key_development",
+    "year": 1936,
+    "precision": "year",
+    "label": "Hasse: Riemann hypothesis for elliptic function fields",
+    "work": "Hasse, Zur Theorie der abstrakten elliptischen Funktionenkoerper I-III, Crelle 175, 1936",
+    "people": [
+     "Helmut Hasse"
+    ],
+    "description": "Hasse proved the Riemann hypothesis for elliptic curves over finite fields.",
+    "evidence": [
+     {
+      "claim": "Record: part I, Crelle 175 (1936) 55-62.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1515/crll.1936.175.55",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Riemann hypothesis for function fields",
+    "note": "Proof content stated from standard history."
+   },
+   {
+    "role": "first_statement",
+    "year": 1939,
+    "precision": "year",
+    "label": "Weil on the number field/function field analogy",
+    "work": "Weil, Sur l'analogie entre les corps de nombres algebriques et les corps de fonctions algebriques, 1939",
+    "people": [
+     "Andre Weil"
+    ],
+    "description": "Weil stated the analogy explicitly.",
+    "evidence": [
+     {
+      "claim": "Record in Oeuvres Scientifiques (1979 reprint).",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-1-4757-1705-1_31",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "phase": "Weil's explicit dictionary",
+    "note": "Year 1939 is from the original journal, not from the reprint record."
+   },
+   {
+    "role": "first_application",
+    "year": 1940,
+    "precision": "year",
+    "label": "Weil on algebraic functions with finite constant field",
+    "work": "Weil, Sur les fonctions algebriques a corps de constantes fini, C. R. Acad. Sci. 210, 1940",
+    "people": [
+     "Andre Weil"
+    ],
+    "description": "Weil announced a proof of the Riemann hypothesis for curves using geometry on the curve.",
+    "evidence": [
+     {
+      "claim": "Oeuvres reprint record.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-1-4757-1705-1_34",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says he proved the Riemann hypothesis for curves over finite fields while in prison.",
+      "source": "MacTutor biography of Weil",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Weil/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Weil's explicit dictionary",
+    "note": "Year 1940 from the original, not from the reprint."
+   },
+   {
+    "role": "key_development",
+    "year": 1949,
+    "precision": "year",
+    "label": "Weil conjectures",
+    "work": "Weil, Numbers of solutions of equations in finite fields, Bull. AMS 55, 497-508, 1949",
+    "people": [
+     "Andre Weil"
+    ],
+    "description": "Weil stated conjectures for zeta functions of varieties.",
+    "evidence": [
+     {
+      "claim": "Record: 1949.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/s0002-9904-1949-09219-4",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says in 1949 he raised these conjectures.",
+      "source": "MacTutor biography of Weil",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Weil/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Weil's explicit dictionary"
+   },
+   {
+    "role": "key_development",
+    "year": 1974,
+    "precision": "year",
+    "label": "Deligne proves the last Weil conjecture",
+    "work": "Deligne, La conjecture de Weil I, Publ. IHES 43, 273-307, 1974",
+    "people": [
+     "Pierre Deligne"
+    ],
+    "description": "Deligne proved the analogue of the Riemann hypothesis.",
+    "evidence": [
+     {
+      "claim": "Record: 1974.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02684373",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says the analogue of the Riemann hypothesis was proved by Deligne.",
+      "source": "Wikipedia: Weil conjectures",
+      "url": "https://en.wikipedia.org/wiki/Weil_conjectures",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Weil's explicit dictionary"
+   }
+  ],
+  "people": [
+   {
+    "name": "Andre Weil",
+    "role": "Dictionary and conjectures",
+    "lifespan": "1906-1998",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Weil/",
+    "works": [
+     {
+      "citation": "Numbers of solutions of equations in finite fields",
+      "year": 1949,
+      "url": "https://doi.org/10.1090/s0002-9904-1949-09219-4",
+      "whyItMatters": "Conjectures"
+     }
+    ]
+   },
+   {
+    "name": "Emil Artin",
+    "role": "Function field zeta",
+    "lifespan": "1898-1962",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Artin/",
+    "works": []
+   },
+   {
+    "name": "Helmut Hasse",
+    "role": "Elliptic case",
+    "lifespan": "1898-1979",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hasse/",
+    "works": []
+   },
+   {
+    "name": "Richard Dedekind",
+    "role": "Function field algebra",
+    "lifespan": "1831-1916",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Dedekind/",
+    "works": []
+   },
+   {
+    "name": "Heinrich Weber",
+    "role": "Co-author",
+    "lifespan": "1842-1913",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Weber/",
+    "works": []
+   }
+  ],
+  "notes": "Weil's 1940 letter from prison to his sister Simone, containing the 'Rosetta stone' account, is private and was not verified. Only reprint records exist for Weil's early papers, so 1939 and 1940 rest on original-journal years from the original journal citation, not verified in a record (low/medium). No consolidation or institution milestone found.",
+  "derivedDates": {
+   "conceptual": 1939,
+   "methodological": 1940,
+   "institutional": null
+  }
+ },
+ {
+  "pid": "P420",
+  "eventId": "H3",
+  "canonicalName": "Combinatorial group theory",
+  "aliases": [
+   "group presentations",
+   "generators and relations",
+   "Dehn's decision problems"
+  ],
+  "phases": [
+   "Presentations from geometry",
+   "Fundamental group and Tietze transformations",
+   "Decision problems and free groups"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1856,
+    "precision": "year",
+    "label": "Hamilton's icosian calculus",
+    "work": "Hamilton, icosian calculus, 1856",
+    "people": [
+     "William Rowan Hamilton"
+    ],
+    "description": "Hamilton described the icosahedral group via the dodecahedron's edge graph.",
+    "evidence": [
+     {
+      "claim": "Notes a proto-form in Hamilton's 1856 icosian calculus.",
+      "source": "Wikipedia: Combinatorial group theory",
+      "url": "https://en.wikipedia.org/wiki/Combinatorial_group_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Presentations from geometry",
+    "note": "Year from Wikipedia only."
+   },
+   {
+    "role": "first_statement",
+    "year": 1882,
+    "precision": "year",
+    "label": "von Dyck's group-theoretic studies",
+    "work": "von Dyck, Gruppentheoretische Studien, Math. Ann. 20, 1-44, 1882",
+    "people": [
+     "Walther von Dyck"
+    ],
+    "description": "First systematic study of groups by generators and relations.",
+    "evidence": [
+     {
+      "claim": "Record: 1882.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01443322",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says Dyck laid the foundations in the early 1880s.",
+      "source": "Wikipedia: Combinatorial group theory",
+      "url": "https://en.wikipedia.org/wiki/Combinatorial_group_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Presentations from geometry"
+   },
+   {
+    "role": "key_development",
+    "year": 1895,
+    "precision": "year",
+    "label": "Poincare's fundamental group",
+    "work": "Poincare, Analysis situs, 1895",
+    "people": [
+     "Henri Poincare"
+    ],
+    "description": "Poincare introduced the fundamental group, giving presentations a topological role.",
+    "evidence": [
+     {
+      "claim": "Says he introduced the fundamental group in his 1894 paper and the Analysis situs was published 1895.",
+      "source": "MacTutor biography of Poincare",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Fundamental group and Tietze transformations",
+    "note": "MacTutor mentions both 1894 and 1895."
+   },
+   {
+    "role": "first_application",
+    "year": 1908,
+    "precision": "year",
+    "label": "Tietze presents the fundamental group",
+    "work": "Tietze, Ueber die topologischen Invarianten mehrdimensionaler Mannigfaltigkeiten, Monatsh. Math. Phys. 19, 1-118, 1908",
+    "people": [
+     "Heinrich Tietze"
+    ],
+    "description": "Tietze produced finite presentations of fundamental groups and the transformations showing they are invariants.",
+    "evidence": [
+     {
+      "claim": "Record: 1908.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01736688",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Describes the finite presentation and Tietze transformations.",
+      "source": "MacTutor biography of Tietze",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Tietze/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Fundamental group and Tietze transformations"
+   },
+   {
+    "role": "key_development",
+    "year": 1911,
+    "precision": "year",
+    "label": "Dehn's infinite discontinuous groups",
+    "work": "Dehn, Ueber unendliche diskontinuierliche Gruppen, Math. Ann. 71, 116-144, 1911",
+    "people": [
+     "Max Dehn"
+    ],
+    "description": "Dehn posed the word and isomorphism problems.",
+    "evidence": [
+     {
+      "claim": "Record: 1911.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01456932",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says he formulated the word and isomorphism problems.",
+      "source": "MacTutor biography of Dehn",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Dehn/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Decision problems and free groups"
+   },
+   {
+    "role": "key_development",
+    "year": 1924,
+    "precision": "range",
+    "label": "Nielsen and Schreier on free groups",
+    "work": "Nielsen, Math. Ann. 91, 1924; Schreier, Abh. Hamburg 5, 1927",
+    "people": [
+     "Jakob Nielsen",
+     "Otto Schreier"
+    ],
+    "description": "Nielsen's method and Schreier's subgroup theorem for free groups.",
+    "evidence": [
+     {
+      "claim": "Record: 1924.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01556078",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Record: 1927.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02952517",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Decision problems and free groups",
+    "endYear": 1927
+   },
+   {
+    "role": "key_development",
+    "year": 1959,
+    "precision": "year",
+    "label": "Undecidability of the word problem",
+    "work": "Boone, The word problem, Annals of Math. 70, 207, 1959",
+    "people": [
+     "William Boone"
+    ],
+    "description": "Boone proved a finitely presented group with unsolvable word problem exists.",
+    "evidence": [
+     {
+      "claim": "Record: 1959.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1970103",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Decision problems and free groups",
+    "note": "Novikov proved the same independently around 1955; Novikov's record not checked."
+   },
+   {
+    "role": "consolidation",
+    "year": 1966,
+    "precision": "year",
+    "label": "Magnus-Karrass-Solitar",
+    "work": "Magnus, Karrass, Solitar, Combinatorial Group Theory, 1966",
+    "people": [
+     "Wilhelm Magnus",
+     "Abraham Karrass",
+     "Donald Solitar"
+    ],
+    "description": "First systematic text.",
+    "evidence": [
+     {
+      "claim": "Archive.org record: 1966.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/combinatorialgro0000magn",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Decision problems and free groups"
+   }
+  ],
+  "people": [
+   {
+    "name": "Walther von Dyck",
+    "role": "Founder",
+    "lifespan": "1856-1934",
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Gruppentheoretische Studien",
+      "year": 1882,
+      "url": "https://doi.org/10.1007/bf01443322",
+      "whyItMatters": "Presentations"
+     }
+    ]
+   },
+   {
+    "name": "Max Dehn",
+    "role": "Decision problems",
+    "lifespan": "1878-1952",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Dehn/",
+    "works": []
+   },
+   {
+    "name": "Heinrich Tietze",
+    "role": "Transformations",
+    "lifespan": "1880-1964",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Tietze/",
+    "works": []
+   },
+   {
+    "name": "Jakob Nielsen",
+    "role": "Free groups",
+    "lifespan": "1890-1959",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Nielsen/",
+    "works": []
+   },
+   {
+    "name": "Otto Schreier",
+    "role": "Subgroup theorem",
+    "lifespan": "1901-1929",
+    "biographyUrl": null,
+    "works": []
+   },
+   {
+    "name": "Henri Poincare",
+    "role": "Fundamental group",
+    "lifespan": "1854-1912",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/",
+    "works": []
+   }
+  ],
+  "notes": "Dyck's page not available on MacTutor. Dyck, Schreier URLs point to related pages. The name 'combinatorial group theory' pre-1966 use was searched in Crossref and not found. Novikov 1955 not verified.",
+  "derivedDates": {
+   "conceptual": 1882,
+   "methodological": 1908,
+   "institutional": 1966
+  }
+ },
+ {
+  "pid": "P399",
+  "eventId": "W79",
+  "canonicalName": "Differential Galois theory",
+  "aliases": [
+   "Picard-Vessiot theory",
+   "Galois theory of linear differential equations",
+   "differential algebra and algebraic groups"
+  ],
+  "phases": [
+   "Picard-Vessiot theory",
+   "Kolchin's algebraic groups"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "year": 1887,
+    "precision": "year",
+    "label": "Picard on algebraic groups of transformations",
+    "work": "Picard, Sur les equations differentielles lineaires et les groupes algebriques de transformations, Ann. Toulouse 1, A1-A15, 1887",
+    "people": [
+     "Emile Picard"
+    ],
+    "description": "Picard associated algebraic transformation groups to linear differential equations.",
+    "evidence": [
+     {
+      "claim": "Record: 1887.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.5802/afst.2",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Picard-Vessiot theory"
+   },
+   {
+    "role": "key_development",
+    "year": 1892,
+    "precision": "year",
+    "label": "Vessiot's thesis",
+    "work": "Vessiot, Sur l'integration des equations differentielles lineaires, Ann. ENS 9, 197-280, 1892",
+    "people": [
+     "Ernest Vessiot"
+    ],
+    "description": "Vessiot developed the Picard-Vessiot theory using Lie groups.",
+    "evidence": [
+     {
+      "claim": "Record: 1892.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.24033/asens.372",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says the thesis is what is now called the Picard-Vessiot theory.",
+      "source": "MacTutor biography of Vessiot",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Vessiot/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Picard-Vessiot theory"
+   },
+   {
+    "role": "key_development",
+    "year": 1904,
+    "precision": "year",
+    "label": "Vessiot on Galois generalisations",
+    "work": "Vessiot, Sur la theorie de Galois et ses diverses generalisations, Ann. ENS 21, 9-85, 1904",
+    "people": [
+     "Ernest Vessiot"
+    ],
+    "description": "Vessiot extended Galois theory beyond linear equations.",
+    "evidence": [
+     {
+      "claim": "Record: 1904.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.24033/asens.534",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Picard-Vessiot theory",
+    "note": "Content not read."
+   },
+   {
+    "role": "key_development",
+    "year": 1948,
+    "precision": "year",
+    "label": "Kolchin's algebraic matric groups",
+    "work": "Kolchin, Annals of Math. 49, 1948",
+    "people": [
+     "Ellis Kolchin"
+    ],
+    "description": "Kolchin recast the theory using algebraic groups.",
+    "evidence": [
+     {
+      "claim": "Record: 1948.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1969111",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says he became a pioneer of linear algebraic groups while applying Ritt's theory to Picard-Vessiot.",
+      "source": "MacTutor biography of Kolchin",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kolchin/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Kolchin's algebraic groups"
+   },
+   {
+    "role": "key_development",
+    "year": 1953,
+    "precision": "year",
+    "label": "Galois theory of differential fields",
+    "work": "Kolchin, Am. J. Math. 75, 753, 1953",
+    "people": [
+     "Ellis Kolchin"
+    ],
+    "description": "Extension to strongly normal extensions.",
+    "evidence": [
+     {
+      "claim": "Record: 1953.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/2372550",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Kolchin's algebraic groups",
+    "note": "Content not read."
+   },
+   {
+    "role": "consolidation",
+    "year": 1973,
+    "precision": "year",
+    "label": "Kolchin's book",
+    "work": "Kolchin, Differential Algebra and Algebraic Groups, Academic Press, 1973",
+    "people": [
+     "Ellis Kolchin"
+    ],
+    "description": "Systematic monograph.",
+    "evidence": [
+     {
+      "claim": "Lists the book in its sources.",
+      "source": "Wikipedia: Differential Galois theory",
+      "url": "https://en.wikipedia.org/wiki/Differential_Galois_theory",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Mentions 1973 in connection with the book.",
+      "source": "MacTutor biography of Kolchin",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kolchin/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Kolchin's algebraic groups",
+    "note": "Year from Wikipedia sources; no archive record found."
+   }
+  ],
+  "people": [
+   {
+    "name": "Emile Picard",
+    "role": "Founder",
+    "lifespan": "1856-1941",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Picard_Emile/",
+    "works": [
+     {
+      "citation": "Sur les equations differentielles lineaires et les groupes algebriques de transformations",
+      "year": 1887,
+      "url": "https://doi.org/10.5802/afst.2",
+      "whyItMatters": "Origin"
+     }
+    ]
+   },
+   {
+    "name": "Ernest Vessiot",
+    "role": "Theory",
+    "lifespan": "1865-1952",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Vessiot/",
+    "works": [
+     {
+      "citation": "Sur l'integration des equations differentielles lineaires",
+      "year": 1892,
+      "url": "https://doi.org/10.24033/asens.372",
+      "whyItMatters": "Thesis"
+     }
+    ]
+   },
+   {
+    "name": "Ellis Kolchin",
+    "role": "Modernisation",
+    "lifespan": "1916-1991",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kolchin/",
+    "works": [
+     {
+      "citation": "Algebraic matric groups and the Picard-Vessiot theory",
+      "year": 1948,
+      "url": "https://doi.org/10.2307/1969111",
+      "whyItMatters": "Algebraic groups"
+     }
+    ]
+   },
+   {
+    "name": "Joseph Ritt",
+    "role": "Differential algebra",
+    "lifespan": "1893-1951",
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Differential Equations from the Algebraic Standpoint",
+      "year": 1932,
+      "url": "https://doi.org/10.1090/coll/014",
+      "whyItMatters": "Foundation of differential algebra"
+     }
+    ]
+   }
+  ],
+  "notes": "Ritt's biography not fetched. Lie's transformation groups as precursor not verified. No first_application found. Naming of 'differential Galois theory' not located.",
+  "derivedDates": {
+   "conceptual": 1887,
+   "methodological": null,
+   "institutional": 1973
+  }
+ }
+]

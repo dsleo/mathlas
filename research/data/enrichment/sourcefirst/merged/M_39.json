@@ -1,0 +1,2696 @@
+[
+ {
+  "pid": "P033",
+  "eventId": "E41",
+  "canonicalName": "Gauge theory transforms four-manifold topology",
+  "aliases": [
+   "Donaldson theory",
+   "Donaldson invariants",
+   "Seiberg-Witten invariants",
+   "Instanton invariants of smooth 4-manifolds"
+  ],
+  "phases": [
+   "Donaldson invariants from Yang-Mills instantons (1983)",
+   "Seiberg-Witten invariants (1994)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1978,
+    "endYear": null,
+    "precision": "year",
+    "label": "Anti-self-dual connections on four-manifolds",
+    "work": "Atiyah, Hitchin, Singer, Self-duality in four-dimensional Riemannian geometry, Proc. R. Soc. Lond. A (1978)",
+    "people": [
+     "Michael Atiyah",
+     "Nigel Hitchin",
+     "Isadore Singer"
+    ],
+    "description": "Classifies self-dual Yang-Mills connections on four-manifolds, the analytic tool later used for topology.",
+    "evidence": [
+     {
+      "claim": "Paper appeared in Proc. R. Soc. Lond. A in 1978",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1098/rspa.1978.0143",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Donaldson's instanton tools came from particle-physics Yang-Mills equations",
+      "source": "MacTutor Donaldson biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Donaldson/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Precursor: the geometric theory, not the topological application. Not a derived-date source."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1983,
+    "endYear": null,
+    "precision": "year",
+    "label": "Donaldson announces gauge-theoretic invariants",
+    "work": "Donaldson, Self-dual connections and the topology of smooth 4-manifolds, Bull. Amer. Math. Soc. (1983)",
+    "people": [
+     "Simon Donaldson"
+    ],
+    "description": "Announces that moduli spaces of anti-self-dual connections give invariants of smooth 4-manifolds.",
+    "evidence": [
+     {
+      "claim": "Bull. AMS 1983 announcement of the topology of smooth 4-manifolds",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1090/s0273-0979-1983-15090-5",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Donaldson theory started by Donaldson (1983), giving the restriction on definite forms",
+      "source": "Wikipedia: Donaldson theory",
+      "url": "https://en.wikipedia.org/wiki/Donaldson_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same year as the full JDG paper; within-year priority between the Bull announcement and the JDG paper is not settled by these records."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1983,
+    "endYear": null,
+    "precision": "year",
+    "label": "Donaldson's theorem on definite forms",
+    "work": "Donaldson, An application of gauge theory to four-dimensional topology, J. Differential Geom. (1983)",
+    "people": [
+     "Simon Donaldson"
+    ],
+    "description": "Full paper using Yang-Mills moduli to restrict the intersection forms of simply connected smooth 4-manifolds.",
+    "evidence": [
+     {
+      "claim": "J. Differential Geom. 1983 full paper on gauge theory and four-dimensional topology",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.4310/jdg/1214437665",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Donaldson's theorem restricts quadratic forms of simply connected 4-manifolds",
+      "source": "Wikipedia: Donaldson theory",
+      "url": "https://en.wikipedia.org/wiki/Donaldson_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1990,
+    "endYear": null,
+    "precision": "year",
+    "label": "Donaldson-Kronheimer monograph",
+    "work": "Donaldson, Kronheimer, The Geometry of Four-Manifolds, Oxford University Press (1990)",
+    "people": [
+     "Simon Donaldson",
+     "Peter Kronheimer"
+    ],
+    "description": "Book-length systematic treatment of gauge theory on four-manifolds.",
+    "evidence": [
+     {
+      "claim": "Oxford monograph chapters from 1990 (DOI prefix oso/9780198535539)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1093/oso/9780198535539.003.0001",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1994,
+    "endYear": null,
+    "precision": "year",
+    "label": "Seiberg-Witten equations",
+    "work": "Seiberg, Witten, Monopoles, duality and chiral symmetry breaking in N=2 supersymmetric QCD, Nucl. Phys. B (1994)",
+    "people": [
+     "Nathan Seiberg",
+     "Edward Witten"
+    ],
+    "description": "Introduces the monopole equations (Seiberg-Witten equations) from supersymmetric gauge theory, a more tractable replacement for the Yang-Mills moduli problem.",
+    "evidence": [
+     {
+      "claim": "Nucl. Phys. B 1994 paper introducing the Seiberg-Witten monopole theory",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1016/0550-3213(94)90214-3",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Seiberg-Witten invariants are easier to work with than Donaldson invariants",
+      "source": "Wikipedia: Seiberg-Witten invariants",
+      "url": "https://en.wikipedia.org/wiki/Seiberg%E2%80%93Witten_invariants",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1994,
+    "endYear": null,
+    "precision": "year",
+    "label": "Seiberg-Witten invariants of four-manifolds",
+    "work": "Witten, Monopoles and four-manifolds, Math. Res. Lett. (1994)",
+    "people": [
+     "Edward Witten"
+    ],
+    "description": "Defines the Seiberg-Witten invariants for smooth 4-manifolds and shows they reproduce Donaldson-type results more easily.",
+    "evidence": [
+     {
+      "claim": "Math. Res. Lett. 1994 paper on monopoles and four-manifolds",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.4310/mrl.1994.v1.n6.a13",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Seiberg-Witten invariants defined for smooth oriented 4-manifolds",
+      "source": "Wikipedia: Seiberg-Witten invariants",
+      "url": "https://en.wikipedia.org/wiki/Seiberg%E2%80%93Witten_invariants",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same year as the physics paper; treated as the 4-manifold application, not a separate first."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1994,
+    "endYear": null,
+    "precision": "year",
+    "label": "Thom conjecture via Seiberg-Witten",
+    "work": "Kronheimer, Mrowka, The genus of embedded surfaces in the projective plane, Math. Res. Lett. (1994)",
+    "people": [
+     "Peter Kronheimer",
+     "Tomasz Mrowka"
+    ],
+    "description": "Applies Seiberg-Witten theory to the genus of embedded surfaces in the projective plane (the Thom conjecture).",
+    "evidence": [
+     {
+      "claim": "Math. Res. Lett. 1994 paper on genus of embedded surfaces in CP2",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.4310/mrl.1994.v1.n6.a14",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Content (Thom conjecture) is from background knowledge; only the record was checked in this session."
+   }
+  ],
+  "people": [
+   {
+    "name": "Simon Donaldson",
+    "role": "originator",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Donaldson/",
+    "works": [
+     {
+      "citation": "Donaldson, Self-dual connections and the topology of smooth 4-manifolds, Bull. AMS (1983)",
+      "year": 1983,
+      "url": "https://doi.org/10.1090/s0273-0979-1983-15090-5",
+      "whyItMatters": "Announcement of the invariants."
+     },
+     {
+      "citation": "Donaldson, An application of gauge theory to four-dimensional topology, J. Differential Geom. (1983)",
+      "year": 1983,
+      "url": "https://doi.org/10.4310/jdg/1214437665",
+      "whyItMatters": "Full definite-forms theorem."
+     }
+    ],
+    "roleNote": "introduced Yang-Mills invariants of 4-manifolds (1983)"
+   },
+   {
+    "name": "Edward Witten",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Witten/",
+    "works": [
+     {
+      "citation": "Witten, Monopoles and four-manifolds, Math. Res. Lett. (1994)",
+      "year": 1994,
+      "url": "https://doi.org/10.4310/mrl.1994.v1.n6.a13",
+      "whyItMatters": "Defines the invariants for smooth 4-manifolds."
+     }
+    ],
+    "roleNote": "Seiberg-Witten invariants of 4-manifolds (1994)"
+   },
+   {
+    "name": "Nathan Seiberg",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Nathan_Seiberg",
+    "works": [
+     {
+      "citation": "Seiberg, Witten, Monopoles, duality and chiral symmetry breaking in N=2 supersymmetric QCD, Nucl. Phys. B (1994)",
+      "year": 1994,
+      "url": "https://doi.org/10.1016/0550-3213(94)90214-3",
+      "whyItMatters": "Introduces the monopole equations."
+     }
+    ],
+    "roleNote": "co-author of Seiberg-Witten monopole equations (1994)"
+   },
+   {
+    "name": "Peter Kronheimer",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Peter_Kronheimer",
+    "works": [
+     {
+      "citation": "Kronheimer, Mrowka, The genus of embedded surfaces in the projective plane, Math. Res. Lett. (1994)",
+      "year": 1994,
+      "url": "https://doi.org/10.4310/mrl.1994.v1.n6.a14",
+      "whyItMatters": "Seiberg-Witten application to surfaces."
+     },
+     {
+      "citation": "Donaldson, Kronheimer, The Geometry of Four-Manifolds (1990)",
+      "year": 1990,
+      "url": "https://doi.org/10.1093/oso/9780198535539.003.0001",
+      "whyItMatters": "Systematic monograph."
+     }
+    ],
+    "roleNote": "Seiberg-Witten application to embedded surfaces, with Mrowka; co-author of the 1990 monograph"
+   }
+  ],
+  "notes": "Schema pid P033/eventId E41. Searched: Wikipedia Donaldson theory and Seiberg-Witten invariants (raw wikitext); MacTutor Donaldson biography (live); Crossref and arXiv not needed beyond DOI records. The saved leads file has no entry for E41. Disputes: within-year priority of the 1983 Bull announcement and JDG paper is not settled; re-checked in Crossref, which gives 1983 for both (Bull. AMS 8, issue 1; J. Differential Geom. 18, issue 2) with no month, so the order stays unresolved. Seiberg-Witten 1994 is listed as key_development, not first_statement of the event, because the event's first public statement is Donaldson 1983. Gap: no first date for 'gauge theory' as a field name; not recorded as naming milestone. Input summary is consistent with records.",
+  "derivedDates": {
+   "conceptual": 1983,
+   "methodological": 1983,
+   "institutional": 1990
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P045",
+  "eventId": "E53",
+  "canonicalName": "Perelman's proof of the Poincare conjecture",
+  "aliases": [
+   "Poincare conjecture",
+   "Geometrization conjecture",
+   "Ricci flow with surgery",
+   "Hamilton-Perelman programme"
+  ],
+  "phases": [
+   "Thurston's geometrization framework (1982)",
+   "Hamilton's Ricci flow programme (1982-1990s)",
+   "Perelman's completion (2002-2003)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1904,
+    "endYear": null,
+    "precision": "year",
+    "label": "Poincare conjecture posed",
+    "work": null,
+    "people": [
+     "Henri Poincare"
+    ],
+    "description": "Poincare's question whether a simply connected closed 3-manifold is the 3-sphere.",
+    "evidence": [
+     {
+      "claim": "Poincare conjecture first conjectured in 1904",
+      "source": "Wikipedia: Poincare conjecture (infobox)",
+      "url": "https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Original 1904 paper not checked against a bibliographic record in this session."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1982,
+    "endYear": null,
+    "precision": "year",
+    "label": "Thurston's geometrization conjecture",
+    "work": "Thurston, Three-dimensional manifolds, Kleinian groups and hyperbolic geometry, Bull. AMS (1982)",
+    "people": [
+     "William Thurston"
+    ],
+    "description": "States that every closed 3-manifold splits into pieces with one of eight geometries; implies the Poincare conjecture.",
+    "evidence": [
+     {
+      "claim": "Bull. AMS 1982 announcement of the geometrization framework",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1090/s0273-0979-1982-15003-0",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Thurston proposed the geometrization conjecture in 1982",
+      "source": "Wikipedia: Geometrization conjecture",
+      "url": "https://en.wikipedia.org/wiki/Geometrization_conjecture",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "This is the framework statement, not the Ricci flow method; included because the event's conjecture is a special case."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1982,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hamilton introduces Ricci flow",
+    "work": "Hamilton, Three-manifolds with positive Ricci curvature, J. Differential Geom. (1982)",
+    "people": [
+     "Richard Hamilton"
+    ],
+    "description": "Introduces the Ricci flow equation for Riemannian metrics and uses it to prove a 3-manifold theorem.",
+    "evidence": [
+     {
+      "claim": "J. Differential Geom. 1982 paper on positive Ricci curvature in dimension 3",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.4310/jdg/1214436922",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Ricci flow introduced by Richard Hamilton",
+      "source": "Wikipedia: Ricci flow",
+      "url": "https://en.wikipedia.org/wiki/Ricci_flow",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1982,
+    "endYear": null,
+    "precision": "year",
+    "label": "Ricci flow applied to 3-manifold topology",
+    "work": "Hamilton, Three-manifolds with positive Ricci curvature, J. Differential Geom. (1982)",
+    "people": [
+     "Richard Hamilton"
+    ],
+    "description": "The same 1982 paper is the first use of the flow on a topological target (3-manifolds with positive Ricci curvature).",
+    "evidence": [
+     {
+      "claim": "Same 1982 paper as the first statement",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.4310/jdg/1214436922",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Hamilton's 1982 application is a precursor to Perelman's 2002-2003 proof, which is the event dated here."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 2002,
+    "endYear": null,
+    "precision": "year",
+    "label": "Perelman's entropy formula",
+    "work": "Perelman, The entropy formula for the Ricci flow and its geometric applications, arXiv math/0211159 (2002)",
+    "people": [
+     "Grigori Perelman"
+    ],
+    "description": "Introduces a monotone entropy functional for the Ricci flow and derives geometric consequences; the first of Perelman's three preprints.",
+    "evidence": [
+     {
+      "claim": "arXiv posting of the entropy formula preprint, November 2002",
+      "source": "arXiv record",
+      "url": "https://arxiv.org/abs/math/0211159",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Perelman posted the entropy paper in November 2002",
+      "source": "MacTutor Perelman biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Perelman/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Preprint (arXiv) year; no journal version by the author. Date is the posting year."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 2003,
+    "endYear": null,
+    "precision": "year",
+    "label": "Ricci flow with surgery on three-manifolds",
+    "work": "Perelman, Ricci flow with surgery on three-manifolds, arXiv math/0303109 (2003)",
+    "people": [
+     "Grigori Perelman"
+    ],
+    "description": "Constructs Ricci flow with surgery and completes the programme behind the Poincare and geometrization conjectures.",
+    "evidence": [
+     {
+      "claim": "arXiv posting of the surgery preprint, 2003",
+      "source": "arXiv record",
+      "url": "https://arxiv.org/abs/math/0303109",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Perelman's 2002 and 2003 papers complete Hamilton's programme",
+      "source": "Wikipedia: Poincare conjecture",
+      "url": "https://en.wikipedia.org/wiki/Poincar%C3%A9_conjecture",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Preprint year; the finite-extinction preprint (arXiv math/0307245, 2003) is also relevant and is not a separate milestone here."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2007,
+    "endYear": null,
+    "precision": "year",
+    "label": "Morgan-Tian monograph",
+    "work": "Morgan, Tian, Ricci Flow and the Poincare Conjecture, Clay Mathematics Monographs (AMS, 2007)",
+    "people": [
+     "John Morgan"
+    ],
+    "description": "First book-length exposition of the proof of the Poincare conjecture from Perelman's papers.",
+    "evidence": [
+     {
+      "claim": "Crossref/Open Library record of Morgan's 2007 monograph on Ricci flow and the Poincare conjecture",
+      "source": "Crossref / publisher record",
+      "url": "https://openlibrary.org/search?q=Ricci+flow+and+the+Poincare+conjecture",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Record year from catalogue; co-author Gang Tian not separately verified."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2008,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kleiner-Lott lecture notes",
+    "work": "Kleiner, Lott, Notes on Perelman's papers, Geometry & Topology (2008)",
+    "people": [
+     "Bruce Kleiner"
+    ],
+    "description": "Detailed notes on Perelman's three preprints, the standard reference for checking the argument.",
+    "evidence": [
+     {
+      "claim": "Geometry & Topology 2008 notes on Perelman's papers",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.2140/gt.2008.12.2587",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Richard Hamilton",
+    "role": "originator",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Richard_Hamilton",
+    "works": [
+     {
+      "citation": "Hamilton, Three-manifolds with positive Ricci curvature, J. Differential Geom. (1982)",
+      "year": 1982,
+      "url": "https://doi.org/10.4310/jdg/1214436922",
+      "whyItMatters": "Introduces Ricci flow."
+     }
+    ],
+    "roleNote": "introduced Ricci flow and the 3-manifold programme (1982)"
+   },
+   {
+    "name": "Grigori Perelman",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Perelman/",
+    "works": [
+     {
+      "citation": "Perelman, The entropy formula for the Ricci flow and its geometric applications, arXiv math/0211159",
+      "year": 2002,
+      "url": "https://arxiv.org/abs/math/0211159",
+      "whyItMatters": "Entropy formula."
+     },
+     {
+      "citation": "Perelman, Ricci flow with surgery on three-manifolds, arXiv math/0303109",
+      "year": 2003,
+      "url": "https://arxiv.org/abs/math/0303109",
+      "whyItMatters": "Surgery and completion."
+     }
+    ],
+    "roleNote": "completed the programme with the three preprints (2002-2003)"
+   },
+   {
+    "name": "William Thurston",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Thurston/",
+    "works": [
+     {
+      "citation": "Thurston, Three-dimensional manifolds, Kleinian groups and hyperbolic geometry, Bull. AMS (1982)",
+      "year": 1982,
+      "url": "https://doi.org/10.1090/s0273-0979-1982-15003-0",
+      "whyItMatters": "Geometrization framework."
+     }
+    ],
+    "roleNote": "geometrization conjecture (1982)"
+   },
+   {
+    "name": "John Morgan",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/John_Morgan",
+    "works": [
+     {
+      "citation": "Morgan, Tian, Ricci Flow and the Poincare Conjecture (AMS, 2007)",
+      "year": 2007,
+      "url": "https://openlibrary.org/search?q=Ricci+flow+and+the+Poincare+conjecture",
+      "whyItMatters": "First monograph."
+     }
+    ],
+    "roleNote": "monograph on Ricci flow and the Poincare conjecture with Gang Tian (2007)"
+   },
+   {
+    "name": "Bruce Kleiner",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Bruce_Kleiner",
+    "works": [
+     {
+      "citation": "Kleiner, Lott, Notes on Perelman's papers, Geometry & Topology (2008)",
+      "year": 2008,
+      "url": "https://doi.org/10.2140/gt.2008.12.2587",
+      "whyItMatters": "Standard reference."
+     }
+    ],
+    "roleNote": "notes on Perelman's papers with John Lott (2008)"
+   }
+  ],
+  "notes": "Schema pid P045/eventId E53. The event is Perelman's proof: Thurston's conjecture and Hamilton's Ricci flow (both 1982) are precursors, while Perelman's 2002 preprint is the first public statement and his 2003 surgery paper is the next application. Clay Mathematics Institute confirms the proof was presented in the 2002-2003 preprints. The MacTutor 'Hamilton' URL is William Rowan Hamilton, so Richard Hamilton has no biography link here. Gap: Poincare 1904 original not checked against a bibliographic record.",
+  "derivedDates": {
+   "conceptual": 2002,
+   "methodological": 2003,
+   "institutional": 2007
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P084",
+  "eventId": "B18",
+  "canonicalName": "Wavelets",
+  "aliases": [
+   "Wavelet transform",
+   "Ondelettes",
+   "Multiresolution analysis",
+   "Orthonormal wavelet bases"
+  ],
+  "phases": [
+   "Haar system (1909-1910)",
+   "Seismic and continuous wavelets (1982-1984)",
+   "Compactly supported orthonormal wavelets and multiresolution (1988-1992)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1910,
+    "endYear": null,
+    "precision": "year",
+    "label": "Haar's orthogonal system",
+    "work": "Haar, Zur Theorie der orthogonalen Funktionensysteme, Math. Ann. (1910)",
+    "people": [
+     "Alfred Haar"
+    ],
+    "description": "Haar's orthogonal system of step functions, the first compactly supported orthonormal wavelet; not called a wavelet at the time.",
+    "evidence": [
+     {
+      "claim": "Math. Ann. 1910 paper on orthogonal function systems",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1007/bf01456326",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Haar wavelet as the first wavelet (Haar 1909 dissertation); timeline in Wikipedia",
+      "source": "Wikipedia: Wavelet",
+      "url": "https://en.wikipedia.org/wiki/Wavelet",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "The 1909 dissertation is the earlier source; the journal paper is the public record used here. Not a derived-date source."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1982,
+    "endYear": null,
+    "precision": "year",
+    "label": "Morlet et al. wave propagation and sampling",
+    "work": "Morlet, Arens, Fourgeau, Giard, Wave propagation and sampling theory, Part I, Geophysics (1982)",
+    "people": [
+     "Jean Morlet"
+    ],
+    "description": "Uses wavelet-type time-frequency analysis on seismic signals, the first purposeful use of the wavelet idea as a tool.",
+    "evidence": [
+     {
+      "claim": "Geophysics 1982 Part I (DOI 10.1190/1.1441328)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1190/1.1441328",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Morlet's work on seismic data leading to the continuous wavelet transform",
+      "source": "Wikipedia: Wavelet transform",
+      "url": "https://en.wikipedia.org/wiki/Wavelet_transform",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Whether this 1982 paper is the earliest purposeful use is a judgement; Wikipedia timeline credits Morlet from the 1970s. Reclassified from first_application to precursor: it predates this event's first statement (1984) and belongs to the wider field."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1984,
+    "endYear": null,
+    "precision": "year",
+    "label": "Grossmann-Morlet wavelet decomposition",
+    "work": "Grossmann, Morlet, Decomposition of Hardy functions into square integrable wavelets of constant shape, SIAM J. Math. Anal. (1984)",
+    "people": [
+     "Alex Grossmann",
+     "Jean Morlet"
+    ],
+    "description": "Formulates the continuous wavelet transform as a decomposition into dilates and translates of one function.",
+    "evidence": [
+     {
+      "claim": "SIAM J. Math. Anal. 1984 paper",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1137/0515056",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Continuous wavelet transform credited to Grossmann and Morlet",
+      "source": "Wikipedia: Wavelet transform",
+      "url": "https://en.wikipedia.org/wiki/Wavelet_transform",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 1984,
+    "endYear": null,
+    "precision": "year",
+    "label": "'Wavelets' in a mathematical title",
+    "work": "Grossmann, Morlet (1984), see above",
+    "people": [
+     "Alex Grossmann",
+     "Jean Morlet"
+    ],
+    "description": "The 1984 title is the first title in this record set to use the term 'wavelets' in the mathematical sense.",
+    "evidence": [
+     {
+      "claim": "Same 1984 SIAM paper; title contains 'square integrable wavelets'",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1137/0515056",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Same paper as first_statement; the French 'ondelette' is used by Morlet and Grossmann in the early 1980s per Wikipedia, so the term's coinage is not dated here."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1988,
+    "endYear": null,
+    "precision": "year",
+    "label": "Compactly supported orthonormal wavelets",
+    "work": "Daubechies, Orthonormal bases of compactly supported wavelets, Comm. Pure Appl. Math. (1988)",
+    "people": [
+     "Ingrid Daubechies"
+    ],
+    "description": "Constructs smooth compactly supported orthonormal wavelet bases, making wavelets practical for signal processing.",
+    "evidence": [
+     {
+      "claim": "Comm. Pure Appl. Math. 1988 paper",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1002/cpa.3160410705",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Daubechies' 1988 orthonormal compactly supported bases",
+      "source": "MacTutor Daubechies biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Daubechies/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1989,
+    "endYear": null,
+    "precision": "year",
+    "label": "Multiresolution and the fast wavelet transform",
+    "work": "Mallat, A theory for multiresolution signal decomposition: the wavelet representation, IEEE Trans. PAMI (1989)",
+    "people": [
+     "Stephane Mallat"
+    ],
+    "description": "Introduces multiresolution analysis and the fast wavelet transform, linking wavelets to filter banks.",
+    "evidence": [
+     {
+      "claim": "IEEE Trans. PAMI 1989 paper",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1109/34.192463",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Fast wavelet transform introduced by Mallat and Meyer in 1988/89",
+      "source": "Wikipedia: Multiresolution analysis",
+      "url": "https://en.wikipedia.org/wiki/Multiresolution_analysis",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1992,
+    "endYear": null,
+    "precision": "year",
+    "label": "Daubechies' lectures",
+    "work": "Daubechies, Ten Lectures on Wavelets, SIAM (CBMS-NSF 61) (1992)",
+    "people": [
+     "Ingrid Daubechies"
+    ],
+    "description": "Textbook-length treatment of wavelet theory and construction, the standard systematic reference.",
+    "evidence": [
+     {
+      "claim": "SIAM 1992 lectures (DOI 10.1137/1.9781611970104)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1137/1.9781611970104",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Alfred Haar",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Haar/",
+    "works": [
+     {
+      "citation": "Haar, Zur Theorie der orthogonalen Funktionensysteme, Math. Ann. (1910)",
+      "year": 1910,
+      "url": "https://doi.org/10.1007/bf01456326",
+      "whyItMatters": "Haar system."
+     }
+    ],
+    "roleNote": "orthogonal system precursor (1910)"
+   },
+   {
+    "name": "Jean Morlet",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Jean_Morlet",
+    "works": [
+     {
+      "citation": "Morlet, Arens, Fourgeau, Giard, Wave propagation and sampling theory, Part I, Geophysics (1982)",
+      "year": 1982,
+      "url": "https://doi.org/10.1190/1.1441328",
+      "whyItMatters": "Seismic application."
+     }
+    ],
+    "roleNote": "seismic wavelet analysis (1982)"
+   },
+   {
+    "name": "Alex Grossmann",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Alex_Grossmann",
+    "works": [
+     {
+      "citation": "Grossmann, Morlet, Decomposition of Hardy functions into square integrable wavelets of constant shape, SIAM J. Math. Anal. (1984)",
+      "year": 1984,
+      "url": "https://doi.org/10.1137/0515056",
+      "whyItMatters": "Continuous wavelet transform."
+     }
+    ],
+    "roleNote": "continuous wavelet transform (1984)"
+   },
+   {
+    "name": "Ingrid Daubechies",
+    "role": "popularizer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Daubechies/",
+    "works": [
+     {
+      "citation": "Daubechies, Orthonormal bases of compactly supported wavelets, Comm. Pure Appl. Math. (1988)",
+      "year": 1988,
+      "url": "https://doi.org/10.1002/cpa.3160410705",
+      "whyItMatters": "Construction."
+     },
+     {
+      "citation": "Daubechies, Ten Lectures on Wavelets (SIAM, 1992)",
+      "year": 1992,
+      "url": "https://doi.org/10.1137/1.9781611970104",
+      "whyItMatters": "Consolidation."
+     }
+    ],
+    "roleNote": "compactly supported orthonormal wavelets (1988) and lectures (1992)"
+   },
+   {
+    "name": "Stephane Mallat",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Stephane_Mallat",
+    "works": [
+     {
+      "citation": "Mallat, A theory for multiresolution signal decomposition: the wavelet representation, IEEE Trans. PAMI (1989)",
+      "year": 1989,
+      "url": "https://doi.org/10.1109/34.192463",
+      "whyItMatters": "Multiresolution."
+     }
+    ],
+    "roleNote": "multiresolution analysis and fast wavelet transform (1989)"
+   }
+  ],
+  "notes": "Schema pid P084/eventId B18. Searched: Wikipedia Wavelet, Haar wavelet, Morlet wavelet, Multiresolution analysis, Daubechies wavelet (raw); MacTutor Haar, Daubechies (live); Crossref records. Saved leads (wavelet entries) were consulted for context only. Disputes: the 'first wavelet' is Haar's 1909 thesis or 1910 journal; the 1982 seismic paper is judged the first purposeful use (medium). The name 'wavelet' in the 1984 title is recorded as naming, with the same paper also first_statement. Yves Meyer's 1990 book was not included because its first-publication year differed between catalogues (1989 vs 1990).",
+  "derivedDates": {
+   "conceptual": 1984,
+   "methodological": null,
+   "institutional": 1984
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P097",
+  "eventId": "B31",
+  "canonicalName": "Supersymmetry and Morse theory",
+  "aliases": [
+   "Supersymmetric quantum mechanics and Morse inequalities",
+   "Witten's analytic proof of Morse inequalities",
+   "Supersymmetric Morse theory"
+  ],
+  "phases": [
+   "Supersymmetry in quantum field theory (1981)",
+   "Analytic Morse theory (1982)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1981,
+    "endYear": null,
+    "precision": "year",
+    "label": "Dynamical breaking of supersymmetry",
+    "work": "Witten, Dynamical breaking of supersymmetry, Nucl. Phys. B (1981)",
+    "people": [
+     "Edward Witten"
+    ],
+    "description": "Supersymmetric field theory work that is the background to the supersymmetric quantum mechanics used in 1982.",
+    "evidence": [
+     {
+      "claim": "Nucl. Phys. B 1981 paper",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1016/0550-3213(81)90006-7",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Relation to Morse theory is indirect; kept as precursor only."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1982,
+    "endYear": null,
+    "precision": "year",
+    "label": "Analytic proof of the Morse inequalities",
+    "work": "Witten, Supersymmetry and Morse theory, J. Differential Geom. (1982)",
+    "people": [
+     "Edward Witten"
+    ],
+    "description": "Shows that a supersymmetric deformed de Rham complex gives an analytic proof of the Morse inequalities.",
+    "evidence": [
+     {
+      "claim": "J. Differential Geom. 1982 paper 'Supersymmetry and Morse theory' (DOI 10.4310/jdg/1214437492)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.4310/jdg/1214437492",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "In 1982 Witten developed an analytic approach to the Morse inequalities",
+      "source": "Wikipedia: Morse theory",
+      "url": "https://en.wikipedia.org/wiki/Morse_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "MacTutor's Witten biography dates the paper to 1984; the journal record gives 1982 and that is used."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1982,
+    "endYear": null,
+    "precision": "year",
+    "label": "Morse inequalities from perturbed de Rham complex",
+    "work": "Witten, Supersymmetry and Morse theory, J. Differential Geom. (1982)",
+    "people": [
+     "Edward Witten"
+    ],
+    "description": "The same 1982 paper applies the construction to the Morse inequalities, which is the first purposeful use.",
+    "evidence": [
+     {
+      "claim": "Same 1982 paper",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.4310/jdg/1214437492",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper plays first_statement and first_application."
+   },
+   {
+    "role": "naming",
+    "year": 1982,
+    "endYear": null,
+    "precision": "year",
+    "label": "Witten, 'Supersymmetry and Morse theory'",
+    "work": "E. Witten, 'Supersymmetry and Morse theory', Journal of Differential Geometry 17 (1982), DOI 10.4310/jdg/1214437492",
+    "people": [
+     "Edward Witten"
+    ],
+    "description": "Witten's 1982 paper names both fields, supersymmetry and Morse theory, in its title, the field name of this event.",
+    "evidence": [
+     {
+      "claim": "Crossref record gives title 'Supersymmetry and Morse theory', author Witten, container Journal of Differential Geometry, year 1982",
+      "source": "Crossref, DOI 10.4310/jdg/1214437492",
+      "url": "https://doi.org/10.4310/jdg/1214437492",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Title use of the combined field name; the 1981 'Dynamical breaking of supersymmetry' is a precursor already in the record. zbMATH 'supersymmetry' hits 1978-1990 were checked only as a loose search (for example 1979 graded-manifold titles).",
+    "phase": null
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1988,
+    "endYear": null,
+    "precision": "year",
+    "label": "Floer theory from Witten's approach",
+    "work": "Floer, Morse theory for Lagrangian intersections, J. Differential Geom. (1988)",
+    "people": [
+     "Andreas Floer"
+    ],
+    "description": "Builds infinite-dimensional Morse theory for Lagrangian intersections, extending the analytic idea.",
+    "evidence": [
+     {
+      "claim": "J. Differential Geom. 1988 paper",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.4310/jdg/1214442477",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Relation to Witten's 1982 approach is from background knowledge, not from a fetched page."
+   }
+  ],
+  "people": [
+   {
+    "name": "Edward Witten",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Witten/",
+    "works": [
+     {
+      "citation": "Witten, Supersymmetry and Morse theory, J. Differential Geom. (1982)",
+      "year": 1982,
+      "url": "https://doi.org/10.4310/jdg/1214437492",
+      "whyItMatters": "Core paper."
+     },
+     {
+      "citation": "Witten, Dynamical breaking of supersymmetry, Nucl. Phys. B (1981)",
+      "year": 1981,
+      "url": "https://doi.org/10.1016/0550-3213(81)90006-7",
+      "whyItMatters": "Background supersymmetry."
+     }
+    ],
+    "roleNote": "analytic Morse theory via supersymmetry (1982)"
+   },
+   {
+    "name": "Andreas Floer",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Floer/",
+    "works": [
+     {
+      "citation": "Floer, Morse theory for Lagrangian intersections, J. Differential Geom. (1988)",
+      "year": 1988,
+      "url": "https://doi.org/10.4310/jdg/1214442477",
+      "whyItMatters": "Floer homology."
+     }
+    ],
+    "roleNote": "Morse theory for Lagrangian intersections (1988)"
+   }
+  ],
+  "notes": "Schema pid P097/eventId B31. Searched: Wikipedia Morse theory and Supersymmetric quantum mechanics (raw); MacTutor Witten biography (live). No consolidation (monograph or survey) for the supersymmetric proof was found in this session, so none is listed. Disputes: MacTutor dates the paper 1984; Crossref dates the JDG paper 1982. Floer 1988 relation is medium confidence.",
+  "derivedDates": {
+   "conceptual": 1982,
+   "methodological": 1982,
+   "institutional": 1982
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P507",
+  "eventId": "P64",
+  "canonicalName": "Quantum computation: Shor's algorithm",
+  "aliases": [
+   "Shor's factoring algorithm",
+   "Quantum factoring",
+   "Quantum computation"
+  ],
+  "phases": [
+   "Quantum computing proposals (1982-1985)",
+   "Quantum period-finding and factoring (1994)",
+   "Consolidation (1997-2000)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1982,
+    "endYear": null,
+    "precision": "year",
+    "label": "Simulating physics with computers",
+    "work": "Feynman, Simulating physics with computers, Int. J. Theor. Phys. (1982)",
+    "people": [
+     "Richard Feynman"
+    ],
+    "description": "Proposes that quantum systems could be simulated by quantum computing devices.",
+    "evidence": [
+     {
+      "claim": "Int. J. Theor. Phys. 1982 paper",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1007/bf02650179",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Precursor idea; not an algorithm."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1985,
+    "endYear": null,
+    "precision": "year",
+    "label": "Universal quantum computer",
+    "work": "Deutsch, Quantum theory, the Church-Turing principle and the universal quantum computer, Proc. R. Soc. Lond. A (1985)",
+    "people": [
+     "David Deutsch"
+    ],
+    "description": "Defines a universal quantum computer model, the first public statement of quantum computation as a computing theory.",
+    "evidence": [
+     {
+      "claim": "Proc. R. Soc. Lond. A 1985 paper",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1098/rspa.1985.0070",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Conceptual first statement of the field; Shor's algorithm comes later."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1994,
+    "endYear": null,
+    "precision": "year",
+    "label": "Quantum period-finding (Simon's problem)",
+    "work": "Simon, On the power of quantum computation, FOCS (1994)",
+    "people": [
+     "Daniel Simon"
+    ],
+    "description": "Oracle period-finding with quantum queries; the direct inspiration for Shor's period-finding approach to factoring.",
+    "evidence": [
+     {
+      "claim": "FOCS 1994 paper (DOI 10.1109/sfcs.1994.365701)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1109/sfcs.1994.365701",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Shor's work followed Simon's problem",
+      "source": "MacTutor Shor biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Shor/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Precursor by design; not the public start of the factoring algorithm."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1994,
+    "endYear": null,
+    "precision": "year",
+    "label": "Shor's factoring algorithm",
+    "work": "Shor, Algorithms for quantum computation: discrete logarithms and factoring, FOCS (1994)",
+    "people": [
+     "Peter Shor"
+    ],
+    "description": "Uses the quantum Fourier transform to find periods and hence factor integers in polynomial time.",
+    "evidence": [
+     {
+      "claim": "FOCS 1994 proceedings paper (DOI 10.1109/sfcs.1994.365700)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1109/sfcs.1994.365700",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Shor published the algorithm known as Shor's algorithm in 1994",
+      "source": "MacTutor Shor biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Shor/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1997,
+    "endYear": null,
+    "precision": "year",
+    "label": "Journal version of factoring algorithm",
+    "work": "Shor, Polynomial-time algorithms for prime factorization and discrete logarithms on a quantum computer, SIAM J. Comput. (1997)",
+    "people": [
+     "Peter Shor"
+    ],
+    "description": "Full journal version with discrete logarithms and prime factorization.",
+    "evidence": [
+     {
+      "claim": "SIAM J. Comput. 1997 paper (DOI 10.1137/s0097539795293172)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1137/s0097539795293172",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "An arXiv preprint (quant-ph/9508027, 1995) exists per background knowledge; the arXiv record was not verified in this session because of rate limits."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2000,
+    "endYear": null,
+    "precision": "year",
+    "label": "Nielsen-Chuang textbook",
+    "work": "Nielsen, Chuang, Quantum Computation and Quantum Information, Cambridge University Press (2000)",
+    "people": [
+     "Michael Nielsen",
+     "Isaac Chuang"
+    ],
+    "description": "Standard textbook presenting quantum computation and factoring.",
+    "evidence": [
+     {
+      "claim": "Open Library record of Nielsen and Chuang, 2000",
+      "source": "Crossref / publisher record",
+      "url": "https://openlibrary.org/search?q=Quantum+computation+and+quantum+information",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Book record from Open Library; not Crossref."
+   }
+  ],
+  "people": [
+   {
+    "name": "Peter Shor",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Shor/",
+    "works": [
+     {
+      "citation": "Shor, Algorithms for quantum computation: discrete logarithms and factoring, FOCS (1994)",
+      "year": 1994,
+      "url": "https://doi.org/10.1109/sfcs.1994.365700",
+      "whyItMatters": "Factoring algorithm."
+     },
+     {
+      "citation": "Shor, Polynomial-time algorithms for prime factorization and discrete logarithms on a quantum computer, SIAM J. Comput. (1997)",
+      "year": 1997,
+      "url": "https://doi.org/10.1137/s0097539795293172",
+      "whyItMatters": "Journal version."
+     }
+    ],
+    "roleNote": "factoring algorithm (1994) and journal version (1997)"
+   },
+   {
+    "name": "David Deutsch",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/David_Deutsch",
+    "works": [
+     {
+      "citation": "Deutsch, Quantum theory, the Church-Turing principle and the universal quantum computer, Proc. R. Soc. Lond. A (1985)",
+      "year": 1985,
+      "url": "https://doi.org/10.1098/rspa.1985.0070",
+      "whyItMatters": "Universal model."
+     }
+    ],
+    "roleNote": "universal quantum computer (1985)"
+   },
+   {
+    "name": "Richard Feynman",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Feynman/",
+    "works": [
+     {
+      "citation": "Feynman, Simulating physics with computers, Int. J. Theor. Phys. (1982)",
+      "year": 1982,
+      "url": "https://doi.org/10.1007/bf02650179",
+      "whyItMatters": "Quantum simulation."
+     }
+    ],
+    "roleNote": "quantum simulation proposal (1982)"
+   },
+   {
+    "name": "Daniel Simon",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Daniel_Simon",
+    "works": [
+     {
+      "citation": "Simon, On the power of quantum computation, FOCS (1994)",
+      "year": 1994,
+      "url": "https://doi.org/10.1109/sfcs.1994.365701",
+      "whyItMatters": "Simon's problem."
+     }
+    ],
+    "roleNote": "quantum period-finding oracle problem (1994)"
+   },
+   {
+    "name": "Michael Nielsen",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Michael_Nielsen",
+    "works": [
+     {
+      "citation": "Nielsen, Chuang, Quantum Computation and Quantum Information (CUP, 2000)",
+      "year": 2000,
+      "url": "https://openlibrary.org/search?q=Quantum+computation+and+quantum+information",
+      "whyItMatters": "Textbook."
+     }
+    ],
+    "roleNote": "textbook with Isaac Chuang (2000)"
+   }
+  ],
+  "notes": "Schema pid P507/eventId P64. Searched: Wikipedia Shor's algorithm and Quantum computing (raw); MacTutor Shor biography (live); Crossref records. Saved leads for this event pointed at the general Quantum computing article only. Disputes: none on the 1994/1997 years; the conceptual derived date is Deutsch 1985, not Shor. The arXiv posting of the 1997 paper was not verified this session.",
+  "derivedDates": {
+   "conceptual": 1985,
+   "methodological": 1994,
+   "institutional": 2000
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P514",
+  "eventId": "P72",
+  "canonicalName": "Teichmuller dynamics: homogeneous dynamics on moduli spaces",
+  "aliases": [
+   "Teichmuller geodesic flow",
+   "Dynamics on moduli spaces of abelian differentials",
+   "Orbit closures in moduli space",
+   "Magic wand theorem"
+  ],
+  "phases": [
+   "Teichmuller geodesic flow ergodicity (1982)",
+   "Veech dichotomy and asymptotic counting (1986-2001)",
+   "Orbit closures and measure rigidity (2003-2015)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1982,
+    "endYear": null,
+    "precision": "year",
+    "label": "Ergodicity of the Teichmuller geodesic flow",
+    "work": "Masur, Interval exchange transformations and measured foliations, Ann. of Math. (1982)",
+    "people": [
+     "Howard Masur"
+    ],
+    "description": "Relates interval exchanges and the Teichmuller flow and shows the flow's ergodic behaviour.",
+    "evidence": [
+     {
+      "claim": "Ann. of Math. 1982 paper (DOI 10.2307/1971341)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.2307/1971341",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Year verified; the ergodicity content is from background knowledge, not checked in the paper."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1982,
+    "endYear": null,
+    "precision": "year",
+    "label": "Gauss measure for interval exchanges",
+    "work": "Veech, Gauss measures for transformations on the space of interval exchange maps, Ann. of Math. (1982)",
+    "people": [
+     "William Veech"
+    ],
+    "description": "Independently constructs an invariant measure for the Teichmuller flow on interval exchange space.",
+    "evidence": [
+     {
+      "claim": "Ann. of Math. 1982 paper (DOI 10.2307/1971391)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.2307/1971391",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Independent of Masur's paper; same year."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1986,
+    "endYear": null,
+    "precision": "year",
+    "label": "Veech's geodesic flow paper",
+    "work": "Veech, The Teichmuller geodesic flow, Ann. of Math. (1986)",
+    "people": [
+     "William Veech"
+    ],
+    "description": "Develops the geodesic flow on the moduli space of flat surfaces, a basis of later Teichmuller dynamics.",
+    "evidence": [
+     {
+      "claim": "Ann. of Math. 1986 paper (DOI 10.2307/2007091)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.2307/2007091",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1991,
+    "endYear": null,
+    "precision": "year",
+    "label": "Ratner measure rigidity",
+    "work": "Ratner, On Raghunathan's measure conjecture, Ann. of Math. (1991)",
+    "people": [
+     "Marina Ratner"
+    ],
+    "description": "Measure rigidity for unipotent actions on homogeneous spaces, the source technique later adapted to moduli spaces.",
+    "evidence": [
+     {
+      "claim": "Ann. of Math. 1991 paper (DOI 10.2307/2944357)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.2307/2944357",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Ratner's measure rigidity as the source of the orbit-closure approach",
+      "source": "MacTutor Ratner biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ratner/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Precursor from another area; not a Teichmuller result. Listed as a note, not a derived-date source."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 2001,
+    "endYear": null,
+    "precision": "year",
+    "label": "Asymptotic formulas on flat surfaces",
+    "work": "Eskin, Masur, Asymptotic formulas on flat surfaces, Ergodic Theory Dynam. Systems (2001)",
+    "people": [
+     "Alex Eskin",
+     "Howard Masur"
+    ],
+    "description": "Uses the Teichmuller flow to count closed geodesics and saddle connections on flat surfaces, a first purposeful use for counting.",
+    "evidence": [
+     {
+      "claim": "Ergodic Theory Dynam. Systems 2001 paper (DOI 10.1017/s0143385701001225)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1017/s0143385701001225",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Judgement that this is the first counting application; not verified against earlier work."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2003,
+    "endYear": null,
+    "precision": "year",
+    "label": "Billiards in rectangles with barriers",
+    "work": "Eskin, Masur, Schmoll, Billiards in rectangles with barriers, Duke Math. J. (2003)",
+    "people": [
+     "Alex Eskin",
+     "Howard Masur",
+     "Martin Schmoll"
+    ],
+    "description": "Applies Teichmuller and translation-surface dynamics to billiards in rectangles with barriers.",
+    "evidence": [
+     {
+      "claim": "Duke Math. J. 2003 paper (DOI 10.1215/s0012-7094-03-11832-3)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1215/s0012-7094-03-11832-3",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "The magic wand attribution is not verified in the paper's abstract in this session; the milestone is kept on the record only."
+   },
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 2012,
+    "precision": "year",
+    "label": "Forni titles a paper with the Teichmuller dynamics name",
+    "work": "Forni, G., On the Brin Prize work of Artur Avila in Teichmuller dynamics and interval-exchange transformations, 2012",
+    "people": [
+     "Forni"
+    ],
+    "description": "Earliest zbMATH title found with Teichmuller dynamics in the name.",
+    "evidence": [
+     {
+      "claim": "zbMATH record with Teichmuller dynamics in the title, Forni, 2012",
+      "source": "zbMATH Open doc 6094022",
+      "url": "https://api.zbmath.org/v1/document/6094022",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "The 1980-2005 search returned zero, so the name is late in titles. Journal and survey titles after 2012 were not searched in full.",
+    "endYear": null
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2015,
+    "endYear": null,
+    "precision": "year",
+    "label": "Orbit closures are affine invariant submanifolds",
+    "work": "Eskin, Mirzakhani, Mohammadi, Isolation, equidistribution, and orbit closures for the SL(2,R) action on moduli space, Ann. of Math. (2015)",
+    "people": [
+     "Alex Eskin",
+     "Maryam Mirzakhani",
+     "Amir Mohammadi"
+    ],
+    "description": "Classifies orbit closures and proves equidistribution for the SL(2,R) action on moduli space, using Ratner-style rigidity.",
+    "evidence": [
+     {
+      "claim": "Ann. of Math. 2015 paper (DOI 10.4007/annals.2015.182.2.7)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.4007/annals.2015.182.2.7",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "arXiv preprint 1305.3015 (2013) with the same title",
+      "source": "arXiv record",
+      "url": "https://arxiv.org/abs/1305.3015",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Mirzakhani and Eskin collaboration with Mohammadi on moduli space dynamics",
+      "source": "MacTutor Mirzakhani biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Mirzakhani/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Year verified via DOI and arXiv record. Input summary's Ratner adaptation is consistent with the paper's method."
+   }
+  ],
+  "people": [
+   {
+    "name": "Howard Masur",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Howard_Masur",
+    "works": [
+     {
+      "citation": "Masur, Interval exchange transformations and measured foliations, Ann. of Math. (1982)",
+      "year": 1982,
+      "url": "https://doi.org/10.2307/1971341",
+      "whyItMatters": "Interval exchanges and flow."
+     }
+    ],
+    "roleNote": "ergodicity of the Teichmuller flow (1982)"
+   },
+   {
+    "name": "William Veech",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/William_Veech",
+    "works": [
+     {
+      "citation": "Veech, Gauss measures for transformations on the space of interval exchange maps, Ann. of Math. (1982)",
+      "year": 1982,
+      "url": "https://doi.org/10.2307/1971391",
+      "whyItMatters": "Gauss measure."
+     },
+     {
+      "citation": "Veech, The Teichmuller geodesic flow, Ann. of Math. (1986)",
+      "year": 1986,
+      "url": "https://doi.org/10.2307/2007091",
+      "whyItMatters": "Geodesic flow."
+     }
+    ],
+    "roleNote": "Gauss measure (1982) and Teichmuller geodesic flow (1986)"
+   },
+   {
+    "name": "Alex Eskin",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Alex_Eskin",
+    "works": [
+     {
+      "citation": "Eskin, Masur, Asymptotic formulas on flat surfaces, Ergodic Theory Dynam. Systems (2001)",
+      "year": 2001,
+      "url": "https://doi.org/10.1017/s0143385701001225",
+      "whyItMatters": "Counting."
+     },
+     {
+      "citation": "Eskin, Mirzakhani, Mohammadi, Ann. of Math. (2015)",
+      "year": 2015,
+      "url": "https://doi.org/10.4007/annals.2015.182.2.7",
+      "whyItMatters": "Orbit closures."
+     }
+    ],
+    "roleNote": "asymptotic formulas and orbit closures (2001 and 2015)"
+   },
+   {
+    "name": "Maryam Mirzakhani",
+    "role": "developer",
+    "lifespan": "1977-2017",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Mirzakhani/",
+    "works": [
+     {
+      "citation": "Eskin, Mirzakhani, Mohammadi, Ann. of Math. (2015)",
+      "year": 2015,
+      "url": "https://doi.org/10.4007/annals.2015.182.2.7",
+      "whyItMatters": "Main theorem."
+     }
+    ],
+    "roleNote": "orbit closures and equidistribution on moduli space (2015)"
+   },
+   {
+    "name": "Marina Ratner",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Ratner/",
+    "works": [
+     {
+      "citation": "Ratner, On Raghunathan's measure conjecture, Ann. of Math. (1991)",
+      "year": 1991,
+      "url": "https://doi.org/10.2307/2944357",
+      "whyItMatters": "Measure rigidity."
+     }
+    ],
+    "roleNote": "measure rigidity for homogeneous dynamics (1991)"
+   }
+  ],
+  "notes": "Schema pid P514/eventId P72. Searched: Wikipedia Teichmuller space, Maryam Mirzakhani, Michael Brin Prize (saved leads; Teichmuller dynamics wikitext missing), MacTutor Mirzakhani and Ratner biographies (live); Crossref and arXiv records. Gap: no consolidation (survey or monograph) verified; a 2015 Wright survey (EMS Surv. Math. Sci. 2 (2015) 63-108; Crossref doi 10.4171/emss/9, issued June 2015) is verified as a candidate, but it is not promoted to a consolidation milestone because whether it is the first systematic treatment of this strand was not established (earlier surveys were not compared). Disputes: magic wand theorem attribution not verified (EMS 2003 vs EMM 2015). Mirzakhani lifespan from Wikipedia lead in the sources file. Masur, Veech and Eskin have no MacTutor page in this session.",
+  "derivedDates": {
+   "conceptual": 1982,
+   "methodological": 2001,
+   "institutional": 2012
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P058",
+  "eventId": "E66",
+  "canonicalName": "Geometric Langlands and its physics",
+  "aliases": [
+   "Geometric Langlands correspondence",
+   "Geometric Langlands program",
+   "Electric-magnetic duality and geometric Langlands",
+   "Langlands program over function fields"
+  ],
+  "phases": [
+   "Arithmetic precursors (1967-1983)",
+   "Geometric formulation (1987)",
+   "Gauge-theory reformulation and claimed proof (2007-2024)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1967,
+    "endYear": null,
+    "precision": "year",
+    "label": "Langlands' letter to Weil",
+    "work": "Langlands, letter to A. Weil (1967)",
+    "people": [
+     "Robert Langlands"
+    ],
+    "description": "A 1967 letter to Weil, unpublished at the time, that contains the core ideas of the Langlands program; treated as private precursor.",
+    "evidence": [
+     {
+      "claim": "Langlands wrote a letter to Weil in 1967 containing profound ideas",
+      "source": "MacTutor Langlands biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Langlands/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Private letter: a precursor, not a dated public statement (schema rule 3). Year is the letter's year, not a publication year."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1983,
+    "endYear": null,
+    "precision": "year",
+    "label": "Drinfeld's GL(2) Langlands over function fields",
+    "work": "Drinfeld, Two-dimensional l-adic representations of the fundamental group of a curve over a finite field and automorphic forms on GL(2), Amer. J. Math. (1983)",
+    "people": [
+     "Vladimir Drinfeld"
+    ],
+    "description": "Proves the Langlands correspondence for GL(2) over function fields by arithmetic means; an arithmetic precursor, not the geometric version.",
+    "evidence": [
+     {
+      "claim": "Amer. J. Math. 1983 paper (DOI 10.2307/2374382)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.2307/2374382",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Drinfeld proved the GL(2) case of the Langlands conjecture over function fields",
+      "source": "MacTutor Drinfeld biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Drinfeld/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Arithmetic (l-adic), so it is recorded as precursor. Wikipedia's 'proved for GL(2) in 1983' refers to this arithmetic setting."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1987,
+    "endYear": null,
+    "precision": "year",
+    "label": "Geometric Langlands correspondence for function fields",
+    "work": "Laumon, Correspondance de Langlands geometrique pour les corps de fonctions, Duke Math. J. (1987)",
+    "people": [
+     "Gerard Laumon"
+    ],
+    "description": "Formulates the geometric Langlands correspondence for curves over finite fields, with sheaves in place of functions.",
+    "evidence": [
+     {
+      "claim": "Duke Math. J. 1987 paper (DOI 10.1215/s0012-7094-87-05418-4)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1215/s0012-7094-87-05418-4",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Geometric Langlands for GL(n) over function fields formulated by Drinfeld and Laumon in 1987",
+      "source": "Wikipedia: Geometric Langlands correspondence",
+      "url": "https://en.wikipedia.org/wiki/Geometric_Langlands_correspondence",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper as naming milestone; statement content medium-confidence from Wikipedia."
+   },
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 1987,
+    "endYear": null,
+    "precision": "year",
+    "label": "'Geometrique' in a title",
+    "work": "Laumon (1987), see above",
+    "people": [
+     "Gerard Laumon"
+    ],
+    "description": "The 1987 title uses the phrase 'Langlands geometrique'.",
+    "evidence": [
+     {
+      "claim": "Same 1987 Duke paper",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1215/s0012-7094-87-05418-4",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Same paper as first_statement; the English term 'geometric Langlands' is not dated separately."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2007,
+    "endYear": null,
+    "precision": "year",
+    "label": "Electric-magnetic duality and geometric Langlands",
+    "work": "Kapustin, Witten, Electric-magnetic duality and the geometric Langlands program, Commun. Number Theory Phys. (2007)",
+    "people": [
+     "Anton Kapustin",
+     "Edward Witten"
+    ],
+    "description": "Links the geometric Langlands correspondence to S-duality of gauge theory, the physics origin named in the input summary.",
+    "evidence": [
+     {
+      "claim": "Commun. Number Theory Phys. 2007 paper (DOI 10.4310/cntp.2007.v1.n1.a1)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.4310/cntp.2007.v1.n1.a1",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "arXiv hep-th/0604151 (2006), same paper",
+      "source": "arXiv record",
+      "url": "https://arxiv.org/abs/hep-th/0604151",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Kapustin and Witten's 2007 paper links geometric Langlands to S-duality",
+      "source": "Wikipedia: Geometric Langlands correspondence",
+      "url": "https://en.wikipedia.org/wiki/Geometric_Langlands_correspondence",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Journal year 2007; arXiv preprint 2006."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2007,
+    "endYear": null,
+    "precision": "year",
+    "label": "Frenkel's monograph on loop groups",
+    "work": "Frenkel, Langlands Correspondence for Loop Groups, Cambridge University Press (2007)",
+    "people": [
+     "Edward Frenkel"
+    ],
+    "description": "Book-length treatment of the Langlands correspondence for loop groups, including geometric aspects.",
+    "evidence": [
+     {
+      "claim": "Crossref record of Frenkel's 2007 book",
+      "source": "Crossref / publisher record",
+      "url": "https://openlibrary.org/search?q=Langlands+Correspondence+for+Loop+Groups",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Coverage of the geometric side is medium; a general geometric Langlands textbook was not verified."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2024,
+    "endYear": null,
+    "precision": "year",
+    "label": "Claimed proof of the geometric Langlands conjecture",
+    "work": "Gaitsgory, Raskin and collaborators, Proof of the geometric Langlands conjecture I: construction of the functor, arXiv:2405.03599 (2024)",
+    "people": [
+     "Dennis Gaitsgory"
+    ],
+    "description": "Claimed proof of the categorical unramified geometric Langlands conjecture in several papers.",
+    "evidence": [
+     {
+      "claim": "arXiv 2405.03599 (2024), first of the series",
+      "source": "arXiv record",
+      "url": "https://arxiv.org/abs/2405.03599",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Claimed proof announced May 2024, contained in more than 1000 pages across five papers",
+      "source": "Wikipedia: Geometric Langlands correspondence",
+      "url": "https://en.wikipedia.org/wiki/Geometric_Langlands_correspondence",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Claimed proof, not a settled result in this session. Year is the arXiv year; acceptance not checked."
+   }
+  ],
+  "people": [
+   {
+    "name": "Robert Langlands",
+    "role": "originator",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Langlands/",
+    "works": [
+     {
+      "citation": "Langlands, letter to A. Weil (1967)",
+      "year": 1967,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Langlands/",
+      "whyItMatters": "Private letter with the core ideas."
+     }
+    ],
+    "roleNote": "originator of the Langlands program; 1967 letter"
+   },
+   {
+    "name": "Vladimir Drinfeld",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Drinfeld/",
+    "works": [
+     {
+      "citation": "Drinfeld, Two-dimensional l-adic representations ... GL(2), Amer. J. Math. (1983)",
+      "year": 1983,
+      "url": "https://doi.org/10.2307/2374382",
+      "whyItMatters": "Arithmetic GL(2) case."
+     }
+    ],
+    "roleNote": "GL(2) Langlands over function fields (1983); geometric formulation with Laumon (1987)"
+   },
+   {
+    "name": "Gerard Laumon",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Gerard_Laumon",
+    "works": [
+     {
+      "citation": "Laumon, Correspondance de Langlands geometrique pour les corps de fonctions, Duke Math. J. (1987)",
+      "year": 1987,
+      "url": "https://doi.org/10.1215/s0012-7094-87-05418-4",
+      "whyItMatters": "Geometric formulation."
+     }
+    ],
+    "roleNote": "geometric Langlands for function fields (1987)"
+   },
+   {
+    "name": "Edward Witten",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Witten/",
+    "works": [
+     {
+      "citation": "Kapustin, Witten, Electric-magnetic duality and the geometric Langlands program, Commun. Number Theory Phys. (2007)",
+      "year": 2007,
+      "url": "https://doi.org/10.4310/cntp.2007.v1.n1.a1",
+      "whyItMatters": "Physics link."
+     }
+    ],
+    "roleNote": "S-duality and geometric Langlands with Kapustin (2007)"
+   },
+   {
+    "name": "Dennis Gaitsgory",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Dennis_Gaitsgory",
+    "works": [
+     {
+      "citation": "Gaitsgory, Raskin and collaborators, arXiv:2405.03599 (2024)",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2405.03599",
+      "whyItMatters": "Claimed proof."
+     }
+    ],
+    "roleNote": "claimed proof of the geometric Langlands conjecture (2024)"
+   },
+   {
+    "name": "Edward Frenkel",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Edward_Frenkel",
+    "works": [
+     {
+      "citation": "Frenkel, Langlands Correspondence for Loop Groups (CUP, 2007)",
+      "year": 2007,
+      "url": "https://openlibrary.org/search?q=Langlands+Correspondence+for+Loop+Groups",
+      "whyItMatters": "Monograph."
+     }
+    ],
+    "roleNote": "Langlands correspondence for loop groups monograph (2007)"
+   }
+  ],
+  "notes": "Schema pid P058/eventId E66. Searched: Wikipedia Geometric Langlands correspondence (raw); MacTutor Langlands, Drinfeld and Witten biographies (live); Crossref and arXiv records. Disputes: Wikipedia credits the GL(2) case to Drinfeld in 1983, which is the arithmetic setting, so recorded as precursor. Langlands 1967 is a private letter, so precursor only. Gap: no first_application for the geometric version was found, so the methodological derived date is null. Claimed 2024 proof is not established. Witten 2007 link is S-duality, not a proof of geometric Langlands.",
+  "derivedDates": {
+   "conceptual": 1987,
+   "methodological": null,
+   "institutional": 1987
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P093",
+  "eventId": "B27",
+  "canonicalName": "Faltings: Mordell's conjecture via moduli and heights",
+  "aliases": [
+   "Mordell conjecture",
+   "Faltings' theorem",
+   "Finiteness of rational points on curves of genus at least 2",
+   "Shafarevich-Tate conjecture (as used)"
+  ],
+  "phases": [
+   "Mordell's conjecture (1922)",
+   "Faltings' finiteness proof (1983)",
+   "Alternative proofs (1991)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1922,
+    "endYear": null,
+    "precision": "year",
+    "label": "Mordell's conjecture",
+    "work": "Mordell, On the rational solutions of the indeterminate equations of the third and fourth degrees, Proc. Cambridge Philos. Soc. (1922)",
+    "people": [
+     "Louis Mordell"
+    ],
+    "description": "States that a curve of genus at least 2 has only finitely many rational points, the problem Faltings solved.",
+    "evidence": [
+     {
+      "claim": "Mordell conjectured finiteness of rational points for curves of genus > 1 in 1922",
+      "source": "Wikipedia: Faltings' theorem (raw)",
+      "url": "https://en.wikipedia.org/wiki/Faltings%27s_theorem",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Mordell's 1922 work and his later career",
+      "source": "MacTutor Mordell biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Mordell/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The 1922 bibliographic record was not found in Crossref in this session; the year is from Wikipedia and MacTutor. Problem statement is a precursor, not a result."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1968,
+    "endYear": null,
+    "precision": "year",
+    "label": "Parshin's function-field curves",
+    "work": "Parshin, Algebraic curves over function fields I, Izv. AN SSSR (1968)",
+    "people": [
+     "Alexei Parshin"
+    ],
+    "description": "Function-field work on curves that is an analogue of the finiteness problem used in the Mordell-Shafarevich route.",
+    "evidence": [
+     {
+      "claim": "Math. USSR Izvestiya 1968 paper (DOI 10.1070/im1968v002n05abeh000723)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1070/im1968v002n05abeh000723",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Relation of this paper to the Mordell-type finiteness is from background knowledge and is medium-to-low; kept as precursor only."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1983,
+    "endYear": null,
+    "precision": "year",
+    "label": "Finiteness theorems for abelian varieties",
+    "work": "Faltings, Endlichkeitssatze fur abelsche Varietaten uber Zahlkorpern, Invent. Math. (1983)",
+    "people": [
+     "Gerd Faltings"
+    ],
+    "description": "Proves finiteness of rational points on curves of genus at least 2 via moduli of abelian varieties and heights, establishing Mordell's conjecture.",
+    "evidence": [
+     {
+      "claim": "Invent. Math. 1983 paper (DOI 10.1007/bf01388432)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1007/bf01388432",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Faltings proved the Mordell conjecture in 1983",
+      "source": "MacTutor Faltings biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Faltings/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1983,
+    "endYear": null,
+    "precision": "year",
+    "label": "Mordell's conjecture proved",
+    "work": "Faltings, Endlichkeitssatze fur abelsche Varietaten uber Zahlkorpern, Invent. Math. (1983)",
+    "people": [
+     "Gerd Faltings"
+    ],
+    "description": "The same paper applies the moduli and height approach to the target problem (Mordell's conjecture).",
+    "evidence": [
+     {
+      "claim": "Same 1983 paper",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1007/bf01388432",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper plays first_statement and first_application."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1991,
+    "endYear": null,
+    "precision": "year",
+    "label": "Alternative proof via Nevanlinna theory",
+    "work": "Vojta, Siegel's theorem in the compact case, Ann. of Math. (1991)",
+    "people": [
+     "Paul Vojta"
+    ],
+    "description": "Gives a different route to finiteness results of Siegel and Mordell type, a key development in the subject.",
+    "evidence": [
+     {
+      "claim": "Ann. of Math. 1991 paper (DOI 10.2307/2944318)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.2307/2944318",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Its role as an alternative to Faltings is from background knowledge."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2000,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hindry-Silverman textbook",
+    "work": "Hindry, Silverman, Diophantine Geometry: An Introduction, Graduate Texts in Mathematics (2000)",
+    "people": [
+     "Marc Hindry",
+     "Joseph Silverman"
+    ],
+    "description": "Standard textbook covering Faltings' theorem and heights.",
+    "evidence": [
+     {
+      "claim": "Springer GTM 201 (DOI 10.1007/978-1-4612-1210-2)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1007/978-1-4612-1210-2",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Gerd Faltings",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Faltings/",
+    "works": [
+     {
+      "citation": "Faltings, Endlichkeitssatze fur abelsche Varietaten uber Zahlkorpern, Invent. Math. (1983)",
+      "year": 1983,
+      "url": "https://doi.org/10.1007/bf01388432",
+      "whyItMatters": "Proof."
+     }
+    ],
+    "roleNote": "Mordell's conjecture proof (1983)"
+   },
+   {
+    "name": "Louis Mordell",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Mordell/",
+    "works": [
+     {
+      "citation": "Mordell, On the rational solutions of the indeterminate equations of the third and fourth degrees, Proc. Cambridge Philos. Soc. 21 (1922) 179-192",
+      "year": 1922,
+      "url": "https://zbmath.org/2604414",
+      "whyItMatters": "Source of the conjecture on rational points that Faltings later proved."
+     }
+    ],
+    "roleNote": "conjecture of finiteness of rational points (1922)"
+   },
+   {
+    "name": "Alexei Parshin",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Alexei_Parshin",
+    "works": [
+     {
+      "citation": "Parshin, Algebraic curves over function fields I, Izv. (1968)",
+      "year": 1968,
+      "url": "https://doi.org/10.1070/im1968v002n05abeh000723",
+      "whyItMatters": "Function-field analogue."
+     }
+    ],
+    "roleNote": "function-field curves (1968)"
+   },
+   {
+    "name": "Paul Vojta",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Paul_Vojta",
+    "works": [
+     {
+      "citation": "Vojta, Siegel's theorem in the compact case, Ann. of Math. (1991)",
+      "year": 1991,
+      "url": "https://doi.org/10.2307/2944318",
+      "whyItMatters": "Alternative route."
+     }
+    ],
+    "roleNote": "alternative proof via Nevanlinna theory (1991)"
+   },
+   {
+    "name": "Marc Hindry",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Marc_Hindry",
+    "works": [
+     {
+      "citation": "Hindry, Silverman, Diophantine Geometry (GTM 201, 2000)",
+      "year": 2000,
+      "url": "https://doi.org/10.1007/978-1-4612-1210-2",
+      "whyItMatters": "Consolidation."
+     }
+    ],
+    "roleNote": "textbook on Diophantine geometry with Joseph Silverman (2000)"
+   }
+  ],
+  "notes": "Schema pid P093/eventId B27. Searched: Wikipedia Faltings' theorem (redirect target raw), Wikipedia Mordell conjecture via that article; MacTutor Faltings and Mordell biographies (live); Crossref records. Disputes: Mordell 1922 bibliographic record not found, so the year rests on Wikipedia and MacTutor. Parshin 1968 link to Mordell is background knowledge, so the milestone is low confidence. Vojta 1991 alternative route is medium confidence. Shafarevich and Tate contributions are part of the background only.",
+  "derivedDates": {
+   "conceptual": 1983,
+   "methodological": 1983,
+   "institutional": 2000
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P517",
+  "eventId": "P75",
+  "canonicalName": "Contact topology and the h-principle (Eliashberg)",
+  "aliases": [
+   "Overtwisted contact structures",
+   "Eliashberg classification",
+   "h-principle in contact topology",
+   "Flexibility versus rigidity"
+  ],
+  "phases": [
+   "h-principle origins (1969-1971)",
+   "Rigid pseudo-holomorphic side (1985)",
+   "Overtwisted classification (1989)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1969,
+    "endYear": null,
+    "precision": "year",
+    "label": "Gromov's stable maps of foliations",
+    "work": "Gromov, Stable mappings of foliations into manifolds, Izv. Akad. Nauk SSSR (1969)",
+    "people": [
+     "Mikhail Gromov"
+    ],
+    "description": "Early h-principle-type statement for foliations, the origin of the homotopy principle used by Eliashberg.",
+    "evidence": [
+     {
+      "claim": "Math. USSR Izvestiya 1969 paper (DOI 10.1070/im1969v003n04abeh000796)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1070/im1969v003n04abeh000796",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "The h-principle was introduced by Gromov in the late 1960s and early 1970s",
+      "source": "MacTutor Eliashberg biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Eliashberg/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Precursor of the h-principle as a named idea; year is publication year of the cited paper."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1971,
+    "endYear": null,
+    "precision": "year",
+    "label": "Contact structures in dimension 3",
+    "work": "Martinet, Formes de contact sur les varietes de dimension 3, Lecture Notes in Math. (1971)",
+    "people": [
+     "Jean Martinet"
+    ],
+    "description": "Early work on contact structures on 3-manifolds, the setting of the classification.",
+    "evidence": [
+     {
+      "claim": "Lecture Notes in Mathematics 1971 (DOI 10.1007/bfb0068901)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1007/bfb0068901",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Content (existence of contact structures in dimension 3) from background knowledge; record checked."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1985,
+    "endYear": null,
+    "precision": "year",
+    "label": "Pseudo-holomorphic curves",
+    "work": "Gromov, Pseudo holomorphic curves in symplectic manifolds, Invent. Math. (1985)",
+    "people": [
+     "Mikhail Gromov"
+    ],
+    "description": "Introduces holomorphic-curve methods for symplectic rigidity, the rigid counterpart to the flexible h-principle.",
+    "evidence": [
+     {
+      "claim": "Invent. Math. 1985 paper (DOI 10.1007/bf01388806)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1007/bf01388806",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Included as the rigid side of the flexibility-rigidity contrast in the summary. Reclassified from key_development to precursor: it predates this event's first statement (1989) and belongs to the wider field."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1989,
+    "endYear": null,
+    "precision": "year",
+    "label": "Classification of overtwisted contact structures",
+    "work": "Eliashberg, Classification of overtwisted contact structures on 3-manifolds, Invent. Math. (1989)",
+    "people": [
+     "Yakov Eliashberg"
+    ],
+    "description": "Classifies overtwisted contact structures on 3-manifolds by homotopy theory, showing they are flexible.",
+    "evidence": [
+     {
+      "claim": "Invent. Math. 1989 paper (DOI 10.1007/bf01393840)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1007/bf01393840",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Eliashberg's work on contact and h-principle topology",
+      "source": "MacTutor Eliashberg biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Eliashberg/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1989,
+    "endYear": null,
+    "precision": "year",
+    "label": "h-principle applied to contact topology",
+    "work": "Eliashberg, Classification of overtwisted contact structures on 3-manifolds, Invent. Math. (1989)",
+    "people": [
+     "Yakov Eliashberg"
+    ],
+    "description": "The same paper is the first use of the h-principle to classify contact structures.",
+    "evidence": [
+     {
+      "claim": "Same 1989 paper",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1007/bf01393840",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper plays first_statement and first_application."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2002,
+    "endYear": null,
+    "precision": "year",
+    "label": "Eliashberg-Mishachev monograph",
+    "work": "Eliashberg, Mishachev, Introduction to the h-principle, Graduate Studies in Mathematics (2002)",
+    "people": [
+     "Yakov Eliashberg",
+     "Nikolai Mishachev"
+    ],
+    "description": "Book-length treatment of the h-principle and its applications to contact and symplectic geometry.",
+    "evidence": [
+     {
+      "claim": "AMS Graduate Studies 48 (DOI 10.1090/gsm/048)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1090/gsm/048",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Yakov Eliashberg",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Eliashberg/",
+    "works": [
+     {
+      "citation": "Eliashberg, Classification of overtwisted contact structures on 3-manifolds, Invent. Math. (1989)",
+      "year": 1989,
+      "url": "https://doi.org/10.1007/bf01393840",
+      "whyItMatters": "Classification."
+     }
+    ],
+    "roleNote": "overtwisted classification (1989) and h-principle monograph (2002)"
+   },
+   {
+    "name": "Mikhail Gromov",
+    "role": "originator",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Gromov/",
+    "works": [
+     {
+      "citation": "Gromov, Stable mappings of foliations into manifolds (1969)",
+      "year": 1969,
+      "url": "https://doi.org/10.1070/im1969v003n04abeh000796",
+      "whyItMatters": "h-principle origin."
+     },
+     {
+      "citation": "Gromov, Pseudo holomorphic curves in symplectic manifolds, Invent. Math. (1985)",
+      "year": 1985,
+      "url": "https://doi.org/10.1007/bf01388806",
+      "whyItMatters": "Rigidity."
+     }
+    ],
+    "roleNote": "h-principle origins (1969) and pseudo-holomorphic curves (1985)"
+   },
+   {
+    "name": "Jean Martinet",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Jean_Martinet",
+    "works": [
+     {
+      "citation": "Martinet, Formes de contact sur les varietes de dimension 3 (1971)",
+      "year": 1971,
+      "url": "https://doi.org/10.1007/bfb0068901",
+      "whyItMatters": "Dimension-3 setting."
+     }
+    ],
+    "roleNote": "contact structures in dimension 3 (1971)"
+   },
+   {
+    "name": "Nikolai Mishachev",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Nikolai_Mishachev",
+    "works": [
+     {
+      "citation": "Eliashberg, Mishachev, Introduction to the h-principle (AMS, 2002)",
+      "year": 2002,
+      "url": "https://doi.org/10.1090/gsm/048",
+      "whyItMatters": "Monograph."
+     }
+    ],
+    "roleNote": "h-principle monograph with Eliashberg (2002)"
+   }
+  ],
+  "notes": "Schema pid P517/eventId P75. Searched: Wikipedia Contact geometry and the H-principle redirect (raw); MacTutor Eliashberg and Gromov biographies (live); Crossref records. Eliashberg's 1989 classification is first_statement and first_application (same paper). The Gromov 1969 date is the precursor year, not a first use of the term. Gap: the naming of the h-principle is not dated here, so no naming milestone. Overtwisted vs tight distinction history is medium.",
+  "derivedDates": {
+   "conceptual": 1989,
+   "methodological": 1989,
+   "institutional": 2002
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P027",
+  "eventId": "E35",
+  "canonicalName": "Unipotent flows and the Oppenheim conjecture",
+  "aliases": [
+   "Oppenheim conjecture",
+   "Values of indefinite quadratic forms at integer points",
+   "Margulis's theorem",
+   "Raghunathan's conjecture (special case)"
+  ],
+  "phases": [
+   "Oppenheim conjecture and circle method (1929-1956)",
+   "Ergodic theory of unipotent flows (1986-1991)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1929,
+    "endYear": null,
+    "precision": "year",
+    "label": "Oppenheim's conjecture",
+    "work": "Oppenheim, The minima of indefinite quaternary quadratic forms, Proc. Natl. Acad. Sci. USA (1929)",
+    "people": [
+     "Alexander Oppenheim"
+    ],
+    "description": "Conjectures that values of an indefinite irrational quadratic form at integer points are dense in the reals when the form has more than three variables.",
+    "evidence": [
+     {
+      "claim": "PNAS 1929 paper (DOI 10.1073/pnas.15.9.724)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1073/pnas.15.9.724",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Oppenheim conjecture made in 1929",
+      "source": "MacTutor Margulis biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Margulis/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "The 1931 Annals paper is a related Oppenheim paper; the 1929 PNAS paper is the first public statement recorded."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1946,
+    "endYear": null,
+    "precision": "year",
+    "label": "Circle method for five variables",
+    "work": "Davenport, Heilbronn, On indefinite quadratic forms in five variables, J. London Math. Soc. (1946)",
+    "people": [
+     "Harold Davenport",
+     "Hans Heilbronn"
+    ],
+    "description": "Applies the circle method to prove the conjecture for five variables, the first purposeful analytic attack.",
+    "evidence": [
+     {
+      "claim": "J. London Math. Soc. 1946 paper (DOI 10.1112/jlms/s1-21.3.185)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.1112/jlms/s1-21.3.185",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Davenport and Heilbronn partial results, circle method",
+      "source": "Wikipedia: Oppenheim conjecture (raw)",
+      "url": "https://en.wikipedia.org/wiki/Oppenheim_conjecture",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The n=5 result is from the paper; claim that this is the first purposeful attack rests on Wikipedia's summary."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1987,
+    "endYear": null,
+    "precision": "year",
+    "label": "Margulis's proof of the Oppenheim conjecture",
+    "work": "Margulis, G. A., Formes quadratiques indefinies et flots unipotents sur les espaces homogenes, C. R. Acad. Sci. Paris Ser. I 304 (1987) 249-253",
+    "people": [
+     "Grigory Margulis"
+    ],
+    "description": "Proves the conjecture in full for three or more variables using ergodic theory of unipotent flows on homogeneous spaces.",
+    "evidence": [
+     {
+      "claim": "Margulis proved the full conjecture in 1986",
+      "source": "MacTutor Margulis biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Margulis/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Margulis proved the conjecture in 1987 by ergodic theory",
+      "source": "Wikipedia: Oppenheim conjecture (raw)",
+      "url": "https://en.wikipedia.org/wiki/Oppenheim_conjecture",
+      "kind": "history_page"
+     },
+     {
+      "claim": "zbMATH: Margulis, 'Formes quadratiques indefinies et flots unipotents sur les espaces homogenes', C. R. Acad. Sci. Paris Ser. I 304 (1987) 249-253",
+      "source": "zbMATH Open 4012713",
+      "url": "https://zbmath.org/4012713",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Year settled as 1987 by zbMATH (C. R. 304, 249-253), agreeing with Wikipedia; MacTutor's 1986 is not supported by the bibliographic record."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1991,
+    "endYear": null,
+    "precision": "year",
+    "label": "Measure rigidity for unipotent flows",
+    "work": "Ratner, On Raghunathan's measure conjecture, Ann. of Math. (1991)",
+    "people": [
+     "Marina Ratner"
+    ],
+    "description": "Proves measure rigidity for unipotent flows, the general framework containing the Oppenheim case via Raghunathan's conjecture.",
+    "evidence": [
+     {
+      "claim": "Ann. of Math. 1991 paper (DOI 10.2307/2944357)",
+      "source": "Crossref / publisher record",
+      "url": "https://doi.org/10.2307/2944357",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Raghunathan's measure conjecture gives the Oppenheim special case",
+      "source": "MacTutor Ratner biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ratner/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1991,
+    "endYear": null,
+    "precision": "year",
+    "label": "Margulis's monograph on discrete subgroups",
+    "work": "Margulis, Discrete Subgroups of Semisimple Lie Groups, Springer (1991)",
+    "people": [
+     "Grigory Margulis"
+    ],
+    "description": "Systematic treatment of discrete subgroups and the ergodic methods behind the Oppenheim proof.",
+    "evidence": [
+     {
+      "claim": "Crossref record of Margulis 1991 monograph",
+      "source": "Crossref / publisher record",
+      "url": "https://openlibrary.org/search?q=Discrete+Subgroups+of+Semisimple+Lie+Groups",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Catalogue record only; DOI not checked."
+   }
+  ],
+  "people": [
+   {
+    "name": "Alexander Oppenheim",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Oppenheim/",
+    "works": [
+     {
+      "citation": "Oppenheim, The minima of indefinite quaternary quadratic forms, PNAS (1929)",
+      "year": 1929,
+      "url": "https://doi.org/10.1073/pnas.15.9.724",
+      "whyItMatters": "Conjecture."
+     }
+    ],
+    "roleNote": "Oppenheim conjecture (1929)"
+   },
+   {
+    "name": "Harold Davenport",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Davenport/",
+    "works": [
+     {
+      "citation": "Davenport, Heilbronn, On indefinite quadratic forms in five variables, J. London Math. Soc. (1946)",
+      "year": 1946,
+      "url": "https://doi.org/10.1112/jlms/s1-21.3.185",
+      "whyItMatters": "n=5 case."
+     }
+    ],
+    "roleNote": "circle method for five variables (1946)"
+   },
+   {
+    "name": "Grigory Margulis",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Margulis/",
+    "works": [
+     {
+      "citation": "Margulis, Discrete Subgroups of Semisimple Lie Groups (Springer, 1991)",
+      "year": 1991,
+      "url": "https://openlibrary.org/search?q=Discrete+Subgroups+of+Semisimple+Lie+Groups",
+      "whyItMatters": "Monograph."
+     }
+    ],
+    "roleNote": "full proof via unipotent flows (1986) and monograph (1991)"
+   },
+   {
+    "name": "Marina Ratner",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Ratner/",
+    "works": [
+     {
+      "citation": "Ratner, On Raghunathan's measure conjecture, Ann. of Math. (1991)",
+      "year": 1991,
+      "url": "https://doi.org/10.2307/2944357",
+      "whyItMatters": "Measure rigidity."
+     }
+    ],
+    "roleNote": "measure rigidity for unipotent flows (1991)"
+   }
+  ],
+  "notes": "Schema pid P027/eventId E35. Searched: Wikipedia Oppenheim conjecture (raw); MacTutor Margulis and Ratner biographies (live); Crossref records; zbMATH was reachable in a later check. Disputes: Margulis proof year is now settled as 1987 by zbMATH (C. R. 304, 249-253), against MacTutor's 1986. The Davenport-Heilbronn n=5 result is the first attack on the target; the claim is from Wikipedia. Raghunathan's conjecture (c. 1980 per MacTutor) is not a published work and is not a milestone. The Margulis C. R. note is now checked in zbMATH.",
+  "derivedDates": {
+   "conceptual": 1929,
+   "methodological": 1946,
+   "institutional": 1991
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ }
+]

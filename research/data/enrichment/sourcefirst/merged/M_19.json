@@ -1,0 +1,2382 @@
+[
+ {
+  "pid": "P422",
+  "eventId": "H5",
+  "canonicalName": "Undecidability of the word problem for groups",
+  "aliases": [
+   "word problem",
+   "identity problem (Dehn)",
+   "decision problems for presented groups"
+  ],
+  "phases": [
+   "Dehn's decision problems (1911-1912)",
+   "Logic-based insolubility (1947-1961)",
+   "Dehn's decision problems",
+   "Logic-based insolubility",
+   "Modern treatment"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Dehn's decision problems",
+    "year": 1911,
+    "precision": "year",
+    "label": "Dehn formulates the word problem for presented groups",
+    "work": "Dehn, 'Über unendliche diskontinuierliche Gruppen', Mathematische Annalen 71 (1911)",
+    "people": [
+     "Max Dehn"
+    ],
+    "description": "Dehn states the identity (word) problem for groups given by generators and relations as a question needing a finite decision method.",
+    "evidence": [
+     {
+      "claim": "Paper with the word problem stated; year 1911",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1007/BF01456932",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Dehn states the identity, conjugacy and isomorphism problems",
+      "source": "MacTutor: Word problems",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Word_problems/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": "Dehn's decision problems",
+    "year": 1912,
+    "precision": "year",
+    "label": "Dehn's algorithm solves the word problem for surface-group relators",
+    "work": "Dehn, 'Transformationen der Kurven auf zweiseitigen Flächen' (1912)",
+    "people": [
+     "Max Dehn"
+    ],
+    "description": "Dehn gives a direct method (Dehn's algorithm) that solves the word problem for one-relator groups from surfaces in special cases.",
+    "evidence": [
+     {
+      "claim": "Dehn's 1912 solution in special cases; year 1912 as given in the history page",
+      "source": "MacTutor: Word problems",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Word_problems/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Year from the history page; the 1912 paper was not retrieved from a bibliographic record."
+   },
+   {
+    "role": "key_development",
+    "phase": "Logic-based insolubility",
+    "year": 1947,
+    "precision": "year",
+    "label": "Post proves the semigroup word problem insoluble",
+    "work": "Post, 'Recursive unsolvability of a problem of Thue', Journal of Symbolic Logic 12 (1947)",
+    "people": [
+     "Emil Post"
+    ],
+    "description": "Post shows that the word problem for finitely presented semigroups is recursively unsolvable, using the computability notions of the 1930s; Markov obtained the same result independently in 1947.",
+    "evidence": [
+     {
+      "claim": "Post 1947 paper, year 1947",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.2307/2267170",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Post's semigroup result; Markov's independent 1947 proof",
+      "source": "MacTutor: Word problems",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Word_problems/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": "Logic-based insolubility",
+    "year": 1955,
+    "precision": "year",
+    "label": "Novikov proves a finitely presented group with undecidable word problem",
+    "work": "Novikov, 'On the algorithmic unsolvability of the word problem in group theory', Trudy Mat. Inst. Steklov 44 (1955)",
+    "people": [
+     "Pyotr Novikov"
+    ],
+    "description": "Novikov shows that some finitely presented group has an undecidable word problem, the first proof for groups.",
+    "evidence": [
+     {
+      "claim": "Novikov 1955 citation, Steklov 44",
+      "source": "Wikipedia: Word problem for groups",
+      "url": "https://en.wikipedia.org/wiki/Word_problem_for_groups",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Russian-language paper; the record was taken from the Wikipedia citation, not checked in Crossref."
+   },
+   {
+    "role": "key_development",
+    "phase": "Logic-based insolubility",
+    "year": 1958,
+    "precision": "year",
+    "label": "Boone gives an independent proof of undecidability",
+    "work": "Boone, 'The word problem', Proceedings of the National Academy of Sciences 44 (1958)",
+    "people": [
+     "William Boone"
+    ],
+    "description": "Boone proves independently that the word problem for finitely presented groups is unsolvable.",
+    "evidence": [
+     {
+      "claim": "Boone 1958 PNAS record",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1073/pnas.44.10.1061",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": "Logic-based insolubility",
+    "year": 1961,
+    "precision": "year",
+    "label": "Higman's embedding theorem",
+    "work": "Higman, 'Subgroups of finitely presented groups', Proceedings of the Royal Society A (1961)",
+    "people": [
+     "Graham Higman"
+    ],
+    "description": "Higman shows that every recursively presented group embeds in a finitely presented group, linking recursive and finite presentations.",
+    "evidence": [
+     {
+      "claim": "Higman 1961 record",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1098/rspa.1961.0132",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Higman's HNN-based embedding discussed",
+      "source": "MacTutor: Word problems",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Word_problems/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": "Modern treatment",
+    "year": 1966,
+    "precision": "year",
+    "label": "Combinatorial group theory monograph",
+    "work": "Magnus, Karrass, Solitar, Combinatorial Group Theory (Interscience, 1966)",
+    "people": [
+     "Wilhelm Magnus"
+    ],
+    "description": "The 1966 monograph gives the first systematic treatment of presentations, decision problems and their solutions.",
+    "evidence": [
+     {
+      "claim": "1966 book record, author listed as Magnus",
+      "source": "Open Library search",
+      "url": "https://openlibrary.org/search.json?q=Combinatorial+Group+Theory+Magnus+Karrass+Solitar",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Open Library lists the title under Magnus; co-authors Karrass and Solitar taken from the citation, not checked. 'First systematic' is a judgement."
+   }
+  ],
+  "people": [
+   {
+    "name": "Max Dehn",
+    "role": "developer",
+    "lifespan": "1878-1952",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Dehn/",
+    "works": [
+     {
+      "citation": "Dehn, 'Über unendliche diskontinuierliche Gruppen', Math. Ann. 71 (1911)",
+      "year": 1911,
+      "url": "https://doi.org/10.1007/BF01456932",
+      "whyItMatters": "States the word, conjugacy and isomorphism problems."
+     }
+    ],
+    "roleNote": "posed the word problem"
+   },
+   {
+    "name": "Emil Post",
+    "role": "developer",
+    "lifespan": "1897-1954",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Post/",
+    "works": [
+     {
+      "citation": "Post, 'Recursive unsolvability of a problem of Thue', JSL 12 (1947)",
+      "year": 1947,
+      "url": "https://doi.org/10.2307/2267170",
+      "whyItMatters": "Insolubility for semigroups, the step toward groups."
+     }
+    ],
+    "roleNote": "semigroup word problem insoluble"
+   },
+   {
+    "name": "Pyotr Novikov",
+    "role": "originator",
+    "lifespan": "1901-1975",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Pyotr_Novikov",
+    "works": [
+     {
+      "citation": "Novikov, 'On the algorithmic unsolvability of the word problem in group theory', Steklov 44 (1955)",
+      "year": 1955,
+      "url": "https://en.wikipedia.org/wiki/Word_problem_for_groups",
+      "whyItMatters": "First undecidable finitely presented group."
+     }
+    ],
+    "roleNote": "first undecidable group"
+   },
+   {
+    "name": "William Boone",
+    "role": "developer",
+    "lifespan": "1920-1983",
+    "biographyUrl": "https://en.wikipedia.org/wiki/William_Boone",
+    "works": [
+     {
+      "citation": "Boone, 'The word problem', PNAS 44 (1958)",
+      "year": 1958,
+      "url": "https://doi.org/10.1073/pnas.44.10.1061",
+      "whyItMatters": "Second independent proof of undecidability."
+     }
+    ],
+    "roleNote": "independent undecidability proof"
+   },
+   {
+    "name": "Graham Higman",
+    "role": "developer",
+    "lifespan": "1917-2008",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Higman/",
+    "works": [
+     {
+      "citation": "Higman, 'Subgroups of finitely presented groups', Proc. R. Soc. A (1961)",
+      "year": 1961,
+      "url": "https://doi.org/10.1098/rspa.1961.0132",
+      "whyItMatters": "Recursive presentations embed in finite ones."
+     }
+    ],
+    "roleNote": "embedding theorem"
+   },
+   {
+    "name": "Wilhelm Magnus",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Magnus/",
+    "works": [
+     {
+      "citation": "Magnus, Karrass, Solitar, Combinatorial Group Theory (1966)",
+      "year": 1966,
+      "url": "https://openlibrary.org/search.json?q=Combinatorial+Group+Theory+Magnus+Karrass+Solitar",
+      "whyItMatters": "Systematic treatment of decision problems."
+     }
+    ],
+    "roleNote": "consolidation of combinatorial group theory"
+   }
+  ],
+  "notes": "Input summary says Church proposed a logical route. MacTutor places Church's 1938 proposal that the group word problem be shown insoluble; Post (1946-47) gave the first breakthrough, and Turing's 1950 group attempt had an error. Markov's 1947 result is from the history page only (not checked in a record). Higman's theorem (1961) is the embedding result, not itself the undecidability. The Novikov and Boone records are partly from Wikipedia citations. Derived dates follow the rule: conceptual 1911, methodological 1912, institutional 1966 (the earliest consolidation; no naming milestone found).",
+  "searchedSources": [
+   "Wikipedia: Word problem for groups (raw)",
+   "MacTutor: Word problems (live)",
+   "MacTutor: Development of group theory (saved)",
+   "MacTutor Dehn biography",
+   "Crossref (Dehn, Post, Boone, Higman)",
+   "Open Library (Magnus, Karrass, Solitar)"
+  ],
+  "derivedDates": {
+   "conceptual": 1911,
+   "methodological": 1912,
+   "institutional": 1966
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P413",
+  "eventId": "M63",
+  "canonicalName": "Abstract Riemann surface (Weyl's manifold definition)",
+  "aliases": [
+   "Riemann surface as abstract manifold",
+   "abstract Riemann surface",
+   "Weyl's Riemann surface"
+  ],
+  "phases": [
+   "Riemann's geometric function theory",
+   "Abstract surfaces as manifolds with charts (1913)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Riemann's geometric function theory",
+    "year": 1851,
+    "precision": "year",
+    "label": "Riemann's dissertation on complex functions via surfaces",
+    "work": "Riemann, Grundlagen für eine allgemeine Theorie der Functionen einer veränderlichen complexen Grösse (1851)",
+    "people": [
+     "Bernhard Riemann"
+    ],
+    "description": "Riemann defines functions through surfaces spread over the plane, with geometric rather than formal definitions; this is the origin of the concept Weyl made abstract.",
+    "evidence": [
+     {
+      "claim": "Riemann's Grundlagen, collected-works printing 1867, confirms title",
+      "source": "Open Library search",
+      "url": "https://openlibrary.org/search.json?q=Grundlagen+f%C3%BCr+eine+allgemeine+Theorie+der+Functionen+einer+ver%C3%A4nderlichen+complexen+Gr%C3%B6sse",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Weyl's book united geometric function theory developed by Riemann",
+      "source": "MacTutor: Weyl biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Weyl/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The 1851 dissertation year is from general knowledge; Open Library returned only the 1867 printing. Precursor, so it sets no derived date."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1882,
+    "endYear": null,
+    "precision": "year",
+    "label": "Klein on Riemann's theory",
+    "work": "F. Klein, Über Riemanns Theorie der algebraischen Functionen und ihrer Integrale, Leipzig 1882",
+    "people": [
+     "Felix Klein"
+    ],
+    "description": "Klein presents Riemann surfaces as geometric objects tied to algebraic functions.",
+    "evidence": [
+     {
+      "claim": "Crossref record of the paper in Klein's Gesammelte Mathematische Abhandlungen (1923 reprint).",
+      "source": "Crossref, DOI 10.1007/978-3-642-51959-8_19",
+      "url": "https://doi.org/10.1007/978-3-642-51959-8_19",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor biography of Klein.",
+      "source": "MacTutor, biography of Klein",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Klein/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Original 1882 booklet not found in a record; Crossref lists the 1923 collected-works reprint."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1910,
+    "endYear": null,
+    "precision": "year",
+    "label": "Koebe on uniformisation of analytic curves",
+    "work": "P. Koebe, Über die Uniformisierung beliebiger analytischer Kurven, Erster Teil, J. reine angew. Math. 138 (1910)",
+    "people": [
+     "Paul Koebe"
+    ],
+    "description": "Koebe proves the uniformisation theorem for general Riemann surfaces, a main result the abstract notion made possible to state.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Koebe, Über die Uniformisierung beliebiger analytischer Kurven, Erster Teil, Crelle 138, 1910.",
+      "source": "Crossref, DOI 10.1515/crll.1910.138.192",
+      "url": "https://doi.org/10.1515/crll.1910.138.192",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Uniformisation was announced by Koebe and Poincaré in 1907; the 1910 paper is the one confirmed by a record. Reclassified from key_development to precursor: it predates this event's first statement (1913) and belongs to the wider field."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Abstract surfaces as manifolds with charts (1913)",
+    "year": 1913,
+    "precision": "year",
+    "label": "Weyl's book defines the Riemann surface as an abstract manifold",
+    "work": "Weyl, Die Idee der Riemannschen Fläche (Teubner, Leipzig, 1913)",
+    "people": [
+     "Hermann Weyl"
+    ],
+    "description": "Weyl gives a rigorous definition of a Riemann surface as a topological manifold with an analytic structure given by charts, independent of embedding in the plane.",
+    "evidence": [
+     {
+      "claim": "1913 book record",
+      "source": "Open Library search",
+      "url": "https://openlibrary.org/search.json?q=Die+Idee+der+Riemannschen+Fl%C3%A4che+Weyl",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Book united analysis, geometry and topology, making Riemann's idea rigorous",
+      "source": "MacTutor: Weyl biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Weyl/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": "Abstract surfaces as manifolds with charts (1913)",
+    "year": 1913,
+    "precision": "year",
+    "label": "Same 1913 book as first systematic treatment",
+    "work": "Weyl, Die Idee der Riemannschen Fläche (1913)",
+    "people": [
+     "Hermann Weyl"
+    ],
+    "description": "The same book is also the first systematic treatment of abstract Riemann surfaces, so this milestone shares its work with the first_statement.",
+    "evidence": [
+     {
+      "claim": "Book as the first systematic treatment; Sario's 1956 assessment cited in the bio",
+      "source": "MacTutor: Weyl biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Weyl/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The same work plays two roles (first statement and first systematic treatment); recorded as both per the rule that a note explains it."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1925,
+    "endYear": null,
+    "precision": "year",
+    "label": "Radó's theorem on triangulability",
+    "work": "T. Radó, Über den Begriff der Riemannschen Fläche, Acta Szeged 2 (1925)",
+    "people": [
+     "Tibor Radó"
+    ],
+    "description": "Radó shows that Riemann surfaces with countable topology are triangulable, justifying the abstract definition.",
+    "evidence": [
+     {
+      "claim": "Jahrbuch record: Radó, Über den Begriff der Riemannschen Fläche, Acta Szeged 2, 1925.",
+      "source": "zbMATH record 51.0273.01",
+      "url": "https://zbmath.org/?q=an:51.0273.01",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1960,
+    "endYear": null,
+    "precision": "year",
+    "label": "Ahlfors and Sario's Riemann Surfaces",
+    "work": "L. Ahlfors, L. Sario, Riemann Surfaces, Princeton 1960",
+    "people": [
+     "Lars Ahlfors",
+     "Leo Sario"
+    ],
+    "description": "Standard modern treatise built on the abstract definition.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: Ahlfors, Sario, Riemann surfaces, Princeton Math. Series 26, 1960.",
+      "source": "zbMATH record 0196.33801",
+      "url": "https://zbmath.org/?q=an:0196.33801",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Later textbook consolidation; Weyl 1913 remains the first systematic treatment."
+   }
+  ],
+  "people": [
+   {
+    "name": "Hermann Weyl",
+    "role": "developer",
+    "lifespan": "1885-1955",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Weyl/",
+    "works": [
+     {
+      "citation": "Weyl, Die Idee der Riemannschen Fläche (1913)",
+      "year": 1913,
+      "url": "https://openlibrary.org/search.json?q=Die+Idee+der+Riemannschen+Fl%C3%A4che+Weyl",
+      "whyItMatters": "Defines the abstract Riemann surface."
+     }
+    ],
+    "roleNote": "gave the abstract definition"
+   },
+   {
+    "name": "Bernhard Riemann",
+    "role": "originator",
+    "lifespan": "1826-1866",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Riemann/",
+    "works": [
+     {
+      "citation": "Riemann, Grundlagen für eine allgemeine Theorie der Functionen einer veränderlichen complexen Grösse (1851)",
+      "year": 1851,
+      "url": "https://openlibrary.org/search.json?q=Grundlagen+f%C3%BCr+eine+allgemeine+Theorie+der+Functionen+einer+ver%C3%A4nderlichen+complexen+Gr%C3%B6sse",
+      "whyItMatters": "Surfaces as the home of complex functions."
+     }
+    ],
+    "roleNote": "original geometric idea"
+   },
+   {
+    "name": "Felix Klein",
+    "role": "developer",
+    "lifespan": "1849-1925",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Klein/",
+    "works": [
+     {
+      "citation": "Über Riemanns Theorie der algebraischen Functionen und ihrer Integrale (1882)",
+      "year": 1882,
+      "url": "https://doi.org/10.1007/978-3-642-51959-8_19",
+      "whyItMatters": "geometric view of Riemann surfaces (reprint record)"
+     }
+    ]
+   },
+   {
+    "name": "Paul Koebe",
+    "role": "developer",
+    "lifespan": "1882-1945",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Koebe/",
+    "works": [
+     {
+      "citation": "Über die Uniformisierung beliebiger analytischer Kurven I (1910)",
+      "year": 1910,
+      "url": "https://doi.org/10.1515/crll.1910.138.192",
+      "whyItMatters": "uniformisation theorem"
+     }
+    ]
+   },
+   {
+    "name": "Tibor Radó",
+    "role": "developer",
+    "lifespan": "1895-1965",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Rado/",
+    "works": [
+     {
+      "citation": "Über den Begriff der Riemannschen Fläche (1925)",
+      "year": 1925,
+      "url": "https://zbmath.org/?q=an:51.0273.01",
+      "whyItMatters": "triangulability of Riemann surfaces"
+     }
+    ]
+   }
+  ],
+  "notes": "Gap: the Radó (1925) triangulability result and other key-development papers were searched but not verified (the Crossref hit was a later chapter). Derived dates: conceptual 1913 (Weyl's book), methodological null (no first_application found), institutional 1913 (the book as consolidation; no naming milestone). The institutional date rests on the same book, as noted above. Thin pass 2: added Klein 1882 (low), Koebe 1910, Radó 1925 (now verified in zbMATH), Ahlfors-Sario 1960. zbMATH also records Weyl 1913 (44.0492.01), upgrading the existing Open Library search link.",
+  "searchedSources": [
+   "Wikipedia: Riemann surface (raw)",
+   "MacTutor: Weyl biography (live)",
+   "Open Library (Weyl 1913, Riemann 1851)",
+   "Crossref (Radó 1925, not located)"
+  ],
+  "pass": "source-first thin-record pass 2 (Claude), unadjudicated",
+  "derivedDates": {
+   "conceptual": 1913,
+   "methodological": null,
+   "institutional": 1913
+  }
+ },
+ {
+  "pid": "P440",
+  "eventId": "H35",
+  "canonicalName": "Hausdorff dimension and fractal dimension",
+  "aliases": [
+   "Hausdorff dimension",
+   "fractional dimension",
+   "fractal dimension",
+   "Hausdorff-Besicovitch dimension"
+  ],
+  "phases": [
+   "Hausdorff's metric dimension (1918-1919)",
+   "Besicovitch's sets of fractional dimension (1934-1937)",
+   "Mandelbrot's fractals (1967-1975)",
+   "Hausdorff's metric dimension",
+   "Besicovitch's sets of fractional dimension",
+   "Mandelbrot's fractals"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Hausdorff's metric dimension",
+    "year": 1914,
+    "precision": "year",
+    "label": "Carathéodory's outer measure construction",
+    "work": "Carathéodory, outer measure construction (1914)",
+    "people": [
+     "Constantin Carathéodory"
+    ],
+    "description": "Carathéodory's construction of outer measure, which Hausdorff generalised to define fractional dimensions.",
+    "evidence": [
+     {
+      "claim": "Hausdorff's construction generalises one introduced five years earlier by Carathéodory",
+      "source": "MacTutor: Hausdorff biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hausdorff/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Carathéodory's paper was not checked in a record; year from the biography. Precursor, sets no derived date."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Hausdorff's metric dimension",
+    "year": 1918,
+    "precision": "year",
+    "label": "Hausdorff introduces dimension via outer measure",
+    "work": "F. Hausdorff, 'Dimension und aeusseres Mass', Mathematische Annalen 79 (1918) 157-179",
+    "people": [
+     "Felix Hausdorff"
+    ],
+    "description": "Hausdorff defines a metric dimension that can take non-integer values, the basis of later fractal dimension.",
+    "evidence": [
+     {
+      "claim": "Hausdorff's 1918 communication and 1919 publication of Dimension und äusseres Mass",
+      "source": "MacTutor: Fractal geometry",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/fractals/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Introduced the notion of Hausdorff dimension in 'Dimension und äusseres Mass' (1919)",
+      "source": "MacTutor: Hausdorff biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hausdorff/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Reprint in Gesammelte Werke (the original Math. Ann. record was not returned by Crossref)",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1007/978-3-642-59483-0_2",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Crossref: 'Dimension und äußeres Maß', Math. Ann. 79, issue 1-2, pp. 157-179, print date 1918.",
+      "source": "Crossref 10.1007/bf01457179",
+      "url": "https://doi.org/10.1007/bf01457179",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Fix pass 2: MacTutor gives 1918 for the communication and 1919 for publication; the Crossref print date 1918 for issue 1-2 is used."
+   },
+   {
+    "role": "first_application",
+    "phase": "Besicovitch's sets of fractional dimension",
+    "year": 1935,
+    "precision": "year",
+    "label": "Besicovitch applies Hausdorff measure to non-differentiability sets",
+    "work": "Besicovitch, 'Sets of points of non-differentiability of absolutely continuous functions', Mathematische Annalen (1935)",
+    "people": [
+     "Abram Besicovitch"
+    ],
+    "description": "Besicovitch uses fractional-dimension measures on sets of non-differentiability, a first purposeful use of the dimension on a target problem.",
+    "evidence": [
+     {
+      "claim": "Besicovitch 1935 Math. Ann. record (title truncated in Crossref)",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1007/BF01448031",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Besicovitch wrote three papers on Hausdorff's dimension 1934-1937",
+      "source": "MacTutor: Fractal geometry",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/fractals/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The MacTutor page implies 1934 papers; the earliest verified record is 1935. Title is truncated in Crossref."
+   },
+   {
+    "role": "first_application",
+    "phase": "Mandelbrot's fractals",
+    "year": 1967,
+    "precision": "year",
+    "label": "Coastline length measured by fractional dimension",
+    "work": "Mandelbrot, 'How Long Is the Coast of Britain?', Science 156 (1967)",
+    "people": [
+     "Benoit Mandelbrot"
+    ],
+    "description": "Mandelbrot applies statistical self-similarity and fractional dimension to measure the coastline of Britain.",
+    "evidence": [
+     {
+      "claim": "1967 Science record",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1126/science.156.3775.636",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "naming",
+    "phase": "Mandelbrot's fractals",
+    "year": 1975,
+    "precision": "year",
+    "label": "Mandelbrot coins 'fractal' in Les objets fractals",
+    "work": "Mandelbrot, Les objets fractals: forme, hasard et dimension (1975)",
+    "people": [
+     "Benoit Mandelbrot"
+    ],
+    "description": "Mandelbrot names the sets fractals and defines them as sets whose Hausdorff dimension exceeds their topological dimension.",
+    "evidence": [
+     {
+      "claim": "1975 book record, Les objets fractals",
+      "source": "Open Library search",
+      "url": "https://openlibrary.org/search.json?q=Les+objets+fractals+Mandelbrot",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Mandelbrot defined fractals in 1975 via Hausdorff dimension",
+      "source": "MacTutor: Fractal geometry",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/fractals/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Felix Hausdorff",
+    "role": "originator",
+    "lifespan": "1868-1942",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hausdorff/",
+    "works": [
+     {
+      "citation": "Hausdorff, 'Dimension und äußeres Maß', Math. Ann. 79 (1919)",
+      "year": 1919,
+      "url": "https://doi.org/10.1007/978-3-642-59483-0_2",
+      "whyItMatters": "Metric dimension allowing non-integer values."
+     }
+    ],
+    "roleNote": "introduced the dimension"
+   },
+   {
+    "name": "Abram Besicovitch",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Besicovitch/",
+    "works": [
+     {
+      "citation": "Besicovitch, sets of non-differentiability, Math. Ann. (1935)",
+      "year": 1935,
+      "url": "https://doi.org/10.1007/BF01448031",
+      "whyItMatters": "Hausdorff dimension applied to analysis."
+     }
+    ],
+    "roleNote": "developed the theory"
+   },
+   {
+    "name": "Benoit Mandelbrot",
+    "role": "developer",
+    "lifespan": "1924-2010",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Mandelbrot/",
+    "works": [
+     {
+      "citation": "Mandelbrot, 'How Long Is the Coast of Britain?', Science (1967)",
+      "year": 1967,
+      "url": "https://doi.org/10.1126/science.156.3775.636",
+      "whyItMatters": "Fractional dimension on real data."
+     },
+     {
+      "citation": "Mandelbrot, Les objets fractals (1975)",
+      "year": 1975,
+      "url": "https://openlibrary.org/search.json?q=Les+objets+fractals+Mandelbrot",
+      "whyItMatters": "Coins the term fractal."
+     }
+    ],
+    "roleNote": "named fractals"
+   },
+   {
+    "name": "Constantin Carathéodory",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Caratheodory/",
+    "works": [
+     {
+      "citation": "Carathéodory, outer measure construction (1914)",
+      "year": 1914,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hausdorff/",
+      "whyItMatters": "Construction Hausdorff generalised; record not checked."
+     }
+    ],
+    "roleNote": "outer measure precursor"
+   }
+  ],
+  "notes": "Input summary names Hausdorff's fractional dimension and Mandelbrot's fractal definition; both confirmed. Hausdorff's paper year: Crossref gives print date 1918 for Math. Ann. 79, issue 1-2, so 1918 is used (fix pass 2) and the 1919 date is not supported by that record. Besicovitch's earliest 1934 paper and the 1982 Mandelbrot book were not verified. Derived dates: conceptual 1918, methodological 1935 (earliest verified application), institutional 1975 (the naming).",
+  "searchedSources": [
+   "MacTutor: Fractal geometry (saved)",
+   "MacTutor: Hausdorff biography (live)",
+   "MacTutor: Mandelbrot biography (live)",
+   "Crossref (Hausdorff, Besicovitch, Mandelbrot)",
+   "Open Library (Mandelbrot 1975)"
+  ],
+  "derivedDates": {
+   "conceptual": 1918,
+   "methodological": 1935,
+   "institutional": 1975
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P380",
+  "eventId": "W32/M55",
+  "canonicalName": "Model theory beginnings (Löwenheim-Skolem)",
+  "aliases": [
+   "Löwenheim-Skolem theorem",
+   "Löwenheim-Skolem paradox",
+   "semantic study of formal theories"
+  ],
+  "phases": [
+   "Löwenheim-Skolem semantics (1915-1920)",
+   "Consolidation as model theory (1973)",
+   "Löwenheim-Skolem semantics",
+   "Consolidation as model theory"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Löwenheim-Skolem semantics",
+    "year": 1915,
+    "precision": "year",
+    "label": "Löwenheim's downward result in the relational calculus",
+    "work": "Löwenheim, 'Über Möglichkeiten im Relativkalkül', Mathematische Annalen 76 (1915)",
+    "people": [
+     "Leopold Löwenheim"
+    ],
+    "description": "Löwenheim shows that a formula with a model has a model on a countable domain, in the relational calculus.",
+    "evidence": [
+     {
+      "claim": "1915 Math. Ann. record",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1007/BF01458217",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Löwenheim's 1915 work extended by Skolem to the theorem",
+      "source": "MacTutor: Skolem biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Skolem/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Input summary says first-order theories in general; the 1915 paper is in the relational calculus. The full first-order form is Skolem's 1920."
+   },
+   {
+    "role": "key_development",
+    "phase": "Löwenheim-Skolem semantics",
+    "year": 1920,
+    "precision": "year",
+    "label": "Skolem's extension to first-order theories",
+    "work": "Skolem, Löwenheim-Skolem papers (Videnskapsselskapets Skrifter, 1920)",
+    "people": [
+     "Thoralf Skolem"
+    ],
+    "description": "Skolem extends Löwenheim's result to first-order predicate calculus: a theory with a model has a countable model.",
+    "evidence": [
+     {
+      "claim": "Skolem published the Löwenheim-Skolem theorem in 1920",
+      "source": "MacTutor: Skolem biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Skolem/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Crossref search for the 1920 Skolem paper returned no match; the year is from the biography only."
+   },
+   {
+    "role": "key_development",
+    "year": 1930,
+    "endYear": null,
+    "precision": "year",
+    "label": "Goedel's completeness theorem makes compactness explicit",
+    "work": "Kurt Goedel, Die Vollstaendigkeit der Axiome des logischen Funktionenkalkuels, Monatsh. Math. Phys. 37, 1930",
+    "people": [
+     "Kurt Goedel"
+    ],
+    "description": "The compactness theorem appears as a lemma, giving the semantic toolkit for Skolem-style arguments.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Monatsh. Math. Phys. 37 (1930), pp. 349-360.",
+      "source": "Crossref 10.1007/bf01696781",
+      "url": "https://doi.org/10.1007/bf01696781",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Compactness was implicit in Skolem but first published in Goedel's 1930 proof.",
+      "source": "Wikipedia, Model theory",
+      "url": "https://en.wikipedia.org/wiki/Model_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "naming",
+    "year": 1954,
+    "endYear": null,
+    "precision": "year",
+    "label": "Tarski's 'theory of models'",
+    "work": "Alfred Tarski, Contributions to the theory of models I, Indag. Math. 57, 1954",
+    "people": [
+     "Alfred Tarski"
+    ],
+    "description": "First published use of the phrase theory of models, naming the discipline.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Indag. Math. 57 (1954), pp. 572-581.",
+      "source": "Crossref 10.1016/s1385-7258(54)50074-0",
+      "url": "https://doi.org/10.1016/s1385-7258(54)50074-0",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Tarski first used 'Theory of Models' in publication in 1954.",
+      "source": "Wikipedia, Model theory",
+      "url": "https://en.wikipedia.org/wiki/Model_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "year": 1957,
+    "endYear": null,
+    "precision": "year",
+    "label": "Tarski-Vaught on elementary extensions",
+    "work": "Alfred Tarski and Robert L. Vaught, Arithmetical extensions of relational systems, Compositio Math. 13, 1957",
+    "people": [
+     "Alfred Tarski",
+     "Robert Vaught"
+    ],
+    "description": "Studies elementary extensions, giving the upward direction and the Tarski-Vaught test for the theorem.",
+    "evidence": [
+     {
+      "claim": "zbMATH record, Compositio Math. 13, 82-102 (1957).",
+      "source": "zbMATH 3148408",
+      "url": "https://zbmath.org/3148408",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "consolidation",
+    "year": 1963,
+    "endYear": null,
+    "precision": "year",
+    "label": "Robinson's Introduction to Model Theory",
+    "work": "Abraham Robinson, Introduction to Model Theory and to the Metamathematics of Algebra, Amsterdam, 1963",
+    "people": [
+     "Abraham Robinson"
+    ],
+    "description": "First textbook with the term model theory in its title.",
+    "evidence": [
+     {
+      "claim": "First published 1963, North-Holland.",
+      "source": "Open Library record OL1308944W",
+      "url": "https://openlibrary.org/works/OL1308944W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "'First textbook' is not checked beyond the catalogue; Tarski's papers and Mal'cev's earlier work are earlier."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Consolidation as model theory",
+    "year": 1973,
+    "precision": "year",
+    "label": "Chang and Keisler's Model Theory",
+    "work": "Chang & Keisler, Model Theory (North-Holland, 1973)",
+    "people": [
+     "Chen Chung Chang"
+    ],
+    "description": "The 1973 monograph is the standard systematic treatment of model theory and fixes the field's name.",
+    "evidence": [
+     {
+      "claim": "1973 'Model theory' record, author listed as Chang",
+      "source": "Open Library search",
+      "url": "https://openlibrary.org/search.json?q=Model+Theory+Chang+Keisler",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Open Library lists the 1973 title under Chang; Keisler as co-author taken from the citation. The 'naming' milestone was not found."
+   }
+  ],
+  "people": [
+   {
+    "name": "Leopold Löwenheim",
+    "role": "originator",
+    "lifespan": "1878-1957",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lowenheim/",
+    "works": [
+     {
+      "citation": "Löwenheim, 'Über Möglichkeiten im Relativkalkül', Math. Ann. 76 (1915)",
+      "year": 1915,
+      "url": "https://doi.org/10.1007/BF01458217",
+      "whyItMatters": "Original countable-model result."
+     }
+    ],
+    "roleNote": "first downward result"
+   },
+   {
+    "name": "Thoralf Skolem",
+    "role": "developer",
+    "lifespan": "1887-1963",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Skolem/",
+    "works": [
+     {
+      "citation": "Skolem, Logisch-kombinatorische Untersuchungen ueber die Erfuellbarkeit oder Beweisbarkeit mathematischer Saetze, Skrifter Vid.-Akad. Kristiania",
+      "year": 1920,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Skolem/",
+      "whyItMatters": "MacTutor dates Skolem's extension of Loewenheim's theorem to 1920."
+     }
+    ],
+    "roleNote": "first-order extension"
+   },
+   {
+    "name": "Chen Chung Chang",
+    "role": "systematiser",
+    "lifespan": "dates not verified",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Chen_Chung_Chang",
+    "works": [
+     {
+      "citation": "Chang & Keisler, Model Theory (1973)",
+      "year": 1973,
+      "url": "https://openlibrary.org/search.json?q=Model+Theory+Chang+Keisler",
+      "whyItMatters": "Standard monograph."
+     }
+    ],
+    "roleNote": "consolidation"
+   },
+   {
+    "name": "Alfred Tarski",
+    "role": "systematiser",
+    "lifespan": "1901 - 1983",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Tarski/",
+    "works": [
+     {
+      "citation": "Contributions to the theory of models I, Indag. Math. 57",
+      "year": 1954,
+      "url": "https://doi.org/10.1016/s1385-7258(54)50074-0",
+      "whyItMatters": "Named the field theory of models."
+     }
+    ]
+   },
+   {
+    "name": "Abraham Robinson",
+    "role": "popularizer",
+    "lifespan": "1918 - 1974",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Robinson/",
+    "works": [
+     {
+      "citation": "Introduction to Model Theory and to the Metamathematics of Algebra",
+      "year": 1963,
+      "url": "https://openlibrary.org/works/OL1308944W",
+      "whyItMatters": "Textbook that gave the field its name in book form."
+     }
+    ]
+   }
+  ],
+  "notes": "Input summary says Löwenheim and Skolem showed countable models exist for first-order theories; MacTutor and the 1915 record show the 1915 result is in the relational calculus and the first-order form is 1920. The naming ('model theory' term) was not found. No first_application milestone was found, so the methodological date is null. Derived dates: conceptual 1915, methodological null, institutional 1973. Added in thin-3 pass: Goedel 1930, Tarski 1954 (naming), Tarski-Vaught 1957, Robinson 1963. Skolem's 1920 paper has no Crossref record; its year rests on MacTutor Skolem, which says Skolem extended Loewenheim's 1915 work in a 1920 publication. Duplicate phase labels in the earlier record are left as they were. Maltsev 1936 and 1941 are named in Wikipedia but were not checked in a record.",
+  "searchedSources": [
+   "MacTutor: Skolem biography (live)",
+   "MacTutor: Löwenheim biography (live)",
+   "Crossref (Löwenheim 1915)",
+   "Open Library (Chang & Keisler)"
+  ],
+  "derivedDates": {
+   "conceptual": 1915,
+   "methodological": null,
+   "institutional": 1954
+  },
+  "pass": "source-first thin-3 enrichment (Claude), unadjudicated"
+ },
+ {
+  "pid": "P454",
+  "eventId": "H57",
+  "canonicalName": "Noether's theorems (symmetries and conservation laws)",
+  "aliases": [
+   "Noether's theorem",
+   "Noether's first and second theorems",
+   "invariant variational problems"
+  ],
+  "phases": [
+   "Noether's invariant variational problems (1918)",
+   "Modern treatment (2011)",
+   "Noether's invariant variational problems",
+   "Modern treatment"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1915,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hilbert's variational route to gravitation",
+    "work": "Hilbert, Die Grundlagen der Physik, 1915",
+    "people": [
+     "David Hilbert"
+    ],
+    "description": "Noether began her invariance work in 1915 while helping Klein and Hilbert with general relativity.",
+    "evidence": [
+     {
+      "claim": "Noether's work on the invariance theorem began in 1915 helping Klein and Hilbert.",
+      "source": "English Wikipedia, Noether's theorem",
+      "url": "https://en.wikipedia.org/wiki/Noether%27s_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Hilbert's paper itself was not verified; the milestone records the setting."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Noether's invariant variational problems",
+    "year": 1918,
+    "precision": "year",
+    "label": "Noether's theorem on invariant variational problems",
+    "work": "Noether, 'Invariante Variationsprobleme', Nachrichten der Gesellschaft der Wissenschaften zu Göttingen (1918)",
+    "people": [
+     "Emmy Noether"
+    ],
+    "description": "Noether proves that each continuous symmetry of an action gives a conservation law, and the converse relation for gauge-type symmetries.",
+    "evidence": [
+     {
+      "claim": "Noether's 1918 paper on invariant variational problems, cited in the MacTutor Noether biography",
+      "source": "MacTutor: Noether biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Paper not retrieved from a bibliographic record; title and year from the MacTutor bibliography."
+   },
+   {
+    "role": "first_application",
+    "phase": "Noether's invariant variational problems",
+    "year": 1918,
+    "precision": "year",
+    "label": "Same 1918 paper applied to energy in general relativity",
+    "work": "Noether, 'Invariante Variationsprobleme' (1918)",
+    "people": [
+     "Emmy Noether"
+    ],
+    "description": "The 1918 paper also applies the invariance results to energy-momentum conservation in general relativity; it plays both roles.",
+    "evidence": [
+     {
+      "claim": "1918 paper cited; general relativity application recorded in the Noether biography (not read in full)",
+      "source": "MacTutor: Noether biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Same work under two roles, as allowed by the note rule. The content of the application was not checked against the paper."
+   },
+   {
+    "role": "key_development",
+    "year": 1921,
+    "endYear": null,
+    "precision": "year",
+    "label": "Bessel-Hagen extends the theorem",
+    "work": "Bessel-Hagen, Ueber die Erhaltungssaetze der Elektrodynamik, Math. Ann. 84 (1921)",
+    "people": [
+     "Erich Bessel-Hagen"
+    ],
+    "description": "Applies and extends Noether's theorem to the conservation laws of electrodynamics.",
+    "evidence": [
+     {
+      "claim": "Paper recorded in Crossref, 1921.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01459410",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Content from the title and general knowledge."
+   },
+   {
+    "role": "recognition",
+    "year": 1951,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hill's review in Reviews of Modern Physics",
+    "work": "E. L. Hill, Hamilton's principle and the conservation theorems of mathematical physics, Rev. Mod. Phys. 23 (1951)",
+    "people": [
+     "Edward L. Hill"
+    ],
+    "description": "Brings the theorem to physicists writing in English.",
+    "evidence": [
+     {
+      "claim": "Paper recorded in Crossref, 1951.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1103/revmodphys.23.253",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "The role is inferred from the title and background knowledge."
+   },
+   {
+    "role": "key_development",
+    "year": 1971,
+    "endYear": null,
+    "precision": "year",
+    "label": "English translation by Tavel",
+    "work": "Noether, Invariant variation problems (transl. M. A. Tavel), Transport Theory and Statistical Physics 1 (1971)",
+    "people": [
+     "Emmy Noether"
+    ],
+    "description": "Makes the 1918 paper widely readable.",
+    "evidence": [
+     {
+      "claim": "Translation recorded in Crossref, 1971.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1080/00411457108231446",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "consolidation",
+    "year": 1980,
+    "endYear": null,
+    "precision": "year",
+    "label": "Olver's Applications of Lie Groups to Differential Equations",
+    "work": "Peter J. Olver, Applications of Lie Groups to Differential Equations (first edition 1980 per library record)",
+    "people": [
+     "Peter J. Olver"
+    ],
+    "description": "Textbook treatment of Noether's theorem within symmetry methods.",
+    "evidence": [
+     {
+      "claim": "Work first published 1980 per library record.",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/works/OL1937261W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Year follows the Open Library record; the Springer edition cited by convention is 1986."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Modern treatment",
+    "year": 2011,
+    "precision": "year",
+    "label": "Kosmann-Schwarzbach's history and treatment of the Noether theorems",
+    "work": "Kosmann-Schwarzbach, The Noether Theorems (Springer, 2011)",
+    "people": [
+     "Yvette Kosmann-Schwarzbach"
+    ],
+    "description": "The 2011 monograph treats both Noether theorems and their history, the first book-length treatment found.",
+    "evidence": [
+     {
+      "claim": "2011 Springer record",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1007/978-0-387-87868-3",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Earlier systematic treatments were not searched; 2011 is therefore the earliest consolidation found, not a verified first, and the institutional date is weak."
+   }
+  ],
+  "people": [
+   {
+    "name": "Emmy Noether",
+    "role": "developer",
+    "lifespan": "1882-1935",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/",
+    "works": [
+     {
+      "citation": "Noether, 'Invariante Variationsprobleme' (1918)",
+      "year": 1918,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/",
+      "whyItMatters": "Symmetry-conservation link."
+     }
+    ],
+    "roleNote": "proved the theorems"
+   },
+   {
+    "name": "Yvette Kosmann-Schwarzbach",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Yvette_Kosmann-Schwarzbach",
+    "works": [
+     {
+      "citation": "Kosmann-Schwarzbach, The Noether Theorems (2011)",
+      "year": 2011,
+      "url": "https://doi.org/10.1007/978-0-387-87868-3",
+      "whyItMatters": "Book-length history and treatment."
+     }
+    ],
+    "roleNote": "modern treatment"
+   },
+   {
+    "name": "Katherine Brading",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Katherine_Brading",
+    "works": [
+     {
+      "citation": "Brading, 'Which Symmetry? Noether, Weyl, and Conservation of Electric Charge', SHPMP 33 (2002)",
+      "year": 2002,
+      "url": "https://doi.org/10.1016/S1355-2198(01)00033-8",
+      "whyItMatters": "Historical analysis of the symmetry role; citation from Wikipedia, not checked."
+     }
+    ],
+    "roleNote": "historical analysis"
+   },
+   {
+    "name": "Erich Bessel-Hagen",
+    "role": "developer",
+    "lifespan": "1898-1946",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Erich_Bessel-Hagen",
+    "works": [
+     {
+      "citation": "Ueber die Erhaltungssaetze der Elektrodynamik",
+      "year": 1921,
+      "url": "https://doi.org/10.1007/bf01459410",
+      "whyItMatters": "Extension to electrodynamics"
+     }
+    ]
+   },
+   {
+    "name": "Peter J. Olver",
+    "role": "systematiser",
+    "lifespan": "1947-",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Peter_J._Olver",
+    "works": [
+     {
+      "citation": "Applications of Lie Groups to Differential Equations",
+      "year": 1980,
+      "url": "https://openlibrary.org/works/OL1937261W",
+      "whyItMatters": "Textbook"
+     }
+    ]
+   }
+  ],
+  "notes": "Gaps: Hilbert's 1915 variational route to gravitation (the input's technique transfer) was not verified as a milestone; no 'naming' of the theorems found. The application to general relativity is recorded as the same 1918 paper with medium confidence. Derived dates: conceptual 1918, methodological 1918 (same paper), institutional 2011 (weak, see the consolidation note). Thin-record pass: Wikipedia confirms the 1915 start and notes Byers 1998 (arXiv physics/9807044, title confirmed on arXiv) as a historical source. Klein's own 1918 note is a Gesammelte Abhandlungen reprint in Crossref (10.1007/978-3-642-51960-4_33), not used.",
+  "searchedSources": [
+   "MacTutor: Noether biography (live)",
+   "Crossref (Kosmann-Schwarzbach 2011)",
+   "Wikipedia citation (Brading 2002, via Weyl gauge article)"
+  ],
+  "derivedDates": {
+   "conceptual": 1918,
+   "methodological": 1918,
+   "institutional": 1980
+  },
+  "pass": "source-first thin-record enrichment (Sonnet), unadjudicated"
+ },
+ {
+  "pid": "P372",
+  "eventId": "W93/M60",
+  "canonicalName": "Affine connections (parallel transport, Weyl and Cartan)",
+  "aliases": [
+   "affine connection",
+   "Levi-Civita parallel transport",
+   "Weyl connection",
+   "Cartan connection"
+  ],
+  "phases": [
+   "Levi-Civita parallel transport (1917)",
+   "Weyl's gauge geometry (1918)",
+   "Cartan's connections (1923-1925)",
+   "Levi-Civita parallel transport",
+   "Weyl's gauge geometry"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Levi-Civita parallel transport",
+    "year": 1916,
+    "precision": "year",
+    "label": "Levi-Civita introduces parallel transport",
+    "work": "T. Levi-Civita, 'Nozione di parallelismo in una varieta qualunque', Rend. Circ. Mat. Palermo 42, 173-204 (Crossref print date 1916; volume dated 1917)",
+    "people": [
+     "Tullio Levi-Civita"
+    ],
+    "description": "Levi-Civita defines parallel displacement on a general manifold and the associated curvature, the basis of the affine connection.",
+    "evidence": [
+     {
+      "claim": "Paper record in Rend. Circ. Mat. Palermo",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1007/BF03014898",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Crossref: Levi-Civita, Rend. Circ. Mat. Palermo 42, pp. 173-204, print date 1916.",
+      "source": "Crossref 10.1007/bf03014898",
+      "url": "https://doi.org/10.1007/bf03014898",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Crossref issued date is 1916 (online); the volume is 42 (1917). 1917 used as the volume year; the discrepancy is noted."
+   },
+   {
+    "role": "key_development",
+    "phase": "Weyl's gauge geometry",
+    "year": 1918,
+    "precision": "year",
+    "label": "Weyl's scale geometry and affine connection in Raum-Zeit-Materie and 'Gravitation und Elektrizität'",
+    "work": "Weyl, Raum-Zeit-Materie (1918); Gravitation und Elektrizität (1918)",
+    "people": [
+     "Hermann Weyl"
+    ],
+    "description": "Weyl uses an affine connection with scale (gauge) structure to unify gravitation and electromagnetism.",
+    "evidence": [
+     {
+      "claim": "Weyl's Raum-Zeit-Materie first appeared in 1918, with a gauge metric in later editions",
+      "source": "MacTutor: Weyl biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Weyl/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Weyl's 1918 gauge geometry is the origin of the gauge concept",
+      "source": "Wikipedia: Gauge theory",
+      "url": "https://en.wikipedia.org/wiki/Gauge_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The 1918 Sitzungsberichte paper was not retrieved from a record (Crossref was rate-limited); year taken from the history sources. Same work also plays first_application (electromagnetism)."
+   },
+   {
+    "role": "first_application",
+    "phase": "Weyl's gauge geometry",
+    "year": 1918,
+    "precision": "year",
+    "label": "Connection applied to electromagnetism",
+    "work": "Weyl, Gravitation und Elektrizität (1918)",
+    "people": [
+     "Hermann Weyl"
+    ],
+    "description": "Weyl applies the affine (scale) connection to electromagnetic phenomena, the first physical target problem for connections.",
+    "evidence": [
+     {
+      "claim": "Weyl's 1918 geometric attempt to include electromagnetism",
+      "source": "Wikipedia: Gauge theory",
+      "url": "https://en.wikipedia.org/wiki/Gauge_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Same work under two roles, per the note rule."
+   },
+   {
+    "role": "key_development",
+    "phase": "Cartan's connections (1923-1925)",
+    "year": 1923,
+    "precision": "year",
+    "label": "Cartan's general affine connections and moving frames",
+    "work": "Cartan, 'Sur les variétés à connexion affine et la théorie de la relativité généralisée', Annales de l'ENS 40 (1923)",
+    "people": [
+     "Élie Cartan"
+    ],
+    "description": "Cartan develops connections on general manifolds with moving frames, the second part appearing in 1924-1925.",
+    "evidence": [
+     {
+      "claim": "Cartan 1923 Annales ENS record (part 1); parts 2 and 3 are 1924 and 1925",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.24033/asens.751",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": "Weyl's gauge geometry",
+    "year": 1927,
+    "precision": "year",
+    "label": "Eisenhart's Non-Riemannian Geometry",
+    "work": "Eisenhart, Non-Riemannian Geometry (1927)",
+    "people": [
+     "Luther Pfahler Eisenhart"
+    ],
+    "description": "The 1927 monograph gives a systematic account of affine and other non-Riemannian connections.",
+    "evidence": [
+     {
+      "claim": "1927 book record, Non-Riemannian geometry",
+      "source": "Open Library search",
+      "url": "https://openlibrary.org/search.json?q=Riemannian+geometry+Eisenhart",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Open Library lists the 1927 title; its scope on affine connections is from the title, not read."
+   }
+  ],
+  "people": [
+   {
+    "name": "Tullio Levi-Civita",
+    "role": "developer",
+    "lifespan": "1873-1941",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Levi-Civita/",
+    "works": [
+     {
+      "citation": "Levi-Civita, 'Nozione di parallelismo...', Rend. Circ. Mat. Palermo 42 (1917)",
+      "year": 1917,
+      "url": "https://doi.org/10.1007/BF03014898",
+      "whyItMatters": "Defines parallel transport."
+     }
+    ],
+    "roleNote": "parallel transport"
+   },
+   {
+    "name": "Hermann Weyl",
+    "role": "developer",
+    "lifespan": "1885-1955",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Weyl/",
+    "works": [
+     {
+      "citation": "Weyl, Raum-Zeit-Materie (1918); Gravitation und Elektrizität (1918)",
+      "year": 1918,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Weyl/",
+      "whyItMatters": "Gauge geometry for gravitation and electromagnetism."
+     }
+    ],
+    "roleNote": "gauge geometry"
+   },
+   {
+    "name": "Élie Cartan",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Cartan/",
+    "works": [
+     {
+      "citation": "Cartan, 'Sur les variétés à connexion affine...', Ann. ENS 40 (1923)",
+      "year": 1923,
+      "url": "https://doi.org/10.24033/asens.751",
+      "whyItMatters": "General connections with moving frames."
+     }
+    ],
+    "roleNote": "connections and frames"
+   },
+   {
+    "name": "Luther Pfahler Eisenhart",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Eisenhart/",
+    "works": [
+     {
+      "citation": "Eisenhart, Non-Riemannian Geometry (1927)",
+      "year": 1927,
+      "url": "https://openlibrary.org/search.json?q=Riemannian+geometry+Eisenhart",
+      "whyItMatters": "Systematic account of non-Riemannian connections."
+     }
+    ],
+    "roleNote": "systematic monograph"
+   }
+  ],
+  "notes": "Input summary says Levi-Civita introduced parallel transport, Weyl generalised to gauge geometry, Cartan developed connections and frames: all confirmed in outline. Wikipedia says the affine-connection theory was fully developed in the early 1920s by Cartan and Weyl, and that the term is due to Cartan. Levi-Civita's year is in dispute (1916 online vs 1917 volume). Weyl's 1918 date is from history sources, not a bibliographic record. Derived dates: conceptual 1916, methodological 1918 (Weyl's application, same as key_development), institutional 1927 (Eisenhart as consolidation; no naming milestone). Fix pass 2: Crossref gives print date 1916 for Rend. Circ. Mat. Palermo 42, 173-204, so the milestone year is 1916 (volume 42 is cited as 1917).",
+  "searchedSources": [
+   "Wikipedia: Affine connection (raw)",
+   "Wikipedia: Gauge theory (raw)",
+   "MacTutor: Weyl biography, Levi-Civita biography (live)",
+   "Crossref (Levi-Civita 1917, Cartan 1923)",
+   "Open Library (Eisenhart)"
+  ],
+  "derivedDates": {
+   "conceptual": 1916,
+   "methodological": 1918,
+   "institutional": 1927
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P059",
+  "eventId": "E67",
+  "canonicalName": "Hardy-Littlewood circle method",
+  "aliases": [
+   "circle method",
+   "Hardy-Ramanujan-Littlewood circle method",
+   "Hardy-Littlewood method"
+  ],
+  "phases": [
+   "Hardy-Ramanujan partition asymptotics (1918)",
+   "Hardy-Littlewood Waring and primes problems (1920-1923)",
+   "Consolidation (Vaughan 1981)",
+   "Hardy-Ramanujan partition asymptotics",
+   "Hardy-Littlewood Waring and primes problems"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "year": 1917,
+    "precision": "year",
+    "label": "Hardy and Ramanujan announce the partition asymptotic formula",
+    "work": "G. H. Hardy and S. Ramanujan, Une formule asymptotique pour le nombre des partitions de n, Comptes Rendus Acad. Sci. Paris 164 (1917), 35-38",
+    "people": [
+     "G. H. Hardy",
+     "S. Ramanujan"
+    ],
+    "description": "Hardy and Ramanujan announce their asymptotic formula for partitions, the first public step of the complex-analytic method later named the circle method.",
+    "evidence": [
+     {
+      "claim": "zbMATH lists the note in Comptes Rendus 164 (1917), pp. 35-38 and links Gallica.",
+      "source": "zbMATH Open document 2610181",
+      "url": "https://zbmath.org/2610181",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia attributes the initial idea of the circle method to Hardy with Ramanujan in 1916-1917 on the partition function.",
+      "source": "Wikipedia, Hardy-Ramanujan-Littlewood circle method",
+      "url": "https://en.wikipedia.org/wiki/Hardy%E2%80%93Ramanujan%E2%80%93Littlewood_circle_method",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Gallica blocked access, so the note text was not read and it is unconfirmed that it describes the contour method. The full method appears in Proc. LMS (2) 17 (1918), 75-115 (zbMATH 2610184), the existing first_application. Hardy-Littlewood Waring papers (1920) are later.",
+    "phase": null,
+    "endYear": null
+   },
+   {
+    "role": "first_application",
+    "phase": "Hardy-Ramanujan partition asymptotics",
+    "year": 1918,
+    "precision": "year",
+    "label": "Asymptotics of the partition function by the circle method",
+    "work": "Hardy & Ramanujan, 'Asymptotic formulae in combinatory analysis', Proc. London Math. Soc. (2) 17 (1918)",
+    "people": [
+     "G. H. Hardy",
+     "Srinivasa Ramanujan"
+    ],
+    "description": "Hardy and Ramanujan use contour integration over arcs of the unit circle to find the asymptotic of the partition function, the first purposeful use of the method.",
+    "evidence": [
+     {
+      "claim": "1918 Proc. LMS record",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1112/plms/s2-17.1.75",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Initial idea attributed to Hardy and Ramanujan's work",
+      "source": "Wikipedia: Hardy-Littlewood circle method",
+      "url": "https://en.wikipedia.org/wiki/Hardy%E2%80%93Littlewood_circle_method",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "precursor",
+    "phase": "Hardy-Littlewood Waring and primes problems",
+    "year": 1920,
+    "precision": "year",
+    "label": "Hardy and Littlewood's Waring-problem papers",
+    "work": "Hardy & Littlewood, 'Some problems of Partitio numerorum I' (Göttinger Nachrichten, 1920)",
+    "people": [
+     "G. H. Hardy",
+     "J. E. Littlewood"
+    ],
+    "description": "Hardy and Littlewood adapt the method to Waring's problem and name the circle-method approach in the series of papers.",
+    "evidence": [
+     {
+      "claim": "Developed in a series of papers on Waring's problem",
+      "source": "Wikipedia: Hardy-Littlewood circle method",
+      "url": "https://en.wikipedia.org/wiki/Hardy%E2%80%93Littlewood_circle_method",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Not confirmed: the 1920 Göttinger Nachrichten paper was not found in Crossref (its later parts returned 1922 and 1925). Kept as a precursor (no derived date) because the first public statement is not verified; the conceptual derived date is therefore null."
+   },
+   {
+    "role": "key_development",
+    "phase": "Hardy-Littlewood Waring and primes problems",
+    "year": 1923,
+    "precision": "year",
+    "label": "Goldbach-type representations by primes",
+    "work": "Hardy & Littlewood, 'Some problems of Partitio numerorum III', Acta Mathematica 44 (1923)",
+    "people": [
+     "G. H. Hardy",
+     "J. E. Littlewood"
+    ],
+    "description": "The method is applied to the representation of numbers as sums of primes, the key development that made the method central.",
+    "evidence": [
+     {
+      "claim": "1923 Acta Math. record",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1007/BF02403921",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": "Consolidation (Vaughan 1981)",
+    "year": 1981,
+    "precision": "year",
+    "label": "Vaughan's monograph on the Hardy-Littlewood method",
+    "work": "Vaughan, The Hardy-Littlewood Method (Cambridge Tracts in Mathematics 80, 1981)",
+    "people": [
+     "R. C. Vaughan"
+    ],
+    "description": "Vaughan gives the first book-length systematic treatment of the method, later reissued in a second edition (1997).",
+    "evidence": [
+     {
+      "claim": "1981 book record, The Hardy-Littlewood method",
+      "source": "Open Library search",
+      "url": "https://openlibrary.org/search.json?q=hardy-littlewood+method",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Second edition 1997 in the Cambridge Tracts series",
+      "source": "Wikipedia: Hardy-Littlewood circle method",
+      "url": "https://en.wikipedia.org/wiki/Hardy%E2%80%93Littlewood_circle_method",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "G. H. Hardy",
+    "role": "originator",
+    "lifespan": "1877-1947",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hardy/",
+    "works": [
+     {
+      "citation": "Hardy & Ramanujan (1918)",
+      "year": 1918,
+      "url": "https://doi.org/10.1112/plms/s2-17.1.75",
+      "whyItMatters": "First application."
+     },
+     {
+      "citation": "Hardy & Littlewood, Partitio numerorum III, Acta Math. 44 (1923)",
+      "year": 1923,
+      "url": "https://doi.org/10.1007/BF02403921",
+      "whyItMatters": "Prime sums."
+     }
+    ],
+    "roleNote": "co-founder"
+   },
+   {
+    "name": "J. E. Littlewood",
+    "role": "originator",
+    "lifespan": "1885-1977",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Littlewood/",
+    "works": [
+     {
+      "citation": "Hardy & Littlewood, Partitio numerorum III, Acta Math. 44 (1923)",
+      "year": 1923,
+      "url": "https://doi.org/10.1007/BF02403921",
+      "whyItMatters": "Prime sums."
+     }
+    ],
+    "roleNote": "co-founder"
+   },
+   {
+    "name": "Srinivasa Ramanujan",
+    "role": "developer",
+    "lifespan": "1887-1920",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hardy/",
+    "works": [
+     {
+      "citation": "Hardy & Ramanujan (1918)",
+      "year": 1918,
+      "url": "https://doi.org/10.1112/plms/s2-17.1.75",
+      "whyItMatters": "Partition function asymptotics."
+     }
+    ],
+    "roleNote": "partition asymptotics"
+   },
+   {
+    "name": "R. C. Vaughan",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/R._C._Vaughan",
+    "works": [
+     {
+      "citation": "Vaughan, The Hardy-Littlewood Method (1981)",
+      "year": 1981,
+      "url": "https://openlibrary.org/search.json?q=hardy-littlewood+method",
+      "whyItMatters": "Systematic monograph."
+     }
+    ],
+    "roleNote": "consolidation"
+   }
+  ],
+  "notes": "Input summary says the method uses contour integration and exponential sums; this is confirmed in outline. The 1920 Waring paper is unverified (low confidence) and drives the conceptual derived date, so it is kept open. Vinogradov's 1926 trigonometric sums (per the Wikipedia article) were not checked. Derived dates: conceptual null (no verified first_statement; the 1920 paper is a precursor), methodological 1918, institutional 1981.",
+  "searchedSources": [
+   "Wikipedia: Hardy-Littlewood circle method (raw; page redirects to the Hardy-Ramanujan-Littlewood title)",
+   "MacTutor: Hardy biography (live)",
+   "Crossref (Hardy-Ramanujan 1918, Hardy-Littlewood 1923)",
+   "Open Library (Vaughan 1981)"
+  ],
+  "derivedDates": {
+   "conceptual": 1917,
+   "methodological": 1918,
+   "institutional": 1981
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P376",
+  "eventId": "W59/M76",
+  "canonicalName": "Fisher's statistical inference",
+  "aliases": [
+   "Fisher inference",
+   "maximum likelihood",
+   "analysis of variance",
+   "theoretical statistics"
+  ],
+  "phases": [
+   "Rothamsted crop data and variance (1921)",
+   "Foundations of theoretical statistics (1922)",
+   "Statistical Methods for Research Workers (1925)",
+   "Small-sample theory",
+   "Rothamsted crop data and variance",
+   "Foundations of theoretical statistics"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Small-sample theory",
+    "year": 1908,
+    "precision": "year",
+    "label": "Student's t-distribution for small samples",
+    "work": "Student (Gosset), 'The Probable Error of a Mean', Biometrika 6 (1908)",
+    "people": [
+     "William Sealy Gosset"
+    ],
+    "description": "Gosset derives the distribution of the mean for small samples, which Fisher later used in inference.",
+    "evidence": [
+     {
+      "claim": "1908 Biometrika record",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.2307/2331554",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Gosset invented the t-test for small samples",
+      "source": "MacTutor: Gosset biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Gosset/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Precursor: sets no derived date."
+   },
+   {
+    "role": "first_application",
+    "phase": "Rothamsted crop data and variance",
+    "year": 1921,
+    "precision": "year",
+    "label": "Crop-yield variation analysed on Rothamsted data",
+    "work": "Fisher, 'Studies in crop variation. I.', The Journal of Agricultural Science 11 (1921)",
+    "people": [
+     "Ronald Fisher"
+    ],
+    "description": "Fisher analyses long-term Broadbalk wheat yields at Rothamsted with variance methods, the first purposeful test on field data.",
+    "evidence": [
+     {
+      "claim": "1921 J. Agric. Sci. record on Broadbalk yields",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1017/S0021859600003750",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_statement",
+    "year": 1921,
+    "precision": "year",
+    "label": "Fisher's likelihood interval (Metron paper)",
+    "work": "R. A. Fisher, \"On the probable error of a coefficient of correlation deduced from a small sample\", Metron 1 (1921) 3-32",
+    "people": [
+     "Ronald Fisher"
+    ],
+    "description": "Fisher's 1921 paper introduces the likelihood interval, the earliest public form of the likelihood idea found.",
+    "evidence": [
+     {
+      "claim": "Wikipedia: the 1921 Metron paper introduced what is today called the 'likelihood interval'; the 1922 paper introduced the term 'method of maximum likelihood'.",
+      "source": "Wikipedia, Likelihood function",
+      "url": "https://en.wikipedia.org/wiki/Likelihood_function",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Identity and year taken from Wikipedia citation; the paper is not indexed in Crossref and its text was not read."
+   },
+   {
+    "role": "key_development",
+    "phase": "Foundations of theoretical statistics",
+    "year": 1922,
+    "precision": "year",
+    "label": "Fisher's foundations paper (likelihood, consistency, efficiency)",
+    "work": "Fisher, 'On the mathematical foundations of theoretical statistics', Phil. Trans. R. Soc. A 222 (1922)",
+    "people": [
+     "Ronald Fisher"
+    ],
+    "description": "Fisher introduces the maximum-likelihood framework and criteria for estimators as the basis of statistical inference.",
+    "evidence": [
+     {
+      "claim": "1922 Phil. Trans. record",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1098/rsta.1922.0009",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Biography says Fisher introduced likelihood in 1921",
+      "source": "MacTutor: Fisher biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Fisher/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Conflict: the MacTutor biography dates the likelihood concept to 1921; the publication year of the foundations paper (1922) governs the conceptual date under the rule."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Statistical Methods for Research Workers (1925)",
+    "year": 1925,
+    "precision": "year",
+    "label": "Fisher's Statistical Methods for Research Workers",
+    "work": "Fisher, Statistical Methods for Research Workers (Oliver & Boyd, 1925)",
+    "people": [
+     "Ronald Fisher"
+    ],
+    "description": "The 1925 book is the first systematic treatment of Fisher's methods, including analysis of variance, for working scientists.",
+    "evidence": [
+     {
+      "claim": "1925 book record",
+      "source": "Open Library search",
+      "url": "https://openlibrary.org/search.json?q=Statistical+Methods+for+Research+Workers+Fisher",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Ronald Fisher",
+    "role": "developer",
+    "lifespan": "1890-1962",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Fisher/",
+    "works": [
+     {
+      "citation": "Fisher, 'Studies in crop variation I', J. Agric. Sci. 11 (1921)",
+      "year": 1921,
+      "url": "https://doi.org/10.1017/S0021859600003750",
+      "whyItMatters": "Variance analysis on Rothamsted data."
+     },
+     {
+      "citation": "Fisher, 'On the mathematical foundations of theoretical statistics', Phil. Trans. A 222 (1922)",
+      "year": 1922,
+      "url": "https://doi.org/10.1098/rsta.1922.0009",
+      "whyItMatters": "Likelihood-based inference."
+     },
+     {
+      "citation": "Fisher, Statistical Methods for Research Workers (1925)",
+      "year": 1925,
+      "url": "https://openlibrary.org/search.json?q=Statistical+Methods+for+Research+Workers+Fisher",
+      "whyItMatters": "Textbook consolidation."
+     }
+    ],
+    "roleNote": "framework and methods"
+   },
+   {
+    "name": "William Sealy Gosset",
+    "role": "developer",
+    "lifespan": "1876-1937",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Gosset/",
+    "works": [
+     {
+      "citation": "Student, 'The Probable Error of a Mean', Biometrika 6 (1908)",
+      "year": 1908,
+      "url": "https://doi.org/10.2307/2331554",
+      "whyItMatters": "Small-sample t distribution."
+     }
+    ],
+    "roleNote": "small-sample t"
+   }
+  ],
+  "notes": "Input summary: Fisher unified chi-squared, small-sample t and variance analysis on Rothamsted data; confirmed in outline (chi-squared is not checked). The 1922 paper is verified by record. Fix pass 2: Wikipedia credits the 1921 Metron paper with the likelihood interval, so the 1921 concept date is recorded as first_statement and 1922 as key_development for the term and theory. Derived dates: conceptual 1921, methodological 1921, institutional 1925.",
+  "searchedSources": [
+   "MacTutor: Fisher biography, Gosset biography (live)",
+   "Crossref (Student 1908, Fisher 1921, Fisher 1922)",
+   "Open Library (Fisher 1925)"
+  ],
+  "derivedDates": {
+   "conceptual": 1921,
+   "methodological": 1921,
+   "institutional": 1925
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P392",
+  "eventId": "M64",
+  "canonicalName": "Weyl's gauge theory (local scale invariance)",
+  "aliases": [
+   "gauge theory",
+   "Eichinvarianz",
+   "gauge invariance",
+   "Weyl geometry"
+  ],
+  "phases": [
+   "Weyl's scale geometry (1918-1919)",
+   "Gauge invariance in quantum theory (1929)",
+   "Yang-Mills non-abelian gauge theory (1954)",
+   "Weyl's scale geometry"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Weyl's scale geometry",
+    "year": 1918,
+    "precision": "year",
+    "label": "Weyl proposes local scale invariance",
+    "work": "Weyl, 'Gravitation und Elektrizität', Sitzungsberichte der Preussischen Akademie (1918)",
+    "people": [
+     "Hermann Weyl"
+    ],
+    "description": "Weyl proposes that local rescaling of the metric is a symmetry, aiming to derive electromagnetism from geometry.",
+    "evidence": [
+     {
+      "claim": "The concept and the name of gauge theory derive from Weyl's 1918 work",
+      "source": "Wikipedia: Gauge theory",
+      "url": "https://en.wikipedia.org/wiki/Gauge_theory",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Raum-Zeit-Materie first appeared in 1918, with gauge ideas in later editions",
+      "source": "MacTutor: Weyl biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Weyl/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Sitzungsberichte paper not retrieved from a record (Crossref rate-limited); year from history sources."
+   },
+   {
+    "role": "first_application",
+    "phase": "Weyl's scale geometry",
+    "year": 1918,
+    "precision": "year",
+    "label": "Scale geometry applied to electromagnetism",
+    "work": "Weyl, 'Gravitation und Elektrizität' (1918), same work",
+    "people": [
+     "Hermann Weyl"
+    ],
+    "description": "Weyl applies the local scale symmetry to electromagnetic fields, the first physical target problem; same work as the first_statement.",
+    "evidence": [
+     {
+      "claim": "Weyl's 1918 attempt to derive electromagnetism from the scale geometry",
+      "source": "Wikipedia: Gauge theory",
+      "url": "https://en.wikipedia.org/wiki/Gauge_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Same work under two roles, per the note rule."
+   },
+   {
+    "role": "naming",
+    "phase": "Weyl's scale geometry",
+    "year": 1918,
+    "precision": "year",
+    "label": "Name 'gauge' (Eich-) from Weyl's 1918 work",
+    "work": "Weyl (1918), same work as first_statement",
+    "people": [
+     "Hermann Weyl"
+    ],
+    "description": "The term gauge (Eichung) for the rescaling symmetry is attributed to Weyl's 1918 work; same work as the first_statement.",
+    "evidence": [
+     {
+      "claim": "Name derives from Weyl's 1918 work",
+      "source": "Wikipedia: Gauge theory",
+      "url": "https://en.wikipedia.org/wiki/Gauge_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Same work plays two roles (statement and naming), recorded per the note rule."
+   },
+   {
+    "role": "key_development",
+    "phase": "Gauge invariance in quantum theory (1929)",
+    "year": 1929,
+    "precision": "year",
+    "label": "Weyl's electron and gravitation paper (phase gauge)",
+    "work": "Weyl, 'Elektron und Gravitation I', Zeitschrift für Physik 56 (1929)",
+    "people": [
+     "Hermann Weyl"
+    ],
+    "description": "Weyl reinterprets the rescaling as a phase symmetry tied to the electron, the gauge principle of later quantum electrodynamics.",
+    "evidence": [
+     {
+      "claim": "1929 Zeitschrift für Physik record",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1007/BF01339504",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Title and year verified; the content (phase gauge) is from general knowledge, not checked against the paper."
+   },
+   {
+    "role": "key_development",
+    "phase": "Yang-Mills non-abelian gauge theory (1954)",
+    "year": 1954,
+    "precision": "year",
+    "label": "Yang-Mills non-abelian gauge invariance",
+    "work": "Yang & Mills, 'Conservation of Isotopic Spin and Isotopic Gauge Invariance', Physical Review 96 (1954)",
+    "people": [
+     "Chen Ning Yang",
+     "Robert Mills"
+    ],
+    "description": "Yang and Mills generalise gauge invariance to non-abelian symmetry groups.",
+    "evidence": [
+     {
+      "claim": "1954 Physical Review record",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1103/PhysRev.96.191",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Hermann Weyl",
+    "role": "originator",
+    "lifespan": "1885-1955",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Weyl/",
+    "works": [
+     {
+      "citation": "Weyl, 'Gravitation und Elektrizität' (1918)",
+      "year": 1918,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Weyl/",
+      "whyItMatters": "Local scale invariance and the gauge name."
+     },
+     {
+      "citation": "Weyl, 'Elektron und Gravitation I', Z. Phys. 56 (1929)",
+      "year": 1929,
+      "url": "https://doi.org/10.1007/BF01339504",
+      "whyItMatters": "Gauge principle as phase symmetry."
+     }
+    ]
+   },
+   {
+    "name": "Chen Ning Yang",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Chen_Ning_Yang",
+    "works": [
+     {
+      "citation": "Yang & Mills, Phys. Rev. 96 (1954)",
+      "year": 1954,
+      "url": "https://doi.org/10.1103/PhysRev.96.191",
+      "whyItMatters": "Non-abelian gauge theory."
+     }
+    ],
+    "roleNote": "non-abelian gauge"
+   },
+   {
+    "name": "Robert Mills",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Robert_Mills",
+    "works": [
+     {
+      "citation": "Yang & Mills, Phys. Rev. 96 (1954)",
+      "year": 1954,
+      "url": "https://doi.org/10.1103/PhysRev.96.191",
+      "whyItMatters": "Non-abelian gauge theory."
+     }
+    ],
+    "roleNote": "non-abelian gauge"
+   }
+  ],
+  "notes": "Input summary says Weyl proposed local scale invariance: confirmed (1918). The naming 'gauge' date is the same 1918 work per the Wikipedia article. The 1929 reinterpretation as phase invariance is from background knowledge (title/year verified). Derived dates: conceptual 1918, methodological 1918 (same 1918 work as application to electromagnetism), institutional 1918 (naming).",
+  "searchedSources": [
+   "Wikipedia: Gauge theory (raw)",
+   "MacTutor: Weyl biography (live)",
+   "Crossref (Weyl 1929, Yang-Mills 1954)"
+  ],
+  "derivedDates": {
+   "conceptual": 1918,
+   "methodological": 1918,
+   "institutional": 1918
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P362",
+  "eventId": "W46/M45",
+  "canonicalName": "Banach spaces (complete normed linear spaces)",
+  "aliases": [
+   "Banach space",
+   "complete normed space",
+   "functional analysis (Banach)",
+   "espace de Banach"
+  ],
+  "phases": [
+   "Banach's operations on abstract sets and integral equations (1922)",
+   "Uniform boundedness and Hahn-Banach theory (1927-1929)",
+   "Theory of linear operations (1932)",
+   "Banach's operations on abstract sets",
+   "Uniform boundedness and Hahn-Banach theory"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Banach's operations on abstract sets",
+    "year": 1922,
+    "precision": "year",
+    "label": "Banach's thesis on operations on abstract sets",
+    "work": "Banach, 'Sur les opérations dans les ensembles abstraits et leur application aux équations intégrales', Fundamenta Mathematicae 3 (1922)",
+    "people": [
+     "Stefan Banach"
+    ],
+    "description": "Banach works on abstract sets with operations and proves a fixed-point theorem in complete normed settings; the paper is the origin of functional analysis as a field.",
+    "evidence": [
+     {
+      "claim": "1922 Fundamenta Mathematicae record",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.4064/fm-3-1-133-181",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "The thesis 'On Operations on Abstract Sets and their Application to Integral Equations' is said to mark the birth of functional analysis",
+      "source": "MacTutor: Banach biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Banach/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "The complete-normed-space content and the fixed-point theorem are from general knowledge of the paper, not read in full."
+   },
+   {
+    "role": "first_application",
+    "phase": "Banach's operations on abstract sets",
+    "year": 1922,
+    "precision": "year",
+    "label": "Same paper applied to integral equations",
+    "work": "Banach (1922), same paper",
+    "people": [
+     "Stefan Banach"
+    ],
+    "description": "The paper applies the abstract operator theory to integral equations, its stated target; same work as the first_statement.",
+    "evidence": [
+     {
+      "claim": "Thesis title names integral equations as application",
+      "source": "MacTutor: Banach biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Banach/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same work under two roles, per the note rule."
+   },
+   {
+    "role": "key_development",
+    "phase": "Uniform boundedness and Hahn-Banach theory",
+    "year": 1927,
+    "precision": "year",
+    "label": "Banach-Steinhaus uniform boundedness principle",
+    "work": "Banach & Steinhaus, 'Sur le principe de la condensation de singularités', Fundamenta Mathematicae 9 (1927)",
+    "people": [
+     "Stefan Banach",
+     "Hugo Steinhaus"
+    ],
+    "description": "The uniform boundedness principle for families of bounded operators on Banach spaces, a main result of the theory.",
+    "evidence": [
+     {
+      "claim": "1927 Fund. Math. record",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.4064/fm-9-1-50-61",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": "Theory of linear operations (1932)",
+    "year": 1932,
+    "precision": "year",
+    "label": "Banach's Théorie des opérations linéaires",
+    "work": "Banach, Théorie des opérations linéaires (Warsaw, 1932)",
+    "people": [
+     "Stefan Banach"
+    ],
+    "description": "The monograph (French version of a 1931 Polish volume) is the first systematic treatment of the theory of linear operations on Banach spaces.",
+    "evidence": [
+     {
+      "claim": "1932 book record",
+      "source": "Open Library search",
+      "url": "https://openlibrary.org/search.json?q=Th%C3%A9orie+des+op%C3%A9rations+lin%C3%A9aires+Banach",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "French version of a 1931 Polish volume, a classic",
+      "source": "MacTutor: Banach biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Banach/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Stefan Banach",
+    "role": "originator",
+    "lifespan": "1892-1945",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Banach/",
+    "works": [
+     {
+      "citation": "Banach, Fund. Math. 3 (1922)",
+      "year": 1922,
+      "url": "https://doi.org/10.4064/fm-3-1-133-181",
+      "whyItMatters": "Origin of the theory."
+     },
+     {
+      "citation": "Banach, Théorie des opérations linéaires (1932)",
+      "year": 1932,
+      "url": "https://openlibrary.org/search.json?q=Th%C3%A9orie+des+op%C3%A9rations+lin%C3%A9aires+Banach",
+      "whyItMatters": "Monograph."
+     }
+    ],
+    "roleNote": "founder"
+   },
+   {
+    "name": "Hugo Steinhaus",
+    "role": "developer",
+    "lifespan": "1887-1972",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Steinhaus/",
+    "works": [
+     {
+      "citation": "Banach & Steinhaus, Fund. Math. 9 (1927)",
+      "year": 1927,
+      "url": "https://doi.org/10.4064/fm-9-1-50-61",
+      "whyItMatters": "Uniform boundedness."
+     }
+    ],
+    "roleNote": "co-author"
+   }
+  ],
+  "notes": "Input summary (Banach defined complete normed spaces and proved the operator theorems; Lwow school) is confirmed in outline by the 1922 thesis and 1932 book. The 1922 paper supplies both the first statement and the first application (integral equations). No naming milestone (the term 'Banach space' was introduced later) was found. Derived dates: conceptual 1922, methodological 1922, institutional 1932.",
+  "searchedSources": [
+   "MacTutor: Banach biography (live)",
+   "Crossref (Banach 1922, Banach-Steinhaus 1927)",
+   "Open Library (Banach 1932)"
+  ],
+  "derivedDates": {
+   "conceptual": 1922,
+   "methodological": 1922,
+   "institutional": 1932
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ }
+]

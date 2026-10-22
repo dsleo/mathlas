@@ -1,0 +1,148 @@
+[
+ {
+  "pid": "P338",
+  "eventId": "QC73",
+  "name": "Exotic spheres, smooth Poincare in dimension 4 ... Floer to Heegaard",
+  "type": "technique-transfer",
+  "from": [
+   "gauge theory (Seiberg-Witten Floer)",
+   "embedded contact homology"
+  ],
+  "to": [
+   "contact geometry / Reeb dynamics"
+  ],
+  "summary": "Embedded contact homology proved the Weinstein conjecture in dimension 3."
+ },
+ {
+  "pid": "P351",
+  "eventId": "QC31",
+  "name": "Kapustin-Witten: geometric Langlands as S-duality",
+  "type": "import-from-outside",
+  "from": [
+   "quantum field theory",
+   "geometric Langlands"
+  ],
+  "to": [
+   "geometric Langlands"
+  ],
+  "summary": "Twisted N=4 super Yang-Mills was used to derive Hecke eigensheaves from branes."
+ },
+ {
+  "pid": "P476",
+  "eventId": "P27",
+  "name": "Thin groups and the affine sieve (Bourgain-Gamburd-Sarnak)",
+  "type": "technique-transfer",
+  "from": [
+   "Combinatorics",
+   "Algebra",
+   "Analysis"
+  ],
+  "to": [
+   "Number theory"
+  ],
+  "summary": "Expansion in Cayley graphs from sum-product theory powers a sieve on orbits of non-arithmetic subgroups of SL_n(Z)."
+ },
+ {
+  "pid": "P546",
+  "eventId": "Q52",
+  "name": "Univalent foundations and homotopy type theory",
+  "type": "birth-by-fusion",
+  "from": [
+   "Martin-Lof type theory",
+   "homotopy theory (simplicial sets, infinity-groupoids)"
+  ],
+  "to": [
+   "homotopy type theory"
+  ],
+  "summary": "Voevodsky interpreted Martin-Lof type theory in simplicial sets, formulated the univalence axiom, and organised a special year in 2012-13 that launched homotopy type theory and the UniMath library."
+ },
+ {
+  "pid": "P556",
+  "eventId": "Q71",
+  "name": "Tropical geometry transferred to Brill-Noether theory",
+  "type": "technique-transfer",
+  "from": [
+   "tropical geometry",
+   "chip-firing on graphs",
+   "classical algebraic geometry"
+  ],
+  "to": [
+   "Brill-Noether and maximal rank theory"
+  ],
+  "summary": "Degenerating curves to graphs and playing chip-firing games gave new proofs and extensions of classical statements about how many equations are needed to embed a curve."
+ },
+ {
+  "pid": "P321",
+  "eventId": "QC52",
+  "name": "Topological recursion and enumerative geometry",
+  "type": "birth-by-fusion",
+  "from": [
+   "random matrices",
+   "enumerative geometry",
+   "integrable systems"
+  ],
+  "to": [
+   "topological recursion"
+  ],
+  "summary": "Eynard-Orantin recursion recovers Gromov-Witten and Weil-Petersson volumes."
+ },
+ {
+  "pid": "P349",
+  "eventId": "WC100",
+  "name": "Flag algebras",
+  "type": "birth-by-abstraction",
+  "from": [
+   "extremal combinatorics",
+   "semidefinite programming",
+   "model theory"
+  ],
+  "to": [
+   "combinatorics"
+  ],
+  "summary": "Razborov turned Turan-type problems into semidefinite programs using limits of graph densities."
+ },
+ {
+  "pid": "P296",
+  "eventId": "WC66/QC23",
+  "name": "Guth-Katz distinct distances",
+  "type": "technique-transfer",
+  "from": [
+   "real algebraic geometry (polynomial partitioning, ruled surfaces)",
+   "incidence geometry (Elekes-Sharir framework)"
+  ],
+  "to": [
+   "discrete geometry"
+  ],
+  "summary": "Guth and Katz used polynomial partitioning and ruled surface results to nearly solve the distinct distances problem."
+ },
+ {
+  "pid": "P328",
+  "eventId": "QC60",
+  "name": "Liouville quantum gravity and mating of trees",
+  "type": "import-from-outside",
+  "from": [
+   "probability (SLE, Gaussian free field)",
+   "Liouville CFT (physics)",
+   "planar map combinatorics"
+  ],
+  "to": [
+   "random planar geometry / Liouville quantum gravity"
+  ],
+  "summary": "Duplantier-Sheffield-Miller-Gwynne built random surfaces from Gaussian free field and linked them to SLE."
+ },
+ {
+  "pid": "P344",
+  "eventId": "WC110",
+  "name": "Kontsevich-Soibelman wall crossing",
+  "type": "birth-by-fusion",
+  "from": [
+   "Donaldson-Thomas",
+   "cluster algebra",
+   "stability conditions"
+  ],
+  "to": [
+   "algebraic geometry"
+  ],
+  "summary": "Wall-crossing formulas for DT invariants unify stability conditions and cluster transformations."
+ }
+]

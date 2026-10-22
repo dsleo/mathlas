@@ -1,0 +1,837 @@
+{
+  "authority": "https://msc2020.org/MSC_2020.pdf",
+  "note": "Reviewed additions prompted by missing MSC2020 subject coverage. Catalogue, sourced milestones, and reviewed connections are kept together. Context links state subject relationships, not undocumented direct influence.",
+  "entries": [
+    {
+      "catalogue": {
+        "id": "FM1",
+        "src": "Focused addition (primary sources)",
+        "name": "p-adic Hodge theory and Fontaine’s period rings",
+        "type": "field-combination",
+        "from": [
+          "p-adic Galois representations",
+          "étale cohomology",
+          "de Rham and crystalline cohomology"
+        ],
+        "to": [
+          "p-adic Hodge theory"
+        ],
+        "product": "p-adic Hodge theory",
+        "dates": [
+          [
+            1982,
+            1982
+          ],
+          [
+            1982,
+            1982
+          ],
+          [
+            1994,
+            1994
+          ]
+        ],
+        "datesNote": "Fontaine’s 1979 filtered-module work is a precursor; the 1982 Annals paper and Fontaine–Laffaille paper establish the dated period-ring and representation milestones. The 1988 Bures seminar was published as Astérisque 223 in 1994.",
+        "why": "Fontaine’s period rings and filtered modules relate p-adic Galois representations to de Rham and crystalline invariants, creating a bridge between arithmetic and cohomology.",
+        "works": [
+          "J.-M. Fontaine, Sur certains types de représentations p-adiques du groupe de Galois d’un corps local, Ann. Math. 115 (1982), https://annals.math.princeton.edu/1982/115-3/p03",
+          "J.-M. Fontaine and G. Laffaille, Construction de représentations p-adiques, Ann. Sci. ENS 15 (1982), https://www.numdam.org/item/ASENS_1982_4_15_4_547_0/",
+          "J.-M. Fontaine, Périodes p-adiques (Séminaire de Bures, 1988), Astérisque 223 (1994), https://smf.emath.fr/publications/periodes-p-adiques-seminaire-de-bures-1988-reedition-2020"
+        ],
+        "basis": "Primary journal records (Annals of Mathematics; Numdam) and the Société Mathématique de France publication record. The 1982 date applies to Fontaine’s period-ring framework, not to every later p-adic comparison theorem.",
+        "audit": true,
+        "y": 1982,
+        "also": []
+      },
+      "record": {
+        "pid": "P557",
+        "eventId": "FM1",
+        "canonicalName": "p-adic Hodge theory and Fontaine’s period rings",
+        "aliases": [
+          "Fontaine’s period-ring approach"
+        ],
+        "phases": [],
+        "milestones": [
+          {
+            "role": "precursor",
+            "year": 1979,
+            "precision": "year",
+            "label": "Filtered modules and Barsotti–Tate rings",
+            "work": "J.-M. Fontaine, Modules galoisiens, modules filtrés et anneaux de Barsotti-Tate, Astérisque 65 (1979)",
+            "people": [
+              "Jean-Marc Fontaine"
+            ],
+            "description": "An earlier filtered-module framework for p-adic Galois representations.",
+            "evidence": [
+              {
+                "claim": "Astérisque 65 published Fontaine’s filtered-module work in 1979",
+                "source": "Numdam",
+                "url": "https://www.numdam.org/item/AST_1979__65__3_0/",
+                "kind": "primary_publication"
+              }
+            ],
+            "confidence": "high",
+            "note": "Precursor to the period-ring milestone; it does not date the later comparison theory."
+          },
+          {
+            "role": "first_statement",
+            "year": 1982,
+            "precision": "year",
+            "label": "Fontaine publishes the period-ring framework",
+            "work": "J.-M. Fontaine, Sur certains types de représentations p-adiques du groupe de Galois d’un corps local, Ann. Math. 115 (1982)",
+            "people": [
+              "Jean-Marc Fontaine"
+            ],
+            "description": "Constructs a Barsotti–Tate period ring and develops classes of p-adic local Galois representations.",
+            "evidence": [
+              {
+                "claim": "Annals published Fontaine’s period-ring paper in 1982",
+                "source": "Annals of Mathematics",
+                "url": "https://annals.math.princeton.edu/1982/115-3/p03",
+                "kind": "primary_publication"
+              }
+            ],
+            "confidence": "high",
+            "note": "Dates this concrete framework, not the origin of every ingredient of p-adic Hodge theory."
+          },
+          {
+            "role": "first_application",
+            "year": 1982,
+            "precision": "year",
+            "label": "Fontaine–Laffaille construct p-adic representations",
+            "work": "J.-M. Fontaine and G. Laffaille, Construction de représentations p-adiques, Ann. Sci. ENS 15 (1982)",
+            "people": [
+              "Jean-Marc Fontaine",
+              "Guy Laffaille"
+            ],
+            "description": "Uses filtered Dieudonné modules to explicitly construct p-adic Galois representations under stated hypotheses.",
+            "evidence": [
+              {
+                "claim": "The 1982 paper constructs representations from filtered modules; its abstract and introduction state the conditions and applications",
+                "source": "Numdam",
+                "url": "https://www.numdam.org/item/ASENS_1982_4_15_4_547_0/",
+                "kind": "primary_publication"
+              }
+            ],
+            "confidence": "high",
+            "note": "An early explicit application, not a claim that all p-adic comparison theorems were proved in 1982."
+          },
+          {
+            "role": "consolidation",
+            "year": 1994,
+            "precision": "year",
+            "label": "Bures seminar published as Périodes p-adiques",
+            "work": "J.-M. Fontaine, Périodes p-adiques (Séminaire de Bures, 1988), Astérisque 223 (1994)",
+            "people": [
+              "Jean-Marc Fontaine"
+            ],
+            "description": "The published seminar volume assembles period rings, representation classes, and comparisons among p-adic cohomology theories.",
+            "evidence": [
+              {
+                "claim": "The SMF describes the 1994 Astérisque volume and its 1988 seminar origin",
+                "source": "Société Mathématique de France",
+                "url": "https://smf.emath.fr/publications/periodes-p-adiques-seminaire-de-bures-1988-reedition-2020",
+                "kind": "primary_publication"
+              }
+            ],
+            "confidence": "high",
+            "note": "1994 is the volume’s publication year; the seminar met in 1988."
+          }
+        ],
+        "people": [
+          {
+            "name": "Jean-Marc Fontaine",
+            "role": "originator",
+            "lifespan": null,
+            "biographyUrl": "https://www.ihes.fr/en/jean-marc-fontaine-died-aged-74/",
+            "works": [
+              {
+                "citation": "Sur certains types de représentations p-adiques du groupe de Galois d’un corps local",
+                "year": 1982,
+                "url": "https://annals.math.princeton.edu/1982/115-3/p03",
+                "whyItMatters": "Published the period-ring framework"
+              }
+            ]
+          }
+        ],
+        "notes": "Focused primary-source addition. The event date marks the documented 1982 period-ring framework; Fontaine’s 1979 filtered-module paper remains a precursor. The 1988 seminar appeared in print in 1994.",
+        "derivedDates": {
+          "conceptual": {
+            "start": 1982,
+            "end": 1982,
+            "precision": "year",
+            "milestoneIndices": [
+              1
+            ],
+            "roles": [
+              "first_statement"
+            ],
+            "grade": "B"
+          },
+          "methodological": {
+            "start": 1982,
+            "end": 1982,
+            "precision": "year",
+            "milestoneIndices": [
+              2
+            ],
+            "roles": [
+              "first_application"
+            ],
+            "grade": "B"
+          },
+          "institutional": {
+            "start": 1994,
+            "end": 1994,
+            "precision": "year",
+            "milestoneIndices": [
+              3
+            ],
+            "roles": [
+              "consolidation"
+            ],
+            "grade": "B"
+          }
+        },
+        "researchStatus": "researched",
+        "sourceCandidates": [],
+        "searchTerms": [
+          "p-adic Hodge theory",
+          "Fontaine period rings",
+          "Fontaine-Laffaille"
+        ]
+      },
+      "links": [
+        {
+          "from": "P023",
+          "to": "P557",
+          "kind": "context",
+          "label": "étale cohomology in p-adic Hodge theory",
+          "evidence": "https://smf.emath.fr/publications/periodes-p-adiques-seminaire-de-bures-1988-reedition-2020"
+        },
+        {
+          "from": "P557",
+          "to": "P303",
+          "kind": "context",
+          "label": "p-adic Hodge theory in prismatic cohomology",
+          "evidence": "https://arxiv.org/abs/1905.08229"
+        },
+        {
+          "from": "P557",
+          "to": "P542",
+          "kind": "context",
+          "label": "p-adic Hodge theory and the Fargues–Fontaine curve",
+          "evidence": "https://arxiv.org/abs/2102.13459"
+        }
+      ]
+    },
+    {
+      "catalogue": {
+        "id": "FM2",
+        "src": "MSC2020 gap review (primary source)",
+        "name": "Euler formulates the equations of fluid motion",
+        "type": "field-emergence",
+        "from": [
+          "Newtonian mechanics",
+          "differential calculus",
+          "fluid statics"
+        ],
+        "to": [
+          "fluid mechanics",
+          "partial differential equations"
+        ],
+        "product": "fluid mechanics",
+        "dates": [
+          [
+            1757,
+            1757
+          ],
+          [
+            1757,
+            1757
+          ],
+          null
+        ],
+        "datesNote": "Euler wrote the memoir in 1755; it was published in 1757. The map uses the public publication year.",
+        "why": "Euler expressed fluid motion through general analytic equations and examined velocity fields and boundary conditions, helping establish mathematical fluid mechanics.",
+        "works": [
+          "L. Euler, Principes généraux du mouvement des fluides, Mémoires de l’académie des sciences de Berlin 11 (1757), 274–315, https://scholarlycommons.pacific.edu/euler-works/226/"
+        ],
+        "basis": "University of the Pacific Euler Archive work record and digitized original. It distinguishes the 1755 writing date from the 1757 publication date.",
+        "audit": true,
+        "y": 1757,
+        "also": []
+      },
+      "record": {
+        "pid": "P558",
+        "eventId": "FM2",
+        "canonicalName": "Euler formulates the equations of fluid motion",
+        "aliases": [],
+        "phases": [],
+        "milestones": [
+          {
+            "role": "first_statement",
+            "year": 1757,
+            "precision": "year",
+            "label": "General equations for moving fluids published",
+            "work": "L. Euler, Principes généraux du mouvement des fluides, Mémoires de l’académie des sciences de Berlin 11 (1757)",
+            "people": [
+              "Leonhard Euler"
+            ],
+            "description": "Euler presents general analytic equations for fluid motion in the memoir published in 1757.",
+            "evidence": [
+              {
+                "claim": "The Euler Archive dates the original memoir to 1757 and identifies its analytic treatment of fluid motion",
+                "source": "University of the Pacific Euler Archive",
+                "url": "https://scholarlycommons.pacific.edu/euler-works/226/",
+                "kind": "primary_archive"
+              }
+            ],
+            "confidence": "high",
+            "note": "The archive gives 1755 as the written date; 1757 is the public publication date."
+          },
+          {
+            "role": "first_application",
+            "year": 1757,
+            "precision": "year",
+            "label": "Vortex flows and boundary conditions examined",
+            "work": "L. Euler, Principes généraux du mouvement des fluides, Mémoires de l’académie des sciences de Berlin 11 (1757)",
+            "people": [
+              "Leonhard Euler"
+            ],
+            "description": "The same memoir studies vortex-flow examples and the role of boundary conditions.",
+            "evidence": [
+              {
+                "claim": "The Euler Archive summarizes the memoir’s vortex examples and early boundary-condition remarks",
+                "source": "University of the Pacific Euler Archive",
+                "url": "https://scholarlycommons.pacific.edu/euler-works/226/",
+                "kind": "primary_archive"
+              }
+            ],
+            "confidence": "high",
+            "note": "Application within the same published work, not a separate later discovery."
+          }
+        ],
+        "people": [
+          {
+            "name": "Leonhard Euler",
+            "role": "originator",
+            "lifespan": null,
+            "biographyUrl": null,
+            "works": [
+              {
+                "citation": "Principes généraux du mouvement des fluides",
+                "year": 1757,
+                "url": "https://scholarlycommons.pacific.edu/euler-works/226/",
+                "whyItMatters": "Published the general analytic treatment of fluid motion"
+              }
+            ]
+          }
+        ],
+        "notes": "MSC2020 category 76 identifies fluid mechanics as a distinct mathematical subject. The Euler Archive records 1755 as the writing date and 1757 as the publication date.",
+        "derivedDates": {
+          "conceptual": {
+            "start": 1757,
+            "end": 1757,
+            "precision": "year",
+            "milestoneIndices": [
+              0
+            ],
+            "roles": [
+              "first_statement"
+            ],
+            "grade": "B"
+          },
+          "methodological": {
+            "start": 1757,
+            "end": 1757,
+            "precision": "year",
+            "milestoneIndices": [
+              1
+            ],
+            "roles": [
+              "first_application"
+            ],
+            "grade": "B"
+          },
+          "institutional": null
+        },
+        "researchStatus": "researched",
+        "sourceCandidates": [],
+        "searchTerms": [
+          "Euler equations",
+          "fluid mechanics",
+          "hydrodynamics"
+        ]
+      },
+      "links": [
+        {
+          "from": "P133",
+          "to": "P558",
+          "kind": "named",
+          "label": "Newtonian mechanics and Euler’s fluid equations",
+          "evidence": "https://scholarlycommons.pacific.edu/euler-works/226/"
+        },
+        {
+          "from": "P558",
+          "to": "P470",
+          "kind": "context",
+          "label": "fluid equations and Navier–Stokes regularity",
+          "evidence": "https://www.claymath.org/millennium/navier-stokes-equation/"
+        }
+      ]
+    },
+    {
+      "catalogue": {
+        "id": "FM3",
+        "src": "MSC2020 gap review (primary source)",
+        "name": "Chebyshev’s theory of best uniform approximation",
+        "type": "field-emergence",
+        "from": [
+          "polynomial interpolation",
+          "analysis of functions"
+        ],
+        "to": [
+          "approximation theory"
+        ],
+        "product": "approximation theory",
+        "dates": [
+          [
+            1857,
+            1857
+          ],
+          null,
+          null
+        ],
+        "datesNote": "An original St Petersburg imprint is dated 1857 in the ETH Library copy; a later journal-volume citation often gives 1859.",
+        "why": "Chebyshev studied how closely functions can be represented by simpler ones while controlling the largest error, establishing a central problem of approximation theory.",
+        "works": [
+          "P. Chebyshev, Sur les questions de minima qui se rattachent à la représentation approximative des fonctions, St Petersburg Academy imprint (1857), https://www.e-rara.ch/zut/content/titleinfo/29427162"
+        ],
+        "basis": "ETH Library digitization of the original 1857 academy imprint; MSC2020 class 41 identifies approximation and expansion theory as a distinct subject.",
+        "audit": true,
+        "y": 1857,
+        "also": []
+      },
+      "record": {
+        "pid": "P559",
+        "eventId": "FM3",
+        "canonicalName": "Chebyshev’s theory of best uniform approximation",
+        "aliases": [],
+        "phases": [],
+        "milestones": [
+          {
+            "role": "first_statement",
+            "year": 1857,
+            "precision": "year",
+            "label": "Best approximation memoir printed",
+            "work": "P. Chebyshev, Sur les questions de minima qui se rattachent à la représentation approximative des fonctions, St Petersburg Academy imprint (1857)",
+            "people": [
+              "Pafnuty Chebyshev"
+            ],
+            "description": "The memoir formulates minimum-deviation problems for approximate representation of functions.",
+            "evidence": [
+              {
+                "claim": "ETH Library holds an original academy imprint dated 1857 whose title identifies the minimum-deviation problem",
+                "source": "ETH Library e-rara original imprint",
+                "url": "https://www.e-rara.ch/zut/content/titleinfo/29427162",
+                "kind": "primary_archive"
+              }
+            ],
+            "confidence": "high",
+            "note": "This is an 1857 separate imprint; citations to the academy journal volume often give 1859."
+          }
+        ],
+        "people": [
+          {
+            "name": "Pafnuty Chebyshev",
+            "role": "originator",
+            "lifespan": null,
+            "biographyUrl": null,
+            "works": [
+              {
+                "citation": "Sur les questions de minima qui se rattachent à la représentation approximative des fonctions",
+                "year": 1857,
+                "url": "https://www.e-rara.ch/zut/content/titleinfo/29427162",
+                "whyItMatters": "Established minimum-deviation approximation problems"
+              }
+            ]
+          }
+        ],
+        "notes": "Focused MSC2020 class 41 addition. The 1857 ETH Library imprint is used for the first public date; 1859 is a later volume citation.",
+        "derivedDates": {
+          "conceptual": {
+            "start": 1857,
+            "end": 1857,
+            "precision": "year",
+            "milestoneIndices": [
+              0
+            ],
+            "roles": [
+              "first_statement"
+            ],
+            "grade": "B"
+          },
+          "methodological": null,
+          "institutional": null
+        },
+        "researchStatus": "researched",
+        "sourceCandidates": [],
+        "searchTerms": [
+          "Chebyshev approximation",
+          "best uniform approximation"
+        ]
+      },
+      "links": [
+        {
+          "from": "P559",
+          "to": "P205",
+          "kind": "context",
+          "label": "polynomial approximation in numerical methods",
+          "evidence": "https://www.ams.org/bull/2010-47-02/S0273-0979-10-01278-4/S0273-0979-10-01278-4.pdf"
+        }
+      ]
+    },
+    {
+      "catalogue": {
+        "id": "FM4",
+        "src": "MSC2020 gap review (primary archive)",
+        "name": "Clairaut applies hydrostatics to the figure of the Earth",
+        "type": "field-emergence",
+        "from": [
+          "Newtonian gravitation",
+          "hydrostatics",
+          "geodetic measurements"
+        ],
+        "to": [
+          "mathematical geodesy",
+          "geophysics"
+        ],
+        "product": "mathematical geodesy",
+        "dates": [
+          [
+            1743,
+            1743
+          ],
+          null,
+          null
+        ],
+        "datesNote": "The original Paris edition is dated 1743 in the ETH Library archive.",
+        "why": "Clairaut used mathematical hydrostatics and gravitation to study the shape of the rotating Earth.",
+        "works": [
+          "A.-C. Clairaut, Théorie de la figure de la terre (1743), https://www.e-rara.ch/zut/content/titleinfo/448409"
+        ],
+        "basis": "Dated original in a research library or academy archive; linked MSC2020 subject gap.",
+        "audit": true,
+        "y": 1743,
+        "also": []
+      },
+      "record": {
+        "pid": "P560",
+        "eventId": "FM4",
+        "canonicalName": "Clairaut applies hydrostatics to the figure of the Earth",
+        "aliases": [],
+        "phases": [],
+        "milestones": [
+          {
+            "role": "first_statement",
+            "year": 1743,
+            "precision": "year",
+            "label": "Clairaut applies hydrostatics to the figure of the Earth",
+            "work": "A.-C. Clairaut, Théorie de la figure de la terre (1743)",
+            "people": [],
+            "description": "The book treats the Earth’s figure using hydrostatic principles.",
+            "evidence": [
+              {
+                "claim": "Original archive records A.-C. Clairaut, Théorie de la figure de la terre (1743) in 1743",
+                "source": "ETH Library e-rara",
+                "url": "https://www.e-rara.ch/zut/content/titleinfo/448409",
+                "kind": "primary_archive"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "people": [],
+        "notes": "Focused MSC2020 subject-coverage addition. The event date follows the cited public original or archive record.",
+        "derivedDates": {
+          "conceptual": {
+            "start": 1743,
+            "end": 1743,
+            "precision": "year",
+            "milestoneIndices": [
+              0
+            ],
+            "roles": [
+              "first_statement"
+            ],
+            "grade": "B"
+          },
+          "methodological": null,
+          "institutional": null
+        },
+        "researchStatus": "researched",
+        "sourceCandidates": [],
+        "searchTerms": [
+          "Clairaut",
+          "figure of the Earth",
+          "geodesy"
+        ]
+      },
+      "links": [
+        {
+          "from": "P133",
+          "to": "P560",
+          "kind": "context",
+          "label": "Newtonian gravitation and the figure of the Earth",
+          "evidence": "https://www.e-rara.ch/zut/content/titleinfo/448409"
+        },
+        {
+          "from": "P560",
+          "to": "P558",
+          "kind": "context",
+          "label": "hydrostatics and mathematical fluid mechanics",
+          "evidence": "https://www.e-rara.ch/zut/content/titleinfo/448409"
+        }
+      ]
+    },
+    {
+      "catalogue": {
+        "id": "FM5",
+        "src": "MSC2020 gap review (primary archive)",
+        "name": "Navier formulates equations for elastic solids",
+        "type": "field-emergence",
+        "from": [
+          "mechanics",
+          "differential equations",
+          "elastic materials"
+        ],
+        "to": [
+          "elasticity of solids",
+          "solid mechanics"
+        ],
+        "product": "elasticity of solids",
+        "dates": [
+          [
+            1821,
+            1821
+          ],
+          null,
+          null
+        ],
+        "datesNote": "The BnF catalogues a separate print dated 1821, read at the Academy on 14 May 1821; a later collected volume appeared in 1827.",
+        "why": "Navier formulated differential equations for the equilibrium and motion of elastic bodies.",
+        "works": [
+          "C.-L.-M.-H. Navier, Mémoire sur les lois de l’équilibre et du mouvement des corps solides élastiques (1821), https://catalogue.bnf.fr/ark:/12148/cb47506250v"
+        ],
+        "basis": "Dated original in a research library or academy archive; linked MSC2020 subject gap.",
+        "audit": true,
+        "y": 1821,
+        "also": []
+      },
+      "record": {
+        "pid": "P561",
+        "eventId": "FM5",
+        "canonicalName": "Navier formulates equations for elastic solids",
+        "aliases": [],
+        "phases": [],
+        "milestones": [
+          {
+            "role": "first_statement",
+            "year": 1821,
+            "precision": "year",
+            "label": "Navier formulates equations for elastic solids",
+            "work": "C.-L.-M.-H. Navier, Mémoire sur les lois de l’équilibre et du mouvement des corps solides élastiques (1821)",
+            "people": [],
+            "description": "Navier’s memoir treats differential equations for the equilibrium and motion of elastic solids.",
+            "evidence": [
+              {
+                "claim": "Original archive records C.-L.-M.-H. Navier, Mémoire sur les lois de l’équilibre et du mouvement des corps solides élastiques (1821) in 1821",
+                "source": "Bibliothèque nationale de France",
+                "url": "https://catalogue.bnf.fr/ark:/12148/cb47506250v",
+                "kind": "primary_archive"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "role": "consolidation",
+            "year": 1827,
+            "precision": "year",
+            "label": "Elastic-solids memoir appears in Academy volume",
+            "work": "Navier, Mémoires de l’Académie des sciences, tome 7 (1827)",
+            "people": [
+              "Claude-Louis Navier"
+            ],
+            "description": "The 1821 memoir was later included in the Academy’s 1827 volume.",
+            "evidence": [
+              {
+                "claim": "The Academy volume is dated 1827 and contains the elastic-solids memoir",
+                "source": "Academy volume digitization",
+                "url": "https://fr.wikisource.org/wiki/M%C3%A9moires_de_l%E2%80%99Acad%C3%A9mie_des_sciences%2C_Tome_7",
+                "kind": "primary_archive"
+              }
+            ],
+            "confidence": "medium"
+          }
+        ],
+        "people": [],
+        "notes": "Focused MSC2020 subject-coverage addition. The event date follows the cited public original or archive record.",
+        "derivedDates": {
+          "conceptual": {
+            "start": 1821,
+            "end": 1821,
+            "precision": "year",
+            "milestoneIndices": [
+              0
+            ],
+            "roles": [
+              "first_statement"
+            ],
+            "grade": "B"
+          },
+          "methodological": null,
+          "institutional": null
+        },
+        "researchStatus": "researched",
+        "sourceCandidates": [],
+        "searchTerms": [
+          "Navier",
+          "elasticity",
+          "solid mechanics"
+        ]
+      },
+      "links": [
+        {
+          "from": "P133",
+          "to": "P561",
+          "kind": "context",
+          "label": "mechanics extended to deformable solids",
+          "evidence": "https://catalogue.bnf.fr/ark:/12148/cb47506250v"
+        },
+        {
+          "from": "P561",
+          "to": "P205",
+          "kind": "context",
+          "label": "elasticity and structural numerical methods",
+          "evidence": "https://www.ams.org/bull/2010-47-02/S0273-0979-10-01278-4/S0273-0979-10-01278-4.pdf"
+        }
+      ]
+    },
+    {
+      "catalogue": {
+        "id": "FM6",
+        "src": "MSC2020 gap review (primary archive)",
+        "name": "Babbage develops a calculus of functional equations",
+        "type": "field-emergence",
+        "from": [
+          "finite differences",
+          "calculus of functions"
+        ],
+        "to": [
+          "functional equations",
+          "difference equations"
+        ],
+        "product": "functional equations",
+        "dates": [
+          [
+            1815,
+            1815
+          ],
+          null,
+          null
+        ],
+        "datesNote": "The Royal Society records the original paper as read on 15 June 1815 and published in Philosophical Transactions.",
+        "why": "Babbage investigated how to recover unknown functions from equations relating their values, giving functional equations a systematic treatment.",
+        "works": [
+          "C. Babbage, An essay towards the calculus of functions, Philosophical Transactions (1815), https://makingscience.royalsociety.org/items/pt_9_23/paper-an-essay-towards-the-calculus-of-functions-by-c-charles-babbage"
+        ],
+        "basis": "Dated original in a research library or academy archive; linked MSC2020 subject gap.",
+        "audit": true,
+        "y": 1815,
+        "also": []
+      },
+      "record": {
+        "pid": "P562",
+        "eventId": "FM6",
+        "canonicalName": "Babbage develops a calculus of functional equations",
+        "aliases": [],
+        "phases": [],
+        "milestones": [
+          {
+            "role": "first_statement",
+            "year": 1815,
+            "precision": "year",
+            "label": "Babbage develops a calculus of functional equations",
+            "work": "C. Babbage, An essay towards the calculus of functions, Philosophical Transactions (1815)",
+            "people": [],
+            "description": "Babbage studies unknown functions defined by equations relating function values.",
+            "evidence": [
+              {
+                "claim": "Original archive records C. Babbage, An essay towards the calculus of functions, Philosophical Transactions (1815) in 1815",
+                "source": "Royal Society manuscript archive",
+                "url": "https://makingscience.royalsociety.org/items/pt_9_23/paper-an-essay-towards-the-calculus-of-functions-by-c-charles-babbage",
+                "kind": "primary_archive"
+              }
+            ],
+            "confidence": "high"
+          },
+          {
+            "role": "key_development",
+            "year": 1816,
+            "precision": "year",
+            "label": "Second part extends the calculus of functions",
+            "work": "C. Babbage, An essay towards the calculus of functions, Part II, Philosophical Transactions (1816)",
+            "people": [
+              "Charles Babbage"
+            ],
+            "description": "The continuation develops the treatment of functional equations with more than one variable.",
+            "evidence": [
+              {
+                "claim": "Royal Society archive dates and describes Part II and its publication",
+                "source": "Royal Society manuscript archive",
+                "url": "https://makingscience.royalsociety.org/items/pt_10_11/paper-an-essay-towards-the-calculus-of-functions-part-ii-by-c-charles-babbage",
+                "kind": "primary_archive"
+              }
+            ],
+            "confidence": "high"
+          }
+        ],
+        "people": [],
+        "notes": "Focused MSC2020 subject-coverage addition. The event date follows the cited public original or archive record.",
+        "derivedDates": {
+          "conceptual": {
+            "start": 1815,
+            "end": 1815,
+            "precision": "year",
+            "milestoneIndices": [
+              0
+            ],
+            "roles": [
+              "first_statement"
+            ],
+            "grade": "B"
+          },
+          "methodological": null,
+          "institutional": null
+        },
+        "researchStatus": "researched",
+        "sourceCandidates": [],
+        "searchTerms": [
+          "Babbage",
+          "functional equations",
+          "difference equations"
+        ]
+      },
+      "links": [
+        {
+          "from": "P154",
+          "to": "P562",
+          "kind": "context",
+          "label": "finite differences and functional equations",
+          "evidence": "https://makingscience.royalsociety.org/items/pt_9_23/paper-an-essay-towards-the-calculus-of-functions-by-c-charles-babbage"
+        }
+      ]
+    }
+  ]
+}

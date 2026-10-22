@@ -1,0 +1,142 @@
+[
+ {
+  "pid": "P187",
+  "eventId": "MA22",
+  "name": "Jaina permutations and combinations",
+  "type": "birth-by-abstraction",
+  "from": [
+   "Jaina cosmology",
+   "arithmetic"
+  ],
+  "to": [
+   "combinatorics"
+  ],
+  "summary": "Jaina texts treated counting of permutations and combinations alongside multi-level infinities."
+ },
+ {
+  "pid": "P123",
+  "eventId": "WA13/MA16",
+  "name": "Diophantus",
+  "type": "birth-by-abstraction",
+  "from": [
+   "arithmetic"
+  ],
+  "to": [
+   "algebra",
+   "Diophantine equations"
+  ],
+  "summary": "Arithmetica introduced symbols for unknowns and sought rational solutions to polynomial equations."
+ },
+ {
+  "pid": "P156",
+  "eventId": "MA4",
+  "name": "Discovery of incommensurable magnitudes",
+  "type": "birth-by-abstraction",
+  "from": [
+   "arithmetic (ratios of integers)",
+   "geometry"
+  ],
+  "to": [
+   "geometry"
+  ],
+  "summary": "The failure of the hypotenuse of a right isosceles triangle to be a ratio of integers broke the identification of magnitude with number and forced a new foundation for geometry."
+ },
+ {
+  "pid": "P137",
+  "eventId": "MA24/WA17",
+  "name": "Chinese remainder theorem",
+  "type": "import-from-outside",
+  "from": [
+   "calendar astronomy",
+   "arithmetic"
+  ],
+  "to": [
+   "number theory"
+  ],
+  "summary": "A single-remainder puzzle grew into a general method for systems of congruences, including non-coprime moduli, motivated by calendar calculation."
+ },
+ {
+  "pid": "P141",
+  "eventId": "WA20/MA20",
+  "name": "Indian sine",
+  "type": "birth-by-fusion",
+  "from": [
+   "astronomy",
+   "geometry"
+  ],
+  "to": [
+   "trigonometry"
+  ],
+  "summary": "Siddhantic astronomy replaced chords by half-chords, giving the sine; Aryabhata tabulated it."
+ },
+ {
+  "pid": "P111",
+  "eventId": "MA17/WA19",
+  "name": "Indian zero and place value",
+  "type": "birth-by-abstraction",
+  "from": [
+   "counting systems",
+   "astronomy computation"
+  ],
+  "to": [
+   "arithmetic"
+  ],
+  "summary": "Brahmi digits developed into a positional decimal system whose schools around 500-650 CE worked out place value and zero."
+ },
+ {
+  "pid": "P148",
+  "eventId": "MA27",
+  "name": "Interpolation and finite differences from Chinese astronomy",
+  "type": "technique-transfer",
+  "from": [
+   "astronomical computation",
+   "difference sequences"
+  ],
+  "to": [
+   "numerical analysis"
+  ],
+  "summary": "Second- and third-order difference methods in astronomy were later used by Zhu Shijie to sum sequences."
+ },
+ {
+  "pid": "P126",
+  "eventId": "MA19/WA21",
+  "name": "Indian indeterminate/Pell equations",
+  "type": "birth-by-abstraction",
+  "from": [
+   "algebra",
+   "astronomical calendar problems"
+  ],
+  "to": [
+   "number theory"
+  ],
+  "summary": "Integer solutions of equations of the form N x^2 + 1 = y^2 were found by composition and cyclic methods, including the case 61 with a very large minimal solution."
+ },
+ {
+  "pid": "P001",
+  "eventId": "E02",
+  "name": "Algebra as a discipline (al-Khwarizmi)",
+  "type": "birth-by-abstraction",
+  "from": [
+   "Number theory",
+   "Geometry"
+  ],
+  "to": [
+   "Algebra"
+  ],
+  "summary": "Problem-solving with unknowns is organised around a small set of normal-form equations with systematic geometric justification, giving algebra its own objects and rules."
+ },
+ {
+  "pid": "P196",
+  "eventId": "MA30",
+  "name": "Transmission of Hindu-Arabic numerals to the Islamic world",
+  "type": "import-from-outside",
+  "from": [
+   "Indian place-value arithmetic"
+  ],
+  "to": [
+   "Islamic arithmetic",
+   "algorithms"
+  ],
+  "summary": "A treatise on Indian decimal calculation, later translated into Latin, spread the positional system and gave 'algorithm' its name."
+ }
+]

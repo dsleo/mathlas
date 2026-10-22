@@ -1,0 +1,146 @@
+[
+ {
+  "pid": "P013",
+  "eventId": "E18",
+  "name": "Functional analysis",
+  "type": "birth-by-fusion",
+  "from": [
+   "Analysis",
+   "Algebra",
+   "Topology"
+  ],
+  "to": [
+   "Analysis"
+  ],
+  "summary": "Integral equations and the calculus of variations are treated as linear algebra in infinite-dimensional normed spaces with topological structure."
+ },
+ {
+  "pid": "P360",
+  "eventId": "W45/M41",
+  "name": "Volterra functionals",
+  "type": "birth-by-abstraction",
+  "from": [
+   "calculus of variations",
+   "analysis"
+  ],
+  "to": [
+   "functional analysis"
+  ],
+  "summary": "Volterra introduced functionals as functions of functions, and Hadamard named the field in 1910."
+ },
+ {
+  "pid": "P386",
+  "eventId": "W92/M78",
+  "name": "Heaviside operational calculus",
+  "type": "import-from-outside",
+  "from": [
+   "electrical engineering",
+   "differential equations"
+  ],
+  "to": [
+   "analysis"
+  ],
+  "summary": "Heaviside treated differentiation as an algebraic operator to solve telegraph and circuit equations, later justified through Laplace transforms."
+ },
+ {
+  "pid": "P374",
+  "eventId": "M50/W31",
+  "name": "Peano arithmetic axioms",
+  "type": "birth-by-abstraction",
+  "from": [
+   "arithmetic",
+   "set theory",
+   "logic"
+  ],
+  "to": [
+   "foundations"
+  ],
+  "summary": "Dedekind and Peano gave axioms characterizing the natural numbers, Peano in formal logical notation."
+ },
+ {
+  "pid": "P377",
+  "eventId": "W10/M19",
+  "name": "Killing-Cartan classification",
+  "type": "birth-by-abstraction",
+  "from": [
+   "Lie groups",
+   "linear algebra"
+  ],
+  "to": [
+   "structure theory of Lie algebras"
+  ],
+  "summary": "Killing and Cartan decomposed semisimple Lie algebras into simple ones and classified them into four families plus exceptional cases."
+ },
+ {
+  "pid": "P065",
+  "eventId": "E76",
+  "name": "Geometry of numbers (Minkowski)",
+  "type": "technique-transfer",
+  "from": [
+   "Geometry"
+  ],
+  "to": [
+   "Number theory"
+  ],
+  "summary": "Convex bodies and lattices in R^n are used to prove existence of integer points, with consequences for quadratic forms and algebraic number fields."
+ },
+ {
+  "pid": "P012",
+  "eventId": "E17",
+  "name": "Commutative algebra from invariant theory and ideals",
+  "type": "birth-by-abstraction",
+  "from": [
+   "Algebra",
+   "Number theory",
+   "Geometry"
+  ],
+  "to": [
+   "Algebra"
+  ],
+  "summary": "Non-constructive finiteness arguments for invariants and ideals of polynomials replace computation, and rings become the unit of study."
+ },
+ {
+  "pid": "P379",
+  "eventId": "W83/M71",
+  "name": "Italian algebraic geometry",
+  "type": "birth-by-abstraction",
+  "from": [
+   "projective geometry",
+   "Riemann surfaces",
+   "algebraic curves"
+  ],
+  "to": [
+   "algebraic surfaces"
+  ],
+  "summary": "Castelnuovo, Enriques and Severi classified algebraic surfaces up to birational equivalence with geometric methods lacking rigorous foundations."
+ },
+ {
+  "pid": "P368",
+  "eventId": "W51/M35",
+  "name": "Lyapunov stability",
+  "type": "birth-by-abstraction",
+  "from": [
+   "mechanics",
+   "differential equations"
+  ],
+  "to": [
+   "stability theory",
+   "dynamical systems"
+  ],
+  "summary": "Lyapunov gave general criteria for stability of equilibria using auxiliary functions."
+ },
+ {
+  "pid": "P375",
+  "eventId": "M75/W58",
+  "name": "Biometric mathematical statistics",
+  "type": "import-from-outside",
+  "from": [
+   "biology",
+   "probability"
+  ],
+  "to": [
+   "statistics"
+  ],
+  "summary": "Pearson developed correlation and chi-square for biological data and founded Biometrika."
+ }
+]

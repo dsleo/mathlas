@@ -1,0 +1,132 @@
+[
+  {
+    "pid": "P108",
+    "name": "Large deviations from statistical mechanics",
+    "type": "import-from-outside",
+    "from": [
+      "Physics"
+    ],
+    "to": [
+      "Probability"
+    ],
+    "summary": "Variational principles for rare events of Markov processes, modelled on free energy computations, become a general theory of large deviations."
+  },
+  {
+    "pid": "P086",
+    "name": "Hardness versus randomness",
+    "type": "dictionary-analogy",
+    "from": [
+      "Computer science"
+    ],
+    "to": [
+      "Combinatorics",
+      "Computer science"
+    ],
+    "summary": "Explicit combinatorial designs turn a function hard for small circuits into a generator fooling small circuits, linking circuit lower bounds and derandomisation."
+  },
+  {
+    "pid": "P329",
+    "name": "Ergodic theory and Littlewood conjecture",
+    "type": "technique-transfer",
+    "from": [
+      "homogeneous dynamics (measure rigidity)"
+    ],
+    "to": [
+      "Diophantine approximation",
+      "arithmetic quantum chaos"
+    ],
+    "summary": "Measure rigidity of diagonal actions gave partial resolution of Littlewood's conjecture and quantum unique ergodicity for arithmetic surfaces."
+  },
+  {
+    "pid": "P186",
+    "name": "Babylonian quadratic and cubic problem-solving",
+    "type": "birth-by-abstraction",
+    "from": [
+      "geometry (area and volume problems)",
+      "arithmetic"
+    ],
+    "to": [
+      "algebra"
+    ],
+    "summary": "Questions about rectangle areas and excavation volumes were turned into procedures for solving quadratic and some cubic equations, without symbolic notation."
+  },
+  {
+    "pid": "P119",
+    "name": "Archimedes statics",
+    "type": "birth-by-fusion",
+    "from": [
+      "geometry",
+      "mechanics"
+    ],
+    "to": [
+      "mathematical statics"
+    ],
+    "summary": "Archimedes treated equilibrium and floating bodies by geometric proof."
+  },
+  {
+    "pid": "P408",
+    "name": "Abstract rings and fields",
+    "type": "birth-by-abstraction",
+    "from": [
+      "number fields",
+      "polynomial rings",
+      "algebra"
+    ],
+    "to": [
+      "abstract algebra"
+    ],
+    "summary": "Dedekind, Weber, Steinitz and Fraenkel gave axiomatic definitions of fields and rings, culminating in van der Waerden's textbook."
+  },
+  {
+    "pid": "P179",
+    "name": "Arbuthnot: significance testing",
+    "type": "technique-transfer",
+    "from": [
+      "probability"
+    ],
+    "to": [
+      "demography",
+      "statistics"
+    ],
+    "summary": "Arbuthnot used probability to argue birth ratios were not chance."
+  },
+  {
+    "pid": "P021",
+    "name": "Sheaf theory",
+    "type": "birth-by-fusion",
+    "from": [
+      "Topology",
+      "Analysis",
+      "Algebra"
+    ],
+    "to": [
+      "Geometry"
+    ],
+    "summary": "Local-to-global problems from topology and several complex variables are packaged as sheaves with cohomology, then moved into algebraic geometry."
+  },
+  {
+    "pid": "P288",
+    "name": "Iwasawa theory",
+    "type": "dictionary-analogy",
+    "from": [
+      "algebraic number theory",
+      "p-adic analysis"
+    ],
+    "to": [
+      "number theory"
+    ],
+    "summary": "Class groups in infinite towers are studied with module theory over Iwasawa algebras."
+  },
+  {
+    "pid": "P405",
+    "name": "Many-valued logics",
+    "type": "birth-by-abstraction",
+    "from": [
+      "logic"
+    ],
+    "to": [
+      "non-classical logic"
+    ],
+    "summary": "Lukasiewicz and Post independently defined logics with more than two truth values."
+  }
+]

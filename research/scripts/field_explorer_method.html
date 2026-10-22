@@ -1,0 +1,56 @@
+<section id="method" hidden>
+<h2 class="mh">How this was built</h2>
+<p class="lead">An inventory of when and how mathematical fields were born or merged, built in steps. Each step is checked by a different pass, and every date on the map comes from a source you can open. This page tells you what was done, what the numbers are, and what is not claimed.</p>
+
+<div class="mnum">
+ <div><b>{{N}}</b><span>events</span></div><div><b>{{MS}}</b><span>dated milestones</span></div><div><b>{{PEOPLE}}</b><span>people</span></div><div><b>{{EV}}</b><span>linked sources</span></div>
+</div>
+
+<h3>What one entry contains</h3>
+<div class="mcols">
+ <div><h5>Two dates, and a timeline</h5><p>Instead of one "birth date", each event has a list of milestones, which is the main content. One headline date is derived: when the idea was <em>first stated</em> in public. A second, <em>took hold</em>, is the earliest later milestone (a first use, a key result, a name, a textbook or an institution). It is shown as "same period" when it falls under five years after the idea, because for many events the idea and its first use are one paper. A date without a source stays blank, and a fallback is marked "≈".</p></div>
+ <div><h5>Milestone roles</h5><p>Precursor · first statement · first application · key development · consolidation · naming · institution · recognition. The publication year governs, never a talk or a private letter.</p></div>
+ <div><h5>People and works</h5><p>Up to six people with their role, a biography link, and one to three works each, with year and link. A work counts only if a bibliographic record or edition exists.</p></div>
+</div>
+<p class="note">Only reviewed names for the whole entry appear as alternate-name tags. Related terms and spelling variants remain searchable without appearing as tags.</p>
+
+<h3>The pipeline</h3>
+<ol class="steps">
+ <li><b>Seeds and strategy.</b> Two hand-built sets of 77 and 42 events, every citation checked by search. A calibration set, not the target list.</li>
+ <li><b>Discovery channels.</b> Five were designed. History sources and classification counts were built. A detector on zbMATH class-pair counts flagged 54 of about 24,000 pairs and recovered none of the 86 seed events it could be tested on, so it ranks and dates but does not discover.</li>
+ <li><b>History harvests.</b> Three harvests (MacTutor, ICM and prizes, Quanta and expert blogs) proposed 240 candidates. Two independent passes checked each: 141 accepted by both, 32 split, 46 rejected by both, 6 already known. About a third of proposals were not real events.</li>
+ <li><b>How complete is it?</b> For four periods, two blind harvests were compared. 513 events were verified, and an estimated 526 to 741 exist at this granularity. The estimate is probably low, because both harvests retell the same history.</li>
+ <li><b>Merge.</b> Records for the same historical development are shown as one entry with their source IDs and distinct milestones retained. A conjecture and its later proof remain separate, connected entries. Shared source IDs and same-period overlapping titles are checked before each build. The map has {{N}} entries.</li>
+ <li><b>Connect.</b> Reviewed statement-to-proof pairs and distinctive shared ideas get directed links. When an earlier entry explicitly names a field that a later entry lists as an input, a dotted field-context link is added. Reviewed named continuations are also dotted; related developments without a clear direction are dashed. Broad fields receive only selected starting links so the map stays readable. Dotted links indicate shared context, not documented direct influence; entries with no supported link stay visible.</li>
+ <li><b>Group fields for the graph.</b> The catalogue has hundreds of detailed output labels, often with different spelling or capitalization for the same field. A reviewed set of broad map lanes groups them for display while retaining the original labels on each entry.</li>
+ <li><b>Milestones for every event.</b> {{DIRECT}} events were researched and checked directly, one by one. {{SF}} were built <em>source-first</em>: reference pages supplied stages, people and works, followed by bibliographic searches. Some links still lead to search results rather than a specific publication, so those milestones remain unadjudicated.</li>
+ <li><b>Verification.</b> A schema validator (0 errors on all records); a scripted check of 3,708 cited works; a review of 74 year mismatches; a re-research of 186 flagged claims; repair of works that could not be verified; targeted searches for missing naming, textbook and first-statement milestones.</li>
+ <li><b>Independent second pass.</b> A fixed random sample of 40 events was researched again blind, seeing only the name and a short summary, then compared. It shows in the event's drawer.</li>
+ <li><b>Your audit.</b> Mark each entry right, wrong or not sure here. A 56-event sample is ready under "Audit sample".</li>
+</ol>
+
+<h3>Evidence levels and grades</h3>
+<table class="cmp"><tr><th>Level</th><th>Meaning</th></tr>
+<tr><td><span class="tier direct"></span> Checked directly</td><td>{{DIRECT}} events. Milestones read and checked one by one against sources.</td></tr>
+<tr><td><span class="tier source-first"></span> Source-first, unadjudicated</td><td>{{SF}} events. Built from reference pages and bibliographic searches; individual claims and dates still need source review.</td></tr>
+<tr><td><span class="tier"></span> Catalogue only</td><td>Inherited text. Nothing here is shown as a verified date.</td></tr></table>
+<p class="note">Grades on dates: A = an independent pass agrees, B = one bibliographic record, C = a history page only, D = memory only (not shown). No date is graded A yet.</p>
+
+<h3>What the checks found</h3>
+<div class="mcols">
+ <div><h5>Cited works</h5><p>3,708 checked by script: 1,728 matched a record, 74 had a different year. After review, 44 of the 74 were reprints or editions, 7 were book reviews mistaken for the book, 3 were genuine year errors and 20 stayed unresolved.</p></div>
+ <div><h5>Flagged claims</h5><p>186 verdicts: 81 confirmed, 48 corrected, 57 unresolved. A repair pass settled 71 of 131 open items and left 60, each with a note on what was searched.</p></div>
+ <div><h5>Second pass</h5><p>On 40 events the idea date agrees within three years in 30 of 36 cases. The "took hold" date agrees in only 20 of 39, because it depends on what counts as the moment an idea took hold. That is why the idea date is the headline and the rest is shown as a timeline.</p></div>
+</div>
+
+<h3>What is not claimed</h3>
+<ul class="lim">
+ <li>The list holds what standard sources record, at the granularity they use. It is not every possible field event.</li>
+ <li>Wikipedia and MacTutor shape which stories get told. They give history, not proof of priority.</li>
+ <li>A year in a record can be a reprint, translation or review. The method keeps the original year for first statements, but some cases stay open.</li>
+ <li>Before about 1868 zbMATH has little coverage, and ancient and medieval works survive as editions. Many early "firsts" stay unresolved.</li>
+ <li>Language models wrote summaries and extracted claims, limited to sourced evidence. Your audit is the last check.</li>
+ <li>Some people were dropped from an entry because no work of theirs could be verified. They are named in the notes; 25 of 72 were restored.</li>
+</ul>
+<p class="note">Full text: <code>data/collection/FIELD_EMERGENCE_METHOD.md</code> in the repository.</p>
+</section>

@@ -1,0 +1,141 @@
+[
+ {
+  "pid": "P285",
+  "eventId": "MB43",
+  "name": "Global analysis and mathematical economics",
+  "type": "import-from-outside",
+  "from": [
+   "differential topology",
+   "general equilibrium economics"
+  ],
+  "to": [
+   "mathematical economics"
+  ],
+  "summary": "Topological and dynamical methods were applied to equilibrium existence and price adjustment."
+ },
+ {
+  "pid": "P307",
+  "eventId": "WC21/QC69",
+  "name": "Local Langlands for GL_n",
+  "type": "technique-transfer",
+  "from": [
+   "Shimura varieties (global arithmetic geometry)"
+  ],
+  "to": [
+   "representation theory of p-adic groups (local Langlands)"
+  ],
+  "summary": "Harris-Taylor and Henniart proved the local Langlands correspondence for GL_n through the cohomology of Shimura varieties."
+ },
+ {
+  "pid": "P554",
+  "eventId": "Q67",
+  "name": "Universality of rotational invariance at 2D criticality via coupling and integrability",
+  "type": "technique-transfer",
+  "from": [
+   "probabilistic coupling",
+   "integrable systems",
+   "statistical mechanics"
+  ],
+  "to": [
+   "scaling limits of planar critical models"
+  ],
+  "summary": "Rotational invariance at the critical point was proved across a broad class of planar models by coupling lattices with their rotations and using integrability inputs."
+ },
+ {
+  "pid": "P088",
+  "eventId": "B22",
+  "name": "Concentration of measure",
+  "type": "technique-transfer",
+  "from": [
+   "Probability",
+   "Geometry"
+  ],
+  "to": [
+   "Analysis"
+  ],
+  "summary": "Isoperimetric inequalities in high dimension give sharp deviation bounds for Lipschitz functions, used for Banach space geometry and probability in product spaces."
+ },
+ {
+  "pid": "P098",
+  "eventId": "B32",
+  "name": "Fourier integral operators and microlocal analysis",
+  "type": "birth-by-fusion",
+  "from": [
+   "Analysis",
+   "Geometry"
+  ],
+  "to": [
+   "Analysis"
+  ],
+  "summary": "Fourier transforms and symplectic geometry of the cotangent bundle are combined to study singularities of solutions of linear PDE."
+ },
+ {
+  "pid": "P102",
+  "eventId": "B36",
+  "name": "Real-variable methods in complex analysis (Hardy spaces)",
+  "type": "technique-transfer",
+  "from": [
+   "Analysis"
+  ],
+  "to": [
+   "Analysis"
+  ],
+  "summary": "Real-variable characterisations of Hardy spaces and the duality of H^1 and BMO replace complex-variable methods in harmonic analysis."
+ },
+ {
+  "pid": "P222",
+  "eventId": "MB74/WB21",
+  "name": "NP-completeness",
+  "type": "birth-by-abstraction",
+  "from": [
+   "logic",
+   "computer science",
+   "combinatorics"
+  ],
+  "to": [
+   "computational complexity"
+  ],
+  "summary": "Satisfiability was shown universal for NP, with many combinatorial problems reduced to it."
+ },
+ {
+  "pid": "P029",
+  "eventId": "E37",
+  "name": "Random matrix statistics and the zeros of zeta",
+  "type": "dictionary-analogy",
+  "from": [
+   "Physics"
+  ],
+  "to": [
+   "Number theory"
+  ],
+  "summary": "The pair correlation of zeta zeros matches that of eigenvalues of random unitary matrices, suggesting a spectral interpretation of the zeros."
+ },
+ {
+  "pid": "P069",
+  "eventId": "B03",
+  "name": "Higher algebraic K-theory",
+  "type": "technique-transfer",
+  "from": [
+   "Topology"
+  ],
+  "to": [
+   "Algebra"
+  ],
+  "summary": "Homotopy-theoretic constructions (plus construction, classifying spaces) define K-groups of rings in all degrees, importing topology into algebra and number theory."
+ },
+ {
+  "pid": "P218",
+  "eventId": "MB55/WB84",
+  "name": "Catastrophe theory",
+  "type": "import-from-outside",
+  "from": [
+   "singularity theory",
+   "biology",
+   "physics"
+  ],
+  "to": [
+   "catastrophe theory"
+  ],
+  "summary": "Singularity classification was proposed as a model of discontinuous change in morphogenesis."
+ }
+]

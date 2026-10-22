@@ -1,0 +1,2141 @@
+[
+ {
+  "pid": "P255",
+  "eventId": "MB46",
+  "canonicalName": "Algebraic K-theory",
+  "aliases": [
+   "K-theory",
+   "higher algebraic K-theory",
+   "K-groups of rings"
+  ],
+  "phases": [
+   "Grothendieck K_0 and intersection theory",
+   "Bass-Milnor lower K-groups",
+   "Quillen higher K-theory"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Grothendieck K_0 and intersection theory",
+    "year": 1957,
+    "endYear": null,
+    "precision": "year",
+    "label": "Grothendieck's K_0 in intersection theory",
+    "work": "Grothendieck, Classes de faisceaux et theoreme de Riemann-Roch, mimeographed notes, Princeton, 1957",
+    "people": [
+     "Alexander Grothendieck"
+    ],
+    "description": "Grothendieck defines K_0 of varieties in unpublished mimeographed notes, the origin named in later histories.",
+    "evidence": [
+     {
+      "claim": "K-theory takes its name from a 1957 construction of Grothendieck, in unpublished notes",
+      "source": "Wikipedia: Algebraic K-theory",
+      "url": "https://en.wikipedia.org/wiki/Algebraic_K-theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Mimeographed notes are not in a bibliographic database; the 1957 date comes from the Wikipedia citation. Rule 3 makes this a precursor, so it sets no derived date."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1958,
+    "endYear": null,
+    "precision": "year",
+    "label": "Grothendieck-Riemann-Roch published by Borel and Serre",
+    "work": "Borel, Serre, Le theoreme de Riemann-Roch, Bull. Soc. Math. France 86 (1958)",
+    "people": [
+     "Armand Borel",
+     "Jean-Pierre Serre"
+    ],
+    "description": "The published exposition of Grothendieck's theorem, the first purposeful use of K_0 on a target problem (Riemann-Roch).",
+    "evidence": [
+     {
+      "claim": "Borel-Serre paper on Riemann-Roch, Bull SMF 1958, DOI 10.24033/bsmf.1500",
+      "source": "Crossref",
+      "url": "https://doi.org/10.24033/bsmf.1500",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "GRR is the main application of Grothendieck's K_0",
+      "source": "Wikipedia: Algebraic K-theory",
+      "url": "https://en.wikipedia.org/wiki/Algebraic_K-theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Identifies the Borel-Serre paper as the first published exposition; Crossref confirms year and journal. Whether a published application predates it was not checked."
+   },
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 1968,
+    "endYear": null,
+    "precision": "year",
+    "label": "Bass's monograph 'Algebraic K-theory'",
+    "work": "Bass, Algebraic K-theory, W. A. Benjamin, New York, 1968",
+    "people": [
+     "Hyman Bass"
+    ],
+    "description": "A monograph titled with the field's name, the first title found in these records.",
+    "evidence": [
+     {
+      "claim": "Bass, Algebraic K-theory, 1968 (book record)",
+      "source": "Open Library search",
+      "url": "https://openlibrary.org/search.json?q=Algebraic+K-theory+Bass",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Bass' book 'Algebraic K-theory' is cited in the K-theory history",
+      "source": "Wikipedia: Algebraic K-theory",
+      "url": "https://en.wikipedia.org/wiki/Algebraic_K-theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Records show the 1968 title; the phrase may have appeared earlier in talks, which were not checked."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1971,
+    "endYear": null,
+    "precision": "year",
+    "label": "Milnor's Introduction to Algebraic K-theory",
+    "work": "Milnor, Introduction to Algebraic K-Theory, Annals of Mathematics Studies 72, Princeton, 1971",
+    "people": [
+     "John Milnor"
+    ],
+    "description": "A systematic treatment of the lower K-groups (K_0, K_1, K_2), the first textbook-level account.",
+    "evidence": [
+     {
+      "claim": "Milnor's Introduction to Algebraic K-Theory, DOI 10.1515/9781400881796 (Annals Studies 72)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1515/9781400881796",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The Crossref reprint record is dated 1972; the 1971 Princeton year is from the series and was not checked in another record."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1973,
+    "endYear": null,
+    "precision": "year",
+    "label": "Quillen's higher algebraic K-theory",
+    "work": "Quillen, Higher algebraic K-theory: I, Lecture Notes in Math. 341 (1973), 85-147",
+    "people": [
+     "Daniel Quillen"
+    ],
+    "description": "Quillen gives the first public definition of higher K-groups K_i via the Q-construction.",
+    "evidence": [
+     {
+      "claim": "Quillen, Higher algebraic K-theory: I, DOI 10.1007/bfb0067053",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bfb0067053",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Quillen found the higher K-theory construction in 1972 and it was highly successful",
+      "source": "Wikipedia: Algebraic K-theory",
+      "url": "https://en.wikipedia.org/wiki/Algebraic_K-theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Publication year governs (1973), not the 1972 discovery date."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1973,
+    "endYear": null,
+    "precision": "year",
+    "label": "Finite generation of K_i of rings of integers",
+    "work": "Quillen, Finite generation of the groups K_i of rings of algebraic integers, Lecture Notes in Math. 341 (1973)",
+    "people": [
+     "Daniel Quillen"
+    ],
+    "description": "Quillen proves finite generation of higher K-groups for rings of integers, a main theorem showing the theory bites on number theory.",
+    "evidence": [
+     {
+      "claim": "Quillen, Finite generation of the groups K_i..., DOI 10.1007/bfb0067056",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bfb0067056",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same volume as the first_statement; the year is shared but the result is distinct."
+   }
+  ],
+  "people": [
+   {
+    "name": "Alexander Grothendieck",
+    "role": "Introduced K_0 and the Riemann-Roch generalisation",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Classes de faisceaux et theoreme de Riemann-Roch, mimeographed notes, 1957",
+      "year": 1957,
+      "url": "https://en.wikipedia.org/wiki/Algebraic_K-theory",
+      "whyItMatters": "The construction the field is named after; the notes are unpublished."
+     }
+    ]
+   },
+   {
+    "name": "Daniel Quillen",
+    "role": "Created higher algebraic K-theory",
+    "lifespan": "1940-2011",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Quillen/",
+    "works": [
+     {
+      "citation": "Higher algebraic K-theory: I",
+      "year": 1973,
+      "url": "https://doi.org/10.1007/bfb0067053",
+      "whyItMatters": "Definition of higher K-groups via the Q-construction."
+     },
+     {
+      "citation": "Finite generation of the groups K_i of rings of algebraic integers",
+      "year": 1973,
+      "url": "https://doi.org/10.1007/bfb0067056",
+      "whyItMatters": "Finite generation of higher K-groups."
+     }
+    ]
+   },
+   {
+    "name": "Hyman Bass",
+    "role": "Early monograph on algebraic K-theory",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Algebraic K-theory, W. A. Benjamin",
+      "year": 1968,
+      "url": "https://openlibrary.org/search.json?q=Algebraic+K-theory+Bass",
+      "whyItMatters": "First monograph under the field's name."
+     }
+    ]
+   },
+   {
+    "name": "John Milnor",
+    "role": "Lower K-groups and K_2",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Introduction to Algebraic K-Theory, Annals Studies 72",
+      "year": 1971,
+      "url": "https://doi.org/10.1515/9781400881796",
+      "whyItMatters": "Systematic treatment of K_0, K_1 and K_2."
+     }
+    ]
+   }
+  ],
+  "notes": "Derived dates: conceptual 1973 (Quillen), methodological 1958 (Borel-Serre exposition of GRR), institutional 1968 (Bass naming). The Wikipedia summary that Milnor defined K_2(R) in 1967 is a letter-level date and is not used as a milestone. Matsumoto's 1968 thesis (K_2 of fields) and Bass-Murthy 1967 were not verified in a record. Sources searched: Wikipedia wikitext (Algebraic K-theory, Quillen, Gerstenhaber), MacTutor Quillen biography, Crossref, Open Library.",
+  "derivedDates": {
+   "conceptual": 1973,
+   "methodological": 1958,
+   "institutional": 1968
+  }
+ },
+ {
+  "pid": "P478",
+  "eventId": "P31",
+  "canonicalName": "Analysis of algorithms (Knuth)",
+  "aliases": [
+   "analysis of algorithms",
+   "average-case analysis of algorithms",
+   "Knuth's analysis of algorithms"
+  ],
+  "phases": [
+   "Knuth's TAOCP foundation",
+   "Asymptotic and generating-function methods"
+  ],
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1968,
+    "endYear": null,
+    "precision": "year",
+    "label": "The Art of Computer Programming, Volume 1",
+    "work": "Knuth, The Art of Computer Programming, Vol. 1: Fundamental Algorithms, Addison-Wesley, 1968",
+    "people": [
+     "Donald Knuth"
+    ],
+    "description": "The first systematic treatment of program performance and mathematical analysis, which Knuth later names the subject after.",
+    "evidence": [
+     {
+      "claim": "Knuth published the first volume of TAOCP in 1968; its analysis led him to name the subject",
+      "source": "Wikipedia: Donald Knuth",
+      "url": "https://en.wikipedia.org/wiki/Donald_Knuth",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Review of TAOCP Vol. 1 (SIAM Review 1969), DOI 10.1137/1011017",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1137/1011017",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Volume existence is confirmed by a 1969 review; the 1968 date is from the history page. Knuth's own naming dates to around this period, but no naming year is established, so no naming milestone is recorded."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1971,
+    "endYear": null,
+    "precision": "year",
+    "label": "Optimum binary search trees",
+    "work": "Knuth, Optimum binary search trees, Acta Informatica 1 (1971)",
+    "people": [
+     "Donald Knuth"
+    ],
+    "description": "Knuth uses a mathematical analysis of expected search cost to find optimal search-tree structures.",
+    "evidence": [
+     {
+      "claim": "Knuth, Optimum binary search trees, Acta Informatica, DOI 10.1007/bf00264289",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf00264289",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Chosen as a concrete application of analysis of algorithms; the claim that it is the first such application was not checked against earlier analyses."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1976,
+    "endYear": null,
+    "precision": "year",
+    "label": "Asymptotic notation standardised",
+    "work": "Knuth, Big Omicron and big Omega and big Theta, SIGACT News 8(2) (1976)",
+    "people": [
+     "Donald Knuth"
+    ],
+    "description": "Knuth's article standardises the O, Omega and Theta notation used to state algorithmic running times.",
+    "evidence": [
+     {
+      "claim": "Knuth, Big Omicron and big Omega and big Theta, DOI 10.1145/1008328.1008329",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1145/1008328.1008329",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "This is a notational standard rather than a theorem; it is recorded as key_development because it fixed the vocabulary of the field."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2009,
+    "endYear": null,
+    "precision": "year",
+    "label": "Analytic Combinatorics",
+    "work": "Flajolet, Sedgewick, Analytic Combinatorics, Cambridge University Press, 2009",
+    "people": [
+     "Philippe Flajolet",
+     "Robert Sedgewick"
+    ],
+    "description": "A systematic monograph on generating functions and asymptotics for the analysis of algorithms.",
+    "evidence": [
+     {
+      "claim": "Flajolet-Sedgewick, Analytic Combinatorics, DOI 10.1017/cbo9780511801655",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1017/cbo9780511801655",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Later consolidation of the generating-function strand; the earliest consolidation is the 1968 TAOCP record."
+   }
+  ],
+  "people": [
+   {
+    "name": "Donald Knuth",
+    "role": "Named and built the analysis of algorithms",
+    "lifespan": "1938-",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Knuth/",
+    "works": [
+     {
+      "citation": "The Art of Computer Programming, Vol. 1",
+      "year": 1968,
+      "url": "https://en.wikipedia.org/wiki/Donald_Knuth",
+      "whyItMatters": "Systematic foundation and the origin of the subject name."
+     },
+     {
+      "citation": "Optimum binary search trees",
+      "year": 1971,
+      "url": "https://doi.org/10.1007/bf00264289",
+      "whyItMatters": "Early analysis of algorithm cost."
+     },
+     {
+      "citation": "Big Omicron and big Omega and big Theta",
+      "year": 1976,
+      "url": "https://doi.org/10.1145/1008328.1008329",
+      "whyItMatters": "Standard asymptotic notation."
+     }
+    ]
+   },
+   {
+    "name": "Philippe Flajolet",
+    "role": "Developed analytic combinatorics for algorithm analysis",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Analytic Combinatorics",
+      "year": 2009,
+      "url": "https://doi.org/10.1017/cbo9780511801655",
+      "whyItMatters": "Generating-function asymptotics for algorithms."
+     }
+    ]
+   }
+  ],
+  "notes": "Event type is birth-by-fusion, and the record shows Knuth as the central figure. The coinage of 'analysis of algorithms' is dated only loosely in the history (after TAOCP Vol. 1); no year was recorded, so no naming milestone. The conceptual date is null because no first_statement is established. Sources searched: Wikipedia (Analysis of algorithms, Donald Knuth), MacTutor Knuth biography, Crossref.",
+  "derivedDates": {
+   "conceptual": null,
+   "methodological": 1971,
+   "institutional": 1968
+  }
+ },
+ {
+  "pid": "P095",
+  "eventId": "B29",
+  "canonicalName": "Forcing: independence results enter algebra and analysis",
+  "aliases": [
+   "forcing",
+   "Cohen forcing",
+   "independence proofs by forcing"
+  ],
+  "phases": [
+   "Cohen's set-theoretic forcing",
+   "Applications outside set theory"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1940,
+    "endYear": null,
+    "precision": "year",
+    "label": "Godel's consistency of CH",
+    "work": "Godel, The Consistency of the Continuum Hypothesis, Annals of Mathematics Studies 3, Princeton, 1940",
+    "people": [
+     "Kurt Godel"
+    ],
+    "description": "Godel's inner-model proof of the consistency of CH is the background against which Cohen developed forcing.",
+    "evidence": [
+     {
+      "claim": "Godel, Consistency of the Continuum Hypothesis, DOI 10.1515/9781400881635",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1515/9781400881635",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Cohen developed forcing after reading Godel's book on the consistency of CH",
+      "source": "MacTutor: Paul Cohen",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Cohen/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Rule 3 treats this as a precursor, not a first_statement; it sets no derived date."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1963,
+    "endYear": null,
+    "precision": "year",
+    "label": "Cohen proves independence of CH",
+    "work": "Cohen, The independence of the continuum hypothesis, PNAS 50 (1963) 1143-1148",
+    "people": [
+     "Paul Cohen"
+    ],
+    "description": "Cohen's forcing method first establishes the independence of the continuum hypothesis from ZF.",
+    "evidence": [
+     {
+      "claim": "Cohen, The independence of the continuum hypothesis, PNAS, DOI 10.1073/pnas.50.6.1143",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1073/pnas.50.6.1143",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Forcing was first used by Cohen in 1963",
+      "source": "Wikipedia: Forcing (mathematics)",
+      "url": "https://en.wikipedia.org/wiki/Forcing_(mathematics)",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "The name 'forcing' is attributed to this work; the wording in the text was not checked."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1964,
+    "endYear": null,
+    "precision": "year",
+    "label": "Cohen proves independence of AC and CH",
+    "work": "Cohen, The independence of the continuum hypothesis II, PNAS 51 (1964) 105-110",
+    "people": [
+     "Paul Cohen"
+    ],
+    "description": "The second paper extends the method to independence of the axiom of choice and the continuum hypothesis.",
+    "evidence": [
+     {
+      "claim": "Cohen, The independence of the continuum hypothesis II, DOI 10.1073/pnas.51.1.105",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1073/pnas.51.1.105",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Cohen used forcing to prove the independence of AC and CH from ZF",
+      "source": "MacTutor: Paul Cohen",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Cohen/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1966,
+    "endYear": null,
+    "precision": "year",
+    "label": "Cohen's monograph Set Theory and the Continuum Hypothesis",
+    "work": "Cohen, Set Theory and the Continuum Hypothesis, W. A. Benjamin, New York, 1966",
+    "people": [
+     "Paul Cohen"
+    ],
+    "description": "Cohen's book is the first systematic presentation of forcing.",
+    "evidence": [
+     {
+      "claim": "Review in Science gives Benjamin, New York, 1966, DOI 10.1126/science.157.3791.914",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1126/science.157.3791.914",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The record is a 1967 review that gives the 1966 publication; no record of the book itself was retrieved."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1980,
+    "endYear": null,
+    "precision": "year",
+    "label": "Whitehead problem independent by forcing-type methods",
+    "work": "Shelah, Whitehead groups may not be free even assuming CH, II, Israel J. Math. (1980)",
+    "people": [
+     "Saharon Shelah"
+    ],
+    "description": "Shelah applies set-theoretic independence to a problem in abelian group theory, the first algebraic use of the method in this record.",
+    "evidence": [
+     {
+      "claim": "Shelah, Whitehead groups may not be free even assuming CH II, DOI 10.1007/bf02760652",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02760652",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Shelah 1980 is the second paper of the series on the Whitehead problem and CH",
+      "source": "Crossref title record",
+      "url": "https://doi.org/10.1007/bf02760652",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Mechanism (forcing versus a related set-theoretic method) was not checked in the paper text. Shelah 1974 (Israel J. Math., DOI 10.1007/bf02757281) is a candidate earlier algebra application, not evaluated here."
+   }
+  ],
+  "people": [
+   {
+    "name": "Paul Cohen",
+    "role": "Introduced forcing and proved independence of CH and AC",
+    "lifespan": "1934-2007",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Cohen/",
+    "works": [
+     {
+      "citation": "The independence of the continuum hypothesis",
+      "year": 1963,
+      "url": "https://doi.org/10.1073/pnas.50.6.1143",
+      "whyItMatters": "Introduces forcing and proves independence of CH."
+     },
+     {
+      "citation": "The independence of the continuum hypothesis II",
+      "year": 1964,
+      "url": "https://doi.org/10.1073/pnas.51.1.105",
+      "whyItMatters": "Extends independence results to AC."
+     },
+     {
+      "citation": "Set Theory and the Continuum Hypothesis",
+      "year": 1966,
+      "url": "https://doi.org/10.1126/science.157.3791.914",
+      "whyItMatters": "First systematic book on forcing."
+     }
+    ]
+   },
+   {
+    "name": "Kurt Godel",
+    "role": "Consistency of CH (background for forcing)",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "The Consistency of the Continuum Hypothesis",
+      "year": 1940,
+      "url": "https://doi.org/10.1515/9781400881635",
+      "whyItMatters": "Inner-model proof that set the problem Cohen addressed."
+     }
+    ]
+   },
+   {
+    "name": "Saharon Shelah",
+    "role": "Applied set-theoretic independence to algebra",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Whitehead groups may not be free even assuming CH, II",
+      "year": 1980,
+      "url": "https://doi.org/10.1007/bf02760652",
+      "whyItMatters": "Independence result in abelian group theory."
+     }
+    ]
+   }
+  ],
+  "notes": "Derived: conceptual 1963, methodological 1980 (algebra), institutional 1966 (monograph). The name 'forcing' is taken as coined in Cohen's 1963 paper per the Wikipedia summary, not verified in text. Shelah's 1974 Whitehead paper needs a check of its content before any priority claim. Sources searched: Wikipedia (Forcing, Paul Cohen), MacTutor Cohen biography, Crossref.",
+  "derivedDates": {
+   "conceptual": 1963,
+   "methodological": 1980,
+   "institutional": 1966
+  }
+ },
+ {
+  "pid": "P471",
+  "eventId": "P19",
+  "canonicalName": "Lojasiewicz-Simon: real-analytic gradient inequalities control geometric flows",
+  "aliases": [
+   "Lojasiewicz inequality",
+   "Lojasiewicz-Simon gradient inequality",
+   "Simon's gradient inequality"
+  ],
+  "phases": [
+   "Real-analytic inequality",
+   "Gradient inequality for analytic functionals",
+   "Geometric flows"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1959,
+    "endYear": null,
+    "precision": "year",
+    "label": "Lojasiewicz's inequality in the division paper",
+    "work": "Lojasiewicz, Sur le probleme de la division, Studia Math. 18 (1959) 87-136",
+    "people": [
+     "Stanislaw Lojasiewicz"
+    ],
+    "description": "Lojasiewicz proves the inequality bounding the distance to a zero set of a real-analytic function.",
+    "evidence": [
+     {
+      "claim": "Lojasiewicz, Sur le probleme de la division, Studia Math., DOI 10.4064/sm-18-1-87-136",
+      "source": "Crossref",
+      "url": "https://doi.org/10.4064/sm-18-1-87-136",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "The Lojasiewicz inequality is named after Lojasiewicz (distance to zero set bound)",
+      "source": "Wikipedia: Lojasiewicz inequality",
+      "url": "https://en.wikipedia.org/wiki/%C5%81ojasiewicz_inequality",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The Crossref record confirms the 1959 paper; that this paper contains the inequality is the standard citation and was not checked in its text. The 1963 IHES-style note is not used."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1963,
+    "endYear": null,
+    "precision": "year",
+    "label": "Polyak's gradient inequality",
+    "work": "Polyak, Gradient methods for the minimisation of functionals, USSR Comput. Math. Math. Phys. 3(4) (1963) 864-878",
+    "people": [
+     "Boris Polyak"
+    ],
+    "description": "A special case of the Lojasiewicz inequality for minimisation, a precursor in optimisation rather than a priority claim.",
+    "evidence": [
+     {
+      "claim": "Polyak 1963, DOI 10.1016/0041-5553(63)90382-3",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1016/0041-5553(63)90382-3",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "A special case of the Lojasiewicz inequality, due to Polyak",
+      "source": "Wikipedia: Lojasiewicz inequality",
+      "url": "https://en.wikipedia.org/wiki/%C5%81ojasiewicz_inequality",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Precursor only; it sets no derived date."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1983,
+    "endYear": null,
+    "precision": "year",
+    "label": "Simon's asymptotics for geometric evolution equations",
+    "work": "Simon, Asymptotics for a class of nonlinear evolution equations, with applications to geometric problems, Annals of Math. 118 (1983)",
+    "people": [
+     "Leon Simon"
+    ],
+    "description": "Simon adapts the analytic inequality to gradient-like evolution equations, giving convergence for geometric variational problems.",
+    "evidence": [
+     {
+      "claim": "Simon 1983, Annals of Mathematics, DOI 10.2307/2006981",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/2006981",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "The title states the geometric applications; the specific flows covered were not checked in the text."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2003,
+    "endYear": null,
+    "precision": "year",
+    "label": "Abstract gradient inequality for evolution equations",
+    "work": "Chill, On the Lojasiewicz-Simon gradient inequality, J. Funct. Anal. 201 (2003)",
+    "people": [
+     "Ralph Chill"
+    ],
+    "description": "Chill gives an abstract, functional-analytic form of the Lojasiewicz-Simon inequality for gradient-like flows.",
+    "evidence": [
+     {
+      "claim": "Chill 2003, J. Funct. Anal., DOI 10.1016/s0022-1236(02)00102-7",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1016/s0022-1236(02)00102-7",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2019,
+    "endYear": null,
+    "precision": "year",
+    "label": "General Lojasiewicz-Simon theory on Banach spaces",
+    "work": "Feehan, Maridakis, Lojasiewicz-Simon gradient inequalities for analytic and Morse-Bott functions on Banach spaces, J. reine angew. Math. (2019)",
+    "people": [
+     "Paul Feehan",
+     "Manousos Maridakis"
+    ],
+    "description": "A general, systematic treatment of the inequality on Banach spaces, covering analytic and Morse-Bott functions.",
+    "evidence": [
+     {
+      "claim": "Feehan-Maridakis 2019, Crelle, DOI 10.1515/crelle-2019-0029",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1515/crelle-2019-0029",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "A research paper rather than a textbook; recorded as consolidation for the general theory."
+   }
+  ],
+  "people": [
+   {
+    "name": "Stanislaw Lojasiewicz",
+    "role": "Stated the real-analytic gradient-type inequality",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/%C5%81ojasiewicz_inequality",
+    "works": [
+     {
+      "citation": "Sur le probleme de la division",
+      "year": 1959,
+      "url": "https://doi.org/10.4064/sm-18-1-87-136",
+      "whyItMatters": "Origin of the inequality (standard citation)."
+     }
+    ]
+   },
+   {
+    "name": "Leon Simon",
+    "role": "Applied the inequality to geometric evolution equations",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Asymptotics for a class of nonlinear evolution equations...",
+      "year": 1983,
+      "url": "https://doi.org/10.2307/2006981",
+      "whyItMatters": "Geometric convergence results via analytic gradient inequality."
+     }
+    ]
+   },
+   {
+    "name": "Boris Polyak",
+    "role": "Gradient-type inequality in optimisation",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Gradient methods for the minimisation of functionals",
+      "year": 1963,
+      "url": "https://doi.org/10.1016/0041-5553(63)90382-3",
+      "whyItMatters": "Special case of the inequality."
+     }
+    ]
+   },
+   {
+    "name": "Ralph Chill",
+    "role": "Abstract form of the inequality",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "On the Lojasiewicz-Simon gradient inequality",
+      "year": 2003,
+      "url": "https://doi.org/10.1016/s0022-1236(02)00102-7",
+      "whyItMatters": "Functional-analytic framework."
+     }
+    ]
+   },
+   {
+    "name": "Paul Feehan",
+    "role": "General Banach-space theory",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Lojasiewicz-Simon gradient inequalities for analytic and Morse-Bott functions on Banach spaces (with M. Maridakis)",
+      "year": 2019,
+      "url": "https://doi.org/10.1515/crelle-2019-0029",
+      "whyItMatters": "General theory of the inequality."
+     }
+    ]
+   }
+  ],
+  "notes": "The Colding-Minicozzi mean curvature flow work (Generic mean curvature flow I, Annals 2012, DOI 10.4007/annals.2012.175.2.7) is a candidate for the flow application, but its use of the inequality was not checked, so it is not a milestone. The 'Uniqueness of blowups' DOI guessed for that line did not resolve to the right paper and was discarded. Derived: conceptual 1959, methodological 1983, institutional 2019 (consolidation). Sources searched: Wikipedia (Lojasiewicz inequality), Crossref.",
+  "derivedDates": {
+   "conceptual": 1959,
+   "methodological": 1983,
+   "institutional": 2019
+  }
+ },
+ {
+  "pid": "P484",
+  "eventId": "P39",
+  "canonicalName": "Deformation theory of rings and algebras (Gerstenhaber)",
+  "aliases": [
+   "deformation theory of algebras",
+   "Gerstenhaber deformations",
+   "Hochschild cohomology deformations"
+  ],
+  "phases": [
+   "Complex-structure deformations",
+   "Hochschild cohomology of algebras",
+   "Deformations of rings and algebras"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1945,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hochschild cohomology of associative algebras",
+    "work": "Hochschild, On the cohomology groups of an associative algebra, Annals of Math. 46 (1945)",
+    "people": [
+     "Gerhard Hochschild"
+    ],
+    "description": "Hochschild defines the cohomology of associative algebras that later classifies infinitesimal deformations.",
+    "evidence": [
+     {
+      "claim": "Hochschild 1945, Annals, DOI 10.2307/1969145",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1969145",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Precursor; the cohomology is later used for deformations."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1958,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kodaira-Spencer deformations of complex structures",
+    "work": "Kodaira, Spencer, On deformations of complex analytic structures I, Annals of Math. 67 (1958)",
+    "people": [
+     "Kunihiko Kodaira",
+     "Donald Spencer"
+    ],
+    "description": "The deformation theory of complex structures, the model that Gerstenhaber transfers to algebras.",
+    "evidence": [
+     {
+      "claim": "Kodaira-Spencer I, Annals 1958, DOI 10.2307/1970009",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1970009",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Kodaira-Spencer deformation theory of complex structures is the model for algebra deformations",
+      "source": "Crossref title record (complex structures)",
+      "url": "https://doi.org/10.2307/1970009",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Precursor from complex geometry."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1963,
+    "endYear": null,
+    "precision": "year",
+    "label": "Gerstenhaber's cohomology structure",
+    "work": "Gerstenhaber, The cohomology structure of an associative ring, Annals of Math. 78 (1963)",
+    "people": [
+     "Murray Gerstenhaber"
+    ],
+    "description": "Gerstenhaber shows that Hochschild cohomology carries a rich algebraic structure (the bracket), which the deformation theory uses.",
+    "evidence": [
+     {
+      "claim": "Gerstenhaber 1963, Annals, DOI 10.2307/1970343",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1970343",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1964,
+    "endYear": null,
+    "precision": "year",
+    "label": "Deformations of rings and algebras defined",
+    "work": "Gerstenhaber, On the deformation of rings and algebras, Annals of Math. 79 (1964)",
+    "people": [
+     "Murray Gerstenhaber"
+    ],
+    "description": "The first public statement of deformations of associative algebras classified by Hochschild cohomology.",
+    "evidence": [
+     {
+      "claim": "Gerstenhaber 1964, Annals, DOI 10.2307/1970484",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1970484",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1964,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hochschild cohomology classifies infinitesimal deformations",
+    "work": "Gerstenhaber 1964 (as above)",
+    "people": [
+     "Murray Gerstenhaber"
+    ],
+    "description": "The same 1964 paper first applies Hochschild cohomology to classify deformations, the target problem.",
+    "evidence": [
+     {
+      "claim": "Gerstenhaber 1964, Annals, DOI 10.2307/1970484",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1970484",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Same paper as the first_statement; recorded under both roles because it truly plays both (rule 2)."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1968,
+    "endYear": null,
+    "precision": "year",
+    "label": "Deformations of rings and algebras III",
+    "work": "Gerstenhaber, On the deformation of rings and algebras: III, Annals of Math. 88 (1968)",
+    "people": [
+     "Murray Gerstenhaber"
+    ],
+    "description": "A continuation of the series that extends the deformation theory.",
+    "evidence": [
+     {
+      "claim": "Gerstenhaber III, Annals 1968, DOI 10.2307/1970553",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1970553",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Content of part III was not read; recorded only as a continuation in the series."
+   }
+  ],
+  "people": [
+   {
+    "name": "Murray Gerstenhaber",
+    "role": "Created the deformation theory of algebras",
+    "lifespan": "1927-2024",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Murray_Gerstenhaber",
+    "works": [
+     {
+      "citation": "On the deformation of rings and algebras",
+      "year": 1964,
+      "url": "https://doi.org/10.2307/1970484",
+      "whyItMatters": "The founding statement of the theory."
+     },
+     {
+      "citation": "The cohomology structure of an associative ring",
+      "year": 1963,
+      "url": "https://doi.org/10.2307/1970343",
+      "whyItMatters": "Algebraic structure behind the deformation theory."
+     }
+    ]
+   },
+   {
+    "name": "Gerhard Hochschild",
+    "role": "Hochschild cohomology of algebras",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "On the cohomology groups of an associative algebra",
+      "year": 1945,
+      "url": "https://doi.org/10.2307/1969145",
+      "whyItMatters": "Cohomology that classifies deformations."
+     }
+    ]
+   },
+   {
+    "name": "Kunihiko Kodaira",
+    "role": "Deformations of complex structures",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "On deformations of complex analytic structures I",
+      "year": 1958,
+      "url": "https://doi.org/10.2307/1970009",
+      "whyItMatters": "Model theory of deformations."
+     }
+    ]
+   },
+   {
+    "name": "Donald Spencer",
+    "role": "Deformations of complex structures",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "On deformations of complex analytic structures I (with K. Kodaira)",
+      "year": 1958,
+      "url": "https://doi.org/10.2307/1970009",
+      "whyItMatters": "Model theory of deformations."
+     }
+    ]
+   }
+  ],
+  "notes": "No consolidation (monograph) record was retrieved for the algebra deformation theory, so the institutional date is null. Gerstenhaber's 1964 paper plays both first_statement and first_application (note given). Sources searched: Wikipedia (Murray Gerstenhaber), Crossref. The Wikipedia 'Deformation theory' page did not return text in this session.",
+  "derivedDates": {
+   "conceptual": 1964,
+   "methodological": 1964,
+   "institutional": null
+  }
+ },
+ {
+  "pid": "P221",
+  "eventId": "MB73/WB20",
+  "canonicalName": "Computational complexity",
+  "aliases": [
+   "complexity theory",
+   "computational complexity theory",
+   "resource-bounded computation"
+  ],
+  "phases": [
+   "Resource-bounded hierarchies",
+   "Polynomial time and NP",
+   "NP-completeness"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1965,
+    "endYear": null,
+    "precision": "year",
+    "label": "Cobham's polynomial-time thesis",
+    "work": "Cobham, The intrinsic computational difficulty of functions, Proc. 1964 Logic, Methodology and Philosophy of Science congress (1965)",
+    "people": [
+     "Alan Cobham"
+    ],
+    "description": "Cobham argues that feasible computation corresponds to polynomial-time algorithms.",
+    "evidence": [
+     {
+      "claim": "Cobham's thesis that feasibility corresponds to polynomial time",
+      "source": "Wikipedia: Computational complexity theory",
+      "url": "https://en.wikipedia.org/wiki/Computational_complexity_theory",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Review of Cobham's paper, JSL 1970, DOI 10.2307/2270886",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/2270886",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The 1965 year comes from the standard citation of the congress proceedings; the proceedings record was not retrieved."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1965,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hartmanis-Stearns time-complexity hierarchy",
+    "work": "Hartmanis, Stearns, On the computational complexity of algorithms, Trans. AMS 117 (1965) 285-306",
+    "people": [
+     "Juris Hartmanis",
+     "Richard Stearns"
+    ],
+    "description": "Hartmanis and Stearns classify algorithms by time-bounded computation and prove hierarchy results.",
+    "evidence": [
+     {
+      "claim": "Hartmanis-Stearns 1965, Trans. AMS, DOI 10.1090/s0002-9947-1965-0170805-7",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/s0002-9947-1965-0170805-7",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper plays first_statement and naming (its title uses the field name); both roles are recorded (rule 2)."
+   },
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 1965,
+    "endYear": null,
+    "precision": "year",
+    "label": "'Computational complexity' in a title",
+    "work": "Hartmanis, Stearns (1965) (as above)",
+    "people": [
+     "Juris Hartmanis",
+     "Richard Stearns"
+    ],
+    "description": "The field's name appears in the title of the Hartmanis-Stearns paper.",
+    "evidence": [
+     {
+      "claim": "Title 'On the computational complexity of algorithms', Trans. AMS 1965",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/s0002-9947-1965-0170805-7",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same work as the previous milestone; recorded under naming because the title is the first use found."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1967,
+    "endYear": null,
+    "precision": "year",
+    "label": "Axiomatic complexity measures",
+    "work": "Blum, A machine-independent theory of the complexity of recursive functions, J. ACM 14 (1967)",
+    "people": [
+     "Manuel Blum"
+    ],
+    "description": "Blum gives a machine-independent axiomatic framework for computational complexity measures.",
+    "evidence": [
+     {
+      "claim": "Blum 1967, J. ACM, DOI 10.1145/321386.321395",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1145/321386.321395",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1971,
+    "endYear": null,
+    "precision": "year",
+    "label": "NP-completeness of theorem proving",
+    "work": "Cook, The complexity of theorem-proving procedures, STOC 1971",
+    "people": [
+     "Stephen Cook"
+    ],
+    "description": "Cook shows that satisfiability is NP-complete, the central result that made complexity classes matter.",
+    "evidence": [
+     {
+      "claim": "Cook 1971, STOC, DOI 10.1145/800157.805047",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1145/800157.805047",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1972,
+    "endYear": null,
+    "precision": "year",
+    "label": "Reducibility among combinatorial problems",
+    "work": "Karp, Reducibility among combinatorial problems, in Complexity of Computer Computations (1972)",
+    "people": [
+     "Richard Karp"
+    ],
+    "description": "Karp shows that many combinatorial problems are NP-complete via polynomial-time reductions from Cook's result.",
+    "evidence": [
+     {
+      "claim": "Karp 1972, DOI 10.1007/978-1-4684-2001-2_9",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-1-4684-2001-2_9",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Alan Cobham",
+    "role": "Polynomial-time feasibility thesis",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "The intrinsic computational difficulty of functions",
+      "year": 1965,
+      "url": "https://doi.org/10.2307/2270886",
+      "whyItMatters": "The polynomial-time thesis (review record used)."
+     }
+    ]
+   },
+   {
+    "name": "Juris Hartmanis",
+    "role": "Founded time-complexity classes",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "On the computational complexity of algorithms",
+      "year": 1965,
+      "url": "https://doi.org/10.1090/s0002-9947-1965-0170805-7",
+      "whyItMatters": "Hierarchy and naming."
+     }
+    ]
+   },
+   {
+    "name": "Manuel Blum",
+    "role": "Axiomatic complexity measures",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "A machine-independent theory of the complexity of recursive functions",
+      "year": 1967,
+      "url": "https://doi.org/10.1145/321386.321395",
+      "whyItMatters": "Machine-independent framework."
+     }
+    ]
+   },
+   {
+    "name": "Stephen Cook",
+    "role": "NP-completeness",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "The complexity of theorem-proving procedures",
+      "year": 1971,
+      "url": "https://doi.org/10.1145/800157.805047",
+      "whyItMatters": "Cook's theorem."
+     }
+    ]
+   },
+   {
+    "name": "Richard Karp",
+    "role": "NP-completeness of combinatorial problems",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Reducibility among combinatorial problems",
+      "year": 1972,
+      "url": "https://doi.org/10.1007/978-1-4684-2001-2_9",
+      "whyItMatters": "Reductions from SAT."
+     }
+    ]
+   }
+  ],
+  "notes": "No consolidation (textbook) record was retrieved, so the institutional date comes from the 1965 naming. No methodological date: a first_application was not established. Turing-era precursors (computability) were not milestoned, because no source in this batch gave a date for them. Sources searched: Wikipedia (Computational complexity theory, Analysis of algorithms), Crossref. The 1965 proceedings year for Cobham is unverified.",
+  "derivedDates": {
+   "conceptual": 1965,
+   "methodological": null,
+   "institutional": 1965
+  }
+ },
+ {
+  "pid": "P241",
+  "eventId": "MB121",
+  "canonicalName": "Rota combinatorial theory",
+  "aliases": [
+   "Rota's Mobius function theory",
+   "Mobius inversion on posets",
+   "algebraic combinatorics (Rota)"
+  ],
+  "phases": [
+   "Mobius functions on posets",
+   "Binomial posets and enumeration"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1936,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hall's Mobius function for groups",
+    "work": "Hall, The Eulerian functions of a group, Quart. J. Math. 7 (1936) 134-151",
+    "people": [
+     "Philip Hall"
+    ],
+    "description": "Hall's Eulerian functions on the subgroup lattice are an early Mobius-type inversion, the background to Rota's unification.",
+    "evidence": [
+     {
+      "claim": "Hall 1936, Quart. J. Math., DOI 10.1093/qmath/os-7.1.134",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1093/qmath/os-7.1.134",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Identified as a precursor from the record title and venue; the statement that Rota builds on it was not checked in text."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1964,
+    "endYear": null,
+    "precision": "year",
+    "label": "Rota's Mobius functions of posets",
+    "work": "Rota, On the foundations of combinatorial theory I. Theory of Mobius functions, Z. Wahrscheinlichkeitstheorie verw. Geb. 2 (1964) 340-368",
+    "people": [
+     "Gian-Carlo Rota"
+    ],
+    "description": "Rota defines Mobius functions on partially ordered sets and unifies inversion across combinatorics.",
+    "evidence": [
+     {
+      "claim": "Rota 1964, DOI 10.1007/bf00531932",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf00531932",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Rota founded combinatorial theory on Mobius functions (Foundations I)",
+      "source": "Wikipedia: Gian-Carlo Rota",
+      "url": "https://en.wikipedia.org/wiki/Gian-Carlo_Rota",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1976,
+    "endYear": null,
+    "precision": "year",
+    "label": "Binomial posets and permutation enumeration",
+    "work": "Stanley, Binomial posets, Mobius inversion, and permutation enumeration, JCTA 20 (1976)",
+    "people": [
+     "Richard Stanley"
+    ],
+    "description": "Stanley extends Rota's Mobius framework to binomial posets, a main development for enumeration.",
+    "evidence": [
+     {
+      "claim": "Stanley 1976, J. Combin. Theory Ser. A, DOI 10.1016/0097-3165(76)90028-5",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1016/0097-3165(76)90028-5",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1979,
+    "endYear": null,
+    "precision": "year",
+    "label": "Aigner's Combinatorial Theory",
+    "work": "Aigner, Combinatorial Theory, Grundlehren der math. Wissenschaften 234, Springer (1979)",
+    "people": [
+     "Martin Aigner"
+    ],
+    "description": "A systematic monograph treating Mobius inversion and order-theoretic combinatorics.",
+    "evidence": [
+     {
+      "claim": "Aigner 1979, Springer, DOI 10.1007/978-1-4615-6666-3",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-1-4615-6666-3",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Crossref gives 1979 for the monograph record; its scope is the systematic treatment, not the origin."
+   }
+  ],
+  "people": [
+   {
+    "name": "Gian-Carlo Rota",
+    "role": "Founded the Mobius-function approach",
+    "lifespan": "1932-1999",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Gian-Carlo_Rota",
+    "works": [
+     {
+      "citation": "On the foundations of combinatorial theory I. Theory of Mobius functions",
+      "year": 1964,
+      "url": "https://doi.org/10.1007/bf00531932",
+      "whyItMatters": "Foundational statement of the theory."
+     }
+    ]
+   },
+   {
+    "name": "Philip Hall",
+    "role": "Eulerian functions of a group",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "The Eulerian functions of a group",
+      "year": 1936,
+      "url": "https://doi.org/10.1093/qmath/os-7.1.134",
+      "whyItMatters": "Mobius-type inversion precursor."
+     }
+    ]
+   },
+   {
+    "name": "Richard Stanley",
+    "role": "Binomial posets",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Binomial posets, Mobius inversion, and permutation enumeration",
+      "year": 1976,
+      "url": "https://doi.org/10.1016/0097-3165(76)90028-5",
+      "whyItMatters": "Extension to binomial posets."
+     }
+    ]
+   },
+   {
+    "name": "Martin Aigner",
+    "role": "Systematic monograph",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Combinatorial Theory",
+      "year": 1979,
+      "url": "https://doi.org/10.1007/978-1-4615-6666-3",
+      "whyItMatters": "Consolidation of order-theoretic combinatorics."
+     }
+    ]
+   }
+  ],
+  "notes": "No naming milestone: the phrase 'algebraic combinatorics' was not dated in the sources searched. Rota's 1964 paper is the first_statement; no first_application was established, so methodological is null. Sources searched: Wikipedia (Gian-Carlo Rota, Incidence algebra fetched but not used for dates), Crossref.",
+  "derivedDates": {
+   "conceptual": 1964,
+   "methodological": null,
+   "institutional": 1979
+  }
+ },
+ {
+  "pid": "P253",
+  "eventId": "WB86",
+  "canonicalName": "Computer algebra and Groebner bases",
+  "aliases": [
+   "Groebner bases",
+   "Buchberger's algorithm",
+   "computer algebra"
+  ],
+  "phases": [
+   "Standard bases",
+   "Buchberger's algorithm",
+   "Computer algebra systems",
+   "Efficient Groebner algorithms"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1964,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hironaka's standard bases for power series",
+    "work": "Hironaka, standard bases for power series (1964)",
+    "people": [
+     "Heisuke Hironaka"
+    ],
+    "description": "Hironaka introduces standard bases for power series ideals, an analogous concept developed independently.",
+    "evidence": [
+     {
+      "claim": "Hironaka developed an analogous concept for power series in 1964, naming them standard bases",
+      "source": "Wikipedia: Groebner basis",
+      "url": "https://en.wikipedia.org/wiki/Gr%C3%B6bner_basis",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "No bibliographic record was retrieved (Crossref found only unrelated items), so the year rests on the Wikipedia statement. Precursor only."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1970,
+    "endYear": null,
+    "precision": "year",
+    "label": "Buchberger's algorithmic criterion",
+    "work": "Buchberger, Ein algorithmisches Kriterium fur die Losbarkeit eines algebraischen Gleichungssystems, Aequationes Math. 4 (1970)",
+    "people": [
+     "Bruno Buchberger"
+    ],
+    "description": "Buchberger publishes the algorithm for Groebner bases, the first public statement in a bibliographic record.",
+    "evidence": [
+     {
+      "claim": "Buchberger 1970, Aequationes Math., DOI 10.1007/bf01844169",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01844169",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Groebner bases were introduced by Buchberger in his 1965 PhD thesis, which included the algorithm",
+      "source": "Wikipedia: Groebner basis",
+      "url": "https://en.wikipedia.org/wiki/Gr%C3%B6bner_basis",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Wikipedia dates the introduction to the 1965 thesis; the thesis has no bibliographic record in this session, so the 1970 publication governs (rule 4). A second Crossref record (10.1007/bf01817776) has the same title and year and was not resolved."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1971,
+    "endYear": null,
+    "precision": "year",
+    "label": "MACSYMA as a general computer algebra system",
+    "work": "Martin, Fateman, The MACSYMA system, Proc. Second ACM Symposium on Symbolic and Algebraic Manipulation (1971)",
+    "people": [
+     "William Martin",
+     "Richard Fateman"
+    ],
+    "description": "MACSYMA is the first general-purpose computer algebra system, the tool that puts symbolic polynomial manipulation on a computer.",
+    "evidence": [
+     {
+      "claim": "The MACSYMA system, 1971, DOI 10.1145/800204.806267",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1145/800204.806267",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MACSYMA was announced at the SIGSAM symposium in 1971 as the first general-purpose computer algebra system",
+      "source": "Wikipedia: Computer algebra",
+      "url": "https://en.wikipedia.org/wiki/Computer_algebra",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "This is a general computer algebra milestone, not a Groebner-specific first application; recorded because it is the first tool application in the event's scope."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1999,
+    "endYear": null,
+    "precision": "year",
+    "label": "F4 algorithm for Groebner bases",
+    "work": "Faugere, A new efficient algorithm for computing Groebner bases (F4), J. Pure Appl. Algebra 139 (1999)",
+    "people": [
+     "Jean-Charles Faugere"
+    ],
+    "description": "F4 uses linear algebra on matrices for Groebner computation and is much faster than Buchberger's algorithm.",
+    "evidence": [
+     {
+      "claim": "Faugere 1999, JPAA, DOI 10.1016/s0022-4049(99)00005-5",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1016/s0022-4049(99)00005-5",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "When F4 is available it is generally much more efficient than Buchberger's algorithm",
+      "source": "Wikipedia: Groebner basis",
+      "url": "https://en.wikipedia.org/wiki/Gr%C3%B6bner_basis",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "institution",
+    "phase": null,
+    "year": 1985,
+    "endYear": null,
+    "precision": "year",
+    "label": "Journal of Symbolic Computation founded",
+    "work": "Journal of Symbolic Computation, founded 1985 by Bruno Buchberger",
+    "people": [
+     "Bruno Buchberger"
+    ],
+    "description": "The journal founded in 1985 gives the field a venue, the institutional marker for computer algebra.",
+    "evidence": [
+     {
+      "claim": "The Journal of Symbolic Computation was founded in 1985 by Buchberger",
+      "source": "Wikipedia: Computer algebra",
+      "url": "https://en.wikipedia.org/wiki/Computer_algebra",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Journal founding year is from Wikipedia; the journal's own record was not checked."
+   }
+  ],
+  "people": [
+   {
+    "name": "Bruno Buchberger",
+    "role": "Introduced Groebner bases and the algorithm",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Ein algorithmisches Kriterium fur die Losbarkeit eines algebraischen Gleichungssystems",
+      "year": 1970,
+      "url": "https://doi.org/10.1007/bf01844169",
+      "whyItMatters": "Buchberger's algorithm in print."
+     }
+    ]
+   },
+   {
+    "name": "Heisuke Hironaka",
+    "role": "Standard bases for power series",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Standard bases (power series, 1964)",
+      "year": 1964,
+      "url": "https://en.wikipedia.org/wiki/Gr%C3%B6bner_basis",
+      "whyItMatters": "Analogue for power series; record not retrieved."
+     }
+    ]
+   },
+   {
+    "name": "Jean-Charles Faugere",
+    "role": "F4 algorithm",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "A new efficient algorithm for computing Groebner bases (F4)",
+      "year": 1999,
+      "url": "https://doi.org/10.1016/s0022-4049(99)00005-5",
+      "whyItMatters": "Efficient Groebner computation."
+     }
+    ]
+   },
+   {
+    "name": "Richard Fateman",
+    "role": "MACSYMA",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "The MACSYMA system (with W. Martin)",
+      "year": 1971,
+      "url": "https://doi.org/10.1145/800204.806267",
+      "whyItMatters": "Early general computer algebra system."
+     }
+    ]
+   }
+  ],
+  "notes": "The naming date for the term 'Groebner basis' (after Wolfgang Groebner) was not established in the sources searched, so no naming milestone. Derived: conceptual 1970, methodological 1971 (MACSYMA, a general CAS rather than a Groebner application), institutional 1985 (journal). Sources searched: Wikipedia (Groebner basis, Computer algebra), Crossref.",
+  "derivedDates": {
+   "conceptual": 1970,
+   "methodological": 1971,
+   "institutional": 1985
+  }
+ },
+ {
+  "pid": "P424",
+  "eventId": "H8",
+  "canonicalName": "Golod-Shafarevich: nil algebras produce infinite periodic groups",
+  "aliases": [
+   "Golod-Shafarevich theorem",
+   "general Burnside problem counterexample",
+   "nil algebra construction"
+  ],
+  "phases": [
+   "Class field towers",
+   "Nil algebras and the Burnside problem",
+   "Bounded Burnside and Adian-Novikov"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1964,
+    "endYear": null,
+    "precision": "year",
+    "label": "Golod-Shafarevich class field tower theorem",
+    "work": "Golod, Shafarevich, On the class field tower, Izv. Akad. Nauk SSSR 28 (1964)",
+    "people": [
+     "Evgeny Golod",
+     "Igor Shafarevich"
+    ],
+    "description": "The Golod-Shafarevich theorem that some class field towers are infinite, from which the group construction proceeds.",
+    "evidence": [
+     {
+      "claim": "Golod and Shafarevich proved the theorem named after them in 1964",
+      "source": "Wikipedia: Golod-Shafarevich theorem",
+      "url": "https://en.wikipedia.org/wiki/Golod%E2%80%93Shafarevich_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The 1964 date is from the Wikipedia statement; the Izvestiya record was not retrieved in Crossref."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1964,
+    "endYear": null,
+    "precision": "year",
+    "label": "Infinite periodic group answers the general Burnside problem",
+    "work": "Golod, On nil-algebras and finitely approximable p-groups, AMS Transl. (2) 48 (1965); Izv. 28 (1964) 273-276",
+    "people": [
+     "Evgeny Golod"
+    ],
+    "description": "Golod's nil-algebra construction gives an infinite, finitely generated periodic group, a negative answer to the general Burnside problem.",
+    "evidence": [
+     {
+      "claim": "Golod 1965 translation, DOI 10.1090/trans2/048/06",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/trans2/048/06",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Golod and Shafarevich provided a counter-example to the general Burnside problem, an infinite finitely generated periodic group, in 1964",
+      "source": "MacTutor: A history of the Burnside problem",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Burnside_problem/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "The Russian title per MacTutor is 'On nil algebras and finitely residual groups' (Izv. 28, 1964, pp. 273-276); the translation record uses the other title. Same paper."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1968,
+    "endYear": null,
+    "precision": "year",
+    "label": "Adian-Novikov infinite periodic groups",
+    "work": "Adian, Novikov, On infinite periodic groups I-III, Izv. Akad. Nauk SSSR 32 (1968)",
+    "people": [
+     "Sergei Adian",
+     "Pyotr Novikov"
+    ],
+    "description": "Adian and Novikov show that B(m,n) is infinite for odd n above a large bound, developing the bounded Burnside problem.",
+    "evidence": [
+     {
+      "claim": "Adian-Novikov 1968 infinite periodic groups, with B(m,n) infinite for odd n >= 4381",
+      "source": "MacTutor: A history of the Burnside problem",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Burnside_problem/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Bounded-exponent result from the history page; the Izvestiya record was not retrieved in Crossref."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1979,
+    "endYear": null,
+    "precision": "year",
+    "label": "Adian's monograph on the Burnside problem",
+    "work": "Adian, The Burnside Problem and Identities in Groups, Springer (1979; Russian original 1975)",
+    "people": [
+     "Sergei Adian"
+    ],
+    "description": "Adian's monograph collects the Burnside-problem results, the first systematic treatment in the event's record.",
+    "evidence": [
+     {
+      "claim": "Adian, The Burnside Problem and Identities in Groups, DOI 10.1007/978-3-642-66932-3",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-3-642-66932-3",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Adian's Burnside monograph (Moscow, 1975) cited in MacTutor",
+      "source": "MacTutor: A history of the Burnside problem",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Burnside_problem/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "English record dated 1979; Russian 1975 from MacTutor."
+   }
+  ],
+  "people": [
+   {
+    "name": "Evgeny Golod",
+    "role": "Nil-algebra construction and Golod-Shafarevich",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "On nil-algebras and finitely approximable p-groups (AMS Transl.)",
+      "year": 1965,
+      "url": "https://doi.org/10.1090/trans2/048/06",
+      "whyItMatters": "Infinite periodic group construction."
+     }
+    ]
+   },
+   {
+    "name": "Igor Shafarevich",
+    "role": "Class field towers and Golod-Shafarevich theorem",
+    "lifespan": "1923-2017",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Shafarevich/",
+    "works": [
+     {
+      "citation": "On the class field tower (with E. Golod)",
+      "year": 1964,
+      "url": "https://en.wikipedia.org/wiki/Golod%E2%80%93Shafarevich_theorem",
+      "whyItMatters": "Infinite class field tower theorem."
+     }
+    ]
+   },
+   {
+    "name": "Sergei Adian",
+    "role": "Bounded Burnside problem",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "The Burnside Problem and Identities in Groups",
+      "year": 1979,
+      "url": "https://doi.org/10.1007/978-3-642-66932-3",
+      "whyItMatters": "Monograph on Burnside problem results."
+     }
+    ]
+   },
+   {
+    "name": "Pyotr Novikov",
+    "role": "Infinite periodic groups with Adian",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "On infinite periodic groups I-III (with S. Adian)",
+      "year": 1968,
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Burnside_problem/",
+      "whyItMatters": "Infinite periodic groups for large odd exponents."
+     }
+    ]
+   }
+  ],
+  "notes": "Burnside-problem history (MacTutor topic page, fetched live) gives the 1964 counterexample and the 1968 and 1975 Adian results. Gupta-Sidki 1983 (Math. Z., DOI 10.1007/bf01179757) and Ol'shanskii 1982/1991 are candidate later developments, not milestoned. No naming milestone (Golod-Shafarevich name not dated here). Derived: conceptual 1964, methodological 1964, institutional 1979. Sources searched: Wikipedia (Golod-Shafarevich theorem), MacTutor (Burnside problem; Shafarevich biography), Crossref.",
+  "derivedDates": {
+   "conceptual": 1964,
+   "methodological": 1964,
+   "institutional": 1979
+  }
+ },
+ {
+  "pid": "P070",
+  "eventId": "B04",
+  "canonicalName": "Geometric invariant theory and moduli",
+  "aliases": [
+   "GIT",
+   "geometric invariant theory",
+   "invariant theory and moduli spaces"
+  ],
+  "phases": [
+   "Classical invariant theory",
+   "Hilbert's finiteness and orbit criterion",
+   "Mumford's quotient construction"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1845,
+    "endYear": 1846,
+    "precision": "range",
+    "label": "Cayley's invariant theory papers",
+    "work": "Cayley, papers on invariant theory (1845-1846)",
+    "people": [
+     "Arthur Cayley"
+    ],
+    "description": "Cayley's 1845 and 1846 papers lay the foundations of invariant theory, the classical background.",
+    "evidence": [
+     {
+      "claim": "Cayley published two papers in 1845 and 1846 laying the foundations for invariant theory",
+      "source": "MacTutor: Arthur Cayley",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Cayley/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Individual paper titles not retrieved; range 1845-1846 from MacTutor."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1868,
+    "endYear": null,
+    "precision": "year",
+    "label": "Gordan's finite basis for binary forms",
+    "work": "Gordan, Beweis, dass jede Covariante und Invariante einer binaren Form eine ganze Function ... ist, J. reine angew. Math. 69 (1868) 323-354",
+    "people": [
+     "Paul Gordan"
+    ],
+    "description": "Gordan proves that the covariants and invariants of binary forms have a finite basis, the classical finiteness result.",
+    "evidence": [
+     {
+      "claim": "Gordan 1868, Crelle, DOI 10.1515/crll.1868.69.323",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1515/crll.1868.69.323",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Gordan is the leading expert on invariant theory; Hilbert's 1888 basis theorem was submitted for his opinion",
+      "source": "MacTutor: Paul Gordan",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Gordan/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Finiteness for binary forms; the page range is as usually cited and was not verified."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1890,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hilbert's basis theorem",
+    "work": "Hilbert, Ueber die Theorie der algebraischen Formen, Math. Ann. 36 (1890)",
+    "people": [
+     "David Hilbert"
+    ],
+    "description": "Hilbert proves the finite basis theorem for invariants of general forms, a non-constructive finiteness result.",
+    "evidence": [
+     {
+      "claim": "Hilbert 1890, Math. Ann., DOI 10.1007/bf01208503",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01208503",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "In 1888 Hilbert proved the finite basis theorem, with an existence proof only",
+      "source": "MacTutor: Paul Gordan",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Gordan/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "The 1888 basis theorem is in the history; the 1890 paper is the bibliographic record used here."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1893,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hilbert's orbit separation criterion",
+    "work": "Hilbert, Ueber die vollen Invariantensysteme, Math. Ann. 42 (1893)",
+    "people": [
+     "David Hilbert"
+    ],
+    "description": "Hilbert formulates and proves a criterion for orbits that cannot be separated, the quotient-theoretic insight behind GIT.",
+    "evidence": [
+     {
+      "claim": "Hilbert 1893 criterion for orbits that are not separated",
+      "source": "Wikipedia: Geometric invariant theory",
+      "url": "https://en.wikipedia.org/wiki/Geometric_invariant_theory",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Hilbert 1893, Math. Ann., DOI 10.1007/bf01444162",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01444162",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The criterion is from the Wikipedia summary; the paper's text was not checked."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1965,
+    "endYear": null,
+    "precision": "year",
+    "label": "Mumford's quotient construction",
+    "work": "Mumford, Geometric Invariant Theory, Springer, Ergebnisse 34 (1965)",
+    "people": [
+     "David Mumford"
+    ],
+    "description": "Mumford constructs quotients of varieties by group actions, giving moduli spaces of curves and bundles.",
+    "evidence": [
+     {
+      "claim": "Mumford, Geometric Invariant Theory, Springer 1965, DOI 10.1007/978-3-662-00095-3",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-3-662-00095-3",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Geometric invariant theory was founded and developed by Mumford in a monograph first published in 1965",
+      "source": "Wikipedia: Geometric invariant theory",
+      "url": "https://en.wikipedia.org/wiki/Geometric_invariant_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 1965,
+    "endYear": null,
+    "precision": "year",
+    "label": "'Geometric invariant theory' in the monograph title",
+    "work": "Mumford, Geometric Invariant Theory (1965) (as above)",
+    "people": [
+     "David Mumford"
+    ],
+    "description": "The monograph's title gives the theory its name.",
+    "evidence": [
+     {
+      "claim": "Title 'Geometric Invariant Theory', Springer 1965",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-3-662-00095-3",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same work as the first_statement; recorded under both roles (rule 2)."
+   }
+  ],
+  "people": [
+   {
+    "name": "Arthur Cayley",
+    "role": "Foundations of invariant theory",
+    "lifespan": "1821-1895",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Cayley/",
+    "works": [
+     {
+      "citation": "Papers on invariant theory (1845-1846)",
+      "year": 1845,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Cayley/",
+      "whyItMatters": "Foundations for invariant theory (per MacTutor)."
+     }
+    ]
+   },
+   {
+    "name": "Paul Gordan",
+    "role": "Finite basis for binary-form invariants",
+    "lifespan": "1837-1912",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Gordan/",
+    "works": [
+     {
+      "citation": "Beweis, dass jede Covariante und Invariante einer binaren Form ...",
+      "year": 1868,
+      "url": "https://doi.org/10.1515/crll.1868.69.323",
+      "whyItMatters": "Finiteness of covariants for binary forms."
+     }
+    ]
+   },
+   {
+    "name": "David Hilbert",
+    "role": "Basis theorem and orbit criterion",
+    "lifespan": "1862-1943",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/",
+    "works": [
+     {
+      "citation": "Ueber die Theorie der algebraischen Formen",
+      "year": 1890,
+      "url": "https://doi.org/10.1007/bf01208503",
+      "whyItMatters": "Finite basis theorem."
+     },
+     {
+      "citation": "Ueber die vollen Invariantensysteme",
+      "year": 1893,
+      "url": "https://doi.org/10.1007/bf01444162",
+      "whyItMatters": "Orbit separation criterion."
+     }
+    ]
+   },
+   {
+    "name": "David Mumford",
+    "role": "Geometric invariant theory and moduli",
+    "lifespan": "1937-",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Mumford/",
+    "works": [
+     {
+      "citation": "Geometric Invariant Theory",
+      "year": 1965,
+      "url": "https://doi.org/10.1007/978-3-662-00095-3",
+      "whyItMatters": "Quotient construction and moduli."
+     }
+    ]
+   }
+  ],
+  "notes": "The derived institutional date uses the 1965 naming, and the conceptual date is taken as the 1965 first_statement. If the idea is dated from Hilbert 1893 (orbit criterion), the conceptual date would move earlier; this is a classification choice and is flagged. No first_application milestone (Mumford's moduli application is in the same 1965 monograph, not separately recorded). Sources searched: Wikipedia (Geometric invariant theory), MacTutor (Cayley, Gordan, Hilbert, Mumford biographies), Crossref.",
+  "derivedDates": {
+   "conceptual": 1965,
+   "methodological": null,
+   "institutional": 1965
+  }
+ }
+]

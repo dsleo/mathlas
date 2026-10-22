@@ -1,0 +1,704 @@
+[
+  {
+    "pid": "P046",
+    "eventId": "E54",
+    "canonicalName": "Sphere packing in dimensions 8 and 24",
+    "aliases": [
+      "E8 sphere packing",
+      "Leech lattice sphere packing",
+      "magic function"
+    ],
+    "phases": [
+      "dimension 8",
+      "dimension 24"
+    ],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 2003,
+        "precision": "year",
+        "label": "Linear-programming upper bounds",
+        "work": "H. Cohn and N. Elkies, New upper bounds on sphere packings I, Ann. Math. 157 (2003)",
+        "people": [
+          "Henry Cohn",
+          "Noam Elkies"
+        ],
+        "description": "The upper-bound method preceded the exact optimality proofs.",
+        "evidence": [
+          {
+            "claim": "Annals record dates the bounds paper to 2003.",
+            "source": "Original publication or repository record",
+            "url": "https://doi.org/10.4007/annals.2003.157.689",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "first_statement",
+        "year": 2016,
+        "precision": "year",
+        "label": "Dimension-eight optimality proved",
+        "work": "M. Viazovska, The sphere packing problem in dimension 8, arXiv:1603.04246 (2016)",
+        "people": [
+          "Maryna Viazovska"
+        ],
+        "description": "Viazovska proved the E8 lattice packing optimal in eight dimensions.",
+        "evidence": [
+          {
+            "claim": "Public preprint dated March 2016 states the optimality theorem.",
+            "source": "Original publication or repository record",
+            "url": "https://arxiv.org/abs/1603.04246",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "phase": "dimension 8"
+      },
+      {
+        "role": "key_development",
+        "year": 2016,
+        "precision": "year",
+        "label": "Dimension-twenty-four optimality proved",
+        "work": "H. Cohn et al., The sphere packing problem in dimension 24, arXiv:1603.06518 (2016)",
+        "people": [
+          "Henry Cohn",
+          "Abhinav Kumar",
+          "Stephen D. Miller",
+          "Danylo Radchenko",
+          "Maryna Viazovska"
+        ],
+        "description": "A second public paper proved the Leech lattice optimal in twenty-four dimensions.",
+        "evidence": [
+          {
+            "claim": "Public preprint dated March 2016 states the 24-dimensional result.",
+            "source": "Original publication or repository record",
+            "url": "https://arxiv.org/abs/1603.06518",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "phase": "dimension 24"
+      }
+    ],
+    "people": [
+      {
+        "name": "Maryna Viazovska",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Maryna_Viazovska",
+        "works": [
+          {
+            "citation": "The sphere packing problem in dimension 8",
+            "year": 2016,
+            "url": "https://arxiv.org/abs/1603.04246",
+            "whyItMatters": "Proved E8 optimality"
+          }
+        ]
+      },
+      {
+        "name": "Henry Cohn",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Henry_Cohn",
+        "works": [
+          {
+            "citation": "The sphere packing problem in dimension 24",
+            "year": 2016,
+            "url": "https://arxiv.org/abs/1603.06518",
+            "whyItMatters": "Co-proved Leech-lattice optimality"
+          }
+        ]
+      }
+    ],
+    "notes": "The two dimensions are separate phases in March 2016. A first successful application of the exact auxiliary-function method beyond these examples and institutional naming remain open."
+  },
+  {
+    "pid": "P078",
+    "eventId": "B12",
+    "canonicalName": "Random partitions, representation theory and Gromov-Witten theory",
+    "aliases": [
+      "random partitions",
+      "infinite wedge",
+      "completed cycles"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "key_development",
+        "year": 1999,
+        "precision": "year",
+        "label": "Infinite wedge applied to random partitions",
+        "work": "A. Okounkov, Infinite wedge and random partitions, arXiv:math/9907127 (1999)",
+        "people": [
+          "Andrei Okounkov"
+        ],
+        "description": "The public preprint uses integrable-systems techniques to obtain exact random-partition correlations.",
+        "evidence": [
+          {
+            "claim": "The 1999 abstract states the correlation-function results.",
+            "source": "Original publication or repository record",
+            "url": "https://arxiv.org/abs/math/9907127",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 2006,
+        "precision": "year",
+        "label": "Completed cycles link Hurwitz and Gromov–Witten theory",
+        "work": "A. Okounkov and R. Pandharipande, Gromov–Witten theory, Hurwitz theory, and completed cycles, Ann. Math. 163 (2006)",
+        "people": [
+          "Andrei Okounkov",
+          "Rahul Pandharipande"
+        ],
+        "description": "The paper connects Hurwitz counting with Gromov–Witten invariants through completed cycles.",
+        "evidence": [
+          {
+            "claim": "Annals record identifies the 2006 paper and its subject.",
+            "source": "Original publication or repository record",
+            "url": "https://doi.org/10.4007/annals.2006.163.517",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Andrei Okounkov",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Andrei_Okounkov",
+        "works": [
+          {
+            "citation": "Infinite wedge and random partitions",
+            "year": 1999,
+            "url": "https://arxiv.org/abs/math/9907127",
+            "whyItMatters": "Developed the random-partition method"
+          }
+        ]
+      }
+    ],
+    "notes": "The event bundles several domains. The earliest public statement of the whole bridge and the exact first use in a target Gromov–Witten problem need comparison with earlier Okounkov–Pandharipande preprints; the 2006 paper is a documented development, not an unqualified first application."
+  },
+  {
+    "pid": "P079",
+    "eventId": "B13",
+    "canonicalName": "Measure rigidity and arithmetic quantum unique ergodicity",
+    "aliases": [
+      "arithmetic quantum unique ergodicity",
+      "measure classification"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "key_development",
+        "year": 2006,
+        "precision": "year",
+        "label": "Measure rigidity proves arithmetic QUE",
+        "work": "E. Lindenstrauss, Invariant measures and arithmetic quantum unique ergodicity, Ann. Math. 163 (2006)",
+        "people": [
+          "Elon Lindenstrauss"
+        ],
+        "description": "A positive-entropy measure classification yields arithmetic quantum unique ergodicity for compact arithmetic surfaces.",
+        "evidence": [
+          {
+            "claim": "The Annals abstract states the measure classification and arithmetic QUE consequence.",
+            "source": "Original publication or repository record",
+            "url": "https://doi.org/10.4007/annals.2006.163.165",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Elon Lindenstrauss",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Elon_Lindenstrauss",
+        "works": [
+          {
+            "citation": "Invariant measures and arithmetic quantum unique ergodicity",
+            "year": 2006,
+            "url": "https://doi.org/10.4007/annals.2006.163.165",
+            "whyItMatters": "Established arithmetic QUE through measure classification"
+          }
+        ]
+      }
+    ],
+    "notes": "The Annals landing-page heading omits “quantum,” while the original paper and DOI metadata contain it. The publisher lists receipt in March 2003, which is not a public publication date. An earlier public preprint may exist; until identified, conceptual and methodological first dates stay open."
+  },
+  {
+    "pid": "P081",
+    "eventId": "B15",
+    "canonicalName": "Higher composition laws and arithmetic statistics",
+    "aliases": [
+      "Bhargava higher composition laws",
+      "arithmetic statistics"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "key_development",
+        "year": 2004,
+        "precision": "year",
+        "label": "First higher composition-law paper published",
+        "work": "M. Bhargava, Higher composition laws I: A new view on Gauss composition, and quadratic generalizations, Ann. Math. 159 (2004)",
+        "people": [
+          "Manjul Bhargava"
+        ],
+        "description": "The paper generalizes Gauss composition using higher-dimensional parameterizations.",
+        "evidence": [
+          {
+            "claim": "Annals bibliographic record identifies the 2004 paper.",
+            "source": "Original publication or repository record",
+            "url": "https://doi.org/10.4007/annals.2004.159.217",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 2015,
+        "precision": "year",
+        "label": "Composition framework applied to elliptic-curve statistics",
+        "work": "M. Bhargava and A. Shankar, Binary quartic forms having bounded invariants, and the boundedness of the average rank of elliptic curves, Ann. Math. 181 (2015)",
+        "people": [
+          "Manjul Bhargava",
+          "Arul Shankar"
+        ],
+        "description": "The paper counts quartic forms in a study of average ranks of elliptic curves.",
+        "evidence": [
+          {
+            "claim": "Annals record identifies the 2015 arithmetic-statistics paper.",
+            "source": "Original publication or repository record",
+            "url": "https://doi.org/10.4007/annals.2015.181.1.3",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "This is a documented application, not established as the first use of higher composition laws in arithmetic statistics."
+      }
+    ],
+    "people": [
+      {
+        "name": "Manjul Bhargava",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Manjul_Bhargava",
+        "works": [
+          {
+            "citation": "Higher composition laws I: A new view on Gauss composition, and quadratic generalizations",
+            "year": 2004,
+            "url": "https://doi.org/10.4007/annals.2004.159.217",
+            "whyItMatters": "Developed the higher composition laws"
+          }
+        ]
+      }
+    ],
+    "notes": "A 2001 thesis may predate the 2004 journal publication; its public availability must be checked. The 2015 target application is documented but may have predecessors; methodological priority remains open."
+  },
+  {
+    "pid": "P313",
+    "eventId": "WC82/QC17",
+    "canonicalName": "Unique games conjecture",
+    "aliases": [
+      "UGC",
+      "unique games"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 2002,
+        "precision": "year",
+        "label": "Unique Games Conjecture posed",
+        "work": "S. Khot, On the power of unique 2-prover 1-round games, STOC (2002)",
+        "people": [
+          "Subhash Khot"
+        ],
+        "description": "Khot’s public conference paper formulates the hardness conjecture for unique two-prover games.",
+        "evidence": [
+          {
+            "claim": "ACM bibliographic record dates the conference paper to 2002.",
+            "source": "Original publication or repository record",
+            "url": "https://doi.org/10.1145/509907.510017",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Subhash Khot",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Subhash_Khot",
+        "works": [
+          {
+            "citation": "On the power of unique 2-prover 1-round games",
+            "year": 2002,
+            "url": "https://doi.org/10.1145/509907.510017",
+            "whyItMatters": "Introduced the Unique Games Conjecture"
+          }
+        ]
+      }
+    ],
+    "notes": "Later approximation-hardness applications and the first institutional or textbook anchor remain to be researched."
+  },
+  {
+    "pid": "P315",
+    "eventId": "QC21/WC84",
+    "canonicalName": "Geometric complexity theory",
+    "aliases": [
+      "GCT",
+      "geometric complexity programme"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 2001,
+        "precision": "year",
+        "label": "Geometric complexity theory programme proposed",
+        "work": "K. Mulmuley and M. Sohoni, Geometric Complexity Theory I: An Approach to the P vs. NP and Related Problems, SIAM J. Comput. 31 (2001)",
+        "people": [
+          "Ketan Mulmuley",
+          "Milind Sohoni"
+        ],
+        "description": "The paper proposes a representation-theoretic geometry programme for P versus NP and related complexity questions.",
+        "evidence": [
+          {
+            "claim": "SIAM record identifies the named 2001 programme paper.",
+            "source": "Original publication or repository record",
+            "url": "https://doi.org/10.1137/S009753970038715X",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "consolidation",
+        "year": 2007,
+        "precision": "year",
+        "label": "Graduate lecture notes on GCT",
+        "work": "K. Mulmuley and M. Sohoni, Geometric Complexity Theory: Introduction, arXiv:0709.0746 (2007)",
+        "people": [
+          "Ketan Mulmuley",
+          "Milind Sohoni"
+        ],
+        "description": "Public lecture notes systematically introduce the GCT programme.",
+        "evidence": [
+          {
+            "claim": "ArXiv dates the lecture notes to 2007.",
+            "source": "Original publication or repository record",
+            "url": "https://arxiv.org/abs/0709.0746",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Ketan Mulmuley",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Ketan_Mulmuley",
+        "works": [
+          {
+            "citation": "Geometric Complexity Theory I: An Approach to the P vs. NP and Related Problems",
+            "year": 2001,
+            "url": "https://doi.org/10.1137/S009753970038715X",
+            "whyItMatters": "Co-proposed the GCT programme"
+          }
+        ]
+      }
+    ],
+    "notes": "The title itself supplies a reproducible naming anchor in 2001. First successful target application and formal institutional recognition remain open."
+  },
+  {
+    "pid": "P317",
+    "eventId": "WC32/QC42",
+    "canonicalName": "Higher topos theory",
+    "aliases": [
+      "infinity-topos theory",
+      "quasicategory topos theory"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 2002,
+        "precision": "year",
+        "label": "Higher topoi developed in homotopical algebraic geometry",
+        "work": "B. Toën and G. Vezzosi, Homotopical Algebraic Geometry I: Topos theory, arXiv:math/0207028 (2002)",
+        "people": [
+          "Bertrand Toën",
+          "Gabriele Vezzosi"
+        ],
+        "description": "The public preprint investigates higher topoi using simplicially enriched categories and develops higher sites and stacks.",
+        "evidence": [
+          {
+            "claim": "ArXiv gives the public July 2002 submission and the abstract explicitly describes higher topoi.",
+            "source": "Original arXiv record",
+            "url": "https://arxiv.org/abs/math/0207028",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 2006,
+        "precision": "year",
+        "label": "Lurie’s higher-topos manuscript",
+        "work": "J. Lurie, Higher Topos Theory, arXiv:math/0608040 (2006)",
+        "people": [
+          "Jacob Lurie"
+        ],
+        "description": "The public manuscript develops higher versions of Grothendieck topoi using quasicategories.",
+        "evidence": [
+          {
+            "claim": "ArXiv dates the public manuscript to August 2006 and states its purpose.",
+            "source": "Original publication or repository record",
+            "url": "https://arxiv.org/abs/math/0608040",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "consolidation",
+        "year": 2009,
+        "precision": "year",
+        "label": "Higher Topos Theory book published",
+        "work": "J. Lurie, Higher Topos Theory, Princeton University Press (2009)",
+        "people": [
+          "Jacob Lurie"
+        ],
+        "description": "The Princeton monograph gives systematic treatment of quasicategories and higher topoi.",
+        "evidence": [
+          {
+            "claim": "Publisher metadata identifies the 2009 book.",
+            "source": "Original publication or repository record",
+            "url": "https://doi.org/10.1515/9781400830558",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Bertrand Toën",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Bertrand_To%C3%ABn",
+        "works": [
+          {
+            "citation": "Homotopical Algebraic Geometry I: Topos theory",
+            "year": 2002,
+            "url": "https://arxiv.org/abs/math/0207028",
+            "whyItMatters": "Co-developed the higher-topos construction"
+          }
+        ]
+      },
+      {
+        "name": "Jacob Lurie",
+        "role": "systematiser",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Jacob_Lurie",
+        "works": [
+          {
+            "citation": "Higher Topos Theory",
+            "year": 2009,
+            "url": "https://doi.org/10.1515/9781400830558",
+            "whyItMatters": "Systematized higher topos theory"
+          }
+        ]
+      }
+    ],
+    "notes": "The 2002 Toën–Vezzosi preprint already investigates higher topoi, four years before Lurie’s public manuscript; the 2005 journal issue is not the conceptual start. The 2009 book is a later consolidation. Related Rezk and Joyal precursors and first target application remain to be adjudicated."
+  },
+  {
+    "pid": "P319",
+    "eventId": "WC80",
+    "canonicalName": "AKS primality",
+    "aliases": [
+      "AKS algorithm",
+      "deterministic polynomial-time primality"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 2002,
+        "precision": "year",
+        "label": "PRIMES is in P posted publicly",
+        "work": "M. Agrawal, N. Kayal and N. Saxena, PRIMES is in P, IIT Kanpur public preprint (2002)",
+        "people": [
+          "Manindra Agrawal",
+          "Neeraj Kayal",
+          "Nitin Saxena"
+        ],
+        "description": "The publicly posted paper gives an unconditional deterministic polynomial-time primality algorithm.",
+        "evidence": [
+          {
+            "claim": "Original paper is dated 6 August 2002; IIT and contemporary accounts confirm public posting.",
+            "source": "Original publication or repository record",
+            "url": "https://cse.iitk.ac.in/users/manindra/algebra/primality_original.pdf",
+            "kind": "primary_text"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 2004,
+        "precision": "year",
+        "label": "Annals version published",
+        "work": "M. Agrawal, N. Kayal and N. Saxena, PRIMES is in P, Ann. Math. 160 (2004)",
+        "people": [
+          "Manindra Agrawal",
+          "Neeraj Kayal",
+          "Nitin Saxena"
+        ],
+        "description": "The journal version publishes the AKS result in Annals of Mathematics.",
+        "evidence": [
+          {
+            "claim": "Annals records September 2004 online publication.",
+            "source": "Original publication or repository record",
+            "url": "https://doi.org/10.4007/annals.2004.160.781",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Nitin Saxena",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://www.iitk.ac.in/dora/profile/prof-nitin-saxena",
+        "works": [
+          {
+            "citation": "PRIMES is in P",
+            "year": 2004,
+            "url": "https://doi.org/10.4007/annals.2004.160.781",
+            "whyItMatters": "Co-created the AKS test"
+          }
+        ]
+      }
+    ],
+    "notes": "The 2002 public posting is the conceptual date, not the date printed in the Annals volume. A separate first application and institutional date remain open."
+  },
+  {
+    "pid": "P483",
+    "eventId": "P38",
+    "canonicalName": "Cluster algebras",
+    "aliases": [
+      "cluster mutation",
+      "cluster algebra foundations"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 2001,
+        "precision": "year",
+        "label": "Cluster algebras introduced publicly",
+        "work": "S. Fomin and A. Zelevinsky, Cluster algebras I: Foundations, arXiv:math/0104151 (2001)",
+        "people": [
+          "Sergey Fomin",
+          "Andrei Zelevinsky"
+        ],
+        "description": "The preprint initiates a class of commutative algebras motivated by canonical bases and total positivity.",
+        "evidence": [
+          {
+            "claim": "ArXiv dates the public preprint to April 2001 and states the new class.",
+            "source": "Original publication or repository record",
+            "url": "https://arxiv.org/abs/math/0104151",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Sergey Fomin",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://lsa.umich.edu/math/people/faculty/fomin.html",
+        "works": [
+          {
+            "citation": "Cluster algebras I: Foundations",
+            "year": 2001,
+            "url": "https://arxiv.org/abs/math/0104151",
+            "whyItMatters": "Co-introduced cluster algebras"
+          }
+        ]
+      }
+    ],
+    "notes": "The 2002 JAMS paper followed the 2001 public preprint. First purposeful use on a target problem and dedicated institutional recognition require further research."
+  },
+  {
+    "pid": "P490",
+    "eventId": "P46",
+    "canonicalName": "Heegaard Floer homology",
+    "aliases": [
+      "Ozsváth–Szabó homology",
+      "Heegaard Floer theory"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 2001,
+        "precision": "year",
+        "label": "Heegaard Floer invariants introduced",
+        "work": "P. Ozsváth and Z. Szabó, Holomorphic disks and topological invariants for closed three-manifolds, arXiv:math/0101206 (2001)",
+        "people": [
+          "Peter Ozsváth",
+          "Zoltán Szabó"
+        ],
+        "description": "The public preprint defines three-manifold invariants from Heegaard splittings and holomorphic disks.",
+        "evidence": [
+          {
+            "claim": "ArXiv dates the preprint to January 2001 and describes the invariants.",
+            "source": "Original publication or repository record",
+            "url": "https://arxiv.org/abs/math/0101206",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Peter Ozsváth",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://en.wikipedia.org/wiki/Peter_Ozsv%C3%A1th",
+        "works": [
+          {
+            "citation": "Holomorphic disks and topological invariants for closed three-manifolds",
+            "year": 2001,
+            "url": "https://arxiv.org/abs/math/0101206",
+            "whyItMatters": "Co-introduced Heegaard Floer invariants"
+          }
+        ]
+      }
+    ],
+    "notes": "The 2004 Annals version is later than the 2001 public preprint. First application to a distinct target theorem and named institutional anchor remain open."
+  }
+]

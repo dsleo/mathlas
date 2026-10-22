@@ -1,0 +1,716 @@
+[
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_01.json",
+  "eventId": "WA12/MA15",
+  "itemType": "milestone_work",
+  "milestoneIndex": 6,
+  "milestoneRole": "consolidation",
+  "citation": "Regiomontanus, Epytoma in Almagestum Ptolemaei (completed 1462, printed 1496)",
+  "claimedYear": 1462,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://openlibrary.org/works/OL224585W",
+  "result": "year_mismatch",
+  "recordTitle": "Epytoma in Almagestum Ptolemaei",
+  "recordYears": [
+   1496
+  ],
+  "recordUrl": "https://openlibrary.org/works/OL224585W.json",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_02.json",
+  "eventId": "MA27",
+  "itemType": "milestone_work",
+  "milestoneIndex": 3,
+  "milestoneRole": "first_application",
+  "citation": "Zhu Shijie, Siyuan yujian (Jade Mirror of the Four Unknowns), 1303",
+  "claimedYear": 1303,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://doi.org/10.1007/978-1-4020-4425-0_8861",
+  "result": "year_mismatch",
+  "recordTitle": "Siyuan Yujian 四元玉鑒",
+  "recordYears": [
+   2008
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1007/978-1-4020-4425-0_8861",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_04.json",
+  "eventId": "H45",
+  "itemType": "person_work",
+  "person": "Leon Battista Alberti",
+  "citation": "De pictura",
+  "claimedYear": 1435,
+  "citedUrl": "https://openlibrary.org/works/OL1417313W",
+  "result": "year_mismatch",
+  "recordTitle": "De pictura",
+  "recordYears": [
+   1950
+  ],
+  "recordUrl": "https://openlibrary.org/works/OL1417313W.json",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_05.json",
+  "eventId": "WA63/MA58",
+  "itemType": "milestone_work",
+  "milestoneIndex": 1,
+  "milestoneRole": "precursor",
+  "citation": "Fermat to Frenicle, 1640 (private correspondence)",
+  "claimedYear": 1640,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://doi.org/10.1016/0315-0860(91)90371-4",
+  "result": "year_mismatch",
+  "recordTitle": "A reconstruction of the Frenicle-Fermat correspondence of 1640",
+  "recordYears": [
+   1991
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1016/0315-0860(91)90371-4",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_07.json",
+  "eventId": "H47",
+  "itemType": "person_work",
+  "person": "Johann Benedict Listing",
+  "citation": "Vorstudien zur Topologie",
+  "claimedYear": 1847,
+  "citedUrl": "https://archive.org/details/vorstudienzurto00listgoog",
+  "result": "year_mismatch",
+  "recordTitle": "Vorstudien zur Topologie",
+  "recordYears": [
+   1848
+  ],
+  "recordUrl": "https://archive.org/metadata/vorstudienzurto00listgoog",
+  "recordNote": "Archive item date can describe an edition or upload",
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_08.json",
+  "eventId": "H17",
+  "itemType": "person_work",
+  "person": "Charles-François Sturm",
+  "citation": "Mémoire sur les équations différentielles linéaires du second ordre",
+  "claimedYear": null,
+  "citedUrl": "https://doi.org/10.1007/978-3-7643-7990-2_30",
+  "result": "year_mismatch",
+  "recordTitle": "Mémoire Sur les Equations différentielles linéaires du second ordre",
+  "recordYears": [
+   2009
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1007/978-3-7643-7990-2_30",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_10.json",
+  "eventId": "H19",
+  "itemType": "person_work",
+  "person": "Jean-Robert Argand",
+  "citation": "Essai sur une manière de représenter les quantités imaginaires dans les constructions géométriques",
+  "claimedYear": 1806,
+  "citedUrl": "https://archive.org/details/essaisurunemani00argauoft",
+  "result": "year_mismatch",
+  "recordTitle": "Essai sur une manière de représenter les quantités imaginaires dans les constructions géométriques",
+  "recordYears": [
+   1874
+  ],
+  "recordUrl": "https://archive.org/metadata/essaisurunemani00argauoft",
+  "recordNote": "Archive item date can describe an edition or upload",
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_10.json",
+  "eventId": "E10",
+  "itemType": "milestone_work",
+  "milestoneIndex": 2,
+  "milestoneRole": "first_statement",
+  "citation": "B. Riemann, Ueber die Hypothesen, welche der Geometrie zu Grunde liegen, Abhandlungen der Koniglichen Gesellschaft der Wissenschaften zu Gottingen 13, printed 1868",
+  "claimedYear": 1868,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://archive.org/details/per_abhandlungen-der-koniglichen-gesellschaft-der_1866-1867_13",
+  "result": "year_mismatch",
+  "recordTitle": "Abhandlungen der Koniglichen Gesellschaft der Wissenschaften zu Gottingen  1866-1867: Vol 13",
+  "recordYears": [
+   1866
+  ],
+  "recordUrl": "https://archive.org/metadata/per_abhandlungen-der-koniglichen-gesellschaft-der_1866-1867_13",
+  "recordNote": "Archive item date can describe an edition or upload",
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_12.json",
+  "eventId": "M5",
+  "itemType": "milestone_work",
+  "milestoneIndex": 2,
+  "milestoneRole": "key_development",
+  "citation": "Weierstrass, Über das sogenannte Dirichlet'sche Princip, Monatsberichte der Berliner Akademie, 1870",
+  "claimedYear": 1870,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://doi.org/10.1017/cbo9781139567817.004",
+  "result": "year_mismatch",
+  "recordTitle": "Über das sogenannte Dirichlet'sche Princip",
+  "recordYears": [
+   2013
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1017/cbo9781139567817.004",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_12.json",
+  "eventId": "W37",
+  "itemType": "milestone_work",
+  "milestoneIndex": 0,
+  "milestoneRole": "naming",
+  "citation": "Listing, Vorstudien zur Topologie, Göttingen, 1847",
+  "claimedYear": 1847,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://archive.org/details/vorstudienzurto00listgoog",
+  "result": "year_mismatch",
+  "recordTitle": "Vorstudien zur Topologie",
+  "recordYears": [
+   1848
+  ],
+  "recordUrl": "https://archive.org/metadata/vorstudienzurto00listgoog",
+  "recordNote": "Archive item date can describe an edition or upload",
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_13.json",
+  "eventId": "E61",
+  "itemType": "person_work",
+  "person": "Bernhard Riemann",
+  "citation": "Ueber die Anzahl der Primzahlen unter einer gegebenen Grosse",
+  "claimedYear": 1859,
+  "citedUrl": "https://doi.org/10.1017/cbo9781139568050.008",
+  "result": "year_mismatch",
+  "recordTitle": "Ueber die Anzahl der Primzahlen unter einer gegebenen Grösse",
+  "recordYears": [
+   2013
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1017/cbo9781139568050.008",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_13.json",
+  "eventId": "H50",
+  "itemType": "milestone_work",
+  "milestoneIndex": 5,
+  "milestoneRole": "consolidation",
+  "citation": "K. Reidemeister, Knotentheorie, Ergebnisse der Mathematik, Berlin: Springer, 1932",
+  "claimedYear": 1932,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://doi.org/10.2307/3605348",
+  "result": "year_mismatch",
+  "recordTitle": "Knotentheorie. By K. Reidemeister. Pp. iv, 74. RM. 8.75. 1932. Ergebnisse der Mathematik, Band I, Heft 1. (Springer, Berlin)",
+  "recordYears": [
+   1933,
+   2016
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.2307/3605348",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_14.json",
+  "eventId": "H33",
+  "itemType": "person_work",
+  "person": "Charles Hermite",
+  "citation": "Sur la fonction exponentielle, Comptes Rendus 77",
+  "claimedYear": 1873,
+  "citedUrl": "https://doi.org/10.1017/cbo9780511702778.012",
+  "result": "year_mismatch",
+  "recordTitle": "Sur la fonction exponentielle",
+  "recordYears": [
+   2009
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1017/cbo9780511702778.012",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_14.json",
+  "eventId": "H33",
+  "itemType": "milestone_work",
+  "milestoneIndex": 3,
+  "milestoneRole": "key_development",
+  "citation": "Weierstrass, Zu Lindemann's Abhandlung 'Ueber die Ludolph'sche Zahl', Sitzungsber. Berlin, 1885",
+  "claimedYear": 1885,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://doi.org/10.1007/978-1-4757-3240-5_23",
+  "result": "year_mismatch",
+  "recordTitle": "Zu Lindemann’s, Abhandlung: „Über die Ludolph’sche Zahl“",
+  "recordYears": [
+   2000
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1007/978-1-4757-3240-5_23",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_14.json",
+  "eventId": "W13",
+  "itemType": "milestone_work",
+  "milestoneIndex": 5,
+  "milestoneRole": "key_development",
+  "citation": "Hestenes, Space-Time Algebra (1960s)",
+  "claimedYear": 1960,
+  "endYear": null,
+  "precision": "decade",
+  "citedUrl": "https://doi.org/10.1007/978-3-319-18413-5",
+  "result": "year_mismatch",
+  "recordTitle": "Space-Time Algebra",
+  "recordYears": [
+   2015
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1007/978-3-319-18413-5",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_14.json",
+  "eventId": "E70/W76/M33",
+  "itemType": "milestone_work",
+  "milestoneIndex": 6,
+  "milestoneRole": "key_development",
+  "citation": "Poincare, Sur l'uniformisation des fonctions analytiques, Acta Math. 31, 1-63; Koebe, Goettinger Nachrichten, 1907",
+  "claimedYear": 1907,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://doi.org/10.1007/bf02415442",
+  "result": "year_mismatch",
+  "recordTitle": "Sur l'uniformisation des fonctions analytiques",
+  "recordYears": [
+   1908
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1007/bf02415442",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_14.json",
+  "eventId": "W20/M13",
+  "itemType": "milestone_work",
+  "milestoneIndex": 2,
+  "milestoneRole": "consolidation",
+  "citation": "Hilbert, Die Theorie der algebraischen Zahlkoerper, Jahresbericht DMV 4, 1897",
+  "claimedYear": 1897,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://doi.org/10.1365/s13291-017-0168-3",
+  "result": "year_mismatch",
+  "recordTitle": "David Hilbert: Die Theorie der algebraischen Zahlkörper",
+  "recordYears": [
+   2017,
+   2018
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1365/s13291-017-0168-3",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_14.json",
+  "eventId": "W20/M13",
+  "itemType": "milestone_work",
+  "milestoneIndex": 4,
+  "milestoneRole": "key_development",
+  "citation": "Takagi, Ueber eine Theorie des relativ Abel'schen Zahlkoerpers, J. Coll. Sci. Tokyo 41, 1920",
+  "claimedYear": 1920,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://doi.org/10.1007/978-4-431-54995-6_13",
+  "result": "year_mismatch",
+  "recordTitle": "Über eine Theorie des relativ Abel’schen Zahlkörpers",
+  "recordYears": [
+   1990
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1007/978-4-431-54995-6_13",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_14.json",
+  "eventId": "E23",
+  "itemType": "milestone_work",
+  "milestoneIndex": 3,
+  "milestoneRole": "first_statement",
+  "citation": "Weil, Sur l'analogie entre les corps de nombres algebriques et les corps de fonctions algebriques, 1939",
+  "claimedYear": 1939,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://doi.org/10.1007/978-1-4757-1705-1_31",
+  "result": "year_mismatch",
+  "recordTitle": "Sur l’analogie entre les corps de nombres algébriques et les corps de fonctions algébriques",
+  "recordYears": [
+   1979
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1007/978-1-4757-1705-1_31",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_19.json",
+  "eventId": "H35",
+  "itemType": "person_work",
+  "person": "Felix Hausdorff",
+  "citation": "Hausdorff, 'Dimension und äußeres Maß', Math. Ann. 79 (1919)",
+  "claimedYear": 1919,
+  "citedUrl": "https://doi.org/10.1007/978-3-642-59483-0_2",
+  "result": "year_mismatch",
+  "recordTitle": "Dimension und äußeres Maß",
+  "recordYears": [
+   2001
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1007/978-3-642-59483-0_2",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_20.json",
+  "eventId": "W75/M66",
+  "itemType": "milestone_work",
+  "milestoneIndex": 0,
+  "milestoneRole": "precursor",
+  "citation": "D. Hilbert, Grundzuege einer allgemeinen Theorie der linearen Integralgleichungen, Teubner, 1912",
+  "claimedYear": 1912,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://doi.org/10.1090/s0002-9904-1914-02494-2",
+  "result": "year_mismatch",
+  "recordTitle": "Book Review: Grundzüge einer allgemeinen Theorie der linearen Integralgleichungen",
+  "recordYears": [
+   1914
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1090/s0002-9904-1914-02494-2",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_21.json",
+  "eventId": "MB9/WB111",
+  "itemType": "milestone_work",
+  "milestoneIndex": 0,
+  "milestoneRole": "first_statement",
+  "citation": "J. von Neumann, Zur Algebra der Funktionaloperationen und Theorie der normalen Operatoren, Math. Ann. 102 (1929/30)",
+  "claimedYear": 1929,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://doi.org/10.1007/bf01782352",
+  "result": "year_mismatch",
+  "recordTitle": "Zur Algebra der Funktionaloperationen und Theorie der normalen Operatoren",
+  "recordYears": [
+   1930
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1007/bf01782352",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_22.json",
+  "eventId": "MB7",
+  "itemType": "milestone_work",
+  "milestoneIndex": 2,
+  "milestoneRole": "first_statement",
+  "citation": "Tarski, 'Der Wahrheitsbegriff in den formalisierten Sprachen' (German version of the Polish 1933 monograph), Studia Philosophica vol. 1 (1935-36)",
+  "claimedYear": 1933,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://doi.org/10.1080/01445340.2024.2334173",
+  "result": "year_mismatch",
+  "recordTitle": "On the Year of Publication of Tarski's ‘Der Wahrheitsbegriff in den formalisierten Sprachen’",
+  "recordYears": [
+   2024,
+   2025
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1080/01445340.2024.2334173",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_22.json",
+  "eventId": "MB85/WB41",
+  "itemType": "milestone_work",
+  "milestoneIndex": 1,
+  "milestoneRole": "consolidation",
+  "citation": "Curry and Feys, Combinatory Logic, Vol. I (North-Holland, 1958)",
+  "claimedYear": 1958,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://doi.org/10.2307/3608554",
+  "result": "year_mismatch",
+  "recordTitle": "Combinatory Logic. By H. B. Curry and R. Feys. Pp. 417. 42s. 1958. (North Holland Publishing Co., Amsterdam)",
+  "recordYears": [
+   1960,
+   2016
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.2307/3608554",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_22.json",
+  "eventId": "MB20",
+  "itemType": "milestone_work",
+  "milestoneIndex": 2,
+  "milestoneRole": "consolidation",
+  "citation": "Sobolev, Some Applications of Functional Analysis in Mathematical Physics (Leningrad, 1950; AMS translation 1963)",
+  "claimedYear": 1950,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://doi.org/10.1090/mmono/007",
+  "result": "year_mismatch",
+  "recordTitle": "Applications of functional analysis in mathematical physics",
+  "recordYears": [
+   1963
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1090/mmono/007",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_22.json",
+  "eventId": "E60",
+  "itemType": "milestone_work",
+  "milestoneIndex": 0,
+  "milestoneRole": "first_statement",
+  "citation": "Turing, 'On Computable Numbers, with an Application to the Entscheidungsproblem', Proceedings of the London Mathematical Society (1936; vol. 42, 1936-37)",
+  "claimedYear": 1936,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://doi.org/10.1093/oso/9780198250791.003.0005",
+  "result": "year_mismatch",
+  "recordTitle": "On Computable Numbers, with an Application to the Entscheidungsproblem (1936)",
+  "recordYears": [
+   2004
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1093/oso/9780198250791.003.0005",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_25.json",
+  "eventId": "MB18/WB10",
+  "itemType": "person_work",
+  "person": "Leonid Kantorovich",
+  "citation": "Mathematical methods of organizing and planning production, 1939 (English 1960, Management Science 6)",
+  "claimedYear": 1939,
+  "citedUrl": "https://doi.org/10.1287/mnsc.6.4.366",
+  "result": "year_mismatch",
+  "recordTitle": "Mathematical Methods of Organizing and Planning Production",
+  "recordYears": [
+   1960
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1287/mnsc.6.4.366",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_26.json",
+  "eventId": "MB62",
+  "itemType": "person_work",
+  "person": "Warren McCulloch and Walter Pitts",
+  "citation": "McCulloch and Pitts, A logical calculus of the ideas immanent in nervous activity (1943)",
+  "claimedYear": 1943,
+  "citedUrl": "https://doi.org/10.7551/mitpress/12274.003.0011",
+  "result": "year_mismatch",
+  "recordTitle": "A Logical Calculus of the Ideas Immanent in Nervous Activity (1943)",
+  "recordYears": [
+   2021
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.7551/mitpress/12274.003.0011",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_27.json",
+  "eventId": "WB112",
+  "itemType": "person_work",
+  "person": "John Nash",
+  "citation": "Nash, Equilibrium points in n-person games, PNAS, 1950",
+  "claimedYear": 1950,
+  "citedUrl": "https://doi.org/10.1515/9781400829156-006",
+  "result": "year_mismatch",
+  "recordTitle": "1. Equilibrium Points in n-Person Games. PNAS 36 (1950) 48-49.",
+  "recordYears": [
+   1997
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1515/9781400829156-006",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_27.json",
+  "eventId": "P15",
+  "itemType": "milestone_work",
+  "milestoneIndex": 1,
+  "milestoneRole": "first_statement",
+  "citation": "Kolmogorov, On conservation of conditionally periodic motions under small perturbation of the Hamiltonian, Doklady Akademii Nauk SSSR, 1954",
+  "claimedYear": 1954,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://doi.org/10.1007/978-94-011-3030-1_52",
+  "result": "year_mismatch",
+  "recordTitle": "On the Preservation of Conditionally Periodic Motions Under Small Variations of the Hamilton Function",
+  "recordYears": [
+   1991
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1007/978-94-011-3030-1_52",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_30.json",
+  "eventId": "MB80/WB119",
+  "itemType": "milestone_work",
+  "milestoneIndex": 2,
+  "milestoneRole": "first_statement",
+  "citation": "A. N. Kolmogorov, Three approaches to the quantitative definition of information, Problems of Information Transmission 1 (1965)",
+  "claimedYear": 1965,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://doi.org/10.1080/00207166808803030",
+  "result": "year_mismatch",
+  "recordTitle": "Three approaches to the quantitative definition of information\n                    <sup>*</sup>",
+  "recordYears": [
+   1968
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1080/00207166808803030",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_30.json",
+  "eventId": "B26",
+  "itemType": "milestone_work",
+  "milestoneIndex": 5,
+  "milestoneRole": "key_development",
+  "citation": "Vladimir Berkovich, Spectral Theory and Analytic Geometry over Non-Archimedean Fields, AMS Math. Surveys 33 (1990)",
+  "claimedYear": 1990,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://doi.org/10.1090/surv/033",
+  "result": "year_mismatch",
+  "recordTitle": "Spectral Theory and Analytic Geometry over Non-Archimedean Fields",
+  "recordYears": [
+   2012
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1090/surv/033",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_31.json",
+  "eventId": "MB46",
+  "itemType": "milestone_work",
+  "milestoneIndex": 3,
+  "milestoneRole": "consolidation",
+  "citation": "Milnor, Introduction to Algebraic K-Theory, Annals of Mathematics Studies 72, Princeton, 1971",
+  "claimedYear": 1971,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://doi.org/10.1515/9781400881796",
+  "result": "year_mismatch",
+  "recordTitle": "Introduction to Algebraic K-Theory. (AM-72)",
+  "recordYears": [
+   1972,
+   2016
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1515/9781400881796",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_31.json",
+  "eventId": "B29",
+  "itemType": "milestone_work",
+  "milestoneIndex": 3,
+  "milestoneRole": "consolidation",
+  "citation": "Cohen, Set Theory and the Continuum Hypothesis, W. A. Benjamin, New York, 1966",
+  "claimedYear": 1966,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://doi.org/10.1126/science.157.3791.914",
+  "result": "year_mismatch",
+  "recordTitle": "Set Theory and the Continuum Hypothesis. Paul J. Cohen. Benjamin, New York, 1966. 160 pp., illus. Cloth, $8; paper, $3.95",
+  "recordYears": [
+   1967
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1126/science.157.3791.914",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_32.json",
+  "eventId": "MB124/WB100",
+  "itemType": "person_work",
+  "person": "Victor G. Kac",
+  "citation": "Kac, V. G., Infinite Dimensional Lie Algebras (1983; 1990 CUP edition)",
+  "claimedYear": 1983,
+  "citedUrl": "https://doi.org/10.1017/cbo9780511626234",
+  "result": "year_mismatch",
+  "recordTitle": "Infinite-Dimensional Lie Algebras",
+  "recordYears": [
+   1990,
+   2010
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1017/cbo9780511626234",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_34.json",
+  "eventId": "E37",
+  "itemType": "milestone_work",
+  "milestoneIndex": 4,
+  "milestoneRole": "consolidation",
+  "citation": "Katz, Sarnak, Random Matrices, Frobenius Eigenvalues and Monodromy, AMS Colloquium Publications 45 (1999)",
+  "claimedYear": 1999,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://doi.org/10.1090/coll/045",
+  "result": "year_mismatch",
+  "recordTitle": "Random Matrices, Frobenius Eigenvalues, and Monodromy",
+  "recordYears": [
+   1998
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1090/coll/045",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ },
+ {
+  "file": "data/collection/enrichment/sourcefirst/A_35.json",
+  "eventId": "MB37",
+  "itemType": "milestone_work",
+  "milestoneIndex": 2,
+  "milestoneRole": "key_development",
+  "citation": "Grothendieck, Formule de Lefschetz et rationalite des fonctions L, Seminaire Bourbaki (1965); SGA 5, LNM 589 (1977)",
+  "claimedYear": 1965,
+  "endYear": null,
+  "precision": "year",
+  "citedUrl": "https://doi.org/10.1007/bfb0096804",
+  "result": "year_mismatch",
+  "recordTitle": "Formule de Lefschetz",
+  "recordYears": [
+   1977,
+   2006
+  ],
+  "recordUrl": "https://api.crossref.org/works/10.1007/bfb0096804",
+  "recordNote": null,
+  "titleCheck": "plausible"
+ }
+]

@@ -1,0 +1,146 @@
+[
+ {
+  "pid": "P260",
+  "eventId": "WB104",
+  "name": "Operator K-theory and KK-theory",
+  "type": "birth-by-fusion",
+  "from": [
+   "topological K-theory / K-homology",
+   "operator algebras"
+  ],
+  "to": [
+   "noncommutative topology (KK-theory)"
+  ],
+  "summary": "Kasparov links K-homology to elliptic operators."
+ },
+ {
+  "pid": "P272",
+  "eventId": "WB105",
+  "name": "Heat equation proof of index theorem",
+  "type": "technique-transfer",
+  "from": [
+   "PDE (heat kernel)",
+   "topology"
+  ],
+  "to": [
+   "global analysis"
+  ],
+  "summary": "Heat kernels give local proofs of the index formula."
+ },
+ {
+  "pid": "P474",
+  "eventId": "P25",
+  "name": "Hida theory: p-adic families of modular forms",
+  "type": "birth-by-fusion",
+  "from": [
+   "Iwasawa theory",
+   "modular forms and Hecke algebras",
+   "p-adic modular forms (Serre, Katz)"
+  ],
+  "to": [
+   "p-adic families of modular forms"
+  ],
+  "summary": "Ordinary cusp forms are organised into p-adic analytic families whose Galois representations vary in a Hecke algebra."
+ },
+ {
+  "pid": "P477",
+  "eventId": "P28",
+  "name": "Explicit expander graphs from property (T) (Margulis)",
+  "type": "technique-transfer",
+  "from": [
+   "representation theory of Lie groups (Kazhdan property T)"
+  ],
+  "to": [
+   "graph theory",
+   "theoretical computer science"
+  ],
+  "summary": "Kazhdan's property (T) for lattices in Lie groups gives the first explicit infinite families of expanding graphs."
+ },
+ {
+  "pid": "P035",
+  "eventId": "E43",
+  "name": "Symplectic topology",
+  "type": "birth-by-fusion",
+  "from": [
+   "Physics",
+   "Geometry",
+   "Topology"
+  ],
+  "to": [
+   "Geometry"
+  ],
+  "summary": "The geometry of phase space is studied by rigidity phenomena, using complex-geometric techniques (holomorphic curves) and Morse-theoretic ones (Floer homology)."
+ },
+ {
+  "pid": "P096",
+  "eventId": "B30",
+  "name": "Superrigidity and arithmeticity of lattices",
+  "type": "technique-transfer",
+  "from": [
+   "Analysis",
+   "Algebra"
+  ],
+  "to": [
+   "Number theory",
+   "Algebra"
+  ],
+  "summary": "Ergodic-theoretic arguments on homogeneous spaces force lattices in higher rank semisimple groups to be arithmetic, tying Lie theory, ergodic theory and number theory."
+ },
+ {
+  "pid": "P256",
+  "eventId": "WB123",
+  "name": "Intersection cohomology",
+  "type": "birth-by-fusion",
+  "from": [
+   "algebraic topology",
+   "algebraic geometry",
+   "representation theory"
+  ],
+  "to": [
+   "intersection cohomology / perverse sheaves"
+  ],
+  "summary": "Goresky and MacPherson extend Poincare duality to singular spaces."
+ },
+ {
+  "pid": "P259",
+  "eventId": "MB37",
+  "name": "Deligne proof of Weil conjectures",
+  "type": "technique-transfer",
+  "from": [
+   "etale cohomology",
+   "modular forms (Rankin's method)",
+   "Lefschetz pencils"
+  ],
+  "to": [
+   "number theory / arithmetic geometry"
+  ],
+  "summary": "Etale cohomology plus Lefschetz pencils and Rankin methods proved the Riemann hypothesis for varieties over finite fields."
+ },
+ {
+  "pid": "P495",
+  "eventId": "P52",
+  "name": "Finite-gap integration of soliton equations",
+  "type": "technique-transfer",
+  "from": [
+   "algebraic geometry (Riemann surfaces, theta functions, Jacobians)"
+  ],
+  "to": [
+   "integrable systems / nonlinear PDE"
+  ],
+  "summary": "Theta functions of algebraic curves give explicit periodic solutions of KdV and related soliton equations."
+ },
+ {
+  "pid": "P030",
+  "eventId": "E38",
+  "name": "Furstenberg: ergodic theory proves Szemeredi's theorem",
+  "type": "technique-transfer",
+  "from": [
+   "Analysis"
+  ],
+  "to": [
+   "Combinatorics",
+   "Number theory"
+  ],
+  "summary": "Density statements about integers are translated into recurrence statements for measure-preserving systems and proved there."
+ }
+]

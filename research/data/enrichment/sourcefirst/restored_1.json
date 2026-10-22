@@ -1,0 +1,438 @@
+[
+ {
+  "file": "A_01.json",
+  "pid": "P184",
+  "person": "Callippus of Cyzicus",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Callippus/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Callippus' own text does not survive in the sources checked, so no work by him could be verified. The biography was fetched (MacTutor)."
+ },
+ {
+  "file": "A_01.json",
+  "pid": "P164",
+  "person": "Leonhard Euler",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Euler Archive / Pacific Scholarly Commons E792 (Tractatus de numerorum doctrina) was fetched, but its record does not mention Euclid Books VII-IX or perfect numbers, so no link to this event is verified. The developer role is not supported by a checked source."
+ },
+ {
+  "file": "A_01.json",
+  "pid": "P000",
+  "person": "Democritus",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Democritus/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "No surviving Democritean text on the cone and pyramid volumes was verified; the claim is known only through later testimony. The sourcefirst record itself lists him as a precursor, so the developer role is not supported."
+ },
+ {
+  "file": "A_01.json",
+  "pid": "P459",
+  "person": "Nasir al-Din al-Tusi",
+  "role": "systematiser",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Tusi_Nasir/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Biography verified (MacTutor). The Treatise on the Quadrilateral was not located as an edition or translation on archive.org or Crossref, so no work URL was fetched."
+ },
+ {
+  "file": "A_01.json",
+  "pid": "P189",
+  "person": "Autolycus of Pitane",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Autolycus/",
+  "works": [
+   {
+    "citation": "Autolycus of Pitane, On the Moving Sphere (Autolyci De sphaera quae movetur liber), edited by Friedrich Hultsch, 1885 (original c. 330 BC, approximate)",
+    "year": 1885,
+    "url": "https://archive.org/details/autolycidesphae01hultgoog",
+    "whyItMatters": "Greek text on the geometry of the rotating sphere, the background that Menelaus' Sphaerica extends to spherical triangles."
+   }
+  ],
+  "status": "restored",
+  "note": "Restored as a precursor-level developer: the work is the earliest surviving Greek spherical text in the event's chain. The 1885 Hultsch edition is cited; the original date c. 330 BC is approximate."
+ },
+ {
+  "file": "A_02.json",
+  "pid": "P148",
+  "person": "Liu Zhuo",
+  "role": "originator",
+  "biographyUrl": "https://zh.wikipedia.org/wiki/%E5%88%98%E7%84%AF",
+  "works": [],
+  "status": "unverifiable",
+  "note": "No English Wikipedia or MacTutor page exists (checked). The Chinese Wikipedia page (fetched) confirms he compiled the Huangji calendar (Huangji li) and its non-adoption. The calendar text does not survive in the sources checked, so no work by him was verified."
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P121",
+  "person": "Ibn Mu'adh al-Jayyani",
+  "role": "systematiser",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Jayyani/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Biography verified (MacTutor; its own note says identification with the Cordoba scholar is not certain). The Book of Unknown Arcs of a Sphere edition with Spanish translation (cited by MacTutor) was not located on archive.org or Crossref. No English Wikipedia article exists under this name."
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P160",
+  "person": "al-Mahani",
+  "role": "originator",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Mahani/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Input role 'Muhammad ibn Isa' is not in the controlled vocabulary; set to originator and the person is Muhammad ibn Isa al-Mahani. MacTutor says his writings are lost except as quoted by later authors; no surviving work was verified."
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P160",
+  "person": "Menaechmus",
+  "role": "originator",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Menaechmus/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Menaechmus' own text does not survive; the conic solution is known only from later reports. No surviving text by him was verified."
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P178",
+  "person": "Ibrahim ibn Sinan",
+  "role": "developer",
+  "biographyUrl": "https://en.wikipedia.org/wiki/Ibrahim_ibn_Sinan",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Biography verified (Wikipedia). An edition of his geometry (Rashed) appears only as a review (Charette, J. Islamic Studies 2003, DOI 10.1093/jis/14.2.217); the Crossref chapters found on quadrature are on Archimedes. No edition of his quadrature treatise was verified."
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P172",
+  "person": "Ibn al-Haytham",
+  "role": "developer",
+  "biographyUrl": "https://en.wikipedia.org/wiki/Ibn_al-Haytham",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Biography verified (Wikipedia). No edition or translation of his commentary on Euclid's premises or parallel postulate was located on archive.org or Crossref, so no work URL was fetched."
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P177",
+  "person": "Al-Karaji",
+  "role": "originator",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Karaji/",
+  "works": [
+   {
+    "citation": "Al-Karaji (Karaji), Al-Fakhri (original c. 1010, approximate); extract edited and translated by Franz Woepcke, Paris, 1853",
+    "year": 1853,
+    "url": "https://archive.org/details/extraitdufakhrt00karagoog",
+    "whyItMatters": "19th-century edition of part of al-Karaji's algebra treatise Al-Fakhri, the main surviving source (per MacTutor) for his arithmetised polynomial algebra."
+   }
+  ],
+  "status": "restored",
+  "note": "Restored (originator). The Woepcke 1853 extract is the verified source; the binomial and induction content this event names is in al-Karaji's lost al-Badi' and is not verified in this extract."
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P122",
+  "person": "Al-Karaji",
+  "role": "originator",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Karaji/",
+  "works": [
+   {
+    "citation": "Al-Karaji (Karaji), Al-Fakhri (original c. 1010, approximate); extract edited and translated by Franz Woepcke, Paris, 1853",
+    "year": 1853,
+    "url": "https://archive.org/details/extraitdufakhrt00karagoog",
+    "whyItMatters": "19th-century edition of part of al-Karaji's algebra treatise Al-Fakhri, the main surviving source (per MacTutor) for his arithmetised polynomial algebra."
+   }
+  ],
+  "status": "restored",
+  "note": "Restored (originator). The verified Woepcke 1853 extract of Al-Fakhri is cited for his polynomial algebra; MacTutor notes that historians still debate his geometric justifications."
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P149",
+  "person": "Jia Xian",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Jia_Xian/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Biography verified (MacTutor). Jia Xian's Shi suo suan shu is lost; Yang Hui's 1261 report of it (named in sourcefirst) was not verified. No work by him was verified."
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P136",
+  "person": "al-Mahani",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Mahani/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Same person as the al-Mahani entry for P160. Mahani's reduction is the precursor; no surviving work verified. Khayyam's treatise (the event's main text) was not verified here."
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P136",
+  "person": "Menaechmus",
+  "role": "originator",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Menaechmus/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Same person as the Menaechmus entry for P160. Known only from later reports; no surviving text verified."
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P125",
+  "person": "Jeffrey Oaks",
+  "role": "popularizer",
+  "biographyUrl": null,
+  "works": [],
+  "status": "unverifiable",
+  "note": "No biography page: English Wikipedia 'Jeffrey Oaks' returns 404 (fetched). No work by Oaks located. The Crossref hit for Sharaf al-Din's Mu'adalat (DOI 10.2307/604533) is by Berggren, not Oaks."
+ },
+ {
+  "file": "A_04.json",
+  "pid": "P198",
+  "person": "Al-Jayyani",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Jayyani/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Same person as the P121 entry. The Regiomontanus link is indirect (MacTutor says one of his sources was al-Jayyani's book). No edition of the work was located, so no work URL was verified."
+ },
+ {
+  "file": "A_06.json",
+  "pid": "P116",
+  "person": "Jia Xian",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Jia_Xian/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Biography verified (MacTutor). Jia Xian is a precursor of the triangle, not the developer of a dated work; no work by him was verified. The Yang Hui and Zhu Shijie transmissions were not checked."
+ },
+ {
+  "file": "A_06.json",
+  "pid": "P443",
+  "person": "Giulio Fagnano",
+  "role": "originator",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Fagnano_Giulio/",
+  "works": [
+   {
+    "citation": "Giulio Carlo di Fagnano, Produzioni matematiche (collected mathematical papers), 1750",
+    "year": 1750,
+    "url": "https://archive.org/details/bub_gb_NA0NVGqz4V8C",
+    "whyItMatters": "Collects Fagnano's lemniscate papers; MacTutor says his analytic transformations for rectifying the lemniscate laid the foundation for elliptic integrals."
+   }
+  ],
+  "status": "restored",
+  "note": "Restored (originator). MacTutor confirms the lemniscate work; the 1750 collection is the verified item. The 1694 Bernoulli introduction of the lemniscate is not Fagnano's work. Individual 1718 papers were not checked."
+ },
+ {
+  "file": "A_06.json",
+  "pid": "P170",
+  "person": "Jakob Bernoulli",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bernoulli_Jacob/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Biography verified; MacTutor confirms Jakob Bernoulli's general method for evolutes. The 1744 Opera record (archive.org jacobibernoulli00unkngoog, a 1967 reprint) was not opened for the evolute papers, so no work was verified."
+ },
+ {
+  "file": "A_06.json",
+  "pid": "P133",
+  "person": "Edmond Halley",
+  "role": "popularizer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Halley/",
+  "works": [
+   {
+    "citation": "Isaac Newton, Philosophiae naturalis principia mathematica, first edition, 1687 (edited and published with Edmond Halley's help)",
+    "year": 1687,
+    "url": "https://archive.org/details/philosophiaenatu00newt_0",
+    "whyItMatters": "The inverse-square dynamics that Halley pressed Newton to write and paid to print (MacTutor)."
+   },
+   {
+    "citation": "Edmond Halley, A Synopsis of the Astronomy of Comets, 1705",
+    "year": 1705,
+    "url": "https://archive.org/details/synopsisofastron00hall",
+    "whyItMatters": "Halley applies Newtonian orbit theory to comets, the popular use of the event's theory."
+   }
+  ],
+  "status": "restored",
+  "note": "Restored with role changed from developer to popularizer: MacTutor credits Newton with the theory, while Halley urged, edited and paid for the Principia and applied the theory to comets in 1705."
+ },
+ {
+  "file": "A_07.json",
+  "pid": "P157",
+  "person": "Johann Bernoulli",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bernoulli_Johann/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Biography verified (MacTutor), which does not discuss geodesics. The Opera omnia (1742) record on archive.org was not checked for geodesic content, so it is not cited."
+ },
+ {
+  "file": "A_08.json",
+  "pid": "P162",
+  "person": "Joseph-Louis Lagrange",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Biography verified (MacTutor): Lagrange's Mélanges de Turin work on sound and vibrating strings. The 1759 Miscellanea Taurinensia paper was not located on archive.org, so no URL was verified."
+ },
+ {
+  "file": "A_09.json",
+  "pid": "P120",
+  "person": "Christian Goldbach",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Goldbach/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Biography verified. Per the sourcefirst record Goldbach received Euler's 1750 letter with the formula, so the developer role is doubtful. Crossref DOI 10.1007/978-3-0348-0893-4_3 is an editorial essay on the Euler-Goldbach correspondence, not a Goldbach work. No Goldbach text was verified."
+ },
+ {
+  "file": "A_09.json",
+  "pid": "P188",
+  "person": "Siméon-Denis Poisson",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Poisson/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Biography verified (MacTutor), which confirms Poisson's 1813 work on the potential inside attracting masses. The 1813 memoir was not located; the Societe philomathique Bulletin volumes found on archive.org were not matched to it."
+ },
+ {
+  "file": "A_09.json",
+  "pid": "P456",
+  "person": "Jean-Charles de Borda",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Borda/",
+  "works": [
+   {
+    "citation": "Jean-Charles de Borda, 'Memoire sur les elections au scrutin', in Histoire de l'Academie royale des sciences, Annee 1781 (printed 1784), p. 657 ff.",
+    "year": 1781,
+    "url": "https://archive.org/details/histoiredelacad81hist",
+    "whyItMatters": "Borda's point-scoring method for elections, the rival to Condorcet's pairwise criterion (Condorcet 1785) that the event compares."
+   }
+  ],
+  "status": "restored",
+  "note": "Restored. The memoir title and page 657 were confirmed in the archive.org OCR text of the Annee 1781 volume (printed 1784)."
+ },
+ {
+  "file": "A_09.json",
+  "pid": "P124",
+  "person": "Leonhard Euler",
+  "role": "systematiser",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Gauss, not Euler, systematised the Disquisitiones; Euler's number theory is a precursor. E792 was fetched but does not link to the systematisation, so the role 'systematiser' is not supported."
+ },
+ {
+  "file": "A_11.json",
+  "pid": "P153",
+  "person": "Joseph-Louis Lagrange",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Biography verified: MacTutor confirms the 1770 four-squares result. The 1770 paper was not located on archive.org, so no URL was verified. This is a precursor to Jacobi's theta-function proof rather than its developer."
+ },
+ {
+  "file": "A_12.json",
+  "pid": "P356",
+  "person": "Victor Puiseux",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Puiseux/",
+  "works": [
+   {
+    "citation": "Victor Puiseux, 'Recherches sur les fonctions algebriques', Journal de mathematiques pures et appliquees 15 (1850), p. 365 ff.",
+    "year": 1850,
+    "url": "https://www.numdam.org/item/JMPA_1850_1_15__365_0/",
+    "whyItMatters": "Puiseux's 1850 analysis of algebraic functions, including their local branch expansions, which the later Riemann-surface theory of such functions builds on (the link is my reading, not stated on the page)."
+   }
+  ],
+  "status": "restored",
+  "note": "Restored. The 1850 paper was checked on Numdam. The link to Riemann surfaces is my reading; MacTutor lists the paper but does not discuss Riemann surfaces."
+ },
+ {
+  "file": "A_12.json",
+  "pid": "P397",
+  "person": "Emmy Noether",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Biography verified (MacTutor). Its bibliography lists secondary studies (Dieudonne 1984, Hirzebruch 1996), not Noether-authored topology papers. No Noether work on Betti numbers was verified."
+ },
+ {
+  "file": "A_13.json",
+  "pid": "P448",
+  "person": "Jules Houel",
+  "role": "popularizer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Houel/",
+  "works": [
+   {
+    "citation": "Eugenio Beltrami, 'Essai d'interpretation de la geometrie non-euclidienne' (original Italian 1868), French translation by J. Houel, Annales scientifiques de l'Ecole normale superieure 6 (1869), p. 251 ff.",
+    "year": 1869,
+    "url": "https://www.numdam.org/item/ASENS_1869_1_6__251_0/",
+    "whyItMatters": "Houel's translation makes Beltrami's model of non-Euclidean geometry available in French, the popularising step the event records."
+   }
+  ],
+  "status": "restored",
+  "note": "Restored. The Numdam record confirms the title and translator; the original Beltrami essay date 1868 is noted in the citation. MacTutor confirms Houel translated Beltrami."
+ },
+ {
+  "file": "A_14.json",
+  "pid": "P436",
+  "person": "Giuseppe Peano",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Peano/",
+  "works": [
+   {
+    "citation": "Giuseppe Peano, Arithmetices principia, nova methodo exposita, 1889",
+    "year": 1889,
+    "url": "https://archive.org/details/arithmeticespri00peangoog",
+    "whyItMatters": "Axiomatises arithmetic in a symbolic logical notation, the formal reduction style of the event. Peano is not a logicist himself (Frege and Russell are), so the developer role is qualified."
+   }
+  ],
+  "status": "restored",
+  "note": "Restored (developer), with a caveat: Peano's 1889 book is a formal axiomatisation, not a logicist reduction; the role is kept as in the input."
+ },
+ {
+  "file": "A_15.json",
+  "pid": "P379",
+  "person": "Luigi Cremona",
+  "role": "originator",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Cremona/",
+  "works": [
+   {
+    "citation": "Luigi Cremona, Introduzione ad una teoria geometrica delle curve piane, 1862",
+    "year": 1862,
+    "url": "https://archive.org/details/introduzioneadun00cremuoft",
+    "whyItMatters": "Cremona's early systematic book on plane curves, from the geometric programme that became the Italian school."
+   }
+  ],
+  "status": "restored",
+  "note": "Restored (originator). Verified record only; Cremona's later Italian-school papers were not checked."
+ },
+ {
+  "file": "A_20.json",
+  "pid": "P395",
+  "person": "Emmy Noether",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Same biography as P397. No Noether-authored homology paper was located in Crossref or MacTutor, so the 1925 claim in the sourcefirst record is unverified."
+ },
+ {
+  "file": "A_24.json",
+  "pid": "P279",
+  "person": "Pierre Ossian Bonnet",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bonnet/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Biography verified (MacTutor, 'Pierre Bonnet' = Pierre Ossian Bonnet), which confirms his 1844 differential geometry paper containing the Gauss-Bonnet theorem. The 1848 memoir was not located on archive.org or Numdam, so no URL was verified."
+ }
+]

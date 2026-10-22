@@ -1,0 +1,529 @@
+{
+  "files": [
+    "data/collection/enrichment/scale/milestones45.json"
+  ],
+  "works": 27,
+  "resultCounts": {
+    "verified": 25,
+    "unsupported": 2
+  },
+  "resultCountsByType": {
+    "person_work": {
+      "verified": 9,
+      "unsupported": 1
+    },
+    "milestone_work": {
+      "verified": 16,
+      "unsupported": 1
+    }
+  },
+  "fileErrors": [],
+  "citations": [
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "E57",
+      "itemType": "person_work",
+      "person": "Martin Hairer",
+      "citation": "A theory of regularity structures",
+      "claimedYear": 2013,
+      "citedUrl": "https://arxiv.org/abs/1303.5113",
+      "result": "verified",
+      "recordTitle": "A theory of regularity structures",
+      "recordYears": [
+        2013
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=1303.5113",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "E57",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "M. Hairer, A theory of regularity structures, arXiv:1303.5113 (2013)",
+      "claimedYear": 2013,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/1303.5113",
+      "result": "verified",
+      "recordTitle": "A theory of regularity structures",
+      "recordYears": [
+        2013
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=1303.5113",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "E57",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "first_application",
+      "citation": "M. Hairer, A theory of regularity structures, arXiv:1303.5113 (2013)",
+      "claimedYear": 2013,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/1303.5113",
+      "result": "verified",
+      "recordTitle": "A theory of regularity structures",
+      "recordYears": [
+        2013
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=1303.5113",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "E59",
+      "itemType": "person_work",
+      "person": "Terence Tao",
+      "citation": "On a conjecture of Marton",
+      "claimedYear": 2023,
+      "citedUrl": "https://arxiv.org/abs/2311.05762",
+      "result": "verified",
+      "recordTitle": "On a conjecture of Marton",
+      "recordYears": [
+        2023
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=2311.05762",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "E59",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "W. T. Gowers, B. Green, F. Manners and T. Tao, On a conjecture of Marton, arXiv:2311.05762 (2023)",
+      "claimedYear": 2023,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/2311.05762",
+      "result": "verified",
+      "recordTitle": "On a conjecture of Marton",
+      "recordYears": [
+        2023
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=2311.05762",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "WC53/QC64",
+      "itemType": "person_work",
+      "person": "Terry Lyons",
+      "citation": "Differential equations driven by rough signals (I): an extension of an inequality of L. C. Young",
+      "claimedYear": 1994,
+      "citedUrl": "https://doi.org/10.4310/MRL.1994.v1.n4.a5",
+      "result": "verified",
+      "recordTitle": "Differential equations driven by rough signals (I): an extension of an inequality of L. C. Young",
+      "recordYears": [
+        1994
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.4310/mrl.1994.v1.n4.a5",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "WC53/QC64",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "T. Lyons, Differential equations driven by rough signals (I): an extension of an inequality of L. C. Young, Math. Res. Lett. 1 (1994)",
+      "claimedYear": 1994,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.4310/MRL.1994.v1.n4.a5",
+      "result": "verified",
+      "recordTitle": "Differential equations driven by rough signals (I): an extension of an inequality of L. C. Young",
+      "recordYears": [
+        1994
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.4310/mrl.1994.v1.n4.a5",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "WC53/QC64",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "consolidation",
+      "citation": "T. Lyons, Differential equations driven by rough signals, Rev. Mat. Iberoam. 14 (1998)",
+      "claimedYear": 1998,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.4171/RMI/240",
+      "result": "verified",
+      "recordTitle": "Differential equations driven by rough signals",
+      "recordYears": [
+        1998
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.4171/rmi/240",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "QC7/WC43",
+      "itemType": "person_work",
+      "person": "Timothy Gowers",
+      "citation": "A new proof of Szemerédi’s theorem",
+      "claimedYear": 2001,
+      "citedUrl": "https://doi.org/10.1007/s00039-001-0332-9",
+      "result": "verified",
+      "recordTitle": "A new proof of Szemerédi's theorem",
+      "recordYears": [
+        2001
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1007/s00039-001-0332-9",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "QC7/WC43",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "key_development",
+      "citation": "W. T. Gowers, A new proof of Szemerédi’s theorem for arithmetic progressions of length four, GAFA 8 (1998)",
+      "claimedYear": 1998,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.1007/s000390050065",
+      "result": "verified",
+      "recordTitle": "A New Proof of Szemer�di's Theorem for Arithmetic Progressions of Length Four",
+      "recordYears": [
+        1998
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1007/s000390050065",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "QC7/WC43",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "key_development",
+      "citation": "W. T. Gowers, A new proof of Szemerédi’s theorem, GAFA 11 (2001)",
+      "claimedYear": 2001,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.1007/s00039-001-0332-9",
+      "result": "verified",
+      "recordTitle": "A new proof of Szemerédi's theorem",
+      "recordYears": [
+        2001
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1007/s00039-001-0332-9",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "WC44/QC2",
+      "itemType": "person_work",
+      "person": "Terence Tao",
+      "citation": "Additive Combinatorics",
+      "claimedYear": 2006,
+      "citedUrl": "https://www.cambridge.org/core/books/additive-combinatorics/D408BA34B567974CC8FB0CEC2A49A807",
+      "result": "unsupported",
+      "recordTitle": null,
+      "recordYears": [],
+      "recordUrl": null,
+      "recordNote": null,
+      "titleCheck": "unavailable"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "WC44/QC2",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "key_development",
+      "citation": "J. Bourgain, N. Katz and T. Tao, A sum-product estimate in finite fields, and applications, GAFA 14 (2004)",
+      "claimedYear": 2004,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.1007/s00039-004-0451-1",
+      "result": "verified",
+      "recordTitle": "A sum-product estimate in finite fields, and applications",
+      "recordYears": [
+        2004
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1007/s00039-004-0451-1",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "WC44/QC2",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "consolidation",
+      "citation": "T. Tao and V. H. Vu, Additive Combinatorics, Cambridge University Press (print 2006)",
+      "claimedYear": 2006,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://www.cambridge.org/core/books/additive-combinatorics/D408BA34B567974CC8FB0CEC2A49A807",
+      "result": "unsupported",
+      "recordTitle": null,
+      "recordYears": [],
+      "recordUrl": null,
+      "recordNote": null,
+      "titleCheck": "unavailable"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "WC11/QC39",
+      "itemType": "person_work",
+      "person": "Mikhail Khovanov",
+      "citation": "A categorification of the Jones polynomial",
+      "claimedYear": 1999,
+      "citedUrl": "https://arxiv.org/abs/math/9908171",
+      "result": "verified",
+      "recordTitle": "A categorification of the Jones polynomial",
+      "recordYears": [
+        1999
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F9908171",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "WC11/QC39",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "M. Khovanov, A categorification of the Jones polynomial, arXiv:math/9908171 (1999)",
+      "claimedYear": 1999,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/math/9908171",
+      "result": "verified",
+      "recordTitle": "A categorification of the Jones polynomial",
+      "recordYears": [
+        1999
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F9908171",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "WC55",
+      "itemType": "person_work",
+      "person": "Kurt Johansson",
+      "citation": "Shape Fluctuations and Random Matrices",
+      "claimedYear": 1999,
+      "citedUrl": "https://arxiv.org/abs/math/9903134",
+      "result": "verified",
+      "recordTitle": "Shape Fluctuations and Random Matrices",
+      "recordYears": [
+        1999
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F9903134",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "WC55",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "K. Johansson, Shape Fluctuations and Random Matrices, arXiv:math/9903134 (1999)",
+      "claimedYear": 1999,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/math/9903134",
+      "result": "verified",
+      "recordTitle": "Shape Fluctuations and Random Matrices",
+      "recordYears": [
+        1999
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F9903134",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "WC4",
+      "itemType": "person_work",
+      "person": "Grigory Mikhalkin",
+      "citation": "Counting curves via lattice paths in polygons",
+      "claimedYear": 2002,
+      "citedUrl": "https://arxiv.org/abs/math/0209253",
+      "result": "verified",
+      "recordTitle": "Counting curves via lattice paths in polygons",
+      "recordYears": [
+        2002
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0209253",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "WC4",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_application",
+      "citation": "G. Mikhalkin, Counting curves via lattice paths in polygons, arXiv:math/0209253 (2002)",
+      "claimedYear": 2002,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/math/0209253",
+      "result": "verified",
+      "recordTitle": "Counting curves via lattice paths in polygons",
+      "recordYears": [
+        2002
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0209253",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "WC4",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "key_development",
+      "citation": "G. Mikhalkin, Enumerative tropical algebraic geometry in R2, arXiv:math/0312530 (2003)",
+      "claimedYear": 2003,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/math/0312530",
+      "result": "verified",
+      "recordTitle": "Enumerative tropical algebraic geometry in R2",
+      "recordYears": [
+        2003
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0312530",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "P50",
+      "itemType": "person_work",
+      "person": "Richard P. Thomas",
+      "citation": "A holomorphic Casson invariant for Calabi–Yau 3-folds, and bundles on K3 fibrations",
+      "claimedYear": 1998,
+      "citedUrl": "https://arxiv.org/abs/math/9806111",
+      "result": "verified",
+      "recordTitle": "A holomorphic Casson invariant for Calabi-Yau 3-folds, and bundles on K3 fibrations",
+      "recordYears": [
+        1998
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F9806111",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "P50",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "R. P. Thomas, A holomorphic Casson invariant for Calabi–Yau 3-folds, and bundles on K3 fibrations, arXiv:math/9806111 (1998)",
+      "claimedYear": 1998,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/math/9806111",
+      "result": "verified",
+      "recordTitle": "A holomorphic Casson invariant for Calabi-Yau 3-folds, and bundles on K3 fibrations",
+      "recordYears": [
+        1998
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F9806111",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "P50",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "key_development",
+      "citation": "M. Kontsevich and Y. Soibelman, Stability structures, motivic Donaldson–Thomas invariants and cluster transformations, arXiv:0811.2435 (2008)",
+      "claimedYear": 2008,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/0811.2435",
+      "result": "verified",
+      "recordTitle": "Stability structures, motivic Donaldson-Thomas invariants and cluster transformations",
+      "recordYears": [
+        2008
+      ],
+      "recordUrl": "https://arxiv.org/abs/0811.2435",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "P69",
+      "itemType": "person_work",
+      "person": "Jean-François Le Gall",
+      "citation": "Uniqueness and universality of the Brownian map",
+      "claimedYear": 2011,
+      "citedUrl": "https://arxiv.org/abs/1105.4842",
+      "result": "verified",
+      "recordTitle": "Uniqueness and universality of the Brownian map",
+      "recordYears": [
+        2011
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=1105.4842",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "P69",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "J.-F. Marckert and A. Mokkadem, Limit of normalized quadrangulations: The Brownian map, arXiv:math/0403398 (2004)",
+      "claimedYear": 2004,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/math/0403398",
+      "result": "verified",
+      "recordTitle": "Limit of normalized quadrangulations: The Brownian map",
+      "recordYears": [
+        2004
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0403398",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones45.json",
+      "eventId": "P69",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "key_development",
+      "citation": "J.-F. Le Gall, Uniqueness and universality of the Brownian map, arXiv:1105.4842 (2011)",
+      "claimedYear": 2011,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/1105.4842",
+      "result": "verified",
+      "recordTitle": "Uniqueness and universality of the Brownian map",
+      "recordYears": [
+        2011
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=1105.4842",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    }
+  ]
+}

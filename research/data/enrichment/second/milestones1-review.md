@@ -1,0 +1,22 @@
+# Direct audit of the second ten-event milestone batch
+
+This is the ten-event batch outside the fixed 30-event pilot: E25, E30, E32, E33, E36, E42, E49, E50, E51 and E52. [`milestones1.json`](milestones1.json) has 34 milestones, three or four per event. It was assembled directly from the source-linked [`batch-02-direct.json`](../batch-02-direct.json) ledger and checked against the cited original publications and bibliographic records. It is **not** an independent second research pass. The schema validator finds no errors and one intentional warning (E51 below).
+
+## Date decisions to preserve
+
+| Event | Decision | Remaining question |
+| --- | --- | --- |
+| E25 Game theory | Von Neumann's published 1928 minimax paper is both the first-statement and target-application anchor; the 1944 book consolidates the named field. | Borel's earlier papers are acknowledged, but a particular precursor year needs a checked original record before adding a milestone. |
+| E30 Scheme theory | EGA I gives a checked 1960 public exposition; EGA II (1961) is the first separately documented application in this record. | Whether EGA I itself counts as the first purposeful application is interpretive; the earlier flat research used 1960 for that date. Neither year is silently erased. [EGA II record](https://numdam.org/item/PMIHES_1961__8__5_0/). |
+| E32 Hilbert's tenth problem | The 1961 Davis–Putnam–Robinson reduction is a precursor; Matiyasevich's 1970 result completes the target problem. | The 1972 detailed account is a later development, not the first public completion. [DPR record](https://doi.org/10.2307/1970289); [Matiyasevich record](https://www.mathnet.ru/eng/rm5112). |
+| E33 Atiyah–Singer | The 1963 public announcement dates the theorem; 1968 dates the detailed proof. Gel'fand's 1960 index question remains a precursor. | The short announcement and full proof must remain separate milestones. |
+| E36 Kneser's conjecture | Kneser's mid-1950s conjecture is a precursor; Lovász's 1978 proof is the topological transfer. | The precise original conjecture publication year should be rechecked against the 1955/1956 bibliography before assigning higher confidence. |
+| E42 Jones polynomial | The January 1985 published article dates the public statement and operator-algebra application; 1984 is the discovery year retained in notes. | No 1984 public paper was established. [1987 development](https://annals.math.princeton.edu/1987/126-2/p05). |
+| E49 Schramm–Loewner evolution | The 1999 [public preprint](https://arxiv.org/abs/math/9904022) dates the first statement; the 2000 journal year remains noted. | A peer-reviewed-only policy would use 2000; the schema currently permits public preprints. |
+| E50 Green–Tao | The [2004 public preprint](https://arxiv.org/abs/math/0404188) is the first-statement and application anchor; the 2008 journal issue is later. | Green's [2003 precursor](https://arxiv.org/abs/math/0302311) concerns the primes but is not the full theorem. |
+| E51 Polynomial method | Dvir's [2008 public preprint](https://arxiv.org/abs/0803.2336) anchors one application; Guth–Katz's [2010 preprint](https://arxiv.org/abs/1011.4105) is a distinct development; Guth's [2016 book](https://doi.org/10.1090/ulect/064) consolidates. | The broad method predates Dvir. No defensible first public statement for the whole method has been isolated, so conceptual stays empty. |
+| E52 Group expansion | The [2003 sum-product preprint](https://arxiv.org/abs/math/0301343) is a tool precursor; the [2008 Bourgain–Gamburd paper](https://doi.org/10.4007/annals.2008.167.625) anchors the target result and application. | Other group-growth precursors remain in the event notes. |
+
+For E51, Crossref gives Dvir's JAMS article an online publication date of 23 June 2008 and the containing volume 22, issue 4 a print date of October 2009. The linked work's 2009 journal citation is therefore valid; the milestone's 2008 date is the public preprint year. The metadata checker now accepts both years from [the publisher's DOI metadata](https://doi.org/10.1090/S0894-0347-08-00607-3).
+
+The checker confirms publication metadata only. Historical firstness, the Kneser precursor year, and the scheme-theory application boundary still need human source review. Unsupported Math-Net and zbMATH links are not failed citations; they require a service-specific check. No A grade or two-pass agreement rate is claimed from this direct batch.

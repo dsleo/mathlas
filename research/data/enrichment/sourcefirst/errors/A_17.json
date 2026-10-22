@@ -1,0 +1,14 @@
+[
+ {
+  "level": "warning",
+  "file": "data/collection/enrichment/sourcefirst/A_17.json",
+  "location": "[4]",
+  "message": "No first_statement milestone; explain source gap in notes"
+ },
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_17.json",
+  "location": "[4].people[1]",
+  "message": "Expected 1\u20133 works; found 0"
+ }
+]

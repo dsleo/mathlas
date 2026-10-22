@@ -1,0 +1,7 @@
+# Batch 43: direct source adjudication
+
+Ten events have 19 cited milestones. The [work check](batch43-work-verification.json) matches 46 of 56 work entries by title and year. Ten entries point to dated ECCC research-report pages that the generic checker cannot parse, not to absent works: [Natural Proofs (1994)](https://eccc.weizmann.ac.il/report/1994/010/), [Algebrization (2008)](https://eccc.weizmann.ac.il/report/2008/005/), and [Nash equilibrium complexity (2005)](https://eccc.weizmann.ac.il/report/2005/115/). Their report numbers, dates and abstracts were checked directly.
+
+The public-version checks separate [Baez–Dolan's 1995 extended-TQFT proposal](https://arxiv.org/abs/q-alg/9503002) from [Lurie's 2009 classification](https://arxiv.org/abs/0905.0465), [Ozsváth–Szabó's 2001 Heegaard-Floer preprint](https://arxiv.org/abs/math/0101206) from its 2004 journal issue, and [Kontsevich's November 1994 ICM text](https://arxiv.org/abs/alg-geom/9411018) from the earlier presentation. The source catalogue conflates Seiberg–Witten and Heegaard Floer work in P322; the record uses phases.
+
+P325 and P326 have verified developments but no assigned conceptual first. Sageev's 1993 thesis and early uses of the term “categorification” remain priority candidates. P482 uses the [1994 STOC paper](https://doi.org/10.1145/195058.195216), rather than the 1995 JACM article, for the public MAX-CUT result. No independent pass or grade A is implied.

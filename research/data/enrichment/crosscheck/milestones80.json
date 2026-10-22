@@ -1,0 +1,631 @@
+[
+  {
+    "eventId": "MB7",
+    "canonicalName": "Tarski truth definition and model theory",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1933,
+        "precision": "year",
+        "label": "Tarski's truth definition for formalized languages",
+        "work": "A. Tarski, Pojecie prawdy w jezykach nauk dedukcyjnych (1933); German: Der Wahrheitsbegriff in den formalisierten Sprachen",
+        "people": [
+          "Alfred Tarski"
+        ],
+        "description": "Tarski gives a formally correct definition of truth for formalized languages.",
+        "evidence": [
+          {
+            "claim": "SEP confirms the 1933 Polish publication of the truth-definition paper",
+            "source": "Stanford Encyclopedia of Philosophy",
+            "url": "https://plato.stanford.edu/entries/tarski-truth/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The German version's year (1935 in catalogue) was not confirmed; Crossref only lists later reprints (1971, 1986)."
+      }
+    ],
+    "people": [],
+    "notes": "Searched SEP, Crossref. SEP dates the modern model-theoretic truth definition to Tarski-Vaught 1956 (not opened as primary). Naming/institution of model theory not verified. Catalogue 1935 and 1954 dates unverified.",
+    "pid": "P257",
+    "searchTerms": [
+      "mathematical logic",
+      "semantics",
+      "model theory"
+    ]
+  },
+  {
+    "eventId": "MB37",
+    "canonicalName": "Deligne proof of Weil conjectures",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "key_development",
+        "year": 1974,
+        "precision": "year",
+        "label": "Riemann hypothesis for varieties over finite fields",
+        "work": "P. Deligne, La conjecture de Weil I, Publ. Math. IHES 43 (1974)",
+        "people": [
+          "Pierre Deligne"
+        ],
+        "description": "Deligne proves the Riemann hypothesis part of the Weil conjectures.",
+        "evidence": [
+          {
+            "claim": "Crossref record: La conjecture de Weil : I, Publ. IHES, 1974",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/bf02684373",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Abstract/content not opened; role inferred from the well-known title and catalogue summary."
+      },
+      {
+        "role": "consolidation",
+        "year": 1980,
+        "precision": "year",
+        "label": "Weil II: general purity theorem",
+        "work": "P. Deligne, La conjecture de Weil II, Publ. Math. IHES 52 (1980)",
+        "people": [
+          "Pierre Deligne"
+        ],
+        "description": "A second paper gives a more general and flexible form of the result.",
+        "evidence": [
+          {
+            "claim": "Crossref record: La conjecture de Weil : II, Publ. IHES, 1980",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/bf02684780",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "low",
+        "note": "Role (extension rather than consolidation) not checked against text."
+      }
+    ],
+    "people": [],
+    "notes": "Weil's 1949 statement of the conjectures and Grothendieck's etale cohomology not searched/verified; first_statement left empty.",
+    "pid": "P259",
+    "searchTerms": [
+      "etale cohomology",
+      "modular forms (Rankin's method)",
+      "Lefschetz pencils",
+      "number theory / arithmetic geometry"
+    ]
+  },
+  {
+    "eventId": "WB104",
+    "canonicalName": "Operator K-theory and KK-theory",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1975,
+        "precision": "year",
+        "label": "Kasparov's K-homology of elliptic operators",
+        "work": "G. G. Kasparov, Topological invariants of elliptic operators I: K-homology, Math. USSR-Izv. 9 (1975)",
+        "people": [
+          "Gennadi Kasparov"
+        ],
+        "description": "Kasparov introduces K-homology via elliptic operators.",
+        "evidence": [
+          {
+            "claim": "Crossref record, Math. USSR-Izvestiya 1975 (Russian original Izv. Akad. Nauk SSSR)",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1070/im1975v009n04abeh001497",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Calling this the first statement of KK-theory is a judgment; the bifunctor KK appears in the 1980 paper."
+      },
+      {
+        "role": "key_development",
+        "year": 1980,
+        "precision": "year",
+        "label": "Operator K-functor and extensions of C*-algebras",
+        "work": "G. G. Kasparov, The operator K-functor and extensions of C*-algebras, Izv. Akad. Nauk SSSR 44 (1980)",
+        "people": [
+          "Gennadi Kasparov"
+        ],
+        "description": "Kasparov defines the KK bifunctor and its product.",
+        "evidence": [
+          {
+            "claim": "Crossref lists the English translation (Math. USSR-Izv. 16, 1981); the Russian original is 1980",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1070/im1981v016n03abeh001320",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Original-1980 date taken from the inherited citation; Crossref shows only 1981 translation."
+      }
+    ],
+    "people": [],
+    "notes": "Searched Crossref only.",
+    "pid": "P260",
+    "searchTerms": [
+      "topological K-theory / K-homology",
+      "operator algebras",
+      "noncommutative topology (KK-theory)"
+    ]
+  },
+  {
+    "eventId": "MB102",
+    "canonicalName": "Kodaira-Spencer deformation theory",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1958,
+        "precision": "year",
+        "label": "Deformations of complex analytic structures I and II",
+        "work": "K. Kodaira, D. C. Spencer, On deformations of complex analytic structures I, II, Annals of Math. 67 (1958)",
+        "people": [
+          "Kunihiko Kodaira",
+          "Donald C. Spencer"
+        ],
+        "description": "The first two papers set up deformations of complex structures via cohomology.",
+        "evidence": [
+          {
+            "claim": "Crossref: Part I, Annals of Mathematics, March 1958",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.2307/1970009",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Crossref: Part II, Annals of Mathematics, May 1958",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.2307/1969867",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Text not opened."
+      },
+      {
+        "role": "key_development",
+        "year": 1958,
+        "precision": "year",
+        "label": "Existence of deformations",
+        "work": "K. Kodaira, D. C. Spencer, On the existence of deformations of complex analytic structures, Annals of Math. 68 (1958)",
+        "people": [
+          "Kunihiko Kodaira",
+          "Donald C. Spencer"
+        ],
+        "description": "A companion paper treats existence of deformations.",
+        "evidence": [
+          {
+            "claim": "Crossref record, September 1958",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.2307/1970256",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "low",
+        "note": "Authors/content of this record not checked beyond the title; Part III (1960) not verified."
+      }
+    ],
+    "people": [],
+    "notes": "Searched Crossref.",
+    "pid": "P261",
+    "searchTerms": [
+      "complex analysis",
+      "sheaf cohomology / Hodge theory",
+      "deformation theory"
+    ]
+  },
+  {
+    "eventId": "WB75",
+    "canonicalName": "Algebraic combinatorics / Young tableaux",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1961,
+        "precision": "year",
+        "label": "Schensted's longest increasing subsequences",
+        "work": "C. Schensted, Longest increasing and decreasing subsequences, Canad. J. Math. 13 (1961)",
+        "people": [
+          "Craige Schensted"
+        ],
+        "description": "Schensted's insertion algorithm links tableaux to subsequences.",
+        "evidence": [
+          {
+            "claim": "Crossref record, Canadian J. Math. 1961",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.4153/cjm-1961-015-3",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Tableaux themselves (Young, Frobenius) predate this; the event is the combinatorial-representation link."
+      },
+      {
+        "role": "key_development",
+        "year": 1971,
+        "precision": "year",
+        "label": "Stanley, plane partitions",
+        "work": "R. Stanley, Theory and application of plane partitions, Parts 1 and 2, Studies in Applied Math. 50 (1971)",
+        "people": [
+          "Richard Stanley"
+        ],
+        "description": "Stanley applies symmetric-function and tableau methods to plane partitions.",
+        "evidence": [
+          {
+            "claim": "Crossref: Part 1, 1971",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1002/sapm1971502167",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Crossref: Part 2, 1971",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1002/sapm1971503259",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "low",
+        "note": "Role not verified from text."
+      }
+    ],
+    "people": [],
+    "notes": "Searched Crossref. Young, Frobenius, Schur, Knuth and Robinson not verified.",
+    "pid": "P264",
+    "searchTerms": [
+      "representation theory",
+      "combinatorics",
+      "algebraic combinatorics"
+    ]
+  },
+  {
+    "eventId": "MB16",
+    "canonicalName": "Kantorovich linear programming",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1939,
+        "precision": "year",
+        "label": "Mathematical methods of organizing and planning production",
+        "work": "L. V. Kantorovich, Leningrad State University, 1939; English transl. Management Science 6(4), 1960",
+        "people": [
+          "Leonid Kantorovich"
+        ],
+        "description": "Kantorovich poses production planning as a linear extremal problem with multipliers.",
+        "evidence": [
+          {
+            "claim": "Publisher page describes the English translation of the 1939 Russian booklet",
+            "source": "INFORMS Management Science",
+            "url": "https://pubsonline.informs.org/doi/fpi/10.1287/mnsc.6.4.366",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Crossref record of the 1960 translation",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1287/mnsc.6.4.366",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Search results (Nobel biography) say the booklet was printed by Leningrad University Press in 1939",
+            "source": "Nobel Prize",
+            "url": "https://www.nobelprize.org/prizes/economic-sciences/1975/kantorovich/biographical/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Nobel bio gives a slightly different English title; the 1939 original was not seen directly."
+      }
+    ],
+    "people": [],
+    "notes": "Searched INFORMS, Crossref, Wikipedia (linear programming; no 1939 detail). Kantorovich 1942 and 1959 not verified.",
+    "pid": "P265",
+    "searchTerms": [
+      "functional analysis",
+      "economics",
+      "industrial planning",
+      "optimisation"
+    ]
+  },
+  {
+    "eventId": "WB31",
+    "canonicalName": "MCMC revival of Bayesian statistics",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1953,
+        "precision": "year",
+        "label": "Metropolis algorithm",
+        "work": "N. Metropolis et al., Equation of state calculations by fast computing machines, J. Chem. Phys. 21 (1953)",
+        "people": [
+          "Nicholas Metropolis",
+          "Arianna Rosenbluth",
+          "Marshall Rosenbluth",
+          "Augusta Teller",
+          "Edward Teller"
+        ],
+        "description": "Monte Carlo sampler from the physics setting.",
+        "evidence": [
+          {
+            "claim": "Crossref record, J. Chem. Phys., June 1953",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1063/1.1699114",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "key_development",
+        "year": 1984,
+        "precision": "year",
+        "label": "Gibbs sampler for image restoration",
+        "work": "S. Geman, D. Geman, Stochastic relaxation, Gibbs distributions, and the Bayesian restoration of images, IEEE PAMI (1984)",
+        "people": [
+          "Stuart Geman",
+          "Donald Geman"
+        ],
+        "description": "Introduces Gibbs sampling in a Bayesian image-restoration setting.",
+        "evidence": [
+          {
+            "claim": "Crossref lists only the 1987 reprint (Readings in Computer Vision); the 1984 PAMI year is from the inherited citation",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1016/b978-0-08-051581-6.50057-x",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "low",
+        "note": "1984 year not independently confirmed."
+      },
+      {
+        "role": "key_development",
+        "year": 1990,
+        "precision": "year",
+        "label": "Gelfand-Smith sampling-based Bayesian computation",
+        "work": "A. E. Gelfand, A. F. M. Smith, Sampling-based approaches to calculating marginal densities, JASA (1990)",
+        "people": [
+          "Alan Gelfand",
+          "Adrian Smith"
+        ],
+        "description": "Shows the sampler makes Bayesian posterior computation feasible.",
+        "evidence": [
+          {
+            "claim": "Crossref record of the 1989 technical-report version; the 1990 JASA year is from the inherited citation and a 1997 Crossref introduction title naming it Gelfand and Smith (1990)",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.21236/ada208388",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "low",
+        "note": "JASA 1990 not directly opened."
+      }
+    ],
+    "people": [],
+    "notes": "Searched Crossref only. No first_statement of the revival assigned.",
+    "pid": "P266",
+    "searchTerms": [
+      "statistical physics",
+      "statistics",
+      "Bayesian statistics"
+    ]
+  },
+  {
+    "eventId": "WB18",
+    "canonicalName": "Cellular automata and self-reproducing machines",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1949,
+        "precision": "year",
+        "label": "Von Neumann lectures on self-reproducing automata",
+        "work": "von Neumann, University of Illinois lectures, 1949",
+        "people": [
+          "John von Neumann"
+        ],
+        "description": "Lectures set the goal of a self-replicating machine.",
+        "evidence": [
+          {
+            "claim": "Wikipedia cites von Neumann's 1949 Illinois lectures; says the constructor was designed in the 1940s and credits Ulam's cellular automaton concept",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Von_Neumann_universal_constructor",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "low",
+        "note": "Secondary source only."
+      },
+      {
+        "role": "consolidation",
+        "year": 1966,
+        "precision": "year",
+        "label": "Theory of Self-Reproducing Automata",
+        "work": "J. von Neumann, ed. A. W. Burks, Theory of Self-Reproducing Automata, 1966",
+        "people": [
+          "John von Neumann",
+          "Arthur Burks"
+        ],
+        "description": "Burks completed and published von Neumann's manuscript posthumously.",
+        "evidence": [
+          {
+            "claim": "Wikipedia states the book was completed by Burks in 1966",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Von_Neumann_universal_constructor",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Searched Wikipedia only. Ulam's own earliest papers not found; 1948 Hixon lecture not confirmed.",
+    "pid": "P267",
+    "searchTerms": [
+      "logic",
+      "computation",
+      "biology",
+      "automata theory"
+    ]
+  },
+  {
+    "eventId": "MB79",
+    "canonicalName": "Pontryagin maximum principle",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1956,
+        "precision": "year",
+        "label": "Maximum principle formulated",
+        "work": "Pontryagin and students, 1956",
+        "people": [
+          "Lev Pontryagin"
+        ],
+        "description": "Pontryagin and his students state the maximum principle.",
+        "evidence": [
+          {
+            "claim": "Wikipedia says the principle was formulated in 1956 by Pontryagin and his students",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Pontryagin%27s_maximum_principle",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "low",
+        "note": "Original publication venue not located; may be a Doklady note."
+      }
+    ],
+    "people": [],
+    "notes": "Searched Wikipedia only. The 1961/1962 book year not verified.",
+    "pid": "P269",
+    "searchTerms": [
+      "calculus of variations",
+      "control engineering",
+      "optimal control"
+    ]
+  },
+  {
+    "eventId": "MB17",
+    "canonicalName": "Kantorovich functional analysis for numerical methods",
+    "aliases": [],
+    "phases": [],
+    "milestones": [],
+    "people": [],
+    "notes": "Searched Crossref for Kantorovich 1948 'Functional analysis and applied mathematics' and the 1959 Kantorovich-Akilov book: no matching record found. Nothing verified; left empty.",
+    "pid": "P270",
+    "searchedSources": [
+      "Crossref bibliographic search (Kantorovich 1948; Kantorovich-Akilov 1959)"
+    ],
+    "searchTerms": [
+      "functional analysis",
+      "numerical analysis",
+      "numerical analysis"
+    ]
+  },
+  {
+    "eventId": "WB105",
+    "canonicalName": "Heat equation proof of index theorem",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_application",
+        "year": 1973,
+        "precision": "year",
+        "label": "Heat equation and the index theorem",
+        "work": "M. F. Atiyah, R. Bott, V. K. Patodi, On the heat equation and the index theorem, Invent. Math. 19 (1973)",
+        "people": [
+          "Michael Atiyah",
+          "Raoul Bott",
+          "Vijay Patodi"
+        ],
+        "description": "Heat-kernel methods give a local proof of the index formula.",
+        "evidence": [
+          {
+            "claim": "Crossref record, Invent. Math., Dec 1973 (an erratum-like 1975 record also exists)",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/bf01425417",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 1983,
+        "precision": "year",
+        "label": "Getzler's supersymmetric proof",
+        "work": "E. Getzler, Pseudodifferential operators on supermanifolds and the Atiyah-Singer index theorem, Comm. Math. Phys. 92 (1983)",
+        "people": [
+          "Ezra Getzler"
+        ],
+        "description": "Simplifies the heat-kernel proof using supermanifold techniques.",
+        "evidence": [
+          {
+            "claim": "Crossref record, CMP 1983",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1007/bf01210843",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Role from title and background knowledge."
+      }
+    ],
+    "people": [],
+    "notes": "Searched Crossref only.",
+    "pid": "P272",
+    "searchTerms": [
+      "PDE (heat kernel)",
+      "topology",
+      "global analysis"
+    ]
+  },
+  {
+    "eventId": "WB112",
+    "canonicalName": "Mathematical economics via fixed points",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "key_development",
+        "year": 1954,
+        "precision": "year",
+        "label": "Existence of competitive equilibrium",
+        "work": "K. Arrow, G. Debreu, Existence of an equilibrium for a competitive economy, Econometrica 22 (1954)",
+        "people": [
+          "Kenneth Arrow",
+          "Gerard Debreu"
+        ],
+        "description": "Proves equilibrium existence via a fixed-point argument.",
+        "evidence": [
+          {
+            "claim": "Crossref record, Econometrica 1954",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.2307/1907353",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Fixed-point method taken from the catalogue summary; earlier von Neumann/Nash/Wald work not searched."
+      }
+    ],
+    "people": [],
+    "notes": "Searched Crossref only.",
+    "pid": "P275",
+    "searchTerms": [
+      "topology",
+      "economics",
+      "general equilibrium"
+    ]
+  }
+]

@@ -1,0 +1,479 @@
+[
+ {
+  "file": "A_01.json",
+  "pid": "P195",
+  "person": "Antiphon",
+  "role": "originator",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Antiphon/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "No text by Antiphon survives; the record knows the inscribed-polygon step only from later testimony. MacTutor biography checked. No edition was searched for in this pass, so no work is restored."
+ },
+ {
+  "file": "A_01.json",
+  "pid": "P175",
+  "person": "Halayudha",
+  "role": "systematiser",
+  "biographyUrl": "https://en.wikipedia.org/wiki/Halayudha",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Wikipedia page checked. Open Library search for the Mritasanjivani commentary was attempted but Open Library was unreachable at the time, so no edition is verified."
+ },
+ {
+  "file": "A_01.json",
+  "pid": "P176",
+  "person": "Hypsicles",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hypsicles/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "MacTutor biography checked. Open Library search for the Anaphoricus returned no record; no edition verified."
+ },
+ {
+  "file": "A_01.json",
+  "pid": "P189",
+  "person": "Theodosius of Bithynia",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Theodosius/",
+  "works": [
+   {
+    "citation": "Theodosius of Bithynia, Sphaerica (original c. 100 BCE per the record); edition catalogued as 'Sphaerica' (1927), Open Library",
+    "year": 1927,
+    "url": "https://openlibrary.org/works/OL33255473W",
+    "whyItMatters": "Theodosius' Sphaerics is the pre-Menelaus treatise of spherical geometry that the record places before Menelaus' Sphaerica."
+   }
+  ],
+  "status": "restored",
+  "note": "Open Library work record taken from its search API result (the work page itself was not retrievable in this pass). Editor of the 1927 edition was not checked; the original date is the record's c. 100 BCE, not a fetched date."
+ },
+ {
+  "file": "A_02.json",
+  "pid": "P156",
+  "person": "Theodorus of Cyrene",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Theodorus/",
+  "works": [
+   {
+    "citation": "Plato, Theaetetus (original c. 369 BCE; Jowett translation, Project Gutenberg edition)",
+    "year": -369,
+    "url": "https://www.gutenberg.org/ebooks/1726",
+    "whyItMatters": "Plato's dialogue is the source of the report that Theodorus proved the irrationality of the square roots of 3 to 17; Theodorus' own writing is lost."
+   }
+  ],
+  "status": "restored",
+  "note": "Year -369 is an approximate date for the dialogue, not for a Theodorus text. The Gutenberg page was fetched; the passage itself was not checked in the text."
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P121",
+  "person": "Abu Mahmud al-Khujandi",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khujandi/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "MacTutor biography checked. The sine-law priority rests on reports; no dated work by al-Khujandi was verified in this pass."
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P121",
+  "person": "Nasir al-Din al-Tusi",
+  "role": "systematiser",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Tusi_Nasir/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "MacTutor biography checked. The Treatise on the Quadrilateral (Shakl al-qatta') was not found in Open Library or Crossref searches, so no edition is verified."
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P160",
+  "person": "Abu Ja'far al-Khazin",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khazin/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "MacTutor biography checked. No dated edition or record of his conic solution was found; Open Library was later unreachable."
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P178",
+  "person": "Thabit ibn Qurra",
+  "role": "originator",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Thabit/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "MacTutor biography checked. The parabola and paraboloid treatise was not located in Open Library or Crossref searches (Crossref returned other Thabit items only)."
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P178",
+  "person": "Ibn al-Haytham",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Haytham/",
+  "works": [
+   {
+    "citation": "Roshdi Rashed, Les mathématiques infinitésimales du IXe au XIe siècle (Al-Furqan, 1993); the record places Ibn al-Haytham's paraboloid measurement in vol. 2",
+    "year": 1993,
+    "url": "https://openlibrary.org/works/OL8664924W",
+    "whyItMatters": "Rashed's study of early-medieval quadrature, which the record uses for Ibn al-Haytham's sums of fourth powers and the paraboloid volume."
+   }
+  ],
+  "status": "restored",
+  "note": "Open Library work record taken from its search API result (the work page itself was not retrievable in this pass). The Open Library entry does not show the volume number; vol. 2 is taken from the sourcefirst record. The passage was not read."
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P172",
+  "person": "Omar Khayyam",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Khayyam/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "MacTutor biography checked. Khayyam's treatise on the difficulties of Euclid's postulates was not found in Open Library or Crossref searches."
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P177",
+  "person": "Al-Samaw'al",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Samawal/",
+  "works": [
+   {
+    "citation": "Al-Samaw'al, al-Bahir fi'l-jabr (written c. 1149, at about nineteen per MacTutor); edition 'Al-Bahir en algèbre d'As-Samaw'al' (Damascus, 1972)",
+    "year": 1972,
+    "url": "https://openlibrary.org/works/OL12609911W",
+    "whyItMatters": "The record credits this algebra treatise with carrying al-Karaji's binomial arguments forward; the passage was not read here."
+   }
+  ],
+  "status": "restored",
+  "note": "Open Library work record taken from its search API result (the work page itself was not retrievable in this pass). The 1972 Damascus edition is named in the MacTutor bibliography; the Open Library record does not show the editor."
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P122",
+  "person": "Al-Samaw'al",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Samawal/",
+  "works": [
+   {
+    "citation": "Al-Samaw'al, al-Bahir fi'l-jabr (written c. 1149, at about nineteen per MacTutor); edition 'Al-Bahir en algèbre d'As-Samaw'al' (Damascus, 1972)",
+    "year": 1972,
+    "url": "https://openlibrary.org/works/OL12609911W",
+    "whyItMatters": "MacTutor states that the first book of al-Bahir defines the powers x, x^2, x^3, which is the polynomial-algebra step the record dates here."
+   }
+  ],
+  "status": "restored",
+  "note": "Open Library work record taken from its search API result (the work page itself was not retrievable in this pass). Same work as the P177 row. The 1972 edition is named in the MacTutor bibliography."
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P155",
+  "person": "Jia Xian",
+  "role": "originator",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Jia_Xian/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "MacTutor biography checked. His Shi suo suan shu is lost and the record dates the triangle only through Yang Hui (1261); no surviving work of Jia Xian was verified."
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P136",
+  "person": "Abu Ja'far al-Khazin",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khazin/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "Same person as the P160 row. MacTutor biography checked; no dated edition of his conic solution verified."
+ },
+ {
+  "file": "A_03.json",
+  "pid": "P125",
+  "person": "Sharaf al-Din al-Tusi",
+  "role": "originator",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Tusi_Sharaf/",
+  "works": [
+   {
+    "citation": "Sharaf al-Din al-Tusi, Treatise on equations (al-Mu'adalat; undated, late 12th century); edited in Roshdi Rashed (ed.), Œuvres mathématiques: Algèbre et géométrie au XIIe siècle (Les Belles Lettres, 1986)",
+    "year": 1986,
+    "url": "https://openlibrary.org/works/OL5016455W",
+    "whyItMatters": "The edition contains the cubic-equation treatise that the record names as the originating work of Sharaf al-Din's approach to equations."
+   }
+  ],
+  "status": "restored",
+  "note": "Open Library work record taken from its search API result (the work page itself was not retrievable in this pass). The Open Library author field for this record lists another name, so the record should be checked. The treatise itself is undated; the year is the edition year."
+ },
+ {
+  "file": "A_04.json",
+  "pid": "P158",
+  "person": "Al-Jayyani",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Jayyani/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "MacTutor biography checked. An edition of the Book of Unknown Arcs of a Sphere was not found in Open Library or Crossref searches."
+ },
+ {
+  "file": "A_06.json",
+  "pid": "P116",
+  "person": "Yang Hui",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Yang_Hui/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "MacTutor biography checked. Open Library search for Xiangjie jiuzhang suanfa returned no record; no edition verified."
+ },
+ {
+  "file": "A_06.json",
+  "pid": "P174",
+  "person": "Isaac Newton",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Newton/",
+  "works": [
+   {
+    "citation": "Isaac Newton, Analysis by equations of an infinite number of terms (De analysi per aequationes numero terminorum infinitas; composed c. 1669, printed 1711), in Sir Isaac Newton's Two Treatises (archive.org scan)",
+    "year": 1745,
+    "url": "https://archive.org/details/sirisaacnewtons00stewgoog",
+    "whyItMatters": "Newton's infinite-series treatise, which gives the series method behind the binomial step the record dates to 1664-65; the archive title confirms the contents."
+   }
+  ],
+  "status": "restored",
+  "note": "The archive item's year field reads 1745 (edition year); the item title was fetched and confirms the included treatise. The composition date c. 1669 is not from a fetched page and is not used as the year."
+ },
+ {
+  "file": "A_06.json",
+  "pid": "P443",
+  "person": "Leonhard Euler",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+  "works": [
+   {
+    "citation": "Leonhard Euler, 'De integratione aequationis differentialis m dx/√(1-x^4) = n dy/√(1-y^4)', Novi Commentarii Petropolitani 6 (1761); written 1751 (Euler Archive E251)",
+    "year": 1761,
+    "url": "https://scholarlycommons.pacific.edu/euler-works/251/",
+    "whyItMatters": "Treats the lemniscate-type differential equation whose solutions give the addition relations for elliptic integrals that the record credits to Euler and Fagnano."
+   },
+   {
+    "citation": "Leonhard Euler, 'Observationes de comparatione arcuum curvarum irrectificibilium', Novi Commentarii Petropolitani 6 (1761); written 1753 (Euler Archive E252)",
+    "year": 1761,
+    "url": "https://scholarlycommons.pacific.edu/euler-works/252/",
+    "whyItMatters": "Gives theorems on elliptic and lemniscate arcs, the arc-comparison side of the same theory."
+   }
+  ],
+  "status": "restored",
+  "note": "Both entries are Euler Archive records, fetched from the Pacific Euler Archive mirror; the year is the publication year, with the composition year in the citation."
+ },
+ {
+  "file": "A_06.json",
+  "pid": "P192",
+  "person": "Seki Takakazu",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Seki/",
+  "works": [
+   {
+    "citation": "Seki Takakazu, Kai Fukudai no Hō (1683, the record's precursor date), in Seki Takakazu zenshū (collected works, 1974)",
+    "year": 1974,
+    "url": "https://openlibrary.org/works/OL12885559W",
+    "whyItMatters": "The collected works are the modern edition where Seki's 1683 method for solving 'concealed problems' is edited; the record names this as the first determinant-type precursor."
+   }
+  ],
+  "status": "restored",
+  "note": "Open Library work record taken from its search API result (the work page itself was not retrievable in this pass). The 1974 collected works is an edition; the passage was not read, and the year is the edition year."
+ },
+ {
+  "file": "A_06.json",
+  "pid": "P133",
+  "person": "Robert Hooke",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hooke/",
+  "works": [
+   {
+    "citation": "Robert Hooke, An Attempt to Prove the Motion of the Earth from Observations (1674)",
+    "year": 1674,
+    "url": "https://openlibrary.org/works/OL6033961W",
+    "whyItMatters": "Hooke's printed statement of attraction toward a central body, the basis of his later claim to the inverse-square law that the record lists as disputed."
+   },
+   {
+    "citation": "Robert Hooke, Conamen ad motum Telluris probandum ex observationibus (Latin version, 1679)",
+    "year": 1679,
+    "url": "https://openlibrary.org/books/OL15415841M",
+    "whyItMatters": "The Latin version of the 1674 attempt, with the same argument for attraction."
+   }
+  ],
+  "status": "restored",
+  "note": "Open Library work record taken from its search API result (the work page itself was not retrievable in this pass). The Principia proofs were not read; the record's priority dispute is not settled here."
+ },
+ {
+  "file": "A_08.json",
+  "pid": "P430",
+  "person": "Joseph-Louis Lagrange",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "MacTutor biography checked. The Turin memoirs on vibrating strings were not located in the searches available in this pass."
+ },
+ {
+  "file": "A_09.json",
+  "pid": "P120",
+  "person": "Francesco Maurolico",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Maurolico/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "MacTutor biography checked. The 1575 Opuscula mathematica is on archive.org (identifier ita-bnc-mag-00000852-001), but its polyhedron content was not checked, so it is not restored."
+ },
+ {
+  "file": "A_09.json",
+  "pid": "P135",
+  "person": "Adrien-Marie Legendre",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Legendre/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "MacTutor biography checked. No Legendre work linked to Lagrange's Mécanique analytique was verified; the record does not show the link."
+ },
+ {
+  "file": "A_09.json",
+  "pid": "P188",
+  "person": "Adrien-Marie Legendre",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Legendre/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "MacTutor biography checked. Legendre's memoir on the attraction of homogeneous spheroids was not found in archive.org or Crossref searches; Open Library was unreachable at the time."
+ },
+ {
+  "file": "A_09.json",
+  "pid": "P124",
+  "person": "Adrien-Marie Legendre",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Legendre/",
+  "works": [
+   {
+    "citation": "Adrien-Marie Legendre, Essai sur la théorie des nombres (Paris, 1798)",
+    "year": 1798,
+    "url": "https://archive.org/details/essaisurlathor00lege",
+    "whyItMatters": "The number-theory treatise that the record lists as the precursor to Gauss's Disquisitiones Arithmeticae."
+   }
+  ],
+  "status": "restored",
+  "note": "The archive.org item was fetched and its title and 1798 date confirmed. The contents were not read."
+ },
+ {
+  "file": "A_09.json",
+  "pid": "P124",
+  "person": "Joseph-Louis Lagrange",
+  "role": "systematiser",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "MacTutor biography checked. Lagrange's arithmetic memoirs (Recherches d'arithmétique) were not found in the searches available; Open Library was unreachable at the time."
+ },
+ {
+  "file": "A_12.json",
+  "pid": "P457",
+  "person": "James Joseph Sylvester",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Sylvester/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "MacTutor biography checked. The record reports Sylvester's 1861 claim only secondarily; no primary Sylvester paper on the schoolgirl problem was found."
+ },
+ {
+  "file": "A_12.json",
+  "pid": "P415",
+  "person": "Peter Gustav Lejeune Dirichlet",
+  "role": "popularizer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Dirichlet/",
+  "works": [
+   {
+    "citation": "Peter Gustav Lejeune Dirichlet, Vorlesungen über die im umgekehrten Verhältniss des Quadrats der Entfernung wirkenden Kräfte (lectures on potential theory, ed. Grube, 1876)",
+    "year": 1876,
+    "url": "https://openlibrary.org/works/OL32862058W",
+    "whyItMatters": "Dirichlet's lectures on inverse-square potential theory, where the variational principle the record names was taught; the section was not read."
+   }
+  ],
+  "status": "restored",
+  "note": "Open Library work record taken from its search API result (the work page itself was not retrievable in this pass). The year is the edition year of Grube's posthumous edition."
+ },
+ {
+  "file": "A_13.json",
+  "pid": "P053",
+  "person": "Pafnuty Chebyshev",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Chebyshev/",
+  "works": [
+   {
+    "citation": "Pafnuty Chebyshev, 'Mémoire sur les nombres premiers', Journal de Mathématiques Pures et Appliquées 17 (1852)",
+    "year": 1852,
+    "url": "https://www.numdam.org/item/JMPA_1852_1_17__366_0/",
+    "whyItMatters": "Chebyshev's published memoir on the prime-counting function, the partial results the record credits to him before Riemann's 1859 memoir."
+   }
+  ],
+  "status": "restored",
+  "note": "The Numdam record was fetched and its title confirmed; the year comes from the journal reference in the URL."
+ },
+ {
+  "file": "A_13.json",
+  "pid": "P357",
+  "person": "Karl Weierstrass",
+  "role": "popularizer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Weierstrass/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "MacTutor biography checked. The record gives no Weierstrass publication for Cantor's set theory and none was found, so no work is restored."
+ },
+ {
+  "file": "A_14.json",
+  "pid": "P378",
+  "person": "William Rowan Hamilton",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hamilton/",
+  "works": [
+   {
+    "citation": "William Rowan Hamilton, Lectures on Quaternions (1853)",
+    "year": 1853,
+    "url": "https://openlibrary.org/works/OL15230419W",
+    "whyItMatters": "Systematic statement of quaternions, whose vector part is the root the record traces to vector analysis."
+   }
+  ],
+  "status": "restored",
+  "note": "Open Library work record taken from its search API result (the work page itself was not retrievable in this pass). "
+ },
+ {
+  "file": "A_17.json",
+  "pid": "P402",
+  "person": "Bernhard Riemann",
+  "role": "originator",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Riemann/",
+  "works": [
+   {
+    "citation": "Bernhard Riemann, 'Theorie der Abel'schen Functionen', Journal für die reine und angewandte Mathematik 54 (1857), 115-155, DOI 10.1515/crll.1857.54.115",
+    "year": 1857,
+    "url": "https://api.crossref.org/works/10.1515/crll.1857.54.115",
+    "whyItMatters": "Riemann reuses the minimum principle (Dirichlet's principle) in this paper, the record's 1857 key development for the event."
+   }
+  ],
+  "status": "restored",
+  "note": "The Crossref record was fetched and confirms journal, volume, page start and 1857 date; the paper itself was not read."
+ },
+ {
+  "file": "A_22.json",
+  "pid": "P250",
+  "person": "Patrick Grundy",
+  "role": "developer",
+  "biographyUrl": null,
+  "works": [],
+  "status": "unverifiable",
+  "note": "No MacTutor or Wikipedia biography was found (Wikipedia 'Patrick_Grundy' returned 404). The 1939 Eureka item was not in Crossref or zbMATH per the record, and Crossref re-check hit a rate limit."
+ },
+ {
+  "file": "A_27.json",
+  "pid": "P204",
+  "person": "Mary Tsingou",
+  "role": "developer",
+  "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Tsingou/",
+  "works": [],
+  "status": "unverifiable",
+  "note": "MacTutor biography checked (Mary Tsingou Menzel). The Los Alamos LA-1940 report could not be retrieved: OSTI was unreachable and the earlier archive.org and zbMATH searches found nothing."
+ }
+]

@@ -1,0 +1,1863 @@
+{
+ "tolerance_years": 3,
+ "events": 30,
+ "summary": {
+  "conceptual": {
+   "evidenced": {
+    "opus": 30,
+    "sonnet": 30,
+    "direct": 27
+   },
+   "pairs": {
+    "opus-sonnet": [
+     24,
+     30
+    ],
+    "opus-direct": [
+     19,
+     27
+    ],
+    "sonnet-direct": [
+     22,
+     27
+    ]
+   },
+   "agree3": 19,
+   "a_candidates": 25,
+   "events_with_2plus": 30
+  },
+  "methodological": {
+   "evidenced": {
+    "opus": 30,
+    "sonnet": 30,
+    "direct": 27
+   },
+   "pairs": {
+    "opus-sonnet": [
+     22,
+     30
+    ],
+    "opus-direct": [
+     19,
+     27
+    ],
+    "sonnet-direct": [
+     19,
+     27
+    ]
+   },
+   "agree3": 16,
+   "a_candidates": 27,
+   "events_with_2plus": 30
+  },
+  "institutional": {
+   "evidenced": {
+    "opus": 27,
+    "sonnet": 30,
+    "direct": 5
+   },
+   "pairs": {
+    "opus-sonnet": [
+     12,
+     27
+    ],
+    "opus-direct": [
+     3,
+     5
+    ],
+    "sonnet-direct": [
+     3,
+     5
+    ]
+   },
+   "agree3": 3,
+   "a_candidates": 12,
+   "events_with_2plus": 27
+  }
+ },
+ "rows": [
+  {
+   "pid": "P006",
+   "name": "Group theory from the solution of polynomial equations",
+   "date": "conceptual",
+   "values": {
+    "opus": 1846,
+    "sonnet": 1854,
+    "direct": 1772
+   },
+   "agreeing_pairs": [],
+   "spread": 82
+  },
+  {
+   "pid": "P006",
+   "name": "Group theory from the solution of polynomial equations",
+   "date": "methodological",
+   "values": {
+    "opus": 1846,
+    "sonnet": 1799,
+    "direct": 1772
+   },
+   "agreeing_pairs": [],
+   "spread": 74
+  },
+  {
+   "pid": "P006",
+   "name": "Group theory from the solution of polynomial equations",
+   "date": "institutional",
+   "values": {
+    "opus": 1854,
+    "sonnet": 1854,
+    "direct": 1854
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P018",
+   "name": "The probabilistic method in combinatorics",
+   "date": "conceptual",
+   "values": {
+    "opus": 1943,
+    "sonnet": 1947,
+    "direct": 1947
+   },
+   "agreeing_pairs": [
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 4
+  },
+  {
+   "pid": "P018",
+   "name": "The probabilistic method in combinatorics",
+   "date": "methodological",
+   "values": {
+    "opus": 1947,
+    "sonnet": 1947,
+    "direct": 1947
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P018",
+   "name": "The probabilistic method in combinatorics",
+   "date": "institutional",
+   "values": {
+    "opus": 1974,
+    "sonnet": 1969,
+    "direct": null
+   },
+   "agreeing_pairs": [],
+   "spread": 5
+  },
+  {
+   "pid": "P019",
+   "name": "Category theory",
+   "date": "conceptual",
+   "values": {
+    "opus": 1942,
+    "sonnet": 1945,
+    "direct": 1945
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 3
+  },
+  {
+   "pid": "P019",
+   "name": "Category theory",
+   "date": "methodological",
+   "values": {
+    "opus": 1945,
+    "sonnet": 1942,
+    "direct": 1945
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 3
+  },
+  {
+   "pid": "P019",
+   "name": "Category theory",
+   "date": "institutional",
+   "values": {
+    "opus": 1960,
+    "sonnet": 1948,
+    "direct": null
+   },
+   "agreeing_pairs": [],
+   "spread": 12
+  },
+  {
+   "pid": "P021",
+   "name": "Sheaf theory",
+   "date": "conceptual",
+   "values": {
+    "opus": 1946,
+    "sonnet": 1946,
+    "direct": 1946
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P021",
+   "name": "Sheaf theory",
+   "date": "methodological",
+   "values": {
+    "opus": 1953,
+    "sonnet": 1955,
+    "direct": 1946
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 9
+  },
+  {
+   "pid": "P021",
+   "name": "Sheaf theory",
+   "date": "institutional",
+   "values": {
+    "opus": 1950,
+    "sonnet": 1955,
+    "direct": null
+   },
+   "agreeing_pairs": [],
+   "spread": 5
+  },
+  {
+   "pid": "P026",
+   "name": "The Langlands programme: automorphic forms and Galois representations over number fields",
+   "date": "conceptual",
+   "values": {
+    "opus": 1970,
+    "sonnet": 1970,
+    "direct": 1970
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P026",
+   "name": "The Langlands programme: automorphic forms and Galois representations over number fields",
+   "date": "methodological",
+   "values": {
+    "opus": 1970,
+    "sonnet": 1981,
+    "direct": 1970
+   },
+   "agreeing_pairs": [
+    [
+     "direct",
+     "opus"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 11
+  },
+  {
+   "pid": "P026",
+   "name": "The Langlands programme: automorphic forms and Galois representations over number fields",
+   "date": "institutional",
+   "values": {
+    "opus": 1979,
+    "sonnet": 1984,
+    "direct": null
+   },
+   "agreeing_pairs": [],
+   "spread": 5
+  },
+  {
+   "pid": "P048",
+   "name": "Hodge theory proves log-concavity conjectures",
+   "date": "conceptual",
+   "values": {
+    "opus": 2012,
+    "sonnet": 2012,
+    "direct": 2012
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P048",
+   "name": "Hodge theory proves log-concavity conjectures",
+   "date": "methodological",
+   "values": {
+    "opus": 2018,
+    "sonnet": 2012,
+    "direct": 2012
+   },
+   "agreeing_pairs": [
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 6
+  },
+  {
+   "pid": "P048",
+   "name": "Hodge theory proves log-concavity conjectures",
+   "date": "institutional",
+   "values": {
+    "opus": 2017,
+    "sonnet": 2015,
+    "direct": null
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 2
+  },
+  {
+   "pid": "P057",
+   "name": "Function-field Langlands: Drinfeld and Lafforgue",
+   "date": "conceptual",
+   "values": {
+    "opus": 1974,
+    "sonnet": 1974,
+    "direct": 1974
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P057",
+   "name": "Function-field Langlands: Drinfeld and Lafforgue",
+   "date": "methodological",
+   "values": {
+    "opus": 1977,
+    "sonnet": 1977,
+    "direct": 1983
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 6
+  },
+  {
+   "pid": "P057",
+   "name": "Function-field Langlands: Drinfeld and Lafforgue",
+   "date": "institutional",
+   "values": {
+    "opus": 1980,
+    "sonnet": 1977,
+    "direct": null
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 3
+  },
+  {
+   "pid": "P066",
+   "name": "Boolean algebra: logic as algebra, then topology (Boole to Stone)",
+   "date": "conceptual",
+   "values": {
+    "opus": 1847,
+    "sonnet": 1847,
+    "direct": 1847
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P066",
+   "name": "Boolean algebra: logic as algebra, then topology (Boole to Stone)",
+   "date": "methodological",
+   "values": {
+    "opus": 1934,
+    "sonnet": 1934,
+    "direct": 1847
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 87
+  },
+  {
+   "pid": "P066",
+   "name": "Boolean algebra: logic as algebra, then topology (Boole to Stone)",
+   "date": "institutional",
+   "values": {
+    "opus": 1913,
+    "sonnet": 1880,
+    "direct": null
+   },
+   "agreeing_pairs": [],
+   "spread": 33
+  },
+  {
+   "pid": "P086",
+   "name": "Hardness versus randomness",
+   "date": "conceptual",
+   "values": {
+    "opus": 1982,
+    "sonnet": 1982,
+    "direct": 1988
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 6
+  },
+  {
+   "pid": "P086",
+   "name": "Hardness versus randomness",
+   "date": "methodological",
+   "values": {
+    "opus": 1988,
+    "sonnet": 1988,
+    "direct": 1988
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P086",
+   "name": "Hardness versus randomness",
+   "date": "institutional",
+   "values": {
+    "opus": 1988,
+    "sonnet": 1988,
+    "direct": 1988
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P108",
+   "name": "Large deviations from statistical mechanics",
+   "date": "conceptual",
+   "values": {
+    "opus": 1966,
+    "sonnet": 1966,
+    "direct": 1966
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P108",
+   "name": "Large deviations from statistical mechanics",
+   "date": "methodological",
+   "values": {
+    "opus": 1975,
+    "sonnet": 1975,
+    "direct": 1975
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P108",
+   "name": "Large deviations from statistical mechanics",
+   "date": "institutional",
+   "values": {
+    "opus": 1956,
+    "sonnet": 1975,
+    "direct": null
+   },
+   "agreeing_pairs": [],
+   "spread": 19
+  },
+  {
+   "pid": "P119",
+   "name": "Archimedes statics",
+   "date": "conceptual",
+   "values": {
+    "opus": -287,
+    "sonnet": -287,
+    "direct": null
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P119",
+   "name": "Archimedes statics",
+   "date": "methodological",
+   "values": {
+    "opus": -287,
+    "sonnet": -287,
+    "direct": null
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P119",
+   "name": "Archimedes statics",
+   "date": "institutional",
+   "values": {
+    "opus": null,
+    "sonnet": 1586,
+    "direct": null
+   },
+   "agreeing_pairs": [],
+   "spread": null
+  },
+  {
+   "pid": "P134",
+   "name": "Euclid's Elements",
+   "date": "conceptual",
+   "values": {
+    "opus": -325,
+    "sonnet": -325,
+    "direct": null
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ]
+   ],
+   "spread": 0
+  },
+  {
+   "pid": "P134",
+   "name": "Euclid's Elements",
+   "date": "methodological",
+   "values": {
+    "opus": -325,
+    "sonnet": -325,
+    "direct": null
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ]
+   ],
+   "spread": 0
+  },
+  {
+   "pid": "P134",
+   "name": "Euclid's Elements",
+   "date": "institutional",
+   "values": {
+    "opus": -325,
+    "sonnet": -325,
+    "direct": null
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P151",
+   "name": "Differential equations from calculus",
+   "date": "conceptual",
+   "values": {
+    "opus": 1684,
+    "sonnet": 1690,
+    "direct": 1693
+   },
+   "agreeing_pairs": [
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 9
+  },
+  {
+   "pid": "P151",
+   "name": "Differential equations from calculus",
+   "date": "methodological",
+   "values": {
+    "opus": 1690,
+    "sonnet": 1690,
+    "direct": 1693
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 3
+  },
+  {
+   "pid": "P151",
+   "name": "Differential equations from calculus",
+   "date": "institutional",
+   "values": {
+    "opus": 1707,
+    "sonnet": 1732,
+    "direct": null
+   },
+   "agreeing_pairs": [],
+   "spread": 25
+  },
+  {
+   "pid": "P159",
+   "name": "Cotes: logarithm of complex arguments",
+   "date": "conceptual",
+   "values": {
+    "opus": 1714,
+    "sonnet": 1714,
+    "direct": 1714
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P159",
+   "name": "Cotes: logarithm of complex arguments",
+   "date": "methodological",
+   "values": {
+    "opus": 1722,
+    "sonnet": 1714,
+    "direct": 1714
+   },
+   "agreeing_pairs": [
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 8
+  },
+  {
+   "pid": "P159",
+   "name": "Cotes: logarithm of complex arguments",
+   "date": "institutional",
+   "values": {
+    "opus": null,
+    "sonnet": 1870,
+    "direct": null
+   },
+   "agreeing_pairs": [],
+   "spread": null
+  },
+  {
+   "pid": "P179",
+   "name": "Arbuthnot: significance testing",
+   "date": "conceptual",
+   "values": {
+    "opus": 1710,
+    "sonnet": 1710,
+    "direct": 1710
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P179",
+   "name": "Arbuthnot: significance testing",
+   "date": "methodological",
+   "values": {
+    "opus": 1710,
+    "sonnet": 1710,
+    "direct": 1710
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P179",
+   "name": "Arbuthnot: significance testing",
+   "date": "institutional",
+   "values": {
+    "opus": 1925,
+    "sonnet": 1855,
+    "direct": null
+   },
+   "agreeing_pairs": [],
+   "spread": 70
+  },
+  {
+   "pid": "P186",
+   "name": "Babylonian quadratic and cubic problem-solving",
+   "date": "conceptual",
+   "values": {
+    "opus": -1800,
+    "sonnet": -2000,
+    "direct": null
+   },
+   "agreeing_pairs": [],
+   "spread": 200
+  },
+  {
+   "pid": "P186",
+   "name": "Babylonian quadratic and cubic problem-solving",
+   "date": "methodological",
+   "values": {
+    "opus": -1800,
+    "sonnet": -2000,
+    "direct": null
+   },
+   "agreeing_pairs": [],
+   "spread": 200
+  },
+  {
+   "pid": "P186",
+   "name": "Babylonian quadratic and cubic problem-solving",
+   "date": "institutional",
+   "values": {
+    "opus": null,
+    "sonnet": 1937,
+    "direct": null
+   },
+   "agreeing_pairs": [],
+   "spread": null
+  },
+  {
+   "pid": "P232",
+   "name": "Formal language theory",
+   "date": "conceptual",
+   "values": {
+    "opus": 1956,
+    "sonnet": 1956,
+    "direct": 1956
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P232",
+   "name": "Formal language theory",
+   "date": "methodological",
+   "values": {
+    "opus": 1958,
+    "sonnet": 1956,
+    "direct": 1956
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 2
+  },
+  {
+   "pid": "P232",
+   "name": "Formal language theory",
+   "date": "institutional",
+   "values": {
+    "opus": 1968,
+    "sonnet": 1959,
+    "direct": null
+   },
+   "agreeing_pairs": [],
+   "spread": 9
+  },
+  {
+   "pid": "P288",
+   "name": "Iwasawa theory",
+   "date": "conceptual",
+   "values": {
+    "opus": 1959,
+    "sonnet": 1959,
+    "direct": 1959
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P288",
+   "name": "Iwasawa theory",
+   "date": "methodological",
+   "values": {
+    "opus": 1959,
+    "sonnet": 1959,
+    "direct": 1959
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P288",
+   "name": "Iwasawa theory",
+   "date": "institutional",
+   "values": {
+    "opus": 1977,
+    "sonnet": 1977,
+    "direct": null
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P300",
+   "name": "Erdos discrepancy",
+   "date": "conceptual",
+   "values": {
+    "opus": 2010,
+    "sonnet": 2010,
+    "direct": 2015
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 5
+  },
+  {
+   "pid": "P300",
+   "name": "Erdos discrepancy",
+   "date": "methodological",
+   "values": {
+    "opus": 2015,
+    "sonnet": 2015,
+    "direct": 2015
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P300",
+   "name": "Erdos discrepancy",
+   "date": "institutional",
+   "values": {
+    "opus": 2014,
+    "sonnet": 2010,
+    "direct": null
+   },
+   "agreeing_pairs": [],
+   "spread": 4
+  },
+  {
+   "pid": "P329",
+   "name": "Ergodic theory and Littlewood conjecture",
+   "date": "conceptual",
+   "values": {
+    "opus": 1967,
+    "sonnet": 1967,
+    "direct": 2006
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 39
+  },
+  {
+   "pid": "P329",
+   "name": "Ergodic theory and Littlewood conjecture",
+   "date": "methodological",
+   "values": {
+    "opus": 2006,
+    "sonnet": 2006,
+    "direct": 2006
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P329",
+   "name": "Ergodic theory and Littlewood conjecture",
+   "date": "institutional",
+   "values": {
+    "opus": 2007,
+    "sonnet": 2006,
+    "direct": null
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 1
+  },
+  {
+   "pid": "P363",
+   "name": "Metric spaces (Frechet)",
+   "date": "conceptual",
+   "values": {
+    "opus": 1905,
+    "sonnet": 1906,
+    "direct": 1906
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 1
+  },
+  {
+   "pid": "P363",
+   "name": "Metric spaces (Frechet)",
+   "date": "methodological",
+   "values": {
+    "opus": 1906,
+    "sonnet": 1906,
+    "direct": 1906
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P363",
+   "name": "Metric spaces (Frechet)",
+   "date": "institutional",
+   "values": {
+    "opus": 1914,
+    "sonnet": 1914,
+    "direct": null
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P367",
+   "name": "Dynamical systems from celestial mechanics",
+   "date": "conceptual",
+   "values": {
+    "opus": 1890,
+    "sonnet": 1880,
+    "direct": 1881
+   },
+   "agreeing_pairs": [
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 10
+  },
+  {
+   "pid": "P367",
+   "name": "Dynamical systems from celestial mechanics",
+   "date": "methodological",
+   "values": {
+    "opus": 1890,
+    "sonnet": 1890,
+    "direct": 1890
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P367",
+   "name": "Dynamical systems from celestial mechanics",
+   "date": "institutional",
+   "values": {
+    "opus": 1920,
+    "sonnet": 1912,
+    "direct": 1927
+   },
+   "agreeing_pairs": [],
+   "spread": 15
+  },
+  {
+   "pid": "P401",
+   "name": "Steinitz abstract field theory",
+   "date": "conceptual",
+   "values": {
+    "opus": 1910,
+    "sonnet": 1910,
+    "direct": 1910
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P401",
+   "name": "Steinitz abstract field theory",
+   "date": "methodological",
+   "values": {
+    "opus": 1910,
+    "sonnet": 1910,
+    "direct": 1910
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P401",
+   "name": "Steinitz abstract field theory",
+   "date": "institutional",
+   "values": {
+    "opus": 1910,
+    "sonnet": 1910,
+    "direct": null
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P405",
+   "name": "Many-valued logics",
+   "date": "conceptual",
+   "values": {
+    "opus": 1920,
+    "sonnet": 1920,
+    "direct": 1920
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P405",
+   "name": "Many-valued logics",
+   "date": "methodological",
+   "values": {
+    "opus": 1921,
+    "sonnet": 1930,
+    "direct": 1920
+   },
+   "agreeing_pairs": [
+    [
+     "direct",
+     "opus"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 10
+  },
+  {
+   "pid": "P405",
+   "name": "Many-valued logics",
+   "date": "institutional",
+   "values": {
+    "opus": 1952,
+    "sonnet": 1931,
+    "direct": 1920
+   },
+   "agreeing_pairs": [],
+   "spread": 32
+  },
+  {
+   "pid": "P406",
+   "name": "Frobenius method and singular ODE theory",
+   "date": "conceptual",
+   "values": {
+    "opus": 1866,
+    "sonnet": 1866,
+    "direct": 1866
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P406",
+   "name": "Frobenius method and singular ODE theory",
+   "date": "methodological",
+   "values": {
+    "opus": 1873,
+    "sonnet": 1873,
+    "direct": 1873
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P406",
+   "name": "Frobenius method and singular ODE theory",
+   "date": "institutional",
+   "values": {
+    "opus": 1895,
+    "sonnet": 1894,
+    "direct": null
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 1
+  },
+  {
+   "pid": "P408",
+   "name": "Abstract rings and fields",
+   "date": "conceptual",
+   "values": {
+    "opus": 1871,
+    "sonnet": 1910,
+    "direct": 1893
+   },
+   "agreeing_pairs": [],
+   "spread": 39
+  },
+  {
+   "pid": "P408",
+   "name": "Abstract rings and fields",
+   "date": "methodological",
+   "values": {
+    "opus": 1910,
+    "sonnet": 1921,
+    "direct": 1921
+   },
+   "agreeing_pairs": [
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 11
+  },
+  {
+   "pid": "P408",
+   "name": "Abstract rings and fields",
+   "date": "institutional",
+   "values": {
+    "opus": 1930,
+    "sonnet": 1910,
+    "direct": null
+   },
+   "agreeing_pairs": [],
+   "spread": 20
+  },
+  {
+   "pid": "P447",
+   "name": "Non-Euclidean geometry: the independence of the parallel postulate",
+   "date": "conceptual",
+   "values": {
+    "opus": 1829,
+    "sonnet": 1829,
+    "direct": 1829
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "spread": 0
+  },
+  {
+   "pid": "P447",
+   "name": "Non-Euclidean geometry: the independence of the parallel postulate",
+   "date": "methodological",
+   "values": {
+    "opus": 1868,
+    "sonnet": 1868,
+    "direct": 1829
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 39
+  },
+  {
+   "pid": "P447",
+   "name": "Non-Euclidean geometry: the independence of the parallel postulate",
+   "date": "institutional",
+   "values": {
+    "opus": 1837,
+    "sonnet": 1871,
+    "direct": null
+   },
+   "agreeing_pairs": [],
+   "spread": 34
+  },
+  {
+   "pid": "P505",
+   "name": "Lenstra-Lenstra-Lovasz lattice basis reduction",
+   "date": "conceptual",
+   "values": {
+    "opus": 1982,
+    "sonnet": 1982,
+    "direct": 1982
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P505",
+   "name": "Lenstra-Lenstra-Lovasz lattice basis reduction",
+   "date": "methodological",
+   "values": {
+    "opus": 1982,
+    "sonnet": 1982,
+    "direct": 1982
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P505",
+   "name": "Lenstra-Lenstra-Lovasz lattice basis reduction",
+   "date": "institutional",
+   "values": {
+    "opus": 1984,
+    "sonnet": 1986,
+    "direct": null
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 2
+  },
+  {
+   "pid": "P526",
+   "name": "Positive Grassmannian as a hub between combinatorics, probability and integrable systems",
+   "date": "conceptual",
+   "values": {
+    "opus": 2006,
+    "sonnet": 2006,
+    "direct": 2005
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 1
+  },
+  {
+   "pid": "P526",
+   "name": "Positive Grassmannian as a hub between combinatorics, probability and integrable systems",
+   "date": "methodological",
+   "values": {
+    "opus": 2007,
+    "sonnet": 2013,
+    "direct": 2006
+   },
+   "agreeing_pairs": [
+    [
+     "direct",
+     "opus"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 7
+  },
+  {
+   "pid": "P526",
+   "name": "Positive Grassmannian as a hub between combinatorics, probability and integrable systems",
+   "date": "institutional",
+   "values": {
+    "opus": 2012,
+    "sonnet": 2005,
+    "direct": null
+   },
+   "agreeing_pairs": [],
+   "spread": 7
+  },
+  {
+   "pid": "P533",
+   "name": "Murmurations: machine learning and statistics reveal patterns in elliptic curves",
+   "date": "conceptual",
+   "values": {
+    "opus": 2022,
+    "sonnet": 2022,
+    "direct": 2022
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  },
+  {
+   "pid": "P533",
+   "name": "Murmurations: machine learning and statistics reveal patterns in elliptic curves",
+   "date": "methodological",
+   "values": {
+    "opus": 2022,
+    "sonnet": 2019,
+    "direct": 2022
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 3
+  },
+  {
+   "pid": "P533",
+   "name": "Murmurations: machine learning and statistics reveal patterns in elliptic curves",
+   "date": "institutional",
+   "values": {
+    "opus": 2022,
+    "sonnet": 2022,
+    "direct": 2022
+   },
+   "agreeing_pairs": [
+    [
+     "opus",
+     "sonnet"
+    ],
+    [
+     "direct",
+     "opus"
+    ],
+    [
+     "direct",
+     "sonnet"
+    ]
+   ],
+   "a_candidate": true,
+   "spread": 0
+  }
+ ]
+}

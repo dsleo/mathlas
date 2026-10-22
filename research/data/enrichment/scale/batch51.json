@@ -1,0 +1,149 @@
+[
+ {
+  "pid": "P538",
+  "eventId": "Q33",
+  "name": "Higher-form and non-invertible symmetries in quantum field theory",
+  "type": "birth-by-abstraction",
+  "from": [
+   "quantum field theory",
+   "higher and fusion category theory"
+  ],
+  "to": [
+   "generalised (categorical) symmetries"
+  ],
+  "summary": "Symmetry in field theory was extended from groups to extended operators and then to non-invertible symmetries described by fusion categories, explaining pion decay rates and phases of matter."
+ },
+ {
+  "pid": "P524",
+  "eventId": "Q4",
+  "name": "Fractal uncertainty principle and quantum chaos",
+  "type": "technique-transfer",
+  "from": [
+   "harmonic analysis",
+   "additive combinatorics",
+   "fractal geometry"
+  ],
+  "to": [
+   "spectral theory and quantum chaos on hyperbolic surfaces"
+  ],
+  "summary": "A Fourier uncertainty principle for fractal-like sets was proved in one dimension and used to show waves cannot be trapped on a hyperbolic surface, then extended to higher dimensions."
+ },
+ {
+  "pid": "P297",
+  "eventId": "QC22/WC67",
+  "name": "Cap set",
+  "type": "technique-transfer",
+  "from": [
+   "polynomial method / linear algebra (slice rank)"
+  ],
+  "to": [
+   "additive combinatorics"
+  ],
+  "summary": "Croot-Lev-Pach and Ellenberg-Gijswijt used a low-degree polynomial argument to bound cap sets."
+ },
+ {
+  "pid": "P303",
+  "eventId": "WC28/QC70",
+  "name": "Prismatic cohomology",
+  "type": "birth-by-abstraction",
+  "from": [
+   "p-adic Hodge theory",
+   "crystalline and de Rham cohomology",
+   "delta-rings / Witt vectors"
+  ],
+  "to": [
+   "arithmetic geometry"
+  ],
+  "summary": "A single cohomology theory was constructed that specializes to etale, de Rham and crystalline p-adic theories."
+ },
+ {
+  "pid": "P545",
+  "eventId": "Q46",
+  "name": "Undecidability in quantum games via combinatorial group theory",
+  "type": "technique-transfer",
+  "from": [
+   "combinatorial group theory",
+   "operator algebras",
+   "quantum information (nonlocal games)"
+  ],
+  "to": [
+   "quantum correlation sets"
+  ],
+  "summary": "Systems of equations encoded as games were used to show that unlimited entanglement can win certain nonlocal games with certainty and that finite-dimensional strategies cannot."
+ },
+ {
+  "pid": "P318",
+  "eventId": "QC78/WC95",
+  "name": "Neural tangent kernel",
+  "type": "technique-transfer",
+  "from": [
+   "kernel methods",
+   "probability/PDE (mean-field, optimal transport)",
+   "neural networks"
+  ],
+  "to": [
+   "learning theory"
+  ],
+  "summary": "Infinite-width networks were analysed as kernel machines and mean fields."
+ },
+ {
+  "pid": "P333",
+  "eventId": "WC65",
+  "name": "Lorentzian polynomials and log-concavity",
+  "type": "technique-transfer",
+  "from": [
+   "Hodge theory / convex analysis",
+   "matroid theory"
+  ],
+  "to": [
+   "combinatorics"
+  ],
+  "summary": "A class of polynomials unifies log-concavity statements across matroids, Hodge theory and discrete convex analysis, giving the strongest Mason conjecture."
+ },
+ {
+  "pid": "P348",
+  "eventId": "QC99",
+  "name": "Hodge theory via o-minimality",
+  "type": "technique-transfer",
+  "from": [
+   "model theory",
+   "Hodge theory",
+   "algebraic geometry"
+  ],
+  "to": [
+   "o-minimal geometry"
+  ],
+  "summary": "Bakker-Klingler-Tsimerman used o-minimal definability for Ax-Schanuel and algebraicity of period maps."
+ },
+ {
+  "pid": "P530",
+  "eventId": "Q13",
+  "name": "Synthetic Lorentzian curvature from optimal transport (non-smooth singularity theorems)",
+  "type": "technique-transfer",
+  "from": [
+   "optimal transport",
+   "comparison (metric) geometry",
+   "general relativity"
+  ],
+  "to": [
+   "Lorentzian length spaces",
+   "non-smooth spacetime geometry"
+  ],
+  "summary": "Triangle comparison with time separation and optimal-transport characterisations of Ricci curvature were combined to define curvature bounds without smoothness and to reprove the Hawking and Penrose singularity theorems there."
+ },
+ {
+  "pid": "P541",
+  "eventId": "Q40",
+  "name": "Condensed mathematics",
+  "type": "birth-by-abstraction",
+  "from": [
+   "topology",
+   "homological algebra",
+   "functional analysis"
+  ],
+  "to": [
+   "condensed mathematics"
+  ],
+  "summary": "Topological spaces are replaced by condensed sets so that real functional analysis can be done in a setting with abelian-category structure, a key vanishing result being proved in July 2019."
+ }
+]

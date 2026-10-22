@@ -1,0 +1,146 @@
+[
+ {
+  "pid": "P426",
+  "eventId": "H12",
+  "name": "Knuth-Bendix rewriting: universal algebra meets word problems",
+  "type": "technique-transfer",
+  "from": [
+   "computer science (symbolic computation)",
+   "universal algebra / equational logic"
+  ],
+  "to": [
+   "term rewriting theory",
+   "computational algebra"
+  ],
+  "summary": "Rewriting-system methods from universal algebra were applied to word problems, giving a computational route to normal forms in presented algebraic structures."
+ },
+ {
+  "pid": "P442",
+  "eventId": "H37",
+  "name": "Fractal geometry: self-similarity, dimension and computer experiment (Mandelbrot)",
+  "type": "birth-by-fusion",
+  "from": [
+   "Hausdorff dimension",
+   "complex dynamics",
+   "computer graphics",
+   "physical/geographic modelling"
+  ],
+  "to": [
+   "geometry of natural forms"
+  ],
+  "summary": "Mandelbrot combined self-similarity and fractional dimension to model coastlines and noise, defined fractals via Hausdorff dimension, and used computers to map Julia-set connectivity."
+ },
+ {
+  "pid": "P292",
+  "eventId": "WB61",
+  "name": "Bass-Serre theory",
+  "type": "birth-by-fusion",
+  "from": [
+   "group theory",
+   "topology (trees)"
+  ],
+  "to": [
+   "group theory"
+  ],
+  "summary": "Group actions on trees decompose groups as amalgams and HNN extensions."
+ },
+ {
+  "pid": "P499",
+  "eventId": "P56",
+  "name": "Mixed Hodge theory (Deligne)",
+  "type": "dictionary-analogy",
+  "from": [
+   "Hodge theory (complex geometry)",
+   "l-adic cohomology and weights (Weil conjectures)"
+  ],
+  "to": [
+   "mixed Hodge theory"
+  ],
+  "summary": "Cohomology of singular or open varieties carries a weight filtration, extending Hodge theory and mirroring weights in the Weil conjectures."
+ },
+ {
+  "pid": "P500",
+  "eventId": "P57",
+  "name": "Variation of Hodge structure and period domains (Griffiths)",
+  "type": "birth-by-fusion",
+  "from": [
+   "Hodge theory",
+   "deformation theory (Kodaira-Spencer)",
+   "homogeneous complex manifolds (Lie theory)"
+  ],
+  "to": [
+   "complex algebraic geometry (variations of Hodge structure)"
+  ],
+  "summary": "Periods of integrals on algebraic manifolds vary holomorphically with transversality, giving an analytic tool for moduli and cycle questions."
+ },
+ {
+  "pid": "P519",
+  "eventId": "P77",
+  "name": "Thermodynamic formalism for hyperbolic dynamics (Sinai, Ruelle, Bowen)",
+  "type": "import-from-outside",
+  "from": [
+   "statistical mechanics (Gibbs states)"
+  ],
+  "to": [
+   "ergodic theory and hyperbolic dynamics"
+  ],
+  "summary": "Gibbs states from statistical mechanics describe invariant measures of hyperbolic systems, with pressure replacing free energy."
+ },
+ {
+  "pid": "P087",
+  "eventId": "B21",
+  "name": "Rational homotopy theory via differential forms",
+  "type": "dictionary-analogy",
+  "from": [
+   "Algebra"
+  ],
+  "to": [
+   "Topology"
+  ],
+  "summary": "Homotopy types are encoded by commutative differential graded algebras of polynomial forms, so rational homotopy becomes homological algebra."
+ },
+ {
+  "pid": "P229",
+  "eventId": "MB83/WB40",
+  "name": "Elementary topos theory",
+  "type": "reification",
+  "from": [
+   "category theory",
+   "logic",
+   "sheaf theory"
+  ],
+  "to": [
+   "categorical logic"
+  ],
+  "summary": "Categories with subobject classifiers served as generalised universes of sets."
+ },
+ {
+  "pid": "P231",
+  "eventId": "MB86/WB126",
+  "name": "Domain theory",
+  "type": "birth-by-fusion",
+  "from": [
+   "lattice theory",
+   "lambda calculus",
+   "topology"
+  ],
+  "to": [
+   "semantics of programming"
+  ],
+  "summary": "Continuous lattices gave models for the lambda calculus."
+ },
+ {
+  "pid": "P487",
+  "eventId": "P42",
+  "name": "Chromatic homotopy theory and the nilpotence theorem",
+  "type": "birth-by-fusion",
+  "from": [
+   "formal group laws (algebra / number theory)",
+   "stable homotopy theory"
+  ],
+  "to": [
+   "chromatic homotopy theory"
+  ],
+  "summary": "Formal groups organise stable homotopy into chromatic layers, and the nilpotence theorem proves the Ravenel conjectures."
+ }
+]

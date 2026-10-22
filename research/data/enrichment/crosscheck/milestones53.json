@@ -1,0 +1,270 @@
+[
+  {
+    "eventId": "E04",
+    "canonicalName": "The calculus",
+    "aliases": [
+      "infinitesimal calculus"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1669,
+        "precision": "year",
+        "label": "Newton's De analysi written",
+        "work": "I. Newton, De analysi per aequationes numero terminorum infinitas (written 1669; published 1711)",
+        "people": [
+          "Isaac Newton"
+        ],
+        "description": "Newton's manuscript uses infinite series for quadratures but circulated only privately until later publication.",
+        "evidence": [
+          {
+            "claim": "Wikipedia dates the manuscript to 1669 and its publication to 1711",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/De_analysi_per_aequationes_numero_terminorum_infinitas",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Private manuscript, so a precursor and not the public start. Priority dispute with Leibniz is not adjudicated here."
+      },
+      {
+        "role": "first_statement",
+        "year": 1684,
+        "precision": "year",
+        "label": "Leibniz publishes the differential calculus",
+        "work": "G. W. Leibniz, Nova methodus pro maximis et minimis, Acta Eruditorum (October 1684)",
+        "people": [
+          "Gottfried Wilhelm Leibniz"
+        ],
+        "description": "The first published exposition of the calculus, with the differential notation.",
+        "evidence": [
+          {
+            "claim": "Wikipedia: published in Acta Eruditorum, October 1684, described as the first published work on calculus",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Nova_Methodus_pro_Maximis_et_Minimis",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Gottfried Wilhelm Leibniz",
+        "role": "originator",
+        "lifespan": "1646-1716",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Leibniz/",
+        "works": [
+          {
+            "citation": "Nova methodus pro maximis et minimis",
+            "year": 1684,
+            "url": "https://en.wikipedia.org/wiki/Nova_Methodus_pro_Maximis_et_Minimis",
+            "whyItMatters": "First published calculus"
+          }
+        ]
+      },
+      {
+        "name": "Isaac Newton",
+        "role": "originator",
+        "lifespan": "1643-1727",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Newton/",
+        "works": [
+          {
+            "citation": "De analysi per aequationes numero terminorum infinitas",
+            "year": 1711,
+            "url": "https://en.wikipedia.org/wiki/De_analysi_per_aequationes_numero_terminorum_infinitas",
+            "whyItMatters": "Written 1669, published 1711"
+          }
+        ]
+      }
+    ],
+    "notes": "Only Wikipedia pages read; no bibliographic-record check, so confidence is medium (grade C). Not searched: first textbook (L'Hopital 1696), naming/institution milestones.",
+    "pid": "P002",
+    "searchTerms": [
+      "Geometry",
+      "Algebra",
+      "Analysis"
+    ]
+  },
+  {
+    "eventId": "E06",
+    "canonicalName": "Graph theory from the Konigsberg bridges",
+    "aliases": [
+      "Seven Bridges of Konigsberg"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1741,
+        "precision": "year",
+        "label": "Euler's Konigsberg paper published",
+        "work": "L. Euler, Solutio problematis ad geometriam situs pertinentis, Commentarii Academiae Scientiarum Petropolitanae 8 (1736; published 1741)",
+        "people": [
+          "Leonhard Euler"
+        ],
+        "description": "Euler shows the bridge walk is impossible by reducing the problem to the parity of the degrees of a network.",
+        "evidence": [
+          {
+            "claim": "Wikipedia: presented 26 August 1735, published in the Commentarii in 1741; Euler Archive record E53",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Presented 1735, formalised 1736; publication year governs. Hierholzer later proved sufficiency of the condition (year not given on the page)."
+      }
+    ],
+    "people": [
+      {
+        "name": "Leonhard Euler",
+        "role": "originator",
+        "lifespan": "1707-1783",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+        "works": [
+          {
+            "citation": "Solutio problematis ad geometriam situs pertinentis",
+            "year": 1741,
+            "url": "https://scholarlycommons.pacific.edu/euler-works/53/",
+            "whyItMatters": "Founding paper"
+          }
+        ]
+      }
+    ],
+    "notes": "Euler Archive page E53 loaded and mentions 1741; contents otherwise unread. Not verified: Kirchhoff 1847 (inherited citation), Konig's 1936 book, coinage of 'graph'; add after checking sources.",
+    "pid": "P004",
+    "searchTerms": [
+      "Geometry",
+      "Combinatorics",
+      "Combinatorics"
+    ]
+  },
+  {
+    "eventId": "E09",
+    "canonicalName": "Fourier series: heat flow to analysis",
+    "aliases": [
+      "Fourier analysis",
+      "trigonometric series"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1807,
+        "precision": "year",
+        "label": "Fourier's heat memoir",
+        "work": "J. Fourier, On the Propagation of Heat in Solid Bodies, memoir presented to the Paris Institute, 21 December 1807",
+        "people": [
+          "Joseph Fourier"
+        ],
+        "description": "The memoir expands arbitrary functions in sine series to solve the heat equation but was not published.",
+        "evidence": [
+          {
+            "claim": "Wikipedia: presented to the Paris Institute on 21 December 1807",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Th%C3%A9orie_analytique_de_la_chaleur",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Presented, not published; hence a precursor."
+      },
+      {
+        "role": "first_statement",
+        "year": 1822,
+        "precision": "year",
+        "label": "Theorie analytique de la chaleur",
+        "work": "J. Fourier, Theorie analytique de la chaleur (Paris, 1822)",
+        "people": [
+          "Joseph Fourier"
+        ],
+        "description": "The treatise states that an arbitrary function can be expanded in trigonometric series and derives the heat equation.",
+        "evidence": [
+          {
+            "claim": "Wikipedia: treatise published 1822",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Th%C3%A9orie_analytique_de_la_chaleur",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Joseph Fourier",
+        "role": "originator",
+        "lifespan": "1768-1830",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Fourier/",
+        "works": [
+          {
+            "citation": "Theorie analytique de la chaleur",
+            "year": 1822,
+            "url": "https://en.wikipedia.org/wiki/Th%C3%A9orie_analytique_de_la_chaleur",
+            "whyItMatters": "Founding treatise"
+          }
+        ]
+      }
+    ],
+    "notes": "Dirichlet's 1829 convergence paper is an inherited citation but its date was not confirmed on the page read; left out of milestones until checked against a bibliographic record.",
+    "pid": "P007",
+    "searchTerms": [
+      "Physics",
+      "Analysis"
+    ]
+  },
+  {
+    "eventId": "E14",
+    "canonicalName": "Klein's Erlangen programme: geometry as invariants of a group",
+    "aliases": [
+      "Erlangen program"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1872,
+        "precision": "year",
+        "label": "Klein's Erlangen programme",
+        "work": "F. Klein, Vergleichende Betrachtungen ueber neuere geometrische Forschungen (Erlangen, 1872)",
+        "people": [
+          "Felix Klein"
+        ],
+        "description": "Geometries are classified by the transformation groups whose invariants they study.",
+        "evidence": [
+          {
+            "claim": "Wikipedia: published 1872; later reprinted in Mathematische Annalen 43 (1893)",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Erlangen_program",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Felix Klein",
+        "role": "originator",
+        "lifespan": "1849-1925",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Klein/",
+        "works": [
+          {
+            "citation": "Vergleichende Betrachtungen ueber neuere geometrische Forschungen",
+            "year": 1872,
+            "url": "https://en.wikipedia.org/wiki/Erlangen_program",
+            "whyItMatters": "Founding statement"
+          }
+        ]
+      }
+    ],
+    "notes": "Wikipedia only. Cartan's generalisation is mentioned on the page without a year, so not entered as a milestone.",
+    "pid": "P010",
+    "searchTerms": [
+      "Algebra",
+      "Geometry"
+    ]
+  }
+]

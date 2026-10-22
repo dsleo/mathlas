@@ -1,0 +1,144 @@
+[
+ {
+  "pid": "P390",
+  "eventId": "W88/M82",
+  "name": "Ramsey theory",
+  "type": "technique-transfer",
+  "from": [
+   "combinatorics"
+  ],
+  "to": [
+   "mathematical logic (decision problem)"
+  ],
+  "summary": "Ramsey proved a combinatorial theorem on homogeneous subsets while studying a decision problem in logic, and van der Waerden proved a related Ramsey-type theorem on arithmetic progressions."
+ },
+ {
+  "pid": "P234",
+  "eventId": "MB9/WB111",
+  "name": "Von Neumann algebras",
+  "type": "birth-by-abstraction",
+  "from": [
+   "functional analysis",
+   "quantum mechanics"
+  ],
+  "to": [
+   "operator algebras"
+  ],
+  "summary": "Weakly closed self-adjoint operator algebras on Hilbert space became a theory with Murray's classification of factors."
+ },
+ {
+  "pid": "P225",
+  "eventId": "MB8/WB87",
+  "name": "Tarski quantifier elimination",
+  "type": "technique-transfer",
+  "from": [
+   "mathematical logic",
+   "real algebra"
+  ],
+  "to": [
+   "real algebraic geometry",
+   "decision procedures"
+  ],
+  "summary": "Quantifier elimination showed the first-order theory of the reals is decidable."
+ },
+ {
+  "pid": "P237",
+  "eventId": "MB4/WB3",
+  "name": "Goedel incompleteness",
+  "type": "technique-transfer",
+  "from": [
+   "number theory",
+   "mathematical logic"
+  ],
+  "to": [
+   "proof theory"
+  ],
+  "summary": "Coding of syntax by numbers was used to show that consistent arithmetical systems have unprovable true statements."
+ },
+ {
+  "pid": "P258",
+  "eventId": "WB71",
+  "name": "Ramsey theory and Hales-Jewett",
+  "type": "technique-transfer",
+  "from": [
+   "mathematical logic",
+   "combinatorics"
+  ],
+  "to": [
+   "Ramsey theory"
+  ],
+  "summary": "Ramsey's partition theorem is generalised to structured colourings."
+ },
+ {
+  "pid": "P199",
+  "eventId": "E21/MB11",
+  "name": "Ergodic theory from statistical mechanics",
+  "type": "technique-transfer",
+  "from": [
+   "operator theory",
+   "statistical mechanics",
+   "dynamical systems"
+  ],
+  "to": [
+   "ergodic theory"
+  ],
+  "summary": "Koopman's operator on function spaces let von Neumann prove the first rigorous ergodic theorem."
+ },
+ {
+  "pid": "P247",
+  "eventId": "MB3",
+  "name": "Kolmogorov diffusion theory and PDE",
+  "type": "technique-transfer",
+  "from": [
+   "probability",
+   "partial differential equations"
+  ],
+  "to": [
+   "stochastic processes"
+  ],
+  "summary": "Continuous-time Markov processes were linked to parabolic equations, founding diffusion theory."
+ },
+ {
+  "pid": "P248",
+  "eventId": "MB99",
+  "name": "Hodge theory of harmonic integrals",
+  "type": "dictionary-analogy",
+  "from": [
+   "differential geometry",
+   "topology",
+   "algebraic geometry"
+  ],
+  "to": [
+   "Hodge theory"
+  ],
+  "summary": "Harmonic forms represent cohomology on Kaehler manifolds."
+ },
+ {
+  "pid": "P050",
+  "eventId": "E58",
+  "name": "Erdos discrepancy problem",
+  "type": "technique-transfer",
+  "from": [
+   "Number theory",
+   "Probability"
+  ],
+  "to": [
+   "Combinatorics"
+  ],
+  "summary": "A combinatorial discrepancy question is reduced to correlations of multiplicative functions, then settled with entropy-decrement and short-interval results from analytic number theory."
+ },
+ {
+  "pid": "P251",
+  "eventId": "MB31",
+  "name": "Weil: integration on topological groups, harmonic analysis",
+  "type": "birth-by-fusion",
+  "from": [
+   "topological groups (Haar measure)",
+   "harmonic analysis"
+  ],
+  "to": [
+   "abstract harmonic analysis"
+  ],
+  "summary": "Haar measure and Pontryagin duality were systematised in a general setting."
+ }
+]

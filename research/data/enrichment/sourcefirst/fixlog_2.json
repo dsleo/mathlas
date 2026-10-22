@@ -1,0 +1,197 @@
+[
+ {
+  "pid": "P448",
+  "change": "Settled: Houel translation first_application 1870 -> 1869; derived methodological 1869; Crossref evidence added",
+  "source": "https://doi.org/10.24033/asens.60"
+ },
+ {
+  "pid": "P399",
+  "change": "Settled as note: earliest title use of the phrase (Eaton, Duke 1943) recorded; not verified as coinage; no milestone change",
+  "source": "https://doi.org/10.1215/s0012-7094-43-01071-3"
+ },
+ {
+  "pid": "P370",
+  "change": "Settled: 1905 Heidelberg sketch made a precursor; derived conceptual 1905 -> 1922; SEP evidence added",
+  "source": "https://plato.stanford.edu/entries/hilbert-program/"
+ },
+ {
+  "pid": "P376",
+  "change": "Settled: first_statement 1921 added (Fisher, Metron 1, likelihood interval) from Wikipedia; 1922 is key_development; derived conceptual 1921",
+  "source": "https://en.wikipedia.org/wiki/Likelihood_function"
+ },
+ {
+  "pid": "P412",
+  "change": "Unresolved: zbMATH lists Schlesinger's Handbuch vol. I (1895) but no record shows the unit-modulus proof; year kept; note added",
+  "source": "https://api.zbmath.org/v1/document/_search?search_string=au:Schlesinger%20py:1895"
+ },
+ {
+  "pid": "P012",
+  "change": "Settled: 1890 Hilbert memoir gets Crossref evidence; event note separates the 1890 and 1893 Hilbert papers",
+  "source": "https://doi.org/10.1007/bf01208503"
+ },
+ {
+  "pid": "P415",
+  "change": "Settled: 1900 Hilbert note (Jahresber. DMV 8, 184-188) added as zbMATH evidence to the range milestone; Courant 1950 not added",
+  "source": "https://api.zbmath.org/v1/document/2665638"
+ },
+ {
+  "pid": "P365",
+  "change": "Unresolved: zbMATH search for Boltzmann 'monocyclic' gave no record; 'Ergoden' coinage open; note added",
+  "source": "https://api.zbmath.org/v1/document/_search?search_string=au:Boltzmann%20ti:monocyclic"
+ },
+ {
+  "pid": "P359",
+  "change": "Settled as note: Vandiver 1934 PNAS title recorded in the naming milestone note, not promoted",
+  "source": "https://doi.org/10.1073/pnas.20.11.579"
+ },
+ {
+  "pid": "P407",
+  "change": "Settled: naming moved to Osgood 1916 title (zbMATH 46.0527.01); Bochner-Martin 1948 dropped; derived institutional 1934 -> 1916 by rule",
+  "source": "https://api.zbmath.org/v1/document/2611199"
+ },
+ {
+  "pid": "P153",
+  "change": "Unresolved: 1834 Crelle paper confirmed by Crossref; 1829 Fundamenta nova section not located; note added",
+  "source": "https://doi.org/10.1515/crll.1834.12.167"
+ },
+ {
+  "pid": "P397",
+  "change": "Unresolved: Betti paper 1870 per Crossref; 1870-71 range kept; no 1871 issue record found; note added",
+  "source": "https://doi.org/10.1007/bf02420029"
+ },
+ {
+  "pid": "P397",
+  "change": "Unresolved: Poincare's coinage of 'Betti number' not located; note added (Analysis situs milestone is not a coinage)",
+  "source": "https://en.wikipedia.org/wiki/Betti_number"
+ },
+ {
+  "pid": "P436",
+  "change": "Settled as note: zbMATH confirms Grundgesetze II (1903) and Dedekind 1888 / Peano 1889 records; no milestone added; logicism coinage open",
+  "source": "https://api.zbmath.org/v1/document/2513246"
+ },
+ {
+  "pid": "P440",
+  "change": "Settled: Hausdorff first_statement 1919 -> 1918 (Crossref print date, Math. Ann. 79 issue 1-2); derived conceptual 1919 -> 1918",
+  "source": "https://doi.org/10.1007/bf01457179"
+ },
+ {
+  "pid": "P440",
+  "change": "Settled: same Hausdorff record as the previous entry; 1918 used; note explains MacTutor's 1918/1919 wording",
+  "source": "https://doi.org/10.1007/bf01457179"
+ },
+ {
+  "pid": "P364",
+  "change": "Settled as note: zbMATH 1927 vs Crossref 1928 for Math. Ann. 98; 1928 kept; von Neumann 1927 note stays a candidate",
+  "source": "https://api.zbmath.org/v1/document/_search?search_string=au:Hilbert%20py:1927%20ti:Quantenmechanik"
+ },
+ {
+  "pid": "P356",
+  "change": "Unresolved: Open Library title search for the 1851 thesis gave no record; note added",
+  "source": "https://openlibrary.org/search.json?q=Grundlagen+fuer+eine+allgemeine+Theorie+der+Functionen"
+ },
+ {
+  "pid": "P355",
+  "change": "Settled: 1888 Ricci paper confirmed by zbMATH 20.0282.01 as evidence; work citation corrected",
+  "source": "https://api.zbmath.org/v1/document/2693954"
+ },
+ {
+  "pid": "P388",
+  "change": "Unresolved: zbMATH title search for the 1908 Brouwer paper gave no record; note added",
+  "source": "https://api.zbmath.org/v1/document/_search?search_string=au:Brouwer%20ti:onbetrouwbaarheid"
+ },
+ {
+  "pid": "P418",
+  "change": "Settled in part: both Hasse 1923 papers confirmed by Crossref; Minkowski 1891 confirmed by zbMATH (content not read, low); no textbook verified",
+  "source": "https://doi.org/10.1515/crll.1923.152.205"
+ },
+ {
+  "pid": "P373",
+  "change": "Settled: naming moved from Pierpont 1899 to Klein 1895 address (zbMATH 26.0467.01); derived institutional 1899 -> 1895 by rule",
+  "source": "https://api.zbmath.org/v1/document/2678771"
+ },
+ {
+  "pid": "P385",
+  "change": "Unresolved: Takagi 1920 not found in zbMATH (only 1915-16 papers); Weber 1897 zbMATH evidence added; note added",
+  "source": "https://api.zbmath.org/v1/document/_search?search_string=au:Takagi%20ti:Abel"
+ },
+ {
+  "pid": "P368",
+  "change": "Unresolved: term year for 'Lyapunov function' not found; Perron 1930 Math. Z. 32 confirmed by Crossref, not promoted; note added",
+  "source": "https://doi.org/10.1007/BF01194662"
+ },
+ {
+  "pid": "P372",
+  "change": "Settled: Levi-Civita first_statement 1917 -> 1916 (Crossref print date); derived conceptual 1917 -> 1916; Crossref evidence",
+  "source": "https://doi.org/10.1007/bf03014898"
+ },
+ {
+  "pid": "P431",
+  "change": "Settled as note: Peano 1888 Calcolo geometrico confirmed by zbMATH as evidence; priority disputes still open",
+  "source": "https://api.zbmath.org/v1/document/_search?search_string=au:Peano%20py:1888"
+ },
+ {
+  "pid": "P382",
+  "change": "Unresolved: naming of 'abstract group' not found; the Weber-1882 finite-definition claim is not confirmed by the Crossref record; note added",
+  "source": "https://doi.org/10.1007/bf01443599"
+ },
+ {
+  "pid": "P382",
+  "change": "Settled: Weber-von Dyck 1882 milestone relabelled and description corrected; Crossref evidence; confidence low",
+  "source": "https://doi.org/10.1007/bf01443599"
+ },
+ {
+  "pid": "P434",
+  "change": "Settled: Netto 1879 Crossref evidence added; Menger biographyUrl corrected to MacTutor /Biographies/Menger/",
+  "source": "https://doi.org/10.1515/crll.1879.86.263"
+ },
+ {
+  "pid": "P374",
+  "change": "Unresolved: 'Peano axioms' coinage not found; Dedekind 1888 and Peano 1889 zbMATH evidence added; note added",
+  "source": "https://api.zbmath.org/v1/document/_search?search_string=au:Peano%20py:1889"
+ },
+ {
+  "pid": "P411",
+  "change": "Settled in part: Schur 1901 and 1927 zbMATH evidence added; Frobenius precursor dated 1896 (zbMATH 27.0092.01)",
+  "source": "https://api.zbmath.org/v1/document/_search?search_string=au:Frobenius%20py:1896"
+ },
+ {
+  "pid": "P409",
+  "change": "Settled: Magnus 1931 (a different paper) replaced by Freiheitssatz key_development 1930 (Crossref)",
+  "source": "https://doi.org/10.1515/crll.1930.163.141"
+ },
+ {
+  "pid": "P015",
+  "change": "Settled: Frobenius precursor dated 1896 (zbMATH 27.0092.01); remains precursor",
+  "source": "https://api.zbmath.org/v1/document/_search?search_string=au:Frobenius%20py:1896"
+ },
+ {
+  "pid": "P366",
+  "change": "Settled: Poincare Acta 31 split to key_development 1908 (Crossref); Koebe 1907 milestone via zbMATH 38.0454.01",
+  "source": "https://doi.org/10.1007/bf02415442"
+ },
+ {
+  "pid": "P385",
+  "change": "Unresolved: zbMATH shows only 1915-16 Takagi papers, no 1920 record; Weber 1897 evidence added; note added",
+  "source": "https://api.zbmath.org/v1/document/_search?search_string=au:Takagi%20ti:Abel"
+ },
+ {
+  "pid": "P016",
+  "change": "Settled: Weil 1939 confirmed by zbMATH 65.1140.01; confidence low -> medium",
+  "source": "https://api.zbmath.org/v1/document/2513246"
+ },
+ {
+  "pid": "P415",
+  "change": "Unresolved: zbMATH search for Weierstrass 1870 gave no record (only a 1898 Polish translation); note added",
+  "source": "https://api.zbmath.org/v1/document/_search?search_string=au:Weierstrass%20py:1870"
+ },
+ {
+  "pid": "P393",
+  "change": "Settled: Clifford precursor already 1871 in the milestone; Crossref print date added as evidence; MacTutor's 1873 noted; no year change",
+  "source": "https://doi.org/10.1112/plms/s1-4.1.381"
+ },
+ {
+  "pid": "P440",
+  "change": "Settled: Hausdorff 1919 mismatch resolved to 1918 by the same Crossref record",
+  "source": "https://doi.org/10.1007/bf01457179"
+ }
+]

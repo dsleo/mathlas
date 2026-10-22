@@ -1,0 +1,1509 @@
+[
+ {
+  "pid": "E42",
+  "eventId": "E42",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1987,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kauffman's monograph On Knots",
+    "work": "Kauffman, L. H., On Knots, Annals of Mathematics Studies 115, 1987",
+    "people": [
+     "Louis Kauffman"
+    ],
+    "description": "A book-length treatment of knot polynomials built on the bracket and state-model approach that led to the Jones polynomial.",
+    "evidence": [
+     {
+      "claim": "Book record dated 1987 under this title",
+      "source": "Open Library search API",
+      "url": "https://openlibrary.org/search.json?title=On+knots&author=Kauffman",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "zbMATH record for Kauffman's On knots, 1987",
+      "source": "zbMATH Open API",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=au:Kauffman%20%26%20ti:knots",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Monograph covers knot polynomials broadly, not only the Jones polynomial; treated as consolidation with that caveat. Lickorish (1997) textbook not used: general knot theory."
+   }
+  ],
+  "searched": [
+   "Open Library and zbMATH searches for Kauffman monographs (au:Kauffman ti:knots)",
+   "Wikipedia wikitext for Jones polynomial (references list): found Kauffman 1987 journal paper, Lickorish 1997 book, Adams Knot Book (general)",
+   "Open Library search for Lickorish / Adams not used: general knot theory, not this idea"
+  ]
+ },
+ {
+  "pid": "E49",
+  "eventId": "E49",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2005,
+    "endYear": null,
+    "precision": "year",
+    "label": "Lawler's monograph on conformally invariant processes",
+    "work": "Lawler, G. F., Conformally Invariant Processes in the Plane, AMS Mathematical Surveys and Monographs, 2005",
+    "people": [
+     "Gregory Lawler"
+    ],
+    "description": "A book treating SLE and related conformally invariant planar processes in a systematic way.",
+    "evidence": [
+     {
+      "claim": "Open Library work record, first publish 2005",
+      "source": "Open Library search API",
+      "url": "https://openlibrary.org/works/OL18206901W",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "zbMATH record Lawler 2005",
+      "source": "zbMATH Open API",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=Lawler%20Conformally%20invariant%20processes%20in%20the%20plane",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2005,
+    "endYear": null,
+    "precision": "year",
+    "label": "Basic properties of SLE established",
+    "work": "Rohde, S., Schramm, O., Basic properties of SLE, Annals of Mathematics 161 (2005)",
+    "people": [
+     "Steffen Rohde",
+     "Oded Schramm"
+    ],
+    "description": "Establishes the basic regularity and continuity properties of SLE traces that let the process be used as a tool.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Annals 161 (2005)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.4007/annals.2005.161.883",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "searched": [
+   "Open Library and zbMATH searches for Lawler monographs",
+   "Crossref search for Rohde-Schramm basic properties"
+  ]
+ },
+ {
+  "pid": "P047",
+  "eventId": "P047",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2006,
+    "endYear": null,
+    "precision": "year",
+    "label": "Sturm's metric measure space curvature bounds",
+    "work": "Sturm, K.-T., On the geometry of metric measure spaces I, Acta Mathematica (2006)",
+    "people": [
+     "Karl-Theodor Sturm"
+    ],
+    "description": "Defines curvature-dimension bounds for metric measure spaces by convexity of entropy along optimal transport, a parallel route to Lott-Villani.",
+    "evidence": [
+     {
+      "claim": "Crossref record for Acta Math 2006",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/s11511-006-0002-8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2009,
+    "endYear": null,
+    "precision": "year",
+    "label": "Lott-Villani curvature via optimal transport",
+    "work": "Lott, J., Villani, C., Ricci curvature for metric-measure spaces via optimal transport, Annals of Mathematics 169 (2009)",
+    "people": [
+     "John Lott",
+     "Cédric Villani"
+    ],
+    "description": "Gives the transport-based synthetic Ricci lower bound for metric-measure spaces that became the standard definition.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Annals 169 (2009)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.4007/annals.2009.169.903",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2009,
+    "endYear": null,
+    "precision": "year",
+    "label": "Villani's Optimal Transport: Old and New",
+    "work": "Villani, C., Optimal Transport: Old and New, Springer (Grundlehren series), 2009",
+    "people": [
+     "Cédric Villani"
+    ],
+    "description": "A large survey-monograph that systematizes optimal transport and its curvature-based viewpoint.",
+    "evidence": [
+     {
+      "claim": "Crossref book record, 2009",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-3-540-71050-9",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "zbMATH record 'Optimal transport. Old and new', 2009",
+      "source": "zbMATH Open API",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=au:Villani%20%26%20ti:Optimal%20transport",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "searched": [
+   "Crossref searches for Lott-Villani, Sturm, Villani book",
+   "zbMATH search au:Lott ti:Ricci curvature",
+   "Open Library search for Villani Optimal transport (found only related titles)"
+  ]
+ },
+ {
+  "pid": "P056",
+  "eventId": "P056",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2011,
+    "endYear": null,
+    "precision": "year",
+    "label": "Pila's André-Oort via o-minimality",
+    "work": "Pila, J., O-minimality and the André-Oort conjecture for C^n, Annals of Mathematics 173 (2011)",
+    "people": [
+     "Jonathan Pila"
+    ],
+    "description": "Uses o-minimal counting to prove the André-Oort conjecture for products of modular curves, extending the Pila-Wilkie method.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Annals 173 (2011)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.4007/annals.2011.173.3.11",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2015,
+    "endYear": null,
+    "precision": "year",
+    "label": "Survey chapter on o-minimality and Diophantine geometry",
+    "work": "Pila, J., Functional transcendence via o-minimality, in: G. O. Jones and A. J. Wilkie (eds.), O-Minimality and Diophantine Geometry, LMS Lecture Note Series, 2015",
+    "people": [
+     "Jonathan Pila"
+    ],
+    "description": "An expository chapter in a volume that surveys the o-minimal approach to diophantine problems.",
+    "evidence": [
+     {
+      "claim": "Crossref chapter record, 2015, in the O-Minimality and Diophantine Geometry volume",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1017/cbo9781316106839.004",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Volume-level consolidation; the editors are from the Crossref record of the Bulletin of Symbolic Logic review, not the chapter record."
+   }
+  ],
+  "searched": [
+   "Crossref search for Pila o-minimality works",
+   "zbMATH search au:Pila ti:O-minimality",
+   "Crossref search for the O-minimality volume (only a 2017 review record found; no separate book record)"
+  ]
+ },
+ {
+  "pid": "P078",
+  "eventId": "P078",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2005,
+    "endYear": null,
+    "precision": "year",
+    "label": "Okounkov's survey 'The uses of random partitions'",
+    "work": "Okounkov, A., The uses of random partitions (2005)",
+    "people": [
+     "Andrei Okounkov"
+    ],
+    "description": "A survey of how random partitions arise across representation theory, probability and mathematical physics.",
+    "evidence": [
+     {
+      "claim": "zbMATH record 'The uses of random partitions', 2005",
+      "source": "zbMATH Open API",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=au:Okounkov%20%26%20ti:random%20partitions",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Venue not verified in the record; treated as a survey from its title and record type."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2006,
+    "endYear": null,
+    "precision": "year",
+    "label": "Nekrasov-Okounkov: random partitions and Seiberg-Witten theory",
+    "work": "Nekrasov, N., Okounkov, A., Seiberg-Witten theory and random partitions (2006)",
+    "people": [
+     "Nikita Nekrasov",
+     "Andrei Okounkov"
+    ],
+    "description": "Links instanton partition functions of gauge theory to sums over random partitions, giving a new route to Seiberg-Witten data.",
+    "evidence": [
+     {
+      "claim": "zbMATH record 'Seiberg-Witten theory and random partitions', 2006",
+      "source": "zbMATH Open API",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=au:Okounkov%20%26%20ti:random%20partitions",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Crossref record for the Progress in Mathematics chapter (DOI)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/0-8176-4467-9_15",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Crossref chapter record gives no year; year 2006 from zbMATH."
+   }
+  ],
+  "searched": [
+   "Crossref and zbMATH searches for Okounkov random partitions works",
+   "Crossref search for Okounkov-Pandharipande Hurwitz and completed cycles (already existing milestone)"
+  ]
+ },
+ {
+  "pid": "P101",
+  "eventId": "P101",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2016,
+    "endYear": null,
+    "precision": "year",
+    "label": "Pardon's algebraic construction of virtual cycles",
+    "work": "Pardon, J., An algebraic approach to virtual fundamental cycles on moduli spaces of pseudo-holomorphic curves, Geometry & Topology 20 (2016)",
+    "people": [
+     "John Pardon"
+    ],
+    "description": "Gives an algebraic route to virtual fundamental cycles on moduli spaces of pseudo-holomorphic curves.",
+    "evidence": [
+     {
+      "claim": "Crossref record, G&T 20 (2016)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2140/gt.2016.20.779",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2019,
+    "endYear": null,
+    "precision": "year",
+    "label": "Virtual cycles applied to contact homology",
+    "work": "Pardon, J., Contact homology and virtual fundamental cycles, Journal of the AMS (2019)",
+    "people": [
+     "John Pardon"
+    ],
+    "description": "Applies the virtual-cycle machinery to define contact homology in general, a main later application.",
+    "evidence": [
+     {
+      "claim": "Crossref record, JAMS (2019)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/jams/924",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "searched": [
+   "Crossref searches for Pardon virtual fundamental cycle papers",
+   "zbMATH search au:Pardon ti:virtual fundamental (no separate VFC monograph found)"
+  ]
+ },
+ {
+  "pid": "P294",
+  "eventId": "P294",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2007,
+    "endYear": null,
+    "precision": "year",
+    "label": "Mirzakhani's simple geodesics and WP volumes",
+    "work": "Mirzakhani, M., Simple geodesics and Weil-Petersson volumes of moduli spaces of bordered Riemann surfaces, Inventiones mathematicae (2007)",
+    "people": [
+     "Maryam Mirzakhani"
+    ],
+    "description": "Shows the Weil-Petersson volumes are computed by counting simple closed geodesics, which yields the recursion.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Inventiones (online 2006, print volume 2007)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/s00222-006-0013-2",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "zbMATH record, 2007",
+      "source": "zbMATH Open API",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=au:Mirzakhani%20%26%20ti:volumes",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Dated 2007 (print, per zbMATH); Crossref online date 2006."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2008,
+    "endYear": null,
+    "precision": "year",
+    "label": "Growth of simple closed geodesics",
+    "work": "Mirzakhani, M., Growth of the number of simple closed geodesics on hyperbolic surfaces, Annals of Mathematics 168 (2008)",
+    "people": [
+     "Maryam Mirzakhani"
+    ],
+    "description": "Proves the counting asymptotic for simple closed geodesics using the same volume machinery.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Annals 168 (2008)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.4007/annals.2008.168.97",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "searched": [
+   "Crossref searches for Mirzakhani simple geodesics and growth papers",
+   "zbMATH search au:Mirzakhani ti:volumes"
+  ]
+ },
+ {
+  "pid": "P299",
+  "eventId": "P299",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2004,
+    "endYear": null,
+    "precision": "year",
+    "label": "Gubinelli's controlled rough paths",
+    "work": "Gubinelli, M., Controlling rough paths, Journal of Functional Analysis (2004)",
+    "people": [
+     "Massimiliano Gubinelli"
+    ],
+    "description": "Introduces controlled rough paths, the calculus used to solve equations driven by rough signals.",
+    "evidence": [
+     {
+      "claim": "Crossref record, JFA (2004)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1016/j.jfa.2004.01.002",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2014,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hairer's regularity structures",
+    "work": "Hairer, M., A theory of regularity structures, Inventiones mathematicae (2014)",
+    "people": [
+     "Martin Hairer"
+    ],
+    "description": "Extends the rough-path idea to singular stochastic PDEs through regularity structures.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Inventiones (2014)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/s00222-014-0505-4",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2014,
+    "endYear": null,
+    "precision": "year",
+    "label": "Friz-Hairer textbook on rough paths",
+    "work": "Friz, P. K., Hairer, M., A Course on Rough Paths, Universitext, Springer (2014)",
+    "people": [
+     "Peter Friz",
+     "Martin Hairer"
+    ],
+    "description": "A textbook treatment of rough path theory from the basics through integration.",
+    "evidence": [
+     {
+      "claim": "Open Library work record, 2014",
+      "source": "Open Library search API",
+      "url": "https://openlibrary.org/works/OL20856451W",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Crossref chapter record, Universitext 2014",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-3-319-08332-2_2",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "searched": [
+   "Crossref searches for Gubinelli, Hairer, Friz-Hairer",
+   "Open Library search for A course on rough paths"
+  ]
+ },
+ {
+  "pid": "P305",
+  "eventId": "P305",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2010,
+    "endYear": null,
+    "precision": "year",
+    "label": "Green-Tao: primes via higher-order Fourier analysis",
+    "work": "Green, B., Tao, T., Linear equations in primes, Annals of Mathematics 171 (2010)",
+    "people": [
+     "Ben Green",
+     "Terence Tao"
+    ],
+    "description": "Applies Gowers-norm (higher-order Fourier) methods to count solutions of linear systems in the primes.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Annals 171 (2010)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.4007/annals.2010.171.1753",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2010,
+    "endYear": null,
+    "precision": "year",
+    "label": "Tao-Ziegler inverse theorem for Gowers norms",
+    "work": "Tao, T., Ziegler, T., The inverse conjecture for the Gowers norm over finite fields via the correspondence principle, Analysis & PDE 3 (2010)",
+    "people": [
+     "Terence Tao",
+     "Tamar Ziegler"
+    ],
+    "description": "Proves the inverse conjecture for the Gowers norm over finite fields, the structural input higher-order Fourier analysis needs.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Analysis & PDE 3 (2010)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2140/apde.2010.3.1",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2012,
+    "endYear": null,
+    "precision": "year",
+    "label": "Tao's book Higher Order Fourier Analysis",
+    "work": "Tao, T., Higher Order Fourier Analysis, AMS Graduate Studies in Mathematics (2012)",
+    "people": [
+     "Terence Tao"
+    ],
+    "description": "A monograph developing higher-order Fourier analysis and its inverse theorems as a systematic theory.",
+    "evidence": [
+     {
+      "claim": "Open Library work record, 2012",
+      "source": "Open Library search API",
+      "url": "https://openlibrary.org/works/OL16769006W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Publisher series not verified beyond the Open Library record."
+   }
+  ],
+  "searched": [
+   "Crossref searches for Green-Tao, Tao-Ziegler, Gowers-Wolf",
+   "Open Library search for Tao Higher order Fourier analysis"
+  ]
+ },
+ {
+  "pid": "P310",
+  "eventId": "P310",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2015,
+    "endYear": null,
+    "precision": "year",
+    "label": "Ramanujan graphs of all sizes",
+    "work": "Marcus, A. W., Spielman, D. A., Srivastava, N., Interlacing families IV: Bipartite Ramanujan graphs of all sizes, FOCS 2015",
+    "people": [
+     "Adam Marcus",
+     "Daniel Spielman",
+     "Nikhil Srivastava"
+    ],
+    "description": "Extends the interlacing method to bipartite Ramanujan graphs of every size, not only every degree.",
+    "evidence": [
+     {
+      "claim": "Crossref record, FOCS 2015, DOI 10.1109/focs.2015.87",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1109/focs.2015.87",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "searched": [
+   "Crossref searches for Interlacing families I, II, IV (Marcus-Spielman-Srivastava)",
+   "No dated consolidation or survey on interlacing families for Ramanujan graphs found in Crossref or zbMATH"
+  ]
+ },
+ {
+  "pid": "P315",
+  "eventId": "P315",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2008,
+    "endYear": null,
+    "precision": "year",
+    "label": "GCT II: explicit obstructions",
+    "work": "Mulmuley, K. D., Sohoni, M., Geometric Complexity Theory II: Towards explicit obstructions for embeddings among class varieties, SIAM J. Comput. (2008)",
+    "people": [
+     "Ketan Mulmuley",
+     "Milind Sohoni"
+    ],
+    "description": "Lays out the explicit-obstruction program of GCT, the concrete route the programme later pursued.",
+    "evidence": [
+     {
+      "claim": "Crossref record, SIAM J. Comput. (2008)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1137/080718115",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2011,
+    "endYear": null,
+    "precision": "year",
+    "label": "Mulmuley's survey on P vs NP and GCT",
+    "work": "Mulmuley, K. D., On P vs. NP and geometric complexity theory, Journal of the ACM (2011)",
+    "people": [
+     "Ketan Mulmuley"
+    ],
+    "description": "An expository account of the GCT programme and its goals for the P versus NP problem.",
+    "evidence": [
+     {
+      "claim": "Crossref record, JACM (2011)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1145/1944345.1944346",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Survey status taken from the title and venue; text not read."
+   }
+  ],
+  "searched": [
+   "Crossref searches for Mulmuley-Sohoni GCT I, II, III and Mulmuley survey",
+   "zbMATH search au:Mulmuley ti:Geometric complexity theory"
+  ]
+ },
+ {
+  "pid": "P322",
+  "eventId": "P322",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1995,
+    "endYear": null,
+    "precision": "year",
+    "label": "Morgan's monograph on Seiberg-Witten equations",
+    "work": "Morgan, J. W., The Seiberg-Witten Equations and Applications to the Topology of Smooth Four-Manifolds (Princeton)",
+    "people": [
+     "John Morgan"
+    ],
+    "description": "A book-length exposition of Seiberg-Witten theory and its topological applications to four-manifolds.",
+    "evidence": [
+     {
+      "claim": "Crossref book record, DOI 10.1515/9781400865161, issued 1995",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1515/9781400865161",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Crossref issued date 1995; the Princeton imprint year was not separately verified."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2007,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kronheimer-Mrowka on SW theory for 3-manifolds",
+    "work": "Kronheimer, P. B., Mrowka, T. S., Monopoles and Three-Manifolds, Cambridge (2007)",
+    "people": [
+     "Peter Kronheimer",
+     "Tomasz Mrowka"
+    ],
+    "description": "A monograph developing monopole Floer theory for three-manifolds, the Seiberg-Witten side of the Heegaard Floer comparison.",
+    "evidence": [
+     {
+      "claim": "Open Library work record, 2007",
+      "source": "Open Library search API",
+      "url": "https://openlibrary.org/works/OL8012910W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2004,
+    "endYear": null,
+    "precision": "year",
+    "label": "Ozsváth-Szabó: properties and applications of HF invariants",
+    "work": "Ozsváth, P., Szabó, Z., Holomorphic disks and three-manifold invariants: properties and applications, Annals of Mathematics 159 (2004)",
+    "people": [
+     "Peter Ozsváth",
+     "Zoltán Szabó"
+    ],
+    "description": "Proves structural properties of Heegaard Floer invariants and derives applications to three-manifold topology.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Annals 159 (2004)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.4007/annals.2004.159.1159",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "searched": [
+   "Crossref searches for Morgan SW book and Ozsváth-Szabó works",
+   "Open Library search for Monopoles and three-manifolds",
+   "No separate naming milestone found for the Heegaard Floer / Seiberg-Witten link"
+  ]
+ },
+ {
+  "pid": "P326",
+  "eventId": "P326",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2000,
+    "endYear": null,
+    "precision": "year",
+    "label": "Khovanov's categorification of the Jones polynomial",
+    "work": "Khovanov, M., A categorification of the Jones polynomial, Duke Mathematical Journal (2000)",
+    "people": [
+     "Mikhail Khovanov"
+    ],
+    "description": "Constructs a homology theory whose Euler characteristic is the Jones polynomial, the first major categorification example.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Duke (2000)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1215/s0012-7094-00-10131-7",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2006,
+    "endYear": null,
+    "precision": "year",
+    "label": "Khovanov's survey Link homology and categorification",
+    "work": "Khovanov, M., Link homology and categorification (2006)",
+    "people": [
+     "Mikhail Khovanov"
+    ],
+    "description": "A survey of link homology as the categorification of link polynomials.",
+    "evidence": [
+     {
+      "claim": "zbMATH record 'Link homology and categorification', 2006",
+      "source": "zbMATH Open API",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=au:Khovanov%20%26%20ti:categorification",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Venue (ICM proceedings) not verified in the record."
+   }
+  ],
+  "searched": [
+   "zbMATH searches for Khovanov categorification works",
+   "Crossref search for Khovanov-Lauda diagrammatic papers (already existing milestone)"
+  ]
+ },
+ {
+  "pid": "P334",
+  "eventId": "P334",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2008,
+    "endYear": null,
+    "precision": "year",
+    "label": "Seidel's monograph on Fukaya categories",
+    "work": "Seidel, P., Fukaya Categories and Picard-Lefschetz Theory, Zurich Lectures in Advanced Mathematics (2008)",
+    "people": [
+     "Paul Seidel"
+    ],
+    "description": "A monograph on Fukaya categories as A-infinity categories, with Picard-Lefschetz applications.",
+    "evidence": [
+     {
+      "claim": "Crossref record, DOI 10.4171/063, 2008",
+      "source": "Crossref",
+      "url": "https://doi.org/10.4171/063",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "zbMATH record Seidel 2008",
+      "source": "zbMATH Open API",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=au:Seidel%20%26%20ti:Fukaya",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2012,
+    "endYear": null,
+    "precision": "year",
+    "label": "Abouzaid-Smith: exact Lagrangians in plumbings",
+    "work": "Abouzaid, M., Smith, I., Exact Lagrangians in plumbings, Geometric and Functional Analysis (2012)",
+    "people": [
+     "Mohammed Abouzaid",
+     "Ivan Smith"
+    ],
+    "description": "Uses Fukaya-category methods to classify exact Lagrangians in plumbings, a concrete application of the theory.",
+    "evidence": [
+     {
+      "claim": "Crossref record, GAFA (2012)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/s00039-012-0162-y",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "searched": [
+   "Crossref searches for Seidel Fukaya categories, Abouzaid-Smith",
+   "Open Library search for Seidel monograph"
+  ]
+ },
+ {
+  "pid": "P339",
+  "eventId": "P339",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2000,
+    "endYear": null,
+    "precision": "year",
+    "label": "Johansson: shape fluctuations and random matrices",
+    "work": "Johansson, K., Shape fluctuations and random matrices, Communications in Mathematical Physics (2000)",
+    "people": [
+     "Kurt Johansson"
+    ],
+    "description": "Shows Tracy-Widom fluctuations for a growth model, extending the random-matrix universality into KPZ-type growth.",
+    "evidence": [
+     {
+      "claim": "Crossref record, CMP (2000)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/s002200050027",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2012,
+    "endYear": null,
+    "precision": "year",
+    "label": "Corwin's survey on the KPZ universality class",
+    "work": "Corwin, I., The Kardar-Parisi-Zhang equation and universality class, Random Matrices: Theory and Applications (2012)",
+    "people": [
+     "Ivan Corwin"
+    ],
+    "description": "A survey of the KPZ universality class and its Tracy-Widom limits.",
+    "evidence": [
+     {
+      "claim": "Crossref record, RMTA (2012)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1142/s2010326311300014",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "searched": [
+   "Crossref searches for Johansson, Baik-Deift-Johansson, Corwin KPZ survey",
+   "KPZ original paper (1986) is precursor; not searched beyond Crossref"
+  ]
+ },
+ {
+  "pid": "P343",
+  "eventId": "P343",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2002,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hong-Kang book on quantum groups and crystal bases",
+    "work": "Hong, J., Kang, S.-J., Introduction to Quantum Groups and Crystal Bases, AMS (2002)",
+    "people": [
+     "Jin Hong"
+    ],
+    "description": "A textbook introducing quantum groups and the crystal-basis theory built around Kashiwara's construction.",
+    "evidence": [
+     {
+      "claim": "Open Library work record, 2002 (catalogued under Jin Hong)",
+      "source": "Open Library search API",
+      "url": "https://openlibrary.org/works/OL23744606W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Only Hong appears in the Open Library record; co-author not verified."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1993,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kashiwara's global crystal bases",
+    "work": "Kashiwara, M., Global crystal bases of quantum groups, Duke Mathematical Journal (1993)",
+    "people": [
+     "Masaki Kashiwara"
+    ],
+    "description": "Constructs global crystal bases for quantum groups, extending the local theory to the whole algebra.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Duke (1993)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1215/s0012-7094-93-06920-7",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "searched": [
+   "Open Library search for Hong-Kang crystal bases book",
+   "Crossref and zbMATH searches for Kashiwara crystal bases papers"
+  ]
+ },
+ {
+  "pid": "P347",
+  "eventId": "P347",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2000,
+    "endYear": null,
+    "precision": "year",
+    "label": "Nielsen-Chuang textbook",
+    "work": "Nielsen, M. A., Chuang, I. L., Quantum Computation and Quantum Information, Cambridge University Press (2000)",
+    "people": [
+     "Michael Nielsen",
+     "Isaac Chuang"
+    ],
+    "description": "A standard textbook whose chapters cover quantum error-correcting codes and fault tolerance.",
+    "evidence": [
+     {
+      "claim": "Open Library work record, 2000",
+      "source": "Open Library search API",
+      "url": "https://openlibrary.org/works/OL13301633W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "General quantum computing text; error correction is one part, so confidence medium."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1997,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kitaev's survey on algorithms and error correction",
+    "work": "Kitaev, A. Y., Quantum computations: algorithms and error correction, Russian Mathematical Surveys (1997)",
+    "people": [
+     "Alexei Kitaev"
+    ],
+    "description": "A survey covering quantum error correction and topological approaches to fault tolerance.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Russian Math. Surveys (1997)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1070/rm1997v052n06abeh002155",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "searched": [
+   "Open Library search for Nielsen-Chuang",
+   "Crossref searches for Kitaev surveys and Gottesman stabilizer codes"
+  ]
+ },
+ {
+  "pid": "P353",
+  "eventId": "P353",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2016,
+    "endYear": null,
+    "precision": "year",
+    "label": "Stevens' SpringerBrief on the Kadison-Singer problem",
+    "work": "Stevens, A., The Kadison-Singer Problem, SpringerBriefs in Mathematical Physics (2016)",
+    "people": [
+     "Stevens"
+    ],
+    "description": "A short monograph reviewing the Kadison-Singer problem and its solution through interlacing polynomials.",
+    "evidence": [
+     {
+      "claim": "Crossref chapter record, SpringerBriefs 2016",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-3-319-47702-2_8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Only the surname appears in the Crossref record; only the chapter DOI record was checked."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2018,
+    "endYear": null,
+    "precision": "year",
+    "label": "Bownik's survey of the Kadison-Singer problem",
+    "work": "Bownik, M., The Kadison-Singer problem, Contemporary Mathematics 706 (2018)",
+    "people": [
+     "Marcin Bownik"
+    ],
+    "description": "A survey of the Kadison-Singer problem after its solution.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Contemp. Math. 706 (2018)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/conm/706/14218",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "searched": [
+   "Crossref searches for Kadison-Singer survey and follow-up work",
+   "zbMATH search Kadison-Singer problem (found pre-2013 surveys only, which are excluded as before the first statement)"
+  ]
+ },
+ {
+  "pid": "P483",
+  "eventId": "P483",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2003,
+    "endYear": null,
+    "precision": "year",
+    "label": "Cluster algebras II: finite type classification",
+    "work": "Fomin, S., Zelevinsky, A., Cluster algebras II: Finite type classification, Inventiones mathematicae (2003)",
+    "people": [
+     "Sergey Fomin",
+     "Andrei Zelevinsky"
+    ],
+    "description": "Classifies the cluster algebras of finite type, the first large structural result on the theory.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Inventiones (2003)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/s00222-003-0302-y",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2008,
+    "endYear": null,
+    "precision": "year",
+    "label": "Cluster algebras and triangulated surfaces",
+    "work": "Fomin, S., Shapiro, M., Thurston, D., Cluster algebras and triangulated surfaces. Part I: Cluster complexes, Acta Mathematica (2008)",
+    "people": [
+     "Sergey Fomin",
+     "Michael Shapiro",
+     "Dylan Thurston"
+    ],
+    "description": "Links cluster algebras to triangulated surfaces, giving a geometric model for a large class of them.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Acta Math. (2008)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/s11511-008-0030-7",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2003,
+    "endYear": null,
+    "precision": "year",
+    "label": "Fomin-Zelevinsky notes for CDM-03",
+    "work": "Fomin, S., Zelevinsky, A., Cluster algebras: Notes for the CDM-03 conference, Current Developments in Mathematics (2003)",
+    "people": [
+     "Sergey Fomin",
+     "Andrei Zelevinsky"
+    ],
+    "description": "Expository notes presenting the core definitions and results of cluster algebras for a general mathematical audience.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Current Developments in Mathematics (2003)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.4310/cdm.2003.v2003.n1.a1",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "searched": [
+   "Crossref searches for Fomin-Zelevinsky cluster algebra works",
+   "Crossref search for Fomin-Shapiro-Thurston Part I and Fomin-Thurston Part II"
+  ]
+ },
+ {
+  "pid": "P492",
+  "eventId": "P492",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2014,
+    "endYear": null,
+    "precision": "year",
+    "label": "Chen-Donaldson-Sun: cone-angle limits completing the KE existence proof",
+    "work": "Chen, X., Donaldson, S., Sun, S., Kähler-Einstein metrics on Fano manifolds III: limits as cone angle approaches 2π, JAMS (2014)",
+    "people": [
+     "Xiuxiong Chen",
+     "Simon Donaldson",
+     "Song Sun"
+    ],
+    "description": "Completes the cone-angle limit argument in the proof linking K-stability to Kähler-Einstein metrics on Fano manifolds.",
+    "evidence": [
+     {
+      "claim": "Crossref record, JAMS 2014 (online)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/s0894-0347-2014-00801-8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Crossref gives 2014; the printed JAMS volume is 2015."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2014,
+    "endYear": null,
+    "precision": "year",
+    "label": "Székelyhidi's introduction to extremal Kähler metrics",
+    "work": "Székelyhidi, G., An Introduction to Extremal Kähler Metrics, AMS Graduate Studies in Mathematics 152 (2014)",
+    "people": [
+     "Gábor Székelyhidi"
+    ],
+    "description": "A graduate-level book introducing K-stability and extremal metrics as a textbook account.",
+    "evidence": [
+     {
+      "claim": "Crossref chapter record in GSM 152, 2014",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/gsm/152/03",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "zbMATH record 'An introduction to extremal Kähler metrics', 2014",
+      "source": "zbMATH Open API",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=au:Székelyhidi%20%26%20ti:extremal%20Kähler%20metrics",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "searched": [
+   "Crossref searches for Chen-Donaldson-Sun KE papers",
+   "Crossref and zbMATH searches for Tian K-stability and Kähler-Einstein metrics (2015 record found, venue unverified, not used)",
+   "Open Library search for Székelyhidi (no match)"
+  ]
+ },
+ {
+  "pid": "P506",
+  "eventId": "P506",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2007,
+    "endYear": null,
+    "precision": "year",
+    "label": "Dinur's gap-amplification proof of the PCP theorem",
+    "work": "Dinur, I., The PCP theorem by gap amplification, Journal of the ACM (2007)",
+    "people": [
+     "Irit Dinur"
+    ],
+    "description": "Gives a combinatorial proof of the PCP theorem by iterated gap amplification, a much simpler route than the original.",
+    "evidence": [
+     {
+      "claim": "Crossref record, JACM (2007)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1145/1236457.1236459",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "searched": [
+   "Crossref searches for Arora-Lund-Motwani-Sudan-Szegedy and Arora-Safra (journal versions of the existing 1992 milestone, not added)",
+   "Crossref search for Arora-Barak 2009 textbook and Goldreich 1999 book: general complexity or cryptography, not added",
+   "No naming milestone found"
+  ]
+ },
+ {
+  "pid": "P512",
+  "eventId": "P512",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2011,
+    "endYear": null,
+    "precision": "year",
+    "label": "Approximate subgroups of linear groups",
+    "work": "Breuillard, E., Green, B., Tao, T., Approximate subgroups of linear groups, GAFA (2011)",
+    "people": [
+     "Emmanuel Breuillard",
+     "Ben Green",
+     "Terence Tao"
+    ],
+    "description": "Proves the structure of approximate subgroups inside linear groups, a major case of the general theory.",
+    "evidence": [
+     {
+      "claim": "Crossref record, GAFA (2011)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/s00039-011-0122-y",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2014,
+    "endYear": null,
+    "precision": "year",
+    "label": "Breuillard's introduction to approximate groups",
+    "work": "Breuillard, E., A brief introduction to approximate groups, in: Thin Groups and Superstrong Approximation (2014)",
+    "people": [
+     "Emmanuel Breuillard"
+    ],
+    "description": "An expository chapter introducing approximate groups and their structure theory.",
+    "evidence": [
+     {
+      "claim": "Crossref chapter record, 2014",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1017/9781009701228.003",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "searched": [
+   "Crossref searches for Breuillard-Green-Tao structure of approximate groups and linear approximate groups",
+   "Crossref search for Breuillard survey on approximate groups"
+  ]
+ },
+ {
+  "pid": "P523",
+  "eventId": "P523",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2014,
+    "endYear": null,
+    "precision": "year",
+    "label": "Bansal's survey on algorithmic aspects of discrepancy",
+    "work": "Bansal, N., Algorithmic aspects of combinatorial discrepancy, Lecture Notes in Mathematics (2014)",
+    "people": [
+     "Nikhil Bansal"
+    ],
+    "description": "An expository chapter on algorithms for combinatorial discrepancy.",
+    "evidence": [
+     {
+      "claim": "Crossref chapter record, 2014",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-3-319-04696-9_6",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2017,
+    "endYear": null,
+    "precision": "year",
+    "label": "Bansal-Garg beyond partial coloring",
+    "work": "Bansal, N., Garg, S., Algorithmic discrepancy beyond partial coloring, STOC 2017",
+    "people": [
+     "Nikhil Bansal",
+     "Shashwat Garg"
+    ],
+    "description": "Extends the algorithmic discrepancy method beyond partial coloring, reaching bounds the earlier methods could not.",
+    "evidence": [
+     {
+      "claim": "Crossref record, STOC 2017",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1145/3055399.3055490",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2023,
+    "endYear": null,
+    "precision": "year",
+    "label": "Bansal's ICM survey on discrepancy theory",
+    "work": "Bansal, N., Discrepancy theory and related algorithms, ICM 2022 proceedings (2023)",
+    "people": [
+     "Nikhil Bansal"
+    ],
+    "description": "An ICM survey of discrepancy theory and the algorithms that realize it.",
+    "evidence": [
+     {
+      "claim": "Crossref record, ICM 2022 proceedings",
+      "source": "Crossref",
+      "url": "https://doi.org/10.4171/icm2022/169",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "searched": [
+   "Crossref searches for Bansal discrepancy works and algorithmic discrepancy surveys",
+   "zbMATH search au:Bansal ti:discrepancy"
+  ]
+ },
+ {
+  "pid": "Q22",
+  "eventId": "Q22",
+  "milestones": [],
+  "searched": [
+   "Crossref searches for integer distance sets, Anning-Erdős, and Greenfeld-Iliopoulou-Peluse (no post-2024 follow-up indexed)",
+   "zbMATH search integer distance sets determinant method (no follow-up found)",
+   "Found only earlier distance-set work (Magyar 2008) and Erdős distance papers, not the determinant method, so not added"
+  ]
+ },
+ {
+  "pid": "Q38",
+  "eventId": "Q38",
+  "milestones": [],
+  "searched": [
+   "Crossref searches for Davies-Veličković-Buesing 2021 follow-ups and ML knot theory surveys",
+   "zbMATH search machine learning knot invariants conjectures",
+   "Found a 2026 tutorial chapter (Ruehle) on reinforcement learning for knot theory, a different method; not added"
+  ]
+ },
+ {
+  "pid": "P545",
+  "eventId": "P545",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2025,
+    "endYear": null,
+    "precision": "year",
+    "label": "Undecidability of constant-sized quantum correlation membership",
+    "work": "Fu, H., Miller, C. A., Slofstra, W., The Membership Problem for Constant-Sized Quantum Correlations is Undecidable, Communications in Mathematical Physics (2025)",
+    "people": [
+     "William Slofstra"
+    ],
+    "description": "Extends the undecidability results for quantum correlation sets to a constant-sized setting.",
+    "evidence": [
+     {
+      "claim": "Crossref record, CMP (2025)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/s00220-024-05229-7",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Author Slofstra is a coauthor; the 2025 paper is a follow-up, not the 2016 solution-group paper."
+   }
+  ],
+  "searched": [
+   "Crossref and zbMATH searches for Slofstra publications",
+   "Slofstra 2019 Forum Pi and 2020 Tsirelson papers are the same works as existing milestones, not added",
+   "No survey or textbook on quantum-game undecidability found"
+  ]
+ },
+ {
+  "pid": "P552",
+  "eventId": "P552",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2022,
+    "endYear": null,
+    "precision": "year",
+    "label": "Mohsen-Mourtada: numerators of Rogers-Ramanujan identities",
+    "work": "Mohsen, O., Mourtada, H., Neighborly partitions and the numerators of Rogers-Ramanujan identities, International Journal of Number Theory (2022)",
+    "people": [
+     "Hussein Mourtada"
+    ],
+    "description": "Extends the arc-space partition correspondence to the numerators in the Rogers-Ramanujan identities.",
+    "evidence": [
+     {
+      "claim": "Crossref record, IJNT (2022)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1142/s1793042123500434",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Crossref gives 2022 for this record; author list partly from Crossref."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2020,
+    "endYear": null,
+    "precision": "year",
+    "label": "Afsharijoo-Mourtada: partition identities and Gröbner bases",
+    "work": "Afsharijoo, P., Mourtada, H., Partition Identities and Application to Infinite-Dimensional Gröbner Basis and Vice Versa, in: Arc Schemes and Singularities (World Scientific, 2020)",
+    "people": [
+     "Pooneh Afsharijoo",
+     "Hussein Mourtada"
+    ],
+    "description": "An expository chapter in a volume on arc schemes that relates partition identities to infinite-dimensional Gröbner bases.",
+    "evidence": [
+     {
+      "claim": "Crossref chapter record, 2020, in the Arc Schemes and Singularities volume",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1142/9781786347206_0009",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "searched": [
+   "Crossref and zbMATH searches for Bruschek-Mourtada-Schepers arc spaces and Rogers-Ramanujan papers (2011 and 2012 are the same work as existing milestones)",
+   "Crossref search for Arc Schemes and Singularities volume"
+  ]
+ }
+]

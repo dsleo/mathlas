@@ -1,0 +1,8 @@
+[
+ {
+  "level": "warning",
+  "file": "data/collection/enrichment/sourcefirst/A_19.json",
+  "location": "[6]",
+  "message": "No first_statement milestone; explain source gap in notes"
+ }
+]

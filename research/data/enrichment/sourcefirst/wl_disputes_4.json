@@ -1,0 +1,542 @@
+[
+ {
+  "pid": "P123",
+  "eventId": "WA13/MA16",
+  "name": "Diophantus and the Arithmetica (symbolic algebra and Diophantine problems)",
+  "file": "A_02.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Disputed: Diophantus date (about 500-year window); whether the symbolism was his own (MacTutor quoting Vogel) or pre-existing (Wikipedia). Methodological date left null: no purposeful application to an outside target was dated. Naming of Diophantine equations/analysis as a field name not dated; searched MacTutor and Wikipedia Diophantus. MSC 11D (Diophantine equations) exists but its first-appeara"
+   }
+  ]
+ },
+ {
+  "pid": "P121",
+  "eventId": "WA29/MA37",
+  "name": "Islamic spherical trigonometry",
+  "file": "A_03.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Summary says 'all six functions and sine laws': these come in stages over about 300 years, so priority claims are split across the phases. The sine law priority (Abu'l-Wafa, Abu Nasr Mansur, al-Khujandi) is disputed and has no dated primary record here. A Wikipedia sentence that Regiomontanus copied al-Tusi uncredited was not used: it is not supported by the MacTutor or bibliographic sources read."
+   },
+   {
+    "where": "milestone first_statement 970",
+    "text": "Priority is disputed and I found no dated primary record; year range is an inference from the lifespans (Abu'l-Wafa 940-998, al-Khujandi 940-1000). Left as a range, not a single year."
+   },
+   {
+    "where": "milestone consolidation 1260",
+    "text": "Date not located in the sources read: he worked at the Maragheh observatory (begun 1259, died 1274). Treat 1250-1274 as a window."
+   }
+  ]
+ },
+ {
+  "pid": "P110",
+  "eventId": "WA33/MA40",
+  "name": "Oresme: graphing motion (configurations of qualities and motions)",
+  "file": "A_04.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "First application of the diagram to real kinematics (for example Galileo) was not verified; derived methodological date left null. No naming or institution milestone found. Summary calls it 'fusion of geometry and kinematics'; sources support a graphical representation, with the area-under-velocity result as the mean-speed proof. English Wikipedia could not be read in this pass (API returned rate-"
+   }
+  ]
+ },
+ {
+  "pid": "P165",
+  "eventId": "MA51",
+  "name": "Kepler's laws of planetary motion",
+  "file": "A_05.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "English Wikipedia pages for the laws were not retrievable (API rate limit), so the stages come from the MacTutor Kepler and Newton biographies. The name 'Kepler's laws' (naming) and any institution milestone were not located; none recorded. The harvest summary says 'conic geometry into astronomy' which is consistent with the 1609 book but the Apollonian conic background (Kepler's Ad Vitellionem pa"
+   }
+  ]
+ },
+ {
+  "pid": "P163",
+  "eventId": "MA65",
+  "name": "Newton: infinite series and binomial theorem",
+  "file": "A_06.json",
+  "flags": [
+   {
+    "where": "milestone key_development 1711",
+    "text": "Not claimed as first public statement: Newton's 1676 letters and Wallis' Algebra (1685) may be earlier public channels but I could not verify them in the pages read."
+   }
+  ]
+ },
+ {
+  "pid": "P152",
+  "eventId": "MA74",
+  "name": "De Moivre: normal approximation to the binomial",
+  "file": "A_08.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Constant: de Moivre gave an approximate value and Stirling identified it as sqrt(2 pi) (Wikipedia). Wikipedia notes the first print may be a 1733-34 article; no source found. The 'de Moivre-Laplace' naming date was not found."
+   },
+   {
+    "where": "milestone first_statement 1733",
+    "text": "Sources differ on the day (12 vs 13 November) and Wikipedia says 'privately published'. No library record found for the pamphlet, so no bibliographic upgrade."
+   }
+  ]
+ },
+ {
+  "pid": "P456",
+  "eventId": "H70",
+  "name": "Social choice theory: Condorcet's probability to Arrow's theorem",
+  "file": "A_09.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Sources: MacTutor Voting, Condorcet, Borda; Wikipedia Social choice theory; Crossref; archive.org. Priority is distributed: Condorcet gives the cycle (1785), Borda a competing method (year not found in the pages read; his memoir is usually dated 1781 but that was not checked), Black and Arrow the 20th-century formalisation. MacTutor says the Arrow result dates to 1951; the journal paper is 1950 an"
+   }
+  ]
+ },
+ {
+  "pid": "P429",
+  "eventId": "H16",
+  "name": "Matrix algebra as an abstract calculus (Cayley)",
+  "file": "A_11.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Sources read: MacTutor topic page Matrices and determinants (live copy, since the saved copy is truncated), biography of Cayley and Wikipedia 'Matrix (mathematics)'. Candidate not entered: Frobenius 1878 (Crelle 84, 10.1515/crll.1878.84.1), described on MacTutor as first to prove the general Cayley-Hamilton theorem; the paper-theorem link was not confirmed. MacTutor's Ring theory page dates Cayley"
+   }
+  ]
+ },
+ {
+  "pid": "P373",
+  "eventId": "M6/W25",
+  "name": "Arithmetization of analysis and the construction of the real numbers",
+  "file": "A_13.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Priority is spread: Meray (1869) is first in print, Weierstrass and Dedekind earlier in private. Weierstrass's lectures are undated beyond 'from 1865'. Hankel 1867 not verified in a record. Naming milestone is low confidence; Kronecker's coinage and Klein's 1895 address were not verified."
+   },
+   {
+    "where": "milestone first_statement 1869",
+    "text": "Original journal not located in Crossref; year rests on MacTutor. Hankel 1867 is described as proposing the change of viewpoint, not a construction."
+   }
+  ]
+ },
+ {
+  "pid": "P385",
+  "eventId": "W20/M13",
+  "name": "Class field theory",
+  "file": "A_14.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Kronecker's 1853 abelian-extension result (Kronecker-Weber) is a precursor but no record was verified. Furtwangler's page and Kronecker's page were not fetched, Kronecker's URL points to Weber's. The 1897 naming milestone is low confidence, and the Takagi 1920 year comes from MacTutor only (Crossref lists a 1990 reprint). Chevalley's idelic work (1933, 1940) searched but not added."
+   }
+  ]
+ },
+ {
+  "pid": "P368",
+  "eventId": "W51/M35",
+  "name": "Lyapunov stability",
+  "file": "A_15.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "First application is null: Wikipedia states Lyapunov himself made no applications in the control area, and the summary's 'general criteria using auxiliary functions' matches the thesis. No naming milestone ('Lyapunov function' coinage not found) and no institution milestone. Perron 1930 (Math. Z. 32, Crossref 10.1007/BF01194662) on stability questions was found but not read, so it was not promoted"
+   }
+  ]
+ },
+ {
+  "pid": "P369",
+  "eventId": "W55/M72",
+  "name": "Markov chains",
+  "file": "A_18.json",
+  "flags": [
+   {
+    "where": "milestone consolidation 1953",
+    "text": "Consolidation role is provisional: the record shows title and year only."
+   }
+  ]
+ },
+ {
+  "pid": "P372",
+  "eventId": "W93/M60",
+  "name": "Affine connections (parallel transport, Weyl and Cartan)",
+  "file": "A_19.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Input summary says Levi-Civita introduced parallel transport, Weyl generalised to gauge geometry, Cartan developed connections and frames: all confirmed in outline. Wikipedia says the affine-connection theory was fully developed in the early 1920s by Cartan and Weyl, and that the term is due to Cartan. Levi-Civita's year is in dispute (1916 online vs 1917 volume). Weyl's 1918 date is from history "
+   }
+  ]
+ },
+ {
+  "pid": "P234",
+  "eventId": "MB9/WB111",
+  "name": "Von Neumann algebras",
+  "file": "A_21.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Searched: Wikipedia raw wikitext (Von Neumann algebra); MacTutor John von Neumann biography; Crossref; Open Library. The saved wikipedia-leads entry for MB9/WB111 had only the lead. The MacTutor topic match was the generic Analysis category, not used. The 1929/1930 year conflict is recorded in the first_statement. No recognition milestone was searched."
+   },
+   {
+    "where": "milestone first_statement 1929",
+    "text": "Year conflict: MacTutor and Wikipedia say 1929 (volume 102 is labelled 1929), but the Crossref issued date is 1930. Recorded as 1929 pending the printed issue date."
+   }
+  ]
+ },
+ {
+  "pid": "P265",
+  "eventId": "MB16",
+  "name": "Kantorovich linear programming",
+  "file": "A_23.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Sources: Wikipedia Linear programming (wikitext history section); Wikipedia Leonid Kantorovich and Operations research (wikitext); MacTutor Kantorovich and Dantzig biographies; Crossref for Koopmans 1949 and the 1960 translation; Open Library for the 1951 volume and 1953 textbook. The original 1939 Leningrad edition was not found in a bibliographic record. The naming milestone is open: the name 'l"
+   },
+   {
+    "where": "milestone first_statement 1939",
+    "text": "The original 1939 edition was not located in a bibliographic record; its year is from history pages. Same work as the application milestone above; listed under both roles."
+   }
+  ]
+ },
+ {
+  "pid": "P467",
+  "eventId": "P15",
+  "name": "KAM theory: stability of Hamiltonian systems",
+  "file": "A_27.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Input summary is roughly right but the 1954 Kolmogorov result was a statement with a sketch; the rigorous proofs came in 1962-63. Searched: Wikipedia KAM theorem (fetched, the 'Kolmogorov-Arnold-Moser' article; the 'KAM_theory' title is a 404); MacTutor Kolmogorov, Moser and Arnold biographies (fetched); Crossref for Arnold 1963 and the 1954 reprint; OpenLibrary for the 1973 and 1978 books. The 19"
+   }
+  ]
+ },
+ {
+  "pid": "P252",
+  "eventId": "MB84",
+  "name": "Kripke semantics (possible-world semantics for modal logic)",
+  "file": "A_29.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Kanger (1957) is a candidate precursor only: the bibliographic record is verified, but its relational-semantics content was not read, so it is not a milestone. The 'Kripke semantics' label is said by Wikipedia to be later usage and the naming date was not found. First-application claim is the same 1959 paper. Searched: Wikipedia Saul Kripke, Wikipedia Kripke semantics, Crossref, zbMATH, Open Libra"
+   }
+  ]
+ },
+ {
+  "pid": "P207",
+  "eventId": "MB126/WB102",
+  "name": "Yang-Baxter and solvable lattice models",
+  "file": "A_32.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Sources: Wikipedia (raw wikitext, Yang-Baxter equation; history section citing Jimbo's account), Crossref and zbMATH for the 1964-1982 works. MacTutor's 'Baxter' biography is of Agnes Baxter (1870-1917) and was not used. Dispute: the input summary gives only 'Yang-Baxter equation'; the record shows the factorised solution (McGuire, Yang) as precursor and Baxter's 1972 solution as the first applica"
+   }
+  ]
+ },
+ {
+  "pid": "P256",
+  "eventId": "WB123",
+  "name": "Intersection cohomology",
+  "file": "A_35.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "The 1977 Comptes Rendus note is not in Crossref; it is cited from Wikipedia and kept as a medium first_statement. Derived conceptual therefore rests on an unverified record; if it cannot be confirmed, the first bibliographic statement is the 1980 Topology paper. Methodological is 1979 (Kazhdan-Lusztig), with the IH use from Wikipedia. Institutional is 1984 (book). MacTutor not checked for this eve"
+   },
+   {
+    "where": "milestone first_statement 1977",
+    "text": "Not found in Crossref; the citation comes from the Wikipedia reference list. Treat as unverified until a record is found."
+   }
+  ]
+ },
+ {
+  "pid": "P090",
+  "eventId": "B24",
+  "name": "D-modules and the Riemann-Hilbert correspondence",
+  "file": "A_38.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Pid and eventId copied from input. Wikipedia is the only source for Sato's algebraic analysis and the 1970 start of D-module theory (Wikipedia D-module); Sato's own early papers were not checked, so no precursor year is given. Kashiwara 1980 seminar paper not checked. The consolidation year (2008) conflicts with an Open Library record (2004) and is marked low. Derived dates: conceptual 1980; metho"
+   }
+  ]
+ },
+ {
+  "pid": "P514",
+  "eventId": "P72",
+  "name": "Teichmuller dynamics: homogeneous dynamics on moduli spaces",
+  "file": "A_39.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Schema pid P514/eventId P72. Searched: Wikipedia Teichmuller space, Maryam Mirzakhani, Michael Brin Prize (saved leads; Teichmuller dynamics wikitext missing), MacTutor Mirzakhani and Ratner biographies (live); Crossref and arXiv records. Gap: no consolidation (survey or monograph) verified; a 2015 Wright survey was considered but its arXiv id did not verify, so it is omitted. Disputes: magic wand"
+   }
+  ]
+ },
+ {
+  "pid": "P175",
+  "eventId": "WA3",
+  "name": "Pingala: combinatorics of poetic metres",
+  "file": "A_01.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "No first_application is listed: the counting rules are used inside prosody, and no dated first use outside it was found. Dating of Pingala varies by source (4th century BCE vs 3rd-2nd). Jaina texts (Bhagabati Sutra, about 300 BC) give permutation and combination rules independently (MacTutor). The triangle also appears in Persia (al-Karaji), China (Jia Xian, Yang Hui) and Europe (Apian 1527, Stife"
+   }
+  ]
+ },
+ {
+  "pid": "P126",
+  "eventId": "MA19/WA21",
+  "name": "Pell's equation and the chakravala method",
+  "file": "A_02.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Disputed: Brahmagupta versus Bhaskara II versus Jayadeva for the first general method; Brahmagupta method is not general for all N. Dates of Euler naming not found. Hankel quotation of chakravala as best before Lagrange appears on Wikipedia; not needed as a milestone. MSC 11D09 (quadratic and bilinear equations) exists but its first year was not established. Lifespans for Brouncker are from memory"
+   }
+  ]
+ },
+ {
+  "pid": "P125",
+  "eventId": "WA28/MA36",
+  "name": "Sharaf al-Din al-Tusi",
+  "file": "A_03.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Disputed: Rashed says the treatise opens algebraic geometry; Oaks (reported on Wikipedia) disagrees. Whether his maxima come from a derivative is disputed (MacTutor, Wikipedia). Treatise date is unknown. Houzel 1995 (zbMATH 851475) links his method to the Newton polygon and Fares 1995 (arXiv 0912.1130) discusses its analytic aspects; neither was read in detail. The 1986 Oeuvres mathematiques editi"
+   }
+  ]
+ },
+ {
+  "pid": "P183",
+  "eventId": "MA45",
+  "name": "Cardano: first treatise on chance (Liber de ludo aleae)",
+  "file": "A_04.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Open: Pascal-Fermat 1654, Cardano's lost earlier writings, and a naming milestone. MacTutor labels it the first foray into probability. Derived conceptual date 1663 reflects the printing rule; the manuscript is dated c.1563. English Wikipedia could not be read in this pass (API returned rate-limit errors for every request), so the source-first step used MacTutor biographies and history topics only"
+   }
+  ]
+ },
+ {
+  "pid": "P174",
+  "eventId": "MA62",
+  "name": "Wallis: interpolation and infinite products",
+  "file": "A_06.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Wallis' priority for the product is not disputed in the sources read. The input says 'integer-power integrals', which matches. The MacTutor topic page matched in the sources file (Analysis) is generic; the Wallis biography was used instead. Euler's later proof via the sine product is mentioned on Wikipedia but undated there and not used. I did not check Crossref or zbMATH, since no 1656 record exi"
+   }
+  ]
+ },
+ {
+  "pid": "P150",
+  "eventId": "MA75",
+  "name": "De Moivre's formula: trigonometry and complex powers",
+  "file": "A_07.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "The date of first statement is genuinely disputed between sources (1707 related, 1722 per MacTutor, 1730 per Wikipedia, 1714 by Cotes in a different form). No naming milestone found: when 'de Moivre's formula' became the usual name was not established. Derived conceptual date 1722 is a low-certainty choice."
+   }
+  ]
+ },
+ {
+  "pid": "P444",
+  "eventId": "H39",
+  "name": "Fundamental theorem of algebra: analytic and topological proofs",
+  "file": "A_08.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "The summary says Gauss's first and third proofs are topological and d'Alembert and Argand used minimum modulus; Wikipedia only says Gauss's 1799 proof is geometric/topological and describes d'Alembert's as an incomplete proof assuming Puiseux's theorem. Euler (1749, E170 dated 1751), de Foncenex (1759), Lagrange (1772) and Laplace (1795) attempts are seen but omitted. 'Fundamental theorem of algeb"
+   }
+  ]
+ },
+ {
+  "pid": "P431",
+  "eventId": "H18",
+  "name": "Axioms for linear (vector) spaces: Moebius, Grassmann, Peano",
+  "file": "A_11.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Sources read: MacTutor topic page Abstract linear spaces (saved), MacTutor biographies of Peano and Grassmann, Wikipedia 'Vector space' and 'Hermann Grassmann'. Priority disputes with Cauchy and Saint-Venant over Grassmann's ideas (1845, 1853-54) are recorded on the topic page and not resolved. Bolzano (1804), Bellavitis (1832) and Hamilton (1833, 1843) are mentioned there as related precursors bu"
+   }
+  ]
+ },
+ {
+  "pid": "P382",
+  "eventId": "W8/M15",
+  "name": "The abstract group concept",
+  "file": "A_12.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "MacTutor's own article stresses that the abstract definition was a sideline of 19th century group theory and that 'abstract group' had two meanings in 1905-55. The summary lists Cayley, Kronecker, Weber and von Dyck; sources confirm them but disagree on who gave the first full definition (see the 1882 milestone). Lagrange 1771 and Jordan 1870 are referred to by the sources as permutation-group gro"
+   },
+   {
+    "where": "milestone key_development 1882",
+    "text": "Dispute: MacTutor does not mention von Dyck and treats Weber as defining only a finite semigroup with cancellation; I did not find Weber's 1882 paper in databases and did not read either paper, so the combined milestone is low confidence."
+   }
+  ]
+ },
+ {
+  "pid": "P434",
+  "eventId": "H23",
+  "name": "Cardinality versus dimension: R^n equinumerous with R",
+  "file": "A_14.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Menger's biography page not fetched, so his biographyUrl points to Brouwer's page; replace it. Menger's 1928 Dimensionstheorie book (naming) was searched for on archive.org and not found, so no naming milestone. No first_application is established. Netto's authorship rests on the standard citation."
+   }
+  ]
+ },
+ {
+  "pid": "P374",
+  "eventId": "M50/W31",
+  "name": "Peano arithmetic axioms",
+  "file": "A_15.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Open: who coined 'Peano axioms' / 'Peano arithmetic' (and when 'Dedekind-Peano') was not found, so there is no naming milestone, and no consolidation/institution milestone was established; derived institutional date is therefore null. Dedekind's priority (1888) over Peano (1889) is a history-page date; Dedekind's ideas predate publication but no dated private source was checked. The Grassmann entr"
+   }
+  ]
+ },
+ {
+  "pid": "P411",
+  "eventId": "M21",
+  "name": "Schur: polynomial representations of GL(n) and invariant theory",
+  "file": "A_17.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "The 1901 thesis is a candidate first statement, recorded at medium confidence because its content was not checked against the review. The 1927 paper is the verified key development. Frobenius's date is unverified and recorded as a precursor with no year."
+   }
+  ]
+ },
+ {
+  "pid": "P409",
+  "eventId": "W70",
+  "name": "Decision problems for groups (Dehn)",
+  "file": "A_18.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Dehn 1911 is verified in Crossref and by the Wikipedia timeline for the word problem. The Boone and Novikov-Boone sequence is not in this batch. Magnus 1931 is included at low confidence. Derived methodological and institutional dates are null."
+   }
+  ]
+ },
+ {
+  "pid": "P015",
+  "eventId": "E20",
+  "name": "Group representations in quantum mechanics",
+  "file": "A_20.json",
+  "flags": [
+   {
+    "where": "milestone precursor None",
+    "text": "Frobenius' 1896 paper 'Ueber Gruppencharaktere' was searched in Crossref and not found, so the year is left null. Precursor only, does not set a derived date."
+   }
+  ]
+ },
+ {
+  "pid": "P250",
+  "eventId": "MB120",
+  "name": "Combinatorial game theory (impartial and partisan games)",
+  "file": "A_22.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "MacTutor match for MB120 is the 'Number e' page and the saved CGT_history page is about computational group theory, not combinatorial games; neither used. Wikipedia lead candidates for MB120 were irrelevant; live Wikipedia wikitext used. Sprague and Grundy works could not be confirmed by Crossref or zbMATH (zbMATH blocked). Naming: 'combinatorial game theory' name not dated in sources; no naming m"
+   }
+  ]
+ },
+ {
+  "pid": "P271",
+  "eventId": "MB96",
+  "name": "Feynman-Kac formula",
+  "file": "A_25.json",
+  "flags": [
+   {
+    "where": "milestone first_application 1988",
+    "text": "Earlier probabilistic applications (e.g. Kac 1949 or 1951 eigenvalue uses) were not checked, so this may not be the first application; methodological date is provisional."
+   }
+  ]
+ },
+ {
+  "pid": "P475",
+  "eventId": "P26",
+  "name": "Selberg trace formula links spectra of surfaces to number theory",
+  "file": "A_28.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Selberg 1956 is the only first statement and it rests on Wikipedia, not a bibliographic record (JIMS not found in Crossref; zbMATH blocked). The input's 'prime-number analogy' claim is consistent with the Wikipedia article. No first_application milestone was verified (the Selberg zeta-function use is undated). Derived dates: conceptual 1956 (medium), methodological null, institutional 1976."
+   }
+  ]
+ },
+ {
+  "pid": "P496",
+  "eventId": "P53",
+  "name": "Inverse scattering transform and Lax pairs for soliton equations",
+  "file": "A_32.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Sources: Wikipedia (raw wikitext, Inverse scattering transform, history section); MacTutor biography of Peter Lax (1926-2025; the MacTutor page for 'Lax' without the first name is a different person and was not used); Crossref and zbMATH for the works. Dispute: the 1972 JETP self-focusing paper by Zakharov and Shabat was not found in either index, so the 1974 zbMATH record stands in for the NLS st"
+   },
+   {
+    "where": "milestone key_development 1974",
+    "text": "The 1972 JETP paper on self-focusing, usually cited as the NLS application, was not found in Crossref or zbMATH; the 1974 zbMATH record is used instead. The year of the first NLS application may therefore be earlier than 1974."
+   }
+  ]
+ },
+ {
+  "pid": "P285",
+  "eventId": "MB43",
+  "name": "Global analysis and mathematical economics",
+  "file": "A_34.json",
+  "flags": [
+   {
+    "where": "milestone naming 1973",
+    "text": "Crossref also lists a 1974 Journal of Mathematical Economics series 'Global analysis and economics' (parts III, IIA, V) and a 1975 Synthese article with the same title. The original part I journal record was not found in Crossref, so the 1973 chapter is taken as the earliest title."
+   }
+  ]
+ },
+ {
+  "pid": "P481",
+  "eventId": "P34",
+  "name": "Wilf-Zeilberger method: rational-function certificates for hypergeometric identities",
+  "file": "A_37.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Input summary is accurate. A 'WZ method' naming milestone was not found with a bibliographic record; the 1996 A=B book was not found on Open Library. Gosper's lifespan not sourced. Wikipedia WZ pair page dates the WZ names to Wilf and Zeilberger without a year."
+   }
+  ]
+ },
+ {
+  "pid": "P084",
+  "eventId": "B18",
+  "name": "Wavelets",
+  "file": "A_39.json",
+  "flags": [
+   {
+    "where": "event notes",
+    "text": "Schema pid P084/eventId B18. Searched: Wikipedia Wavelet, Haar wavelet, Morlet wavelet, Multiresolution analysis, Daubechies wavelet (raw); MacTutor Haar, Daubechies (live); Crossref records. Saved leads (wavelet entries) were consulted for context only. Disputes: the 'first wavelet' is Haar's 1909 thesis or 1910 journal; the 1982 seismic paper is judged the first purposeful use (medium). The name"
+   }
+  ]
+ }
+]

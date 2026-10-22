@@ -1,0 +1,625 @@
+[
+ {
+  "pid": "P000",
+  "eventId": "E01",
+  "milestones": [],
+  "people": [],
+  "searched": [
+   "Merged record reviewed; existing milestones checked for duplicates",
+   "Heath's 1912 English edition is already a key_development; Open Library confirms it, but no separate consolidation or naming source was found.",
+   "No milestone added where nothing defensible was found; see searched notes."
+  ]
+ },
+ {
+  "pid": "P111",
+  "eventId": "MA17/WA19",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1935,
+    "endYear": null,
+    "precision": "year",
+    "label": "Datta's History of Hindu Mathematics",
+    "work": "Bibhutibhusan Datta, History of Hindu Mathematics, Lahore, 1935",
+    "people": [
+     "Bibhutibhusan Datta"
+    ],
+    "description": "Book-length survey of Hindu mathematics that covers the place-value system but is not limited to it.",
+    "evidence": [
+     {
+      "claim": "Open Library holds a 1935 edition titled History of Hindu Mathematics; its author field is garbled, and a 1962 reprint is credited to Datta.",
+      "source": "Open Library work records",
+      "url": "https://openlibrary.org/works/OL341692W",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "1962 reprint credited to Bibhutibhusan Datta.",
+      "source": "Open Library work record",
+      "url": "https://openlibrary.org/works/OL11121433W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Survey rather than a treatment of place value alone; the 1935 record's author field is unreliable, so the attribution rests on the 1962 reprint."
+   }
+  ],
+  "people": [],
+  "searched": [
+   "Open Library title search: History of Hindu mathematics (1935 and 1962 records)",
+   "Checked that 1935 author field is unreliable"
+  ]
+ },
+ {
+  "pid": "P160",
+  "eventId": "MA33",
+  "milestones": [],
+  "people": [],
+  "searched": [
+   "Merged record reviewed; existing milestones checked for duplicates",
+   "No textbook or naming record checked beyond the existing records; Khayyam's 1851 edition is attached to P136 instead.",
+   "No milestone added where nothing defensible was found; see searched notes."
+  ]
+ },
+ {
+  "pid": "P178",
+  "eventId": "WA32",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1993,
+    "endYear": null,
+    "precision": "year",
+    "label": "Rashed's Les mathematiques infinitesimales",
+    "work": "Roshdi Rashed, Les mathematiques infinitesimales du IXe au XIe siecle, vol. 2, 1993",
+    "people": [
+     "Roshdi Rashed"
+    ],
+    "description": "Monograph on Arabic infinitesimal mathematics of the ninth to eleventh centuries, covering the quadrature work discussed in this event.",
+    "evidence": [
+     {
+      "claim": "Open Library record of Rashed's 1993 monograph.",
+      "source": "Open Library work record",
+      "url": "https://openlibrary.org/works/OL8664924W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Same book as the existing Ibn al-Haytham citation, given the consolidation role because it is the systematic treatment; the volume number comes from the existing record."
+   }
+  ],
+  "people": [],
+  "searched": [
+   "Open Library title search: Les mathematiques infinitesimales du IXe au XIe siecle (1993)"
+  ]
+ },
+ {
+  "pid": "P172",
+  "eventId": "WA31",
+  "milestones": [],
+  "people": [],
+  "searched": [
+   "Merged record reviewed; existing milestones checked for duplicates",
+   "Open Library search for Arabic parallel-theory treatises found nothing usable; Wikipedia Parallel postulate has no dated consolidation for the Islamic work.",
+   "No milestone added where nothing defensible was found; see searched notes."
+  ]
+ },
+ {
+  "pid": "P122",
+  "eventId": "MA31/WA25",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1853,
+    "endYear": null,
+    "precision": "year",
+    "label": "Woepcke's extract of al-Karaji's al-Fakhri",
+    "work": "Franz Woepcke, Extrait du Fakhri, Paris, 1853",
+    "people": [
+     "Franz Woepcke"
+    ],
+    "description": "French extract of al-Karaji's algebra, the first printed exposition of his polynomial arithmetic available to European readers.",
+    "evidence": [
+     {
+      "claim": "Open Library record of Woepcke's 1853 Extrait du Fakhri.",
+      "source": "Open Library work record",
+      "url": "https://openlibrary.org/works/OL12308787W",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Woepcke was the first historian to realise the importance of al-Karaji's work.",
+      "source": "Wikipedia, Al-Karaji",
+      "url": "https://en.wikipedia.org/wiki/Al-Karaji",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Relies on the Wikipedia statement about Woepcke; the 'first printed exposition' wording is my summary and was not checked against the text itself."
+   }
+  ],
+  "people": [],
+  "searched": [
+   "Open Library title search: Extrait du Fakhri (1853 Woepcke record)",
+   "Wikipedia Al-Karaji history section"
+  ]
+ },
+ {
+  "pid": "P149",
+  "eventId": "MA25",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1973,
+    "endYear": null,
+    "precision": "year",
+    "label": "Libbrecht's monograph on thirteenth-century Chinese mathematics",
+    "work": "Ulrich Libbrecht, Chinese Mathematics in the Thirteenth Century, MIT Press, 1973",
+    "people": [
+     "Ulrich Libbrecht"
+    ],
+    "description": "Monograph on the thirteenth-century Chinese mathematics in which the numerical equation methods of Qin Jiushao and Zhu Shijie are set out.",
+    "evidence": [
+     {
+      "claim": "Open Library record of Libbrecht's 1973 monograph on thirteenth-century Chinese mathematics.",
+      "source": "Open Library work record",
+      "url": "https://openlibrary.org/works/OL2388764W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Content claim about Qin and Zhu comes from the subject of the book, not from a checked table of contents."
+   }
+  ],
+  "people": [],
+  "searched": [
+   "Open Library title search: Chinese mathematics in the thirteenth century (1973)"
+  ]
+ },
+ {
+  "pid": "P136",
+  "eventId": "MA34/WA27",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1851,
+    "endYear": null,
+    "precision": "year",
+    "label": "Woepcke's French edition of Khayyam's algebra",
+    "work": "Franz Woepcke, L'algebre d'Omar Alkhayyami, Paris, 1851",
+    "people": [
+     "Franz Woepcke"
+    ],
+    "description": "French edition and translation of Khayyam's algebra, which contains his cubic-by-conics method, made available to European readers.",
+    "evidence": [
+     {
+      "claim": "Open Library record of the 1851 edition and translation by Woepcke.",
+      "source": "Open Library work record",
+      "url": "https://openlibrary.org/works/OL32859132W",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Khayyam's algebra is described as the first systematic study of cubic equations, and Woepcke's 1851 translation is credited.",
+      "source": "Wikipedia, Omar Khayyam",
+      "url": "https://en.wikipedia.org/wiki/Omar_Khayyam",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "people": [],
+  "searched": [
+   "Open Library title search: Algebre d'Omar Alkhayyami (1851)",
+   "Wikipedia Omar Khayyam history section"
+  ]
+ },
+ {
+  "pid": "P125",
+  "eventId": "WA28/MA36",
+  "milestones": [],
+  "people": [],
+  "searched": [
+   "Merged record reviewed; existing milestones checked for duplicates",
+   "Open Library search for Sharaf al-Din's Treatise on equations found no record; Rashed 1974 is already a recognition milestone.",
+   "No milestone added where nothing defensible was found; see searched notes."
+  ]
+ },
+ {
+  "pid": "P193",
+  "eventId": "MA47",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1646,
+    "endYear": null,
+    "precision": "year",
+    "label": "Collected Opera mathematica of Viete",
+    "work": "Francois Viete, Francisci Vietae Opera mathematica, 1646",
+    "people": [
+     "Francois Viete"
+    ],
+    "description": "Collected edition of Viete's mathematical works, which brings together the trigonometric-algebra material of the event.",
+    "evidence": [
+     {
+      "claim": "Open Library record of the 1646 Opera mathematica of Viete.",
+      "source": "Open Library work record",
+      "url": "https://openlibrary.org/works/OL3842467W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Editor of the 1646 edition not checked; the year is from the catalogue record."
+   }
+  ],
+  "people": [],
+  "searched": [
+   "Open Library title search: Francisci Vietae Opera mathematica (1646 and 1967 records)"
+  ]
+ },
+ {
+  "pid": "P165",
+  "eventId": "MA51",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1618,
+    "endYear": 1621,
+    "precision": "range",
+    "label": "Kepler's Epitome of Copernican astronomy",
+    "work": "Johannes Kepler, Epitome astronomiae Copernicanae, 1618-1621",
+    "people": [
+     "Johannes Kepler"
+    ],
+    "description": "Kepler's systematic textbook of Copernican astronomy, published in parts, in which the laws of planetary motion appear.",
+    "evidence": [
+     {
+      "claim": "Open Library record of the 1618 Epitome astronomiae Copernicanae.",
+      "source": "Open Library work record",
+      "url": "https://openlibrary.org/works/OL43346887W",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "The three laws were published between 1609 and 1621 in Astronomia nova, Harmonices mundi and the Epitome.",
+      "source": "Wikipedia, Kepler's laws of planetary motion",
+      "url": "https://en.wikipedia.org/wiki/Kepler%27s_laws_of_planetary_motion",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Epitome parts appeared 1618 to 1621; the endYear is taken from the Wikipedia range, not from a catalogue record."
+   }
+  ],
+  "people": [],
+  "searched": [
+   "Open Library title search: Epitome astronomiae Copernicanae (1618 records)",
+   "Wikipedia Kepler's laws history section"
+  ]
+ },
+ {
+  "pid": "P194",
+  "eventId": "MA50",
+  "milestones": [],
+  "people": [],
+  "searched": [
+   "Merged record reviewed; existing milestones checked for duplicates",
+   "Open Library search for Nova stereometria doliorum found no record; Cavalieri 1635 is already a key_development.",
+   "No milestone added where nothing defensible was found; see searched notes."
+  ]
+ },
+ {
+  "pid": "P171",
+  "eventId": "WA40",
+  "milestones": [],
+  "people": [],
+  "searched": [
+   "Merged record reviewed; existing milestones checked for duplicates",
+   "Open Library returns only the 1647 Opus geometricum, already the first_statement; no separate consolidation found.",
+   "No milestone added where nothing defensible was found; see searched notes."
+  ]
+ },
+ {
+  "pid": "P163",
+  "eventId": "MA65",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1730,
+    "endYear": null,
+    "precision": "year",
+    "label": "Stirling's Methodus differentialis",
+    "work": "James Stirling, Methodus differentialis, London, 1730",
+    "people": [
+     "James Stirling"
+    ],
+    "description": "Systematic treatise on the summation and interpolation of infinite series, which develops Newton's and Wallis's series methods.",
+    "evidence": [
+     {
+      "claim": "Open Library record of the 1730 Methodus differentialis.",
+      "source": "Open Library work record",
+      "url": "https://openlibrary.org/works/OL5228925W",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Methodus differentialis (1730) is a treatise on summation and interpolation of infinite series.",
+      "source": "Wikipedia, James Stirling",
+      "url": "https://en.wikipedia.org/wiki/James_Stirling_(mathematician)",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The Wikipedia summary says the work is more than an expansion of Newton's method; the specific claim about binomial series was not checked in the text."
+   }
+  ],
+  "people": [],
+  "searched": [
+   "Open Library title search: Methodus differentialis (1730 record); Treatise of fluxions (Maclaurin 1742) also found",
+   "Wikipedia James Stirling and Colin Maclaurin pages"
+  ]
+ },
+ {
+  "pid": "P133",
+  "eventId": "MA67/WA49",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1702,
+    "endYear": null,
+    "precision": "year",
+    "label": "Keill's Introductio ad veram physicam",
+    "work": "John Keill, Introductio ad veram physicam, Oxford, 1702",
+    "people": [
+     "John Keill"
+    ],
+    "description": "Oxford lecture textbook expounding Newtonian natural philosophy, an early systematic presentation of Newton's system.",
+    "evidence": [
+     {
+      "claim": "Open Library record of the 1702 Introductio ad veram physicam.",
+      "source": "Open Library work record",
+      "url": "https://openlibrary.org/works/OL12832261W",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Keill's principal publications include the 1702 Oxford Introductio ad Veram Physicam.",
+      "source": "Wikipedia, John Keill",
+      "url": "https://en.wikipedia.org/wiki/John_Keill",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Textbook of Newtonian physics; it is not a treatment of the Principia's orbit theory itself, so the link to this event is weak."
+   }
+  ],
+  "people": [],
+  "searched": [
+   "Open Library title search: Introductio ad veram physicam (1702)",
+   "Wikipedia John Keill publications"
+  ]
+ },
+ {
+  "pid": "P147",
+  "eventId": "WA51",
+  "milestones": [],
+  "people": [],
+  "searched": [
+   "Merged record reviewed; existing milestones checked for duplicates",
+   "Open Library found only the 1685 Takebe Genkai, already the first_statement; no naming or institution record found.",
+   "No milestone added where nothing defensible was found; see searched notes."
+  ]
+ },
+ {
+  "pid": "P150",
+  "eventId": "MA75",
+  "milestones": [],
+  "people": [],
+  "searched": [
+   "Merged record reviewed; existing milestones checked for duplicates",
+   "Open Library confirms the 1730 Miscellanea analytica, already a key_development; no separate consolidation or naming found.",
+   "No milestone added where nothing defensible was found; see searched notes."
+  ]
+ },
+ {
+  "pid": "P190",
+  "eventId": "MA80",
+  "milestones": [],
+  "people": [],
+  "searched": [
+   "Merged record reviewed; existing milestones checked for duplicates",
+   "Euler's 1748 Introductio is already the first_statement; no separate consolidation was found.",
+   "No milestone added where nothing defensible was found; see searched notes."
+  ]
+ },
+ {
+  "pid": "P157",
+  "eventId": "WA68",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1744,
+    "endYear": null,
+    "precision": "year",
+    "label": "Euler's Methodus inveniendi lineas curvas",
+    "work": "Leonhard Euler, Methodus inveniendi lineas curvas maximi minimive proprietate gaudentes, 1744",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "Euler's systematic treatment of curves with a maximum or minimum property, which covers the geodesic problem on surfaces.",
+    "evidence": [
+     {
+      "claim": "Open Library record of Euler's 1744 Methodus.",
+      "source": "Open Library work record",
+      "url": "https://openlibrary.org/works/OL9334694W",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Euler first elaborated the calculus of variations, starting in 1733.",
+      "source": "Wikipedia, Calculus of variations",
+      "url": "https://en.wikipedia.org/wiki/Calculus_of_variations",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "The Wikipedia article does not name the 1744 book; the consolidation claim is my reading of the title and the subject, so treat it as a lead."
+   }
+  ],
+  "people": [],
+  "searched": [
+   "Open Library title search: Methodus inveniendi lineas curvas (1744)",
+   "Wikipedia Calculus of variations history section (no naming of the 1744 book found there)"
+  ]
+ },
+ {
+  "pid": "P169",
+  "eventId": "MA83",
+  "milestones": [],
+  "people": [],
+  "searched": [
+   "Merged record reviewed; existing milestones checked for duplicates",
+   "Open Library's 1731 Recherches is already the first_statement; no separate consolidation found.",
+   "No milestone added where nothing defensible was found; see searched notes."
+  ]
+ },
+ {
+  "pid": "P162",
+  "eventId": "WA75",
+  "milestones": [],
+  "people": [],
+  "searched": [
+   "Merged record reviewed; existing milestones checked for duplicates",
+   "Open Library found Dalembert's 1743 Traite de dynamique, but it is not a vibrating-string treatise, so it was not added.",
+   "No milestone added where nothing defensible was found; see searched notes."
+  ]
+ },
+ {
+  "pid": "P445",
+  "eventId": "H40",
+  "milestones": [],
+  "people": [],
+  "searched": [
+   "Merged record reviewed; existing milestones checked for duplicates",
+   "Open Library found Euler's 1748 Introductio; Wikipedia Function history does not tie it to the 1755 definition, so no milestone was added.",
+   "No milestone added where nothing defensible was found; see searched notes."
+  ]
+ },
+ {
+  "pid": "P120",
+  "eventId": "MA82/WA60",
+  "milestones": [],
+  "people": [],
+  "searched": [
+   "Merged record reviewed; existing milestones checked for duplicates",
+   "Open Library search for Euler's Elementa doctrinae solidorum and Cauchy's Recherches sur les polyedres found no records; Wikipedia Euler characteristic history checked, no consolidation named.",
+   "No milestone added where nothing defensible was found; see searched notes."
+  ]
+ },
+ {
+  "pid": "P432",
+  "eventId": "H19",
+  "milestones": [],
+  "people": [],
+  "searched": [
+   "Merged record reviewed; existing milestones checked for duplicates",
+   "Open Library found only the 1874 Hoüel edition of Argand; Wikipedia Complex number notes Cauchy's 1821 terminology, which is not a systematic treatment, so not added.",
+   "No milestone added where nothing defensible was found; see searched notes."
+  ]
+ },
+ {
+  "pid": "P007",
+  "eventId": "E09",
+  "milestones": [],
+  "people": [],
+  "searched": [
+   "Merged record reviewed; existing milestones checked for duplicates",
+   "archive.org searches for Fourier series titles 1880-1915 returned only papers; zbMATH title search for Fourier 1800-1900 gave no monograph; Carslaw's book is not in Open Library before 1921.",
+   "No milestone added where nothing defensible was found; see searched notes."
+  ]
+ },
+ {
+  "pid": "P128",
+  "eventId": "MA97/WA80",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1829,
+    "endYear": null,
+    "precision": "year",
+    "label": "Cauchy's Lecons sur le calcul differentiel",
+    "work": "A.-L. Cauchy, Lecons sur le calcul differentiel, Paris, 1829",
+    "people": [
+     "Augustin-Louis Cauchy"
+    ],
+    "description": "Textbook in which Cauchy defines a complex function of a complex variable, so it also consolidates the subject.",
+    "evidence": [
+     {
+      "claim": "Open Library record of the 1829 Lecons sur le calcul differentiel.",
+      "source": "Open Library work record",
+      "url": "https://openlibrary.org/works/OL45828871W",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Cauchy defined a complex function of a complex variable for the first time in a textbook in 1829.",
+      "source": "Wikipedia, Augustin-Louis Cauchy",
+      "url": "https://en.wikipedia.org/wiki/Augustin-Louis_Cauchy",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Same book as the existing 1829 key_development; the consolidation role is added because it is the textbook treatment. Drop one role if the duplicate is unwanted."
+   }
+  ],
+  "people": [],
+  "searched": [
+   "Open Library title search: Lecons sur le calcul differentiel (1829)",
+   "Wikipedia Augustin-Louis Cauchy history section"
+  ]
+ },
+ {
+  "pid": "P161",
+  "eventId": "MA99",
+  "milestones": [
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 1829,
+    "endYear": null,
+    "precision": "year",
+    "label": "Jacobi proposes the name elliptic functions",
+    "work": "C. G. J. Jacobi, Fundamenta nova theoriae functionum ellipticarum, 1829",
+    "people": [
+     "Carl Gustav Jacob Jacobi"
+    ],
+    "description": "Jacobi's 1829 suggestion that the inverse functions of elliptic integrals be called elliptic functions, the name still in use.",
+    "evidence": [
+     {
+      "claim": "Following a suggestion of Jacobi in 1829, the inverse functions are now called elliptic functions.",
+      "source": "Wikipedia, Elliptic function",
+      "url": "https://en.wikipedia.org/wiki/Elliptic_function",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Open Library record of the 1829 Fundamenta nova theoriae functionum ellipticarum.",
+      "source": "Open Library work record",
+      "url": "https://openlibrary.org/works/OL2571596W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Naming year is the 1829 suggestion; the wording of the suggestion itself was not read in the 1829 text."
+   }
+  ],
+  "people": [],
+  "searched": [
+   "Open Library title search: Fundamenta nova theoriae functionum ellipticarum (1829)",
+   "Wikipedia Elliptic function history section"
+  ]
+ }
+]

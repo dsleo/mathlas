@@ -1,0 +1,2076 @@
+[
+ {
+  "pid": "P185",
+  "eventId": "WA56",
+  "canonicalName": "De Moivre: probability and the trigonometry-complex number link",
+  "aliases": [
+   "De Moivre's formula",
+   "The Doctrine of Chances",
+   "De Moivre chances and complex numbers"
+  ],
+  "phases": [
+   "Doctrine of chances",
+   "De Moivre's formula (trigonometry and complex numbers)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "De Moivre's formula (trigonometry and complex numbers)",
+    "year": 1707,
+    "precision": "year",
+    "label": "Early form of the multiple-angle relation",
+    "work": "De Moivre, Aequationum quarundam potestatis tertiae, quintae, septimae ... resolutio analytica, Philosophical Transactions, 1707",
+    "people": [
+     "Abraham de Moivre"
+    ],
+    "description": "A paper on solving higher-odd-degree equations contains a relation from which the later power formula for cos x + i sin x can be deduced.",
+    "evidence": [
+     {
+      "claim": "A closely related formula appears in a 1707 paper; the equation of 1707 lets the later formula be deduced",
+      "source": "MacTutor, Abraham de Moivre",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "In 1707 de Moivre derived an equation from which the formula follows, proved for positive integers",
+      "source": "Wikipedia, Abraham de Moivre",
+      "url": "https://en.wikipedia.org/wiki/Abraham_de_Moivre",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Crossref dates the 1707 Phil. Trans. paper by de Moivre on equations of degree three, five, seven",
+      "source": "Crossref record 10.1098/rstl.1706.0037",
+      "url": "https://doi.org/10.1098/rstl.1706.0037",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The history pages say the 1707 relation implies the formula, not that it states it. I did not read the paper itself, so the exact content is taken from the history pages."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Doctrine of chances",
+    "year": 1711,
+    "precision": "year",
+    "label": "De mensura sortis published",
+    "work": "De Moivre, De mensura sortis, seu de probabilitate eventuum in ludis a casu fortuito pendentibus, Philosophical Transactions, 1711",
+    "people": [
+     "Abraham de Moivre"
+    ],
+    "description": "De Moivre's first probability treatise, later expanded into The Doctrine of Chances.",
+    "evidence": [
+     {
+      "claim": "A Latin version of the probability work was presented to the Royal Society and published in 1711",
+      "source": "MacTutor, Abraham de Moivre",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Crossref issue date 1711 for De mensura sortis",
+      "source": "Crossref record 10.1098/rstl.1710.0018",
+      "url": "https://doi.org/10.1098/rstl.1710.0018",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": "Doctrine of chances",
+    "year": 1718,
+    "precision": "year",
+    "label": "The Doctrine of Chances (1st English edition)",
+    "work": "De Moivre, The Doctrine of Chances, London, 1718",
+    "people": [
+     "Abraham de Moivre"
+    ],
+    "description": "The first book-length systematic treatment of the calculus of chances in English; later editions of 1738 and 1756 expanded it.",
+    "evidence": [
+     {
+      "claim": "The Doctrine of Chances was published in 1718, with new editions in 1738 and 1756",
+      "source": "MacTutor, Abraham de Moivre",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Catalogue entry of the 1718 edition",
+      "source": "Internet Archive catalogue record bim_eighteenth-century_the-doctrine-of-chances_moivre-abraham-de_1718",
+      "url": "https://archive.org/details/bim_eighteenth-century_the-doctrine-of-chances_moivre-abraham-de_1718",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Wikipedia calls it the second textbook on probability after Cardano's, so 'first systematic' is the claim of this milestone for de Moivre's own approach, not a priority over Huygens."
+   },
+   {
+    "role": "key_development",
+    "phase": "De Moivre's formula (trigonometry and complex numbers)",
+    "year": 1722,
+    "precision": "year",
+    "label": "Power formula in cos + i sin form",
+    "work": "De Moivre, De sectione anguli, Philosophical Transactions, 1722",
+    "people": [
+     "Abraham de Moivre"
+    ],
+    "description": "A 1722 paper gives equations from which the familiar formula for (cos x + i sin x)^n is read off, tying trigonometry to complex numbers.",
+    "evidence": [
+     {
+      "claim": "The formula appears in this form in a paper of 1722",
+      "source": "MacTutor, Abraham de Moivre",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "In 1722 he presented equations from which the better known form can be deduced",
+      "source": "Wikipedia, Abraham de Moivre",
+      "url": "https://en.wikipedia.org/wiki/Abraham_de_Moivre",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Crossref lists De sectione anguli by de Moivre, Phil. Trans. 1722",
+      "source": "Crossref record 10.1098/rstl.1722.0039",
+      "url": "https://doi.org/10.1098/rstl.1722.0039",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Wikipedia states that de Moivre never wrote the formula in modern form; the identification of 'De sectione anguli' as the 1722 paper comes from matching year and topic, not from reading the text."
+   },
+   {
+    "role": "key_development",
+    "year": 1748,
+    "precision": "year",
+    "label": "Euler links the formula to the complex exponential",
+    "work": "Euler, Introductio in analysin infinitorum, vol. 1, Lausanne, 1748",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "Euler's treatise presents e^{ix} = cos x + i sin x, from which de Moivre's formula follows at once and its standing as a law of complex numbers is secured.",
+    "evidence": [
+     {
+      "claim": "De Moivre's formula is a precursor to Euler's formula; chapter 8 of the Introductio gives Euler's formula",
+      "source": "Wikipedia, De Moivre's formula and Introductio in analysin infinitorum",
+      "url": "https://en.wikipedia.org/wiki/De_Moivre%27s_formula",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Euler Archive dates Introductio volume 1 to 1748",
+      "source": "Euler Archive record E101 (bepress metadata)",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/101/",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Wikipedia (Abraham de Moivre) says Euler proved the formula for any integer in 1749 using his own formula; the 1748 book is the dated statement of Euler's formula."
+   }
+  ],
+  "people": [
+   {
+    "name": "Abraham de Moivre",
+    "role": "Probability theorist and analyst",
+    "lifespan": "1667-1754",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
+    "works": [
+     {
+      "citation": "Aequationum quarundam ... resolutio analytica, Phil. Trans.",
+      "year": 1707,
+      "url": "https://doi.org/10.1098/rstl.1706.0037",
+      "whyItMatters": "Contains the relation behind the multiple-angle formula."
+     },
+     {
+      "citation": "De mensura sortis, Phil. Trans.",
+      "year": 1711,
+      "url": "https://doi.org/10.1098/rstl.1710.0018",
+      "whyItMatters": "Opens his probability programme."
+     },
+     {
+      "citation": "The Doctrine of Chances",
+      "year": 1718,
+      "url": "https://archive.org/details/bim_eighteenth-century_the-doctrine-of-chances_moivre-abraham-de_1718",
+      "whyItMatters": "Systematic treatment of chance problems."
+     },
+     {
+      "citation": "De sectione anguli, Phil. Trans.",
+      "year": 1722,
+      "url": "https://doi.org/10.1098/rstl.1722.0039",
+      "whyItMatters": "Source of the formula in its usual form."
+     }
+    ]
+   },
+   {
+    "name": "Leonhard Euler",
+    "role": "Established the complex exponential link",
+    "lifespan": "1707-1783",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+    "works": [
+     {
+      "citation": "Introductio in analysin infinitorum, vol. 1",
+      "year": 1748,
+      "url": "https://scholarlycommons.pacific.edu/euler-works/101/",
+      "whyItMatters": "States e^{ix} = cos x + i sin x."
+     }
+    ]
+   }
+  ],
+  "notes": "The event bundles two different strands, probability (Doctrine of Chances) and the trigonometry/complex formula. Both are dated here as separate phases. De Moivre never wrote the formula in its modern form (Wikipedia), so the 'first_statement' dates are for the closest published relations. A MacTutor page for the relation between trigonometric functions was in the saved topics but not needed. Naming: 'de Moivre's formula' coinage date not found; no institution milestone applies.",
+  "derivedDates": {
+   "conceptual": 1707,
+   "methodological": null,
+   "institutional": 1718
+  }
+ },
+ {
+  "pid": "P118",
+  "eventId": "WA70/MA93",
+  "canonicalName": "Differential geometry of surfaces (Clairaut, Euler, Monge, Gauss)",
+  "aliases": [
+   "Euler-Monge differential geometry of surfaces",
+   "Theory of surfaces",
+   "Curvature of surfaces"
+  ],
+  "phases": [
+   "Space curves (Clairaut)",
+   "Curvature of surface sections (Euler)",
+   "Lines of curvature and treatise (Monge)",
+   "Intrinsic geometry (Gauss)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Space curves (Clairaut)",
+    "year": 1729,
+    "precision": "year",
+    "label": "Clairaut's work on curves of double curvature",
+    "work": "Clairaut, research on space curves completed 1729 (book c. 1731)",
+    "people": [
+     "Alexis Clairaut"
+    ],
+    "description": "A teenager's study of curves in space, the first step toward curvature theory beyond plane curves.",
+    "evidence": [
+     {
+      "claim": "Clairaut did research on curves of double curvature completed in 1729, leading to his Academy election in 1731",
+      "source": "MacTutor, Alexis Clairaut",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Clairaut/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The year given is when the work was completed. I did not find a bibliographic record for the 1731 book, so its publication year is not verified."
+   },
+   {
+    "role": "first_statement",
+    "year": 1767,
+    "precision": "year",
+    "label": "Euler on curvature of surfaces",
+    "work": "Euler, Recherches sur la courbure des surfaces, Mémoires de l'Académie de Berlin, vol. 16 (read 1760, printed 1767)",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "Euler's memoir gives the curvature of plane sections through a point of a surface, the start of the theory of principal curvatures.",
+    "evidence": [
+     {
+      "claim": "Curvature of general surfaces was first studied by Euler; in 1760 he proved a formula for the curvature of a plane section",
+      "source": "Wikipedia, Differential geometry of surfaces",
+      "url": "https://en.wikipedia.org/wiki/Differential_geometry_of_surfaces",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Euler made substantial contributions to the theory of surfaces and curvature; many unpublished results were rediscovered by Gauss",
+      "source": "MacTutor, Leonhard Euler",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Euler Archive: Recherches sur la courbure des surfaces, published 1767",
+      "source": "Euler Archive record E333 (bepress metadata)",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/333/",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Read 1760 (Wikipedia), printed 1767 (Euler Archive). Publication year governs."
+   },
+   {
+    "role": "key_development",
+    "year": 1772,
+    "precision": "year",
+    "label": "Euler on developable surfaces",
+    "work": "Euler, De solidis quorum superficiem in planum explicare licet, Novi Commentarii Petropolitani, 1772",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "Euler studies surfaces that can be unrolled onto a plane, using a parametric description of surfaces.",
+    "evidence": [
+     {
+      "claim": "In 1771 he considered surfaces given in parametric form",
+      "source": "Wikipedia, Differential geometry of surfaces",
+      "url": "https://en.wikipedia.org/wiki/Differential_geometry_of_surfaces",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Euler Archive dates 'De solidis quorum superficiem in planum explicare licet' to 1772",
+      "source": "Euler Archive record E419 (bepress metadata)",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/419/",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Link between this title and the parametric treatment mentioned by Wikipedia is inferred from topic and date; I did not read the paper."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Lines of curvature and treatise (Monge)",
+    "year": 1795,
+    "precision": "year",
+    "label": "Monge's treatise on analysis applied to geometry",
+    "work": "Monge, Application de l'analyse à la géométrie (lectures from 1795, École Polytechnique)",
+    "people": [
+     "Gaspard Monge"
+    ],
+    "description": "Monge's course gathers curves and surfaces under analytic methods and introduces lines of curvature.",
+    "evidence": [
+     {
+      "claim": "Monge laid the foundations of the theory in his classical memoir that appeared in 1795",
+      "source": "Wikipedia, Differential geometry of surfaces",
+      "url": "https://en.wikipedia.org/wiki/Differential_geometry_of_surfaces",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Monge is considered the father of differential geometry, introducing lines of curvature; the lectures of 1795 formed the basis of the book",
+      "source": "MacTutor, Gaspard Monge",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Monge/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "No bibliographic record retrieved; the work went through several editions (1795, later 1807). Year is from the history pages. Monge's own memoir on space-curve evolutes was read in 1771 and printed 1785 (MacTutor)."
+   },
+   {
+    "role": "key_development",
+    "phase": "Intrinsic geometry (Gauss)",
+    "year": 1828,
+    "precision": "year",
+    "label": "Gauss: intrinsic geometry and the Theorema Egregium",
+    "work": "Gauss, Disquisitiones generales circa superficies curvas, Göttingen, 1828 (presented 1827)",
+    "people": [
+     "Carl Friedrich Gauss"
+    ],
+    "description": "Gauss shows that curvature is intrinsic, unchanged by bending, turning the subject from curves-in-space to geometry of the surface itself.",
+    "evidence": [
+     {
+      "claim": "The defining contribution was made by Gauss in two papers; the Theorema Egregium established that Gaussian curvature is intrinsic",
+      "source": "Wikipedia, Differential geometry of surfaces",
+      "url": "https://en.wikipedia.org/wiki/Differential_geometry_of_surfaces",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Theorema Egregium proved by Gauss in 1827",
+      "source": "Wikipedia, Theorema Egregium",
+      "url": "https://en.wikipedia.org/wiki/Theorema_Egregium",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Catalogue entry for the 1828 printing of Disquisitiones generales circa superficies curvas",
+      "source": "Internet Archive catalogue record disquisitionesg00gausgoog",
+      "url": "https://archive.org/details/disquisitionesg00gausgoog",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Crossref: 1828 Philosophical Magazine account of the paper communicated to the Göttingen society on 18 October 1827",
+      "source": "Crossref record 10.1080/14786442808674658",
+      "url": "https://doi.org/10.1080/14786442808674658",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Presented 1827, printed 1828; Wikipedia gives 1827 for the proof."
+   }
+  ],
+  "people": [
+   {
+    "name": "Alexis Clairaut",
+    "role": "Space curves",
+    "lifespan": "1713-1765",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Clairaut/",
+    "works": [
+     {
+      "citation": "Research on curves of double curvature",
+      "year": 1729,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Clairaut/",
+      "whyItMatters": "Early step beyond plane curves."
+     }
+    ]
+   },
+   {
+    "name": "Leonhard Euler",
+    "role": "Curvature of surface sections",
+    "lifespan": "1707-1783",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+    "works": [
+     {
+      "citation": "Recherches sur la courbure des surfaces",
+      "year": 1767,
+      "url": "https://scholarlycommons.pacific.edu/euler-works/333/",
+      "whyItMatters": "First treatment of surface curvature."
+     },
+     {
+      "citation": "De solidis quorum superficiem in planum explicare licet",
+      "year": 1772,
+      "url": "https://scholarlycommons.pacific.edu/euler-works/419/",
+      "whyItMatters": "Developable surfaces."
+     }
+    ]
+   },
+   {
+    "name": "Gaspard Monge",
+    "role": "Lines of curvature, analytic treatise",
+    "lifespan": "1746-1818",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Monge/",
+    "works": [
+     {
+      "citation": "Application de l'analyse à la géométrie",
+      "year": 1795,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Monge/",
+      "whyItMatters": "Systematic treatment."
+     }
+    ]
+   },
+   {
+    "name": "Carl Friedrich Gauss",
+    "role": "Intrinsic curvature",
+    "lifespan": "1777-1855",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Gauss/",
+    "works": [
+     {
+      "citation": "Disquisitiones generales circa superficies curvas",
+      "year": 1828,
+      "url": "https://archive.org/details/disquisitionesg00gausgoog",
+      "whyItMatters": "Theorema Egregium."
+     }
+    ]
+   }
+  ],
+  "notes": "The event name 'Euler-Monge' is a simplification; Gauss 1827/28 is the turning point for modern differential geometry. Searched for a naming milestone for 'differential geometry' and for Monge's 1781 memoir on lines of curvature; neither was verified, so both are omitted. Darboux's four-volume Théorie des surfaces (1887-96) is noted by Wikipedia as a later consolidation and is not included.",
+  "derivedDates": {
+   "conceptual": 1767,
+   "methodological": null,
+   "institutional": 1795
+  }
+ },
+ {
+  "pid": "P152",
+  "eventId": "MA74",
+  "canonicalName": "De Moivre: normal approximation to the binomial",
+  "aliases": [
+   "De Moivre-Laplace theorem",
+   "Normal approximation of the binomial distribution",
+   "First central limit theorem"
+  ],
+  "phases": [
+   "Asymptotics of the central binomial term",
+   "Normal curve published",
+   "Laplace extension"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1729,
+    "precision": "year",
+    "label": "Stirling's letter on the central binomial coefficient",
+    "work": "Stirling to de Moivre, 19 June 1729 (private letter)",
+    "people": [
+     "James Stirling",
+     "Abraham de Moivre"
+    ],
+    "description": "A private letter gave de Moivre the constant in his large-n estimate of the central coefficient, later called Stirling's formula.",
+    "evidence": [
+     {
+      "claim": "On 19 June 1729 Stirling sent de Moivre a letter showing his calculation of the middle binomial coefficient",
+      "source": "Wikipedia, Abraham de Moivre",
+      "url": "https://en.wikipedia.org/wiki/Abraham_de_Moivre",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Stirling wrote to de Moivre about Miscellanea Analytica and told him of Methodus Differentialis",
+      "source": "MacTutor, James Stirling",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Stirling/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Private letter, so a precursor. The unpublished letter is not in a bibliographic database."
+   },
+   {
+    "role": "first_application",
+    "year": 1730,
+    "precision": "year",
+    "label": "Large-n approximation of binomial terms in the Miscellanea Analytica",
+    "work": "De Moivre, Miscellanea Analytica de Seriebus et Quadraturis, London, 1730",
+    "people": [
+     "Abraham de Moivre"
+    ],
+    "description": "De Moivre uses asymptotic series and a table of log n! to approximate binomial coefficients, the tool later used for the normal curve.",
+    "evidence": [
+     {
+      "claim": "Miscellanea Analytica (1730) contains the formula later attributed to Stirling, which de Moivre used in 1733 to get the normal curve",
+      "source": "MacTutor, Abraham de Moivre",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "In 1730 the book included tables of log n! and approximated the terms of a binomial expansion",
+      "source": "Wikipedia, Abraham de Moivre",
+      "url": "https://en.wikipedia.org/wiki/Abraham_de_Moivre",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Catalogue entry, Miscellanea analytica de seriebus et quadraturis, 1730",
+      "source": "Internet Archive catalogue record bub_gb_TFX1165yEc4C",
+      "url": "https://archive.org/details/bub_gb_TFX1165yEc4C",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_statement",
+    "year": 1733,
+    "precision": "year",
+    "label": "Approximatio ad summam terminorum binomii",
+    "work": "De Moivre, Approximatio ad summam terminorum binomii (a+b)^n in seriem expansi, pamphlet dated 12 or 13 November 1733",
+    "people": [
+     "Abraham de Moivre"
+    ],
+    "description": "A Latin pamphlet gives the approximation of binomial sums by the normal probability integral, the first appearance of that integral.",
+    "evidence": [
+     {
+      "claim": "The result was first published in a Latin pamphlet of 13 November 1733, containing the first occurrence of the normal probability integral",
+      "source": "MacTutor, Abraham de Moivre",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "On 12 November 1733 he privately published and distributed the pamphlet",
+      "source": "Wikipedia, Abraham de Moivre",
+      "url": "https://en.wikipedia.org/wiki/Abraham_de_Moivre",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Sources differ on the day (12 vs 13 November) and Wikipedia says 'privately published'. No library record found for the pamphlet, so no bibliographic upgrade."
+   },
+   {
+    "role": "consolidation",
+    "year": 1738,
+    "precision": "year",
+    "label": "Normal approximation in the second edition of The Doctrine of Chances",
+    "work": "De Moivre, The Doctrine of Chances, 2nd ed., London, 1738",
+    "people": [
+     "Abraham de Moivre"
+    ],
+    "description": "The 1738 edition prints the approximation within a systematic treatise, with credit to Stirling for the constant.",
+    "evidence": [
+     {
+      "claim": "The theorem appeared in the second edition of The Doctrine of Chances, 1738",
+      "source": "Wikipedia, De Moivre-Laplace theorem",
+      "url": "https://en.wikipedia.org/wiki/De_Moivre%E2%80%93Laplace_theorem",
+      "kind": "history_page"
+     },
+     {
+      "claim": "In the second edition de Moivre gives credit to Stirling for an improvement",
+      "source": "MacTutor, Abraham de Moivre",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Catalogue entry, second edition, 1738",
+      "source": "Internet Archive catalogue record bim_eighteenth-century_the-doctrine-of-chances_moivre-abraham-de_1738",
+      "url": "https://archive.org/details/bim_eighteenth-century_the-doctrine-of-chances_moivre-abraham-de_1738",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "year": 1812,
+    "precision": "year",
+    "label": "Laplace's Théorie analytique des probabilités",
+    "work": "Laplace, Théorie analytique des probabilités, Paris, 1812",
+    "people": [
+     "Pierre-Simon Laplace"
+    ],
+    "description": "Laplace's treatise is the source of the general form usually credited with the de Moivre-Laplace name.",
+    "evidence": [
+     {
+      "claim": "The first edition of Laplace's Théorie analytique des probabilités was published in 1812",
+      "source": "MacTutor, Pierre-Simon Laplace",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Laplace/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "The result is named the de Moivre-Laplace theorem, a special case of the central limit theorem",
+      "source": "Wikipedia, De Moivre-Laplace theorem",
+      "url": "https://en.wikipedia.org/wiki/De_Moivre%E2%80%93Laplace_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "I did not read what the 1812 book proves about the binomial; the link comes from the theorem's name only. Treat as a lead."
+   }
+  ],
+  "people": [
+   {
+    "name": "Abraham de Moivre",
+    "role": "Discoverer of the normal approximation",
+    "lifespan": "1667-1754",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
+    "works": [
+     {
+      "citation": "Miscellanea Analytica",
+      "year": 1730,
+      "url": "https://archive.org/details/bub_gb_TFX1165yEc4C",
+      "whyItMatters": "Large-n approximations."
+     },
+     {
+      "citation": "The Doctrine of Chances, 2nd ed.",
+      "year": 1738,
+      "url": "https://archive.org/details/bim_eighteenth-century_the-doctrine-of-chances_moivre-abraham-de_1738",
+      "whyItMatters": "Printed approximation."
+     }
+    ]
+   },
+   {
+    "name": "James Stirling",
+    "role": "Constant in the factorial formula",
+    "lifespan": "1692-1770",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Stirling/",
+    "works": [
+     {
+      "citation": "Methodus Differentialis",
+      "year": 1730,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Stirling/",
+      "whyItMatters": "Series for log n!."
+     }
+    ]
+   },
+   {
+    "name": "Pierre-Simon Laplace",
+    "role": "General central limit results",
+    "lifespan": "1749-1827",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Laplace/",
+    "works": [
+     {
+      "citation": "Théorie analytique des probabilités",
+      "year": 1812,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Laplace/",
+      "whyItMatters": "Extension of the theorem."
+     }
+    ]
+   }
+  ],
+  "notes": "Constant: de Moivre gave an approximate value and Stirling identified it as sqrt(2 pi) (Wikipedia). Wikipedia notes the first print may be a 1733-34 article; no source found. The 'de Moivre-Laplace' naming date was not found.",
+  "derivedDates": {
+   "conceptual": 1733,
+   "methodological": 1730,
+   "institutional": 1738
+  }
+ },
+ {
+  "pid": "P004",
+  "eventId": "E06",
+  "canonicalName": "Graph theory from the Königsberg bridges",
+  "aliases": [
+   "Seven Bridges of Königsberg",
+   "Geometria situs",
+   "Eulerian paths"
+  ],
+  "phases": [
+   "Euler's solution",
+   "Sufficiency and terminology",
+   "First monograph"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1735,
+    "precision": "year",
+    "label": "Euler presents the solution to the St Petersburg Academy",
+    "work": "Euler, talk of 26 August 1735",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "The solution was presented to the Academy six years before it was printed.",
+    "evidence": [
+     {
+      "claim": "Euler's work was presented to the St Petersburg Academy on 26 August 1735",
+      "source": "Wikipedia, Seven Bridges of Königsberg",
+      "url": "https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "A talk, not a publication, so a precursor."
+   },
+   {
+    "role": "first_statement",
+    "year": 1741,
+    "precision": "year",
+    "label": "Solutio problematis ad geometriam situs pertinentis",
+    "work": "Euler, Solutio problematis ad geometriam situs pertinentis, Commentarii Academiae Scientiarum Petropolitanae 8 (1736), printed 1741",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "Euler recasts the bridge puzzle as land masses and links, shows the walk is impossible and states the parity rule for general networks.",
+    "evidence": [
+     {
+      "claim": "Published in the St Petersburg Commentarii in 1741; mathematical formalisation and proof of impossibility laid the foundations of graph theory",
+      "source": "Wikipedia, Seven Bridges of Königsberg",
+      "url": "https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Euler Archive: Commentarii vol. 8, dated 1741",
+      "source": "Euler Archive record E53 (bepress metadata)",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/53/",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Volume is titled 1736 but printed 1741; Wikipedia's graph theory page quotes 1736. Also plays the role of the first application (solves the target puzzle); not repeated."
+   },
+   {
+    "role": "key_development",
+    "year": 1873,
+    "precision": "year",
+    "label": "Hierholzer proves sufficiency",
+    "work": "Hierholzer, Ueber die Möglichkeit, einen Linienzug ohne Wiederholung und ohne Unterbrechung zu umfahren, Mathematische Annalen, 1873",
+    "people": [
+     "Carl Hierholzer"
+    ],
+    "description": "Euler stated that even degrees suffice for a closed tour of a connected network; Hierholzer later gave the proof.",
+    "evidence": [
+     {
+      "claim": "The condition is also sufficient, a result stated by Euler and later proved by Carl Hierholzer",
+      "source": "Wikipedia, Seven Bridges of Königsberg",
+      "url": "https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Crossref: Hierholzer and Wiener, Math. Ann., 1873",
+      "source": "Crossref record 10.1007/bf01442866",
+      "url": "https://doi.org/10.1007/bf01442866",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "naming",
+    "year": 1878,
+    "precision": "year",
+    "label": "Sylvester introduces the word 'graph'",
+    "work": "Sylvester, Chemistry and Algebra, Nature 17, 1878",
+    "people": [
+     "James Joseph Sylvester"
+    ],
+    "description": "Sylvester used the word graph for diagrams of atoms and bonds, giving the field its name.",
+    "evidence": [
+     {
+      "claim": "The term graph was introduced by Sylvester in a paper in Nature in 1878",
+      "source": "Wikipedia, Graph theory",
+      "url": "https://en.wikipedia.org/wiki/Graph_theory",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Crossref: 'Chemistry and Algebra' by Sylvester, Nature, 7 Feb 1878",
+      "source": "Crossref record 10.1038/017284a0",
+      "url": "https://doi.org/10.1038/017284a0",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Wikipedia gives the Nature paper; Crossref confirms its title and date. I did not read the text to confirm the word occurs there."
+   },
+   {
+    "role": "consolidation",
+    "year": 1936,
+    "precision": "year",
+    "label": "König's first monograph on graphs",
+    "work": "Kőnig, Theorie der endlichen und unendlichen Graphen, Leipzig, 1936",
+    "people": [
+     "Dénes Kőnig"
+    ],
+    "description": "A book-length systematic treatment of graph theory as a subject.",
+    "evidence": [
+     {
+      "claim": "Crossref: contemporary review of Kőnig's Theorie der endlichen und unendlichen Graphen, Leipzig 1936",
+      "source": "Crossref record 10.1002/zamm.19360160640",
+      "url": "https://doi.org/10.1002/zamm.19360160640",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Crossref: Vietoris, review, 1937",
+      "source": "Crossref record 10.1007/bf01792729",
+      "url": "https://doi.org/10.1007/bf01792729",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Review records confirm the book and year. That it is the first graph theory book is common lore not confirmed by a page I read, hence low confidence."
+   }
+  ],
+  "people": [
+   {
+    "name": "Leonhard Euler",
+    "role": "Solved the bridge problem",
+    "lifespan": "1707-1783",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+    "works": [
+     {
+      "citation": "Solutio problematis ad geometriam situs pertinentis",
+      "year": 1741,
+      "url": "https://scholarlycommons.pacific.edu/euler-works/53/",
+      "whyItMatters": "Founding paper."
+     }
+    ]
+   },
+   {
+    "name": "Carl Hierholzer",
+    "role": "Proved sufficiency",
+    "lifespan": "1840-1871",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Carl_Hierholzer",
+    "works": [
+     {
+      "citation": "Ueber die Möglichkeit, einen Linienzug ohne Wiederholung ...",
+      "year": 1873,
+      "url": "https://doi.org/10.1007/bf01442866",
+      "whyItMatters": "Proof of Euler's condition."
+     }
+    ]
+   },
+   {
+    "name": "James Joseph Sylvester",
+    "role": "Coined 'graph'",
+    "lifespan": "1814-1897",
+    "biographyUrl": "https://en.wikipedia.org/wiki/James_Joseph_Sylvester",
+    "works": [
+     {
+      "citation": "Chemistry and Algebra",
+      "year": 1878,
+      "url": "https://doi.org/10.1038/017284a0",
+      "whyItMatters": "Origin of the term."
+     }
+    ]
+   },
+   {
+    "name": "Dénes Kőnig",
+    "role": "First monograph",
+    "lifespan": "1884-1944",
+    "biographyUrl": "https://en.wikipedia.org/wiki/D%C3%A9nes_K%C5%91nig",
+    "works": [
+     {
+      "citation": "Theorie der endlichen und unendlichen Graphen",
+      "year": 1936,
+      "url": "https://doi.org/10.1002/zamm.19360160640",
+      "whyItMatters": "Systematic treatment."
+     }
+    ]
+   }
+  ],
+  "notes": "Wikipedia's graph theory page also mentions Vandermonde's 1771 work as an early companion; I did not read it and omit it. Euler's letters about the problem exist (MacTutor Euler bibliography cites Euler's Königsberg letters) but were not read. MSC code 05C and the Journal of Graph Theory (1977) were not searched.",
+  "derivedDates": {
+   "conceptual": 1741,
+   "methodological": null,
+   "institutional": 1878
+  }
+ },
+ {
+  "pid": "P005",
+  "eventId": "E07",
+  "canonicalName": "Analytic number theory I: Euler's product and Dirichlet's characters",
+  "aliases": [
+   "Dirichlet's theorem on primes in arithmetic progression",
+   "Euler product",
+   "Dirichlet L-series"
+  ],
+  "phases": [
+   "Euler's product",
+   "Dirichlet's L-series and characters",
+   "Textbook form"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "year": 1744,
+    "precision": "year",
+    "label": "Euler's product over primes",
+    "work": "Euler, Variae observationes circa series infinitas, Commentarii Petropolitanae 9 (1737), printed 1744",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "Euler writes the sum of powers of integers as a product over primes, linking primes to infinite series.",
+    "evidence": [
+     {
+      "claim": "In 1737 Euler related prime numbers to the zeta function by an infinite product",
+      "source": "Wikipedia, Dirichlet's theorem on arithmetic progressions",
+      "url": "https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions",
+      "kind": "history_page"
+     },
+     {
+      "claim": "The original Euler product was proven by Euler",
+      "source": "Wikipedia, Euler product",
+      "url": "https://en.wikipedia.org/wiki/Euler_product",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Euler Archive: Variae observationes circa series infinitas, Commentarii vol. 9, dated 1744",
+      "source": "Euler Archive record E72 (bepress metadata)",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/72/",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Dated 1737 in Wikipedia (writing or reading); printed 1744 per the Euler Archive. I matched E72 to the product from its well-known role; I did not open the text."
+   },
+   {
+    "role": "first_application",
+    "year": 1838,
+    "precision": "year",
+    "label": "Dirichlet applies characters and series to primes in progressions",
+    "work": "Dirichlet, Sur l'usage des séries infinies dans la théorie des nombres, J. reine angew. Math. 18, 1838 (full memoir read 1837, Berlin Abhandlungen 1839)",
+    "people": [
+     "Peter Gustav Lejeune Dirichlet"
+    ],
+    "description": "Dirichlet proves infinitely many primes in each coprime progression by combining Euler's product, character sums and non-vanishing of L-series at 1.",
+    "evidence": [
+     {
+      "claim": "Dirichlet proved in 1837 that any such progression has infinitely many primes",
+      "source": "MacTutor, Lejeune Dirichlet",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Dirichlet/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "The proof is modelled on Euler's work and the theorem represents the beginning of rigorous analytic number theory",
+      "source": "Wikipedia, Dirichlet's theorem",
+      "url": "https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Crossref: Sur l'usage des séries infinies dans la théorie des nombres, Crelle 18, 1838",
+      "source": "Crossref record 10.1515/crll.1838.18.259",
+      "url": "https://doi.org/10.1515/crll.1838.18.259",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "History pages say 1837; the earliest print I could confirm is Crelle 1838 (a summary in French); the Berlin Akademie memoir was printed 1839. Author field was blank in Crossref."
+   },
+   {
+    "role": "key_development",
+    "year": 1839,
+    "precision": "year",
+    "label": "Dirichlet's class number applications",
+    "work": "Dirichlet, Recherches sur diverses applications de l'analyse infinitésimale à la théorie des nombres, Crelle 19 (1839) and 21 (1840)",
+    "people": [
+     "Peter Gustav Lejeune Dirichlet"
+    ],
+    "description": "Dirichlet extends the analytic method to quadratic forms and class numbers.",
+    "evidence": [
+     {
+      "claim": "Crossref: Recherches sur diverses applications, Crelle 19, 1839 (continued in vol. 21, 1840)",
+      "source": "Crossref record 10.1515/crll.1839.19.324",
+      "url": "https://doi.org/10.1515/crll.1839.19.324",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Relevance to class-number work is from the title and my background knowledge; no history page read for this paper."
+   },
+   {
+    "role": "consolidation",
+    "year": 1863,
+    "precision": "year",
+    "label": "Dirichlet's Vorlesungen über Zahlentheorie",
+    "work": "Dirichlet (ed. Dedekind), Vorlesungen über Zahlentheorie, 1863",
+    "people": [
+     "Peter Gustav Lejeune Dirichlet",
+     "Richard Dedekind"
+    ],
+    "description": "Dedekind's edition of Dirichlet's lectures includes the proof of the progression theorem within a systematic course.",
+    "evidence": [
+     {
+      "claim": "Catalogue entry, Vorlesungen über Zahlentheorie, 1863",
+      "source": "Internet Archive catalogue record vorlesungenberz03dedegoog",
+      "url": "https://archive.org/details/vorlesungenberz03dedegoog",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Crossref: chapter 'Beweis des Satzes, dass jede unbegrenzte arithmetische Progression ... unendlich viele Primzahlen enthält' in the Vorlesungen reprint",
+      "source": "Crossref record 10.1017/cbo9781139237321.012",
+      "url": "https://doi.org/10.1017/cbo9781139237321.012",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Crossref record is for a later reprint; year of the first edition comes from the archive catalogue."
+   },
+   {
+    "role": "precursor",
+    "year": null,
+    "precision": "unknown",
+    "label": "Legendre's conjecture on primes in arithmetic progressions",
+    "work": "Legendre, in his attempted proofs of quadratic reciprocity",
+    "people": [
+     "Adrien-Marie Legendre"
+    ],
+    "description": "The statement that any progression with coprime start and difference holds infinitely many primes was conjectured before Dirichlet proved it.",
+    "evidence": [
+     {
+      "claim": "The general form was first conjectured by Legendre, as Gauss noted in the Disquisitiones",
+      "source": "Wikipedia, Dirichlet's theorem on arithmetic progressions",
+      "url": "https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions",
+      "kind": "history_page"
+     },
+     {
+      "claim": "The theorem had been conjectured by Legendre",
+      "source": "MacTutor, Lejeune Dirichlet",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Dirichlet/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Year not established here; Wikipedia also says Euler stated special cases in 1775. Searched Legendre's Essai (1798) only by catalogue (archive.org essaisurlathor00lege), not its content."
+   }
+  ],
+  "people": [
+   {
+    "name": "Leonhard Euler",
+    "role": "Euler product",
+    "lifespan": "1707-1783",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+    "works": [
+     {
+      "citation": "Variae observationes circa series infinitas",
+      "year": 1744,
+      "url": "https://scholarlycommons.pacific.edu/euler-works/72/",
+      "whyItMatters": "Product over primes."
+     }
+    ]
+   },
+   {
+    "name": "Peter Gustav Lejeune Dirichlet",
+    "role": "Characters, L-series, theorem on progressions",
+    "lifespan": "1805-1859",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Dirichlet/",
+    "works": [
+     {
+      "citation": "Sur l'usage des séries infinies dans la théorie des nombres",
+      "year": 1838,
+      "url": "https://doi.org/10.1515/crll.1838.18.259",
+      "whyItMatters": "Proof of progression theorem."
+     },
+     {
+      "citation": "Recherches sur diverses applications de l'analyse infinitésimale",
+      "year": 1839,
+      "url": "https://doi.org/10.1515/crll.1839.19.324",
+      "whyItMatters": "Class numbers."
+     }
+    ]
+   },
+   {
+    "name": "Adrien-Marie Legendre",
+    "role": "Conjectured the theorem",
+    "lifespan": "1752-1833",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Adrien-Marie_Legendre",
+    "works": [
+     {
+      "citation": "Essai sur la théorie des nombres",
+      "year": 1798,
+      "url": "https://archive.org/details/essaisurlathor00lege",
+      "whyItMatters": "Context of the conjecture."
+     }
+    ]
+   }
+  ],
+  "notes": "Naming of 'analytic number theory' and of 'Dirichlet character' not found. Selberg's elementary proof (1949) and Riemann 1859 were seen only as mentions and are omitted. The input summary says 'Euler product and Dirichlet characters'; Dirichlet's characters are defined for finite abelian groups in his proof, which I did not read.",
+  "derivedDates": {
+   "conceptual": 1744,
+   "methodological": 1838,
+   "institutional": 1863
+  }
+ },
+ {
+  "pid": "P430",
+  "eventId": "H17",
+  "canonicalName": "Spectral ideas: eigenvalues from vibrating systems and quadratic forms",
+  "aliases": [
+   "Eigenvalues and eigenvectors",
+   "Principal axes",
+   "Characteristic roots",
+   "Sturm-Liouville theory"
+  ],
+  "phases": [
+   "Principal axes and vibrations",
+   "Cauchy's symmetric matrices",
+   "Sturm-Liouville problems",
+   "Naming of eigen"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1751,
+    "precision": "year",
+    "label": "Euler on principal axes of a rotating body",
+    "work": "Euler, Du mouvement d'un corps solide quelconque lorsqu'il tourne autour d'un axe mobile (presented 1751)",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "Euler proves every rigid body has a principal axis of rotation, an early eigenvector problem.",
+    "evidence": [
+     {
+      "claim": "In 1751 Euler proved any body has a principal axis of rotation; Lagrange realised the axes are eigenvectors of the inertia matrix",
+      "source": "Wikipedia, Eigenvalues and eigenvectors",
+      "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Presented 1751; Wikipedia's note says published 1760, which I could not confirm. The input's 'd'Alembert's loaded string' origin is not supported by the pages I read: the pages name Euler, Segner (1755), Lagrange and Cauchy. Lagrange's discrete-mass string is mentioned by MacTutor without a year."
+   },
+   {
+    "role": "naming",
+    "year": 1839,
+    "precision": "year",
+    "label": "Cauchy's équation caractéristique",
+    "work": "Cauchy, Mémoire sur l'intégration des équations linéaires, Comptes rendus 8, 1839",
+    "people": [
+     "Augustin-Louis Cauchy"
+    ],
+    "description": "Cauchy coined 'characteristic root', source of the terms characteristic equation and later eigenvalue.",
+    "evidence": [
+     {
+      "claim": "Cauchy coined racine caractéristique; his term survives in characteristic equation; 1839 memoir quoted",
+      "source": "Wikipedia, Eigenvalues and eigenvectors",
+      "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The 1839 paper is the cited example of the phrase; Cauchy may have used 'racine caractéristique' earlier."
+   },
+   {
+    "role": "key_development",
+    "year": 1855,
+    "precision": "year",
+    "label": "Hermite extends to Hermitian matrices",
+    "work": "Hermite, 1855",
+    "people": [
+     "Charles Hermite"
+    ],
+    "description": "Hermite extends Cauchy's real-symmetric result to the complex Hermitian case.",
+    "evidence": [
+     {
+      "claim": "This was extended by Charles Hermite in 1855 to Hermitian matrices",
+      "source": "Wikipedia, Eigenvalues and eigenvectors",
+      "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Specific paper not identified; kept low-confidence."
+   },
+   {
+    "role": "naming",
+    "year": 1904,
+    "precision": "year",
+    "label": "Hilbert introduces 'eigen'",
+    "work": "Hilbert, first communication on integral equations, Nachrichten Göttingen, 1904, pp. 49-91",
+    "people": [
+     "David Hilbert"
+    ],
+    "description": "Hilbert, studying integral operators as infinite matrices, was the first to use the German word eigen.",
+    "evidence": [
+     {
+      "claim": "Hilbert was the first to use the German word eigen; the cited text is a 1904 Göttingen Nachrichten paper",
+      "source": "Wikipedia, Eigenvalues and eigenvectors",
+      "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The 1904 year comes from the footnote's source journal volume; the Crossref search found only later book versions (1912 book in archive catalogues)."
+   },
+   {
+    "role": "first_statement",
+    "year": null,
+    "precision": "unknown",
+    "label": "Cauchy: real symmetric matrices diagonalise",
+    "work": "Cauchy, early 19th-century work on quadrics and symmetric systems (Hawkins 1975 analyses it)",
+    "people": [
+     "Augustin-Louis Cauchy"
+    ],
+    "description": "Cauchy classified quadric surfaces and showed the result generalises to arbitrary dimension, giving real roots for symmetric systems.",
+    "evidence": [
+     {
+      "claim": "In the early 19th century Cauchy saw how the work could classify quadric surfaces and generalised it to arbitrary dimensions",
+      "source": "Wikipedia, Eigenvalues and eigenvectors",
+      "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Cauchy proved the spectral theorem for symmetric matrices (cites Hawkins, Cauchy and the spectral theory of matrices, 1975)",
+      "source": "Wikipedia, Spectral theorem",
+      "url": "https://en.wikipedia.org/wiki/Spectral_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Left open: year not established. Archive record shows Exercices de mathématiques is dated 1829 (bub_gb_JRQOAAAAQAAJ), and the Oeuvres reprint has a paper on the secular equation (doi 10.1017/cbo9780511702686.009), but I did not confirm that this is the paper, so I leave the year null."
+   },
+   {
+    "role": "key_development",
+    "year": null,
+    "precision": "unknown",
+    "label": "Sturm and Liouville on second-order differential eigenproblems",
+    "work": "Sturm, memoir on linear differential equations of the second order, Journal de Mathématiques Pures et Appliquées, 1836 (Collected Works edition)",
+    "people": [
+     "Charles-François Sturm",
+     "Joseph Liouville"
+    ],
+    "description": "Sturm and Liouville develop eigenvalue problems for differential operators, bringing Fourier's ideas to Cauchy's attention.",
+    "evidence": [
+     {
+      "claim": "Sturm elaborated on Fourier's ideas and brought them to Cauchy; Liouville studied similar problems, giving Sturm-Liouville theory",
+      "source": "Wikipedia, Eigenvalues and eigenvectors",
+      "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Sturm is best remembered for the Sturm-Liouville problem; elected to the Academy 1836, a period of his differential equation results",
+      "source": "MacTutor, Charles-François Sturm",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Sturm/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Year left null: pages give 1836 only for the Academy election. Crossref lists only the 2009 Collected Works reprint (doi 10.1007/978-3-7643-7990-2_30)."
+   }
+  ],
+  "people": [
+   {
+    "name": "Leonhard Euler",
+    "role": "Principal axes",
+    "lifespan": "1707-1783",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+    "works": [
+     {
+      "citation": "Du mouvement d'un corps solide quelconque ...",
+      "year": 1751,
+      "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+      "whyItMatters": "Principal axis theorem."
+     }
+    ]
+   },
+   {
+    "name": "Augustin-Louis Cauchy",
+    "role": "Symmetric matrices and characteristic equation",
+    "lifespan": "1789-1857",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Cauchy/",
+    "works": [
+     {
+      "citation": "Mémoire sur l'intégration des équations linéaires",
+      "year": 1839,
+      "url": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+      "whyItMatters": "Characteristic equation."
+     }
+    ]
+   },
+   {
+    "name": "Charles-François Sturm",
+    "role": "Differential eigenproblems",
+    "lifespan": "1803-1855",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Sturm/",
+    "works": [
+     {
+      "citation": "Mémoire sur les équations différentielles linéaires du second ordre",
+      "year": null,
+      "url": "https://doi.org/10.1007/978-3-7643-7990-2_30",
+      "whyItMatters": "Sturm-Liouville problem."
+     }
+    ]
+   },
+   {
+    "name": "Joseph-Louis Lagrange",
+    "role": "Vibrating strings as discrete systems",
+    "lifespan": "1736-1813",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+    "works": [
+     {
+      "citation": "Mélanges de Turin work on the propagation of sound",
+      "year": null,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+      "whyItMatters": "Discrete-mass string model."
+     }
+    ]
+   },
+   {
+    "name": "David Hilbert",
+    "role": "Spectral theory of operators, term eigen",
+    "lifespan": "1862-1943",
+    "biographyUrl": "https://en.wikipedia.org/wiki/David_Hilbert",
+    "works": [
+     {
+      "citation": "Grundzüge einer allgemeinen Theorie der linearen Integralgleichungen",
+      "year": 1912,
+      "url": "https://archive.org/details/grundzgeeinera00hilbuoft",
+      "whyItMatters": "Book form of his integral-equation papers."
+     }
+    ]
+   }
+  ],
+  "notes": "The summary says the idea first appeared in d'Alembert's loaded string; the pages I read credit Euler (1751 principal axes), Lagrange (inertia matrix, vibrating string) and Cauchy, not d'Alembert. No clear first_statement date could be verified; Cauchy's is left with a null year. No institution milestone.",
+  "derivedDates": {
+   "conceptual": null,
+   "methodological": null,
+   "institutional": 1839
+  }
+ },
+ {
+  "pid": "P162",
+  "eventId": "WA75",
+  "canonicalName": "D'Alembert and Euler: the wave equation and partial differential equations",
+  "aliases": [
+   "Wave equation",
+   "Vibrating string",
+   "D'Alembert's formula"
+  ],
+  "phases": [
+   "D'Alembert's solution",
+   "Euler's general solutions"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "year": 1749,
+    "precision": "year",
+    "label": "D'Alembert: curve formed by a vibrating string",
+    "work": "d'Alembert, Recherches sur la courbe que forme une corde tendue mise en vibration, Histoire de l'Académie de Berlin 3 (volume dated 1747)",
+    "people": [
+     "Jean le Rond d'Alembert"
+    ],
+    "description": "D'Alembert derives the one-dimensional wave equation and its solution as a sum of two travelling waves.",
+    "evidence": [
+     {
+      "claim": "His most famous achievements include the wave equation and D'Alembert's formula; the papers cited are the 1747 Berlin memoirs",
+      "source": "Wikipedia, Jean le Rond d'Alembert",
+      "url": "https://en.wikipedia.org/wiki/Jean_le_Rond_d%27Alembert",
+      "kind": "history_page"
+     },
+     {
+      "claim": "In 1746 d'Alembert published a solution to the vibrating string problem",
+      "source": "MacTutor, The function concept",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Functions/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Dates differ: 1746 (MacTutor), volume year 1747 (Wikipedia citations). I give 1749 for printing the Berlin volume 3, inferred from the Euler Archive dating of vol. 4 to 1750; not verified for this volume. Treat as range 1746-1749."
+   },
+   {
+    "role": "key_development",
+    "year": 1750,
+    "precision": "year",
+    "label": "Euler on vibrating strings",
+    "work": "Euler, Sur la vibration des cordes, Mémoires de l'Académie de Berlin 4, 1750",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "Euler solves the string problem with initial shapes more general than d'Alembert allowed, opening the controversy on admissible functions.",
+    "evidence": [
+     {
+      "claim": "Euler published a paper in 1749 objecting to d'Alembert's restriction",
+      "source": "MacTutor, The function concept",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Functions/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Euler Archive: Sur la vibration des cordes, Mém. Berlin vol. 4, dated 1750",
+      "source": "Euler Archive record E140 (bepress metadata)",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/140/",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Read 1749, printed 1750."
+   },
+   {
+    "role": "key_development",
+    "year": 1766,
+    "precision": "year",
+    "label": "Euler's later clarification of vibrating strings",
+    "work": "Euler, Éclaircissemens sur le mouvement des cordes vibrantes, Mélanges de Turin, 1766",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "A later Euler paper on the same problem, in the Turin Mélanges, by which the debate continued.",
+    "evidence": [
+     {
+      "claim": "Euler Archive: Éclaircissemens sur le mouvement des cordes vibrantes, dated 1766",
+      "source": "Euler Archive record E317 (bepress metadata)",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/317/",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Lagrange's major study on vibrating strings appeared in the Turin Mélanges, engaging Euler and d'Alembert",
+      "source": "MacTutor, Joseph-Louis Lagrange",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Role is a lead: I confirmed the title and year only."
+   }
+  ],
+  "people": [
+   {
+    "name": "Jean le Rond d'Alembert",
+    "role": "Wave equation, solution",
+    "lifespan": "1717-1783",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Jean_le_Rond_d%27Alembert",
+    "works": [
+     {
+      "citation": "Recherches sur la courbe que forme une corde tendue mise en vibration",
+      "year": 1749,
+      "url": "https://books.google.com/books?id=lJQDAAAAMAAJ&pg=PA214",
+      "whyItMatters": "Wave equation."
+     }
+    ]
+   },
+   {
+    "name": "Leonhard Euler",
+    "role": "General solutions",
+    "lifespan": "1707-1783",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+    "works": [
+     {
+      "citation": "Sur la vibration des cordes",
+      "year": 1750,
+      "url": "https://scholarlycommons.pacific.edu/euler-works/140/",
+      "whyItMatters": "Arbitrary initial shapes."
+     },
+     {
+      "citation": "Éclaircissemens sur le mouvement des cordes vibrantes",
+      "year": 1766,
+      "url": "https://scholarlycommons.pacific.edu/euler-works/317/",
+      "whyItMatters": "Later follow-up."
+     }
+    ]
+   },
+   {
+    "name": "Joseph-Louis Lagrange",
+    "role": "Discrete model of the string",
+    "lifespan": "1736-1813",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+    "works": [
+     {
+      "citation": "Mélanges de Turin work on sound",
+      "year": null,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+      "whyItMatters": "String as n masses."
+     }
+    ]
+   }
+  ],
+  "notes": "The MacTutor d'Alembert biography could not be fetched (404), so d'Alembert's evidence is from Wikipedia and the MacTutor function-concept topic. Daniel Bernoulli's 1753 superposition and Taylor's earlier string work were not verified. Euler's three-dimensional wave equation was mentioned in Wikipedia with no year. Search found no naming or institution milestone for the wave equation or for PDEs.",
+  "derivedDates": {
+   "conceptual": 1749,
+   "methodological": null,
+   "institutional": null
+  }
+ },
+ {
+  "pid": "P444",
+  "eventId": "H39",
+  "canonicalName": "Fundamental theorem of algebra: analytic and topological proofs",
+  "aliases": [
+   "D'Alembert-Gauss theorem",
+   "FTA"
+  ],
+  "phases": [
+   "Statement and gaps",
+   "Analytic proof by minimum modulus (d'Alembert, Argand)",
+   "Gauss's proofs",
+   "Textbook proof"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "year": 1629,
+    "precision": "year",
+    "label": "Girard's assertion that degree n gives n roots",
+    "work": "Girard, L'invention nouvelle en l'Algèbre, 1629",
+    "people": [
+     "Albert Girard"
+    ],
+    "description": "Girard asserts that a polynomial of degree n has n roots, not requiring them to be real.",
+    "evidence": [
+     {
+      "claim": "Girard asserted in 1629 that an equation of degree n has n solutions, not necessarily real",
+      "source": "Wikipedia, Fundamental theorem of algebra",
+      "url": "https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Wikipedia notes an earlier 1608 remark that an equation may have n solutions; no proof in either."
+   },
+   {
+    "role": "first_application",
+    "year": 1746,
+    "precision": "year",
+    "label": "D'Alembert's attempted proof",
+    "work": "d'Alembert, 1746",
+    "people": [
+     "Jean le Rond d'Alembert"
+    ],
+    "description": "D'Alembert tries to prove the theorem by an analytic argument; the proof is incomplete.",
+    "evidence": [
+     {
+      "claim": "A first attempt at proving the theorem was made by d'Alembert in 1746, but was incomplete",
+      "source": "Wikipedia, Fundamental theorem of algebra",
+      "url": "https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Whether the argument uses the minimum of the modulus, as the input summary says, is not stated in the pages I read. Exact publication details of the 1746 attempt not verified."
+   },
+   {
+    "role": "key_development",
+    "year": 1799,
+    "precision": "year",
+    "label": "Gauss's doctoral proof",
+    "work": "Gauss, Demonstratio nova theorematis ... , Helmstedt, 1799",
+    "people": [
+     "Carl Friedrich Gauss"
+    ],
+    "description": "Gauss's first proof avoids assuming roots exist but has a topological gap, filled only by Ostrowski in 1920.",
+    "evidence": [
+     {
+      "claim": "Gauss published a proof in 1799, mainly geometric with a topological gap filled by Ostrowski in 1920",
+      "source": "Wikipedia, Fundamental theorem of algebra",
+      "url": "https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Crossref record of the title in the Werke reprint, confirming the work's identity",
+      "source": "Crossref record 10.1017/cbo9781139058247.001",
+      "url": "https://doi.org/10.1017/cbo9781139058247.001",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Crossref gives the 2011 reprint date, not 1799; year is from Wikipedia."
+   },
+   {
+    "role": "key_development",
+    "year": 1806,
+    "endYear": 1813,
+    "precision": "range",
+    "label": "Argand's first rigorous proof",
+    "work": "Argand, 1806 memoir, revisited in Annales de mathématiques, 1813",
+    "people": [
+     "Jean-Robert Argand"
+    ],
+    "description": "Argand gives a proof that stands without assuming roots and states the theorem for complex coefficients.",
+    "evidence": [
+     {
+      "claim": "The first rigorous proof was published by Argand in 1806 and revisited in 1813, the first for complex coefficients",
+      "source": "Wikipedia, Fundamental theorem of algebra",
+      "url": "https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Argand's 1806 memoir may have been privately distributed with no proof of publication; republished in Gergonne's journal in 1813",
+      "source": "MacTutor, Jean-Robert Argand",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Argand/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "MacTutor doubts the 1806 publication, so the public date may be 1813. I give the range 1806-1813."
+   },
+   {
+    "role": "consolidation",
+    "year": 1821,
+    "precision": "year",
+    "label": "Cauchy's Cours d'analyse includes the proof",
+    "work": "Cauchy, Cours d'analyse de l'École Royale Polytechnique, 1821",
+    "people": [
+     "Augustin-Louis Cauchy"
+    ],
+    "description": "The first textbook containing a proof of the theorem, essentially Argand's, uncredited.",
+    "evidence": [
+     {
+      "claim": "The first textbook containing a proof was Cauchy's Cours d'analyse (1821), containing Argand's proof",
+      "source": "Wikipedia, Fundamental theorem of algebra",
+      "url": "https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Catalogue entry, Cauchy, Cours d'analyse, 1821",
+      "source": "Internet Archive catalogue record TO0E037871_TO0324_PNI-1898_000000",
+      "url": "https://archive.org/details/TO0E037871_TO0324_PNI-1898_000000",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Jean le Rond d'Alembert",
+    "role": "First attempt",
+    "lifespan": "1717-1783",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Jean_le_Rond_d%27Alembert",
+    "works": [
+     {
+      "citation": "Attempted proof of 1746",
+      "year": 1746,
+      "url": "https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra",
+      "whyItMatters": "Analytic attempt."
+     }
+    ]
+   },
+   {
+    "name": "Carl Friedrich Gauss",
+    "role": "Several proofs",
+    "lifespan": "1777-1855",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Gauss/",
+    "works": [
+     {
+      "citation": "Demonstratio nova theorematis ...",
+      "year": 1799,
+      "url": "https://doi.org/10.1017/cbo9781139058247.001",
+      "whyItMatters": "First Gauss proof."
+     }
+    ]
+   },
+   {
+    "name": "Jean-Robert Argand",
+    "role": "First rigorous proof",
+    "lifespan": "1768-1822",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Argand/",
+    "works": [
+     {
+      "citation": "Essai sur une manière de représenter les quantités imaginaires",
+      "year": 1806,
+      "url": "https://archive.org/details/essaisurunemani00argauoft",
+      "whyItMatters": "Contains the proof; archive copy is a 1874 reprint."
+     }
+    ]
+   },
+   {
+    "name": "Augustin-Louis Cauchy",
+    "role": "First textbook proof",
+    "lifespan": "1789-1857",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Cauchy/",
+    "works": [
+     {
+      "citation": "Cours d'analyse",
+      "year": 1821,
+      "url": "https://archive.org/details/TO0E037871_TO0324_PNI-1898_000000",
+      "whyItMatters": "Textbook."
+     }
+    ]
+   },
+   {
+    "name": "Albert Girard",
+    "role": "Early assertion",
+    "lifespan": "1595-1632",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Albert_Girard",
+    "works": [
+     {
+      "citation": "L'invention nouvelle en l'Algèbre",
+      "year": 1629,
+      "url": "https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra",
+      "whyItMatters": "n roots claim."
+     }
+    ]
+   }
+  ],
+  "notes": "The summary says Gauss's first and third proofs are topological and d'Alembert and Argand used minimum modulus; Wikipedia only says Gauss's 1799 proof is geometric/topological and describes d'Alembert's as an incomplete proof assuming Puiseux's theorem. Euler (1749, E170 dated 1751), de Foncenex (1759), Lagrange (1772) and Laplace (1795) attempts are seen but omitted. 'Fundamental theorem of algebra' naming date not found.",
+  "derivedDates": {
+   "conceptual": 1629,
+   "methodological": 1746,
+   "institutional": 1821
+  }
+ },
+ {
+  "pid": "P445",
+  "eventId": "H40",
+  "canonicalName": "Vibrating-string controversy and the general function concept",
+  "aliases": [
+   "d'Alembert-Euler controversy",
+   "Euler's definition of a function",
+   "Function concept"
+  ],
+  "phases": [
+   "Function as formula",
+   "The string controversy",
+   "Euler's general definition"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1694,
+    "precision": "year",
+    "label": "Johann Bernoulli's definition of a function",
+    "work": "J. Bernoulli, letter to Leibniz, 2 September 1694",
+    "people": [
+     "Johann Bernoulli",
+     "Gottfried Wilhelm Leibniz"
+    ],
+    "description": "Bernoulli calls a function a quantity formed in any way from variable and constant quantities; Leibniz approves the term.",
+    "evidence": [
+     {
+      "claim": "Johann Bernoulli described a function in a letter of 1694; 'functions of ordinates' appears in an 1698 paper; Leibniz approved",
+      "source": "MacTutor, The function concept",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Functions/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Private letter, so a precursor. 1698 paper is the first public use."
+   },
+   {
+    "role": "key_development",
+    "year": 1749,
+    "precision": "year",
+    "label": "D'Alembert requires an analytic initial shape",
+    "work": "d'Alembert, Histoire de l'Académie de Berlin 3 (dated 1747, printed c. 1749)",
+    "people": [
+     "Jean le Rond d'Alembert"
+    ],
+    "description": "D'Alembert insists the initial data of a vibrating string be given by a single analytic expression.",
+    "evidence": [
+     {
+      "claim": "D'Alembert insisted the initial velocities be one analytic expression",
+      "source": "MacTutor, The function concept",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Functions/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Cites the 1747 Berlin memoirs on the vibrating string",
+      "source": "Wikipedia, Jean le Rond d'Alembert",
+      "url": "https://en.wikipedia.org/wiki/Jean_le_Rond_d%27Alembert",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Same paper as the wave-equation event (WA75); here the point is the restriction on functions. Year as in WA75 (1746-1749)."
+   },
+   {
+    "role": "first_statement",
+    "year": 1750,
+    "precision": "year",
+    "label": "Euler argues for arbitrary initial curves",
+    "work": "Euler, Sur la vibration des cordes, Mémoires de l'Académie de Berlin 4, 1750",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "Euler objects that physics demands more general initial shapes than one analytic formula, the opening of the controversy on admissible functions.",
+    "evidence": [
+     {
+      "claim": "Euler published a paper in 1749 objecting to d'Alembert's restriction; the long controversy began",
+      "source": "MacTutor, The function concept",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Functions/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Euler Archive: Sur la vibration des cordes, printed 1750",
+      "source": "Euler Archive record E140 (bepress metadata)",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/140/",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Read 1749, printed 1750."
+   },
+   {
+    "role": "key_development",
+    "year": 1755,
+    "precision": "year",
+    "label": "Euler's general definition of a function",
+    "work": "Euler, Institutiones calculi differentialis, St Petersburg, 1755",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "Euler defines a function as any quantity depending on others in any way, a truly general definition, though the book then treats only analytic expressions.",
+    "evidence": [
+     {
+      "claim": "In 1755 Euler gave an entirely general definition",
+      "source": "MacTutor, The function concept",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Functions/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Catalogue entry, Institutiones calculi differentialis, 1755",
+      "source": "Internet Archive catalogue record 10053431bsb",
+      "url": "https://archive.org/details/10053431bsb",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Jean le Rond d'Alembert",
+    "role": "Analytic-initial-data position",
+    "lifespan": "1717-1783",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Jean_le_Rond_d%27Alembert",
+    "works": [
+     {
+      "citation": "Recherches sur la courbe que forme une corde tendue mise en vibration",
+      "year": 1749,
+      "url": "https://books.google.com/books?id=lJQDAAAAMAAJ&pg=PA214",
+      "whyItMatters": "Provoked the debate."
+     }
+    ]
+   },
+   {
+    "name": "Leonhard Euler",
+    "role": "General function",
+    "lifespan": "1707-1783",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+    "works": [
+     {
+      "citation": "Sur la vibration des cordes",
+      "year": 1750,
+      "url": "https://scholarlycommons.pacific.edu/euler-works/140/",
+      "whyItMatters": "Arbitrary initial curves."
+     },
+     {
+      "citation": "Institutiones calculi differentialis",
+      "year": 1755,
+      "url": "https://archive.org/details/10053431bsb",
+      "whyItMatters": "General definition."
+     }
+    ]
+   },
+   {
+    "name": "Johann Bernoulli",
+    "role": "Early definition",
+    "lifespan": "1667-1748",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bernoulli_Johann/",
+    "works": [
+     {
+      "citation": "Letter to Leibniz",
+      "year": 1694,
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Functions/",
+      "whyItMatters": "Early definition."
+     }
+    ]
+   }
+  ],
+  "notes": "The MacTutor function-concept page also reports that Cauchy in 1844 and others showed 'mixed' functions can be single formulas (a 1780 remark); and the summary's 'Fourier's heat work' as the later explicit stage was not confirmed on the part of the page I read (the saved text is truncated). Daniel Bernoulli's 1753 solution, Dirichlet's 1829/37 function definition and Fourier 1822 are therefore omitted. No naming or institution milestone.",
+  "derivedDates": {
+   "conceptual": 1750,
+   "methodological": null,
+   "institutional": null
+  }
+ },
+ {
+  "pid": "P142",
+  "eventId": "MA79/WA61",
+  "canonicalName": "Euler's Introductio in analysin infinitorum",
+  "aliases": [
+   "Introduction to the Analysis of the Infinite",
+   "Euler's Introductio",
+   "Function-based analysis"
+  ],
+  "phases": [
+   "Function as the central object",
+   "Elementary transcendental functions"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1694,
+    "precision": "year",
+    "label": "Bernoulli's mathematical use of 'function'",
+    "work": "J. Bernoulli, letter to Leibniz, 1694",
+    "people": [
+     "Johann Bernoulli"
+    ],
+    "description": "The term function enters mathematics before Euler, but without a general object of study.",
+    "evidence": [
+     {
+      "claim": "Bernoulli described a function in 1694; Leibniz was pleased the term was used in his sense",
+      "source": "MacTutor, The function concept",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Functions/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_statement",
+    "year": 1748,
+    "precision": "year",
+    "label": "Euler makes functions the basis of analysis",
+    "work": "Euler, Introductio in analysin infinitorum, vols. 1-2, Lausanne, 1748",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "Chapter 1 puts variables and functions first and introduces exponentials, logarithms and trigonometric functions without calculus; includes e^{ix} = cos x + i sin x.",
+    "evidence": [
+     {
+      "claim": "The Introductio, 1748, lays the foundations of analysis; chapter 8 presents Euler's formula",
+      "source": "Wikipedia, Introductio in analysin infinitorum",
+      "url": "https://en.wikipedia.org/wiki/Introductio_in_analysin_infinitorum",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Euler defined a function and stated that analysis is the study of functions",
+      "source": "MacTutor, Leonhard Euler",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Euler Archive, vol. 1, dated 1748",
+      "source": "Euler Archive record E101 (bepress metadata)",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/101/",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Euler Archive, vol. 2, dated 1748",
+      "source": "Euler Archive record E102 (bepress metadata)",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/102/",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Also plays the consolidation role (below)."
+   },
+   {
+    "role": "consolidation",
+    "year": 1748,
+    "precision": "year",
+    "label": "The Introductio as a textbook",
+    "work": "Euler, Introductio, 1748",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "A two-volume survey of the concepts of analysis preliminary to calculus, called the first precalculus book.",
+    "evidence": [
+     {
+      "claim": "Considered the first precalculus book; survey of concepts preliminary to calculus",
+      "source": "Wikipedia, Introductio in analysin infinitorum",
+      "url": "https://en.wikipedia.org/wiki/Introductio_in_analysin_infinitorum",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same work as the first_statement: it truly plays both roles."
+   },
+   {
+    "role": "key_development",
+    "year": 1755,
+    "precision": "year",
+    "label": "Institutiones: a fully general definition",
+    "work": "Euler, Institutiones calculi differentialis, 1755",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "Euler restates the function concept in its widest form, building differential calculus on it.",
+    "evidence": [
+     {
+      "claim": "In 1755 Euler gave an entirely general definition of a function",
+      "source": "MacTutor, The function concept",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Functions/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Catalogue entry, Institutiones calculi differentialis, 1755",
+      "source": "Internet Archive catalogue record 10053431bsb",
+      "url": "https://archive.org/details/10053431bsb",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "recognition",
+    "year": 1950,
+    "precision": "year",
+    "label": "Boyer compares the Introductio with Euclid's Elements",
+    "work": "Boyer, lecture at the 1950 International Congress of Mathematicians",
+    "people": [
+     "Carl Boyer"
+    ],
+    "description": "A historian ranks it as the foremost textbook of modern times.",
+    "evidence": [
+     {
+      "claim": "Boyer's 1950 ICM lectures compared its influence to Euclid's Elements",
+      "source": "Wikipedia, Introductio in analysin infinitorum",
+      "url": "https://en.wikipedia.org/wiki/Introductio_in_analysin_infinitorum",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Optional recognition; sets no derived date."
+   }
+  ],
+  "people": [
+   {
+    "name": "Leonhard Euler",
+    "role": "Author",
+    "lifespan": "1707-1783",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+    "works": [
+     {
+      "citation": "Introductio in analysin infinitorum, vol. 1",
+      "year": 1748,
+      "url": "https://scholarlycommons.pacific.edu/euler-works/101/",
+      "whyItMatters": "Function-based analysis."
+     },
+     {
+      "citation": "Introductio in analysin infinitorum, vol. 2",
+      "year": 1748,
+      "url": "https://scholarlycommons.pacific.edu/euler-works/102/",
+      "whyItMatters": "Analytic geometry."
+     },
+     {
+      "citation": "Institutiones calculi differentialis",
+      "year": 1755,
+      "url": "https://archive.org/details/10053431bsb",
+      "whyItMatters": "Differential calculus."
+     }
+    ]
+   },
+   {
+    "name": "Johann Bernoulli",
+    "role": "Earlier function concept",
+    "lifespan": "1667-1748",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bernoulli_Johann/",
+    "works": [
+     {
+      "citation": "Letter to Leibniz",
+      "year": 1694,
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Functions/",
+      "whyItMatters": "Definition."
+     }
+    ]
+   }
+  ],
+  "notes": "The summary says e^{ix} appears in the book; Wikipedia confirms Euler's formula in chapter 8. MacTutor says Euler's error was not separating a function from its representation. A first-statement/consolidation split of the same 1748 book is deliberate. Naming: 'analysis' is in the title; no separate naming milestone.",
+  "derivedDates": {
+   "conceptual": 1748,
+   "methodological": null,
+   "institutional": 1748
+  }
+ }
+]

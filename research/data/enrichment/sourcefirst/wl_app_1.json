@@ -1,0 +1,583 @@
+[
+ {
+  "pid": "P014",
+  "eventId": "E19",
+  "name": "Measure theory meets probability (Kolmogorov)",
+  "basisNow": "no first application or key development",
+  "firstStatement": 1933,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1901,
+    "label": "Lebesgue's generalisation of the definite integral"
+   },
+   {
+    "role": "precursor",
+    "year": 1902,
+    "label": "Lebesgue's Integral, length, area"
+   },
+   {
+    "role": "precursor",
+    "year": 1909,
+    "label": "Borel's countable probabilities and arithmetic applications"
+   },
+   {
+    "role": "first_statement",
+    "year": 1933,
+    "label": "Kolmogorov's Grundbegriffe der Wahrscheinlichkeitsrechnung"
+   },
+   {
+    "role": "consolidation",
+    "year": 1933,
+    "label": "Kolmogorov's 'Grundbegriffe der Wahrscheinlichkeitsrechnung'"
+   }
+  ],
+  "people": [
+   "Andrei Kolmogorov",
+   "Emile Borel",
+   "Henri Lebesgue"
+  ]
+ },
+ {
+  "pid": "P082",
+  "eventId": "B16",
+  "name": "Perfectoid spaces and tilting (Scholze)",
+  "basisNow": "no first application or key development",
+  "firstStatement": 2012,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1979,
+    "label": "Fontaine-Wintenberger field-of-norms notes"
+   },
+   {
+    "role": "precursor",
+    "year": 1983,
+    "label": "Field of norms: Galois-group equivalence for local fields"
+   },
+   {
+    "role": "first_statement",
+    "year": 2012,
+    "label": "Perfectoid spaces and tilting introduced"
+   },
+   {
+    "role": "consolidation",
+    "year": 2012,
+    "label": "Survey of perfectoid spaces"
+   },
+   {
+    "role": "consolidation",
+    "year": 2020,
+    "label": "Berkeley Lectures on p-adic geometry: perfectoid chapter"
+   }
+  ],
+  "people": [
+   "Peter Scholze",
+   "Jean-Pierre Wintenberger",
+   "Jared Weinstein"
+  ]
+ },
+ {
+  "pid": "P109",
+  "eventId": "E03/MA54/WA42",
+  "name": "Analytic geometry (Descartes, Fermat)",
+  "basisNow": "no first application or key development",
+  "firstStatement": 1637,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1629,
+    "label": "Fermat's restoration of Apollonius' Plane loci"
+   },
+   {
+    "role": "first_statement",
+    "year": 1637,
+    "label": "Descartes, La Geometrie"
+   },
+   {
+    "role": "consolidation",
+    "year": 1649,
+    "label": "Van Schooten's Latin edition of the Geometria"
+   },
+   {
+    "role": "consolidation",
+    "year": 1679,
+    "label": "Fermat's Isagoge printed in Varia opera"
+   },
+   {
+    "role": "consolidation",
+    "year": 1748,
+    "label": "Euler, Introductio in analysin infinitorum"
+   }
+  ],
+  "people": [
+   "Rene Descartes",
+   "Pierre de Fermat",
+   "Frans van Schooten"
+  ]
+ },
+ {
+  "pid": "P139",
+  "eventId": "WA71/MA92",
+  "name": "Monge's descriptive geometry",
+  "basisNow": "no first application or key development",
+  "firstStatement": 1799,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1525,
+    "label": "Dürer's published projection methods"
+   },
+   {
+    "role": "precursor",
+    "year": 1765,
+    "label": "Monge's first discoveries as a draftsman"
+   },
+   {
+    "role": "precursor",
+    "year": 1794,
+    "label": "Monge becomes instructor in descriptive geometry"
+   },
+   {
+    "role": "first_statement",
+    "year": 1799,
+    "label": "Géométrie descriptive published"
+   },
+   {
+    "role": "consolidation",
+    "year": 1799,
+    "label": "First systematic treatise"
+   }
+  ],
+  "people": [
+   "Gaspard Monge",
+   "Jean Nicolas Pierre Hachette",
+   "Albrecht Dürer"
+  ]
+ },
+ {
+  "pid": "P166",
+  "eventId": "MA101",
+  "name": "Jacobi: theta functions and elliptic function theory",
+  "basisNow": "no first application or key development",
+  "firstStatement": 1829,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1827,
+    "label": "Jacobi's letter to Legendre"
+   },
+   {
+    "role": "precursor",
+    "year": 1827,
+    "label": "Jacobi's first printed announcement"
+   },
+   {
+    "role": "precursor",
+    "year": 1828,
+    "label": "Note sur les fonctions elliptiques"
+   },
+   {
+    "role": "first_statement",
+    "year": 1829,
+    "label": "Fundamenta nova theoriae functionum ellipticarum"
+   },
+   {
+    "role": "consolidation",
+    "year": 1829,
+    "label": "Fundamenta nova as the systematic treatise"
+   }
+  ],
+  "people": [
+   "Carl Gustav Jacob Jacobi",
+   "Adrien-Marie Legendre",
+   "Niels Henrik Abel"
+  ]
+ },
+ {
+  "pid": "P248",
+  "eventId": "MB99",
+  "name": "Hodge theory of harmonic integrals",
+  "basisNow": "no first application or key development",
+  "firstStatement": 1935,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1929,
+    "label": "Lefschetz topological ideas for integrals on curves"
+   },
+   {
+    "role": "precursor",
+    "year": 1933,
+    "label": "Kähler metric on complex manifolds"
+   },
+   {
+    "role": "first_statement",
+    "year": 1935,
+    "label": "Hodge: harmonic integrals associated with algebraic varieties"
+   },
+   {
+    "role": "consolidation",
+    "year": 1941,
+    "label": "Hodge: The Theory and Applications of Harmonic Integrals"
+   }
+  ],
+  "people": [
+   "William V. D. Hodge",
+   "Erich Kähler"
+  ]
+ },
+ {
+  "pid": "P284",
+  "eventId": "WB11",
+  "name": "Operations research",
+  "basisNow": "no first application or key development",
+  "firstStatement": 1950,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1937,
+    "label": "Operational studies at Bawdsey Research Station"
+   },
+   {
+    "role": "precursor",
+    "year": 1941,
+    "label": "Blackett's Coastal Command convoy analysis"
+   },
+   {
+    "role": "first_statement",
+    "year": 1950,
+    "label": "Blackett's article titled 'Operational Research' (first issue of Operational Research Quarterly)"
+   },
+   {
+    "role": "consolidation",
+    "year": 1951,
+    "label": "Morse and Kimball's Methods of Operations Research"
+   },
+   {
+    "role": "institution",
+    "year": 1952,
+    "label": "Operations Research Society of America and its journal"
+   }
+  ],
+  "people": [
+   "Patrick Blackett",
+   "Philip M. Morse",
+   "George E. Kimball"
+  ]
+ },
+ {
+  "pid": "P346",
+  "eventId": "QC79",
+  "name": "Differential privacy",
+  "basisNow": "no first application or key development",
+  "firstStatement": 2006,
+  "existing": [
+   {
+    "role": "first_statement",
+    "year": 2006,
+    "label": "Differential privacy formally defined"
+   },
+   {
+    "role": "consolidation",
+    "year": 2008,
+    "label": "Dwork's survey of differential privacy results"
+   },
+   {
+    "role": "consolidation",
+    "year": 2014,
+    "label": "Algorithmic foundations monograph"
+   }
+  ],
+  "people": [
+   "Cynthia Dwork"
+  ]
+ },
+ {
+  "pid": "P429",
+  "eventId": "H16",
+  "name": "Matrix algebra as an abstract calculus (Cayley)",
+  "basisNow": "no first application or key development",
+  "firstStatement": 1855,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1844,
+    "label": "Eisenstein multiplies linear substitutions"
+   },
+   {
+    "role": "precursor",
+    "year": 1850,
+    "label": "Sylvester coins the word matrix"
+   },
+   {
+    "role": "first_statement",
+    "year": 1855,
+    "label": "Cayley's first matrix paper (in French)"
+   },
+   {
+    "role": "consolidation",
+    "year": 1858,
+    "label": "Cayley, A memoir on the theory of matrices"
+   }
+  ],
+  "people": [
+   "Arthur Cayley",
+   "Gotthold Eisenstein",
+   "James Joseph Sylvester"
+  ]
+ },
+ {
+  "pid": "P485",
+  "eventId": "P40",
+  "name": "Noncommutative projective geometry (Artin-Schelter-Zhang)",
+  "basisNow": "no first application or key development",
+  "firstStatement": 1994,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1987,
+    "label": "Regular graded algebras of dimension 3 as noncommutative P^2"
+   },
+   {
+    "role": "precursor",
+    "year": 1990,
+    "label": "Point modules and automorphisms of elliptic curves"
+   },
+   {
+    "role": "precursor",
+    "year": 1991,
+    "label": "Modules over regular algebras of dimension 3"
+   },
+   {
+    "role": "first_statement",
+    "year": 1994,
+    "label": "Noncommutative projective schemes"
+   },
+   {
+    "role": "consolidation",
+    "year": 2001,
+    "label": "Survey of noncommutative curves and surfaces"
+   }
+  ],
+  "people": [
+   "Michael Artin",
+   "Schelter",
+   "John Tate",
+   "Michel Van den Bergh",
+   "James J. Zhang",
+   "J. T. Stafford"
+  ]
+ },
+ {
+  "pid": "P126",
+  "eventId": "MA19/WA21",
+  "name": "Pell's equation and the chakravala method",
+  "basisNow": "earliest key development; no first application found",
+  "firstStatement": 628,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": -400,
+    "label": "Side and diagonal numbers: approximations to the square root of 2 in Greece and India"
+   },
+   {
+    "role": "precursor",
+    "year": 250,
+    "label": "Diophantus considers equations equivalent to Pell-type problems"
+   },
+   {
+    "role": "first_statement",
+    "year": 628,
+    "label": "Brahmagupta composition (bhavana/samasa): generating solutions of x^2 - N y^2 = k"
+   },
+   {
+    "role": "key_development",
+    "year": 950,
+    "label": "Jayadeva: general cyclic method"
+   },
+   {
+    "role": "key_development",
+    "year": 1150,
+    "label": "Bhaskara II: chakravala solves N = 61 (x = 226153980, y = 1766319049)"
+   },
+   {
+    "role": "key_development",
+    "year": 1657,
+    "label": "Fermat's challenge; Brouncker and Wallis solve it (Commercium epistolicum 1658)"
+   },
+   {
+    "role": "consolidation",
+    "year": 1766,
+    "label": "Lagrange proves infinitely many solutions and systematises the continued-fraction method"
+   },
+   {
+    "role": "naming",
+    "year": null,
+    "label": "Euler names it after Pell (misattribution)"
+   }
+  ],
+  "people": [
+   "Brahmagupta",
+   "Jayadeva",
+   "Bhaskara II",
+   "Pierre de Fermat",
+   "William Brouncker",
+   "Joseph-Louis Lagrange"
+  ]
+ },
+ {
+  "pid": "P152",
+  "eventId": "MA74",
+  "name": "De Moivre: normal approximation to the binomial",
+  "basisNow": "earliest key development; no first application found",
+  "firstStatement": 1733,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1729,
+    "label": "Stirling's letter on the central binomial coefficient"
+   },
+   {
+    "role": "precursor",
+    "year": 1730,
+    "label": "Large-n approximation of binomial terms in the Miscellanea Analytica"
+   },
+   {
+    "role": "first_statement",
+    "year": 1733,
+    "label": "Approximatio ad summam terminorum binomii"
+   },
+   {
+    "role": "consolidation",
+    "year": 1738,
+    "label": "Normal approximation in the second edition of The Doctrine of Chances"
+   },
+   {
+    "role": "key_development",
+    "year": 1812,
+    "label": "Laplace's Théorie analytique des probabilités"
+   }
+  ],
+  "people": [
+   "Abraham de Moivre",
+   "James Stirling",
+   "Pierre-Simon Laplace"
+  ]
+ },
+ {
+  "pid": "P335",
+  "eventId": "WC79",
+  "name": "Kitaev's topological quantum computation",
+  "basisNow": "earliest key development; no first application found",
+  "firstStatement": 1997,
+  "existing": [
+   {
+    "role": "first_statement",
+    "year": 1997,
+    "label": "Fault-tolerant computation by anyons"
+   },
+   {
+    "role": "key_development",
+    "year": 2001,
+    "label": "Projective plane and planar quantum codes"
+   },
+   {
+    "role": "consolidation",
+    "year": 2003,
+    "label": "Fault-tolerant quantum computation by anyons (full paper)"
+   }
+  ],
+  "people": [
+   "Alexei Kitaev"
+  ]
+ },
+ {
+  "pid": "P397",
+  "eventId": "W37",
+  "name": "Betti numbers and early combinatorial topology",
+  "basisNow": "earliest key development; no first application found",
+  "firstStatement": 1870,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1847,
+    "label": "Listing's Vorstudien zur Topologie"
+   },
+   {
+    "role": "precursor",
+    "year": 1847,
+    "label": "Kirchhoff's cyclomatic number"
+   },
+   {
+    "role": "precursor",
+    "year": 1851,
+    "label": "Riemann studies connectivity of surfaces"
+   },
+   {
+    "role": "first_statement",
+    "year": 1870,
+    "label": "Betti's spaces of any number of dimensions"
+   },
+   {
+    "role": "consolidation",
+    "year": 1895,
+    "label": "Poincaré's Analysis situs"
+   },
+   {
+    "role": "key_development",
+    "year": 1920,
+    "label": "Noether's modern formulation"
+   }
+  ],
+  "people": [
+   "Enrico Betti",
+   "Bernhard Riemann",
+   "Johann Benedict Listing",
+   "Gustav Kirchhoff",
+   "Henri Poincaré"
+  ]
+ },
+ {
+  "pid": "P554",
+  "eventId": "Q67",
+  "name": "Universality of rotational invariance at 2D criticality via coupling and integrability",
+  "basisNow": "earliest key development; no first application found",
+  "firstStatement": 2020,
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 2001,
+    "label": "Smirnov on critical percolation"
+   },
+   {
+    "role": "precursor",
+    "year": 2010,
+    "label": "Smirnov: fermionic observables in the Ising model"
+   },
+   {
+    "role": "first_statement",
+    "year": 2020,
+    "label": "Rotational invariance in critical planar lattice models (arXiv)"
+   },
+   {
+    "role": "key_development",
+    "year": 2022,
+    "label": "Six-vertex free energy (integrability input)"
+   },
+   {
+    "role": "consolidation",
+    "year": 2024,
+    "label": "Bourbaki exposé on rotation invariance (after the same authors)"
+   }
+  ],
+  "people": [
+   "Hugo Duminil-Copin",
+   "Karol Kozlowski",
+   "Dmitry Krachun",
+   "Ioan Manolescu",
+   "Mendes Oulamara",
+   "Stanislav Smirnov"
+  ]
+ }
+]

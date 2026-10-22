@@ -1,0 +1,140 @@
+[
+ {
+  "pid": "P217",
+  "eventId": "MB53/WB50",
+  "name": "Pseudodifferential operators",
+  "type": "technique-transfer",
+  "from": [
+   "harmonic analysis (singular integrals)",
+   "PDE"
+  ],
+  "to": [
+   "microlocal analysis"
+  ],
+  "summary": "Symbol calculus extended Calderon-Zygmund theory to PDE, then to propagation of singularities."
+ },
+ {
+  "pid": "P227",
+  "eventId": "MB81/WB34",
+  "name": "Fuzzy sets",
+  "type": "birth-by-abstraction",
+  "from": [
+   "set theory / logic",
+   "systems engineering"
+  ],
+  "to": [
+   "fuzzy set theory"
+  ],
+  "summary": "Graded membership generalised set theory for imprecise concepts."
+ },
+ {
+  "pid": "P233",
+  "eventId": "MB89/WB36",
+  "name": "Ax-Kochen",
+  "type": "technique-transfer",
+  "from": [
+   "model theory",
+   "number theory"
+  ],
+  "to": [
+   "model theory of fields"
+  ],
+  "summary": "Ultraproducts showed Artin's conjecture on p-adic forms holds for large primes."
+ },
+ {
+  "pid": "P496",
+  "eventId": "P53",
+  "name": "Inverse scattering transform and Lax pairs for soliton equations",
+  "type": "import-from-outside",
+  "from": [
+   "physics (water waves, plasma)",
+   "spectral and inverse scattering theory"
+  ],
+  "to": [
+   "integrable PDE"
+  ],
+  "summary": "The KdV equation from water waves and plasma physics is solved exactly through scattering data of a Schroedinger operator, and Lax recasts it as an isospectral flow."
+ },
+ {
+  "pid": "P513",
+  "eventId": "P71",
+  "name": "Classification theory in model theory (Morley, Shelah)",
+  "type": "birth-by-abstraction",
+  "from": [
+   "Logic & foundations"
+  ],
+  "to": [
+   "Logic & foundations"
+  ],
+  "summary": "Categoricity in uncountable cardinals leads to stability and a dividing-line classification of first-order theories."
+ },
+ {
+  "pid": "P528",
+  "eventId": "Q9",
+  "name": "Chowla cosine problem via Cayley graph eigenvalues and MaxCut",
+  "type": "technique-transfer",
+  "from": [
+   "extremal graph theory",
+   "spectral graph theory"
+  ],
+  "to": [
+   "harmonic analysis of cosine sums"
+  ],
+  "summary": "Showing that clique-free Cayley graphs must have very negative eigenvalues gave the first power-of-N lower bounds for the minimum of a sum of cosines, a problem posed in the 1950s-60s."
+ },
+ {
+  "pid": "P206",
+  "eventId": "MB124/WB100",
+  "name": "Kac-Moody algebras",
+  "type": "birth-by-abstraction",
+  "from": [
+   "Lie theory"
+  ],
+  "to": [
+   "infinite-dimensional Lie algebras"
+  ],
+  "summary": "Generalised Cartan matrices gave infinite-dimensional algebras."
+ },
+ {
+  "pid": "P207",
+  "eventId": "MB126/WB102",
+  "name": "Yang-Baxter and solvable lattice models",
+  "type": "import-from-outside",
+  "from": [
+   "statistical mechanics",
+   "algebra"
+  ],
+  "to": [
+   "integrable systems"
+  ],
+  "summary": "Yang-Baxter equation."
+ },
+ {
+  "pid": "P240",
+  "eventId": "WB129",
+  "name": "Twistor theory",
+  "type": "import-from-outside",
+  "from": [
+   "complex geometry",
+   "relativity"
+  ],
+  "to": [
+   "twistor theory"
+  ],
+  "summary": "Penrose encodes spacetime fields as complex geometry."
+ },
+ {
+  "pid": "P262",
+  "eventId": "WB125",
+  "name": "Automata and formal verification",
+  "type": "technique-transfer",
+  "from": [
+   "mathematical logic",
+   "programming languages"
+  ],
+  "to": [
+   "program verification (Floyd-Hoare logic)"
+  ],
+  "summary": "Floyd and Hoare apply logic to program correctness."
+ }
+]

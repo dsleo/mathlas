@@ -1,0 +1,1925 @@
+[
+ {
+  "pid": "P394",
+  "eventId": "W63",
+  "canonicalName": "Hilbert's Nullstellensatz and algebraic geometry as ideal theory",
+  "aliases": [
+   "Hilbert's Nullstellensatz",
+   "Hilbert's zero theorem",
+   "ideal theory of algebraic geometry"
+  ],
+  "phases": [
+   "Hilbert's finite basis theorem (1890)",
+   "Nullstellensatz linking ideals to zero sets (1893)",
+   "Ideal-theoretic algebraic geometry (Lasker, Noether, Macaulay, van der Waerden)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Hilbert's finite basis theorem (1890)",
+    "year": 1890,
+    "precision": "year",
+    "label": "Finite basis theorem for polynomial ideals",
+    "work": "Hilbert, D., Ueber die Theorie der algebraischen Formen, Mathematische Annalen, 1890",
+    "people": [
+     "David Hilbert"
+    ],
+    "description": "Hilbert proved that every ideal of a polynomial ring is finitely generated, the algebraic tool later used for the zero-set link; this is a precursor, not the geometric statement itself.",
+    "evidence": [
+     {
+      "claim": "Paper on algebraic forms appears in Mathematische Annalen in 1890",
+      "source": "Crossref record, DOI 10.1007/bf01208503",
+      "url": "https://doi.org/10.1007/bf01208503",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Basis theorem of 1890 precedes the 1893 Nullstellensatz paper",
+      "source": "Wikipedia, Hilbert's Nullstellensatz (article text)",
+      "url": "https://en.wikipedia.org/wiki/Hilbert%27s_Nullstellensatz",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Basis theorem, not a geometric statement; does not set a derived date."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Nullstellensatz linking ideals to zero sets (1893)",
+    "year": 1893,
+    "precision": "year",
+    "label": "Hilbert's Nullstellensatz",
+    "work": "Hilbert, D., Ueber die vollen Invariantensysteme, Mathematische Annalen, 1893",
+    "people": [
+     "David Hilbert"
+    ],
+    "description": "Hilbert's second invariant-theory paper proves the theorem relating polynomial ideals to their common zero sets.",
+    "evidence": [
+     {
+      "claim": "Paper appears in Mathematische Annalen in 1893",
+      "source": "Crossref record, DOI 10.1007/bf01444162",
+      "url": "https://doi.org/10.1007/bf01444162",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Nullstellensatz proved by Hilbert in his 1893 invariant-theory paper",
+      "source": "Wikipedia, Hilbert's Nullstellensatz",
+      "url": "https://en.wikipedia.org/wiki/Hilbert%27s_Nullstellensatz",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Year and venue are from the bibliographic record; the claim that the 1893 paper contains the theorem rests on Wikipedia, not on the paper text."
+   },
+   {
+    "role": "key_development",
+    "phase": "Ideal decomposition",
+    "year": 1905,
+    "precision": "year",
+    "label": "Lasker's primary decomposition of ideals",
+    "work": "Lasker, E., Zur Theorie der Moduln und Ideale, Mathematische Annalen, 1905",
+    "people": [
+     "Emanuel Lasker"
+    ],
+    "description": "Lasker proved that ideals in polynomial rings decompose into primary components, a tool later central to ideal-based algebraic geometry.",
+    "evidence": [
+     {
+      "claim": "Paper appears in Mathematische Annalen in 1905",
+      "source": "Crossref record, DOI 10.1007/bf01447495",
+      "url": "https://doi.org/10.1007/bf01447495",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Content (primary decomposition) comes from general knowledge of the field; the paper text was not read."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Ideal-theoretic algebraic geometry",
+    "year": 1916,
+    "precision": "year",
+    "label": "Macaulay's monograph on modular systems",
+    "work": "Macaulay, F. S., The Algebraic Theory of Modular Systems, Cambridge, 1916",
+    "people": [
+     "Francis Sowerby Macaulay"
+    ],
+    "description": "Macaulay's monograph gives a systematic treatment of polynomial ideals and modular systems used in algebraic geometry.",
+    "evidence": [
+     {
+      "claim": "Book The Algebraic Theory of Modular Systems published 1916 by F. S. Macaulay",
+      "source": "Open Library search record",
+      "url": "https://openlibrary.org/search.json?title=the+algebraic+theory+of+modular+systems",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor describes Macaulay's 1916 book as a key work in the development of modern algebra",
+      "source": "MacTutor biography of Macaulay",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Macaulay/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Classed as consolidation for the institutional derived date; it is a monograph, not a textbook of the whole field."
+   },
+   {
+    "role": "key_development",
+    "phase": "Ideal-theoretic algebraic geometry",
+    "year": 1921,
+    "precision": "year",
+    "label": "Noether's ideal theory in rings",
+    "work": "Noether, E., Idealtheorie in Ringbereichen, Mathematische Annalen, 1921",
+    "people": [
+     "Emmy Noether"
+    ],
+    "description": "Noether generalised ideal theory to abstract rings, giving the framework in which Hilbert's ideal approach to algebraic geometry was later developed.",
+    "evidence": [
+     {
+      "claim": "Paper appears in Mathematische Annalen in 1921",
+      "source": "Crossref record, DOI 10.1007/bf01464225",
+      "url": "https://doi.org/10.1007/bf01464225",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Role statement about its influence on algebraic geometry is from general knowledge; the paper text was not read."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Ideal-theoretic algebraic geometry",
+    "year": 1930,
+    "precision": "year",
+    "label": "van der Waerden's Moderne Algebra",
+    "work": "van der Waerden, B. L., Moderne Algebra, Springer, 1930",
+    "people": [
+     "Bartel Leendert van der Waerden"
+    ],
+    "description": "Van der Waerden's textbook presents ideal theory and polynomial ideals as standard algebra, consolidating the ideal approach.",
+    "evidence": [
+     {
+      "claim": "Moderne Algebra book chapters are dated 1930 in the Springer record",
+      "source": "Crossref record, DOI 10.1007/978-3-662-41906-9_7",
+      "url": "https://doi.org/10.1007/978-3-662-41906-9_7",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The year comes from the chapter record of the Springer book; the book's title page was not checked directly."
+   }
+  ],
+  "people": [
+   {
+    "name": "David Hilbert",
+    "role": "Proved the basis theorem (1890) and the Nullstellensatz (1893)",
+    "lifespan": "1862-1943",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/",
+    "works": [
+     {
+      "citation": "Hilbert, Ueber die Theorie der algebraischen Formen, Math. Ann., 1890",
+      "year": 1890,
+      "url": "https://doi.org/10.1007/bf01208503",
+      "whyItMatters": "Finite basis theorem for polynomial ideals."
+     },
+     {
+      "citation": "Hilbert, Ueber die vollen Invariantensysteme, Math. Ann., 1893",
+      "year": 1893,
+      "url": "https://doi.org/10.1007/bf01444162",
+      "whyItMatters": "Nullstellensatz."
+     }
+    ]
+   },
+   {
+    "name": "Emanuel Lasker",
+    "role": "Primary decomposition of ideals",
+    "lifespan": "1868-1941",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lasker/",
+    "works": [
+     {
+      "citation": "Lasker, Zur Theorie der Moduln und Ideale, Math. Ann., 1905",
+      "year": 1905,
+      "url": "https://doi.org/10.1007/bf01447495",
+      "whyItMatters": "Primary decomposition of ideals."
+     }
+    ]
+   },
+   {
+    "name": "Francis Sowerby Macaulay",
+    "role": "Ideal and modular-systems theory for algebraic varieties",
+    "lifespan": "1862-1937",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Macaulay/",
+    "works": [
+     {
+      "citation": "Macaulay, The Algebraic Theory of Modular Systems, Cambridge, 1916",
+      "year": 1916,
+      "url": "https://openlibrary.org/search.json?title=the+algebraic+theory+of+modular+systems",
+      "whyItMatters": "Systematic monograph on polynomial ideals."
+     }
+    ]
+   },
+   {
+    "name": "Emmy Noether",
+    "role": "Ideal theory in abstract rings",
+    "lifespan": "1882-1935",
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Noether, Idealtheorie in Ringbereichen, Math. Ann., 1921",
+      "year": 1921,
+      "url": "https://doi.org/10.1007/bf01464225",
+      "whyItMatters": "Ideal theory in abstract rings."
+     }
+    ]
+   },
+   {
+    "name": "Bartel Leendert van der Waerden",
+    "role": "Textbook presentation of ideal-based algebra",
+    "lifespan": "1903-1996",
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "van der Waerden, Moderne Algebra, Springer, 1930",
+      "year": 1930,
+      "url": "https://doi.org/10.1007/978-3-662-41906-9_7",
+      "whyItMatters": "Standard textbook of ideal theory and algebra."
+     }
+    ]
+   }
+  ],
+  "notes": "Derived: conceptual 1893 (Nullstellensatz; the 1890 basis theorem is a precursor and sets no date). Methodological is null: no first_application was found with confidence. Institutional 1916 (Macaulay) is the earliest consolidation; the 1930 van der Waerden record is also a consolidation. Searched: Wikipedia Nullstellensatz article, MacTutor Hilbert and Macaulay biographies, Crossref, Open Library. The input summary's claim that the Nullstellensatz 'starts the algebraisation of algebraic geometry' is a judgement not established by these sources. The 1893 Nullstellensatz content and the Macaulay role are not verified against the paper texts.",
+  "derivedDates": {
+   "conceptual": 1893,
+   "methodological": null,
+   "institutional": 1916
+  }
+ },
+ {
+  "pid": "P011",
+  "eventId": "E16",
+  "canonicalName": "Algebraic topology: Betti numbers to homology groups",
+  "aliases": [
+   "Betti numbers to homology groups",
+   "homology theory",
+   "Betti numbers"
+  ],
+  "phases": [
+   "Betti numbers (numerical invariants, 1870)",
+   "Poincare's homology groups (1895)",
+   "Axiomatic homology (Eilenberg-Steenrod)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Betti numbers (numerical invariants, 1870)",
+    "year": 1870,
+    "precision": "year",
+    "label": "Betti numbers of n-dimensional spaces",
+    "work": "Betti, E., Sopra gli spazi di un numero qualunque di dimensioni, Annali di Matematica Pura ed Applicata, 1870",
+    "people": [
+     "Enrico Betti"
+    ],
+    "description": "Betti introduced numerical invariants of n-dimensional spaces that later became Betti numbers; these are the numbers the event replaces with groups.",
+    "evidence": [
+     {
+      "claim": "Paper appears in Annali di Matematica Pura ed Applicata with issue date 1870",
+      "source": "Crossref record, DOI 10.1007/bf02420029",
+      "url": "https://doi.org/10.1007/bf02420029",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor topic page says Betti extended Listing's connectivity ideas to n dimensions",
+      "source": "MacTutor HistTopics, Topology in mathematics (saved text)",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Topology_in_mathematics/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Crossref dates the issue 1870; the volume is dated 1870-71 in other sources. Precursor, sets no derived date."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Poincare's homology groups (1895)",
+    "year": 1895,
+    "precision": "year",
+    "label": "Poincare's Analysis situs",
+    "work": "Poincare, H., Analysis situs, Journal de l'Ecole Polytechnique, 1895",
+    "people": [
+     "Henri Poincare"
+    ],
+    "description": "Poincare's Analysis situs gives the first systematic combinatorial treatment in which homology is defined through groups of chains and boundaries.",
+    "evidence": [
+     {
+      "claim": "Analysis situs appears in the Journal de l'Ecole Polytechnique in 1895",
+      "source": "zbMATH record, Zbl 26.0541.07",
+      "url": "https://zbmath.org/?q=an:26.0541.07",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor describes Analysis situs (1895) as an early systematic treatment of topology",
+      "source": "MacTutor biography of Poincare",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The claim that homology groups are defined there is from general knowledge; the paper text was not read. Earlier discussions by Betti are not counted as the group-theoretic start."
+   },
+   {
+    "role": "key_development",
+    "phase": "Axiomatic homology (Eilenberg-Steenrod)",
+    "year": 1945,
+    "precision": "year",
+    "label": "Axiomatic approach to homology theory",
+    "work": "Eilenberg, S. and Steenrod, N., Axiomatic Approach to Homology Theory, Proceedings of the National Academy of Sciences, 1945",
+    "people": [
+     "Samuel Eilenberg",
+     "Norman Steenrod"
+    ],
+    "description": "Eilenberg and Steenrod state the axioms that characterise homology theories, making homology an abstract functor-based theory.",
+    "evidence": [
+     {
+      "claim": "Axiomatic Approach to Homology Theory appears in PNAS in 1945",
+      "source": "Crossref record, DOI 10.1073/pnas.31.4.117",
+      "url": "https://doi.org/10.1073/pnas.31.4.117",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says the axioms were set out in 1945 with proofs deferred to the 1952 book",
+      "source": "MacTutor biography of Eilenberg",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Eilenberg/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": "Axiomatic homology (Eilenberg-Steenrod)",
+    "year": 1952,
+    "precision": "year",
+    "label": "Foundations of Algebraic Topology",
+    "work": "Eilenberg, S. and Steenrod, N., Foundations of Algebraic Topology, Princeton University Press, 1952",
+    "people": [
+     "Samuel Eilenberg",
+     "Norman Steenrod"
+    ],
+    "description": "The Eilenberg-Steenrod book gives the first systematic treatment of axiomatic homology theory.",
+    "evidence": [
+     {
+      "claim": "Foundations of Algebraic Topology published 1952",
+      "source": "Open Library search record",
+      "url": "https://openlibrary.org/search.json?title=foundations+of+algebraic+topology",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor names the 1952 book as the text where the proofs appeared",
+      "source": "MacTutor biography of Eilenberg",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Eilenberg/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Enrico Betti",
+    "role": "Numerical invariants (Betti numbers) of manifolds",
+    "lifespan": "1823-1892",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Betti/",
+    "works": [
+     {
+      "citation": "Betti, Sopra gli spazi di un numero qualunque di dimensioni, Annali di Mat. Pura Appl., 1870",
+      "year": 1870,
+      "url": "https://doi.org/10.1007/bf02420029",
+      "whyItMatters": "Introduces the numerical invariants later called Betti numbers."
+     }
+    ]
+   },
+   {
+    "name": "Henri Poincare",
+    "role": "Founder of combinatorial homology",
+    "lifespan": "1854-1912",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/",
+    "works": [
+     {
+      "citation": "Poincare, Analysis situs, J. Ecole Polytech., 1895",
+      "year": 1895,
+      "url": "https://zbmath.org/?q=an:26.0541.07",
+      "whyItMatters": "Systematic treatment of topology with homology."
+     }
+    ]
+   },
+   {
+    "name": "Samuel Eilenberg",
+    "role": "Axiomatic homology theory",
+    "lifespan": "1913-1998",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Eilenberg/",
+    "works": [
+     {
+      "citation": "Eilenberg and Steenrod, Axiomatic Approach to Homology Theory, PNAS, 1945",
+      "year": 1945,
+      "url": "https://doi.org/10.1073/pnas.31.4.117",
+      "whyItMatters": "Axioms for homology."
+     },
+     {
+      "citation": "Eilenberg and Steenrod, Foundations of Algebraic Topology, 1952",
+      "year": 1952,
+      "url": "https://openlibrary.org/search.json?title=foundations+of+algebraic+topology",
+      "whyItMatters": "Systematic treatment."
+     }
+    ]
+   },
+   {
+    "name": "Norman Steenrod",
+    "role": "Co-author of axiomatic homology",
+    "lifespan": "1910-1971",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Steenrod/",
+    "works": [
+     {
+      "citation": "Eilenberg and Steenrod, Foundations of Algebraic Topology, 1952",
+      "year": 1952,
+      "url": "https://openlibrary.org/search.json?title=foundations+of+algebraic+topology",
+      "whyItMatters": "Systematic treatment."
+     }
+    ]
+   }
+  ],
+  "notes": "Derived: conceptual 1895 (Poincare; Betti 1870 is a precursor and sets no date). Methodological null: no first_application identified. Institutional 1952 (book consolidation). Searched: MacTutor Betti, Poincare, Eilenberg, Steenrod biographies and the saved MacTutor topic page; Crossref; zbMATH; Open Library. The 1895 homology-group claim and the Betti lifespan are from general knowledge plus these pages. Noether's 1925-26 group-theoretic work on homology was not searched and is not included.",
+  "derivedDates": {
+   "conceptual": 1895,
+   "methodological": null,
+   "institutional": 1952
+  }
+ },
+ {
+  "pid": "P384",
+  "eventId": "W67/M20",
+  "canonicalName": "Representation theory of finite groups",
+  "aliases": [
+   "character theory of finite groups",
+   "group representations",
+   "Frobenius-Burnside-Schur representation theory"
+  ],
+  "phases": [
+   "Frobenius group characters (1896-97)",
+   "Burnside's applications (1904)",
+   "Schur's projective representations (1904)",
+   "Burnside's 1911 systematic treatment"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Frobenius group characters (1896-97)",
+    "year": 1896,
+    "precision": "year",
+    "label": "Frobenius' group characters",
+    "work": "Frobenius, G., Ueber Gruppencharaktere, Sitzungsberichte der Preussischen Akademie der Wissenschaften, 1896",
+    "people": [
+     "Georg Frobenius"
+    ],
+    "description": "Frobenius introduces group characters, the central invariant of representation theory of finite groups.",
+    "evidence": [
+     {
+      "claim": "Paper on group characters, Sitzungsberichte 1896, pages 985-1021",
+      "source": "zbMATH record, Zbl 27.0092.01",
+      "url": "https://zbmath.org/?q=an:27.0092.01",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says Frobenius started representation theory and character theory in 1896",
+      "source": "MacTutor biography of Frobenius",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Frobenius/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_statement",
+    "phase": "Frobenius group characters (1896-97)",
+    "year": 1897,
+    "precision": "year",
+    "label": "Representations of finite groups by linear substitutions",
+    "work": "Frobenius, G., Ueber die Darstellung der endlichen Gruppen durch lineare Substitutionen, Sitzungsberichte der Preussischen Akademie der Wissenschaften, 1897",
+    "people": [
+     "Georg Frobenius"
+    ],
+    "description": "Frobenius gives the matrix (linear substitution) representations of finite groups, the matrix form of the theory.",
+    "evidence": [
+     {
+      "claim": "Paper on representations by linear substitutions, 1897, pages 994-1015",
+      "source": "zbMATH record, Zbl 28.0130.01",
+      "url": "https://zbmath.org/?q=an:28.0130.01",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": "Burnside's applications (1904)",
+    "year": 1904,
+    "precision": "year",
+    "label": "Burnside's p^a q^b theorem",
+    "work": "Burnside, W., On groups of order p^alpha q^beta, Proceedings of the London Mathematical Society (2) 1, 1904",
+    "people": [
+     "William Burnside"
+    ],
+    "description": "Burnside uses Frobenius characters to prove that groups of order p^a q^b are solvable, the first major application of the character method.",
+    "evidence": [
+     {
+      "claim": "Paper On groups of order p^alpha q^beta, PLMS 1904, pages 388-392",
+      "source": "zbMATH record, Zbl 35.0162.01",
+      "url": "https://zbmath.org/?q=an:35.0162.01",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says Burnside began to use character theory and the p^m q^n solubility result appeared in 1904",
+      "source": "MacTutor biography of Burnside",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Burnside/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Use of characters in the 1904 proof is stated by MacTutor; the paper text was not read."
+   },
+   {
+    "role": "key_development",
+    "phase": "Schur's projective representations (1904)",
+    "year": 1904,
+    "precision": "year",
+    "label": "Schur on representations of finite groups by fractional linear substitutions",
+    "work": "Schur, I., Ueber die Darstellung der endlichen Gruppen durch gebrochen lineare Substitutionen, Journal fuer die reine und angewandte Mathematik, 1904",
+    "people": [
+     "Issai Schur"
+    ],
+    "description": "Schur extends the theory to projective representations of finite groups, a major development of the character method.",
+    "evidence": [
+     {
+      "claim": "Paper appears in Crelle's Journal in 1904",
+      "source": "Crossref record, DOI 10.1515/crll.1904.127.20",
+      "url": "https://doi.org/10.1515/crll.1904.127.20",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says Schur worked on projective representations and group characters between 1904 and 1907",
+      "source": "MacTutor biography of Schur",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Schur/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The Crossref record lists no author; the attribution to Schur comes from the title and the reprint in Schur's collected papers."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Burnside's 1911 systematic treatment",
+    "year": 1911,
+    "precision": "year",
+    "label": "Second edition of Theory of Groups of Finite Order",
+    "work": "Burnside, W., Theory of Groups of Finite Order, 2nd ed., Cambridge, 1911",
+    "people": [
+     "William Burnside"
+    ],
+    "description": "The second edition of Burnside's book includes a systematic development of Frobenius' character theory; the first edition (1897) predates the character method.",
+    "evidence": [
+     {
+      "claim": "Theory of groups of finite order published with a 1911 edition",
+      "source": "Open Library search record",
+      "url": "https://openlibrary.org/search.json?title=theory+of+groups+of+finite+order&author=burnside",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says the 1911 edition contains a systematic development including Frobenius's character theory",
+      "source": "MacTutor biography of Burnside",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Burnside/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Georg Frobenius",
+    "role": "Founder of character theory and matrix representations of finite groups",
+    "lifespan": "1849-1917",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Frobenius/",
+    "works": [
+     {
+      "citation": "Frobenius, Ueber Gruppencharaktere, Sitzungsber. Preuss. Akad., 1896",
+      "year": 1896,
+      "url": "https://zbmath.org/?q=an:27.0092.01",
+      "whyItMatters": "Group characters."
+     },
+     {
+      "citation": "Frobenius, Ueber die Darstellung der endlichen Gruppen durch lineare Substitutionen, Sitzungsber. Preuss. Akad., 1897",
+      "year": 1897,
+      "url": "https://zbmath.org/?q=an:28.0130.01",
+      "whyItMatters": "Matrix representations of finite groups."
+     }
+    ]
+   },
+   {
+    "name": "William Burnside",
+    "role": "First applications of characters to finite group theory",
+    "lifespan": "1852-1927",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Burnside/",
+    "works": [
+     {
+      "citation": "Burnside, On groups of order p^alpha q^beta, PLMS, 1904",
+      "year": 1904,
+      "url": "https://zbmath.org/?q=an:35.0162.01",
+      "whyItMatters": "Solvability of groups of order p^a q^b by characters."
+     },
+     {
+      "citation": "Burnside, Theory of Groups of Finite Order, 2nd ed., 1911",
+      "year": 1911,
+      "url": "https://openlibrary.org/search.json?title=theory+of+groups+of+finite+order&author=burnside",
+      "whyItMatters": "Systematic treatment including characters."
+     }
+    ]
+   },
+   {
+    "name": "Issai Schur",
+    "role": "Projective representations of finite groups",
+    "lifespan": "1875-1941",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Schur/",
+    "works": [
+     {
+      "citation": "Schur, Ueber die Darstellung der endlichen Gruppen durch gebrochen lineare Substitutionen, CrLL, 1904",
+      "year": 1904,
+      "url": "https://doi.org/10.1515/crll.1904.127.20",
+      "whyItMatters": "Projective representations of finite groups."
+     }
+    ]
+   }
+  ],
+  "notes": "Derived: conceptual 1896 (Frobenius characters), methodological 1904 (Burnside's p^a q^b; Schur's 1904 paper is a key_development, not the first application), institutional 1911 (second edition of Burnside's book). The earlier Frobenius 1896 group-determinant paper (Berl. Ber. 1896, cited in a zbMATH review) is a possible precursor not included. The 1904 Burnside paper's use of characters is from MacTutor, not from the paper text. Searched: MacTutor Frobenius, Burnside and Schur biographies; zbMATH; Crossref; Open Library. The input's 'Burnside 1904 p^a q^b' claim is supported; the solvability theorem's dating is not disputed.",
+  "derivedDates": {
+   "conceptual": 1896,
+   "methodological": 1904,
+   "institutional": 1911
+  }
+ },
+ {
+  "pid": "P389",
+  "eventId": "W19/M11",
+  "canonicalName": "p-adic numbers",
+  "aliases": [
+   "p-adic numbers",
+   "Hensel's p-adic numbers",
+   "p-adic valuation",
+   "local fields"
+  ],
+  "phases": [
+   "Hensel's power-series analogy (1897-99)",
+   "Valuation theory (Kurschak, Ostrowski)",
+   "Local-global principle (Hasse)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Hensel's power-series analogy (1897-99)",
+    "year": 1899,
+    "precision": "year",
+    "label": "Hensel's new foundation of algebraic number theory",
+    "work": "Hensel, K., Ueber eine neue Begruendung der Theorie der algebraischen Zahlen, Jahresbericht der Deutschen Mathematiker-Vereinigung, 1899",
+    "people": [
+     "Kurt Hensel"
+    ],
+    "description": "Hensel introduces p-adic numbers, treating integers like power series in a prime p.",
+    "evidence": [
+     {
+      "claim": "Paper Ueber eine neue Begruendung der Theorie der algebraischen Zahlen, Jahresbericht DMV 1899, pages 83-88",
+      "source": "zbMATH record, Zbl 30.0096.03",
+      "url": "https://zbmath.org/?q=an:30.0096.03",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says Hensel invented p-adic numbers in 1897 from Weierstrass power-series methods",
+      "source": "MacTutor biography of Hensel",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hensel/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "MacTutor dates the invention to 1897; the earliest publication record found is 1899 (the Jahresbericht volume). The 1897 claim rests on MacTutor alone; 1899 is the first public statement with a record."
+   },
+   {
+    "role": "key_development",
+    "phase": "Valuation theory (Kurschak, Ostrowski)",
+    "year": 1913,
+    "precision": "year",
+    "label": "Kurschak's general field theory",
+    "work": "Kurschak, J., Ueber Limesbildung und allgemeine Koerpertheorie, Journal fuer die reine und angewandte Mathematik, 1913",
+    "people": [
+     "Jozsef Kurschak"
+    ],
+    "description": "Kurschak gives an abstract axiomatic treatment of absolute values on fields, a step toward valuation theory.",
+    "evidence": [
+     {
+      "claim": "Paper appears in Crelle's Journal in 1913",
+      "source": "Crossref record, DOI 10.1515/crll.1913.142.211",
+      "url": "https://doi.org/10.1515/crll.1913.142.211",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The axiomatic content is from general knowledge of the field; the paper text was not read."
+   },
+   {
+    "role": "key_development",
+    "phase": "Valuation theory (Kurschak, Ostrowski)",
+    "year": 1916,
+    "precision": "year",
+    "label": "Ostrowski's classification of absolute values",
+    "work": "Ostrowski, A., Ueber einige Loesungen der Funktionalgleichung psi(x) psi(y) = psi(xy), Acta Mathematica, 1916",
+    "people": [
+     "Alexander Ostrowski"
+    ],
+    "description": "Ostrowski's paper is the source of the classical result that every absolute value on the rationals is either archimedean or p-adic.",
+    "evidence": [
+     {
+      "claim": "Paper appears in Acta Mathematica in 1916",
+      "source": "Crossref record, DOI 10.1007/bf02422947",
+      "url": "https://doi.org/10.1007/bf02422947",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The Crossref title is garbled; the classification result is from general knowledge. The paper text was not read."
+   },
+   {
+    "role": "first_application",
+    "phase": "Local-global principle (Hasse)",
+    "year": 1923,
+    "precision": "year",
+    "label": "Hasse's local-global principle for quadratic forms",
+    "work": "Hasse, H., Ueber die Darstellbarkeit von Zahlen durch quadratische Formen im Koerper der rationalen Zahlen, Journal fuer die reine und angewandte Mathematik, 1923",
+    "people": [
+     "Helmut Hasse"
+    ],
+    "description": "Hasse uses p-adic and real completions to decide representability of rational numbers by quadratic forms, a purposeful application of p-adic methods.",
+    "evidence": [
+     {
+      "claim": "Paper appears in Crelle's Journal in 1923",
+      "source": "Crossref record, DOI 10.1515/crll.1923.152.129",
+      "url": "https://doi.org/10.1515/crll.1923.152.129",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says Hasse discovered the local-global principle in October 1920 and it forms part of his thesis",
+      "source": "MacTutor biography of Hasse",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hasse/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": "Hensel's power-series analogy (1897-99)",
+    "year": 1908,
+    "precision": "year",
+    "label": "Hensel's Theorie der algebraischen Zahlen",
+    "work": "Hensel, K., Theorie der algebraischen Zahlen, Leipzig, 1908",
+    "people": [
+     "Kurt Hensel"
+    ],
+    "description": "Hensel's monograph gives the first systematic treatment of the p-adic theory of algebraic numbers.",
+    "evidence": [
+     {
+      "claim": "Theorie der algebraischen Zahlen published 1908 by Kurt Hensel",
+      "source": "Open Library search record",
+      "url": "https://openlibrary.org/search.json?title=theorie+der+algebraischen+zahlen&author=hensel",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Systematic-treatment role is from general knowledge of the book; Open Library gives only the year and title."
+   }
+  ],
+  "people": [
+   {
+    "name": "Kurt Hensel",
+    "role": "Introduced p-adic numbers",
+    "lifespan": "1861-1941",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hensel/",
+    "works": [
+     {
+      "citation": "Hensel, Ueber eine neue Begruendung der Theorie der algebraischen Zahlen, Jahresber. DMV, 1899",
+      "year": 1899,
+      "url": "https://zbmath.org/?q=an:30.0096.03",
+      "whyItMatters": "First public statement of p-adic numbers."
+     },
+     {
+      "citation": "Hensel, Theorie der algebraischen Zahlen, 1908",
+      "year": 1908,
+      "url": "https://openlibrary.org/search.json?title=theorie+der+algebraischen+zahlen&author=hensel",
+      "whyItMatters": "Monograph on p-adic algebraic number theory."
+     }
+    ]
+   },
+   {
+    "name": "Jozsef Kurschak",
+    "role": "Abstract absolute values on fields",
+    "lifespan": "1864-1933",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kurschak/",
+    "works": [
+     {
+      "citation": "Kurschak, Ueber Limesbildung und allgemeine Koerpertheorie, CrLL, 1913",
+      "year": 1913,
+      "url": "https://doi.org/10.1515/crll.1913.142.211",
+      "whyItMatters": "Axiomatic absolute values."
+     }
+    ]
+   },
+   {
+    "name": "Alexander Ostrowski",
+    "role": "Classification of absolute values",
+    "lifespan": "1893-1986",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Ostrowski/",
+    "works": [
+     {
+      "citation": "Ostrowski, Acta Math., 1916",
+      "year": 1916,
+      "url": "https://doi.org/10.1007/bf02422947",
+      "whyItMatters": "Classification of absolute values."
+     }
+    ]
+   },
+   {
+    "name": "Helmut Hasse",
+    "role": "Local-global principle",
+    "lifespan": "1898-1979",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hasse/",
+    "works": [
+     {
+      "citation": "Hasse, Ueber die Darstellbarkeit von Zahlen durch quadratische Formen im Koerper der rationalen Zahlen, CrLL, 1923",
+      "year": 1923,
+      "url": "https://doi.org/10.1515/crll.1923.152.129",
+      "whyItMatters": "Local-global principle for quadratic forms."
+     }
+    ]
+   }
+  ],
+  "notes": "Derived: conceptual 1899 (Hensel; MacTutor's 1897 invention date is not used as the record year), methodological 1923 (Hasse's local-global application is taken as the first purposeful application; this is a judgement), institutional 1908 (Hensel's monograph). Kurschak 1913 and Ostrowski 1916 are key developments, not applications. Searched: MacTutor Hensel, Hasse, Kurschak and Ostrowski biographies; Crossref; zbMATH; Open Library. Not searched: Kummer's precursor work. Ostrowski and Kurschak are classified on title and year only.",
+  "derivedDates": {
+   "conceptual": 1899,
+   "methodological": 1923,
+   "institutional": 1908
+  }
+ },
+ {
+  "pid": "P391",
+  "eventId": "W68",
+  "canonicalName": "Representations of compact and continuous groups (Schur, Weyl, Peter-Weyl)",
+  "aliases": [
+   "Peter-Weyl theorem",
+   "representations of compact Lie groups",
+   "harmonic analysis on compact groups"
+  ],
+  "phases": [
+   "Weyl's representations of semisimple Lie groups (1925-26)",
+   "Peter-Weyl completeness (1927)",
+   "Weyl's Classical Groups (1939)"
+  ],
+  "milestones": [
+   {
+    "role": "first_application",
+    "phase": "Weyl's representations of semisimple Lie groups (1925-26)",
+    "year": 1925,
+    "precision": "year",
+    "label": "Weyl's representation theory of semisimple Lie groups",
+    "work": "Weyl, H., Theorie der Darstellung kontinuierlicher halb-einfacher Gruppen durch lineare Transformationen I, Mathematische Zeitschrift, 1925",
+    "people": [
+     "Hermann Weyl"
+    ],
+    "description": "Weyl applies representation-theoretic methods from finite groups to continuous semisimple groups, the first purposeful transfer of the method.",
+    "evidence": [
+     {
+      "claim": "Part I appears in Mathematische Zeitschrift in 1925",
+      "source": "Crossref record, DOI 10.1007/bf01506234",
+      "url": "https://doi.org/10.1007/bf01506234",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says Weyl's 1925-26 papers developed group representations from general relativity",
+      "source": "MacTutor biography of Weyl",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Weyl/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The input summary's claim about invariant integration in Weyl's and Schur's work is not verified against the paper text. Schur's role is not counted here because no Schur record for compact groups was verified."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Peter-Weyl completeness (1927)",
+    "year": 1927,
+    "precision": "year",
+    "label": "Peter-Weyl completeness of primitive representations",
+    "work": "Peter, F. and Weyl, H., Die Vollstaendigkeit der primitiven Darstellungen einer geschlossenen kontinuierlichen Gruppe, Mathematische Annalen, 1927",
+    "people": [
+     "Fritz Peter",
+     "Hermann Weyl"
+    ],
+    "description": "Peter and Weyl prove the completeness of the matrix coefficients of irreducible representations of a compact group, the Peter-Weyl theorem.",
+    "evidence": [
+     {
+      "claim": "Paper Die Vollstaendigkeit der primitiven Darstellungen appears in Mathematische Annalen in 1927",
+      "source": "Crossref record, DOI 10.1007/bf01447892",
+      "url": "https://doi.org/10.1007/bf01447892",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "The Crossref record was checked by title and year; author names are from the standard attribution, not from the record."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Weyl's Classical Groups (1939)",
+    "year": 1939,
+    "precision": "year",
+    "label": "Weyl's The Classical Groups",
+    "work": "Weyl, H., The Classical Groups, Princeton University Press, 1939",
+    "people": [
+     "Hermann Weyl"
+    ],
+    "description": "Weyl's book systematically treats representations of classical compact groups, consolidating the theory.",
+    "evidence": [
+     {
+      "claim": "The Classical Groups published 1939",
+      "source": "Open Library search record",
+      "url": "https://openlibrary.org/search.json?title=the+classical+groups&author=weyl",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor lists The classical groups (1939) among Weyl's major texts",
+      "source": "MacTutor biography of Weyl",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Weyl/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Hermann Weyl",
+    "role": "Representation theory of compact and semisimple Lie groups",
+    "lifespan": "1885-1955",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Weyl/",
+    "works": [
+     {
+      "citation": "Weyl, Theorie der Darstellung kontinuierlicher halb-einfacher Gruppen durch lineare Transformationen I, Math. Z., 1925",
+      "year": 1925,
+      "url": "https://doi.org/10.1007/bf01506234",
+      "whyItMatters": "Representations of semisimple Lie groups."
+     },
+     {
+      "citation": "Weyl, The Classical Groups, 1939",
+      "year": 1939,
+      "url": "https://openlibrary.org/search.json?title=the+classical+groups&author=weyl",
+      "whyItMatters": "Systematic treatment of classical groups."
+     }
+    ]
+   },
+   {
+    "name": "Fritz Peter",
+    "role": "Co-author of the completeness theorem for compact groups",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Peter and Weyl, Die Vollstaendigkeit der primitiven Darstellungen einer geschlossenen kontinuierlichen Gruppe, Math. Ann., 1927",
+      "year": 1927,
+      "url": "https://doi.org/10.1007/bf01447892",
+      "whyItMatters": "Peter-Weyl completeness."
+     }
+    ]
+   }
+  ],
+  "notes": "Derived: conceptual 1927 (Peter-Weyl first_statement), methodological 1925 (Weyl; earlier than the conceptual year, a consequence of the role rule), institutional 1939 (Weyl's book). Schur's contribution to compact-group representations is not verified here: no Schur record for compact groups was found, and the input's Schur claim is unconfirmed. Searched: Crossref, Open Library, MacTutor Weyl biography. Peter's lifespan and biography were not searched.",
+  "derivedDates": {
+   "conceptual": 1927,
+   "methodological": 1925,
+   "institutional": 1939
+  }
+ },
+ {
+  "pid": "P419",
+  "eventId": "M22",
+  "canonicalName": "Burnside's use of character theory for finite group theory",
+  "aliases": [
+   "Burnside's p^a q^b theorem",
+   "character-theoretic solvability",
+   "Burnside's character method"
+  ],
+  "phases": [
+   "Frobenius characters (precursor, 1896)",
+   "Burnside's p^a q^b solvability (1904)",
+   "Second paper and systematic treatment (1905, 1911)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Frobenius characters (precursor, 1896)",
+    "year": 1896,
+    "precision": "year",
+    "label": "Frobenius' group characters",
+    "work": "Frobenius, G., Ueber Gruppencharaktere, Sitzungsberichte der Preussischen Akademie der Wissenschaften, 1896",
+    "people": [
+     "Georg Frobenius"
+    ],
+    "description": "Frobenius' group characters are the tool Burnside adopted; this is the precursor for the event.",
+    "evidence": [
+     {
+      "claim": "Paper on group characters, 1896, pages 985-1021",
+      "source": "zbMATH record, Zbl 27.0092.01",
+      "url": "https://zbmath.org/?q=an:27.0092.01",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Precursor, sets no derived date."
+   },
+   {
+    "role": "first_application",
+    "phase": "Burnside's p^a q^b solvability (1904)",
+    "year": 1904,
+    "precision": "year",
+    "label": "Burnside's p^a q^b theorem by characters",
+    "work": "Burnside, W., On groups of order p^alpha q^beta, Proceedings of the London Mathematical Society (2) 1, 1904",
+    "people": [
+     "William Burnside"
+    ],
+    "description": "Burnside applies Frobenius characters to prove that groups of order p^a q^b are solvable.",
+    "evidence": [
+     {
+      "claim": "Paper appears in PLMS 1904, pages 388-392",
+      "source": "zbMATH record, Zbl 35.0162.01",
+      "url": "https://zbmath.org/?q=an:35.0162.01",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says Burnside began to use character theory and the p^m q^n result appeared in 1904",
+      "source": "MacTutor biography of Burnside",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Burnside/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Use of characters in the 1904 proof is stated by MacTutor; the paper text was not read."
+   },
+   {
+    "role": "key_development",
+    "phase": "Second paper and systematic treatment (1905, 1911)",
+    "year": 1905,
+    "precision": "year",
+    "label": "Second paper on groups of order p^a q^b",
+    "work": "Burnside, W., On groups of order p^alpha q^beta (second paper), Proceedings of the London Mathematical Society (2), 1905",
+    "people": [
+     "William Burnside"
+    ],
+    "description": "Burnside's second paper on the same theorem extends and sharpens the 1904 argument.",
+    "evidence": [
+     {
+      "claim": "Second paper appears in PLMS in 1905, pages 432-437",
+      "source": "zbMATH record, Zbl 36.0198.02",
+      "url": "https://zbmath.org/?q=an:36.0198.02",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The sense in which it extends the 1904 result is not verified; the paper text was not read."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Second paper and systematic treatment (1905, 1911)",
+    "year": 1911,
+    "precision": "year",
+    "label": "Second edition of Burnside's Theory of Groups",
+    "work": "Burnside, W., Theory of Groups of Finite Order, 2nd ed., Cambridge, 1911",
+    "people": [
+     "William Burnside"
+    ],
+    "description": "The 1911 edition systematically includes Frobenius' character theory and Burnside's own character results.",
+    "evidence": [
+     {
+      "claim": "Theory of groups of finite order, 1911 edition",
+      "source": "Open Library search record",
+      "url": "https://openlibrary.org/search.json?title=theory+of+groups+of+finite+order&author=burnside",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says the 1911 edition contains a systematic development including Frobenius's character theory",
+      "source": "MacTutor biography of Burnside",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Burnside/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "William Burnside",
+    "role": "Applied character theory to finite group theory",
+    "lifespan": "1852-1927",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Burnside/",
+    "works": [
+     {
+      "citation": "Burnside, On groups of order p^alpha q^beta, PLMS, 1904",
+      "year": 1904,
+      "url": "https://zbmath.org/?q=an:35.0162.01",
+      "whyItMatters": "p^a q^b solvability by characters."
+     },
+     {
+      "citation": "Burnside, On groups of order p^alpha q^beta (second paper), PLMS, 1905",
+      "year": 1905,
+      "url": "https://zbmath.org/?q=an:36.0198.02",
+      "whyItMatters": "Second paper on the same theorem."
+     },
+     {
+      "citation": "Burnside, Theory of Groups of Finite Order, 2nd ed., 1911",
+      "year": 1911,
+      "url": "https://openlibrary.org/search.json?title=theory+of+groups+of+finite+order&author=burnside",
+      "whyItMatters": "Systematic treatment including characters."
+     }
+    ]
+   },
+   {
+    "name": "Georg Frobenius",
+    "role": "Creator of character theory",
+    "lifespan": "1849-1917",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Frobenius/",
+    "works": [
+     {
+      "citation": "Frobenius, Ueber Gruppencharaktere, Sitzungsber. Preuss. Akad., 1896",
+      "year": 1896,
+      "url": "https://zbmath.org/?q=an:27.0092.01",
+      "whyItMatters": "Group characters, the tool Burnside used."
+     }
+    ]
+   }
+  ],
+  "notes": "Derived: conceptual null (no first_statement in this event; Frobenius 1896 is the precursor), methodological 1904 (Burnside), institutional 1911 (second edition). Searched: zbMATH, Open Library, Crossref, MacTutor Burnside and Frobenius biographies. The first 1904 PLMS paper is confirmed by zbMATH; its character method is from MacTutor. The 1905 second paper is a key_development whose content is unchecked. The input's 'Frobenius-Burnside' framing is consistent with the sources.",
+  "derivedDates": {
+   "conceptual": null,
+   "methodological": 1904,
+   "institutional": 1911
+  }
+ },
+ {
+  "pid": "P014",
+  "eventId": "E19",
+  "canonicalName": "Measure theory meets probability (Kolmogorov)",
+  "aliases": [
+   "Kolmogorov's axioms of probability",
+   "probability space",
+   "measure-theoretic probability",
+   "Kolmogorov axiomatisation"
+  ],
+  "phases": [
+   "Lebesgue measure (precursor, 1901)",
+   "Lebesgue integral (1902)",
+   "Borel's countable probability (1909)",
+   "Kolmogorov's axiomatisation (1933)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Lebesgue measure (precursor, 1901)",
+    "year": 1901,
+    "precision": "year",
+    "label": "Lebesgue's generalisation of the definite integral",
+    "work": "Lebesgue, H., Sur une generalisation de l'integrale definie, Comptes Rendus Hebdomadaires des Seances de l'Academie des Sciences, 1901",
+    "people": [
+     "Henri Lebesgue"
+    ],
+    "description": "Lebesgue's note introduces measure of sets and an integral defined through it; the measure-theoretic precursor of the probability axioms.",
+    "evidence": [
+     {
+      "claim": "Note appears in Comptes Rendus in 1901, pages 1025-1028",
+      "source": "zbMATH record, Zbl 32.0299.01",
+      "url": "https://zbmath.org/?q=an:32.0299.01",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says Lebesgue formulated the theory of measure in 1901",
+      "source": "MacTutor biography of Lebesgue",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lebesgue/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Precursor, sets no derived date; the probability link is not made in this paper."
+   },
+   {
+    "role": "key_development",
+    "phase": "Lebesgue integral (1902)",
+    "year": 1902,
+    "precision": "year",
+    "label": "Lebesgue's Integral, length, area",
+    "work": "Lebesgue, H., Integrale, longueur, aire, Annali di Matematica Pura ed Applicata, 1902",
+    "people": [
+     "Henri Lebesgue"
+    ],
+    "description": "Lebesgue's thesis develops the full measure-based integral, the analytic tool later used to state probability as a measure.",
+    "evidence": [
+     {
+      "claim": "Thesis appears in Annali di Matematica Pura ed Applicata in 1902",
+      "source": "Crossref record, DOI 10.1007/bf02420592",
+      "url": "https://doi.org/10.1007/bf02420592",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says the thesis Integrale, longueur, aire was published in Milan in 1902",
+      "source": "MacTutor biography of Lebesgue",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lebesgue/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": "Borel's countable probability (1909)",
+    "year": 1909,
+    "precision": "year",
+    "label": "Borel's countable probabilities and arithmetic applications",
+    "work": "Borel, E., Les probabilites denombrables et leurs applications arithmetiques, Rendiconti del Circolo Matematico di Palermo, 1909",
+    "people": [
+     "Emile Borel"
+    ],
+    "description": "Borel applies measure-type (countable additivity) arguments to probability, including the strong law of large numbers for coin tossing.",
+    "evidence": [
+     {
+      "claim": "Paper appears in Rendiconti del Circolo Matematico di Palermo in 1909",
+      "source": "Crossref record, DOI 10.1007/bf03019651",
+      "url": "https://doi.org/10.1007/bf03019651",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says Borel's theory of measure and countable ideas underlie later work",
+      "source": "MacTutor biography of Borel",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Borel/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The strong-law content is from general knowledge; the paper text was not read."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Kolmogorov's axiomatisation (1933)",
+    "year": 1933,
+    "precision": "year",
+    "label": "Kolmogorov's Grundbegriffe der Wahrscheinlichkeitsrechnung",
+    "work": "Kolmogorov, A. N., Grundbegriffe der Wahrscheinlichkeitsrechnung, Springer, 1933",
+    "people": [
+     "Andrei Kolmogorov"
+    ],
+    "description": "Kolmogorov axiomatises probability as a normalised measure on a sigma-algebra, the public statement of the probability space.",
+    "evidence": [
+     {
+      "claim": "Grundbegriffe der Wahrscheinlichkeitsrechnung published 1933",
+      "source": "Open Library search record",
+      "url": "https://openlibrary.org/search.json?title=grundbegriffe+der+wahrscheinlichkeitsrechnung",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says the 1933 monograph built probability from fundamental axioms",
+      "source": "MacTutor biography of Kolmogorov",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kolmogorov/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Andrei Kolmogorov",
+    "role": "Axiomatisation of probability as measure",
+    "lifespan": "1903-1987",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kolmogorov/",
+    "works": [
+     {
+      "citation": "Kolmogorov, Grundbegriffe der Wahrscheinlichkeitsrechnung, Springer, 1933",
+      "year": 1933,
+      "url": "https://openlibrary.org/search.json?title=grundbegriffe+der+wahrscheinlichkeitsrechnung",
+      "whyItMatters": "Probability space axioms."
+     }
+    ]
+   },
+   {
+    "name": "Emile Borel",
+    "role": "Countable additivity in probability",
+    "lifespan": "1871-1956",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Borel/",
+    "works": [
+     {
+      "citation": "Borel, Les probabilites denombrables et leurs applications arithmetiques, Rend. Circ. Mat. Palermo, 1909",
+      "year": 1909,
+      "url": "https://doi.org/10.1007/bf03019651",
+      "whyItMatters": "Countable probability."
+     }
+    ]
+   },
+   {
+    "name": "Henri Lebesgue",
+    "role": "Measure and integral",
+    "lifespan": "1875-1941",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lebesgue/",
+    "works": [
+     {
+      "citation": "Lebesgue, Sur une generalisation de l'integrale definie, CR, 1901",
+      "year": 1901,
+      "url": "https://zbmath.org/?q=an:32.0299.01",
+      "whyItMatters": "Measure and generalised integral."
+     },
+     {
+      "citation": "Lebesgue, Integrale, longueur, aire, Ann. Mat. Pura Appl., 1902",
+      "year": 1902,
+      "url": "https://doi.org/10.1007/bf02420592",
+      "whyItMatters": "Thesis developing the integral."
+     }
+    ]
+   }
+  ],
+  "notes": "Derived: conceptual 1933 (Kolmogorov), methodological 1909 (Borel), institutional null (no naming or institution milestone found; not searched exhaustively). The 1901 Lebesgue note is a precursor and sets no date. Searched: zbMATH, Crossref, Open Library, MacTutor Kolmogorov, Borel and Lebesgue biographies. The probability content of Borel 1909 is from general knowledge.",
+  "derivedDates": {
+   "conceptual": 1933,
+   "methodological": 1909,
+   "institutional": null
+  }
+ },
+ {
+  "pid": "P404",
+  "eventId": "M38",
+  "canonicalName": "Borel sets and measure",
+  "aliases": [
+   "Borel sets",
+   "Borel hierarchy",
+   "Borel measure",
+   "countable additivity"
+  ],
+  "phases": [
+   "Borel sets (1895)",
+   "Borel's book (1898)",
+   "Lebesgue measure (1901)",
+   "Countable additivity in probability (1909)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Borel sets (1895)",
+    "year": 1895,
+    "precision": "year",
+    "label": "Borel's thesis on sets and functions",
+    "work": "Borel, E., Sur quelques points de la theorie des fonctions, Annales Scientifiques de l'Ecole Normale Superieure, 1895",
+    "people": [
+     "Emile Borel"
+    ],
+    "description": "Borel's thesis introduces the sets obtained from open sets by countable operations, the first appearance of the Borel class.",
+    "evidence": [
+     {
+      "claim": "Paper appears in Annales de l'ENS in 1895, pages 9-55",
+      "source": "zbMATH record, Zbl 26.0429.03",
+      "url": "https://zbmath.org/?q=an:26.0429.03",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says the ideas of measure theory first appear in this paper",
+      "source": "MacTutor biography of Borel",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Borel/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "The Borel hierarchy as a formal name comes later; the 1895 thesis is the first statement of the class."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Borel's book (1898)",
+    "year": 1898,
+    "precision": "year",
+    "label": "Borel's Lecons sur la theorie des fonctions",
+    "work": "Borel, E., Lecons sur la theorie des fonctions, Gauthier-Villars, 1898",
+    "people": [
+     "Emile Borel"
+    ],
+    "description": "Borel's lectures give the first systematic treatment of the theory of sets and measure in his setting.",
+    "evidence": [
+     {
+      "claim": "Lectures on the theory of functions, 1898 (English title in zbMATH)",
+      "source": "zbMATH record, Zbl 29.0336.01",
+      "url": "https://zbmath.org/?q=an:29.0336.01",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The systematic-treatment role is from general knowledge of the book; the text was not read."
+   },
+   {
+    "role": "key_development",
+    "phase": "Lebesgue measure (1901)",
+    "year": 1901,
+    "precision": "year",
+    "label": "Lebesgue's measure",
+    "work": "Lebesgue, H., Sur une generalisation de l'integrale definie, Comptes Rendus, 1901",
+    "people": [
+     "Henri Lebesgue"
+    ],
+    "description": "Lebesgue builds measure on Borel sets, making countable additivity central to analysis.",
+    "evidence": [
+     {
+      "claim": "Note appears in Comptes Rendus in 1901, pages 1025-1028",
+      "source": "zbMATH record, Zbl 32.0299.01",
+      "url": "https://zbmath.org/?q=an:32.0299.01",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says Lebesgue formulated measure in 1901 building on Borel",
+      "source": "MacTutor biography of Lebesgue",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lebesgue/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": "Countable additivity in probability (1909)",
+    "year": 1909,
+    "precision": "year",
+    "label": "Borel's countable probabilities",
+    "work": "Borel, E., Les probabilites denombrables et leurs applications arithmetiques, Rendiconti del Circolo Matematico di Palermo, 1909",
+    "people": [
+     "Emile Borel"
+    ],
+    "description": "Borel applies countable additivity to probability, the first purposeful use of the measure idea outside analysis.",
+    "evidence": [
+     {
+      "claim": "Paper appears in Rendiconti del Circolo Matematico di Palermo in 1909",
+      "source": "Crossref record, DOI 10.1007/bf03019651",
+      "url": "https://doi.org/10.1007/bf03019651",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Its use of countable additivity is from general knowledge; the paper text was not read."
+   }
+  ],
+  "people": [
+   {
+    "name": "Emile Borel",
+    "role": "Introduced Borel sets and countable additivity",
+    "lifespan": "1871-1956",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Borel/",
+    "works": [
+     {
+      "citation": "Borel, Sur quelques points de la theorie des fonctions, Ann. Sci. ENS, 1895",
+      "year": 1895,
+      "url": "https://zbmath.org/?q=an:26.0429.03",
+      "whyItMatters": "Borel sets."
+     },
+     {
+      "citation": "Borel, Lecons sur la theorie des fonctions, 1898",
+      "year": 1898,
+      "url": "https://zbmath.org/?q=an:29.0336.01",
+      "whyItMatters": "Systematic treatment of sets and functions."
+     },
+     {
+      "citation": "Borel, Les probabilites denombrables, Rend. Circ. Mat. Palermo, 1909",
+      "year": 1909,
+      "url": "https://doi.org/10.1007/bf03019651",
+      "whyItMatters": "Countable additivity in probability."
+     }
+    ]
+   },
+   {
+    "name": "Henri Lebesgue",
+    "role": "Measure built on Borel sets",
+    "lifespan": "1875-1941",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lebesgue/",
+    "works": [
+     {
+      "citation": "Lebesgue, Sur une generalisation de l'integrale definie, CR, 1901",
+      "year": 1901,
+      "url": "https://zbmath.org/?q=an:32.0299.01",
+      "whyItMatters": "Measure."
+     }
+    ]
+   }
+  ],
+  "notes": "Derived: conceptual 1895 (Borel thesis), methodological 1909 (Borel's probability application), institutional 1898 (Borel's book). Searched: zbMATH, Crossref, MacTutor Borel and Lebesgue biographies. The Borel 1894 Comptes Rendus note (zbMATH 25.0705.02) is an earlier short note not counted. The 1898 book's role is from general knowledge; the text was not read.",
+  "derivedDates": {
+   "conceptual": 1895,
+   "methodological": 1909,
+   "institutional": 1898
+  }
+ },
+ {
+  "pid": "P435",
+  "eventId": "H24",
+  "canonicalName": "Lebesgue measure and integral: set theory enters analysis",
+  "aliases": [
+   "Lebesgue integral",
+   "Lebesgue measure",
+   "Lebesgue integration theory"
+  ],
+  "phases": [
+   "Borel sets (precursor, 1895)",
+   "Lebesgue measure (1901)",
+   "Lebesgue integral (1902)",
+   "Lecons on integration (1904)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Borel sets (precursor, 1895)",
+    "year": 1895,
+    "precision": "year",
+    "label": "Borel sets",
+    "work": "Borel, E., Sur quelques points de la theorie des fonctions, Annales Scientifiques de l'Ecole Normale Superieure, 1895",
+    "people": [
+     "Emile Borel"
+    ],
+    "description": "Borel's classes of sets are the precursor on which Lebesgue builds measure.",
+    "evidence": [
+     {
+      "claim": "Paper appears in Annales de l'ENS in 1895",
+      "source": "zbMATH record, Zbl 26.0429.03",
+      "url": "https://zbmath.org/?q=an:26.0429.03",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Precursor, sets no derived date."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Lebesgue measure (1901)",
+    "year": 1901,
+    "precision": "year",
+    "label": "Lebesgue's measure and generalised integral",
+    "work": "Lebesgue, H., Sur une generalisation de l'integrale definie, Comptes Rendus Hebdomadaires des Seances de l'Academie des Sciences, 1901",
+    "people": [
+     "Henri Lebesgue"
+    ],
+    "description": "Lebesgue states the measure of sets and a generalised integral in a short Comptes Rendus note.",
+    "evidence": [
+     {
+      "claim": "Note appears in Comptes Rendus in 1901, pages 1025-1028",
+      "source": "zbMATH record, Zbl 32.0299.01",
+      "url": "https://zbmath.org/?q=an:32.0299.01",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says Lebesgue formulated the theory of measure in 1901",
+      "source": "MacTutor biography of Lebesgue",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lebesgue/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": "Lebesgue integral (1902)",
+    "year": 1902,
+    "precision": "year",
+    "label": "Lebesgue's thesis on the integral",
+    "work": "Lebesgue, H., Integrale, longueur, aire, Annali di Matematica Pura ed Applicata, 1902",
+    "people": [
+     "Henri Lebesgue"
+    ],
+    "description": "The thesis gives the full measure-based theory of the integral, the form now standard.",
+    "evidence": [
+     {
+      "claim": "Thesis appears in Annali di Matematica Pura ed Applicata in 1902",
+      "source": "Crossref record, DOI 10.1007/bf02420592",
+      "url": "https://doi.org/10.1007/bf02420592",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says the thesis was presented in 1902 and published in Milan in the Annali",
+      "source": "MacTutor biography of Lebesgue",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lebesgue/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": "Lecons on integration (1904)",
+    "year": 1904,
+    "precision": "year",
+    "label": "Lebesgue's Lecons sur l'integration",
+    "work": "Lebesgue, H., Lecons sur l'integration et la recherche des fonctions primitives, Gauthier-Villars, 1904",
+    "people": [
+     "Henri Lebesgue"
+    ],
+    "description": "Lebesgue's lecture book gives the first systematic treatment of measure and integral.",
+    "evidence": [
+     {
+      "claim": "Lessons on integration and the investigation of primitive functions, 1904 (English title in zbMATH)",
+      "source": "zbMATH record, Zbl 35.0377.01",
+      "url": "https://zbmath.org/?q=an:35.0377.01",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Systematic-treatment role is from general knowledge of the book; the text was not read."
+   }
+  ],
+  "people": [
+   {
+    "name": "Henri Lebesgue",
+    "role": "Measure and integral",
+    "lifespan": "1875-1941",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lebesgue/",
+    "works": [
+     {
+      "citation": "Lebesgue, Sur une generalisation de l'integrale definie, CR, 1901",
+      "year": 1901,
+      "url": "https://zbmath.org/?q=an:32.0299.01",
+      "whyItMatters": "Measure and generalised integral."
+     },
+     {
+      "citation": "Lebesgue, Integrale, longueur, aire, Ann. Mat. Pura Appl., 1902",
+      "year": 1902,
+      "url": "https://doi.org/10.1007/bf02420592",
+      "whyItMatters": "Thesis on the integral."
+     },
+     {
+      "citation": "Lebesgue, Lecons sur l'integration, 1904",
+      "year": 1904,
+      "url": "https://zbmath.org/?q=an:35.0377.01",
+      "whyItMatters": "First systematic book on measure and integral."
+     }
+    ]
+   },
+   {
+    "name": "Emile Borel",
+    "role": "Sets on which measure was built",
+    "lifespan": "1871-1956",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Borel/",
+    "works": [
+     {
+      "citation": "Borel, Sur quelques points de la theorie des fonctions, Ann. Sci. ENS, 1895",
+      "year": 1895,
+      "url": "https://zbmath.org/?q=an:26.0429.03",
+      "whyItMatters": "Borel sets."
+     }
+    ]
+   }
+  ],
+  "notes": "Derived: conceptual 1901 (Lebesgue measure), methodological null (no first_application established; the Fourier-series applications were not searched), institutional 1904 (Lebesgue's book). Searched: zbMATH, Crossref, MacTutor Lebesgue and Borel biographies. The 1902 thesis is classified as key_development, not the first statement of the integral, since the 1901 note sketches it. The 1904 book's role is from general knowledge.",
+  "derivedDates": {
+   "conceptual": 1901,
+   "methodological": null,
+   "institutional": 1904
+  }
+ },
+ {
+  "pid": "P370",
+  "eventId": "M54/W33",
+  "canonicalName": "Hilbert's programme",
+  "aliases": [
+   "Hilbert programme",
+   "finitist programme",
+   "consistency programme",
+   "proof theory programme"
+  ],
+  "phases": [
+   "Consistency problem (1900)",
+   "Hilbert's proof-theoretic approach (1904-05)",
+   "Finitary programme (1922-26)",
+   "Godel's limits (1931)",
+   "Gentzen's consistency proof (1936)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Consistency problem (1900)",
+    "year": 1900,
+    "precision": "year",
+    "label": "Hilbert's Problem 2: consistency of arithmetic axioms",
+    "work": "Hilbert, D., Mathematische Probleme, Nachrichten von der Gesellschaft der Wissenschaften zu Goettingen, 1900",
+    "people": [
+     "David Hilbert"
+    ],
+    "description": "Hilbert's Paris lecture asks for a proof of the consistency of the arithmetical axioms, the problem the programme later addresses without yet giving a method.",
+    "evidence": [
+     {
+      "claim": "Mathematische Probleme appears in the Nachrichten Goettingen in 1900, pages 253-297",
+      "source": "zbMATH record, Zbl 31.0068.03",
+      "url": "https://zbmath.org/?q=an:31.0068.03",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Precursor: asks the question, gives no finitary method. Sets no derived date."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Hilbert's proof-theoretic approach (1904-05)",
+    "year": 1905,
+    "precision": "year",
+    "label": "Hilbert's Heidelberg lecture on the foundations of logic and arithmetic",
+    "work": "Hilbert, D., Ueber die Grundlagen der Logik und der Arithmetik, Verhandlungen des Dritten Internationalen Mathematiker-Kongresses, 1905",
+    "people": [
+     "David Hilbert"
+    ],
+    "description": "Hilbert's lecture for the 1904 congress sketches a proof-theoretic route to consistency; this is the earliest public statement of the approach found.",
+    "evidence": [
+     {
+      "claim": "Lecture published in the Verhandlungen of the Third International Congress in 1905 (given 1904)",
+      "source": "zbMATH record, Zbl 36.0084.03",
+      "url": "https://zbmath.org/?q=an:36.0084.03",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Whether this lecture already states the programme (rather than a precursor idea) is not verified against the text; the named programme is the 1922 paper. Conceptual derived date uses this record, so it is provisional."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Finitary programme (1922-26)",
+    "year": 1922,
+    "precision": "year",
+    "label": "Hilbert's Neubegruendung der Mathematik",
+    "work": "Hilbert, D., Neubegruendung der Mathematik. Erste Mitteilung, Abhandlungen aus dem Mathematischen Seminar der Hamburgischen Universitaet, 1922",
+    "people": [
+     "David Hilbert"
+    ],
+    "description": "Hilbert names and formulates the programme: prove the consistency of mathematics with finitary (intuitive) methods.",
+    "evidence": [
+     {
+      "claim": "Neubegruendung der Mathematik, Erste Mitteilung, Hamburg Abhandlungen 1922",
+      "source": "Crossref record, DOI 10.1007/bf02940589",
+      "url": "https://doi.org/10.1007/bf02940589",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia says Hilbert's programme was formulated in the early 1920s",
+      "source": "Wikipedia, Hilbert's program",
+      "url": "https://en.wikipedia.org/wiki/Hilbert%27s_program",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": "Godel's limits (1931)",
+    "year": 1931,
+    "precision": "year",
+    "label": "Godel's incompleteness theorems",
+    "work": "Goedel, K., Ueber formal unentscheidbare Saetze der Principia Mathematica und verwandter Systeme I, Monatshefte fuer Mathematik und Physik, 1931",
+    "people": [
+     "Kurt Godel"
+    ],
+    "description": "Godel's incompleteness theorems show that most of the programme's goals cannot be reached in their obvious form.",
+    "evidence": [
+     {
+      "claim": "Paper appears in Monatshefte fuer Mathematik und Physik in 1931",
+      "source": "Crossref record, DOI 10.1007/bf01700692",
+      "url": "https://doi.org/10.1007/bf01700692",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia says Godel's incompleteness theorems published in 1931 showed the programme unattainable for key areas",
+      "source": "Wikipedia, Hilbert's program",
+      "url": "https://en.wikipedia.org/wiki/Hilbert%27s_program",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": "Finitary programme (1922-26)",
+    "year": 1934,
+    "precision": "year",
+    "label": "Grundlagen der Mathematik",
+    "work": "Hilbert, D. and Bernays, P., Grundlagen der Mathematik, vol. 1, Springer, 1934",
+    "people": [
+     "David Hilbert",
+     "Paul Bernays"
+    ],
+    "description": "The Hilbert-Bernays volumes give the first systematic treatment of the proof theory of the programme.",
+    "evidence": [
+     {
+      "claim": "Grundlagen der Mathematik published 1934 under Hilbert's name",
+      "source": "Open Library search record",
+      "url": "https://openlibrary.org/search.json?title=grundlagen+der+mathematik&author=hilbert",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Open Library lists Hilbert only for the 1934 edition; Bernays as co-author is from general knowledge. Systematic-treatment role not checked against text."
+   },
+   {
+    "role": "first_application",
+    "phase": "Gentzen's consistency proof (1936)",
+    "year": 1936,
+    "precision": "year",
+    "label": "Gentzen's consistency proof of arithmetic",
+    "work": "Gentzen, G., Die Widerspruchsfreiheit der reinen Zahlentheorie, Mathematische Annalen, 1936",
+    "people": [
+     "Gerhard Gentzen"
+    ],
+    "description": "Gentzen proves the consistency of elementary number theory by transfinite induction, the first purposeful consistency proof for arithmetic in the programme's spirit.",
+    "evidence": [
+     {
+      "claim": "Paper appears in Mathematische Annalen in 1936",
+      "source": "Crossref record, DOI 10.1007/bf01565428",
+      "url": "https://doi.org/10.1007/bf01565428",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor quotes Gentzen's aim to prove the consistency of elementary number theory",
+      "source": "MacTutor biography of Gentzen",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Gentzen/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Whether this counts as finitary is disputed: it uses transfinite induction, so it goes beyond Hilbert's original finitist standard. Classified as first_application for the consistency problem, not for the finitist standard."
+   }
+  ],
+  "people": [
+   {
+    "name": "David Hilbert",
+    "role": "Formulated the programme",
+    "lifespan": "1862-1943",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/",
+    "works": [
+     {
+      "citation": "Hilbert, Mathematische Probleme, 1900",
+      "year": 1900,
+      "url": "https://zbmath.org/?q=an:31.0068.03",
+      "whyItMatters": "Problem 2 asks for consistency proofs."
+     },
+     {
+      "citation": "Hilbert, Ueber die Grundlagen der Logik und der Arithmetik, 1905",
+      "year": 1905,
+      "url": "https://zbmath.org/?q=an:36.0084.03",
+      "whyItMatters": "Early proof-theoretic lecture; role provisional."
+     },
+     {
+      "citation": "Hilbert, Neubegruendung der Mathematik, Erste Mitteilung, 1922",
+      "year": 1922,
+      "url": "https://doi.org/10.1007/bf02940589",
+      "whyItMatters": "Names the programme."
+     },
+     {
+      "citation": "Hilbert and Bernays, Grundlagen der Mathematik, vol. 1, 1934",
+      "year": 1934,
+      "url": "https://openlibrary.org/search.json?title=grundlagen+der+mathematik&author=hilbert",
+      "whyItMatters": "Systematic treatment of proof theory."
+     }
+    ]
+   },
+   {
+    "name": "Kurt Godel",
+    "role": "Incompleteness theorems",
+    "lifespan": "1906-1978",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Godel/",
+    "works": [
+     {
+      "citation": "Goedel, Ueber formal unentscheidbare Saetze, Monatsh. Math. Phys., 1931",
+      "year": 1931,
+      "url": "https://doi.org/10.1007/bf01700692",
+      "whyItMatters": "Limits of the programme."
+     }
+    ]
+   },
+   {
+    "name": "Gerhard Gentzen",
+    "role": "Consistency proof of arithmetic",
+    "lifespan": "1909-1945",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Gentzen/",
+    "works": [
+     {
+      "citation": "Gentzen, Die Widerspruchsfreiheit der reinen Zahlentheorie, Math. Ann., 1936",
+      "year": 1936,
+      "url": "https://doi.org/10.1007/bf01565428",
+      "whyItMatters": "Consistency proof of arithmetic."
+     }
+    ]
+   }
+  ],
+  "notes": "Derived: conceptual 1905 (provisional: low-confidence first_statement; if the 1905 lecture is judged a precursor, the conceptual date becomes 1922), methodological 1936 (Gentzen; the finitary standard itself has no first_application), institutional 1934 (Hilbert-Bernays volume). No naming milestone was found for 'Hilbert's programme'; the term appears in the 1920s but the first use was not verified. Searched: zbMATH, Crossref, Open Library, Wikipedia Hilbert's program, MacTutor Gentzen and Godel biographies. The Ackermann 1924 consistency proof was not searched and is not included.",
+  "derivedDates": {
+   "conceptual": 1905,
+   "methodological": 1936,
+   "institutional": 1934
+  }
+ }
+]

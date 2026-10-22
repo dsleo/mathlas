@@ -1,0 +1,4350 @@
+[
+ {
+  "pid": "P183",
+  "eventId": "MA45",
+  "canonicalName": "Cardano: first treatise on chance (Liber de ludo aleae)",
+  "aliases": [
+   "On games of chance",
+   "Book on Games of Chance",
+   "early probability",
+   "dice analysis"
+  ],
+  "phases": [
+   "Cardano's manuscript",
+   "Printing and successors"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Cardano's manuscript",
+    "year": 1563,
+    "endYear": null,
+    "precision": "year",
+    "label": "Liber de ludo aleae completed",
+    "work": "Cardano, Liber de ludo aleae, probably completed by 1563 (manuscript)",
+    "people": [
+     "Gerolamo Cardano"
+    ],
+    "description": "Analyses dice outcomes by counting favourable cases, unpublished in his lifetime.",
+    "evidence": [
+     {
+      "claim": "Probably completed by 1563; first foray into probability.",
+      "source": "MacTutor, Cardan biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Cardan/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Private manuscript."
+   },
+   {
+    "role": "precursor",
+    "year": 1654,
+    "endYear": null,
+    "precision": "year",
+    "label": "Pascal and Fermat correspond on dividing stakes",
+    "work": null,
+    "people": [
+     "Blaise Pascal",
+     "Pierre de Fermat"
+    ],
+    "description": "Private letters work out how to share a stake in an interrupted game, the problem Huygens then took up.",
+    "evidence": [
+     {
+      "claim": "Huygens learnt of probability work done in a correspondence between Pascal and Fermat.",
+      "source": "MacTutor, Huygens biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Huygens/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Private correspondence, so a precursor; the letters themselves were not read here."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Printing and successors",
+    "year": 1657,
+    "endYear": null,
+    "precision": "year",
+    "label": "Huygens' De ratiociniis in ludo aleae",
+    "work": "Christiaan Huygens, De ratiociniis in ludo aleae, 1657",
+    "people": [
+     "Christiaan Huygens"
+    ],
+    "description": "First printed treatise on calculating chances.",
+    "evidence": [
+     {
+      "claim": "1657 printing (within van Schooten's Exercitationes).",
+      "source": "Internet Archive DeRatiociniisInLudoAleae",
+      "url": "https://archive.org/details/DeRatiociniisInLudoAleae",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Describes the tract as the first printed work on the calculus of probabilities, written after Huygens learnt of the Pascal-Fermat correspondence.",
+      "source": "MacTutor, Huygens biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Huygens/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Huygens' tract is the first printed treatment, earlier in print than Cardano's book (1663); the record is stated by MacTutor, not checked against earlier prints."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Printing and successors",
+    "year": 1663,
+    "endYear": null,
+    "precision": "year",
+    "label": "Printed in Cardano's Opera omnia",
+    "work": "Cardano, Opera omnia, Lyon 1663, including Liber de ludo aleae",
+    "people": [
+     "Gerolamo Cardano"
+    ],
+    "description": "First public appearance of the book.",
+    "evidence": [
+     {
+      "claim": "Published 1663.",
+      "source": "MacTutor, Cardan biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Cardan/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Opera omnia 1663 scan.",
+      "source": "Internet Archive bub_gb_npDfaPp-3Y0C",
+      "url": "https://archive.org/details/bub_gb_npDfaPp-3Y0C",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Ore's translation and study.",
+      "source": "zbMATH 0051.24306",
+      "url": "https://zbmath.org/?q=an:0051.24306",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "The printed book post-dates Huygens (1657); public history of probability does not start here, but the idea's earliest statement does."
+   },
+   {
+    "role": "key_development",
+    "year": 1713,
+    "endYear": null,
+    "precision": "year",
+    "label": "Jakob Bernoulli's Ars conjectandi",
+    "work": "Jakob Bernoulli, Ars conjectandi, Basel, 1713 (posthumous)",
+    "people": [
+     "Jakob Bernoulli"
+    ],
+    "description": "Posthumous treatise on the art of conjecture that extends the calculus of chances well beyond games.",
+    "evidence": [
+     {
+      "claim": "Ars conjectandi, opus posthumum, printed 1713.",
+      "source": "Internet Archive record jacobibernoulli00bern",
+      "url": "https://archive.org/details/jacobibernoulli00bern",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "key_development",
+    "year": 1718,
+    "endYear": null,
+    "precision": "year",
+    "label": "De Moivre's Doctrine of Chances",
+    "work": "Abraham de Moivre, The Doctrine of Chances, London, 1718",
+    "people": [
+     "Abraham de Moivre"
+    ],
+    "description": "First English treatise on chance, developing Huygens' methods with new analytic tools.",
+    "evidence": [
+     {
+      "claim": "First edition dated 1718.",
+      "source": "Internet Archive record b30412390",
+      "url": "https://archive.org/details/b30412390",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Biography of the author.",
+      "source": "MacTutor, De Moivre biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "people": [
+   {
+    "name": "Gerolamo Cardano",
+    "role": "originator",
+    "lifespan": "1501-1576",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Cardan/",
+    "works": [
+     {
+      "citation": "Liber de ludo aleae",
+      "year": 1663,
+      "url": "https://archive.org/details/bub_gb_npDfaPp-3Y0C",
+      "whyItMatters": "First analysis of chance by counting cases"
+     }
+    ]
+   },
+   {
+    "name": "Christiaan Huygens",
+    "role": "systematiser",
+    "lifespan": "1629-1695",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Huygens/",
+    "works": [
+     {
+      "citation": "De ratiociniis in ludo aleae",
+      "year": 1657,
+      "url": "https://archive.org/details/DeRatiociniisInLudoAleae",
+      "whyItMatters": "Printed treatise on expectation"
+     }
+    ]
+   },
+   {
+    "name": "Oystein Ore",
+    "role": "popularizer",
+    "lifespan": "1899 - 1968",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Ore/",
+    "works": [
+     {
+      "citation": "Cardano, the gambling scholar",
+      "year": 1953,
+      "url": "https://zbmath.org/?q=an:0051.24306",
+      "whyItMatters": "Study with translation"
+     }
+    ]
+   },
+   {
+    "name": "Jakob Bernoulli",
+    "role": "systematiser",
+    "lifespan": "1654 - 1705",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bernoulli_Jacob/",
+    "works": [
+     {
+      "citation": "Ars conjectandi, Basel",
+      "year": 1713,
+      "url": "https://archive.org/details/jacobibernoulli00bern",
+      "whyItMatters": "Posthumous treatise that carried the calculus of chances beyond Huygens' tract."
+     }
+    ]
+   },
+   {
+    "name": "Abraham de Moivre",
+    "role": "developer",
+    "lifespan": "1667 - 1754",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
+    "works": [
+     {
+      "citation": "The Doctrine of Chances, London",
+      "year": 1718,
+      "url": "https://archive.org/details/b30412390",
+      "whyItMatters": "English treatise that extended Huygens' methods."
+     }
+    ]
+   }
+  ],
+  "notes": "Open: Pascal-Fermat 1654, Cardano's lost earlier writings, and a naming milestone. MacTutor labels it the first foray into probability. Derived conceptual date 1663 reflects the printing rule; the manuscript is dated c.1563. English Wikipedia could not be read in this pass (API returned rate-limit errors for every request), so the source-first step used MacTutor biographies and history topics only. Added in thin-3 pass: Pascal-Fermat letters (1654, precursor from MacTutor Huygens), Bernoulli 1713 and De Moivre 1718. MacTutor calls Huygens' tract the first printed work on probability, so 'first treatise' for Cardano holds for composition (c.1563), not printing. The Wikipedia article for the Liber could not be retrieved (no article at that title); MacTutor Cardan and Huygens pages were used. No naming milestone found.",
+  "derivedDates": {
+   "conceptual": 1663,
+   "methodological": null,
+   "institutional": 1657
+  },
+  "pass": "source-first thin-3 enrichment (Claude), unadjudicated"
+ },
+ {
+  "pid": "P194",
+  "eventId": "MA50",
+  "canonicalName": "Kepler's Nova stereometria doliorum vinariorum (infinitesimal volumes of solids of revolution)",
+  "aliases": [
+   "New Stereometry of Wine Barrels",
+   "Kepler's barrel gauging",
+   "Stereometria doliorum"
+  ],
+  "phases": [
+   "Kepler's wine-barrel volumes",
+   "Development into Cavalieri's indivisibles"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": -250,
+    "endYear": null,
+    "precision": "decade",
+    "label": "Archimedes' measurement of solids",
+    "work": "Archimedes, On the Method of Mechanical Theorems (rediscovered by Heiberg, 1906)",
+    "people": [
+     "Archimedes"
+    ],
+    "description": "Classical measurement of curved solids by balancing thin slices, the ancestor of Kepler's and Cavalieri's pieces.",
+    "evidence": [
+     {
+      "claim": "Heath's 1912 supplement presents the Method as recently discovered by Heiberg.",
+      "source": "Internet Archive record methodofarchimed00arch",
+      "url": "https://archive.org/details/methodofarchimed00arch",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Kepler built on Archimedes' work.",
+      "source": "MacTutor, Kepler biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kepler/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Date is approximate (third century BC). The Method itself was lost until 1906, so it is the conceptual ancestor, not a source Kepler read."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Kepler's wine-barrel volumes",
+    "year": 1615,
+    "precision": "year",
+    "label": "Nova stereometria doliorum vinariorum published",
+    "work": "Kepler, Nova stereometria doliorum vinariorum, Linz, 1615",
+    "people": [
+     "Johannes Kepler"
+    ],
+    "description": "Kepler computed volumes of many revolved solids by treating them as sums of infinitely many thin pieces, following Archimedes and motivated by gauging wine barrels.",
+    "evidence": [
+     {
+      "claim": "Record of the 1615 Linz edition.",
+      "source": "Internet Archive record: Nova stereometria doliorum vinariorum, 1615",
+      "url": "https://archive.org/details/kepler-1615-nova-stereometria-doliorum-vinariorum-in",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says the Linz 1615 study of solids of revolution used a resolution into indivisibles and is part of the ancestry of infinitesimal calculus.",
+      "source": "MacTutor biography of Kepler",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kepler/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Says Kepler, basing himself on Archimedes, used a resolution into indivisibles in the 1615 Linz book.",
+      "source": "MacTutor, Kepler biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kepler/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Written after his 1613 wedding wine purchase (MacTutor), published 1615."
+   },
+   {
+    "role": "precursor",
+    "year": 1627,
+    "endYear": null,
+    "precision": "year",
+    "label": "Cavalieri reports finishing the Geometria",
+    "work": null,
+    "people": [
+     "Bonaventura Cavalieri"
+    ],
+    "description": "Cavalieri tells Galileo and Cardinal Borromeo that the book on indivisibles is complete, eight years before it was printed.",
+    "evidence": [
+     {
+      "claim": "On 16 December 1627 he wrote that he had completed his Geometria.",
+      "source": "MacTutor, Cavalieri biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Cavalieri/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Private letters, so a precursor."
+   },
+   {
+    "role": "key_development",
+    "phase": "Development into Cavalieri's indivisibles",
+    "year": 1635,
+    "precision": "year",
+    "label": "Cavalieri's Geometria indivisibilibus builds on Kepler",
+    "work": "Cavalieri, Geometria indivisibilibus continuorum nova quadam ratione promota, Bologna, 1635",
+    "people": [
+     "Bonaventura Cavalieri"
+    ],
+    "description": "Cavalieri's theory of indivisibles developed Archimedes' exhaustion with Kepler's infinitely small quantities, systematising what Kepler did case by case.",
+    "evidence": [
+     {
+      "claim": "The 1635 theory incorporates Kepler's infinitesimally small geometric quantities.",
+      "source": "MacTutor biography of Cavalieri",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Cavalieri/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Says Kepler's barrel method was later developed by Cavalieri.",
+      "source": "MacTutor biography of Kepler",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kepler/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Geometria indivisibilibus continuorum noua quadam ratione promota, 1635, digitised record.",
+      "source": "Internet Archive record ita-bnc-mag-00001345-001",
+      "url": "https://archive.org/details/ita-bnc-mag-00001345-001",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Describes the theory of indivisibles as a development of Archimedes' exhaustion incorporating Kepler's infinitesimals.",
+      "source": "MacTutor, Cavalieri biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Cavalieri/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Year from MacTutor; Open Library only shows a 1653 edition."
+   },
+   {
+    "role": "key_development",
+    "year": 1656,
+    "endYear": null,
+    "precision": "year",
+    "label": "Wallis' Arithmetica infinitorum",
+    "work": "John Wallis, Arithmetica infinitorum, Oxford, 1656",
+    "people": [
+     "John Wallis"
+    ],
+    "description": "Turns the method of indivisibles into arithmetic, summing series of infinitesimal slices to get areas and volumes.",
+    "evidence": [
+     {
+      "claim": "Names Arithmetica infinitorum as Wallis' most famous work, published 1656, after he studied Kepler and Cavalieri.",
+      "source": "MacTutor, Wallis biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Wallis/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Digitised record of the work.",
+      "source": "Internet Archive record ArithmeticaInfinitorum",
+      "url": "https://archive.org/details/ArithmeticaInfinitorum",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "people": [
+   {
+    "name": "Johannes Kepler",
+    "role": "developer",
+    "lifespan": "1571-1630",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kepler/",
+    "works": [
+     {
+      "citation": "Nova stereometria doliorum vinariorum, 1615",
+      "year": 1615,
+      "url": "https://archive.org/details/kepler-1615-nova-stereometria-doliorum-vinariorum-in",
+      "whyItMatters": "Volumes by summation of infinitesimal pieces"
+     }
+    ],
+    "roleNote": "Author"
+   },
+   {
+    "name": "Bonaventura Cavalieri",
+    "role": "systematiser",
+    "lifespan": "1598-1647",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Cavalieri/",
+    "works": [
+     {
+      "citation": "Geometria indivisibilibus continuorum nova quadam ratione promota, Bologna",
+      "year": 1635,
+      "url": "https://archive.org/details/ita-bnc-mag-00001345-001",
+      "whyItMatters": "Systematic method of indivisibles that grew from Kepler's infinitesimal volumes."
+     }
+    ],
+    "roleNote": "Systematised the method"
+   },
+   {
+    "name": "Archimedes",
+    "role": "originator",
+    "lifespan": "c. 287 - 212 BC",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/",
+    "works": [
+     {
+      "citation": "The Method of Archimedes, ed. Heath (supplement to the Works)",
+      "year": 1912,
+      "url": "https://archive.org/details/methodofarchimed00arch",
+      "whyItMatters": "English edition of the rediscovered Method on weighing infinitesimal slices."
+     }
+    ]
+   },
+   {
+    "name": "John Wallis",
+    "role": "developer",
+    "lifespan": "1616 - 1703",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Wallis/",
+    "works": [
+     {
+      "citation": "Arithmetica infinitorum, Oxford",
+      "year": 1656,
+      "url": "https://archive.org/details/ArithmeticaInfinitorum",
+      "whyItMatters": "Arithmetised the method of indivisibles for areas and volumes."
+     }
+    ]
+   }
+  ],
+  "notes": "Wikipedia page for the book returned an empty extract and other Wikipedia pages were rate-limited. Archimedes' Method is the classical precursor (not dated here). Crossref lists a 2019 translation review (Isis 10.1086/702466) confirming the title but not the 1615 date. Only two milestones are supported; no naming or institution found. The harvest label 'calculus (precursor)' is a catalogue label, not a milestone. Added in thin-3 pass: Archimedes (approximate precursor), Cavalieri's 1627 completion letter, Wallis 1656. English Wikipedia has no usable article for the book; MacTutor Kepler, Cavalieri, Wallis were read. Guldin's Centrobaryca (1635) was considered but no digitised record was found, so it is not listed. No naming or institution milestone found.",
+  "searchedSources": [
+   "MacTutor Kepler, Cavalieri",
+   "Internet Archive",
+   "Crossref",
+   "Wikipedia (empty)"
+  ],
+  "derivedDates": {
+   "conceptual": 1615,
+   "methodological": null,
+   "institutional": null
+  },
+  "pass": "source-first thin-3 enrichment (Claude), unadjudicated"
+ },
+ {
+  "pid": "P443",
+  "eventId": "H38",
+  "canonicalName": "Elliptic integrals from lemniscate and elastica (Bernoulli)",
+  "aliases": [
+   "Lemniscate of Bernoulli",
+   "Rectification of the lemniscate",
+   "Origins of elliptic integrals"
+  ],
+  "phases": [
+   "Bernoulli's curves, 1694",
+   "Fagnano and Euler, 18th century"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1691,
+    "endYear": null,
+    "precision": "year",
+    "label": "Jakob Bernoulli poses the elastica problem",
+    "work": null,
+    "people": [
+     "Jakob Bernoulli"
+    ],
+    "description": "Bernoulli asks for the shape of a flexible rod bent by a weight, a problem later solved with elliptic functions.",
+    "evidence": [
+     {
+      "claim": "Wikipedia's lemniscate-functions article says Bernoulli posed this problem in 1691.",
+      "source": "Wikipedia, Lemniscate elliptic functions",
+      "url": "https://en.wikipedia.org/wiki/Lemniscate_elliptic_functions",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Statement of the problem, not its solution by elliptic integrals."
+   },
+   {
+    "role": "first_statement",
+    "year": 1694,
+    "precision": "year",
+    "label": "Bernoulli introduces the lemniscate",
+    "work": "Jakob Bernoulli, Acta Eruditorum, 1694",
+    "people": [
+     "Jakob Bernoulli"
+    ],
+    "description": "Bernoulli conceived the figure-eight curve in 1694 as a variant of the ellipse, the curve whose arc length gives the lemniscate integral.",
+    "evidence": [
+     {
+      "claim": "MacTutor says the lemniscate of Bernoulli was first conceived by Jakob Bernoulli in 1694.",
+      "source": "MacTutor: Jacob Bernoulli",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Bernoulli_Jacob/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "The curve was first studied in 1694 by Jakob Bernoulli as a modification of an ellipse.",
+      "source": "Wikipedia: Lemniscate of Bernoulli",
+      "url": "https://en.wikipedia.org/wiki/Lemniscate_of_Bernoulli",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Archive.org holds the 1694 volume of the Acta Eruditorum.",
+      "source": "archive.org item bub_gb_Wa8J4qKCS-0C",
+      "url": "https://archive.org/details/bub_gb_Wa8J4qKCS-0C",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Year of the curve is confirmed; I did not read the 1694 article, so the exact paper, the integral and any analogy with the arcsine are unverified. The input's claim that Bernoulli recognised an elliptic integral is not established by the pages read."
+   },
+   {
+    "role": "key_development",
+    "phase": "Fagnano and Euler, 18th century",
+    "year": 1718,
+    "endYear": 1723,
+    "precision": "range",
+    "label": "Fagnano's work on the lemniscate arc",
+    "work": "Giulio Fagnano, work on the lemniscate, 1718-1723",
+    "people": [
+     "Giulio Fagnano"
+    ],
+    "description": "Fagnano studied the arc of the lemniscate and gave the first treatment of the associated elliptic functions.",
+    "evidence": [
+     {
+      "claim": "The lemniscate elliptic functions were first studied by Fagnano in 1718.",
+      "source": "Wikipedia: Lemniscate elliptic functions",
+      "url": "https://en.wikipedia.org/wiki/Lemniscate_elliptic_functions",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "key_development",
+    "phase": "Fagnano and Euler, 18th century",
+    "year": 1750,
+    "precision": "decade",
+    "label": "Fagnano and Euler found the addition theorem for elliptic integrals",
+    "work": "Fagnano; Euler, c. 1750",
+    "people": [
+     "Giulio Fagnano",
+     "Leonhard Euler"
+    ],
+    "description": "The sources date the first study of elliptic integrals to Fagnano and Euler around 1750.",
+    "evidence": [
+     {
+      "claim": "Elliptic integrals were first studied by Fagnano and Euler, c. 1750.",
+      "source": "Wikipedia: Elliptic integral",
+      "url": "https://en.wikipedia.org/wiki/Elliptic_integral",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Wikipedia gives only the approximate date; no paper identified."
+   },
+   {
+    "role": "key_development",
+    "year": 1750,
+    "endYear": null,
+    "precision": "year",
+    "label": "Fagnano's Produzioni matematiche",
+    "work": "Giulio Carlo Fagnano, Produzioni matematiche, Pesaro, 1750",
+    "people": [
+     "Giulio Fagnano"
+    ],
+    "description": "Collected papers, printing Fagnano's work on dividing the lemniscate and its arc.",
+    "evidence": [
+     {
+      "claim": "Produzioni matematiche del marchese Giulio Carlo de' Toschi di Fagnano, 1750.",
+      "source": "Internet Archive record bub_gb_NA0NVGqz4V8C",
+      "url": "https://archive.org/details/bub_gb_NA0NVGqz4V8C",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "That the lemniscate papers are in this volume is taken from the catalogue title and Wikipedia's account of Fagnano; contents were not read."
+   },
+   {
+    "role": "consolidation",
+    "year": 1811,
+    "endYear": null,
+    "precision": "year",
+    "label": "Legendre's Exercices de calcul intégral",
+    "work": "Adrien-Marie Legendre, Exercices de calcul intégral, Paris, 1811-1817",
+    "people": [
+     "Adrien-Marie Legendre"
+    ],
+    "description": "Systematic treatment of elliptic integrals, reduced to three standard (Legendre) forms.",
+    "evidence": [
+     {
+      "claim": "Exercices de calcul intégral sur divers ordres de transcendantes, 1811.",
+      "source": "Internet Archive record exercicescalculi01legerich",
+      "url": "https://archive.org/details/exercicescalculi01legerich",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Every elliptic integral reduces to the three Legendre canonical forms.",
+      "source": "Wikipedia, Elliptic integral",
+      "url": "https://en.wikipedia.org/wiki/Elliptic_integral",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "key_development",
+    "year": 1827,
+    "endYear": null,
+    "precision": "year",
+    "label": "Abel's Recherches sur les fonctions elliptiques",
+    "work": "N. H. Abel, Recherches sur les fonctions elliptiques, Journal fuer die reine und angewandte Mathematik 2, 1827",
+    "people": [
+     "Niels Henrik Abel"
+    ],
+    "description": "Studies the inverse functions of elliptic integrals, turning the lemniscate integral into a doubly periodic function.",
+    "evidence": [
+     {
+      "claim": "Crossref record, vol. 2 (1827), pp. 101-181.",
+      "source": "Crossref 10.1515/crll.1827.2.101",
+      "url": "https://doi.org/10.1515/crll.1827.2.101",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia dates Abel's work 1827-1828.",
+      "source": "Wikipedia, Lemniscate elliptic functions",
+      "url": "https://en.wikipedia.org/wiki/Lemniscate_elliptic_functions",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "year": 1829,
+    "endYear": null,
+    "precision": "year",
+    "label": "Jacobi's Fundamenta nova",
+    "work": "C. G. J. Jacobi, Fundamenta nova theoriae functionum ellipticarum, Koenigsberg, 1829",
+    "people": [
+     "Carl Gustav Jacobi"
+    ],
+    "description": "Builds the theory of elliptic functions systematically from the inverse functions.",
+    "evidence": [
+     {
+      "claim": "Digitised record dated 1829.",
+      "source": "Internet Archive record fundamentanovat00jacogoog",
+      "url": "https://archive.org/details/fundamentanovat00jacogoog",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "people": [
+   {
+    "name": "Jakob Bernoulli",
+    "role": "originator",
+    "lifespan": "1654-1705",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bernoulli_Jacob/",
+    "works": [
+     {
+      "citation": "Acta Eruditorum, 1694 volume",
+      "year": 1694,
+      "url": "https://archive.org/details/bub_gb_Wa8J4qKCS-0C",
+      "whyItMatters": "Year in which the lemniscate was conceived."
+     }
+    ],
+    "roleNote": "Introduced the lemniscate"
+   },
+   {
+    "name": "Giulio Fagnano",
+    "role": "originator",
+    "lifespan": "1682 - 1766",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Giulio_Carlo_de%27_Toschi_di_Fagnano",
+    "works": [
+     {
+      "citation": "Produzioni matematiche",
+      "year": 1750,
+      "url": "https://archive.org/details/bub_gb_NA0NVGqz4V8C",
+      "whyItMatters": "Printed his lemniscate arc work."
+     }
+    ]
+   },
+   {
+    "name": "Leonhard Euler",
+    "role": "developer",
+    "lifespan": "1707 - 1783",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+    "works": [
+     {
+      "citation": "Observationes de comparatione arcuum curvarum irrectificabilium (E252)",
+      "year": 1761,
+      "url": "https://scholarlycommons.pacific.edu/euler-works/252/",
+      "whyItMatters": "Euler Archive entry on comparing arcs of curves, the route to his addition theorem."
+     }
+    ]
+   },
+   {
+    "name": "Adrien-Marie Legendre",
+    "role": "systematiser",
+    "lifespan": "1752 - 1833",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Legendre/",
+    "works": [
+     {
+      "citation": "Exercices de calcul integral, Paris",
+      "year": 1811,
+      "url": "https://archive.org/details/exercicescalculi01legerich",
+      "whyItMatters": "Classified elliptic integrals into three standard forms."
+     }
+    ]
+   },
+   {
+    "name": "Niels Henrik Abel",
+    "role": "developer",
+    "lifespan": "1802 - 1829",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Abel/",
+    "works": [
+     {
+      "citation": "Recherches sur les fonctions elliptiques, Crelle 2",
+      "year": 1827,
+      "url": "https://doi.org/10.1515/crll.1827.2.101",
+      "whyItMatters": "Inverted elliptic integrals into elliptic functions."
+     }
+    ]
+   },
+   {
+    "name": "Carl Gustav Jacobi",
+    "role": "developer",
+    "lifespan": "1804 - 1851",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Jacobi/",
+    "works": [
+     {
+      "citation": "Fundamenta nova theoriae functionum ellipticarum",
+      "year": 1829,
+      "url": "https://archive.org/details/fundamentanovat00jacogoog",
+      "whyItMatters": "First book-length theory of elliptic functions."
+     }
+    ]
+   }
+  ],
+  "notes": "Largely open. The elastica link: Wikipedia credits Euler (1744) and Jakob Bernoulli with elastica theory solved by elliptic functions, but no Bernoulli date for the elastica was found, so no milestone was made. The term 'lemniscate' as a coinage was not traced to a source. The first use of the name 'elliptic integral' (Legendre?) was not searched. The input summary ('treated by analogy with the arcsine') is not supported by the pages read. person without verified work: Giulio Fagnano (originator). person without verified work: Leonhard Euler (developer). Added in thin-3 pass: Bernoulli's 1691 elastica problem, Fagnano 1750, Legendre 1811, Abel 1827, Jacobi 1829. The Euler addition-theorem milestone (c.1750) is kept as found but stays low confidence; Euler's paper is listed under his entry (Euler Archive E252, 1761) without a verified date for the theorem. Six people are the schema limit. Elliptic integral naming ('integrales elliptiques', Legendre?) not traced.",
+  "derivedDates": {
+   "conceptual": 1694,
+   "methodological": null,
+   "institutional": 1811
+  },
+  "pass": "source-first thin-3 enrichment (Claude), unadjudicated"
+ },
+ {
+  "pid": "P145",
+  "eventId": "WA50/MA69",
+  "canonicalName": "Leibniz combinatorial logic",
+  "aliases": [
+   "Calculus ratiocinator",
+   "Characteristica universalis",
+   "Ars combinatoria",
+   "Leibniz's algebra of logic"
+  ],
+  "phases": [
+   "Ars combinatoria (1666)",
+   "Logical calculi in manuscript",
+   "Rediscovery (Couturat)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Ars combinatoria (1666)",
+    "year": 1666,
+    "precision": "year",
+    "label": "Dissertatio de arte combinatoria",
+    "work": "Gottfried Leibniz, Dissertatio de arte combinatoria, Leipzig, 1666",
+    "people": [
+     "Gottfried Leibniz"
+    ],
+    "description": "The habilitation dissertation proposes reducing reasoning to combinations of basic elements, the seed of the symbolic-logic programme.",
+    "evidence": [
+     {
+      "claim": "Archive.org record dates the Dissertatio to 1666.",
+      "source": "archive.org item ita-bnc-mag-00000844-001",
+      "url": "https://archive.org/details/ita-bnc-mag-00000844-001",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "It was published in 1666 and aims to reduce reasoning to combinations of basic elements.",
+      "source": "MacTutor: Gottfried Leibniz",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Leibniz/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "It was his first book; a few copies were printed.",
+      "source": "Wikipedia: Gottfried Wilhelm Leibniz",
+      "url": "https://en.wikipedia.org/wiki/Gottfried_Wilhelm_Leibniz",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "A combinatorial and philosophical programme, not yet a logical calculus."
+   },
+   {
+    "role": "key_development",
+    "year": 1879,
+    "endYear": null,
+    "precision": "year",
+    "label": "Frege's Begriffsschrift pursues a calculus ratiocinator",
+    "work": "Gottlob Frege, Begriffsschrift, Halle, 1879",
+    "people": [
+     "Gottlob Frege"
+    ],
+    "description": "Frege presents his concept-script as a formal calculus of reasoning in Leibniz's spirit, starting modern formal logic.",
+    "evidence": [
+     {
+      "claim": "Says Frege intended his concept-script to be a calculus ratiocinator and that formal logic began with it.",
+      "source": "Wikipedia, Calculus ratiocinator",
+      "url": "https://en.wikipedia.org/wiki/Calculus_ratiocinator",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Included as the first modern formal system that explicitly claims the Leibnizian aim; the book itself was not read."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Rediscovery (Couturat)",
+    "year": 1901,
+    "precision": "year",
+    "label": "Couturat's La logique de Leibniz",
+    "work": "Louis Couturat, La logique de Leibniz d'apres des documents inedits, Paris, 1901",
+    "people": [
+     "Louis Couturat"
+    ],
+    "description": "Couturat drew on unpublished Hanover manuscripts to present Leibniz' logic systematically, followed by the 1903 edition of fragments.",
+    "evidence": [
+     {
+      "claim": "Archive.org records date Couturat's La logique de Leibniz to 1901 and the Opuscules et fragments inedits to 1903.",
+      "source": "archive.org item lalogiquedeleib00coutgoog",
+      "url": "https://archive.org/details/lalogiquedeleib00coutgoog",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Placed as consolidation of the manuscript logic, not of Leibniz' own work."
+   },
+   {
+    "role": "key_development",
+    "year": 1903,
+    "endYear": null,
+    "precision": "year",
+    "label": "Couturat publishes Leibniz's unpublished logical fragments",
+    "work": "Louis Couturat, Opuscules et fragments inedits de Leibniz, Paris, 1903",
+    "people": [
+     "Louis Couturat"
+    ],
+    "description": "Prints Leibniz's unpublished logical manuscripts, making his calculus of reasoning accessible.",
+    "evidence": [
+     {
+      "claim": "Opuscules et fragments inedits de Leibniz, 1903.",
+      "source": "Internet Archive record opusculesetfrag00bibgoog",
+      "url": "https://archive.org/details/opusculesetfrag00bibgoog",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "key_development",
+    "year": 1918,
+    "endYear": null,
+    "precision": "year",
+    "label": "C. I. Lewis' Survey of Symbolic Logic discusses Leibniz",
+    "work": "C. I. Lewis, A Survey of Symbolic Logic, 1918",
+    "people": [
+     "Clarence Irving Lewis"
+    ],
+    "description": "English survey that gives Leibniz's logical algebra a place in the history of symbolic logic and prints two Leibniz fragments.",
+    "evidence": [
+     {
+      "claim": "Crossref lists an appendix of two Leibniz fragments in the 1918 book.",
+      "source": "Crossref 10.1525/9780520398252",
+      "url": "https://doi.org/10.1525/9780520398252",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "precursor",
+    "phase": "Logical calculi in manuscript",
+    "year": null,
+    "precision": "unknown",
+    "label": "Logical calculi in unpublished manuscripts",
+    "work": "Leibniz, logical manuscripts, c.1680s (unpublished in his lifetime)",
+    "people": [
+     "Gottfried Leibniz"
+    ],
+    "description": "The calculus ratiocinator and algebraic logic exist only in notes that were published long after his death, so their influence came late.",
+    "evidence": [
+     {
+      "claim": "The calculus ratiocinator is a concept in Leibniz' writings; the analytic view treats it as an anticipation of an algebra of logic.",
+      "source": "Wikipedia: Calculus ratiocinator",
+      "url": "https://en.wikipedia.org/wiki/Calculus_ratiocinator",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Dates searched: Wikipedia Leibniz, Calculus ratiocinator and the MacTutor biography; none gave a dated calculus. The 1680s is background knowledge, not sourced."
+   }
+  ],
+  "people": [
+   {
+    "name": "Gottfried Leibniz",
+    "role": "originator",
+    "lifespan": "1646-1716",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Leibniz/",
+    "works": [
+     {
+      "citation": "Dissertatio de arte combinatoria",
+      "year": 1666,
+      "url": "https://archive.org/details/ita-bnc-mag-00000844-001",
+      "whyItMatters": "Early combinatorial programme."
+     }
+    ],
+    "roleNote": "Proposed a calculus of reasoning"
+   },
+   {
+    "name": "Louis Couturat",
+    "role": "systematiser",
+    "lifespan": "1868-1914",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Louis_Couturat",
+    "works": [
+     {
+      "citation": "La logique de Leibniz",
+      "year": 1901,
+      "url": "https://archive.org/details/lalogiquedeleib00coutgoog",
+      "whyItMatters": "Brought the logic to attention."
+     },
+     {
+      "citation": "Opuscules et fragments inedits de Leibniz",
+      "year": 1903,
+      "url": "https://archive.org/details/opusculesetfrag00bibgoog",
+      "whyItMatters": "Edition of manuscripts."
+     }
+    ],
+    "roleNote": "Edited and studied Leibniz' logic manuscripts"
+   },
+   {
+    "name": "Clarence Irving Lewis",
+    "role": "popularizer",
+    "lifespan": "1883 - 1964",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Clarence_Irving_Lewis",
+    "works": [
+     {
+      "citation": "A Survey of Symbolic Logic",
+      "year": 1918,
+      "url": "https://doi.org/10.1525/9780520398252",
+      "whyItMatters": "Introduced English readers to Leibniz's logic within the history of symbolic logic."
+     }
+    ]
+   }
+  ],
+  "notes": "Disambiguation: the Wikipedia lead matched in the sources file for this event partly concerns combinatory logic (Schonfinkel, 1920), a different subject. The title 'combinatorial logic' here refers to Leibniz' ars combinatoria, not combinatory logic. The first use of the terms 'calculus ratiocinator' and 'characteristica universalis' was not traced. The input claim that the work was largely unpublished is supported. No dated first_application. Added in thin-3 pass: Frege 1879 (Wikipedia, calculus ratiocinator), Couturat 1903 and Lewis 1918. MacTutor Leibniz confirms the 1666 Dissertatio. The undated precursor is kept with a work description only; no specific manuscript date was verified. The first use of the phrases 'calculus ratiocinator' and 'characteristica universalis' was not traced, so no naming milestone.",
+  "derivedDates": {
+   "conceptual": 1666,
+   "methodological": null,
+   "institutional": 1901
+  },
+  "pass": "source-first thin-3 enrichment (Claude), unadjudicated"
+ },
+ {
+  "pid": "P131",
+  "eventId": "WA91/MA76",
+  "canonicalName": "Bayes' inverse probability",
+  "aliases": [
+   "Bayes' theorem",
+   "Bayes' rule",
+   "Essay towards solving a problem in the doctrine of chances",
+   "inverse probability"
+  ],
+  "phases": [
+   "Bayes and Price (1764)",
+   "Laplace's independent derivation (1774)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1718,
+    "endYear": null,
+    "precision": "year",
+    "label": "De Moivre's Doctrine of Chances (direct probability)",
+    "work": "Abraham de Moivre, The Doctrine of Chances, London, 1718",
+    "people": [
+     "Abraham de Moivre"
+    ],
+    "description": "Treats probabilities of outcomes given a known chance, the forward problem Bayes inverted.",
+    "evidence": [
+     {
+      "claim": "First edition dated 1718.",
+      "source": "Internet Archive record b30412390",
+      "url": "https://archive.org/details/b30412390",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Biography of the author.",
+      "source": "MacTutor, De Moivre biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "That Bayes' essay answers the inverse of De Moivre's problem is the usual account; here only the 1718 date is checked."
+   },
+   {
+    "role": "first_statement",
+    "year": 1764,
+    "precision": "year",
+    "label": "Bayes' Essay communicated by Price",
+    "work": "T. Bayes, An Essay towards solving a Problem in the Doctrine of Chances, Phil. Trans. 53 (1763), pp. 370-418, issued 1764",
+    "people": [
+     "Thomas Bayes",
+     "Richard Price"
+    ],
+    "description": "The posthumous essay derives the probability of an unknown binomial chance from observed successes and failures, with Price's introduction.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Bayes, An essay towards solving a problem in the doctrine of chances, Philosophical Transactions vol. 53, pp. 370-418, dated 1763",
+      "source": "Crossref 10.1098/rstl.1763.0053",
+      "url": "https://doi.org/10.1098/rstl.1763.0053",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says Bayes set out his theory in the Essay published in Phil. Trans. in 1764, sent in by Richard Price",
+      "source": "MacTutor, Bayes",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Bayes/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Crossref issue year 1763 (volume date); MacTutor gives 1764 as the publication year. The paper was read late 1763 and printed 1764."
+   },
+   {
+    "role": "key_development",
+    "year": 1764,
+    "endYear": null,
+    "precision": "year",
+    "label": "Price's second paper on the essay",
+    "work": "Richard Price, A demonstration of the second rule in the essay towards the solution of a problem in the doctrine of chances, Phil. Trans. 54, 1764",
+    "people": [
+     "Richard Price"
+    ],
+    "description": "Price follows up Bayes' essay with a demonstration of its second rule and approximations.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Phil. Trans. 54 (1764), pp. 296-325.",
+      "source": "Crossref 10.1098/rstl.1764.0050",
+      "url": "https://doi.org/10.1098/rstl.1764.0050",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "key_development",
+    "phase": "Laplace's independent derivation (1774)",
+    "year": 1774,
+    "precision": "year",
+    "label": "Laplace's memoir on the probability of causes",
+    "work": "Laplace, Mémoire sur la probabilité des causes par les événemens, Mém. Acad. Roy. Sci. (Savants étrangers) 6, 1774",
+    "people": [
+     "Pierre-Simon Laplace"
+    ],
+    "description": "Laplace independently derived the inverse-probability rule for causes of events and developed it much further.",
+    "evidence": [
+     {
+      "claim": "Crossref records: Stigler's study of Laplace's 1774 memoir and its translation, Statistical Science 1 (1986), 359-378",
+      "source": "Crossref 10.1214/ss/1177013620",
+      "url": "https://doi.org/10.1214/ss/1177013620",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor lists Stigler's 'Laplace's 1774 memoir on inverse probability' among its sources and says Laplace accepted Bayes' conclusions in 1781",
+      "source": "MacTutor, Laplace / Bayes",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Laplace/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The 1774 date comes from Stigler's titles, not from a record of the original volume; MacTutor says Laplace accepted Bayes in 1781, which sets the date he first knew the essay."
+   },
+   {
+    "role": "key_development",
+    "year": 1785,
+    "endYear": null,
+    "precision": "year",
+    "label": "Condorcet applies the probability of causes to voting",
+    "work": "Condorcet, Essai sur l application de l analyse a la probabilite des decisions rendues a la pluralite des voix, Paris, 1785",
+    "people": [
+     "Marquis de Condorcet"
+    ],
+    "description": "Uses reasoning from observed votes back to the reliability of the voters.",
+    "evidence": [
+     {
+      "claim": "Essai sur l'application de l'analyse a la probabilite des decisions, 1785.",
+      "source": "Internet Archive record essaisurlapplica00cond",
+      "url": "https://archive.org/details/essaisurlapplica00cond",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Biography of Condorcet.",
+      "source": "MacTutor, Condorcet biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Condorcet/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "consolidation",
+    "year": 1812,
+    "precision": "year",
+    "label": "Laplace's Théorie analytique des probabilités",
+    "work": "P.-S. Laplace, Théorie analytique des probabilités, Paris, 1812",
+    "people": [
+     "Pierre-Simon Laplace"
+    ],
+    "description": "Book two contains Laplace's definition of probability, Bayes' rule and a treatment of inverse probability, making it the standard reference.",
+    "evidence": [
+     {
+      "claim": "Internet Archive item for the 1812 edition of Théorie analytique des probabilités",
+      "source": "archive.org theorieanalytiqu0000mlec",
+      "url": "https://archive.org/details/theorieanalytiqu0000mlec",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says the second book contains Laplace's definition, Bayes rule and inverse probability",
+      "source": "MacTutor, Laplace",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Laplace/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "year": 1939,
+    "endYear": null,
+    "precision": "year",
+    "label": "Jeffreys' Theory of Probability revives Bayesian inference",
+    "work": "Harold Jeffreys, Theory of Probability, Oxford, 1939",
+    "people": [
+     "Harold Jeffreys"
+    ],
+    "description": "Builds statistical inference on inverse probability, reviving the Bayes-Laplace approach in the twentieth century.",
+    "evidence": [
+     {
+      "claim": "First edition 1939, Clarendon Press.",
+      "source": "Open Library record OL642021W",
+      "url": "https://openlibrary.org/works/OL642021W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The revival claim is the standard account and was not tied to a source here."
+   }
+  ],
+  "people": [
+   {
+    "name": "Thomas Bayes",
+    "role": "developer",
+    "lifespan": "1701-1761",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bayes/",
+    "works": [
+     {
+      "citation": "An Essay towards solving a Problem in the Doctrine of Chances, Phil. Trans. 53, 1763/64",
+      "year": 1764,
+      "url": "https://doi.org/10.1098/rstl.1763.0053",
+      "whyItMatters": "The posterior for the binomial"
+     }
+    ],
+    "roleNote": "Author of the Essay"
+   },
+   {
+    "name": "Richard Price",
+    "role": "originator",
+    "lifespan": "1723-1791",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Price/",
+    "works": [
+     {
+      "citation": "A demonstration of the second rule in the essay towards the solution of a problem in the doctrine of chances, Phil. Trans. 54",
+      "year": 1764,
+      "url": "https://doi.org/10.1098/rstl.1764.0050",
+      "whyItMatters": "Price's continuation of Bayes' essay."
+     }
+    ],
+    "roleNote": "Sent the Essay to the Royal Society with an introduction"
+   },
+   {
+    "name": "Pierre-Simon Laplace",
+    "role": "systematiser",
+    "lifespan": "1749-1827",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Laplace/",
+    "works": [
+     {
+      "citation": "Théorie analytique des probabilités, 1812",
+      "year": 1812,
+      "url": "https://archive.org/details/theorieanalytiqu0000mlec",
+      "whyItMatters": "Standard treatment of inverse probability"
+     }
+    ],
+    "roleNote": "Independent derivation and systematic treatment"
+   },
+   {
+    "name": "Marquis de Condorcet",
+    "role": "originator",
+    "lifespan": "1743-1794",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Condorcet/",
+    "works": [
+     {
+      "citation": "Essai sur l'application de l'analyse a la probabilite des decisions",
+      "year": 1785,
+      "url": "https://archive.org/details/essaisurlapplica00cond",
+      "whyItMatters": "Applied inverse reasoning to the reliability of votes."
+     }
+    ],
+    "roleNote": "Rediscovered the rule per MacTutor"
+   },
+   {
+    "name": "Abraham de Moivre",
+    "role": "developer",
+    "lifespan": "1667 - 1754",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
+    "works": [
+     {
+      "citation": "The Doctrine of Chances",
+      "year": 1718,
+      "url": "https://archive.org/details/b30412390",
+      "whyItMatters": "Forward probability treatise that preceded Bayes' inverse problem."
+     }
+    ]
+   },
+   {
+    "name": "Harold Jeffreys",
+    "role": "popularizer",
+    "lifespan": "1891 - 1989",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Harold_Jeffreys",
+    "works": [
+     {
+      "citation": "Theory of Probability, Oxford",
+      "year": 1939,
+      "url": "https://openlibrary.org/works/OL642021W",
+      "whyItMatters": "Twentieth-century revival of inverse-probability inference."
+     }
+    ]
+   }
+  ],
+  "notes": "Sources: MacTutor Bayes, Laplace, Condorcet; Crossref; archive.org. The input summary says Bayes derived a posterior for the binomial, which matches Dale's description quoted by MacTutor. The name 'Bayes' rule' was supplied later: MacTutor says Poincaré named it many years after Laplace's book; no date was found, so no naming milestone is recorded. Open: the original 1774 Laplace volume was not reached; Bayes' essay is also an example of a posthumous first_statement. Added in thin-3 pass: De Moivre 1718, Price 1764 second paper, Condorcet 1785, Jeffreys 1939. The English Wikipedia article on Bayes' theorem was fetched but not used for dates beyond confirming the topic.",
+  "derivedDates": {
+   "conceptual": 1764,
+   "methodological": null,
+   "institutional": 1812
+  },
+  "pass": "source-first thin-3 enrichment (Claude), unadjudicated"
+ },
+ {
+  "pid": "P124",
+  "eventId": "WA81/MA89",
+  "canonicalName": "Gauss's Disquisitiones Arithmeticae",
+  "aliases": [
+   "Arithmetical Investigations",
+   "Disquisitiones",
+   "Gauss's number theory"
+  ],
+  "phases": [
+   "Writing (1796-1798)",
+   "Publication (1801)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1798,
+    "precision": "year",
+    "label": "Legendre's Essai sur la théorie des nombres",
+    "work": "A.-M. Legendre, Essai sur la theorie des nombres, Paris, 1798",
+    "people": [
+     "Adrien-Marie Legendre"
+    ],
+    "description": "An earlier systematic number-theory treatise appeared in 1798, the same year Gauss finished writing.",
+    "evidence": [
+     {
+      "claim": "MacTutor says the first edition of Legendre's Théorie des nombres was 1798",
+      "source": "MacTutor, Legendre",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Legendre/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Essai sur la theorie des nombres, 1798.",
+      "source": "Internet Archive record essaisurlathor00lege",
+      "url": "https://archive.org/details/essaisurlathor00lege",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Title given by MacTutor as Théorie des nombres; the 1798 first edition is called Essai sur la théorie des nombres in other sources."
+   },
+   {
+    "role": "precursor",
+    "year": 1798,
+    "precision": "year",
+    "label": "Gauss completes the manuscript",
+    "work": "Gauss, Disquisitiones Arithmeticae (manuscript finished 1798, printed 1801)",
+    "people": [
+     "Carl Friedrich Gauss"
+    ],
+    "description": "The book was written in 1798 when Gauss was 21 and printed in 1801, so the manuscript is private until then.",
+    "evidence": [
+     {
+      "claim": "Wikipedia says it was written in 1798 and published in 1801",
+      "source": "English Wikipedia, Disquisitiones Arithmeticae",
+      "url": "https://en.wikipedia.org/wiki/Disquisitiones_Arithmeticae",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_statement",
+    "phase": "Publication (1801)",
+    "year": 1801,
+    "precision": "year",
+    "label": "Disquisitiones Arithmeticae published in Leipzig",
+    "work": "C. F. Gauss, Disquisitiones Arithmeticae, Leipzig (Fleischer), 1801",
+    "people": [
+     "Carl Friedrich Gauss"
+    ],
+    "description": "The book presents congruences, quadratic forms and cyclotomy under one scheme and proves quadratic reciprocity.",
+    "evidence": [
+     {
+      "claim": "Internet Archive item for the 1801 Disquisitiones arithmeticae",
+      "source": "archive.org disquisitionesa00gaus",
+      "url": "https://archive.org/details/disquisitionesa00gaus",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says Gauss published the book in the summer of 1801 with seven sections",
+      "source": "MacTutor, Gauss",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Gauss/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same book as the consolidation milestone; both roles apply."
+   },
+   {
+    "role": "consolidation",
+    "year": 1801,
+    "precision": "year",
+    "label": "First systematic treatment of number theory",
+    "work": "Gauss, Disquisitiones Arithmeticae, Leipzig, 1801",
+    "people": [
+     "Carl Friedrich Gauss"
+    ],
+    "description": "Gauss brought together results of Fermat, Euler, Lagrange and Legendre in one rigorous framework.",
+    "evidence": [
+     {
+      "claim": "Wikipedia says the book made number theory rigorous and systematic and brought earlier results together",
+      "source": "English Wikipedia, Disquisitiones Arithmeticae",
+      "url": "https://en.wikipedia.org/wiki/Disquisitiones_Arithmeticae",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same book as the first_statement milestone; it plays both roles (first public statement and first systematic treatment)."
+   },
+   {
+    "role": "key_development",
+    "year": 1847,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kummer factorises cyclotomic integers",
+    "work": "E. E. Kummer, Ueber die Zerlegung der aus Wurzeln der Einheit gebildeten complexen Zahlen, Crelle 35, 1847",
+    "people": [
+     "Ernst Kummer"
+    ],
+    "description": "Extends Gauss' cyclotomy to unique factorisation with ideal numbers, an early step of algebraic number theory.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Crelle 35 (1847), pp. 327-367.",
+      "source": "Crossref 10.1515/crll.1847.35.327",
+      "url": "https://doi.org/10.1515/crll.1847.35.327",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "The Disquisitiones was a starting point for Kummer, Dirichlet and Dedekind.",
+      "source": "Wikipedia, Disquisitiones Arithmeticae",
+      "url": "https://en.wikipedia.org/wiki/Disquisitiones_Arithmeticae",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "consolidation",
+    "year": 1863,
+    "endYear": null,
+    "precision": "year",
+    "label": "Dirichlet-Dedekind Vorlesungen ueber Zahlentheorie",
+    "work": "P. G. Lejeune Dirichlet, Vorlesungen ueber Zahlentheorie, ed. R. Dedekind, 1863",
+    "people": [
+     "Peter Gustav Lejeune Dirichlet",
+     "Richard Dedekind"
+    ],
+    "description": "Textbook that recasts the Disquisitiones in simpler form and carries it into algebraic number theory.",
+    "evidence": [
+     {
+      "claim": "Vorlesungen ueber Zahlentheorie, ed. Dedekind, 1863.",
+      "source": "Internet Archive record 10081672bsb",
+      "url": "https://archive.org/details/10081672bsb",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Dirichlet was among the 19th-century mathematicians for whom the book was the starting point.",
+      "source": "Wikipedia, Disquisitiones Arithmeticae",
+      "url": "https://en.wikipedia.org/wiki/Disquisitiones_Arithmeticae",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Textbook role inferred from the title and history pages."
+   }
+  ],
+  "people": [
+   {
+    "name": "Carl Friedrich Gauss",
+    "role": "developer",
+    "lifespan": "1777-1855",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Gauss/",
+    "works": [
+     {
+      "citation": "Disquisitiones Arithmeticae, 1801",
+      "year": 1801,
+      "url": "https://archive.org/details/disquisitionesa00gaus",
+      "whyItMatters": "Founding text"
+     }
+    ],
+    "roleNote": "Author"
+   },
+   {
+    "name": "Adrien-Marie Legendre",
+    "role": "developer",
+    "lifespan": "1752 - 1833",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Legendre/",
+    "works": [
+     {
+      "citation": "Essai sur la theorie des nombres, Paris",
+      "year": 1798,
+      "url": "https://archive.org/details/essaisurlathor00lege",
+      "whyItMatters": "Contemporary survey that Gauss' book overtook; Gauss recorded priority questions on reciprocity."
+     }
+    ]
+   },
+   {
+    "name": "Peter Gustav Lejeune Dirichlet",
+    "role": "systematiser",
+    "lifespan": "1805 - 1859",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Dirichlet/",
+    "works": [
+     {
+      "citation": "Vorlesungen ueber Zahlentheorie (ed. Dedekind)",
+      "year": 1863,
+      "url": "https://archive.org/details/10081672bsb",
+      "whyItMatters": "Textbook presentation of Gauss' number theory."
+     }
+    ]
+   },
+   {
+    "name": "Ernst Kummer",
+    "role": "developer",
+    "lifespan": "1810 - 1893",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kummer/",
+    "works": [
+     {
+      "citation": "Ueber die Zerlegung der aus Wurzeln der Einheit gebildeten complexen Zahlen, Crelle 35",
+      "year": 1847,
+      "url": "https://doi.org/10.1515/crll.1847.35.327",
+      "whyItMatters": "Used cyclotomic integers in the spirit of Gauss' cyclotomy."
+     }
+    ]
+   }
+  ],
+  "notes": "Sources: MacTutor Gauss, Legendre; Wikipedia Disquisitiones Arithmeticae; archive.org. The congruence notation claim in the input summary was not verified against the book (Section I is titled 'Congruent Numbers in General' per Wikipedia). The Dirichlet Vorlesungen (1863) are an obvious later consolidation and were not checked. No separate naming or institution milestone was found; the term 'higher arithmetic' is Gauss's own, per Wikipedia. person without verified work: Adrien-Marie Legendre (developer). person without verified work: Leonhard Euler (systematiser). person without verified work: Joseph-Louis Lagrange (systematiser). Added in thin-3 pass: Kummer 1847, Dirichlet-Dedekind 1863, Legendre's work citation. Euler and Lagrange were dropped from people because no verified work could be attached (the earlier entries had none); their results are the background Wikipedia describes. MacTutor Gauss confirms the 17-gon appears as Section VII and the 1801 publication. The dual role of the 1801 book is noted on both milestones.",
+  "derivedDates": {
+   "conceptual": 1801,
+   "methodological": null,
+   "institutional": 1801
+  },
+  "pass": "source-first thin-3 enrichment (Claude), unadjudicated"
+ },
+ {
+  "pid": "P356",
+  "eventId": "E12/W22/M1",
+  "canonicalName": "Riemann surfaces",
+  "aliases": [
+   "Riemann surface",
+   "Riemannsche Fläche",
+   "Riemann's theory of algebraic functions"
+  ],
+  "phases": [
+   "Riemann's surfaces for multi-valued functions",
+   "The abstract concept of a Riemann surface"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1850,
+    "endYear": null,
+    "precision": "year",
+    "label": "Puiseux on algebraic functions and branch points",
+    "work": "Victor Puiseux, Recherches sur les fonctions algebriques, J. Math. Pures Appl. 15, 1850",
+    "people": [
+     "Victor Puiseux"
+    ],
+    "description": "Analyses algebraic functions near branch points, the local picture Riemann's surfaces assemble.",
+    "evidence": [
+     {
+      "claim": "Numdam record: Recherches sur les fonctions algebriques, J. Math. Pures Appl. 15.",
+      "source": "Numdam JMPA_1850_1_15__365_0",
+      "url": "https://www.numdam.org/item/JMPA_1850_1_15__365_0/",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Riemann's thesis builds on Cauchy and on Puiseux's ideas of branch points.",
+      "source": "MacTutor, Riemann biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Riemann/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "first_statement",
+    "phase": "Riemann's surfaces for multi-valued functions",
+    "year": 1851,
+    "precision": "year",
+    "label": "Riemann's doctoral dissertation",
+    "work": "Riemann, Grundlagen für eine allgemeine Theorie der Functionen einer veränderlichen complexen Grösse, doctoral thesis, Göttingen, 1851",
+    "people": [
+     "Bernhard Riemann"
+    ],
+    "description": "Riemann's thesis studied analytic functions through geometric surfaces on which many-valued functions become single-valued, introducing topology into complex function theory.",
+    "evidence": [
+     {
+      "claim": "MacTutor says the thesis studied what we now call Riemann surfaces and was examined on 16 December 1851, building on Puiseux's branch points",
+      "source": "MacTutor biography of Riemann",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Riemann/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "MacTutor's topology history says Riemann studied connectivity in 1851 and introduced his surfaces for the equation f(w,z)=0",
+      "source": "MacTutor, A history of Topology",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Topology_in_mathematics/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The thesis was not found in Crossref, zbMATH or Open Library; evidence is a history page. The topology page links the surface introduction to 1857, the biography to the thesis, so the exact date of the first statement is slightly uncertain."
+   },
+   {
+    "role": "key_development",
+    "phase": "Riemann's surfaces for multi-valued functions",
+    "year": 1857,
+    "precision": "year",
+    "label": "Riemann's theory of Abelian functions",
+    "work": "Riemann, Theorie der Abel'schen Functionen, Journal für die reine und angewandte Mathematik 54, 115-155, 1857",
+    "people": [
+     "Bernhard Riemann"
+    ],
+    "description": "Riemann treated many-valued functions as single-valued on a special surface and solved general inversion problems of Abelian integrals, showing the surface concept carried real theorems.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Riemann, Theorie der Abel'schen Functionen, Crelle 54, 115-155 (1857)",
+      "source": "Crossref 10.1515/crll.1857.54.115",
+      "url": "https://doi.org/10.1515/crll.1857.54.115",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says this paper developed the Riemann surface idea and solved inversion problems for Abelian integrals",
+      "source": "MacTutor biography of Riemann",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Riemann/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "year": 1865,
+    "endYear": null,
+    "precision": "year",
+    "label": "C. Neumann's lectures on Riemann's theory",
+    "work": "Carl Neumann, Vorlesungen ueber Riemann's Theorie der Abel'schen Integrale, Leipzig, 1865",
+    "people": [
+     "Carl Neumann"
+    ],
+    "description": "First textbook account of Riemann's surfaces and Abelian integrals.",
+    "evidence": [
+     {
+      "claim": "Vorlesungen ueber Riemann's Theorie der Abel'schen Integrale, 1865.",
+      "source": "Internet Archive record vorlriemannstheo00neumrich",
+      "url": "https://archive.org/details/vorlriemannstheo00neumrich",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "'First textbook' is not checked beyond the title; Neumann's 1884 second edition also exists."
+   },
+   {
+    "role": "consolidation",
+    "year": 1913,
+    "precision": "year",
+    "label": "Weyl's book on the idea of a Riemann surface",
+    "work": "Weyl, Die Idee der Riemannschen Fläche, Teubner, Leipzig, 1913",
+    "people": [
+     "Hermann Weyl"
+    ],
+    "description": "Weyl gave a rigorous, abstract definition of a Riemann surface as a manifold with a complex structure, severing it from covering of the plane.",
+    "evidence": [
+     {
+      "claim": "zbMATH lists Weyl, Die Idee der Riemannschen Fläche (1913)",
+      "source": "zbMATH 2621710",
+      "url": "https://zbmath.org/2621710",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Internet Archive copy of the 1913 first edition",
+      "source": "archive.org dieideederrieman00weyluoft",
+      "url": "https://archive.org/details/dieideederrieman00weyluoft",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia's article on Riemann surfaces cites Weyl 1913 as the standard foundational text",
+      "source": "English Wikipedia, Riemann surface",
+      "url": "https://en.wikipedia.org/wiki/Riemann_surface",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Klein's 1882 treatment of Riemann's theory is a likely earlier systematic account but was not verified (Crossref shows only the 1923 reprint)."
+   },
+   {
+    "role": "key_development",
+    "year": 1925,
+    "endYear": null,
+    "precision": "year",
+    "label": "Rado shows Riemann surfaces have countable bases",
+    "work": "T. Rado, Ueber den Begriff der Riemannschen Flaeche, Acta Szeged 2, 1925",
+    "people": [
+     "Tibor Rado"
+    ],
+    "description": "Settles the abstract definition of a Riemann surface, showing the surfaces are not too large.",
+    "evidence": [
+     {
+      "claim": "zbMATH record, Acta Szeged 2, 101-121 (1925).",
+      "source": "zbMATH 2591746",
+      "url": "https://zbmath.org/2591746",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The statement of the result is from memory of the standard account; the zbMATH record confirms title, author and year only."
+   }
+  ],
+  "people": [
+   {
+    "name": "Bernhard Riemann",
+    "role": "originator",
+    "lifespan": "1826-1866",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Riemann/",
+    "works": [
+     {
+      "citation": "Riemann, Grundlagen für eine allgemeine Theorie der Functionen, 1851",
+      "year": 1851,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Riemann/",
+      "whyItMatters": "Thesis introducing the surface idea"
+     },
+     {
+      "citation": "Riemann, Theorie der Abel'schen Functionen, Crelle 1857",
+      "year": 1857,
+      "url": "https://doi.org/10.1515/crll.1857.54.115",
+      "whyItMatters": "Developed the surfaces for Abelian functions"
+     }
+    ],
+    "roleNote": "introduced the surfaces"
+   },
+   {
+    "name": "Hermann Weyl",
+    "role": "developer",
+    "lifespan": "1885-1955",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Weyl/",
+    "works": [
+     {
+      "citation": "Weyl, Die Idee der Riemannschen Fläche, 1913",
+      "year": 1913,
+      "url": "https://zbmath.org/2621710",
+      "whyItMatters": "Rigorous modern definition"
+     }
+    ],
+    "roleNote": "gave the abstract definition"
+   },
+   {
+    "name": "Victor Puiseux",
+    "role": "originator",
+    "lifespan": "1820 - 1883",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Puiseux/",
+    "works": [
+     {
+      "citation": "Recherches sur les fonctions algebriques, J. Math. Pures Appl. 15",
+      "year": 1850,
+      "url": "https://www.numdam.org/item/JMPA_1850_1_15__365_0/",
+      "whyItMatters": "Local study of branch points that Riemann's surfaces generalise."
+     }
+    ]
+   },
+   {
+    "name": "Carl Neumann",
+    "role": "systematiser",
+    "lifespan": "1832 - 1925",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Carl_Neumann",
+    "works": [
+     {
+      "citation": "Vorlesungen ueber Riemann's Theorie der Abel'schen Integrale",
+      "year": 1865,
+      "url": "https://archive.org/details/vorlriemannstheo00neumrich",
+      "whyItMatters": "First lecture-course exposition of Riemann's theory."
+     }
+    ]
+   },
+   {
+    "name": "Tibor Rado",
+    "role": "developer",
+    "lifespan": "1895 - 1965",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Tibor_Rad%C3%B3",
+    "works": [
+     {
+      "citation": "Ueber den Begriff der Riemannschen Flaeche, Acta Szeged 2",
+      "year": 1925,
+      "url": "https://zbmath.org/2591746",
+      "whyItMatters": "Abstract definition and countability of Riemann surfaces."
+     }
+    ]
+   }
+  ],
+  "notes": "Riemann's thesis (1851) and the 1857 paper are the dated milestones; MacTutor's biography and its topology history differ slightly on which introduced the surfaces. No dated first use of the name 'Riemann surface' was found; naming and institution milestones are open. Klein 1882 and the later triangulation theorem (Rado) were not located in bibliographic databases and are not listed. Puiseux's lifespan is from memory. person without verified work: Victor Puiseux (developer). Added in thin-3 pass: Puiseux 1850 (Numdam), Neumann 1865, Rado 1925. Klein was dropped from people (no verified work found); his 1882 book is part of the later story. Puiseux's lifespan (1820-1883) is from general knowledge; check before use. English Wikipedia's Riemann surface article has no history section, so MacTutor Riemann was the history source.",
+  "derivedDates": {
+   "conceptual": 1851,
+   "methodological": null,
+   "institutional": 1865
+  },
+  "pass": "source-first thin-3 enrichment (Claude), unadjudicated"
+ },
+ {
+  "pid": "P420",
+  "eventId": "H3",
+  "canonicalName": "Combinatorial group theory",
+  "aliases": [
+   "group presentations",
+   "generators and relations",
+   "Dehn's decision problems"
+  ],
+  "phases": [
+   "Presentations from geometry",
+   "Fundamental group and Tietze transformations",
+   "Decision problems and free groups"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1856,
+    "precision": "year",
+    "label": "Hamilton's icosian calculus",
+    "work": "Hamilton, icosian calculus, 1856",
+    "people": [
+     "William Rowan Hamilton"
+    ],
+    "description": "Hamilton described the icosahedral group via the dodecahedron's edge graph.",
+    "evidence": [
+     {
+      "claim": "Notes a proto-form in Hamilton's 1856 icosian calculus.",
+      "source": "Wikipedia: Combinatorial group theory",
+      "url": "https://en.wikipedia.org/wiki/Combinatorial_group_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Presentations from geometry",
+    "note": "Year from Wikipedia only."
+   },
+   {
+    "role": "first_statement",
+    "year": 1882,
+    "precision": "year",
+    "label": "von Dyck's group-theoretic studies",
+    "work": "von Dyck, Gruppentheoretische Studien, Math. Ann. 20, 1-44, 1882",
+    "people": [
+     "Walther von Dyck"
+    ],
+    "description": "First systematic study of groups by generators and relations.",
+    "evidence": [
+     {
+      "claim": "Record: 1882.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01443322",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says Dyck laid the foundations in the early 1880s.",
+      "source": "Wikipedia: Combinatorial group theory",
+      "url": "https://en.wikipedia.org/wiki/Combinatorial_group_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Presentations from geometry"
+   },
+   {
+    "role": "key_development",
+    "year": 1895,
+    "precision": "year",
+    "label": "Poincare's fundamental group",
+    "work": "Poincare, Analysis situs, 1895",
+    "people": [
+     "Henri Poincare"
+    ],
+    "description": "Poincare introduced the fundamental group, giving presentations a topological role.",
+    "evidence": [
+     {
+      "claim": "Says he introduced the fundamental group in his 1894 paper and the Analysis situs was published 1895.",
+      "source": "MacTutor biography of Poincare",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Fundamental group and Tietze transformations",
+    "note": "MacTutor mentions both 1894 and 1895."
+   },
+   {
+    "role": "first_application",
+    "year": 1908,
+    "precision": "year",
+    "label": "Tietze presents the fundamental group",
+    "work": "Tietze, Ueber die topologischen Invarianten mehrdimensionaler Mannigfaltigkeiten, Monatsh. Math. Phys. 19, 1-118, 1908",
+    "people": [
+     "Heinrich Tietze"
+    ],
+    "description": "Tietze produced finite presentations of fundamental groups and the transformations showing they are invariants.",
+    "evidence": [
+     {
+      "claim": "Record: 1908.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01736688",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Describes the finite presentation and Tietze transformations.",
+      "source": "MacTutor biography of Tietze",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Tietze/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Fundamental group and Tietze transformations"
+   },
+   {
+    "role": "key_development",
+    "year": 1911,
+    "precision": "year",
+    "label": "Dehn's infinite discontinuous groups",
+    "work": "Dehn, Ueber unendliche diskontinuierliche Gruppen, Math. Ann. 71, 116-144, 1911",
+    "people": [
+     "Max Dehn"
+    ],
+    "description": "Dehn posed the word and isomorphism problems.",
+    "evidence": [
+     {
+      "claim": "Record: 1911.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01456932",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says he formulated the word and isomorphism problems.",
+      "source": "MacTutor biography of Dehn",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Dehn/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Decision problems and free groups"
+   },
+   {
+    "role": "key_development",
+    "year": 1924,
+    "precision": "range",
+    "label": "Nielsen and Schreier on free groups",
+    "work": "Nielsen, Math. Ann. 91, 1924; Schreier, Abh. Hamburg 5, 1927",
+    "people": [
+     "Jakob Nielsen",
+     "Otto Schreier"
+    ],
+    "description": "Nielsen's method and Schreier's subgroup theorem for free groups.",
+    "evidence": [
+     {
+      "claim": "Record: 1924.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01556078",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Record: 1927.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02952517",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Decision problems and free groups",
+    "endYear": 1927
+   },
+   {
+    "role": "key_development",
+    "year": 1959,
+    "precision": "year",
+    "label": "Undecidability of the word problem",
+    "work": "Boone, The word problem, Annals of Math. 70, 207, 1959",
+    "people": [
+     "William Boone"
+    ],
+    "description": "Boone proved a finitely presented group with unsolvable word problem exists.",
+    "evidence": [
+     {
+      "claim": "Record: 1959.",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1970103",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Decision problems and free groups",
+    "note": "Novikov proved the same independently around 1955; Novikov's record not checked."
+   },
+   {
+    "role": "consolidation",
+    "year": 1966,
+    "precision": "year",
+    "label": "Magnus-Karrass-Solitar",
+    "work": "Magnus, Karrass, Solitar, Combinatorial Group Theory, 1966",
+    "people": [
+     "Wilhelm Magnus",
+     "Abraham Karrass",
+     "Donald Solitar"
+    ],
+    "description": "First systematic text.",
+    "evidence": [
+     {
+      "claim": "Archive.org record: 1966.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/combinatorialgro0000magn",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "phase": "Decision problems and free groups"
+   }
+  ],
+  "people": [
+   {
+    "name": "Walther von Dyck",
+    "role": "originator",
+    "lifespan": "1856 - 1934",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Walther_von_Dyck",
+    "works": [
+     {
+      "citation": "Gruppentheoretische Studien",
+      "year": 1882,
+      "url": "https://doi.org/10.1007/bf01443322",
+      "whyItMatters": "Presentations"
+     }
+    ],
+    "roleNote": "Founder"
+   },
+   {
+    "name": "Max Dehn",
+    "role": "developer",
+    "lifespan": "1878-1952",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Dehn/",
+    "works": [
+     {
+      "citation": "Ueber unendliche diskontinuierliche Gruppen, Math. Ann. 71",
+      "year": 1911,
+      "url": "https://doi.org/10.1007/bf01456932",
+      "whyItMatters": "Poses the word, conjugacy and isomorphism problems for group presentations."
+     }
+    ],
+    "roleNote": "Decision problems"
+   },
+   {
+    "name": "Heinrich Tietze",
+    "role": "developer",
+    "lifespan": "1880-1964",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Tietze/",
+    "works": [
+     {
+      "citation": "Ueber die topologischen Invarianten mehrdimensionaler Mannigfaltigkeiten, Monatsh. Math. Phys. 19",
+      "year": 1908,
+      "url": "https://doi.org/10.1007/bf01736688",
+      "whyItMatters": "Presents fundamental groups by generators and relations with Tietze transformations."
+     }
+    ],
+    "roleNote": "Transformations"
+   },
+   {
+    "name": "Jakob Nielsen",
+    "role": "developer",
+    "lifespan": "1890-1959",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Jakob_Nielsen_(mathematician)",
+    "works": [
+     {
+      "citation": "Nielsen, paper on free groups, Math. Ann. 91",
+      "year": 1924,
+      "url": "https://doi.org/10.1007/bf01556078",
+      "whyItMatters": "Work on automorphisms and subgroups of free groups."
+     }
+    ],
+    "roleNote": "Free groups"
+   },
+   {
+    "name": "Otto Schreier",
+    "role": "developer",
+    "lifespan": "1901-1929",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Schreier/",
+    "works": [
+     {
+      "citation": "Die Untergruppen der freien Gruppen, Abh. Math. Sem. Hamburg 5",
+      "year": 1927,
+      "url": "https://doi.org/10.1007/bf02952517",
+      "whyItMatters": "Subgroup theorem for free groups."
+     }
+    ],
+    "roleNote": "Subgroup theorem"
+   },
+   {
+    "name": "Henri Poincare",
+    "role": "developer",
+    "lifespan": "1854-1912",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/",
+    "works": [
+     {
+      "citation": "Complement a l'Analysis situs, Rend. Circ. Mat. Palermo 13",
+      "year": 1899,
+      "url": "https://doi.org/10.1007/bf03024461",
+      "whyItMatters": "Follow-up to the 1895 Analysis situs, which introduced the fundamental group."
+     }
+    ],
+    "roleNote": "Fundamental group"
+   }
+  ],
+  "notes": "Dyck's page not available on MacTutor. Dyck, Schreier URLs point to related pages. The name 'combinatorial group theory' pre-1966 use was searched in Crossref and not found. Novikov 1955 not verified. Thin-3 pass: the eight milestones were already sufficient; people lacked works, which are now added from the verified DOIs. The earlier MacTutor 'Nielsen' link pointed to Niels Nielsen, a different mathematician, and is replaced with the Jakob Nielsen Wikipedia page. The Poincare work listed is the 1899 Complement because the 1895 Analysis situs has no stable record found; the 1895 milestone itself rests on MacTutor. The Wikipedia article on combinatorial group theory is a short stub with no dated history.",
+  "derivedDates": {
+   "conceptual": 1882,
+   "methodological": 1908,
+   "institutional": 1966
+  },
+  "pass": "source-first thin-3 enrichment (Claude), unadjudicated"
+ },
+ {
+  "pid": "P387",
+  "eventId": "W6/M31",
+  "canonicalName": "Axiomatisation of geometry",
+  "aliases": [
+   "Hilbert's axioms",
+   "foundations of geometry",
+   "Grundlagen der Geometrie"
+  ],
+  "phases": [
+   "Pasch's rigorous geometry",
+   "Hilbert's complete axiom system"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1882,
+    "endYear": null,
+    "precision": "year",
+    "label": "Pasch's rigorous projective geometry",
+    "work": "Pasch, M., Vorlesungen über neuere Geometrie, Leipzig (1882)",
+    "people": [
+     "Moritz Pasch"
+    ],
+    "description": "Pasch's earlier rigorous treatment of geometry without relying on diagrams is a direct predecessor.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 'Vorlesungen über neuere Geometrie', year 1882",
+      "source": "zbMATH API, query 'Pasch Vorlesungen uber neuere Geometrie'",
+      "url": "https://zbmath.org/?q=Vorlesungen+%C3%BCber+neuere+Geometrie",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Recorded as a precursor, not a ranked start."
+   },
+   {
+    "role": "precursor",
+    "year": 1889,
+    "endYear": null,
+    "precision": "year",
+    "label": "Peano's logical axioms for geometry",
+    "work": "Giuseppe Peano, I principii di geometria logicamente esposti, Turin, 1889",
+    "people": [
+     "Giuseppe Peano"
+    ],
+    "description": "Gives a symbolic axiom system for geometry with primitive notions, before Hilbert's book.",
+    "evidence": [
+     {
+      "claim": "I principii di geometria logicamente esposti, 1889, digitised record.",
+      "source": "Internet Archive record iprincipiidigeo01peangoog",
+      "url": "https://archive.org/details/iprincipiidigeo01peangoog",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Biography of Peano.",
+      "source": "MacTutor, Peano biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Peano/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Its content was not read here; Wikipedia's Hilbert axioms article names Pieri and Veblen but not Peano, so the precursor role is by title and date."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1899,
+    "endYear": null,
+    "precision": "year",
+    "label": "Complete independent axiom system for Euclidean geometry",
+    "work": "Hilbert, D., Grundlagen der Geometrie, Teubner, Leipzig (1899)",
+    "people": [
+     "David Hilbert"
+    ],
+    "description": "Gives a 20-axiom system for Euclidean geometry, with independence proved by models.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 'Grundlagen der Geometrie', year 1899",
+      "source": "zbMATH API, query 'Hilbert Grundlagen der Geometrie 1899'",
+      "url": "https://zbmath.org/?q=Grundlagen+der+Geometrie",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Hilbert's axioms proposed in 1899 in Grundlagen der Geometrie; models used to prove independence",
+      "source": "Wikipedia, Hilbert's axioms (saved wikitext)",
+      "url": "https://en.wikipedia.org/wiki/Hilbert%27s_axioms",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "year": 1904,
+    "endYear": null,
+    "precision": "year",
+    "label": "Veblen's system of axioms for geometry",
+    "work": "Oswald Veblen, A system of axioms for geometry, Trans. Amer. Math. Soc. 5, 343-384, 1904",
+    "people": [
+     "Oswald Veblen"
+    ],
+    "description": "Gives a categorical axiom system for Euclidean geometry using order, in the style Hilbert opened.",
+    "evidence": [
+     {
+      "claim": "zbMATH record, Trans. AMS 5, 343-384 (1904).",
+      "source": "zbMATH 2653775",
+      "url": "https://zbmath.org/2653775",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Veblen is named among the major contributors to the axiomatics of geometry.",
+      "source": "Wikipedia, Hilbert's axioms",
+      "url": "https://en.wikipedia.org/wiki/Hilbert%27s_axioms",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "key_development",
+    "year": 1932,
+    "endYear": null,
+    "precision": "year",
+    "label": "Birkhoff's postulates based on scale and protractor",
+    "work": "George D. Birkhoff, A set of postulates for plane geometry, based on scale and protractor, Ann. of Math. 33, 1932",
+    "people": [
+     "George David Birkhoff"
+    ],
+    "description": "Alternative axiomatisation that uses real-number measurement, later common in school geometry.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Annals of Mathematics 33 (1932).",
+      "source": "Crossref 10.2307/1968336",
+      "url": "https://doi.org/10.2307/1968336",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Birkhoff's axiomatisation is named as another well-known one.",
+      "source": "Wikipedia, Hilbert's axioms",
+      "url": "https://en.wikipedia.org/wiki/Hilbert%27s_axioms",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1968,
+    "endYear": null,
+    "precision": "year",
+    "label": "Later edition with supplements",
+    "work": "Hilbert, D., Grundlagen der Geometrie, 10th ed. with supplements by P. Bernays (1968)",
+    "people": [
+     "David Hilbert",
+     "Paul Bernays"
+    ],
+    "description": "A later edition with supplements shows the 1899 system remained the standard text; it is not a first systematic treatment.",
+    "evidence": [
+     {
+      "claim": "zbMATH record for the 1968 edition with Bernays supplements",
+      "source": "zbMATH API, query 'Hilbert Grundlagen der Geometrie 1899'",
+      "url": "https://zbmath.org/?q=Grundlagen+der+Geometrie",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Included only to show the reception; it does not set a derived date. Remove if the schema counts only the first systematic treatment."
+   }
+  ],
+  "people": [
+   {
+    "name": "David Hilbert",
+    "role": "developer",
+    "lifespan": "1862-1943",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/",
+    "works": [
+     {
+      "citation": "Grundlagen der Geometrie (Teubner, 1899)",
+      "year": 1899,
+      "url": "https://zbmath.org/?q=Grundlagen+der+Geometrie",
+      "whyItMatters": "first complete independent axiom system for Euclidean geometry"
+     }
+    ],
+    "roleNote": "author of the complete axiom system"
+   },
+   {
+    "name": "Moritz Pasch",
+    "role": "developer",
+    "lifespan": "1843 - 1930",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Pasch/",
+    "works": [
+     {
+      "citation": "Vorlesungen über neuere Geometrie (1882)",
+      "year": 1882,
+      "url": "https://zbmath.org/?q=Vorlesungen+%C3%BCber+neuere+Geometrie",
+      "whyItMatters": "earlier rigorous geometry without diagrams"
+     }
+    ],
+    "roleNote": "rigorous predecessor"
+   },
+   {
+    "name": "Giuseppe Peano",
+    "role": "developer",
+    "lifespan": "1858 - 1932",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Peano/",
+    "works": [
+     {
+      "citation": "I principii di geometria logicamente esposti",
+      "year": 1889,
+      "url": "https://archive.org/details/iprincipiidigeo01peangoog",
+      "whyItMatters": "Earlier symbolic axiomatisation of geometry."
+     }
+    ]
+   },
+   {
+    "name": "Oswald Veblen",
+    "role": "developer",
+    "lifespan": "1880 - 1960",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Veblen/",
+    "works": [
+     {
+      "citation": "A system of axioms for geometry, Trans. AMS 5",
+      "year": 1904,
+      "url": "https://zbmath.org/2653775",
+      "whyItMatters": "Axiom system for Euclidean geometry in Hilbert's wake."
+     }
+    ]
+   },
+   {
+    "name": "George David Birkhoff",
+    "role": "developer",
+    "lifespan": "1884 - 1944",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Birkhoff/",
+    "works": [
+     {
+      "citation": "A set of postulates for plane geometry, based on scale and protractor, Ann. Math. 33",
+      "year": 1932,
+      "url": "https://doi.org/10.2307/1968336",
+      "whyItMatters": "Metric alternative to Hilbert's axioms."
+     }
+    ]
+   }
+  ],
+  "notes": "The 1899 date rests on the zbMATH record and the saved Wikipedia lead. The MacTutor non-Euclidean topic page is only a loose match (score 0.67) and was not used. The independence-by-models method is the same 1899 work, so it is not repeated as an application milestone. Derived methodological date is left null, because no separate first_application was established. Added in thin-3 pass: Peano 1889, Veblen 1904 and Birkhoff 1932; Pasch's biography now points at MacTutor, which confirms his 1882 lectures influenced Hilbert. The Wikipedia Hilbert's axioms article gives 1899 and the Moore redundancy result of 1902 (not listed, no record checked). Euclid's Elements is the unmentioned classical precursor. No naming or institution milestone (the term 'axiomatisation of geometry' is generic).",
+  "derivedDates": {
+   "conceptual": 1899,
+   "methodological": null,
+   "institutional": 1968
+  },
+  "pass": "source-first thin-3 enrichment (Claude), unadjudicated"
+ },
+ {
+  "pid": "P411",
+  "eventId": "M21",
+  "canonicalName": "Schur: polynomial representations of GL(n) and invariant theory",
+  "aliases": [
+   "Schur functors",
+   "Schur polynomials",
+   "rational representations of GL(n)"
+  ],
+  "phases": [
+   "Schur's dissertation on matrix classes",
+   "classification of rational representations of GL(n)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1900,
+    "endYear": null,
+    "precision": "year",
+    "label": "Young's quantitative substitutional analysis",
+    "work": "Alfred Young, On quantitative substitutional analysis, Proc. London Math. Soc. 33, 1900",
+    "people": [
+     "Alfred Young"
+    ],
+    "description": "Introduces the diagrams (Young tableaux) used to index irreducible representations of the symmetric group and later Schur functors.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Proc. LMS s1-33 (1900), pp. 97-145.",
+      "source": "Crossref 10.1112/plms/s1-33.1.97",
+      "url": "https://doi.org/10.1112/plms/s1-33.1.97",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Schur functors are indexed by Young diagrams.",
+      "source": "Wikipedia, Schur functor",
+      "url": "https://en.wikipedia.org/wiki/Schur_functor",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1901,
+    "endYear": null,
+    "precision": "year",
+    "label": "Schur's thesis on a class of matrices",
+    "work": "Schur, I., 'Über eine Klasse von Matrizen, die sich einer gegebenen Matrix zuordnen lassen', Dissertation (1901)",
+    "people": [
+     "Issai Schur"
+    ],
+    "description": "Schur's dissertation on matrix classes gives the first application of the representation approach that leads to GL(n).",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 'Über eine Klasse von Matrizen...', year 1901",
+      "source": "zbMATH API, query 'Schur Uber eine Klasse von Matrizen'",
+      "url": "https://zbmath.org/?q=%C3%9Cber+eine+Klasse+von+Matrizen",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The thesis content is inferred from the title and the input summary; the review was not read, so the claim that it classifies GL(n) reps is not confirmed here."
+   },
+   {
+    "role": "key_development",
+    "year": 1925,
+    "endYear": null,
+    "precision": "year",
+    "label": "Weyl's theory of representations of semisimple groups",
+    "work": "Hermann Weyl, Theorie der Darstellung kontinuierlicher halb-einfacher Gruppen durch lineare Transformationen I, Math. Z. 23, 1925",
+    "people": [
+     "Hermann Weyl"
+    ],
+    "description": "Extends the ideas of Hurwitz and Schur to a general character formula for compact groups.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Math. Z. 23 (1925), pp. 271-309.",
+      "source": "Crossref 10.1007/bf01506234",
+      "url": "https://doi.org/10.1007/bf01506234",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says Weyl took forward ideas introduced by Hurwitz and Schur.",
+      "source": "MacTutor, Weyl biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Weyl/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1927,
+    "endYear": null,
+    "precision": "year",
+    "label": "Rational representations of the general linear group",
+    "work": "Schur, I., 'Über die rationalen Darstellungen der allgemeinen linearen Gruppe', Sitzungsber. Preuss. Akad. (1927)",
+    "people": [
+     "Issai Schur"
+    ],
+    "description": "Gives the classification of rational representations of GL(n) through symmetric functions, the central result of this event.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 'Über die rationalen Darstellungen der allgemeinen linearen Gruppe', year 1927",
+      "source": "zbMATH API, query 'Schur Uber die rationalen Darstellungen der allgemeinen linearen Gruppe'",
+      "url": "https://zbmath.org/?q=%C3%9Cber+die+rationalen+Darstellungen+der+allgemeinen+linearen+Gruppe",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "year": 1939,
+    "endYear": null,
+    "precision": "year",
+    "label": "Weyl's The Classical Groups",
+    "work": "Hermann Weyl, The Classical Groups: Their Invariants and Representations, Princeton, 1939",
+    "people": [
+     "Hermann Weyl"
+    ],
+    "description": "Monograph that presents the Schur-Weyl treatment of invariants and representations of GL(n).",
+    "evidence": [
+     {
+      "claim": "First Princeton edition 1939.",
+      "source": "Open Library record OL8018944W",
+      "url": "https://openlibrary.org/works/OL8018944W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "consolidation",
+    "year": 1979,
+    "endYear": null,
+    "precision": "year",
+    "label": "Macdonald's Symmetric Functions and Hall Polynomials",
+    "work": "I. G. Macdonald, Symmetric Functions and Hall Polynomials, Oxford, 1979",
+    "people": [
+     "Ian G. Macdonald"
+    ],
+    "description": "Standard systematic treatment of Schur functions and their link to representations of GL(n).",
+    "evidence": [
+     {
+      "claim": "First published 1979, Oxford University Press.",
+      "source": "Open Library record OL2690889W",
+      "url": "https://openlibrary.org/works/OL2690889W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": null,
+    "endYear": null,
+    "precision": "unknown",
+    "label": "Frobenius's characters and symmetric functions",
+    "work": "Georg Frobenius, papers on group characters and the symmetric group, 1896-1900",
+    "people": [
+     "Ferdinand Georg Frobenius"
+    ],
+    "description": "Frobenius's group characters and their connection to symmetric functions underlie Schur's method; the date is not verified here.",
+    "evidence": [
+     {
+      "claim": "Schur's thesis used Frobenius methods",
+      "source": "input summary and MacTutor topic pages (saved)",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Abstract_groups/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Year not established; not used for ranking. Searched Crossref and zbMATH for a Frobenius record; none matched, so the year stays open."
+   }
+  ],
+  "people": [
+   {
+    "name": "Issai Schur",
+    "role": "developer",
+    "lifespan": "1875-1941",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Schur/",
+    "works": [
+     {
+      "citation": "Über die rationalen Darstellungen der allgemeinen linearen Gruppe (1927)",
+      "year": 1927,
+      "url": "https://zbmath.org/?q=%C3%9Cber+die+rationalen+Darstellungen+der+allgemeinen+linearen+Gruppe",
+      "whyItMatters": "GL(n) classification"
+     },
+     {
+      "citation": "Ueber eine Klasse von Matrizen, die sich einer gegebenen Matrix zuordnen lassen, Dissertation, Berlin",
+      "year": 1901,
+      "url": "https://zbmath.org/?q=%C3%9Cber+eine+Klasse+von+Matrizen",
+      "whyItMatters": "Thesis in which polynomial representations of GL(n) first appear."
+     }
+    ],
+    "roleNote": "classification of rational representations of GL(n)"
+   },
+   {
+    "name": "Alfred Young",
+    "role": "developer",
+    "lifespan": "1873 - 1940",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Young_Alfred/",
+    "works": [
+     {
+      "citation": "On quantitative substitutional analysis, Proc. LMS 33",
+      "year": 1900,
+      "url": "https://doi.org/10.1112/plms/s1-33.1.97",
+      "whyItMatters": "Young diagrams and the symmetric-group side of the story."
+     }
+    ]
+   },
+   {
+    "name": "Hermann Weyl",
+    "role": "developer",
+    "lifespan": "1885 - 1955",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Weyl/",
+    "works": [
+     {
+      "citation": "Theorie der Darstellung kontinuierlicher halb-einfacher Gruppen, Math. Z. 23",
+      "year": 1925,
+      "url": "https://doi.org/10.1007/bf01506234",
+      "whyItMatters": "Compact-group character theory extending Schur."
+     },
+     {
+      "citation": "The Classical Groups",
+      "year": 1939,
+      "url": "https://openlibrary.org/works/OL8018944W",
+      "whyItMatters": "Textbook of Schur-Weyl duality."
+     }
+    ]
+   },
+   {
+    "name": "Ian G. Macdonald",
+    "role": "systematiser",
+    "lifespan": "1928 - 2023",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Ian_G._Macdonald",
+    "works": [
+     {
+      "citation": "Symmetric Functions and Hall Polynomials",
+      "year": 1979,
+      "url": "https://openlibrary.org/works/OL2690889W",
+      "whyItMatters": "Systematic account of Schur functions."
+     }
+    ]
+   }
+  ],
+  "notes": "The 1901 thesis is a candidate first statement, recorded at medium confidence because its content was not checked against the review. The 1927 paper is the verified key development. Frobenius's date is unverified and recorded as a precursor with no year. Added in thin-3 pass: Young 1900, Weyl 1925 and 1939, Macdonald 1979. The 1901 thesis claim remains medium confidence; the MacTutor Weyl page confirms that Hurwitz and Schur introduced the ideas Weyl extended. Frobenius' precursor stays undated after searching Crossref and zbMATH. The name 'Schur functor' or 'Schur-Weyl duality' was not traced to a first use.",
+  "derivedDates": {
+   "conceptual": 1901,
+   "methodological": null,
+   "institutional": 1939
+  },
+  "pass": "source-first thin-3 enrichment (Claude), unadjudicated"
+ },
+ {
+  "pid": "P421",
+  "eventId": "H4",
+  "canonicalName": "Knot problems become group-theoretic: knot groups (Dehn)",
+  "aliases": [
+   "knot groups",
+   "fundamental group of a knot complement",
+   "Dehn knot groups"
+  ],
+  "phases": [
+   "Knot groups as invariants (Dehn)",
+   "Systematic knot theory (Reidemeister)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1895,
+    "endYear": null,
+    "precision": "year",
+    "label": "Poincare introduces the fundamental group",
+    "work": "Henri Poincare, Analysis situs, J. Ecole Polytech., 1895",
+    "people": [
+     "Henri Poincare"
+    ],
+    "description": "Defines the group of loops of a space, the object Dehn applies to knot complements.",
+    "evidence": [
+     {
+      "claim": "Biography of Poincare covering Analysis situs.",
+      "source": "MacTutor, Poincare biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Dehn's 1914 paper was written not long after the fundamental group's discovery.",
+      "source": "MacTutor, Dehn biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Dehn/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1910,
+    "endYear": null,
+    "precision": "year",
+    "label": "Dehn's topology of three-space",
+    "work": "Dehn, M., Über die Topologie des dreidimensionalen Raumes, Mathematische Annalen (1910)",
+    "people": [
+     "Max Dehn"
+    ],
+    "description": "Dehn's 1910 Mathematische Annalen paper is the earliest record found for the topological programme in which the knot group is used.",
+    "evidence": [
+     {
+      "claim": "Paper exists with this title and year",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01455155",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Knot group as key invariant",
+      "source": "Wikipedia: Knot group (definition and invariance)",
+      "url": "https://en.wikipedia.org/wiki/Knot_group",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The use of the knot group in this 1910 paper comes from the input summary and has not been checked against the text."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1914,
+    "endYear": null,
+    "precision": "year",
+    "label": "Trefoils separated by the knot group",
+    "work": "Dehn, M., Die beiden Kleeblattschlingen, Mathematische Annalen (1914)",
+    "people": [
+     "Max Dehn"
+    ],
+    "description": "Dehn applies the knot group to show that the two trefoil knots are inequivalent.",
+    "evidence": [
+     {
+      "claim": "Paper exists with this title and year",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01563732",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Knot group distinguishes knots; trefoil group identified with braid group B3",
+      "source": "Wikipedia: Knot group, Examples",
+      "url": "https://en.wikipedia.org/wiki/Knot_group",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The separation of the trefoils is taken from the input summary and the 1914 title; the proof itself was not read."
+   },
+   {
+    "role": "key_development",
+    "year": 1927,
+    "endYear": null,
+    "precision": "year",
+    "label": "Reidemeister's elementary foundation of knot theory",
+    "work": "Kurt Reidemeister, Elementare Begruendung der Knotentheorie, Abh. Math. Sem. Hamburg 5, 1927",
+    "people": [
+     "Kurt Reidemeister"
+    ],
+    "description": "Shows knot equivalence reduces to three diagram moves, making group presentations computable from diagrams.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Abh. Math. Sem. Univ. Hamburg 5, pp. 24-32.",
+      "source": "Crossref 10.1007/bf02952507",
+      "url": "https://doi.org/10.1007/bf02952507",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "zbMATH lists it as 1926 (Hamburg volume 5).",
+      "source": "zbMATH 2587523",
+      "url": "https://zbmath.org/2587523",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Crossref gives 1927, zbMATH 1926 for the same paper; the volume spans both years."
+   },
+   {
+    "role": "key_development",
+    "year": 1928,
+    "endYear": null,
+    "precision": "year",
+    "label": "Alexander's invariants of knots and links",
+    "work": "J. W. Alexander, Topological invariants of knots and links, Trans. Amer. Math. Soc. 30, 1928",
+    "people": [
+     "James Waddell Alexander"
+    ],
+    "description": "Builds knot invariants from the knot group's presentation, giving the Alexander polynomial.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Trans. AMS 30 (1928), pp. 275-306.",
+      "source": "Crossref 10.1090/s0002-9947-1928-1501429-1",
+      "url": "https://doi.org/10.1090/s0002-9947-1928-1501429-1",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1932,
+    "endYear": null,
+    "precision": "year",
+    "label": "Reidemeister's Knotentheorie",
+    "work": "Reidemeister, K., Knotentheorie (1932)",
+    "people": [
+     "Kurt Reidemeister"
+    ],
+    "description": "Reidemeister's 1932 monograph gives a systematic treatment of knot theory, including knot groups.",
+    "evidence": [
+     {
+      "claim": "Monograph with this title and year",
+      "source": "zbMATH Open",
+      "url": "https://zbmath.org/?q=an:58.1202.04",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Consolidation role is provisional: the record shows the title and year only; the content was not read."
+   },
+   {
+    "role": "key_development",
+    "year": 1957,
+    "endYear": null,
+    "precision": "year",
+    "label": "Papakyriakopoulos proves Dehn's lemma",
+    "work": "C. D. Papakyriakopoulos, On Dehn's lemma and the asphericity of knots, Ann. of Math. 66, 1957",
+    "people": [
+     "Christos Papakyriakopoulos"
+    ],
+    "description": "Fills the gap in Dehn's 1910 argument and shows knot complements are aspherical, so the knot group carries the knot's topology.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Annals of Mathematics 66 (1957).",
+      "source": "Crossref 10.2307/1970113",
+      "url": "https://doi.org/10.2307/1970113",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The consequence that a knot with group Z is trivial is the standard reading and was not checked in the paper."
+   }
+  ],
+  "people": [
+   {
+    "name": "Max Dehn",
+    "role": "originator",
+    "lifespan": "1878-1952",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Dehn/",
+    "works": [
+     {
+      "citation": "Dehn, Über die Topologie des dreidimensionalen Raumes, Math. Ann. (1910)",
+      "year": 1910,
+      "url": "https://doi.org/10.1007/bf01455155",
+      "whyItMatters": "Topological setting of knot invariants."
+     },
+     {
+      "citation": "Dehn, Die beiden Kleeblattschlingen, Math. Ann. (1914)",
+      "year": 1914,
+      "url": "https://doi.org/10.1007/bf01563732",
+      "whyItMatters": "Separates the two trefoils."
+     }
+    ],
+    "roleNote": "originator of knot groups and word problems"
+   },
+   {
+    "name": "Kurt Reidemeister",
+    "role": "systematiser",
+    "lifespan": "dates not verified",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Reidemeister/",
+    "works": [
+     {
+      "citation": "Reidemeister, Knotentheorie (1932)",
+      "year": 1932,
+      "url": "https://zbmath.org/?q=an:58.1202.04",
+      "whyItMatters": "Early monograph on knot theory."
+     },
+     {
+      "citation": "Elementare Begruendung der Knotentheorie, Abh. Math. Sem. Hamburg 5",
+      "year": 1927,
+      "url": "https://doi.org/10.1007/bf02952507",
+      "whyItMatters": "Reidemeister moves."
+     }
+    ],
+    "roleNote": "systematic knot theory"
+   },
+   {
+    "name": "James Waddell Alexander",
+    "role": "developer",
+    "lifespan": "1888 - 1971",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Alexander/",
+    "works": [
+     {
+      "citation": "Topological invariants of knots and links, Trans. AMS 30",
+      "year": 1928,
+      "url": "https://doi.org/10.1090/s0002-9947-1928-1501429-1",
+      "whyItMatters": "Alexander polynomial from the knot group."
+     }
+    ]
+   },
+   {
+    "name": "Christos Papakyriakopoulos",
+    "role": "developer",
+    "lifespan": "1914 - 1976",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Christos_Papakyriakopoulos",
+    "works": [
+     {
+      "citation": "On Dehn's lemma and the asphericity of knots, Ann. of Math. 66",
+      "year": 1957,
+      "url": "https://doi.org/10.2307/1970113",
+      "whyItMatters": "Proved Dehn's lemma."
+     }
+    ]
+   }
+  ],
+  "notes": "Searched Wikipedia Knot group page and MacTutor Dehn biography (URL checked, text not read). Crossref confirmed the 1910 and 1914 Dehn papers. Input summary claims are partly unconfirmed. Wirtinger presentation and Alexander's invariant are not in this batch. Derived dates are the earliest first statement, application and consolidation found. Added in thin-3 pass: Poincare's fundamental group (precursor), Reidemeister 1927, Alexander 1928, Papakyriakopoulos 1957. The English Wikipedia Knot group article is a short properties page with no history; MacTutor Dehn supports the 1910 and 1914 papers and the trefoil argument. Wirtinger's presentation was not located in a bibliographic record and is not listed.",
+  "derivedDates": {
+   "conceptual": 1910,
+   "methodological": 1914,
+   "institutional": 1932
+  },
+  "pass": "source-first thin-3 enrichment (Claude), unadjudicated"
+ },
+ {
+  "pid": "P383",
+  "eventId": "W39/M46",
+  "canonicalName": "Brouwer topology",
+  "aliases": [
+   "Brouwer fixed-point theorem",
+   "invariance of dimension",
+   "degree theory",
+   "simplicial approximation"
+  ],
+  "phases": [
+   "Fixed points on surfaces (1910)",
+   "Invariance of dimension (1911)",
+   "Degree and general fixed point (1912)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1904,
+    "endYear": null,
+    "precision": "year",
+    "label": "Bohl proves the three-dimensional case",
+    "work": "Piers Bohl, Ueber die Bewegung eines mechanischen Systems in der Naehe einer Gleichgewichtslage, Crelle 127, 1904",
+    "people": [
+     "Piers Bohl"
+    ],
+    "description": "Early fixed-point result for the three-dimensional ball, arising from stability of mechanical systems.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Crelle 127 (1904), pp. 179-276.",
+      "source": "Crossref 10.1515/crll.1904.127.179",
+      "url": "https://doi.org/10.1515/crll.1904.127.179",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "The n=3 case was first proved by Bohl in 1904.",
+      "source": "Wikipedia, Brouwer fixed-point theorem",
+      "url": "https://en.wikipedia.org/wiki/Brouwer_fixed-point_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1910,
+    "endYear": null,
+    "precision": "year",
+    "label": "Brouwer's fixed point on surfaces",
+    "work": "Brouwer, L. E. J., Uber eineindeutige, stetige Transformationen von Flachen in sich, Mathematische Annalen (1910)",
+    "people": [
+     "L. E. J. Brouwer"
+    ],
+    "description": "Brouwer's 1910 paper proves a fixed-point result for homeomorphisms of surfaces.",
+    "evidence": [
+     {
+      "claim": "Paper with this title, journal and year",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01456868",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Says Brouwer proved the n=3 case in 1909 and Hadamard the general case in 1910; Brouwer's general continuous case is dated 1911.",
+      "source": "Wikipedia, Brouwer fixed-point theorem",
+      "url": "https://en.wikipedia.org/wiki/Brouwer_fixed-point_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Wikipedia dates Brouwer's own fixed-point proofs to 1909 and 1911; the 1910 surface paper is kept as the verified Crossref record, so the first statement of the theorem is uncertain by a year or two."
+   },
+   {
+    "role": "key_development",
+    "year": 1910,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hadamard proves the differentiable case for balls",
+    "work": "Jacques Hadamard, appendix to Tannery, Introduction a la theorie des fonctions, 1910",
+    "people": [
+     "Jacques Hadamard"
+    ],
+    "description": "Proves the fixed-point theorem for differentiable maps of the ball in any dimension using the Kronecker index.",
+    "evidence": [
+     {
+      "claim": "Hadamard proved the case of differentiable maps of the closed ball in 1910.",
+      "source": "Wikipedia, Brouwer fixed-point theorem",
+      "url": "https://en.wikipedia.org/wiki/Brouwer_fixed-point_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "No bibliographic record found; Crossref has no record for his note on the Kronecker index."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1911,
+    "endYear": null,
+    "precision": "year",
+    "label": "Invariance of dimension",
+    "work": "Brouwer, L. E. J., Beweis der Invarianz der Dimensionenzahl, Mathematische Annalen (1911)",
+    "people": [
+     "L. E. J. Brouwer"
+    ],
+    "description": "Brouwer uses simplicial approximation to prove invariance of dimension.",
+    "evidence": [
+     {
+      "claim": "Paper with this title, journal and year",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01461154",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1912,
+    "endYear": null,
+    "precision": "year",
+    "label": "Degree and maps of manifolds",
+    "work": "Brouwer, L. E. J., Uber Abbildung von Mannigfaltigkeiten, Mathematische Annalen (1912)",
+    "people": [
+     "L. E. J. Brouwer"
+    ],
+    "description": "Brouwer's 1912 paper develops the degree of maps and the general fixed-point theorem.",
+    "evidence": [
+     {
+      "claim": "Paper with this title, journal and year",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01456812",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Crossref also lists a 1911 record for the same title; 1912 follows the volume issue and is provisional."
+   },
+   {
+    "role": "key_development",
+    "year": 1926,
+    "endYear": null,
+    "precision": "year",
+    "label": "Lefschetz fixed-point theorem",
+    "work": null,
+    "people": [
+     "Solomon Lefschetz"
+    ],
+    "description": "Counts fixed points in finite dimensions, generalising Brouwer's theorem.",
+    "evidence": [
+     {
+      "claim": "Wikipedia dates the Lefschetz theorem's method of counting fixed points to 1926.",
+      "source": "Wikipedia, Brouwer fixed-point theorem",
+      "url": "https://en.wikipedia.org/wiki/Brouwer_fixed-point_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Original paper not located in Crossref."
+   },
+   {
+    "role": "key_development",
+    "year": 1930,
+    "endYear": null,
+    "precision": "year",
+    "label": "Schauder's fixed-point theorem in function spaces",
+    "work": "Juliusz Schauder, Der Fixpunktsatz in Funktionalraeumen, Studia Math. 2, 1930",
+    "people": [
+     "Juliusz Schauder"
+    ],
+    "description": "Extends Brouwer's theorem to Banach spaces, opening nonlinear analysis.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Studia Math. 2 (1930), pp. 171-180.",
+      "source": "Crossref 10.4064/sm-2-1-171-180",
+      "url": "https://doi.org/10.4064/sm-2-1-171-180",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Brouwer's theorem was generalised to Banach spaces in 1930.",
+      "source": "Wikipedia, Brouwer fixed-point theorem",
+      "url": "https://en.wikipedia.org/wiki/Brouwer_fixed-point_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "L. E. J. Brouwer",
+    "role": "originator",
+    "lifespan": "1881-1966",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Brouwer/",
+    "works": [
+     {
+      "citation": "Brouwer, Uber eineindeutige, stetige Transformationen von Flachen in sich (1910)",
+      "year": 1910,
+      "url": "https://doi.org/10.1007/bf01456868",
+      "whyItMatters": "Fixed points on surfaces."
+     },
+     {
+      "citation": "Brouwer, Beweis der Invarianz der Dimensionenzahl (1911)",
+      "year": 1911,
+      "url": "https://doi.org/10.1007/bf01461154",
+      "whyItMatters": "Invariance of dimension."
+     },
+     {
+      "citation": "Brouwer, Uber Abbildung von Mannigfaltigkeiten (1912)",
+      "year": 1912,
+      "url": "https://doi.org/10.1007/bf01456812",
+      "whyItMatters": "Degree theory."
+     }
+    ],
+    "roleNote": "founder of Brouwer topology"
+   },
+   {
+    "name": "Piers Bohl",
+    "role": "originator",
+    "lifespan": "1865 - 1921",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bohl/",
+    "works": [
+     {
+      "citation": "Ueber die Bewegung eines mechanischen Systems in der Naehe einer Gleichgewichtslage, Crelle 127",
+      "year": 1904,
+      "url": "https://doi.org/10.1515/crll.1904.127.179",
+      "whyItMatters": "Three-dimensional fixed-point case."
+     }
+    ]
+   },
+   {
+    "name": "Juliusz Schauder",
+    "role": "developer",
+    "lifespan": "1899 - 1943",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Schauder/",
+    "works": [
+     {
+      "citation": "Der Fixpunktsatz in Funktionalraeumen, Studia Math. 2",
+      "year": 1930,
+      "url": "https://doi.org/10.4064/sm-2-1-171-180",
+      "whyItMatters": "Banach-space generalisation."
+     }
+    ]
+   }
+  ],
+  "notes": "Crossref verified the three Brouwer papers; the fixed-point and degree contents are from the input summary and not read in the texts. No consolidation or naming milestone was found in this batch, so institutional is null. Added in thin-3 pass: Bohl 1904, Hadamard 1910, Lefschetz 1926, Schauder 1930. The event bundles the fixed-point theorem, invariance of dimension and degree theory; the three Brouwer papers keep their earlier Crossref evidence. Wikipedia's history credits Brouwer 1909/1911 for the general theorem, which is why the 1910 surface paper is a doubtful first_statement. No naming or consolidation milestone found.",
+  "derivedDates": {
+   "conceptual": 1910,
+   "methodological": 1911,
+   "institutional": null
+  },
+  "pass": "source-first thin-3 enrichment (Claude), unadjudicated"
+ },
+ {
+  "pid": "P380",
+  "eventId": "W32/M55",
+  "canonicalName": "Model theory beginnings (Löwenheim-Skolem)",
+  "aliases": [
+   "Löwenheim-Skolem theorem",
+   "Löwenheim-Skolem paradox",
+   "semantic study of formal theories"
+  ],
+  "phases": [
+   "Löwenheim-Skolem semantics (1915-1920)",
+   "Consolidation as model theory (1973)",
+   "Löwenheim-Skolem semantics",
+   "Consolidation as model theory"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Löwenheim-Skolem semantics",
+    "year": 1915,
+    "precision": "year",
+    "label": "Löwenheim's downward result in the relational calculus",
+    "work": "Löwenheim, 'Über Möglichkeiten im Relativkalkül', Mathematische Annalen 76 (1915)",
+    "people": [
+     "Leopold Löwenheim"
+    ],
+    "description": "Löwenheim shows that a formula with a model has a model on a countable domain, in the relational calculus.",
+    "evidence": [
+     {
+      "claim": "1915 Math. Ann. record",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1007/BF01458217",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Löwenheim's 1915 work extended by Skolem to the theorem",
+      "source": "MacTutor: Skolem biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Skolem/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Input summary says first-order theories in general; the 1915 paper is in the relational calculus. The full first-order form is Skolem's 1920."
+   },
+   {
+    "role": "key_development",
+    "phase": "Löwenheim-Skolem semantics",
+    "year": 1920,
+    "precision": "year",
+    "label": "Skolem's extension to first-order theories",
+    "work": "Skolem, Löwenheim-Skolem papers (Videnskapsselskapets Skrifter, 1920)",
+    "people": [
+     "Thoralf Skolem"
+    ],
+    "description": "Skolem extends Löwenheim's result to first-order predicate calculus: a theory with a model has a countable model.",
+    "evidence": [
+     {
+      "claim": "Skolem published the Löwenheim-Skolem theorem in 1920",
+      "source": "MacTutor: Skolem biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Skolem/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Crossref search for the 1920 Skolem paper returned no match; the year is from the biography only."
+   },
+   {
+    "role": "key_development",
+    "year": 1930,
+    "endYear": null,
+    "precision": "year",
+    "label": "Goedel's completeness theorem makes compactness explicit",
+    "work": "Kurt Goedel, Die Vollstaendigkeit der Axiome des logischen Funktionenkalkuels, Monatsh. Math. Phys. 37, 1930",
+    "people": [
+     "Kurt Goedel"
+    ],
+    "description": "The compactness theorem appears as a lemma, giving the semantic toolkit for Skolem-style arguments.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Monatsh. Math. Phys. 37 (1930), pp. 349-360.",
+      "source": "Crossref 10.1007/bf01696781",
+      "url": "https://doi.org/10.1007/bf01696781",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Compactness was implicit in Skolem but first published in Goedel's 1930 proof.",
+      "source": "Wikipedia, Model theory",
+      "url": "https://en.wikipedia.org/wiki/Model_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "naming",
+    "year": 1954,
+    "endYear": null,
+    "precision": "year",
+    "label": "Tarski's 'theory of models'",
+    "work": "Alfred Tarski, Contributions to the theory of models I, Indag. Math. 57, 1954",
+    "people": [
+     "Alfred Tarski"
+    ],
+    "description": "First published use of the phrase theory of models, naming the discipline.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Indag. Math. 57 (1954), pp. 572-581.",
+      "source": "Crossref 10.1016/s1385-7258(54)50074-0",
+      "url": "https://doi.org/10.1016/s1385-7258(54)50074-0",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Tarski first used 'Theory of Models' in publication in 1954.",
+      "source": "Wikipedia, Model theory",
+      "url": "https://en.wikipedia.org/wiki/Model_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "year": 1957,
+    "endYear": null,
+    "precision": "year",
+    "label": "Tarski-Vaught on elementary extensions",
+    "work": "Alfred Tarski and Robert L. Vaught, Arithmetical extensions of relational systems, Compositio Math. 13, 1957",
+    "people": [
+     "Alfred Tarski",
+     "Robert Vaught"
+    ],
+    "description": "Studies elementary extensions, giving the upward direction and the Tarski-Vaught test for the theorem.",
+    "evidence": [
+     {
+      "claim": "zbMATH record, Compositio Math. 13, 82-102 (1957).",
+      "source": "zbMATH 3148408",
+      "url": "https://zbmath.org/3148408",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "consolidation",
+    "year": 1963,
+    "endYear": null,
+    "precision": "year",
+    "label": "Robinson's Introduction to Model Theory",
+    "work": "Abraham Robinson, Introduction to Model Theory and to the Metamathematics of Algebra, Amsterdam, 1963",
+    "people": [
+     "Abraham Robinson"
+    ],
+    "description": "First textbook with the term model theory in its title.",
+    "evidence": [
+     {
+      "claim": "First published 1963, North-Holland.",
+      "source": "Open Library record OL1308944W",
+      "url": "https://openlibrary.org/works/OL1308944W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "'First textbook' is not checked beyond the catalogue; Tarski's papers and Mal'cev's earlier work are earlier."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Consolidation as model theory",
+    "year": 1973,
+    "precision": "year",
+    "label": "Chang and Keisler's Model Theory",
+    "work": "Chang & Keisler, Model Theory (North-Holland, 1973)",
+    "people": [
+     "Chen Chung Chang"
+    ],
+    "description": "The 1973 monograph is the standard systematic treatment of model theory and fixes the field's name.",
+    "evidence": [
+     {
+      "claim": "1973 'Model theory' record, author listed as Chang",
+      "source": "Open Library search",
+      "url": "https://openlibrary.org/search.json?q=Model+Theory+Chang+Keisler",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Open Library lists the 1973 title under Chang; Keisler as co-author taken from the citation. The 'naming' milestone was not found."
+   }
+  ],
+  "people": [
+   {
+    "name": "Leopold Löwenheim",
+    "role": "originator",
+    "lifespan": "1878-1957",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lowenheim/",
+    "works": [
+     {
+      "citation": "Löwenheim, 'Über Möglichkeiten im Relativkalkül', Math. Ann. 76 (1915)",
+      "year": 1915,
+      "url": "https://doi.org/10.1007/BF01458217",
+      "whyItMatters": "Original countable-model result."
+     }
+    ],
+    "roleNote": "first downward result"
+   },
+   {
+    "name": "Thoralf Skolem",
+    "role": "developer",
+    "lifespan": "1887-1963",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Skolem/",
+    "works": [
+     {
+      "citation": "Skolem, Logisch-kombinatorische Untersuchungen ueber die Erfuellbarkeit oder Beweisbarkeit mathematischer Saetze, Skrifter Vid.-Akad. Kristiania",
+      "year": 1920,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Skolem/",
+      "whyItMatters": "MacTutor dates Skolem's extension of Loewenheim's theorem to 1920."
+     }
+    ],
+    "roleNote": "first-order extension"
+   },
+   {
+    "name": "Chen Chung Chang",
+    "role": "systematiser",
+    "lifespan": "dates not verified",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Chen_Chung_Chang",
+    "works": [
+     {
+      "citation": "Chang & Keisler, Model Theory (1973)",
+      "year": 1973,
+      "url": "https://openlibrary.org/search.json?q=Model+Theory+Chang+Keisler",
+      "whyItMatters": "Standard monograph."
+     }
+    ],
+    "roleNote": "consolidation"
+   },
+   {
+    "name": "Alfred Tarski",
+    "role": "systematiser",
+    "lifespan": "1901 - 1983",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Tarski/",
+    "works": [
+     {
+      "citation": "Contributions to the theory of models I, Indag. Math. 57",
+      "year": 1954,
+      "url": "https://doi.org/10.1016/s1385-7258(54)50074-0",
+      "whyItMatters": "Named the field theory of models."
+     }
+    ]
+   },
+   {
+    "name": "Abraham Robinson",
+    "role": "popularizer",
+    "lifespan": "1918 - 1974",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Robinson/",
+    "works": [
+     {
+      "citation": "Introduction to Model Theory and to the Metamathematics of Algebra",
+      "year": 1963,
+      "url": "https://openlibrary.org/works/OL1308944W",
+      "whyItMatters": "Textbook that gave the field its name in book form."
+     }
+    ]
+   }
+  ],
+  "notes": "Input summary says Löwenheim and Skolem showed countable models exist for first-order theories; MacTutor and the 1915 record show the 1915 result is in the relational calculus and the first-order form is 1920. The naming ('model theory' term) was not found. No first_application milestone was found, so the methodological date is null. Derived dates: conceptual 1915, methodological null, institutional 1973. Added in thin-3 pass: Goedel 1930, Tarski 1954 (naming), Tarski-Vaught 1957, Robinson 1963. Skolem's 1920 paper has no Crossref record; its year rests on MacTutor Skolem, which says Skolem extended Loewenheim's 1915 work in a 1920 publication. Duplicate phase labels in the earlier record are left as they were. Maltsev 1936 and 1941 are named in Wikipedia but were not checked in a record.",
+  "searchedSources": [
+   "MacTutor: Skolem biography (live)",
+   "MacTutor: Löwenheim biography (live)",
+   "Crossref (Löwenheim 1915)",
+   "Open Library (Chang & Keisler)"
+  ],
+  "derivedDates": {
+   "conceptual": 1915,
+   "methodological": null,
+   "institutional": 1954
+  },
+  "pass": "source-first thin-3 enrichment (Claude), unadjudicated"
+ },
+ {
+  "pid": "P210",
+  "eventId": "MB22/WB7",
+  "canonicalName": "Axiomatic homology",
+  "aliases": [
+   "Eilenberg-Steenrod axioms",
+   "axiomatic homology theory",
+   "axiomatic characterisation of homology"
+  ],
+  "phases": [
+   "Eilenberg-Steenrod axioms (1945-1952)",
+   "Axiomatic characterisation (1962)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1944,
+    "endYear": null,
+    "precision": "year",
+    "label": "Eilenberg's singular homology theory",
+    "work": "Samuel Eilenberg, Singular homology theory, Ann. of Math. 45, 1944",
+    "people": [
+     "Samuel Eilenberg"
+    ],
+    "description": "Develops singular homology, the model example the axioms were written to characterise.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Annals of Mathematics 45 (1944), p. 407.",
+      "source": "Crossref 10.2307/1969185",
+      "url": "https://doi.org/10.2307/1969185",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Singular homology is the quintessential example satisfying the axioms.",
+      "source": "Wikipedia, Eilenberg-Steenrod axioms",
+      "url": "https://en.wikipedia.org/wiki/Eilenberg%E2%80%93Steenrod_axioms",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "first_statement",
+    "phase": "Eilenberg-Steenrod axioms (1945-1952)",
+    "year": 1945,
+    "endYear": null,
+    "precision": "year",
+    "label": "Eilenberg-Steenrod axiomatic approach",
+    "work": "Eilenberg, S., Steenrod, N. E., Axiomatic approach to homology theory, Proc. Natl. Acad. Sci. 31 (1945) 117-120, doi 10.1073/pnas.31.4.117",
+    "people": [
+     "Samuel Eilenberg",
+     "Norman Steenrod"
+    ],
+    "description": "States the homology axioms (homotopy, excision, dimension, exactness) so that results hold for any theory satisfying them.",
+    "evidence": [
+     {
+      "claim": "Crossref record: 'Axiomatic Approach to Homology Theory', PNAS, 1945",
+      "source": "Crossref API",
+      "url": "https://doi.org/10.1073/pnas.31.4.117",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia: the axiomatic approach was developed in 1945 and allows proofs such as Mayer-Vietoris",
+      "source": "Wikipedia: Eilenberg-Steenrod axioms",
+      "url": "https://en.wikipedia.org/wiki/Eilenberg%E2%80%93Steenrod_axioms",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": "Eilenberg-Steenrod axioms (1945-1952)",
+    "year": 1952,
+    "endYear": null,
+    "precision": "year",
+    "label": "Eilenberg and Steenrod's Foundations of Algebraic Topology",
+    "work": "Eilenberg, S., Steenrod, N. E., Foundations of Algebraic Topology, Princeton University Press (1952), zbMATH 0047.41402",
+    "people": [
+     "Samuel Eilenberg",
+     "Norman Steenrod"
+    ],
+    "description": "The book that systematises the axiomatic homology theory.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 'Foundations of algebraic topology', Princeton 1952",
+      "source": "zbMATH API (Zbl 0047.41402)",
+      "url": "https://zbmath.org/?q=an:0047.41402",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor: Steenrod's book with Eilenberg, published in 1952",
+      "source": "MacTutor Biography: Norman Steenrod",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Steenrod/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": "Axiomatic characterisation (1962)",
+    "year": 1962,
+    "endYear": null,
+    "precision": "year",
+    "label": "Milnor's axiomatic homology theory",
+    "work": "Milnor, J. W., On axiomatic homology theory, Pacific J. Math. 12 (1962) 337-341, zbMATH 0114.39604",
+    "people": [
+     "John Milnor"
+    ],
+    "description": "Develops the axiomatic framework for homology theories further.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 'On axiomatic homology theory', Pacific J. Math. 12 (1962)",
+      "source": "zbMATH API (Zbl 0114.39604)",
+      "url": "https://zbmath.org/?q=an:0114.39604",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Development role inferred from the title and venue."
+   },
+   {
+    "role": "key_development",
+    "year": 1962,
+    "endYear": null,
+    "precision": "year",
+    "label": "G. W. Whitehead's generalized homology theories",
+    "work": "George W. Whitehead, Generalized homology theories, Trans. Amer. Math. Soc. 102, 1962",
+    "people": [
+     "George W. Whitehead"
+    ],
+    "description": "Drops the dimension axiom to define extraordinary theories, the route to K-theory and cobordism.",
+    "evidence": [
+     {
+      "claim": "zbMATH record, Trans. AMS 102, 227-283 (1962).",
+      "source": "zbMATH 3202148",
+      "url": "https://zbmath.org/3202148",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Omitting the dimension axiom gives extraordinary theories, important in the 1950s and after.",
+      "source": "Wikipedia, Eilenberg-Steenrod axioms",
+      "url": "https://en.wikipedia.org/wiki/Eilenberg%E2%80%93Steenrod_axioms",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "people": [
+   {
+    "name": "Samuel Eilenberg",
+    "role": "developer",
+    "lifespan": "1913-1998",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Eilenberg/",
+    "works": [
+     {
+      "citation": "Axiomatic approach to homology theory, PNAS 31",
+      "year": 1945,
+      "url": "https://doi.org/10.1073/pnas.31.4.117",
+      "whyItMatters": "Axioms."
+     },
+     {
+      "citation": "Foundations of Algebraic Topology (with Steenrod), Princeton",
+      "year": 1952,
+      "url": "https://zbmath.org/?q=an:0047.41402",
+      "whyItMatters": "Systematic book."
+     },
+     {
+      "citation": "Singular homology theory, Ann. of Math. 45",
+      "year": 1944,
+      "url": "https://doi.org/10.2307/1969185",
+      "whyItMatters": "Singular homology, the model for the axioms."
+     }
+    ],
+    "roleNote": "axioms and book"
+   },
+   {
+    "name": "Norman Steenrod",
+    "role": "developer",
+    "lifespan": "1910-1971",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Steenrod/",
+    "works": [
+     {
+      "citation": "Foundations of Algebraic Topology (with Eilenberg), Princeton",
+      "year": 1952,
+      "url": "https://zbmath.org/?q=an:0047.41402",
+      "whyItMatters": "Systematic book."
+     }
+    ],
+    "roleNote": "axioms and book"
+   },
+   {
+    "name": "John Milnor",
+    "role": "developer",
+    "lifespan": "1931-",
+    "biographyUrl": "https://en.wikipedia.org/wiki/John_Milnor",
+    "works": [
+     {
+      "citation": "On axiomatic homology theory, Pacific J. Math. 12",
+      "year": 1962,
+      "url": "https://zbmath.org/?q=an:0114.39604",
+      "whyItMatters": "Axiomatic framework."
+     }
+    ],
+    "roleNote": "axiomatic characterisation"
+   },
+   {
+    "name": "George W. Whitehead",
+    "role": "developer",
+    "lifespan": "1918 - 2004",
+    "biographyUrl": "https://en.wikipedia.org/wiki/George_W._Whitehead",
+    "works": [
+     {
+      "citation": "Generalized homology theories, Trans. AMS 102",
+      "year": 1962,
+      "url": "https://zbmath.org/3202148",
+      "whyItMatters": "Extraordinary homology theories."
+     }
+    ]
+   }
+  ],
+  "notes": "Only three milestones are supported by the sources searched: Crossref, zbMATH, the Wikipedia history and MacTutor. No precursor or first_application was established, so no fourth milestone is recorded. The derived methodological date is null. Naming ('Eilenberg-Steenrod axioms') date not checked. The Wikipedia lead gives 1945 for the axiomatic approach, which matches the PNAS record. Added in thin-3 pass: Eilenberg 1944 (precursor) and G. W. Whitehead 1962. The Wikipedia article dates the axiomatic approach to 1945, matching the PNAS record. Whitehead's lifespan (1918-2004) is from general knowledge. The date of the name 'Eilenberg-Steenrod axioms' was not traced, so no naming milestone; no first_application found.",
+  "searchedSources": [
+   "Wikipedia raw: Eilenberg-Steenrod axioms",
+   "MacTutor: Eilenberg, Steenrod",
+   "Crossref",
+   "zbMATH API: Eilenberg-Steenrod, Milnor"
+  ],
+  "derivedDates": {
+   "conceptual": 1945,
+   "methodological": null,
+   "institutional": 1952
+  },
+  "pass": "source-first thin-3 enrichment (Claude), unadjudicated"
+ },
+ {
+  "pid": "P269",
+  "eventId": "MB79",
+  "canonicalName": "Pontryagin maximum principle",
+  "aliases": [
+   "Pontryagin's maximum principle",
+   "Pontryagin optimal control",
+   "necessary conditions for optimal control"
+  ],
+  "phases": [
+   "Formulation (1956)",
+   "Book treatment (1961-62)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1956,
+    "endYear": null,
+    "precision": "year",
+    "label": "Maximum principle announced by Boltyanskii, Gamkrelidze and Pontryagin",
+    "work": "V. G. Boltyanskii, R. V. Gamkrelidze, L. S. Pontryagin, On the theory of optimal processes, Dokl. Akad. Nauk SSSR 110, 7-10, 1956",
+    "people": [
+     "Lev Pontryagin",
+     "Vladimir Boltyanskii",
+     "Revaz Gamkrelidze"
+    ],
+    "description": "Short note announcing necessary conditions for optimal control in terms of a maximum of a Hamiltonian.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: Dokl. Akad. Nauk SSSR 110, 7-10 (1956).",
+      "source": "zbMATH 3118979",
+      "url": "https://zbmath.org/3118979",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "The maximum principle was formulated in 1956 by Pontryagin and his students.",
+      "source": "Wikipedia, Pontryagin's maximum principle",
+      "url": "https://en.wikipedia.org/wiki/Pontryagin%27s_maximum_principle",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Year from Wikipedia only. No Crossref or zbMATH record was found for the 1956 publication (zbMATH blocked by a bot-check page). Left at low confidence; the exact publication should be checked."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1961,
+    "endYear": null,
+    "precision": "year",
+    "label": "Monograph The Mathematical Theory of Optimal Processes (Russian 1961, English 1962)",
+    "work": "Pontryagin, L. S., Boltyanskii, V. G., Gamkrelidze, R. V., Mishchenko, E. F., The Mathematical Theory of Optimal Processes, Interscience/Wiley (1962; Russian 1961)",
+    "people": [
+     "Lev Pontryagin",
+     "Vladimir Boltyanskii",
+     "Revaz Gamkrelidze",
+     "Evgenii Mishchenko"
+    ],
+    "description": "The first systematic treatment of the maximum principle, a monograph with the students' proofs.",
+    "evidence": [
+     {
+      "claim": "Open Library record for The Mathematical Theory of Optimal Processes (Wiley, 1962)",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?q=Mathematical+theory+of+optimal+processes+Pontryagin",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor Pontryagin biography: the book was published in 1961, with the English translation in 1962",
+      "source": "MacTutor, Lev Pontryagin",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Pontryagin/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "zbMATH record of the 1961 Russian edition.",
+      "source": "zbMATH 3167339",
+      "url": "https://zbmath.org/3167339",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Year moved to the Russian original (1961); the Interscience English edition is 1962."
+   },
+   {
+    "role": "key_development",
+    "year": 1966,
+    "endYear": null,
+    "precision": "year",
+    "label": "Mangasarian's sufficient conditions",
+    "work": "O. L. Mangasarian, Sufficient conditions for the optimal control of nonlinear systems, SIAM J. Control 4, 1966",
+    "people": [
+     "Olvi Mangasarian"
+    ],
+    "description": "Shows the necessary conditions become sufficient under convexity.",
+    "evidence": [
+     {
+      "claim": "Crossref record, SIAM J. Control 4 (1966), pp. 139-152.",
+      "source": "Crossref 10.1137/0304013",
+      "url": "https://doi.org/10.1137/0304013",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Necessary conditions become sufficient under convexity.",
+      "source": "Wikipedia, Pontryagin's maximum principle",
+      "url": "https://en.wikipedia.org/wiki/Pontryagin%27s_maximum_principle",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": null,
+    "endYear": null,
+    "precision": "unknown",
+    "label": "Classical variational ideas and the rocket application",
+    "work": null,
+    "people": [
+     "Lev Pontryagin"
+    ],
+    "description": "Before the formal statement, the variational ideas come from classical calculus of variations; the initial application was maximising a rocket's terminal speed.",
+    "evidence": [
+     {
+      "claim": "Wikipedia article: the result was derived from classical calculus of variations and its initial application was to rocket terminal speed",
+      "source": "Wikipedia, Pontryagin's maximum principle",
+      "url": "https://en.wikipedia.org/wiki/Pontryagin%27s_maximum_principle",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Precursor with unknown year, as the schema allows. The rocket application is not dated in the source and no bibliographic record was checked; not promoted to first_application."
+   },
+   {
+    "role": "first_application",
+    "year": null,
+    "endYear": null,
+    "precision": "unknown",
+    "label": "Maximising the terminal speed of a rocket",
+    "work": null,
+    "people": [
+     "Lev Pontryagin"
+    ],
+    "description": "The principle's first use was a rocket speed-maximisation problem.",
+    "evidence": [
+     {
+      "claim": "Initial application was maximisation of a rocket's terminal speed.",
+      "source": "Wikipedia, Pontryagin's maximum principle",
+      "url": "https://en.wikipedia.org/wiki/Pontryagin%27s_maximum_principle",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Year not stated; searched Wikipedia, zbMATH and Crossref, and Wikipedia points to Fuller's bibliography and Gamkrelidze's 1999 account (Crossref 10.1023/a:1021783020548), not read here."
+   }
+  ],
+  "people": [
+   {
+    "name": "Lev Pontryagin",
+    "role": "originator",
+    "lifespan": "1908–1988",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Pontryagin/",
+    "works": [
+     {
+      "citation": "Boltyanskii, Gamkrelidze, Pontryagin, On the theory of optimal processes, Dokl. Akad. Nauk SSSR 110",
+      "year": 1956,
+      "url": "https://zbmath.org/3118979",
+      "whyItMatters": "First announcement of the maximum principle."
+     },
+     {
+      "citation": "The Mathematical Theory of Optimal Processes (with Boltyanskii, Gamkrelidze, Mishchenko)",
+      "year": 1961,
+      "url": "https://zbmath.org/3167339",
+      "whyItMatters": "Monograph that spread the principle."
+     }
+    ],
+    "roleNote": "originator of the maximum principle"
+   },
+   {
+    "name": "Vladimir Boltyanskii",
+    "role": "systematiser",
+    "lifespan": "1925 - 2019",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Vladimir_Boltyansky",
+    "works": [
+     {
+      "citation": "On the theory of optimal processes, Dokl. Akad. Nauk SSSR 110",
+      "year": 1956,
+      "url": "https://zbmath.org/3118979",
+      "whyItMatters": "Co-author of the first announcement."
+     }
+    ],
+    "roleNote": "co-author of the 1961 monograph"
+   },
+   {
+    "name": "Revaz Gamkrelidze",
+    "role": "developer",
+    "lifespan": "1927 - ",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Revaz_Gamkrelidze",
+    "works": [
+     {
+      "citation": "Discovery of the Maximum Principle, J. Dynam. Control Systems 5",
+      "year": 1999,
+      "url": "https://doi.org/10.1023/a:1021783020548",
+      "whyItMatters": "Insider account of how the principle was found."
+     }
+    ]
+   },
+   {
+    "name": "Olvi Mangasarian",
+    "role": "developer",
+    "lifespan": "1934 - 2020",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Olvi_L._Mangasarian",
+    "works": [
+     {
+      "citation": "Sufficient conditions for the optimal control of nonlinear systems, SIAM J. Control 4",
+      "year": 1966,
+      "url": "https://doi.org/10.1137/0304013",
+      "whyItMatters": "Sufficiency under convexity."
+     }
+    ]
+   }
+  ],
+  "notes": "Wikipedia says the initial application was maximising the terminal speed of a rocket, and that the result derives from classical variational ideas; no bibliographic record for the application or the 1956 statement was checked. Derived dates: conceptual 1956 (low confidence), methodological null, institutional 1962. Precursor (classical calculus of variations) not separately dated. People list is short because only these two were verified. Thin-3 pass: first_statement upgraded to the 1956 Doklady note (zbMATH), the monograph dated to the Russian 1961 edition, Mangasarian 1966 added, and the rocket application recorded with an open year. The precursor (classical variational ideas) stays undated. Lifespans for Boltyanskii, Gamkrelidze and Mangasarian are from general knowledge; confirm before display. No naming or institution milestone found.",
+  "derivedDates": {
+   "conceptual": 1956,
+   "methodological": null,
+   "institutional": 1961
+  },
+  "pass": "source-first thin-3 enrichment (Claude), unadjudicated"
+ },
+ {
+  "pid": "P475",
+  "eventId": "P26",
+  "canonicalName": "Selberg trace formula links spectra of surfaces to number theory",
+  "aliases": [
+   "Selberg trace formula",
+   "Selberg zeta function",
+   "trace formula for Riemann surfaces"
+  ],
+  "phases": [
+   "Selberg 1956 trace formula",
+   "Arthur's generalisation (1978)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1956,
+    "endYear": null,
+    "precision": "year",
+    "label": "Selberg's trace formula for Riemann surfaces",
+    "work": "A. Selberg, Harmonic analysis and discontinuous groups in weakly symmetric Riemannian spaces with applications to Dirichlet series, J. Indian Math. Soc. 20, 47-87, 1956",
+    "people": [
+     "Atle Selberg"
+    ],
+    "description": "Selberg's initial publication relates sums over Laplace eigenvalues to sums over closed geodesics, in analogy with prime-number explicit formulas.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: J. Indian Math. Soc. 20, 47-87 (1956).",
+      "source": "zbMATH 3120273",
+      "url": "https://zbmath.org/3120273",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Initial publication in 1956 dealt with compact Riemann surfaces and the analogy with prime-number explicit formulas.",
+      "source": "Wikipedia, Selberg trace formula",
+      "url": "https://en.wikipedia.org/wiki/Selberg_trace_formula",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Calls the trace formula Selberg's best and most important work.",
+      "source": "MacTutor, Selberg biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Selberg/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Journal (Journal of the Indian Mathematical Society 20, 1956) is not confirmed by a bibliographic record: Crossref did not return it and zbMATH is blocked. Confidence medium, not high."
+   },
+   {
+    "role": "first_application",
+    "year": 1959,
+    "endYear": null,
+    "precision": "year",
+    "label": "Huber on hyperbolic space forms and geodesics",
+    "work": "Heinz Huber, Zur analytischen Theorie hyperbolischer Raumformen und Bewegungsgruppen, Math. Ann. 138, 1959",
+    "people": [
+     "Heinz Huber"
+    ],
+    "description": "Uses the trace-formula method to relate the spectrum to lengths of closed geodesics.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Math. Ann. 138 (1959), pp. 1-26.",
+      "source": "Crossref 10.1007/bf01369663",
+      "url": "https://doi.org/10.1007/bf01369663",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Content not read; the application is inferred from the title and the standard account of Huber's geodesic counting. Treat as a candidate."
+   },
+   {
+    "role": "key_development",
+    "year": 1972,
+    "endYear": null,
+    "precision": "year",
+    "label": "McKean's exposition for compact surfaces",
+    "work": "H. P. McKean, Selberg's trace formula as applied to a compact Riemann surface, Comm. Pure Appl. Math. 25, 1972",
+    "people": [
+     "Henry McKean"
+    ],
+    "description": "Gives a self-contained account of the formula and the zeta function for compact surfaces.",
+    "evidence": [
+     {
+      "claim": "Crossref record, CPAM 25 (1972), pp. 225-246.",
+      "source": "Crossref 10.1002/cpa.3160250302",
+      "url": "https://doi.org/10.1002/cpa.3160250302",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1976,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hejhal's Selberg trace formula for PSL(2,R), Volume I",
+    "work": "Hejhal, D., The Selberg Trace Formula for PSL(2,R), Volume I, Lecture Notes in Mathematics 548 (1976)",
+    "people": [
+     "Dennis Hejhal"
+    ],
+    "description": "The first monograph-length systematic treatment of the Selberg trace formula for PSL(2,R).",
+    "evidence": [
+     {
+      "claim": "Crossref record for Hejhal's chapter in LNM 548 (Volume I), year 1976",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bfb0079613",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Volume I record; a later volume (1983) is not counted as consolidation here."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1978,
+    "endYear": null,
+    "precision": "year",
+    "label": "Arthur's trace formula for reductive groups",
+    "work": "Arthur, J., A trace formula for reductive groups I, Duke Mathematical Journal 45 (1978)",
+    "people": [
+     "James Arthur"
+    ],
+    "description": "Generalises the Selberg trace formula to reductive groups, the framework behind Arthur's classification.",
+    "evidence": [
+     {
+      "claim": "Duke Mathematical Journal record for Arthur's trace formula paper, year 1978",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1215/s0012-7094-78-04542-8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Atle Selberg",
+    "role": "developer",
+    "lifespan": "1917–2007",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Selberg/",
+    "works": [
+     {
+      "citation": "Harmonic analysis and discontinuous groups in weakly symmetric Riemannian spaces, J. Indian Math. Soc. 20",
+      "year": 1956,
+      "url": "https://zbmath.org/3120273",
+      "whyItMatters": "Announced the trace formula."
+     }
+    ],
+    "roleNote": "trace formula"
+   },
+   {
+    "name": "James Arthur",
+    "role": "developer",
+    "lifespan": "dates not verified",
+    "biographyUrl": "https://en.wikipedia.org/wiki/James_Arthur_(mathematician)",
+    "works": [
+     {
+      "citation": "Arthur, A trace formula for reductive groups I (Duke 1978)",
+      "year": 1978,
+      "url": "https://doi.org/10.1215/s0012-7094-78-04542-8",
+      "whyItMatters": "General trace formula"
+     }
+    ],
+    "roleNote": "generalisation to reductive groups"
+   },
+   {
+    "name": "Dennis Hejhal",
+    "role": "systematiser",
+    "lifespan": "dates not verified",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Dennis_Hejhal",
+    "works": [
+     {
+      "citation": "Hejhal, The Selberg Trace Formula for PSL(2,R), Vol. I (LNM 548, 1976)",
+      "year": 1976,
+      "url": "https://doi.org/10.1007/bfb0079613",
+      "whyItMatters": "Monograph"
+     }
+    ],
+    "roleNote": "systematic treatment"
+   },
+   {
+    "name": "Henry McKean",
+    "role": "systematiser",
+    "lifespan": "1930 - ",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Henry_McKean",
+    "works": [
+     {
+      "citation": "Selberg's trace formula as applied to a compact Riemann surface, CPAM 25",
+      "year": 1972,
+      "url": "https://doi.org/10.1002/cpa.3160250302",
+      "whyItMatters": "Clear exposition for compact surfaces."
+     }
+    ]
+   }
+  ],
+  "notes": "Selberg 1956 is the only first statement and it rests on Wikipedia, not a bibliographic record (JIMS not found in Crossref; the record is now confirmed in zbMATH 0072.08201). The input's 'prime-number analogy' claim is consistent with the Wikipedia article. No first_application milestone was verified (the Selberg zeta-function use is undated). Derived dates: conceptual 1956 (medium), methodological null, institutional 1976. Thin-3 pass: first statement now rests on the zbMATH record of the 1956 paper (Wikipedia and MacTutor Selberg agree); added Huber 1959 (low-confidence candidate application) and McKean 1972. McKean's birth year (1930) and the open end of his lifespan are from general knowledge. Eichler-Selberg trace formula and the Selberg zeta function (undated here) are related but not listed. No naming milestone found.",
+  "derivedDates": {
+   "conceptual": 1956,
+   "methodological": 1959,
+   "institutional": 1976
+  },
+  "pass": "source-first thin-3 enrichment (Claude), unadjudicated"
+ },
+ {
+  "pid": "P470",
+  "eventId": "P18",
+  "canonicalName": "Caffarelli-Kohn-Nirenberg partial regularity for Navier-Stokes",
+  "aliases": [
+   "partial regularity of suitable weak solutions",
+   "CKN theorem",
+   "geometric measure theory for Navier-Stokes"
+  ],
+  "phases": [
+   "Weak solutions and partial regularity (1934-1976)",
+   "CKN theorem (1982)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Weak solutions and partial regularity (1934-1976)",
+    "year": 1934,
+    "endYear": null,
+    "precision": "year",
+    "label": "Leray's Navier-Stokes solutions",
+    "work": "Jean Leray, Sur le mouvement d'un liquide visqueux emplissant l'espace, Acta Math. 63, 193-248, 1934",
+    "people": [
+     "Jean Leray"
+    ],
+    "description": "Leray's 1934 work on the Navier-Stokes equations laid the weak-solution framework that the partial regularity theory later refines.",
+    "evidence": [
+     {
+      "claim": "In 1934 Jean Leray proved existence of smooth globally defined solutions under a smallness assumption on the initial velocity",
+      "source": "Wikipedia, Navier-Stokes existence and smoothness",
+      "url": "https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_existence_and_smoothness",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Crossref record, Acta Math. 63 (1934), pp. 193-248.",
+      "source": "Crossref 10.1007/bf02547354",
+      "url": "https://doi.org/10.1007/bf02547354",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Studied the 3D Navier-Stokes initial value problem and showed solutions stay smooth only for a finite time.",
+      "source": "MacTutor, Leray biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Leray/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "The Wikipedia wording is the basis; no bibliographic record was checked. Leray's result is about small data, not partial regularity."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Weak solutions and partial regularity (1934-1976)",
+    "year": 1976,
+    "endYear": null,
+    "precision": "year",
+    "label": "Scheffer's partial regularity",
+    "work": "Scheffer, V., Partial regularity of solutions to the Navier-Stokes equations, Pacific Journal of Mathematics, 1976",
+    "people": [
+     "V. Scheffer"
+    ],
+    "description": "The first published partial regularity result for the Navier-Stokes equations, as the title records.",
+    "evidence": [
+     {
+      "claim": "Partial regularity of solutions to the Navier-Stokes equations, Pacific J. Math., 1976",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.2140/pjm.1976.66.535",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The content (for example Hausdorff-measure bounds on the singular set) was not read in this pass; the claim rests on the title. Scheffer's first name was not verified."
+   },
+   {
+    "role": "key_development",
+    "year": 1977,
+    "endYear": null,
+    "precision": "year",
+    "label": "Scheffer's Hausdorff measure and Navier-Stokes",
+    "work": "Vladimir Scheffer, Hausdorff measure and the Navier-Stokes equations, Comm. Math. Phys. 55, 1977",
+    "people": [
+     "Vladimir Scheffer"
+    ],
+    "description": "Bounds the Hausdorff dimension of the singular set of weak solutions, the idea CKN sharpened.",
+    "evidence": [
+     {
+      "claim": "Crossref record, Comm. Math. Phys. 55 (1977), pp. 97-112.",
+      "source": "Crossref 10.1007/bf01626512",
+      "url": "https://doi.org/10.1007/bf01626512",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Relation to CKN inferred from titles and the Hausdorff-measure framing."
+   },
+   {
+    "role": "key_development",
+    "phase": "CKN theorem (1982)",
+    "year": 1982,
+    "endYear": null,
+    "precision": "year",
+    "label": "CKN partial regularity theorem",
+    "work": "Caffarelli, L., Kohn, R., Nirenberg, L., Partial regularity of suitable weak solutions of the Navier-Stokes equations, Communications on Pure and Applied Mathematics, 1982",
+    "people": [
+     "Luis Caffarelli",
+     "Kohn (first name not verified)",
+     "Louis Nirenberg"
+    ],
+    "description": "Proves that suitable weak solutions have a singular set of one-dimensional parabolic Hausdorff measure zero.",
+    "evidence": [
+     {
+      "claim": "Partial regularity of suitable weak solutions of the Navier-Stokes equations, CPAM, 1982",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1002/cpa.3160350604",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Caffarelli and Nirenberg worked on fluid dynamics and Navier-Stokes at the Courant Institute in the 1980s",
+      "source": "MacTutor biography of Luis Caffarelli",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Caffarelli/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Caffarelli says the speed can be infinite at most on a set of zero one-dimensional measure.",
+      "source": "MacTutor, Caffarelli biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Caffarelli/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "The one-dimensional parabolic measure statement comes from the input summary and was not checked against the paper text. Crossref lists the authors only as Caffarelli, Kohn and Nirenberg, so Kohn is not given a first name."
+   },
+   {
+    "role": "key_development",
+    "year": 1998,
+    "endYear": null,
+    "precision": "year",
+    "label": "Lin's new proof of the CKN theorem",
+    "work": "Fanghua Lin, A new proof of the Caffarelli-Kohn-Nirenberg theorem, Comm. Pure Appl. Math. 51, 1998",
+    "people": [
+     "Fanghua Lin"
+    ],
+    "description": "Shorter proof of the partial regularity theorem that made it widely teachable.",
+    "evidence": [
+     {
+      "claim": "Crossref record, CPAM 51 (1998), pp. 241-257.",
+      "source": "Crossref 10.1002/(sici)1097-0312(199803)51:3<241::aid-cpa2>3.0.co;2-a",
+      "url": "https://doi.org/10.1002/(sici)1097-0312(199803)51:3%3C241::aid-cpa2%3E3.0.co;2-a",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "people": [
+   {
+    "name": "Jean Leray",
+    "role": "originator",
+    "lifespan": "1906 - 1998",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Leray/",
+    "works": [
+     {
+      "citation": "Sur le mouvement d'un liquide visqueux emplissant l'espace, Acta Math. 63",
+      "year": 1934,
+      "url": "https://doi.org/10.1007/bf02547354",
+      "whyItMatters": "Introduced weak solutions of the 3D Navier-Stokes equations."
+     }
+    ]
+   },
+   {
+    "name": "Luis Caffarelli",
+    "role": "developer",
+    "lifespan": "1948 - ",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Caffarelli/",
+    "works": [
+     {
+      "citation": "Caffarelli, L., Kohn, R., Nirenberg, L., Partial regularity of suitable weak solutions of the Navier-Stokes equations, CPAM, 1982",
+      "year": 1982,
+      "url": "https://doi.org/10.1002/cpa.3160350604",
+      "whyItMatters": "The CKN theorem."
+     }
+    ]
+   },
+   {
+    "name": "Robert V. Kohn",
+    "role": "developer",
+    "lifespan": "1953 - ",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Robert_V._Kohn",
+    "works": [
+     {
+      "citation": "Caffarelli, L., Kohn, R., Nirenberg, L., Partial regularity of suitable weak solutions of the Navier-Stokes equations, CPAM, 1982",
+      "year": 1982,
+      "url": "https://doi.org/10.1002/cpa.3160350604",
+      "whyItMatters": "The CKN theorem."
+     }
+    ]
+   },
+   {
+    "name": "Louis Nirenberg",
+    "role": "developer",
+    "lifespan": "1925 - 2020",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Nirenberg/",
+    "works": [
+     {
+      "citation": "Caffarelli, L., Kohn, R., Nirenberg, L., Partial regularity of suitable weak solutions of the Navier-Stokes equations, CPAM, 1982",
+      "year": 1982,
+      "url": "https://doi.org/10.1002/cpa.3160350604",
+      "whyItMatters": "The CKN theorem."
+     }
+    ]
+   },
+   {
+    "name": "Fanghua Lin",
+    "role": "systematiser",
+    "lifespan": "1959 - ",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Fanghua_Lin",
+    "works": [
+     {
+      "citation": "A new proof of the Caffarelli-Kohn-Nirenberg theorem, CPAM 51",
+      "year": 1998,
+      "url": "https://doi.org/10.1002/(sici)1097-0312(199803)51:3%3C241::aid-cpa2%3E3.0.co;2-a",
+      "whyItMatters": "Simplified proof."
+     }
+    ]
+   }
+  ],
+  "notes": "Input summary's geometric-measure-theory claim is plausible from the CKN title and the Scheffer work but not verified from the text. The Wikipedia Navier-Stokes article does not discuss the CKN theorem, so no history page covers it. No consolidation (survey or monograph) was found in this pass. Searched Wikipedia (Navier-Stokes), MacTutor (Caffarelli, Nirenberg), Crossref. Derived dates: conceptual 1976, methodological null, institutional null. Thin-3 pass: Leray 1934 upgraded to a Crossref record with MacTutor evidence; Scheffer 1977 and Lin 1998 added. Scheffer is not a people entry because no verified biography page was found (the earlier Wikipedia link is a 404); his 1976 and 1977 papers are milestones. The placeholder 'Kohn (first name not verified)' is replaced with Robert V. Kohn, named by MacTutor Nirenberg. Birth years for Kohn (1953) and Lin (1959) are from general knowledge; confirm before display. The Wikipedia Navier-Stokes article does not discuss CKN.",
+  "derivedDates": {
+   "conceptual": 1976,
+   "methodological": null,
+   "institutional": null
+  },
+  "pass": "source-first thin-3 enrichment (Claude), unadjudicated"
+ }
+]

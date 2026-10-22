@@ -1,0 +1,620 @@
+[
+  {
+    "eventId": "W19/M11",
+    "canonicalName": "p-adic numbers",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1897,
+        "precision": "year",
+        "label": "Hensel invents p-adic numbers",
+        "work": "Kurt Hensel, work of 1897 (specific publication not identified)",
+        "people": [
+          "Kurt Hensel"
+        ],
+        "description": "Hensel's work on power series is credited with leading him to p-adic numbers in 1897.",
+        "evidence": [
+          {
+            "claim": "Hensel's 1897 work on power series led to p-adic numbers",
+            "source": "MacTutor, Hensel",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hensel/",
+            "kind": "history_page"
+          },
+          {
+            "claim": "p-adic numbers first described by Hensel in 1897",
+            "source": "Wikipedia, P-adic number",
+            "url": "https://en.wikipedia.org/wiki/P-adic_number",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "low",
+        "note": "Year of conception per history pages; the publication itself was not identified."
+      },
+      {
+        "role": "consolidation",
+        "year": 1908,
+        "precision": "year",
+        "label": "Theorie der algebraischen Zahlen",
+        "work": "Hensel, Theorie der algebraischen Zahlen, 1908",
+        "people": [
+          "Kurt Hensel"
+        ],
+        "description": "Hensel's book develops p-adic numbers into a systematic theory.",
+        "evidence": [
+          {
+            "claim": "Book published 1908 and develops p-adic numbers systematically",
+            "source": "MacTutor, Hensel",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hensel/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 1921,
+        "precision": "year",
+        "label": "Hasse local-global principle",
+        "work": "Hasse, local-global principle (1921 per MacTutor)",
+        "people": [
+          "Helmut Hasse"
+        ],
+        "description": "MacTutor credits Hasse with the local-global principle in 1921.",
+        "evidence": [
+          {
+            "claim": "Local-global principle credited to Hasse, not until 1921",
+            "source": "MacTutor, Hensel",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hensel/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "low",
+        "note": "Hasse's paper not opened."
+      }
+    ],
+    "people": [],
+    "notes": "Inherited 'Ueber eine neue Begruendung ... 1899': Crossref lists Hensel's paper of that title in J. reine angew. Math. 128 (1905), doi 10.1515/crll.1905.128.1; the 1899 citation is unverified. Kuerschak not found on pages opened; Hasse paper not opened. 1913/1923 catalogue dates unverified.",
+    "pid": "P389",
+    "searchTerms": [
+      "function theory (local power series)",
+      "algebraic number theory",
+      "number theory"
+    ]
+  },
+  {
+    "eventId": "M64",
+    "canonicalName": "Weyl's gauge theory",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1918,
+        "precision": "year",
+        "label": "Weyl introduces gauge invariance",
+        "work": "Weyl, Gravitation und Elektrizitaet, 1918",
+        "people": [
+          "Hermann Weyl"
+        ],
+        "description": "Weyl tried to unify gravity and electromagnetism via local scale invariance and coined 'gauge'.",
+        "evidence": [
+          {
+            "claim": "Weyl introduced the concept and name in 1918",
+            "source": "Wikipedia, Gauge theory",
+            "url": "https://en.wikipedia.org/wiki/Gauge_theory",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Original paper title/venue not opened; year from Wikipedia."
+      },
+      {
+        "role": "key_development",
+        "year": 1929,
+        "precision": "year",
+        "label": "Elektron und Gravitation: phase gauge",
+        "work": "Weyl, Elektron und Gravitation. I, Z. Phys. 56 (1929)",
+        "people": [
+          "Hermann Weyl"
+        ],
+        "description": "Weyl replaces scale by a complex phase, giving the modern U(1) gauge invariance.",
+        "evidence": [
+          {
+            "claim": "Crossref record: Weyl, Elektron und Gravitation. I, Zeitschrift fuer Physik, 1929",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1007/bf01339504",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "1929 paper introduced modern gauge invariance",
+            "source": "Wikipedia, Gauge theory",
+            "url": "https://en.wikipedia.org/wiki/Gauge_theory",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [],
+    "notes": "Original 1918 paper not located in Crossref/opened. Applications to London/Fock 1927 not verified.",
+    "pid": "P392",
+    "searchTerms": [
+      "electromagnetism",
+      "differential geometry",
+      "differential geometry",
+      "mathematical physics"
+    ]
+  },
+  {
+    "eventId": "W38",
+    "canonicalName": "Homology groups (Noether) and algebraic topology",
+    "aliases": [],
+    "phases": [],
+    "milestones": [],
+    "people": [],
+    "notes": "Searched Wikipedia Betti number (credits Noether with the modern formulation, no year), MacTutor Noether (timed out). Hopf 1928 is in Crossref only as reprints (Selecta Hopf, doi 10.1007/978-3-662-25046-4_2); original not verified. No milestone established.",
+    "searchedSources": [
+      "Wikipedia",
+      "MacTutor",
+      "Crossref"
+    ],
+    "pid": "P395",
+    "searchTerms": [
+      "combinatorial topology",
+      "group theory",
+      "algebraic topology"
+    ]
+  },
+  {
+    "eventId": "W37",
+    "canonicalName": "Betti numbers and early combinatorial topology",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1871,
+        "precision": "year",
+        "label": "Betti: spaces of arbitrary dimension",
+        "work": "Betti, Sopra gli spazi di un numero qualunque di dimensioni, Annali di Matematica 4 (1870-71)",
+        "people": [
+          "Enrico Betti"
+        ],
+        "description": "Betti defines connectivity numbers in higher dimensions.",
+        "evidence": [
+          {
+            "claim": "Crossref record, Annali di Matematica Pura ed Applicata (dated 1870 by Crossref, volume 1870-71)",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1007/bf02420029",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Paper 1871 contains the Betti numbers",
+            "source": "MacTutor, Betti",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Betti/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Crossref gives 1870; MacTutor 1871."
+      },
+      {
+        "role": "naming",
+        "year": null,
+        "precision": "unknown",
+        "label": "Poincare names Betti numbers",
+        "work": "Poincare",
+        "people": [
+          "Henri Poincare"
+        ],
+        "description": "Poincare named the numbers after Betti.",
+        "evidence": [
+          {
+            "claim": "Betti numbers named by Poincare (no year given)",
+            "source": "MacTutor, Betti",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Betti/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "low",
+        "note": "Year not established."
+      }
+    ],
+    "people": [],
+    "notes": "Inherited 1871 date is consistent; Crossref says 1870 (volume 4, 1870-71). Riemann 1857 precursor not opened.",
+    "pid": "P397",
+    "searchTerms": [
+      "geometry",
+      "algebraic functions",
+      "topology"
+    ]
+  },
+  {
+    "eventId": "W94",
+    "canonicalName": "Liouville and early transcendence theory",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1844,
+        "precision": "year",
+        "label": "Liouville numbers: first transcendentals",
+        "work": "Liouville, Comptes rendus 18 (May 1844), 883-885, 910-911",
+        "people": [
+          "Joseph Liouville"
+        ],
+        "description": "Liouville exhibits explicit transcendental numbers, proving existence.",
+        "evidence": [
+          {
+            "claim": "Cites the Comptes rendus 1844 notes and existence claim",
+            "source": "Wikipedia, Liouville number",
+            "url": "https://en.wikipedia.org/wiki/Liouville_number",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 1882,
+        "precision": "year",
+        "label": "Lindemann: pi transcendental",
+        "work": "Lindemann, Ueber die Zahl pi, Math. Ann. 20 (1882)",
+        "people": [
+          "Ferdinand von Lindemann"
+        ],
+        "description": "Lindemann proves pi transcendental.",
+        "evidence": [
+          {
+            "claim": "Crossref record, Mathematische Annalen, 1882",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1007/bf01446522",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [],
+    "notes": "Hermite 1873: only a 2009 Oeuvres reprint found in Crossref (10.1017/cbo9780511702778.012); original year 1873 not independently verified, so omitted. The inherited 1897 date is unexplained.",
+    "pid": "P398",
+    "searchTerms": [
+      "analysis",
+      "algebraic number theory",
+      "transcendence theory"
+    ]
+  },
+  {
+    "eventId": "M52",
+    "canonicalName": "Russell paradox, type theory and Principia Mathematica",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1901,
+        "precision": "year",
+        "label": "Discovery of the paradox",
+        "work": "Russell (private discovery)",
+        "people": [
+          "Bertrand Russell"
+        ],
+        "description": "Russell found the paradox around 1901; communicated to Frege in 1902.",
+        "evidence": [
+          {
+            "claim": "Found in or around 1901; letter to Frege 16 June 1902",
+            "source": "SEP, Russell's Paradox",
+            "url": "https://plato.stanford.edu/entries/russell-paradox/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "first_statement",
+        "year": 1903,
+        "precision": "year",
+        "label": "Principles of Mathematics, simple type theory",
+        "work": "Russell, The Principles of Mathematics, 1903",
+        "people": [
+          "Bertrand Russell"
+        ],
+        "description": "Russell first presents the simple theory of types in Appendix B.",
+        "evidence": [
+          {
+            "claim": "Appendix B of Principles of Mathematics 1903 first presents the theory of types",
+            "source": "SEP, Russell's Paradox",
+            "url": "https://plato.stanford.edu/entries/russell-paradox/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 1908,
+        "precision": "year",
+        "label": "Ramified type theory",
+        "work": "Russell, Mathematical Logic as Based on the Theory of Types, 1908",
+        "people": [
+          "Bertrand Russell"
+        ],
+        "description": "The ramified theory of types appears.",
+        "evidence": [
+          {
+            "claim": "1908 article presents ramified version",
+            "source": "SEP, Russell's Paradox",
+            "url": "https://plato.stanford.edu/entries/russell-paradox/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "consolidation",
+        "year": 1910,
+        "precision": "year",
+        "label": "Principia Mathematica",
+        "work": "Whitehead and Russell, Principia Mathematica, 1910-1913",
+        "people": [
+          "Alfred North Whitehead",
+          "Bertrand Russell"
+        ],
+        "description": "Three volumes (1910, 1912, 1913) develop mathematics in ramified type theory.",
+        "evidence": [
+          {
+            "claim": "Three volumes 1910, 1912, 1913",
+            "source": "SEP, Russell's Paradox",
+            "url": "https://plato.stanford.edu/entries/russell-paradox/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [],
+    "notes": "Primary texts not opened; dates from SEP.",
+    "pid": "P400",
+    "searchTerms": [
+      "logic",
+      "set theory",
+      "arithmetic",
+      "type theory",
+      "foundations"
+    ]
+  },
+  {
+    "eventId": "W47",
+    "canonicalName": "Calculus of variations to Hilbert's direct methods",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "key_development",
+        "year": 1900,
+        "precision": "year",
+        "label": "Hilbert justifies Dirichlet principle",
+        "work": "Hilbert, Ueber das Dirichletsche Prinzip (1900; J. reine angew. Math. 129, 1905)",
+        "people": [
+          "David Hilbert"
+        ],
+        "description": "Hilbert justifies Riemann's use of the principle by the direct method.",
+        "evidence": [
+          {
+            "claim": "Dated 1900; cited as 1905 Crelle vol. 129",
+            "source": "Wikipedia, Dirichlet's principle",
+            "url": "https://en.wikipedia.org/wiki/Dirichlet%27s_principle",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "1900 is the lecture/first version; 1905 publication per Wikipedia; Crossref only found 1970 reprints."
+      }
+    ],
+    "people": [],
+    "notes": "Original paper not opened. Catalogue 1900 vs 1905 reflects talk vs Crelle publication; sources not verified beyond Wikipedia.",
+    "pid": "P402",
+    "searchTerms": [
+      "calculus of variations",
+      "Dirichlet's principle",
+      "analysis",
+      "calculus of variations (direct methods)",
+      "complex function theory"
+    ]
+  },
+  {
+    "eventId": "M39",
+    "canonicalName": "Descriptive set theory",
+    "aliases": [],
+    "phases": [],
+    "milestones": [],
+    "people": [],
+    "notes": "Searched Wikipedia Descriptive set theory (no history section), Crossref for Suslin 1917 (no record). Suslin 1917 and Lusin 1930 citations not verified; Baire 1899 not checked. No milestones.",
+    "searchedSources": [
+      "Wikipedia",
+      "MacTutor",
+      "Crossref"
+    ],
+    "pid": "P410",
+    "searchTerms": [
+      "set theory",
+      "real analysis",
+      "descriptive set theory"
+    ]
+  },
+  {
+    "eventId": "M21",
+    "canonicalName": "Schur: polynomial representations of GL(n) and invariant theory",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1901,
+        "precision": "year",
+        "label": "Schur's dissertation on rational GL(n) representations",
+        "work": "Schur, doctoral dissertation, Berlin 1901",
+        "people": [
+          "Issai Schur"
+        ],
+        "description": "Schur's thesis examined rational representations of GL(n) over the complex field, introducing Schur functions.",
+        "evidence": [
+          {
+            "claim": "Thesis 1901 on rational representations of the general linear group; Schur functions introduced there",
+            "source": "MacTutor, Schur",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Schur/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Title not confirmed; Frobenius supervision stated; symmetric-function link not stated on page."
+      }
+    ],
+    "people": [],
+    "notes": "Thesis title unverified; inherited title 'Ueber eine Klasse von Matrizen...' not confirmed. 1927 date unexplained.",
+    "pid": "P411",
+    "searchTerms": [
+      "representation theory",
+      "symmetric functions",
+      "invariant theory",
+      "representation theory"
+    ]
+  },
+  {
+    "eventId": "M63",
+    "canonicalName": "Weyl's Riemann surface and abstract manifold concept",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1913,
+        "precision": "year",
+        "label": "Die Idee der Riemannschen Flaeche",
+        "work": "Weyl, Die Idee der Riemannschen Flaeche, 1913",
+        "people": [
+          "Hermann Weyl"
+        ],
+        "description": "Weyl's book rigorously treats Riemann surfaces as two-dimensional manifolds.",
+        "evidence": [
+          {
+            "claim": "Published 1913 from a 1911-12 course; introduces two-dimensional differentiable manifold",
+            "source": "MacTutor, Weyl",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Weyl/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Original not opened; Crossref has only the 1997 reprint chapters (10.1007/978-3-663-07819-7_1).",
+    "pid": "P413",
+    "searchTerms": [
+      "complex analysis",
+      "topology",
+      "manifold theory / abstract Riemann surfaces"
+    ]
+  },
+  {
+    "eventId": "M5",
+    "canonicalName": "Dirichlet principle: potential theory as a tool for function theory",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "key_development",
+        "year": 1900,
+        "precision": "year",
+        "label": "Hilbert's justification",
+        "work": "Hilbert, Ueber das Dirichletsche Prinzip",
+        "people": [
+          "David Hilbert"
+        ],
+        "description": "Hilbert's direct method rescues Riemann's reasoning.",
+        "evidence": [
+          {
+            "claim": "Hilbert justified Riemann's use; Weierstrass objection 1870",
+            "source": "Wikipedia, Dirichlet's principle",
+            "url": "https://en.wikipedia.org/wiki/Dirichlet%27s_principle",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Riemann thesis 1851 not confirmed from sources opened (Wikipedia gives no date). Weierstrass 1870 objection noted but not a milestone. Inherited 1901 vs 1900/1905 unresolved.",
+    "pid": "P415",
+    "searchTerms": [
+      "mathematical physics (potential theory)",
+      "calculus of variations",
+      "complex analysis (existence theorems)"
+    ]
+  },
+  {
+    "eventId": "M79",
+    "canonicalName": "Mathematical biology",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_application",
+        "year": 1925,
+        "precision": "year",
+        "label": "Lotka: predator-prey equations",
+        "work": "Lotka, Elements of Physical Biology, 1925",
+        "people": [
+          "Alfred Lotka"
+        ],
+        "description": "Lotka applies the equations to predator-prey interaction.",
+        "evidence": [
+          {
+            "claim": "1925 Elements of Physical Biology applies the equations",
+            "source": "Wikipedia, Lotka-Volterra equations",
+            "url": "https://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equations",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 1926,
+        "precision": "year",
+        "label": "Volterra's fluctuations in species",
+        "work": "Volterra, Fluctuations in the Abundance of a Species considered Mathematically, Nature 118 (1926)",
+        "people": [
+          "Vito Volterra"
+        ],
+        "description": "Volterra independently publishes the equations.",
+        "evidence": [
+          {
+            "claim": "Crossref record, Nature 118, 1926",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1038/118558a0",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Volterra 1926, credited Lotka",
+            "source": "Wikipedia, Lotka-Volterra equations",
+            "url": "https://en.wikipedia.org/wiki/Lotka%E2%80%93Volterra_equations",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [],
+    "notes": "Inherited 'Variazioni e fluttuazioni, 1926' (Italian memoir) not verified; the Nature 1926 paper was verified instead.",
+    "pid": "P416",
+    "searchTerms": [
+      "population biology (fisheries, ecology)",
+      "differential equations",
+      "mathematical population ecology"
+    ]
+  }
+]

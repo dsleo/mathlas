@@ -1,0 +1,568 @@
+{
+  "files": [
+    "data/collection/enrichment/scale/milestones47.json"
+  ],
+  "works": 29,
+  "resultCounts": {
+    "verified": 29
+  },
+  "resultCountsByType": {
+    "person_work": {
+      "verified": 11
+    },
+    "milestone_work": {
+      "verified": 18
+    }
+  },
+  "fileErrors": [],
+  "citations": [
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "E55",
+      "itemType": "person_work",
+      "person": "Cédric Villani",
+      "citation": "Ricci curvature for metric-measure spaces via optimal transport",
+      "claimedYear": 2004,
+      "citedUrl": "https://arxiv.org/abs/math/0412127",
+      "result": "verified",
+      "recordTitle": "Ricci curvature for metric-measure spaces via optimal transport",
+      "recordYears": [
+        2004
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0412127",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "E55",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "precursor",
+      "citation": "Y. Brenier, Polar factorization and monotone rearrangement of vector-valued functions, CPAM 44 (1991)",
+      "claimedYear": 1991,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.1002/cpa.3160440402",
+      "result": "verified",
+      "recordTitle": "Polar factorization and monotone rearrangement of vector‐valued functions",
+      "recordYears": [
+        1991,
+        2006
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1002/cpa.3160440402",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "E55",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "first_statement",
+      "citation": "J. Lott and C. Villani, Ricci curvature for metric-measure spaces via optimal transport, arXiv:math/0412127 (2004)",
+      "claimedYear": 2004,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/math/0412127",
+      "result": "verified",
+      "recordTitle": "Ricci curvature for metric-measure spaces via optimal transport",
+      "recordYears": [
+        2004
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0412127",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "E64",
+      "itemType": "person_work",
+      "person": "Jonathan Pila",
+      "citation": "The rational points of a definable set",
+      "claimedYear": 2006,
+      "citedUrl": "https://doi.org/10.1215/S0012-7094-06-13336-7",
+      "result": "verified",
+      "recordTitle": "The rational points of a definable set",
+      "recordYears": [
+        2006
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1215/s0012-7094-06-13336-7",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "E64",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "key_development",
+      "citation": "J. Pila and A. J. Wilkie, The rational points of a definable set, Duke Math. J. 133 (2006)",
+      "claimedYear": 2006,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.1215/S0012-7094-06-13336-7",
+      "result": "verified",
+      "recordTitle": "The rational points of a definable set",
+      "recordYears": [
+        2006
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1215/s0012-7094-06-13336-7",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "E64",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "first_application",
+      "citation": "J. Pila and U. Zannier, Rational points in periodic analytic sets and the Manin-Mumford conjecture, arXiv:0802.4016 (2008)",
+      "claimedYear": 2008,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/0802.4016",
+      "result": "verified",
+      "recordTitle": "Rational points in periodic analytic sets and the Manin-Mumford conjecture",
+      "recordYears": [
+        2008
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=0802.4016",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "B41",
+      "itemType": "person_work",
+      "person": "Manfred Einsiedler",
+      "citation": "The distribution of periodic torus orbits on homogeneous spaces",
+      "claimedYear": 2006,
+      "citedUrl": "https://arxiv.org/abs/math/0607815",
+      "result": "verified",
+      "recordTitle": "The distribution of periodic torus orbits on homogeneous spaces",
+      "recordYears": [
+        2006
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0607815",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "B41",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "M. Einsiedler, E. Lindenstrauss, P. Michel and A. Venkatesh, The distribution of periodic torus orbits on homogeneous spaces, arXiv:math/0607815 (2006)",
+      "claimedYear": 2006,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/math/0607815",
+      "result": "verified",
+      "recordTitle": "The distribution of periodic torus orbits on homogeneous spaces",
+      "recordYears": [
+        2006
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0607815",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "B41",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "first_application",
+      "citation": "M. Einsiedler et al., Distribution of periodic torus orbits and Duke’s theorem for cubic fields, arXiv:0708.1113 (2007)",
+      "claimedYear": 2007,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/0708.1113",
+      "result": "verified",
+      "recordTitle": "Distribution of periodic torus orbits and Duke's theorem for cubic fields",
+      "recordYears": [
+        2007
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=0708.1113",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "WC48/QC53",
+      "itemType": "person_work",
+      "person": "Maryam Mirzakhani",
+      "citation": "Simple geodesics and Weil–Petersson volumes of moduli spaces of bordered Riemann surfaces",
+      "claimedYear": 2006,
+      "citedUrl": "https://doi.org/10.1007/s00222-006-0013-2",
+      "result": "verified",
+      "recordTitle": "Simple geodesics and Weil-Petersson volumes of moduli spaces of bordered Riemann surfaces",
+      "recordYears": [
+        2006
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1007/s00222-006-0013-2",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "WC48/QC53",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "key_development",
+      "citation": "M. Mirzakhani, Simple geodesics and Weil–Petersson volumes of moduli spaces of bordered Riemann surfaces, Invent. Math. 167 (2007)",
+      "claimedYear": 2006,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.1007/s00222-006-0013-2",
+      "result": "verified",
+      "recordTitle": "Simple geodesics and Weil-Petersson volumes of moduli spaces of bordered Riemann surfaces",
+      "recordYears": [
+        2006
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1007/s00222-006-0013-2",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "QC58/WC50",
+      "itemType": "person_work",
+      "person": "Stanislav Smirnov",
+      "citation": "Critical percolation in the plane: conformal invariance, Cardy’s formula, scaling limits",
+      "claimedYear": 2001,
+      "citedUrl": "https://doi.org/10.1016/S0764-4442(01)01991-7",
+      "result": "verified",
+      "recordTitle": "Critical percolation in the plane: conformal invariance, Cardy's formula, scaling limits",
+      "recordYears": [
+        2001
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1016/s0764-4442(01)01991-7",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "QC58/WC50",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "S. Smirnov, Critical percolation in the plane: conformal invariance, Cardy’s formula, scaling limits, C. R. Acad. Sci. Paris 333 (2001)",
+      "claimedYear": 2001,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.1016/S0764-4442(01)01991-7",
+      "result": "verified",
+      "recordTitle": "Critical percolation in the plane: conformal invariance, Cardy's formula, scaling limits",
+      "recordYears": [
+        2001
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1016/s0764-4442(01)01991-7",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "QC58/WC50",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "key_development",
+      "citation": "S. Smirnov, Conformal invariance in random cluster models. I. Holomorphic fermions in the Ising model, arXiv:0708.0039 (2007)",
+      "claimedYear": 2007,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/0708.0039",
+      "result": "verified",
+      "recordTitle": "Conformal invariance in random cluster models. I. Holomorphic fermions in the Ising model",
+      "recordYears": [
+        2007
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=0708.0039",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "QC18",
+      "itemType": "person_work",
+      "person": "Elchanan Mossel",
+      "citation": "Noise stability of functions with low influences: invariance and optimality",
+      "claimedYear": 2005,
+      "citedUrl": "https://arxiv.org/abs/math/0503503",
+      "result": "verified",
+      "recordTitle": "Noise stability of functions with low influences: invariance and optimality",
+      "recordYears": [
+        2005
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0503503",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "QC18",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "E. Mossel, R. O’Donnell and K. Oleszkiewicz, Noise stability of functions with low influences: invariance and optimality, arXiv:math/0503503 (2005)",
+      "claimedYear": 2005,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/math/0503503",
+      "result": "verified",
+      "recordTitle": "Noise stability of functions with low influences: invariance and optimality",
+      "recordYears": [
+        2005
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0503503",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "QC18",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "first_application",
+      "citation": "E. Mossel, R. O’Donnell and K. Oleszkiewicz, Noise stability of functions with low influences, arXiv:math/0503503 (2005)",
+      "claimedYear": 2005,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/math/0503503",
+      "result": "verified",
+      "recordTitle": "Noise stability of functions with low influences: invariance and optimality",
+      "recordYears": [
+        2005
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0503503",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "WC99",
+      "itemType": "person_work",
+      "person": "László Lovász",
+      "citation": "Limits of dense graph sequences",
+      "claimedYear": 2004,
+      "citedUrl": "https://arxiv.org/abs/math/0408173",
+      "result": "verified",
+      "recordTitle": "Limits of dense graph sequences",
+      "recordYears": [
+        2004
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0408173",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "WC99",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "L. Lovász and B. Szegedy, Limits of dense graph sequences, arXiv:math/0408173 (2004)",
+      "claimedYear": 2004,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/math/0408173",
+      "result": "verified",
+      "recordTitle": "Limits of dense graph sequences",
+      "recordYears": [
+        2004
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0408173",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "WC99",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "consolidation",
+      "citation": "L. Lovász, Large Networks and Graph Limits, AMS Colloquium Publications 60 (2012)",
+      "claimedYear": 2012,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.1090/coll/060",
+      "result": "verified",
+      "recordTitle": "Large Networks and Graph Limits",
+      "recordYears": [
+        2012
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1090/coll/060",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "QC79",
+      "itemType": "person_work",
+      "person": "Cynthia Dwork",
+      "citation": "Calibrating Noise to Sensitivity in Private Data Analysis",
+      "claimedYear": 2006,
+      "citedUrl": "https://doi.org/10.1007/11681878_14",
+      "result": "verified",
+      "recordTitle": "Calibrating Noise to Sensitivity in Private Data Analysis",
+      "recordYears": [
+        2006
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1007/11681878_14",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "QC79",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "C. Dwork, F. McSherry, K. Nissim and A. Smith, Calibrating Noise to Sensitivity in Private Data Analysis, TCC (2006)",
+      "claimedYear": 2006,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.1007/11681878_14",
+      "result": "verified",
+      "recordTitle": "Calibrating Noise to Sensitivity in Private Data Analysis",
+      "recordYears": [
+        2006
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1007/11681878_14",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "QC79",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "consolidation",
+      "citation": "C. Dwork and A. Roth, The Algorithmic Foundations of Differential Privacy, Foundations and Trends in TCS 9 (2014)",
+      "claimedYear": 2014,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.1561/0400000042",
+      "result": "verified",
+      "recordTitle": "The Algorithmic Foundations of Differential Privacy",
+      "recordYears": [
+        2014
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1561/0400000042",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "P60",
+      "itemType": "person_work",
+      "person": "Emmanuel Candès",
+      "citation": "Robust Uncertainty Principles: Exact Signal Reconstruction from Highly Incomplete Frequency Information",
+      "claimedYear": 2004,
+      "citedUrl": "https://arxiv.org/abs/math/0409186",
+      "result": "verified",
+      "recordTitle": "Robust Uncertainty Principles: Exact Signal Reconstruction from Highly Incomplete Frequency Information",
+      "recordYears": [
+        2004
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0409186",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "P60",
+      "itemType": "person_work",
+      "person": "David Donoho",
+      "citation": "Compressed Sensing",
+      "claimedYear": 2006,
+      "citedUrl": "https://doi.org/10.1109/TIT.2006.871582",
+      "result": "verified",
+      "recordTitle": "Compressed sensing",
+      "recordYears": [
+        2006
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1109/tit.2006.871582",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "P60",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "E. Candès, J. Romberg and T. Tao, Robust Uncertainty Principles: Exact Signal Reconstruction from Highly Incomplete Frequency Information, arXiv:math/0409186 (2004)",
+      "claimedYear": 2004,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/math/0409186",
+      "result": "verified",
+      "recordTitle": "Robust Uncertainty Principles: Exact Signal Reconstruction from Highly Incomplete Frequency Information",
+      "recordYears": [
+        2004
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0409186",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "P60",
+      "itemType": "milestone_work",
+      "milestoneIndex": 1,
+      "milestoneRole": "key_development",
+      "citation": "D. Donoho, Compressed Sensing, IEEE Trans. Inf. Theory 52 (2006)",
+      "claimedYear": 2006,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://doi.org/10.1109/TIT.2006.871582",
+      "result": "verified",
+      "recordTitle": "Compressed sensing",
+      "recordYears": [
+        2006
+      ],
+      "recordUrl": "https://api.crossref.org/works/10.1109/tit.2006.871582",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "Q57",
+      "itemType": "person_work",
+      "person": "Minhyong Kim",
+      "citation": "The unipotent Albanese map and Selmer varieties for curves",
+      "claimedYear": 2005,
+      "citedUrl": "https://arxiv.org/abs/math/0510441",
+      "result": "verified",
+      "recordTitle": "The unipotent Albanese map and Selmer varieties for curves",
+      "recordYears": [
+        2005
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0510441",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    },
+    {
+      "file": "data/collection/enrichment/scale/milestones47.json",
+      "eventId": "Q57",
+      "itemType": "milestone_work",
+      "milestoneIndex": 0,
+      "milestoneRole": "first_statement",
+      "citation": "M. Kim, The unipotent Albanese map and Selmer varieties for curves, arXiv:math/0510441 (2005)",
+      "claimedYear": 2005,
+      "endYear": null,
+      "precision": "year",
+      "citedUrl": "https://arxiv.org/abs/math/0510441",
+      "result": "verified",
+      "recordTitle": "The unipotent Albanese map and Selmer varieties for curves",
+      "recordYears": [
+        2005
+      ],
+      "recordUrl": "https://export.arxiv.org/api/query?id_list=math%2F0510441",
+      "recordNote": null,
+      "titleCheck": "plausible"
+    }
+  ]
+}

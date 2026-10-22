@@ -1,0 +1,722 @@
+[
+ {
+  "pid": "E42",
+  "eventId": "E42",
+  "name": "Jones polynomial from operator algebras",
+  "needs": [
+   "no naming, textbook, survey or institution milestone"
+  ],
+  "existing": [
+   {
+    "role": "first_statement",
+    "year": 1985,
+    "label": "Jones polynomial published"
+   },
+   {
+    "role": "first_application",
+    "year": 1985,
+    "label": "Operator algebras applied to knots"
+   },
+   {
+    "role": "key_development",
+    "year": 1987,
+    "label": "Braid-group and link-polynomial extension"
+   }
+  ],
+  "people": [
+   "Vaughan Jones"
+  ]
+ },
+ {
+  "pid": "E49",
+  "eventId": "E49",
+  "name": "Schramm-Loewner evolution",
+  "needs": [
+   "no naming, textbook, survey or institution milestone"
+  ],
+  "existing": [
+   {
+    "role": "first_statement",
+    "year": 1999,
+    "label": "Schramm proposes stochastic Loewner evolution"
+   },
+   {
+    "role": "first_application",
+    "year": 1999,
+    "label": "Scaling limits targeted at LERW and UST"
+   },
+   {
+    "role": "key_development",
+    "year": 2001,
+    "label": "LERW and UST conformal invariance proved"
+   }
+  ],
+  "people": [
+   "Oded Schramm"
+  ]
+ },
+ {
+  "pid": "P047",
+  "eventId": "E55",
+  "name": "Optimal transport and synthetic Ricci curvature",
+  "needs": [
+   "no first application or key development after the first statement",
+   "no naming, textbook, survey or institution milestone",
+   "only 2 milestone(s): add the main later developments"
+  ],
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1991,
+    "label": "Polar factorization through optimal transport"
+   },
+   {
+    "role": "first_statement",
+    "year": 2004,
+    "label": "Ricci bounds defined through optimal transport"
+   }
+  ],
+  "people": [
+   "Cédric Villani"
+  ]
+ },
+ {
+  "pid": "P056",
+  "eventId": "E64",
+  "name": "O-minimality in diophantine geometry (Pila-Wilkie, Pila-Zannier)",
+  "needs": [
+   "no naming, textbook, survey or institution milestone",
+   "only 2 milestone(s): add the main later developments"
+  ],
+  "existing": [
+   {
+    "role": "key_development",
+    "year": 2006,
+    "label": "Counting rational points on definable sets"
+   },
+   {
+    "role": "first_application",
+    "year": 2008,
+    "label": "Counting method applied to Manin–Mumford"
+   }
+  ],
+  "people": [
+   "Jonathan Pila"
+  ]
+ },
+ {
+  "pid": "P078",
+  "eventId": "B12",
+  "name": "Random partitions, representation theory and Gromov-Witten theory",
+  "needs": [
+   "no naming, textbook, survey or institution milestone",
+   "only 2 milestone(s): add the main later developments"
+  ],
+  "existing": [
+   {
+    "role": "key_development",
+    "year": 1999,
+    "label": "Infinite wedge applied to random partitions"
+   },
+   {
+    "role": "key_development",
+    "year": 2006,
+    "label": "Completed cycles link Hurwitz and Gromov–Witten theory"
+   }
+  ],
+  "people": [
+   "Andrei Okounkov"
+  ]
+ },
+ {
+  "pid": "P101",
+  "eventId": "B35",
+  "name": "Virtual fundamental cycles via homotopical algebra",
+  "needs": [
+   "no naming, textbook, survey or institution milestone"
+  ],
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1996,
+    "label": "Intrinsic normal cone and virtual class"
+   },
+   {
+    "role": "first_statement",
+    "year": 2013,
+    "label": "Pardon introduces implicit-atlas VFC package"
+   },
+   {
+    "role": "first_application",
+    "year": 2013,
+    "label": "Implicit-atlas package applied to symplectic invariants"
+   }
+  ],
+  "people": [
+   "John Pardon"
+  ]
+ },
+ {
+  "pid": "P294",
+  "eventId": "WC48/QC53",
+  "name": "Mirzakhani moduli volumes",
+  "needs": [
+   "no naming, textbook, survey or institution milestone",
+   "only 1 milestone(s): add the main later developments"
+  ],
+  "existing": [
+   {
+    "role": "key_development",
+    "year": 2006,
+    "label": "Weil–Petersson volume recursion published online"
+   }
+  ],
+  "people": [
+   "Maryam Mirzakhani"
+  ]
+ },
+ {
+  "pid": "P299",
+  "eventId": "WC53/QC64",
+  "name": "Rough paths",
+  "needs": [
+   "no first application or key development after the first statement",
+   "only 2 milestone(s): add the main later developments"
+  ],
+  "existing": [
+   {
+    "role": "first_statement",
+    "year": 1994,
+    "label": "Rough-signal differential equation theory begins"
+   },
+   {
+    "role": "consolidation",
+    "year": 1998,
+    "label": "Systematic rough-path treatment"
+   }
+  ],
+  "people": [
+   "Terry Lyons"
+  ]
+ },
+ {
+  "pid": "P305",
+  "eventId": "QC7/WC43",
+  "name": "Higher-order Fourier analysis",
+  "needs": [
+   "no naming, textbook, survey or institution milestone",
+   "only 2 milestone(s): add the main later developments"
+  ],
+  "existing": [
+   {
+    "role": "key_development",
+    "year": 1998,
+    "label": "Fourier method applied to four-term progressions"
+   },
+   {
+    "role": "key_development",
+    "year": 2001,
+    "label": "Higher-order uniformity method extended"
+   }
+  ],
+  "people": [
+   "Timothy Gowers"
+  ]
+ },
+ {
+  "pid": "P310",
+  "eventId": "WC62/QC20",
+  "name": "Ramanujan graphs / interlacing",
+  "needs": [
+   "no naming, textbook, survey or institution milestone"
+  ],
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1988,
+    "label": "Classical Ramanujan graph constructions"
+   },
+   {
+    "role": "first_statement",
+    "year": 2013,
+    "label": "Interlacing families for all-degree Ramanujan graphs"
+   },
+   {
+    "role": "first_application",
+    "year": 2013,
+    "label": "Interlacing applied to graph 2-lifts"
+   }
+  ],
+  "people": [
+   "Daniel A. Spielman"
+  ]
+ },
+ {
+  "pid": "P315",
+  "eventId": "QC21/WC84",
+  "name": "Geometric complexity theory",
+  "needs": [
+   "no first application or key development after the first statement",
+   "only 2 milestone(s): add the main later developments"
+  ],
+  "existing": [
+   {
+    "role": "first_statement",
+    "year": 2001,
+    "label": "Geometric complexity theory programme proposed"
+   },
+   {
+    "role": "consolidation",
+    "year": 2007,
+    "label": "Graduate lecture notes on GCT"
+   }
+  ],
+  "people": [
+   "Ketan Mulmuley"
+  ]
+ },
+ {
+  "pid": "P322",
+  "eventId": "WC12",
+  "name": "Heegaard Floer and Seiberg-Witten theory",
+  "needs": [
+   "no naming, textbook, survey or institution milestone"
+  ],
+  "existing": [
+   {
+    "role": "first_statement",
+    "year": 1994,
+    "label": "Monopole invariants of four-manifolds"
+   },
+   {
+    "role": "first_statement",
+    "year": 2001,
+    "label": "Heegaard Floer three-manifold invariants"
+   },
+   {
+    "role": "first_application",
+    "year": 2001,
+    "label": "Applications of Heegaard Floer invariants"
+   }
+  ],
+  "people": [
+   "Edward Witten",
+   "Peter Ozsváth",
+   "Zoltán Szabó"
+  ]
+ },
+ {
+  "pid": "P326",
+  "eventId": "QC40",
+  "name": "Categorification as programme",
+  "needs": [
+   "no naming, textbook, survey or institution milestone",
+   "only 2 milestone(s): add the main later developments"
+  ],
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1994,
+    "label": "Hopf categories in four-dimensional TQFT"
+   },
+   {
+    "role": "key_development",
+    "year": 2008,
+    "label": "Diagrammatic categorification of quantum groups"
+   }
+  ],
+  "people": [
+   "Louis Crane",
+   "Igor Frenkel",
+   "Mikhail Khovanov",
+   "Aaron Lauda"
+  ]
+ },
+ {
+  "pid": "P334",
+  "eventId": "WC36",
+  "name": "Floer theory and Fukaya categories (Lagrangian Floer)",
+  "needs": [
+   "only 2 milestone(s): add the main later developments"
+  ],
+  "existing": [
+   {
+    "role": "key_development",
+    "year": 1993,
+    "label": "Morse homotopy and A∞ categories"
+   },
+   {
+    "role": "consolidation",
+    "year": 2009,
+    "label": "Foundations of Lagrangian intersection Floer theory"
+   }
+  ],
+  "people": [
+   "Kenji Fukaya",
+   "Yong-Geun Oh",
+   "Hiroshi Ohta",
+   "Kaoru Ono"
+  ]
+ },
+ {
+  "pid": "P339",
+  "eventId": "WC55",
+  "name": "Random matrix universality and Dyson / Tracy-Widom in KPZ",
+  "needs": [
+   "no first application or key development after the first statement",
+   "no naming, textbook, survey or institution milestone",
+   "only 1 milestone(s): add the main later developments"
+  ],
+  "existing": [
+   {
+    "role": "first_statement",
+    "year": 1999,
+    "label": "Growth fluctuations linked to Tracy–Widom law"
+   }
+  ],
+  "people": [
+   "Kurt Johansson"
+  ]
+ },
+ {
+  "pid": "P343",
+  "eventId": "WC108",
+  "name": "Kashiwara crystal bases",
+  "needs": [
+   "no naming, textbook, survey or institution milestone",
+   "only 2 milestone(s): add the main later developments"
+  ],
+  "existing": [
+   {
+    "role": "first_statement",
+    "year": 1990,
+    "label": "Crystal bases at q = 0"
+   },
+   {
+    "role": "key_development",
+    "year": 1991,
+    "label": "General theory of crystal bases"
+   }
+  ],
+  "people": [
+   "Masaki Kashiwara"
+  ]
+ },
+ {
+  "pid": "P347",
+  "eventId": "WC78",
+  "name": "Quantum error correction and fault tolerance",
+  "needs": [
+   "no naming, textbook, survey or institution milestone"
+  ],
+  "existing": [
+   {
+    "role": "first_statement",
+    "year": 1995,
+    "label": "Quantum error correction scheme"
+   },
+   {
+    "role": "key_development",
+    "year": 1996,
+    "label": "Good quantum error-correcting codes"
+   },
+   {
+    "role": "key_development",
+    "year": 1997,
+    "label": "Fault tolerance with constant error"
+   }
+  ],
+  "people": [
+   "Peter Shor",
+   "A. Robert Calderbank",
+   "Dorit Aharonov",
+   "Michael Ben-Or"
+  ]
+ },
+ {
+  "pid": "P353",
+  "eventId": "QC12",
+  "name": "Kadison-Singer via interlacing polynomials",
+  "needs": [
+   "no naming, textbook, survey or institution milestone"
+  ],
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1959,
+    "label": "Kadison–Singer problem posed"
+   },
+   {
+    "role": "precursor",
+    "year": 2013,
+    "label": "Interlacing families I establishes method"
+   },
+   {
+    "role": "first_statement",
+    "year": 2013,
+    "label": "Kadison–Singer solution posted"
+   },
+   {
+    "role": "first_application",
+    "year": 2013,
+    "label": "Mixed characteristic polynomials prove paving bounds"
+   }
+  ],
+  "people": [
+   "Daniel A. Spielman"
+  ]
+ },
+ {
+  "pid": "P483",
+  "eventId": "P38",
+  "name": "Cluster algebras",
+  "needs": [
+   "no first application or key development after the first statement",
+   "no naming, textbook, survey or institution milestone",
+   "only 1 milestone(s): add the main later developments"
+  ],
+  "existing": [
+   {
+    "role": "first_statement",
+    "year": 2001,
+    "label": "Cluster algebras introduced publicly"
+   }
+  ],
+  "people": [
+   "Sergey Fomin"
+  ]
+ },
+ {
+  "pid": "P492",
+  "eventId": "P49",
+  "name": "K-stability and Kahler-Einstein metrics on Fano manifolds",
+  "needs": [
+   "no naming, textbook, survey or institution milestone",
+   "only 2 milestone(s): add the main later developments"
+  ],
+  "existing": [
+   {
+    "role": "key_development",
+    "year": 2012,
+    "label": "K-stability proof announced"
+   },
+   {
+    "role": "key_development",
+    "year": 2012,
+    "label": "Detailed cone-metric approximation paper"
+   }
+  ],
+  "people": [
+   "Xiuxiong Chen",
+   "Simon Donaldson",
+   "Song Sun"
+  ]
+ },
+ {
+  "pid": "P506",
+  "eventId": "P63",
+  "name": "PCP theorem: proofs, coding theory and hardness of approximation",
+  "needs": [
+   "no naming, textbook, survey or institution milestone",
+   "only 2 milestone(s): add the main later developments"
+  ],
+  "existing": [
+   {
+    "role": "first_statement",
+    "year": 1992,
+    "label": "Probabilistic checking characterizes NP"
+   },
+   {
+    "role": "key_development",
+    "year": 1992,
+    "label": "Proof verification and approximation hardness"
+   }
+  ],
+  "people": [
+   "Sanjeev Arora",
+   "Shmuel Safra",
+   "Madhu Sudan"
+  ]
+ },
+ {
+  "pid": "P512",
+  "eventId": "P70",
+  "name": "Approximate groups and the model theory of pseudofinite structures",
+  "needs": [
+   "no naming, textbook, survey or institution milestone"
+  ],
+  "existing": [
+   {
+    "role": "first_statement",
+    "year": 2009,
+    "label": "Stable model theory meets approximate subgroups"
+   },
+   {
+    "role": "first_application",
+    "year": 2009,
+    "label": "Model-theoretic method applied to finite-set growth"
+   },
+   {
+    "role": "key_development",
+    "year": 2011,
+    "label": "General structure theorem for approximate groups"
+   }
+  ],
+  "people": [
+   "Ehud Hrushovski"
+  ]
+ },
+ {
+  "pid": "P523",
+  "eventId": "Q3",
+  "name": "Algorithmic discrepancy theory (Bansal) and the Komlos conjecture",
+  "needs": [
+   "no naming, textbook, survey or institution milestone"
+  ],
+  "existing": [
+   {
+    "role": "first_statement",
+    "year": 2010,
+    "label": "Constructive discrepancy breakthrough posted"
+   },
+   {
+    "role": "first_application",
+    "year": 2010,
+    "label": "Algorithm attains Spencer-type discrepancy bounds"
+   },
+   {
+    "role": "key_development",
+    "year": 2016,
+    "label": "Algorithm reaches Banaszczyk Komlós bound"
+   },
+   {
+    "role": "key_development",
+    "year": 2022,
+    "label": "Smoothed Komlós case proved"
+   }
+  ],
+  "people": [
+   "Nikhil Bansal"
+  ]
+ },
+ {
+  "pid": "Q22",
+  "eventId": "Q22",
+  "name": "Integer distance sets via the determinant method",
+  "needs": [
+   "no naming, textbook, survey or institution milestone"
+  ],
+  "existing": [
+   {
+    "role": "precursor",
+    "year": 1945,
+    "label": "Anning–Erdős integral distances"
+   },
+   {
+    "role": "first_statement",
+    "year": 2024,
+    "label": "Greenfeld–Iliopoulou–Peluse post structural theorem"
+   },
+   {
+    "role": "first_application",
+    "year": 2024,
+    "label": "Determinant method applied to integer-distance structure"
+   }
+  ],
+  "people": [
+   "Rachel Greenfeld",
+   "Marina Iliopoulou",
+   "Sarah Peluse"
+  ]
+ },
+ {
+  "pid": "Q38",
+  "eventId": "Q38",
+  "name": "Machine learning guides conjectures in knot theory and representation theory",
+  "needs": [
+   "no naming, textbook, survey or institution milestone"
+  ],
+  "existing": [
+   {
+    "role": "first_statement",
+    "year": 2021,
+    "label": "Nature paper sets out machine-learning-guided discovery"
+   },
+   {
+    "role": "first_application",
+    "year": 2021,
+    "label": "Knot signature–cusp relation proved"
+   },
+   {
+    "role": "key_development",
+    "year": 2021,
+    "label": "Kazhdan–Lusztig candidate formula"
+   }
+  ],
+  "people": [
+   "Marc Lackenby",
+   "Geordie Williamson"
+  ]
+ },
+ {
+  "pid": "P545",
+  "eventId": "Q46",
+  "name": "Undecidability in quantum games via combinatorial group theory",
+  "needs": [
+   "no naming, textbook, survey or institution milestone"
+  ],
+  "existing": [
+   {
+    "role": "first_statement",
+    "year": 2016,
+    "label": "Solution-group embedding and game undecidability"
+   },
+   {
+    "role": "first_application",
+    "year": 2016,
+    "label": "Group embedding applied to nonlocal games"
+   },
+   {
+    "role": "key_development",
+    "year": 2017,
+    "label": "Quantum correlation set shown non-closed"
+   },
+   {
+    "role": "key_development",
+    "year": 2020,
+    "label": "MIP*=RE gives stronger undecidability"
+   }
+  ],
+  "people": [
+   "William Slofstra"
+  ]
+ },
+ {
+  "pid": "P552",
+  "eventId": "Q63",
+  "name": "Arc spaces of singularities and partition identities",
+  "needs": [
+   "no naming, textbook, survey or institution milestone"
+  ],
+  "existing": [
+   {
+    "role": "first_statement",
+    "year": 2011,
+    "label": "Arc-space/partition correspondence posted"
+   },
+   {
+    "role": "first_application",
+    "year": 2011,
+    "label": "Double-point arc space yields Rogers-Ramanujan identity"
+   },
+   {
+    "role": "key_development",
+    "year": 2020,
+    "label": "Differential-ideal Groebner bases extend the partition connection"
+   }
+  ],
+  "people": [
+   "Hussein Mourtada"
+  ]
+ }
+]

@@ -1,0 +1,489 @@
+[
+  {
+    "eventId": "P13",
+    "canonicalName": "Bott periodicity: Morse theory on loop spaces computes homotopy of Lie groups",
+    "aliases": [
+      "Bott periodicity"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1958,
+        "precision": "year",
+        "label": "Loop space of a Lie group",
+        "work": "R. Bott, The space of loops on a Lie group, Michigan Math. J. 5 (1958)",
+        "people": [
+          "Raoul Bott"
+        ],
+        "description": "Bott studies the loop space of a Lie group with Morse-theoretic methods.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, authors, journal and year",
+            "source": "Crossref API",
+            "url": "https://api.crossref.org/works/10.1307/mmj/1028998010",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "low"
+      },
+      {
+        "role": "key_development",
+        "year": 1959,
+        "precision": "year",
+        "label": "Stable homotopy of the classical groups",
+        "work": "R. Bott, The stable homotopy of the classical groups, Ann. Math. 70 (1959)",
+        "people": [
+          "Raoul Bott"
+        ],
+        "description": "Paper whose title matches the periodicity computation of stable homotopy groups of classical groups.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, authors, journal and year",
+            "source": "Crossref API",
+            "url": "https://api.crossref.org/works/10.2307/1970106",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Only Crossref metadata for the listed works was opened; role assignments rest on titles and the catalogue summary, not on reading the papers. No MacTutor/Wikipedia/SEP page was opened, so naming and institution milestones were not searched.  ",
+    "pid": "P465",
+    "searchTerms": [
+      "Geometry",
+      "Topology"
+    ]
+  },
+  {
+    "eventId": "P14",
+    "canonicalName": "Singularity theory (Whitney, Thom, Mather, Arnold)",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1955,
+        "precision": "year",
+        "label": "Whitney on singularities of plane maps",
+        "work": "H. Whitney, On singularities of mappings of Euclidean spaces I, Ann. Math. 62 (1955)",
+        "people": [
+          "Hassler Whitney"
+        ],
+        "description": "Whitney classifies stable singularities of maps of the plane into the plane.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, authors, journal and year",
+            "source": "Crossref API",
+            "url": "https://api.crossref.org/works/10.2307/1970070",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "low",
+        "note": "Thom 1972 book (Stabilite structurelle et morphogenese) not verified."
+      }
+    ],
+    "people": [],
+    "notes": "Only Crossref metadata for the listed works was opened; role assignments rest on titles and the catalogue summary, not on reading the papers. No MacTutor/Wikipedia/SEP page was opened, so naming and institution milestones were not searched. Thom 1972 book (Stabilite structurelle et morphogenese) not verified.",
+    "pid": "P466",
+    "searchTerms": [
+      "differential topology",
+      "commutative algebra of germs",
+      "analysis (Malgrange preparation)",
+      "singularity theory"
+    ]
+  },
+  {
+    "eventId": "P16",
+    "canonicalName": "Nash: hard implicit function theorems and isometric embedding",
+    "aliases": [
+      "Nash embedding theorem"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "key_development",
+        "year": 1956,
+        "precision": "year",
+        "label": "Nash's C-infinity isometric embedding",
+        "work": "J. Nash, The imbedding problem for Riemannian manifolds, Ann. Math. 63 (1956)",
+        "people": [
+          "John Nash"
+        ],
+        "description": "Nash's embedding paper for Riemannian manifolds.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, authors, journal and year",
+            "source": "Crossref API",
+            "url": "https://api.crossref.org/works/10.2307/1969989",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Only Crossref metadata for the listed works was opened; role assignments rest on titles and the catalogue summary, not on reading the papers. No MacTutor/Wikipedia/SEP page was opened, so naming and institution milestones were not searched. ",
+    "pid": "P468",
+    "searchTerms": [
+      "Analysis",
+      "Geometry"
+    ]
+  },
+  {
+    "eventId": "P17",
+    "canonicalName": "Calderon-Zygmund singular integrals enter PDE",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1952,
+        "precision": "year",
+        "label": "Existence of certain singular integrals",
+        "work": "A. P. Calderon, A. Zygmund, Acta Math. 88 (1952)",
+        "people": [
+          "Alberto Calderon",
+          "Antoni Zygmund"
+        ],
+        "description": "Foundational paper on singular integral operators.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, authors, journal and year",
+            "source": "Crossref API",
+            "url": "https://api.crossref.org/works/10.1007/bf02392130",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "PDE applications (1957-65) not verified."
+      }
+    ],
+    "people": [],
+    "notes": "Only Crossref metadata for the listed works was opened; role assignments rest on titles and the catalogue summary, not on reading the papers. No MacTutor/Wikipedia/SEP page was opened, so naming and institution milestones were not searched. PDE applications (1957-65) not verified.",
+    "pid": "P469",
+    "searchTerms": [
+      "harmonic analysis (Hilbert transform, Fourier series)",
+      "elliptic and parabolic PDE"
+    ]
+  },
+  {
+    "eventId": "P18",
+    "canonicalName": "Caffarelli-Kohn-Nirenberg: geometric measure theory gives partial regularity for Navier-Stokes",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1982,
+        "precision": "year",
+        "label": "Partial regularity of suitable weak solutions",
+        "work": "L. Caffarelli, R. Kohn, L. Nirenberg, CPAM 35 (1982)",
+        "people": [
+          "Luis Caffarelli",
+          "Robert Kohn",
+          "Louis Nirenberg"
+        ],
+        "description": "Partial regularity theorem for suitable weak solutions of Navier-Stokes.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, authors, journal and year",
+            "source": "Crossref API",
+            "url": "https://api.crossref.org/works/10.1002/cpa.3160350604",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Only Crossref metadata for the listed works was opened; role assignments rest on titles and the catalogue summary, not on reading the papers. No MacTutor/Wikipedia/SEP page was opened, so naming and institution milestones were not searched. ",
+    "pid": "P470",
+    "searchTerms": [
+      "geometric measure theory (Hausdorff measure, partial regularity from minimal surfaces)",
+      "fluid PDE (Navier-Stokes)"
+    ]
+  },
+  {
+    "eventId": "P19",
+    "canonicalName": "Lojasiewicz-Simon: real-analytic gradient inequalities control geometric flows",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "key_development",
+        "year": 1983,
+        "precision": "year",
+        "label": "Simon's asymptotics for evolution equations",
+        "work": "L. Simon, Ann. Math. 118 (1983)",
+        "people": [
+          "Leon Simon"
+        ],
+        "description": "Convergence to a unique limit for gradient-like evolution equations with geometric applications.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, authors, journal and year",
+            "source": "Crossref API",
+            "url": "https://api.crossref.org/works/10.2307/2006981",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Lojasiewicz's 1963 gradient inequality (catalogue date) not verified, so no precursor entered."
+      }
+    ],
+    "people": [],
+    "notes": "Only Crossref metadata for the listed works was opened; role assignments rest on titles and the catalogue summary, not on reading the papers. No MacTutor/Wikipedia/SEP page was opened, so naming and institution milestones were not searched. Lojasiewicz's 1963 gradient inequality (catalogue date) not verified, so no precursor entered.",
+    "pid": "P471",
+    "searchTerms": [
+      "real analytic geometry (Lojasiewicz inequality)",
+      "geometric analysis / nonlinear evolution PDE"
+    ]
+  },
+  {
+    "eventId": "P25",
+    "canonicalName": "Hida theory: p-adic families of modular forms",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1986,
+        "precision": "year",
+        "label": "Galois representations for ordinary cusp forms",
+        "work": "H. Hida, Invent. Math. 85 (1986)",
+        "people": [
+          "Haruzo Hida"
+        ],
+        "description": "Galois representations over Zp[[X]] attached to ordinary cusp forms.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, authors, journal and year",
+            "source": "Crossref API",
+            "url": "https://api.crossref.org/works/10.1007/bf01390329",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Hida's earlier 1980s papers not checked."
+      }
+    ],
+    "people": [],
+    "notes": "Only Crossref metadata for the listed works was opened; role assignments rest on titles and the catalogue summary, not on reading the papers. No MacTutor/Wikipedia/SEP page was opened, so naming and institution milestones were not searched. Hida's earlier 1980s papers not checked.",
+    "pid": "P474",
+    "searchTerms": [
+      "Iwasawa theory",
+      "modular forms and Hecke algebras",
+      "p-adic modular forms (Serre, Katz)",
+      "p-adic families of modular forms"
+    ]
+  },
+  {
+    "eventId": "P32",
+    "canonicalName": "Analytic combinatorics: generating functions as complex-analytic objects",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "key_development",
+        "year": 1990,
+        "precision": "year",
+        "label": "Singularity analysis",
+        "work": "P. Flajolet, A. Odlyzko, SIAM J. Discrete Math. 3 (1990)",
+        "people": [
+          "Philippe Flajolet",
+          "Andrew Odlyzko"
+        ],
+        "description": "Singularity analysis transfer theorems for generating functions.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, authors, journal and year",
+            "source": "Crossref API",
+            "url": "https://api.crossref.org/works/10.1137/0403019",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Flajolet-Sedgewick 2009 book not verified."
+      }
+    ],
+    "people": [],
+    "notes": "Only Crossref metadata for the listed works was opened; role assignments rest on titles and the catalogue summary, not on reading the papers. No MacTutor/Wikipedia/SEP page was opened, so naming and institution milestones were not searched. Flajolet-Sedgewick 2009 book not verified.",
+    "pid": "P479",
+    "searchTerms": [
+      "Analysis",
+      "Combinatorics",
+      "Combinatorics"
+    ]
+  },
+  {
+    "eventId": "P33",
+    "canonicalName": "Combinatorial theory as incidence algebra and Mobius inversion (Rota)",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1964,
+        "precision": "year",
+        "label": "Rota's theory of Mobius functions",
+        "work": "G.-C. Rota, Z. Wahrsch. 2 (1964)",
+        "people": [
+          "Gian-Carlo Rota"
+        ],
+        "description": "Mobius function generalised to partially ordered sets.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, authors, journal and year",
+            "source": "Crossref API",
+            "url": "https://api.crossref.org/works/10.1007/bf00531932",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Only Crossref metadata for the listed works was opened; role assignments rest on titles and the catalogue summary, not on reading the papers. No MacTutor/Wikipedia/SEP page was opened, so naming and institution milestones were not searched. ",
+    "pid": "P480",
+    "searchTerms": [
+      "number theory (Mobius function)",
+      "lattice/order theory",
+      "topology (Euler characteristic)",
+      "algebraic combinatorics"
+    ]
+  },
+  {
+    "eventId": "P34",
+    "canonicalName": "Wilf-Zeilberger method: computer algebra certifies combinatorial identities",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1990,
+        "precision": "year",
+        "label": "Rational functions certify identities",
+        "work": "H. Wilf, D. Zeilberger, JAMS 3 (1990)",
+        "people": [
+          "Herbert Wilf",
+          "Doron Zeilberger"
+        ],
+        "description": "Rational-function certificates for hypergeometric identities.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, authors, journal and year",
+            "source": "Crossref API",
+            "url": "https://api.crossref.org/works/10.1090/s0894-0347-1990-1007910-7",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Earlier 1982-92 WZ-related papers not checked."
+      }
+    ],
+    "people": [],
+    "notes": "Only Crossref metadata for the listed works was opened; role assignments rest on titles and the catalogue summary, not on reading the papers. No MacTutor/Wikipedia/SEP page was opened, so naming and institution milestones were not searched. Earlier 1982-92 WZ-related papers not checked.",
+    "pid": "P481",
+    "searchTerms": [
+      "computer algebra (Gosper's algorithm)",
+      "hypergeometric series",
+      "enumerative combinatorics (identities)"
+    ]
+  },
+  {
+    "eventId": "P39",
+    "canonicalName": "Deformation theory of rings and algebras (Gerstenhaber)",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1964,
+        "precision": "year",
+        "label": "Deformation of rings and algebras",
+        "work": "M. Gerstenhaber, Ann. Math. 79 (1964)",
+        "people": [
+          "Murray Gerstenhaber"
+        ],
+        "description": "Deformations of associative algebras classified via Hochschild cohomology.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, authors, journal and year",
+            "source": "Crossref API",
+            "url": "https://api.crossref.org/works/10.2307/1970484",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Only Crossref metadata for the listed works was opened; role assignments rest on titles and the catalogue summary, not on reading the papers. No MacTutor/Wikipedia/SEP page was opened, so naming and institution milestones were not searched. ",
+    "pid": "P484",
+    "searchTerms": [
+      "deformation theory of complex structures (Kodaira-Spencer)",
+      "homological algebra (Hochschild cohomology)",
+      "ring and algebra theory"
+    ]
+  },
+  {
+    "eventId": "P40",
+    "canonicalName": "Noncommutative projective geometry (Artin-Schelter-Zhang)",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1987,
+        "precision": "year",
+        "label": "Artin-Schelter regular algebras",
+        "work": "M. Artin, W. Schelter, Adv. Math. 66 (1987)",
+        "people": [
+          "Michael Artin",
+          "William Schelter"
+        ],
+        "description": "Graded algebras of global dimension 3.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, authors, journal and year",
+            "source": "Crossref API",
+            "url": "https://api.crossref.org/works/10.1016/0001-8708(87)90034-x",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "low"
+      },
+      {
+        "role": "key_development",
+        "year": 1994,
+        "precision": "year",
+        "label": "Noncommutative projective schemes",
+        "work": "M. Artin, J. J. Zhang, Adv. Math. 109 (1994)",
+        "people": [
+          "Michael Artin",
+          "James Zhang"
+        ],
+        "description": "Projective scheme construction for graded noncommutative rings.",
+        "evidence": [
+          {
+            "claim": "Crossref record confirms title, authors, journal and year",
+            "source": "Crossref API",
+            "url": "https://api.crossref.org/works/10.1006/aima.1994.1087",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Only Crossref metadata for the listed works was opened; role assignments rest on titles and the catalogue summary, not on reading the papers. No MacTutor/Wikipedia/SEP page was opened, so naming and institution milestones were not searched.  ",
+    "pid": "P485",
+    "searchTerms": [
+      "noncommutative ring theory (graded algebras)",
+      "projective algebraic geometry",
+      "noncommutative algebraic geometry"
+    ]
+  }
+]

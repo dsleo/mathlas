@@ -1,0 +1,2604 @@
+[
+ {
+  "pid": "P187",
+  "eventId": "MA22",
+  "canonicalName": "Jaina permutations and combinations (early Indian combinatorics)",
+  "aliases": [
+   "Jain combinatorics",
+   "Indian combinatorics",
+   "Bhagavati Sutra combinations",
+   "Sthananga Sutra",
+   "Anuyogadvara Sutra factorials",
+   "vikalpa",
+   "bhanga",
+   "Pingala meru prastara",
+   "Mahavira ganita sara samgraha",
+   "permutations and combinations in India"
+  ],
+  "phases": [
+   "Jaina canonical texts",
+   "Pingala and enumerative prosody",
+   "Mahavira systematisation"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Jaina canonical texts",
+    "year": -300,
+    "endYear": -100,
+    "precision": "range",
+    "label": "Bhagavati Sutra gives counting rules for selections from n",
+    "work": "Bhagabati (Bhagavati) Sutra, Jaina canon, undated; MacTutor puts it around 300 BC",
+    "people": [
+     "anonymous Jaina authors"
+    ],
+    "description": "The canon states how many permutations and combinations arise when one, two or three items are chosen from n, and works out cases n = 2, 3, 4.",
+    "evidence": [
+     {
+      "claim": "MacTutor Jaina mathematics: Bhagabati Sutra dated around 300 BC, rules for permutations and combinations of 1, 2, 3 from n",
+      "source": "MacTutor, Jaina mathematics",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Jaina_mathematics/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia Indian mathematics: Jain texts incl. Sthananga Sutra, c. 300 BCE-200 CE, as the main Jain mathematical sources",
+      "source": "Wikipedia, Indian mathematics (Jain section)",
+      "url": "https://en.wikipedia.org/wiki/Indian_mathematics",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Dating of Jaina canonical texts is uncertain and later commentaries are the working evidence; no critical edition/Crossref record for the original text was found, so this stays a history-page claim."
+   },
+   {
+    "role": "first_application",
+    "phase": "Pingala and enumerative prosody",
+    "year": -300,
+    "endYear": -101,
+    "precision": "range",
+    "label": "Pingala enumerates metres as binary patterns of short and long syllables",
+    "work": "Pingala, Chandahsastra (Chandas Sutra), Sanskrit prosody",
+    "people": [
+     "Pingala"
+    ],
+    "description": "Pingala systematically lists and counts all light/heavy syllable patterns of a given length, with a triangular array of binomial counts, using combinatorics on a purposeful target (metre).",
+    "evidence": [
+     {
+      "claim": "Wikipedia Pingala: Chandahshastra enumerates metres by recursive generation of light/guru patterns, counts via binomial coefficients, meru-prastara triangle; Pingala c. 3rd-2nd century BCE",
+      "source": "Wikipedia, Pingala",
+      "url": "https://en.wikipedia.org/wiki/Pingala",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Date given as c. 3rd or 2nd century BCE; may be parallel to or later than the Jaina canon, so ordering against the Bhagavati Sutra is uncertain. Wikipedia is the only source read; not independently checked against Weber/other editions."
+   },
+   {
+    "role": "key_development",
+    "phase": "Jaina canonical texts",
+    "year": -200,
+    "endYear": 100,
+    "precision": "range",
+    "label": "Anuyogadvara Sutra: earliest Indian description of factorials",
+    "work": "Anuyogadvara Sutra, Jaina canon, c. 200 BCE-100 CE",
+    "people": [
+     "anonymous Jaina authors"
+    ],
+    "description": "The Anuyogadvara Sutra is reported to contain the earliest known Indian description of factorial products, extending counting of arrangements.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Indian mathematics: Anuyogadwara Sutra (c. 200 BCE-100 CE) includes the earliest known description of factorials in Indian mathematics",
+      "source": "Wikipedia, Indian mathematics (Jain section)",
+      "url": "https://en.wikipedia.org/wiki/Indian_mathematics",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Single secondary source; date range wide."
+   },
+   {
+    "role": "key_development",
+    "phase": "Jaina canonical texts",
+    "year": -150,
+    "endYear": null,
+    "precision": "year",
+    "label": "Sthananga Sutra lists permutations and combinations among the topics of mathematics",
+    "work": "Sthananga (Sthanaanga) Sutra, Jaina canon, about the 2nd century BC",
+    "people": [
+     "anonymous Jaina authors"
+    ],
+    "description": "The Sthananga Sutra names permutations and combinations as a standing branch of mathematics and uses them, setting the curriculum for later Indian work.",
+    "evidence": [
+     {
+      "claim": "MacTutor: Sthananga Sutra from about the 2nd century BC lists topics incl. permutations and combinations; permutations and combinations used in it",
+      "source": "MacTutor, Jaina mathematics",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Jaina_mathematics/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "MacTutor Indian mathematics: main topics of Jaina mathematics c. 150 BC include permutations and combinations",
+      "source": "MacTutor, Indian mathematics overview",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Indian_mathematics/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low"
+   },
+   {
+    "role": "consolidation",
+    "phase": "Mahavira systematisation",
+    "year": 850,
+    "endYear": null,
+    "precision": "year",
+    "label": "Mahavira gives special rules for permutations and combinations in a textbook",
+    "work": "Mahavira, Ganita Sara Samgraha, c. 850 (Mysore); English edition by M. Rangacarya 1912",
+    "people": [
+     "Mahavira"
+    ],
+    "description": "Mahavira treats permutations and combinations as a regular topic of a mathematics compendium that updates Brahmagupta, the first systematic textbook treatment found here.",
+    "evidence": [
+     {
+      "claim": "MacTutor Mahavira: Ganita Sara Samgraha dated 850 AD; he gave special rules for permutations and combinations, a topic of special interest in Jaina mathematics",
+      "source": "MacTutor, Mahavira",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Mahavira/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Open Library records an edition of the Ganita-sara-sangraha with English translation (1912)",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/works/OL7730287W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "MacTutor Zero gives 830 for the same book; 850 is used here as given on his own biography page. I did not read the text itself, so the exact formulas (whether the general n-choose-r rule is stated) are not verified."
+   }
+  ],
+  "people": [
+   {
+    "name": "Pingala",
+    "role": "originator",
+    "lifespan": "c. 3rd-2nd century BCE",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Pingala",
+    "works": [
+     {
+      "citation": "Pingala combinatorics and Sanskrit prosody (2024)",
+      "year": 2024,
+      "url": "https://doi.org/10.5958/2394-9309.2024.00025.7",
+      "whyItMatters": "Modern study of the syllable-counting rules behind the early combinatorial patterns."
+     }
+    ]
+   },
+   {
+    "name": "Mahavira",
+    "role": "systematiser",
+    "lifespan": "c. 800-c. 870 (MacTutor)",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Mahavira/",
+    "works": [
+     {
+      "citation": "Ganita Sara Samgraha",
+      "year": 850,
+      "url": "https://openlibrary.org/works/OL7730287W",
+      "whyItMatters": "compendium with explicit rules for permutations and combinations"
+     }
+    ]
+   }
+  ],
+  "notes": "Disputed: relative order of the Jaina canon and Pingala; both are dated only to broad ranges. No naming milestone found: no indigenous term for the field could be dated (searched MacTutor Jaina page, Wikipedia Indian mathematics). Modern scholarship: Kusuba and Plofker, Indian combinatorics (Combinatorics: Ancient and Modern, 2013, doi 10.1093/acprof:oso/9780199656592.003.0002) and Mathematics in Ancient Jaina Literature (2022, doi 10.1142/9789811255502_0005) were found in Crossref but not read. Event summary bundles Jaina cosmology and infinities; those are outside the permutations story. No MSC milestone: 05A has no dated origin for this event.",
+  "derivedDates": {
+   "conceptual": -300,
+   "methodological": -300,
+   "institutional": 850
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P123",
+  "eventId": "WA13/MA16",
+  "canonicalName": "Diophantus and the Arithmetica (symbolic algebra and Diophantine problems)",
+  "aliases": [
+   "Arithmetica",
+   "Diophantine equations",
+   "Diophantine analysis",
+   "syncopated algebra",
+   "Greek algebra",
+   "indeterminate analysis",
+   "Diophantus of Alexandria"
+  ],
+  "phases": [
+   "Babylonian and Greek precursors",
+   "Arithmetica",
+   "Reception: Arabic books, editions, Fermat"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Babylonian and Greek precursors",
+    "year": -1800,
+    "endYear": -1600,
+    "precision": "range",
+    "label": "Old Babylonian procedures for solving quadratic-type problems",
+    "work": "Old Babylonian mathematical tablets (Susa, Nippur, etc.)",
+    "people": [
+     "Old Babylonian scribes"
+    ],
+    "description": "Problem-solving that modern historians call algebra already existed in Mesopotamia long before Diophantus, so the Arithmetica is not the start of the technique itself.",
+    "evidence": [
+     {
+      "claim": "Hoyrup 2002 chapters characterise Old Babylonian \"algebra\" as a body of procedures",
+      "source": "Hoyrup, Old Babylonian Algebra: a global characterization (2002)",
+      "url": "https://doi.org/10.1007/978-1-4757-3685-4_7",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Diophantus: he did not invent the method of algebra, which existed before him",
+      "source": "Wikipedia, Arithmetica section of Diophantus",
+      "url": "https://en.wikipedia.org/wiki/Diophantus",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Date is the conventional Old Babylonian range (c. 1800-1600 BCE), not from the cited chapters."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Arithmetica",
+    "year": 250,
+    "endYear": 350,
+    "precision": "range",
+    "label": "Arithmetica written (13 books, 290 problems)",
+    "work": "Diophantus, Arithmetica; Greek, Alexandria; composition date uncertain",
+    "people": [
+     "Diophantus"
+    ],
+    "description": "Diophantus collects numerical problems solved by equations in one unknown and introduces abbreviations for the unknown, its powers and equality.",
+    "evidence": [
+     {
+      "claim": "MacTutor Diophantus: wrote after Hypsicles (150 BC) and before Theon of Alexandria (350 AD); symbolism with abbreviations for unknown and powers",
+      "source": "MacTutor, Diophantus",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Diophantus/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia Diophantus: flourished c. 250 CE, possible span 170 BCE-350 CE; 290 problems, six books in Greek, four in Arabic",
+      "source": "Wikipedia, Diophantus",
+      "url": "https://en.wikipedia.org/wiki/Diophantus",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Date is conventional (fl. c. 250 CE). Hard bounds from citations: later than Hypsicles (c. 150-170 BCE), earlier than Theon (350 CE); the range end 350 is the latest bound only. Treat derived conceptual date 250 as a convention."
+   },
+   {
+    "role": "key_development",
+    "phase": "Reception: Arabic books, editions, Fermat",
+    "year": 1463,
+    "endYear": null,
+    "precision": "year",
+    "label": "Regiomontanus announces the Greek Diophantus to Latin Europe",
+    "work": "Regiomontanus, remark of 1463 that no one had yet translated the thirteen books",
+    "people": [
+     "Regiomontanus"
+    ],
+    "description": "Regiomontanus reports the Greek text and says it is untranslated, reopening Diophantus to European mathematicians.",
+    "evidence": [
+     {
+      "claim": "MacTutor Diophantus: Europe learnt of the Arithmetica via Regiomontanus in 1463; Bombelli translated much of it in 1570 without publishing",
+      "source": "MacTutor, Diophantus",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Diophantus/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "consolidation",
+    "phase": "Reception: Arabic books, editions, Fermat",
+    "year": 1621,
+    "endYear": null,
+    "precision": "year",
+    "label": "Bachet's Greek-Latin edition of the Arithmetica",
+    "work": "Bachet, Diophanti Alexandrini Arithmeticorum libri sex, Paris 1621",
+    "people": [
+     "Claude Gaspard Bachet"
+    ],
+    "description": "Bachet prints the Greek text with a Latin translation and commentary, giving the first widely used scholarly edition.",
+    "evidence": [
+     {
+      "claim": "Open Library lists the 1621 edition Diophanti Alexandrini Arithmeticorum libri sex",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/works/OL5455492W",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Diophantus: the 1621 Bachet edition gained fame through Fermat marginal Last Theorem note",
+      "source": "Wikipedia, Diophantus",
+      "url": "https://en.wikipedia.org/wiki/Diophantus",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "A critical edition rather than a textbook; used for the consolidation role as the first systematic printed treatment."
+   },
+   {
+    "role": "key_development",
+    "phase": "Reception: Arabic books, editions, Fermat",
+    "year": 1670,
+    "endYear": null,
+    "precision": "year",
+    "label": "Fermat's marginal notes published with Bachet's edition",
+    "work": "Diophanti Alexandrini Arithmeticorum libri sex ... cum observationibus P. de Fermat, Toulouse 1670 (ed. Samuel de Fermat)",
+    "people": [
+     "Pierre de Fermat",
+     "Samuel de Fermat"
+    ],
+    "description": "Samuel Fermat publishes his father's observations on Diophantus, which launch modern Diophantine analysis (e.g. the Last Theorem note).",
+    "evidence": [
+     {
+      "claim": "MacTutor Fermat: marginal notes became known when Samuel published an edition of Bachet with his father notes in 1670",
+      "source": "MacTutor, Fermat",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Fermat/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Open Library lists the 1670 edition with Fermat as contributor",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/works/OL44193513W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": "Reception: Arabic books, editions, Fermat",
+    "year": 1885,
+    "endYear": null,
+    "precision": "year",
+    "label": "Heath's study of Diophantus in English",
+    "work": "T. L. Heath, Diophantus of Alexandria: a study in the history of Greek algebra, Cambridge 1885 (2nd ed. 1910)",
+    "people": [
+     "Thomas Little Heath"
+    ],
+    "description": "Heath provides the standard English monograph and translation, consolidating Diophantus for the modern reader.",
+    "evidence": [
+     {
+      "claim": "Open Library lists Heath, Diophantus of Alexandria, first published 1885 (also 1910)",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/works/OL10469250W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Role chosen as a monograph; Nesselmann 1842 or Tannery 1893-95 may precede in scholarly editions (not searched)."
+   },
+   {
+    "role": "key_development",
+    "phase": "Reception: Arabic books, editions, Fermat",
+    "year": 1982,
+    "endYear": null,
+    "precision": "year",
+    "label": "Arabic Books IV-VII identified and edited",
+    "work": "Sesiano, Books IV to VII of Diophantus Arithmetica in the Arabic translation attributed to Qusta ibn Luqa, Springer 1982",
+    "people": [
+     "Jacques Sesiano",
+     "Fuat Sezgin",
+     "Roshdi Rashed"
+    ],
+    "description": "A manuscript found in 1968 preserves four further books in Arabic, changing the picture of what the Arithmetica contained.",
+    "evidence": [
+     {
+      "claim": "Crossref records Sesiano 1982, Books IV to VII of Diophantus Arithmetica",
+      "source": "Sesiano 1982 (Springer)",
+      "url": "https://doi.org/10.1007/978-1-4613-8174-7",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor Diophantus: Sezgin found Arabic manuscript of Books IV-VII in 1968; Rashed argued it is a translation by Qusta ibn Luqa (d. 912)",
+      "source": "MacTutor, Diophantus",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Diophantus/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Authenticity as Diophantus text is questioned by some reviewers (Rozenfeld quoted by MacTutor)."
+   }
+  ],
+  "people": [
+   {
+    "name": "Diophantus of Alexandria",
+    "role": "originator",
+    "lifespan": "fl. c. 250 (uncertain; MacTutor c. 200-c. 284)",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Diophantus/",
+    "works": [
+     {
+      "citation": "Arithmetica",
+      "year": 250,
+      "url": "https://en.wikipedia.org/wiki/Diophantus",
+      "whyItMatters": "problems solved by algebra with symbolic abbreviations"
+     }
+    ]
+   },
+   {
+    "name": "Claude Gaspard Bachet de Meziriac",
+    "role": "systematiser",
+    "lifespan": "1581-1638",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bachet/",
+    "works": [
+     {
+      "citation": "Diophanti Alexandrini Arithmeticorum libri sex",
+      "year": 1621,
+      "url": "https://openlibrary.org/works/OL5455492W",
+      "whyItMatters": "first widely used printed edition"
+     }
+    ]
+   },
+   {
+    "name": "Pierre de Fermat",
+    "role": "developer",
+    "lifespan": "1601-1665",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Fermat/",
+    "works": [
+     {
+      "citation": "Observations on Diophantus (published 1670)",
+      "year": 1670,
+      "url": "https://openlibrary.org/works/OL44193513W",
+      "whyItMatters": "founded modern Diophantine analysis"
+     }
+    ]
+   },
+   {
+    "name": "Thomas Little Heath",
+    "role": "popularizer",
+    "lifespan": "1861-1940",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Thomas_Little_Heath",
+    "works": [
+     {
+      "citation": "Diophantus of Alexandria",
+      "year": 1885,
+      "url": "https://openlibrary.org/works/OL10469250W",
+      "whyItMatters": "English monograph on Greek algebra"
+     }
+    ]
+   },
+   {
+    "name": "Jacques Sesiano",
+    "role": "systematiser",
+    "lifespan": "living scholar (dates not recorded)",
+    "biographyUrl": "https://doi.org/10.1007/978-1-4613-8174-7",
+    "works": [
+     {
+      "citation": "Books IV to VII of Diophantus Arithmetica",
+      "year": 1982,
+      "url": "https://doi.org/10.1007/978-1-4613-8174-7",
+      "whyItMatters": "edition of the Arabic books"
+     }
+    ]
+   }
+  ],
+  "notes": "Disputed: Diophantus date (about 500-year window); whether the symbolism was his own (MacTutor quoting Vogel) or pre-existing (Wikipedia). Methodological date left null: no purposeful application to an outside target was dated. Naming of Diophantine equations/analysis as a field name not dated; searched MacTutor and Wikipedia Diophantus. MSC 11D (Diophantine equations) exists but its first-appearance year was not established. Biographical lifespans of Heath and Sesiano come from memory and are flagged; Bachet lifespan not re-read on the MacTutor page.",
+  "derivedDates": {
+   "conceptual": 250,
+   "methodological": null,
+   "institutional": 1621
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P156",
+  "eventId": "MA4",
+  "canonicalName": "Discovery of incommensurable magnitudes (irrationality of the diagonal)",
+  "aliases": [
+   "incommensurability",
+   "irrational numbers",
+   "Hippasus",
+   "alogos",
+   "irrationality of the square root of 2",
+   "Euclid Book X",
+   "Eudoxus theory of proportion",
+   "side and diagonal"
+  ],
+  "phases": [
+   "Discovery (5th c. BCE)",
+   "Theodorus and Theaetetus",
+   "Eudoxus theory of proportion",
+   "Euclid Elements V and X"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Discovery (5th c. BCE)",
+    "year": -450,
+    "endYear": -400,
+    "precision": "range",
+    "label": "First proof that side and diagonal of a square are incommensurable (attributed, disputed)",
+    "work": "Pythagorean school; attributed to Hippasus of Metapontum; no surviving text",
+    "people": [
+     "Hippasus of Metapontum (disputed)"
+    ],
+    "description": "A Pythagorean showed that the diagonal of a square has no common measure with its side, breaking the claim that all magnitudes are ratios of whole numbers.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Hippasus: sometimes credited with discovery of irrationals; no ancient writer ascribes it to him specifically; he lived c. 530 - c. 450 BC",
+      "source": "Wikipedia, Hippasus",
+      "url": "https://en.wikipedia.org/wiki/Hippasus",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Von Fritz 1945 studies the attribution to Hippasus in the Annals of Mathematics",
+      "source": "K. von Fritz, Annals of Mathematics 46 (1945)",
+      "url": "https://doi.org/10.2307/1969021",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Irrational number: first proof attributed to a Pythagorean, possibly Hippasus, 5th century BC",
+      "source": "Wikipedia, Irrational number",
+      "url": "https://en.wikipedia.org/wiki/Irrational_number",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "No text from the period survives; date is a scholarly attribution (5th century BCE). Role first_statement is used for lack of a surviving earlier statement; the earliest surviving evidence is Plato/Aristotle/Euclid."
+   },
+   {
+    "role": "key_development",
+    "phase": "Theodorus and Theaetetus",
+    "year": -400,
+    "endYear": null,
+    "precision": "decade",
+    "label": "Theodorus proves irrationality of the roots of 3, 5, ... up to 17",
+    "work": "Reported in Plato, Theaetetus (dialogue set in 399 BC)",
+    "people": [
+     "Theodorus of Cyrene"
+    ],
+    "description": "Theodorus handles non-square numbers case by case, without a general theorem, which prompts the general question taken up by Theaetetus.",
+    "evidence": [
+     {
+      "claim": "MacTutor Theodorus: Plato describes his proofs for roots of 3, 5, ... 17 and notes that the root of 2 was already known irrational",
+      "source": "MacTutor, Theodorus",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Theodorus/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "MacTutor Theaetetus: the conversation in the dialogue took place in 399 BC",
+      "source": "MacTutor, Theaetetus",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Theaetetus/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Date is the dramatic date of Plato dialogue, not publication; Wikipedia gives Theodorus c. 400 BC."
+   },
+   {
+    "role": "key_development",
+    "phase": "Theodorus and Theaetetus",
+    "year": -400,
+    "endYear": -369,
+    "precision": "range",
+    "label": "Theaetetus develops a general theory of irrational lengths",
+    "work": "Reconstructed from Euclid, Elements Book X and XIII",
+    "people": [
+     "Theaetetus of Athens"
+    ],
+    "description": "Theaetetus classifies incommensurable lengths in general; later Book X of the Elements is believed to describe his work.",
+    "evidence": [
+     {
+      "claim": "MacTutor Theaetetus: Books X and XIII of the Elements are almost certainly a description of his work; born about 417 BC, died about 369 BC",
+      "source": "MacTutor, Theaetetus",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Theaetetus/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Dated by his lifespan; no writing survives."
+   },
+   {
+    "role": "key_development",
+    "phase": "Eudoxus theory of proportion",
+    "year": -370,
+    "endYear": -355,
+    "precision": "range",
+    "label": "Eudoxus defines equality of ratios, covering irrational magnitudes",
+    "work": "Eudoxus; preserved in Euclid, Elements Book V",
+    "people": [
+     "Eudoxus of Cnidus"
+    ],
+    "description": "Eudoxus gives a definition of proportion that treats commensurable and incommensurable magnitudes alike, restoring a foundation for geometry.",
+    "evidence": [
+     {
+      "claim": "MacTutor Eudoxus: theory of proportion allowing possibly irrational lengths to be compared; lived 408-355 BC",
+      "source": "MacTutor, Eudoxus",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Eudoxus/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia Irrational number: Eudoxus formalised a theory of proportion for commensurable and incommensurable quantities",
+      "source": "Wikipedia, Irrational number",
+      "url": "https://en.wikipedia.org/wiki/Irrational_number",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Dated by lifespan (408-355 BC); no work of Eudoxus survives."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Euclid Elements V and X",
+    "year": -300,
+    "endYear": null,
+    "precision": "decade",
+    "label": "Euclid Elements Book V (proportion) and Book X (irrationals)",
+    "work": "Euclid, Elements, Alexandria, c. 300 BC",
+    "people": [
+     "Euclid"
+    ],
+    "description": "Euclid sets out the theory of proportion and a classification of irrational lines as parts of one deductive treatise.",
+    "evidence": [
+     {
+      "claim": "MacTutor Euclid: born about 325 BC; the Elements is his treatise; MacTutor Theaetetus says Book X describes irrational lengths",
+      "source": "MacTutor, Euclid / Theaetetus",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Fowler 1992 invites reading of Book X of the Elements",
+      "source": "D. Fowler, Historia Mathematica 19 (1992)",
+      "url": "https://doi.org/10.1016/0315-0860(92)90029-b",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Date approximate (c. 300 BC)."
+   }
+  ],
+  "people": [
+   {
+    "name": "Hippasus of Metapontum",
+    "role": "originator",
+    "lifespan": "c. 530-c. 450 BC (Wikipedia)",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Hippasus",
+    "works": [
+     {
+      "citation": "K. von Fritz, The discovery of incommensurability by Hippasus of Metapontum",
+      "year": 1945,
+      "url": "https://doi.org/10.2307/1969021",
+      "whyItMatters": "modern study of the attribution"
+     }
+    ]
+   },
+   {
+    "name": "Theaetetus of Athens",
+    "role": "systematiser",
+    "lifespan": "c. 417-c. 369 BC",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Theaetetus/",
+    "works": [
+     {
+      "citation": "Knorr, The Evolution of the Euclidean Elements (1975)",
+      "year": 1975,
+      "url": "https://doi.org/10.1007/978-94-010-1754-1",
+      "whyItMatters": "Reconstructs how Euclid's Elements, including its arithmetic books, was compiled from earlier sources."
+     }
+    ]
+   },
+   {
+    "name": "Eudoxus of Cnidus",
+    "role": "systematiser",
+    "lifespan": "408-355 BC",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Eudoxus/",
+    "works": [
+     {
+      "citation": "Knorr, The Evolution of the Euclidean Elements (1975)",
+      "year": 1975,
+      "url": "https://doi.org/10.1007/978-94-010-1754-1",
+      "whyItMatters": "Reconstructs how Euclid's Elements, including its arithmetic books, was compiled from earlier sources."
+     }
+    ]
+   },
+   {
+    "name": "Euclid of Alexandria",
+    "role": "systematiser",
+    "lifespan": "c. 325-c. 265 BC",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/",
+    "works": [
+     {
+      "citation": "Knorr, The Evolution of the Euclidean Elements (1975)",
+      "year": 1975,
+      "url": "https://doi.org/10.1007/978-94-010-1754-1",
+      "whyItMatters": "Reconstructs how Euclid's Elements, including its arithmetic books, was compiled from earlier sources."
+     }
+    ]
+   },
+   {
+    "name": "Theodorus of Cyrene",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Theodorus/",
+    "works": [
+     {
+      "citation": "Plato, Theaetetus (original c. 369 BCE; Jowett translation, Project Gutenberg edition)",
+      "year": -369,
+      "url": "https://www.gutenberg.org/ebooks/1726",
+      "whyItMatters": "Plato's dialogue is the source of the report that Theodorus proved the irrationality of the square roots of 3 to 17; Theodorus' own writing is lost."
+     }
+    ]
+   }
+  ],
+  "notes": "Disputed: attribution to Hippasus (no ancient writer names him for irrationality; Iamblichus ties his drowning to the dodecahedron); which magnitude (pentagon/golden ratio vs square diagonal) came first; whether Knorr rational-diameter reconstruction (Amer. Math. Monthly 1998, doi 10.2307/3109803) is right. Aristotle (Prior Analytics) mentions the odd/even argument for the diagonal but no dated record was read, so no milestone. Methodological date left null: no purposeful application to a target was dated. No naming/institution milestone for pre-MSC era. Knorr, The Evolution of the Euclidean Elements (1975; Open Library OL4313763W) is the standard modern reference, not read. person without verified work: Theodorus of Cyrene (developer).",
+  "derivedDates": {
+   "conceptual": -450,
+   "methodological": null,
+   "institutional": -300
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P137",
+  "eventId": "MA24/WA17",
+  "canonicalName": "Chinese remainder theorem",
+  "aliases": [
+   "simultaneous congruences",
+   "Sunzi problem",
+   "Han Xin counting soldiers",
+   "Dayan qiuyi shu",
+   "dayan rule",
+   "kuttaka",
+   "remainder problem",
+   "systems of congruences",
+   "Qin Jiushao"
+  ],
+  "phases": [
+   "Sunzi remainder puzzle",
+   "General algorithms (kuttaka, Dayan rule)",
+   "European congruence theory"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Sunzi remainder puzzle",
+    "year": 300,
+    "endYear": 500,
+    "precision": "range",
+    "label": "Sunzi suanjing poses the 3-5-7 remainder problem",
+    "work": "Sunzi suanjing (Sun Zi mathematical manual), China, 3rd-5th century",
+    "people": [
+     "Sun Zi"
+    ],
+    "description": "A single puzzle asks for a number with given remainders mod 3, 5 and 7, and gives a procedure for it; this is the earliest known occurrence of the problem type.",
+    "evidence": [
+     {
+      "claim": "MacTutor Chinese overview: earliest known occurrence of a Chinese remainder type problem, in Sun Zi (about 400-about 460)",
+      "source": "MacTutor, Chinese overview",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Chinese_overview/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "MacTutor Sun Zi: dating of the Sunzi suanjing ranges from 3rd to 5th century AD across modern authors",
+      "source": "MacTutor, Sun Zi",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Sun_Zi/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia CRT: earliest known statement of the problem in the 5th-century Sunzi Suanjing; it is one case, not a theorem",
+      "source": "Wikipedia, Chinese remainder theorem",
+      "url": "https://en.wikipedia.org/wiki/Chinese_remainder_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Date range 3rd-5th c. (precision range 300-500); Shen 1988 (doi 10.1007/bf00357063) is the standard history but was not read. Sunzi gives one instance only."
+   },
+   {
+    "role": "key_development",
+    "phase": "General algorithms (kuttaka, Dayan rule)",
+    "year": 499,
+    "endYear": null,
+    "precision": "year",
+    "label": "Aryabhata describes the kuttaka algorithm for indeterminate remainders",
+    "work": "Aryabhata, Aryabhatiya, 499",
+    "people": [
+     "Aryabhata"
+    ],
+    "description": "Aryabhata gives a pulverising algorithm (Euclidean-style) for solving remainder problems that arise from planetary periods, a general method beyond a single puzzle.",
+    "evidence": [
+     {
+      "claim": "MacTutor Aryabhata: Aryabhatiya finished 499; kuttaka method for ax-by=c from planetary period problems, related to Euclidean algorithm",
+      "source": "MacTutor, Aryabhata I",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia CRT: an algorithm for the problem was described by Aryabhata (6th century)",
+      "source": "Wikipedia, Chinese remainder theorem",
+      "url": "https://en.wikipedia.org/wiki/Chinese_remainder_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Kuttaka is for linear indeterminate equations; its identification with the full CRT for several moduli is as stated by Wikipedia and not checked in the Aryabhatiya."
+   },
+   {
+    "role": "key_development",
+    "phase": "European congruence theory",
+    "year": 1202,
+    "endYear": null,
+    "precision": "year",
+    "label": "Fibonacci includes remainder problems in Liber Abaci",
+    "work": "Fibonacci, Liber Abaci, 1202",
+    "people": [
+     "Fibonacci"
+    ],
+    "description": "Special cases of the remainder problem appear in the first major European arithmetic of the Hindu-Arabic era.",
+    "evidence": [
+     {
+      "claim": "Wikipedia CRT: special cases appear in Fibonacci Liber Abaci (1202)",
+      "source": "Wikipedia, Chinese remainder theorem",
+      "url": "https://en.wikipedia.org/wiki/Chinese_remainder_theorem",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Open Library lists Sigler translation of Fibonacci Liber Abaci (2002)",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/works/OL5267710W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Only secondary; not checked in the translation."
+   },
+   {
+    "role": "key_development",
+    "phase": "General algorithms (kuttaka, Dayan rule)",
+    "year": 1247,
+    "endYear": null,
+    "precision": "year",
+    "label": "Qin Jiushao: general Dayan rule for systems of congruences, including non-coprime moduli",
+    "work": "Qin Jiushao, Shushu jiuzhang (Mathematical treatise in nine sections), 1247",
+    "people": [
+     "Qin Jiushao"
+    ],
+    "description": "Qin gives a complete, systematic algorithm for simultaneous congruences, opening his treatise with it and treating even rational and non-coprime moduli.",
+    "evidence": [
+     {
+      "claim": "MacTutor Qin Jiushao: Shushu Jiuzhang appeared in 1247; chapter 1 on indeterminate analysis with the Chinese remainder theorem; problems with rational moduli",
+      "source": "MacTutor, Qin Jiushao",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Qin_Jiushao/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Libbrecht studied the treatise (Chinese Mathematics in the Thirteenth Century, 1973)",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/works/OL2388764W",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Shen 1988, Historical development of the Chinese remainder theorem",
+      "source": "K. Shen, Arch. Hist. Exact Sci. 38 (1988)",
+      "url": "https://doi.org/10.1007/bf00357063",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": "European congruence theory",
+    "year": 1801,
+    "endYear": null,
+    "precision": "year",
+    "label": "Gauss introduces congruence notation and treats the theorem systematically",
+    "work": "C. F. Gauss, Disquisitiones Arithmeticae, 1801",
+    "people": [
+     "Carl Friedrich Gauss"
+    ],
+    "description": "Gauss gives congruences their notation and theory and solves a calendar-cycle problem with the remainder method, founding the modern treatment.",
+    "evidence": [
+     {
+      "claim": "Wikipedia CRT: congruences first introduced by Gauss in Disquisitiones Arithmeticae of 1801, illustrated with a calendar problem",
+      "source": "Wikipedia, Chinese remainder theorem",
+      "url": "https://en.wikipedia.org/wiki/Chinese_remainder_theorem",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Open Library lists Disquisitiones arithmeticae, 1801",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/works/OL2393838W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Euler used the procedure earlier (Wikipedia); no earlier general treatise located."
+   }
+  ],
+  "people": [
+   {
+    "name": "Sun Zi",
+    "role": "originator",
+    "lifespan": "c. 400-c. 460 (MacTutor; dating uncertain)",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Sun_Zi/",
+    "works": [
+     {
+      "citation": "The Sun Zi Suanjing, chapter 1 (1992)",
+      "year": 1992,
+      "url": "https://doi.org/10.1142/9789814537032_0001",
+      "whyItMatters": "Modern English study of the Sun Zi suanjing, including its remainder problem."
+     }
+    ]
+   },
+   {
+    "name": "Aryabhata",
+    "role": "developer",
+    "lifespan": "476-550",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/",
+    "works": [
+     {
+      "citation": "Aryabhatiya",
+      "year": 499,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/",
+      "whyItMatters": "kuttaka algorithm"
+     }
+    ]
+   },
+   {
+    "name": "Qin Jiushao",
+    "role": "systematiser",
+    "lifespan": "1202-1261",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Qin_Jiushao/",
+    "works": [
+     {
+      "citation": "Shushu jiuzhang",
+      "year": 1247,
+      "url": "https://openlibrary.org/works/OL2388764W",
+      "whyItMatters": "general Dayan rule"
+     }
+    ]
+   },
+   {
+    "name": "Carl Friedrich Gauss",
+    "role": "systematiser",
+    "lifespan": "1777-1855",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Gauss/",
+    "works": [
+     {
+      "citation": "Disquisitiones Arithmeticae",
+      "year": 1801,
+      "url": "https://openlibrary.org/works/OL2393838W",
+      "whyItMatters": "congruence theory"
+     }
+    ]
+   }
+  ],
+  "notes": "Disputed: Sunzi date. Special cases by Brahmagupta (7th c.) are mentioned in Wikipedia; not verified. The name Chinese remainder theorem: coinage and first use not established; searched MacTutor, Wikipedia, Crossref. Wikipedia says Wylie translated Qin in the early 19th century (probably wrong; not checked). Event type import-from-outside: calendar/planetary-period problems motivate Aryabhata and Qin (MacTutor). Methodological date left null: a first purposeful application on a target problem is arguably Aryabhata (planet periods) but is folded into key_development.",
+  "derivedDates": {
+   "conceptual": 300,
+   "methodological": null,
+   "institutional": 1801
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P141",
+  "eventId": "WA20/MA20",
+  "canonicalName": "Indian sine (jya) and the birth of trigonometric functions",
+  "aliases": [
+   "jya",
+   "half-chord",
+   "sine table",
+   "Aryabhata sine table",
+   "Surya Siddhanta",
+   "Siddhantic astronomy",
+   "versine",
+   "kojya",
+   "sinus"
+  ],
+  "phases": [
+   "Greek chords to Indian half-chords",
+   "Aryabhata and the Siddhantas",
+   "Interpolation, naming and spread"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Greek chords to Indian half-chords",
+    "year": -140,
+    "endYear": null,
+    "precision": "decade",
+    "label": "Hipparchus's table of chords",
+    "work": "Hipparchus, chord table, lost; reported by later authors",
+    "people": [
+     "Hipparchus"
+    ],
+    "description": "Greek astronomers tabulate full chords of arcs; the Indian step is to switch to half-chords, i.e. the sine.",
+    "evidence": [
+     {
+      "claim": "MacTutor Trigonometric functions: first known table of chords by Hipparchus about 140 BC",
+      "source": "MacTutor, Trigonometric functions",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Trigonometric_functions/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia, Aryabhata sine table: earlier tables by Hipparchus, Menelaus and Ptolemy were chord tables, not half-chord",
+      "source": "Wikipedia, Aryabhata sine table (Aryabhata sine table redirect)",
+      "url": "https://en.wikipedia.org/wiki/%C4%80ryabha%E1%B9%ADa%27s_sine_table",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "precursor",
+    "phase": "Aryabhata and the Siddhantas",
+    "year": 400,
+    "endYear": 500,
+    "precision": "range",
+    "label": "Siddhanta texts (incl. Surya Siddhanta) define sine as half-chord",
+    "work": "Siddhantas, 4th-5th century; extant Surya Siddhanta probably revised c. 800",
+    "people": [
+     "anonymous Indian astronomers"
+    ],
+    "description": "Astronomical treatises are credited with first defining sine as half of the chord of double the arc, but dating of surviving texts is uncertain.",
+    "evidence": [
+     {
+      "claim": "Wikipedia History of trigonometry: Siddhantas of the 4th-5th century first defined the sine as the half-chord relation",
+      "source": "Wikipedia, History of trigonometry",
+      "url": "https://en.wikipedia.org/wiki/History_of_trigonometry",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia Surya Siddhanta: text dated end of 4th-5th century by most scholars; extant version composed or revised c. 800",
+      "source": "Wikipedia, Surya Siddhanta",
+      "url": "https://en.wikipedia.org/wiki/Surya_Siddhanta",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Marked precursor because the surviving text is later than Aryabhata and unpublished earlier layers cannot be dated."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Aryabhata and the Siddhantas",
+    "year": 499,
+    "endYear": null,
+    "precision": "year",
+    "label": "Aryabhata gives the first sine table (sine differences)",
+    "work": "Aryabhata, Aryabhatiya, Dasagitika verse 12, 499",
+    "people": [
+     "Aryabhata"
+    ],
+    "description": "Aryabhata tabulates the sine differences of 24 arcs of 3 degrees 45 minutes with radius 3438, the earliest surviving table of half-chords.",
+    "evidence": [
+     {
+      "claim": "MacTutor Aryabhata: Aryabhatiya finished 499; table of sines at intervals of 90/24 degrees",
+      "source": "MacTutor, Aryabhata I",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia Aryabhata sine table: first table of sines, first differences, radius 3438, verse 12 of Dasagitika",
+      "source": "Wikipedia, Aryabhata sine table",
+      "url": "https://en.wikipedia.org/wiki/%C4%80ryabha%E1%B9%ADa%27s_sine_table",
+      "kind": "history_page"
+     },
+     {
+      "claim": "MacTutor Trigonometric functions: first actual appearance of the sine in the Hindu work, Aryabhata about 500, jya",
+      "source": "MacTutor, Trigonometric functions",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Trigonometric_functions/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": "Interpolation, naming and spread",
+    "year": 665,
+    "endYear": null,
+    "precision": "year",
+    "label": "Brahmagupta interpolates sine values with a second-order formula",
+    "work": "Brahmagupta, Khandakhadyaka, 665 (also reproduces the table in 628)",
+    "people": [
+     "Brahmagupta"
+    ],
+    "description": "Brahmagupta uses a second-order difference formula to compute sines between tabulated values; the same table appears in his 628 work.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Brahmagupta: in 665 devised second-order interpolation to find new sine values from tabulated ones",
+      "source": "Wikipedia, Brahmagupta",
+      "url": "https://en.wikipedia.org/wiki/Brahmagupta",
+      "kind": "history_page"
+     },
+     {
+      "claim": "MacTutor Trigonometric functions: the table reproduced in the work of Brahmagupta in 628",
+      "source": "MacTutor, Trigonometric functions",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Trigonometric_functions/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "key_development",
+    "phase": "Interpolation, naming and spread",
+    "year": 1150,
+    "endYear": null,
+    "precision": "year",
+    "label": "Bhaskara II gives detailed methods to construct sine tables for any angle",
+    "work": "Bhaskara II, Siddhantasiromani, 1150",
+    "people": [
+     "Bhaskara II"
+    ],
+    "description": "Bhaskara gives detailed methods for constructing a sine table for any angle, extending earlier Indian tables.",
+    "evidence": [
+     {
+      "claim": "MacTutor Trigonometric functions: detailed method for constructing a table of sines for any angle given by Bhaskara in 1150",
+      "source": "MacTutor, Trigonometric functions",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Trigonometric_functions/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "MacTutor assigns 1150 as a date for Bhaskara II works."
+   },
+   {
+    "role": "naming",
+    "phase": "Interpolation, naming and spread",
+    "year": 1202,
+    "endYear": null,
+    "precision": "year",
+    "label": "Fibonacci uses sinus rectus arcus; Latin sinus replaces Arabic jiba from jya",
+    "work": "Fibonacci, Liber Abaci / Practica geometriae; translations of Arabic mathematics",
+    "people": [
+     "Fibonacci"
+    ],
+    "description": "Indian jya became Arabic jiba then jaib and was rendered Latin sinus; Fibonacci use of sinus rectus arcus helped fix the term.",
+    "evidence": [
+     {
+      "claim": "MacTutor Trigonometric functions: jya adopted by Arabs as jiba, then jaib, translated sinus; Fibonacci sinus rectus arcus encouraged universal use",
+      "source": "MacTutor, Trigonometric functions",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Trigonometric_functions/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia History of trigonometry (etymology of sine via jya-ardha, jiva, jiba, sinus)",
+      "source": "Wikipedia, History of trigonometry",
+      "url": "https://en.wikipedia.org/wiki/History_of_trigonometry",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Earliest Latin use of sinus is by 12th-century translators; exact first use and year not established here (Fibonacci year 1202 is the Liber Abaci date, not verified for the specific passage)."
+   },
+   {
+    "role": "key_development",
+    "phase": "Interpolation, naming and spread",
+    "year": 1350,
+    "endYear": 1425,
+    "precision": "range",
+    "label": "Madhava of Sangamagrama gives power series for sine and refined sine tables",
+    "work": "Madhava, c. 1350-1425",
+    "people": [
+     "Madhava of Sangamagrama"
+    ],
+    "description": "Continued attempts to improve the Aryabhata table culminated in series expansions and a seven- or eight-digit sine table.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Aryabhata sine table: improvements culminated in series for sine and cosine by Madhava (c. 1350-c. 1425)",
+      "source": "Wikipedia, Aryabhata sine table",
+      "url": "https://en.wikipedia.org/wiki/%C4%80ryabha%E1%B9%ADa%27s_sine_table",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Madhava works are known from later quotations; dating by his lifespan."
+   }
+  ],
+  "people": [
+   {
+    "name": "Aryabhata",
+    "role": "originator",
+    "lifespan": "476-550",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/",
+    "works": [
+     {
+      "citation": "Aryabhatiya",
+      "year": 499,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/",
+      "whyItMatters": "earliest surviving sine table"
+     }
+    ]
+   },
+   {
+    "name": "Brahmagupta",
+    "role": "developer",
+    "lifespan": "598-c. 670",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Brahmagupta/",
+    "works": [
+     {
+      "citation": "Khandakhadyaka",
+      "year": 665,
+      "url": "https://en.wikipedia.org/wiki/Brahmagupta",
+      "whyItMatters": "sine interpolation"
+     }
+    ]
+   },
+   {
+    "name": "Bhaskara II",
+    "role": "systematiser",
+    "lifespan": "1114-1185",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bhaskara_II/",
+    "works": [
+     {
+      "citation": "Siddhantasiromani",
+      "year": 1150,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Bhaskara_II/",
+      "whyItMatters": "methods for sine tables"
+     }
+    ]
+   },
+   {
+    "name": "Hipparchus of Nicaea",
+    "role": "originator",
+    "lifespan": "c. 190-c. 120 BC (Wikipedia)",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hipparchus/",
+    "works": [
+     {
+      "citation": "Toomer, The chord table of Hipparchus, Centaurus 18 (1974)",
+      "year": 1974,
+      "url": "https://doi.org/10.1111/j.1600-0498.1974.tb00205.x",
+      "whyItMatters": "Main modern analysis of Hipparchus' lost chord table."
+     }
+    ]
+   }
+  ],
+  "notes": "Disputed: whether the Aryabhata table adapts Greek chords (Wikipedia says the argument was refuted); date of the Siddhantas; Surya Siddhanta dating. Methodological date left null: the first purposeful use on planetary computation is inside Aryabhatiya and Siddhantas. Institutional date is the Latin naming and should be read as low confidence. Hipparchus biography URL not checked for 200 status (MacTutor).",
+  "derivedDates": {
+   "conceptual": 499,
+   "methodological": null,
+   "institutional": 1202
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P111",
+  "eventId": "MA17/WA19",
+  "canonicalName": "Indian place-value notation and zero",
+  "aliases": [
+   "zero",
+   "sunya",
+   "shunya",
+   "kha",
+   "Hindu-Arabic numerals",
+   "positional decimal",
+   "decimal place value",
+   "Brahmi numerals",
+   "Bakhshali manuscript",
+   "Lokavibhaga"
+  ],
+  "phases": [
+   "Brahmi numerals",
+   "Place value emerges",
+   "Zero as a number",
+   "Dated inscriptions"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Brahmi numerals",
+    "year": -250,
+    "endYear": null,
+    "precision": "decade",
+    "label": "Brahmi numerals appear",
+    "work": "Ashokan inscriptions and Brahmi numerals, c. 3rd century BC",
+    "people": [
+     "anonymous scribes"
+    ],
+    "description": "Additive Brahmi numeral signs for 1-9 and for tens and hundreds exist; they are not yet a place-value system.",
+    "evidence": [
+     {
+      "claim": "MacTutor Indian numerals: Brahmi numerals came into being around the middle of the third century BC; not place-value",
+      "source": "MacTutor, Indian numerals",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Indian_numerals/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia Hindu-Arabic numeral system: Brahmi numerals predate the Common Era, on Ashoka edicts, and were not positional",
+      "source": "Wikipedia, Hindu-Arabic numeral system",
+      "url": "https://en.wikipedia.org/wiki/Hindu%E2%80%93Arabic_numeral_system",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "precursor",
+    "phase": "Place value emerges",
+    "year": 458,
+    "endYear": null,
+    "precision": "year",
+    "label": "Lokavibhaga: Jain cosmology text using decimal place value and zero",
+    "work": "Lokavibhaga, internally dated 458 CE; surviving in a later Sanskrit translation",
+    "people": [
+     "anonymous Jaina author"
+    ],
+    "description": "A Jain cosmological text, dated within itself to 458, may preserve one of the earliest positional uses of zero.",
+    "evidence": [
+     {
+      "claim": "Wikipedia, 0: Lokavibhaga internally dated to AD 458 uses decimal place value, including a zero; survives in later Sanskrit translation",
+      "source": "Wikipedia, 0",
+      "url": "https://en.wikipedia.org/wiki/0",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia Hindu-Arabic numeral system: Sanskrit translation of the lost 5th century Prakrit text may preserve an early instance",
+      "source": "Wikipedia, Hindu-Arabic numeral system",
+      "url": "https://en.wikipedia.org/wiki/Hindu%E2%80%93Arabic_numeral_system",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Only a later translation survives, so the date is inherited and may be revised; hence precursor not first_statement."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Place value emerges",
+    "year": 499,
+    "endYear": null,
+    "precision": "year",
+    "label": "Aryabhatiya states the place-value principle",
+    "work": "Aryabhata, Aryabhatiya, 499",
+    "people": [
+     "Aryabhata"
+    ],
+    "description": "Aryabhata states that each place is ten times the previous one and uses a word meaning emptiness for the empty position.",
+    "evidence": [
+     {
+      "claim": "Wikipedia 0: Aryabhatiya (499) states each place ten times the preceding",
+      "source": "Wikipedia, 0",
+      "url": "https://en.wikipedia.org/wiki/0",
+      "kind": "history_page"
+     },
+     {
+      "claim": "MacTutor Zero: around 500 Aryabhata devised a positional number system with no zero symbol; word kha for place",
+      "source": "MacTutor, Zero",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Zero/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "MacTutor Aryabhata: Aryabhatiya finished 499",
+      "source": "MacTutor, Aryabhata I",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The Aryabhatiya has a place-value statement but its own numerals are word-based and lack a zero symbol; first_statement of the idea in a securely dated text."
+   },
+   {
+    "role": "first_application",
+    "phase": "Dated inscriptions",
+    "year": 594,
+    "endYear": null,
+    "precision": "year",
+    "label": "Earliest dated place-value document: Sankheda copper-plate charter",
+    "work": "Donation charter of Dadda III of Sankheda, dated 346 in the Chhedi era (594 CE)",
+    "people": [
+     "Dadda III"
+    ],
+    "description": "A dated charter writes a date in decimal place-value form, the oldest dated Indian document in that form according to MacTutor.",
+    "evidence": [
+     {
+      "claim": "MacTutor Indian numerals: oldest dated Indian document with place-value numbers is a charter dated Chhedi 346 = 594 AD",
+      "source": "MacTutor, Indian numerals",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Indian_numerals/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "MacTutor itself flags a problem with the document (not detailed); treat with caution."
+   },
+   {
+    "role": "key_development",
+    "phase": "Zero as a number",
+    "year": 628,
+    "endYear": null,
+    "precision": "year",
+    "label": "Brahmagupta states arithmetic rules for zero and negatives",
+    "work": "Brahmagupta, Brahmasphutasiddhanta, 628",
+    "people": [
+     "Brahmagupta"
+    ],
+    "description": "Brahmagupta defines zero as a number and sets sum, product and division rules, including a wrong rule for 0/0.",
+    "evidence": [
+     {
+      "claim": "MacTutor Brahmagupta: defines zero as a number minus itself and gives rules; attempts division by zero",
+      "source": "MacTutor, Brahmagupta",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Brahmagupta/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia, 0: rules for zero in Brahmasphuta Siddhanta (7th century)",
+      "source": "Wikipedia, 0",
+      "url": "https://en.wikipedia.org/wiki/0",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia Brahmagupta: Brahmasphutasiddhanta dated 628",
+      "source": "Wikipedia, Brahmagupta",
+      "url": "https://en.wikipedia.org/wiki/Brahmagupta",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "precursor",
+    "phase": "Place value emerges",
+    "year": 799,
+    "endYear": 1102,
+    "precision": "range",
+    "label": "Bakhshali manuscript (zero as a dot); date disputed",
+    "work": "Bakhshali manuscript, birch bark, Gandhara region",
+    "people": [
+     "unknown scribes"
+    ],
+    "description": "The manuscript uses place value with a dot for zero, but its folios were radiocarbon dated across centuries.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Bakhshali manuscript: 2017 dates 224-383, 680-779, 885-993 CE; October 2024 revision 799-1102 CE; was regarded as earliest zero symbol until Sept 2024",
+      "source": "Wikipedia, Bakhshali manuscript",
+      "url": "https://en.wikipedia.org/wiki/Bakhshali_manuscript",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Hayashi 1995, The Bakhshali Manuscript (Brill) records the study of the text",
+      "source": "Hayashi (1995)",
+      "url": "https://doi.org/10.1163/9789004646643_018",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Do not rank by date: the manuscript contains layers and the 2017 and 2024 results disagree."
+   },
+   {
+    "role": "key_development",
+    "phase": "Dated inscriptions",
+    "year": 876,
+    "endYear": null,
+    "precision": "year",
+    "label": "Gwalior inscription: first undisputed dated zero symbol",
+    "work": "Chaturbhuj Temple inscription, Gwalior, dated 876 CE",
+    "people": [
+     "unknown scribes"
+    ],
+    "description": "A stone inscription writes 270 and 50 with a small circle for zero, the first dated writing of zero accepted as genuine.",
+    "evidence": [
+     {
+      "claim": "MacTutor Zero: first dated, agreed-genuine record of zero is the Gwalior inscription of 876",
+      "source": "MacTutor, Zero",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Zero/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia 0: first indubitable dated zero glyph in the Gwalior inscription AD 876; Khmer inscription of 683 mentioned",
+      "source": "Wikipedia, 0",
+      "url": "https://en.wikipedia.org/wiki/0",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Cambodian Sambor inscription 605 Saka (683 CE) is mentioned in Wikipedia and dispute is flagged there."
+   }
+  ],
+  "people": [
+   {
+    "name": "Aryabhata",
+    "role": "developer",
+    "lifespan": "476-550",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/",
+    "works": [
+     {
+      "citation": "Aryabhatiya",
+      "year": 499,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Aryabhata_I/",
+      "whyItMatters": "place-value statement and kha for empty place"
+     }
+    ]
+   },
+   {
+    "name": "Brahmagupta",
+    "role": "systematiser",
+    "lifespan": "598-c. 670",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Brahmagupta/",
+    "works": [
+     {
+      "citation": "Brahmasphutasiddhanta",
+      "year": 628,
+      "url": "https://openlibrary.org/works/OL348563W",
+      "whyItMatters": "rules for arithmetic with zero"
+     }
+    ]
+   },
+   {
+    "name": "Mahavira",
+    "role": "developer",
+    "lifespan": "c. 800-c. 870",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Mahavira/",
+    "works": [
+     {
+      "citation": "Ganita Sara Samgraha",
+      "year": 850,
+      "url": "https://openlibrary.org/works/OL7730287W",
+      "whyItMatters": "updates the zero rules"
+     }
+    ]
+   },
+   {
+    "name": "Bhaskara II",
+    "role": "developer",
+    "lifespan": "1114-1185",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bhaskara_II/",
+    "works": [
+     {
+      "citation": "Lilavati / Bijaganita",
+      "year": 1150,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Bhaskara_II/",
+      "whyItMatters": "proposes infinite quantity for division by zero"
+     }
+    ]
+   }
+  ],
+  "notes": "Disputed: Bakhshali date (2017 vs October 2024 radiocarbon); Lokavibhaga date; Chinese or Babylonian origin theories for place value (MacTutor Indian numerals). No naming milestone dated (word sunya in Jain texts is claimed by Wikipedia Indian mathematics without a date). Institutional date null: no textbook/journal/code found in sources read. Event summary says \"schools around 500-650\"; sources support 499-628.",
+  "derivedDates": {
+   "conceptual": 499,
+   "methodological": 594,
+   "institutional": null
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P148",
+  "eventId": "MA27",
+  "canonicalName": "Interpolation and finite differences in Chinese astronomy and mathematics",
+  "aliases": [
+   "Liu Zhuo interpolation",
+   "second-order interpolation",
+   "Shoushi calendar",
+   "Siyuan yujian",
+   "duoji shu",
+   "finite differences",
+   "Zhu Shijie",
+   "Jade Mirror of the Four Unknowns"
+  ],
+  "phases": [
+   "Astronomical interpolation (6th-13th c.)",
+   "Finite differences for series"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Astronomical interpolation (6th-13th c.)",
+    "year": 544,
+    "endYear": 610,
+    "precision": "range",
+    "label": "Liu Zhuo introduces second-order interpolation for calendar computation",
+    "work": "Liu Zhuo, Huangji calendar (Sui dynasty); lifespan 544-610",
+    "people": [
+     "Liu Zhuo"
+    ],
+    "description": "Liu Zhuo uses second-order equal-interval differences to interpolate the sun irregular motion in the calendar.",
+    "evidence": [
+     {
+      "claim": "MacTutor Chinese overview: Liu Zhuo (544-610) introduced quadratic interpolation with second order difference",
+      "source": "MacTutor, Chinese overview",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Chinese_overview/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Ji Zhigang 1995 reconstructs Liu Zhuo second-order equal-interval interpolation (zbMATH)",
+      "source": "Ji Zhigang, J. Northwest Univ. (1995), zbMATH 883363",
+      "url": "https://zbmath.org/883363",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Ji Zhigang, From Liu Zhuo to Hua Hengfang (2002)",
+      "source": "Historical Perspectives on East Asian Sciences, Tech. and Medicine",
+      "url": "https://doi.org/10.1142/9789812777522_0027",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "The calendar is usually dated about 600, but no date was found in the sources read; year given is the birth year of Liu Zhuo and the end year his death, so the range is a bound only. Derived conceptual date should be read as 6th-7th century."
+   },
+   {
+    "role": "key_development",
+    "phase": "Astronomical interpolation (6th-13th c.)",
+    "year": 665,
+    "endYear": null,
+    "precision": "year",
+    "label": "Brahmagupta second-order interpolation of sines (parallel Indian tradition)",
+    "work": "Brahmagupta, Khandakhadyaka, 665",
+    "people": [
+     "Brahmagupta"
+    ],
+    "description": "An independent Indian formula equivalent to second-order interpolation used for sine tables; not a source for the Chinese work.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Brahmagupta: in 665 devised special case of second-order Newton-Stirling interpolation to find sine values",
+      "source": "Wikipedia, Brahmagupta",
+      "url": "https://en.wikipedia.org/wiki/Brahmagupta",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Included for comparison; influence between traditions is not claimed."
+   },
+   {
+    "role": "key_development",
+    "phase": "Astronomical interpolation (6th-13th c.)",
+    "year": 1280,
+    "endYear": null,
+    "precision": "year",
+    "label": "Guo Shoujing: cubic interpolation with tabulated differences in the Shoushi calendar",
+    "work": "Guo Shoujing, Shoushi (Works and Days) calendar, completed 1280",
+    "people": [
+     "Guo Shoujing"
+    ],
+    "description": "Guo tabulates first, second and third differences of the accumulated difference, a third-order scheme resembling Newton forward differences.",
+    "evidence": [
+     {
+      "claim": "MacTutor Guo Shoujing: calendar completed by 1280; cubic interpolation formula with tabulated first, second and third differences",
+      "source": "MacTutor, Guo Shoujing",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Guo_Shoujing/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Ji Zhigang 1995 (zbMATH 883363): no breakthrough until Guo third-order method in 13th century",
+      "source": "Ji Zhigang (1995), zbMATH",
+      "url": "https://zbmath.org/883363",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": "Finite differences for series",
+    "year": 1303,
+    "endYear": null,
+    "precision": "year",
+    "label": "Zhu Shijie uses finite differences to sum series",
+    "work": "Zhu Shijie, Siyuan yujian (Jade Mirror of the Four Unknowns), 1303",
+    "people": [
+     "Zhu Shijie"
+    ],
+    "description": "Zhu uses second, third and fourth differences to sum polynomial-type series such as the recruiting problem, moving the technique from astronomy to pure mathematics.",
+    "evidence": [
+     {
+      "claim": "MacTutor Zhu Shijie: Siyuan yujian 1303; solves recruiting-cubes problem by working out second, third, fourth differences",
+      "source": "MacTutor, Zhu Shijie",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Zhu_Shijie/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia Zhu Shijie: Jade Mirror 1303 contains series and progressions classified via Pascal triangle coefficients",
+      "source": "Wikipedia, Zhu Shijie",
+      "url": "https://en.wikipedia.org/wiki/Zhu_Shijie",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Chemla, Siyuan yujian entry in Encyclopaedia of the History of Science (2008)",
+      "source": "Chemla (2008)",
+      "url": "https://doi.org/10.1007/978-1-4020-4425-0_8861",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Guo Shoujing",
+    "role": "developer",
+    "lifespan": "1231-1316",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Guo_Shoujing/",
+    "works": [
+     {
+      "citation": "Shoushi calendar",
+      "year": 1280,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Guo_Shoujing/",
+      "whyItMatters": "third-order interpolation"
+     }
+    ]
+   },
+   {
+    "name": "Zhu Shijie",
+    "role": "systematiser",
+    "lifespan": "c. 1260-c. 1320",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Zhu_Shijie/",
+    "works": [
+     {
+      "citation": "Siyuan yujian",
+      "year": 1303,
+      "url": "https://doi.org/10.1007/978-1-4020-4425-0_8861",
+      "whyItMatters": "finite differences for sums of series"
+     }
+    ]
+   }
+  ],
+  "notes": "The event is a transfer: a calendar tool applied to series by Zhu Shijie. Wikipedia Chinese mathematics also mentions He Chengtian (5th c.) fraction interpolation for pi; this is a different method (interpolating fractions) and was not made a milestone. Yi Xing (8th c.) and Tang calendar refinements are mentioned by Ji Zhigang (zbMATH review) but not dated here. No institution milestone: the field is far older than MSC. Conceptual derived date 544 is a lower bound only; the sources read give no year for the Huangji calendar. person without verified work: Liu Zhuo (originator).",
+  "derivedDates": {
+   "conceptual": 544,
+   "methodological": 1303,
+   "institutional": null
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P126",
+  "eventId": "MA19/WA21",
+  "canonicalName": "Pell's equation and the chakravala method",
+  "aliases": [
+   "Pell equation",
+   "Brahmagupta-Pell",
+   "Fermat-Pell",
+   "chakravala",
+   "cyclic method",
+   "bhavana",
+   "samasa",
+   "indeterminate quadratic equation",
+   "x^2 - N y^2 = 1",
+   "Brouncker",
+   "continued fractions"
+  ],
+  "phases": [
+   "Early special cases",
+   "Brahmagupta composition",
+   "Chakravala method",
+   "European rediscovery and Lagrange"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Early special cases",
+    "year": -400,
+    "endYear": null,
+    "precision": "decade",
+    "label": "Side and diagonal numbers: approximations to the square root of 2 in Greece and India",
+    "work": "Pythagorean side/diagonal numbers; Baudhayana approximations 17/12, 577/408",
+    "people": [
+     "Baudhayana",
+     "Pythagoreans"
+    ],
+    "description": "Solutions of the N = 2 case of the equation give successive rational approximations of the square root of 2, known by about 400 BC.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Pell equation: as early as 400 BC in India and Greece mathematicians studied the N=2 case",
+      "source": "Wikipedia, Pell equation",
+      "url": "https://en.wikipedia.org/wiki/Pell%27s_equation",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low"
+   },
+   {
+    "role": "precursor",
+    "phase": "Early special cases",
+    "year": 250,
+    "endYear": null,
+    "precision": "year",
+    "label": "Diophantus considers equations equivalent to Pell-type problems",
+    "work": "Diophantus, Arithmetica",
+    "people": [
+     "Diophantus"
+    ],
+    "description": "Diophantus solves problems of the form a x^2 + c = y^2 for several small cases, equivalent to Pell-type equations.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Pell equation: around AD 250 Diophantus considered equivalent equation for (a,c) = (1,1), (1,-1), (1,12), (3,9)",
+      "source": "Wikipedia, Pell equation",
+      "url": "https://en.wikipedia.org/wiki/Pell%27s_equation",
+      "kind": "history_page"
+     },
+     {
+      "claim": "MacTutor Pell: Diophantus examines problems related to Pell equation",
+      "source": "MacTutor, Pell equation",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Pell/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "first_statement",
+    "phase": "Brahmagupta composition",
+    "year": 628,
+    "endYear": null,
+    "precision": "year",
+    "label": "Brahmagupta composition (bhavana/samasa): generating solutions of x^2 - N y^2 = k",
+    "work": "Brahmagupta, Brahmasphutasiddhanta, chapter 18, 628",
+    "people": [
+     "Brahmagupta"
+    ],
+    "description": "Brahmagupta proves an identity composing two solutions into a third, so that one solution yields infinitely many, and solves cases such as N = 92 (1151, 120).",
+    "evidence": [
+     {
+      "claim": "MacTutor Pell: Brahmagupta lemma discovered in 628, method of composition, first to study the equation",
+      "source": "MacTutor, Pell equation",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Pell/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia Pell equation: Brahmagupta identity, composes triples, solved N = 92 with (1151, 120)",
+      "source": "Wikipedia, Pell equation",
+      "url": "https://en.wikipedia.org/wiki/Pell%27s_equation",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Colebrooke 1817 translation of Brahmagupta and Bhaskara (Algebra, with Arithmetic and Mensuration); Open Library",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/works/OL348561W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Verified (1151^2 - 92*120^2 = 1) by direct computation."
+   },
+   {
+    "role": "key_development",
+    "phase": "Chakravala method",
+    "year": 950,
+    "endYear": 1000,
+    "precision": "range",
+    "label": "Jayadeva: general cyclic method",
+    "work": "Jayadeva, c. 950-1000 (quoted in later works); Selenius analysis 1975",
+    "people": [
+     "Jayadeva"
+    ],
+    "description": "Jayadeva shows how to generalise Brahmagupta approach into the cyclic (chakravala) method.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Chakravala method: Jayadeva (c. 950-1000) pointed out that Brahmagupta approach could be generalised",
+      "source": "Wikipedia, Chakravala method",
+      "url": "https://en.wikipedia.org/wiki/Chakravala_method",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Selenius 1975, Rationale of the chakravala process of Jayadeva and Bhaskara II",
+      "source": "Historia Mathematica 2 (1975)",
+      "url": "https://doi.org/10.1016/0315-0860(75)90143-3",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Jayadeva dates are approximate; some authors attribute the method to Bhaskara II (Wikipedia)."
+   },
+   {
+    "role": "key_development",
+    "phase": "Chakravala method",
+    "year": 1150,
+    "endYear": null,
+    "precision": "year",
+    "label": "Bhaskara II: chakravala solves N = 61 (x = 226153980, y = 1766319049)",
+    "work": "Bhaskara II, Bijaganita, 1150",
+    "people": [
+     "Bhaskara II"
+    ],
+    "description": "Bhaskara II gives the cyclic algorithm that always terminates in a solution, and applies it to N = 61 where the smallest solution is huge.",
+    "evidence": [
+     {
+      "claim": "MacTutor Pell: Bhaskara II in 1150 discovered the cyclic method (chakravala)",
+      "source": "MacTutor, Pell equation",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Pell/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "MacTutor Bhaskara II: studied p = 8, 11, 32, 61, 67; gives x = 226153980 for 61",
+      "source": "MacTutor, Bhaskara II",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Bhaskara_II/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia Pell equation: first general method for all N given by Bhaskara II in 1150; used for N = 61",
+      "source": "Wikipedia, Pell equation",
+      "url": "https://en.wikipedia.org/wiki/Pell%27s_equation",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "MacTutor Bhaskara II page prints y as 1776319049, a typo; 61*226153980^2+1 equals 1766319049^2 (checked by computation)."
+   },
+   {
+    "role": "key_development",
+    "phase": "European rediscovery and Lagrange",
+    "year": 1657,
+    "endYear": 1658,
+    "precision": "range",
+    "label": "Fermat's challenge; Brouncker and Wallis solve it (Commercium epistolicum 1658)",
+    "work": "Fermat 1657 challenge; Wallis, Commercium epistolicum, 1658",
+    "people": [
+     "Pierre de Fermat",
+     "William Brouncker",
+     "John Wallis"
+    ],
+    "description": "Fermat challenges English mathematicians, and Brouncker finds a method close to continued fractions; Wallis publishes the exchange in 1658.",
+    "evidence": [
+     {
+      "claim": "MacTutor Pell: European interest began with Fermat challenge of 1657; Wallis published exchange in 1658",
+      "source": "MacTutor, Pell equation",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Pell/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Open Library lists Commercium epistolicum (Brouncker and Wallis), 1658",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/works/OL43385524W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": "European rediscovery and Lagrange",
+    "year": 1766,
+    "endYear": 1769,
+    "precision": "range",
+    "label": "Lagrange proves infinitely many solutions and systematises the continued-fraction method",
+    "work": "Lagrange, work of 1766-1769; Additions to Euler Elements of Algebra, 1771",
+    "people": [
+     "Joseph-Louis Lagrange"
+    ],
+    "description": "Lagrange gives a rigorous proof that the equation always has infinitely many solutions via continued fractions.",
+    "evidence": [
+     {
+      "claim": "MacTutor Pell: Euler continued-fraction approach polished by Lagrange in 1766; Additions 1771 proves infinitely many solutions",
+      "source": "MacTutor, Pell equation",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Pell/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia Pell equation: general theory developed by Lagrange in 1766-1769",
+      "source": "Wikipedia, Pell equation",
+      "url": "https://en.wikipedia.org/wiki/Pell%27s_equation",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Exact publication venues of the Lagrange memoirs were not verified."
+   },
+   {
+    "role": "naming",
+    "phase": "European rediscovery and Lagrange",
+    "year": null,
+    "endYear": null,
+    "precision": "unknown",
+    "label": "Euler names it after Pell (misattribution)",
+    "work": "Euler, naming of the equation",
+    "people": [
+     "Leonhard Euler",
+     "John Pell"
+    ],
+    "description": "Euler, confusing Brouncker with Pell, gave the equation the name it still carries in the West.",
+    "evidence": [
+     {
+      "claim": "MacTutor Pell: Euler named it Pell equation, probably by confusing Brouncker and Pell",
+      "source": "MacTutor, Pell equation",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Pell/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia Pell equation: Pell revised the translation of Rahn Teutsche Algebra (1659); Euler named it after him by mistake",
+      "source": "Wikipedia, Pell equation",
+      "url": "https://en.wikipedia.org/wiki/Pell%27s_equation",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Year not established: searched MacTutor Pell and Wikipedia Pell; neither gives a year. Probably 18th century; do not rank."
+   }
+  ],
+  "people": [
+   {
+    "name": "Brahmagupta",
+    "role": "originator",
+    "lifespan": "598-c. 670",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Brahmagupta/",
+    "works": [
+     {
+      "citation": "Brahmasphutasiddhanta",
+      "year": 628,
+      "url": "https://openlibrary.org/works/OL348561W",
+      "whyItMatters": "composition method and first solutions"
+     }
+    ]
+   },
+   {
+    "name": "Jayadeva",
+    "role": "developer",
+    "lifespan": "c. 950-1000 (Wikipedia, approximate)",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Jayadeva",
+    "works": [
+     {
+      "citation": "Selenius analysis",
+      "year": 1975,
+      "url": "https://doi.org/10.1016/0315-0860(75)90143-3",
+      "whyItMatters": "modern explanation of the chakravala"
+     }
+    ]
+   },
+   {
+    "name": "Bhaskara II",
+    "role": "systematiser",
+    "lifespan": "1114-1185",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bhaskara_II/",
+    "works": [
+     {
+      "citation": "Bijaganita",
+      "year": 1150,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Bhaskara_II/",
+      "whyItMatters": "general chakravala algorithm and N = 61 solution"
+     }
+    ]
+   },
+   {
+    "name": "Pierre de Fermat",
+    "role": "developer",
+    "lifespan": "1601-1665",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Fermat/",
+    "works": [
+     {
+      "citation": "1657 challenge",
+      "year": 1657,
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Pell/",
+      "whyItMatters": "revived the problem in Europe"
+     }
+    ]
+   },
+   {
+    "name": "William Brouncker",
+    "role": "developer",
+    "lifespan": "1620-1684 (not verified)",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Brouncker/",
+    "works": [
+     {
+      "citation": "Commercium epistolicum",
+      "year": 1658,
+      "url": "https://openlibrary.org/works/OL43385524W",
+      "whyItMatters": "solved the challenge"
+     }
+    ]
+   },
+   {
+    "name": "Joseph-Louis Lagrange",
+    "role": "systematiser",
+    "lifespan": "1736-1813",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+    "works": [
+     {
+      "citation": "Memoirs on indeterminate quadratic problems",
+      "year": 1766,
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Pell/",
+      "whyItMatters": "rigorous continued-fraction theory"
+     }
+    ]
+   }
+  ],
+  "notes": "Disputed: Brahmagupta versus Bhaskara II versus Jayadeva for the first general method; Brahmagupta method is not general for all N. Dates of Euler naming not found. Hankel quotation of chakravala as best before Lagrange appears on Wikipedia; not needed as a milestone. MSC 11D09 (quadratic and bilinear equations) exists but its first year was not established. Lifespans for Brouncker are from memory and flagged. Methodological date left null: first purposeful application of the tool on a target is not separable from the first statement.",
+  "derivedDates": {
+   "conceptual": 628,
+   "methodological": null,
+   "institutional": 1766
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P001",
+  "eventId": "E02",
+  "canonicalName": "Algebra as a discipline (al-Khwarizmi, al-Jabr)",
+  "aliases": [
+   "al-jabr wa al-muqabala",
+   "Hisab al-jabr w al-muqabala",
+   "Compendious Book on Calculation by Completion and Balancing",
+   "algebra",
+   "Persian mathematician",
+   "Robert of Chester Liber algebrae"
+  ],
+  "phases": [
+   "Precursors",
+   "Al-Jabr c. 820",
+   "Latin transmission"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Precursors",
+    "year": -1800,
+    "endYear": -1600,
+    "precision": "range",
+    "label": "Old Babylonian algebraic procedures",
+    "work": "Old Babylonian tablets",
+    "people": [
+     "Old Babylonian scribes"
+    ],
+    "description": "Quadratic-type problems were already solved by explicit procedures long before the Baghdad school.",
+    "evidence": [
+     {
+      "claim": "Hoyrup 2002 chapters on Old Babylonian algebra",
+      "source": "Hoyrup, Old Babylonian Algebra (2002)",
+      "url": "https://doi.org/10.1007/978-1-4757-3685-4_7",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Date is the conventional Old Babylonian period (c. 1800-1600 BCE) and not given in the chapter metadata."
+   },
+   {
+    "role": "precursor",
+    "phase": "Precursors",
+    "year": 250,
+    "endYear": null,
+    "precision": "year",
+    "label": "Diophantus: algebraic solution with symbolic abbreviations",
+    "work": "Diophantus, Arithmetica",
+    "people": [
+     "Diophantus"
+    ],
+    "description": "Arithmetica solves numerical problems with a named unknown and simplification to standard form, a Greek precursor concerned with number theory.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Arithmetica (in Diophantus): three-stage method like medieval Arabic algebra; no classification into six types",
+      "source": "Wikipedia, Diophantus",
+      "url": "https://en.wikipedia.org/wiki/Diophantus",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Cross-reference to event on Diophantus."
+   },
+   {
+    "role": "precursor",
+    "phase": "Precursors",
+    "year": 628,
+    "endYear": null,
+    "precision": "year",
+    "label": "Brahmagupta: first clear quadratic formula in Brahmasphutasiddhanta",
+    "work": "Brahmagupta, Brahmasphutasiddhanta, 628",
+    "people": [
+     "Brahmagupta"
+    ],
+    "description": "An Indian text gives rules for quadratic equations a century before al-Jabr, in verse and with negative numbers.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Brahmagupta: first clear description of quadratic formula; Brahmasphutasiddhanta dated 628",
+      "source": "Wikipedia, Brahmagupta",
+      "url": "https://en.wikipedia.org/wiki/Brahmagupta",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia Al-Jabr: Islamic mathematicians unlike Hindus did not treat negative numbers",
+      "source": "Wikipedia, Al-Jabr",
+      "url": "https://en.wikipedia.org/wiki/Al-Jabr",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "first_statement",
+    "phase": "Al-Jabr c. 820",
+    "year": 820,
+    "endYear": 825,
+    "precision": "range",
+    "label": "Al-Jabr: first book to teach algebra for its own sake",
+    "work": "Al-Khwarizmi, Kitab al-mukhtasar fi hisab al-jabr wa al-muqabala, Baghdad c. 820",
+    "people": [
+     "Muhammad ibn Musa al-Khwarizmi"
+    ],
+    "description": "Al-Khwarizmi classifies equations into six normal forms with their solutions and geometric proofs, treating algebra as an independent subject.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Al-Jabr: written in Baghdad around 820; first text to teach elementary algebra for its own sake; six types of quadratic equations",
+      "source": "Wikipedia, Al-Jabr",
+      "url": "https://en.wikipedia.org/wiki/Al-Jabr",
+      "kind": "history_page"
+     },
+     {
+      "claim": "MacTutor Al-Khwarizmi: algebra treatise in Baghdad (born about 780, died about 850)",
+      "source": "MacTutor, Al-Khwarizmi",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Gandz 1936 on the sources of al-Khwarizmi algebra (Osiris)",
+      "source": "Gandz, Osiris 1 (1936)",
+      "url": "https://doi.org/10.1086/368426",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Katz dates it around 825 (quoted on Wikipedia)."
+   },
+   {
+    "role": "naming",
+    "phase": "Al-Jabr c. 820",
+    "year": 820,
+    "endYear": 825,
+    "precision": "range",
+    "label": "Title gives the word algebra",
+    "work": "Al-Jabr; Latin Liber algebrae et almucabala",
+    "people": [
+     "Muhammad ibn Musa al-Khwarizmi"
+    ],
+    "description": "The Arabic term al-jabr in the title, restoring a subtracted term to the other side, is the origin of the word algebra.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Al-Jabr: title is the ultimate etymology of the word algebra; al-jabr and al-muqabala defined",
+      "source": "Wikipedia, Al-Jabr",
+      "url": "https://en.wikipedia.org/wiki/Al-Jabr",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Gandz 1926, The origin of the term algebra (Amer. Math. Monthly)",
+      "source": "Gandz (1926)",
+      "url": "https://doi.org/10.2307/2299605",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "The same work plays first_statement and naming; kept separate because they are different facts (the book versus the term)."
+   },
+   {
+    "role": "key_development",
+    "phase": "Latin transmission",
+    "year": 1145,
+    "endYear": null,
+    "precision": "year",
+    "label": "Robert of Chester translates Al-Jabr into Latin",
+    "work": "Robert of Chester, Liber algebrae, 1145",
+    "people": [
+     "Robert of Chester"
+    ],
+    "description": "The Latin translation makes algebra the standard university text in Europe until the sixteenth century.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Al-Jabr: translated into Latin by Robert of Chester in 1145; principal textbook until the sixteenth century",
+      "source": "Wikipedia, Al-Jabr",
+      "url": "https://en.wikipedia.org/wiki/Al-Jabr",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia Al-Khwarizmi: Al-Jabr translated by Robert of Chester in 1145",
+      "source": "Wikipedia, Al-Khwarizmi",
+      "url": "https://en.wikipedia.org/wiki/Al-Khwarizmi",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Muhammad ibn Musa al-Khwarizmi",
+    "role": "originator",
+    "lifespan": "c. 780-c. 850",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/",
+    "works": [
+     {
+      "citation": "Al-Jabr wa al-muqabala",
+      "year": 820,
+      "url": "https://en.wikipedia.org/wiki/Al-Jabr",
+      "whyItMatters": "first textbook of algebra as a subject"
+     }
+    ]
+   },
+   {
+    "name": "Abu Kamil",
+    "role": "developer",
+    "lifespan": "c. 850-c. 930",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Abu_Kamil/",
+    "works": [
+     {
+      "citation": "Abu Kamil, The Algebra of Abu Kamil, with a commentary by Mordecai Finkelstein (1967)",
+      "year": 1967,
+      "url": "https://doi.org/10.1086/350209",
+      "whyItMatters": "Edition and commentary on Abu Kamil's algebra, which extends al-Khwarizmi's methods."
+     }
+    ]
+   },
+   {
+    "name": "Robert of Chester",
+    "role": "popularizer",
+    "lifespan": "12th century",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Al-Jabr",
+    "works": [
+     {
+      "citation": "Liber algebrae et almucabala",
+      "year": 1145,
+      "url": "https://en.wikipedia.org/wiki/Al-Jabr",
+      "whyItMatters": "Latin transmission"
+     }
+    ]
+   },
+   {
+    "name": "Brahmagupta",
+    "role": "developer",
+    "lifespan": "598-c. 670",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Brahmagupta/",
+    "works": [
+     {
+      "citation": "Brahmasphutasiddhanta",
+      "year": 628,
+      "url": "https://openlibrary.org/works/OL348563W",
+      "whyItMatters": "earlier quadratic rules"
+     }
+    ]
+   }
+  ],
+  "notes": "Disputed: whether al-Khwarizmi is more entitled to be called father of algebra than Diophantus (Wikipedia notes the claim). The original Arabic title and date are approximate (around 820-825). Methodological date left null: first purposeful application (inheritance and legal problems in the book itself, see Gandz 1938 doi 10.1086/368492) is in the same work. Abu Kamil dating: lifespans from MacTutor are about 850-930.",
+  "derivedDates": {
+   "conceptual": 820,
+   "methodological": null,
+   "institutional": 820
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P196",
+  "eventId": "MA30",
+  "canonicalName": "Transmission of Hindu-Arabic numerals to the Islamic world and Europe",
+  "aliases": [
+   "Hindu numerals",
+   "al-hisab al-hindi",
+   "Indian reckoning",
+   "algorism",
+   "algorithm",
+   "Algoritmi de numero Indorum",
+   "Arabic numerals",
+   "positional decimal fractions",
+   "Liber Abaci"
+  ],
+  "phases": [
+   "Indian reckoning reaches Baghdad",
+   "Arabic treatises",
+   "Decimal fractions",
+   "Latin Europe"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Indian reckoning reaches Baghdad",
+    "year": 700,
+    "endYear": 799,
+    "precision": "range",
+    "label": "Indian place-value reckoning taken up in Islamic mathematics",
+    "work": "8th century, recorded later by al-Qifti",
+    "people": [
+     "unknown Indian and Arab scholars"
+    ],
+    "description": "Indian developments reach Islamic scholars in the 8th century according to a 13th-century chronicle.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Hindu-Arabic numeral system: taken up in Islamic mathematics in the 8th century as recorded by al-Qifti",
+      "source": "Wikipedia, Hindu-Arabic numeral system",
+      "url": "https://en.wikipedia.org/wiki/Hindu%E2%80%93Arabic_numeral_system",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Single secondary source; centuries later chronicle."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Arabic treatises",
+    "year": 825,
+    "endYear": null,
+    "precision": "decade",
+    "label": "Al-Khwarizmi writes on calculation with Hindu numerals",
+    "work": "Al-Khwarizmi, On the Calculation with Hindu Numerals, c. 825; Arabic text lost, Latin Algoritmi de numero Indorum",
+    "people": [
+     "Muhammad ibn Musa al-Khwarizmi"
+    ],
+    "description": "The book explains the Indian decimal place-value method in Arabic; it is credited as chiefly responsible for spreading it in the Middle East and Europe.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Al-Khwarizmi: On the Calculation with Hindu Numerals written about 825, spread the system; Latin Algoritmi de numero Indorum",
+      "source": "Wikipedia, Al-Khwarizmi",
+      "url": "https://en.wikipedia.org/wiki/Al-Khwarizmi",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia Hindu-Arabic numeral system: Khwarizmi, about 825 CE",
+      "source": "Wikipedia, Hindu-Arabic numeral system",
+      "url": "https://en.wikipedia.org/wiki/Hindu%E2%80%93Arabic_numeral_system",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Arabic original not extant; the work is known through Latin versions. Date approximate."
+   },
+   {
+    "role": "key_development",
+    "phase": "Arabic treatises",
+    "year": 830,
+    "endYear": null,
+    "precision": "decade",
+    "label": "Al-Kindi writes on the use of the Hindu numerals",
+    "work": "Al-Kindi, On the Use of the Hindu Numerals, c. 830",
+    "people": [
+     "Al-Kindi"
+    ],
+    "description": "A second early Arabic treatise on the Indian numerals appears about the same time.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Hindu-Arabic numeral system: Al-Kindi book around 830 CE",
+      "source": "Wikipedia, Hindu-Arabic numeral system",
+      "url": "https://en.wikipedia.org/wiki/Hindu%E2%80%93Arabic_numeral_system",
+      "kind": "history_page"
+     },
+     {
+      "claim": "MacTutor lists Al-Kindi (born about 801, died 873)",
+      "source": "MacTutor, Al-Kindi",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Kindi/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "key_development",
+    "phase": "Decimal fractions",
+    "year": 952,
+    "endYear": null,
+    "precision": "year",
+    "label": "Al-Uqlidisi: earliest extant Arabic arithmetic, with decimal fractions",
+    "work": "Al-Uqlidisi, Kitab al-fusul fi al-hisab al-hindi, Damascus 952-53; ed. Saidan",
+    "people": [
+     "Abu al-Hasan al-Uqlidisi"
+    ],
+    "description": "The earliest surviving Arabic arithmetic in the Indian system extends it to decimal fractions.",
+    "evidence": [
+     {
+      "claim": "MacTutor Al-Uqlidisi: composed text in Damascus in 952-53; place value, operations, decimal and sexagesimal",
+      "source": "MacTutor, Al-Uqlidisi",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Uqlidisi/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Saidan 1966, The earliest extant Arabic arithmetic: Kitab al-Fusul",
+      "source": "Saidan, Isis 57 (1966)",
+      "url": "https://doi.org/10.1086/350163",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Hindu-Arabic numeral system: first to describe positional decimal fractions",
+      "source": "Wikipedia, Hindu-Arabic numeral system",
+      "url": "https://en.wikipedia.org/wiki/Hindu%E2%80%93Arabic_numeral_system",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "naming",
+    "phase": "Latin Europe",
+    "year": 1100,
+    "endYear": 1199,
+    "precision": "range",
+    "label": "Latin Algoritmi: algorithm takes its name from al-Khwarizmi",
+    "work": "12th-century Latin translation of the Hindu reckoning treatise",
+    "people": [
+     "Muhammad ibn Musa al-Khwarizmi"
+    ],
+    "description": "The Latin version Algoritmi de numero Indorum gives the Western word algorithm and the term algorism for the new arithmetic.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Al-Khwarizmi: 12th-century Latin translation introduced the term algorithm to the West",
+      "source": "Wikipedia, Al-Khwarizmi",
+      "url": "https://en.wikipedia.org/wiki/Al-Khwarizmi",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "12th century as a range; translator and manuscript not checked."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Latin Europe",
+    "year": 1202,
+    "endYear": null,
+    "precision": "year",
+    "label": "Fibonacci Liber Abaci: the new numerals for Latin merchants",
+    "work": "Fibonacci, Liber Abaci, 1202",
+    "people": [
+     "Fibonacci"
+    ],
+    "description": "Fibonacci presents the Indian method with applications to commerce, the major source for European adoption.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Liber Abaci: 1202 Latin work introducing base-10 positional notation in Europe",
+      "source": "Wikipedia, Liber Abaci",
+      "url": "https://en.wikipedia.org/wiki/Liber_Abaci",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Sigler translation of Liber Abaci (2002), Open Library",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/works/OL5267710W",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor Fibonacci biography",
+      "source": "MacTutor, Fibonacci",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Fibonacci/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Muhammad ibn Musa al-Khwarizmi",
+    "role": "originator",
+    "lifespan": "c. 780-c. 850",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Khwarizmi/",
+    "works": [
+     {
+      "citation": "On the Calculation with Hindu Numerals",
+      "year": 825,
+      "url": "https://en.wikipedia.org/wiki/Al-Khwarizmi",
+      "whyItMatters": "diffused the Indian system"
+     }
+    ]
+   },
+   {
+    "name": "Al-Kindi",
+    "role": "developer",
+    "lifespan": "c. 801-873",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Kindi/",
+    "works": [
+     {
+      "citation": "On the Use of the Hindu Numerals",
+      "year": 830,
+      "url": "https://en.wikipedia.org/wiki/Hindu%E2%80%93Arabic_numeral_system",
+      "whyItMatters": "second early Arabic account"
+     }
+    ]
+   },
+   {
+    "name": "Abu al-Hasan al-Uqlidisi",
+    "role": "systematiser",
+    "lifespan": "c. 920-c. 980 (MacTutor)",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Uqlidisi/",
+    "works": [
+     {
+      "citation": "Kitab al-fusul fi al-hisab al-hindi",
+      "year": 952,
+      "url": "https://doi.org/10.1086/350163",
+      "whyItMatters": "decimal fractions"
+     }
+    ]
+   },
+   {
+    "name": "Fibonacci",
+    "role": "popularizer",
+    "lifespan": "c. 1170-after 1240 (not verified)",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Fibonacci/",
+    "works": [
+     {
+      "citation": "Liber Abaci",
+      "year": 1202,
+      "url": "https://openlibrary.org/works/OL5267710W",
+      "whyItMatters": "European adoption"
+     }
+    ]
+   }
+  ],
+  "notes": "The event sits between event P111 (origin of place value) and the European story. The question of Chinese influence on Sunzi division (Wikipedia Chinese mathematics) is not used. Other Arabic works (Kushyar, Abu Kamil) not dated. Naming is low confidence: the term algorism appears after translation. Institutional derived date 1100 is the start of the range and needs attention.",
+  "derivedDates": {
+   "conceptual": 825,
+   "methodological": null,
+   "institutional": 1100
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ }
+]

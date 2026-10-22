@@ -1,0 +1,1614 @@
+[
+ {
+  "pid": "P108",
+  "eventId": "B42",
+  "canonicalName": "Large deviation theory (Donsker-Varadhan framework)",
+  "aliases": [
+   "large deviations",
+   "large deviation principle",
+   "LDP",
+   "Donsker-Varadhan theory",
+   "Varadhan lemma",
+   "rate function",
+   "Cramer theorem",
+   "Freidlin-Wentzell theory",
+   "Sanov theorem"
+  ],
+  "phases": [
+   "general large deviations",
+   "Markov-process applications"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1938,
+    "precision": "year",
+    "label": "Cramér's rare-event theorem",
+    "work": "H. Cramér, Sur un nouveau théorème-limite de la théorie des probabilités (1938)",
+    "people": [
+     "Harald Cramer"
+    ],
+    "description": "Earlier probability result, narrower than the later general theory.",
+    "evidence": [
+     {
+      "claim": "Cramer 1938 limit theorem for rare deviations of sums (precursor, insurance context)",
+      "source": "zbMATH JFM 64.0529.01",
+      "url": "https://zbmath.org/?q=an:64.0529.01",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "phase": "general large deviations"
+   },
+   {
+    "role": "first_statement",
+    "year": 1966,
+    "precision": "year",
+    "label": "Varadhan's general asymptotic framework",
+    "work": "S. R. S. Varadhan, Asymptotic probabilities and differential equations, CPAM 19 (1966)",
+    "people": [
+     "S. R. Srinivasa Varadhan"
+    ],
+    "description": "A public paper formulates the general large-deviation approach used here.",
+    "evidence": [
+     {
+      "claim": "Varadhan, Asymptotic probabilities and differential equations, CPAM 19 (1966): paper that began a general theory of large deviations",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1002/cpa.3160190303",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "general large deviations"
+   },
+   {
+    "role": "first_application",
+    "year": 1975,
+    "precision": "year",
+    "label": "Donsker–Varadhan apply variational asymptotics to Markov processes",
+    "work": "M. D. Donsker and S. R. S. Varadhan, Asymptotic evaluation of certain Markov process expectations for large time I (1975)",
+    "people": [
+     "Monroe D. Donsker",
+     "S. R. Srinivasa Varadhan"
+    ],
+    "description": "The framework is deliberately applied to a Markov-process target.",
+    "evidence": [
+     {
+      "claim": "Donsker and Varadhan, Asymptotic evaluation of certain Markov process expectations for large time, I, CPAM 28 (1975)",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1002/cpa.3160280102",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Markov-process applications"
+   },
+   {
+    "role": "consolidation",
+    "year": 1984,
+    "precision": "year",
+    "label": "Varadhan's large-deviations lecture monograph",
+    "work": "S. R. S. Varadhan, Large Deviations and Applications (1984)",
+    "people": [
+     "S. R. Srinivasa Varadhan"
+    ],
+    "description": "A named book-length treatment consolidates the theory.",
+    "evidence": [
+     {
+      "claim": "Published CBMS-NSF lecture monograph, 1984",
+      "source": "zbMATH Open",
+      "url": "https://zbmath.org/?q=an:0549.60023",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "general large deviations"
+   }
+  ],
+  "people": [
+   {
+    "name": "S. R. Srinivasa Varadhan",
+    "role": "originator",
+    "lifespan": "1940-",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Varadhan/",
+    "works": [
+     {
+      "citation": "Varadhan, S. R. S. Asymptotic probabilities and differential equations. Comm. Pure Appl. Math. 19 (1966) 261-286.",
+      "year": 1966,
+      "url": "https://doi.org/10.1002/cpa.3160190303",
+      "whyItMatters": "General large-deviation framework and Varadhan lemma."
+     },
+     {
+      "citation": "Varadhan, S. R. S. Large deviations and applications. CBMS-NSF Regional Conf. Ser. Appl. Math. 46, SIAM (1984).",
+      "year": 1984,
+      "url": "https://zbmath.org/?q=an:0549.60023",
+      "whyItMatters": "Lecture series consolidating the theory."
+     }
+    ]
+   },
+   {
+    "name": "Monroe D. Donsker",
+    "role": "developer",
+    "lifespan": "1924-1991",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Monroe_D._Donsker",
+    "works": [
+     {
+      "citation": "Donsker, M. D.; Varadhan, S. R. S. Asymptotic evaluation of certain Markov process expectations for large time, I. Comm. Pure Appl. Math. 28 (1975).",
+      "year": 1975,
+      "url": "https://doi.org/10.1002/cpa.3160280102",
+      "whyItMatters": "Occupation-measure large deviations via a variational (free-energy type) formula."
+     },
+     {
+      "citation": "Donsker, M. D.; Varadhan, S. R. S. Asymptotic evaluation of certain Markov process expectations for large time, III. Comm. Pure Appl. Math. 29 (1976).",
+      "year": 1976,
+      "url": "https://doi.org/10.1002/cpa.3160290405",
+      "whyItMatters": "Extends the programme to general Markov processes."
+     }
+    ]
+   },
+   {
+    "name": "Harald Cramer",
+    "role": "originator",
+    "lifespan": "1893-1985",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Cramer_Harald/",
+    "works": [
+     {
+      "citation": "Cramer, H. Sur un nouveau theoreme-limite de la theorie des probabilites. Actualites Sci. Ind. 736 (1938) 5-23.",
+      "year": 1938,
+      "url": "https://zbmath.org/?q=an:64.0529.01",
+      "whyItMatters": "First rigorous large-deviation estimate for sums; precursor."
+     }
+    ]
+   }
+  ],
+  "notes": "The 1956 title-use claim in pass A is not promoted: it names a generic phrase, not clearly this general theory. Lanford's 1973 statistical-mechanics route and the 1975 Donsker–Varadhan target are separate possible methodological anchors."
+ },
+ {
+  "pid": "P086",
+  "eventId": "B20",
+  "canonicalName": "Hardness versus randomness",
+  "aliases": [
+   "hardness vs. randomness",
+   "Nisan-Wigderson generator",
+   "NW generator",
+   "derandomization from circuit lower bounds",
+   "pseudorandom generators from hard functions",
+   "combinatorial designs in pseudorandomness",
+   "P = BPP if E requires exponential circuits"
+  ],
+  "phases": [],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1982,
+    "precision": "year",
+    "label": "Yao connects computational hardness and pseudorandomness",
+    "work": "A. C. Yao, Theory and application of trapdoor functions, FOCS (1982)",
+    "people": [],
+    "description": "A precursor supplies a computational route to pseudorandomness.",
+    "evidence": [
+     {
+      "claim": "Yao, Theory and application of trapdoor functions, FOCS 1982: pseudorandomness from computational hardness",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1109/sfcs.1982.45",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "precursor",
+    "year": 1982,
+    "precision": "year",
+    "label": "Blum–Micali pseudorandom bits",
+    "work": "M. Blum and S. Micali, How to generate cryptographically strong sequences of pseudo random bits, FOCS (1982)",
+    "people": [],
+    "description": "A second precursor constructs pseudorandom sequences under hardness assumptions.",
+    "evidence": [
+     {
+      "claim": "Blum and Micali, How to generate cryptographically strong sequences of pseudo random bits, FOCS 1982 (SIAM J. Comput. 1984)",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1109/sfcs.1982.72",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "first_statement",
+    "year": 1988,
+    "precision": "year",
+    "label": "Nisan–Wigderson formulate hardness versus randomness",
+    "work": "N. Nisan and A. Wigderson, Hardness vs. randomness, FOCS (1988)",
+    "people": [
+     "Noam Nisan",
+     "Avi Wigderson"
+    ],
+    "description": "The published conference paper states the named tradeoff.",
+    "evidence": [
+     {
+      "claim": "Nisan and Wigderson, Hardness vs. randomness, 29th FOCS (1988)",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1109/sfcs.1988.21916",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "This paper both states the framework and applies it; see the adjacent milestone."
+   },
+   {
+    "role": "first_application",
+    "year": 1988,
+    "precision": "year",
+    "label": "Nisan–Wigderson use hard functions for derandomization",
+    "work": "N. Nisan and A. Wigderson, Hardness vs. randomness, FOCS (1988)",
+    "people": [
+     "Noam Nisan",
+     "Avi Wigderson"
+    ],
+    "description": "The construction targets randomized computation.",
+    "evidence": [
+     {
+      "claim": "Nisan and Wigderson, Hardness vs. randomness, 29th FOCS (1988)",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1109/sfcs.1988.21916",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The same paper truly plays both first-statement and first-application roles."
+   },
+   {
+    "role": "naming",
+    "year": 1988,
+    "precision": "year",
+    "label": "The phrase appears in a paper title",
+    "work": "N. Nisan and A. Wigderson, Hardness vs. randomness, FOCS (1988)",
+    "people": [
+     "Noam Nisan",
+     "Avi Wigderson"
+    ],
+    "description": "The published title provides a reproducible naming anchor.",
+    "evidence": [
+     {
+      "claim": "Paper title \"Hardness vs. randomness\" (FOCS 1988) names the area",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1109/sfcs.1988.21916",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The same paper both names and develops the subject; it is deliberately recorded under both roles."
+   }
+  ],
+  "people": [
+   {
+    "name": "Noam Nisan",
+    "role": "originator",
+    "lifespan": "1961-",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Noam_Nisan",
+    "works": [
+     {
+      "citation": "Nisan, N.; Wigderson, A. Hardness vs. randomness. Proc. 29th FOCS (1988).",
+      "year": 1988,
+      "url": "https://doi.org/10.1109/sfcs.1988.21916",
+      "whyItMatters": "Introduces the design-based generator from hard functions."
+     },
+     {
+      "citation": "Nisan, N.; Wigderson, A. Hardness vs randomness. J. Comput. Syst. Sci. 49 (1994) 149-167.",
+      "year": 1994,
+      "url": "https://doi.org/10.1016/s0022-0000(05)80043-1",
+      "whyItMatters": "Journal version."
+     },
+     {
+      "citation": "Nisan, N. Pseudorandom bits for constant depth circuits. Combinatorica 11 (1991).",
+      "year": 1991,
+      "url": "https://doi.org/10.1007/bf01375474",
+      "whyItMatters": "Lower bound turned into generator for constant-depth circuits."
+     }
+    ]
+   },
+   {
+    "name": "Avi Wigderson",
+    "role": "originator",
+    "lifespan": "1956-",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Wigderson/",
+    "works": [
+     {
+      "citation": "Nisan, N.; Wigderson, A. Hardness vs. randomness. Proc. 29th FOCS (1988).",
+      "year": 1988,
+      "url": "https://doi.org/10.1109/sfcs.1988.21916",
+      "whyItMatters": "Co-originator."
+     },
+     {
+      "citation": "Impagliazzo, R.; Wigderson, A. P = BPP if E requires exponential circuits: derandomizing the XOR lemma. Proc. 29th STOC (1997).",
+      "year": 1997,
+      "url": "https://doi.org/10.1145/258533.258590",
+      "whyItMatters": "Strongest form of the hardness-randomness trade-off."
+     }
+    ]
+   },
+   {
+    "name": "Russell Impagliazzo",
+    "role": "developer",
+    "lifespan": "unknown",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Russell_Impagliazzo",
+    "works": [
+     {
+      "citation": "Impagliazzo, R.; Wigderson, A. P = BPP if E requires exponential circuits. Proc. 29th STOC (1997).",
+      "year": 1997,
+      "url": "https://doi.org/10.1145/258533.258590",
+      "whyItMatters": "Derandomises BPP under a uniform circuit lower bound."
+     }
+    ]
+   }
+  ],
+  "notes": "The 1982 cryptographic papers are precursors, not a claim that the later named derandomization framework already existed."
+ },
+ {
+  "pid": "P329",
+  "eventId": "WC47",
+  "canonicalName": "Measure rigidity applied to the Littlewood conjecture and arithmetic QUE",
+  "aliases": [
+   "Einsiedler-Katok-Lindenstrauss theorem",
+   "measure rigidity of diagonal actions",
+   "higher-rank diagonal actions",
+   "homogeneous dynamics and Diophantine approximation",
+   "arithmetic quantum unique ergodicity",
+   "Littlewood conjecture",
+   "x2 x3 problem",
+   "Furstenberg conjecture"
+  ],
+  "phases": [
+   "measure rigidity",
+   "Littlewood and arithmetic QUE"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1967,
+    "precision": "year",
+    "label": "Furstenberg's disjointness and Diophantine problem",
+    "work": "H. Furstenberg, Disjointness in ergodic theory, minimal sets, and a problem in Diophantine approximation (1967)",
+    "people": [
+     "Hillel Furstenberg"
+    ],
+    "description": "Ergodic ideas enter the Diophantine context before the 2006 transfer.",
+    "evidence": [
+     {
+      "claim": "Furstenberg, Disjointness in ergodic theory, minimal sets, and a problem in Diophantine approximation, Math. Systems Theory 1 (1967)",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1007/bf01692494",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "measure rigidity"
+   },
+   {
+    "role": "first_statement",
+    "year": 2006,
+    "precision": "year",
+    "label": "Measure rigidity attacks Littlewood exceptions",
+    "work": "M. Einsiedler, A. Katok and E. Lindenstrauss, Invariant measures and the set of exceptions to Littlewood's conjecture (2006)",
+    "people": [
+     "Manfred Einsiedler",
+     "Anatole Katok",
+     "Elon Lindenstrauss"
+    ],
+    "description": "The public paper formulates the measure-rigidity transfer relevant to this event.",
+    "evidence": [
+     {
+      "claim": "Einsiedler, Katok and Lindenstrauss, Invariant measures and the set of exceptions to Littlewood conjecture, Ann. of Math. 164 (2006) 513-560",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.4007/annals.2006.164.513",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "This paper states and applies the transfer; see adjacent target milestone.",
+    "phase": "Littlewood and arithmetic QUE"
+   },
+   {
+    "role": "first_application",
+    "year": 2006,
+    "precision": "year",
+    "label": "Exceptional set for Littlewood's conjecture",
+    "work": "M. Einsiedler, A. Katok and E. Lindenstrauss, Invariant measures and the set of exceptions to Littlewood's conjecture (2006)",
+    "people": [
+     "Manfred Einsiedler",
+     "Anatole Katok",
+     "Elon Lindenstrauss"
+    ],
+    "description": "Measure rigidity is used on the Littlewood exceptional set.",
+    "evidence": [
+     {
+      "claim": "Einsiedler, Katok and Lindenstrauss, Invariant measures and the set of exceptions to Littlewood conjecture, Ann. of Math. 164 (2006) 513-560",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.4007/annals.2006.164.513",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The same paper truly plays both first-statement and first-application roles.",
+    "phase": "Littlewood and arithmetic QUE"
+   },
+   {
+    "role": "key_development",
+    "year": 2006,
+    "precision": "year",
+    "label": "Lindenstrauss proves arithmetic QUE case",
+    "work": "E. Lindenstrauss, Invariant measures and arithmetic quantum unique ergodicity (2006)",
+    "people": [
+     "Elon Lindenstrauss"
+    ],
+    "description": "A companion arithmetic application extends the transfer.",
+    "evidence": [
+     {
+      "claim": "Lindenstrauss, Invariant measures and arithmetic quantum unique ergodicity, Ann. of Math. 163 (2006) 165-219",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.4007/annals.2006.163.165",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "Littlewood and arithmetic QUE"
+   },
+   {
+    "role": "naming",
+    "year": 2007,
+    "precision": "year",
+    "label": "Measure rigidity and p-adic Littlewood in a title",
+    "work": "M. Einsiedler and D. Kleinbock, Measure rigidity and p-adic Littlewood-type problems (2007)",
+    "people": [
+     "Manfred Einsiedler"
+    ],
+    "description": "The title explicitly names the transfer being tracked.",
+    "evidence": [
+     {
+      "claim": "Paper title naming the transfer: Einsiedler and Kleinbock, Measure rigidity and p-adic Littlewood-type problems, Compos. Math. 143 (2007)",
+      "source": "zbMATH 1149.11036",
+      "url": "https://zbmath.org/?q=an:1149.11036",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "phase": "Littlewood and arithmetic QUE"
+   }
+  ],
+  "people": [
+   {
+    "name": "Manfred Einsiedler",
+    "role": "developer",
+    "lifespan": "1973-",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Manfred_Einsiedler",
+    "works": [
+     {
+      "citation": "Einsiedler, M.; Katok, A.; Lindenstrauss, E. Invariant measures and the set of exceptions to Littlewood conjecture. Ann. of Math. 164 (2006).",
+      "year": 2006,
+      "url": "https://doi.org/10.4007/annals.2006.164.513",
+      "whyItMatters": "Main transfer result."
+     },
+     {
+      "citation": "Einsiedler, M.; Ward, T. Ergodic theory with a view towards number theory. GTM 259, Springer (2011).",
+      "year": 2011,
+      "url": "https://zbmath.org/?q=an:1206.37001",
+      "whyItMatters": "Textbook for the area."
+     }
+    ]
+   },
+   {
+    "name": "Anatole Katok",
+    "role": "developer",
+    "lifespan": "1944-2018",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Anatole_Katok",
+    "works": [
+     {
+      "citation": "Katok, A.; Spatzier, R. Invariant measures for higher-rank hyperbolic abelian actions. Ergodic Theory Dynam. Systems 16 (1996).",
+      "year": 1996,
+      "url": "https://doi.org/10.1017/s0143385700009081",
+      "whyItMatters": "Measure-rigidity method for higher-rank actions."
+     },
+     {
+      "citation": "Einsiedler, M.; Katok, A.; Lindenstrauss, E. Ann. of Math. 164 (2006).",
+      "year": 2006,
+      "url": "https://doi.org/10.4007/annals.2006.164.513",
+      "whyItMatters": "Co-author of the Littlewood result."
+     }
+    ]
+   },
+   {
+    "name": "Elon Lindenstrauss",
+    "role": "developer",
+    "lifespan": "1970-",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Elon_Lindenstrauss",
+    "works": [
+     {
+      "citation": "Lindenstrauss, E. Invariant measures and arithmetic quantum unique ergodicity. Ann. of Math. 163 (2006).",
+      "year": 2006,
+      "url": "https://doi.org/10.4007/annals.2006.163.165",
+      "whyItMatters": "Arithmetic QUE via measure rigidity."
+     },
+     {
+      "citation": "Einsiedler, M.; Katok, A.; Lindenstrauss, E. Ann. of Math. 164 (2006).",
+      "year": 2006,
+      "url": "https://doi.org/10.4007/annals.2006.164.513",
+      "whyItMatters": "Littlewood exceptional set."
+     }
+    ]
+   },
+   {
+    "name": "Hillel Furstenberg",
+    "role": "originator",
+    "lifespan": "1935-",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Furstenberg/",
+    "works": [
+     {
+      "citation": "Furstenberg, H. Disjointness in ergodic theory, minimal sets, and a problem in Diophantine approximation. Math. Systems Theory 1 (1967).",
+      "year": 1967,
+      "url": "https://doi.org/10.1007/bf01692494",
+      "whyItMatters": "x2 x3 rigidity and Diophantine link."
+     }
+    ]
+   },
+   {
+    "name": "Gregory Margulis",
+    "role": "originator",
+    "lifespan": "1946-",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Margulis/",
+    "works": [
+     {
+      "citation": "Margulis, G. Problems and conjectures in rigidity theory. In Mathematics: frontiers and perspectives, AMS (2000) 161-174.",
+      "year": 2000,
+      "url": "https://zbmath.org/?q=an:0952.22005",
+      "whyItMatters": "States measure-rigidity conjectures for diagonal actions."
+     }
+    ]
+   }
+  ],
+  "notes": "Passes A and B date the Furstenberg precursor to 1967; the direct pass starts the specific 2006 event there. These are separate stages, not conflicting birth dates. The 2007 naming citation still needs a catalogue-level title check."
+ },
+ {
+  "pid": "P186",
+  "eventId": "MA2",
+  "canonicalName": "Old Babylonian quadratic and cubic problem-solving",
+  "aliases": [
+   "Babylonian algebra",
+   "Old Babylonian algebra",
+   "cut-and-paste geometry",
+   "Mesopotamian mathematics",
+   "BM 13901",
+   "BM 85200",
+   "cuneiform mathematical texts"
+  ],
+  "phases": [],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": -2000,
+    "precision": "range",
+    "label": "Old Babylonian tablet procedures",
+    "work": "Old Babylonian mathematical tablets (individual dates unverified)",
+    "people": [],
+    "description": "Tablet problems use area and volume procedures later described as quadratic or cubic.",
+    "evidence": [
+     {
+      "claim": "MacTutor describes Old Babylonian tablets with rectangle-area problems leading to quadratic equations and a standard solving method.",
+      "source": "MacTutor, Babylonian mathematics",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Babylonian_mathematics/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "endYear": -1600,
+    "note": "The cited history dates a broad period, not a specific tablet or publication."
+   },
+   {
+    "role": "key_development",
+    "year": 1935,
+    "precision": "year",
+    "label": "Neugebauer publishes cuneiform mathematical texts",
+    "work": "O. Neugebauer, Mathematische Keilschrift-Texte (1935)",
+    "people": [
+     "Otto Neugebauer"
+    ],
+    "description": "A modern edition makes the relevant tablets accessible as research texts.",
+    "evidence": [
+     {
+      "claim": "Neugebauer, Mathematische Keilschrift-Texte, 1935: standard edition of the mathematical tablets.",
+      "source": "Crossref/zbMATH",
+      "url": "https://zbmath.org/?q=an:0012.09701",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low"
+   },
+   {
+    "role": "naming",
+    "year": 1937,
+    "precision": "year",
+    "label": "Gandz names Babylonian quadratic equations",
+    "work": "S. Gandz, The origin and development of the quadratic equations in Babylonian, Greek and early Arabic algebra (1937)",
+    "people": [],
+    "description": "The modern article title explicitly names the studied procedure.",
+    "evidence": [
+     {
+      "claim": "Gandz, The origin and development of the quadratic equations in Babylonian, Greek and early Arabic algebra (1937): earliest indexed title naming Babylonian quadratic equations.",
+      "source": "zbMATH Open",
+      "url": "https://zbmath.org/?q=an:0018.19504",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low"
+   }
+  ],
+  "people": [
+   {
+    "name": "Otto Neugebauer",
+    "role": "systematiser",
+    "lifespan": "1899-1990",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Neugebauer/",
+    "works": [
+     {
+      "citation": "Neugebauer, O. Uber die Losung kubischer Gleichungen in Babylonien. Nachr. Ges. Wiss. Gottingen, Math.-Phys. Kl. 1933, 316-321.",
+      "year": 1933,
+      "url": "https://zbmath.org/?q=an:0007.38601",
+      "whyItMatters": "Identified Babylonian cubic procedures."
+     },
+     {
+      "citation": "Neugebauer, O. Mathematische Keilschrift-Texte I-II. Quellen und Studien A 3 (1935).",
+      "year": 1935,
+      "url": "https://zbmath.org/?q=an:61.0008.05",
+      "whyItMatters": "Edition of the source tablets."
+     },
+     {
+      "citation": "Neugebauer, O. Studien zur Geschichte der antiken Algebra I. Quellen und Studien B 2 (1932).",
+      "year": 1932,
+      "url": "https://zbmath.org/?q=an:0004.00203",
+      "whyItMatters": "Early framing of Babylonian procedures as algebra."
+     }
+    ]
+   }
+  ],
+  "notes": "No precise original publication date or named ancient author has been established. Searches in MacTutor and the cited modern tablet editions provide a period only; conceptual and methodological derived dates stay empty. Modern naming is not an ancient institutional date."
+ },
+ {
+  "pid": "P119",
+  "eventId": "WA7/MA11",
+  "canonicalName": "Archimedean statics and hydrostatics",
+  "aliases": [
+   "Archimedes statics",
+   "On the Equilibrium of Planes",
+   "On Floating Bodies",
+   "law of the lever",
+   "centre of gravity",
+   "Archimedes principle",
+   "geometric mechanics"
+  ],
+  "phases": [],
+  "milestones": [
+   {
+    "role": "key_development",
+    "year": 1586,
+    "precision": "year",
+    "label": "Stevin's published statics treatise",
+    "work": "S. Stevin, De Beghinselen der Weeghconst (1586)",
+    "people": [],
+    "description": "A documented early modern development of the statics tradition.",
+    "evidence": [
+     {
+      "claim": "Stevin, De Beghinselen der Weeghconst (1586), Dutch treatise on statics (weeghconst).",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/works/OL1358228W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low"
+   },
+   {
+    "role": "consolidation",
+    "year": 1897,
+    "precision": "year",
+    "label": "Heath publishes English Archimedes edition",
+    "work": "T. L. Heath, The Works of Archimedes (1897)",
+    "people": [
+     "Archimedes of Syracuse"
+    ],
+    "description": "The edition consolidates access to the ancient statics corpus.",
+    "evidence": [
+     {
+      "claim": "Open Library: Heath, The Works of Archimedes (1897), standard English edition.",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/works/OL1099243W",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "This dates the modern edition, not Archimedes' original treatise."
+   },
+   {
+    "role": "precursor",
+    "year": null,
+    "precision": "unknown",
+    "label": "Archimedes' statics treatises, undated",
+    "work": "Archimedes, On the Equilibrium of Planes and On Floating Bodies",
+    "people": [
+     "Archimedes of Syracuse"
+    ],
+    "description": "The ancient treatises combine mechanical questions with geometric arguments.",
+    "evidence": [
+     {
+      "claim": "MacTutor: On plane equilibriums sets out principles of mechanics using geometry methods; order of Archimedes writings uncertain; lifetime 287-212 BC.",
+      "source": "MacTutor, Archimedes biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "MacTutor gives a lifespan but no defensible composition or publication year; searched MacTutor and Open Library."
+   }
+  ],
+  "people": [
+   {
+    "name": "Archimedes of Syracuse",
+    "role": "originator",
+    "lifespan": "c. 287-212 BC",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/",
+    "works": [
+     {
+      "citation": "Archimedes. The works of Archimedes, ed. in modern notation by T. L. Heath. Cambridge University Press (1897).",
+      "year": 1897,
+      "url": "https://archive.org/details/worksofarchimede00arch",
+      "whyItMatters": "Contains On the Equilibrium of Planes and On Floating Bodies; modern edition, not original date."
+     }
+    ]
+   }
+  ],
+  "notes": "A lifespan bound (287–212 BCE) is not a publication date. Both ancient derived dates remain empty. Stevin's 1586 treatise is not claimed to be the first statics book; medieval traditions were not exhausted."
+ },
+ {
+  "pid": "P408",
+  "eventId": "W65",
+  "canonicalName": "Abstract (axiomatic) rings and fields",
+  "aliases": [
+   "abstract algebra",
+   "modern algebra",
+   "Korper",
+   "Zahlring",
+   "axiomatic field theory",
+   "abstract ring theory",
+   "Steinitz field theory",
+   "Moderne Algebra"
+  ],
+  "phases": [
+   "abstract field",
+   "abstract ring"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1871,
+    "precision": "year",
+    "label": "Dedekind's field and ideal language",
+    "work": "R. Dedekind, supplement to Dirichlet's Vorlesungen über Zahlentheorie (1871)",
+    "people": [
+     "Richard Dedekind"
+    ],
+    "description": "A field and ideal vocabulary precedes explicit axiomatic treatments.",
+    "evidence": [
+     {
+      "claim": "Dirichlet, Vorlesungen uber Zahlentheorie, 2nd ed. by Dedekind, Braunschweig: Vieweg (1871)",
+      "source": "zbMATH JFM 03.0063.01",
+      "url": "https://zbmath.org/?q=an:03.0063.01",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "abstract field"
+   },
+   {
+    "role": "first_statement",
+    "year": 1893,
+    "precision": "year",
+    "label": "Weber's abstract field framework",
+    "work": "H. Weber, Die allgemeinen Grundlagen der Galois'schen Gleichungstheorie (1893)",
+    "people": [
+     "Heinrich Weber"
+    ],
+    "description": "A checked published paper develops the abstract field framework.",
+    "evidence": [
+     {
+      "claim": "Weber's paper supplies a checked abstract-field/Galois framework in 1893.",
+      "source": "Springer original article record",
+      "url": "https://doi.org/10.1007/BF01446451",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "abstract field"
+   },
+   {
+    "role": "key_development",
+    "year": 1910,
+    "precision": "year",
+    "label": "Steinitz's algebraic theory of fields",
+    "work": "E. Steinitz, Algebraische Theorie der Körper (1910)",
+    "people": [
+     "Ernst Steinitz"
+    ],
+    "description": "Systematic field concepts extend the abstract programme.",
+    "evidence": [
+     {
+      "claim": "Steinitz, Algebraische Theorie der Korper, J. reine angew. Math. 137 (1910) 167ff.",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1515/crll.1910.137.167",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "abstract field"
+   },
+   {
+    "role": "first_application",
+    "year": 1921,
+    "precision": "year",
+    "label": "Noether applies abstract ring theory to ideals",
+    "work": "E. Noether, Idealtheorie in Ringbereichen (1921)",
+    "people": [
+     "Emmy Noether"
+    ],
+    "description": "The abstract ring viewpoint is used to solve ideal-theoretic problems.",
+    "evidence": [
+     {
+      "claim": "Noether applies abstract commutative ring ideas to ideal theory.",
+      "source": "Springer original article record",
+      "url": "https://doi.org/10.1007/BF01464225",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "phase": "abstract ring"
+   },
+   {
+    "role": "consolidation",
+    "year": 1930,
+    "precision": "year",
+    "label": "Moderne Algebra synthesizes the subject",
+    "work": "B. L. van der Waerden, Moderne Algebra I (1930)",
+    "people": [
+     "Bartel van der Waerden"
+    ],
+    "description": "The textbook brings the abstract ring and field programme into a named course of study.",
+    "evidence": [
+     {
+      "claim": "van der Waerden, Moderne Algebra I (1930), II (1931), Grundlehren",
+      "source": "zbMATH JFM 56.0138.01; 0002.00804",
+      "url": "https://zbmath.org/?q=an:56.0138.01",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "people": [
+   {
+    "name": "Richard Dedekind",
+    "role": "originator",
+    "lifespan": "1831-1916",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Dedekind/",
+    "works": [
+     {
+      "citation": "Dirichlet, P. G. L. Vorlesungen uber Zahlentheorie, 2nd ed., ed. R. Dedekind (with supplements). Vieweg (1871).",
+      "year": 1871,
+      "url": "https://zbmath.org/?q=an:03.0063.01",
+      "whyItMatters": "Supplement introducing Korper and ideals."
+     }
+    ]
+   },
+   {
+    "name": "Heinrich Weber",
+    "role": "developer",
+    "lifespan": "1842-1913",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Weber_Heinrich/",
+    "works": [
+     {
+      "citation": "Weber, H. Die allgemeinen Grundlagen der Galois schen Gleichungstheorie. Math. Ann. 43 (1893).",
+      "year": 1893,
+      "url": "https://doi.org/10.1007/bf01446451",
+      "whyItMatters": "Abstract groups and fields in Galois theory."
+     }
+    ]
+   },
+   {
+    "name": "Ernst Steinitz",
+    "role": "systematiser",
+    "lifespan": "1871-1928",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Steinitz/",
+    "works": [
+     {
+      "citation": "Steinitz, E. Algebraische Theorie der Korper. J. reine angew. Math. 137 (1910).",
+      "year": 1910,
+      "url": "https://doi.org/10.1515/crll.1910.137.167",
+      "whyItMatters": "Abstract field theory."
+     }
+    ]
+   },
+   {
+    "name": "Abraham Fraenkel",
+    "role": "developer",
+    "lifespan": "1891-1965",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Fraenkel/",
+    "works": [
+     {
+      "citation": "Fraenkel, A. Uber die Teiler der Null und die Zerlegung von Ringen. J. reine angew. Math. 145 (1915).",
+      "year": 1915,
+      "url": "https://doi.org/10.1515/crll.1915.145.139",
+      "whyItMatters": "Early axioms for rings."
+     }
+    ]
+   },
+   {
+    "name": "Emmy Noether",
+    "role": "developer",
+    "lifespan": "1882-1935",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/",
+    "works": [
+     {
+      "citation": "Noether, E. Idealtheorie in Ringbereichen. Math. Ann. 83 (1921).",
+      "year": 1921,
+      "url": "https://doi.org/10.1007/bf01464225",
+      "whyItMatters": "Abstract commutative ring theory with chain conditions."
+     }
+    ]
+   },
+   {
+    "name": "Bartel van der Waerden",
+    "role": "systematiser",
+    "lifespan": "1903-1996",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Van_der_Waerden/",
+    "works": [
+     {
+      "citation": "van der Waerden, B. L. Moderne Algebra I. Grundlehren, Springer (1930).",
+      "year": 1930,
+      "url": "https://zbmath.org/?q=an:56.0138.01",
+      "whyItMatters": "Textbook that fixed the abstract presentation."
+     }
+    ]
+   }
+  ],
+  "notes": "The event bundles fields and rings: Dedekind 1871, Weber 1893, Steinitz 1910 and Noether 1921 mark distinct claims. The 1930 textbook is consolidation rather than origin."
+ },
+ {
+  "pid": "P179",
+  "eventId": "WA55",
+  "canonicalName": "Arbuthnot sex-ratio argument as an early significance test",
+  "aliases": [
+   "Arbuthnot test",
+   "argument for Divine Providence",
+   "sign test",
+   "first significance test",
+   "birth sex ratio",
+   "tests of significance",
+   "null hypothesis testing"
+  ],
+  "phases": [],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "year": 1710,
+    "precision": "year",
+    "label": "Arbuthnot states a chance argument",
+    "work": "J. Arbuthnot, An argument for Divine Providence, Philosophical Transactions (1710)",
+    "people": [
+     "John Arbuthnot"
+    ],
+    "description": "The public paper frames an unusually persistent birth-sex ratio as unlikely by chance.",
+    "evidence": [
+     {
+      "claim": "Arbuthnot, An argument for divine providence, taken from the constant regularity observed in the births of both sexes, Phil. Trans. 27 (1710)",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1098/rstl.1710.0011",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "This paper both states and applies the argument; see adjacent milestone."
+   },
+   {
+    "role": "first_application",
+    "year": 1710,
+    "precision": "year",
+    "label": "Coin-toss calculation on christening data",
+    "work": "J. Arbuthnot, An argument for Divine Providence, Philosophical Transactions (1710)",
+    "people": [
+     "John Arbuthnot"
+    ],
+    "description": "The chance calculation is applied to annual London christening counts.",
+    "evidence": [
+     {
+      "claim": "Same paper applies a chance (coin-toss) calculation to 82 years of christening data",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1098/rstl.1710.0011",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The same paper truly plays both first-statement and first-application roles."
+   },
+   {
+    "role": "consolidation",
+    "year": 1925,
+    "precision": "year",
+    "label": "Fisher's significance-testing textbook",
+    "work": "R. A. Fisher, Statistical Methods for Research Workers (1925)",
+    "people": [
+     "Ronald A. Fisher"
+    ],
+    "description": "The much later textbook consolidates significance testing as a method.",
+    "evidence": [
+     {
+      "claim": "Fisher, Statistical methods for research workers (1925), textbook of significance testing",
+      "source": "zbMATH JFM 51.0414.08",
+      "url": "https://zbmath.org/?q=an:51.0414.08",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low"
+   }
+  ],
+  "people": [
+   {
+    "name": "John Arbuthnot",
+    "role": "originator",
+    "lifespan": "1667-1735",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Arbuthnot/",
+    "works": [
+     {
+      "citation": "Arbuthnot, J. An argument for divine providence, taken from the constant regularity observed in the births of both sexes. Phil. Trans. R. Soc. 27 (1710).",
+      "year": 1710,
+      "url": "https://doi.org/10.1098/rstl.1710.0011",
+      "whyItMatters": "The test itself."
+     }
+    ]
+   },
+   {
+    "name": "Ronald A. Fisher",
+    "role": "systematiser",
+    "lifespan": "1890-1962",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Fisher/",
+    "works": [
+     {
+      "citation": "Fisher, R. A. Statistical methods for research workers. Oliver and Boyd (1925).",
+      "year": 1925,
+      "url": "https://zbmath.org/?q=an:51.0414.08",
+      "whyItMatters": "Made significance testing a standard method."
+     },
+     {
+      "citation": "Fisher, R. A. Tests of significance in harmonic analysis. Proc. R. Soc. A 125 (1929) 54-59.",
+      "year": 1929,
+      "url": "https://zbmath.org/?q=an:55.0950.16",
+      "whyItMatters": "Earliest indexed title using the phrase."
+     }
+    ]
+   }
+  ],
+  "notes": "Fisher 1925 is an institutional anchor for significance testing generally, not a direct continuation of Arbuthnot's providential interpretation; some pass-B sources suggest earlier named treatments."
+ },
+ {
+  "pid": "P021",
+  "eventId": "E29",
+  "canonicalName": "Sheaf theory and sheaf cohomology",
+  "aliases": [
+   "sheaves",
+   "faisceaux",
+   "sheaf cohomology",
+   "coherent sheaves",
+   "Leray spectral sequence",
+   "Cartan seminar",
+   "FAC",
+   "Godement resolution"
+  ],
+  "phases": [],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "year": 1946,
+    "precision": "year",
+    "label": "Leray publishes the sheaf idea",
+    "work": "J. Leray, L'anneau d'homologie d'une représentation, C. R. Acad. Sci. Paris 222 (1946)",
+    "people": [
+     "Jean Leray"
+    ],
+    "description": "The published note supplies an early public sheaf formulation.",
+    "evidence": [
+     {
+      "claim": "Leray's 1946 published note defines a faisceau and applies it to homology.",
+      "source": "Leray, Comptes rendus 222 (1946), digitized note",
+      "url": "https://ncatlab.org/nlab/files/Leray-0.pdf",
+      "kind": "primary_text"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The same note also applies the tool to homology; see adjacent milestone."
+   },
+   {
+    "role": "first_application",
+    "year": 1946,
+    "precision": "year",
+    "label": "Leray uses sheaves in homology",
+    "work": "J. Leray, L'anneau d'homologie d'une représentation, C. R. Acad. Sci. Paris 222 (1946)",
+    "people": [
+     "Jean Leray"
+    ],
+    "description": "Sheaves are used on a representation's homological problem.",
+    "evidence": [
+     {
+      "claim": "Leray uses sheaves for the homology of a representation in the same published note that introduces them.",
+      "source": "MathSciNet bibliographic record",
+      "url": "https://mathscinet.ams.org/mathscinet-getitem?mr=8%2C49d",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The same paper truly plays both first-statement and first-application roles."
+   },
+   {
+    "role": "institution",
+    "year": 1950,
+    "precision": "range",
+    "label": "Cartan's seminar covers sheaves",
+    "work": "H. Cartan, Séminaire Henri Cartan, 1950–51: cohomologie, suites spectrales, faisceaux",
+    "people": [
+     "Henri Cartan"
+    ],
+    "description": "The named lecture series brings sheaves into sustained teaching.",
+    "evidence": [
+     {
+      "claim": "Seminaire Henri Cartan 3e annee 1950/51: Cohomologie des groupes, suite spectrale, faisceaux",
+      "source": "zbMATH 0067.15405 (printed edition 1955)",
+      "url": "https://zbmath.org/?q=an:0067.15405",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "endYear": 1951
+   },
+   {
+    "role": "key_development",
+    "year": 1955,
+    "precision": "year",
+    "label": "Serre applies coherent sheaves to algebraic geometry",
+    "work": "J.-P. Serre, Faisceaux algébriques cohérents, Ann. Math. 61 (1955)",
+    "people": [
+     "Jean-Pierre Serre"
+    ],
+    "description": "Coherent sheaves become a central algebraic-geometric tool.",
+    "evidence": [
+     {
+      "claim": "Serre, Faisceaux algebriques coherents, Ann. of Math. 61 (1955) 197-278 (move into algebraic geometry)",
+      "source": "zbMATH 0067.16201",
+      "url": "https://zbmath.org/?q=an:0067.16201",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "people": [
+   {
+    "name": "Jean Leray",
+    "role": "originator",
+    "lifespan": "1906-1998",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Leray/",
+    "works": [
+     {
+      "citation": "Leray, J. L anneau d homologie d une representation. C. R. Acad. Sci. Paris 222 (1946) 1366-1368.",
+      "year": 1946,
+      "url": "https://zbmath.org/?q=an:0060.40801",
+      "whyItMatters": "Introduces faisceaux and the spectral sequence idea."
+     },
+     {
+      "citation": "Leray, J. L anneau spectral et l anneau filtre d homologie d un espace localement compact et d une application continue. J. Math. Pures Appl. 29 (1950) 1-139.",
+      "year": 1950,
+      "url": "https://zbmath.org/?q=an:0038.36301",
+      "whyItMatters": "Full account."
+     }
+    ]
+   },
+   {
+    "name": "Henri Cartan",
+    "role": "systematiser",
+    "lifespan": "1904-2008",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Cartan_Henri/",
+    "works": [
+     {
+      "citation": "Seminaire Henri Cartan 1950/51: Cohomologie des groupes, suite spectrale, faisceaux. ENS (printed 1955).",
+      "year": 1951,
+      "url": "https://zbmath.org/?q=an:0067.15405",
+      "whyItMatters": "Modern sheaf formalism."
+     },
+     {
+      "citation": "Cartan, H. Varietes analytiques complexes et cohomologie. Colloque Bruxelles (1953).",
+      "year": 1953,
+      "url": "https://zbmath.org/?q=an:0053.05301",
+      "whyItMatters": "Theorems A and B for Stein manifolds."
+     }
+    ]
+   },
+   {
+    "name": "Jean-Pierre Serre",
+    "role": "developer",
+    "lifespan": "1926-",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Serre/",
+    "works": [
+     {
+      "citation": "Serre, J.-P. Faisceaux algebriques coherents. Ann. of Math. 61 (1955) 197-278.",
+      "year": 1955,
+      "url": "https://zbmath.org/?q=an:0067.16201",
+      "whyItMatters": "Moves sheaves into algebraic geometry."
+     }
+    ]
+   },
+   {
+    "name": "Alexander Grothendieck",
+    "role": "developer",
+    "lifespan": "1928-2014",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Grothendieck/",
+    "works": [
+     {
+      "citation": "Grothendieck, A. Sur quelques points d algebre homologique. Tohoku Math. J. 9 (1957) 119-221.",
+      "year": 1957,
+      "url": "https://zbmath.org/?q=an:0118.26104",
+      "whyItMatters": "Derived-functor sheaf cohomology."
+     }
+    ]
+   },
+   {
+    "name": "Roger Godement",
+    "role": "systematiser",
+    "lifespan": "1921-2016",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Godement/",
+    "works": [
+     {
+      "citation": "Godement, R. Topologie algebrique et theorie des faisceaux. Hermann (1958).",
+      "year": 1958,
+      "url": "https://zbmath.org/?q=an:0080.16201",
+      "whyItMatters": "First textbook."
+     }
+    ]
+   }
+  ],
+  "notes": "Pass A uses Cartan 1953 and pass B Serre 1955 for the first application to later target areas. Leray's 1946 note already uses the tool for homology, so that earlier target is retained separately."
+ },
+ {
+  "pid": "P288",
+  "eventId": "WB67",
+  "canonicalName": "Iwasawa theory",
+  "aliases": [
+   "Iwasawa theory",
+   "Iwasawa invariants",
+   "Z_p-extensions",
+   "Gamma-extensions",
+   "Iwasawa algebra",
+   "Iwasawa main conjecture",
+   "cyclotomic towers",
+   "lambda mu nu invariants"
+  ],
+  "phases": [],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "year": 1959,
+    "precision": "year",
+    "label": "Iwasawa publishes the cyclotomic-tower framework",
+    "work": "K. Iwasawa, On the Theory of Cyclotomic Fields, Ann. Math. (1959)",
+    "people": [
+     "Kenkichi Iwasawa"
+    ],
+    "description": "A public paper states the arithmetic tower framework.",
+    "evidence": [
+     {
+      "claim": "Iwasawa's On the Theory of Cyclotomic Fields was published in 1959.",
+      "source": "Annals original article record",
+      "url": "https://doi.org/10.2307/1970328",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The same paper states and applies the framework; see adjacent milestone."
+   },
+   {
+    "role": "first_application",
+    "year": 1959,
+    "precision": "year",
+    "label": "Class groups in cyclotomic towers",
+    "work": "K. Iwasawa, On the Theory of Cyclotomic Fields, Ann. Math. (1959)",
+    "people": [
+     "Kenkichi Iwasawa"
+    ],
+    "description": "The framework is used to study class-group growth.",
+    "evidence": [
+     {
+      "claim": "The paper studies class-group growth in cyclotomic towers.",
+      "source": "Annals original article record",
+      "url": "https://doi.org/10.2307/1970328",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The same paper truly plays both first-statement and first-application roles."
+   },
+   {
+    "role": "key_development",
+    "year": 1973,
+    "precision": "year",
+    "label": "Iwasawa extends the Z-l tower theory",
+    "work": "K. Iwasawa, On Z-l-extensions of algebraic number fields, Ann. Math. 98 (1973)",
+    "people": [
+     "Kenkichi Iwasawa"
+    ],
+    "description": "A later paper develops the arithmetic theory.",
+    "evidence": [
+     {
+      "claim": "Iwasawa, On Z_l-extensions of algebraic number fields, Ann. of Math. 98 (1973)",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.2307/1970784",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "naming",
+    "year": 1977,
+    "precision": "year",
+    "label": "Iwasawa theory appears in a paper title",
+    "work": "J. Coates, p-adic L-functions and Iwasawa theory (1977)",
+    "people": [],
+    "description": "The named title provides a reproducible institutional anchor.",
+    "evidence": [
+     {
+      "claim": "Earliest zbMATH title with the name: Coates, p-adic L-functions and Iwasawa theory, Durham symposium 1977",
+      "source": "zbMATH 0393.12027",
+      "url": "https://zbmath.org/?q=an:0393.12027",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low"
+   }
+  ],
+  "people": [
+   {
+    "name": "Kenkichi Iwasawa",
+    "role": "originator",
+    "lifespan": "1917-1998",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Iwasawa/",
+    "works": [
+     {
+      "citation": "Iwasawa, K. On Gamma-extensions of algebraic number fields. Bull. Amer. Math. Soc. 65 (1959) 183-226.",
+      "year": 1959,
+      "url": "https://doi.org/10.1090/s0002-9904-1959-10317-7",
+      "whyItMatters": "Founding paper."
+     },
+     {
+      "citation": "Iwasawa, K. On some properties of Gamma-finite modules. Ann. of Math. 70 (1959) 291-312.",
+      "year": 1959,
+      "url": "https://zbmath.org/?q=an:0202.33102",
+      "whyItMatters": "Structure theory of Lambda-modules."
+     },
+     {
+      "citation": "Iwasawa, K. On Z_l-extensions of algebraic number fields. Ann. of Math. 98 (1973) 246-326.",
+      "year": 1973,
+      "url": "https://doi.org/10.2307/1970784",
+      "whyItMatters": "Mature form of the theory."
+     }
+    ]
+   },
+   {
+    "name": "Barry Mazur",
+    "role": "developer",
+    "lifespan": "1937-",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Mazur_Barry/",
+    "works": [
+     {
+      "citation": "Mazur, B. Rational points of abelian varieties with values in towers of number fields. Invent. Math. (1972).",
+      "year": 1972,
+      "url": "https://doi.org/10.1007/bf01389815",
+      "whyItMatters": "Iwasawa theory for abelian varieties."
+     },
+     {
+      "citation": "Mazur, B.; Wiles, A. Class fields of abelian extensions of Q. Invent. Math. 76 (1984).",
+      "year": 1984,
+      "url": "https://doi.org/10.1007/bf01388599",
+      "whyItMatters": "Proof of the main conjecture."
+     }
+    ]
+   },
+   {
+    "name": "Andrew Wiles",
+    "role": "developer",
+    "lifespan": "1953-",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Wiles/",
+    "works": [
+     {
+      "citation": "Mazur, B.; Wiles, A. Class fields of abelian extensions of Q. Invent. Math. 76 (1984).",
+      "year": 1984,
+      "url": "https://doi.org/10.1007/bf01388599",
+      "whyItMatters": "Proof of the main conjecture."
+     }
+    ]
+   }
+  ],
+  "notes": "The 1956 Seattle lecture is not the public-paper date. The 1977 naming citation is a zbMATH record that the automated Crossref checker cannot yet resolve."
+ },
+ {
+  "pid": "P405",
+  "eventId": "W35",
+  "canonicalName": "Many-valued logic",
+  "aliases": [
+   "many-valued logics",
+   "multi-valued logic",
+   "multiple-valued logic",
+   "three-valued logic",
+   "Lukasiewicz logic",
+   "Post logics",
+   "finite-valued logic",
+   "non-classical logic"
+  ],
+  "phases": [],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "year": 1920,
+    "precision": "year",
+    "label": "Łukasiewicz publishes three-valued logic",
+    "work": "J. Łukasiewicz, O logice trójwartościowej, Ruch Filozoficzny 5 (1920)",
+    "people": [
+     "Jan Lukasiewicz"
+    ],
+    "description": "A public note formulates the three-valued system.",
+    "evidence": [
+     {
+      "claim": "Łukasiewicz's O logice trójwartościowej was printed in Ruch Filozoficzny in 1920.",
+      "source": "Digitized original journal issue",
+      "url": "https://kpbc.umk.pl/Content/247342/PDF/EOD_OPEN_006_12_nr_09.pdf",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The same paper states, applies and names this particular system; see adjacent milestones."
+   },
+   {
+    "role": "first_application",
+    "year": 1920,
+    "precision": "year",
+    "label": "Three values applied to future contingents",
+    "work": "J. Łukasiewicz, O logice trójwartościowej, Ruch Filozoficzny 5 (1920)",
+    "people": [
+     "Jan Lukasiewicz"
+    ],
+    "description": "The extra truth value addresses future-contingent propositions.",
+    "evidence": [
+     {
+      "claim": "The publication develops a third truth value to address future contingents.",
+      "source": "Stanford Encyclopedia of Philosophy",
+      "url": "https://plato.stanford.edu/entries/lukasiewicz/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The same paper truly plays both first-statement and first-application roles."
+   },
+   {
+    "role": "naming",
+    "year": 1920,
+    "precision": "year",
+    "label": "Three-valued logic named in the title",
+    "work": "J. Łukasiewicz, O logice trójwartościowej, Ruch Filozoficzny 5 (1920)",
+    "people": [
+     "Jan Lukasiewicz"
+    ],
+    "description": "The title explicitly names three-valued logic, a narrower term than all many-valued logics.",
+    "evidence": [
+     {
+      "claim": "The article title names three-valued logic.",
+      "source": "Digitized original journal issue",
+      "url": "https://kpbc.umk.pl/Content/247342/PDF/EOD_OPEN_006_12_nr_09.pdf",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The same paper plays both naming and first-statement roles; the term here names the three-valued phase."
+   },
+   {
+    "role": "key_development",
+    "year": 1921,
+    "precision": "year",
+    "label": "Post generalizes to finitely many values",
+    "work": "E. Post, Introduction to a general theory of elementary propositions, Amer. J. Math. 43 (1921)",
+    "people": [
+     "Emil Post"
+    ],
+    "description": "Finite many-valued truth-table systems extend the initial example.",
+    "evidence": [
+     {
+      "claim": "Post 1921 generalised truth tables to any finite number of values and proved functional completeness results",
+      "source": "Crossref record; content per SEP Many-Valued Logic and MacTutor Post",
+      "url": "https://doi.org/10.2307/2370324",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "consolidation",
+    "year": 1952,
+    "precision": "year",
+    "label": "Many-valued logics monograph",
+    "work": "J. B. Rosser and A. R. Turquette, Many-valued Logics (1952)",
+    "people": [],
+    "description": "A book-length treatment consolidates the named wider field.",
+    "evidence": [
+     {
+      "claim": "Rosser and Turquette, Many-valued logics, North-Holland (1952): first monograph",
+      "source": "zbMATH 0047.01503",
+      "url": "https://zbmath.org/?q=an:0047.01503",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low"
+   }
+  ],
+  "people": [
+   {
+    "name": "Jan Lukasiewicz",
+    "role": "originator",
+    "lifespan": "1878-1956",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lukasiewicz/",
+    "works": [
+     {
+      "citation": "Lukasiewicz, J.; Tarski, A. Untersuchungen uber den Aussagenkalkul. C. R. Soc. Sci. Varsovie, Cl. III, 23 (1930) 30-50.",
+      "year": 1930,
+      "url": "https://zbmath.org/?q=an:57.1319.01",
+      "whyItMatters": "Systematic many-valued matrices."
+     },
+     {
+      "citation": "Lukasiewicz, J. Philosophische Bemerkungen zu mehrwertigen Systemen des Aussagenkalkuls. C. R. Soc. Sci. Varsovie 23 (1930) 51-77.",
+      "year": 1930,
+      "url": "https://zbmath.org/?q=an:57.1319.02",
+      "whyItMatters": "Names many-valued systems; philosophical motivation."
+     }
+    ]
+   },
+   {
+    "name": "Emil Post",
+    "role": "originator",
+    "lifespan": "1897-1954",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Post/",
+    "works": [
+     {
+      "citation": "Post, E. L. Introduction to a general theory of elementary propositions. Amer. J. Math. 43 (1921) 163-185.",
+      "year": 1921,
+      "url": "https://doi.org/10.2307/2370324",
+      "whyItMatters": "m-valued truth tables, independent of Lukasiewicz."
+     }
+    ]
+   },
+   {
+    "name": "Alfred Tarski",
+    "role": "developer",
+    "lifespan": "1901-1983",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Tarski/",
+    "works": [
+     {
+      "citation": "Lukasiewicz, J.; Tarski, A. Untersuchungen uber den Aussagenkalkul. C. R. Soc. Sci. Varsovie 23 (1930).",
+      "year": 1930,
+      "url": "https://zbmath.org/?q=an:57.1319.01",
+      "whyItMatters": "Co-developed matrix method."
+     }
+    ]
+   }
+  ],
+  "notes": "Three-valued logic (1920) is a phase within many-valued logic. A broader first use of the phrase many-valued logic may differ from the 1920 narrow title; the 1952 monograph is a secure later naming anchor."
+ }
+]

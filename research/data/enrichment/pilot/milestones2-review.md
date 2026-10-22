@@ -1,0 +1,9 @@
+# Direct audit: pilot batch 2
+
+The ten records in [`milestones2.json`](milestones2.json) contain 41 milestones. They reconcile the earlier A, B and direct ledgers into stage-specific claims; they are not a new blind research pass. Source links and publication years remain attached to every milestone. The schema check finds no errors.
+
+The major date decisions are deliberately visible. P108 separates Cramér's 1938 precursor, Varadhan's 1966 general framework and the Donsker–Varadhan 1975 Markov-process application. The earlier pass-A 1956 phrase search was not accepted as proof that the general theory had been institutionalized. P086 preserves the 1982 cryptographic precursors and the 1988 named hardness-versus-randomness paper. P329 keeps the 1967 ergodic precursor distinct from the two 2006 arithmetic applications.
+
+P186 and P119 have no defensible original publication year: the ancient period or Archimedes' lifespan does not date a particular text. Their first-statement and first-application dates stay empty. Modern editions and studies are later milestones, never retroactive ancient dates. P408 separates Dedekind (1871), Weber (1893), Steinitz (1910), Noether (1921) and the 1930 textbook across the wider ring-and-field event. P021 treats Leray's 1946 note as both statement and homology application, while later Cartan and Serre work have separate roles. P405 distinguishes the 1920 three-valued example from the wider many-valued field.
+
+The automated work check confirms metadata where Crossref, arXiv, Open Library or archive.org supplies it; zbMATH and Math-Net records require direct review. Its title-overlap warning on Arbuthnot is caused by an abbreviated citation against the long original title, with the year matching. Historical firstness and the precise institutional boundary for P108, P179 and P405 remain interpretation questions. No A-grade agreement rate is asserted from this reconciliation.

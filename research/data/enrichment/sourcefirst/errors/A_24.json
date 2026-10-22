@@ -1,0 +1,20 @@
+[
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_24.json",
+  "location": "[3].people[0]",
+  "message": "Expected 1\u20133 works; found 4"
+ },
+ {
+  "level": "error",
+  "file": "data/collection/enrichment/sourcefirst/A_24.json",
+  "location": "[5].people[2].works[0]",
+  "message": "Invalid work citation, year, URL, or relevance"
+ },
+ {
+  "level": "warning",
+  "file": "data/collection/enrichment/sourcefirst/A_24.json",
+  "location": "[6]",
+  "message": "No first_statement milestone; explain source gap in notes"
+ }
+]

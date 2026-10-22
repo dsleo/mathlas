@@ -1,0 +1,144 @@
+[
+ {
+  "pid": "P033",
+  "eventId": "E41",
+  "name": "Gauge theory transforms four-manifold topology",
+  "type": "import-from-outside",
+  "from": [
+   "Physics",
+   "Analysis"
+  ],
+  "to": [
+   "Topology"
+  ],
+  "summary": "Solutions of the Yang-Mills and later Seiberg-Witten equations give invariants distinguishing smooth structures on four-manifolds, results unreachable by classical topology."
+ },
+ {
+  "pid": "P045",
+  "eventId": "E53",
+  "name": "Perelman's proof of the Poincare conjecture",
+  "type": "technique-transfer",
+  "from": [
+   "Analysis",
+   "Geometry",
+   "Physics"
+  ],
+  "to": [
+   "Topology"
+  ],
+  "summary": "Ricci flow with surgery, controlled by an entropy functional and Alexandrov-space compactness, classifies three-manifolds and gives the Poincare and geometrisation conjectures."
+ },
+ {
+  "pid": "P084",
+  "eventId": "B18",
+  "name": "Wavelets",
+  "type": "import-from-outside",
+  "from": [
+   "Information & communication",
+   "Physics"
+  ],
+  "to": [
+   "Analysis"
+  ],
+  "summary": "Multiresolution ideas from signal processing and quantum field theory are merged with harmonic analysis to give orthonormal bases of compactly supported functions."
+ },
+ {
+  "pid": "P097",
+  "eventId": "B31",
+  "name": "Supersymmetry and Morse theory",
+  "type": "import-from-outside",
+  "from": [
+   "Physics"
+  ],
+  "to": [
+   "Topology",
+   "Geometry"
+  ],
+  "summary": "Supersymmetric quantum mechanics gives an analytic proof of the Morse inequalities, a template for later physics-inspired invariants."
+ },
+ {
+  "pid": "P507",
+  "eventId": "P64",
+  "name": "Quantum computation: Shor's algorithm",
+  "type": "import-from-outside",
+  "from": [
+   "Physics",
+   "Number theory",
+   "Algebra"
+  ],
+  "to": [
+   "Computer science"
+  ],
+  "summary": "A quantum Fourier transform finds periods and hence factors integers in polynomial time, tying quantum mechanics to complexity and cryptography."
+ },
+ {
+  "pid": "P514",
+  "eventId": "P72",
+  "name": "Teichmuller dynamics: homogeneous dynamics on moduli spaces",
+  "type": "technique-transfer",
+  "from": [
+   "homogeneous dynamics (Ratner, Benoist-Quint)",
+   "Teichmuller theory"
+  ],
+  "to": [
+   "dynamics on moduli spaces"
+  ],
+  "summary": "Ratner-style measure rigidity is adapted to the SL(2,R) action on moduli of abelian differentials, proving the magic wand theorem."
+ },
+ {
+  "pid": "P058",
+  "eventId": "E66",
+  "name": "Geometric Langlands and its physics",
+  "type": "dictionary-analogy",
+  "from": [
+   "Number theory",
+   "Physics"
+  ],
+  "to": [
+   "Geometry",
+   "Algebra"
+  ],
+  "summary": "The arithmetic correspondence is reformulated for curves over the complex numbers with sheaves in place of functions, and electric-magnetic duality in gauge theory is identified as its physical origin."
+ },
+ {
+  "pid": "P093",
+  "eventId": "B27",
+  "name": "Faltings: Mordell's conjecture via moduli and heights",
+  "type": "technique-transfer",
+  "from": [
+   "Geometry"
+  ],
+  "to": [
+   "Number theory"
+  ],
+  "summary": "Finiteness of rational points on curves of genus at least 2 is proved by combining the Tate conjecture for abelian varieties, moduli of abelian varieties and height theory."
+ },
+ {
+  "pid": "P517",
+  "eventId": "P75",
+  "name": "Contact topology and the h-principle (Eliashberg)",
+  "type": "birth-by-fusion",
+  "from": [
+   "contact geometry",
+   "h-principle / homotopy theory (Gromov)"
+  ],
+  "to": [
+   "contact topology"
+  ],
+  "summary": "Overtwisted contact structures are classified by homotopy theory, separating flexible from rigid phenomena."
+ },
+ {
+  "pid": "P027",
+  "eventId": "E35",
+  "name": "Unipotent flows and the Oppenheim conjecture",
+  "type": "technique-transfer",
+  "from": [
+   "Analysis",
+   "Algebra"
+  ],
+  "to": [
+   "Number theory"
+  ],
+  "summary": "Values of indefinite quadratic forms at integer points are controlled by showing orbits of unipotent subgroups on homogeneous spaces are well-behaved."
+ }
+]

@@ -1,0 +1,591 @@
+[
+  {
+    "eventId": "H38",
+    "canonicalName": "Elliptic integrals from lemniscate and elastica (Bernoulli)",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1694,
+        "precision": "year",
+        "label": "Jakob Bernoulli introduces the lemniscate",
+        "work": "Jakob Bernoulli, lemniscate (1694)",
+        "people": [
+          "Jakob Bernoulli"
+        ],
+        "description": "Bernoulli first studied the lemniscate in 1694, a curve whose arc length leads to elliptic integrals.",
+        "evidence": [
+          {
+            "claim": "Page states Bernoulli first studied the curve in 1694 and that its arc-length problems led to elliptic integrals",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Lemniscate_of_Bernoulli",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "low",
+        "note": "Page does not name the venue (Acta Eruditorum unverified) nor say Bernoulli himself wrote the integral."
+      }
+    ],
+    "people": [],
+    "notes": "Searched Wikipedia pages via WebFetch only; Crossref/arXiv/Euler Archive/MacTutor not opened this pass, so original-publication years rest on encyclopedia statements. Elastica (1694) and Wallis 1655 not verified; Fagnano/Euler later steps not verified.",
+    "pid": "P443",
+    "searchTerms": [
+      "mechanics (elastic rod, pendulum)",
+      "curve geometry",
+      "analysis (elliptic integrals)"
+    ]
+  },
+  {
+    "eventId": "H39",
+    "canonicalName": "Fundamental theorem of algebra: analytic and topological proofs",
+    "aliases": [
+      "Gauss: fundamental theorem of algebra"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_application",
+        "year": 1746,
+        "precision": "year",
+        "label": "d'Alembert's attempted proof via minimum modulus",
+        "work": "d'Alembert (1746)",
+        "people": [
+          "d'Alembert"
+        ],
+        "description": "First attempt at a proof, using analytic arguments; incomplete.",
+        "evidence": [
+          {
+            "claim": "Page: 1746 d'Alembert made the first attempt at a proof, incomplete",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 1799,
+        "precision": "year",
+        "label": "Gauss's first proof",
+        "work": "Gauss (1799)",
+        "people": [
+          "Carl Friedrich Gauss"
+        ],
+        "description": "Mainly geometric proof with a topological gap.",
+        "evidence": [
+          {
+            "claim": "Page: 1799 Gauss published first proof, mainly geometric with topological gap",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 1806,
+        "precision": "year",
+        "label": "Argand's rigorous proof",
+        "work": "Argand (1806, revisited 1813)",
+        "people": [
+          "Jean-Robert Argand"
+        ],
+        "description": "First rigorous proof, first to state it for complex coefficients.",
+        "evidence": [
+          {
+            "claim": "Page: 1806 (revisited 1813) Argand published first rigorous proof",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Fundamental_theorem_of_algebra",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Catalogue cites Argand 1814 Reflexions; page gives 1806/1813 instead."
+      }
+    ],
+    "people": [],
+    "notes": "Searched Wikipedia pages via WebFetch only; Crossref/arXiv/Euler Archive/MacTutor not opened this pass, so original-publication years rest on encyclopedia statements. Catalogue says Gauss's thesis 1799 vs 1797 dissertation: page only gives 1799 publication. Cauchy 1821 textbook proof noted on the page but not added.",
+    "pid": "P444",
+    "searchTerms": [
+      "analysis (minimum modulus)",
+      "topology (winding arguments)",
+      "algebra (polynomial roots)"
+    ]
+  },
+  {
+    "eventId": "H40",
+    "canonicalName": "Vibrating-string controversy and the general function concept",
+    "aliases": [],
+    "phases": [],
+    "milestones": [],
+    "people": [],
+    "notes": "Searched Wikipedia pages via WebFetch only; Crossref/arXiv/Euler Archive/MacTutor not opened this pass, so original-publication years rest on encyclopedia statements. Wave equation page gives no year for d'Alembert's derivation; Euler 1755 definition not opened. Left empty.",
+    "searchedSources": [
+      "https://en.wikipedia.org/wiki/Wave_equation"
+    ],
+    "pid": "P445",
+    "searchTerms": [
+      "mechanics (vibrating string)",
+      "analysis (partial differential equations, function concept)"
+    ]
+  },
+  {
+    "eventId": "H47",
+    "canonicalName": "Topology from the geometry of position: Euler to Listing",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1741,
+        "precision": "year",
+        "label": "Euler's Konigsberg paper published",
+        "work": "Euler, Solutio problematis ad geometriam situs pertinentis, Comm. Acad. Sci. Petropolitanae (published 1741)",
+        "people": [
+          "Leonhard Euler"
+        ],
+        "description": "Euler treats the bridge problem as one of the geometry of position, without measurement.",
+        "evidence": [
+          {
+            "claim": "Page: presented 26 Aug 1735, published 1741 in Commentarii Petropolitanae, Latin title refers to geometry of position",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Catalogue year 1736 is the lead's date of the proof; publication was 1741."
+      },
+      {
+        "role": "naming",
+        "year": 1847,
+        "precision": "year",
+        "label": "Listing introduces the term topology",
+        "work": "Listing, Vorstudien zur Topologie (1847)",
+        "people": [
+          "Johann Benedict Listing"
+        ],
+        "description": "The term topology is coined by Listing.",
+        "evidence": [
+          {
+            "claim": "Page: Listing introduced the term topology in 1847",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Topological_space",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Searched Wikipedia pages via WebFetch only; Crossref/arXiv/Euler Archive/MacTutor not opened this pass, so original-publication years rest on encyclopedia statements. Lhuilier 1813 not verified.",
+    "pid": "P450",
+    "searchTerms": [
+      "geometry (polyhedra)",
+      "combinatorics",
+      "topology"
+    ]
+  },
+  {
+    "eventId": "H48",
+    "canonicalName": "Abstract topological spaces from point-set analysis",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1906,
+        "precision": "year",
+        "label": "Frechet defines metric spaces",
+        "work": "Frechet (1906)",
+        "people": [
+          "Maurice Frechet"
+        ],
+        "description": "Metric spaces defined abstractly.",
+        "evidence": [
+          {
+            "claim": "Page: Frechet defined metric spaces in 1906",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Topological_space",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "first_statement",
+        "year": 1914,
+        "precision": "year",
+        "label": "Hausdorff defines topological spaces",
+        "work": "Hausdorff, Grundzuge der Mengenlehre (1914)",
+        "people": [
+          "Felix Hausdorff"
+        ],
+        "description": "Topological spaces defined through neighbourhood axioms.",
+        "evidence": [
+          {
+            "claim": "Page: Hausdorff first defined topological spaces in 1914; neighbourhood approach",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Topological_space",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Book title not stated on the page; taken from catalogue."
+      }
+    ],
+    "people": [],
+    "notes": "Searched Wikipedia pages via WebFetch only; Crossref/arXiv/Euler Archive/MacTutor not opened this pass, so original-publication years rest on encyclopedia statements. Cantor 1872, Riesz not verified.",
+    "pid": "P451",
+    "searchTerms": [
+      "real analysis (derived sets)",
+      "metric space theory",
+      "general topology"
+    ]
+  },
+  {
+    "eventId": "H50",
+    "canonicalName": "Vortex atoms: knot theory from the physics of ether",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_application",
+        "year": 1885,
+        "precision": "year",
+        "label": "Tait publishes knot table to ten crossings",
+        "work": "Tait, knot tables (1885)",
+        "people": [
+          "Peter Guthrie Tait"
+        ],
+        "description": "Tait tabulates knots motivated by Kelvin's vortex-atom theory.",
+        "evidence": [
+          {
+            "claim": "Page: Kelvin vortex theory in the 1860s motivated Tait's first knot tables; 1885 table up to ten crossings",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Knot_theory",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Searched Wikipedia pages via WebFetch only; Crossref/arXiv/Euler Archive/MacTutor not opened this pass, so original-publication years rest on encyclopedia statements. Thomson 1867 paper and Tait 1876 report not opened; the page gives 1860s only. No first_statement claimed.",
+    "pid": "P452",
+    "searchTerms": [
+      "hydrodynamics / atomic theory",
+      "chemical graph notation",
+      "knot theory"
+    ]
+  },
+  {
+    "eventId": "H52",
+    "canonicalName": "Map colouring becomes graph and surface colouring (Kempe and Heawood)",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1852,
+        "precision": "year",
+        "label": "Guthrie observes four colours seem enough",
+        "work": "Guthrie, letter via De Morgan (23 Oct 1852)",
+        "people": [
+          "Francis Guthrie",
+          "Augustus De Morgan"
+        ],
+        "description": "Question first posed privately.",
+        "evidence": [
+          {
+            "claim": "Page: 23 Oct 1852 Guthrie noticed, De Morgan wrote to Hamilton",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Four_color_theorem",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "first_application",
+        "year": 1879,
+        "precision": "year",
+        "label": "Kempe's attempted proof",
+        "work": "Kempe, American Journal of Mathematics (1879)",
+        "people": [
+          "Alfred Kempe"
+        ],
+        "description": "Proof attempt by colouring arguments, later found flawed.",
+        "evidence": [
+          {
+            "claim": "Page: Kempe proof appeared 1879 in American Journal of Mathematics",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Four_color_theorem",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 1890,
+        "precision": "year",
+        "label": "Heawood refutes Kempe and generalises to surfaces",
+        "work": "Heawood, Quarterly Journal of Pure and Applied Mathematics 24 (1890)",
+        "people": [
+          "Percy Heawood"
+        ],
+        "description": "Finds Kempe's gap, proves five colours, extends to surfaces of any genus.",
+        "evidence": [
+          {
+            "claim": "Page: 1890 Heawood, Quarterly J. vol 24",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Four_color_theorem",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Searched Wikipedia pages via WebFetch only; Crossref/arXiv/Euler Archive/MacTutor not opened this pass, so original-publication years rest on encyclopedia statements. Euler-characteristic bound not specifically confirmed on the page.",
+    "pid": "P453",
+    "searchTerms": [
+      "cartography / map colouring",
+      "topology (Euler characteristic)",
+      "combinatorics",
+      "graph colouring"
+    ]
+  },
+  {
+    "eventId": "H57",
+    "canonicalName": "Noether's theorem: symmetries and conservation laws",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1918,
+        "precision": "year",
+        "label": "Noether's Invariante Variationsprobleme",
+        "work": "Noether, Invariante Variationsprobleme (1918)",
+        "people": [
+          "Emmy Noether"
+        ],
+        "description": "States the theorem linking symmetries to conservation laws.",
+        "evidence": [
+          {
+            "claim": "Page: published 1918; work begun 1915 helping Klein and Hilbert on general relativity",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Noether%27s_theorem",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Venue (Nachr. Gottingen) not confirmed on the page."
+      }
+    ],
+    "people": [],
+    "notes": "Searched Wikipedia pages via WebFetch only; Crossref/arXiv/Euler Archive/MacTutor not opened this pass, so original-publication years rest on encyclopedia statements. Hilbert 1915 not verified.",
+    "pid": "P454",
+    "searchTerms": [
+      "calculus of variations",
+      "continuous groups (Lie theory)",
+      "general relativity",
+      "mathematical physics (symmetries and conservation laws)"
+    ]
+  },
+  {
+    "eventId": "H58",
+    "canonicalName": "Lorentz group and Minkowski spacetime: group theory enters physics",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "key_development",
+        "year": 1905,
+        "precision": "year",
+        "label": "Poincare treats time as fourth coordinate",
+        "work": "Poincare, Sur la dynamique de l'electron (1905 paper)",
+        "people": [
+          "Henri Poincare"
+        ],
+        "description": "Treats Lorentz transformations as rotations in four dimensions with invariants.",
+        "evidence": [
+          {
+            "claim": "Page: 1905 Poincare second relativity paper, time as ict",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Minkowski_space",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Page does not mention a 1906 version; group property not confirmed."
+      },
+      {
+        "role": "consolidation",
+        "year": 1908,
+        "precision": "year",
+        "label": "Minkowski's tensor form of electrodynamics",
+        "work": "Minkowski, Die Grundgleichungen (1908)",
+        "people": [
+          "Hermann Minkowski"
+        ],
+        "description": "Reformulates Maxwell equations in four variables.",
+        "evidence": [
+          {
+            "claim": "Page: 1908 German paper introduced tensors, four-variable Maxwell equations",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Minkowski_space",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "naming",
+        "year": 1908,
+        "precision": "year",
+        "label": "Minkowski's Space and Time lecture",
+        "work": "Minkowski, Raum und Zeit (lecture 1908, printed 1909)",
+        "people": [
+          "Hermann Minkowski"
+        ],
+        "description": "Famous lecture on unified spacetime.",
+        "evidence": [
+          {
+            "claim": "Page: Cologne lecture 1908, published 1908/1909",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Minkowski_space",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Catalogue's 1907 lecture date not supported."
+      }
+    ],
+    "people": [],
+    "notes": "Searched Wikipedia pages via WebFetch only; Crossref/arXiv/Euler Archive/MacTutor not opened this pass, so original-publication years rest on encyclopedia statements. Einstein 1905 not opened.",
+    "pid": "P455",
+    "searchTerms": [
+      "electromagnetism",
+      "group theory",
+      "tensor methods",
+      "Lorentzian (Minkowski) geometry",
+      "relativistic mathematical physics"
+    ]
+  },
+  {
+    "eventId": "H70",
+    "canonicalName": "Social choice theory: Condorcet's probability to Arrow's theorem",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_application",
+        "year": 1950,
+        "precision": "year",
+        "label": "Arrow's impossibility theorem",
+        "work": "Arrow (1950; book 1951)",
+        "people": [
+          "Kenneth Arrow"
+        ],
+        "description": "Proves no aggregation rule meets fairness conditions.",
+        "evidence": [
+          {
+            "claim": "Page: Arrow proved theorem in 1950, inaugurating modern social choice",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Arrow%27s_impossibility_theorem",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Page gives 1950; 1951 book year not confirmed."
+      }
+    ],
+    "people": [],
+    "notes": "Searched Wikipedia pages via WebFetch only; Crossref/arXiv/Euler Archive/MacTutor not opened this pass, so original-publication years rest on encyclopedia statements. Condorcet 1785 Essai not verified; page gives no year.",
+    "pid": "P456",
+    "searchTerms": [
+      "probability",
+      "voting and economics",
+      "social choice theory"
+    ]
+  },
+  {
+    "eventId": "H71",
+    "canonicalName": "Kirkman's schoolgirl problem and combinatorial designs",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1850,
+        "precision": "year",
+        "label": "Schoolgirl problem posed",
+        "work": "Kirkman, Query VI, Lady's and Gentleman's Diary (1850)",
+        "people": [
+          "Thomas Kirkman"
+        ],
+        "description": "Fifteen schoolgirls problem posed in a popular almanac.",
+        "evidence": [
+          {
+            "claim": "Page: Query VI, Lady's and Gentleman's Diary p.48, 1850; solutions by Kirkman and Cayley 1850",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Kirkman%27s_schoolgirl_problem",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Searched Wikipedia pages via WebFetch only; Crossref/arXiv/Euler Archive/MacTutor not opened this pass, so original-publication years rest on encyclopedia statements. Kirkman 1847 triple-systems paper not opened.",
+    "pid": "P457",
+    "searchTerms": [
+      "combinatorics (recreational)",
+      "statistics (later)",
+      "combinatorics (design theory)"
+    ]
+  },
+  {
+    "eventId": "H74",
+    "canonicalName": "Complex numbers born from the cubic: Cardano and Bombelli",
+    "aliases": [
+      "Complex numbers from the cubic"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1545,
+        "precision": "year",
+        "label": "Cardano's Ars Magna",
+        "work": "Cardano, Ars Magna (1545)",
+        "people": [
+          "Gerolamo Cardano"
+        ],
+        "description": "Square roots of negative numbers arise in the cubic formula, understood only rudimentarily.",
+        "evidence": [
+          {
+            "claim": "Page: Cardano conceived of complex numbers around 1545 in Ars Magna",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Complex_number",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Searched Wikipedia pages via WebFetch only; Crossref/arXiv/Euler Archive/MacTutor not opened this pass, so original-publication years rest on encyclopedia statements. Bombelli 1572 not confirmed on the page; omitted.",
+    "pid": "P458",
+    "searchTerms": [
+      "algebra (cubic equations)",
+      "complex numbers"
+    ]
+  }
+]

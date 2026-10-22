@@ -1,0 +1,2365 @@
+[
+ {
+  "pid": "P268",
+  "eventId": "WB124",
+  "canonicalName": "Computational geometry",
+  "aliases": [
+   "algorithmic geometry",
+   "combinatorial computational geometry"
+  ],
+  "phases": [
+   "Early algorithms for geometric problems (1972-1976)",
+   "Textbook consolidation (1985)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Early algorithms for geometric problems (1972-1976)",
+    "year": 1972,
+    "endYear": null,
+    "precision": "year",
+    "label": "Graham's convex hull algorithm",
+    "work": "Graham, R. L., An efficient algorithm for determining the convex hull of a finite planar set, Information Processing Letters, 1972",
+    "people": [
+     "Ronald L. Graham"
+    ],
+    "description": "An early efficient geometric algorithm, predating the field's name, that is a precursor rather than the public start.",
+    "evidence": [
+     {
+      "claim": "Graham's convex hull paper appeared in Information Processing Letters in 1972",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1016/0020-0190(72)90045-2",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Precursor only; it does not set a derived date."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Early algorithms for geometric problems (1972-1976)",
+    "year": 1975,
+    "endYear": null,
+    "precision": "year",
+    "label": "Shamos and Hoey, closest-point algorithms",
+    "work": "Shamos, M. I., Hoey, D., Closest-point problems, 16th Annual Symposium on Foundations of Computer Science, 1975",
+    "people": [
+     "Michael Ian Shamos",
+     "D. Hoey"
+    ],
+    "description": "The earliest verified algorithmic paper of the computational-geometry type on geometric problems (closest pairs).",
+    "evidence": [
+     {
+      "claim": "Closest-point problems by Shamos and Hoey published at FOCS 1975",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1109/sfcs.1975.8",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Preparata and Shamos date the first use of the term in this sense to 1975",
+      "source": "Wikipedia, Computational geometry (citing Preparata and Shamos 1985)",
+      "url": "https://en.wikipedia.org/wiki/Computational_geometry",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The same paper also gives the first application (closest pairs), so it plays both roles. The 1975 date for the term rests on the Wikipedia citation of Preparata and Shamos; the term in a title was not located (Shamos's Yale thesis record was not found)."
+   },
+   {
+    "role": "first_application",
+    "phase": "Early algorithms for geometric problems (1972-1976)",
+    "year": 1975,
+    "endYear": null,
+    "precision": "year",
+    "label": "Closest-point problems solved algorithmically",
+    "work": "Shamos, M. I., Hoey, D., Closest-point problems, 16th Annual Symposium on Foundations of Computer Science, 1975",
+    "people": [
+     "Michael Ian Shamos",
+     "D. Hoey"
+    ],
+    "description": "The same 1975 paper applies the algorithmic approach to the closest-point target problem.",
+    "evidence": [
+     {
+      "claim": "Closest-point problems published at FOCS 1975",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1109/sfcs.1975.8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Deliberately the same paper under two roles (rule 2): the paper's target is the closest-point problem, which is the first purposeful application."
+   },
+   {
+    "role": "key_development",
+    "phase": "Early algorithms for geometric problems (1972-1976)",
+    "year": 1976,
+    "endYear": null,
+    "precision": "year",
+    "label": "Geometric intersection problems",
+    "work": "Shamos, M. I., Hoey, D., Geometric intersection problems, 17th Annual Symposium on Foundations of Computer Science, 1976",
+    "people": [
+     "Michael Ian Shamos",
+     "D. Hoey"
+    ],
+    "description": "A second algorithmic paper extends the approach to intersection problems, consolidating the subject's core problem types.",
+    "evidence": [
+     {
+      "claim": "Geometric intersection problems published at FOCS 1976",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1109/sfcs.1976.16",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Importance as key development is an editorial judgement; the paper's content was not read."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Textbook consolidation (1985)",
+    "year": 1985,
+    "endYear": null,
+    "precision": "year",
+    "label": "Preparata and Shamos textbook",
+    "work": "Preparata, F. P., Shamos, M. I., Computational Geometry: An Introduction, Springer, 1985",
+    "people": [
+     "Franco P. Preparata",
+     "Michael Ian Shamos"
+    ],
+    "description": "The first book-length systematic treatment of the subject, cited in the Wikipedia article as the groundlaying text.",
+    "evidence": [
+     {
+      "claim": "Computational Geometry: An Introduction by Preparata and Shamos, Springer, 1985",
+      "source": "Crossref record for the book",
+      "url": "https://doi.org/10.1007/978-1-4612-1098-6",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Searched Open Library for a book record; no entry returned, so the year comes from Crossref."
+   }
+  ],
+  "people": [
+   {
+    "name": "Michael Ian Shamos",
+    "role": "Co-author of the 1975-1976 algorithmic papers and of the 1985 textbook",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Shamos, M. I., Hoey, D., Closest-point problems, FOCS 1975",
+      "year": 1975,
+      "url": "https://doi.org/10.1109/sfcs.1975.8",
+      "whyItMatters": "Earliest verified algorithmic paper in the computational-geometry sense."
+     },
+     {
+      "citation": "Preparata, F. P., Shamos, M. I., Computational Geometry: An Introduction, Springer, 1985",
+      "year": 1985,
+      "url": "https://doi.org/10.1007/978-1-4612-1098-6",
+      "whyItMatters": "Systematic textbook treatment."
+     }
+    ]
+   },
+   {
+    "name": "D. Hoey",
+    "role": "Co-author of the 1975-1976 algorithmic papers",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Shamos, M. I., Hoey, D., Geometric intersection problems, FOCS 1976",
+      "year": 1976,
+      "url": "https://doi.org/10.1109/sfcs.1976.16",
+      "whyItMatters": "Extends the algorithmic approach to intersection problems."
+     }
+    ]
+   },
+   {
+    "name": "Franco P. Preparata",
+    "role": "Co-author of the 1985 textbook",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Preparata, F. P., Shamos, M. I., Computational Geometry: An Introduction, Springer, 1985",
+      "year": 1985,
+      "url": "https://doi.org/10.1007/978-1-4612-1098-6",
+      "whyItMatters": "Systematic textbook treatment."
+     }
+    ]
+   },
+   {
+    "name": "Ronald L. Graham",
+    "role": "Author of an early convex-hull algorithm (precursor)",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Graham, R. L., An efficient algorithm for determining the convex hull of a finite planar set, Information Processing Letters, 1972",
+      "year": 1972,
+      "url": "https://doi.org/10.1016/0020-0190(72)90045-2",
+      "whyItMatters": "Early efficient geometric algorithm."
+     }
+    ]
+   }
+  ],
+  "notes": "Input summary says Shamos names the field; not verified. The 1975 closest-point paper is the earliest verified algorithmic paper here, and the name's first title use was not located. Searched: Wikipedia raw wikitext, Crossref, Open Library (no Shamos thesis record). Milestones are two papers from one team plus a textbook. Derived dates: conceptual 1975, methodological 1975, institutional 1985.",
+  "derivedDates": {
+   "conceptual": 1975,
+   "methodological": 1975,
+   "institutional": 1985
+  }
+ },
+ {
+  "pid": "P283",
+  "eventId": "WB78",
+  "canonicalName": "Feigenbaum universality (period-doubling universality)",
+  "aliases": [
+   "Feigenbaum constants",
+   "universality in period doubling",
+   "universality of one-dimensional maps"
+  ],
+  "phases": [
+   "Numerical discovery and theory (1975-1978)",
+   "Experiment, computer-assisted proof and full proof (1982-1987)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Numerical discovery and theory (1975-1978)",
+    "year": 1975,
+    "endYear": null,
+    "precision": "year",
+    "label": "Feigenbaum's unpublished numerical finding",
+    "work": null,
+    "people": [
+     "Mitchell Feigenbaum"
+    ],
+    "description": "Feigenbaum found the numerical ratio of period-doubling distances in 1975 and then recognised that it holds for a class of maps; this was not published at the time.",
+    "evidence": [
+     {
+      "claim": "Feigenbaum found the number in August 1975 and recognised its universality in October 1975",
+      "source": "MacTutor biography of Mitchell Feigenbaum",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Feigenbaum/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Private or unpublished precursor, not the public start."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Numerical discovery and theory (1975-1978)",
+    "year": 1978,
+    "endYear": null,
+    "precision": "year",
+    "label": "Quantitative universality paper",
+    "work": "Feigenbaum, M. J., Quantitative universality for a class of nonlinear transformations, Journal of Statistical Physics, 1978",
+    "people": [
+     "Mitchell Feigenbaum"
+    ],
+    "description": "The first published statement of the universal constants for a class of one-dimensional maps with a quadratic maximum.",
+    "evidence": [
+     {
+      "claim": "Quantitative universality for a class of nonlinear transformations, J. Stat. Phys., 1978",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1007/bf01020332",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "The paper was submitted in 1976 and published in 1978 after long refereeing",
+      "source": "MacTutor biography of Mitchell Feigenbaum",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Feigenbaum/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Coullet and Tresser reached a similar result independently in 1978 (J. Physique Colloque). A Crossref search did not locate that record, so it is not a milestone here; check before ranking priority."
+   },
+   {
+    "role": "key_development",
+    "phase": "Numerical discovery and theory (1975-1978)",
+    "year": 1979,
+    "endYear": null,
+    "precision": "year",
+    "label": "Universal metric properties paper",
+    "work": "Feigenbaum, M. J., The universal metric properties of nonlinear transformations, Journal of Statistical Physics, 1979",
+    "people": [
+     "Mitchell Feigenbaum"
+    ],
+    "description": "The second paper extends the theory to the metric (scaling) properties that define the universal constants.",
+    "evidence": [
+     {
+      "claim": "The universal metric properties of nonlinear transformations, J. Stat. Phys., 1979",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1007/bf01107909",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": null
+   },
+   {
+    "role": "first_application",
+    "phase": "Experiment, computer-assisted proof and full proof (1982-1987)",
+    "year": 1982,
+    "endYear": null,
+    "precision": "year",
+    "label": "Mercury experiment measuring the period-doubling cascade",
+    "work": "Libchaber, A., Laroche, C., Fauve, S., Period doubling cascade in mercury, a quantitative measurement, Journal de Physique Lettres, 1982",
+    "people": [
+     "Albert Libchaber",
+     "C. Laroche",
+     "S. Fauve"
+    ],
+    "description": "A physical experiment that quantitatively measures the period-doubling cascade, testing the universal predictions on a target system.",
+    "evidence": [
+     {
+      "claim": "Period doubling cascade in mercury, a quantitative measurement, J. Physique Lettres, 1982",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1051/jphyslet:01982004307021100",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Only the title and record were checked; that the measurement tests the Feigenbaum constant is inferred from the title and the period-doubling context, not from the full text."
+   },
+   {
+    "role": "key_development",
+    "phase": "Experiment, computer-assisted proof and full proof (1982-1987)",
+    "year": 1982,
+    "endYear": null,
+    "precision": "year",
+    "label": "First computer-assisted proof of the Feigenbaum conjectures",
+    "work": "Lanford, O. E. III, A computer-assisted proof of the Feigenbaum conjectures, Bulletin of the American Mathematical Society, 1982",
+    "people": [
+     "Oscar E. Lanford III"
+    ],
+    "description": "The first proof of the conjectured universality, carried out with computer assistance.",
+    "evidence": [
+     {
+      "claim": "A computer-assisted proof of the Feigenbaum conjectures, Bull. AMS, 1982",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1090/s0273-0979-1982-15008-x",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "The first proof of universality was computer-assisted by Lanford in 1982",
+      "source": "Wikipedia, Feigenbaum constants",
+      "url": "https://en.wikipedia.org/wiki/Feigenbaum_constants",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": null
+   },
+   {
+    "role": "key_development",
+    "phase": "Experiment, computer-assisted proof and full proof (1982-1987)",
+    "year": 1987,
+    "endYear": null,
+    "precision": "year",
+    "label": "Complete proof with corrected computer step",
+    "work": "Eckmann, J.-P., Wittwer, P., A complete proof of the Feigenbaum conjectures, Journal of Statistical Physics, 1987",
+    "people": [
+     "Jean-Pierre Eckmann",
+     "Peter Wittwer"
+    ],
+    "description": "A correction and completion of Lanford's proof, cited in Wikipedia as the corrected version.",
+    "evidence": [
+     {
+      "claim": "A complete proof of the Feigenbaum conjectures, J. Stat. Phys., 1987",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1007/bf01013368",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Wikipedia says the proof was completed later by non-numerical methods (Lyubich); not added."
+   }
+  ],
+  "people": [
+   {
+    "name": "Mitchell Feigenbaum",
+    "role": "Discoverer of the universal constants and author of the 1978-1979 papers",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Feigenbaum/",
+    "works": [
+     {
+      "citation": "Feigenbaum, M. J., Quantitative universality for a class of nonlinear transformations, J. Stat. Phys., 1978",
+      "year": 1978,
+      "url": "https://doi.org/10.1007/bf01020332",
+      "whyItMatters": "First published universality theory for one-dimensional maps."
+     },
+     {
+      "citation": "Feigenbaum, M. J., The universal metric properties of nonlinear transformations, J. Stat. Phys., 1979",
+      "year": 1979,
+      "url": "https://doi.org/10.1007/bf01107909",
+      "whyItMatters": "Extends the metric universality results."
+     }
+    ]
+   },
+   {
+    "name": "Oscar E. Lanford III",
+    "role": "Gave the first computer-assisted proof",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Lanford, O. E. III, A computer-assisted proof of the Feigenbaum conjectures, Bull. AMS, 1982",
+      "year": 1982,
+      "url": "https://doi.org/10.1090/s0273-0979-1982-15008-x",
+      "whyItMatters": "The first proof of the conjectured universality."
+     }
+    ]
+   },
+   {
+    "name": "Jean-Pierre Eckmann",
+    "role": "Corrected and completed the proof",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Eckmann, J.-P., Wittwer, P., A complete proof of the Feigenbaum conjectures, J. Stat. Phys., 1987",
+      "year": 1987,
+      "url": "https://doi.org/10.1007/bf01013368",
+      "whyItMatters": "Corrected and completed Lanford's computer-assisted argument."
+     }
+    ]
+   },
+   {
+    "name": "Peter Wittwer",
+    "role": "Co-author of the complete proof",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Eckmann, J.-P., Wittwer, P., A complete proof of the Feigenbaum conjectures, J. Stat. Phys., 1987",
+      "year": 1987,
+      "url": "https://doi.org/10.1007/bf01013368",
+      "whyItMatters": "Co-author of the complete proof."
+     }
+    ]
+   },
+   {
+    "name": "Albert Libchaber",
+    "role": "Leader of the mercury experiment testing the period-doubling cascade",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Libchaber, A., Laroche, C., Fauve, S., Period doubling cascade in mercury, a quantitative measurement, J. Physique Lettres, 1982",
+      "year": 1982,
+      "url": "https://doi.org/10.1051/jphyslet:01982004307021100",
+      "whyItMatters": "Quantitative experimental test of period-doubling universality."
+     }
+    ]
+   }
+  ],
+  "notes": "Input summary says renormalisation explains the constants; the sources read describe Feigenbaum's theory of one-dimensional maps and the Coullet-Tresser renormalisation parallel only in passing (the Coullet-Tresser record was not verified). Grossmann and Thomae (1977) and other early period-doubling work were not checked. Derived dates: conceptual 1978, methodological 1982 (experimental; the mercury record is medium confidence), institutional null because no naming, consolidation or institution milestone was found (searched Wikipedia, MacTutor, Crossref, Open Library).",
+  "derivedDates": {
+   "conceptual": 1978,
+   "methodological": 1982,
+   "institutional": null
+  }
+ },
+ {
+  "pid": "P531",
+  "eventId": "Q19",
+  "canonicalName": "Hilbert's tenth problem over rings of integers",
+  "aliases": [
+   "Hilbert's tenth problem over number-field rings of integers",
+   "undecidability of Diophantine equations over rings of integers",
+   "H10 over rings of integers"
+  ],
+  "phases": [
+   "Undecidability over the integers (1970)",
+   "Quadratic and abelian number fields (1975-1989)",
+   "Elliptic curves and additive combinatorics (2002-2025)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Undecidability over the integers (1970)",
+    "year": 1970,
+    "endYear": null,
+    "precision": "year",
+    "label": "Matiyasevich's theorem over Z",
+    "work": "Matiyasevich, Yu. V., Enumerable sets are Diophantine, Doklady Akademii Nauk SSSR, 1970",
+    "people": [
+     "Yuri Matiyasevich"
+    ],
+    "description": "Solves Hilbert's tenth problem over the integers, the basis on which the number-field versions build.",
+    "evidence": [
+     {
+      "claim": "Enumerable sets are Diophantine, 1970",
+      "source": "zbMATH record 3336816",
+      "url": "https://zbmath.org/3336816",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Matiyasevich completed the MRDP theorem in 1970",
+      "source": "Wikipedia, Hilbert's tenth problem",
+      "url": "https://en.wikipedia.org/wiki/Hilbert%27s_tenth_problem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Over Z, not over rings of integers of number fields; precursor only."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Quadratic and abelian number fields (1975-1989)",
+    "year": 1975,
+    "endYear": null,
+    "precision": "year",
+    "label": "Undecidability for quadratic rings",
+    "work": "Denef, J., Hilbert's tenth problem for quadratic rings, Proceedings of the American Mathematical Society, 1975",
+    "people": [
+     "Jan Denef"
+    ],
+    "description": "The first published undecidability result for rings of integers of a restricted kind (quadratic rings).",
+    "evidence": [
+     {
+      "claim": "Hilbert's tenth problem for quadratic rings, Proc. AMS, 1975",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1090/s0002-9939-1975-0360513-3",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Denef and Lipschitz's earlier work underlies the later number-field results",
+      "source": "Wikipedia, Hilbert's tenth problem",
+      "url": "https://en.wikipedia.org/wiki/Hilbert%27s_tenth_problem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Quadratic rings only. Input summary's broader claim is not supported by this record."
+   },
+   {
+    "role": "first_application",
+    "phase": "Quadratic and abelian number fields (1975-1989)",
+    "year": 1988,
+    "endYear": null,
+    "precision": "year",
+    "label": "Unsolvability for a class of number-field rings",
+    "work": "Pheidas, T., Hilbert's tenth problem for a class of rings of algebraic integers, Proceedings of the American Mathematical Society, 1988",
+    "people": [
+     "Thanases Pheidas"
+    ],
+    "description": "Proves unsolvability for rings of integers of number fields with exactly one pair of complex embeddings, per Wikipedia.",
+    "evidence": [
+     {
+      "claim": "Hilbert's tenth problem for a class of rings of algebraic integers, Proc. AMS, 1988",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1090/s0002-9939-1988-0962837-4",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Pheidas and Shlapentokh independently obtained the one-complex-pair case",
+      "source": "Wikipedia, Hilbert's tenth problem",
+      "url": "https://en.wikipedia.org/wiki/Hilbert%27s_tenth_problem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The restriction to one complex pair is per Wikipedia; the paper itself was not read."
+   },
+   {
+    "role": "key_development",
+    "phase": "Quadratic and abelian number fields (1975-1989)",
+    "year": 1989,
+    "endYear": null,
+    "precision": "year",
+    "label": "Abelian number fields",
+    "work": "Shapiro, H. N., Shlapentokh, A., Diophantine relationships between algebraic number fields, Communications on Pure and Applied Mathematics, 1989",
+    "people": [
+     "Harold N. Shapiro",
+     "Alexandra Shlapentokh"
+    ],
+    "description": "Proves unsolvability over rings of integers of number fields whose Galois group over Q is abelian, using class field theory.",
+    "evidence": [
+     {
+      "claim": "Diophantine relationships between algebraic number fields, CPAM, 1989",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1002/cpa.3160420805",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Shapiro and Shlapentokh proved unsolvability for abelian number fields using class field theory",
+      "source": "Wikipedia, Hilbert's tenth problem",
+      "url": "https://en.wikipedia.org/wiki/Hilbert%27s_tenth_problem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The abelian statement is per Wikipedia; the paper was not read."
+   },
+   {
+    "role": "key_development",
+    "phase": "Elliptic curves and additive combinatorics (2002-2025)",
+    "year": 2002,
+    "endYear": null,
+    "precision": "year",
+    "label": "Rank-one elliptic curves route",
+    "work": "Poonen, B., Using elliptic curves of rank one towards the undecidability of Hilbert's Tenth Problem over rings of algebraic integers, arXiv:math/0204001, 2002",
+    "people": [
+     "Bjorn Poonen"
+    ],
+    "description": "Proposes an elliptic-curve route using curves of rank one towards undecidability over rings of algebraic integers.",
+    "evidence": [
+     {
+      "claim": "Using elliptic curves of rank one towards the undecidability of Hilbert's Tenth Problem, arXiv 2002",
+      "source": "arXiv listing (export.arxiv.org)",
+      "url": "https://arxiv.org/abs/math/0204001",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Only the arXiv title and date were checked. Whether the route is conditional, and how far it goes, was not verified from the text."
+   },
+   {
+    "role": "key_development",
+    "phase": "Elliptic curves and additive combinatorics (2002-2025)",
+    "year": 2024,
+    "endYear": null,
+    "precision": "year",
+    "label": "Koymans-Pagano claimed proof for all number fields",
+    "work": "Koymans, P., Pagano, C., Hilbert's tenth problem via additive combinatorics, arXiv:2412.01768, 2024",
+    "people": [
+     "Peter Koymans",
+     "Carlo Pagano"
+    ],
+    "description": "Claims unsolvability over rings of integers of any number field, using additive combinatorics, which is the route the input summary describes.",
+    "evidence": [
+     {
+      "claim": "Hilbert's tenth problem via additive combinatorics, arXiv posted December 2024",
+      "source": "arXiv listing (export.arxiv.org)",
+      "url": "https://arxiv.org/abs/2412.01768",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Koymans and Pagano published a preprint with a claimed proof for any number field",
+      "source": "Wikipedia, Hilbert's tenth problem",
+      "url": "https://en.wikipedia.org/wiki/Hilbert%27s_tenth_problem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "A preprint with a claimed proof. Peer-review status was not checked. A later arXiv version (2602.04468, 2026) exists for finitely generated rings and is not used as a separate milestone."
+   },
+   {
+    "role": "key_development",
+    "phase": "Elliptic curves and additive combinatorics (2002-2025)",
+    "year": 2025,
+    "endYear": null,
+    "precision": "year",
+    "label": "Second independent proof",
+    "work": "Alpöge, L., Bhargava, M., Ho, W., Shnidman, A., Rank stability in quadratic extensions and Hilbert's tenth problem for the ring of integers of a number field, arXiv:2501.18774, 2025",
+    "people": [
+     "Levent Alpöge",
+     "Manjul Bhargava",
+     "Wei Ho",
+     "Ari Shnidman"
+    ],
+    "description": "A second team that reportedly proves the same unsolvability result for rings of integers by different methods.",
+    "evidence": [
+     {
+      "claim": "Rank stability in quadratic extensions and Hilbert's tenth problem for the ring of integers of a number field, arXiv January 2025",
+      "source": "arXiv listing (export.arxiv.org)",
+      "url": "https://arxiv.org/abs/2501.18774",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Another team proved the same result shortly after Koymans and Pagano using different methods",
+      "source": "Wikipedia, Hilbert's tenth problem",
+      "url": "https://en.wikipedia.org/wiki/Hilbert%27s_tenth_problem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Preprint status and the claimed scope were not verified from the text."
+   }
+  ],
+  "people": [
+   {
+    "name": "Yuri Matiyasevich",
+    "role": "Solved Hilbert's tenth problem over Z (1970)",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Matiyasevich/",
+    "works": [
+     {
+      "citation": "Matiyasevich, Yu. V., Enumerable sets are Diophantine, Doklady AN SSSR, 1970",
+      "year": 1970,
+      "url": "https://zbmath.org/3336816",
+      "whyItMatters": "Unsolvability over the integers, the basis of the number-field work."
+     }
+    ]
+   },
+   {
+    "name": "Jan Denef",
+    "role": "First undecidability result for quadratic rings",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Denef, J., Hilbert's tenth problem for quadratic rings, Proc. AMS, 1975",
+      "year": 1975,
+      "url": "https://doi.org/10.1090/s0002-9939-1975-0360513-3",
+      "whyItMatters": "Earliest verified undecidability result for rings of integers of a restricted kind."
+     }
+    ]
+   },
+   {
+    "name": "Thanases Pheidas",
+    "role": "Number-field result for one complex pair",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Pheidas, T., Hilbert's tenth problem for a class of rings of algebraic integers, Proc. AMS, 1988",
+      "year": 1988,
+      "url": "https://doi.org/10.1090/s0002-9939-1988-0962837-4",
+      "whyItMatters": "Unsolvability for a class of number-field rings."
+     }
+    ]
+   },
+   {
+    "name": "Alexandra Shlapentokh",
+    "role": "Co-author of the abelian number-field result",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Shapiro, H. N., Shlapentokh, A., Diophantine relationships between algebraic number fields, CPAM, 1989",
+      "year": 1989,
+      "url": "https://doi.org/10.1002/cpa.3160420805",
+      "whyItMatters": "Unsolvability for abelian number fields."
+     }
+    ]
+   },
+   {
+    "name": "Peter Koymans",
+    "role": "Claimed proof for all number fields (2024)",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Koymans, P., Pagano, C., Hilbert's tenth problem via additive combinatorics, arXiv:2412.01768, 2024",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2412.01768",
+      "whyItMatters": "Preprint claiming unsolvability for every number field; not peer-reviewed as far as checked."
+     }
+    ]
+   },
+   {
+    "name": "Carlo Pagano",
+    "role": "Claimed proof for all number fields (2024)",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Koymans, P., Pagano, C., Hilbert's tenth problem via additive combinatorics, arXiv:2412.01768, 2024",
+      "year": 2024,
+      "url": "https://arxiv.org/abs/2412.01768",
+      "whyItMatters": "Co-author of the preprint claiming the general result."
+     }
+    ]
+   }
+  ],
+  "notes": "Input summary's claim about the approach matches the Koymans-Pagano preprint title but is a claim, not a verified result. Poonen 2002 is included as a route rather than a proof. Searched Wikipedia raw wikitext, MacTutor (Matiyasevich, Robinson biographies), Crossref, zbMATH and arXiv; arXiv returned rate-limit errors for some later queries. Derived dates: conceptual 1975, methodological 1988, institutional null (no naming, consolidation or institution milestone).",
+  "derivedDates": {
+   "conceptual": 1975,
+   "methodological": 1988,
+   "institutional": null
+  }
+ },
+ {
+  "pid": "P062",
+  "eventId": "E71",
+  "canonicalName": "Hyperbolic geometry in three-manifold topology (Thurston)",
+  "aliases": [
+   "Thurston's geometrization programme",
+   "hyperbolic 3-manifolds",
+   "Thurston's hyperbolisation",
+   "Thurston model geometries"
+  ],
+  "phases": [
+   "Thurston's Princeton notes (1978-1981)",
+   "Published geometrization (1982-1986)",
+   "Book consolidation (1997)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Thurston's Princeton notes (1978-1981)",
+    "year": 1978,
+    "endYear": 1981,
+    "precision": "range",
+    "label": "Princeton lecture notes on three-manifolds",
+    "work": "Thurston, W., The geometry and topology of three-manifolds, Princeton lecture notes, 1978-1981",
+    "people": [
+     "William Thurston"
+    ],
+    "description": "The course notes in which hyperbolic structures and the geometrization picture circulated before publication.",
+    "evidence": [
+     {
+      "claim": "Thurston gave the Princeton course in 1978 and the notes circulated widely",
+      "source": "MacTutor biography of William Thurston",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Thurston/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "The notes are listed with dates 1978-1981",
+      "source": "Wikipedia, William Thurston references",
+      "url": "https://en.wikipedia.org/wiki/William_Thurston",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Unpublished in this form until the 1997 book; precursor only."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Published geometrization (1982-1986)",
+    "year": 1982,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hyperbolic geometry and Kleinian groups announced in print",
+    "work": "Thurston, W., Three-dimensional manifolds, Kleinian groups and hyperbolic geometry, Bulletin of the American Mathematical Society, 1982",
+    "people": [
+     "William Thurston"
+    ],
+    "description": "The first printed survey in which the geometrization picture for three-manifolds appears.",
+    "evidence": [
+     {
+      "claim": "Three-dimensional manifolds, Kleinian groups and hyperbolic geometry, Bull. AMS, 1982",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1090/s0273-0979-1982-15003-0",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Whether the 1982 paper is the first public statement of the conjecture (rather than the 1978-1981 notes) was not verified from the text; the publication year governs as the first_statement."
+   },
+   {
+    "role": "key_development",
+    "phase": "Published geometrization (1982-1986)",
+    "year": 1986,
+    "endYear": null,
+    "precision": "year",
+    "label": "Deformation theory of hyperbolic structures (Part I)",
+    "work": "Thurston, W., Hyperbolic structures on 3-manifolds I: Deformation of acylindrical manifolds, Annals of Mathematics, 1986",
+    "people": [
+     "William Thurston"
+    ],
+    "description": "Develops the deformation theory behind hyperbolic Dehn surgery and the hyperbolisation of Haken manifolds.",
+    "evidence": [
+     {
+      "claim": "Hyperbolic structures on 3-manifolds I: Deformation of acylindrical manifolds, Ann. Math., 1986",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.2307/1971277",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Thurston proved the hyperbolic Dehn surgery theorem and the hyperbolisation theorem for Haken manifolds",
+      "source": "Wikipedia, William Thurston",
+      "url": "https://en.wikipedia.org/wiki/William_Thurston",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Wikipedia does not say which part contains the surgery theorem; the link between Part I and the surgery theorem was not checked from the text."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Book consolidation (1997)",
+    "year": 1997,
+    "endYear": null,
+    "precision": "year",
+    "label": "Published Princeton notes",
+    "work": "Thurston, W. P., Three-Dimensional Geometry and Topology, Princeton University Press, 1997",
+    "people": [
+     "William Thurston"
+    ],
+    "description": "The published book version of the Princeton notes, the systematic treatment of the subject.",
+    "evidence": [
+     {
+      "claim": "Three-Dimensional Geometry and Topology, Princeton University Press, 1997",
+      "source": "Open Library record",
+      "url": "https://openlibrary.org/search?title=Three-dimensional+geometry+and+topology",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "The 2014 volume 1 (ed. Silvio Levy) is a later reprint and is not used."
+   }
+  ],
+  "people": [
+   {
+    "name": "William P. Thurston",
+    "role": "Originator of hyperbolic geometry in three-manifold topology and geometrization",
+    "lifespan": "1946-2012",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Thurston/",
+    "works": [
+     {
+      "citation": "Thurston, W., Three-dimensional manifolds, Kleinian groups and hyperbolic geometry, Bull. AMS, 1982",
+      "year": 1982,
+      "url": "https://doi.org/10.1090/s0273-0979-1982-15003-0",
+      "whyItMatters": "Printed statement of the geometrization picture."
+     },
+     {
+      "citation": "Thurston, W., Hyperbolic structures on 3-manifolds I: Deformation of acylindrical manifolds, Ann. Math., 1986",
+      "year": 1986,
+      "url": "https://doi.org/10.2307/1971277",
+      "whyItMatters": "Deformation theory of hyperbolic structures."
+     },
+     {
+      "citation": "Thurston, W. P., Three-Dimensional Geometry and Topology, Princeton UP, 1997",
+      "year": 1997,
+      "url": "https://openlibrary.org/search?title=Three-dimensional+geometry+and+topology",
+      "whyItMatters": "Published textbook version of the notes."
+     }
+    ]
+   },
+   {
+    "name": "Robert Riley",
+    "role": "Independent hyperbolic structure on the figure-eight knot (per Wikipedia)",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Riley, R., Parabolic representations of knot groups, II, Proc. London Math. Soc., 1975",
+      "year": 1975,
+      "url": "https://doi.org/10.1112/plms/s3-31.4.495",
+      "whyItMatters": "Parabolic representations that led to hyperbolic structures on knot complements, per Wikipedia."
+     }
+    ]
+   },
+   {
+    "name": "Troels Jorgensen",
+    "role": "Independent work on hyperbolic 3-manifolds (per Wikipedia)",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Jorgensen, T., Compact 3-manifolds of constant negative curvature fibering over the circle, Annals of Mathematics, 1977",
+      "year": 1977,
+      "url": "https://doi.org/10.2307/1971158",
+      "whyItMatters": "Early work on compact hyperbolic 3-manifolds; its link to Thurston's program is per Wikipedia and was not checked in the text."
+     }
+    ]
+   }
+  ],
+  "notes": "Input summary's claim that three-manifolds carry one of eight model geometries matches the Wikipedia description of Thurston's geometrization conjecture. Perelman's proof of geometrization (arXiv 2002-2003) is outside this pass because arXiv returned rate-limit errors; it should be added in a later pass. Searched Wikipedia raw wikitext, MacTutor biography, Crossref, Open Library. Derived dates: conceptual 1982, methodological null (no first_application milestone), institutional 1997.",
+  "derivedDates": {
+   "conceptual": 1982,
+   "methodological": null,
+   "institutional": 1997
+  }
+ },
+ {
+  "pid": "P063",
+  "eventId": "E73",
+  "canonicalName": "Computers enter proof: four colour theorem and the Kepler conjecture",
+  "aliases": [
+   "computer-assisted proof",
+   "computer-aided proof",
+   "Appel-Haken proof",
+   "Flyspeck project"
+  ],
+  "phases": [
+   "Precursor computer search (1969)",
+   "Four colour theorem (1976-1997)",
+   "Kepler conjecture and formal verification (1998-2005)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Precursor computer search (1969)",
+    "year": 1969,
+    "endYear": null,
+    "precision": "year",
+    "label": "Heesch's computer-search methods",
+    "work": "Heesch, H., Untersuchungen zum Vierfarbenproblem, Bibliographisches Institut, 1969",
+    "people": [
+     "Heinrich Heesch"
+    ],
+    "description": "Heesch developed computer-searched discharging methods that later formed part of the Appel-Haken proof.",
+    "evidence": [
+     {
+      "claim": "Untersuchungen zum Vierfarbenproblem, Bibliographisches Institut, 1969",
+      "source": "Open Library record",
+      "url": "https://openlibrary.org/search?title=Untersuchungen+zum+Vierfarbenproblem",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Heesch was first to use discharging and developed computer methods for a proof",
+      "source": "Wikipedia, Four color theorem",
+      "url": "https://en.wikipedia.org/wiki/Four_color_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The book record was verified; its content was not read."
+   },
+   {
+    "role": "first_application",
+    "phase": "Four colour theorem (1976-1997)",
+    "year": 1977,
+    "endYear": null,
+    "precision": "year",
+    "label": "Appel-Haken computer-assisted proof of the four colour theorem",
+    "work": "Appel, K., Haken, W., Every planar map is four colorable. Part I: Discharging, Illinois Journal of Mathematics, 1977",
+    "people": [
+     "Kenneth Appel",
+     "Wolfgang Haken"
+    ],
+    "description": "The first major theorem proved with extensive computer assistance, announced in 1976 and published in 1977.",
+    "evidence": [
+     {
+      "claim": "Every planar map is four colorable, Part I: Discharging, Illinois J. Math., 1977",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1215/ijm/1256049011",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Appel and Haken announced the proof on June 21, 1976 and it was the first major theorem proved with extensive computer assistance",
+      "source": "Wikipedia, Four color theorem",
+      "url": "https://en.wikipedia.org/wiki/Four_color_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Part II was published in the same journal in 1977 and is not a separate milestone. Schmidt (1981) found a gap in the unavoidability check, per Wikipedia; a later bibliographic check was not run."
+   },
+   {
+    "role": "key_development",
+    "phase": "Four colour theorem (1976-1997)",
+    "year": 1997,
+    "endYear": null,
+    "precision": "year",
+    "label": "Simpler computer proof with 633 configurations",
+    "work": "Robertson, N., Sanders, D. P., Seymour, P. D., Thomas, R., The four-colour theorem, Journal of Combinatorial Theory, Series B, 1997",
+    "people": [
+     "Neil Robertson",
+     "Daniel P. Sanders",
+     "Paul Seymour",
+     "Robin Thomas"
+    ],
+    "description": "Reduces the unavoidable set of reducible configurations to 633 and gives a quadratic-time coloring algorithm.",
+    "evidence": [
+     {
+      "claim": "The four-colour theorem, JCTB, 1997",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1006/jctb.1997.1750",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "The 1997 proof reduced the configurations to 633",
+      "source": "Wikipedia, Four color theorem",
+      "url": "https://en.wikipedia.org/wiki/Four_color_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": null
+   },
+   {
+    "role": "key_development",
+    "phase": "Kepler conjecture and formal verification (1998-2005)",
+    "year": 2005,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hales's computer-assisted proof of the Kepler conjecture",
+    "work": "Hales, T. C., A proof of the Kepler conjecture, Annals of Mathematics, 2005",
+    "people": [
+     "Thomas C. Hales"
+    ],
+    "description": "The published version of a proof by exhaustion that uses extensive computer calculation; the proof was announced in 1998.",
+    "evidence": [
+     {
+      "claim": "A proof of the Kepler conjecture, Ann. Math., 2005",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.4007/annals.2005.162.1065",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Hales announced the proof in August 1998 with 250 pages of notes and 3 GB of programs",
+      "source": "Wikipedia, Kepler conjecture",
+      "url": "https://en.wikipedia.org/wiki/Kepler_conjecture",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "The announcement year 1998 is not used as the milestone year because the publication year governs."
+   },
+   {
+    "role": "key_development",
+    "phase": "Kepler conjecture and formal verification (1998-2005)",
+    "year": 2005,
+    "endYear": null,
+    "precision": "year",
+    "label": "Coq formalisation of the four colour theorem",
+    "work": null,
+    "people": [
+     "Georges Gonthier",
+     "Benjamin Werner"
+    ],
+    "description": "The four colour theorem is formalised in the Coq proof assistant, removing the need to trust the external programs.",
+    "evidence": [
+     {
+      "claim": "Werner and Gonthier formalised a proof of the four colour theorem inside Coq in 2005",
+      "source": "Wikipedia, Four color theorem",
+      "url": "https://en.wikipedia.org/wiki/Four_color_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "No bibliographic record was checked; the year comes from Wikipedia only."
+   }
+  ],
+  "people": [
+   {
+    "name": "Kenneth Appel",
+    "role": "Co-author of the first computer-assisted proof of the four colour theorem",
+    "lifespan": "1932-2013",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Appel/",
+    "works": [
+     {
+      "citation": "Appel, K., Haken, W., Every planar map is four colorable. Part I: Discharging, Illinois J. Math., 1977",
+      "year": 1977,
+      "url": "https://doi.org/10.1215/ijm/1256049011",
+      "whyItMatters": "First major computer-assisted theorem."
+     }
+    ]
+   },
+   {
+    "name": "Wolfgang Haken",
+    "role": "Co-author of the first computer-assisted proof of the four colour theorem",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Appel, K., Haken, W., Every planar map is four colorable. Part I: Discharging, Illinois J. Math., 1977",
+      "year": 1977,
+      "url": "https://doi.org/10.1215/ijm/1256049011",
+      "whyItMatters": "First major computer-assisted theorem."
+     }
+    ]
+   },
+   {
+    "name": "Heinrich Heesch",
+    "role": "Precursor computer-search methods for the four colour problem",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Heesch, H., Untersuchungen zum Vierfarbenproblem, Bibliographisches Institut, 1969",
+      "year": 1969,
+      "url": "https://openlibrary.org/search?title=Untersuchungen+zum+Vierfarbenproblem",
+      "whyItMatters": "Discharging method used in the Appel-Haken argument."
+     }
+    ]
+   },
+   {
+    "name": "Neil Robertson",
+    "role": "Co-author of the 1997 simplified proof",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Robertson, N., Sanders, D. P., Seymour, P. D., Thomas, R., The four-colour theorem, JCTB, 1997",
+      "year": 1997,
+      "url": "https://doi.org/10.1006/jctb.1997.1750",
+      "whyItMatters": "Reduces the case analysis to 633 configurations."
+     }
+    ]
+   },
+   {
+    "name": "Thomas C. Hales",
+    "role": "Computer-assisted proof of the Kepler conjecture",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Hales, T. C., A proof of the Kepler conjecture, Annals of Mathematics, 2005",
+      "year": 2005,
+      "url": "https://doi.org/10.4007/annals.2005.162.1065",
+      "whyItMatters": "The published proof of the Kepler conjecture by exhaustive computer-assisted case analysis."
+     }
+    ]
+   }
+  ],
+  "notes": "Input summary says whole proofs are re-verified in proof assistants; the verified dates here are for the Coq formalisation of the four colour theorem (2005, Wikipedia only) and nothing else. The Flyspeck formal Kepler project is not included. No first_statement was found (Heesch's 1969 book is an earlier method, not a public statement of the idea), so conceptual is null. No naming or institution milestone was found. Searched Wikipedia (Four colour theorem, Kepler conjecture), MacTutor (Appel biography), Crossref, Open Library. Derived dates: conceptual null, methodological 1977, institutional null.",
+  "derivedDates": {
+   "conceptual": null,
+   "methodological": 1977,
+   "institutional": null
+  }
+ },
+ {
+  "pid": "P064",
+  "eventId": "E74",
+  "canonicalName": "Public-key cryptography",
+  "aliases": [
+   "asymmetric cryptography",
+   "non-secret encryption",
+   "Diffie-Hellman and RSA cryptography"
+  ],
+  "phases": [
+   "Secret GCHQ precursors (1970-1973)",
+   "Public key agreement and RSA (1976-1978)",
+   "Elliptic-curve cryptography (1986-1987)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Secret GCHQ precursors (1970-1973)",
+    "year": 1970,
+    "endYear": null,
+    "precision": "year",
+    "label": "Ellis's idea of non-secret encryption",
+    "work": "Ellis, J. H., The Possibility of Secure Non-secret Digital Encryption, GCHQ internal paper, January 1970",
+    "people": [
+     "James H. Ellis"
+    ],
+    "description": "An internal GCHQ paper conceived the possibility of non-secret encryption but no practical method, and was not published until 1997.",
+    "evidence": [
+     {
+      "claim": "Ellis conceived non-secret encryption in 1970 at GCHQ",
+      "source": "Wikipedia, Public-key cryptography (citing the NSA archive copy of Ellis's paper)",
+      "url": "https://en.wikipedia.org/wiki/Public-key_cryptography",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Private, classified precursor; not a public start."
+   },
+   {
+    "role": "precursor",
+    "phase": "Secret GCHQ precursors (1970-1973)",
+    "year": 1973,
+    "endYear": null,
+    "precision": "year",
+    "label": "Cocks's internal RSA-type scheme",
+    "work": null,
+    "people": [
+     "Clifford Cocks"
+    ],
+    "description": "A GCHQ internal scheme implementing a practical non-secret encryption method, unpublished until declassification.",
+    "evidence": [
+     {
+      "claim": "Cocks implemented a method later known as RSA in 1973 while at GCHQ",
+      "source": "Wikipedia, Public-key cryptography",
+      "url": "https://en.wikipedia.org/wiki/Public-key_cryptography",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Classified and not published; the date and claim rest on Wikipedia."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Public key agreement and RSA (1976-1978)",
+    "year": 1976,
+    "endYear": null,
+    "precision": "year",
+    "label": "Diffie-Hellman public key agreement",
+    "work": "Diffie, W., Hellman, M. E., New directions in cryptography, IEEE Transactions on Information Theory, 1976",
+    "people": [
+     "Whitfield Diffie",
+     "Martin E. Hellman"
+    ],
+    "description": "The first published method of public key agreement over an open channel, using exponentiation in a finite field.",
+    "evidence": [
+     {
+      "claim": "New directions in cryptography, IEEE Trans. Inf. Theory, 1976",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1109/tit.1976.1055638",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "The scheme was published by Diffie and Hellman in 1976",
+      "source": "Wikipedia, Diffie-Hellman key exchange",
+      "url": "https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": null
+   },
+   {
+    "role": "first_application",
+    "phase": "Public key agreement and RSA (1976-1978)",
+    "year": 1978,
+    "endYear": null,
+    "precision": "year",
+    "label": "RSA encryption and signature system",
+    "work": "Rivest, R. L., Shamir, A., Adleman, L., A method for obtaining digital signatures and public-key cryptosystems, Communications of the ACM, 1978",
+    "people": [
+     "Ronald L. Rivest",
+     "Adi Shamir",
+     "Leonard Adleman"
+    ],
+    "description": "A practical public-key encryption and signature system based on factoring, the first purposeful use of the idea for encryption.",
+    "evidence": [
+     {
+      "claim": "A method for obtaining digital signatures and public-key cryptosystems, CACM, 1978",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1145/359340.359342",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "RSA was published in 1978 and is an implementation of public-key cryptography",
+      "source": "Wikipedia, Public-key cryptography",
+      "url": "https://en.wikipedia.org/wiki/Public-key_cryptography",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "The 1977 MIT report is not verified as a bibliographic record here; the 1978 journal publication is used."
+   },
+   {
+    "role": "precursor",
+    "phase": "Public key agreement and RSA (1976-1978)",
+    "year": 1978,
+    "endYear": null,
+    "precision": "year",
+    "label": "Merkle's public key distribution puzzles",
+    "work": "Merkle, R. C., Secure communications over insecure channels, Communications of the ACM, 1978",
+    "people": [
+     "Ralph Merkle"
+    ],
+    "description": "Merkle's public-key distribution method influenced Diffie-Hellman; the work was conceived earlier, but its publication year is used here.",
+    "evidence": [
+     {
+      "claim": "Secure communications over insecure channels, CACM, 1978",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1145/359460.359473",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Merkle's work influenced Diffie-Hellman, and Diffie-Hellman named his protocol in 1978",
+      "source": "Wikipedia, Diffie-Hellman key exchange",
+      "url": "https://en.wikipedia.org/wiki/Diffie%E2%80%93Hellman_key_exchange",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Publication year 1978 is later than the 1976 first statement; the earlier conception date was not verified. It is a precursor, so it does not set a derived date."
+   },
+   {
+    "role": "key_development",
+    "phase": "Elliptic-curve cryptography (1986-1987)",
+    "year": 1986,
+    "endYear": null,
+    "precision": "year",
+    "label": "Elliptic curves proposed for cryptography",
+    "work": "Miller, V. S., Use of elliptic curves in cryptography, CRYPTO 1985, Lecture Notes in Computer Science, 1986",
+    "people": [
+     "Victor S. Miller"
+    ],
+    "description": "Proposes elliptic curves over finite fields as a basis for public-key systems.",
+    "evidence": [
+     {
+      "claim": "Use of elliptic curves in cryptography, LNCS (CRYPTO 1985 proceedings), 1986",
+      "source": "Crossref record (DOI 10.1007/3-540-39799-X_31) and zbMATH record 3948147",
+      "url": "https://doi.org/10.1007/3-540-39799-x_31",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Crossref has no year for this record; the 1986 year comes from zbMATH."
+   },
+   {
+    "role": "key_development",
+    "phase": "Elliptic-curve cryptography (1986-1987)",
+    "year": 1987,
+    "endYear": null,
+    "precision": "year",
+    "label": "Elliptic curve cryptosystems",
+    "work": "Koblitz, N., Elliptic curve cryptosystems, Mathematics of Computation, 1987",
+    "people": [
+     "Neal Koblitz"
+    ],
+    "description": "Develops elliptic-curve cryptosystems in a form that became the standard route for public-key elliptic-curve cryptography.",
+    "evidence": [
+     {
+      "claim": "Elliptic curve cryptosystems, Math. Comp., 1987",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1090/s0025-5718-1987-0866109-5",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Later uses are not checked; the 'standard route' claim is editorial."
+   }
+  ],
+  "people": [
+   {
+    "name": "Whitfield Diffie",
+    "role": "Co-inventor of public key agreement",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Diffie, W., Hellman, M. E., New directions in cryptography, IEEE Trans. Inf. Theory, 1976",
+      "year": 1976,
+      "url": "https://doi.org/10.1109/tit.1976.1055638",
+      "whyItMatters": "First public key agreement."
+     }
+    ]
+   },
+   {
+    "name": "Martin E. Hellman",
+    "role": "Co-inventor of public key agreement",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Diffie, W., Hellman, M. E., New directions in cryptography, IEEE Trans. Inf. Theory, 1976",
+      "year": 1976,
+      "url": "https://doi.org/10.1109/tit.1976.1055638",
+      "whyItMatters": "First public key agreement."
+     }
+    ]
+   },
+   {
+    "name": "Ronald L. Rivest",
+    "role": "Co-author of RSA",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Rivest, R. L., Shamir, A., Adleman, L., A method for obtaining digital signatures and public-key cryptosystems, CACM, 1978",
+      "year": 1978,
+      "url": "https://doi.org/10.1145/359340.359342",
+      "whyItMatters": "First practical encryption and signature system of this kind."
+     }
+    ]
+   },
+   {
+    "name": "Victor S. Miller",
+    "role": "Proposed elliptic curves for cryptography",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Miller, V. S., Use of elliptic curves in cryptography, LNCS (CRYPTO 1985), 1986",
+      "year": 1986,
+      "url": "https://doi.org/10.1007/3-540-39799-x_31",
+      "whyItMatters": "Opens the elliptic-curve route."
+     }
+    ]
+   },
+   {
+    "name": "Neal Koblitz",
+    "role": "Elliptic curve cryptosystems",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Koblitz, N., Elliptic curve cryptosystems, Math. Comp., 1987",
+      "year": 1987,
+      "url": "https://doi.org/10.1090/s0025-5718-1987-0866109-5",
+      "whyItMatters": "Develops elliptic-curve cryptosystems."
+     }
+    ]
+   }
+  ],
+  "notes": "Input summary's mention of discrete logs, factoring and elliptic curves matches the sources; the precursors (Ellis 1970, Cocks 1973) are classified and rest on Wikipedia, which cites the NSA archive. Merkle's 1978 publication is a precursor because it came after the 1976 first statement. A consolidation milestone (for example a handbook or textbook) was not verified in this pass. Searched Wikipedia (Public-key cryptography, Diffie-Hellman), Crossref and zbMATH. Derived dates: conceptual 1976, methodological 1978, institutional null.",
+  "derivedDates": {
+   "conceptual": 1976,
+   "methodological": 1978,
+   "institutional": null
+  }
+ },
+ {
+  "pid": "P071",
+  "eventId": "B05",
+  "canonicalName": "Calabi conjecture (Calabi-Yau metrics)",
+  "aliases": [
+   "Calabi-Yau theorem",
+   "Ricci-flat Kahler metrics",
+   "complex Monge-Ampere equation on compact Kahler manifolds"
+  ],
+  "phases": [
+   "Conjecture (1954-1957)",
+   "Proof by nonlinear PDE (1977-1978)",
+   "Physics application and consolidation (1982-1985)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Conjecture (1954-1957)",
+    "year": 1954,
+    "endYear": null,
+    "precision": "year",
+    "label": "Calabi announces the conjecture",
+    "work": null,
+    "people": [
+     "Eugenio Calabi"
+    ],
+    "description": "Calabi first made the conjecture in 1954 at the International Congress, before the published statement.",
+    "evidence": [
+     {
+      "claim": "The Calabi conjecture was made in 1954",
+      "source": "MacTutor biography of Shing-Tung Yau (quoting Nirenberg)",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Yau/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Conference statement, not the published one; the 1957 paper governs as first_statement. The 1954 Congress record was not checked."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Conjecture (1954-1957)",
+    "year": 1957,
+    "endYear": null,
+    "precision": "year",
+    "label": "Calabi conjecture in print",
+    "work": "Calabi, E., On Kahler manifolds with vanishing canonical class, in Algebraic Geometry and Topology (Princeton symposium), 1957",
+    "people": [
+     "Eugenio Calabi"
+    ],
+    "description": "The published statement of the conjecture on Kahler metrics with prescribed Ricci form on compact complex manifolds.",
+    "evidence": [
+     {
+      "claim": "On Kahler manifolds with vanishing canonical class, 1957",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1515/9781400879915-006",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Calabi also proved uniqueness, which Wikipedia describes but this pass does not list as a separate milestone."
+   },
+   {
+    "role": "key_development",
+    "phase": "Proof by nonlinear PDE (1977-1978)",
+    "year": 1977,
+    "endYear": null,
+    "precision": "year",
+    "label": "Yau's proof announced",
+    "work": "Yau, S.-T., Calabi's conjecture and some new results in algebraic geometry, Proceedings of the National Academy of Sciences, 1977",
+    "people": [
+     "Shing-Tung Yau"
+    ],
+    "description": "Announces Yau's solution of the Calabi conjecture by a priori estimates for the complex Monge-Ampere equation.",
+    "evidence": [
+     {
+      "claim": "Calabi's conjecture and some new results in algebraic geometry, PNAS, 1977",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1073/pnas.74.5.1798",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Yau solved the Calabi conjecture, with a priori estimates for the Monge-Ampere equation",
+      "source": "Wikipedia, Calabi conjecture",
+      "url": "https://en.wikipedia.org/wiki/Calabi_conjecture",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "MacTutor dates the solution to 1976; the publication year 1977 is used because the publication year governs."
+   },
+   {
+    "role": "key_development",
+    "phase": "Proof by nonlinear PDE (1977-1978)",
+    "year": 1978,
+    "endYear": null,
+    "precision": "year",
+    "label": "Full proof of the Calabi conjecture",
+    "work": "Yau, S.-T., On the Ricci curvature of a compact Kahler manifold and the complex Monge-Ampere equation I, Communications on Pure and Applied Mathematics, 1978",
+    "people": [
+     "Shing-Tung Yau"
+    ],
+    "description": "The full proof, which gives the existence of a Ricci-flat Kahler metric in each Kahler class with vanishing first Chern class.",
+    "evidence": [
+     {
+      "claim": "On the Ricci curvature of a compact Kahler manifold and the complex Monge-Ampere equation I, CPAM, 1978",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1002/cpa.3160310304",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": null
+   },
+   {
+    "role": "consolidation",
+    "phase": "Physics application and consolidation (1982-1985)",
+    "year": 1982,
+    "endYear": null,
+    "precision": "year",
+    "label": "Aubin's monograph on Monge-Ampere equations",
+    "work": "Aubin, T., Nonlinear Analysis on Manifolds. Monge-Ampere Equations, Grundlehren der mathematischen Wissenschaften, Springer, 1982",
+    "people": [
+     "Thierry Aubin"
+    ],
+    "description": "A monograph treating the Monge-Ampere equation on Kahler manifolds, including the Calabi conjecture.",
+    "evidence": [
+     {
+      "claim": "Complex Monge-Ampere equation on compact Kahler manifolds, a chapter in the Grundlehren volume, 1982",
+      "source": "Crossref record for the Grundlehren volume",
+      "url": "https://doi.org/10.1007/978-1-4612-5734-9_7",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Aubin's monograph gives a proof of the Calabi conjecture",
+      "source": "Wikipedia, Calabi conjecture (reference list)",
+      "url": "https://en.wikipedia.org/wiki/Calabi_conjecture",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The Crossref record is a chapter in the 1982 volume; the book title and year come from the Wikipedia reference list."
+   },
+   {
+    "role": "first_application",
+    "phase": "Physics application and consolidation (1982-1985)",
+    "year": 1985,
+    "endYear": null,
+    "precision": "year",
+    "label": "Calabi-Yau manifolds in superstring vacua",
+    "work": "Candelas, P., Horowitz, G. T., Strominger, A., Witten, E., Vacuum configurations for superstrings, Nuclear Physics B, 1985",
+    "people": [
+     "Philip Candelas",
+     "Gary Horowitz",
+     "Andrew Strominger",
+     "Edward Witten"
+    ],
+    "description": "Uses Ricci-flat Calabi-Yau metrics as compactification spaces for superstring vacua, a first physical use of the theorem.",
+    "evidence": [
+     {
+      "claim": "Vacuum configurations for superstrings, Nucl. Phys. B, 1985",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1016/0550-3213(85)90602-9",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The string-compactification claim is from the field's general knowledge and the title; the paper's text was not read in this pass."
+   }
+  ],
+  "people": [
+   {
+    "name": "Eugenio Calabi",
+    "role": "Stated the conjecture and proved uniqueness",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Calabi, E., On Kahler manifolds with vanishing canonical class, Algebraic Geometry and Topology, 1957",
+      "year": 1957,
+      "url": "https://doi.org/10.1515/9781400879915-006",
+      "whyItMatters": "Published statement of the conjecture."
+     }
+    ]
+   },
+   {
+    "name": "Shing-Tung Yau",
+    "role": "Proved the Calabi conjecture",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Yau/",
+    "works": [
+     {
+      "citation": "Yau, S.-T., Calabi's conjecture and some new results in algebraic geometry, PNAS, 1977",
+      "year": 1977,
+      "url": "https://doi.org/10.1073/pnas.74.5.1798",
+      "whyItMatters": "Announcement of the proof."
+     },
+     {
+      "citation": "Yau, S.-T., On the Ricci curvature of a compact Kahler manifold and the complex Monge-Ampere equation I, CPAM, 1978",
+      "year": 1978,
+      "url": "https://doi.org/10.1002/cpa.3160310304",
+      "whyItMatters": "Full proof."
+     }
+    ]
+   },
+   {
+    "name": "Thierry Aubin",
+    "role": "Monograph on Monge-Ampere equations on manifolds",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Aubin, T., Nonlinear Analysis on Manifolds. Monge-Ampere Equations, Springer, 1982",
+      "year": 1982,
+      "url": "https://doi.org/10.1007/978-1-4612-5734-9_7",
+      "whyItMatters": "First systematic treatment in the Grundlehren series."
+     }
+    ]
+   },
+   {
+    "name": "Philip Candelas",
+    "role": "Physics use of Calabi-Yau manifolds",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Candelas, P., Horowitz, G. T., Strominger, A., Witten, E., Vacuum configurations for superstrings, Nucl. Phys. B, 1985",
+      "year": 1985,
+      "url": "https://doi.org/10.1016/0550-3213(85)90602-9",
+      "whyItMatters": "Calabi-Yau spaces in superstring vacua."
+     }
+    ]
+   },
+   {
+    "name": "Andrew Strominger",
+    "role": "Co-author of the superstring paper",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Candelas, P., Horowitz, G. T., Strominger, A., Witten, E., Vacuum configurations for superstrings, Nucl. Phys. B, 1985",
+      "year": 1985,
+      "url": "https://doi.org/10.1016/0550-3213(85)90602-9",
+      "whyItMatters": "Calabi-Yau spaces in superstring vacua."
+     }
+    ]
+   },
+   {
+    "name": "Edward Witten",
+    "role": "Co-author of the superstring paper",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Candelas, P., Horowitz, G. T., Strominger, A., Witten, E., Vacuum configurations for superstrings, Nucl. Phys. B, 1985",
+      "year": 1985,
+      "url": "https://doi.org/10.1016/0550-3213(85)90602-9",
+      "whyItMatters": "Calabi-Yau spaces in superstring vacua."
+     }
+    ]
+   }
+  ],
+  "notes": "Input summary's description matches the Calabi conjecture as stated on Wikipedia. Dating conflict: MacTutor says Yau solved it in 1976 (announcement published 1977), and this pass uses publication years. The 1985 physics application is medium confidence because the text was not read. No naming milestone was found; the term 'Calabi-Yau' coinage was not checked. Searched Wikipedia (Calabi conjecture), MacTutor (Yau), Crossref. Derived dates: conceptual 1957, methodological 1985, institutional 1982.",
+  "derivedDates": {
+   "conceptual": 1957,
+   "methodological": 1985,
+   "institutional": 1982
+  }
+ },
+ {
+  "pid": "P470",
+  "eventId": "P18",
+  "canonicalName": "Caffarelli-Kohn-Nirenberg partial regularity for Navier-Stokes",
+  "aliases": [
+   "partial regularity of suitable weak solutions",
+   "CKN theorem",
+   "geometric measure theory for Navier-Stokes"
+  ],
+  "phases": [
+   "Weak solutions and partial regularity (1934-1976)",
+   "CKN theorem (1982)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Weak solutions and partial regularity (1934-1976)",
+    "year": 1934,
+    "endYear": null,
+    "precision": "year",
+    "label": "Leray's Navier-Stokes solutions",
+    "work": null,
+    "people": [
+     "Jean Leray"
+    ],
+    "description": "Leray's 1934 work on the Navier-Stokes equations laid the weak-solution framework that the partial regularity theory later refines.",
+    "evidence": [
+     {
+      "claim": "In 1934 Jean Leray proved existence of smooth globally defined solutions under a smallness assumption on the initial velocity",
+      "source": "Wikipedia, Navier-Stokes existence and smoothness",
+      "url": "https://en.wikipedia.org/wiki/Navier%E2%80%93Stokes_existence_and_smoothness",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The Wikipedia wording is the basis; no bibliographic record was checked. Leray's result is about small data, not partial regularity."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Weak solutions and partial regularity (1934-1976)",
+    "year": 1976,
+    "endYear": null,
+    "precision": "year",
+    "label": "Scheffer's partial regularity",
+    "work": "Scheffer, V., Partial regularity of solutions to the Navier-Stokes equations, Pacific Journal of Mathematics, 1976",
+    "people": [
+     "V. Scheffer"
+    ],
+    "description": "The first published partial regularity result for the Navier-Stokes equations, as the title records.",
+    "evidence": [
+     {
+      "claim": "Partial regularity of solutions to the Navier-Stokes equations, Pacific J. Math., 1976",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.2140/pjm.1976.66.535",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The content (for example Hausdorff-measure bounds on the singular set) was not read in this pass; the claim rests on the title. Scheffer's first name was not verified."
+   },
+   {
+    "role": "key_development",
+    "phase": "CKN theorem (1982)",
+    "year": 1982,
+    "endYear": null,
+    "precision": "year",
+    "label": "CKN partial regularity theorem",
+    "work": "Caffarelli, L., Kohn, R., Nirenberg, L., Partial regularity of suitable weak solutions of the Navier-Stokes equations, Communications on Pure and Applied Mathematics, 1982",
+    "people": [
+     "Luis Caffarelli",
+     "Kohn (first name not verified)",
+     "Louis Nirenberg"
+    ],
+    "description": "Proves that suitable weak solutions have a singular set of one-dimensional parabolic Hausdorff measure zero.",
+    "evidence": [
+     {
+      "claim": "Partial regularity of suitable weak solutions of the Navier-Stokes equations, CPAM, 1982",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1002/cpa.3160350604",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Caffarelli and Nirenberg worked on fluid dynamics and Navier-Stokes at the Courant Institute in the 1980s",
+      "source": "MacTutor biography of Luis Caffarelli",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Caffarelli/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The one-dimensional parabolic measure statement comes from the input summary and was not checked against the paper text. Crossref lists the authors only as Caffarelli, Kohn and Nirenberg, so Kohn is not given a first name."
+   }
+  ],
+  "people": [
+   {
+    "name": "V. Scheffer",
+    "role": "First partial regularity result for Navier-Stokes",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Scheffer, V., Partial regularity of solutions to the Navier-Stokes equations, Pacific J. Math., 1976",
+      "year": 1976,
+      "url": "https://doi.org/10.2140/pjm.1976.66.535",
+      "whyItMatters": "Earliest verified partial regularity result here."
+     }
+    ]
+   },
+   {
+    "name": "Luis Caffarelli",
+    "role": "Co-author of the CKN theorem",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Caffarelli/",
+    "works": [
+     {
+      "citation": "Caffarelli, L., Kohn, R., Nirenberg, L., Partial regularity of suitable weak solutions of the Navier-Stokes equations, CPAM, 1982",
+      "year": 1982,
+      "url": "https://doi.org/10.1002/cpa.3160350604",
+      "whyItMatters": "The CKN theorem."
+     }
+    ]
+   },
+   {
+    "name": "Kohn (first name not verified)",
+    "role": "Co-author of the CKN theorem",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Caffarelli, L., Kohn, R., Nirenberg, L., Partial regularity of suitable weak solutions of the Navier-Stokes equations, CPAM, 1982",
+      "year": 1982,
+      "url": "https://doi.org/10.1002/cpa.3160350604",
+      "whyItMatters": "The CKN theorem."
+     }
+    ]
+   },
+   {
+    "name": "Louis Nirenberg",
+    "role": "Co-author of the CKN theorem",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Nirenberg/",
+    "works": [
+     {
+      "citation": "Caffarelli, L., Kohn, R., Nirenberg, L., Partial regularity of suitable weak solutions of the Navier-Stokes equations, CPAM, 1982",
+      "year": 1982,
+      "url": "https://doi.org/10.1002/cpa.3160350604",
+      "whyItMatters": "The CKN theorem."
+     }
+    ]
+   }
+  ],
+  "notes": "Input summary's geometric-measure-theory claim is plausible from the CKN title and the Scheffer work but not verified from the text. The Wikipedia Navier-Stokes article does not discuss the CKN theorem, so no history page covers it. No consolidation (survey or monograph) was found in this pass. Searched Wikipedia (Navier-Stokes), MacTutor (Caffarelli, Nirenberg), Crossref. Derived dates: conceptual 1976, methodological null, institutional null.",
+  "derivedDates": {
+   "conceptual": 1976,
+   "methodological": null,
+   "institutional": null
+  }
+ },
+ {
+  "pid": "P501",
+  "eventId": "P58",
+  "canonicalName": "Pattern theory and variational image models (Grenander, Mumford)",
+  "aliases": [
+   "pattern theory",
+   "Grenander pattern theory",
+   "Mumford-Shah variational image model",
+   "mathematical image analysis"
+  ],
+  "phases": [
+   "Grenander's pattern theory (1976-1978)",
+   "Variational image models (1989)",
+   "Unifying perspective and textbook (1994-2010)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Grenander's pattern theory (1976-1978)",
+    "year": 1976,
+    "endYear": null,
+    "precision": "year",
+    "label": "Grenander's Pattern Synthesis",
+    "work": "Grenander, U., Pattern Synthesis, Lectures in Pattern Theory vol. I, Springer, 1976",
+    "people": [
+     "Ulf Grenander"
+    ],
+    "description": "Introduces pattern theory as a framework for patterns in signals and images, the first public statement of the idea.",
+    "evidence": [
+     {
+      "claim": "Pattern synthesis. Lectures in pattern theory, vol. I, 1976",
+      "source": "zbMATH record 3523118 and Open Library (Pattern synthesis, Springer-Verlag, 1976)",
+      "url": "https://zbmath.org/3523118",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "The term Pattern Theory was introduced by Grenander in the 1970s",
+      "source": "MacTutor biography of David Mumford",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Mumford/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": null
+   },
+   {
+    "role": "naming",
+    "phase": "Grenander's pattern theory (1976-1978)",
+    "year": 1976,
+    "endYear": null,
+    "precision": "year",
+    "label": "Series title 'Lectures in Pattern Theory'",
+    "work": "Grenander, U., Pattern Synthesis, Lectures in Pattern Theory vol. I, Springer, 1976",
+    "people": [
+     "Ulf Grenander"
+    ],
+    "description": "The name 'pattern theory' first appears in the series title of the same 1976 volume.",
+    "evidence": [
+     {
+      "claim": "The 1976 volume is titled Lectures in Pattern Theory vol. I",
+      "source": "zbMATH record 3523118",
+      "url": "https://zbmath.org/3523118",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The same 1976 volume plays both roles (rule 2): it introduces the idea and first uses the name in a title. Earlier uses of the name were not searched."
+   },
+   {
+    "role": "first_application",
+    "phase": "Variational image models (1989)",
+    "year": 1989,
+    "endYear": null,
+    "precision": "year",
+    "label": "Mumford-Shah variational segmentation model",
+    "work": "Mumford, D., Shah, J., Optimal approximations by piecewise smooth functions and associated variational problems, Communications on Pure and Applied Mathematics, 1989",
+    "people": [
+     "David Mumford",
+     "J. Shah"
+    ],
+    "description": "A variational model for image segmentation with piecewise smooth approximations, the first purposeful variational image model of this kind.",
+    "evidence": [
+     {
+      "claim": "Optimal approximations by piecewise smooth functions and associated variational problems, CPAM, 1989",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1002/cpa.3160420503",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Whether it is the first variational image model overall is not verified."
+   },
+   {
+    "role": "key_development",
+    "phase": "Unifying perspective and textbook (1994-2010)",
+    "year": 1994,
+    "endYear": null,
+    "precision": "year",
+    "label": "Pattern theory as a unifying perspective",
+    "work": "Mumford, D., Pattern Theory: A Unifying Perspective, First European Congress of Mathematics, 1994",
+    "people": [
+     "David Mumford"
+    ],
+    "description": "Mumford's statement that pattern theory unifies probabilistic and variational models of vision, extending the programme.",
+    "evidence": [
+     {
+      "claim": "Pattern theory: a unifying perspective, First European Congress of Mathematics, 1994",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1007/978-3-0348-9110-3_6",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "A reprint appeared in 1996 and 1997 (Fields Medallists' Lectures); the 1994 year is used."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Unifying perspective and textbook (1994-2010)",
+    "year": 2010,
+    "endYear": null,
+    "precision": "year",
+    "label": "Mumford and Desolneux book",
+    "work": "Mumford, D., Desolneux, A., Pattern Theory, CRC Press, 2010",
+    "people": [
+     "David Mumford",
+     "Agnes Desolneux"
+    ],
+    "description": "A book-length treatment of pattern theory and its stochastic models of signals.",
+    "evidence": [
+     {
+      "claim": "Pattern Theory, CRC Press, 2010, by Mumford and Desolneux",
+      "source": "Open Library record",
+      "url": "https://openlibrary.org/search?title=Pattern+theory",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The subtitle was not verified; the Open Library entry shows 'Pattern Theory'."
+   }
+  ],
+  "people": [
+   {
+    "name": "Ulf Grenander",
+    "role": "Founder of pattern theory",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Grenander, U., Pattern Synthesis, Lectures in Pattern Theory vol. I, Springer, 1976",
+      "year": 1976,
+      "url": "https://zbmath.org/3523118",
+      "whyItMatters": "Introduces pattern theory and its name."
+     },
+     {
+      "citation": "Grenander, U., General Pattern Theory, Oxford University Press, 1993",
+      "year": 1993,
+      "url": "https://openlibrary.org/search?title=General+pattern+theory",
+      "whyItMatters": "Later systematic account of the theory."
+     }
+    ]
+   },
+   {
+    "name": "David Mumford",
+    "role": "Applied pattern theory to variational image models and wrote the unifying perspective",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Mumford/",
+    "works": [
+     {
+      "citation": "Mumford, D., Shah, J., Optimal approximations by piecewise smooth functions..., CPAM, 1989",
+      "year": 1989,
+      "url": "https://doi.org/10.1002/cpa.3160420503",
+      "whyItMatters": "Variational image segmentation model."
+     },
+     {
+      "citation": "Mumford, D., Pattern Theory: A Unifying Perspective, First European Congress of Mathematics, 1994",
+      "year": 1994,
+      "url": "https://doi.org/10.1007/978-3-0348-9110-3_6",
+      "whyItMatters": "Unifying statement of the programme."
+     },
+     {
+      "citation": "Mumford, D., Desolneux, A., Pattern Theory, CRC Press, 2010",
+      "year": 2010,
+      "url": "https://openlibrary.org/search?title=Pattern+theory",
+      "whyItMatters": "Textbook treatment."
+     }
+    ]
+   },
+   {
+    "name": "J. Shah",
+    "role": "Co-author of the Mumford-Shah model and follow-up work",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Mumford, D., Shah, J., Optimal approximations by piecewise smooth functions..., CPAM, 1989",
+      "year": 1989,
+      "url": "https://doi.org/10.1002/cpa.3160420503",
+      "whyItMatters": "Co-author of the variational model."
+     },
+     {
+      "citation": "Shah, J., Piecewise smooth approximations of functions, Calculus of Variations and PDEs, 1994",
+      "year": 1994,
+      "url": "https://doi.org/10.1007/bf01235533",
+      "whyItMatters": "Follow-up on piecewise smooth approximations."
+     }
+    ]
+   }
+  ],
+  "notes": "Input summary says pattern theory and variational image models are import-from-outside; the sources show Grenander's 1976 pattern theory as the originating programme, with Mumford's variational work as a later application. The 1976 volume plays both first_statement and naming roles. Searched Wikipedia (Pattern theory, article is a short stub), MacTutor (Mumford), Crossref, zbMATH, Open Library. Derived dates: conceptual 1976, methodological 1989, institutional 1976.",
+  "derivedDates": {
+   "conceptual": 1976,
+   "methodological": 1989,
+   "institutional": 1976
+  }
+ },
+ {
+  "pid": "P504",
+  "eventId": "P61",
+  "canonicalName": "Ellipsoid method in combinatorial optimisation",
+  "aliases": [
+   "ellipsoid algorithm",
+   "Khachiyan's ellipsoid algorithm",
+   "ellipsoid method with separation oracles"
+  ],
+  "phases": [
+   "Convex minimisation (1976)",
+   "Polynomial linear programming (1979-1980)",
+   "Combinatorial optimisation (1981-1988)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Convex minimisation (1976)",
+    "year": 1976,
+    "endYear": null,
+    "precision": "year",
+    "label": "Ellipsoid-type methods for convex problems",
+    "work": "Yudin, D. B., Nemirovskii, A. S., Informational complexity and efficient methods for the solution of convex extremal problems, 1976",
+    "people": [
+     "David B. Yudin",
+     "Arkadi Nemirovski"
+    ],
+    "description": "The published treatment of ellipsoid-type methods for convex extremal problems, the earliest verified publication in this line.",
+    "evidence": [
+     {
+      "claim": "Informational complexity and effective methods for the solution of convex extremal problems, 1976",
+      "source": "zbMATH record 3516928",
+      "url": "https://zbmath.org/3516928",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Nemirovski and Yudin studied an approximation algorithm for convex minimisation in 1972",
+      "source": "Wikipedia, Ellipsoid method",
+      "url": "https://en.wikipedia.org/wiki/Ellipsoid_method",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The 1972 study mentioned by Wikipedia is not verified; the 1976 record is used. Shor's preliminary version was not dated: a zbMATH search returned an error and it is not added."
+   },
+   {
+    "role": "first_application",
+    "phase": "Polynomial linear programming (1979-1980)",
+    "year": 1979,
+    "endYear": null,
+    "precision": "year",
+    "label": "Polynomial-time linear programming",
+    "work": "Khachiyan, L. G., A polynomial algorithm in linear programming, Doklady Akademii Nauk SSSR, 1979",
+    "people": [
+     "Leonid G. Khachiyan"
+    ],
+    "description": "Applies the ellipsoid method to linear programming and proves polynomial solvability, the first targeted use of the method for complexity.",
+    "evidence": [
+     {
+      "claim": "A polynomial algorithm in linear programming, 1979",
+      "source": "zbMATH record 3644821",
+      "url": "https://zbmath.org/3644821",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "The English translation appeared in USSR Computational Mathematics and Mathematical Physics in 1980",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1016/0041-5553(80)90061-0",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Khachiyan's four-page February 1979 paper gave a polynomial implementation",
+      "source": "Wikipedia, Leonid Khachiyan",
+      "url": "https://en.wikipedia.org/wiki/Leonid_Khachiyan",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "The Russian record is 1979, the English translation 1980; the 1979 year is used."
+   },
+   {
+    "role": "key_development",
+    "phase": "Combinatorial optimisation (1981-1988)",
+    "year": 1981,
+    "endYear": null,
+    "precision": "year",
+    "label": "Ellipsoid method and combinatorial optimisation",
+    "work": "Grotschel, M., Lovasz, L., Schrijver, A., The ellipsoid method and its consequences in combinatorial optimization, Combinatorica, 1981",
+    "people": [
+     "Martin Grotschel",
+     "Laszlo Lovasz",
+     "Alexander Schrijver"
+    ],
+    "description": "Shows that the ellipsoid method with separation oracles yields polynomial solvability of many combinatorial optimisation problems.",
+    "evidence": [
+     {
+      "claim": "The ellipsoid method and its consequences in combinatorial optimization, Combinatorica, 1981",
+      "source": "Crossref record",
+      "url": "https://doi.org/10.1007/bf02579273",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "The authors received the Fulkerson Prize for this paper",
+      "source": "MacTutor biography of Laszlo Lovasz",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lovasz/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Input summary's combinatorial claim matches the paper's title. The prize is not added as a recognition milestone."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Combinatorial optimisation (1981-1988)",
+    "year": 1988,
+    "endYear": null,
+    "precision": "year",
+    "label": "Book on geometric algorithms",
+    "work": "Grotschel, M., Lovasz, L., Schrijver, A., Geometric Algorithms and Combinatorial Optimization, Springer, 1988",
+    "people": [
+     "Martin Grotschel",
+     "Laszlo Lovasz",
+     "Alexander Schrijver"
+    ],
+    "description": "The monograph that systematises the ellipsoid method and its applications to combinatorial optimisation.",
+    "evidence": [
+     {
+      "claim": "Geometric Algorithms and Combinatorial Optimization, Springer, 1988",
+      "source": "Open Library record",
+      "url": "https://openlibrary.org/search?title=Geometric+algorithms+and+combinatorial+optimization",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": null
+   }
+  ],
+  "people": [
+   {
+    "name": "David B. Yudin",
+    "role": "Co-author of the 1976 ellipsoid-type paper",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Yudin, D. B., Nemirovskii, A. S., Informational complexity and efficient methods for the solution of convex extremal problems, 1976",
+      "year": 1976,
+      "url": "https://zbmath.org/3516928",
+      "whyItMatters": "Early published ellipsoid-type method."
+     }
+    ]
+   },
+   {
+    "name": "Arkadi Nemirovski",
+    "role": "Co-author of the 1976 ellipsoid-type paper",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Yudin, D. B., Nemirovskii, A. S., Informational complexity and efficient methods for the solution of convex extremal problems, 1976",
+      "year": 1976,
+      "url": "https://zbmath.org/3516928",
+      "whyItMatters": "Early published ellipsoid-type method."
+     }
+    ]
+   },
+   {
+    "name": "Leonid G. Khachiyan",
+    "role": "Polynomial-time linear programming via the ellipsoid method",
+    "lifespan": "1952-2005",
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Khachiyan, L. G., A polynomial algorithm in linear programming, Doklady AN SSSR, 1979",
+      "year": 1979,
+      "url": "https://zbmath.org/3644821",
+      "whyItMatters": "Polynomial solvability of linear programming."
+     }
+    ]
+   },
+   {
+    "name": "Martin Grotschel",
+    "role": "Co-author of the combinatorial-optimisation paper and the 1988 book",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Grotschel, M., Lovasz, L., Schrijver, A., The ellipsoid method and its consequences in combinatorial optimization, Combinatorica, 1981",
+      "year": 1981,
+      "url": "https://doi.org/10.1007/bf02579273",
+      "whyItMatters": "Ellipsoid method for combinatorial optimisation."
+     },
+     {
+      "citation": "Grotschel, M., Lovasz, L., Schrijver, A., Geometric Algorithms and Combinatorial Optimization, Springer, 1988",
+      "year": 1988,
+      "url": "https://openlibrary.org/search?title=Geometric+algorithms+and+combinatorial+optimization",
+      "whyItMatters": "Monograph on the method."
+     }
+    ]
+   },
+   {
+    "name": "Laszlo Lovasz",
+    "role": "Co-author of the combinatorial-optimisation paper and the 1988 book",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lovasz/",
+    "works": [
+     {
+      "citation": "Grotschel, M., Lovasz, L., Schrijver, A., The ellipsoid method and its consequences in combinatorial optimization, Combinatorica, 1981",
+      "year": 1981,
+      "url": "https://doi.org/10.1007/bf02579273",
+      "whyItMatters": "Ellipsoid method for combinatorial optimisation."
+     },
+     {
+      "citation": "Grotschel, M., Lovasz, L., Schrijver, A., Geometric Algorithms and Combinatorial Optimization, Springer, 1988",
+      "year": 1988,
+      "url": "https://openlibrary.org/search?title=Geometric+algorithms+and+combinatorial+optimization",
+      "whyItMatters": "Monograph on the method."
+     }
+    ]
+   },
+   {
+    "name": "Alexander Schrijver",
+    "role": "Co-author of the combinatorial-optimisation paper and the 1988 book",
+    "lifespan": null,
+    "biographyUrl": null,
+    "works": [
+     {
+      "citation": "Grotschel, M., Lovasz, L., Schrijver, A., The ellipsoid method and its consequences in combinatorial optimization, Combinatorica, 1981",
+      "year": 1981,
+      "url": "https://doi.org/10.1007/bf02579273",
+      "whyItMatters": "Ellipsoid method for combinatorial optimisation."
+     },
+     {
+      "citation": "Grotschel, M., Lovasz, L., Schrijver, A., Geometric Algorithms and Combinatorial Optimization, Springer, 1988",
+      "year": 1988,
+      "url": "https://openlibrary.org/search?title=Geometric+algorithms+and+combinatorial+optimization",
+      "whyItMatters": "Monograph on the method."
+     }
+    ]
+   }
+  ],
+  "notes": "Input summary's description matches the sources. Shor's early ellipsoid-type method is named by Wikipedia without a verified date, so it is not a milestone; a zbMATH query for it failed. The Yudin-Nemirovski date conflicts with the 1972 study cited by Wikipedia; the 1976 record governs here. Searched Wikipedia (Ellipsoid method, Leonid Khachiyan), MacTutor (Lovasz), Crossref, zbMATH, Open Library. Derived dates: conceptual 1976, methodological 1979, institutional 1988.",
+  "derivedDates": {
+   "conceptual": 1976,
+   "methodological": 1979,
+   "institutional": 1988
+  }
+ }
+]

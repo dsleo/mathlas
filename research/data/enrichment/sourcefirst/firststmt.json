@@ -1,0 +1,587 @@
+[
+ {
+  "pid": "P163",
+  "eventId": "MA65",
+  "milestone": {
+   "role": "first_statement",
+   "year": 1685,
+   "precision": "year",
+   "label": "Wallis prints Newton's binomial series rule",
+   "work": "John Wallis, A Treatise of Algebra, both Historical and Practical, London, 1685 (chapters 91-95)",
+   "people": [
+    "John Wallis",
+    "Isaac Newton"
+   ],
+   "description": "Wallis's printed Algebra gives, with credit to Newton, the general rule for expanding a binomial to any exponent and applies it to the circle's quadrature, the first appearance of the series in print.",
+   "evidence": [
+    {
+     "claim": "The 1685 book credits Newton with infinite series from division and root extraction, and its contents list a chapter on his doctrine of infinite series.",
+     "source": "Full-text OCR of the 1685 edition, Internet Archive item bim_early-english-books-1641-1700_a-treatise-of-algebra-_wallis-john_1685",
+     "url": "https://archive.org/details/bim_early-english-books-1641-1700_a-treatise-of-algebra-_wallis-john_1685",
+     "kind": "primary_text"
+    },
+    {
+     "claim": "Wallis says he knows Newton's work from two letters of June and October 1676 to Oldenburg, then states the general expansion rule for a power of a binomial with a fractional or integer exponent.",
+     "source": "Same 1685 text, chapters on Newton's infinite series",
+     "url": "https://archive.org/download/bim_early-english-books-1641-1700_a-treatise-of-algebra-_wallis-john_1685/bim_early-english-books-1641-1700_a-treatise-of-algebra-_wallis-john_1685_djvu.txt",
+     "kind": "primary_text"
+    },
+    {
+     "claim": "Item date metadata gives 1685 for the book.",
+     "source": "Internet Archive metadata",
+     "url": "https://archive.org/metadata/bim_early-english-books-1641-1700_a-treatise-of-algebra-_wallis-john_1685",
+     "kind": "bibliographic_record"
+    }
+   ],
+   "confidence": "medium",
+   "note": "Newton's own De analysi (1669) circulated in manuscript and was printed only in 1711; his 1676 letters are private (precursors). Gregory's 1670 logarithmic version is also private. Wallis reports Newton's result secondhand; the exposition is Wallis's. Confidence is not high because no modern bibliography was checked for an earlier printed statement and the page numbers were not recorded."
+  },
+  "searched": [
+   "Wikipedia Binomial theorem, Isaac Newton, John Wallis, De analysi, Binomial series (wikitext): dates Newton's discovery 1664-65, no printed statement date",
+   "MacTutor Newton and Wallis: no printed statement date",
+   "archive.org full text of Wallis 1685 Treatise of Algebra: ch. XCI-XCV credit Newton and give the general expansion rule",
+   "Web search for Wallis 1685 and Newton letters"
+  ],
+  "verdict": "Wallis 1685 is the earliest print appearance found; Newton's own texts are later (1711) or private."
+ },
+ {
+  "pid": "P130",
+  "eventId": "MA87/WA90",
+  "milestone": {
+   "role": "first_statement",
+   "year": 1782,
+   "precision": "year",
+   "label": "Laplace introduces generating functions",
+   "work": "P. S. Laplace, Memoire sur les suites, Mem. Acad. Roy. Sci. Paris, annee 1779 (published 1782); Oeuvres completes X, pp. 1-89",
+   "people": [
+    "Pierre-Simon Laplace"
+   ],
+   "description": "Laplace announces a calculus of generating functions for series and difference equations and says it serves the analysis of chances, the method his later probability theory is built on.",
+   "evidence": [
+    {
+     "claim": "The memoir's own introduction names a new calculus of generating functions and says its recurro-recurrent series matter for the analysis of chances.",
+     "source": "Pulskamp's English translation of the memoir",
+     "url": "https://gtfp.cs.rhul.ac.uk/pulskamp/Laplace/memoir_suites.pdf",
+     "kind": "primary_text"
+    },
+    {
+     "claim": "The memoir is dated year 1779, volume published 1782, Oeuvres X pp. 1-89.",
+     "source": "Header of the Pulskamp translation",
+     "url": "https://gtfp.cs.rhul.ac.uk/pulskamp/Laplace/memoir_suites.pdf",
+     "kind": "bibliographic_record"
+    },
+    {
+     "claim": "Wikipedia's Laplace article places the generating-function method in a paper written in 1779.",
+     "source": "Wikipedia, Pierre-Simon Laplace",
+     "url": "https://en.wikipedia.org/wiki/Pierre-Simon_Laplace",
+     "kind": "history_page"
+    }
+   ],
+   "confidence": "medium",
+   "note": "Publication year 1782 (the volume is titled 1779, which is the date of writing). Laplace says he was the first to treat recurro-recurrent series for chance problems in Savants etrangers vols 6-7 (1774, 1776); those earlier memoirs use other methods and were not examined. The asymptotic-approximation memoir (1782 volume, published 1785) was not verified. Euler used generating functions earlier without a name (Wikipedia, citing Polya)."
+  },
+  "searched": [
+   "MacTutor Laplace: no memoir dates for generating functions",
+   "Wikipedia Pierre-Simon Laplace, Generating function",
+   "Pulskamp translation of Memoire sur les suites (intro read)",
+   "web search for Hald and Gillispie on generating functions"
+  ],
+  "verdict": "Memoir on series (1779 volume, printed 1782) is the earliest checked public statement of Laplace's generating-function method; earlier 1770s memoirs not examined."
+ },
+ {
+  "pid": "P419",
+  "eventId": "M22",
+  "milestone": {
+   "role": "first_statement",
+   "year": 1896,
+   "precision": "year",
+   "label": "Frobenius introduces group characters for finite groups",
+   "work": "G. Frobenius, Ueber Gruppencharaktere, Sitzungsberichte der Koniglich Preussischen Akademie der Wissenschaften, 1896, pp. 985-1021",
+   "people": [
+    "Georg Frobenius"
+   ],
+   "description": "Frobenius defines characters of arbitrary finite groups, expecting them to enrich finite group theory, the tool Burnside later used for his solvability theorem.",
+   "evidence": [
+    {
+     "claim": "zbMATH lists the paper in the 1896 Berlin Academy proceedings, pp. 985-1021.",
+     "source": "zbMATH Open document 2675572",
+     "url": "https://zbmath.org/2675572",
+     "kind": "bibliographic_record"
+    },
+    {
+     "claim": "Presented to the Berlin Academy on 16 July 1896; Frobenius expected the concept to enrich group theory; Burnside soon used it.",
+     "source": "MacTutor, Frobenius and Burnside biographies",
+     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Frobenius/",
+     "kind": "history_page"
+    }
+   ],
+   "confidence": "medium",
+   "note": "Event is Burnside's transfer of characters; the record holds Frobenius 1896 as precursor. This returns it as the public statement of the idea; Burnside's use is 1904 (first_application). If the event is read narrowly as Burnside's own statement, the 1904 paper is the first public statement and no earlier Burnside statement was found. Frobenius also applied characters to Frobenius groups in 1900-01 (MacTutor)."
+  },
+  "searched": [
+   "MacTutor Burnside, Frobenius, Representation theory topic",
+   "zbMATH Burnside 1900-1905 papers (1904 p^a q^b is first found use of characters)",
+   "zbMATH Frobenius 1896"
+  ],
+  "verdict": "Defensible only as Frobenius 1896; Burnside has no earlier public statement found."
+ },
+ {
+  "pid": "P402",
+  "eventId": "W47",
+  "milestone": {
+   "role": "first_statement",
+   "year": 1900,
+   "precision": "year",
+   "label": "Hilbert announces a proof of Dirichlet's principle",
+   "work": "D. Hilbert, Ueber das Dirichletsche Princip, Jahresbericht der Deutschen Mathematiker-Vereinigung 8 (1900), 184-188",
+   "people": [
+    "David Hilbert"
+   ],
+   "description": "Hilbert publishes his first treatment justifying the Dirichlet principle by direct variational methods, four years before the full Mathematische Annalen paper.",
+   "evidence": [
+    {
+     "claim": "zbMATH lists the note in Jahresbericht DMV 8 (1900), pp. 184-188, with an EuDML scan.",
+     "source": "zbMATH Open document 2665638",
+     "url": "https://zbmath.org/2665638",
+     "kind": "bibliographic_record"
+    },
+    {
+     "claim": "Wikipedia dates Hilbert's justification of Riemann's use of the principle to 1900.",
+     "source": "Wikipedia, Dirichlet's principle",
+     "url": "https://en.wikipedia.org/wiki/Dirichlet%27s_principle",
+     "kind": "history_page"
+    }
+   ],
+   "confidence": "medium",
+   "note": "Note content was not opened (EuDML scan not read); relevance rests on title, date and Wikipedia. Problem 20 of the Paris address (Goettinger Nachrichten 1900) also raised the question. Full proof is Math. Ann. 59 (1904), already the first_application."
+  },
+  "searched": [
+   "Wikipedia Dirichlet's principle, Hilbert's twentieth problem",
+   "MacTutor Hilbert",
+   "zbMATH Hilbert 1900-1905 Dirichlet papers"
+  ],
+  "verdict": "1900 JDMV note proposed as first statement."
+ },
+ {
+  "pid": "P388",
+  "eventId": "M47/W34",
+  "milestone": {
+   "role": "first_statement",
+   "year": 1907,
+   "precision": "year",
+   "label": "Brouwer's dissertation on the foundations of mathematics",
+   "work": "L. E. J. Brouwer, Over de grondslagen der wiskunde, Amsterdam: Maas & van Suchtelen, 1907 (doctoral thesis)",
+   "people": [
+    "L. E. J. Brouwer"
+   ],
+   "description": "Brouwer's thesis sets out his critique of logicism and formalism and his view of mathematics as mental construction, which MacTutor marks as the start of the intuitionist school.",
+   "evidence": [
+    {
+     "claim": "Open Library lists the 1907 first publication by Maas & van Suchtelen.",
+     "source": "Open Library work OL1280913W",
+     "url": "https://openlibrary.org/works/OL1280913W",
+     "kind": "bibliographic_record"
+    },
+    {
+     "claim": "The 1907 thesis attacked the logical foundations of mathematics and marks the beginning of the Intuitionist School.",
+     "source": "MacTutor, Brouwer",
+     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Brouwer/",
+     "kind": "history_page"
+    }
+   ],
+   "confidence": "medium",
+   "note": "Explicit rejection of the unrestricted law of excluded middle is in the 1908 paper 'The unreliability of the logical principles' (Tijdschrift voor Wijsbegeerte; MacTutor, Wikipedia); that paper was not found in zbMATH or Crossref. Name 'intuitionism' not traced."
+  },
+  "searched": [
+   "MacTutor Brouwer",
+   "Wikipedia Intuitionism, L. E. J. Brouwer",
+   "Open Library thesis record"
+  ],
+  "verdict": "1907 thesis proposed; the excluded-middle rejection is 1908."
+ },
+ {
+  "pid": "P059",
+  "eventId": "E67",
+  "milestone": {
+   "role": "first_statement",
+   "year": 1917,
+   "precision": "year",
+   "label": "Hardy and Ramanujan announce the partition asymptotic formula",
+   "work": "G. H. Hardy and S. Ramanujan, Une formule asymptotique pour le nombre des partitions de n, Comptes Rendus Acad. Sci. Paris 164 (1917), 35-38",
+   "people": [
+    "G. H. Hardy",
+    "S. Ramanujan"
+   ],
+   "description": "Hardy and Ramanujan announce their asymptotic formula for partitions, the first public step of the complex-analytic method later named the circle method.",
+   "evidence": [
+    {
+     "claim": "zbMATH lists the note in Comptes Rendus 164 (1917), pp. 35-38 and links Gallica.",
+     "source": "zbMATH Open document 2610181",
+     "url": "https://zbmath.org/2610181",
+     "kind": "bibliographic_record"
+    },
+    {
+     "claim": "Wikipedia attributes the initial idea of the circle method to Hardy with Ramanujan in 1916-1917 on the partition function.",
+     "source": "Wikipedia, Hardy-Ramanujan-Littlewood circle method",
+     "url": "https://en.wikipedia.org/wiki/Hardy%E2%80%93Ramanujan%E2%80%93Littlewood_circle_method",
+     "kind": "history_page"
+    }
+   ],
+   "confidence": "low",
+   "note": "Gallica blocked access, so the note text was not read and it is unconfirmed that it describes the contour method. The full method appears in Proc. LMS (2) 17 (1918), 75-115 (zbMATH 2610184), the existing first_application. Hardy-Littlewood Waring papers (1920) are later."
+  },
+  "searched": [
+   "Wikipedia circle method (history section)",
+   "zbMATH Hardy-Ramanujan 1917-1918",
+   "Gallica text (blocked)"
+  ],
+  "verdict": "1917 announcement proposed with low confidence; the 1918 paper gives the full method."
+ },
+ {
+  "pid": "P284",
+  "eventId": "WB11",
+  "milestone": null,
+  "searched": [
+   "Wikipedia Operations research (history): Bawdsey 1937, Harris 1913 EOQ, Babbage 1840",
+   "web search on origin and naming of operational research (1937-1939, Rowe, Watson-Watt)",
+   "existing record sources (Morse-Kimball 1951, ORSA 1952)"
+  ],
+  "verdict": "No public statement defensible: the discipline arose as classified wartime work by a collective of scientists, the term's coining is not dated to a primary source, and earlier ideas (Babbage, Harris, Lanchester) are precursors."
+ },
+ {
+  "pid": "P054",
+  "eventId": "E62",
+  "milestone": null,
+  "searched": [
+   "Wikipedia Homological algebra (history)",
+   "MacTutor Eilenberg, Mac Lane, Cartan",
+   "zbMATH: Eilenberg-Mac Lane 1942 (Ext/Hom, 3102273, 3099825), Buchsbaum 1955, Cartan-Eilenberg 1956"
+  ],
+  "verdict": "None defended. Eilenberg and Mac Lane introduced Hom and Ext in 1942 (MacTutor) as group-theory tools, a precursor; the general module theory with derived functors appears first in the 1956 book (consolidation, naming). Cartan seminars 1950-54 are not bibliographic records."
+ },
+ {
+  "pid": "P212",
+  "eventId": "MB36/WB47",
+  "milestone": {
+   "role": "first_statement",
+   "year": 1960,
+   "precision": "year",
+   "label": "Grothendieck proposes a Weil cohomology from unramified coverings",
+   "work": "A. Grothendieck, The cohomology theory of abstract algebraic varieties, Proc. International Congress of Mathematicians (Edinburgh, 1958), Cambridge Univ. Press, 1960, pp. 103-118",
+   "people": [
+    "Alexander Grothendieck"
+   ],
+   "description": "Grothendieck proposes defining the Weil cohomology from Galois cohomology and local triviality on unramified coverings, the starting point of etale cohomology.",
+   "evidence": [
+    {
+     "claim": "The text says the Weil cohomology must come from a different approach, suggested by sheaf and Galois cohomology and unramified coverings, and that this opens a route to the Weil conjectures.",
+     "source": "Copy of the paper text (ICM 1958 lecture)",
+     "url": "https://download.uni-mainz.de/mathematik/Algebraische%20Geometrie/Lehre/WS23.Padische.1958.Grothendieck.pdf",
+     "kind": "primary_text"
+    },
+    {
+     "claim": "zbMATH dates the paper 1960.",
+     "source": "zbMATH Open document 3194966",
+     "url": "https://zbmath.org/3194966",
+     "kind": "bibliographic_record"
+    },
+    {
+     "claim": "Wikipedia gives Grothendieck (1960) as the introduction of etale cohomology.",
+     "source": "Wikipedia, Etale cohomology",
+     "url": "https://en.wikipedia.org/wiki/%C3%89tale_cohomology",
+     "kind": "history_page"
+    }
+   ],
+   "confidence": "medium",
+   "note": "Lecture was given in 1958, printed in 1960 (publication year used). The text does not use the word etale or define the topology; it states the idea only. Serre's 1956 Mexico paper is a precursor. Artin's 1962 notes and SGA 4 come later."
+  },
+  "searched": [
+   "Wikipedia Etale cohomology",
+   "MacTutor Grothendieck",
+   "ICM 1958 text read for etale, covering, Galois",
+   "zbMATH 3194966",
+   "web search on the 1958 talk"
+  ],
+  "verdict": "ICM 1958 lecture (printed 1960) proposed."
+ },
+ {
+  "pid": "P332",
+  "eventId": "WC40",
+  "milestone": {
+   "role": "first_statement",
+   "year": 1940,
+   "precision": "year",
+   "label": "First paper on the restricted Burnside problem",
+   "work": "O. Gruen, Zusammenhang zwischen Potenzbildung und Kommutatorbildung, J. reine angew. Math. 182 (1940), 158-177",
+   "people": [
+    "Otto Gruen"
+   ],
+   "description": "Gruen's paper is the first published work aimed at the restricted Burnside problem, which had circulated orally since the 1930s.",
+   "evidence": [
+    {
+     "claim": "The first paper addressing the restricted problem appeared in 1940 (Gruen); the problem was only present in seminars in the 1930s; the name came from Magnus in 1950.",
+     "source": "MacTutor, History of the Burnside problem",
+     "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Burnside_problem/",
+     "kind": "history_page"
+    },
+    {
+     "claim": "zbMATH lists the 1940 paper, J. reine angew. Math. 182, pp. 158-177.",
+     "source": "zbMATH Open document 2508900",
+     "url": "https://zbmath.org/2508900",
+     "kind": "bibliographic_record"
+    }
+   ],
+   "confidence": "low",
+   "note": "A first printed treatment, not an explicit statement of the problem; the original poser is unknown (oral tradition, 1930s). Magnus 1950 coined the name (zbMATH 3056912), already in the record as naming."
+  },
+  "searched": [
+   "Wikipedia Burnside problem",
+   "MacTutor Burnside problem history, Zelmanov, Kostrikin",
+   "zbMATH Gruen 1940, Magnus 1950"
+  ],
+  "verdict": "Low-confidence candidate (Gruen 1940); problem itself has oral origin."
+ },
+ {
+  "pid": "P478",
+  "eventId": "P31",
+  "milestone": {
+   "role": "first_statement",
+   "year": 1968,
+   "precision": "year",
+   "label": "Knuth's Art of Computer Programming Vol. 1",
+   "work": "D. E. Knuth, The Art of Computer Programming, Vol. 1: Fundamental Algorithms, Addison-Wesley, 1968",
+   "people": [
+    "Donald Knuth"
+   ],
+   "description": "The first volume applies mathematical analysis to running times of algorithms; Knuth later chose the name analysis of algorithms from this book's approach.",
+   "evidence": [
+    {
+     "claim": "Open Library lists the first edition as 1968, Addison-Wesley.",
+     "source": "Open Library work OL257263W",
+     "url": "https://openlibrary.org/works/OL257263W",
+     "kind": "bibliographic_record"
+    },
+    {
+     "claim": "zbMATH lists Vol. 1 as 1968.",
+     "source": "zbMATH Open document 3303654",
+     "url": "https://zbmath.org/3303654",
+     "kind": "bibliographic_record"
+    },
+    {
+     "claim": "Wikipedia says Knuth coined the term and, per Quanta, adopted the name after his work on the book.",
+     "source": "Wikipedia, Analysis of algorithms and Donald Knuth",
+     "url": "https://en.wikipedia.org/wiki/Analysis_of_algorithms",
+     "kind": "history_page"
+    }
+   ],
+   "confidence": "low",
+   "note": "Same book already recorded as consolidation; it plays both roles here. Chapter-level content was not checked, and no earlier Knuth paper stating the idea was searched exhaustively."
+  },
+  "searched": [
+   "Wikipedia Analysis of algorithms, Donald Knuth",
+   "MacTutor Knuth",
+   "zbMATH and Open Library TAOCP"
+  ],
+  "verdict": "TAOCP Vol. 1 (1968) proposed, low confidence."
+ },
+ {
+  "pid": "P229",
+  "eventId": "MB83/WB40",
+  "milestone": {
+   "role": "first_statement",
+   "year": 1971,
+   "precision": "year",
+   "label": "Lawvere announces the axioms of an elementary topos",
+   "work": "F. W. Lawvere, Quantifiers and sheaves, Actes du Congres International des Mathematiciens (Nice, 1970), Tome 1, Gauthier-Villars, Paris, 1971, pp. 329-334",
+   "people": [
+    "F. William Lawvere",
+    "Myles Tierney"
+   ],
+   "description": "Lawvere's ICM lecture defines a topos by finite limits and colimits, cartesian closure and a subobject classifier, with no reference to sites; it credits joint work with Tierney.",
+   "evidence": [
+    {
+     "claim": "The paper defines a topos by finite limits, colimits, cartesian closure and subobject classifier and frames topologies as a modal operator.",
+     "source": "Lawvere, Quantifiers and sheaves (PDF on nLab)",
+     "url": "https://ncatlab.org/nlab/files/Lawvere-QuantifiersAndSheaves.pdf",
+     "kind": "primary_text"
+    },
+    {
+     "claim": "zbMATH dates the paper 1971.",
+     "source": "zbMATH Open document 3411260",
+     "url": "https://zbmath.org/3411260",
+     "kind": "bibliographic_record"
+    },
+    {
+     "claim": "Wikipedia attributes the axioms with a subobject classifier to Lawvere and Tierney.",
+     "source": "Wikipedia, History of topos theory",
+     "url": "https://en.wikipedia.org/wiki/History_of_topos_theory",
+     "kind": "history_page"
+    }
+   ],
+   "confidence": "medium",
+   "note": "Lecture 1970, proceedings volume 1971. The axioms were worked out in 1969-70 (Halifax) and circulated in unpublished lectures; no dated earlier printed statement was found."
+  },
+  "searched": [
+   "Wikipedia Topos, History of topos theory",
+   "zbMATH Lawvere 1970-1971",
+   "web search on Lawvere-Tierney axioms and Halifax 1969"
+  ],
+  "verdict": "Lawvere ICM 1970 paper (printed 1971) proposed."
+ },
+ {
+  "pid": "P477",
+  "eventId": "P28",
+  "milestone": {
+   "role": "first_statement",
+   "year": 1973,
+   "precision": "year",
+   "label": "Margulis gives the first explicit construction of concentrators",
+   "work": "G. A. Margulis, Explicit constructions of concentrators, Probl. Peredachi Inf. 9:4 (1973), 71-80; Problems Inform. Transmission 9:4 (1973), 325-332",
+   "people": [
+    "Grigory Margulis"
+   ],
+   "description": "Margulis uses group representation theory to build concentrators (expanders) explicitly, where existence had been shown only by probabilistic arguments.",
+   "evidence": [
+    {
+     "claim": "Mathnet record: 1973, vol. 9 no. 4, pp. 71-80; abstract says group representations solve the explicit construction.",
+     "source": "Math-Net.Ru record ppi925",
+     "url": "https://www.mathnet.ru/eng/ppi925",
+     "kind": "bibliographic_record"
+    },
+    {
+     "claim": "Secondary sources credit this paper as the first explicit expander construction via Kazhdan's property (T).",
+     "source": "Web search results (IPAM workshop page, survey literature)",
+     "url": "https://www.ipam.ucla.edu/programs/workshops/expanders-in-pure-and-applied-mathematics/",
+     "kind": "history_page"
+    }
+   ],
+   "confidence": "medium",
+   "note": "Use of property (T) rests on secondary sources; the paper text was not read. Pinsker's 1973 probabilistic existence proof is not checked. The 1988 Margulis paper (mathnet ppi686) is a different work."
+  },
+  "searched": [
+   "Wikipedia Expander graph",
+   "Math-Net.Ru ppi925 and ppi686",
+   "zbMATH Margulis (1982, 1988 only)",
+   "Crossref (response unusable)"
+  ],
+  "verdict": "Margulis 1973 proposed."
+ },
+ {
+  "pid": "P063",
+  "eventId": "E73",
+  "milestone": {
+   "role": "first_statement",
+   "year": 1976,
+   "precision": "year",
+   "label": "Appel and Haken announce a computer-assisted proof",
+   "work": "K. Appel and W. Haken, Every planar map is four colorable, Bull. Amer. Math. Soc. 82 (1976), 711-712",
+   "people": [
+    "Kenneth Appel",
+    "Wolfgang Haken"
+   ],
+   "description": "Appel and Haken announce, in a two-page note, a proof of the four colour theorem that relies on a large computer analysis.",
+   "evidence": [
+    {
+     "claim": "zbMATH lists the note in Bull. AMS 82 (1976), pp. 711-712.",
+     "source": "zbMATH Open document 3517182",
+     "url": "https://zbmath.org/3517182",
+     "kind": "bibliographic_record"
+    },
+    {
+     "claim": "Announced 21 June 1976 as a computer-aided proof.",
+     "source": "Wikipedia, Four color theorem",
+     "url": "https://en.wikipedia.org/wiki/Four_color_theorem",
+     "kind": "history_page"
+    }
+   ],
+   "confidence": "medium",
+   "note": "Full papers are Illinois J. Math. 21 (1977), already the first_application. Note text not read; computer role taken from Wikipedia."
+  },
+  "searched": [
+   "Wikipedia Four color theorem, Kepler conjecture",
+   "zbMATH Appel-Haken 1976-1977"
+  ],
+  "verdict": "1976 Bulletin announcement proposed."
+ },
+ {
+  "pid": "P316",
+  "eventId": "WC23/QC68",
+  "milestone": {
+   "role": "first_statement",
+   "year": 1983,
+   "precision": "range",
+   "label": "Langlands introduces the fundamental lemma",
+   "work": "R. P. Langlands, Les debuts d'une formule des traces stable, Publ. Math. Univ. Paris VII 13 (1983; zbMATH dates it 1982)",
+   "people": [
+    "Robert Langlands"
+   ],
+   "description": "Langlands's lecture notes state the fundamental lemma, a combinatorial identity between orbital integrals on a group and its endoscopic groups.",
+   "evidence": [
+    {
+     "claim": "Langlands says the fundamental lemma is introduced in these notes.",
+     "source": "Langlands' commentary, UBC Digital Math Archive",
+     "url": "https://www.sunsite.ubc.ca/DigitalMathArchive/Langlands/endoscopy.html",
+     "kind": "primary_text"
+    },
+    {
+     "claim": "zbMATH lists the notes in the Univ. Paris VII publications with year 1982.",
+     "source": "zbMATH Open document 3844039",
+     "url": "https://zbmath.org/3844039",
+     "kind": "bibliographic_record"
+    },
+    {
+     "claim": "Wikipedia says Langlands conjectured it in 1983; the SL(2) case is Labesse-Langlands 1979.",
+     "source": "Wikipedia, Fundamental lemma (Langlands program)",
+     "url": "https://en.wikipedia.org/wiki/Fundamental_lemma_(Langlands_program)",
+     "kind": "history_page"
+    }
+   ],
+   "confidence": "medium",
+   "note": "Year disputed: 1982 (zbMATH), 1983 (Wikipedia); one web source says 1979 and was not verified. Labesse-Langlands (Canad. J. Math. 31, 1979, zbMATH 3654252) treat SL(2), a precursor; Langlands-Shelstad 1987 gave the precise general form.",
+   "endYear": 1983
+  },
+  "searched": [
+   "Wikipedia Fundamental lemma",
+   "Langlands archive at UBC",
+   "zbMATH Langlands 1979, 1982, 1987",
+   "IAS archive (blocked by bot check, not bypassed)"
+  ],
+  "verdict": "Langlands, Les debuts, proposed with disputed year 1982-1983."
+ },
+ {
+  "pid": "P301",
+  "eventId": "WC30/QC46",
+  "milestone": {
+   "role": "first_statement",
+   "year": 1970,
+   "precision": "year",
+   "label": "Milnor proposes the mod 2 Milnor K-theory and Galois cohomology isomorphism",
+   "work": "J. Milnor, Algebraic K-theory and quadratic forms, Invent. Math. 9 (1970), 318-344",
+   "people": [
+    "John Milnor"
+   ],
+   "description": "Milnor suggests that Milnor K-theory mod 2 of a field is isomorphic to its Galois cohomology with Z/2 coefficients, the l = 2 case of the norm residue statement.",
+   "evidence": [
+    {
+     "claim": "zbMATH lists the paper in Invent. Math. 9 (1970), pp. 318-344, with an appendix by Tate.",
+     "source": "zbMATH Open document 3318401",
+     "url": "https://zbmath.org/3318401",
+     "kind": "bibliographic_record"
+    },
+    {
+     "claim": "The Milnor conjecture is a proposal of Milnor from 1970; the general case is the Bloch-Kato conjecture.",
+     "source": "Wikipedia, Milnor conjecture (K-theory)",
+     "url": "https://en.wikipedia.org/wiki/Milnor_conjecture_(K-theory)",
+     "kind": "history_page"
+    }
+   ],
+   "confidence": "medium",
+   "note": "Covers only l = 2; the all-primes statement is Bloch-Kato 1986, held as precursor in the record. Text of the 1970 paper not read."
+  },
+  "searched": [
+   "Wikipedia Norm residue isomorphism theorem, Milnor conjecture (K-theory)",
+   "zbMATH Milnor 1970"
+  ],
+  "verdict": "Milnor 1970 proposed."
+ }
+]

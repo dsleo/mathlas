@@ -1,0 +1,143 @@
+[
+ {
+  "pid": "P094",
+  "eventId": "B28",
+  "name": "The large sieve: harmonic analysis in analytic number theory",
+  "type": "technique-transfer",
+  "from": [
+   "Analysis"
+  ],
+  "to": [
+   "Number theory"
+  ],
+  "summary": "Duality for trigonometric polynomials gives inequalities on sums over characters, producing the Bombieri-Vinogradov theorem on primes in arithmetic progressions."
+ },
+ {
+  "pid": "P520",
+  "eventId": "P79",
+  "name": "Ito calculus and stochastic differential equations",
+  "type": "birth-by-fusion",
+  "from": [
+   "probability (Brownian motion, Markov processes)",
+   "analysis (differential and integral calculus, ODE)"
+  ],
+  "to": [
+   "stochastic analysis"
+  ],
+  "summary": "A differential and integral calculus for Brownian paths is built and used to solve stochastic differential equations."
+ },
+ {
+  "pid": "P205",
+  "eventId": "MB117/WB117",
+  "name": "Finite element method",
+  "type": "import-from-outside",
+  "from": [
+   "structural engineering",
+   "variational methods / PDE"
+  ],
+  "to": [
+   "numerical analysis (finite elements)"
+  ],
+  "summary": "Piecewise polynomial trial spaces gave systematic solvers."
+ },
+ {
+  "pid": "P219",
+  "eventId": "MB61/WB39",
+  "name": "Recursion theory and realizability",
+  "type": "dictionary-analogy",
+  "from": [
+   "logic",
+   "recursive functions",
+   "intuitionism"
+  ],
+  "to": [
+   "constructive logic",
+   "proof theory"
+  ],
+  "summary": "Recursive functions were used to interpret intuitionistic arithmetic."
+ },
+ {
+  "pid": "P203",
+  "eventId": "E72/MB19/WB51",
+  "name": "Distributions",
+  "type": "reification",
+  "from": [
+   "functional analysis",
+   "partial differential equations",
+   "Fourier analysis"
+  ],
+  "to": [
+   "distribution theory"
+  ],
+  "summary": "Generalised functions were defined as continuous linear functionals on test functions, unifying Dirac delta, weak derivatives and Fourier transforms."
+ },
+ {
+  "pid": "P279",
+  "eventId": "MB100",
+  "name": "Chern: intrinsic Gauss-Bonnet and characteristic classes",
+  "type": "technique-transfer",
+  "from": [
+   "differential geometry",
+   "topology"
+  ],
+  "to": [
+   "global differential geometry"
+  ],
+  "summary": "Curvature forms gave topological invariants."
+ },
+ {
+  "pid": "P054",
+  "eventId": "E62",
+  "name": "Homological algebra",
+  "type": "reification",
+  "from": [
+   "Topology",
+   "Algebra"
+  ],
+  "to": [
+   "Algebra"
+  ],
+  "summary": "Chain complexes, derived functors and exact sequences, first tools of algebraic topology, are turned into a general machinery for modules and then for sheaves."
+ },
+ {
+  "pid": "P210",
+  "eventId": "MB22/WB7",
+  "name": "Axiomatic homology",
+  "type": "reification",
+  "from": [
+   "algebraic topology",
+   "category theory"
+  ],
+  "to": [
+   "axiomatic homology theory"
+  ],
+  "summary": "Homology theories were characterised by axioms such as excision, allowing comparison and later generalised theories."
+ },
+ {
+  "pid": "P249",
+  "eventId": "MB15",
+  "name": "Shannon: communication theory of secrecy",
+  "type": "technique-transfer",
+  "from": [
+   "information theory",
+   "cryptography"
+  ],
+  "to": [
+   "mathematical cryptography"
+  ],
+  "summary": "Information-theoretic concepts were used to define and bound secrecy of ciphers."
+ },
+ {
+  "pid": "P080",
+  "eventId": "B14",
+  "name": "Landau damping: plasma physics to nonlinear PDE",
+  "type": "import-from-outside",
+  "from": [
+   "Physics"
+  ],
+  "to": [
+   "Analysis"
+  ],
+  "summary": "A prediction of plasma physics from 1946 is proved for the nonlinear Vlasov equation in Gevrey regularity, using analytic norms and a new treatment of echoes."
+ }
+]

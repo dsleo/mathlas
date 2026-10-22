@@ -1,0 +1,139 @@
+[
+ {
+  "pid": "P432",
+  "eventId": "H19",
+  "name": "Complex numbers as plane points and as real two-dimensional algebra",
+  "type": "dictionary-analogy",
+  "from": [
+   "algebra",
+   "geometry"
+  ],
+  "to": [
+   "algebra / geometry of the plane"
+  ],
+  "summary": "Argand located complex numbers in the plane, and Hamilton presented them as ordered pairs with rules of algebra, bridging geometric and algebraic readings of the imaginary."
+ },
+ {
+  "pid": "P138",
+  "eventId": "WA65/MA98",
+  "name": "Quintic impossibility",
+  "type": "technique-transfer",
+  "from": [
+   "permutation groups"
+  ],
+  "to": [
+   "theory of equations"
+  ],
+  "summary": "Ruffini used permutation groups and Abel gave a complete proof of unsolvability of quintic."
+ },
+ {
+  "pid": "P007",
+  "eventId": "E09",
+  "name": "Fourier series: heat flow to analysis",
+  "type": "import-from-outside",
+  "from": [
+   "Physics"
+  ],
+  "to": [
+   "Analysis"
+  ],
+  "summary": "The heat equation leads to arbitrary functions represented as trigonometric series, forcing a redefinition of function and integral."
+ },
+ {
+  "pid": "P128",
+  "eventId": "MA97/WA80",
+  "name": "Cauchy complex analysis",
+  "type": "birth-by-abstraction",
+  "from": [
+   "definite integrals",
+   "complex numbers"
+  ],
+  "to": [
+   "complex analysis"
+  ],
+  "summary": "Integrals along paths in the complex plane gave theorems and the calculus of residues."
+ },
+ {
+  "pid": "P113",
+  "eventId": "WA73/MA105",
+  "name": "Poncelet projective geometry",
+  "type": "dictionary-analogy",
+  "from": [
+   "geometry"
+  ],
+  "to": [
+   "projective geometry"
+  ],
+  "summary": "Poncelet's treatise and the duality principle swapped points and lines."
+ },
+ {
+  "pid": "P144",
+  "eventId": "MA111/WA69",
+  "name": "Hamiltonian optics and mechanics",
+  "type": "technique-transfer",
+  "from": [
+   "optics",
+   "mechanics"
+  ],
+  "to": [
+   "analytical mechanics"
+  ],
+  "summary": "A function from ray optics was used for dynamics."
+ },
+ {
+  "pid": "P182",
+  "eventId": "MA100",
+  "name": "Abel's theorem and abelian integrals",
+  "type": "birth-by-fusion",
+  "from": [
+   "algebraic functions",
+   "integral calculus"
+  ],
+  "to": [
+   "algebraic geometry"
+  ],
+  "summary": "A theorem on sums of integrals of algebraic functions introduced genus, lost until 1952."
+ },
+ {
+  "pid": "P008",
+  "eventId": "E10",
+  "name": "Riemannian geometry and manifolds",
+  "type": "birth-by-abstraction",
+  "from": [
+   "Analysis",
+   "Physics"
+  ],
+  "to": [
+   "Geometry"
+  ],
+  "summary": "Intrinsic geometry of surfaces is generalised to n-dimensional spaces with a metric given by a quadratic form, with the question of physical space in view."
+ },
+ {
+  "pid": "P161",
+  "eventId": "MA99",
+  "name": "Abel: elliptic functions as inverses of elliptic integrals",
+  "type": "technique-transfer",
+  "from": [
+   "elliptic integrals",
+   "complex analysis"
+  ],
+  "to": [
+   "elliptic function theory"
+  ],
+  "summary": "Inverting elliptic integrals gave doubly periodic functions."
+ },
+ {
+  "pid": "P166",
+  "eventId": "MA101",
+  "name": "Jacobi: theta functions and elliptic function theory",
+  "type": "technique-transfer",
+  "from": [
+   "elliptic functions",
+   "number theory"
+  ],
+  "to": [
+   "number theory"
+  ],
+  "summary": "Elliptic functions were rebuilt on theta functions in a systematic treatise."
+ }
+]

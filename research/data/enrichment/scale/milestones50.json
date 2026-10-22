@@ -1,0 +1,1061 @@
+[
+  {
+    "pid": "P298",
+    "eventId": "E57/WC52/QC63",
+    "canonicalName": "Regularity structures",
+    "aliases": [
+      "regularity structures",
+      "singular stochastic PDEs",
+      "Phi-four three",
+      "KPZ equation"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 2011,
+        "precision": "year",
+        "label": "Pathwise KPZ solution",
+        "work": "M. Hairer, Solving the KPZ equation, arXiv:1109.6811 (2011)",
+        "people": [
+          "Martin Hairer"
+        ],
+        "description": "A pathwise solution theory for KPZ precedes the general regularity-structure framework.",
+        "evidence": [
+          {
+            "claim": "First public preprint posted September 2011",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1109.6811",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "first_statement",
+        "year": 2013,
+        "precision": "year",
+        "label": "Regularity structures introduced",
+        "work": "M. Hairer, A theory of regularity structures, arXiv:1303.5113 (2013)",
+        "people": [
+          "Martin Hairer"
+        ],
+        "description": "The preprint defines models and a calculus for singular stochastic PDEs.",
+        "evidence": [
+          {
+            "claim": "First public preprint posted March 2013",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1303.5113",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same paper states and applies the framework."
+      },
+      {
+        "role": "first_application",
+        "year": 2013,
+        "precision": "year",
+        "label": "Phi-four three dynamics constructed",
+        "work": "M. Hairer, A theory of regularity structures, arXiv:1303.5113 (2013)",
+        "people": [
+          "Martin Hairer"
+        ],
+        "description": "The paper uses regularity structures to construct the stochastic quantization process for the three-dimensional Phi-four model.",
+        "evidence": [
+          {
+            "claim": "The abstract explicitly names the Phi-four-three application",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1303.5113",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same work truly plays both first-statement and first-application roles."
+      },
+      {
+        "role": "consolidation",
+        "year": 2020,
+        "precision": "year",
+        "label": "Rough-path course incorporates regularity structures",
+        "work": "P. K. Friz and M. Hairer, A Course on Rough Paths, second edition, Springer (2020)",
+        "people": [
+          "Martin Hairer"
+        ],
+        "description": "A systematic second-edition text includes an introduction to regularity structures.",
+        "evidence": [
+          {
+            "claim": "Publisher records the 2020 second edition",
+            "source": "Springer / Crossref",
+            "url": "https://doi.org/10.1007/978-3-030-41556-3",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Martin Hairer",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://www.epfl.ch/labs/propde/prof-martin-hairer/",
+        "works": [
+          {
+            "citation": "A theory of regularity structures",
+            "year": 2013,
+            "url": "https://arxiv.org/abs/1303.5113",
+            "whyItMatters": "Defines the framework and constructs its first major SPDE application"
+          }
+        ]
+      }
+    ],
+    "notes": "The 2011 KPZ work is a precursor, not a 2011 publication of the general regularity-structures theory. The Inventiones 2014 journal date follows the public 2013 preprint."
+  },
+  {
+    "pid": "P302",
+    "eventId": "B16/QC26/WC25",
+    "canonicalName": "Perfectoid spaces",
+    "aliases": [
+      "perfectoid spaces",
+      "tilting equivalence",
+      "almost purity",
+      "p-adic Hodge theory"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 2011,
+        "precision": "year",
+        "label": "Perfectoid spaces and tilting introduced",
+        "work": "P. Scholze, Perfectoid spaces, arXiv:1111.4914 (2011)",
+        "people": [
+          "Peter Scholze"
+        ],
+        "description": "The preprint defines perfectoid rings and spaces and their characteristic-changing tilting operation.",
+        "evidence": [
+          {
+            "claim": "First public preprint posted November 2011",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1111.4914",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same work defines and applies the theory."
+      },
+      {
+        "role": "first_application",
+        "year": 2011,
+        "precision": "year",
+        "label": "Tilting applied to weight-monodromy cases",
+        "work": "P. Scholze, Perfectoid spaces, arXiv:1111.4914 (2011)",
+        "people": [
+          "Peter Scholze"
+        ],
+        "description": "The paper deduces cases of the weight-monodromy conjecture by reduction to equal characteristic.",
+        "evidence": [
+          {
+            "claim": "The abstract states the target application",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1111.4914",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same work truly plays both first-statement and first-application roles."
+      },
+      {
+        "role": "key_development",
+        "year": 2012,
+        "precision": "year",
+        "label": "Perfectoid spaces used in rigid-analytic p-adic Hodge theory",
+        "work": "P. Scholze, p-adic Hodge theory for rigid-analytic varieties, arXiv:1205.3463 (2012)",
+        "people": [
+          "Peter Scholze"
+        ],
+        "description": "A comparison theorem for rigid-analytic varieties explicitly relies on perfectoid spaces.",
+        "evidence": [
+          {
+            "claim": "First public preprint posted May 2012",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1205.3463",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "consolidation",
+        "year": 2013,
+        "precision": "year",
+        "label": "Perfectoid-space survey",
+        "work": "P. Scholze, Perfectoid Spaces: A survey, arXiv:1303.5948 (2013)",
+        "people": [
+          "Peter Scholze"
+        ],
+        "description": "The survey organizes the new theory, applications and open problems.",
+        "evidence": [
+          {
+            "claim": "Public survey preprint posted March 2013",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1303.5948",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Peter Scholze",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://www.uni-bonn.de/de/forschung-lehre/forschungsprofil/transdisziplinaere-forschungsbereiche/modelling/mitgliederverzeichnis/peter-scholze",
+        "works": [
+          {
+            "citation": "Perfectoid spaces",
+            "year": 2011,
+            "url": "https://arxiv.org/abs/1111.4914",
+            "whyItMatters": "Introduces tilting and applies it to weight-monodromy"
+          }
+        ]
+      }
+    ],
+    "notes": "The public arXiv posting is 2011, preceding the 2012 journal issue. The catalogue's 2020 institutional date has no checked field-naming institution and is not promoted."
+  },
+  {
+    "pid": "P544",
+    "eventId": "Q45",
+    "canonicalName": "MIP*=RE: entangled provers, computability and the Connes embedding problem",
+    "aliases": [
+      "MIP*=RE",
+      "entangled provers",
+      "Connes embedding problem",
+      "quantum multiprover interactive proofs"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 2012,
+        "precision": "year",
+        "label": "Entangled-prover NEXP lower bound",
+        "work": "T. Ito and T. Vidick, A multi-prover interactive proof for NEXP sound against entangled provers, arXiv:1207.0550 (2012)",
+        "people": [],
+        "description": "A lower bound for MIP* predates the equality with recursively enumerable languages.",
+        "evidence": [
+          {
+            "claim": "Public preprint posted July 2012",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1207.0550",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 2019,
+        "precision": "year",
+        "label": "NEEXP lower bound for MIP*",
+        "work": "A. Natarajan and J. Wright, NEEXP in MIP*, arXiv:1904.05870 (2019)",
+        "people": [],
+        "description": "The stronger lower bound is part of the proof trajectory toward MIP*=RE.",
+        "evidence": [
+          {
+            "claim": "Public preprint posted April 2019",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1904.05870",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "first_statement",
+        "year": 2020,
+        "precision": "year",
+        "label": "MIP*=RE theorem posted",
+        "work": "Z. Ji, A. Natarajan, T. Vidick, J. Wright and H. Yuen, MIP*=RE, arXiv:2001.04383 (2020)",
+        "people": [
+          "Zhengfeng Ji",
+          "Anand Natarajan",
+          "Thomas Vidick",
+          "John Wright",
+          "Henry Yuen"
+        ],
+        "description": "The preprint states the equality of entangled multiprover proofs and recursively enumerable languages.",
+        "evidence": [
+          {
+            "claim": "First public preprint posted January 2020",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/2001.04383",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same paper proves the theorem and its consequences."
+      },
+      {
+        "role": "first_application",
+        "year": 2020,
+        "precision": "year",
+        "label": "Halting problem reduced to nonlocal-game value",
+        "work": "Z. Ji et al., MIP*=RE, arXiv:2001.04383 (2020)",
+        "people": [
+          "Zhengfeng Ji",
+          "Anand Natarajan",
+          "Thomas Vidick",
+          "John Wright",
+          "Henry Yuen"
+        ],
+        "description": "The theorem yields undecidability of entangled game value and a negative answer to Connes embedding.",
+        "evidence": [
+          {
+            "claim": "The abstract explicitly states both consequences",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/2001.04383",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same work truly plays both first-statement and first-application roles."
+      }
+    ],
+    "people": [
+      {
+        "name": "Thomas Vidick",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://iqim.caltech.edu/profile/thomas-vidick/",
+        "works": [
+          {
+            "citation": "MIP*=RE",
+            "year": 2020,
+            "url": "https://arxiv.org/abs/2001.04383",
+            "whyItMatters": "Co-proves the theorem linking quantum games and computability"
+          }
+        ]
+      }
+    ],
+    "notes": "The inherited conceptual range 2011–13 describes antecedents, not the 2020 theorem. These precursors are separate milestones. This event overlaps Q46's quantum-game history but has a different target theorem."
+  },
+  {
+    "pid": "P552",
+    "eventId": "Q63",
+    "canonicalName": "Arc spaces of singularities and partition identities",
+    "aliases": [
+      "arc spaces and Rogers-Ramanujan identities",
+      "Hilbert-Poincare series of arc spaces",
+      "partitions from singularities"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 2011,
+        "precision": "year",
+        "label": "Arc-space/partition correspondence posted",
+        "work": "C. Bruschek, H. Mourtada and J. Schepers, Arc Spaces and Rogers-Ramanujan Identities, arXiv:1101.4950 (2011)",
+        "people": [
+          "Clemens Bruschek",
+          "Hussein Mourtada",
+          "Jan Schepers"
+        ],
+        "description": "The paper links Hilbert-Poincare series of arc spaces to partition generating functions.",
+        "evidence": [
+          {
+            "claim": "Public preprint posted January 2011",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1101.4950",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same work states and applies the connection."
+      },
+      {
+        "role": "first_application",
+        "year": 2011,
+        "precision": "year",
+        "label": "Double-point arc space yields Rogers-Ramanujan identity",
+        "work": "C. Bruschek, H. Mourtada and J. Schepers, Arc Spaces and Rogers-Ramanujan Identities, DMTCS Proceedings AO (2011)",
+        "people": [
+          "Clemens Bruschek",
+          "Hussein Mourtada",
+          "Jan Schepers"
+        ],
+        "description": "The 2011 proceeding applies the arc-space series of a double point to integer partitions without equal or consecutive parts.",
+        "evidence": [
+          {
+            "claim": "Published 2011 proceeding and abstract identify the double-point application",
+            "source": "DMTCS / Crossref",
+            "url": "https://doi.org/10.46298/dmtcs.2904",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "This is a published version of the founding preprint and documents the same first application."
+      },
+      {
+        "role": "key_development",
+        "year": 2020,
+        "precision": "year",
+        "label": "Differential-ideal Groebner bases extend the partition connection",
+        "work": "P. Afsharijoo and H. Mourtada, Partition identities and application to infinite dimensional Groebner basis and viceversa, arXiv:2006.09147 (2020)",
+        "people": [
+          "Hussein Mourtada"
+        ],
+        "description": "A later paper relates differential-ideal Groebner bases to Rogers-Ramanujan-type partition identities.",
+        "evidence": [
+          {
+            "claim": "Public preprint posted June 2020",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/2006.09147",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Hussein Mourtada",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://webusers.imj-prg.fr/~hussein.mourtada/english.html",
+        "works": [
+          {
+            "citation": "Arc Spaces and Rogers-Ramanujan Identities",
+            "year": 2011,
+            "url": "https://doi.org/10.46298/dmtcs.2904",
+            "whyItMatters": "Co-links arc spaces of singularities and partition identities"
+          }
+        ]
+      }
+    ],
+    "notes": "The inherited Craig–van Ittersum–Ono 2024 citation concerns partitions detecting primes, not this arc-space construction; it is not included as a development. The 2011 preprint and proceeding are the same project, not independent priority claims."
+  },
+  {
+    "pid": "P101",
+    "eventId": "B35",
+    "canonicalName": "Virtual fundamental cycles via homotopical algebra",
+    "aliases": [
+      "virtual fundamental cycles",
+      "implicit atlases",
+      "pseudo-holomorphic curve moduli",
+      "algebraic VFC package"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1996,
+        "precision": "year",
+        "label": "Intrinsic normal cone and virtual class",
+        "work": "K. Behrend and B. Fantechi, The intrinsic normal cone, arXiv:alg-geom/9601010 (1996)",
+        "people": [],
+        "description": "An earlier algebraic construction of virtual classes provides a distinct foundation.",
+        "evidence": [
+          {
+            "claim": "First public preprint posted January 1996",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/alg-geom/9601010",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "first_statement",
+        "year": 2013,
+        "precision": "year",
+        "label": "Pardon introduces implicit-atlas VFC package",
+        "work": "J. Pardon, An algebraic approach to virtual fundamental cycles on moduli spaces of pseudo-holomorphic curves, arXiv:1309.2370 (2013)",
+        "people": [
+          "John Pardon"
+        ],
+        "description": "The preprint presents an algebraic, sheaf-theoretic virtual-cycle construction using implicit atlases.",
+        "evidence": [
+          {
+            "claim": "First public preprint posted September 2013",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1309.2370",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same paper states and applies this particular construction."
+      },
+      {
+        "role": "first_application",
+        "year": 2013,
+        "precision": "year",
+        "label": "Implicit-atlas package applied to symplectic invariants",
+        "work": "J. Pardon, An algebraic approach to virtual fundamental cycles on moduli spaces of pseudo-holomorphic curves, arXiv:1309.2370 (2013)",
+        "people": [
+          "John Pardon"
+        ],
+        "description": "The paper gives definitions of Gromov–Witten invariants and Hamiltonian Floer homology and an S1-localization calculation.",
+        "evidence": [
+          {
+            "claim": "The abstract explicitly names these applications",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1309.2370",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same work truly plays both first-statement and first-application roles."
+      }
+    ],
+    "people": [
+      {
+        "name": "John Pardon",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://scgp.stonybrook.edu/people/faculty/bios/john-pardon",
+        "works": [
+          {
+            "citation": "An algebraic approach to virtual fundamental cycles on moduli spaces of pseudo-holomorphic curves",
+            "year": 2013,
+            "url": "https://arxiv.org/abs/1309.2370",
+            "whyItMatters": "Develops and applies implicit atlases"
+          }
+        ]
+      }
+    ],
+    "notes": "The inherited 2012 date is earlier than the checked 2013 public preprint and is not used. The event name's 'homotopical algebra' is broader than the paper's own description, which emphasizes algebraic/sheaf-theoretic implicit atlases."
+  },
+  {
+    "pid": "P336",
+    "eventId": "WC54",
+    "canonicalName": "Paracontrolled distributions",
+    "aliases": [
+      "paracontrolled distributions",
+      "singular SPDEs",
+      "controlled rough paths",
+      "paradifferential calculus"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 2003,
+        "precision": "year",
+        "label": "Controlled rough paths",
+        "work": "M. Gubinelli, Controlling Rough Paths, arXiv:math/0306433 (2003)",
+        "people": [
+          "Massimiliano Gubinelli"
+        ],
+        "description": "Controlled rough paths supply one of the ingredients later adapted to singular PDEs.",
+        "evidence": [
+          {
+            "claim": "Public preprint posted June 2003",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/math/0306433",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "first_statement",
+        "year": 2012,
+        "precision": "year",
+        "label": "Paracontrolled distributions introduced",
+        "work": "M. Gubinelli, P. Imkeller and N. Perkowski, Paracontrolled distributions and singular PDEs, arXiv:1210.2684 (2012)",
+        "people": [
+          "Massimiliano Gubinelli",
+          "Peter Imkeller",
+          "Nicolas Perkowski"
+        ],
+        "description": "The paper combines paradifferential calculus with controlled rough paths for singular PDEs.",
+        "evidence": [
+          {
+            "claim": "First public preprint posted October 2012",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1210.2684",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same paper introduces and applies the approach."
+      },
+      {
+        "role": "first_application",
+        "year": 2012,
+        "precision": "year",
+        "label": "Paracontrolled method applied to model SPDEs",
+        "work": "M. Gubinelli, P. Imkeller and N. Perkowski, Paracontrolled distributions and singular PDEs, arXiv:1210.2684 (2012)",
+        "people": [
+          "Massimiliano Gubinelli",
+          "Peter Imkeller",
+          "Nicolas Perkowski"
+        ],
+        "description": "The authors treat fractional-Brownian, Burgers-type and parabolic-Anderson model problems.",
+        "evidence": [
+          {
+            "claim": "The abstract explicitly lists the model problems",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1210.2684",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same work truly plays both first-statement and first-application roles."
+      }
+    ],
+    "people": [
+      {
+        "name": "Massimiliano Gubinelli",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://www.maths.ox.ac.uk/people/massimiliano.gubinelli",
+        "works": [
+          {
+            "citation": "Paracontrolled distributions and singular PDEs",
+            "year": 2012,
+            "url": "https://arxiv.org/abs/1210.2684",
+            "whyItMatters": "Co-introduces and applies the method"
+          }
+        ]
+      }
+    ],
+    "notes": "The Forum of Mathematics, Pi publication is 2015; the same work was publicly available in 2012."
+  },
+  {
+    "pid": "P310",
+    "eventId": "WC62/QC20",
+    "canonicalName": "Ramanujan graphs / interlacing",
+    "aliases": [
+      "Ramanujan graphs of every degree",
+      "interlacing polynomials",
+      "2-lifts",
+      "spectral expanders"
+    ],
+    "phases": [
+      "Ramanujan graphs",
+      "interlacing families"
+    ],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1988,
+        "precision": "year",
+        "label": "Classical Ramanujan graph constructions",
+        "work": "A. Lubotzky, R. Phillips and P. Sarnak, Ramanujan graphs, Combinatorica 8 (1988)",
+        "people": [],
+        "description": "Explicit constructions cover special degrees before the all-degree interlacing result.",
+        "evidence": [
+          {
+            "claim": "Publisher record dates the classical paper to 1988",
+            "source": "Springer / Crossref",
+            "url": "https://doi.org/10.1007/BF02126799",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "phase": "Ramanujan graphs"
+      },
+      {
+        "role": "first_statement",
+        "year": 2013,
+        "precision": "year",
+        "label": "Interlacing families for all-degree Ramanujan graphs",
+        "work": "A. Marcus, D. A. Spielman and N. Srivastava, Interlacing Families I: Bipartite Ramanujan Graphs of All Degrees, arXiv:1304.4132 (2013)",
+        "people": [
+          "Adam Marcus",
+          "Daniel A. Spielman",
+          "Nikhil Srivastava"
+        ],
+        "description": "The public preprint introduces interlacing-polynomial existence arguments and states all-degree bipartite Ramanujan graph families.",
+        "evidence": [
+          {
+            "claim": "First public preprint posted April 2013",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1304.4132",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same paper introduces and applies this interlacing method.",
+        "phase": "interlacing families"
+      },
+      {
+        "role": "first_application",
+        "year": 2013,
+        "precision": "year",
+        "label": "Interlacing applied to graph 2-lifts",
+        "work": "A. Marcus, D. A. Spielman and N. Srivastava, Interlacing Families I: Bipartite Ramanujan Graphs of All Degrees, arXiv:1304.4132 (2013)",
+        "people": [
+          "Adam Marcus",
+          "Daniel A. Spielman",
+          "Nikhil Srivastava"
+        ],
+        "description": "The method proves existence of good 2-lifts and infinite bipartite Ramanujan families in every degree above two.",
+        "evidence": [
+          {
+            "claim": "The abstract states the 2-lift target",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1304.4132",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same work truly plays both first-statement and first-application roles.",
+        "phase": "interlacing families"
+      }
+    ],
+    "people": [
+      {
+        "name": "Daniel A. Spielman",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://cs.yale.edu/homes/spielman/",
+        "works": [
+          {
+            "citation": "Interlacing Families I: Bipartite Ramanujan Graphs of All Degrees",
+            "year": 2013,
+            "url": "https://arxiv.org/abs/1304.4132",
+            "whyItMatters": "Co-develops interlacing families for all-degree expanders"
+          }
+        ]
+      }
+    ],
+    "notes": "This catalogue event bundles the 1988 graph notion and 2013 interlacing method. The 1988 paper is retained as a phase precursor, so derived dates describe the new transfer rather than the birth of Ramanujan graphs."
+  },
+  {
+    "pid": "P353",
+    "eventId": "QC12",
+    "canonicalName": "Kadison-Singer via interlacing polynomials",
+    "aliases": [
+      "Kadison-Singer problem",
+      "mixed characteristic polynomials",
+      "paving conjecture",
+      "interlacing families II"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1959,
+        "precision": "year",
+        "label": "Kadison–Singer problem posed",
+        "work": "R. V. Kadison and I. M. Singer, Extensions of Pure States, American Journal of Mathematics 81 (1959)",
+        "people": [],
+        "description": "The original operator-algebra problem predates its interlacing-polynomial solution.",
+        "evidence": [
+          {
+            "claim": "Publisher record dates the original article to 1959",
+            "source": "JSTOR / Crossref",
+            "url": "https://doi.org/10.2307/2372748",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "precursor",
+        "year": 2013,
+        "precision": "year",
+        "label": "Interlacing families I establishes method",
+        "work": "A. Marcus, D. A. Spielman and N. Srivastava, Interlacing Families I, arXiv:1304.4132 (2013)",
+        "people": [
+          "Adam Marcus",
+          "Daniel A. Spielman",
+          "Nikhil Srivastava"
+        ],
+        "description": "An April preprint develops the interlacing method for Ramanujan graphs before the Kadison–Singer transfer.",
+        "evidence": [
+          {
+            "claim": "First public preprint posted April 2013",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1304.4132",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "first_statement",
+        "year": 2013,
+        "precision": "year",
+        "label": "Kadison–Singer solution posted",
+        "work": "A. Marcus, D. A. Spielman and N. Srivastava, Interlacing Families II: Mixed Characteristic Polynomials and the Kadison-Singer Problem, arXiv:1306.3969 (2013)",
+        "people": [
+          "Adam Marcus",
+          "Daniel A. Spielman",
+          "Nikhil Srivastava"
+        ],
+        "description": "The public preprint states a positive solution through interlacing and mixed characteristic polynomials.",
+        "evidence": [
+          {
+            "claim": "First public preprint posted June 2013",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1306.3969",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same paper states and applies the method."
+      },
+      {
+        "role": "first_application",
+        "year": 2013,
+        "precision": "year",
+        "label": "Mixed characteristic polynomials prove paving bounds",
+        "work": "A. Marcus, D. A. Spielman and N. Srivastava, Interlacing Families II: Mixed Characteristic Polynomials and the Kadison-Singer Problem, arXiv:1306.3969 (2013)",
+        "people": [
+          "Adam Marcus",
+          "Daniel A. Spielman",
+          "Nikhil Srivastava"
+        ],
+        "description": "The method proves Weaver's KS2 and explicit paving consequences implying Kadison–Singer.",
+        "evidence": [
+          {
+            "claim": "The abstract identifies these target conjectures",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1306.3969",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same work truly plays both first-statement and first-application roles."
+      }
+    ],
+    "people": [
+      {
+        "name": "Daniel A. Spielman",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://cs.yale.edu/homes/spielman/",
+        "works": [
+          {
+            "citation": "Interlacing Families II: Mixed Characteristic Polynomials and the Kadison-Singer Problem",
+            "year": 2013,
+            "url": "https://arxiv.org/abs/1306.3969",
+            "whyItMatters": "Co-applies interlacing to Kadison–Singer"
+          }
+        ]
+      }
+    ],
+    "notes": "The original 1959 question and the 2013 interlacing proof are different stages. The 2015 Annals publication follows the public June 2013 preprint."
+  },
+  {
+    "pid": "P534",
+    "eventId": "Q25",
+    "canonicalName": "Liouville quantum gravity, the Brownian map and SLE",
+    "aliases": [
+      "Liouville quantum gravity",
+      "Brownian map equivalence",
+      "quantum Loewner evolution",
+      "QLE metric"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1999,
+        "precision": "year",
+        "label": "Schramm's LERW/UST scaling-limit work posted",
+        "work": "O. Schramm, Scaling limits of loop-erased random walks and uniform spanning trees, arXiv:math/9904022 (1999)",
+        "people": [],
+        "description": "SLE-related scaling-limit methods precede the later random-surface metric construction.",
+        "evidence": [
+          {
+            "claim": "Public preprint posted April 1999",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/math/9904022",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "first_statement",
+        "year": 2015,
+        "precision": "year",
+        "label": "QLE metric on Liouville quantum gravity proposed",
+        "work": "J. Miller and S. Sheffield, Liouville quantum gravity and the Brownian map I: The QLE(8/3,0) metric, arXiv:1507.00719 (2015)",
+        "people": [
+          "Jason Miller",
+          "Scott Sheffield"
+        ],
+        "description": "The first series paper constructs a metric on a dense subset of the Liouville quantum gravity sphere.",
+        "evidence": [
+          {
+            "claim": "First public preprint posted July 2015",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1507.00719",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "first_application",
+        "year": 2016,
+        "precision": "year",
+        "label": "LQG metric identified with the Brownian map",
+        "work": "J. Miller and S. Sheffield, Liouville quantum gravity and the Brownian map II: geodesics and continuity of the embedding, arXiv:1605.03563 (2016)",
+        "people": [
+          "Jason Miller",
+          "Scott Sheffield"
+        ],
+        "description": "The QLE metric is extended continuously to the sphere and its metric-measure law is identified with the Brownian map.",
+        "evidence": [
+          {
+            "claim": "First public preprint posted May 2016; abstract states the identification",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1605.03563",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Scott Sheffield",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://math.mit.edu/~sheffield/",
+        "works": [
+          {
+            "citation": "Liouville quantum gravity and the Brownian map II: geodesics and continuity of the embedding",
+            "year": 2016,
+            "url": "https://arxiv.org/abs/1605.03563",
+            "whyItMatters": "Co-proves the LQG/Brownian-map metric identification"
+          }
+        ]
+      }
+    ],
+    "notes": "The 2015 part I paper does not yet establish the full law equivalence; part II does so in 2016. This record concerns that specific metric bridge, not the first definition of LQG or SLE."
+  },
+  {
+    "pid": "P350",
+    "eventId": "QC24",
+    "canonicalName": "Kakeya and Bourgain-Guth, decoupling for Vinogradov",
+    "aliases": [
+      "l2 decoupling",
+      "Bourgain-Demeter decoupling",
+      "Vinogradov mean value theorem",
+      "multilinear restriction"
+    ],
+    "phases": [
+      "Bourgain–Guth restriction method",
+      "decoupling and Vinogradov"
+    ],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 2010,
+        "precision": "year",
+        "label": "Bourgain–Guth multilinear restriction argument",
+        "work": "J. Bourgain and L. Guth, Bounds on oscillatory integral operators based on multilinear estimates, arXiv:1012.3760 (2010)",
+        "people": [
+          "Jean Bourgain",
+          "Larry Guth"
+        ],
+        "description": "Multilinear estimates improve restriction bounds and connect to curved Kakeya problems.",
+        "evidence": [
+          {
+            "claim": "Public preprint posted December 2010",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1012.3760",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "phase": "Bourgain–Guth restriction method"
+      },
+      {
+        "role": "first_statement",
+        "year": 2014,
+        "precision": "year",
+        "label": "Sharp l2 decoupling proved",
+        "work": "J. Bourgain and C. Demeter, The proof of the l2 Decoupling Conjecture, arXiv:1403.5335 (2014)",
+        "people": [
+          "Jean Bourgain",
+          "Ciprian Demeter"
+        ],
+        "description": "The public paper proves the decoupling conjecture for positive-curvature hypersurfaces and cones.",
+        "evidence": [
+          {
+            "claim": "First public preprint posted March 2014",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1403.5335",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "phase": "decoupling and Vinogradov"
+      },
+      {
+        "role": "first_application",
+        "year": 2015,
+        "precision": "year",
+        "label": "Decoupling proves Vinogradov mean-value conjecture",
+        "work": "J. Bourgain, C. Demeter and L. Guth, Proof of the main conjecture in Vinogradov's mean value theorem for degrees higher than three, arXiv:1512.01565 (2015)",
+        "people": [
+          "Jean Bourgain",
+          "Ciprian Demeter",
+          "Larry Guth"
+        ],
+        "description": "A sharp decoupling inequality for curves yields the main conjecture in Vinogradov's mean-value theorem for degrees above three.",
+        "evidence": [
+          {
+            "claim": "First public preprint posted December 2015; abstract identifies the method",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1512.01565",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "phase": "decoupling and Vinogradov"
+      },
+      {
+        "role": "consolidation",
+        "year": 2016,
+        "precision": "year",
+        "label": "Decoupling study guide",
+        "work": "J. Bourgain and C. Demeter, A study guide for the l2 Decoupling Theorem, arXiv:1604.06032 (2016)",
+        "people": [
+          "Jean Bourgain",
+          "Ciprian Demeter"
+        ],
+        "description": "A self-contained proof organizes the decoupling theorem for readers.",
+        "evidence": [
+          {
+            "claim": "Public guide posted April 2016",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1604.06032",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "phase": "decoupling and Vinogradov"
+      }
+    ],
+    "people": [
+      {
+        "name": "Ciprian Demeter",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://math.indiana.edu/about/faculty/demeter-ciprian.html",
+        "works": [
+          {
+            "citation": "The proof of the l2 Decoupling Conjecture",
+            "year": 2014,
+            "url": "https://arxiv.org/abs/1403.5335",
+            "whyItMatters": "Co-proves sharp decoupling, later applied to Vinogradov"
+          }
+        ]
+      }
+    ],
+    "notes": "The event bundles the 2010 Bourgain–Guth restriction method, 2014 Bourgain–Demeter decoupling, and 2015 Vinogradov application. The 2016 Annals date is later than the public 2015 preprint."
+  }
+]

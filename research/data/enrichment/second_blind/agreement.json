@@ -1,0 +1,187 @@
+{
+ "summary": {
+  "conceptual": {
+   "both": 36,
+   "within3": 30,
+   "exact": 25,
+   "onlyFirstPass": 4,
+   "onlySecondPass": 0,
+   "neither": 0
+  },
+  "methodological": {
+   "both": 9,
+   "within3": 7,
+   "exact": 7,
+   "onlyFirstPass": 14,
+   "onlySecondPass": 3,
+   "neither": 14
+  },
+  "institutional": {
+   "both": 32,
+   "within3": 14,
+   "exact": 10,
+   "onlyFirstPass": 8,
+   "onlySecondPass": 0,
+   "neither": 0
+  }
+ },
+ "disagreements": [
+  {
+   "pid": "P033",
+   "role": "conceptual",
+   "first": 1983,
+   "second": 1978
+  },
+  {
+   "pid": "P100",
+   "role": "conceptual",
+   "first": 1975,
+   "second": 1900
+  },
+  {
+   "pid": "P375",
+   "role": "conceptual",
+   "first": 1894,
+   "second": 1888
+  },
+  {
+   "pid": "P421",
+   "role": "conceptual",
+   "first": 1910,
+   "second": 1914
+  },
+  {
+   "pid": "P355",
+   "role": "conceptual",
+   "first": 1888,
+   "second": 1869
+  },
+  {
+   "pid": "P540",
+   "role": "conceptual",
+   "first": 1985,
+   "second": 1981
+  },
+  {
+   "pid": "P540",
+   "role": "methodological",
+   "first": 2016,
+   "second": 2011
+  },
+  {
+   "pid": "P440",
+   "role": "methodological",
+   "first": 1935,
+   "second": 1967
+  },
+  {
+   "pid": "P143",
+   "role": "institutional",
+   "first": 1624,
+   "second": 1614
+  },
+  {
+   "pid": "P098",
+   "role": "institutional",
+   "first": 1980,
+   "second": 1985
+  },
+  {
+   "pid": "P076",
+   "role": "institutional",
+   "first": 1995,
+   "second": 1991
+  },
+  {
+   "pid": "P414",
+   "role": "institutional",
+   "first": 1935,
+   "second": 1930
+  },
+  {
+   "pid": "P441",
+   "role": "institutional",
+   "first": 1927,
+   "second": 1991
+  },
+  {
+   "pid": "P109",
+   "role": "institutional",
+   "first": 1649,
+   "second": 1748
+  },
+  {
+   "pid": "P142",
+   "role": "institutional",
+   "first": 1748,
+   "second": 1755
+  },
+  {
+   "pid": "P419",
+   "role": "institutional",
+   "first": 1911,
+   "second": 1897
+  },
+  {
+   "pid": "P032",
+   "role": "institutional",
+   "first": 1994,
+   "second": 1990
+  },
+  {
+   "pid": "P221",
+   "role": "institutional",
+   "first": 1965,
+   "second": 1979
+  },
+  {
+   "pid": "P164",
+   "role": "institutional",
+   "first": -300,
+   "second": 1908
+  },
+  {
+   "pid": "P090",
+   "role": "institutional",
+   "first": 2008,
+   "second": 1987
+  },
+  {
+   "pid": "P361",
+   "role": "institutional",
+   "first": 1912,
+   "second": 1929
+  },
+  {
+   "pid": "P220",
+   "role": "institutional",
+   "first": 1964,
+   "second": 1949
+  },
+  {
+   "pid": "P092",
+   "role": "institutional",
+   "first": 1971,
+   "second": 1984
+  },
+  {
+   "pid": "P262",
+   "role": "institutional",
+   "first": 1981,
+   "second": 1974
+  },
+  {
+   "pid": "P448",
+   "role": "institutional",
+   "first": 1868,
+   "second": 1899
+  },
+  {
+   "pid": "P521",
+   "role": "institutional",
+   "first": 1974,
+   "second": 1981
+  }
+ ],
+ "note": "derived dates recomputed from milestones for both passes"
+}

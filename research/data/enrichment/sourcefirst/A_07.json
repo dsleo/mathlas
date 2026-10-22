@@ -1,0 +1,1997 @@
+[
+ {
+  "pid": "P450",
+  "eventId": "H47",
+  "canonicalName": "Topology from the geometry of position (Euler to Listing)",
+  "aliases": [
+   "geometria situs",
+   "analysis situs",
+   "geometry of position",
+   "Topologie"
+  ],
+  "phases": [
+   "Geometry of position",
+   "Polyhedra and connectivity",
+   "Naming"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Geometry of position",
+    "year": 1741,
+    "precision": "year",
+    "label": "Euler's Konigsberg bridges paper published",
+    "work": "Euler, Solutio problematis ad geometriam situs pertinentis, Commentarii Acad. Sci. Petropol. 8, pp. 128-140 (volume dated 1736, published 1741; written 1735), E53",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "Euler solved the bridge problem by pure connectivity and said in the title that it belongs to a geometry where measure plays no role.",
+    "evidence": [
+     {
+      "claim": "Euler Archive E53 lists publication 1741, written 1735, journal vol. 8 pp. 128-140.",
+      "source": "Euler Archive (Scholarly Commons, Pacific)",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/53/",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor notes the title shows Euler knew this was a different geometry in which distance is irrelevant.",
+      "source": "MacTutor, Topology in mathematics",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Topology_in_mathematics/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "MacTutor dates the paper 1736 (the volume year); the Euler Archive gives 1741 as publication year. 1741 used per rule that publication governs."
+   },
+   {
+    "role": "key_development",
+    "phase": "Polyhedra and connectivity",
+    "year": 1758,
+    "precision": "year",
+    "label": "Euler's polyhedron formula papers",
+    "work": "Euler, Elementa doctrinae solidorum, Novi Comm. Acad. Sci. Petropol. 4, pp. 109-140 (1758; written 1750), E230",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "Euler set out the relation between vertices, edges and faces of a polyhedron, the second measurement-free result of the field.",
+    "evidence": [
+     {
+      "claim": "Euler Archive E230: published 1758, written 1750, Novi Commentarii vol. 4 pp. 109-140.",
+      "source": "Euler Archive",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/230/",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Euler characteristic: concept originally defined for polyhedra; Euler gave the polyhedron relation.",
+      "source": "English Wikipedia, Euler characteristic",
+      "url": "https://en.wikipedia.org/wiki/Euler_characteristic",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": "Polyhedra and connectivity",
+    "year": 1813,
+    "endYear": 1813,
+    "precision": "year",
+    "label": "Lhuilier's genus correction of Euler's formula",
+    "work": "Lhuilier, Memoire sur la polyedrometrie..., Annales de mathematiques pures et appliquees 3 (1812-1813), pp. 169-189",
+    "people": [
+     "Simon Lhuilier"
+    ],
+    "description": "Lhuilier showed that Euler's relation fails for solids with holes and corrected it to 2 - 2g, bringing in the genus.",
+    "evidence": [
+     {
+      "claim": "Numdam record: Annales de mathematiques pures et appliquees, Tome 3 (1812-1813), pp. 169-189, with examination of exceptions to Euler's theorem.",
+      "source": "Numdam",
+      "url": "https://www.numdam.org/item/AMPA_1812-1813__3__169_0/",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says Lhuilier noticed Euler's formula fails for solids with holes and gave v - e + f = 2 - 2g in 1813.",
+      "source": "MacTutor, Topology in mathematics",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Topology_in_mathematics/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Volume dated 1812-13; MacTutor says 1813. A separate 1811 St Petersburg memoir by Lhuilier was not verified."
+   },
+   {
+    "role": "precursor",
+    "phase": "Naming",
+    "year": 1836,
+    "precision": "year",
+    "label": "Listing coins 'topology' in a letter",
+    "work": null,
+    "people": [
+     "Johann Benedict Listing"
+    ],
+    "description": "Listing used the word topology in a private letter to his former teacher, not yet in print.",
+    "evidence": [
+     {
+      "claim": "MacTutor says the word topology first appears in a long letter to his school teacher written on the Sicily journey, and dates its first use to 1836.",
+      "source": "MacTutor, Listing biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Listing/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Exact letter date not given by sources read (Sicily trip began mid-1834; MacTutor text says 1836)."
+   },
+   {
+    "role": "naming",
+    "phase": "Naming",
+    "year": 1847,
+    "precision": "year",
+    "label": "Listing's Vorstudien zur Topologie",
+    "work": "Listing, Vorstudien zur Topologie, Gottinger Studien 1847 (separate print Gottingen, Vandenhoeck und Ruprecht, 1848)",
+    "people": [
+     "Johann Benedict Listing"
+    ],
+    "description": "The word topology appeared in print for the first time in this essay, which defines it as the study of connection and position without regard to measure.",
+    "evidence": [
+     {
+      "claim": "Internet Archive holds the book dated 1848 (Vandenhoeck und Ruprecht).",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/vorstudienzurto00listgoog",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says Listing wrote the Vorstudien in 1847 and that it was the first printed use of the word.",
+      "source": "MacTutor, Listing biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Listing/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia Topology: introduced the term in Vorstudien zur Topologie, 1847.",
+      "source": "English Wikipedia, Topology",
+      "url": "https://en.wikipedia.org/wiki/Topology",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "1847 is the date of the essay in Gottinger Studien; the stand-alone print is dated 1848. The Gottinger Studien volume itself was not checked in a catalogue."
+   },
+   {
+    "role": "precursor",
+    "phase": "Geometry of position",
+    "year": null,
+    "precision": "unknown",
+    "label": "Leibniz's geometry of position (idea only)",
+    "work": null,
+    "people": [
+     "Gottfried Wilhelm Leibniz"
+    ],
+    "description": "Leibniz imagined a geometry of position (geometria situs, analysis situs) in the seventeenth century, before any worked topological result.",
+    "evidence": [
+     {
+      "claim": "Topology article says the ideas go back to Leibniz's geometria situs and analysis situs in the 17th century.",
+      "source": "English Wikipedia, Topology",
+      "url": "https://en.wikipedia.org/wiki/Topology",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Year not established from the pages read; searched Wikipedia Topology and MacTutor Topology in mathematics only. Kept as an undated precursor."
+   }
+  ],
+  "people": [
+   {
+    "name": "Leonhard Euler",
+    "role": "developer",
+    "lifespan": "1707-1783",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+    "works": [
+     {
+      "citation": "Solutio problematis ad geometriam situs pertinentis (E53)",
+      "year": 1741,
+      "url": "https://scholarlycommons.pacific.edu/euler-works/53/",
+      "whyItMatters": "First worked problem treated by connectivity alone."
+     },
+     {
+      "citation": "Elementa doctrinae solidorum (E230)",
+      "year": 1758,
+      "url": "https://scholarlycommons.pacific.edu/euler-works/230/",
+      "whyItMatters": "Relation among vertices, edges and faces."
+     }
+    ],
+    "roleNote": "Bridge problem and polyhedron formula"
+   },
+   {
+    "name": "Simon Lhuilier",
+    "role": "developer",
+    "lifespan": "1750-1840",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lhuilier/",
+    "works": [
+     {
+      "citation": "Memoire sur la polyedrometrie, Ann. math. pures appl. 3",
+      "year": 1813,
+      "url": "https://www.numdam.org/item/AMPA_1812-1813__3__169_0/",
+      "whyItMatters": "Introduced the genus correction."
+     }
+    ],
+    "roleNote": "Corrected Euler's formula for solids with holes"
+   },
+   {
+    "name": "Johann Benedict Listing",
+    "role": "originator",
+    "lifespan": "1808-1882",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Listing/",
+    "works": [
+     {
+      "citation": "Vorstudien zur Topologie",
+      "year": 1847,
+      "url": "https://archive.org/details/vorstudienzurto00listgoog",
+      "whyItMatters": "First printed use of the word."
+     }
+    ],
+    "roleNote": "Coined 'topology' and wrote the first book-length preliminary study"
+   }
+  ],
+  "notes": "Poincare's Analysis Situs (1895) and later combinatorial topology are outside the Euler-to-Listing span and not listed. The summary's claim that the name was 'fixed in 1847' is supported only as 'first used in print in 1847'; English 'topology' came later (Wikipedia gives 1883). Leibniz precursor left undated. Searched: Euler Archive, Numdam, Crossref (no usable old records), Internet Archive, MacTutor topic and biography pages.",
+  "derivedDates": {
+   "conceptual": 1741,
+   "methodological": null,
+   "institutional": 1847
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P147",
+  "eventId": "WA51",
+  "canonicalName": "Seki: resultants, determinants, elimination",
+  "aliases": [
+   "Seki Takakazu",
+   "Seki Kowa",
+   "wasan elimination theory",
+   "Kaifukudai no Ho"
+  ],
+  "phases": [
+   "Elimination in wasan",
+   "Resultants and determinants"
+  ],
+  "milestones": [
+   {
+    "role": "first_application",
+    "phase": "Elimination in wasan",
+    "year": 1674,
+    "precision": "year",
+    "label": "Seki's Hatsubi Sanpo solves 15 problems by elimination",
+    "work": "Seki Takakazu, Hatsubi Sanpo, 1674",
+    "people": [
+     "Takakazu Seki"
+    ],
+    "description": "Seki gave single-variable equations that result from elimination for fifteen set problems, but did not reveal the process.",
+    "evidence": [
+     {
+      "claim": "MacTutor says Seki published Hatsubi Sanpo in 1674 solving fifteen problems posed four years earlier.",
+      "source": "MacTutor, Takakazu Seki",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Seki/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia says the 1674 book gave only the resulting single-variable equations with no account of the process or symbols.",
+      "source": "English Wikipedia, Seki Takakazu",
+      "url": "https://en.wikipedia.org/wiki/Seki_Takakazu",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "No bibliographic record found; searched Internet Archive and Crossref only."
+   },
+   {
+    "role": "precursor",
+    "phase": "Resultants and determinants",
+    "year": 1683,
+    "precision": "year",
+    "label": "Kaifukudai no Ho: resultant and determinant in manuscript",
+    "work": "Seki Takakazu, Kaifukudai no Ho, 1683 (manuscript)",
+    "people": [
+     "Takakazu Seki"
+    ],
+    "description": "Seki pushed elimination theory using resultants and devised determinants to express them, in a manuscript whose 5x5 formula was wrong.",
+    "evidence": [
+     {
+      "claim": "Wikipedia: in 1683 Seki developed the determinant to express the resultant in Kaifukudai no Ho; the 5x5 formula in the manuscript is wrong.",
+      "source": "English Wikipedia, Seki Takakazu",
+      "url": "https://en.wikipedia.org/wiki/Seki_Takakazu",
+      "kind": "history_page"
+     },
+     {
+      "claim": "MacTutor: Seki was the first person to study determinants, in 1683, ten years before Leibniz.",
+      "source": "MacTutor, Takakazu Seki",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Seki/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Circulated in a closed school as a manuscript, so treated as a precursor under the private-versus-public rule rather than a public first statement."
+   },
+   {
+    "role": "key_development",
+    "phase": "Resultants and determinants",
+    "year": 1683,
+    "endYear": 1710,
+    "precision": "range",
+    "label": "Taisei Sankei compiled: complete determinant formula",
+    "work": "Seki, Takebe brothers, Taisei Sankei (compiled 1683-1710)",
+    "people": [
+     "Takakazu Seki",
+     "Katahiro Takebe"
+    ],
+    "description": "The school's encyclopaedia, assembled over decades, contains a correct general determinant expansion.",
+    "evidence": [
+     {
+      "claim": "Wikipedia: Taisei Sankei, written 1683-1710, contains a correct general formula equivalent to Laplace's expansion; the complete version is no later than 1710.",
+      "source": "English Wikipedia, Seki Takakazu",
+      "url": "https://en.wikipedia.org/wiki/Seki_Takakazu",
+      "kind": "history_page"
+     },
+     {
+      "claim": "MacTutor biography of Takebe: Seki's project to record mathematics launched 1683, carried on by the Takebe brothers.",
+      "source": "MacTutor, Takebe Katahiro",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Takebe/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Manuscript compilation; range, not a publication date."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Elimination in wasan",
+    "year": 1685,
+    "precision": "year",
+    "label": "Takebe's Hatsubi Sanpo Genkai shows elimination in detail",
+    "work": "Takebe Katahiro, Hatsubi Sanpo Genkai, 1685",
+    "people": [
+     "Katahiro Takebe",
+     "Takakazu Seki"
+    ],
+    "description": "A pupil of Seki published notes showing the elimination process in full using the new algebraic symbols, the first open account of the method.",
+    "evidence": [
+     {
+      "claim": "Wikipedia: in 1685 Takebe Katahiro published notes on Hatsubi Sanpo showing the process of elimination in detail with algebraic symbols.",
+      "source": "English Wikipedia, Seki Takakazu",
+      "url": "https://en.wikipedia.org/wiki/Seki_Takakazu",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Earliest public statement found; Seki's own priority rests on manuscripts. Tanaka Yoshizane's 1678 Sanpo Meiki appears to contain related elimination results; not checked against a primary source."
+   }
+  ],
+  "people": [
+   {
+    "name": "Takakazu Seki",
+    "role": "developer",
+    "lifespan": "c.1642-1708",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Seki/",
+    "works": [
+     {
+      "citation": "Hatsubi Sanpo",
+      "year": 1674,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Seki/",
+      "whyItMatters": "Printed solutions by elimination."
+     },
+     {
+      "citation": "Kaifukudai no Ho (manuscript)",
+      "year": 1683,
+      "url": "https://en.wikipedia.org/wiki/Seki_Takakazu",
+      "whyItMatters": "Resultant and determinant."
+     }
+    ],
+    "roleNote": "Developed elimination via resultants and determinants"
+   },
+   {
+    "name": "Katahiro Takebe",
+    "role": "developer",
+    "lifespan": "1664-1739",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Takebe/",
+    "works": [
+     {
+      "citation": "Hatsubi Sanpo Genkai",
+      "year": 1685,
+      "url": "https://en.wikipedia.org/wiki/Seki_Takakazu",
+      "whyItMatters": "Published the elimination process in detail."
+     }
+    ],
+    "roleNote": "Pupil who published the elimination method and co-wrote Taisei Sankei"
+   },
+   {
+    "name": "Gottfried Wilhelm Leibniz",
+    "role": "developer",
+    "lifespan": "1646-1716",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Leibniz/",
+    "works": [
+     {
+      "citation": "Determinants used for simultaneous equations (per MacTutor, ten years after Seki)",
+      "year": 1693,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Seki/",
+      "whyItMatters": "Parallel, independent European discovery."
+     }
+    ],
+    "roleNote": "Independent European use of determinants"
+   }
+  ],
+  "notes": "The summary says Seki 'found resultant and determinant'; sources agree on 1683 but only as manuscript, with a flawed 5x5 formula, and a complete version by 1710 in a school compilation. Tanaka Yoshizane is credited by Wikipedia with an independent explicit resultant (Sanpo Funkai, c.1690?) - uncertain date, left out of milestones. No bibliographic records exist for these Japanese manuscripts in Crossref or Internet Archive; all evidence is history pages. No naming or institution milestone applicable (pre-MSC).",
+  "derivedDates": {
+   "conceptual": 1685,
+   "methodological": 1674,
+   "institutional": null
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P446",
+  "eventId": "H41",
+  "canonicalName": "Calculus of variations from the brachistochrone",
+  "aliases": [
+   "brachistochrone problem",
+   "calculus of variations",
+   "isoperimetric problems"
+  ],
+  "phases": [
+   "Bernoulli problems",
+   "Euler's geometric method",
+   "Lagrange's analytic method",
+   "Naming"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Bernoulli problems",
+    "year": 1687,
+    "precision": "year",
+    "label": "Newton's minimal resistance problem in the Principia",
+    "work": "Newton, Philosophiae naturalis principia mathematica, 1687",
+    "people": [
+     "Isaac Newton"
+    ],
+    "description": "Newton formulated and solved the solid of least resistance, an extremum problem over curves, but not as part of a general method.",
+    "evidence": [
+     {
+      "claim": "Wikipedia, Calculus of variations: Newton's minimal resistance problem, formulated 1685 and published in the Principia 1687, was the first correctly solved problem of the field.",
+      "source": "English Wikipedia, Calculus of variations",
+      "url": "https://en.wikipedia.org/wiki/Calculus_of_variations",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Internet Archive holds the 1687 first edition.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/philosophiaenatu00newt_0",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Whether this counts as the start of the field is disputed; kept as precursor."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Bernoulli problems",
+    "year": 1696,
+    "precision": "year",
+    "label": "Johann Bernoulli poses the brachistochrone problem",
+    "work": "Johann Bernoulli, Problema novum..., Acta Eruditorum, June 1696",
+    "people": [
+     "Johann Bernoulli"
+    ],
+    "description": "Bernoulli publicly challenged mathematicians to find the curve of quickest descent, the problem that opened the field.",
+    "evidence": [
+     {
+      "claim": "MacTutor: the problem was posed by Johann Bernoulli in Acta Eruditorum in June 1696.",
+      "source": "MacTutor, The brachistochrone problem",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Brachistochrone/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "No Crossref/zbMATH record exists for Acta Eruditorum 1696; searched Crossref."
+   },
+   {
+    "role": "first_application",
+    "phase": "Bernoulli problems",
+    "year": 1697,
+    "precision": "year",
+    "label": "Solutions to the brachistochrone published in Acta Eruditorum",
+    "work": "Acta Eruditorum, May 1697 (Leibniz p. 205, Johann Bernoulli pp. 206-211, Jakob Bernoulli pp. 211-214, Newton p. 223)",
+    "people": [
+     "Johann Bernoulli",
+     "Jakob Bernoulli",
+     "Gottfried Wilhelm Leibniz",
+     "Isaac Newton"
+    ],
+    "description": "Five solutions were obtained and four appeared in print in May 1697; Jakob Bernoulli's approach already treated the curve as an unknown to be varied.",
+    "evidence": [
+     {
+      "claim": "MacTutor lists the May 1697 Acta Eruditorum contents with page numbers of each solution.",
+      "source": "MacTutor, The brachistochrone problem",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Brachistochrone/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "key_development",
+    "phase": "Euler's geometric method",
+    "year": 1744,
+    "precision": "year",
+    "label": "Euler's Methodus inveniendi",
+    "work": "Euler, Methodus inveniendi lineas curvas maximi minimive proprietate gaudentes, Lausanne and Geneva 1744 (written 1743), E65",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "Euler turned a set of special cases into a general method, gave a first-order necessary condition (the Euler differential equation) and treated about a hundred problems.",
+    "evidence": [
+     {
+      "claim": "Euler Archive E65: quarto book published 1744, written 1743; summary describes the general procedure and 100 problems.",
+      "source": "Euler Archive",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/65/",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor Euler biography credits the Methodus with beginning the proper study of the subject.",
+      "source": "MacTutor, Euler",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "MacTutor says 1740; the Euler Archive gives 1744 (written 1743). 1744 used."
+   },
+   {
+    "role": "key_development",
+    "phase": "Lagrange's analytic method",
+    "year": 1762,
+    "precision": "year",
+    "label": "Lagrange's analytic method with the delta symbol",
+    "work": "Lagrange, Essai d'une nouvelle methode pour determiner les maxima et les minima des formules integrales indefinies, Miscellanea Taurinensia 2 (1760-61, published 1762)",
+    "people": [
+     "Joseph-Louis Lagrange"
+    ],
+    "description": "Lagrange replaced Euler's partly geometric reasoning by a purely analytic one based on variations of the function; Euler adopted it.",
+    "evidence": [
+     {
+      "claim": "Wikipedia (citing Thiele and Goldstine): Euler dropped his geometric approach for Lagrange's analytic one after seeing his 1755 work, and waited until Lagrange published in 1762.",
+      "source": "English Wikipedia, Calculus of variations",
+      "url": "https://en.wikipedia.org/wiki/Calculus_of_variations",
+      "kind": "history_page"
+     },
+     {
+      "claim": "MacTutor Lagrange: results sent to Euler in August 1755 contributed to the new subject.",
+      "source": "MacTutor, Lagrange",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Publication year 1762 taken from a secondary page; the Turin volume was not located in a catalogue. The 1755 letter to Euler is a private precursor."
+   },
+   {
+    "role": "naming",
+    "phase": "Naming",
+    "year": 1766,
+    "precision": "year",
+    "label": "Euler's Elementa calculi variationum",
+    "work": "Euler, Elementa calculi variationum, Novi Comm. Acad. Sci. Petropol. 10 (1766; read 1756), E296",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "Euler gave the subject its name in the title of a treatise written in 1756 and printed ten years later.",
+    "evidence": [
+     {
+      "claim": "Euler Archive E296: published 1766, written 1756; read to the Berlin Academy on 16 September 1756.",
+      "source": "Euler Archive",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/296/",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor Lagrange: the name 'calculus of variations' was given by Euler in 1766.",
+      "source": "MacTutor, Lagrange",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Wikipedia dates the renaming to the 1756 lecture; the printed title is 1766."
+   }
+  ],
+  "people": [
+   {
+    "name": "Johann Bernoulli",
+    "role": "developer",
+    "lifespan": "1667-1748",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bernoulli_Johann/",
+    "works": [
+     {
+      "citation": "Brachistochrone challenge, Acta Eruditorum",
+      "year": 1696,
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Brachistochrone/",
+      "whyItMatters": "Opened the field."
+     }
+    ],
+    "roleNote": "Posed the brachistochrone"
+   },
+   {
+    "name": "Jakob Bernoulli",
+    "role": "developer",
+    "lifespan": "1654-1705",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bernoulli_Jacob/",
+    "works": [
+     {
+      "citation": "Solution in Acta Eruditorum, pp. 211-214",
+      "year": 1697,
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Brachistochrone/",
+      "whyItMatters": "Method of varying the curve."
+     }
+    ],
+    "roleNote": "Solved the brachistochrone and posed isoperimetric problems"
+   },
+   {
+    "name": "Leonhard Euler",
+    "role": "developer",
+    "lifespan": "1707-1783",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+    "works": [
+     {
+      "citation": "Methodus inveniendi lineas curvas (E65)",
+      "year": 1744,
+      "url": "https://scholarlycommons.pacific.edu/euler-works/65/",
+      "whyItMatters": "General necessary condition."
+     },
+     {
+      "citation": "Elementa calculi variationum (E296)",
+      "year": 1766,
+      "url": "https://scholarlycommons.pacific.edu/euler-works/296/",
+      "whyItMatters": "Named the subject."
+     }
+    ],
+    "roleNote": "General method and the name"
+   },
+   {
+    "name": "Joseph-Louis Lagrange",
+    "role": "developer",
+    "lifespan": "1736-1813",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+    "works": [
+     {
+      "citation": "Essai d'une nouvelle methode (Misc. Taurinensia 2)",
+      "year": 1762,
+      "url": "https://en.wikipedia.org/wiki/Calculus_of_variations",
+      "whyItMatters": "Purely analytic delta method."
+     }
+    ],
+    "roleNote": "Analytic method"
+   }
+  ],
+  "notes": "The summary's attribution of the 'delta symbol' to Lagrange rests on Wikipedia/MacTutor wording, not on a primary text I checked. Jakob Bernoulli's 1701 isoperimetric solution and Euler's earlier E9 (1732) and E27 (1738) were not made milestones. Mixed type 'birth-by-fusion' is plausible but not tested here. Searched: MacTutor, Euler Archive, Internet Archive, Crossref (no records for Acta Eruditorum or Turin volumes).",
+  "derivedDates": {
+   "conceptual": 1696,
+   "methodological": 1697,
+   "institutional": 1766
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P460",
+  "eventId": "H76",
+  "canonicalName": "Trigonometry and the exponential: Cotes, De Moivre, Euler",
+  "aliases": [
+   "Euler's formula",
+   "Cotes's formula",
+   "De Moivre's formula",
+   "complex logarithm"
+  ],
+  "phases": [
+   "Bernoulli and Cotes",
+   "De Moivre",
+   "Euler"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Bernoulli and Cotes",
+    "year": 1702,
+    "precision": "year",
+    "label": "Johann Bernoulli links inverse sine and logarithm",
+    "work": "Johann Bernoulli, work of 1702 on integration (Memoires de l'Academie des Sciences, Paris)",
+    "people": [
+     "Johann Bernoulli"
+    ],
+    "description": "Bernoulli related the inverse sine of an argument to a logarithm of a complex expression, the first link between angle functions and logarithms.",
+    "evidence": [
+     {
+      "claim": "MacTutor: Johann Bernoulli found the relation between the inverse sine and the logarithm in 1702.",
+      "source": "MacTutor, Trigonometric functions",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Trigonometric_functions/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Specific paper not identified or checked in a bibliographic record; year taken from MacTutor only."
+   },
+   {
+    "role": "key_development",
+    "phase": "Bernoulli and Cotes",
+    "year": 1714,
+    "precision": "year",
+    "label": "Cotes's Logometria",
+    "work": "Cotes, Logometria, Philosophical Transactions 29 (338), pp. 5-45, March 1714",
+    "people": [
+     "Roger Cotes"
+    ],
+    "description": "Cotes gave a geometric statement equivalent to ix = log(cos x + i sin x), up to a misplaced factor of i.",
+    "evidence": [
+     {
+      "claim": "Crossref: Logometria, Phil. Trans. 29, pp. 5-45, dated 1714.",
+      "source": "Crossref DOI 10.1098/rstl.1714.0002",
+      "url": "https://doi.org/10.1098/rstl.1714.0002",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia, De Moivre's formula and Roger Cotes: the 1714 argument, once a misplaced factor is corrected, is equivalent to the logarithmic form of Euler's formula.",
+      "source": "English Wikipedia, De Moivre's formula",
+      "url": "https://en.wikipedia.org/wiki/De_Moivre%27s_formula",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "MacTutor dates this result to 1722, the posthumous Harmonia mensurarum, which reprinted Logometria; the 1714 paper is earlier."
+   },
+   {
+    "role": "key_development",
+    "phase": "De Moivre",
+    "year": 1722,
+    "precision": "year",
+    "label": "De Moivre's power formula",
+    "work": "De Moivre, paper of 1722 (candidate: De sectione anguli, Phil. Trans. 32, pp. 228-230)",
+    "people": [
+     "Abraham de Moivre"
+    ],
+    "description": "De Moivre published the rule for powers of cos x + i sin x, taking angle multiplication into complex arithmetic.",
+    "evidence": [
+     {
+      "claim": "MacTutor: De Moivre published the theorem in 1722; a closely related formula appeared in an earlier paper of 1707.",
+      "source": "MacTutor, De Moivre",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The exact paper was not confirmed. Crossref lists 'De sectione anguli' (Phil. Trans. 32, 1722) as a candidate, kept out of the evidence. Wikipedia says the explicit form came in Miscellanea analytica (1730)."
+   },
+   {
+    "role": "precursor",
+    "phase": "Euler",
+    "year": 1740,
+    "precision": "decade",
+    "label": "Euler turns to the exponential and corresponds with Bernoulli",
+    "work": null,
+    "people": [
+     "Leonhard Euler",
+     "Johann Bernoulli"
+    ],
+    "description": "Around 1740 Euler compared the series for the exponential and the trigonometric functions; in letters with Bernoulli he also suggested logarithms have infinitely many values.",
+    "evidence": [
+     {
+      "claim": "Wikipedia, Euler's formula: around 1740 Euler derived the relation by comparing series; his correspondence with Bernoulli shows Bernoulli did not grasp complex logarithms and Euler suggested infinitely many values.",
+      "source": "English Wikipedia, Euler's formula",
+      "url": "https://en.wikipedia.org/wiki/Euler%27s_formula",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Private work; date approximate."
+   },
+   {
+    "role": "key_development",
+    "phase": "Euler",
+    "year": 1748,
+    "precision": "year",
+    "label": "Euler publishes exp(ix) = cos x + i sin x",
+    "work": "Euler, Introductio in analysin infinitorum, vol. 1, Lausanne 1748 (written 1745), E101",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "The exponential form of the formula appears in print in the first volume of the Introductio.",
+    "evidence": [
+     {
+      "claim": "Euler Archive E101: quarto book published 1748, written 1745.",
+      "source": "Euler Archive",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/101/",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor: Euler in 1748 gave the formula exp(ix) = cos x + i sin x, equivalent to Cotes's.",
+      "source": "MacTutor, Trigonometric functions",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Trigonometric_functions/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": "Euler",
+    "year": 1748,
+    "precision": "year",
+    "label": "Introductio makes the function central to analysis",
+    "work": "Euler, Introductio in analysin infinitorum, 1748, E101",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "The same book also gives the first systematic treatment of elementary functions, series and exponentials as the base of analysis.",
+    "evidence": [
+     {
+      "claim": "Euler Archive summary of E101: lays the foundations of modern analysis, centres the function concept and the role of e^x.",
+      "source": "Euler Archive",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/101/",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Same work as the previous milestone; it truly plays both roles (first printing of the formula and first systematic treatment)."
+   },
+   {
+    "role": "key_development",
+    "phase": "Euler",
+    "year": 1751,
+    "precision": "year",
+    "label": "Euler settles the logarithms of negative numbers",
+    "work": "Euler, De la controverse entre Mrs. Leibnitz et Bernoulli sur les logarithmes des nombres negatifs et imaginaires, Mem. Acad. Berlin 5, pp. 139-179 (1751; written 1747), E168",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "Euler resolved the old Leibniz-Bernoulli dispute by showing that logarithms of complex numbers are many-valued.",
+    "evidence": [
+     {
+      "claim": "Euler Archive E168: published 1751, written 1747, Berlin Memoires vol. 5 pp. 139-179.",
+      "source": "Euler Archive",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/168/",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "The 'many-valued' description of the paper's conclusion is standard but not stated in the Euler Archive record; Wikipedia Euler's formula supports the infinitely-many-values point."
+   }
+  ],
+  "people": [
+   {
+    "name": "Johann Bernoulli",
+    "role": "developer",
+    "lifespan": "1667-1748",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bernoulli_Johann/",
+    "works": [
+     {
+      "citation": "Work of 1702 on integration (unidentified paper)",
+      "year": 1702,
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Trigonometric_functions/",
+      "whyItMatters": "First angle-logarithm link."
+     }
+    ],
+    "roleNote": "Inverse sine and logarithm"
+   },
+   {
+    "name": "Roger Cotes",
+    "role": "developer",
+    "lifespan": "1682-1716",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Cotes/",
+    "works": [
+     {
+      "citation": "Logometria",
+      "year": 1714,
+      "url": "https://doi.org/10.1098/rstl.1714.0002",
+      "whyItMatters": "Geometric form of ix = log(cos x + i sin x)."
+     }
+    ],
+    "roleNote": "Logarithm of cos x + i sin x"
+   },
+   {
+    "name": "Abraham de Moivre",
+    "role": "developer",
+    "lifespan": "1667-1754",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
+    "works": [
+     {
+      "citation": "Phil. Trans. paper of 1722 (unidentified)",
+      "year": 1722,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
+      "whyItMatters": "Multiple-angle formula in complex form."
+     }
+    ],
+    "roleNote": "Power formula"
+   },
+   {
+    "name": "Leonhard Euler",
+    "role": "developer",
+    "lifespan": "1707-1783",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+    "works": [
+     {
+      "citation": "Introductio in analysin infinitorum, vol. 1 (E101)",
+      "year": 1748,
+      "url": "https://scholarlycommons.pacific.edu/euler-works/101/",
+      "whyItMatters": "Published exp(ix) formula."
+     },
+     {
+      "citation": "De la controverse... logarithmes (E168)",
+      "year": 1751,
+      "url": "https://scholarlycommons.pacific.edu/euler-works/168/",
+      "whyItMatters": "Many-valued complex logarithm."
+     }
+    ],
+    "roleNote": "Exponential form and complex logarithms"
+   }
+  ],
+  "notes": "Priority is disputed: MacTutor dates Cotes to 1722 (Harmonia mensurarum) while the Crossref record shows Logometria in 1714; MacTutor and Wikipedia also differ on whether De Moivre's explicit formula is 1722 or 1730. The summary's 'Euler gave exp(ix)' is supported for the 1748 print but Euler's own private derivation is dated only 'around 1740'. Bernoulli 1702 has no bibliographic record found.",
+  "derivedDates": {
+   "conceptual": 1702,
+   "methodological": null,
+   "institutional": 1748
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P150",
+  "eventId": "MA75",
+  "canonicalName": "De Moivre's formula: trigonometry and complex powers",
+  "aliases": [
+   "de Moivre's theorem",
+   "de Moivre's identity",
+   "(cos x + i sin x)^n"
+  ],
+  "phases": [
+   "De Moivre",
+   "Euler"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1707,
+    "precision": "year",
+    "label": "De Moivre's cubic and higher-degree root formula",
+    "work": "De Moivre, Aequationum quarundam potestatis tertiae, quintae, septimae, nonae... resolutio analytica, Phil. Trans. 25 (309), pp. 2368-2371, 1707",
+    "people": [
+     "Abraham de Moivre"
+    ],
+    "description": "A closely related relation between multiples of an angle appears in an earlier paper on solving equations by series.",
+    "evidence": [
+     {
+      "claim": "Crossref: Phil. Trans. 25, pp. 2368-2371, dated 1707.",
+      "source": "Crossref DOI 10.1098/rstl.1706.0037",
+      "url": "https://doi.org/10.1098/rstl.1706.0037",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor: a closely related formula appeared in an earlier paper of 1707.",
+      "source": "MacTutor, De Moivre",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Identification of the 1707 paper with MacTutor's remark follows Wikipedia's citation; the content was not read."
+   },
+   {
+    "role": "precursor",
+    "year": 1714,
+    "precision": "year",
+    "label": "Cotes's geometric logarithm statement",
+    "work": "Cotes, Logometria, Phil. Trans. 29, pp. 5-45, 1714",
+    "people": [
+     "Roger Cotes"
+    ],
+    "description": "An equivalent logarithmic statement for the angle, which implies the power rule, appeared eight years earlier.",
+    "evidence": [
+     {
+      "claim": "Crossref: Logometria, Phil. Trans. 29, 1714.",
+      "source": "Crossref DOI 10.1098/rstl.1714.0002",
+      "url": "https://doi.org/10.1098/rstl.1714.0002",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia, De Moivre's formula: Cotes's 1714 argument, corrected for a misplaced factor, gives ix = ln(cos x + i sin x).",
+      "source": "English Wikipedia, De Moivre's formula",
+      "url": "https://en.wikipedia.org/wiki/De_Moivre%27s_formula",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "first_statement",
+    "year": 1722,
+    "precision": "year",
+    "label": "De Moivre's formula appears in a Philosophical Transactions paper",
+    "work": "De Moivre, paper of 1722 (candidate: De sectione anguli, Phil. Trans. 32, pp. 228-230)",
+    "people": [
+     "Abraham de Moivre"
+    ],
+    "description": "MacTutor says the formula for (cos x + i sin x)^n first appears in this exact form in a paper of 1722.",
+    "evidence": [
+     {
+      "claim": "MacTutor: the formula appears in this form in a paper that De Moivre published in 1722.",
+      "source": "MacTutor, De Moivre",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Exact paper unconfirmed; Crossref candidate 'De sectione anguli' (1722) not read. Wikipedia instead cites Miscellanea analytica (1730) for the explicit lemma, so priority between 1722 and 1730 is open."
+   },
+   {
+    "role": "key_development",
+    "year": 1730,
+    "precision": "year",
+    "label": "Miscellanea analytica states the multiple-angle lemma",
+    "work": "De Moivre, Miscellanea analytica de seriebus et quadraturis, London: Tonson and Watts, 1730",
+    "people": [
+     "Abraham de Moivre"
+    ],
+    "description": "Wikipedia cites the first page of this book for De Moivre's explicit lemma on cosines of an angle and its multiples.",
+    "evidence": [
+     {
+      "claim": "Internet Archive holds the 1730 London edition.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/bub_gb_TFX1165yEc4C",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia, De Moivre's formula: in 1730 De Moivre explicitly considered cos of an angle and its integer multiple (p. 1).",
+      "source": "English Wikipedia, De Moivre's formula",
+      "url": "https://en.wikipedia.org/wiki/De_Moivre%27s_formula",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "key_development",
+    "year": 1748,
+    "precision": "year",
+    "label": "Euler's exponential form",
+    "work": "Euler, Introductio in analysin infinitorum, vol. 1, 1748, E101",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "Euler's formula exp(ix) = cos x + i sin x contains the power rule as an exponent law and replaced De Moivre's trigonometric form in practice.",
+    "evidence": [
+     {
+      "claim": "Euler Archive E101: published 1748.",
+      "source": "Euler Archive",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/101/",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor: Euler gave exp(ix) = cos x + i sin x in 1748.",
+      "source": "MacTutor, Trigonometric functions",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Trigonometric_functions/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Abraham de Moivre",
+    "role": "developer",
+    "lifespan": "1667-1754",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
+    "works": [
+     {
+      "citation": "Phil. Trans. paper (1707)",
+      "year": 1707,
+      "url": "https://doi.org/10.1098/rstl.1706.0037",
+      "whyItMatters": "Related earlier formula."
+     },
+     {
+      "citation": "Miscellanea analytica",
+      "year": 1730,
+      "url": "https://archive.org/details/bub_gb_TFX1165yEc4C",
+      "whyItMatters": "Explicit lemma per Wikipedia."
+     }
+    ],
+    "roleNote": "Formula"
+   },
+   {
+    "name": "Roger Cotes",
+    "role": "developer",
+    "lifespan": "1682-1716",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Cotes/",
+    "works": [
+     {
+      "citation": "Logometria",
+      "year": 1714,
+      "url": "https://doi.org/10.1098/rstl.1714.0002",
+      "whyItMatters": "Earlier equivalent statement."
+     }
+    ],
+    "roleNote": "Equivalent logarithmic form"
+   },
+   {
+    "name": "Leonhard Euler",
+    "role": "developer",
+    "lifespan": "1707-1783",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+    "works": [
+     {
+      "citation": "Introductio, vol. 1 (E101)",
+      "year": 1748,
+      "url": "https://scholarlycommons.pacific.edu/euler-works/101/",
+      "whyItMatters": "exp(ix) formula."
+     }
+    ],
+    "roleNote": "Exponential form"
+   }
+  ],
+  "notes": "The date of first statement is genuinely disputed between sources (1707 related, 1722 per MacTutor, 1730 per Wikipedia, 1714 by Cotes in a different form). No naming milestone found: when 'de Moivre's formula' became the usual name was not established. Derived conceptual date 1722 is a low-certainty choice.",
+  "derivedDates": {
+   "conceptual": 1722,
+   "methodological": null,
+   "institutional": null
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P117",
+  "eventId": "WA54/MA72",
+  "canonicalName": "Bernoulli's Ars Conjectandi and the law of large numbers",
+  "aliases": [
+   "Ars Conjectandi",
+   "The Art of Conjecturing",
+   "Bernoulli's theorem",
+   "law of large numbers"
+  ],
+  "phases": [
+   "Games of chance",
+   "Bernoulli",
+   "After Bernoulli"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Games of chance",
+    "year": 1654,
+    "precision": "year",
+    "label": "Pascal-Fermat correspondence",
+    "work": null,
+    "people": [
+     "Blaise Pascal",
+     "Pierre de Fermat"
+    ],
+    "description": "Letters on the problem of points are the date historians cite for the start of modern probability.",
+    "evidence": [
+     {
+      "claim": "Wikipedia, Ars Conjectandi: historians cite the Pascal-Fermat correspondence of 1654 as the beginning of modern probability.",
+      "source": "English Wikipedia, Ars Conjectandi",
+      "url": "https://en.wikipedia.org/wiki/Ars_Conjectandi",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Private correspondence."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Games of chance",
+    "year": 1657,
+    "precision": "year",
+    "label": "Huygens's treatise on reckoning in games of chance",
+    "work": "Huygens, De ratiociniis in ludo aleae, in van Schooten, Exercitationum mathematicarum libri quinque, Leiden 1657",
+    "people": [
+     "Christiaan Huygens"
+    ],
+    "description": "The first printed treatise on probability, built on expectation for games of chance.",
+    "evidence": [
+     {
+      "claim": "Internet Archive holds the 1657 printing of De ratiociniis in ludo aleae.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/DeRatiociniisInLudoAleae",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia, Ars Conjectandi, describes Huygens as having published the first treatise on probability.",
+      "source": "English Wikipedia, Ars Conjectandi",
+      "url": "https://en.wikipedia.org/wiki/Ars_Conjectandi",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Consolidation of the earlier stage, before the Bernoulli work this event names."
+   },
+   {
+    "role": "precursor",
+    "phase": "Bernoulli",
+    "year": 1684,
+    "endYear": 1689,
+    "precision": "range",
+    "label": "Jakob Bernoulli's Meditationes notebook",
+    "work": "Jakob Bernoulli, Meditationes (private notes), 1684-1689",
+    "people": [
+     "Jakob Bernoulli"
+    ],
+    "description": "Bernoulli's private notebook records three working periods from games of chance to a posteriori probabilities and the measuring of probabilities.",
+    "evidence": [
+     {
+      "claim": "Wikipedia, Ars Conjectandi: the Meditationes show progress in three periods, 1684-85, 1685-86 and 1687-89; text written 1684-1689.",
+      "source": "English Wikipedia, Ars Conjectandi",
+      "url": "https://en.wikipedia.org/wiki/Ars_Conjectandi",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Unpublished notes."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Bernoulli",
+    "year": 1713,
+    "precision": "year",
+    "label": "Ars Conjectandi published",
+    "work": "Jakob Bernoulli, Ars conjectandi, opus posthumum, Basel: Thurneysen, 1713",
+    "people": [
+     "Jakob Bernoulli",
+     "Nicolaus I Bernoulli"
+    ],
+    "description": "The posthumous book contains the first version of the law of large numbers and a systematic treatment of combinatorics and expectation.",
+    "evidence": [
+     {
+      "claim": "Internet Archive holds the 1713 Basel edition (several scans).",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/jacobibernoulli00bern",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor: Ars Conjectandi published in Basel in 1713, eight years after Bernoulli's death.",
+      "source": "MacTutor, Jakob Bernoulli",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Bernoulli_Jacob/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Published eight years after his death; MacTutor loosely says he 'published' the law by 1689, but the printed statement is 1713. The book also consolidates probability and combinatorics; no second milestone created."
+   },
+   {
+    "role": "key_development",
+    "phase": "After Bernoulli",
+    "year": 1718,
+    "precision": "year",
+    "label": "De Moivre's Doctrine of Chances",
+    "work": "De Moivre, The Doctrine of Chances, London 1718",
+    "people": [
+     "Abraham de Moivre"
+    ],
+    "description": "De Moivre's English treatise extended the calculus of chances after Bernoulli's book; his 1711 De mensura sortis preceded it.",
+    "evidence": [
+     {
+      "claim": "Internet Archive holds the 1718 first edition.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/bim_eighteenth-century_the-doctrine-of-chances_moivre-abraham-de_1718",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia, Ars Conjectandi, notes the book influenced de Moivre.",
+      "source": "English Wikipedia, Ars Conjectandi",
+      "url": "https://en.wikipedia.org/wiki/Ars_Conjectandi",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Relevance to this event is the follow-up, not the origin; his 1711 De mensura sortis (Crossref 10.1098/rstl.1710.0018) is a related candidate."
+   }
+  ],
+  "people": [
+   {
+    "name": "Jakob Bernoulli",
+    "role": "developer",
+    "lifespan": "1654-1705",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bernoulli_Jacob/",
+    "works": [
+     {
+      "citation": "Ars conjectandi",
+      "year": 1713,
+      "url": "https://archive.org/details/jacobibernoulli00bern",
+      "whyItMatters": "Law of large numbers and combinatorics."
+     }
+    ],
+    "roleNote": "Author"
+   },
+   {
+    "name": "Christiaan Huygens",
+    "role": "originator",
+    "lifespan": "1629-1695",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Huygens/",
+    "works": [
+     {
+      "citation": "De ratiociniis in ludo aleae",
+      "year": 1657,
+      "url": "https://archive.org/details/DeRatiociniisInLudoAleae",
+      "whyItMatters": "Expectation for games of chance."
+     }
+    ],
+    "roleNote": "First printed treatise"
+   },
+   {
+    "name": "Nicolaus I Bernoulli",
+    "role": "developer",
+    "lifespan": "1687-1759",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Nicolaus_I_Bernoulli",
+    "works": [
+     {
+      "citation": "Edition of Ars conjectandi",
+      "year": 1713,
+      "url": "https://archive.org/details/jacobibernoulli00bern",
+      "whyItMatters": "Brought the work to print."
+     }
+    ],
+    "roleNote": "Edited and published the book"
+   },
+   {
+    "name": "Abraham de Moivre",
+    "role": "developer",
+    "lifespan": "1667-1754",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
+    "works": [
+     {
+      "citation": "The Doctrine of Chances",
+      "year": 1718,
+      "url": "https://archive.org/details/bim_eighteenth-century_the-doctrine-of-chances_moivre-abraham-de_1718",
+      "whyItMatters": "Extended the calculus of chances."
+     }
+    ],
+    "roleNote": "Successor"
+   }
+  ],
+  "notes": "The input summary 'proved the first law of large numbers' is consistent with Wikipedia ('very first version') but the proof is in the posthumous book, with composition dated 1684-1689 by Wikipedia's account of the Meditationes; the date of the actual proof was not established. The Latin edition is also catalogued under 1713 with later reprints. No naming or institution milestone applies (pre-MSC; Nicolaus Bernoulli 1713 correspondence with Montmort not checked). Montmort's 1708 Essay was searched on Internet Archive and not found, so left out.",
+  "derivedDates": {
+   "conceptual": 1713,
+   "methodological": null,
+   "institutional": 1657
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P154",
+  "eventId": "MA77",
+  "canonicalName": "Taylor: finite differences and Taylor's theorem",
+  "aliases": [
+   "Taylor series",
+   "Taylor's theorem",
+   "calculus of finite differences",
+   "Methodus incrementorum"
+  ],
+  "phases": [
+   "Series",
+   "Taylor",
+   "After Taylor",
+   "Naming"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Series",
+    "year": 1671,
+    "precision": "year",
+    "label": "Gregory's earlier series result",
+    "work": null,
+    "people": [
+     "James Gregory"
+    ],
+    "description": "Gregory had a version of the expansion in 1671, as Wikipedia puts it, an earlier version mentioned in his work.",
+    "evidence": [
+     {
+      "claim": "Wikipedia, Taylor's theorem: named after Taylor who stated a version in 1715, though an earlier version was mentioned by James Gregory in 1671.",
+      "source": "English Wikipedia, Taylor's theorem",
+      "url": "https://en.wikipedia.org/wiki/Taylor%27s_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Specific Gregory text not identified. MacTutor Taylor also lists Newton, Leibniz, Johann Bernoulli and de Moivre as independent discoverers of variants."
+   },
+   {
+    "role": "precursor",
+    "phase": "Series",
+    "year": 1712,
+    "precision": "year",
+    "label": "Taylor's letter to Machin",
+    "work": null,
+    "people": [
+     "Brook Taylor",
+     "John Machin"
+    ],
+    "description": "In a letter of 26 July 1712 Taylor first mentioned a version of the theorem, prompted by a remark of Machin about Newton's series and Halley's root method.",
+    "evidence": [
+     {
+      "claim": "MacTutor Taylor biography gives the letter date and the coffee-house origin of the idea.",
+      "source": "MacTutor, Brook Taylor",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Taylor/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Private letter."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Taylor",
+    "year": 1715,
+    "precision": "year",
+    "label": "Methodus incrementorum directa et inversa",
+    "work": "Taylor, Methodus incrementorum directa et inversa, London 1715 (2nd ed. 1717)",
+    "people": [
+     "Brook Taylor"
+    ],
+    "description": "The book founded the calculus of finite differences and contains two forms of what is now called Taylor's series.",
+    "evidence": [
+     {
+      "claim": "Internet Archive holds the 1715 edition.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/bim_eighteenth-century_methodus-incrementorum-d_taylor-brook_1715",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor: the 1715 book contains the Taylor series, and gave a new branch now called the calculus of finite differences.",
+      "source": "MacTutor, Brook Taylor",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Taylor/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Truly both the first statement of the series and of the finite-difference calculus under one name; one milestone only."
+   },
+   {
+    "role": "key_development",
+    "phase": "After Taylor",
+    "year": 1730,
+    "precision": "year",
+    "label": "Stirling's Methodus differentialis",
+    "work": "Stirling, Methodus differentialis, sive tractatus de summatione et interpolatione serierum infinitarum, London 1730",
+    "people": [
+     "James Stirling"
+    ],
+    "description": "A treatise on summation and interpolation of series by differences, the next major book in the same tradition.",
+    "evidence": [
+     {
+      "claim": "Internet Archive holds the 1730 London edition.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/bub_gb_71ZHAAAAYAAJ",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Relevance to Taylor's calculus rests on the title only; content not read. A 1717 Stirling commentary on Newton's differential method also exists on Internet Archive."
+   },
+   {
+    "role": "naming",
+    "phase": "Naming",
+    "year": 1785,
+    "precision": "year",
+    "label": "Name 'Taylor series' in use",
+    "work": null,
+    "people": [
+     "Brook Taylor"
+    ],
+    "description": "MacTutor says the series only came to be called Taylor's in 1785.",
+    "evidence": [
+     {
+      "claim": "MacTutor: the series is the Taylor series, though it only became known as this in 1785.",
+      "source": "MacTutor, Brook Taylor",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Taylor/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Date of coinage from one history page, source work not identified; earlier uses were not searched."
+   }
+  ],
+  "people": [
+   {
+    "name": "Brook Taylor",
+    "role": "developer",
+    "lifespan": "1685-1731",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Taylor/",
+    "works": [
+     {
+      "citation": "Methodus incrementorum directa et inversa",
+      "year": 1715,
+      "url": "https://archive.org/details/bim_eighteenth-century_methodus-incrementorum-d_taylor-brook_1715",
+      "whyItMatters": "Calculus of finite differences and Taylor series."
+     }
+    ],
+    "roleNote": "Author"
+   },
+   {
+    "name": "James Gregory",
+    "role": "developer",
+    "lifespan": "1638-1675",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Gregory/",
+    "works": [
+     {
+      "citation": "Series expansions (1671, per Wikipedia)",
+      "year": 1671,
+      "url": "https://en.wikipedia.org/wiki/Taylor%27s_theorem",
+      "whyItMatters": "Earlier version of the theorem."
+     }
+    ],
+    "roleNote": "Earlier series"
+   },
+   {
+    "name": "James Stirling",
+    "role": "developer",
+    "lifespan": "1692-1770",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Stirling/",
+    "works": [
+     {
+      "citation": "Methodus differentialis",
+      "year": 1730,
+      "url": "https://archive.org/details/bub_gb_71ZHAAAAYAAJ",
+      "whyItMatters": "Summation and interpolation by differences."
+     }
+    ],
+    "roleNote": "Later treatise on differences"
+   }
+  ],
+  "notes": "The summary treats Taylor as the creator of the finite-difference calculus; MacTutor agrees that the book 'added' this branch but lists several independent earlier variants of the series (Gregory, Newton, Leibniz, Johann Bernoulli, de Moivre). Newton's Methodus differentialis (1711) was not checked. Maclaurin and the later rigorous remainder estimates were not researched. No Crossref entry for the 1715 book.",
+  "derivedDates": {
+   "conceptual": 1715,
+   "methodological": null,
+   "institutional": 1785
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P190",
+  "eventId": "MA80",
+  "canonicalName": "Euler: complex logarithms and exponentials",
+  "aliases": [
+   "Euler's formula",
+   "logarithms of negative numbers",
+   "Leibniz-Bernoulli controversy on logarithms"
+  ],
+  "phases": [
+   "Predecessors",
+   "Euler"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "year": 1702,
+    "precision": "year",
+    "label": "Johann Bernoulli on inverse sine and logarithm",
+    "work": null,
+    "people": [
+     "Johann Bernoulli"
+    ],
+    "description": "Bernoulli's 1702 relation between inverse sine and logarithm preceded Euler's treatment.",
+    "evidence": [
+     {
+      "claim": "MacTutor: Bernoulli found the relation between inverse sine and logarithm in 1702.",
+      "source": "MacTutor, Trigonometric functions",
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Trigonometric_functions/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Specific paper not identified."
+   },
+   {
+    "role": "precursor",
+    "year": 1714,
+    "precision": "year",
+    "label": "Cotes's Logometria",
+    "work": "Cotes, Logometria, Phil. Trans. 29, pp. 5-45, 1714",
+    "people": [
+     "Roger Cotes"
+    ],
+    "description": "Cotes already had the logarithm of cos x + i sin x in geometric form.",
+    "evidence": [
+     {
+      "claim": "Crossref: Logometria, Phil. Trans. 29, 1714.",
+      "source": "Crossref DOI 10.1098/rstl.1714.0002",
+      "url": "https://doi.org/10.1098/rstl.1714.0002",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_statement",
+    "year": 1748,
+    "precision": "year",
+    "label": "Euler publishes the exponential-trigonometric relation",
+    "work": "Euler, Introductio in analysin infinitorum, vol. 1, 1748, E101",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "Euler's first book on analysis prints exp(ix) = cos x + i sin x and the exponential as the base of the elementary functions.",
+    "evidence": [
+     {
+      "claim": "Euler Archive E101: published 1748.",
+      "source": "Euler Archive",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/101/",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia, Euler's formula: first published in 1748 in the Introductio.",
+      "source": "English Wikipedia, Euler's formula",
+      "url": "https://en.wikipedia.org/wiki/Euler%27s_formula",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "year": 1751,
+    "precision": "year",
+    "label": "Euler on the logarithms of negative and imaginary numbers",
+    "work": "Euler, De la controverse entre Mrs. Leibnitz et Bernoulli..., Mem. Acad. Berlin 5, pp. 139-179, 1751 (written 1747), E168",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "The paper treats the dispute over the logarithm of negative numbers; Euler held that logarithms are multi-valued.",
+    "evidence": [
+     {
+      "claim": "Euler Archive E168: published 1751, written 1747.",
+      "source": "Euler Archive",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/168/",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia, Euler's formula: Euler suggested complex logarithms have infinitely many values.",
+      "source": "English Wikipedia, Euler's formula",
+      "url": "https://en.wikipedia.org/wiki/Euler%27s_formula",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Leonhard Euler",
+    "role": "developer",
+    "lifespan": "1707-1783",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+    "works": [
+     {
+      "citation": "Introductio, vol. 1 (E101)",
+      "year": 1748,
+      "url": "https://scholarlycommons.pacific.edu/euler-works/101/",
+      "whyItMatters": "exp(ix) formula."
+     },
+     {
+      "citation": "De la controverse... (E168)",
+      "year": 1751,
+      "url": "https://scholarlycommons.pacific.edu/euler-works/168/",
+      "whyItMatters": "Logarithms of negatives."
+     }
+    ],
+    "roleNote": "Exponential and logarithm of complex numbers"
+   },
+   {
+    "name": "Johann Bernoulli",
+    "role": "developer",
+    "lifespan": "1667-1748",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bernoulli_Johann/",
+    "works": [
+     {
+      "citation": "Work of 1702 (unidentified)",
+      "year": 1702,
+      "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Trigonometric_functions/",
+      "whyItMatters": "Early link."
+     }
+    ],
+    "roleNote": "Inverse sine-logarithm link; party to the dispute"
+   },
+   {
+    "name": "Roger Cotes",
+    "role": "developer",
+    "lifespan": "1682-1716",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Cotes/",
+    "works": [
+     {
+      "citation": "Logometria",
+      "year": 1714,
+      "url": "https://doi.org/10.1098/rstl.1714.0002",
+      "whyItMatters": "Equivalent logarithmic form."
+     }
+    ],
+    "roleNote": "Logarithm of the angle"
+   }
+  ],
+  "notes": "Same underlying history as H76 but centred on Euler. The summary 'logarithms of negatives' is represented by the 1751 paper; the Leibniz side of the controversy (Acta Eruditorum 1712-13) was not verified. The complex-analysis target named in the input is not itself tied to a dated milestone here.",
+  "derivedDates": {
+   "conceptual": 1748,
+   "methodological": null,
+   "institutional": null
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P157",
+  "eventId": "WA68",
+  "canonicalName": "Euler: geodesics from mechanics",
+  "aliases": [
+   "geodesic equation",
+   "De linea brevissima",
+   "shortest line on a surface"
+  ],
+  "phases": [
+   "Shortest line problem",
+   "Mechanics derivation",
+   "Variational method"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Shortest line problem",
+    "year": 1732,
+    "precision": "year",
+    "label": "Euler on the shortest line on a surface",
+    "work": "Euler, De linea brevissima in superficie quacunque duo quaelibet puncta jungente, Comm. Acad. Sci. Petropol. 3, pp. 110-124 (1732; written 1730), E9",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "Prompted by an exercise from Johann Bernoulli, Euler found the shortest line between two points on a surface analytically.",
+    "evidence": [
+     {
+      "claim": "Euler Archive E9: published 1732, written 1730; summary says it arose from a task set by Bernoulli and gave early analytic foundations of the calculus of variations.",
+      "source": "Euler Archive",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/9/",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": "Shortest line problem",
+    "year": 1733,
+    "precision": "year",
+    "label": "Clairaut on geodesics of surfaces of revolution",
+    "work": null,
+    "people": [
+     "Alexis Clairaut"
+    ],
+    "description": "Clairaut published on the geodesics of quadrics of revolution, a topic Johann Bernoulli had also worked on.",
+    "evidence": [
+     {
+      "claim": "MacTutor Clairaut: in 1733 he published on geodesics of quadrics of rotation.",
+      "source": "MacTutor, Clairaut",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Clairaut/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Exact publication not identified."
+   },
+   {
+    "role": "first_application",
+    "phase": "Mechanics derivation",
+    "year": 1736,
+    "precision": "year",
+    "label": "Mechanica vol. 2: geodesic equations from motion on a surface",
+    "work": "Euler, Mechanica sive motus scientia analytice exposita, vol. 2, St Petersburg 1736, E16",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "Euler treated a point mass constrained to a surface and derived differential equations of geodesics from the mechanics, showing the free path is locally shortest.",
+    "evidence": [
+     {
+      "claim": "Euler Archive E16: published 1736; summary says he derives differential equations of geodesics for free motion on a surface.",
+      "source": "Euler Archive",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/16/",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": "Variational method",
+    "year": 1744,
+    "precision": "year",
+    "label": "Methodus inveniendi treats geodesics in general",
+    "work": "Euler, Methodus inveniendi lineas curvas..., 1744, E65",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "One of the worked problems of the general variational method is finding the geodesic on a given surface.",
+    "evidence": [
+     {
+      "claim": "Euler Archive E65 summary lists the geodesic joining two points on a given surface among the problems.",
+      "source": "Euler Archive",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/65/",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Leonhard Euler",
+    "role": "developer",
+    "lifespan": "1707-1783",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+    "works": [
+     {
+      "citation": "De linea brevissima (E9)",
+      "year": 1732,
+      "url": "https://scholarlycommons.pacific.edu/euler-works/9/",
+      "whyItMatters": "Shortest line on a surface."
+     },
+     {
+      "citation": "Mechanica vol. 2 (E16)",
+      "year": 1736,
+      "url": "https://scholarlycommons.pacific.edu/euler-works/16/",
+      "whyItMatters": "Geodesics from mechanics."
+     },
+     {
+      "citation": "Methodus inveniendi (E65)",
+      "year": 1744,
+      "url": "https://scholarlycommons.pacific.edu/euler-works/65/",
+      "whyItMatters": "General variational treatment."
+     }
+    ],
+    "roleNote": "Analytic derivations"
+   },
+   {
+    "name": "Alexis Clairaut",
+    "role": "developer",
+    "lifespan": "1713-1765",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Clairaut/",
+    "works": [
+     {
+      "citation": "Geodesics of quadrics of rotation (1733, per MacTutor)",
+      "year": 1733,
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Clairaut/",
+      "whyItMatters": "Parallel development."
+     }
+    ],
+    "roleNote": "Geodesics of surfaces of revolution"
+   }
+  ],
+  "notes": "The summary's 'geodesic equation for motion on a surface' fits E16 (1736) rather than E9 (1732), which treats the shortest line by variational means; both are kept with separate roles. Johann Bernoulli's own geodesic results (late 1690s) were not verified in the pages read. MacTutor's topic match for this event (Fractal Geometry) was irrelevant and ignored. person without verified work: Johann Bernoulli (developer).",
+  "derivedDates": {
+   "conceptual": 1732,
+   "methodological": 1736,
+   "institutional": null
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P169",
+  "eventId": "MA83",
+  "canonicalName": "Clairaut: curves in space",
+  "aliases": [
+   "courbes a double courbure",
+   "space curves",
+   "tortuous curves"
+  ],
+  "phases": [
+   "Space curves",
+   "Surfaces"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Space curves",
+    "year": 1729,
+    "precision": "year",
+    "label": "Clairaut completes research on double-curvature curves",
+    "work": null,
+    "people": [
+     "Alexis Clairaut"
+    ],
+    "description": "Clairaut finished his study of space curves in 1729, which led to his proposed election to the Academy.",
+    "evidence": [
+     {
+      "claim": "MacTutor: he completed research on double curvature curves in 1729 and was proposed for the Paris Academy on 4 September 1729.",
+      "source": "MacTutor, Clairaut",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Clairaut/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Unpublished at that date."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Space curves",
+    "year": 1731,
+    "precision": "year",
+    "label": "Recherches sur les courbes a double courbure",
+    "work": "Clairaut, Recherches sur les courbes a double courbure, Paris: Nyon, 1731",
+    "people": [
+     "Alexis Clairaut"
+    ],
+    "description": "A treatise applying analytic geometry and calculus to curves in three-dimensional space.",
+    "evidence": [
+     {
+      "claim": "Internet Archive holds the 1731 Nyon edition.",
+      "source": "Internet Archive",
+      "url": "https://archive.org/details/bub_gb_QmgHXHX3pw4C",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia, Alexis Clairaut: treatise on tortuous curves, published 1731, which led to his admission to the Academy.",
+      "source": "English Wikipedia, Alexis Clairaut",
+      "url": "https://en.wikipedia.org/wiki/Alexis_Clairaut",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "MacTutor says he was admitted to the Academy in July 1731; the Wikipedia text gives his age loosely. First study of space curves in print is attributed to Clairaut by the pages read, but earlier work by others was not searched."
+   },
+   {
+    "role": "key_development",
+    "phase": "Surfaces",
+    "year": 1767,
+    "precision": "year",
+    "label": "Euler on the curvature of surfaces",
+    "work": "Euler, Recherches sur la courbure des surfaces, Mem. Acad. Berlin 16, 1767 (written 1763), E333",
+    "people": [
+     "Leonhard Euler"
+    ],
+    "description": "Euler extended the study from curves in space to the curvature of surfaces.",
+    "evidence": [
+     {
+      "claim": "Euler Archive E333: published 1767, written 1763, Berlin Memoires vol. 16.",
+      "source": "Euler Archive",
+      "url": "https://scholarlycommons.pacific.edu/euler-works/333/",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Relevance to the event is the extension from curves to surfaces; the 'first' status of this paper was not tested."
+   }
+  ],
+  "people": [
+   {
+    "name": "Alexis Clairaut",
+    "role": "developer",
+    "lifespan": "1713-1765",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Clairaut/",
+    "works": [
+     {
+      "citation": "Recherches sur les courbes a double courbure",
+      "year": 1731,
+      "url": "https://archive.org/details/bub_gb_QmgHXHX3pw4C",
+      "whyItMatters": "Treatise on space curves."
+     }
+    ],
+    "roleNote": "Author"
+   },
+   {
+    "name": "Leonhard Euler",
+    "role": "developer",
+    "lifespan": "1707-1783",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+    "works": [
+     {
+      "citation": "Recherches sur la courbure des surfaces (E333)",
+      "year": 1767,
+      "url": "https://scholarlycommons.pacific.edu/euler-works/333/",
+      "whyItMatters": "Curvature of surfaces."
+     }
+    ],
+    "roleNote": "Curvature of surfaces"
+   }
+  ],
+  "notes": "The summary's claim of a first study of curves of double curvature is supported by the book's title and Wikipedia/MacTutor, but no page read says it was the earliest; Parent, Monge and Frenet-Serret stages were not researched. MacTutor's topic match (Fractal Geometry) was irrelevant. No naming or institution milestone found.",
+  "derivedDates": {
+   "conceptual": 1731,
+   "methodological": null,
+   "institutional": null
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ }
+]

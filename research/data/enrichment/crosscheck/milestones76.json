@@ -1,0 +1,740 @@
+[
+  {
+    "eventId": "MA32",
+    "canonicalName": "al-Karaji: binomial coefficients and early induction",
+    "aliases": [],
+    "phases": [],
+    "milestones": [],
+    "people": [],
+    "notes": "Searched MacTutor (al-Karaji), Wikipedia (Al-Karaji). Both attribute the binomial-coefficient table and an early induction-style proof of the sum of cubes to al-Fakhri/al-Badi and cite al-Samaw'al's quotations, but give no dates for either work; the catalogue range 1000-1020 is unverified, so no milestone is recorded. Lifespan c.953-c.1029.",
+    "searchedSources": [
+      "MacTutor",
+      "Wikipedia",
+      "Crossref",
+      "archive.org"
+    ],
+    "pid": "P177",
+    "searchTerms": [
+      "arithmetic",
+      "algebra"
+    ]
+  },
+  {
+    "eventId": "WA32",
+    "canonicalName": "Ibn al-Haytham and Ibn Sinan: quadrature",
+    "aliases": [],
+    "phases": [],
+    "milestones": [],
+    "people": [],
+    "notes": "Searched MacTutor (Ibn al-Haytham; Ibn Sinan page returned 404) and Wikipedia (Ibn al-Haytham, Ibrahim ibn Sinan). MacTutor gives no titles or dates for the quadrature/paraboloid works; Wikipedia gives life dates (Ibn Sinan c.908-946) and says he advanced parabola quadrature, with Rashed's studies as the cited source, but no dated work. Rashed (1981) on the paraboloid and Rashed 1996 were not opened. No milestone.",
+    "searchedSources": [
+      "MacTutor",
+      "Wikipedia",
+      "Crossref",
+      "archive.org"
+    ],
+    "pid": "P178",
+    "searchTerms": [
+      "geometry",
+      "arithmetic",
+      "integration/quadrature"
+    ]
+  },
+  {
+    "eventId": "MA86",
+    "canonicalName": "Lagrange: algebraic foundation for the calculus",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1797,
+        "precision": "year",
+        "label": "Theorie des fonctions analytiques published",
+        "work": "Lagrange, Theorie des fonctions analytiques, Paris, 1797",
+        "people": [
+          "Joseph-Louis Lagrange"
+        ],
+        "description": "Lagrange's treatise sets out calculus based on power-series expansion, without infinitesimals, limits or fluxions.",
+        "evidence": [
+          {
+            "claim": "MacTutor: in 1797 he published Theorie des fonctions analytiques, aiming to give differential calculus freed from infinitely small quantities, limits or fluxions",
+            "source": "MacTutor, Lagrange",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Wikipedia: the treatise (1797) extends an idea in a 1772 paper sent to Berlin",
+            "source": "Wikipedia, Joseph-Louis Lagrange",
+            "url": "https://en.wikipedia.org/wiki/Joseph-Louis_Lagrange",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Wikipedia says the programme was already sketched in a 1772 Berlin paper; that paper's title and publication year were not opened, so it is not a milestone. 1797 is the first systematic public treatment and could also be read as consolidation."
+      }
+    ],
+    "people": [
+      {
+        "name": "Joseph-Louis Lagrange",
+        "role": "originator",
+        "lifespan": "1736-1813",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+        "works": [
+          {
+            "citation": "Lagrange, Theorie des fonctions analytiques, Paris, 1797",
+            "year": 1797,
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+            "whyItMatters": "Lagrange's treatise sets out calculus based on power-series expansion, without infinitesimals, limits or fluxions."
+          }
+        ]
+      }
+    ],
+    "notes": "Searched MacTutor and Wikipedia for Lagrange. 1772 Berlin paper unverified.",
+    "pid": "P180",
+    "searchTerms": [
+      "algebra",
+      "calculus"
+    ]
+  },
+  {
+    "eventId": "WA87",
+    "canonicalName": "Kirchhoff: circuits and graphs",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1845,
+        "precision": "year",
+        "label": "Circuit laws announced",
+        "work": "Kirchhoff, circuit laws announced as a student, 1845",
+        "people": [
+          "Gustav Kirchhoff"
+        ],
+        "description": "Kirchhoff first announced his current and voltage laws while a student at Konigsberg.",
+        "evidence": [
+          {
+            "claim": "MacTutor: Kirchhoff's laws, which he announced in 1845, allowed calculation of currents, voltages and resistances in multi-loop circuits",
+            "source": "MacTutor, Kirchhoff",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kirchhoff/",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Wikipedia: first described in 1845",
+            "source": "Wikipedia, Kirchhoff's circuit laws",
+            "url": "https://en.wikipedia.org/wiki/Kirchhoff%27s_circuit_laws",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The 1845 announcement was not matched to a specific publication."
+      },
+      {
+        "role": "first_statement",
+        "year": 1847,
+        "precision": "year",
+        "label": "Linear-circuit equations published in Annalen der Physik",
+        "work": "Kirchhoff, Ueber die Aufloesung der Gleichungen, auf welche man bei der Untersuchung der linearen Vertheilung galvanischer Stroeme gefuehrt wird, Annalen der Physik 148 (1847)",
+        "people": [
+          "Gustav Kirchhoff"
+        ],
+        "description": "Kirchhoff's paper on solving the equations for currents in networks of linear conductors appeared in Poggendorff's Annalen.",
+        "evidence": [
+          {
+            "claim": "Crossref record: title, Annalen der Physik, issued 1847, DOI 10.1002/andp.18471481202",
+            "source": "Crossref",
+            "url": "https://api.crossref.org/works/10.1002/andp.18471481202",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Only the Crossref metadata was opened, not the paper text; that this paper states the circuit laws and its graph-theoretic content is from the title and standard history, not checked here."
+      }
+    ],
+    "people": [
+      {
+        "name": "Gustav Kirchhoff",
+        "role": "originator",
+        "lifespan": "1824-1887",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kirchhoff/",
+        "works": [
+          {
+            "citation": "Kirchhoff, circuit laws announced as a student, 1845",
+            "year": 1845,
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kirchhoff/",
+            "whyItMatters": "Kirchhoff first announced his current and voltage laws while a student at Konigsberg."
+          },
+          {
+            "citation": "Kirchhoff, Ueber die Aufloesung der Gleichungen, auf welche man bei der Untersuchung der linearen Vertheilung galvanischer Stroeme gefuehrt wird, Annalen der Physik 148 (1847)",
+            "year": 1847,
+            "url": "https://api.crossref.org/works/10.1002/andp.18471481202",
+            "whyItMatters": "Kirchhoff's paper on solving the equations for currents in networks of linear conductors appeared in Poggendorff's Annalen."
+          }
+        ]
+      }
+    ],
+    "notes": "Searched Crossref, MacTutor, Wikipedia. Graph-theory (spanning-tree) aspects not verified.",
+    "pid": "P181",
+    "searchTerms": [
+      "electricity",
+      "graph theory",
+      "network theory"
+    ]
+  },
+  {
+    "eventId": "MA100",
+    "canonicalName": "Abel's theorem and abelian integrals",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1826,
+        "precision": "year",
+        "label": "Paris memoir submitted",
+        "work": "Abel, memoir on a general property of a very extensive class of transcendental functions, submitted to the Paris Academy, 1826",
+        "people": [
+          "Niels Henrik Abel"
+        ],
+        "description": "Abel submitted his treatise on sums of integrals of algebraic functions to the Paris Institute, where it went unpublished for years.",
+        "evidence": [
+          {
+            "claim": "MacTutor: Abel presented the treatise in Paris in 1826; Cauchy and Legendre were referees; Cauchy found it in 1830",
+            "source": "MacTutor, Abel",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Abel/",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Wikipedia: finished in October 1826 and submitted to the Academy",
+            "source": "Wikipedia, Niels Henrik Abel",
+            "url": "https://en.wikipedia.org/wiki/Niels_Henrik_Abel",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Unpublished private submission, so a precursor."
+      },
+      {
+        "role": "first_statement",
+        "year": 1841,
+        "precision": "year",
+        "label": "Memoir printed",
+        "work": "Abel, Paris memoir, printed 1841",
+        "people": [
+          "Niels Henrik Abel"
+        ],
+        "description": "The memoir stating the theorem and introducing the genus was finally printed.",
+        "evidence": [
+          {
+            "claim": "MacTutor: printed in 1841; the printed memoir was lost again until found in Florence in 1952",
+            "source": "MacTutor, Abel",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Abel/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Printing venue not verified. Abel announced related results in published papers in Crelle's Journal (c.1826-29); those were not checked, so an earlier public statement may exist."
+      }
+    ],
+    "people": [
+      {
+        "name": "Niels Henrik Abel",
+        "role": "originator",
+        "lifespan": "1802-1829",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Abel/",
+        "works": [
+          {
+            "citation": "Abel, memoir on a general property of a very extensive class of transcendental functions, submitted to the Paris Academy, 1826",
+            "year": 1826,
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Abel/",
+            "whyItMatters": "Abel submitted his treatise on sums of integrals of algebraic functions to the Paris Institute, where it went unpublished for years."
+          },
+          {
+            "citation": "Abel, Paris memoir, printed 1841",
+            "year": 1841,
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Abel/",
+            "whyItMatters": "The memoir stating the theorem and introducing the genus was finally printed."
+          }
+        ]
+      }
+    ],
+    "notes": "Searched MacTutor and Wikipedia. Crossref search for the memoir failed. Catalogue range 1826-1841 matches these two dates.",
+    "pid": "P182",
+    "searchTerms": [
+      "algebraic functions",
+      "integral calculus",
+      "algebraic geometry"
+    ]
+  },
+  {
+    "eventId": "MA45",
+    "canonicalName": "Cardano: first treatise on chance",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1564,
+        "precision": "year",
+        "label": "Liber de ludo aleae written",
+        "work": "Cardano, Liber de ludo aleae, written c.1564",
+        "people": [
+          "Gerolamo Cardano"
+        ],
+        "description": "Cardano wrote his analysis of dice by counting favourable cases around 1564, but it stayed unpublished.",
+        "evidence": [
+          {
+            "claim": "Wikipedia: written around 1564, not published until 1663; defines odds as ratio of favourable to unfavourable outcomes",
+            "source": "Wikipedia, Gerolamo Cardano",
+            "url": "https://en.wikipedia.org/wiki/Gerolamo_Cardano",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Wikipedia only; the manuscript date was not checked against a scholarly source. Approximate."
+      },
+      {
+        "role": "first_statement",
+        "year": 1663,
+        "precision": "year",
+        "label": "Published in Opera Omnia",
+        "work": "Cardano, Opera Omnia, Lyon, 1663 (including Liber de ludo aleae)",
+        "people": [
+          "Gerolamo Cardano"
+        ],
+        "description": "The treatise reached the public in the posthumous Lyon edition of Cardano's collected works.",
+        "evidence": [
+          {
+            "claim": "Wikipedia: Liber de ludo aleae published posthumously; Lyon 1663 Opera Omnia, 10 volumes",
+            "source": "Wikipedia, Gerolamo Cardano",
+            "url": "https://en.wikipedia.org/wiki/Gerolamo_Cardano",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Publication year governs for first_statement."
+      }
+    ],
+    "people": [
+      {
+        "name": "Gerolamo Cardano",
+        "role": "originator",
+        "lifespan": "1501-1576",
+        "biographyUrl": "https://en.wikipedia.org/wiki/Gerolamo_Cardano",
+        "works": [
+          {
+            "citation": "Cardano, Liber de ludo aleae, written c.1564",
+            "year": 1564,
+            "url": "https://en.wikipedia.org/wiki/Gerolamo_Cardano",
+            "whyItMatters": "Cardano wrote his analysis of dice by counting favourable cases around 1564, but it stayed unpublished."
+          },
+          {
+            "citation": "Cardano, Opera Omnia, Lyon, 1663 (including Liber de ludo aleae)",
+            "year": 1663,
+            "url": "https://en.wikipedia.org/wiki/Gerolamo_Cardano",
+            "whyItMatters": "The treatise reached the public in the posthumous Lyon edition of Cardano's collected works."
+          }
+        ]
+      }
+    ],
+    "notes": "Searched Wikipedia and archive.org (only found the 1961 translation record). Wikipedia pages on the book itself were not retrievable.",
+    "pid": "P183",
+    "searchTerms": [
+      "combinatorics",
+      "probability"
+    ]
+  },
+  {
+    "eventId": "MA7",
+    "canonicalName": "Eudoxus homocentric spheres",
+    "aliases": [],
+    "phases": [],
+    "milestones": [],
+    "people": [],
+    "notes": "Searched MacTutor (Eudoxus, 408-355 BC) and Wikipedia. MacTutor describes the homocentric-sphere system and notes Neugebauer's doubt about observational basis, but the work (On Velocities, lost) has no secure date; the catalogue range -370 to -350 is unverified. No milestone.",
+    "searchedSources": [
+      "MacTutor",
+      "Wikipedia",
+      "Crossref",
+      "archive.org"
+    ],
+    "pid": "P184",
+    "searchTerms": [
+      "geometry",
+      "astronomy",
+      "mathematical astronomy"
+    ]
+  },
+  {
+    "eventId": "WA56",
+    "canonicalName": "De Moivre: chances and trigonometry/complex fusion",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "consolidation",
+        "year": 1718,
+        "precision": "year",
+        "label": "Doctrine of Chances (English)",
+        "work": "de Moivre, The Doctrine of Chances, London, 1718",
+        "people": [
+          "Abraham de Moivre"
+        ],
+        "description": "De Moivre's English textbook on probability, an expansion of his 1711 Latin treatment.",
+        "evidence": [
+          {
+            "claim": "archive.org catalogue record for the 1718 first English edition",
+            "source": "Internet Archive",
+            "url": "https://archive.org/details/b30412390",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Wikipedia: second textbook on probability; editions 1711 (Latin), 1718, 1738, 1756",
+            "source": "Wikipedia, Abraham de Moivre",
+            "url": "https://en.wikipedia.org/wiki/Abraham_de_Moivre",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Catalogue summary of the 1718 edition's title; text not read."
+      },
+      {
+        "role": "key_development",
+        "year": 1722,
+        "precision": "year",
+        "label": "Equations behind the cos+i sin power formula",
+        "work": "de Moivre, 1722 equations (Wikipedia citation)",
+        "people": [
+          "Abraham de Moivre"
+        ],
+        "description": "De Moivre presented equations from which the multiple-angle formula linking powers of complex numbers to trigonometry can be deduced.",
+        "evidence": [
+          {
+            "claim": "Wikipedia: in 1722 he presented equations from which the better-known form of the formula can be deduced; he never stated it explicitly",
+            "source": "Wikipedia, Abraham de Moivre",
+            "url": "https://en.wikipedia.org/wiki/Abraham_de_Moivre",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Wikipedia: the formula is named after him although he never stated it in his works",
+            "source": "Wikipedia, De Moivre's formula",
+            "url": "https://en.wikipedia.org/wiki/De_Moivre%27s_formula",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "low",
+        "note": "Original 1722 paper not identified or opened."
+      },
+      {
+        "role": "key_development",
+        "year": 1733,
+        "precision": "year",
+        "label": "Normal approximation to the binomial",
+        "work": "de Moivre, Approximatio ad summam terminorum binomii (a+b)^n in seriem expansi, 1733 (privately distributed)",
+        "people": [
+          "Abraham de Moivre"
+        ],
+        "description": "A privately printed pamphlet gave an approximation to binomial sums, later included in the Doctrine of Chances.",
+        "evidence": [
+          {
+            "claim": "Wikipedia: pamphlet distributed 12 Nov 1733; included in later editions as first statement of the normal approximation",
+            "source": "Wikipedia, Abraham de Moivre",
+            "url": "https://en.wikipedia.org/wiki/Abraham_de_Moivre",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Pamphlet itself not opened."
+      }
+    ],
+    "people": [
+      {
+        "name": "Abraham de Moivre",
+        "role": "originator",
+        "lifespan": "1667-1754",
+        "biographyUrl": "https://en.wikipedia.org/wiki/Abraham_de_Moivre",
+        "works": [
+          {
+            "citation": "de Moivre, The Doctrine of Chances, London, 1718",
+            "year": 1718,
+            "url": "https://archive.org/details/b30412390",
+            "whyItMatters": "De Moivre's English textbook on probability, an expansion of his 1711 Latin treatment."
+          },
+          {
+            "citation": "de Moivre, 1722 equations (Wikipedia citation)",
+            "year": 1722,
+            "url": "https://en.wikipedia.org/wiki/Abraham_de_Moivre",
+            "whyItMatters": "De Moivre presented equations from which the multiple-angle formula linking powers of complex numbers to trigonometry can be deduced."
+          },
+          {
+            "citation": "de Moivre, Approximatio ad summam terminorum binomii (a+b)^n in seriem expansi, 1733 (privately distributed)",
+            "year": 1733,
+            "url": "https://en.wikipedia.org/wiki/Abraham_de_Moivre",
+            "whyItMatters": "A privately printed pamphlet gave an approximation to binomial sums, later included in the Doctrine of Chances."
+          }
+        ]
+      }
+    ],
+    "notes": "Searched Wikipedia, archive.org. Miscellanea Analytica (1730) cited by Wikipedia for factorial/binomial approximations but not opened. 1711 Latin version (De mensura sortis) not verified, so no earlier first_statement. Catalogue 1730-1738 dates were leads only.",
+    "pid": "P185",
+    "searchTerms": [
+      "analysis",
+      "probability"
+    ]
+  },
+  {
+    "eventId": "MA22",
+    "canonicalName": "Jaina permutations and combinations",
+    "aliases": [],
+    "phases": [],
+    "milestones": [],
+    "people": [],
+    "notes": "Searched Wikipedia (Indian mathematics: Jain section). It mentions Sthananga Sutra (c.300 BCE-200 CE) and Anuyogadvara Sutra (c.200 BCE-100 CE, earliest known description of factorials) but dates are broad ranges and no source checked links a specific dated passage to permutations and combinations. Bhagavati Sutra not located. No milestone.",
+    "searchedSources": [
+      "MacTutor",
+      "Wikipedia",
+      "Crossref",
+      "archive.org"
+    ],
+    "pid": "P187",
+    "searchTerms": [
+      "Jaina cosmology",
+      "arithmetic",
+      "combinatorics"
+    ]
+  },
+  {
+    "eventId": "MA88",
+    "canonicalName": "Potential theory in celestial mechanics and physics",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "key_development",
+        "year": 1813,
+        "precision": "year",
+        "label": "Poisson on potential inside attracting masses",
+        "work": "Poisson, 1813 work on the potential inside attracting bodies",
+        "people": [
+          "Simeon Denis Poisson"
+        ],
+        "description": "Poisson studied the potential in the interior of attracting masses, with results used in electrostatics.",
+        "evidence": [
+          {
+            "claim": "MacTutor: in 1813 Poisson studied the potential in the interior of attracting masses, with application to electrostatics",
+            "source": "MacTutor, Poisson",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Poisson/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Specific publication not identified."
+      },
+      {
+        "role": "key_development",
+        "year": 1828,
+        "precision": "year",
+        "label": "Green's Essay on electricity and magnetism",
+        "work": "Green, An Essay on the Application of Mathematical Analysis to the Theories of Electricity and Magnetism, Nottingham, 1828",
+        "people": [
+          "George Green"
+        ],
+        "description": "Green's essay developed potential theory for electricity and magnetism.",
+        "evidence": [
+          {
+            "claim": "MacTutor: the Essay was published in March 1828",
+            "source": "MacTutor, Green",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Green/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "Searched MacTutor (Laplace, Poisson, Green) and Wikipedia. MacTutor says Laplace introduced the potential function but gives no date opened; Laplace 1782/1785 and Mecanique celeste (1799-) not verified, so no first_statement. Catalogue range 1782-1813 unverified at the early end.",
+    "pid": "P188",
+    "searchTerms": [
+      "mechanics",
+      "partial differential equations",
+      "potential theory"
+    ]
+  },
+  {
+    "eventId": "WA11",
+    "canonicalName": "Menelaus: spherical trigonometry",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 100,
+        "precision": "decade",
+        "label": "Sphaerica",
+        "work": "Menelaus of Alexandria, Sphaerica (c. 100 CE; surviving in Arabic)",
+        "people": [
+          "Menelaus of Alexandria"
+        ],
+        "description": "Sphaerica defines spherical triangles and sets up their theory like Euclid's plane triangles, including Menelaus' theorem.",
+        "evidence": [
+          {
+            "claim": "MacTutor: only Sphaerica survives; Book I bases treatment of spherical triangles; Ptolemy records his observations at Rome in 98",
+            "source": "MacTutor, Menelaus",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Menelaus/",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Wikipedia: fl. 100 CE; Sphaerica survives in Arabic translation",
+            "source": "Wikipedia, Menelaus of Alexandria",
+            "url": "https://en.wikipedia.org/wiki/Menelaus_of_Alexandria",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "low",
+        "note": "Date is inferred from his floruit (observation in 98 CE), not from a dated publication."
+      }
+    ],
+    "people": [
+      {
+        "name": "Menelaus of Alexandria",
+        "role": "originator",
+        "lifespan": "c.70-c.140",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Menelaus/",
+        "works": [
+          {
+            "citation": "Menelaus of Alexandria, Sphaerica (c. 100 CE; surviving in Arabic)",
+            "year": 100,
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Menelaus/",
+            "whyItMatters": "Sphaerica defines spherical triangles and sets up their theory like Euclid's plane triangles, including Menelaus' theorem."
+          }
+        ]
+      }
+    ],
+    "notes": "Searched MacTutor and Wikipedia. Exact composition date unknown.",
+    "pid": "P189",
+    "searchTerms": [
+      "spherical astronomy",
+      "geometry",
+      "spherical trigonometry"
+    ]
+  },
+  {
+    "eventId": "MA80",
+    "canonicalName": "Euler: complex logarithms and exponentials",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1727,
+        "precision": "year",
+        "label": "ln(-1)=pi i found",
+        "work": "Euler, discovery noted by MacTutor",
+        "people": [
+          "Leonhard Euler"
+        ],
+        "description": "Euler had found the logarithm of -1 by 1727.",
+        "evidence": [
+          {
+            "claim": "MacTutor: he had discovered ln(-1)=pi i in 1727",
+            "source": "MacTutor, Euler",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Private discovery; publication not identified."
+      },
+      {
+        "role": "key_development",
+        "year": 1748,
+        "precision": "year",
+        "label": "Introductio in analysin infinitorum",
+        "work": "Euler, Introductio in analysin infinitorum, 1748 (E101)",
+        "people": [
+          "Leonhard Euler"
+        ],
+        "description": "Euler's textbook gives e^{ix}=cos x + i sin x and bases analysis on elementary functions.",
+        "evidence": [
+          {
+            "claim": "MacTutor: in Introductio (1748) Euler gave e^{ix}=cos x+i sin x",
+            "source": "MacTutor, Euler",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Euler Archive record E101, published 1748",
+            "source": "Euler Archive",
+            "url": "https://scholarlycommons.pacific.edu/euler-works/101/",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "key_development",
+        "year": 1751,
+        "precision": "year",
+        "label": "Full theory of logarithms of complex numbers",
+        "work": "Euler, De la controverse entre Mrs. Leibnitz et Bernoulli sur les logarithmes des nombres negatifs et imaginaires (E168), 1751",
+        "people": [
+          "Leonhard Euler"
+        ],
+        "description": "Euler resolved the Leibniz-Bernoulli dispute on logarithms of negative and imaginary numbers.",
+        "evidence": [
+          {
+            "claim": "MacTutor: published his full theory of logarithms of complex numbers in 1751",
+            "source": "MacTutor, Euler",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Euler Archive record E168 (title, 1751)",
+            "source": "Euler Archive",
+            "url": "https://scholarlycommons.pacific.edu/euler-works/168/",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Matching E168 to MacTutor's 1751 statement is by title and year; paper not read."
+      }
+    ],
+    "people": [
+      {
+        "name": "Leonhard Euler",
+        "role": "originator",
+        "lifespan": "1707-1783",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+        "works": [
+          {
+            "citation": "Euler, discovery noted by MacTutor",
+            "year": 1727,
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+            "whyItMatters": "Euler had found the logarithm of -1 by 1727."
+          },
+          {
+            "citation": "Euler, Introductio in analysin infinitorum, 1748 (E101)",
+            "year": 1748,
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+            "whyItMatters": "Euler's textbook gives e^{ix}=cos x + i sin x and bases analysis on elementary functions."
+          },
+          {
+            "citation": "Euler, De la controverse entre Mrs. Leibnitz et Bernoulli sur les logarithmes des nombres negatifs et imaginaires (E168), 1751",
+            "year": 1751,
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+            "whyItMatters": "Euler resolved the Leibniz-Bernoulli dispute on logarithms of negative and imaginary numbers."
+          }
+        ]
+      }
+    ],
+    "notes": "Searched MacTutor, Euler Archive. E170 (1751) also appeared but was not used.",
+    "pid": "P190",
+    "searchTerms": [
+      "trigonometry",
+      "exponentials",
+      "complex numbers",
+      "complex analysis"
+    ]
+  }
+]

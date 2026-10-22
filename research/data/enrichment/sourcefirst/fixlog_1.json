@@ -1,0 +1,212 @@
+[
+ {
+  "pid": "P127",
+  "change": "Consolidation milestone moved from 1462 (manuscript completion) to 1496 (first printed edition); evidence added; derived dates recomputed",
+  "source": "Open Library search API (Epytoma in Almagestum Ptolemaei, first_publish_year 1496)"
+ },
+ {
+  "pid": "P000",
+  "change": "Event note: Crossref check for Heiberg 1907 publication recorded as no match; 1907 left unresolved",
+  "source": "Crossref API query, Heiberg Eine neue Archimedeshandschrift"
+ },
+ {
+  "pid": "P184",
+  "change": "Event note: MacTutor Eudoxus re-read; -387 programme date and motive stay unresolved",
+  "source": "MacTutor, Eudoxus of Cnidus"
+ },
+ {
+  "pid": "P175",
+  "change": "Event note: Wikipedia Pingala dating range (c. 3rd-2nd century BCE) recorded; -300 is a point inside that range",
+  "source": "Wikipedia, Pingala"
+ },
+ {
+  "pid": "P137",
+  "change": "Event note: Wylie date corrected to 1853 Jottings (Wikipedia, Alexander Wylie); the Sunzi range is unchanged; CRT coinage still unresolved",
+  "source": "Wikipedia, Alexander Wylie (missionary)"
+ },
+ {
+  "pid": "P111",
+  "change": "Gwalior note: Sambor (683 CE) corrected as the oldest firmly dated decimal zero per Wikipedia; Bakhshali 2017 and 2024 dates recorded",
+  "source": "Wikipedia, 0 (number); Wikipedia, Bakhshali manuscript"
+ },
+ {
+  "pid": "P196",
+  "change": "Naming milestone marked as the 12th-century range 1100-1199 (Latin translation), not a single year",
+  "source": "Wikipedia, Algorism"
+ },
+ {
+  "pid": "P187",
+  "change": "Event note: re-read MacTutor Jaina and Wikipedia Pingala; ranges overlap, order still unresolved",
+  "source": "MacTutor, Jaina mathematics; Wikipedia, Pingala"
+ },
+ {
+  "pid": "P001",
+  "change": "Event note: Al-Jabr date re-checked (around 820, one reference 825); remains approximate",
+  "source": "Wikipedia, Al-Jabr"
+ },
+ {
+  "pid": "P141",
+  "change": "Event note: Siddhanta dating and Greek-influence question recorded as still open",
+  "source": "Wikipedia, Aryabhata"
+ },
+ {
+  "pid": "P148",
+  "change": "Event note: Siyuan yujian 1303 kept, flagged as not confirmed by a bibliographic record",
+  "source": "Wikipedia (Siyuan yujian title lookup); 2008 encyclopaedia chapter as cited"
+ },
+ {
+  "pid": "P177",
+  "change": "Maurolico 1575 milestone relabelled \"early printed explicit induction proof\" (year confirmed); Wikipedia evidence added, priority claim withdrawn",
+  "source": "Wikipedia, Mathematical induction"
+ },
+ {
+  "pid": "P136",
+  "change": "Event note: Khayyam dates set to MacTutor 1048-1131, matching Wikipedia infobox",
+  "source": "MacTutor, Omar Khayyam; Wikipedia infobox"
+ },
+ {
+  "pid": "P178",
+  "change": "Ibn Sinan milestone: lifespan evidence (c.908-946) added; note states 925 is only a midpoint of the lifespan",
+  "source": "Van Brummelen, Biographical Encyclopedia of Astronomers"
+ },
+ {
+  "pid": "P121",
+  "change": "Sine-law and Tusi milestones: undated-source limits recorded; 970 flagged as lifespan inference; 1260 flagged as estimate",
+  "source": "MacTutor, Al-Khujandi; MacTutor, Nasir al-Din al-Tusi"
+ },
+ {
+  "pid": "P125",
+  "change": "Event note: Rashed edition year left unconfirmed",
+  "source": "Crossref review record (doi 10.1086/355109), as cited"
+ },
+ {
+  "pid": "P449",
+  "change": "Piero milestone: year 1470 changed to 1474-1482 range; evidence added; 1460s option removed",
+  "source": "Wikipedia, De prospectiva pingendi"
+ },
+ {
+  "pid": "P129",
+  "change": "Tantrasangraha milestone set to 1501 (MacTutor); Nilakantha lifespan corrected to 1444-after 1501; evidence added",
+  "source": "MacTutor, Nilakantha"
+ },
+ {
+  "pid": "P458",
+  "change": "Event note: Tartaglia lifespan sourced to MacTutor (born 1499 or 1500, died 1557)",
+  "source": "MacTutor, Niccolo Tartaglia"
+ },
+ {
+  "pid": "P193",
+  "change": "Event note: Viete 1595 confirmed by MacTutor; 1615 Ad angulares sectiones still unresolved",
+  "source": "MacTutor, Francois Viete; Internet Archive records"
+ },
+ {
+  "pid": "P158",
+  "change": "Event note: Tusi Treatise on the Quadrilateral has no composition year on MacTutor; 1250 kept as decade estimate",
+  "source": "MacTutor, Nasir al-Din al-Tusi"
+ },
+ {
+  "pid": "P173",
+  "change": "Event note: Li Zhi 1248 confirmed as completion year of Ce yuan hai jing; earlier source still not found",
+  "source": "MacTutor, Li Zhi"
+ },
+ {
+  "pid": "P198",
+  "change": "Regiomontanus De triangulis composition year marked decade precision (about 1464); print year 1533 kept",
+  "source": "Internet Archive ARes352131"
+ },
+ {
+  "pid": "P449",
+  "change": "Event note: Alberti De pictura 1435 left unresolved (1950 edition only in record)",
+  "source": "Open Library OL1417313W; MacTutor, Alberti (as cited)"
+ },
+ {
+  "pid": "P110",
+  "change": "Event note: MacTutor Oresme re-read; no date and no kinematic application stated",
+  "source": "MacTutor, Oresme"
+ },
+ {
+  "pid": "P183",
+  "change": "Event note: Cardano manuscript year (c.1563-64) left unconfirmed",
+  "source": "Internet Archive, Cardano Liber de ludo aleae"
+ },
+ {
+  "pid": "P114",
+  "change": "Event note: Fermat-Frenicle 1640 date recorded as unresolved (only a 1991 reconstruction)",
+  "source": "Historia Mathematica 1991 article (record as cited)"
+ },
+ {
+  "pid": "P168",
+  "change": "Event note: Graunt publication date explained (1662 Old Style, 1663 New Style); term and authorship still open",
+  "source": "Wikipedia, John Graunt"
+ },
+ {
+  "pid": "P192",
+  "change": "Event note: 1700 Leibniz item still unidentified after MacTutor re-read",
+  "source": "MacTutor, Matrices and determinants"
+ },
+ {
+  "pid": "P163",
+  "change": "Event note: Wallis 1685 treatise noted as unread for the binomial series; 1711 kept",
+  "source": "Internet Archive, Wallis Treatise of Algebra 1685"
+ },
+ {
+  "pid": "P446",
+  "change": "Event note: 1687 start treated as judgement; Lagrange 1762 printing year unresolved",
+  "source": "Oeuvres de Lagrange, vol. 14 (Internet Archive)"
+ },
+ {
+  "pid": "P117",
+  "change": "Event note: Meditationes 1684-1689 and 1713 publication recorded; proof date still unresolved",
+  "source": "Wikipedia, Ars Conjectandi; Open Library"
+ },
+ {
+  "pid": "P150",
+  "change": "Event note: 1722 versus 1730 for De Moivre formula kept open with Crossref candidate noted",
+  "source": "Crossref, De sectione anguli (doi 10.1098/rstl.1722.0039)"
+ },
+ {
+  "pid": "P460",
+  "change": "Event note: Cotes 1714 confirmed (Crossref, first publication); De Moivre 1722 vs 1730 left open",
+  "source": "Crossref, Logometria (doi 10.1098/rstl.1714.0002)"
+ },
+ {
+  "pid": "P430",
+  "change": "Euler precursor milestone: written 1751, published 1765 (range), title changed to E292; 1760 removed; H17 zbMATH search recorded as unresolved",
+  "source": "Euler Archive E292; zbMATH title search"
+ },
+ {
+  "pid": "P185",
+  "change": "Event note: naming evidence (name in use by 1901 per Wikipedia citation) recorded; coinage undated",
+  "source": "Wikipedia, De Moivre's formula"
+ },
+ {
+  "pid": "P005",
+  "change": "Event note: Dirichlet 1837 introduction of characters recorded from Wikipedia; phrase coinage unresolved",
+  "source": "Wikipedia, Dirichlet character"
+ },
+ {
+  "pid": "P152",
+  "change": "Event note: 13 November 1733 pamphlet date recorded; naming date unresolved",
+  "source": "MacTutor, Abraham de Moivre; Wikipedia, Abraham de Moivre"
+ },
+ {
+  "pid": "P444",
+  "change": "Event note: d'Alembert incompleteness and Euler 1742 letter recorded; naming date unresolved",
+  "source": "Wikipedia, Fundamental theorem of algebra"
+ },
+ {
+  "pid": "P188",
+  "change": "Laplace milestone year corrected from 1782 to 1786 per Wikipedia; Lagrange 1773 priority left open",
+  "source": "Wikipedia, Laplace's equation"
+ },
+ {
+  "pid": "P456",
+  "change": "Event note: Arrow paper 1950 confirmed by Crossref; MacTutor 1951 explained as the book",
+  "source": "Crossref, doi 10.1086/256963"
+ },
+ {
+  "pid": "P113",
+  "change": "Added Staudt Geometrie der Lage (1847) key_development milestone; Gergonne/Brianchon duality credit noted",
+  "source": "Wikipedia, Karl von Staudt; Wikipedia, Duality (projective geometry)"
+ }
+]

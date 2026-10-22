@@ -1,0 +1,1698 @@
+[
+  {
+    "pid": "P006",
+    "canonicalName": "Group theory from the solution of polynomial equations",
+    "aliases": [
+      "theory of groups",
+      "substitution theory",
+      "Substitutionentheorie",
+      "permutation groups",
+      "Galois groups",
+      "groupe de l'equation",
+      "abstract group",
+      "origin of group theory"
+    ],
+    "dates": {
+      "conceptual": {
+        "start": 1846,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Liouville printed Galois' memoirs in his journal in 1846; group-based solvability theory outlined there",
+            "source": "MacTutor, Galois biography",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Galois/",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Galois' term 'groupe de l'equation' appears in the memoir written 1830, first printed 1846",
+            "source": "MacTutor, Earliest Known Uses of Some Words of Mathematics (G)",
+            "url": "https://mathshistory.st-andrews.ac.uk/Miller/mathword/g/",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Lagrange's 1770 work on equations is where permutations of roots were first studied",
+            "source": "MacTutor, History topic: The development of group theory",
+            "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Development_group_theory/",
+            "kind": "history_page"
+          }
+        ],
+        "note": "Dated to the first printed statement of a group of permutations of roots as an object (Galois, written 1830-32, printed 1846). Precursors: Lagrange's Reflexions (presented 1770; print year of the Berlin Nouveaux Memoires volume not verified), Ruffini 1799 book (MacTutor Ruffini), Cauchy's 1815 permutation memoir (MacTutor Cauchy). If the event's idea is read as the abstract group, the date would be Cayley 1854 (see institutional).",
+        "confidence": "medium"
+      },
+      "methodological": {
+        "start": 1846,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Galois' printed memoirs give a group-theoretic criterion for solvability by radicals",
+            "source": "MacTutor, Galois biography",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Galois/",
+            "kind": "history_page"
+          }
+        ],
+        "note": "First purposeful use of the permutation group on the target problem (solvability). Later systematic use: Jordan's papers 1865-1870 and the 1870 Traite (MacTutor Jordan). No bibliographic record of the 1846 journal issue was retrieved (archive.org search for the 1846 Journal de mathematiques gave 0 hits).",
+        "confidence": "medium"
+      },
+      "institutional": {
+        "start": 1854,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Cayley's paper 'On the theory of groups, as depending on the symbolic equation theta^n = 1', Phil. Mag. 1854",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1080/14786445408647421",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Cayley's 1854 papers define an abstract group with a multiplication table",
+            "source": "MacTutor, Cayley biography",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Cayley/",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Jordan, Traite des substitutions et des equations algebriques, 1870",
+            "source": "archive.org record",
+            "url": "https://archive.org/details/traitdessubsti00jorduoft",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Burnside's 1897 Theory of Groups of Finite Order: first group-theory treatise in English",
+            "source": "MacTutor, Burnside biography",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Burnside/",
+            "kind": "history_page"
+          }
+        ],
+        "note": "Earliest paper title naming the field found: Cayley 1854 (Crossref). First monograph: Jordan 1870 (archive.org). Netto, Substitutionentheorie und ihre Anwendung auf die Algebra, 1882 (zbMATH JFM 14.0090.01; Open Library). Serret's Cours d'algebre superieure (1849, 1854, 1866 editions on archive.org) taught substitutions earlier but its title does not name the field. Searched zbMATH titles 'Gruppentheorie' 1868-1895 and 'theory of groups' 1868-1885; JFM coverage starts 1868.",
+        "confidence": "high"
+      }
+    },
+    "firstTermUse": {
+      "term": "groupe (groupe de l'equation)",
+      "year": 1846,
+      "source": "https://mathshistory.st-andrews.ac.uk/Miller/mathword/g/"
+    },
+    "people": [
+      {
+        "name": "Evariste Galois",
+        "role": "originator",
+        "lifespan": "1811-1832",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Galois/",
+        "works": [
+          {
+            "citation": "Galois, E., Oeuvres mathematiques (J. Math. Pures Appl. 11, 1846); later edition with E. Picard",
+            "year": 1846,
+            "url": "https://archive.org/details/oeuvresmathmatiq40213gut",
+            "whyItMatters": "Contains the memoir introducing the group of an equation and the solvability criterion"
+          }
+        ]
+      },
+      {
+        "name": "Arthur Cayley",
+        "role": "systematiser",
+        "lifespan": "1821-1895",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Cayley/",
+        "works": [
+          {
+            "citation": "Cayley, A., On the theory of groups, as depending on the symbolic equation theta^n = 1, Phil. Mag. 7 (1854)",
+            "year": 1854,
+            "url": "https://doi.org/10.1080/14786445408647421",
+            "whyItMatters": "First abstract definition of a group, detached from permutations of roots"
+          }
+        ]
+      },
+      {
+        "name": "Camille Jordan",
+        "role": "systematiser",
+        "lifespan": "1838-1922",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Jordan/",
+        "works": [
+          {
+            "citation": "Jordan, C., Traite des substitutions et des equations algebriques, Paris 1870",
+            "year": 1870,
+            "url": "https://archive.org/details/traitdessubsti00jorduoft",
+            "whyItMatters": "First monograph organising permutation-group theory around Galois' ideas"
+          }
+        ]
+      },
+      {
+        "name": "Walther von Dyck",
+        "role": "developer",
+        "lifespan": "1856-1934",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Von_Dyck/",
+        "works": [
+          {
+            "citation": "Dyck, W., Gruppentheoretische Studien, Math. Ann. 20 (1882)",
+            "year": 1882,
+            "url": "https://doi.org/10.1007/bf01443322",
+            "whyItMatters": "Groups given by generators and relations, a step toward groups independent of permutations"
+          }
+        ]
+      },
+      {
+        "name": "William Burnside",
+        "role": "popularizer",
+        "lifespan": "1852-1927",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Burnside/",
+        "works": [
+          {
+            "citation": "Burnside, W., Theory of Groups of Finite Order, Cambridge 1897",
+            "year": 1897,
+            "url": "https://archive.org/details/cu31924086163726",
+            "whyItMatters": "First group-theory treatise in English"
+          }
+        ]
+      }
+    ],
+    "notes": "Three plausible conceptual anchors: Lagrange 1770 (permutations as tool), Galois printed 1846 (group as object), Cayley 1854 (abstract definition). Galois' work was written 1830-32 and announced by Liouville in 1843 (MacTutor), but printed only in 1846. Axiomatisation independent of permutations continues with Dyck and Weber (1882) and the American postulate papers 1902-1905 (cited in the MacTutor topic bibliography); not separately verified here. Lagrange and Ruffini omitted from people because no bibliographic record of their works was retrieved."
+  },
+  {
+    "pid": "P018",
+    "canonicalName": "The probabilistic method in combinatorics",
+    "aliases": [
+      "probabilistic method",
+      "probabilistic methods in combinatorics",
+      "Erdos method",
+      "random graphs method",
+      "first moment method",
+      "counting argument for Ramsey numbers"
+    ],
+    "dates": {
+      "conceptual": {
+        "start": 1943,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Szele, Kombinatorische Untersuchungen ueber den gerichteten vollstaendigen Graphen, Mat. Fiz. Lapok 1943",
+            "source": "zbMATH Open record",
+            "url": "https://zbmath.org/?q=an%3A0061.41309",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Alon and Spencer call Szele's tournament result the first proof by the probabilistic method",
+            "source": "MacTutor, Szele biography",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Szele/",
+            "kind": "history_page"
+          }
+        ],
+        "note": "Szele's thesis was completed 1941 but the paper appeared 1943 (MacTutor). Attribution of 'first' rests on Alon-Spencer as reported by MacTutor.",
+        "confidence": "medium"
+      },
+      "methodological": {
+        "start": 1947,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Erdos, Some remarks on the theory of graphs, Bull. AMS 53 (1947) 292-294",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1090/S0002-9904-1947-08785-1",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "note": "The 1947 note is the standard example of a deliberate counting/random-colouring argument for Ramsey lower bounds; the record verifies the paper, the method attribution follows standard histories (e.g. Alon 2013 chapter 'Paul Erdos and Probabilistic Reasoning', doi 10.1007/978-3-642-39286-3_1) and was not checked against the text.",
+        "confidence": "medium"
+      },
+      "institutional": {
+        "start": 1974,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Erdos and Spencer, Probabilistic Methods in Combinatorics (book), 1974",
+            "source": "zbMATH Open record",
+            "url": "https://zbmath.org/?q=an%3A0308.05001",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Alon and Spencer, The Probabilistic Method, Wiley 1992 (later editions 2000, 2008, 2016)",
+            "source": "zbMATH Open record",
+            "url": "https://zbmath.org/?q=an%3A0767.05001",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "note": "First monograph naming the field. Later: Spencer, Ten Lectures on the Probabilistic Method (CBMS 1987, zbMATH 0703.05046); Spencer ICM 1994 address 'Probabilistic methods in combinatorics' (Crossref 10.1007/978-3-0348-9078-6_132). zbMATH title search 'probabilistic method' 1900-1985 shows earlier uses only in other fields (radiative transfer, 1960s).",
+        "confidence": "high"
+      }
+    },
+    "firstTermUse": {
+      "term": "probabilistic methods in combinatorics",
+      "year": 1974,
+      "source": "https://zbmath.org/?q=an%3A0308.05001"
+    },
+    "people": [
+      {
+        "name": "Tibor Szele",
+        "role": "originator",
+        "lifespan": "1918-1955",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Szele/",
+        "works": [
+          {
+            "citation": "Szele, T., Kombinatorische Untersuchungen ueber den gerichteten vollstaendigen Graphen, Mat. Fiz. Lapok 50 (1943)",
+            "year": 1943,
+            "url": "https://zbmath.org/?q=an%3A0061.41309",
+            "whyItMatters": "Random-tournament existence proof for many Hamiltonian paths"
+          }
+        ]
+      },
+      {
+        "name": "Paul Erdos",
+        "role": "originator",
+        "lifespan": "1913-1996",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Erdos/",
+        "works": [
+          {
+            "citation": "Erdos, P., Some remarks on the theory of graphs, Bull. AMS 53 (1947)",
+            "year": 1947,
+            "url": "https://doi.org/10.1090/S0002-9904-1947-08785-1",
+            "whyItMatters": "Exponential Ramsey lower bound by a counting argument"
+          },
+          {
+            "citation": "Erdos, P.; Spencer, J., Probabilistic Methods in Combinatorics, 1974",
+            "year": 1974,
+            "url": "https://zbmath.org/?q=an%3A0308.05001",
+            "whyItMatters": "First book on the method"
+          }
+        ]
+      },
+      {
+        "name": "Joel Spencer",
+        "role": "systematiser",
+        "lifespan": "unknown",
+        "biographyUrl": "https://zbmath.org/authors/?q=ai%3Aspencer.joel-h",
+        "works": [
+          {
+            "citation": "Erdos, P.; Spencer, J., Probabilistic Methods in Combinatorics, 1974",
+            "year": 1974,
+            "url": "https://zbmath.org/?q=an%3A0308.05001",
+            "whyItMatters": "Co-author of the first book"
+          },
+          {
+            "citation": "Alon, N.; Spencer, J., The Probabilistic Method, Wiley 1992",
+            "year": 1992,
+            "url": "https://zbmath.org/?q=an%3A0767.05001",
+            "whyItMatters": "Standard textbook"
+          }
+        ]
+      },
+      {
+        "name": "Noga Alon",
+        "role": "systematiser",
+        "lifespan": "unknown",
+        "biographyUrl": "https://zbmath.org/authors/?q=ai%3Aalon.noga",
+        "works": [
+          {
+            "citation": "Alon, N.; Spencer, J., The Probabilistic Method, Wiley 1992",
+            "year": 1992,
+            "url": "https://zbmath.org/?q=an%3A0767.05001",
+            "whyItMatters": "Standard textbook that fixed the name"
+          }
+        ]
+      }
+    ],
+    "notes": "Priority: Szele 1943 versus Erdos 1947; Erdos is usually credited with making it a method. No MSC-history evidence collected (MSC 05D40 'probabilistic methods' exists in current MSC, introduction year not verified)."
+  },
+  {
+    "pid": "P048",
+    "canonicalName": "Hodge theory proves log-concavity conjectures for matroids",
+    "aliases": [
+      "Read's conjecture",
+      "Rota-Heron-Welsh conjecture",
+      "Heron-Rota-Welsh conjecture",
+      "Hodge theory of matroids",
+      "combinatorial Hodge theory",
+      "Chow ring of a matroid",
+      "Kahler package for matroids",
+      "Mason's conjecture"
+    ],
+    "dates": {
+      "conceptual": {
+        "start": 2012,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Huh, Milnor numbers of projective hypersurfaces and the chromatic polynomial of graphs, JAMS 2012",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1090/s0894-0347-2012-00731-0",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "arXiv preprint 1008.4749 first posted 27 Aug 2010",
+            "source": "arXiv API record",
+            "url": "https://arxiv.org/abs/1008.4749",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "note": "First published link of chromatic-polynomial log-concavity (Read's conjecture) to algebraic-geometric positivity. Journal year 2012; preprint 2010.",
+        "confidence": "medium"
+      },
+      "methodological": {
+        "start": 2018,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Adiprasito, Huh, Katz, Hodge theory for combinatorial geometries, Ann. of Math. 188 (2018)",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.4007/annals.2018.188.2.1",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "arXiv 1511.02888 posted 9 Nov 2015; abstract mentions the Mason-Welsh conjecture",
+            "source": "arXiv API record",
+            "url": "https://arxiv.org/abs/1511.02888",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Huh and Katz, Log-concavity of characteristic polynomials and the Bergman fan of matroids, Math. Ann. 2012",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1007/s00208-011-0777-6",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "note": "Hodge-Riemann relations on the Chow ring of an arbitrary matroid give the full Heron-Rota-Welsh conjecture (journal 2018, preprint 2015). Huh-Katz 2012 had settled the representable case using toric/tropical geometry.",
+        "confidence": "medium"
+      },
+      "institutional": {
+        "start": 2017,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Adiprasito, Huh, Katz, Hodge theory of matroids, Notices AMS 64 (2017)",
+            "source": "zbMATH Open record",
+            "url": "https://zbmath.org/?q=an%3A1359.05017",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Eur, Essence of independence: Hodge theory of matroids since June Huh, Bull. AMS 2024",
+            "source": "zbMATH Open record",
+            "url": "https://zbmath.org/?q=an%3A1529.05035",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "note": "Earliest indexed title naming the area found by zbMATH title search 'Hodge theory' AND 'matroids' (3 hits). No textbook, journal or MSC code found. Huh's 2022 Fields Medal (IMU page) is a later recognition.",
+        "confidence": "medium"
+      }
+    },
+    "firstTermUse": {
+      "term": "Hodge theory of matroids",
+      "year": 2017,
+      "source": "https://zbmath.org/?q=an%3A1359.05017"
+    },
+    "people": [
+      {
+        "name": "June Huh",
+        "role": "originator",
+        "lifespan": "unknown",
+        "biographyUrl": "https://www.mathunion.org/imu-awards/fields-medal/fields-medals-2022",
+        "works": [
+          {
+            "citation": "Huh, J., Milnor numbers of projective hypersurfaces and the chromatic polynomial of graphs, JAMS 25 (2012)",
+            "year": 2012,
+            "url": "https://doi.org/10.1090/s0894-0347-2012-00731-0",
+            "whyItMatters": "Proves Read's log-concavity conjecture with algebraic geometry"
+          },
+          {
+            "citation": "Huh, J.; Katz, E., Log-concavity of characteristic polynomials and the Bergman fan of matroids, Math. Ann. 354 (2012)",
+            "year": 2012,
+            "url": "https://doi.org/10.1007/s00208-011-0777-6",
+            "whyItMatters": "Representable case of Rota-Heron-Welsh"
+          },
+          {
+            "citation": "Adiprasito, K.; Huh, J.; Katz, E., Hodge theory for combinatorial geometries, Ann. of Math. 188 (2018)",
+            "year": 2018,
+            "url": "https://doi.org/10.4007/annals.2018.188.2.1",
+            "whyItMatters": "General matroid case via Hodge-Riemann relations"
+          }
+        ]
+      },
+      {
+        "name": "Eric Katz",
+        "role": "developer",
+        "lifespan": "unknown",
+        "biographyUrl": "https://zbmath.org/authors/?q=ai%3Akatz.eric",
+        "works": [
+          {
+            "citation": "Huh, J.; Katz, E., Log-concavity of characteristic polynomials and the Bergman fan of matroids, Math. Ann. (2012)",
+            "year": 2012,
+            "url": "https://doi.org/10.1007/s00208-011-0777-6",
+            "whyItMatters": "Tropical input to the representable case"
+          }
+        ]
+      },
+      {
+        "name": "Karim Adiprasito",
+        "role": "developer",
+        "lifespan": "unknown",
+        "biographyUrl": "https://zbmath.org/authors/?q=ai%3Aadiprasito.karim-a",
+        "works": [
+          {
+            "citation": "Adiprasito, K.; Huh, J.; Katz, E., Hodge theory for combinatorial geometries, Ann. of Math. (2018)",
+            "year": 2018,
+            "url": "https://doi.org/10.4007/annals.2018.188.2.1",
+            "whyItMatters": "Combinatorial Hodge-Riemann relations for matroid Chow rings"
+          }
+        ]
+      },
+      {
+        "name": "Gian-Carlo Rota",
+        "role": "originator",
+        "lifespan": "1932-1999",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Rota/",
+        "works": [
+          {
+            "citation": "Rota, G.-C., Combinatorial theory, old and new, Actes ICM Nice 1970 (1971)",
+            "year": 1971,
+            "url": "https://zbmath.org/?q=an%3A0362.05044",
+            "whyItMatters": "Usually cited as the source of the unimodality conjecture for matroid characteristic polynomials"
+          }
+        ]
+      }
+    ],
+    "notes": "Conjecture sources: Read 1968, 'An introduction to chromatic polynomials', J. Combin. Theory (Crossref 10.1016/s0021-9800(68)80087-0); Rota 1971 ICM (zbMATH 0362.05044); Heron 1972 'Matroid polynomials' in the Oxford 1972 Combinatorics proceedings (only the volume record zbMATH 0469.05001 found); Welsh, Matroid Theory 1976 (Open Library OL3554431W). Which source states which form (unimodality vs log-concavity) was not verified. Ronald Read omitted from people: MacTutor 'Read' page is a different person."
+  },
+  {
+    "pid": "P447",
+    "canonicalName": "Non-Euclidean geometry: the independence of the parallel postulate",
+    "aliases": [
+      "hyperbolic geometry",
+      "Lobachevskian geometry",
+      "imaginary geometry",
+      "geometrie imaginaire",
+      "pangeometry",
+      "absolute geometry",
+      "Bolyai-Lobachevsky geometry",
+      "parallel postulate",
+      "fifth postulate"
+    ],
+    "dates": {
+      "conceptual": {
+        "start": 1829,
+        "end": 1830,
+        "precision": "range",
+        "evidence": [
+          {
+            "claim": "Lobachevsky's account, the first in print, appeared in 1829 in the Kazan Messenger",
+            "source": "MacTutor, Lobachevsky biography",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lobachevsky/",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Lobachevsky published a work on non-Euclidean geometry in 1829; Saccheri and Lambert earlier denied the postulate",
+            "source": "MacTutor, History topic: Non-Euclidean geometry",
+            "url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Non-Euclidean_geometry/",
+            "kind": "history_page"
+          }
+        ],
+        "note": "Kazan Messenger serial 1829-30. Bolyai's Appendix to his father's Tentamen followed (conventionally 1832; MacTutor says written up after 1831, exact print year not verified here). Gauss's views were private correspondence only (MacTutor Gauss). Precursors: Saccheri 1733, Lambert's Theorie der Parallellinien written 1766 (MacTutor Lambert).",
+        "confidence": "high"
+      },
+      "methodological": {
+        "start": 1868,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Beltrami's 1868 'Saggio di interpretazione della geometria non-euclidea' gave his famous model",
+            "source": "MacTutor, Beltrami biography",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Beltrami/",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Beltrami, Teoria fondamentale degli spazii di curvatura costante, Annali di Mat. 1868",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1007/bf02419615",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "French translation 'Essai d'interpretation de la geometrie non-euclidienne', Ann. ENS 1869",
+            "source": "zbMATH Open (JFM) record",
+            "url": "https://zbmath.org/?q=an%3A02.0334.03",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "note": "Purposeful use on the target (consistency, hence independence of the parallel postulate relative to Euclidean geometry) via surfaces of constant negative curvature. Klein 1871 gave the projective model (Crossref 10.1007/bf02100583).",
+        "confidence": "medium"
+      },
+      "institutional": {
+        "start": 1837,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Lobachevsky, 'Geometrie imaginaire', J. reine angew. Math. 17 (1837) 295-320",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1515/crll.1837.17.295",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "'Non-Euclidean' first in a title in Beltrami 1868; English in Cayley 1872",
+            "source": "MacTutor, Earliest Known Uses (N)",
+            "url": "https://mathshistory.st-andrews.ac.uk/Miller/mathword/n/",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Klein, Ueber die sogenannte Nicht-Euklidische Geometrie, Math. Ann. 4 (1871)",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1007/bf02100583",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "note": "Earliest paper title naming the new geometry found: 1837 (Lobachevsky's own name). Lobachevsky's German book Geometrische Untersuchungen zur Theorie der Parallellinien (1840) is on archive.org only as an 1887 reprint. Halsted's 1878 'Bibliography of hyper-space and non-Euclidean geometry' (archive.org jstor-2369314) marks bibliographic consolidation.",
+        "confidence": "medium"
+      }
+    },
+    "firstTermUse": {
+      "term": "geometria non-euclidea (in a title)",
+      "year": 1868,
+      "source": "https://mathshistory.st-andrews.ac.uk/Miller/mathword/n/"
+    },
+    "people": [
+      {
+        "name": "Nikolai Lobachevsky",
+        "role": "originator",
+        "lifespan": "1792-1856",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lobachevsky/",
+        "works": [
+          {
+            "citation": "Lobatschewsky, N., Geometrie imaginaire, J. reine angew. Math. 17 (1837)",
+            "year": 1837,
+            "url": "https://doi.org/10.1515/crll.1837.17.295",
+            "whyItMatters": "Western-language account of his geometry"
+          },
+          {
+            "citation": "Lobachevsky, N. I., Geometrische Untersuchungen zur Theorie der Parallellinien (1840; 1887 reprint)",
+            "year": 1840,
+            "url": "https://archive.org/details/geometrischeunt00loba",
+            "whyItMatters": "Book that spread the theory in Europe"
+          }
+        ]
+      },
+      {
+        "name": "Janos Bolyai",
+        "role": "originator",
+        "lifespan": "1802-1860",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bolyai/",
+        "works": [
+          {
+            "citation": "Bolyai, J., Appendix scientiam spatii absolute veram exhibens (1832; 1902 Academy edition)",
+            "year": 1832,
+            "url": "https://archive.org/details/ioannisbolyaide00blgoog",
+            "whyItMatters": "Independent construction of absolute and hyperbolic geometry"
+          }
+        ]
+      },
+      {
+        "name": "Eugenio Beltrami",
+        "role": "developer",
+        "lifespan": "1835-1900",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Beltrami/",
+        "works": [
+          {
+            "citation": "Beltrami, E., Teoria fondamentale degli spazii di curvatura costante, Annali di Matematica (1868)",
+            "year": 1868,
+            "url": "https://doi.org/10.1007/bf02419615",
+            "whyItMatters": "Constant-curvature models give consistency"
+          },
+          {
+            "citation": "Beltrami, E., Essai d'interpretation de la geometrie non-euclidienne, Ann. ENS (1869)",
+            "year": 1869,
+            "url": "https://zbmath.org/?q=an%3A02.0334.03",
+            "whyItMatters": "French version of the Saggio model"
+          }
+        ]
+      },
+      {
+        "name": "Felix Klein",
+        "role": "systematiser",
+        "lifespan": "1849-1925",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Klein/",
+        "works": [
+          {
+            "citation": "Klein, F., Ueber die sogenannte Nicht-Euklidische Geometrie, Math. Ann. 4 (1871)",
+            "year": 1871,
+            "url": "https://doi.org/10.1007/bf02100583",
+            "whyItMatters": "Projective model; places the geometries in one framework"
+          }
+        ]
+      }
+    ],
+    "notes": "Priority: Gauss (private letters, unpublished), Lobachevsky (printed 1829-30), Bolyai (1832 Appendix). Gauss is credited with the term per MacTutor Earliest Uses (privately). Saccheri's Euclides ab omni naevo vindicatus (1733) not found on archive.org by title search; Gauss and Saccheri omitted from people for lack of a work record."
+  },
+  {
+    "pid": "P300",
+    "canonicalName": "Erdos discrepancy problem solved by multiplicative-function methods",
+    "aliases": [
+      "Erdos discrepancy problem",
+      "Erdos discrepancy conjecture",
+      "EDP",
+      "Polymath5",
+      "discrepancy of +-1 sequences",
+      "homogeneous arithmetic progressions discrepancy",
+      "Tao Erdos discrepancy"
+    ],
+    "dates": {
+      "conceptual": {
+        "start": 2010,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Gowers' January 2010 blog post proposing EDP as a Polymath project discusses multiplicative sequences",
+            "source": "Gowers's Weblog",
+            "url": "https://gowers.wordpress.com/2010/01/06/erdss-discrepancy-problem-as-a-forthcoming-polymath-project/",
+            "kind": "primary_text"
+          },
+          {
+            "claim": "Tao's abstract credits Polymath5 with a Fourier-analytic reduction to completely multiplicative functions",
+            "source": "arXiv API record 1509.05363",
+            "url": "https://arxiv.org/abs/1509.05363",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "note": "The idea of the transfer (reduce EDP to multiplicative functions, then use analytic number theory) was public in Polymath5 blog discussion from 2010. The problem itself: MacTutor (Tao biography) says Erdos posed it in 1932; a printed statement is usually cited to Erdos 1957 'Some unsolved problems', Michigan Math. J. (Crossref 10.1307/mmj/1028997963, content not checked).",
+        "confidence": "medium"
+      },
+      "methodological": {
+        "start": 2015,
+        "end": 2016,
+        "precision": "range",
+        "evidence": [
+          {
+            "claim": "Tao, The Erdos discrepancy problem, Discrete Analysis 2016",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.19086/da.609",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "arXiv version posted 17 Sep 2015",
+            "source": "arXiv API record",
+            "url": "https://arxiv.org/abs/1509.05363",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Tao, logarithmically averaged Chowla and Elliott conjectures for two-point correlations, Forum Math. Pi 2016",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1017/fmp.2016.6",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "MacTutor: Tao solved the problem in 2015",
+            "source": "MacTutor, Tao biography",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Tao/",
+            "kind": "history_page"
+          }
+        ],
+        "note": "Preprint 2015, journal 2016. The Forum Pi paper supplies the logarithmically averaged Elliott input.",
+        "confidence": "high"
+      },
+      "institutional": {
+        "start": 2014,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Konev and Lisitsa, A SAT attack on the Erdos discrepancy conjecture, SAT 2014, LNCS",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1007/978-3-319-09284-3_17",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Le Bras, Gomes, Selman, On the Erdos discrepancy problem, 2014",
+            "source": "zbMATH Open record",
+            "url": "https://zbmath.org/?q=an%3A1343.68221",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "note": "Earliest indexed titles naming the problem found by zbMATH title search 'Erdos discrepancy' (11 hits). For the target field: 'combinatorial discrepancy theory' in a 1984 title (Beck, zbMATH 0544.10055); Beck-Sos survey 'Discrepancy theory' 1995 (zbMATH 0851.11043); books Beck-Chen 1987, Matousek 1999, Chazelle 2000 (Open Library); Roth 1954 'On irregularities of distribution' (Crossref 10.1112/s0025579300000541).",
+        "confidence": "medium"
+      }
+    },
+    "firstTermUse": {
+      "term": "Erdos discrepancy (in a title)",
+      "year": 2014,
+      "source": "https://doi.org/10.1007/978-3-319-09284-3_17"
+    },
+    "people": [
+      {
+        "name": "Paul Erdos",
+        "role": "originator",
+        "lifespan": "1913-1996",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Erdos/",
+        "works": [
+          {
+            "citation": "Erdos, P., Some unsolved problems, Michigan Math. J. 4 (1957)",
+            "year": 1957,
+            "url": "https://doi.org/10.1307/mmj/1028997963",
+            "whyItMatters": "Problem list usually cited for the discrepancy question"
+          }
+        ]
+      },
+      {
+        "name": "Timothy Gowers",
+        "role": "developer",
+        "lifespan": "1963-",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Gowers/",
+        "works": [
+          {
+            "citation": "Gowers, T., Erdos's discrepancy problem as a forthcoming Polymath project (blog, 6 Jan 2010)",
+            "year": 2010,
+            "url": "https://gowers.wordpress.com/2010/01/06/erdss-discrepancy-problem-as-a-forthcoming-polymath-project/",
+            "whyItMatters": "Launched Polymath5, source of the multiplicative reduction"
+          }
+        ]
+      },
+      {
+        "name": "Terence Tao",
+        "role": "developer",
+        "lifespan": "1975-",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Tao/",
+        "works": [
+          {
+            "citation": "Tao, T., The Erdos discrepancy problem, Discrete Analysis 2016:1",
+            "year": 2016,
+            "url": "https://doi.org/10.19086/da.609",
+            "whyItMatters": "The solution"
+          },
+          {
+            "citation": "Tao, T., The logarithmically averaged Chowla and Elliott conjectures for two-point correlations, Forum Math. Pi 4 (2016)",
+            "year": 2016,
+            "url": "https://doi.org/10.1017/fmp.2016.6",
+            "whyItMatters": "Analytic number theory input"
+          }
+        ]
+      },
+      {
+        "name": "Boris Konev",
+        "role": "developer",
+        "lifespan": "unknown",
+        "biographyUrl": "https://zbmath.org/authors/?q=ai%3Akonev.boris",
+        "works": [
+          {
+            "citation": "Konev, B.; Lisitsa, A., A SAT attack on the Erdos discrepancy conjecture, LNCS 8561 (2014)",
+            "year": 2014,
+            "url": "https://doi.org/10.1007/978-3-319-09284-3_17",
+            "whyItMatters": "Computer proof of the discrepancy-2 case"
+          }
+        ]
+      },
+      {
+        "name": "Alexei Lisitsa",
+        "role": "developer",
+        "lifespan": "unknown",
+        "biographyUrl": "https://zbmath.org/authors/?q=ai%3Alisitsa.alexei",
+        "works": [
+          {
+            "citation": "Konev, B.; Lisitsa, A., Computer-aided proof of Erdos discrepancy properties, Artificial Intelligence 224 (2015)",
+            "year": 2015,
+            "url": "https://doi.org/10.1016/j.artint.2015.03.004",
+            "whyItMatters": "Journal version of the SAT results"
+          }
+        ]
+      }
+    ],
+    "notes": "Date of Erdos' original posing: 1932 per MacTutor, printed 1957 per common citation (unverified). Conceptual date here is for the transfer idea (Polymath5), not the problem. Polymath wiki page could not be fetched (empty response)."
+  },
+  {
+    "pid": "P505",
+    "canonicalName": "Lenstra-Lenstra-Lovasz lattice basis reduction",
+    "aliases": [
+      "LLL algorithm",
+      "LLL reduction",
+      "lattice basis reduction",
+      "lattice reduction",
+      "L3 algorithm",
+      "Lovasz reduction",
+      "lattice attacks on knapsack cryptosystems",
+      "factoring polynomials over Q"
+    ],
+    "dates": {
+      "conceptual": {
+        "start": 1982,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Lenstra, Lenstra, Lovasz, Factoring polynomials with rational coefficients, Math. Ann. 261 (1982)",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1007/bf01457454",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Same paper indexed",
+            "source": "zbMATH Open record",
+            "url": "https://zbmath.org/?q=an%3A0488.12001",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "MacTutor: the LLL algorithm was first given in this joint 1982 paper",
+            "source": "MacTutor, Lovasz biography",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lovasz/",
+            "kind": "history_page"
+          }
+        ],
+        "note": "Background: Hermite and Minkowski's geometry of numbers (MacTutor Minkowski; no 1896 Geometrie der Zahlen record retrieved). H. W. Lenstra's integer-programming algorithm was published 1983 but circulated earlier; ordering not verified.",
+        "confidence": "high"
+      },
+      "methodological": {
+        "start": 1982,
+        "end": 1983,
+        "precision": "range",
+        "evidence": [
+          {
+            "claim": "Polynomial factoring over Q performed in the founding paper",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1007/bf01457454",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Lenstra, Integer programming with a fixed number of variables, Math. Oper. Res. 8 (1983)",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1287/moor.8.4.538",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Lagarias and Odlyzko, Solving low density subset sum problems, FOCS 1983",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1109/sfcs.1983.70",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Adleman, On breaking generalized knapsack public key cryptosystems, STOC 1983",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1145/800061.808771",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "note": "1982 for factoring, 1983 for integer programming and knapsack cryptanalysis. Shamir's 1982 FOCS break of basic Merkle-Hellman (Crossref 10.1109/sfcs.1982.5) predates; which lattice tool it used was not verified.",
+        "confidence": "high"
+      },
+      "institutional": {
+        "start": 1984,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Schoenhage 1984 title: factorization by diophantine approximation and an improved basis reduction algorithm",
+            "source": "zbMATH Open record",
+            "url": "https://zbmath.org/?q=an%3A0569.68030",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Babai 1985/86, On Lovasz' lattice reduction and the nearest lattice point problem",
+            "source": "zbMATH Open record",
+            "url": "https://zbmath.org/?q=an%3A0569.10015",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Nguyen and Vallee (eds.), The LLL Algorithm: Survey and Applications, Springer 2010",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1007/978-3-642-02295-1",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "note": "Earliest indexed titles found by zbMATH title searches 'basis reduction' 1982-1985 (1 hit) and 'lattice reduction' 1982-1986. 'LLL' in a title: earliest seen Pohst 1987 (zbMATH 0629.10001; 6 of 7 hits inspected). Book 2010 is the first named monograph found.",
+        "confidence": "medium"
+      }
+    },
+    "firstTermUse": {
+      "term": "LLL (in a title)",
+      "year": 1987,
+      "source": "https://zbmath.org/?q=an%3A0629.10001"
+    },
+    "people": [
+      {
+        "name": "Laszlo Lovasz",
+        "role": "originator",
+        "lifespan": "1948-",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lovasz/",
+        "works": [
+          {
+            "citation": "Lenstra, A. K.; Lenstra, H. W.; Lovasz, L., Factoring polynomials with rational coefficients, Math. Ann. 261 (1982)",
+            "year": 1982,
+            "url": "https://doi.org/10.1007/bf01457454",
+            "whyItMatters": "Introduces the reduction algorithm"
+          }
+        ]
+      },
+      {
+        "name": "Hendrik W. Lenstra Jr.",
+        "role": "originator",
+        "lifespan": "unknown",
+        "biographyUrl": "https://zbmath.org/authors/?q=ai%3Alenstra.hendrik-w-jun",
+        "works": [
+          {
+            "citation": "Lenstra, H. W., Integer programming with a fixed number of variables, Math. Oper. Res. 8 (1983)",
+            "year": 1983,
+            "url": "https://doi.org/10.1287/moor.8.4.538",
+            "whyItMatters": "Geometry-of-numbers algorithm applied to integer programming"
+          }
+        ]
+      },
+      {
+        "name": "Arjen K. Lenstra",
+        "role": "originator",
+        "lifespan": "unknown",
+        "biographyUrl": "https://zbmath.org/authors/?q=ai%3Alenstra.arjen-k",
+        "works": [
+          {
+            "citation": "Lenstra, A. K.; Lenstra, H. W.; Lovasz, L., Factoring polynomials with rational coefficients (1982)",
+            "year": 1982,
+            "url": "https://doi.org/10.1007/bf01457454",
+            "whyItMatters": "Factoring application"
+          }
+        ]
+      },
+      {
+        "name": "Jeffrey C. Lagarias",
+        "role": "developer",
+        "lifespan": "unknown",
+        "biographyUrl": "https://zbmath.org/authors/?q=ai%3Alagarias.jeffrey-c",
+        "works": [
+          {
+            "citation": "Lagarias, J. C.; Odlyzko, A. M., Solving low-density subset sum problems, J. ACM 32 (1985)",
+            "year": 1985,
+            "url": "https://doi.org/10.1145/2455.2461",
+            "whyItMatters": "Lattice reduction attacks knapsack cryptosystems"
+          }
+        ]
+      },
+      {
+        "name": "Andrew M. Odlyzko",
+        "role": "developer",
+        "lifespan": "unknown",
+        "biographyUrl": "https://zbmath.org/authors/?q=ai%3Aodlyzko.andrew-m",
+        "works": [
+          {
+            "citation": "Lagarias, J. C.; Odlyzko, A. M., Solving low density subset sum problems, FOCS 1983",
+            "year": 1983,
+            "url": "https://doi.org/10.1109/sfcs.1983.70",
+            "whyItMatters": "Conference version"
+          }
+        ]
+      }
+    ],
+    "notes": "Credit for the reduction step is often given to Lovasz, with the factoring application to A. K. Lenstra and the motivation from H. W. Lenstra's IP work; not independently verified."
+  },
+  {
+    "pid": "P151",
+    "canonicalName": "Differential equations from calculus and mechanics",
+    "aliases": [
+      "ordinary differential equations",
+      "aequationes differentiales",
+      "fluxional equations",
+      "inverse tangent problem",
+      "separation of variables",
+      "Bernoulli equation",
+      "isochrone problem",
+      "integral calculus"
+    ],
+    "dates": {
+      "conceptual": {
+        "start": 1684,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Leibniz used 'aequationes differentiales' in Acta Eruditorum, October 1684",
+            "source": "MacTutor, Earliest Known Uses (D)",
+            "url": "https://mathshistory.st-andrews.ac.uk/Miller/mathword/d/",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Acta Eruditorum 1684 volume",
+            "source": "archive.org record",
+            "url": "https://archive.org/details/s1id13206500",
+            "kind": "primary_text"
+          },
+          {
+            "claim": "Newton's fluxions treatise written 1671, printed only 1736",
+            "source": "MacTutor, Newton biography",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Newton/",
+            "kind": "history_page"
+          }
+        ],
+        "note": "Earliest public print found: Leibniz's Nova methodus (1684). Newton's fluxional equations solved by series were written 1671 but printed in 1736 (archive.org 'The method of fluxions and infinite series', 1736).",
+        "confidence": "medium"
+      },
+      "methodological": {
+        "start": 1690,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Jacob Bernoulli (Acta Eruditorum, May 1690) reduced the isochrone to a first-order nonlinear ODE",
+            "source": "MacTutor, Jacob Bernoulli biography",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Bernoulli_Jacob/",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Acta Eruditorum 1690 volume",
+            "source": "archive.org record",
+            "url": "https://archive.org/details/s1id13206560",
+            "kind": "primary_text"
+          }
+        ],
+        "note": "First purposeful use of a differential equation on a mechanical problem found. Leibniz's separation of variables (c. 1691) and Jacob Bernoulli's equation (1695) were not verified here; brachistochrone 1696-97 is later.",
+        "confidence": "medium"
+      },
+      "institutional": {
+        "start": 1707,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Manfredi, De constructione aequationum differentialium primi gradus, 1707",
+            "source": "archive.org record",
+            "url": "https://archive.org/details/bub_gb_jic3IGpvqb4C",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Euler, Institutionum calculi integralis, 3 vols 1768-70",
+            "source": "archive.org record",
+            "url": "https://archive.org/details/bub_gb_5mAI9xJ4XEEC",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Ottley, A Treatise on Differential Equations, 1832",
+            "source": "archive.org record",
+            "url": "https://archive.org/details/atreatiseondiff00ottlgoog",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "note": "Earliest indexed book title naming differential equations found by archive.org title searches (Latin 'aequationum differentialium', French 'equations differentielles', English 'differential equations', German 'Differentialgleichungen', all to 1835). Euler's Institutiones is the first systematic treatise (title names integral calculus). Boole's Treatise 1859 (MacTutor Boole).",
+        "confidence": "medium"
+      }
+    },
+    "firstTermUse": {
+      "term": "aequationes differentiales",
+      "year": 1684,
+      "source": "https://mathshistory.st-andrews.ac.uk/Miller/mathword/d/"
+    },
+    "people": [
+      {
+        "name": "Gottfried Wilhelm Leibniz",
+        "role": "originator",
+        "lifespan": "1646-1716",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Leibniz/",
+        "works": [
+          {
+            "citation": "Leibniz, G. W., Nova methodus pro maximis et minimis, Acta Eruditorum (Oct. 1684)",
+            "year": 1684,
+            "url": "https://doi.org/10.14711/spcol/b540295",
+            "whyItMatters": "First printed differential calculus; uses the term differential equations"
+          }
+        ]
+      },
+      {
+        "name": "Isaac Newton",
+        "role": "originator",
+        "lifespan": "1643-1727",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Newton/",
+        "works": [
+          {
+            "citation": "Newton, I., The Method of Fluxions and Infinite Series (Colson transl., London 1736)",
+            "year": 1736,
+            "url": "https://archive.org/details/methodoffluxions00newt",
+            "whyItMatters": "Fluxional equations solved by series, written 1671"
+          }
+        ]
+      },
+      {
+        "name": "Jacob Bernoulli",
+        "role": "developer",
+        "lifespan": "1655-1705",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bernoulli_Jacob/",
+        "works": [
+          {
+            "citation": "Bernoulli, Jac., isochrone solution, Acta Eruditorum (May 1690)",
+            "year": 1690,
+            "url": "https://archive.org/details/s1id13206560",
+            "whyItMatters": "Mechanical problem reduced to a first-order ODE"
+          }
+        ]
+      },
+      {
+        "name": "Leonhard Euler",
+        "role": "systematiser",
+        "lifespan": "1707-1783",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/",
+        "works": [
+          {
+            "citation": "Euler, L., Institutionum calculi integralis, vol. 1, St Petersburg 1768",
+            "year": 1768,
+            "url": "https://archive.org/details/bub_gb_5mAI9xJ4XEEC",
+            "whyItMatters": "Systematic treatment of solution methods"
+          }
+        ]
+      },
+      {
+        "name": "George Boole",
+        "role": "systematiser",
+        "lifespan": "1815-1864",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Boole/",
+        "works": [
+          {
+            "citation": "Boole, G., A Treatise on Differential Equations, Cambridge 1859",
+            "year": 1859,
+            "url": "https://archive.org/details/bub_gb_wIjALaajZkgC",
+            "whyItMatters": "Influential textbook"
+          }
+        ]
+      }
+    ],
+    "notes": "Priority: Newton (1671 manuscript) vs Leibniz (1684 print). The Crossref record for Nova methodus (HKUST special collection) has no year; the 1684 date comes from MacTutor. Johann Bernoulli omitted: no work record retrieved."
+  },
+  {
+    "pid": "P526",
+    "canonicalName": "Positive Grassmannian linking combinatorics, exclusion processes and KP solitons",
+    "aliases": [
+      "positive Grassmannian",
+      "totally nonnegative Grassmannian",
+      "totally positive Grassmannian",
+      "positroids",
+      "Le-diagrams",
+      "plabic graphs",
+      "ASEP and tableaux",
+      "KP solitons",
+      "total positivity"
+    ],
+    "dates": {
+      "conceptual": {
+        "start": 2006,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Postnikov, Total positivity, Grassmannians, and networks, arXiv math/0609764 (27 Sep 2006)",
+            "source": "arXiv API record",
+            "url": "https://arxiv.org/abs/math/0609764",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Same preprint indexed",
+            "source": "zbMATH Open record",
+            "url": "https://zbmath.org/?q=an%3AarXiv:math/0609764",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Lusztig, Total positivity in reductive groups (1994)",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1007/978-1-4612-0261-5_20",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "note": "Postnikov's cell decomposition of the totally nonnegative Grassmannian. Background: Lusztig 1994 and 'Total positivity in partial flag manifolds' (Represent. Theory 1998, Crossref 10.1090/s1088-4165-98-00046-6); Rietsch 1997.",
+        "confidence": "medium"
+      },
+      "methodological": {
+        "start": 2007,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Corteel and Williams, Tableaux combinatorics for the asymmetric exclusion process, Adv. Appl. Math. 2007",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1016/j.aam.2006.08.002",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Williams, Enumeration of totally positive Grassmann cells, Adv. Math. 2005",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1016/j.aim.2004.01.003",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Kodama and Williams, KP solitons, total positivity, and cluster algebras, PNAS 2011",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1073/pnas.1102627108",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "note": "2007: cell-counting tableaux used for ASEP stationary distribution. 2011: KP soliton side (Invent. Math. 2014, Crossref 10.1007/s00222-014-0506-3). Whether the 2005 cell-enumeration polynomials are the ones reused in 2007 was not checked in the texts.",
+        "confidence": "medium"
+      },
+      "institutional": {
+        "start": 2012,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Arkani-Hamed et al., Scattering amplitudes and the positive Grassmannian, arXiv 1212.5605",
+            "source": "zbMATH Open record",
+            "url": "https://zbmath.org/?q=an%3AarXiv:1212.5605",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Book: Grassmannian Geometry of Scattering Amplitudes, Cambridge 2016",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1017/CBO9781316091548",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Williams, The positive Grassmannian, the amplituhedron, and cluster algebras (2023 record)",
+            "source": "zbMATH Open record",
+            "url": "https://zbmath.org/?q=an%3A1555.14105",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "note": "Earliest indexed title with 'positive Grassmannian' (zbMATH title search 1990-2013: 1 hit). 'Totally nonnegative Grassmannian' titles from 2011 (Talaska). No journal or MSC code found.",
+        "confidence": "medium"
+      }
+    },
+    "firstTermUse": {
+      "term": "positive Grassmannian (in a title)",
+      "year": 2012,
+      "source": "https://arxiv.org/abs/1212.5605"
+    },
+    "people": [
+      {
+        "name": "George Lusztig",
+        "role": "originator",
+        "lifespan": "1946-",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lusztig/",
+        "works": [
+          {
+            "citation": "Lusztig, G., Total positivity in reductive groups, in Lie Theory and Geometry (1994)",
+            "year": 1994,
+            "url": "https://doi.org/10.1007/978-1-4612-0261-5_20",
+            "whyItMatters": "Extends total positivity beyond matrices"
+          }
+        ]
+      },
+      {
+        "name": "Alexander Postnikov",
+        "role": "originator",
+        "lifespan": "unknown",
+        "biographyUrl": "https://math.mit.edu/~apost/",
+        "works": [
+          {
+            "citation": "Postnikov, A., Total positivity, Grassmannians, and networks, arXiv math/0609764 (2006)",
+            "year": 2006,
+            "url": "https://arxiv.org/abs/math/0609764",
+            "whyItMatters": "Combinatorial cell structure of the positive Grassmannian"
+          }
+        ]
+      },
+      {
+        "name": "Lauren K. Williams",
+        "role": "developer",
+        "lifespan": "unknown",
+        "biographyUrl": "https://zbmath.org/authors/?q=ai%3Awilliams.lauren-k",
+        "works": [
+          {
+            "citation": "Williams, L. K., Enumeration of totally positive Grassmann cells, Adv. Math. 190 (2005)",
+            "year": 2005,
+            "url": "https://doi.org/10.1016/j.aim.2004.01.003",
+            "whyItMatters": "Cell-counting polynomials"
+          },
+          {
+            "citation": "Corteel, S.; Williams, L., Tableaux combinatorics for the asymmetric exclusion process, Adv. Appl. Math. 39 (2007)",
+            "year": 2007,
+            "url": "https://doi.org/10.1016/j.aam.2006.08.002",
+            "whyItMatters": "Link to ASEP"
+          },
+          {
+            "citation": "Kodama, Y.; Williams, L., KP solitons and total positivity for the Grassmannian, Invent. Math. 198 (2014)",
+            "year": 2014,
+            "url": "https://doi.org/10.1007/s00222-014-0506-3",
+            "whyItMatters": "Link to KP solitons"
+          }
+        ]
+      },
+      {
+        "name": "Sylvie Corteel",
+        "role": "developer",
+        "lifespan": "unknown",
+        "biographyUrl": "https://zbmath.org/authors/?q=ai%3Acorteel.sylvie",
+        "works": [
+          {
+            "citation": "Corteel, S.; Williams, L., Tableaux combinatorics for the asymmetric exclusion process (2007)",
+            "year": 2007,
+            "url": "https://doi.org/10.1016/j.aam.2006.08.002",
+            "whyItMatters": "ASEP probabilities from tableaux"
+          }
+        ]
+      },
+      {
+        "name": "Yuji Kodama",
+        "role": "developer",
+        "lifespan": "unknown",
+        "biographyUrl": "https://zbmath.org/authors/?q=ai%3Akodama.yuji",
+        "works": [
+          {
+            "citation": "Kodama, Y.; Williams, L., KP solitons, total positivity, and cluster algebras, PNAS 108 (2011)",
+            "year": 2011,
+            "url": "https://doi.org/10.1073/pnas.1102627108",
+            "whyItMatters": "Soliton side of the hub"
+          }
+        ]
+      }
+    ],
+    "notes": "The physics link (amplitudes, 2012) is a further spoke not in the event summary. Hub framing is a later synthesis; no single founding text."
+  },
+  {
+    "pid": "P401",
+    "canonicalName": "Steinitz's abstract field theory",
+    "aliases": [
+      "abstract field theory",
+      "Algebraische Theorie der Koerper",
+      "theory of fields",
+      "Koerpertheorie",
+      "algebraic closure",
+      "transcendence degree",
+      "field (algebra)",
+      "Galois field"
+    ],
+    "dates": {
+      "conceptual": {
+        "start": 1910,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Steinitz, Algebraische Theorie der Koerper, J. reine angew. Math. 137 (1910)",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1515/crll.1910.137.167",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Same paper",
+            "source": "zbMATH Open (JFM) record",
+            "url": "https://zbmath.org/?q=an%3A41.0445.03",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Steinitz's direction was shaped by Weber and by Hensel's p-adic work",
+            "source": "MacTutor, Steinitz biography",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Steinitz/",
+            "kind": "history_page"
+          }
+        ],
+        "note": "Priority caveat: Weber's 'Die allgemeinen Grundlagen der Galois'schen Gleichungstheorie' (Math. Ann. 1893, Crossref 10.1007/bf01446451) is often credited with an earlier abstract field definition; not checked in the text here.",
+        "confidence": "high"
+      },
+      "methodological": {
+        "start": 1910,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Algebraic closure and structure results are proved in the 1910 paper itself",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1515/crll.1910.137.167",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Artin and Schreier, Algebraische Konstruktion reeller Koerper, Abh. Math. Sem. Hamburg 1927",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1007/bf02952512",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "note": "Content claim (algebraic closure proved) is from the event summary and standard histories, not checked against the text. Artin-Schreier 1927 is an early outside use of the abstract theory.",
+        "confidence": "medium"
+      },
+      "institutional": {
+        "start": 1910,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Paper title 'Algebraische Theorie der Koerper' (1910)",
+            "source": "zbMATH Open (JFM) record",
+            "url": "https://zbmath.org/?q=an%3A41.0445.03",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Book edition by Baer and Hasse, 1930",
+            "source": "zbMATH Open (JFM) record",
+            "url": "https://zbmath.org/?q=an%3A56.0137.02",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "1930 book",
+            "source": "Open Library record",
+            "url": "https://openlibrary.org/works/OL6765631W",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "note": "Title naming the theory: 1910 paper; first book form 1930. zbMATH title search 'Theorie der Koerper' 1868-1935 found no earlier algebraic title (Hensel 1904 'fields of matrices' is JFM translation).",
+        "confidence": "medium"
+      }
+    },
+    "firstTermUse": {
+      "term": "field (English, modern sense)",
+      "year": 1893,
+      "source": "https://mathshistory.st-andrews.ac.uk/Miller/mathword/f/"
+    },
+    "people": [
+      {
+        "name": "Ernst Steinitz",
+        "role": "originator",
+        "lifespan": "1871-1928",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Steinitz/",
+        "works": [
+          {
+            "citation": "Steinitz, E., Algebraische Theorie der Koerper, J. reine angew. Math. 137 (1910)",
+            "year": 1910,
+            "url": "https://doi.org/10.1515/crll.1910.137.167",
+            "whyItMatters": "First comprehensive abstract theory of fields"
+          },
+          {
+            "citation": "Steinitz, E., Algebraische Theorie der Koerper, ed. R. Baer and H. Hasse (1930)",
+            "year": 1930,
+            "url": "https://zbmath.org/?q=an%3A56.0137.02",
+            "whyItMatters": "Book edition used as the standard reference"
+          }
+        ]
+      },
+      {
+        "name": "Heinrich Weber",
+        "role": "originator",
+        "lifespan": "1842-1913",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Weber_Heinrich/",
+        "works": [
+          {
+            "citation": "Weber, H., Die allgemeinen Grundlagen der Galois'schen Gleichungstheorie, Math. Ann. 43 (1893)",
+            "year": 1893,
+            "url": "https://doi.org/10.1007/bf01446451",
+            "whyItMatters": "Earlier axiomatic treatment of fields and groups"
+          }
+        ]
+      },
+      {
+        "name": "Eliakim Hastings Moore",
+        "role": "developer",
+        "lifespan": "1862-1932",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Moore_Eliakim/",
+        "works": [
+          {
+            "citation": "Moore, E. H., A doubly-infinite system of simple groups, Bull. New York Math. Soc. 3 (1893)",
+            "year": 1893,
+            "url": "https://doi.org/10.1090/s0002-9904-1893-00178-x",
+            "whyItMatters": "Introduces 'field' in English and finite (Galois) fields"
+          }
+        ]
+      },
+      {
+        "name": "Emil Artin",
+        "role": "developer",
+        "lifespan": "1898-1962",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Artin/",
+        "works": [
+          {
+            "citation": "Artin, E.; Schreier, O., Algebraische Konstruktion reeller Koerper, Abh. Math. Sem. Univ. Hamburg 5 (1927)",
+            "year": 1927,
+            "url": "https://doi.org/10.1007/bf02952512",
+            "whyItMatters": "Real closed fields built on abstract field theory"
+          }
+        ]
+      }
+    ],
+    "notes": "Term: Dedekind's 'Koerper' (1871) per MacTutor Earliest Uses (F); Moore first used English 'field', printed Dec 1893. Weber vs Steinitz priority on the abstract definition is a known dispute. Hensel and Dedekind omitted from people: no matching work record retrieved."
+  },
+  {
+    "pid": "P019",
+    "canonicalName": "Category theory",
+    "aliases": [
+      "theory of categories",
+      "categories and functors",
+      "natural transformations",
+      "natural equivalences",
+      "categorical algebra",
+      "abstract nonsense",
+      "Kategorientheorie"
+    ],
+    "dates": {
+      "conceptual": {
+        "start": 1942,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Eilenberg and Mac Lane, Natural isomorphisms in group theory, PNAS 28 (1942)",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1073/pnas.28.12.537",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Eilenberg and Mac Lane, General theory of natural equivalences, Trans. AMS 58 (1945)",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1090/s0002-9947-1945-0013131-6",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "MacTutor: the 1945 paper introduced and named categories, functors, natural transformations",
+            "source": "MacTutor, Mac Lane biography",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/MacLane/",
+            "kind": "history_page"
+          }
+        ],
+        "note": "1942 announcement of naturality from their homology/group-extension work; full theory with the word 'category' in 1945.",
+        "confidence": "high"
+      },
+      "methodological": {
+        "start": 1945,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Eilenberg and Steenrod, Axiomatic approach to homology theory, PNAS 31 (1945)",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1073/pnas.31.4.117",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Eilenberg-Steenrod Foundations of Algebraic Topology published 1952",
+            "source": "MacTutor, Steenrod biography",
+            "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Steenrod/",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Grothendieck, Sur quelques points d'algebre homologique, Tohoku Math. J. 9 (1957)",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.2748/tmj/1178244839",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "note": "First purposeful use found: functorial axioms for homology (1945). Grothendieck 1957 used abelian categories as a working tool; Kan's 'Adjoint functors' 1958 (Crossref 10.2307/1993102).",
+        "confidence": "medium"
+      },
+      "institutional": {
+        "start": 1960,
+        "end": null,
+        "precision": "year",
+        "evidence": [
+          {
+            "claim": "Kurosh, Livshits, Shul'geifer, Foundations of the theory of categories, Russian Math. Surveys 1960",
+            "source": "zbMATH Open record",
+            "url": "https://zbmath.org/?q=an%3A0096.25401",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Freyd, Abelian Categories, 1964",
+            "source": "Open Library record",
+            "url": "https://openlibrary.org/works/OL4778096W",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Mitchell, Theory of Categories, Academic Press 1965",
+            "source": "zbMATH Open record",
+            "url": "https://zbmath.org/?q=an%3A0136.00604",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Mac Lane, Categories for the Working Mathematician, GTM 5 (1971)",
+            "source": "Crossref record",
+            "url": "https://doi.org/10.1007/978-1-4612-9839-7",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "note": "Earliest indexed title naming the theory found by zbMATH title search 'theory of categories' 1945-1960. Earlier titles with 'categories': Mac Lane 1948 'Groups, categories and duality' (zbMATH 0031.24702), Buchsbaum 1955 'Exact categories and duality'. First books: Freyd 1964, Mitchell 1965. MSC section 18 not dated here.",
+        "confidence": "medium"
+      }
+    },
+    "firstTermUse": {
+      "term": "category",
+      "year": 1945,
+      "source": "https://mathshistory.st-andrews.ac.uk/Miller/mathword/c/"
+    },
+    "people": [
+      {
+        "name": "Samuel Eilenberg",
+        "role": "originator",
+        "lifespan": "1913-1998",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Eilenberg/",
+        "works": [
+          {
+            "citation": "Eilenberg, S.; Mac Lane, S., Natural isomorphisms in group theory, PNAS 28 (1942)",
+            "year": 1942,
+            "url": "https://doi.org/10.1073/pnas.28.12.537",
+            "whyItMatters": "First announcement of functors and naturality"
+          },
+          {
+            "citation": "Eilenberg, S.; Mac Lane, S., General theory of natural equivalences, Trans. AMS 58 (1945)",
+            "year": 1945,
+            "url": "https://doi.org/10.1090/s0002-9947-1945-0013131-6",
+            "whyItMatters": "Founding paper naming categories"
+          }
+        ]
+      },
+      {
+        "name": "Saunders Mac Lane",
+        "role": "originator",
+        "lifespan": "1909-2005",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/MacLane/",
+        "works": [
+          {
+            "citation": "Eilenberg, S.; Mac Lane, S., General theory of natural equivalences, Trans. AMS 58 (1945)",
+            "year": 1945,
+            "url": "https://doi.org/10.1090/s0002-9947-1945-0013131-6",
+            "whyItMatters": "Founding paper"
+          },
+          {
+            "citation": "Mac Lane, S., Categories for the Working Mathematician, Springer GTM 5 (1971)",
+            "year": 1971,
+            "url": "https://doi.org/10.1007/978-1-4612-9839-7",
+            "whyItMatters": "Standard textbook"
+          }
+        ]
+      },
+      {
+        "name": "Norman Steenrod",
+        "role": "developer",
+        "lifespan": "1910-1971",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Steenrod/",
+        "works": [
+          {
+            "citation": "Eilenberg, S.; Steenrod, N., Axiomatic approach to homology theory, PNAS 31 (1945)",
+            "year": 1945,
+            "url": "https://doi.org/10.1073/pnas.31.4.117",
+            "whyItMatters": "Homology as a functor characterised by axioms"
+          }
+        ]
+      },
+      {
+        "name": "Alexander Grothendieck",
+        "role": "developer",
+        "lifespan": "1928-2014",
+        "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Grothendieck/",
+        "works": [
+          {
+            "citation": "Grothendieck, A., Sur quelques points d'algebre homologique, Tohoku Math. J. 9 (1957)",
+            "year": 1957,
+            "url": "https://doi.org/10.2748/tmj/1178244839",
+            "whyItMatters": "Abelian categories as a general framework for homological algebra"
+          }
+        ]
+      }
+    ],
+    "notes": "Conceptual could be read as 1945 if the criterion is the term 'category'; 1942 introduces functors and natural isomorphisms. Kan and Freyd omitted from people (no biography page checked)."
+  }
+]

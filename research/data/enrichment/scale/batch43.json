@@ -1,0 +1,146 @@
+[
+ {
+  "pid": "P515",
+  "eventId": "P73",
+  "name": "Homological mirror symmetry and the Fukaya category",
+  "type": "dictionary-analogy",
+  "from": [
+   "Geometry",
+   "Algebra",
+   "Physics"
+  ],
+  "to": [
+   "Geometry"
+  ],
+  "summary": "Derived categories of coherent sheaves on one manifold are matched with Fukaya categories of Lagrangians on its mirror; the proposal was presented at the 1994 congress."
+ },
+ {
+  "pid": "P322",
+  "eventId": "WC12",
+  "name": "Heegaard Floer and Seiberg-Witten theory",
+  "type": "import-from-outside",
+  "from": [
+   "gauge theory (Seiberg-Witten, physics)",
+   "symplectic Floer theory"
+  ],
+  "to": [
+   "low-dimensional topology"
+  ],
+  "summary": "Seiberg-Witten monopole equations gave simpler four-manifold invariants than Donaldson's, and Ozsvath-Szabo later built a Floer theory of Heegaard diagrams."
+ },
+ {
+  "pid": "P323",
+  "eventId": "WC83",
+  "name": "Natural proofs and algebrization barriers",
+  "type": "technique-transfer",
+  "from": [
+   "cryptography (pseudorandom functions)"
+  ],
+  "to": [
+   "circuit complexity (lower bounds)"
+  ],
+  "summary": "Meta-theorems explained why known techniques fail to separate P and NP."
+ },
+ {
+  "pid": "P326",
+  "eventId": "QC40",
+  "name": "Categorification as programme",
+  "type": "birth-by-abstraction",
+  "from": [
+   "representation theory",
+   "category theory"
+  ],
+  "to": [
+   "categorification"
+  ],
+  "summary": "Crane-Frenkel proposed categorifying quantum groups; Khovanov-Lauda and Rouquier gave concrete versions."
+ },
+ {
+  "pid": "P341",
+  "eventId": "QC37",
+  "name": "Seiberg-Witten invariants",
+  "type": "import-from-outside",
+  "from": [
+   "quantum field theory (N=2 SUSY)",
+   "gauge theory",
+   "four-manifold topology"
+  ],
+  "to": [
+   "low-dimensional topology"
+  ],
+  "summary": "Witten's physical dual to Donaldson theory gave monopole equations that quickly proved the Thom conjecture."
+ },
+ {
+  "pid": "P345",
+  "eventId": "QC43",
+  "name": "Derived algebraic geometry",
+  "type": "birth-by-fusion",
+  "from": [
+   "algebraic geometry",
+   "homotopy theory",
+   "higher algebra"
+  ],
+  "to": [
+   "derived algebraic geometry"
+  ],
+  "summary": "Toen-Vezzosi and Lurie combined algebraic geometry with homotopical algebra to build derived schemes."
+ },
+ {
+  "pid": "P482",
+  "eventId": "P36",
+  "name": "Semidefinite rounding: Goemans-Williamson approximation of MAX-CUT",
+  "type": "technique-transfer",
+  "from": [
+   "Control & optimization",
+   "Geometry",
+   "Probability"
+  ],
+  "to": [
+   "Computer science",
+   "Combinatorics"
+  ],
+  "summary": "A semidefinite relaxation followed by random hyperplane rounding gives the best known ratio for MAX-CUT."
+ },
+ {
+  "pid": "P509",
+  "eventId": "P67",
+  "name": "Algorithmic game theory: complexity of Nash equilibria",
+  "type": "birth-by-fusion",
+  "from": [
+   "theoretical computer science (complexity, algorithms)",
+   "game theory / economics"
+  ],
+  "to": [
+   "algorithmic game theory"
+  ],
+  "summary": "Equilibrium computation is classified in the class PPAD and used to analyse markets and auctions."
+ },
+ {
+  "pid": "P304",
+  "eventId": "WC33/QC41",
+  "name": "Cobordism hypothesis",
+  "type": "birth-by-fusion",
+  "from": [
+   "topological field theory",
+   "higher category theory"
+  ],
+  "to": [
+   "extended TQFT / higher category theory"
+  ],
+  "summary": "Fully extended TQFTs were classified by fully dualizable objects of a symmetric monoidal infinity-category."
+ },
+ {
+  "pid": "P325",
+  "eventId": "QC49",
+  "name": "CAT(0) cube complexes in geometric group theory",
+  "type": "birth-by-abstraction",
+  "from": [
+   "geometric group theory",
+   "CAT(0) metric geometry (Gromov link condition)"
+  ],
+  "to": [
+   "cubulated groups / special cube complexes"
+  ],
+  "summary": "Sageev and Haglund-Wise linked cube complexes with group actions, giving linearity and separability results."
+ }
+]

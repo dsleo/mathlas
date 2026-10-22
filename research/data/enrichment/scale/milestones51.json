@@ -1,0 +1,1011 @@
+[
+  {
+    "pid": "P538",
+    "eventId": "Q33",
+    "canonicalName": "Higher-form and non-invertible symmetries in quantum field theory",
+    "aliases": [
+      "generalized global symmetries",
+      "higher-form symmetry",
+      "categorical symmetry",
+      "non-invertible symmetry"
+    ],
+    "phases": [
+      "higher-form symmetries",
+      "non-invertible symmetries"
+    ],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 2014,
+        "precision": "year",
+        "label": "Higher-form symmetries defined",
+        "work": "D. Gaiotto et al., Generalized Global Symmetries, arXiv:1412.5148 (2014)",
+        "people": [
+          "Davide Gaiotto",
+          "Anton Kapustin",
+          "Nathan Seiberg",
+          "Brian Willett"
+        ],
+        "description": "The paper defines q-form global symmetries using extended charged operators.",
+        "evidence": [
+          {
+            "claim": "First public version posted in December 2014",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1412.5148",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "phase": "higher-form symmetries"
+      },
+      {
+        "role": "key_development",
+        "year": 2021,
+        "precision": "year",
+        "label": "Non-invertible topological operators extend the framework",
+        "work": "B. Heidenreich et al., Non-Invertible Global Symmetries and Completeness of the Spectrum, arXiv:2104.07036 (2021)",
+        "people": [],
+        "description": "Non-invertible operators are used to connect charge completeness and absence of global symmetries.",
+        "evidence": [
+          {
+            "claim": "First public version posted in April 2021; abstract states the extension",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/2104.07036",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "phase": "non-invertible symmetries"
+      },
+      {
+        "role": "first_application",
+        "year": 2022,
+        "precision": "year",
+        "label": "Non-invertible symmetries applied to QED and QCD",
+        "work": "Y. Choi, H. T. Lam and S.-H. Shao, Non-invertible Global Symmetries in the Standard Model, arXiv:2205.05086 (2022)",
+        "people": [
+          "Yichul Choi",
+          "Ho Tat Lam",
+          "Shu-Heng Shao"
+        ],
+        "description": "The paper applies non-invertible operators to QED and QCD selection rules and reframes the neutral-pion decay coupling.",
+        "evidence": [
+          {
+            "claim": "First public version posted in May 2022; abstract specifies QED, QCD and pion coupling",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/2205.05086",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "phase": "non-invertible symmetries"
+      }
+    ],
+    "people": [
+      {
+        "name": "Davide Gaiotto",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://perimeterinstitute.ca/people/davide-gaiotto",
+        "works": [
+          {
+            "citation": "Generalized Global Symmetries",
+            "year": 2014,
+            "url": "https://arxiv.org/abs/1412.5148",
+            "whyItMatters": "Co-introduces q-form symmetries"
+          }
+        ]
+      }
+    ],
+    "notes": "The event spans distinct higher-form and non-invertible phases. The 2022 paper is a documented physical application, not a proven first application of all generalized symmetries. No named field institution was verified."
+  },
+  {
+    "pid": "P524",
+    "eventId": "Q4",
+    "canonicalName": "Fractal uncertainty principle and quantum chaos",
+    "aliases": [
+      "fractal uncertainty principle",
+      "FUP",
+      "spectral gaps without pressure",
+      "quantum chaos"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 2015,
+        "precision": "year",
+        "label": "Fractal uncertainty principle named in spectral-gap work",
+        "work": "S. Dyatlov and J. Zahl, Spectral gaps, additive energy, and a fractal uncertainty principle, arXiv:1504.06589 (2015)",
+        "people": [
+          "Semyon Dyatlov",
+          "Joshua Zahl"
+        ],
+        "description": "The public paper introduces a fractal uncertainty principle in its spectral-gap argument.",
+        "evidence": [
+          {
+            "claim": "First public version posted in April 2015",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1504.06589",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same paper states and applies the principle."
+      },
+      {
+        "role": "first_application",
+        "year": 2015,
+        "precision": "year",
+        "label": "Fractal uncertainty used for hyperbolic spectral gaps",
+        "work": "S. Dyatlov and J. Zahl, Spectral gaps, additive energy, and a fractal uncertainty principle, arXiv:1504.06589 (2015)",
+        "people": [
+          "Semyon Dyatlov",
+          "Joshua Zahl"
+        ],
+        "description": "The method yields an essential spectral gap for convex co-compact hyperbolic manifolds under the paper's dimension conditions.",
+        "evidence": [
+          {
+            "claim": "Abstract explicitly identifies the spectral-gap application",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1504.06589",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same paper truly plays both first-statement and first-application roles."
+      },
+      {
+        "role": "key_development",
+        "year": 2016,
+        "precision": "year",
+        "label": "Spectral gaps without the pressure condition",
+        "work": "J. Bourgain and S. Dyatlov, Spectral gaps without the pressure condition, arXiv:1612.09040 (2016)",
+        "people": [
+          "Jean Bourgain",
+          "Semyon Dyatlov"
+        ],
+        "description": "A stronger fractal uncertainty result gives gaps for all convex co-compact hyperbolic surfaces.",
+        "evidence": [
+          {
+            "claim": "First public version posted in December 2016; abstract names fractal uncertainty as the new ingredient",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1612.09040",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "consolidation",
+        "year": 2019,
+        "precision": "year",
+        "label": "Survey of fractal uncertainty and quantum chaos",
+        "work": "S. Dyatlov, An introduction to fractal uncertainty principle, arXiv:1903.02599 (2019)",
+        "people": [
+          "Semyon Dyatlov"
+        ],
+        "description": "The survey systematically presents the principle and its quantum-chaos applications.",
+        "evidence": [
+          {
+            "claim": "Public survey preprint posted in March 2019",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1903.02599",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Semyon Dyatlov",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://math.mit.edu/directory/profile.html?pid=1581",
+        "works": [
+          {
+            "citation": "Spectral gaps, additive energy, and a fractal uncertainty principle",
+            "year": 2015,
+            "url": "https://arxiv.org/abs/1504.06589",
+            "whyItMatters": "Co-introduces and applies the principle"
+          }
+        ]
+      }
+    ],
+    "notes": "The 2015 Dyatlov–Zahl paper is earlier than the inherited 2016 Bourgain–Dyatlov citation. The later paper proves a broader surface result."
+  },
+  {
+    "pid": "P297",
+    "eventId": "QC22/WC67",
+    "canonicalName": "Cap set",
+    "aliases": [
+      "cap set problem",
+      "cap sets in F3n",
+      "slice rank",
+      "polynomial method for cap sets"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 2016,
+        "precision": "year",
+        "label": "Croot–Lev–Pach polynomial method",
+        "work": "E. Croot, V. Lev and P. Pach, Progression-free sets in Z_4^n are exponentially small, arXiv:1605.01506 (2016)",
+        "people": [],
+        "description": "The precursor applies a polynomial argument to progression-free sets in a different group.",
+        "evidence": [
+          {
+            "claim": "First public version posted 5 May 2016",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1605.01506",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "first_statement",
+        "year": 2016,
+        "precision": "year",
+        "label": "Exponential cap-set bound posted",
+        "work": "J. S. Ellenberg and D. Gijswijt, On large subsets of F_q^n with no three-term arithmetic progression, arXiv:1605.09223 (2016)",
+        "people": [
+          "Jordan S. Ellenberg",
+          "Dion Gijswijt"
+        ],
+        "description": "The note states an exponential bound, including the F3 cap-set problem.",
+        "evidence": [
+          {
+            "claim": "First public version posted 30 May 2016",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1605.09223",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same note states and applies the transferred method."
+      },
+      {
+        "role": "first_application",
+        "year": 2016,
+        "precision": "year",
+        "label": "Polynomial method applied to cap sets",
+        "work": "J. S. Ellenberg and D. Gijswijt, On large subsets of F_q^n with no three-term arithmetic progression, arXiv:1605.09223 (2016)",
+        "people": [
+          "Jordan S. Ellenberg",
+          "Dion Gijswijt"
+        ],
+        "description": "The authors explicitly use the Croot–Lev–Pach method to bound cap sets.",
+        "evidence": [
+          {
+            "claim": "The abstract names the method and target problem",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1605.09223",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same work truly plays both first-statement and first-application roles."
+      }
+    ],
+    "people": [
+      {
+        "name": "Jordan S. Ellenberg",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://people.math.wisc.edu/~ellenber/",
+        "works": [
+          {
+            "citation": "On large subsets of F_q^n with no three-term arithmetic progression",
+            "year": 2016,
+            "url": "https://arxiv.org/abs/1605.09223",
+            "whyItMatters": "Co-applies the polynomial method to cap sets"
+          }
+        ]
+      }
+    ],
+    "notes": "The Croot–Lev–Pach paper is a method precursor for a different ambient group; the cap-set result is the later Ellenberg–Gijswijt note. No independent field institution is asserted."
+  },
+  {
+    "pid": "P303",
+    "eventId": "WC28/QC70",
+    "canonicalName": "Prismatic cohomology",
+    "aliases": [
+      "prisms",
+      "prismatic site",
+      "integral p-adic Hodge theory",
+      "A-infinity cohomology"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 2015,
+        "precision": "year",
+        "label": "Integral p-adic Hodge theory announced",
+        "work": "B. Bhatt, M. Morrow and P. Scholze, Integral p-adic Hodge theory—announcement, arXiv:1507.08129 (2015)",
+        "people": [],
+        "description": "The announcement sketches an interpolating cohomology theory before prisms were defined.",
+        "evidence": [
+          {
+            "claim": "Public announcement posted July 2015",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1507.08129",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "first_statement",
+        "year": 2019,
+        "precision": "year",
+        "label": "Prisms and prismatic site introduced",
+        "work": "B. Bhatt and P. Scholze, Prisms and Prismatic Cohomology, arXiv:1905.08229 (2019)",
+        "people": [
+          "Bhargav Bhatt",
+          "Peter Scholze"
+        ],
+        "description": "The preprint defines prisms and attaches the prismatic site to p-adic formal schemes.",
+        "evidence": [
+          {
+            "claim": "First public version posted May 2019",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1905.08229",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same paper defines the theory and proves applications."
+      },
+      {
+        "role": "first_application",
+        "year": 2019,
+        "precision": "year",
+        "label": "Prismatic cohomology proves comparison results",
+        "work": "B. Bhatt and P. Scholze, Prisms and Prismatic Cohomology, arXiv:1905.08229 (2019)",
+        "people": [
+          "Bhargav Bhatt",
+          "Peter Scholze"
+        ],
+        "description": "The paper applies the theory to almost purity, q-de Rham cohomology and p-adic Tate-twist vanishing.",
+        "evidence": [
+          {
+            "claim": "The abstract lists these applications",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1905.08229",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same work truly plays both first-statement and first-application roles."
+      }
+    ],
+    "people": [
+      {
+        "name": "Bhargav Bhatt",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://websites.umich.edu/~bhattb/",
+        "works": [
+          {
+            "citation": "Prisms and Prismatic Cohomology",
+            "year": 2019,
+            "url": "https://arxiv.org/abs/1905.08229",
+            "whyItMatters": "Co-introduces and applies prismatic cohomology"
+          }
+        ]
+      }
+    ],
+    "notes": "The 2015 announcement and 2016 full integral-Hodge paper are precursors, not the first use of 'prismatic'. The Annals 2022 issue publishes the already public 2019 work; it is not counted as a separate conceptual milestone."
+  },
+  {
+    "pid": "P545",
+    "eventId": "Q46",
+    "canonicalName": "Undecidability in quantum games via combinatorial group theory",
+    "aliases": [
+      "linear system games",
+      "Tsirelson problem",
+      "quantum correlations not closed",
+      "nonlocal game undecidability"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 2016,
+        "precision": "year",
+        "label": "Solution-group embedding and game undecidability",
+        "work": "W. Slofstra, Tsirelson's problem and an embedding theorem for groups arising from non-local games, arXiv:1606.03140 (2016)",
+        "people": [
+          "William Slofstra"
+        ],
+        "description": "The paper embeds finitely presented groups into solution groups and states undecidability for perfect commuting-operator strategies.",
+        "evidence": [
+          {
+            "claim": "First public version posted June 2016",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1606.03140",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same paper develops and applies the embedding theorem."
+      },
+      {
+        "role": "first_application",
+        "year": 2016,
+        "precision": "year",
+        "label": "Group embedding applied to nonlocal games",
+        "work": "W. Slofstra, Tsirelson's problem and an embedding theorem for groups arising from non-local games, arXiv:1606.03140 (2016)",
+        "people": [
+          "William Slofstra"
+        ],
+        "description": "The solution-group construction gives nonlocal games separating commuting and tensor-product strategies.",
+        "evidence": [
+          {
+            "claim": "The abstract states this application",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1606.03140",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same work truly plays both first-statement and first-application roles."
+      },
+      {
+        "role": "key_development",
+        "year": 2017,
+        "precision": "year",
+        "label": "Quantum correlation set shown non-closed",
+        "work": "W. Slofstra, The set of quantum correlations is not closed, arXiv:1703.08618 (2017)",
+        "people": [
+          "William Slofstra"
+        ],
+        "description": "A linear-system game separates a limit of finite-dimensional strategies from any finite-dimensional perfect strategy.",
+        "evidence": [
+          {
+            "claim": "First public version posted March 2017",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1703.08618",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 2020,
+        "precision": "year",
+        "label": "MIP*=RE gives stronger undecidability",
+        "work": "Z. Ji et al., MIP*=RE, arXiv:2001.04383 (2020)",
+        "people": [],
+        "description": "The result reduces the halting problem to deciding the entangled value of a nonlocal game.",
+        "evidence": [
+          {
+            "claim": "First public version posted January 2020",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/2001.04383",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "William Slofstra",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://uwaterloo.ca/pure-mathematics/contacts/william-slofstra",
+        "works": [
+          {
+            "citation": "Tsirelson's problem and an embedding theorem for groups arising from non-local games",
+            "year": 2016,
+            "url": "https://arxiv.org/abs/1606.03140",
+            "whyItMatters": "Transfers solution-group embedding to nonlocal games"
+          }
+        ]
+      }
+    ],
+    "notes": "The inherited arXiv:1709.05032 points to a different paper by Dykema, Paulsen and Prakash. Slofstra's non-closure paper is arXiv:1703.08618. The 2017 paper's later version adds finite-dimensional undecidability; do not backdate that particular statement to version 1 without checking it."
+  },
+  {
+    "pid": "P318",
+    "eventId": "QC78/WC95",
+    "canonicalName": "Neural tangent kernel",
+    "aliases": [
+      "NTK",
+      "infinite-width neural networks",
+      "kernel gradient descent",
+      "lazy training"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 2018,
+        "precision": "year",
+        "label": "Neural tangent kernel defined",
+        "work": "A. Jacot, F. Gabriel and C. Hongler, Neural Tangent Kernel: Convergence and Generalization in Neural Networks, arXiv:1806.07572 (2018)",
+        "people": [
+          "Arthur Jacot",
+          "Franck Gabriel",
+          "Clément Hongler"
+        ],
+        "description": "The preprint defines the NTK for neural-network training.",
+        "evidence": [
+          {
+            "claim": "First public version posted June 2018",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1806.07572",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same paper defines and uses the kernel."
+      },
+      {
+        "role": "first_application",
+        "year": 2018,
+        "precision": "year",
+        "label": "NTK used to analyze training and generalization",
+        "work": "A. Jacot, F. Gabriel and C. Hongler, Neural Tangent Kernel: Convergence and Generalization in Neural Networks, arXiv:1806.07572 (2018)",
+        "people": [
+          "Arthur Jacot",
+          "Franck Gabriel",
+          "Clément Hongler"
+        ],
+        "description": "The authors describe infinite-width gradient descent through kernel dynamics and analyze convergence.",
+        "evidence": [
+          {
+            "claim": "The abstract explicitly describes training dynamics",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1806.07572",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same work truly plays both first-statement and first-application roles."
+      },
+      {
+        "role": "key_development",
+        "year": 2019,
+        "precision": "year",
+        "label": "NTK spectra analyzed",
+        "work": "G. Yang and H. Salman, A Fine-Grained Spectral Perspective on Neural Networks, arXiv:1907.10599 (2019)",
+        "people": [],
+        "description": "Spectral analysis of the NTK studies learning bias and generalization across architectures.",
+        "evidence": [
+          {
+            "claim": "Public preprint posted July 2019",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1907.10599",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Clément Hongler",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://www.epfl.ch/labs/csft/clement-hongler/",
+        "works": [
+          {
+            "citation": "Neural Tangent Kernel: Convergence and Generalization in Neural Networks",
+            "year": 2018,
+            "url": "https://arxiv.org/abs/1806.07572",
+            "whyItMatters": "Co-introduces the NTK and its training analysis"
+          }
+        ]
+      }
+    ],
+    "notes": "This record covers the neural tangent kernel, not the entire mean-field theory of neural networks. The inherited summary conflates related but distinct infinite-width regimes."
+  },
+  {
+    "pid": "P333",
+    "eventId": "WC65",
+    "canonicalName": "Lorentzian polynomials and log-concavity",
+    "aliases": [
+      "Lorentzian polynomials",
+      "strong Mason conjecture",
+      "log-concavity in matroids",
+      "M-convex functions"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 2015,
+        "precision": "year",
+        "label": "Matroid Hodge theory proves log-concavity",
+        "work": "K. Adiprasito, J. Huh and E. Katz, Hodge Theory for Combinatorial Geometries, arXiv:1511.02888 (2015)",
+        "people": [
+          "June Huh"
+        ],
+        "description": "The earlier matroid Hodge theorem motivates later Lorentzian-polynomial methods.",
+        "evidence": [
+          {
+            "claim": "First public version posted November 2015",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1511.02888",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "first_statement",
+        "year": 2019,
+        "precision": "year",
+        "label": "Lorentzian polynomial class developed",
+        "work": "P. Brändén and J. Huh, Lorentzian polynomials, arXiv:1902.03719 (2019)",
+        "people": [
+          "Petter Brändén",
+          "June Huh"
+        ],
+        "description": "The preprint defines the class and connects it to matroids and M-convex sets.",
+        "evidence": [
+          {
+            "claim": "First public version posted February 2019",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1902.03719",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same paper defines the class and proves major applications."
+      },
+      {
+        "role": "first_application",
+        "year": 2019,
+        "precision": "year",
+        "label": "Lorentzian method proves strongest Mason conjecture",
+        "work": "P. Brändén and J. Huh, Lorentzian polynomials, arXiv:1902.03719 (2019)",
+        "people": [
+          "Petter Brändén",
+          "June Huh"
+        ],
+        "description": "The paper applies Lorentzian-polynomial theory to the homogenized matroid Tutte polynomial and strongest Mason conjecture.",
+        "evidence": [
+          {
+            "claim": "The abstract explicitly states these applications",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1902.03719",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same work truly plays both first-statement and first-application roles."
+      }
+    ],
+    "people": [
+      {
+        "name": "Petter Brändén",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://www.kth.se/profile/pbranden/",
+        "works": [
+          {
+            "citation": "Lorentzian polynomials",
+            "year": 2019,
+            "url": "https://arxiv.org/abs/1902.03719",
+            "whyItMatters": "Co-develops the Lorentzian-polynomial framework"
+          }
+        ]
+      }
+    ],
+    "notes": "The checked founding preprint was posted in 2019. The catalogue's 2018 start was not promoted without a matching public record; the 2020 Annals issue is a later publication of the same work."
+  },
+  {
+    "pid": "P348",
+    "eventId": "QC99",
+    "canonicalName": "Hodge theory via o-minimality",
+    "aliases": [
+      "o-minimal Hodge theory",
+      "definable period maps",
+      "algebraicity of Hodge loci",
+      "Ax-Schanuel for Hodge structures"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 2017,
+        "precision": "year",
+        "label": "Ax–Schanuel for Hodge variations",
+        "work": "B. Bakker and J. Tsimerman, The Ax-Schanuel conjecture for variations of Hodge structures, arXiv:1712.05088 (2017)",
+        "people": [
+          "Benjamin Bakker",
+          "Jacob Tsimerman"
+        ],
+        "description": "A related period-map transcendence theorem predates the tame-topology paper.",
+        "evidence": [
+          {
+            "claim": "First public version posted December 2017",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1712.05088",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "first_statement",
+        "year": 2018,
+        "precision": "year",
+        "label": "Arithmetic quotients shown o-minimally definable",
+        "work": "B. Bakker, B. Klingler and J. Tsimerman, Tame topology of arithmetic quotients and algebraicity of Hodge loci, arXiv:1810.04801 (2018)",
+        "people": [
+          "Benjamin Bakker",
+          "Bruno Klingler",
+          "Jacob Tsimerman"
+        ],
+        "description": "The paper develops the tame-topology framework for arithmetic quotients and period maps.",
+        "evidence": [
+          {
+            "claim": "First public version posted October 2018",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1810.04801",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same paper states the framework and applies it."
+      },
+      {
+        "role": "first_application",
+        "year": 2018,
+        "precision": "year",
+        "label": "Definability applied to Hodge loci",
+        "work": "B. Bakker, B. Klingler and J. Tsimerman, Tame topology of arithmetic quotients and algebraicity of Hodge loci, arXiv:1810.04801 (2018)",
+        "people": [
+          "Benjamin Bakker",
+          "Bruno Klingler",
+          "Jacob Tsimerman"
+        ],
+        "description": "The authors derive algebraicity statements for Hodge loci using o-minimal definability.",
+        "evidence": [
+          {
+            "claim": "The abstract names the Hodge-locus application",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1810.04801",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same work truly plays both first-statement and first-application roles."
+      }
+    ],
+    "people": [
+      {
+        "name": "Benjamin Bakker",
+        "role": "developer",
+        "lifespan": null,
+        "biographyUrl": "https://benjamin-bakker.github.io/",
+        "works": [
+          {
+            "citation": "Tame topology of arithmetic quotients and algebraicity of Hodge loci",
+            "year": 2018,
+            "url": "https://arxiv.org/abs/1810.04801",
+            "whyItMatters": "Co-develops and applies o-minimal Hodge methods"
+          }
+        ]
+      }
+    ],
+    "notes": "The event summary mixes the 2017 Ax–Schanuel theorem with the 2018 tame-topology work. The former is retained as a related precursor, not asserted to be an o-minimal application."
+  },
+  {
+    "pid": "P530",
+    "eventId": "Q13",
+    "canonicalName": "Synthetic Lorentzian curvature from optimal transport (non-smooth singularity theorems)",
+    "aliases": [
+      "Lorentzian optimal transport",
+      "synthetic timelike Ricci curvature",
+      "Lorentzian length spaces",
+      "nonsmooth spacetime curvature"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 2018,
+        "precision": "year",
+        "label": "Transport entropy characterizes smooth strong energy condition",
+        "work": "R. J. McCann, Displacement convexity of Boltzmann's entropy characterizes the strong energy condition from general relativity, arXiv:1808.01536 (2018)",
+        "people": [],
+        "description": "A smooth-spacetime transport characterization precedes the synthetic extension.",
+        "evidence": [
+          {
+            "claim": "First public version posted August 2018",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/1808.01536",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "first_statement",
+        "year": 2020,
+        "precision": "year",
+        "label": "Synthetic timelike Ricci bounds formulated",
+        "work": "F. Cavalletti and A. Mondino, Optimal transport in Lorentzian synthetic spaces, synthetic timelike Ricci curvature lower bounds and applications, arXiv:2004.08934 (2020)",
+        "people": [
+          "Fabio Cavalletti",
+          "Andrea Mondino"
+        ],
+        "description": "The preprint defines timelike Ricci lower bounds using transport in Lorentzian synthetic spaces.",
+        "evidence": [
+          {
+            "claim": "First public version posted April 2020",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/2004.08934",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same paper formulates and applies synthetic curvature bounds."
+      },
+      {
+        "role": "first_application",
+        "year": 2020,
+        "precision": "year",
+        "label": "Synthetic curvature applied to Lorentzian comparison",
+        "work": "F. Cavalletti and A. Mondino, Optimal transport in Lorentzian synthetic spaces, synthetic timelike Ricci curvature lower bounds and applications, arXiv:2004.08934 (2020)",
+        "people": [
+          "Fabio Cavalletti",
+          "Andrea Mondino"
+        ],
+        "description": "The paper uses the new transport bounds for geometric comparison applications in Lorentzian length spaces.",
+        "evidence": [
+          {
+            "claim": "The paper's title and abstract identify applications",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/2004.08934",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The same work truly plays both first-statement and first-application roles."
+      },
+      {
+        "role": "key_development",
+        "year": 2025,
+        "precision": "year",
+        "label": "Synthetic null hypersurfaces studied",
+        "work": "F. Cavalletti, A. Mondino and E. Manini, On the geometry of synthetic null hypersurfaces, arXiv:2506.04934 (2025)",
+        "people": [],
+        "description": "The later paper develops geometry of null hypersurfaces in the synthetic setting.",
+        "evidence": [
+          {
+            "claim": "First public version posted June 2025",
+            "source": "arXiv",
+            "url": "https://arxiv.org/abs/2506.04934",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [
+      {
+        "name": "Fabio Cavalletti",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://www.unimi.it/it/ugov/person/fabio-cavalletti",
+        "works": [
+          {
+            "citation": "Optimal transport in Lorentzian synthetic spaces, synthetic timelike Ricci curvature lower bounds and applications",
+            "year": 2020,
+            "url": "https://arxiv.org/abs/2004.08934",
+            "whyItMatters": "Co-formulates and applies synthetic timelike Ricci bounds"
+          }
+        ]
+      }
+    ],
+    "notes": "The catalogue's claim that the cited 2025 null-hypersurface paper reproves Hawking–Penrose singularity theorems is unsupported by that citation and is not repeated here. A separate source is needed for the singularity-theorem part of the event name."
+  },
+  {
+    "pid": "P541",
+    "eventId": "Q40",
+    "canonicalName": "Condensed mathematics",
+    "aliases": [
+      "condensed sets",
+      "condensed abelian groups",
+      "solid completion",
+      "liquid vector spaces"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 2019,
+        "precision": "year",
+        "label": "Condensed abelian groups publicly described",
+        "work": null,
+        "people": [
+          "Dustin Clausen",
+          "Peter Scholze"
+        ],
+        "description": "A public institute seminar abstract describes condensed abelian groups and solid completion as joint work.",
+        "evidence": [
+          {
+            "claim": "The MPIM seminar record dated September 2019 contains the public abstract",
+            "source": "Max Planck Institute for Mathematics",
+            "url": "https://www.mpim-bonn.mpg.de/node/9765",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "This seminar abstract is a public statement, but the first publication date of the original course notes remains to be independently pinned down."
+      },
+      {
+        "role": "institution",
+        "year": 2019,
+        "precision": "year",
+        "label": "Named Bonn course on condensed mathematics",
+        "work": null,
+        "people": [
+          "Dustin Clausen",
+          "Peter Scholze"
+        ],
+        "description": "Bonn lists a summer-term course and notes with the field name.",
+        "evidence": [
+          {
+            "claim": "Scholze's official lecture-notes index identifies the course as SS 19",
+            "source": "University of Bonn",
+            "url": "https://www.math.uni-bonn.de/people/scholze/Notes.html?language=en",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "The currently hosted PDF is a 2026 update and is not used to date the original document."
+      },
+      {
+        "role": "first_application",
+        "year": 2020,
+        "precision": "year",
+        "label": "Condensed vector spaces used for functional-analysis theorem",
+        "work": null,
+        "people": [
+          "Dustin Clausen",
+          "Peter Scholze"
+        ],
+        "description": "The liquid-vector-space theorem is presented as a key application of condensed mathematics to functional analysis.",
+        "evidence": [
+          {
+            "claim": "Scholze's public note sets out the liquid-vector-space theorem and its application",
+            "source": "Scholze, original research note",
+            "url": "https://xenaproject.wordpress.com/2020/12/05/liquid-tensor-experiment/",
+            "kind": "primary_text"
+          }
+        ],
+        "confidence": "medium",
+        "note": "This records a documented application, not a proven first application of every condensed construction. The 2020 note has no checked bibliographic record, so the work field remains empty."
+      }
+    ],
+    "people": [
+      {
+        "name": "Peter Scholze",
+        "role": "originator",
+        "lifespan": null,
+        "biographyUrl": "https://www.uni-bonn.de/de/forschung-lehre/forschungsprofil/transdisziplinaere-forschungsbereiche/modelling/mitgliederverzeichnis/peter-scholze",
+        "works": [
+          {
+            "citation": "Lectures on Condensed Mathematics (updated citable edition)",
+            "year": 2026,
+            "url": "https://arxiv.org/abs/2605.03658",
+            "whyItMatters": "Presents the joint Clausen–Scholze framework; this work entry refers specifically to the 2026 edition"
+          }
+        ]
+      }
+    ],
+    "notes": "The 2019 course and public seminar are independently documented, but the currently citable arXiv edition of the lecture notes is from 2026. The original 2019 notes' publication date remains uncertain. The 2020 public liquid-tensor note is an application rather than a firstness proof."
+  }
+]

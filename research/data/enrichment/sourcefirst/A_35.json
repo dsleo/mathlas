@@ -1,0 +1,2462 @@
+[
+ {
+  "pid": "P260",
+  "eventId": "WB104",
+  "canonicalName": "Operator K-theory and KK-theory",
+  "aliases": [
+   "KK-theory",
+   "Kasparov KK-theory",
+   "operator K-theory",
+   "Kasparov bivariant K-theory"
+  ],
+  "phases": [
+   "K-homology via extensions of C*-algebras (Brown-Douglas-Fillmore)",
+   "KK-theory (Kasparov, 1979-1980)",
+   "Equivariant and Cuntz reformulations",
+   "K-homology"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "K-homology",
+    "year": 1973,
+    "endYear": null,
+    "precision": "year",
+    "label": "BDF announce extensions as K-homology",
+    "work": "Brown, Douglas, Fillmore, Extensions of C*-algebras, operators with compact self-commutators, and K-homology, Bull. AMS (1973)",
+    "people": [
+     "Lawrence G. Brown",
+     "Ronald G. Douglas",
+     "Peter A. Fillmore"
+    ],
+    "description": "Announces that extensions of C*-algebras give a homology theory, the K-homology side that KK later unifies with K-theory.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/s0002-9904-1973-13284-7",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "precursor",
+    "phase": "K-homology",
+    "year": 1977,
+    "endYear": null,
+    "precision": "year",
+    "label": "BDF full paper on extensions and K-homology",
+    "work": "Brown, Douglas, Fillmore, Extensions of C*-algebras and K-homology, Ann. of Math. 105 (1977)",
+    "people": [
+     "Lawrence G. Brown",
+     "Ronald G. Douglas",
+     "Peter A. Fillmore"
+    ],
+    "description": "Full treatment of the extension-theoretic K-homology that Kasparov's KK generalises.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1970999",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia KK-theory: KK was influenced by BDF's 1977 classification of extensions",
+      "source": "Wikipedia: KK-theory",
+      "url": "https://en.wikipedia.org/wiki/KK-theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1979,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kasparov's short note on the K-functor in extension theory",
+    "work": "Kasparov, The K-functor in the theory of extensions of C*-algebras, Funct. Anal. Appl. (1979)",
+    "people": [
+     "Gennadi Kasparov"
+    ],
+    "description": "Short announcement by Kasparov of the K-functor approach to extensions, the earliest candidate for public KK.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked; content not read",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01078376",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Only the title and year were checked from Crossref. Whether this note already defines the bivariant functor is not confirmed; the 1980 paper is the one the literature cites for the definition."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1980,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kasparov defines KK (Izvestiya)",
+    "work": "Kasparov, The operator K-functor and extensions of C*-algebras, Izv. Akad. Nauk SSSR 44 (1980); English transl. Math. USSR-Izv. 16 (1981)",
+    "people": [
+     "Gennadi Kasparov"
+    ],
+    "description": "Full definition of the bivariant K-functor KK(A,B) and the Kasparov product, which made the theory matter for index theory.",
+    "evidence": [
+     {
+      "claim": "Wikipedia KK-theory: introduced by Kasparov in 1980 (Izv. 44)",
+      "source": "Wikipedia: KK-theory",
+      "url": "https://en.wikipedia.org/wiki/KK-theory",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Crossref record is the 1981 English translation of the Izvestiya paper",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1070/im1981v016n03abeh001320",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Russian original 1980 per Wikipedia citation; Crossref indexes the 1981 English translation, so the year in the milestone is the original."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1987,
+    "endYear": null,
+    "precision": "year",
+    "label": "Cuntz's quasihomomorphism picture of KK",
+    "work": "Cuntz, A new look at KK-theory, K-Theory 1 (1987)",
+    "people": [
+     "Joachim Cuntz"
+    ],
+    "description": "Gives an equivalent definition of KK using homotopy classes of *-homomorphisms, removing the Fredholm module data.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf00533986",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia KK-theory: Cuntz's definition is one of the equivalent forms",
+      "source": "Wikipedia: KK-theory",
+      "url": "https://en.wikipedia.org/wiki/KK-theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1988,
+    "endYear": null,
+    "precision": "year",
+    "label": "Equivariant KK and the Novikov conjecture",
+    "work": "Kasparov, Equivariant KK-theory and the Novikov conjecture, Invent. Math. 91 (1988)",
+    "people": [
+     "Gennadi Kasparov"
+    ],
+    "description": "First major use of KK-theory on a target problem, the Novikov conjecture.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01404917",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia KK-theory: KK was essential to the Baum-Connes conjecture and noncommutative topology",
+      "source": "Wikipedia: KK-theory",
+      "url": "https://en.wikipedia.org/wiki/KK-theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Crossref confirms the paper; that it is the first purposeful use of KK on the Novikov conjecture is from the literature, not checked against a survey."
+   }
+  ],
+  "people": [
+   {
+    "name": "Gennadi Kasparov",
+    "role": "originator",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Gennadi_Kasparov",
+    "works": [
+     {
+      "citation": "Kasparov, The K-functor in the theory of extensions of C*-algebras, Funct. Anal. Appl. (1979)",
+      "year": 1979,
+      "url": "https://doi.org/10.1007/bf01078376",
+      "whyItMatters": "Short announcement in the Crossref record"
+     },
+     {
+      "citation": "Kasparov, The operator K-functor and extensions of C*-algebras, Izv. (1980; transl. 1981)",
+      "year": 1981,
+      "url": "https://doi.org/10.1070/im1981v016n03abeh001320",
+      "whyItMatters": "Defines KK(A,B) and the Kasparov product"
+     },
+     {
+      "citation": "Kasparov, Equivariant KK-theory and the Novikov conjecture, Invent. Math. (1988)",
+      "year": 1988,
+      "url": "https://doi.org/10.1007/bf01404917",
+      "whyItMatters": "Major application to the Novikov conjecture"
+     }
+    ],
+    "roleNote": "introduced KK-theory and the Kasparov product"
+   },
+   {
+    "name": "Lawrence G. Brown",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Lawrence_G._Brown",
+    "works": [
+     {
+      "citation": "Brown, Douglas, Fillmore, Extensions of C*-algebras and K-homology, Ann. of Math. (1977)",
+      "year": 1977,
+      "url": "https://doi.org/10.2307/1970999",
+      "whyItMatters": "Classification of extensions via K-homology, the homology side of KK"
+     }
+    ],
+    "roleNote": "co-author of the extension-theoretic K-homology"
+   },
+   {
+    "name": "Ronald G. Douglas",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Ronald_G._Douglas",
+    "works": [
+     {
+      "citation": "Brown, Douglas, Fillmore, Extensions of C*-algebras and K-homology, Ann. of Math. (1977)",
+      "year": 1977,
+      "url": "https://doi.org/10.2307/1970999",
+      "whyItMatters": "As above"
+     },
+     {
+      "citation": "Brown, Douglas, Fillmore, Bull. AMS (1973)",
+      "year": 1973,
+      "url": "https://doi.org/10.1090/s0002-9904-1973-13284-7",
+      "whyItMatters": "Initial announcement"
+     }
+    ],
+    "roleNote": "co-author of the extension-theoretic K-homology"
+   },
+   {
+    "name": "Peter A. Fillmore",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Peter_A._Fillmore",
+    "works": [
+     {
+      "citation": "Brown, Douglas, Fillmore, Extensions of C*-algebras and K-homology, Ann. of Math. (1977)",
+      "year": 1977,
+      "url": "https://doi.org/10.2307/1970999",
+      "whyItMatters": "As above"
+     }
+    ],
+    "roleNote": "co-author of the extension-theoretic K-homology"
+   },
+   {
+    "name": "Joachim Cuntz",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Joachim_Cuntz",
+    "works": [
+     {
+      "citation": "Cuntz, A new look at KK-theory, K-Theory 1 (1987)",
+      "year": 1987,
+      "url": "https://doi.org/10.1007/bf00533986",
+      "whyItMatters": "Equivalent definition of KK"
+     }
+    ],
+    "roleNote": "gave the quasihomomorphism definition of KK"
+   }
+  ],
+  "notes": "Input type birth-by-fusion is supported: K-homology (BDF) and K-theory fuse in KK (Kasparov). Wikipedia lead file had no candidates for this event; the Wikipedia KK-theory article (raw wikitext) was used. Institutional date is not established: no naming, consolidation or institution milestone was found, so institutional is null. The 1979 Crossref short note is a candidate whose content was not read; the conceptual date depends on it, so treat it as medium. MacTutor has no page checked for this event. Phase labels follow the Wikipedia article's own sequence.",
+  "derivedDates": {
+   "conceptual": 1979,
+   "methodological": 1988,
+   "institutional": null
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P272",
+  "eventId": "WB105",
+  "canonicalName": "Heat equation proof of index theorem",
+  "aliases": [
+   "heat-kernel proof of the index theorem",
+   "Atiyah-Bott-Patodi heat proof",
+   "local index theorem via heat kernels"
+  ],
+  "phases": [
+   "Atiyah-Bott-Patodi heat proof (1973)",
+   "Local index theorem via supersymmetry (Getzler)",
+   "Monograph treatment (Berline-Getzler-Vergne)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1963,
+    "endYear": null,
+    "precision": "year",
+    "label": "Atiyah-Singer index theorem announced",
+    "work": "Atiyah, Singer, The index of elliptic operators on compact manifolds, Bull. AMS 69 (1963)",
+    "people": [
+     "Michael Atiyah",
+     "Isadore Singer"
+    ],
+    "description": "The index theorem that the heat method later reproves, announced in 1963.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/s0002-9904-1963-10957-x",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Atiyah-Singer article: theorem announced in 1963",
+      "source": "Wikipedia: Atiyah-Singer index theorem",
+      "url": "https://en.wikipedia.org/wiki/Atiyah%E2%80%93Singer_index_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "A precursor of the theorem itself, not of the heat proof."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1973,
+    "endYear": null,
+    "precision": "year",
+    "label": "Heat-equation proof of the index theorem",
+    "work": "Atiyah, Bott, Patodi, On the heat equation and the index theorem, Invent. Math. 19 (1973)",
+    "people": [
+     "Michael Atiyah",
+     "Raoul Bott",
+     "Vijay Patodi"
+    ],
+    "description": "Gives a proof of the Atiyah-Singer formula by small-time asymptotics of heat kernels, the first public heat-kernel proof.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01425417",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Atiyah-Singer article: 1973 new proof using the heat equation",
+      "source": "Wikipedia: Atiyah-Singer index theorem",
+      "url": "https://en.wikipedia.org/wiki/Atiyah%E2%80%93Singer_index_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper as the first_application milestone below; it is both the first statement and the first application of the heat method."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1973,
+    "endYear": null,
+    "precision": "year",
+    "label": "Heat method applied to the index formula",
+    "work": "Atiyah, Bott, Patodi, Invent. Math. 19 (1973)",
+    "people": [
+     "Michael Atiyah",
+     "Raoul Bott",
+     "Vijay Patodi"
+    ],
+    "description": "The same paper applied the heat kernel directly to the index problem, which is what the derived methodological date uses.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01425417",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper as the first_statement milestone (rule 2 note). Wikipedia says a related paper by Melrose described it; that is not checked."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1986,
+    "endYear": null,
+    "precision": "year",
+    "label": "Local index theorem via supersymmetry",
+    "work": "Getzler, A short proof of the local Atiyah-Singer index theorem, Topology 25 (1986)",
+    "people": [
+     "Ezra Getzler"
+    ],
+    "description": "Short heat-kernel proof of the local index theorem for Dirac-type operators using supersymmetry, the route later standard.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1016/0040-9383(86)90008-x",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Atiyah-Singer article: Getzler's short proof, motivated by Witten and Alvarez-Gaume",
+      "source": "Wikipedia: Atiyah-Singer index theorem",
+      "url": "https://en.wikipedia.org/wiki/Atiyah%E2%80%93Singer_index_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Wikipedia dates the same idea to 1983; the publication year (1986) is used."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1992,
+    "endYear": null,
+    "precision": "year",
+    "label": "Monograph: Heat kernels and Dirac operators",
+    "work": "Berline, Getzler, Vergne, Heat Kernels and Dirac Operators, Springer (1992)",
+    "people": [
+     "Nicole Berline",
+     "Ezra Getzler",
+     "Michel Vergne"
+    ],
+    "description": "Systematic book-length treatment of heat kernels and Dirac operators, the textbook form of the method.",
+    "evidence": [
+     {
+      "claim": "Record title, year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-3-642-58088-8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Gilkey's book on invariance theory and the heat equation is a further consolidation; a 1986 BAMS review record of it exists in Crossref, but its first edition year was not verified, so it is not used here."
+   }
+  ],
+  "people": [
+   {
+    "name": "Michael Atiyah",
+    "role": "developer",
+    "lifespan": "1929-2019",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Atiyah/",
+    "works": [
+     {
+      "citation": "Atiyah, Bott, Patodi, Invent. Math. 19 (1973)",
+      "year": 1973,
+      "url": "https://doi.org/10.1007/bf01425417",
+      "whyItMatters": "Heat-kernel proof"
+     },
+     {
+      "citation": "Atiyah, Singer, Bull. AMS 69 (1963)",
+      "year": 1963,
+      "url": "https://doi.org/10.1090/s0002-9904-1963-10957-x",
+      "whyItMatters": "Announcement of the index theorem"
+     }
+    ],
+    "roleNote": "co-author of the heat proof; index theorem"
+   },
+   {
+    "name": "Isadore Singer",
+    "role": "developer",
+    "lifespan": "1924-2021",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Singer/",
+    "works": [
+     {
+      "citation": "Atiyah, Singer, Bull. AMS 69 (1963)",
+      "year": 1963,
+      "url": "https://doi.org/10.1090/s0002-9904-1963-10957-x",
+      "whyItMatters": "Announcement of the index theorem"
+     }
+    ],
+    "roleNote": "co-author of the index theorem"
+   },
+   {
+    "name": "Raoul Bott",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bott/",
+    "works": [
+     {
+      "citation": "Atiyah, Bott, Patodi, Invent. Math. 19 (1973)",
+      "year": 1973,
+      "url": "https://doi.org/10.1007/bf01425417",
+      "whyItMatters": "Heat-kernel proof"
+     }
+    ],
+    "roleNote": "co-author of the heat proof"
+   },
+   {
+    "name": "Vijay Patodi",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Patodi/",
+    "works": [
+     {
+      "citation": "Atiyah, Bott, Patodi, Invent. Math. 19 (1973)",
+      "year": 1973,
+      "url": "https://doi.org/10.1007/bf01425417",
+      "whyItMatters": "Heat-kernel proof"
+     }
+    ],
+    "roleNote": "co-author of the heat proof"
+   },
+   {
+    "name": "Ezra Getzler",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Ezra_Getzler",
+    "works": [
+     {
+      "citation": "Getzler, A short proof of the local Atiyah-Singer index theorem, Topology (1986)",
+      "year": 1986,
+      "url": "https://doi.org/10.1016/0040-9383(86)90008-x",
+      "whyItMatters": "Supersymmetry proof"
+     },
+     {
+      "citation": "Berline, Getzler, Vergne, Heat Kernels and Dirac Operators (1992)",
+      "year": 1992,
+      "url": "https://doi.org/10.1007/978-3-642-58088-8",
+      "whyItMatters": "Monograph"
+     }
+    ],
+    "roleNote": "gave a short local heat-kernel proof"
+   }
+  ],
+  "notes": "Derived dates: the heat method is one paper (ABP 1973) that is both first statement and first application; that is stated in the milestones. Wikipedia's Atiyah-Singer article says the 1973 heat proof was described in a paper by Melrose, which was not checked. Atiyah-Patodi-Singer boundary papers (1975-76, per MacTutor) are not included; they are about boundary problems, not the heat proof itself. The input summary is consistent with the record.",
+  "derivedDates": {
+   "conceptual": 1973,
+   "methodological": 1973,
+   "institutional": 1992
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P474",
+  "eventId": "P25",
+  "canonicalName": "Hida theory: p-adic families of modular forms",
+  "aliases": [
+   "Hida families",
+   "ordinary Hecke algebra",
+   "Hida's p-adic families of modular forms"
+  ],
+  "phases": [
+   "p-adic modular forms (Serre, Katz)",
+   "Congruences and ordinary Hecke algebras (Hida)",
+   "Galois representations over Iwasawa algebras (Hida)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1973,
+    "endYear": null,
+    "precision": "year",
+    "label": "Serre's p-adic modular forms and zeta functions",
+    "work": "Serre, Formes modulaires et fonctions zeta p-adiques, in Modular Functions of One Variable III, LNM 350 (1973)",
+    "people": [
+     "Jean-Pierre Serre"
+    ],
+    "description": "Introduces p-adic modular forms and p-adic L-functions, the setting in which Hida's families live.",
+    "evidence": [
+     {
+      "claim": "Chapter record in Crossref; year from the LNM 350 volume record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-3-540-37802-0_4",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Volume record: Modular Functions of One Variable III, 1973",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bfb0060520",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The chapter record lacks a year; the year is taken from the volume record."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1973,
+    "endYear": null,
+    "precision": "year",
+    "label": "Katz's p-adic properties of modular schemes",
+    "work": "Katz, p-adic properties of modular schemes and modular forms, in Modular Functions of One Variable III, LNM 350 (1973)",
+    "people": [
+     "Nicholas Katz"
+    ],
+    "description": "Develops the p-adic theory of modular forms through modular schemes, a second precursor of families.",
+    "evidence": [
+     {
+      "claim": "Chapter record in Crossref; year from the LNM 350 volume record",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-3-540-37802-0_3",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Volume record: Modular Functions of One Variable III, 1973",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bfb0060520",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "As above."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1981,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hida's congruences of cusp forms and zeta values",
+    "work": "Hida, Congruences of cusp forms and special values of their zeta functions, Invent. Math. (1981)",
+    "people": [
+     "Haruzo Hida"
+    ],
+    "description": "Congruences between cusp forms and special values, the arithmetic input behind ordinary families.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01393877",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1986,
+    "endYear": null,
+    "precision": "year",
+    "label": "Galois representations over GL2 of Iwasawa algebra",
+    "work": "Hida, Galois representations into GL2(Zp[[X]]) attached to ordinary cusp forms, Invent. Math. (1986)",
+    "people": [
+     "Haruzo Hida"
+    ],
+    "description": "Shows that ordinary cusp forms in a family give Galois representations varying over a p-adic power series ring, the core of Hida theory.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01390329",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Haruzo Hida: Hida's work on p-adic L-functions and p-adic Hecke rings",
+      "source": "Wikipedia: Haruzo Hida",
+      "url": "https://en.wikipedia.org/wiki/Haruzo_Hida",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The Crossref record confirms identity and year; the claim about families is taken from the title and standard references, not from reading the paper. Ideally checked against the text."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1986,
+    "endYear": null,
+    "precision": "year",
+    "label": "Ordinary Hecke algebra as a family over Iwasawa algebra",
+    "work": "Hida, Iwasawa modules attached to congruences of cusp forms, Ann. Sci. ENS (1986)",
+    "people": [
+     "Haruzo Hida"
+    ],
+    "description": "Shows that the ordinary Hecke algebra of a tower of levels is finite over the Iwasawa algebra, giving the p-adic families of forms.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.24033/asens.1507",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Content inferred from the title; see note on the Invent. paper above."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1993,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hida's book on L-functions and Eisenstein series",
+    "work": "Hida, Elementary Theory of L-functions and Eisenstein Series, LMS Student Texts 26, Cambridge UP (1993)",
+    "people": [
+     "Haruzo Hida"
+    ],
+    "description": "Textbook account of the elementary theory of L-functions and Eisenstein series underlying Hida theory.",
+    "evidence": [
+     {
+      "claim": "Record title, year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1017/cbo9780511623691",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Haruzo Hida",
+    "role": "developer",
+    "lifespan": "born 1952",
+    "biographyUrl": "https://en.wikipedia.org/wiki/Haruzo_Hida",
+    "works": [
+     {
+      "citation": "Hida, Congruences of cusp forms and special values of their zeta functions, Invent. Math. (1981)",
+      "year": 1981,
+      "url": "https://doi.org/10.1007/bf01393877",
+      "whyItMatters": "Congruences and special values"
+     },
+     {
+      "citation": "Hida, Iwasawa modules attached to congruences of cusp forms, Ann. Sci. ENS (1986)",
+      "year": 1986,
+      "url": "https://doi.org/10.24033/asens.1507",
+      "whyItMatters": "Iwasawa-algebra families"
+     },
+     {
+      "citation": "Hida, Galois representations into GL2(Zp[[X]]), Invent. Math. (1986)",
+      "year": 1986,
+      "url": "https://doi.org/10.1007/bf01390329",
+      "whyItMatters": "Families of Galois representations"
+     }
+    ],
+    "roleNote": "developed ordinary families and Hecke algebras"
+   },
+   {
+    "name": "Jean-Pierre Serre",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Serre/",
+    "works": [
+     {
+      "citation": "Serre, Formes modulaires et fonctions zeta p-adiques, LNM 350 (1973)",
+      "year": 1973,
+      "url": "https://doi.org/10.1007/978-3-540-37802-0_4",
+      "whyItMatters": "p-adic modular forms"
+     }
+    ],
+    "roleNote": "p-adic modular forms and p-adic zeta functions"
+   },
+   {
+    "name": "Nicholas Katz",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Nicholas_Katz",
+    "works": [
+     {
+      "citation": "Katz, p-adic properties of modular schemes and modular forms, LNM 350 (1973)",
+      "year": 1973,
+      "url": "https://doi.org/10.1007/978-3-540-37802-0_3",
+      "whyItMatters": "p-adic modular forms"
+     }
+    ],
+    "roleNote": "p-adic modular schemes and forms"
+   }
+  ],
+  "notes": "Input type is birth-by-fusion: the 1973 p-adic theory (Serre, Katz) and Hecke algebras fuse in Hida's 1980s work. The MacTutor URL for Hida returned 404; biography is from Wikipedia. The 1986 claims are inferred from titles and the Wikipedia biography; the papers were not read, so they are medium. No first_application milestone was established: Hida 1981 is a precursor, and the methodological date is null. Institutional date from the 1993 book.",
+  "derivedDates": {
+   "conceptual": 1986,
+   "methodological": null,
+   "institutional": 1993
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P477",
+  "eventId": "P28",
+  "canonicalName": "Explicit expander graphs from property (T) (Margulis)",
+  "aliases": [
+   "Margulis expanders",
+   "Margulis-Gabber-Galil expanders",
+   "explicit expander graphs"
+  ],
+  "phases": [
+   "Property (T) (Kazhdan)",
+   "Explicit expanders (Margulis; Gabber-Galil analysis)",
+   "Ramanujan graphs (LPS)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1967,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kazhdan's property (T) introduced",
+    "work": "Kazhdan, Connection of the dual space of a group with the structure of its closed subgroups, Funct. Anal. Appl. 1 (1967)",
+    "people": [
+     "David Kazhdan"
+    ],
+    "description": "Introduces property (T), the representation-theoretic source of Margulis's explicit expanders.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01075866",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Kazhdan's property (T): introduced by Kazhdan in 1967",
+      "source": "Wikipedia: Kazhdan's property (T)",
+      "url": "https://en.wikipedia.org/wiki/Kazhdan%27s_property_(T)",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1981,
+    "endYear": null,
+    "precision": "year",
+    "label": "Explicit linear-sized expanders from the Margulis graph",
+    "work": "Gabber, Galil, Explicit constructions of linear-sized superconcentrators, JCSS (1981)",
+    "people": [
+     "Ofer Gabber",
+     "Zvi Galil"
+    ],
+    "description": "Analyses the explicit Z_n x Z_n graph attributed to Margulis and proves its expansion, giving an explicit linear-sized expander family.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1016/0022-0000(81)90040-4",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Expander graph: Margulis's construction analysed by Gabber and Galil",
+      "source": "Wikipedia: Expander graph",
+      "url": "https://en.wikipedia.org/wiki/Expander_graph",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Crossref also lists a 1979 FOCS version; the journal year is used. The Margulis 1973 explicit construction that these analyse is not verified (see notes)."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1988,
+    "endYear": null,
+    "precision": "year",
+    "label": "Ramanujan graphs: optimal explicit expanders",
+    "work": "Lubotzky, Phillips, Sarnak, Ramanujan graphs, Combinatorica 8 (1988)",
+    "people": [
+     "Alexander Lubotzky",
+     "Ralph Phillips",
+     "Peter Sarnak"
+    ],
+    "description": "Gives explicit families of optimal spectral expanders via Ramanujan-type bounds, a standard reference for explicit expanders.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02126799",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Expander graph: Ramanujan graphs constructed explicitly by Lubotzky-Phillips-Sarnak and Margulis",
+      "source": "Wikipedia: Expander graph",
+      "url": "https://en.wikipedia.org/wiki/Expander_graph",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2006,
+    "endYear": null,
+    "precision": "year",
+    "label": "Survey: Expander graphs and their applications",
+    "work": "Hoory, Linial, Wigderson, Expander graphs and their applications, Bull. AMS 43 (2006)",
+    "people": [
+     "Shlomo Hoory",
+     "Nathan Linial",
+     "Avi Wigderson"
+    ],
+    "description": "The standard survey of expanders, their constructions and applications.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/s0273-0979-06-01126-8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "David Kazhdan",
+    "role": "originator",
+    "lifespan": "born 1946",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kazhdan/",
+    "works": [
+     {
+      "citation": "Kazhdan, Connection of the dual space of a group with the structure of its closed subgroups, Funct. Anal. Appl. (1967)",
+      "year": 1967,
+      "url": "https://doi.org/10.1007/bf01075866",
+      "whyItMatters": "Property (T)"
+     }
+    ],
+    "roleNote": "introduced property (T)"
+   },
+   {
+    "name": "Grigory Margulis",
+    "role": "developer",
+    "lifespan": "born 1946",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Margulis/",
+    "works": [
+     {
+      "citation": "Margulis, Explicit constructions of graphs without short cycles and low density codes, Combinatorica (1982)",
+      "year": 1982,
+      "url": "https://doi.org/10.1007/bf02579283",
+      "whyItMatters": "Explicit graph constructions by Margulis; not the 1973 construction itself"
+     },
+     {
+      "citation": "Margulis, Quotient groups of discrete subgroups and measure theory, Funct. Anal. Appl. (1978)",
+      "year": 1978,
+      "url": "https://doi.org/10.1007/bf01076383",
+      "whyItMatters": "Superrigidity (cross-reference to the sister event)"
+     }
+    ],
+    "roleNote": "explicit expander construction; superrigidity"
+   },
+   {
+    "name": "Ofer Gabber",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Ofer_Gabber",
+    "works": [
+     {
+      "citation": "Gabber, Galil, Explicit constructions of linear-sized superconcentrators, JCSS (1981)",
+      "year": 1981,
+      "url": "https://doi.org/10.1016/0022-0000(81)90040-4",
+      "whyItMatters": "Expansion proof"
+     }
+    ],
+    "roleNote": "analysed the Margulis graph"
+   },
+   {
+    "name": "Zvi Galil",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Zvi_Galil",
+    "works": [
+     {
+      "citation": "Gabber, Galil, Explicit constructions of linear-sized superconcentrators, JCSS (1981)",
+      "year": 1981,
+      "url": "https://doi.org/10.1016/0022-0000(81)90040-4",
+      "whyItMatters": "Expansion proof"
+     }
+    ],
+    "roleNote": "analysed the Margulis graph"
+   },
+   {
+    "name": "Alexander Lubotzky",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Alexander_Lubotzky",
+    "works": [
+     {
+      "citation": "Lubotzky, Phillips, Sarnak, Ramanujan graphs, Combinatorica (1988)",
+      "year": 1988,
+      "url": "https://doi.org/10.1007/bf02126799",
+      "whyItMatters": "Explicit optimal expanders"
+     }
+    ],
+    "roleNote": "explicit Ramanujan graphs"
+   },
+   {
+    "name": "Avi Wigderson",
+    "role": "popularizer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Wigderson/",
+    "works": [
+     {
+      "citation": "Hoory, Linial, Wigderson, Expander graphs and their applications, Bull. AMS (2006)",
+      "year": 2006,
+      "url": "https://doi.org/10.1090/s0273-0979-06-01126-8",
+      "whyItMatters": "Survey"
+     }
+    ],
+    "roleNote": "expander survey"
+   }
+  ],
+  "notes": "Open: Margulis's 1973 explicit construction of expanders (Problems of Information Transmission), which is the claimed first explicit expander, is not in Crossref and the Wikipedia Expander graph page gives no year; it was not promoted to a milestone, so conceptual is null. Pinsker's 1973 probabilistic existence proof is not checked either. The 1982 Combinatorica paper is cited as a Margulis explicit construction with its own year; it is not the property-(T) expander. Institutional date is 2006 (consolidation); no naming milestone was found. The input summary is consistent with property (T) as the technique.",
+  "derivedDates": {
+   "conceptual": null,
+   "methodological": 1981,
+   "institutional": 2006
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P035",
+  "eventId": "E43",
+  "canonicalName": "Symplectic topology",
+  "aliases": [
+   "symplectic geometry",
+   "symplectic topology"
+  ],
+  "phases": [
+   "Naming and classical groups (Weyl)",
+   "Pseudo-holomorphic curves (Gromov)",
+   "Floer theory and monograph"
+  ],
+  "milestones": [
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 1939,
+    "endYear": null,
+    "precision": "year",
+    "label": "Weyl names the symplectic groups",
+    "work": "Weyl, The Classical Groups: Their Invariants and Representations, Princeton (1939)",
+    "people": [
+     "Hermann Weyl"
+    ],
+    "description": "Weyl adopts the term symplectic for the classical groups, the origin of the name of the field.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Symplectic geometry: the term adopted by Weyl, citing the 1939 book",
+      "source": "Wikipedia: Symplectic geometry",
+      "url": "https://en.wikipedia.org/wiki/Symplectic_geometry",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Mathematical Gazette 1940 review of the book (record checked)",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/3605725",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "The book appeared in 1939; Crossref lists the 1947 Princeton reprint, and the 1940 review is used as the bibliographic check."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1985,
+    "endYear": null,
+    "precision": "year",
+    "label": "Pseudo-holomorphic curves in symplectic manifolds",
+    "work": "Gromov, Pseudo holomorphic curves in symplectic manifolds, Invent. Math. 82 (1985)",
+    "people": [
+     "Mikhail Gromov"
+    ],
+    "description": "Introduces pseudo-holomorphic curves as a tool for symplectic manifolds, the modern start of symplectic topology.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01388806",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Symplectic geometry: Gromov's almost complex structures and pseudoholomorphic curves led to symplectic topology",
+      "source": "Wikipedia: Symplectic geometry",
+      "url": "https://en.wikipedia.org/wiki/Symplectic_geometry",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Taken as the first public statement of the modern field; earlier results (Darboux, Arnold conjecture) are not included and not verified here."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1988,
+    "endYear": null,
+    "precision": "year",
+    "label": "Floer homology for Lagrangian intersections",
+    "work": "Floer, Morse theory for Lagrangian intersections, J. Differential Geom. 28 (1988)",
+    "people": [
+     "Andreas Floer"
+    ],
+    "description": "Floer's construction gives a homology theory for Lagrangian intersections, opening the Arnold-type rigidity problems.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.4310/jdg/1214442477",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1995,
+    "endYear": null,
+    "precision": "year",
+    "label": "Monograph: Introduction to Symplectic Topology",
+    "work": "McDuff, Salamon, Introduction to Symplectic Topology, Oxford (1995)",
+    "people": [
+     "Dusa McDuff",
+     "Dietmar Salamon"
+    ],
+    "description": "First textbook treatment of symplectic topology, based on the holomorphic curve methods.",
+    "evidence": [
+     {
+      "claim": "Chapter record of the 1995 first edition",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1093/oso/9780198511779.003.0017",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "A 2017 Oxford Scholarship record also exists; the 1995 first-edition date is used."
+   }
+  ],
+  "people": [
+   {
+    "name": "Hermann Weyl",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Weyl/",
+    "works": [
+     {
+      "citation": "Weyl, The Classical Groups, Princeton University Press (1939)",
+      "year": 1939,
+      "url": "https://openlibrary.org/works/OL8018944W",
+      "whyItMatters": "Weyl's book where the name symplectic for these groups was introduced."
+     }
+    ],
+    "roleNote": "named the symplectic group"
+   },
+   {
+    "name": "Mikhail Gromov",
+    "role": "developer",
+    "lifespan": "born 1943",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Gromov/",
+    "works": [
+     {
+      "citation": "Gromov, Pseudo holomorphic curves in symplectic manifolds, Invent. Math. (1985)",
+      "year": 1985,
+      "url": "https://doi.org/10.1007/bf01388806",
+      "whyItMatters": "Founding method"
+     }
+    ],
+    "roleNote": "pseudo-holomorphic curve method"
+   },
+   {
+    "name": "Andreas Floer",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Floer/",
+    "works": [
+     {
+      "citation": "Floer, Morse theory for Lagrangian intersections, J. Differential Geom. (1988)",
+      "year": 1988,
+      "url": "https://doi.org/10.4310/jdg/1214442477",
+      "whyItMatters": "Floer homology"
+     }
+    ],
+    "roleNote": "Floer homology for Lagrangian intersections"
+   },
+   {
+    "name": "Dusa McDuff",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/McDuff/",
+    "works": [
+     {
+      "citation": "McDuff, Salamon, Introduction to Symplectic Topology (1995)",
+      "year": 1995,
+      "url": "https://doi.org/10.1093/oso/9780198511779.003.0017",
+      "whyItMatters": "Textbook"
+     }
+    ],
+    "roleNote": "textbook author"
+   },
+   {
+    "name": "Dietmar Salamon",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Dietmar_Salamon",
+    "works": [
+     {
+      "citation": "McDuff, Salamon, Introduction to Symplectic Topology (1995)",
+      "year": 1995,
+      "url": "https://doi.org/10.1093/oso/9780198511779.003.0017",
+      "whyItMatters": "Textbook"
+     }
+    ],
+    "roleNote": "textbook author"
+   }
+  ],
+  "notes": "Weyl's birth and death years were not checked; lifespan is left null for him. Arnold's 1965 conjecture and Darboux's theorem are mentioned in the Wikipedia page but not checked, so no precursor milestone is dated. The Wikipedia Symplectic geometry article's etymology confirmed Weyl's naming. No first_application milestone was found, so methodological is null.",
+  "derivedDates": {
+   "conceptual": 1985,
+   "methodological": null,
+   "institutional": 1939
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P096",
+  "eventId": "B30",
+  "canonicalName": "Superrigidity and arithmeticity of lattices",
+  "aliases": [
+   "Margulis superrigidity",
+   "Margulis arithmeticity theorem",
+   "superrigidity"
+  ],
+  "phases": [
+   "Superrigidity (Margulis, 1975 announcement; 1978 paper)",
+   "Arithmeticity (Margulis, 1984)",
+   "p-adic superrigidity and monographs"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1975,
+    "endYear": null,
+    "precision": "year",
+    "label": "Margulis's superrigidity theorem announced",
+    "work": null,
+    "people": [
+     "Grigory Margulis"
+    ],
+    "description": "Margulis announces the superrigidity theorem for lattices in higher-rank semisimple groups.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Margulis article: superrigidity theorem from 1975",
+      "source": "Wikipedia: Grigory Margulis",
+      "url": "https://en.wikipedia.org/wiki/Grigory_Margulis",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Wikipedia Superrigidity: discovery credited to Margulis",
+      "source": "Wikipedia: Superrigidity",
+      "url": "https://en.wikipedia.org/wiki/Superrigidity",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "No Crossref record for the 1975 announcement was found. The full paper is the 1978 record below, so the 1975 date rests on the history pages."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1978,
+    "endYear": null,
+    "precision": "year",
+    "label": "Quotient groups and measure theory (superrigidity paper)",
+    "work": "Margulis, Quotient groups of discrete subgroups and measure theory, Funct. Anal. Appl. (1978)",
+    "people": [
+     "Grigory Margulis"
+    ],
+    "description": "The published treatment of superrigidity via measure theory and quotient groups.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01076383",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1984,
+    "endYear": null,
+    "precision": "year",
+    "label": "Arithmeticity of irreducible lattices",
+    "work": "Margulis, Arithmeticity of the irreducible lattices in the semi-simple groups of rank greater than 1, Invent. Math. (1984)",
+    "people": [
+     "Grigory Margulis"
+    ],
+    "description": "Shows that irreducible lattices in higher-rank semisimple groups are arithmetic, the arithmeticity half of the event.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01388494",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Margulis article: arithmeticity theorems in the 1980s",
+      "source": "Wikipedia: Grigory Margulis",
+      "url": "https://en.wikipedia.org/wiki/Grigory_Margulis",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1984,
+    "endYear": null,
+    "precision": "year",
+    "label": "Monograph: Ergodic Theory and Semisimple Groups",
+    "work": "Zimmer, Ergodic Theory and Semisimple Groups, Birkhauser (1984)",
+    "people": [
+     "Robert Zimmer"
+    ],
+    "description": "Systematic account of superrigidity and arithmeticity via ergodic theory, the first textbook treatment.",
+    "evidence": [
+     {
+      "claim": "Record title, year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-1-4684-9488-4",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1991,
+    "endYear": null,
+    "precision": "year",
+    "label": "Margulis's monograph on discrete subgroups",
+    "work": "Margulis, Discrete Subgroups of Semisimple Lie Groups, Springer (1991)",
+    "people": [
+     "Grigory Margulis"
+    ],
+    "description": "Full monograph treatment of superrigidity, arithmeticity and related rigidity theorems.",
+    "evidence": [
+     {
+      "claim": "Record title, year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-3-642-51445-6",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1992,
+    "endYear": null,
+    "precision": "year",
+    "label": "p-adic superrigidity via harmonic maps",
+    "work": "Gromov, Schoen, Harmonic maps into singular spaces and p-adic superrigidity for lattices in groups of rank one, Publ. Math. IHES 76 (1992)",
+    "people": [
+     "Mikhail Gromov",
+     "Richard Schoen"
+    ],
+    "description": "Extends superrigidity to p-adic targets and rank-one groups using harmonic maps.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02699433",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Grigory Margulis",
+    "role": "developer",
+    "lifespan": "born 1946",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Margulis/",
+    "works": [
+     {
+      "citation": "Margulis, Quotient groups of discrete subgroups and measure theory, Funct. Anal. Appl. (1978)",
+      "year": 1978,
+      "url": "https://doi.org/10.1007/bf01076383",
+      "whyItMatters": "Superrigidity paper"
+     },
+     {
+      "citation": "Margulis, Arithmeticity of the irreducible lattices ..., Invent. Math. (1984)",
+      "year": 1984,
+      "url": "https://doi.org/10.1007/bf01388494",
+      "whyItMatters": "Arithmeticity"
+     },
+     {
+      "citation": "Margulis, Discrete Subgroups of Semisimple Lie Groups (1991)",
+      "year": 1991,
+      "url": "https://doi.org/10.1007/978-3-642-51445-6",
+      "whyItMatters": "Monograph"
+     }
+    ],
+    "roleNote": "proved superrigidity and arithmeticity"
+   },
+   {
+    "name": "Robert Zimmer",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Robert_Zimmer",
+    "works": [
+     {
+      "citation": "Zimmer, Ergodic Theory and Semisimple Groups (1984)",
+      "year": 1984,
+      "url": "https://doi.org/10.1007/978-1-4684-9488-4",
+      "whyItMatters": "Monograph"
+     }
+    ],
+    "roleNote": "ergodic-theoretic superrigidity"
+   },
+   {
+    "name": "Mikhail Gromov",
+    "role": "developer",
+    "lifespan": "born 1943",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Gromov/",
+    "works": [
+     {
+      "citation": "Gromov, Schoen, Publ. Math. IHES 76 (1992)",
+      "year": 1992,
+      "url": "https://doi.org/10.1007/bf02699433",
+      "whyItMatters": "p-adic superrigidity"
+     }
+    ],
+    "roleNote": "p-adic superrigidity with harmonic maps"
+   },
+   {
+    "name": "Richard Schoen",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Schoen/",
+    "works": [
+     {
+      "citation": "Gromov, Schoen, Publ. Math. IHES 76 (1992)",
+      "year": 1992,
+      "url": "https://doi.org/10.1007/bf02699433",
+      "whyItMatters": "p-adic superrigidity"
+     }
+    ],
+    "roleNote": "p-adic superrigidity with harmonic maps"
+   }
+  ],
+  "notes": "The 1975 superrigidity milestone is a history-page date with no bibliographic record; conceptual rests on it, so medium confidence. Derived methodological date is null: no clear first_application was found. Institutional is 1984 (Zimmer monograph). The Margulis Wikipedia page confirms arithmeticity and superrigidity credits.",
+  "derivedDates": {
+   "conceptual": 1975,
+   "methodological": null,
+   "institutional": 1984
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P256",
+  "eventId": "WB123",
+  "canonicalName": "Intersection cohomology",
+  "aliases": [
+   "intersection homology",
+   "Goresky-MacPherson intersection (co)homology",
+   "IH"
+  ],
+  "phases": [
+   "Discovery (1974)",
+   "Poincare duality for singular spaces (1977)",
+   "Intersection homology theory (1980-83)",
+   "Sheaf-theoretic treatment (1984)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1974,
+    "endYear": null,
+    "precision": "year",
+    "label": "Discovery in private work",
+    "work": null,
+    "people": [
+     "Mark Goresky",
+     "Robert MacPherson"
+    ],
+    "description": "Goresky and MacPherson find the idea of intersection homology in the fall of 1974, before any publication.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Intersection homology: discovered in the fall of 1974",
+      "source": "Wikipedia: Intersection homology",
+      "url": "https://en.wikipedia.org/wiki/Intersection_homology",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Private discovery; not a public milestone for the derived dates."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1977,
+    "endYear": null,
+    "precision": "year",
+    "label": "Poincare duality for singular spaces (note)",
+    "work": "Goresky, MacPherson, La dualite de Poincare pour les espaces singuliers, C. R. Acad. Sci. Paris 284 (1977)",
+    "people": [
+     "Mark Goresky",
+     "Robert MacPherson"
+    ],
+    "description": "Short note announcing the Poincare-duality property for intersection homology of singular spaces.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Intersection homology: references the 1977 Comptes Rendus note",
+      "source": "Wikipedia: Intersection homology",
+      "url": "https://en.wikipedia.org/wiki/Intersection_homology",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Not found in Crossref; the citation comes from the Wikipedia reference list. Treat as unverified until a record is found."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1979,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kazhdan-Lusztig proof uses intersection cohomology",
+    "work": "Kazhdan, Lusztig, Representations of Coxeter groups and Hecke algebras, Invent. Math. (1979)",
+    "people": [
+     "David Kazhdan",
+     "George Lusztig"
+    ],
+    "description": "Intersection cohomology is used to prove the Kazhdan-Lusztig conjectures, an early purposeful application.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01390031",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Intersection homology: IH was used to prove the Kazhdan-Lusztig conjectures",
+      "source": "Wikipedia: Intersection homology",
+      "url": "https://en.wikipedia.org/wiki/Intersection_homology",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The Crossref record confirms the paper; the IH use is taken from Wikipedia and not checked in the text."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1980,
+    "endYear": null,
+    "precision": "year",
+    "label": "Intersection homology theory",
+    "work": "Goresky, MacPherson, Intersection homology theory, Topology 19 (1980)",
+    "people": [
+     "Mark Goresky",
+     "Robert MacPherson"
+    ],
+    "description": "Full definition of intersection homology with allowable chains, the main development.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1016/0040-9383(80)90003-8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1983,
+    "endYear": null,
+    "precision": "year",
+    "label": "Intersection homology II: sheaf-theoretic approach",
+    "work": "Goresky, MacPherson, Intersection homology II, Invent. Math. 72 (1983)",
+    "people": [
+     "Mark Goresky",
+     "Robert MacPherson"
+    ],
+    "description": "Gives the sheaf-theoretic approach to intersection cohomology, the form used in later work.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01389130",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Intersection homology: sheaf-theoretic approach in the 1983 paper",
+      "source": "Wikipedia: Intersection homology",
+      "url": "https://en.wikipedia.org/wiki/Intersection_homology",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1984,
+    "endYear": null,
+    "precision": "year",
+    "label": "Sheaf-theoretic intersection cohomology (Borel et al.)",
+    "work": "Borel et al., Intersection Cohomology, Progress in Mathematics, Birkhauser (1984)",
+    "people": [
+     "Armand Borel"
+    ],
+    "description": "The book-length treatment of intersection cohomology in the sheaf-theoretic framework.",
+    "evidence": [
+     {
+      "claim": "Chapter record in Crossref: 'Sheaf Theoretic Intersection Cohomology', year 1984",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/978-0-8176-4765-0_5",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Mark Goresky",
+    "role": "originator",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Mark_Goresky",
+    "works": [
+     {
+      "citation": "Goresky, MacPherson, Intersection homology theory, Topology (1980)",
+      "year": 1980,
+      "url": "https://doi.org/10.1016/0040-9383(80)90003-8",
+      "whyItMatters": "Definition"
+     },
+     {
+      "citation": "Goresky, MacPherson, Intersection homology II, Invent. Math. (1983)",
+      "year": 1983,
+      "url": "https://doi.org/10.1007/bf01389130",
+      "whyItMatters": "Sheaf approach"
+     }
+    ],
+    "roleNote": "co-discoverer of intersection homology"
+   },
+   {
+    "name": "Robert MacPherson",
+    "role": "originator",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Robert_MacPherson",
+    "works": [
+     {
+      "citation": "Goresky, MacPherson, Intersection homology theory, Topology (1980)",
+      "year": 1980,
+      "url": "https://doi.org/10.1016/0040-9383(80)90003-8",
+      "whyItMatters": "Definition"
+     },
+     {
+      "citation": "Goresky, MacPherson, Intersection homology II, Invent. Math. (1983)",
+      "year": 1983,
+      "url": "https://doi.org/10.1007/bf01389130",
+      "whyItMatters": "Sheaf approach"
+     }
+    ],
+    "roleNote": "co-discoverer of intersection homology"
+   },
+   {
+    "name": "David Kazhdan",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kazhdan/",
+    "works": [
+     {
+      "citation": "Kazhdan, Lusztig, Invent. Math. (1979)",
+      "year": 1979,
+      "url": "https://doi.org/10.1007/bf01390031",
+      "whyItMatters": "KL conjectures via IH"
+     }
+    ],
+    "roleNote": "Kazhdan-Lusztig application"
+   },
+   {
+    "name": "George Lusztig",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Lusztig/",
+    "works": [
+     {
+      "citation": "Kazhdan, Lusztig, Invent. Math. (1979)",
+      "year": 1979,
+      "url": "https://doi.org/10.1007/bf01390031",
+      "whyItMatters": "KL conjectures via IH"
+     }
+    ],
+    "roleNote": "Kazhdan-Lusztig application"
+   },
+   {
+    "name": "Armand Borel",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Armand_Borel",
+    "works": [
+     {
+      "citation": "Borel et al., Intersection Cohomology (1984)",
+      "year": 1984,
+      "url": "https://doi.org/10.1007/978-0-8176-4765-0_5",
+      "whyItMatters": "Monograph chapter"
+     }
+    ],
+    "roleNote": "book-length treatment"
+   }
+  ],
+  "notes": "The 1977 Comptes Rendus note is not in Crossref; it is cited from Wikipedia and kept as a medium first_statement. Derived conceptual therefore rests on an unverified record; if it cannot be confirmed, the first bibliographic statement is the 1980 Topology paper. Methodological is 1979 (Kazhdan-Lusztig), with the IH use from Wikipedia. Institutional is 1984 (book). MacTutor not checked for this event.",
+  "derivedDates": {
+   "conceptual": 1977,
+   "methodological": 1979,
+   "institutional": 1984
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P259",
+  "eventId": "MB37",
+  "canonicalName": "Deligne proof of Weil conjectures",
+  "aliases": [
+   "Weil conjectures",
+   "Riemann hypothesis over finite fields",
+   "Deligne's proof of the Weil conjectures"
+  ],
+  "phases": [
+   "Weil conjectures (1949)",
+   "Dwork rationality (1960)",
+   "Grothendieck cohomological proof (1965)",
+   "Deligne's Weil I and II (1974, 1980)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1949,
+    "endYear": null,
+    "precision": "year",
+    "label": "Weil conjectures stated",
+    "work": "Weil, Numbers of solutions of equations in finite fields, Bull. AMS 55 (1949)",
+    "people": [
+     "Andre Weil"
+    ],
+    "description": "States the conjectures on zeta functions of varieties over finite fields, including the Riemann hypothesis analogue.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/s0002-9904-1949-09219-4",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Weil conjectures: Weil's conjectures and the three parts",
+      "source": "Wikipedia: Weil conjectures",
+      "url": "https://en.wikipedia.org/wiki/Weil_conjectures",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "The conjectures are the statement; the event is their proof."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1960,
+    "endYear": null,
+    "precision": "year",
+    "label": "Rationality of the zeta function (Dwork)",
+    "work": "Dwork, On the rationality of the zeta function of an algebraic variety, Amer. J. Math. 82 (1960)",
+    "people": [
+     "Bernard Dwork"
+    ],
+    "description": "First proof of the rationality part of the Weil conjectures, by p-adic methods, not the Riemann hypothesis part.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/2372974",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Weil conjectures: rationality proved by Dwork",
+      "source": "Wikipedia: Weil conjectures",
+      "url": "https://en.wikipedia.org/wiki/Weil_conjectures",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Dwork's work is partial (rationality only); it is an application of p-adic methods to the statement."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1965,
+    "endYear": null,
+    "precision": "year",
+    "label": "Grothendieck proves all but the Riemann hypothesis part",
+    "work": "Grothendieck, Formule de Lefschetz et rationalite des fonctions L, Seminaire Bourbaki (1965); SGA 5, LNM 589 (1977)",
+    "people": [
+     "Alexander Grothendieck"
+    ],
+    "description": "Via etale cohomology and the Lefschetz formula, Grothendieck with Artin and Verdier proves the zeta-function formula and all but the Riemann hypothesis part.",
+    "evidence": [
+     {
+      "claim": "Wikipedia Weil conjectures: Grothendieck with Artin and Verdier proved all but the RH part (1965)",
+      "source": "Wikipedia: Weil conjectures",
+      "url": "https://en.wikipedia.org/wiki/Weil_conjectures",
+      "kind": "history_page"
+     },
+     {
+      "claim": "SGA 5 volume record (1977) containing the Lefschetz formula chapter",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bfb0096804",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The 1965 Bourbaki talk has no Crossref record; the 1977 SGA 5 record is cited instead."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1974,
+    "endYear": null,
+    "precision": "year",
+    "label": "Deligne's proof of the Riemann hypothesis part (Weil I)",
+    "work": "Deligne, La conjecture de Weil I, Publ. Math. IHES 43 (1974)",
+    "people": [
+     "Pierre Deligne"
+    ],
+    "description": "Completes the proof of the Weil conjectures, including the Riemann hypothesis, using Lefschetz pencils and Rankin methods.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02684373",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor Deligne: solution of the three Weil conjectures in 1974",
+      "source": "MacTutor: Deligne",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Deligne/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1980,
+    "endYear": null,
+    "precision": "year",
+    "label": "Deligne's Weil II: general theorems",
+    "work": "Deligne, La conjecture de Weil II, Publ. Math. IHES 52 (1980)",
+    "people": [
+     "Pierre Deligne"
+    ],
+    "description": "Extends the Weil I methods with further general theorems and the weight machinery.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02684780",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Andre Weil",
+    "role": "developer",
+    "lifespan": "1906-1998",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Weil/",
+    "works": [
+     {
+      "citation": "Weil, Numbers of solutions of equations in finite fields, Bull. AMS (1949)",
+      "year": 1949,
+      "url": "https://doi.org/10.1090/s0002-9904-1949-09219-4",
+      "whyItMatters": "Conjectures"
+     }
+    ],
+    "roleNote": "stated the Weil conjectures"
+   },
+   {
+    "name": "Bernard Dwork",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Bernard_Dwork",
+    "works": [
+     {
+      "citation": "Dwork, On the rationality of the zeta function of an algebraic variety, Amer. J. Math. (1960)",
+      "year": 1960,
+      "url": "https://doi.org/10.2307/2372974",
+      "whyItMatters": "Rationality"
+     }
+    ],
+    "roleNote": "proved rationality"
+   },
+   {
+    "name": "Alexander Grothendieck",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Grothendieck/",
+    "works": [
+     {
+      "citation": "Grothendieck, SGA 5, Formule de Lefschetz et rationalite des fonctions L, LNM 589 (1977)",
+      "year": 1977,
+      "url": "https://doi.org/10.1007/bfb0096804",
+      "whyItMatters": "Lefschetz formula"
+     }
+    ],
+    "roleNote": "etale cohomology and Lefschetz formula"
+   },
+   {
+    "name": "Pierre Deligne",
+    "role": "developer",
+    "lifespan": "born 1944",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Deligne/",
+    "works": [
+     {
+      "citation": "Deligne, La conjecture de Weil I, Publ. Math. IHES (1974)",
+      "year": 1974,
+      "url": "https://doi.org/10.1007/bf02684373",
+      "whyItMatters": "Weil I"
+     },
+     {
+      "citation": "Deligne, La conjecture de Weil II, Publ. Math. IHES (1980)",
+      "year": 1980,
+      "url": "https://doi.org/10.1007/bf02684780",
+      "whyItMatters": "Weil II"
+     }
+    ],
+    "roleNote": "proved the Riemann hypothesis part"
+   }
+  ],
+  "notes": "Derived institutional is null: no naming, consolidation or institution milestone was verified, so the Weil-II milestone is not used as consolidation. The 1965 Grothendieck date rests on Wikipedia's text and the 1977 SGA 5 record. Dwork's 1960 paper proves rationality only, so the methodological date is an application-level one.",
+  "derivedDates": {
+   "conceptual": 1949,
+   "methodological": 1960,
+   "institutional": null
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P495",
+  "eventId": "P52",
+  "canonicalName": "Finite-gap integration of soliton equations",
+  "aliases": [
+   "finite-gap integration",
+   "algebro-geometric solutions of KdV",
+   "finite-zone integration"
+  ],
+  "phases": [
+   "Inverse scattering (1967)",
+   "Periodic KdV and finite-gap theory (Novikov, 1974)",
+   "Hill operators (Its-Matveev, 1975)",
+   "Theta-function solutions and surveys (1976-77)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1967,
+    "endYear": null,
+    "precision": "year",
+    "label": "Inverse scattering method for KdV",
+    "work": "Gardner, Greene, Kruskal, Miura, Method for solving the Korteweg-de Vries equation, Phys. Rev. Lett. 19 (1967)",
+    "people": [
+     "Clifford Gardner",
+     "John Greene",
+     "Martin Kruskal",
+     "Robert Miura"
+    ],
+    "description": "Introduces the inverse scattering transform for KdV, the method on which finite-gap solutions are built.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1103/physrevlett.19.1095",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1974,
+    "endYear": null,
+    "precision": "year",
+    "label": "Periodic problem for KdV (finite-gap origin)",
+    "work": "Novikov, The periodic problem for the Korteweg-de Vries equation, Funct. Anal. Appl. 8 (1974)",
+    "people": [
+     "S. P. Novikov"
+    ],
+    "description": "Treats the periodic Korteweg-de Vries problem, where finite-gap (finite-zone) solutions first appear as the periodic analogue of the soliton theory.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01075697",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Identity and year confirmed; that it is the first statement of finite-gap integration is the standard attribution, not checked in the text. Crossref gives only the surname; the initials are from the literature."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1975,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hill's operators with finitely many gaps",
+    "work": "Its, Matveev, Hill's operator with finitely many gaps, Funct. Anal. Appl. 9 (1975)",
+    "people": [
+     "Alexander Its",
+     "Vladimir Matveev"
+    ],
+    "description": "Uses theta-function formulas for Hill operators with finitely many gaps, the first explicit finite-gap integration.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf01078185",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Crossref confirms the record; the theta-function claim is from the literature and was not read."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1976,
+    "endYear": null,
+    "precision": "year",
+    "label": "KdV-type equations, finite-zone operators and abelian varieties",
+    "work": "Dubrovin, Matveev, Novikov, Non-linear equations of Korteweg-de Vries type, finite-zone linear operators, and Abelian varieties, Russian Math. Surveys 31 (1976)",
+    "people": [
+     "Boris Dubrovin",
+     "Vladimir Matveev",
+     "S. P. Novikov"
+    ],
+    "description": "Establishes the algebro-geometric (theta-function) solutions of KdV with finite-zone operators on Jacobians of curves.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1070/rm1976v031n01abeh001446",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1977,
+    "endYear": null,
+    "precision": "year",
+    "label": "Krichever survey: algebraic geometry methods",
+    "work": "Krichever, Methods of algebraic geometry in the theory of non-linear equations, Russian Math. Surveys 32 (1977)",
+    "people": [
+     "Igor Krichever"
+    ],
+    "description": "Survey that systematises the algebro-geometric method for nonlinear equations, the consolidated treatment.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1070/rm1977v032n06abeh003862",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Clifford Gardner",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Clifford_Gardner",
+    "works": [
+     {
+      "citation": "Gardner, Greene, Kruskal, Miura, Phys. Rev. Lett. (1967)",
+      "year": 1967,
+      "url": "https://doi.org/10.1103/physrevlett.19.1095",
+      "whyItMatters": "Inverse scattering"
+     }
+    ],
+    "roleNote": "inverse scattering for KdV"
+   },
+   {
+    "name": "S. P. Novikov",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Novikov/",
+    "works": [
+     {
+      "citation": "Novikov, The periodic problem for the KdV equation, Funct. Anal. Appl. (1974)",
+      "year": 1974,
+      "url": "https://doi.org/10.1007/bf01075697",
+      "whyItMatters": "Periodic problem"
+     },
+     {
+      "citation": "Dubrovin, Matveev, Novikov, Russian Math. Surveys (1976)",
+      "year": 1976,
+      "url": "https://doi.org/10.1070/rm1976v031n01abeh001446",
+      "whyItMatters": "Finite-zone theory"
+     }
+    ],
+    "roleNote": "periodic KdV problem"
+   },
+   {
+    "name": "Alexander Its",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Alexander_Its",
+    "works": [
+     {
+      "citation": "Its, Matveev, Funct. Anal. Appl. (1975)",
+      "year": 1975,
+      "url": "https://doi.org/10.1007/bf01078185",
+      "whyItMatters": "Hill operators"
+     }
+    ],
+    "roleNote": "finite-gap Hill operators"
+   },
+   {
+    "name": "Vladimir Matveev",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Vladimir_Matveev",
+    "works": [
+     {
+      "citation": "Its, Matveev, Funct. Anal. Appl. (1975)",
+      "year": 1975,
+      "url": "https://doi.org/10.1007/bf01078185",
+      "whyItMatters": "Hill operators"
+     },
+     {
+      "citation": "Dubrovin, Matveev, Novikov, Russian Math. Surveys (1976)",
+      "year": 1976,
+      "url": "https://doi.org/10.1070/rm1976v031n01abeh001446",
+      "whyItMatters": "Finite-zone theory"
+     }
+    ],
+    "roleNote": "finite-gap Hill operators and theta functions"
+   },
+   {
+    "name": "Boris Dubrovin",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Boris_Dubrovin",
+    "works": [
+     {
+      "citation": "Dubrovin, Matveev, Novikov, Russian Math. Surveys (1976)",
+      "year": 1976,
+      "url": "https://doi.org/10.1070/rm1976v031n01abeh001446",
+      "whyItMatters": "Finite-zone theory"
+     }
+    ],
+    "roleNote": "finite-zone theory"
+   },
+   {
+    "name": "Igor Krichever",
+    "role": "popularizer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Igor_Krichever",
+    "works": [
+     {
+      "citation": "Krichever, Methods of algebraic geometry in the theory of non-linear equations (1977)",
+      "year": 1977,
+      "url": "https://doi.org/10.1070/rm1977v032n06abeh003862",
+      "whyItMatters": "Survey"
+     }
+    ],
+    "roleNote": "algebro-geometric survey"
+   }
+  ],
+  "notes": "Novikov's first initial and the 1974 first_statement are from the literature (Crossref gives the surname only); the first-statement claim is medium. Wikipedia's KdV article was checked and does not discuss the periodic problem, so no Wikipedia support is cited. The Wikipedia lead file had no candidates. The MacTutor biography fetched for 'Novikov' is of Petr Novikov, a different mathematician, and was not used. Lifespans are null for all six. Crossref lists a 1981 reprint with a misspelled author; the 1976 record is used.",
+  "derivedDates": {
+   "conceptual": 1974,
+   "methodological": 1975,
+   "institutional": 1977
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P030",
+  "eventId": "E38",
+  "canonicalName": "Furstenberg: ergodic theory proves Szemeredi's theorem",
+  "aliases": [
+   "ergodic proof of Szemeredi's theorem",
+   "Furstenberg correspondence proof",
+   "Furstenberg-Katznelson ergodic Szemeredi theorem"
+  ],
+  "phases": [
+   "Szemeredi's theorem (1975)",
+   "Furstenberg's ergodic proof (1977)",
+   "Multidimensional extension (1978)",
+   "Monograph and survey (1981-82)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1975,
+    "endYear": null,
+    "precision": "year",
+    "label": "Szemeredi's combinatorial theorem",
+    "work": "Szemeredi, On sets of integers containing k elements in arithmetic progression, Acta Arith. 27 (1975)",
+    "people": [
+     "Endre Szemeredi"
+    ],
+    "description": "The theorem that the ergodic proof reproves: dense sets of integers contain arbitrarily long arithmetic progressions.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.4064/aa-27-1-199-245",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Szemeredi's theorem: general case settled in 1975",
+      "source": "Wikipedia: Szemeredi's theorem",
+      "url": "https://en.wikipedia.org/wiki/Szemer%C3%A9di%27s_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "A precursor of the statement, not of the ergodic method."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1977,
+    "endYear": null,
+    "precision": "year",
+    "label": "Ergodic proof of Szemeredi's theorem",
+    "work": "Furstenberg, Ergodic behavior of diagonal measures and a theorem of Szemeredi on arithmetic progressions, J. Analyse Math. 31 (1977)",
+    "people": [
+     "Hillel Furstenberg"
+    ],
+    "description": "Translates density statements into recurrence statements for measure-preserving systems, giving an ergodic proof of the theorem.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02813304",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Szemeredi's theorem: Furstenberg's 1977 ergodic proof",
+      "source": "Wikipedia: Szemeredi's theorem",
+      "url": "https://en.wikipedia.org/wiki/Szemer%C3%A9di%27s_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper as the first_application milestone below; both the first statement and the first application of the ergodic method."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1977,
+    "endYear": null,
+    "precision": "year",
+    "label": "Ergodic method proves the theorem",
+    "work": "Furstenberg, J. Analyse Math. 31 (1977)",
+    "people": [
+     "Hillel Furstenberg"
+    ],
+    "description": "The same paper applies ergodic recurrence to the density problem, which is what the methodological date uses.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02813304",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper as the first_statement milestone (rule 2 note)."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1978,
+    "endYear": null,
+    "precision": "year",
+    "label": "Multidimensional ergodic Szemeredi theorem",
+    "work": "Furstenberg, Katznelson, An ergodic Szemeredi theorem for commuting transformations, J. Analyse Math. 34 (1978)",
+    "people": [
+     "Hillel Furstenberg",
+     "Yitzhak Katznelson"
+    ],
+    "description": "Extends the ergodic proof to commuting transformations, the multidimensional version of the theorem.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/bf02790016",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia Szemeredi's theorem: multidimensional generalization by Furstenberg and Katznelson",
+      "source": "Wikipedia: Szemeredi's theorem",
+      "url": "https://en.wikipedia.org/wiki/Szemer%C3%A9di%27s_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1981,
+    "endYear": null,
+    "precision": "year",
+    "label": "Monograph: Recurrence in ergodic theory",
+    "work": "Furstenberg, Recurrence in Ergodic Theory and Combinatorial Number Theory, Princeton (1981)",
+    "people": [
+     "Hillel Furstenberg"
+    ],
+    "description": "Book-length treatment of recurrence and the ergodic approach to combinatorial number theory.",
+    "evidence": [
+     {
+      "claim": "Record title, year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1515/9781400855162",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor Furstenberg: the 1981 monograph and its treatment of the theorem",
+      "source": "MacTutor: Furstenberg",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Furstenberg/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1982,
+    "endYear": null,
+    "precision": "year",
+    "label": "Survey: the ergodic theoretical proof",
+    "work": "Furstenberg, Katznelson, Ornstein, The ergodic theoretical proof of Szemeredi's theorem, Bull. AMS (1982)",
+    "people": [
+     "Hillel Furstenberg",
+     "Yitzhak Katznelson",
+     "Donald Ornstein"
+    ],
+    "description": "Survey of the ergodic proof, consolidating the method for a wider audience.",
+    "evidence": [
+     {
+      "claim": "Record title, journal and year checked",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/s0273-0979-1982-15052-2",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Hillel Furstenberg",
+    "role": "systematiser",
+    "lifespan": "born 1935",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Furstenberg/",
+    "works": [
+     {
+      "citation": "Furstenberg, Ergodic behavior of diagonal measures ..., J. Analyse Math. (1977)",
+      "year": 1977,
+      "url": "https://doi.org/10.1007/bf02813304",
+      "whyItMatters": "Ergodic proof"
+     },
+     {
+      "citation": "Furstenberg, Recurrence in Ergodic Theory and Combinatorial Number Theory (1981)",
+      "year": 1981,
+      "url": "https://doi.org/10.1515/9781400855162",
+      "whyItMatters": "Monograph"
+     }
+    ],
+    "roleNote": "ergodic proof and monograph"
+   },
+   {
+    "name": "Yitzhak Katznelson",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Yitzhak_Katznelson",
+    "works": [
+     {
+      "citation": "Furstenberg, Katznelson, J. Analyse Math. (1978)",
+      "year": 1978,
+      "url": "https://doi.org/10.1007/bf02790016",
+      "whyItMatters": "Multidimensional extension"
+     },
+     {
+      "citation": "Furstenberg, Katznelson, Ornstein, Bull. AMS (1982)",
+      "year": 1982,
+      "url": "https://doi.org/10.1090/s0273-0979-1982-15052-2",
+      "whyItMatters": "Survey"
+     }
+    ],
+    "roleNote": "multidimensional ergodic theorem"
+   },
+   {
+    "name": "Endre Szemeredi",
+    "role": "developer",
+    "lifespan": "born 1940",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Szemeredi/",
+    "works": [
+     {
+      "citation": "Szemeredi, On sets of integers containing k elements in arithmetic progression, Acta Arith. (1975)",
+      "year": 1975,
+      "url": "https://doi.org/10.4064/aa-27-1-199-245",
+      "whyItMatters": "Theorem"
+     }
+    ],
+    "roleNote": "combinatorial theorem"
+   },
+   {
+    "name": "Donald Ornstein",
+    "role": "popularizer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Ornstein/",
+    "works": [
+     {
+      "citation": "Furstenberg, Katznelson, Ornstein, Bull. AMS (1982)",
+      "year": 1982,
+      "url": "https://doi.org/10.1090/s0273-0979-1982-15052-2",
+      "whyItMatters": "Survey"
+     }
+    ],
+    "roleNote": "co-author of the 1982 survey"
+   }
+  ],
+  "notes": "The Wikipedia lead file entry for this event pointed to an unrelated Furstenberg page (fashion designer), so it was not used; the Wikipedia Szemeredi article and MacTutor Furstenberg biography were used. Same paper serves as first statement and first application (rule 2). Derived institutional is 1981 (the monograph). MacTutor Furstenberg birth year 1935 is taken from the page.",
+  "derivedDates": {
+   "conceptual": 1977,
+   "methodological": 1977,
+   "institutional": 1981
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ }
+]

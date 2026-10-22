@@ -1,0 +1,144 @@
+[
+ {
+  "pid": "P343",
+  "eventId": "WC108",
+  "name": "Kashiwara crystal bases",
+  "type": "birth-by-abstraction",
+  "from": [
+   "quantum groups",
+   "statistical mechanics (solvable lattice models)",
+   "combinatorics"
+  ],
+  "to": [
+   "combinatorial representation theory"
+  ],
+  "summary": "Crystal bases give combinatorial skeleton of quantum group representations."
+ },
+ {
+  "pid": "P506",
+  "eventId": "P63",
+  "name": "PCP theorem: proofs, coding theory and hardness of approximation",
+  "type": "birth-by-fusion",
+  "from": [
+   "computational complexity",
+   "coding theory (low-degree testing)",
+   "interactive proofs"
+  ],
+  "to": [
+   "Computer science"
+  ],
+  "summary": "Low-degree polynomial codes let a verifier check proofs by reading a few bits, which implies that many optimisation problems cannot be approximated."
+ },
+ {
+  "pid": "P308",
+  "eventId": "WC63/QC13",
+  "name": "Sensitivity conjecture",
+  "type": "technique-transfer",
+  "from": [
+   "spectral linear algebra",
+   "graph theory (hypercube)"
+  ],
+  "to": [
+   "Boolean function complexity"
+  ],
+  "summary": "Huang's signed hypercube adjacency matrix and eigenvalue interlacing settled the sensitivity conjecture in a page."
+ },
+ {
+  "pid": "P074",
+  "eventId": "B08",
+  "name": "Ramsey-theoretic dichotomies in Banach space theory",
+  "type": "technique-transfer",
+  "from": [
+   "Combinatorics",
+   "Logic & foundations"
+  ],
+  "to": [
+   "Analysis"
+  ],
+  "summary": "Infinite Ramsey theory and descriptive set theory are used to prove dichotomies for Banach spaces and to construct spaces answering the unconditional basic sequence problem."
+ },
+ {
+  "pid": "P295",
+  "eventId": "E48/QC33/WC17",
+  "name": "Modularity and FLT",
+  "type": "technique-transfer",
+  "from": [
+   "Galois deformation theory (commutative algebra)",
+   "modular forms"
+  ],
+  "to": [
+   "number theory (Fermat, modularity)"
+  ],
+  "summary": "Wiles and Taylor-Wiles proved modularity of semistable elliptic curves via Hecke algebra patching, giving Fermat's Last Theorem."
+ },
+ {
+  "pid": "P324",
+  "eventId": "WC88",
+  "name": "Elliptic curve and pairing-based cryptography",
+  "type": "technique-transfer",
+  "from": [
+   "arithmetic geometry (Weil/Tate pairings)"
+  ],
+  "to": [
+   "cryptography"
+  ],
+  "summary": "Weil/Tate pairings on elliptic curves enabled new cryptographic protocols such as identity-based encryption."
+ },
+ {
+  "pid": "P334",
+  "eventId": "WC36",
+  "name": "Floer theory and Fukaya categories (Lagrangian Floer)",
+  "type": "birth-by-fusion",
+  "from": [
+   "symplectic geometry",
+   "Morse theory",
+   "homological algebra (A-infinity categories)"
+  ],
+  "to": [
+   "Fukaya categories"
+  ],
+  "summary": "Lagrangian intersection Floer theory was organised into an A-infinity category; Fukaya-Oh-Ohta-Ono gave a rigorous foundation."
+ },
+ {
+  "pid": "P472",
+  "eventId": "P21",
+  "name": "Fourier restriction method for nonlinear dispersive PDE (Bourgain)",
+  "type": "technique-transfer",
+  "from": [
+   "harmonic analysis (Fourier restriction)",
+   "analytic number theory (lattice-point counting)"
+  ],
+  "to": [
+   "nonlinear dispersive PDE"
+  ],
+  "summary": "Restriction estimates from harmonic analysis, with lattice-point counts, give well-posedness of nonlinear Schroedinger and KdV equations in rough spaces."
+ },
+ {
+  "pid": "P492",
+  "eventId": "P49",
+  "name": "K-stability and Kahler-Einstein metrics on Fano manifolds",
+  "type": "birth-by-fusion",
+  "from": [
+   "algebraic geometry (GIT/stability)",
+   "geometric PDE (complex Monge-Ampere)"
+  ],
+  "to": [
+   "Kahler geometry"
+  ],
+  "summary": "An algebraic-geometric stability condition is shown to be equivalent to existence of Kahler-Einstein metrics."
+ },
+ {
+  "pid": "P510",
+  "eventId": "P68",
+  "name": "Tracy-Widom distributions and universality in random matrices",
+  "type": "dictionary-analogy",
+  "from": [
+   "integrable systems (Painleve equations)",
+   "random matrix theory"
+  ],
+  "to": [
+   "probability and combinatorics (edge universality)"
+  ],
+  "summary": "The Airy kernel gives the edge fluctuation law of random matrices, later shown to be universal across ensembles."
+ }
+]

@@ -1,0 +1,553 @@
+[
+  {
+    "eventId": "W61",
+    "canonicalName": "Subjective probability and decision",
+    "aliases": [
+      "Subjective and Bayesian foundations"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1921,
+        "precision": "year",
+        "label": "Keynes's logical theory of probability",
+        "work": "J. M. Keynes, A Treatise on Probability, Macmillan, 1921",
+        "people": [
+          "John Maynard Keynes"
+        ],
+        "description": "Treats probability as a logical relation between evidence and hypothesis, the view Ramsey and de Finetti later replaced with degree of belief.",
+        "evidence": [
+          {
+            "claim": "Published 1921 by Macmillan; logical (not subjective) interpretation",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/A_Treatise_on_Probability",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Keynes is a logical-probability precursor, not a subjectivist statement."
+      }
+    ],
+    "people": [],
+    "notes": "Searched Wikipedia, Crossref. Ramsey 'Truth and Probability' (written 1926, posthumous 1931 publication), de Finetti 1930-31 and Savage 1954 not verified: Wikipedia page for Ramsey essay 404ed and Crossref returned no usable record. No first_statement asserted. Inherited 'de Finetti, Funzione caratteristica 1930' not checked.",
+    "pid": "P417",
+    "searchTerms": [
+      "probability",
+      "philosophy",
+      "economics (utility)",
+      "subjective probability and decision theory"
+    ]
+  },
+  {
+    "eventId": "H5",
+    "canonicalName": "Undecidability of the word problem: logic and computability enter group theory",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1911,
+        "precision": "year",
+        "label": "Dehn poses the word problem",
+        "work": "M. Dehn, 1911 (problem formulated)",
+        "people": [
+          "Max Dehn"
+        ],
+        "description": "Dehn proposes the word problem for finitely presented groups as an object of study.",
+        "evidence": [
+          {
+            "claim": "Dehn proposed the problem in 1911",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Word_problem_for_groups",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Dehn's original paper not opened."
+      },
+      {
+        "role": "key_development",
+        "year": 1947,
+        "precision": "year",
+        "label": "Post: unsolvability of Thue's problem (semigroups)",
+        "work": "E. L. Post, Recursive unsolvability of a problem of Thue, J. Symbolic Logic 12 (1947) 1-11",
+        "people": [
+          "Emil Post"
+        ],
+        "description": "Shows the word problem for semigroups is recursively unsolvable.",
+        "evidence": [
+          {
+            "claim": "Title/author/year 1947 J. Symbolic Logic",
+            "source": "Crossref",
+            "url": "https://doi.org/10.2307/2267170",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "key_development",
+        "year": 1955,
+        "precision": "year",
+        "label": "Novikov: group with undecidable word problem",
+        "work": "P. S. Novikov, On the algorithmic unsolvability of the word problem in group theory, Trudy Mat. Inst. Steklov 44, 1955",
+        "people": [
+          "Pyotr Novikov"
+        ],
+        "description": "First proof that some finitely presented group has undecidable word problem.",
+        "evidence": [
+          {
+            "claim": "Novikov 1955 showed undecidable finitely presented groups",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Word_problem_for_groups",
+            "kind": "history_page"
+          },
+          {
+            "claim": "Review record of the 1955 Steklov monograph (JSL 1958)",
+            "source": "Crossref",
+            "url": "https://doi.org/10.2307/2964487",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 1959,
+        "precision": "year",
+        "label": "Boone: The Word Problem",
+        "work": "W. W. Boone, The word problem, Annals of Mathematics 70 (1959)",
+        "people": [
+          "William Boone"
+        ],
+        "description": "Boone's independent proof of an unsolvable word problem for groups.",
+        "evidence": [
+          {
+            "claim": "Annals 1959",
+            "source": "Crossref",
+            "url": "https://doi.org/10.2307/1970103",
+            "kind": "bibliographic_record"
+          },
+          {
+            "claim": "Boone's proof dated 1958 on Wikipedia",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Word_problem_for_groups",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Earlier Boone announcements 1954-57 (Indag. Math. 'Certain simple unsolvable problems of group theory') exist; Annals 1959 is the full publication."
+      },
+      {
+        "role": "key_development",
+        "year": 1961,
+        "precision": "year",
+        "label": "Higman embedding theorem",
+        "work": "G. Higman, Subgroups of finitely presented groups, Proc. R. Soc. A 262 (1961)",
+        "people": [
+          "Graham Higman"
+        ],
+        "description": "Characterises subgroups of finitely presented groups as the recursively presented ones.",
+        "evidence": [
+          {
+            "claim": "Title/author/year 1961",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1098/rspa.1961.0132",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [],
+    "notes": "Searched Crossref, Wikipedia. Inherited 'Boone 1950s' resolved to 1959 Annals. Wikipedia does not mention Markov (1958); not verified. Church's route not searched.",
+    "pid": "P422",
+    "searchTerms": [
+      "mathematical logic / computability",
+      "group theory",
+      "combinatorial group theory"
+    ]
+  },
+  {
+    "eventId": "H8",
+    "canonicalName": "Golod-Shafarevich: nil algebras produce infinite periodic groups",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1964,
+        "precision": "year",
+        "label": "Golod-Shafarevich and Golod papers",
+        "work": "E. S. Golod, I. R. Shafarevich, On the class field tower, Izv. Akad. Nauk SSSR 28 (1964) 261-272; E. S. Golod, On nil-algebras and finitely approximable p-groups, ibid. 273-276",
+        "people": [
+          "Evgeny Golod",
+          "Igor Shafarevich"
+        ],
+        "description": "The two 1964 papers give the nil-algebra criterion and the infinite finitely generated p-group counterexample to the general Burnside problem.",
+        "evidence": [
+          {
+            "claim": "Reference list gives both 1964 Izv. papers with pages",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Golod%E2%80%93Shafarevich_theorem",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Wikipedia does not explicitly tie the group example to the Golod paper; titles suggest it."
+      }
+    ],
+    "people": [],
+    "notes": "Correction: inherited citation 'Golod and Shafarevich, On nil algebras and finitely residual groups' is wrong; verified titles are 'On the class field tower' (G-S) and 'On nil-algebras and finitely approximable p-groups' (Golod), both Izv. 28 (1964). Only Wikipedia consulted; no Crossref/MathNet record opened.",
+    "pid": "P424",
+    "searchTerms": [
+      "noncommutative ring theory (graded and nil algebras)",
+      "group theory (general Burnside problem)",
+      "algebraic number theory (class field towers)"
+    ]
+  },
+  {
+    "eventId": "H15",
+    "canonicalName": "Quaternions: non-commutative algebra from the geometry of 3-space",
+    "aliases": [
+      "Hamilton's quaternions"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1843,
+        "precision": "year",
+        "label": "Hamilton discovers quaternion multiplication",
+        "work": "W. R. Hamilton, discovery on 16 October 1843, Dublin",
+        "people": [
+          "William Rowan Hamilton"
+        ],
+        "description": "Hamilton finds the multiplication rules for quaternions on a walk by the Royal Canal.",
+        "evidence": [
+          {
+            "claim": "Rules found 16 October 1843, carved on Brougham Bridge",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Quaternion",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Private discovery; first public paper/announcement not verified."
+      }
+    ],
+    "people": [],
+    "notes": "Wikipedia fetch did not confirm 1853 Lectures or 1866 Elements years; MacTutor fetch timed out. 1833 couples paper not verified. No first_statement asserted.",
+    "pid": "P428",
+    "searchTerms": [
+      "geometry / complex numbers",
+      "applied mathematics",
+      "algebra"
+    ]
+  },
+  {
+    "eventId": "H17",
+    "canonicalName": "Spectral ideas from vibrating systems and quadratic forms",
+    "aliases": [],
+    "phases": [],
+    "milestones": [],
+    "people": [],
+    "notes": "Nothing verified: no source opened for d'Alembert, Sturm or Cauchy 1826. Crossref rate-limited. Left empty.",
+    "searchedSources": [
+      "Crossref API",
+      "Wikipedia (no relevant page opened)"
+    ],
+    "pid": "P430",
+    "searchTerms": [
+      "differential equations / mechanics (vibrating strings)",
+      "quadratic forms",
+      "linear algebra (eigenvalues)"
+    ]
+  },
+  {
+    "eventId": "H18",
+    "canonicalName": "Axioms for linear (vector) spaces: Moebius, Grassmann, Peano",
+    "aliases": [
+      "Grassmann",
+      "Peano's vector space axioms"
+    ],
+    "phases": [],
+    "milestones": [],
+    "people": [],
+    "notes": "Wikipedia Peano page does not cover the 1888 Calcolo geometrico or axioms; Crossref search for the title returned no result. Left empty.",
+    "searchedSources": [
+      "Crossref API",
+      "Wikipedia Giuseppe Peano"
+    ],
+    "pid": "P431",
+    "searchTerms": [
+      "geometry (barycentric calculus)",
+      "algebra",
+      "linear algebra"
+    ]
+  },
+  {
+    "eventId": "H23",
+    "canonicalName": "Cardinality meets dimension: R^n equinumerous with R",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1878,
+        "precision": "year",
+        "label": "Cantor: Ein Beitrag zur Mannigfaltigkeitslehre",
+        "work": "G. Cantor, Ein Beitrag zur Mannigfaltigkeitslehre, J. reine angew. Math. 84 (1878) 242-258",
+        "people": [
+          "Georg Cantor"
+        ],
+        "description": "Introduces equivalence by bijection and shows that continuous manifolds of different dimension are equinumerous.",
+        "evidence": [
+          {
+            "claim": "Title/author/year 1878 Crelle",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1515/crll.1878.84.242",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Content (R^n ~ R) from known history, not read from the paper."
+      }
+    ],
+    "people": [],
+    "notes": "Inherited 'follow-up paper in Crelle 1878' matches this Crelle paper. Dimension-invariance (Brouwer 1911) not searched.",
+    "pid": "P434",
+    "searchTerms": [
+      "set theory (cardinality)",
+      "topology",
+      "dimension theory"
+    ]
+  },
+  {
+    "eventId": "H32",
+    "canonicalName": "Transcendental numbers from continued fractions (Liouville)",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1844,
+        "precision": "year",
+        "label": "Liouville exhibits transcendental numbers",
+        "work": "J. Liouville, Comptes rendus 18 (1844) 883-885, 910-911",
+        "people": [
+          "Joseph Liouville"
+        ],
+        "description": "First proof of existence of transcendental numbers via approximation properties.",
+        "evidence": [
+          {
+            "claim": "1844 Comptes rendus notes establishing existence of transcendental numbers",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Liouville_number",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      }
+    ],
+    "people": [],
+    "notes": "The 1851 explicit-constant paper date not confirmed by Wikipedia. Continued-fraction role of the 1844 notes not verified.",
+    "pid": "P438",
+    "searchTerms": [
+      "Diophantine approximation / continued fractions",
+      "algebraic numbers",
+      "number theory (transcendence)"
+    ]
+  },
+  {
+    "eventId": "H33",
+    "canonicalName": "Transcendence of pi settles squaring the circle (Lindemann)",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "key_development",
+        "year": 1882,
+        "precision": "year",
+        "label": "Lindemann: Ueber die Zahl pi",
+        "work": "F. Lindemann, Ueber die Zahl pi, Math. Annalen 20 (1882)",
+        "people": [
+          "Ferdinand von Lindemann"
+        ],
+        "description": "Proves pi transcendental, hence the circle cannot be squared by ruler and compass.",
+        "evidence": [
+          {
+            "claim": "Title/author/year 1882 Math. Annalen",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1007/bf01446522",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [],
+    "notes": "Inherited '1880/1882': Crossref confirms 1882 publication; 1880 Berlin announcement not checked. Hermite 1873 not searched.",
+    "pid": "P439",
+    "searchTerms": [
+      "analysis (Hermite's transcendence method)",
+      "algebraic number theory / field theory",
+      "geometric construction problems"
+    ]
+  },
+  {
+    "eventId": "H35",
+    "canonicalName": "Hausdorff dimension: measure meets dimension theory",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1918,
+        "precision": "year",
+        "label": "Hausdorff: Dimension und aeusseres Mass",
+        "work": "F. Hausdorff, Dimension und aeusseres Mass, Math. Annalen 79 (1918)",
+        "people": [
+          "Felix Hausdorff"
+        ],
+        "description": "Defines non-integer dimension via outer measure.",
+        "evidence": [
+          {
+            "claim": "Title/author/year 1918",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1007/bf01457179",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      }
+    ],
+    "people": [],
+    "notes": "Besicovitch papers and Mandelbrot definition not verified here.",
+    "pid": "P440",
+    "searchTerms": [
+      "topology (dimension)",
+      "measure theory",
+      "geometric measure theory (fractional dimension)"
+    ]
+  },
+  {
+    "eventId": "H36",
+    "canonicalName": "Complex dynamics: iteration of rational functions (Julia and Fatou)",
+    "aliases": [],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "first_statement",
+        "year": 1917,
+        "precision": "year",
+        "label": "Fatou's notes on rational substitutions",
+        "work": "P. Fatou, Sur les substitutions rationnelles, C. R. Acad. Sci. Paris 164 (1917) 806-808; 165 (1917) 992-995",
+        "people": [
+          "Pierre Fatou"
+        ],
+        "description": "Announces results on iteration of rational maps.",
+        "evidence": [
+          {
+            "claim": "Two 1917 Comptes Rendus notes cited",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Julia_set",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium"
+      },
+      {
+        "role": "key_development",
+        "year": 1918,
+        "precision": "year",
+        "label": "Julia's memoir on iteration",
+        "work": "G. Julia, Memoire sur l'iteration des fonctions rationnelles, J. Math. Pures Appl. 8 (1918) 47-245",
+        "people": [
+          "Gaston Julia"
+        ],
+        "description": "Extended memoir developing the theory of iterated rational functions.",
+        "evidence": [
+          {
+            "claim": "Memoir cited with volume and pages",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Julia_set",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Crossref search found no record."
+      }
+    ],
+    "people": [],
+    "notes": "Fatou's 1919-20 works not verified (not on Wikipedia page); inherited 'announcement in Comptes Rendus' resolved to 1917 notes.",
+    "pid": "P441",
+    "searchTerms": [
+      "complex analysis (Montel normal families)",
+      "iteration theory of functional equations (Schroeder, Koenigs)",
+      "complex dynamics"
+    ]
+  },
+  {
+    "eventId": "H37",
+    "canonicalName": "Fractal geometry: self-similarity, dimension and computer experiment (Mandelbrot)",
+    "aliases": [
+      "Fractal geometry"
+    ],
+    "phases": [],
+    "milestones": [
+      {
+        "role": "precursor",
+        "year": 1967,
+        "precision": "year",
+        "label": "How long is the coast of Britain?",
+        "work": "B. Mandelbrot, Science 156 (1967)",
+        "people": [
+          "Benoit Mandelbrot"
+        ],
+        "description": "Uses statistical self-similarity and fractional dimension for coastlines.",
+        "evidence": [
+          {
+            "claim": "Title/author/year 1967 Science",
+            "source": "Crossref",
+            "url": "https://doi.org/10.1126/science.156.3775.636",
+            "kind": "bibliographic_record"
+          }
+        ],
+        "confidence": "high"
+      },
+      {
+        "role": "naming",
+        "year": 1975,
+        "precision": "year",
+        "label": "Term fractal coined",
+        "work": "B. Mandelbrot, 1975",
+        "people": [
+          "Benoit Mandelbrot"
+        ],
+        "description": "Mandelbrot coins the word fractal.",
+        "evidence": [
+          {
+            "claim": "Coined in 1975 from Latin fractus",
+            "source": "Wikipedia",
+            "url": "https://en.wikipedia.org/wiki/Fractal",
+            "kind": "history_page"
+          }
+        ],
+        "confidence": "medium",
+        "note": "Wikipedia does not name the work; Les objets fractals 1975 is not confirmed here."
+      }
+    ],
+    "people": [],
+    "notes": "Fractal Geometry of Nature 1982 not verified. Crossref did not return Les objets fractals.",
+    "pid": "P442",
+    "searchTerms": [
+      "Hausdorff dimension",
+      "complex dynamics",
+      "computer graphics",
+      "physical/geographic modelling",
+      "geometry of natural forms"
+    ]
+  }
+]

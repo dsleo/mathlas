@@ -1,0 +1,1339 @@
+[
+ {
+  "pid": "E33",
+  "eventId": "E33",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1965,
+    "endYear": null,
+    "precision": "year",
+    "label": "Palais seminar volume on the index theorem",
+    "work": "Palais (ed.), Seminar on the Atiyah-Singer Index Theorem, Annals of Mathematics Studies 57, 1965",
+    "people": [
+     "Richard S. Palais",
+     "Michael Atiyah",
+     "Isadore Singer"
+    ],
+    "description": "A collected seminar volume that gives the first systematic exposition of the Atiyah-Singer theorem, with contributions by Atiyah, Borel, Floyd, Seeley and others.",
+    "evidence": [
+     {
+      "claim": "zbMATH record for the 1965 seminar volume, with Palais as editor and Atiyah among contributors",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3ASeminar%20on%20Atiyah-Singer%20index%20theorem&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Crossref also lists the same volume (AM-57) dated 1965 under DOI 10.1515/9781400882045-021."
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for naming, textbook and seminar volumes on the Atiyah-Singer index theorem; found the 1965 Palais seminar volume.",
+   "Checked Crossref for the Atiyah-Singer index theorem; 1965 Annals Studies entry found, no naming milestone found.",
+   "No naming or institution milestone (journal, chair, classification code) identified for the index theorem as such; left absent."
+  ]
+ },
+ {
+  "pid": "P038",
+  "eventId": "E46",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2012,
+    "endYear": null,
+    "precision": "year",
+    "label": "Stable group theory and approximate subgroups",
+    "work": "Hrushovski, Stable group theory and approximate subgroups, J. Amer. Math. Soc. 25 (2012)",
+    "people": [
+     "Ehud Hrushovski"
+    ],
+    "description": "Hrushovski applies stability-theoretic methods from model theory to prove a structural result for approximate groups, extending the diophantine program to additive combinatorics.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2012 JAMS paper by Hrushovski on stable group theory and approximate subgroups",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3AStable%20group%20theory&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2002,
+    "endYear": null,
+    "precision": "year",
+    "label": "Pseudo-finite fields and related structures",
+    "work": "Hrushovski, Pseudo-finite fields and related structures (lecture notes)",
+    "people": [
+     "Ehud Hrushovski"
+    ],
+    "description": "Lecture notes that set out the pseudo-finite field and difference-field methods used in the Manin-Mumford and related diophantine results.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2002 Hrushovski monograph on pseudo-finite fields and related structures",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=au%3AHrushovski%20py%3A2001-2030&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Judgement call: lecture notes covering the method rather than the stability-of-diophantine-geometry program itself; included as low confidence."
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for Hrushovski works 2001-2030 and for stable group theory; no naming, textbook or institution milestone found specifically for stability in diophantine geometry."
+  ]
+ },
+ {
+  "pid": "E52",
+  "eventId": "E52",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2015,
+    "endYear": null,
+    "precision": "year",
+    "label": "Tao's book on expansion in finite simple groups",
+    "work": "Tao, Expansion in Finite Simple Groups of Lie Type, AMS Graduate Studies in Mathematics 164 (2015)",
+    "people": [
+     "Terence Tao"
+    ],
+    "description": "A book-length treatment of expansion in finite simple groups of Lie type, which collects the sum-product and growth methods used for the Bourgain-Gamburd expansion theorem.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2015 book by Tao on expansion in finite simple groups of Lie type",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3AExpansion%20in%20finite%20simple%20groups%20of%20Lie%20type&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The book covers expansion more broadly than the Bourgain-Gamburd theorem; included as a consolidation of the idea."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2011,
+    "endYear": null,
+    "precision": "year",
+    "label": "Approximate subgroups of linear groups",
+    "work": "Breuillard, Green, Tao, Approximate subgroups of linear groups, GAFA 21 (2011)",
+    "people": [
+     "Emmanuel Breuillard",
+     "Ben Green",
+     "Terence Tao"
+    ],
+    "description": "Classifies approximate subgroups of linear groups, giving the growth-to-structure step that underlies later expansion results in groups.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2011 GAFA paper on approximate subgroups of linear groups",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3AApproximate%20subgroups%20of%20linear%20groups&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for Bourgain-Gamburd and expansion books; found Tao 2015 book.",
+   "Searched zbMATH for approximate subgroups; found the 2011 Breuillard-Green-Tao paper.",
+   "No journal, chair or classification-code milestone found specifically for expansion in groups."
+  ]
+ },
+ {
+  "pid": "P049",
+  "eventId": "E57",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2015,
+    "endYear": null,
+    "precision": "year",
+    "label": "Introduction to regularity structures",
+    "work": "Hairer, Introduction to regularity structures, Brazilian Journal of Probability and Statistics (2015)",
+    "people": [
+     "Martin Hairer"
+    ],
+    "description": "A survey of the regularity structures framework, giving a systematic introduction to the theory after its first statement.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2015 survey by Hairer, Introduction to regularity structures",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3AIntroduction%20to%20regularity%20structures&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2018,
+    "endYear": null,
+    "precision": "year",
+    "label": "Discretisations of rough stochastic PDEs",
+    "work": "Hairer, Matetski, Discretisations of rough stochastic PDEs, Ann. Probab. (2018)",
+    "people": [
+     "Martin Hairer",
+     "Kevin Matetski"
+    ],
+    "description": "Extends the regularity-structures solution theory to convergent numerical discretisations of singular stochastic PDEs.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2018 Annals of Probability paper by Hairer and Matetski",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3ADiscretisations%20of%20rough%20stochastic%20PDEs&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for regularity structures surveys and later applications; found the 2015 survey and the 2018 discretisation paper.",
+   "No separate naming milestone; the term was introduced with the first statement."
+  ]
+ },
+ {
+  "pid": "P075",
+  "eventId": "B09",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1999,
+    "endYear": null,
+    "precision": "year",
+    "label": "Operads and motives in deformation quantization",
+    "work": "Kontsevich, Operads and motives in deformation quantization, Lett. Math. Phys. (1999)",
+    "people": [
+     "Maxim Kontsevich"
+    ],
+    "description": "Explains the operadic and motivic structure behind the deformation quantization formulas, extending the 1997 construction.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 1999 Letters in Math. Phys. paper by Kontsevich on operads and motives",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=au%3AKontsevich%20ti%3ADeformation%20quantization&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2001,
+    "endYear": null,
+    "precision": "year",
+    "label": "Deformation quantization of algebraic varieties",
+    "work": "Kontsevich, Deformation quantization of algebraic varieties, Lett. Math. Phys. (2001)",
+    "people": [
+     "Maxim Kontsevich"
+    ],
+    "description": "Extends the deformation quantization construction from Poisson manifolds to algebraic varieties.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2001 Letters in Math. Phys. paper by Kontsevich on deformation quantization of algebraic varieties",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=au%3AKontsevich%20ti%3ADeformation%20quantization&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for Kontsevich deformation quantization papers and for surveys (Weinstein 1995 and Sternheimer 2005 are not Kontsevich-specific or are earlier).",
+   "No naming, textbook or institution milestone specific to Kontsevich's formality theorem was found in zbMATH; left absent."
+  ]
+ },
+ {
+  "pid": "P081",
+  "eventId": "B15",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2006,
+    "endYear": null,
+    "precision": "year",
+    "label": "Higher composition laws and applications (ICM survey)",
+    "work": "Bhargava, Higher composition laws and applications, Proceedings ICM 2006",
+    "people": [
+     "Manjul Bhargava"
+    ],
+    "description": "An ICM 2006 survey that gathers the higher composition law programme into one exposition.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2006 ICM-proceedings survey on higher composition laws and applications",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=au%3ABhargava%20ti%3Acomposition&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2008,
+    "endYear": null,
+    "precision": "year",
+    "label": "Higher composition laws IV: quintic rings",
+    "work": "Bhargava, Higher composition laws IV: the parametrization of quintic rings, Ann. of Math. (2008)",
+    "people": [
+     "Manjul Bhargava"
+    ],
+    "description": "Extends the parametrization of rings by composition laws to quintic rings, a main later result of the programme.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2008 Annals paper, Higher composition laws IV, quintic rings",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=au%3ABhargava%20ti%3Acomposition&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for Bhargava higher composition laws; found ICM 2006 survey and quintic-rings paper (2008).",
+   "No naming milestone found beyond the 2004 papers; left absent."
+  ]
+ },
+ {
+  "pid": "P238",
+  "eventId": "MB109/WB92",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1999,
+    "endYear": null,
+    "precision": "year",
+    "label": "Lectures on Floer homology",
+    "work": "Salamon, Lectures on Floer homology, in Symplectic Geometry and Topology (1999)",
+    "people": [
+     "Dietmar Salamon"
+    ],
+    "description": "Lecture notes giving a systematic introduction to Floer homology soon after its first construction.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 1999 lecture notes by Salamon, Lectures on Floer homology",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3ALectures%20on%20Floer%20homology&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2014,
+    "endYear": null,
+    "precision": "year",
+    "label": "Morse theory and Floer homology (English edition)",
+    "work": "Audin, Damian, Morse Theory and Floer Homology (English translation), Springer (2014)",
+    "people": [
+     "Michèle Audin",
+     "Mihai Damian"
+    ],
+    "description": "A textbook introduction to Morse theory and Floer homology, first published in French in 2010 and translated in 2014.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: Audin-Damian textbook on Morse theory and Floer homology, 2010 original and 2014 English edition",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3AMorse%20theory%20and%20Floer%20homology&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "French original 2010; the 2014 English translation is the year used here."
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for Floer homology lecture notes and textbooks; found Salamon 1999 and Audin-Damian.",
+   "Naming not found as separate milestone."
+  ]
+ },
+ {
+  "pid": "P296",
+  "eventId": "WC66/QC23",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2016,
+    "endYear": null,
+    "precision": "year",
+    "label": "Polynomial methods in combinatorics",
+    "work": "Guth, Polynomial Methods in Combinatorics, AMS University Lecture Series 64 (2016)",
+    "people": [
+     "Larry Guth"
+    ],
+    "description": "A monograph on the polynomial method, including polynomial partitioning used in the distinct distances argument.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2016 AMS University Lecture Series monograph by Guth",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3APolynomial%20methods%20in%20combinatorics&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The book covers the method more broadly than distinct distances; included as consolidation of the technique."
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for Guth's monograph and book reviews; found the 2016 book.",
+   "No naming or institution milestone for distinct distances identified."
+  ]
+ },
+ {
+  "pid": "P303",
+  "eventId": "WC28/QC70",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2022,
+    "endYear": null,
+    "precision": "year",
+    "label": "Prisms and prismatic cohomology (Annals publication)",
+    "work": "Bhatt, Scholze, Prisms and prismatic cohomology, Ann. of Math. (2022)",
+    "people": [
+     "Bhargav Bhatt",
+     "Peter Scholze"
+    ],
+    "description": "The main published account of prisms and prismatic cohomology, giving comparison results for the theory.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2022 Annals paper by Bhatt and Scholze on prisms and prismatic cohomology",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3APrisms%20and%20prismatic%20cohomology&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "This is the journal publication of the 2019 preprint, so it is a later dated record of the same work; kept low confidence for that reason."
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for prismatic cohomology surveys and follow-up work; found the 2022 Annals publication.",
+   "No separate consolidation or naming milestone found in zbMATH for prismatic cohomology."
+  ]
+ },
+ {
+  "pid": "P308",
+  "eventId": "WC63/QC13",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2020,
+    "endYear": null,
+    "precision": "year",
+    "label": "On the resolution of the sensitivity conjecture",
+    "work": "Karthikeyan, Sinha, Patil, On the resolution of the sensitivity conjecture, Bull. AMS (2020)",
+    "people": [
+     "Rohan Karthikeyan",
+     "Siddharth Sinha",
+     "Vallabh Patil"
+    ],
+    "description": "An expository article that explains Huang's proof of the sensitivity conjecture in a self-contained way.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2020 Bull. AMS expository article on the resolution of the sensitivity conjecture",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3Asensitivity%20conjecture%20py%3A2019-2026&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2022,
+    "endYear": null,
+    "precision": "year",
+    "label": "Sensitivity conjecture via Clifford algebras",
+    "work": "Mathews, The sensitivity conjecture, induced subgraphs of cubes, and Clifford algebras, JEMS (2022)",
+    "people": [
+     "Daniel V. Mathews"
+    ],
+    "description": "A later proof route to the sensitivity bound using Clifford algebras, extending the results of the 2019 proof.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2022 JEMS paper by Mathews on the sensitivity conjecture and Clifford algebras",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3Asensitivity%20conjecture%20py%3A2019-2026&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Follow-up approach rather than a new consequence; included as the main later development found."
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for sensitivity conjecture papers dated 2019-2026; found the 2020 expository article and the 2022 Clifford-algebra paper.",
+   "No naming or classification milestone found."
+  ]
+ },
+ {
+  "pid": "P313",
+  "eventId": "WC82/QC17",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2004,
+    "endYear": null,
+    "precision": "year",
+    "label": "Optimal inapproximability results for MAX-CUT",
+    "work": "Khot, Kindler, Mossel, Optimal inapproximability results for MAX-CUT and other 2-variable CSPs (FOCS 2004; SIAM J. Comput. 2007)",
+    "people": [
+     "Subhash Khot",
+     "Guy Kindler",
+     "Elchanan Mossel"
+    ],
+    "description": "Uses the unique games conjecture to prove tight inapproximability for MAX-CUT and other two-variable constraint problems.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2004 conference version and 2007 SIAM J. Comput. publication of the Khot-Kindler-Mossel MAX-CUT paper",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3AOptimal%20inapproximability%20results%20for%20MAX-CUT&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Year 2004 is the conference version; the SIAM publication is 2007."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2008,
+    "endYear": null,
+    "precision": "year",
+    "label": "Optimal algorithms and inapproximability for every CSP",
+    "work": "Raghavendra, Optimal algorithms and inapproximability results for every CSP?, STOC 2008",
+    "people": [
+     "Prasad Raghavendra"
+    ],
+    "description": "Shows that under the unique games conjecture a single semidefinite-programming threshold is tight for every constraint satisfaction problem.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2008 STOC paper by Raghavendra on optimal algorithms and inapproximability for every CSP",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3AOptimal%20algorithms%20and%20inapproximability%20results%20for%20every%20CSP&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for unique games conjecture surveys (Khot's 2010 survey was not found in zbMATH); no consolidation milestone recorded.",
+   "Found two key results using the conjecture (2004/2007 MAX-CUT and 2008 CSP)."
+  ]
+ },
+ {
+  "pid": "P319",
+  "eventId": "WC80",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2004,
+    "endYear": null,
+    "precision": "year",
+    "label": "Primality testing in polynomial time (monograph)",
+    "work": "Dietzfelbinger, Primality Testing in Polynomial Time, LNCS 3000 (2004)",
+    "people": [
+     "Martin Dietzfelbinger"
+    ],
+    "description": "A monograph that presents the AKS algorithm and its background, from randomized primality tests to PRIMES is in P.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2004 LNCS monograph by Dietzfelbinger on primality testing in polynomial time",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3APrimality%20testing%20in%20polynomial%20time&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for AKS expositions and monographs; found Dietzfelbinger 2004 and a 2005 Arkhimedes article on the same title (not used).",
+   "No classification or institution milestone identified."
+  ]
+ },
+ {
+  "pid": "P324",
+  "eventId": "WC88",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2005,
+    "endYear": null,
+    "precision": "year",
+    "label": "Advances in Elliptic Curve Cryptography",
+    "work": "Blake, Seroussi, Smart (eds.), Advances in Elliptic Curve Cryptography, Cambridge University Press (2005)",
+    "people": [
+     "Ian Blake",
+     "Gadiel Seroussi",
+     "Nigel Smart"
+    ],
+    "description": "An edited volume that surveys elliptic-curve cryptography including pairing-based constructions.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2005 Cambridge volume edited by Blake, Seroussi and Smart",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3AAdvances%20in%20elliptic%20curve%20cryptography&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Chapter-level content on pairings was not individually checked; the volume is used as a consolidation of the field."
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for elliptic curves in cryptography monographs and identity-based cryptography; found the 2005 volume and the 1999 book (1999 is before the 2000 first application, so not used).",
+   "No naming milestone for pairing-based cryptography found."
+  ]
+ },
+ {
+  "pid": "P328",
+  "eventId": "QC60",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2018,
+    "endYear": null,
+    "precision": "year",
+    "label": "SLE as a mating of trees in Euclidean geometry",
+    "work": "Holden, Sun, SLE as a mating of trees in Euclidean geometry, Comm. Math. Phys. (2018)",
+    "people": [
+     "Nina Holden",
+     "Xin Sun"
+    ],
+    "description": "Uses the mating-of-trees bijection to describe SLE in Euclidean geometry, a main later application of the construction.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2018 CMP paper by Holden and Sun on SLE as a mating of trees",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3Amating%20of%20trees&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2023,
+    "endYear": null,
+    "precision": "year",
+    "label": "Mating of trees for random planar maps and LQG: a survey",
+    "work": "Gwynne, Holden, Sun, Mating of trees for random planar maps and Liouville quantum gravity: a survey (2023)",
+    "people": [
+     "Ewain Gwynne",
+     "Nina Holden",
+     "Xin Sun"
+    ],
+    "description": "A survey that presents the mating-of-trees theory for random planar maps and Liouville quantum gravity.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2023 survey by Gwynne, Holden and Sun on mating of trees for planar maps and LQG",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3Amating%20of%20trees&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for mating-of-trees and LQG papers; found 2018 Holden-Sun and 2023 survey.",
+   "Duplantier-Miller-Sheffield 2021 Asterisque publication of the 2014 preprint was not added (same work as the first statement)."
+  ]
+ },
+ {
+  "pid": "P336",
+  "eventId": "WC54",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2015,
+    "endYear": null,
+    "precision": "year",
+    "label": "Paracontrolled distributions and singular PDEs",
+    "work": "Gubinelli, Imkeller, Perkowski, Paracontrolled distributions and singular PDEs, Forum Math. Pi (2015)",
+    "people": [
+     "Massimiliano Gubinelli",
+     "Peter Imkeller",
+     "Nicolas Perkowski"
+    ],
+    "description": "Develops the paracontrolled calculus into a full solution method for singular PDEs, a main later development.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2015 Forum Math. Pi paper on paracontrolled distributions and singular PDEs",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3AParacontrolled%20distributions%20and%20singular%20PDEs&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "This is the journal version of the paracontrolled theory; the 2012 first statement is the earlier posting."
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for paracontrolled distributions; found the 2015 Forum Math. Pi paper as the main later development."
+  ]
+ },
+ {
+  "pid": "P341",
+  "eventId": "QC37",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1996,
+    "endYear": null,
+    "precision": "year",
+    "label": "The Seiberg-Witten equations and applications to the topology of smooth four-manifolds",
+    "work": "Morgan, The Seiberg-Witten Equations and Applications to the Topology of Smooth Four-Manifolds, Princeton (1996)",
+    "people": [
+     "John W. Morgan"
+    ],
+    "description": "The first book-length treatment of the Seiberg-Witten equations and their application to four-manifold topology.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 1996 book by Morgan on the Seiberg-Witten equations and four-manifolds",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3ASeiberg-Witten%20equations%20and%20applications%20to%20the%20topology&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1996,
+    "endYear": null,
+    "precision": "year",
+    "label": "Seiberg-Witten implies Gromov (SW => Gr)",
+    "work": "Taubes, SW => Gr: From the Seiberg-Witten equations to pseudo-holomorphic curves, JAMS (1996)",
+    "people": [
+     "Clifford Taubes"
+    ],
+    "description": "Proves that Seiberg-Witten invariants equal Gromov invariants, linking the new invariants to pseudo-holomorphic curves.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 1996 JAMS paper by Taubes, SW => Gr",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3ASW%3DGr&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2007,
+    "endYear": null,
+    "precision": "year",
+    "label": "Monopoles and three-manifolds",
+    "work": "Kronheimer, Mrowka, Monopoles and Three-Manifolds, Cambridge University Press (2007)",
+    "people": [
+     "Peter Kronheimer",
+     "Tomasz Mrowka"
+    ],
+    "description": "A monograph applying monopole (Seiberg-Witten) Floer theory to three-manifold topology.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2007 Cambridge monograph by Kronheimer and Mrowka on monopoles and three-manifolds",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3AMonopoles%20and%20three-manifolds&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for Seiberg-Witten textbooks and SW=Gr papers; found Morgan 1996, Taubes 1996, Kronheimer-Mrowka 2007.",
+   "No naming or classification milestone found."
+  ]
+ },
+ {
+  "pid": "P345",
+  "eventId": "QC43",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2014,
+    "endYear": null,
+    "precision": "year",
+    "label": "Derived algebraic geometry (EMS survey)",
+    "work": "Toen, Derived algebraic geometry, EMS Surveys in Mathematical Sciences (2014)",
+    "people": [
+     "Bertrand Toën"
+    ],
+    "description": "A survey that presents derived algebraic geometry and its main structures after the 2002 statement.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2014 EMS Surveys article by Toen on derived algebraic geometry",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3ADerived%20algebraic%20geometry&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2005,
+    "endYear": null,
+    "precision": "year",
+    "label": "Homotopical algebraic geometry I: topos theory",
+    "work": "Toen, Vezzosi, Homotopical algebraic geometry I: topos theory, Adv. Math. (2005)",
+    "people": [
+     "Bertrand Toën",
+     "Gabriele Vezzosi"
+    ],
+    "description": "Builds the topos-theoretic foundations of homotopical algebraic geometry, the framework that underlies derived algebraic geometry.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2005 Advances in Mathematics paper, HAG I, by Toen and Vezzosi",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3AHomotopical%20algebraic%20geometry&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for derived and homotopical algebraic geometry; found Toen 2014 survey and HAG I (2005). HAG II is the existing 2004 'geometric stacks' item, so not repeated.",
+   "No naming milestone found."
+  ]
+ },
+ {
+  "pid": "P351",
+  "eventId": "QC31",
+  "milestones": [
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2010,
+    "endYear": null,
+    "precision": "year",
+    "label": "Geometric Langlands from six dimensions (Witten)",
+    "work": "Witten, Geometric Langlands from six dimensions (2010)",
+    "people": [
+     "Edward Witten"
+    ],
+    "description": "An expository account of the geometric Langlands correspondence as S-duality in six dimensions, following the 2007 paper.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2010 expository article by Witten on geometric Langlands from six dimensions",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3AGeometric%20Langlands%20from%20six%20dimensions&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Expository overview by an author of the event; used as the nearest consolidation found, low confidence."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2015,
+    "endYear": null,
+    "precision": "year",
+    "label": "Outline of the proof of the geometric Langlands conjecture for GL(2)",
+    "work": "Gaitsgory, Outline of the proof of the geometric Langlands conjecture for GL(2), Asterisque (2015)",
+    "people": [
+     "Dennis Gaitsgory"
+    ],
+    "description": "Outlines the proof of the geometric Langlands conjecture for GL(2), a major later result about the same correspondence, though not via S-duality.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2015 Asterisque outline by Gaitsgory on the GL(2) geometric Langlands conjecture",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3AOutline%20of%20the%20proof%20of%20geometric%20Langlands&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Proves the GL(2) case by other methods; included as the main later development found."
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for expositions of the Kapustin-Witten programme; found Witten 2010 (expository) and Gaitsgory 2015 outline.",
+   "The 2007 Kapustin-Witten paper is existing and not repeated."
+  ]
+ },
+ {
+  "pid": "P476",
+  "eventId": "P27",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2010,
+    "endYear": null,
+    "precision": "year",
+    "label": "Affine linear sieve, expanders, and sum-product",
+    "work": "Bourgain, Gamburd, Sarnak, Affine linear sieve, expanders, and sum-product, Invent. Math. (2010)",
+    "people": [
+     "Jean Bourgain",
+     "Alex Gamburd",
+     "Peter Sarnak"
+    ],
+    "description": "Proves the affine linear sieve for thin orbits using expansion and sum-product, a main development of the 2009 statement.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2010 Inventiones paper by Bourgain, Gamburd and Sarnak",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3AAffine%20linear%20sieve%2C%20expanders%2C%20and%20sum-product&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2014,
+    "endYear": null,
+    "precision": "year",
+    "label": "Thin groups and superstrong approximation (MSRI volume)",
+    "work": "Breuillard, Oh (eds.), Thin Groups and Superstrong Approximation, MSRI Publications 61 (2014)",
+    "people": [
+     "Emmanuel Breuillard",
+     "Hee Oh"
+    ],
+    "description": "A volume of papers on thin groups and superstrong approximation, collecting the field after the 2009 programme.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2014 MSRI volume edited by Breuillard and Oh on thin groups",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3AThin%20groups%20and%20superstrong%20approximation&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for affine sieve and thin-group papers; found the 2010 Inventiones paper and the 2014 MSRI volume."
+  ]
+ },
+ {
+  "pid": "P490",
+  "eventId": "P46",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2004,
+    "endYear": null,
+    "precision": "year",
+    "label": "Holomorphic disks and three-manifold invariants: properties and applications",
+    "work": "Ozsvath, Szabo, Holomorphic disks and three-manifold invariants: properties and applications, Ann. of Math. (2004)",
+    "people": [
+     "Peter Ozsváth",
+     "Zoltán Szabó"
+    ],
+    "description": "Establishes the basic properties of Heegaard Floer invariants and computes them for key classes of three-manifolds.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2004 Annals paper by Ozsvath and Szabo on holomorphic disks and three-manifold invariants",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3AHolomorphic%20disks%20and%20three-manifold%20invariants&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2006,
+    "endYear": null,
+    "precision": "year",
+    "label": "Lectures on Heegaard Floer homology",
+    "work": "Ozsvath, Szabo, Lectures on Heegaard Floer Homology, Clay Math. Proc. (2006)",
+    "people": [
+     "Peter Ozsváth",
+     "Zoltán Szabó"
+    ],
+    "description": "A lecture-notes monograph that presents Heegaard Floer homology as a self-contained theory.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2006 lecture notes by Ozsvath and Szabo on Heegaard Floer homology",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3ALectures%20on%20Floer%20homology&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for Heegaard Floer lecture notes and key Ozsvath-Szabo papers; found 2004 and 2006 items."
+  ]
+ },
+ {
+  "pid": "P494",
+  "eventId": "P51",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1992,
+    "endYear": null,
+    "precision": "year",
+    "label": "Higgs bundles and local systems",
+    "work": "Simpson, Higgs bundles and local systems, Publ. Math. IHES 75 (1992)",
+    "people": [
+     "Carlos Simpson"
+    ],
+    "description": "Relates Higgs bundles to local systems via non-abelian Hodge theory, a main development of the Hitchin system.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 1992 Publications Mathematiques IHES paper by Simpson on Higgs bundles and local systems",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3AHiggs%20bundles%20and%20local%20systems&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2016,
+    "endYear": null,
+    "precision": "year",
+    "label": "Higgs bundles and local systems on Riemann surfaces",
+    "work": "Wentworth, Higgs bundles and local systems on Riemann surfaces (2016)",
+    "people": [
+     "Richard Wentworth"
+    ],
+    "description": "A lecture-notes text on Higgs bundles and local systems on Riemann surfaces, consolidating the theory.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2016 book by Wentworth on Higgs bundles and local systems on Riemann surfaces",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3AHiggs%20bundles%20and%20local%20systems&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for Higgs bundle and local system papers and texts; found Simpson 1992 and Wentworth 2016."
+  ]
+ },
+ {
+  "pid": "P510",
+  "eventId": "P68",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1996,
+    "endYear": null,
+    "precision": "year",
+    "label": "On orthogonal and symplectic matrix ensembles",
+    "work": "Tracy, Widom, On orthogonal and symplectic matrix ensembles, Comm. Math. Phys. (1996)",
+    "people": [
+     "Craig Tracy",
+     "Harold Widom"
+    ],
+    "description": "Extends the Airy-kernel and level-spacing analysis to the orthogonal and symplectic ensembles, a main development of the 1992 statement.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 1996 CMP paper by Tracy and Widom on orthogonal and symplectic matrix ensembles",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3AOn%20orthogonal%20and%20symplectic%20matrix%20ensembles&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2010,
+    "endYear": null,
+    "precision": "year",
+    "label": "Log-gases and random matrices",
+    "work": "Forrester, Log-Gases and Random Matrices, Princeton University Press (2010)",
+    "people": [
+     "Peter Forrester"
+    ],
+    "description": "A monograph that presents the log-gas and random-matrix framework behind the Tracy-Widom distributions and universality.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2010 Princeton monograph by Forrester on log-gases and random matrices",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3ALog-gases%20and%20random%20matrices&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for Tracy-Widom papers and random-matrix monographs; found the 1996 CMP paper and Forrester 2010.",
+   "The 1994 CMP level-spacing paper is the same work as the 1992 statement, so it is not repeated."
+  ]
+ },
+ {
+  "pid": "P516",
+  "eventId": "P74",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1999,
+    "endYear": null,
+    "precision": "year",
+    "label": "Non-Archimedean integrals and stringy Euler numbers of log-terminal pairs",
+    "work": "Batyrev, Non-Archimedean integrals and stringy Euler numbers of log-terminal pairs, JEMS (1999)",
+    "people": [
+     "Victor Batyrev"
+    ],
+    "description": "Introduces non-archimedean (arc-space) integrals and stringy Euler numbers, an early main application of the motivic-integration idea.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 1999 JEMS paper by Batyrev on non-archimedean integrals and stringy Euler numbers",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3ANon-Archimedean%20integrals%20and%20stringy%20Euler%20numbers&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 2001,
+    "endYear": null,
+    "precision": "year",
+    "label": "Geometry on arc spaces of algebraic varieties",
+    "work": "Denef, Loeser, Geometry on arc spaces of algebraic varieties (Panoramas and Syntheses series)",
+    "people": [
+     "Jan Denef",
+     "François Loeser"
+    ],
+    "description": "A survey of arc spaces and motivic integration that gives a systematic account after the 1998 statement.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2001 survey by Denef and Loeser on arc spaces of algebraic varieties",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3AGeometry%20on%20arc%20spaces&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "zbMATH gives 2001 for this item; the publication year should be double-checked against the series volume."
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for arc spaces, motivic integration and stringy Euler numbers; found Batyrev 1999 and Denef-Loeser 2001."
+  ]
+ },
+ {
+  "pid": "Q10",
+  "eventId": "Q10",
+  "milestones": [],
+  "searched": [
+   "Searched zbMATH for 2025-2026 Hodge atoms papers; found only 2026 preprints (Abdul Rahman; Raugas), which are follow-ups and not a consolidation.",
+   "No naming, textbook, survey or institution milestone found for the cubic-fourfold Hodge atom method; left empty rather than invent one."
+  ]
+ },
+ {
+  "pid": "P536",
+  "eventId": "Q29",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2024,
+    "endYear": null,
+    "precision": "year",
+    "label": "On the Euler characteristic of the commutative graph complex",
+    "work": "Borinsky, Zagier, On the Euler characteristic of the commutative graph complex and the top weight cohomology of M_g (2024)",
+    "people": [
+     "Michael Borinsky",
+     "Don Zagier"
+    ],
+    "description": "Uses generating-function and Feynman-diagram counting to compute Euler characteristics of graph complexes related to the Out(F_n) method.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2024 preprint by Borinsky and Zagier on the commutative graph complex Euler characteristic",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=au%3ABorinsky%20ti%3AEuler%20characteristic&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Related counting method, but a different object (graph complex); preprint record."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2025,
+    "endYear": null,
+    "precision": "year",
+    "label": "S_n-equivariant Euler characteristic of the moduli space of graphs",
+    "work": "Borinsky, Vermaseren, The S_n-equivariant Euler characteristic of the moduli space of graphs, AGT (2025)",
+    "people": [
+     "Michael Borinsky",
+     "Jos Vermaseren"
+    ],
+    "description": "Extends the Feynman-diagram Euler characteristic counts for graph moduli spaces to the equivariant setting.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2025 AGT paper by Borinsky and Vermaseren on S_n-equivariant Euler characteristic",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=au%3ABorinsky%20ti%3AEuler%20characteristic&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for Borinsky and Vogtmann Euler characteristic papers; found 2024 and 2025 follow-ups.",
+   "No naming or classification milestone found; the 2020 CMH paper is before the existing 2022 first application and cannot be added."
+  ]
+ },
+ {
+  "pid": "P543",
+  "eventId": "Q44",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2024,
+    "endYear": null,
+    "precision": "year",
+    "label": "Gromov-Witten invariants in complex and Morava-local K-theories",
+    "work": "Abouzaid, McLean, Smith, Gromov-Witten invariants in complex and Morava-local K-theories, GAFA (2024)",
+    "people": [
+     "Mohammed Abouzaid",
+     "Mark McLean",
+     "Ivan Smith"
+    ],
+    "description": "Extends Morava K-theory methods in Floer-type theories, the setting of the existing 2021 Arnold-bound result.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2024 GAFA paper by Abouzaid, McLean and Smith on Morava-local K-theory",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=au%3AAbouzaid%20ti%3AMorava&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "Related setting (Morava-local GW theory) rather than the Arnold bounds directly."
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for Abouzaid-Blumberg and related Morava K-theory work; found the 2024 GAFA paper.",
+   "No naming or textbook milestone found."
+  ]
+ },
+ {
+  "pid": "P549",
+  "eventId": "Q57",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2019,
+    "endYear": null,
+    "precision": "year",
+    "label": "Explicit Chabauty-Kim for the split Cartan modular curve of level 13",
+    "work": "Balakrishnan, Dogra, Muller, Tuitman, Vonk, Explicit Chabauty-Kim for the split Cartan modular curve of level 13, Annals (2019)",
+    "people": [
+     "Jennifer Balakrishnan",
+     "Netan Dogra",
+     "J. Steffen Müller"
+    ],
+    "description": "Implements the non-abelian Chabauty-Kim method to determine rational points on a modular curve, the first major application of the 2005 approach.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2019 Annals paper implementing Chabauty-Kim for the split Cartan curve of level 13",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3AExplicit%20Chabauty-Kim%20for%20the%20split%20Cartan%20modular%20curve&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "searched": [
+   "Searched zbMATH for explicit Chabauty-Kim and non-abelian Chabauty papers; found the 2019 Annals paper.",
+   "No naming or textbook milestone found."
+  ]
+ },
+ {
+  "pid": "Q68",
+  "eventId": "Q68",
+  "milestones": [
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 2023,
+    "endYear": null,
+    "precision": "year",
+    "label": "Flip graphs for matrix multiplication",
+    "work": "Kauers, Moosbauer, Flip graphs for matrix multiplication, ISSAC 2023",
+    "people": [
+     "Manuel Kauers",
+     "Jakob Moosbauer"
+    ],
+    "description": "Develops a search method for matrix multiplication schemes that produces new small schemes, a later development of the computer-search line that AlphaTensor opened.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: 2023 ISSAC paper by Kauers and Moosbauer on flip graphs for matrix multiplication",
+      "source": "zbMATH Open record",
+      "url": "https://api.zbmath.org/v1/document/_search?search_string=ti%3AFlip%20graphs%20for%20matrix%20multiplication&results_per_page=8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "low",
+    "note": "A different search method on the same problem; the existing 2022 record is by the same authors."
+   }
+  ],
+  "searched": [
+   "Searched zbMATH and Crossref for AlphaTensor surveys or textbooks; none found (Crossref hits were unrelated matrix-multiplication papers).",
+   "No naming, textbook or institution milestone found."
+  ]
+ }
+]

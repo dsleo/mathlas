@@ -1,0 +1,2539 @@
+[
+ {
+  "pid": "P220",
+  "eventId": "MB63/WB25",
+  "canonicalName": "Monte Carlo method",
+  "aliases": [
+   "Monte Carlo",
+   "Monte Carlo method",
+   "Monte Carlo simulation",
+   "Monte Carlo experiments"
+  ],
+  "phases": [
+   "Los Alamos sampling for neutron diffusion",
+   "Computer-based Monte Carlo (1948-1953)",
+   "Book-length treatment (1964)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": "Los Alamos sampling for neutron diffusion",
+    "year": 1930,
+    "endYear": 1939,
+    "precision": "decade",
+    "label": "Fermi's unpublished neutron-diffusion experiments",
+    "work": null,
+    "people": [
+     "Enrico Fermi"
+    ],
+    "description": "Enrico Fermi experimented with random sampling for neutron diffusion in the 1930s but did not publish it.",
+    "evidence": [
+     {
+      "claim": "Fermi experimented with the method in the 1930s and did not publish",
+      "source": "Wikipedia, Monte Carlo method (History)",
+      "url": "https://en.wikipedia.org/wiki/Monte_Carlo_method",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "precursor",
+    "phase": "Los Alamos sampling for neutron diffusion",
+    "year": 1946,
+    "endYear": null,
+    "precision": "year",
+    "label": "Ulam's solitaire idea for neutron problems (private)",
+    "work": null,
+    "people": [
+     "Stanislaw Ulam"
+    ],
+    "description": "Ulam conceived random sampling for a neutron-diffusion problem in 1946 while convalescing; this was private thinking, not a publication.",
+    "evidence": [
+     {
+      "claim": "Ulam recounts that the first Monte Carlo thoughts came in 1946 from a solitaire question",
+      "source": "MacTutor, Stanislaw Ulam biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ulam/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Private work; not a public start."
+   },
+   {
+    "role": "precursor",
+    "phase": "Computer-based Monte Carlo (1948-1953)",
+    "year": 1948,
+    "endYear": null,
+    "precision": "year",
+    "label": "ENIAC runs fully automated Monte Carlo fission-core calculation",
+    "work": null,
+    "people": [
+     "John von Neumann",
+     "Nicholas Metropolis"
+    ],
+    "description": "In spring 1948 Monte Carlo calculations of a fission weapon core were run as fully automated computations on ENIAC.",
+    "evidence": [
+     {
+      "claim": "ENIAC performed the first fully automated Monte Carlo calculations of a fission weapon core in spring 1948",
+      "source": "Wikipedia, Monte Carlo method (History)",
+      "url": "https://en.wikipedia.org/wiki/Monte_Carlo_method",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Secondary source only; the year rests on the Wikipedia statement, not a primary record checked here. Reclassified from first_application to precursor: it predates this event's first statement (1949) and belongs to the wider field."
+   },
+   {
+    "role": "first_statement",
+    "phase": "Computer-based Monte Carlo (1948-1953)",
+    "year": 1949,
+    "endYear": null,
+    "precision": "year",
+    "label": "Metropolis and Ulam, 'The Monte Carlo Method'",
+    "work": "Metropolis N., Ulam S., The Monte Carlo method, Journal of the American Statistical Association 44(247), 335-341, 1949",
+    "people": [
+     "Nicholas Metropolis",
+     "Stanislaw Ulam"
+    ],
+    "description": "The first public description of the method as a named technique, in a journal article on random sampling for deterministic problems.",
+    "evidence": [
+     {
+      "claim": "Journal record: JASA 44(247), 335-341, September 1949",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1080/01621459.1949.10483310",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor cites this 1949 paper as the method's description",
+      "source": "MacTutor, Stanislaw Ulam biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ulam/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": "Computer-based Monte Carlo (1948-1953)",
+    "year": 1953,
+    "endYear": null,
+    "precision": "year",
+    "label": "Metropolis sampling rule for equilibrium calculations",
+    "work": "Metropolis N., Rosenbluth A. W., Rosenbluth M. N., Teller A. H., Teller E., Equation of state calculations by fast computing machines, J. Chem. Phys. 21(6), 1087-1092, 1953",
+    "people": [
+     "Nicholas Metropolis"
+    ],
+    "description": "A Markov-chain sampling rule (later the Metropolis algorithm) was introduced, which made Monte Carlo a general tool for statistical mechanics.",
+    "evidence": [
+     {
+      "claim": "Crossref record: J. Chem. Phys. 21(6), 1087-1092, 1953",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1063/1.1699114",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Wikipedia credits Ulam with the modern Markov-chain version in the late 1940s; the first published Metropolis rule is 1953. This dispute is recorded, not resolved."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Book-length treatment (1964)",
+    "year": 1964,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hammersley and Handscomb, Monte Carlo Methods",
+    "work": "Hammersley J. M., Handscomb D. C., Monte Carlo Methods, Methuen, 1964",
+    "people": [
+     "J. M. Hammersley",
+     "D. C. Handscomb"
+    ],
+    "description": "A book-length treatment of the method and its variance-reduction and sampling techniques.",
+    "evidence": [
+     {
+      "claim": "Open Library record: Monte Carlo methods, Methuen, 1964",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?q=monte+carlo+methods+hammersley",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Priority as the first systematic book was not checked against earlier monographs."
+   },
+   {
+    "role": "naming",
+    "phase": null,
+    "year": null,
+    "endYear": null,
+    "precision": "unknown",
+    "label": "Name 'Monte Carlo' proposed as a code name",
+    "work": null,
+    "people": [
+     "Nicholas Metropolis"
+    ],
+    "description": "Metropolis suggested the code name 'Monte Carlo' for the secret work of von Neumann and Ulam, after the casino.",
+    "evidence": [
+     {
+      "claim": "Metropolis suggested the code name; no year is given in the text checked",
+      "source": "Wikipedia, Monte Carlo method (History)",
+      "url": "https://en.wikipedia.org/wiki/Monte_Carlo_method",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "low",
+    "note": "Undated. Searched the Wikipedia history and MacTutor Ulam text; no dated record found, so the year is left null and does not feed the institutional date."
+   }
+  ],
+  "people": [
+   {
+    "name": "Stanislaw Ulam",
+    "role": "developer",
+    "lifespan": "1909-1984",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Ulam/",
+    "works": [
+     {
+      "citation": "Metropolis N., Ulam S., The Monte Carlo method, JASA 44(247), 1949",
+      "year": 1949,
+      "url": "https://doi.org/10.1080/01621459.1949.10483310",
+      "whyItMatters": "The first public description of the method."
+     }
+    ],
+    "roleNote": "conceived the random-sampling idea and co-wrote the 1949 description"
+   },
+   {
+    "name": "Nicholas Metropolis",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Nicholas_Metropolis",
+    "works": [
+     {
+      "citation": "Metropolis N., Ulam S., The Monte Carlo method, JASA 44(247), 1949",
+      "year": 1949,
+      "url": "https://doi.org/10.1080/01621459.1949.10483310",
+      "whyItMatters": "Co-author of the 1949 description."
+     },
+     {
+      "citation": "Metropolis N., Rosenbluth A. W., Rosenbluth M. N., Teller A. H., Teller E., J. Chem. Phys. 21(6), 1953",
+      "year": 1953,
+      "url": "https://doi.org/10.1063/1.1699114",
+      "whyItMatters": "Introduced the Metropolis sampling rule."
+     }
+    ],
+    "roleNote": "co-author of 1949 description and 1953 sampling rule"
+   },
+   {
+    "name": "J. M. Hammersley",
+    "role": "originator",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hammersley/",
+    "works": [
+     {
+      "citation": "Hammersley J. M., Handscomb D. C., Monte Carlo Methods, Methuen, 1964",
+      "year": 1964,
+      "url": "https://openlibrary.org/search?q=monte+carlo+methods+hammersley",
+      "whyItMatters": "Systematic book treatment of the method."
+     }
+    ],
+    "roleNote": "co-author of the first book-length treatment"
+   }
+  ],
+  "notes": "Input summary is consistent with the Wikipedia lead. Fermi's 1930s use and the 1946 Ulam idea are precursors only. The ENIAC date (1948) rests on Wikipedia, not a primary record. The codename is undated (see naming milestone). Buffon's needle is an early variant mentioned by Wikipedia and was not promoted as a milestone because its primary record was not checked.",
+  "derivedDates": {
+   "conceptual": 1949,
+   "methodological": null,
+   "institutional": 1964
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P209",
+  "eventId": "MB18/WB10",
+  "canonicalName": "Linear programming and the simplex method",
+  "aliases": [
+   "Linear programming",
+   "Linear optimization",
+   "Simplex method",
+   "Programming in a linear structure"
+  ],
+  "phases": [
+   "Soviet production planning (1939)",
+   "US Air Force planning and the simplex method (1947-1951)",
+   "Textbook consolidation (1963)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1827,
+    "endYear": null,
+    "precision": "year",
+    "label": "Fourier's method for linear inequalities",
+    "work": null,
+    "people": [
+     "Joseph Fourier"
+    ],
+    "description": "Fourier published a method for solving systems of linear inequalities, the origin of the later Fourier-Motzkin elimination.",
+    "evidence": [
+     {
+      "claim": "Fourier published a method for linear inequalities in 1827",
+      "source": "Wikipedia, Linear programming (History)",
+      "url": "https://en.wikipedia.org/wiki/Linear_programming",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Primary text not checked; year from Wikipedia."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1939,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kantorovich's pamphlet on organising and planning production",
+    "work": "Kantorovich L. V., Mathematical methods of organizing and planning production, Leningrad State University, 1939 (English: Management Science 6, 366-422, 1960)",
+    "people": [
+     "Leonid Kantorovich"
+    ],
+    "description": "Kantorovich published a pamphlet with linear-programming-type models for allocating machine time and planning production.",
+    "evidence": [
+     {
+      "claim": "Pamphlet published in July 1939 by Leningrad State University",
+      "source": "MacTutor, Kantorovich biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kantorovich/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "English version in Management Science 6(4), 1960, found in Crossref",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1287/mnsc.6.4.366",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "The 1939 original is cited via MacTutor; the 1960 translation has a Crossref record."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1941,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hitchcock's transportation problem as a linear program",
+    "work": "Hitchcock F. L., The distribution of a product from several sources to numerous localities, J. Math. Phys. 20, 224-230, 1941",
+    "people": [
+     "Frank L. Hitchcock"
+    ],
+    "description": "Hitchcock formulated the transportation problem as a linear program and gave a solution close to the later simplex method.",
+    "evidence": [
+     {
+      "claim": "Crossref record: J. Math. Phys. 20, 224-230, 1941",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1002/sapm1941201224",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Hitchcock formulated transportation problems as linear programs in 1941",
+      "source": "Wikipedia, Linear programming (History)",
+      "url": "https://en.wikipedia.org/wiki/Linear_programming",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Precursor: a transport-specific formulation, not the general method."
+   },
+   {
+    "role": "first_application",
+    "phase": "US Air Force planning and the simplex method (1947-1951)",
+    "year": 1947,
+    "endYear": null,
+    "precision": "year",
+    "label": "Simplex method applied to US Air Force planning and to a least-cost diet",
+    "work": null,
+    "people": [
+     "George Dantzig"
+    ],
+    "description": "Dantzig applied the simplex method to Air Force planning problems and, in 1947, to a least-cost diet calculation.",
+    "evidence": [
+     {
+      "claim": "Dantzig's planning work for the US Air Force and the 1947 diet calculation",
+      "source": "MacTutor, George Dantzig biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Dantzig_George/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "The 1948 USAF report 'Programming in a linear structure' is not public and is not listed as a milestone."
+   },
+   {
+    "role": "naming",
+    "phase": "US Air Force planning and the simplex method (1947-1951)",
+    "year": 1948,
+    "endYear": null,
+    "precision": "year",
+    "label": "Koopmans proposes the term 'linear programming'",
+    "work": null,
+    "people": [
+     "Tjalling C. Koopmans"
+    ],
+    "description": "Tjalling Koopmans proposed the term 'linear programming' during a 1948 visit by Dantzig to RAND.",
+    "evidence": [
+     {
+      "claim": "The term 'linear programming' was proposed by Koopmans during a 1948 visit to RAND",
+      "source": "MacTutor, George Dantzig biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Dantzig_George/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "first_statement",
+    "phase": "US Air Force planning and the simplex method (1947-1951)",
+    "year": 1951,
+    "endYear": null,
+    "precision": "year",
+    "label": "Dantzig's public statement of the simplex method",
+    "work": "Dantzig G. B., Maximization of a linear function of variables subject to linear inequalities, in Koopmans T. C. (ed.), Activity Analysis of Production and Allocation, Wiley, 1951",
+    "people": [
+     "George Dantzig",
+     "Tjalling C. Koopmans"
+    ],
+    "description": "Dantzig's simplex method first appears in print in the 1951 Cowles volume on activity analysis.",
+    "evidence": [
+     {
+      "claim": "The 1951 Cowles volume lists Dantzig's chapter on maximization at pp. 339–347 and a separate simplex-method application chapter.",
+      "source": "Cowles Foundation, Activity Analysis contents",
+      "url": "https://cowles.yale.edu/research/cfm-13-activity-analysis-production-and-allocation",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The volume is confirmed in Open Library; the chapter title and pages are not confirmed by Crossref and should be checked against the book."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Textbook consolidation (1963)",
+    "year": 1963,
+    "endYear": null,
+    "precision": "year",
+    "label": "Dantzig, Linear Programming and Extensions",
+    "work": "Dantzig G. B., Linear Programming and Extensions, Princeton University Press, 1963",
+    "people": [
+     "George Dantzig"
+    ],
+    "description": "A large textbook-monograph that systematised the simplex method and the theory of linear programming.",
+    "evidence": [
+     {
+      "claim": "Open Library record: Princeton University Press, 1963",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?q=linear+programming+and+extensions+dantzig",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor cites the 1963 book as Dantzig's main monograph",
+      "source": "MacTutor, George Dantzig biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Dantzig_George/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "recognition",
+    "phase": null,
+    "year": 1975,
+    "endYear": null,
+    "precision": "year",
+    "label": "Shared Nobel Memorial Prize in Economic Sciences",
+    "work": null,
+    "people": [
+     "Leonid Kantorovich",
+     "Tjalling C. Koopmans"
+    ],
+    "description": "Kantorovich and Koopmans shared the 1975 Nobel Memorial Prize in Economic Sciences for work on optimal resource allocation.",
+    "evidence": [
+     {
+      "claim": "Kantorovich was a joint 1975 Nobel laureate with Koopmans",
+      "source": "MacTutor, Kantorovich biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kantorovich/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   }
+  ],
+  "people": [
+   {
+    "name": "Leonid Kantorovich",
+    "role": "developer",
+    "lifespan": "(died 1986)",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kantorovich/",
+    "works": [
+     {
+      "citation": "Mathematical methods of organizing and planning production, 1939 (English 1960, Management Science 6)",
+      "year": 1939,
+      "url": "https://doi.org/10.1287/mnsc.6.4.366",
+      "whyItMatters": "The earliest linear-programming-type model of production planning."
+     }
+    ],
+    "roleNote": "pamphlet author (1939); 1975 Nobel co-laureate"
+   },
+   {
+    "name": "George Dantzig",
+    "role": "originator",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Dantzig_George/",
+    "works": [
+     {
+      "citation": "Dantzig G. B., Linear Programming and Extensions, Princeton University Press, 1963",
+      "year": 1963,
+      "url": "https://openlibrary.org/search?q=linear+programming+and+extensions+dantzig",
+      "whyItMatters": "Principal monograph on the simplex method and linear programming."
+     }
+    ],
+    "roleNote": "inventor of the simplex method"
+   },
+   {
+    "name": "Tjalling C. Koopmans",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Koopmans/",
+    "works": [
+     {
+      "citation": "Koopmans T. C. (ed.), Activity Analysis of Production and Allocation, Wiley, 1951",
+      "year": 1951,
+      "url": "https://openlibrary.org/search?q=activity+analysis+of+production+and+allocation",
+      "whyItMatters": "Venue for Dantzig's 1951 statement of the simplex method."
+     }
+    ],
+    "roleNote": "named the field; editor of the 1951 volume"
+   },
+   {
+    "name": "Frank L. Hitchcock",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Frank_L._Hitchcock",
+    "works": [
+     {
+      "citation": "Hitchcock F. L., The distribution of a product from several sources to numerous localities, J. Math. Phys. 20, 1941",
+      "year": 1941,
+      "url": "https://doi.org/10.1002/sapm1941201224",
+      "whyItMatters": "Early transport formulation close to the simplex method."
+     }
+    ],
+    "roleNote": "formulated transportation problems as linear programs"
+   }
+  ],
+  "notes": "Input summary is broadly right, but the simplex 'invention' date 1947 is Dantzig's own date via MacTutor; the public statement is 1951. Kantorovich's 1939 work is the earliest linear-programming-type model and governs the conceptual derived date. The Fourier 1827 and Hitchcock 1941 items are precursors. No dated record was found for the naming beyond the MacTutor 1948 account; the naming milestone is therefore marked medium. Karmarkar, Khachiyan and other later developments were not searched in this batch. Fresh check: zbMATH lists only the 1960 English translation (Zbl 1700596) for the 1939 Russian book, so the 1939 year stays unresolved.",
+  "derivedDates": {
+   "conceptual": 1939,
+   "methodological": 1947,
+   "institutional": 1948
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P525",
+  "eventId": "Q5",
+  "canonicalName": "Ramsey lower bounds from random sphere geometry",
+  "aliases": [
+   "Off-diagonal Ramsey lower bounds",
+   "Random sphere graphs",
+   "Ma-Shen-Xie construction",
+   "Erdos barrier for r(l, Cl)"
+  ],
+  "phases": [
+   "Probabilistic method (1947)",
+   "Random sphere and Gaussian graphs (2025-2026)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1947,
+    "endYear": null,
+    "precision": "year",
+    "label": "Erdos's probabilistic lower bound for diagonal Ramsey numbers",
+    "work": "Erdos P., Some remarks on the theory of graphs, Bull. Amer. Math. Soc. 53, 292-294, 1947",
+    "people": [
+     "Paul Erdos"
+    ],
+    "description": "Erdos's random-colouring argument gave the classical exponential lower bound and introduced the probabilistic method in combinatorics; the baseline for the 2025 result.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Bull. AMS 53, 292-294, 1947",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/S0002-9904-1947-08785-1",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia states the exponential lower bound was given by Erdos in 1947",
+      "source": "Wikipedia, Ramsey's theorem",
+      "url": "https://en.wikipedia.org/wiki/Ramsey%27s_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "The 1947 bound is for the diagonal case; the 2025 result concerns off-diagonal numbers r(l, Cl)."
+   },
+   {
+    "role": "precursor",
+    "year": 1972,
+    "endYear": null,
+    "precision": "year",
+    "label": "Chvatal and Harary, 'Generalized Ramsey theory for graphs'",
+    "work": "V. Chvatal and F. Harary, 'Generalized Ramsey theory for graphs', Bulletin of the AMS (ISSN 0002-9904), pages 423-426, zbMATH record 3370375, 1972",
+    "people": [
+     "Vasek Chvatal",
+     "Frank Harary"
+    ],
+    "description": "A 1972 paper with 'Ramsey theory' in its title is the earliest title found in the searched window that uses the field's name.",
+    "evidence": [
+     {
+      "claim": "zbMATH record gives title 'Generalized Ramsey theory for graphs', authors Chvatal and Harary, year 1972, pages 423-426, ISSN 0002-9904",
+      "source": "zbMATH Open API, document 3370375",
+      "url": "https://api.zbmath.org/v1/document/3370375",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Earliest zbMATH title hit for 'Ramsey theory' in 1928-1990; Ramsey's own 1930 paper does not use the phrase in its title. Only zbMATH was searched for this check. Reclassified from naming to precursor: it predates this event's first statement (2025) and belongs to the wider field.",
+    "phase": null
+   },
+   {
+    "role": "precursor",
+    "year": 1980,
+    "endYear": null,
+    "precision": "year",
+    "label": "Graham, Rothschild and Spencer, 'Ramsey Theory' (book)",
+    "work": "R. L. Graham, B. L. Rothschild, J. H. Spencer, Ramsey Theory, Wiley-Interscience Series in Discrete Mathematics, 1980, zbMATH record 3711961",
+    "people": [
+     "Ronald L. Graham",
+     "Bruce L. Rothschild",
+     "Joel H. Spencer"
+    ],
+    "description": "A 1980 book titled 'Ramsey theory' is the earliest book hit in the searched window with the field's name and gives a monograph-level treatment.",
+    "evidence": [
+     {
+      "claim": "zbMATH record gives title 'Ramsey theory', document type book, authors Graham, Rothschild and Spencer, year 1980, Wiley-Interscience series",
+      "source": "zbMATH Open API, document 3711961",
+      "url": "https://api.zbmath.org/v1/document/3711961",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Earliest book with the field name in the zbMATH book search 1928-2026. An earlier monograph could exist outside zbMATH coverage; not checked. Reclassified from consolidation to precursor: it predates this event's first statement (2025) and belongs to the wider field.",
+    "phase": null
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 2025,
+    "endYear": null,
+    "precision": "year",
+    "label": "Ma, Shen, Xie: exponential improvement on the Erdos bound for r(l, Cl)",
+    "work": "Ma J., Shen W., Xie S., An exponential improvement for Ramsey lower bounds, arXiv:2507.12926, 2025",
+    "people": [
+     "Jie Ma",
+     "Wujie Shen",
+     "Shengjie Xie"
+    ],
+    "description": "The first exponential improvement over Erdos's 1947 lower bound for off-diagonal Ramsey numbers r(l, Cl), for every C > 1 and large l.",
+    "evidence": [
+     {
+      "claim": "arXiv record 2507.12926, posted 17 July 2025; abstract states the first exponential improvement over Erdos 1947",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2507.12926",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "A later paper says Ma, Shen and Xie broke the Erdos barrier for R(l, Cl)",
+      "source": "arXiv 2605.25843 (Lin and Niu)",
+      "url": "https://arxiv.org/abs/2605.25843",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Preprint (v2 dated April 2026); not confirmed as peer-reviewed."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 2025,
+    "endYear": null,
+    "precision": "year",
+    "label": "Random sphere construction applied to off-diagonal Ramsey lower bounds",
+    "work": "Ma J., Shen W., Xie S., arXiv:2507.12926, 2025",
+    "people": [
+     "Jie Ma",
+     "Shengjie Xie"
+    ],
+    "description": "The same paper is the first use of random high-dimensional sphere graphs to lower-bound r(l, Cl).",
+    "evidence": [
+     {
+      "claim": "arXiv record 2507.12926 (same as the first-statement record)",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2507.12926",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Attwa et al. describe the Ma-Shen-Xie approach as a random sphere graph model",
+      "source": "arXiv 2602.02155",
+      "url": "https://arxiv.org/abs/2602.02155",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Same paper as the first statement, deliberately repeated because it is both the first statement and the first application of the sphere model to this problem."
+   },
+   {
+    "role": "key_development",
+    "phase": "Random sphere and Gaussian graphs (2025-2026)",
+    "year": 2025,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hunter, Milojevic, Sudakov: Gaussian random graph proof",
+    "work": "Hunter Z., Milojevic A., Sudakov B., Gaussian random graphs and Ramsey numbers, arXiv:2512.17718, 2025",
+    "people": [
+     "Benny Sudakov"
+    ],
+    "description": "A simpler proof of the Ma-Shen-Xie bound, using Gaussian random graphs, with better quantitative bounds.",
+    "evidence": [
+     {
+      "claim": "arXiv record 2512.17718, posted 19 December 2025; abstract describes the simplified proof",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2512.17718",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": "Random sphere and Gaussian graphs (2025-2026)",
+    "year": 2026,
+    "endYear": null,
+    "precision": "year",
+    "label": "Attwa, Lopez Vidal, Morris: multicolour extension via random sphere graphs",
+    "work": "Attwa Y., Lopez Vidal A., Morris P., A note on multicolour Ramsey numbers and random sphere graphs, arXiv:2602.02155, 2026",
+    "people": [
+     "Patrick Morris"
+    ],
+    "description": "Extends the random sphere graph approach to multicolour Ramsey numbers r(t; l), giving an exponential improvement over a previous exponent.",
+    "evidence": [
+     {
+      "claim": "arXiv record 2602.02155, posted 2 February 2026; abstract describes the multicolour improvement",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2602.02155",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   },
+   {
+    "role": "key_development",
+    "phase": "Random sphere and Gaussian graphs (2025-2026)",
+    "year": 2026,
+    "endYear": null,
+    "precision": "year",
+    "label": "Lin and Niu: sharper exponent via refined Gaussian estimates",
+    "work": "Lin Q., Niu L., Sharper Ramsey lower bounds from refined Gaussian estimates, arXiv:2605.25843, 2026",
+    "people": [
+     "Qizhong Lin"
+    ],
+    "description": "A further improvement of the exponent in the off-diagonal lower bound by a sharper cumulant generating function estimate.",
+    "evidence": [
+     {
+      "claim": "arXiv record 2605.25843, posted 25 May 2026; abstract describes the sharper exponent",
+      "source": "arXiv",
+      "url": "https://arxiv.org/abs/2605.25843",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium"
+   }
+  ],
+  "people": [
+   {
+    "name": "Paul Erdos",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Erdos/",
+    "works": [
+     {
+      "citation": "Erdos P., Some remarks on the theory of graphs, Bull. AMS 53, 292-294, 1947",
+      "year": 1947,
+      "url": "https://doi.org/10.1090/S0002-9904-1947-08785-1",
+      "whyItMatters": "Probabilistic exponential lower bound and the baseline for the 2025 result."
+     }
+    ],
+    "roleNote": "probabilistic lower bound (1947)"
+   },
+   {
+    "name": "Jie Ma",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Jie_Ma",
+    "works": [
+     {
+      "citation": "Ma J., Shen W., Xie S., An exponential improvement for Ramsey lower bounds, arXiv:2507.12926, 2025",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2507.12926",
+      "whyItMatters": "First exponential improvement over the Erdos bound for r(l, Cl)."
+     }
+    ],
+    "roleNote": "co-author of the exponential improvement"
+   },
+   {
+    "name": "Shengjie Xie",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Shengjie_Xie",
+    "works": [
+     {
+      "citation": "Ma J., Shen W., Xie S., arXiv:2507.12926, 2025",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2507.12926",
+      "whyItMatters": "Same paper as above."
+     }
+    ],
+    "roleNote": "co-author of the exponential improvement"
+   },
+   {
+    "name": "Benny Sudakov",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Benny_Sudakov",
+    "works": [
+     {
+      "citation": "Hunter Z., Milojevic A., Sudakov B., Gaussian random graphs and Ramsey numbers, arXiv:2512.17718, 2025",
+      "year": 2025,
+      "url": "https://arxiv.org/abs/2512.17718",
+      "whyItMatters": "Simpler proof and better bounds."
+     }
+    ],
+    "roleNote": "simplified proof with Gaussian random graphs"
+   },
+   {
+    "name": "Patrick Morris",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Patrick_Morris",
+    "works": [
+     {
+      "citation": "Attwa Y., Lopez Vidal A., Morris P., arXiv:2602.02155, 2026",
+      "year": 2026,
+      "url": "https://arxiv.org/abs/2602.02155",
+      "whyItMatters": "Applies the random sphere graph to multicolour Ramsey numbers."
+     }
+    ],
+    "roleNote": "multicolour extension of the sphere method"
+   }
+  ],
+  "notes": "Input summary says 'first improvement in about fifty years on Erdos's 1947 bound'. The arXiv abstract of Ma-Shen-Xie says the first exponential improvement over the 1947 bound, and 1947 to 2025 is about 78 years, so the 'fifty years' figure is not supported. The result is for off-diagonal r(l, Cl), not the diagonal case; the input 'near-diagonal' wording was kept only loosely. Spencer 1977 (Discrete Math. 20, 69-76, Crossref title only) is a Lovasz-local-lemma lower-bound paper; its content was not checked, so it is not a milestone. The 2025 claim is checked against the arXiv abstract (first exponential improvement over the 1947 bound, about 78 years later). The naming (1972) and consolidation (1980) milestones are the zbMATH records cited, and the institutional derived date is 1972.",
+  "derivedDates": {
+   "conceptual": 2025,
+   "methodological": 2025,
+   "institutional": null
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P201",
+  "eventId": "E24/MB14/WB14",
+  "canonicalName": "Information theory",
+  "aliases": [
+   "Mathematical theory of communication",
+   "Shannon information theory",
+   "Entropy and channel capacity"
+  ],
+  "phases": [
+   "Telegraph and measurement precursors (1924-1928)",
+   "Shannon's entropy and channel coding (1948-1949)",
+   "Textbook consolidation (1968)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1924,
+    "endYear": null,
+    "precision": "year",
+    "label": "Nyquist on telegraph speed and intelligence",
+    "work": "Nyquist H., Certain factors affecting telegraph speed, Bell System Tech. J. 3, 324-346, 1924",
+    "people": [
+     "Harry Nyquist"
+    ],
+    "description": "Nyquist's telegraph-speed analysis quantified 'intelligence' and the line speed at which it can be transmitted.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Bell System Tech. J. 3, 324-346, 1924",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1002/j.1538-7305.1924.tb01361.x",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia notes Nyquist's 1924 quantification of intelligence and line speed",
+      "source": "Wikipedia, Information theory (History)",
+      "url": "https://en.wikipedia.org/wiki/Information_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Precursor: no entropy or capacity defined."
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1928,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hartley's measure of information",
+    "work": "Hartley R. V. L., Transmission of information, Bell System Tech. J. 7, 535-563, 1928",
+    "people": [
+     "Ralph Hartley"
+    ],
+    "description": "Hartley used the word 'information' as a measurable quantity based on the number of distinguishable message sequences.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Bell System Tech. J. 7, 535-563, 1928",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1002/j.1538-7305.1928.tb01236.x",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia describes Hartley's 1928 quantitative use of 'information'",
+      "source": "Wikipedia, Information theory (History)",
+      "url": "https://en.wikipedia.org/wiki/Information_theory",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Precursor: a logarithmic count of messages, not entropy or capacity."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1948,
+    "endYear": null,
+    "precision": "year",
+    "label": "Shannon's mathematical theory of communication",
+    "work": "Shannon C. E., A mathematical theory of communication, Bell System Tech. J. 27, 379-423 and 623-656, 1948",
+    "people": [
+     "Claude Shannon"
+    ],
+    "description": "Shannon defined entropy and channel capacity and proved coding theorems for noisy communication.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Bell System Tech. J. 27, 379-423, 1948",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor describes the 1948 paper as founding the subject",
+      "source": "MacTutor, Claude Shannon biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Shannon/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "The second part (623-656) is cited by the same volume; only the first part's record was checked in Crossref."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1949,
+    "endYear": null,
+    "precision": "year",
+    "label": "Shannon: communication in the presence of noise",
+    "work": "Shannon C. E., Communication in the presence of noise, Proc. IRE 37(1), 10-21, 1949",
+    "people": [
+     "Claude Shannon"
+    ],
+    "description": "Follow-up on noisy channels that refined the capacity analysis for continuous signals.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Proc. IRE 37(1), 10-21, 1949",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1109/JRPROC.1949.232969",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Content is inferred from the title and Shannon's known programme; the text was not checked, so treat the claim as provisional."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1949,
+    "endYear": null,
+    "precision": "year",
+    "label": "Shannon: communication theory of secrecy systems",
+    "work": "Shannon C. E., Communication theory of secrecy systems, Bell System Tech. J., 1949",
+    "people": [
+     "Claude Shannon"
+    ],
+    "description": "Entropy and equivocation were applied to cryptographic secrecy systems, a first purposeful use of the theory beyond telecommunication.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Bell System Tech. J., 1949",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1002/j.1538-7305.1949.tb00928.x",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Application claim rests on the paper's title; content not checked in this run."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Textbook consolidation (1968)",
+    "year": 1968,
+    "endYear": null,
+    "precision": "year",
+    "label": "Gallager, Information Theory and Reliable Communication",
+    "work": "Gallager R. G., Information Theory and Reliable Communication, 1968",
+    "people": [
+     "Robert G. Gallager"
+    ],
+    "description": "A book-length treatment of coding theorems and reliable communication, consolidating the subject.",
+    "evidence": [
+     {
+      "claim": "Open Library record: 1968, Springer-Verlag",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?q=information+theory+and+reliable+communication+gallager",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Priority as the first systematic book was not checked; earlier books (e.g. Khinchin's translation) may precede it."
+   }
+  ],
+  "people": [
+   {
+    "name": "Claude Shannon",
+    "role": "originator",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Shannon/",
+    "works": [
+     {
+      "citation": "A mathematical theory of communication, Bell System Tech. J. 27, 1948",
+      "year": 1948,
+      "url": "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x",
+      "whyItMatters": "Defines entropy and channel capacity."
+     },
+     {
+      "citation": "Communication theory of secrecy systems, Bell System Tech. J., 1949",
+      "year": 1949,
+      "url": "https://doi.org/10.1002/j.1538-7305.1949.tb00928.x",
+      "whyItMatters": "First application to cryptography."
+     }
+    ],
+    "roleNote": "founder: entropy, channel capacity and coding theorems"
+   },
+   {
+    "name": "Ralph Hartley",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Ralph_Hartley",
+    "works": [
+     {
+      "citation": "Transmission of information, Bell System Tech. J. 7, 1928",
+      "year": 1928,
+      "url": "https://doi.org/10.1002/j.1538-7305.1928.tb01236.x",
+      "whyItMatters": "Quantitative use of 'information'."
+     }
+    ],
+    "roleNote": "precursor measure of information"
+   },
+   {
+    "name": "Harry Nyquist",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Harry_Nyquist",
+    "works": [
+     {
+      "citation": "Certain factors affecting telegraph speed, Bell System Tech. J. 3, 1924",
+      "year": 1924,
+      "url": "https://doi.org/10.1002/j.1538-7305.1924.tb01361.x",
+      "whyItMatters": "Quantified intelligence and line speed."
+     }
+    ],
+    "roleNote": "telegraph-speed precursor"
+   },
+   {
+    "name": "Robert G. Gallager",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Robert_G._Gallager",
+    "works": [
+     {
+      "citation": "Information Theory and Reliable Communication, 1968",
+      "year": 1968,
+      "url": "https://openlibrary.org/search?q=information+theory+and+reliable+communication+gallager",
+      "whyItMatters": "Textbook treatment."
+     }
+    ],
+    "roleNote": "consolidation of the coding theory"
+   }
+  ],
+  "notes": "Input summary is correct for the 1948 core. Hartley (1928) and Nyquist (1924) are precursors, not first statements, so the conceptual derived date is 1948. The naming milestone could not be fixed: a Crossref title search for 'information theory' up to 1951 returned only unrelated early titles, so no naming year is recorded. Institutional bodies (IRE Professional Group on Information Theory) were not searched. The 1949 Proc. IRE content claim is provisional.",
+  "derivedDates": {
+   "conceptual": 1948,
+   "methodological": 1949,
+   "institutional": 1968
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P235",
+  "eventId": "MB91/WB17",
+  "canonicalName": "Algebraic coding theory",
+  "aliases": [
+   "Error-correcting codes",
+   "Algebraic error-correcting codes",
+   "Coding theory"
+  ],
+  "phases": [
+   "Shannon's framework (1948)",
+   "Hamming and finite-field codes (1950-1960)",
+   "Textbook consolidation (1961-1977)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1948,
+    "endYear": null,
+    "precision": "year",
+    "label": "Shannon's channel coding theorem",
+    "work": "Shannon C. E., A mathematical theory of communication, Bell System Tech. J. 27, 1948",
+    "people": [
+     "Claude Shannon"
+    ],
+    "description": "Shannon showed that reliable communication is possible over a noisy channel, without a constructive algebraic code; the framework for coding theory.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Bell System Tech. J. 27, 1948",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1002/j.1538-7305.1948.tb01338.x",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Precursor: no algebraic code construction."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1950,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hamming: error detecting and error correcting codes",
+    "work": "Hamming R. W., Error detecting and error correcting codes, Bell System Tech. J. 29, 147-160, 1950",
+    "people": [
+     "Richard W. Hamming"
+    ],
+    "description": "Hamming introduced error-correcting linear codes over the binary field, the first explicit algebraic error-correcting construction in the public record checked.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Bell System Tech. J. 29, 147-160, 1950",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1002/j.1538-7305.1950.tb00463.x",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says the April 1950 paper started a new subject within information theory",
+      "source": "MacTutor, Richard Hamming biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hamming/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Wikipedia's Golay code entry says the binary Golay code was developed in 1949, which may precede this. Crossref searches for the 1949 Golay paper (Proc. IRE) did not locate it, so it is not promoted; the first_statement stays with Hamming 1950 until the Golay record is confirmed."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1960,
+    "endYear": null,
+    "precision": "year",
+    "label": "Reed and Solomon: polynomial codes over finite fields",
+    "work": "Reed I. S., Solomon G., Polynomial codes over certain finite fields, J. SIAM 8, 300-304, 1960",
+    "people": [
+     "Irving S. Reed",
+     "Gustave Solomon"
+    ],
+    "description": "Codes defined by polynomials over finite fields, giving the algebraic framework of Reed-Solomon codes.",
+    "evidence": [
+     {
+      "claim": "Crossref record: J. SIAM 8, 300-304, 1960",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1137/0108018",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1960,
+    "endYear": null,
+    "precision": "year",
+    "label": "Bose and Ray-Chaudhuri: binary group codes (BCH)",
+    "work": "Bose R. C., Ray-Chaudhuri D. K., On a class of error correcting binary group codes, Information and Control 3, 68-79, 1960",
+    "people": [
+     "R. C. Bose",
+     "D. K. Ray-Chaudhuri"
+    ],
+    "description": "A class of binary group codes built from finite-field algebra, now called BCH codes.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Information and Control 3, 68-79, 1960",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1016/S0019-9958(60)90287-4",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Independent discovery by Hocquenghem (1959) is not checked here."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1960,
+    "endYear": null,
+    "precision": "year",
+    "label": "Peterson: encoding and decoding procedures for BCH codes",
+    "work": "Peterson W. W., Encoding and error-correction procedures for the Bose-Chaudhuri codes, IRE Trans. Inf. Theory IT-6, 459-470, 1960",
+    "people": [
+     "W. Wesley Peterson"
+    ],
+    "description": "Procedures for encoding and error correction in the Bose-Chaudhuri codes, a first purposeful use of the algebraic framework for decoding.",
+    "evidence": [
+     {
+      "claim": "Crossref record: IRE Trans. IT-6, 459-470, 1960",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1109/TIT.1960.1057586",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Application claim rests on the title; content not checked."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Textbook consolidation (1961-1977)",
+    "year": 1961,
+    "endYear": null,
+    "precision": "year",
+    "label": "Peterson, Error-Correcting Codes",
+    "work": "Peterson W. W., Error-Correcting Codes, MIT Press and Wiley, 1961",
+    "people": [
+     "W. Wesley Peterson"
+    ],
+    "description": "A book-length treatment of error-correcting codes, including the BCH theory.",
+    "evidence": [
+     {
+      "claim": "Open Library record: MIT Press and Wiley, 1961",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?q=error-correcting+codes+wesley+peterson",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Priority as the first book on the subject was not established."
+   },
+   {
+    "role": "naming",
+    "phase": "Textbook consolidation (1961-1977)",
+    "year": 1968,
+    "endYear": null,
+    "precision": "year",
+    "label": "Berlekamp, Algebraic Coding Theory",
+    "work": "Berlekamp E. R., Algebraic Coding Theory, McGraw-Hill, 1968",
+    "people": [
+     "Elwyn R. Berlekamp"
+    ],
+    "description": "A book whose title uses the field name 'algebraic coding theory'.",
+    "evidence": [
+     {
+      "claim": "Open Library record: McGraw-Hill, 1968",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?q=algebraic+coding+theory+berlekamp",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Earliest title with this phrase among Open Library results; not proven to be the first use of the name."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Textbook consolidation (1961-1977)",
+    "year": 1977,
+    "endYear": null,
+    "precision": "year",
+    "label": "MacWilliams and Sloane, The Theory of Error-Correcting Codes",
+    "work": "MacWilliams F. J., Sloane N. J. A., The Theory of Error-Correcting Codes, North-Holland, 1977",
+    "people": [
+     "Florence J. MacWilliams"
+    ],
+    "description": "A standard monograph covering linear, BCH and Reed-Solomon codes.",
+    "evidence": [
+     {
+      "claim": "Open Library record: North-Holland, 1977",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?q=the+theory+of+error-correcting+codes",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Open Library lists only the first author in the search result; the co-author is from the book's title page."
+   }
+  ],
+  "people": [
+   {
+    "name": "Richard W. Hamming",
+    "role": "developer",
+    "lifespan": "(biography on MacTutor)",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hamming/",
+    "works": [
+     {
+      "citation": "Error detecting and error correcting codes, Bell System Tech. J. 29, 1950",
+      "year": 1950,
+      "url": "https://doi.org/10.1002/j.1538-7305.1950.tb00463.x",
+      "whyItMatters": "First explicit error-correcting code paper in this record set."
+     }
+    ],
+    "roleNote": "error-correcting codes (1950)"
+   },
+   {
+    "name": "Irving S. Reed",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Irving_S._Reed",
+    "works": [
+     {
+      "citation": "Polynomial codes over certain finite fields, J. SIAM 8, 1960",
+      "year": 1960,
+      "url": "https://doi.org/10.1137/0108018",
+      "whyItMatters": "Finite-field algebraic codes."
+     }
+    ],
+    "roleNote": "Reed-Solomon codes"
+   },
+   {
+    "name": "R. C. Bose",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Bose/",
+    "works": [
+     {
+      "citation": "On a class of error correcting binary group codes, Information and Control 3, 1960",
+      "year": 1960,
+      "url": "https://doi.org/10.1016/S0019-9958(60)90287-4",
+      "whyItMatters": "BCH codes."
+     }
+    ],
+    "roleNote": "BCH codes"
+   },
+   {
+    "name": "W. Wesley Peterson",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/W._Wesley_Peterson",
+    "works": [
+     {
+      "citation": "Encoding and error-correction procedures for the Bose-Chaudhuri codes, IRE Trans. IT-6, 1960",
+      "year": 1960,
+      "url": "https://doi.org/10.1109/TIT.1960.1057586",
+      "whyItMatters": "Decoding procedure for BCH codes."
+     },
+     {
+      "citation": "Error-Correcting Codes, MIT Press and Wiley, 1961",
+      "year": 1961,
+      "url": "https://openlibrary.org/search?q=error-correcting+codes+wesley+peterson",
+      "whyItMatters": "Textbook."
+     }
+    ],
+    "roleNote": "decoding and textbook"
+   },
+   {
+    "name": "Elwyn R. Berlekamp",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Elwyn_R._Berlekamp",
+    "works": [
+     {
+      "citation": "Algebraic Coding Theory, McGraw-Hill, 1968",
+      "year": 1968,
+      "url": "https://openlibrary.org/search?q=algebraic+coding+theory+berlekamp",
+      "whyItMatters": "Title uses the field name."
+     }
+    ],
+    "roleNote": "algebraic coding textbook"
+   }
+  ],
+  "notes": "Input summary is consistent with the record. Golay (1949) may precede Hamming; the Crossref lookup failed, so it is recorded here only. Hocquenghem's 1959 BCH discovery is not checked. The derived institutional date 1961 comes from Peterson's book because the naming (1968) is later. The 1977 MacWilliams-Sloane co-author is taken from the book's title page, not from the Open Library result.",
+  "derivedDates": {
+   "conceptual": 1950,
+   "methodological": 1960,
+   "institutional": 1961
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P267",
+  "eventId": "WB18",
+  "canonicalName": "Cellular automata and self-reproducing machines",
+  "aliases": [
+   "Cellular automata",
+   "Self-reproducing automata",
+   "Universal constructor",
+   "Von Neumann cellular automaton"
+  ],
+  "phases": [
+   "Los Alamos lattice ideas (1940s)",
+   "Von Neumann's self-reproduction (1951-1966)",
+   "Mathematical and popular treatment (1969-2002)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1951,
+    "endYear": null,
+    "precision": "year",
+    "label": "Von Neumann's general and logical theory of automata",
+    "work": "Von Neumann J., The general and logical theory of automata, in Jeffress L. A. (ed.), Cerebral Mechanisms in Behavior: The Hixon Symposium, Wiley, 1951",
+    "people": [
+     "John von Neumann"
+    ],
+    "description": "Von Neumann's Hixon Symposium talk on automata and self-reproduction, the first public statement of the self-reproducing machine idea (not yet cellular).",
+    "evidence": [
+     {
+      "claim": "Open Library record of the 1951 Hixon Symposium volume, which holds von Neumann's talk",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?q=cerebral+mechanisms+in+behavior",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia notes von Neumann's work on self-replicating systems",
+      "source": "Wikipedia, Self-replicating machine",
+      "url": "https://en.wikipedia.org/wiki/Self-replicating_machine",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The talk's presence in the 1951 volume is inferred from the Hixon Symposium volume record; contents not checked; medium confidence."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1962,
+    "endYear": null,
+    "precision": "year",
+    "label": "Ulam: patterns of growth of figures",
+    "work": "Ulam S., On some mathematical problems connected with patterns of growth of figures, Proc. Symp. Appl. Math. 14, 1962",
+    "people": [
+     "Stanislaw Ulam"
+    ],
+    "description": "Ulam published a formal account of lattice growth models, which later became the standard example of a cellular automaton.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Proc. Symp. Appl. Math. 14, 1962, DOI 10.1090/psapm/014/9947",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/psapm/014/9947",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Connection to cellular automata is inferred from the 1940s lattice-growth history; the text was not checked."
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1966,
+    "endYear": null,
+    "precision": "year",
+    "label": "Von Neumann's self-reproducing automaton in a cellular space",
+    "work": "Von Neumann J., Theory of Self-Reproducing Automata, ed. A. W. Burks, University of Illinois Press, 1966",
+    "people": [
+     "John von Neumann"
+    ],
+    "description": "The first full construction of a self-reproducing machine as a cellular automaton, published posthumously from manuscripts of the early 1950s.",
+    "evidence": [
+     {
+      "claim": "The edited Theory of Self-Reproducing Automata was published by University of Illinois Press in 1966.",
+      "source": "National Diet Library catalogue",
+      "url": "https://ndlsearch.ndl.go.jp/books/R100000002-I000006369183",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Publication governs the year, not the early manuscripts."
+   },
+   {
+    "role": "consolidation",
+    "phase": null,
+    "year": 1968,
+    "endYear": null,
+    "precision": "year",
+    "label": "Codd's monograph Cellular Automata",
+    "work": "E. F. Codd, Cellular Automata, Academic Press, New York 1968",
+    "people": [
+     "E. F. Codd"
+    ],
+    "description": "Codd's 1968 monograph is a systematic book on cellular automata, following von Neumann and Burks's 1966 book on self-reproduction.",
+    "evidence": [
+     {
+      "claim": "zbMATH 3338162: Codd, Cellular automata, New York-London: Academic Press, 1968",
+      "source": "zbMATH 0213.18301",
+      "url": "https://zbmath.org/?q=an:0213.18301",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1969,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hedlund: endomorphisms of the shift dynamical system",
+    "work": "Hedlund G. A., Endomorphisms and automorphisms of the shift dynamical system, Math. Systems Theory 3, 320-375, 1969",
+    "people": [
+     "Gustav A. Hedlund"
+    ],
+    "description": "Mathematical characterisation of cellular automata as endomorphisms of the full shift, which became the basis of the formal theory.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Math. Systems Theory 3, 320-375, 1969",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/BF01691062",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The claim that this is the foundational paper for the formal theory is the author's characterisation; the text was not checked."
+   },
+   {
+    "role": "key_development",
+    "phase": "Mathematical and popular treatment (1969-2002)",
+    "year": 2002,
+    "endYear": null,
+    "precision": "year",
+    "label": "Wolfram, A New Kind of Science",
+    "work": "Wolfram S., A New Kind of Science, Wolfram Media, 2002",
+    "people": [
+     "Stephen Wolfram"
+    ],
+    "description": "A 2002 book by Wolfram on cellular automata, published after the earlier monographs, so it is not the consolidation.",
+    "evidence": [
+     {
+      "claim": "Open Library record: Wolfram Media, 2002",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?q=a+new+kind+of+science",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Not the first systematic treatment; Codd (1968) is the consolidation milestone."
+   },
+   {
+    "role": "precursor",
+    "phase": "Los Alamos lattice ideas (1940s)",
+    "year": null,
+    "precision": "unknown",
+    "label": "Ulam's lattice growth and von Neumann's self-reproduction ideas (unpublished, 1940s)",
+    "work": null,
+    "people": [
+     "Stanislaw Ulam",
+     "John von Neumann"
+    ],
+    "description": "Ulam studied crystal-like growth on a lattice and von Neumann worked on self-reproducing systems at Los Alamos in the 1940s; these were not published at the time.",
+    "evidence": [
+     {
+      "claim": "Wikipedia says Ulam and von Neumann conceived the concept in the 1940s at Los Alamos",
+      "source": "Wikipedia, Cellular automaton (History)",
+      "url": "https://en.wikipedia.org/wiki/Cellular_automaton",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Undated precursor; the Wikipedia 1940s attribution is used without a year."
+   }
+  ],
+  "people": [
+   {
+    "name": "John von Neumann",
+    "role": "developer",
+    "lifespan": "1903-1957",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Von_Neumann/",
+    "works": [
+     {
+      "citation": "The general and logical theory of automata, Hixon Symposium, 1951",
+      "year": 1951,
+      "url": "https://openlibrary.org/search?q=cerebral+mechanisms+in+behavior",
+      "whyItMatters": "Public statement of self-reproducing automata."
+     },
+     {
+      "citation": "Theory of Self-Reproducing Automata, University of Illinois Press, 1966",
+      "year": 1966,
+      "url": "https://openlibrary.org/search?q=theory+of+self-reproducing+automata",
+      "whyItMatters": "First CA construction of a self-reproducing machine."
+     }
+    ],
+    "roleNote": "self-reproduction and cellular automata"
+   },
+   {
+    "name": "Stanislaw Ulam",
+    "role": "developer",
+    "lifespan": "1909-1984",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Ulam/",
+    "works": [
+     {
+      "citation": "On some mathematical problems connected with patterns of growth of figures, 1962",
+      "year": 1962,
+      "url": "https://doi.org/10.1090/psapm/014/9947",
+      "whyItMatters": "Formal account of lattice growth."
+     }
+    ],
+    "roleNote": "lattice growth models"
+   },
+   {
+    "name": "Gustav A. Hedlund",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Gustav_A._Hedlund",
+    "works": [
+     {
+      "citation": "Endomorphisms and automorphisms of the shift dynamical system, Math. Systems Theory 3, 1969",
+      "year": 1969,
+      "url": "https://doi.org/10.1007/BF01691062",
+      "whyItMatters": "Shift-endomorphism characterisation."
+     }
+    ],
+    "roleNote": "mathematical theory of cellular automata"
+   },
+   {
+    "name": "Stephen Wolfram",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Stephen_Wolfram",
+    "works": [
+     {
+      "citation": "A New Kind of Science, Wolfram Media, 2002",
+      "year": 2002,
+      "url": "https://openlibrary.org/search?q=a+new+kind+of+science",
+      "whyItMatters": "Large systematic treatment."
+     }
+    ],
+    "roleNote": "systematic monograph"
+   }
+  ],
+  "notes": "Input summary is correct in outline. The year 1951 is a medium-confidence statement that rests on the Hixon volume record. The earliest published cellular-automaton construction is von Neumann's 1966 book (publication governs). The naming (coinage of 'cellular automata') was not found in the sources checked; no naming milestone is recorded. Codd (1968; zbMATH 0213.18301) is the consolidation, and Wolfram 2002 is recorded as a key development.",
+  "derivedDates": {
+   "conceptual": 1951,
+   "methodological": 1966,
+   "institutional": 1968
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P270",
+  "eventId": "MB17",
+  "canonicalName": "Kantorovich's functional analysis for numerical methods",
+  "aliases": [
+   "Kantorovich spaces",
+   "K-spaces",
+   "Semi-ordered linear spaces",
+   "Newton-Kantorovich theorem"
+  ],
+  "phases": [
+   "Semi-ordered linear spaces (1935)",
+   "Application to numerical methods (1936-1948)",
+   "Textbook consolidation (1964)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": "Semi-ordered linear spaces (1935)",
+    "year": 1935,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kantorovich: semi-ordered linear spaces (K-spaces)",
+    "work": null,
+    "people": [
+     "Leonid Kantorovich"
+    ],
+    "description": "Kantorovich defined a new type of ordered linear space, now called a K-space, which became the basis for applying ordered spaces to analysis.",
+    "evidence": [
+     {
+      "claim": "MacTutor says Kantorovich defined K-spaces in 1935",
+      "source": "MacTutor, Kantorovich biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kantorovich/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Bibliographic record not located (Crossref did not index the Russian note); the year rests on MacTutor. zbMATH was blocked during this run."
+   },
+   {
+    "role": "first_application",
+    "phase": "Application to numerical methods (1936-1948)",
+    "year": 1936,
+    "endYear": null,
+    "precision": "year",
+    "label": "Semi-ordered spaces applied to numerical methods",
+    "work": null,
+    "people": [
+     "Leonid Kantorovich"
+    ],
+    "description": "Kantorovich applied semi-ordered spaces to numerical methods, the first purposeful use of the functional-analytic idea for approximation.",
+    "evidence": [
+     {
+      "claim": "MacTutor says the 1936 paper On one class of functional equations applied semi-ordered spaces to numerical methods",
+      "source": "MacTutor, Kantorovich biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kantorovich/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "The 1936 paper's citation is from MacTutor's text; no bibliographic record was retrieved."
+   },
+   {
+    "role": "key_development",
+    "phase": "Application to numerical methods (1936-1948)",
+    "year": 1948,
+    "endYear": null,
+    "precision": "year",
+    "label": "Newton-Kantorovich theorem on Newton's method",
+    "work": null,
+    "people": [
+     "Leonid Kantorovich"
+    ],
+    "description": "A semi-local convergence theorem for Newton's method, the functional-analytic result for which Kantorovich is best known in numerical analysis.",
+    "evidence": [
+     {
+      "claim": "Wikipedia says the Kantorovich theorem was first stated by Kantorovich in 1948",
+      "source": "Wikipedia, Kantorovich theorem",
+      "url": "https://en.wikipedia.org/wiki/Kantorovich_theorem",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Crossref did not retrieve the 1948 record; the year rests on Wikipedia."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Textbook consolidation (1964)",
+    "year": 1964,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kantorovich, Functional Analysis in Normed Spaces (English edition)",
+    "work": "Kantorovich L. V., Akilov G. P., Functional Analysis in Normed Spaces, Pergamon Press, 1964 (English edition)",
+    "people": [
+     "Leonid Kantorovich",
+     "G. P. Akilov"
+    ],
+    "description": "The English edition of the main textbook on functional analysis in normed spaces and its numerical applications.",
+    "evidence": [
+     {
+      "claim": "Open Library record: Pergamon Press, 1964",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?q=functional+analysis+in+normed+spaces",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Open Library lists Kantorovich as the only author; Akilov's co-authorship is from the book's title-page convention and was not verified here."
+   }
+  ],
+  "people": [
+   {
+    "name": "Leonid Kantorovich",
+    "role": "originator",
+    "lifespan": "(died 1986)",
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kantorovich/",
+    "works": [
+     {
+      "citation": "Kantorovich, Some theorems on semi-ordered spaces of general type, C. R. (Dokl.) Acad. Sci. URSS (N.S.) 1936, no. 2, 7-10",
+      "year": 1936,
+      "url": "https://zbmath.org/?q=an:0014.05601",
+      "whyItMatters": "Early theorems on semi-ordered (K-) spaces, the setting of the event."
+     },
+     {
+      "citation": "Kantorovich, On a class of functional equations, C. R. (Dokl.) Acad. Sci. URSS (N.S.) 1936, no. 4, 219-224",
+      "year": 1936,
+      "url": "https://zbmath.org/?q=an:0015.35501",
+      "whyItMatters": "Early 1936 functional-equation paper, a step toward his numerical-methods work."
+     },
+     {
+      "citation": "Kantorovich L. V., Akilov G. P., Functional Analysis in Normed Spaces, Pergamon, 1964",
+      "year": 1964,
+      "url": "https://openlibrary.org/search?q=functional+analysis+in+normed+spaces",
+      "whyItMatters": "Consolidating textbook."
+     }
+    ],
+    "roleNote": "introduced semi-ordered spaces; numerical methods"
+   },
+   {
+    "name": "G. P. Akilov",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/G._P._Akilov",
+    "works": [
+     {
+      "citation": "Kantorovich L. V., Akilov G. P., Functional Analysis in Normed Spaces, Pergamon, 1964",
+      "year": 1964,
+      "url": "https://openlibrary.org/search?q=functional+analysis+in+normed+spaces",
+      "whyItMatters": "Co-authored textbook; co-authorship not confirmed in Open Library."
+     }
+    ],
+    "roleNote": "co-author of the consolidating textbook"
+   }
+  ],
+  "notes": "Input summary says 'ordered vector spaces and normed spaces'; the MacTutor sources confirm ordered (K-) spaces and numerical application. The 1935 and 1936 milestones rest on MacTutor and have no bibliographic records, so they carry medium confidence. zbMATH lookup was blocked (Cloudflare) so the 1937 Mathematicheskii Sbornik paper was not verified. The naming (K-spaces named after Kantorovich) has no dated record. The 1935 K-space note could not be confirmed; the 1936 Doklady papers were confirmed in zbMATH and replace it.",
+  "derivedDates": {
+   "conceptual": 1935,
+   "methodological": 1936,
+   "institutional": 1964
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P271",
+  "eventId": "MB96",
+  "canonicalName": "Feynman-Kac formula",
+  "aliases": [
+   "Feynman-Kac path integral",
+   "Kac formula",
+   "Feynman-Kac representation"
+  ],
+  "phases": [
+   "Physical path integrals (1948)",
+   "Wiener-functional formulation (1949-1951)",
+   "Functional-integration monograph (1979)",
+   "Quantum Monte Carlo applications (1988)"
+  ],
+  "milestones": [
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": 1948,
+    "endYear": null,
+    "precision": "year",
+    "label": "Feynman's space-time approach to quantum mechanics",
+    "work": "Feynman R. P., Space-time approach to non-relativistic quantum mechanics, Rev. Mod. Phys. 20, 367-387, 1948",
+    "people": [
+     "Richard Feynman"
+    ],
+    "description": "Feynman's path-integral formulation of non-relativistic quantum mechanics, the physical side of the later link to diffusion.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Rev. Mod. Phys. 20, 367-387, 1948",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1103/RevModPhys.20.367",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia says the formula relates to Feynman's path integrals and Kac's work, 1947-1949",
+      "source": "Wikipedia, Feynman-Kac formula",
+      "url": "https://en.wikipedia.org/wiki/Feynman%E2%80%93Kac_formula",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Precursor: physical path integral, not the Wiener/Brownian expectation identity. Feynman's 1942 thesis is not checked."
+   },
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1949,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kac: distributions of Wiener functionals",
+    "work": "Kac M., On distributions of certain Wiener functionals, Trans. Amer. Math. Soc. 65, 1-13, 1949",
+    "people": [
+     "Mark Kac"
+    ],
+    "description": "Kac expressed solutions of the heat and Schrodinger-type equations as expectations over Wiener (Brownian) paths, the probabilistic formulation of the formula.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Trans. AMS 65, 1-13, 1949",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1990512",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia says the original formulation about Wiener functionals was published by Kac in 1949",
+      "source": "Wikipedia, Feynman-Kac formula",
+      "url": "https://en.wikipedia.org/wiki/Feynman%E2%80%93Kac_formula",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1949,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kac applies the Wiener-functional formula to distributions of functionals",
+    "work": "M. Kac, On distributions of certain Wiener functionals, Trans. Amer. Math. Soc. 65 (1949) 1-13",
+    "people": [
+     "Mark Kac"
+    ],
+    "description": "Kac uses the Wiener-functional formula to compute distributions of functionals of Brownian paths, the first purposeful use in the sources checked.",
+    "evidence": [
+     {
+      "claim": "Crossref: Trans. AMS 65 (1949) 1-13, On distributions of certain Wiener functionals",
+      "source": "Crossref, Kac 1949",
+      "url": "https://doi.org/10.1090/s0002-9947-1949-0027960-x",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Same paper as the 1949 first_statement; it plays both roles, since it states the formula and applies it to distributions."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1951,
+    "endYear": null,
+    "precision": "year",
+    "label": "Kac: connections between probability theory and differential equations",
+    "work": "Kac M., On some connections between probability theory and differential and integral equations, Proc. 2nd Berkeley Symp., 1951",
+    "people": [
+     "Mark Kac"
+    ],
+    "description": "A broader treatment of the link between probability and differential and integral equations, extending the Wiener-functional identity.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Proc. Second Berkeley Symp., 1951, DOI 10.1525/9780520411586-016",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1525/9780520411586-016",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Content inferred from the title and the Wikipedia history; the text was not checked."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Functional-integration monograph (1979)",
+    "year": 1979,
+    "endYear": null,
+    "precision": "year",
+    "label": "Simon, Functional Integration and Quantum Physics",
+    "work": "Simon B., Functional Integration and Quantum Physics, Academic Press, 1979",
+    "people": [
+     "Barry Simon"
+    ],
+    "description": "A monograph treating the functional-integral (Feynman-Kac) representation as a tool in quantum physics.",
+    "evidence": [
+     {
+      "claim": "Open Library record: Academic Press, 1979",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?q=functional+integration+and+quantum+physics",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Priority as the first systematic monograph was not checked; earlier surveys may exist."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1988,
+    "endYear": null,
+    "precision": "year",
+    "label": "Quantum Monte Carlo with the Feynman-Kac formula",
+    "work": "Caffarel M., Claverie P., Development of a pure diffusion quantum Monte Carlo method using a full generalized Feynman-Kac formula, J. Chem. Phys. 88, 1988",
+    "people": [
+     "Michel Caffarel",
+     "Pierre Claverie"
+    ],
+    "description": "A pure diffusion quantum Monte Carlo method built on the generalised Feynman-Kac formula, applied to the Schrodinger equation in quantum chemistry.",
+    "evidence": [
+     {
+      "claim": "Crossref record: J. Chem. Phys., 1988, DOI 10.1063/1.454227",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1063/1.454227",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia says the formula is used in quantum chemistry with pure diffusion Monte Carlo",
+      "source": "Wikipedia, Feynman-Kac formula",
+      "url": "https://en.wikipedia.org/wiki/Feynman%E2%80%93Kac_formula",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Recorded as a key development: Kac's 1949 paper is an earlier application."
+   }
+  ],
+  "people": [
+   {
+    "name": "Mark Kac",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Kac/",
+    "works": [
+     {
+      "citation": "On distributions of certain Wiener functionals, Trans. AMS 65, 1949",
+      "year": 1949,
+      "url": "https://doi.org/10.2307/1990512",
+      "whyItMatters": "Original formulation for Wiener functionals."
+     },
+     {
+      "citation": "On some connections between probability theory and differential and integral equations, 1951",
+      "year": 1951,
+      "url": "https://doi.org/10.1525/9780520411586-016",
+      "whyItMatters": "Broader treatment."
+     }
+    ],
+    "roleNote": "Wiener-functional formulation (1949)"
+   },
+   {
+    "name": "Richard Feynman",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Feynman/",
+    "works": [
+     {
+      "citation": "Space-time approach to non-relativistic quantum mechanics, Rev. Mod. Phys. 20, 1948",
+      "year": 1948,
+      "url": "https://doi.org/10.1103/RevModPhys.20.367",
+      "whyItMatters": "Path-integral formulation of quantum mechanics."
+     }
+    ],
+    "roleNote": "physical path integral (1948)"
+   },
+   {
+    "name": "Michel Caffarel",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Michel_Caffarel",
+    "works": [
+     {
+      "citation": "Development of a pure diffusion quantum Monte Carlo method ..., J. Chem. Phys. 88, 1988",
+      "year": 1988,
+      "url": "https://doi.org/10.1063/1.454227",
+      "whyItMatters": "Quantum-chemistry application."
+     }
+    ],
+    "roleNote": "diffusion quantum Monte Carlo (1988)"
+   },
+   {
+    "name": "Barry Simon",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Barry_Simon",
+    "works": [
+     {
+      "citation": "Functional Integration and Quantum Physics, Academic Press, 1979",
+      "year": 1979,
+      "url": "https://openlibrary.org/search?q=functional+integration+and+quantum+physics",
+      "whyItMatters": "Monograph consolidation."
+     }
+    ],
+    "roleNote": "functional integration monograph"
+   }
+  ],
+  "notes": "Input summary is correct in outline. The name 'Feynman-Kac' is attributed to both by Wikipedia, but no naming year is recorded, so no naming milestone is recorded. Kac's 1949 paper (Crossref) is the earliest application in the sources checked, so the 1988 quantum-chemistry use is recorded as a key development; earlier uses in probability are not excluded. Feynman's 1942 PhD thesis is a precursor not checked here.",
+  "derivedDates": {
+   "conceptual": 1949,
+   "methodological": 1949,
+   "institutional": 1979
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P281",
+  "eventId": "MB24",
+  "canonicalName": "Lie algebra cohomology",
+  "aliases": [
+   "Chevalley-Eilenberg cohomology",
+   "Cohomology of Lie algebras",
+   "Chevalley-Eilenberg complex"
+  ],
+  "phases": [
+   "Algebraic cohomology of Lie groups (1948)",
+   "Extension to modules and spectral sequences (1950-1953)",
+   "Textbook consolidation (1962)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1948,
+    "endYear": null,
+    "precision": "year",
+    "label": "Chevalley and Eilenberg: cohomology theory of Lie groups and Lie algebras",
+    "work": "Chevalley C., Eilenberg S., Cohomology theory of Lie groups and Lie algebras, Trans. Amer. Math. Soc. 63, 85-124, 1948",
+    "people": [
+     "Claude Chevalley",
+     "Samuel Eilenberg"
+    ],
+    "description": "The algebraic cohomology of a Lie algebra, defined for the first time with the Chevalley-Eilenberg complex.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Trans. AMS, 1948, DOI 10.1090/S0002-9947-1948-0024908-8",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/S0002-9947-1948-0024908-8",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says Eilenberg and Chevalley gave an algebraic approach to the cohomology of Lie groups in 1948",
+      "source": "MacTutor, Eilenberg biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Eilenberg/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "first_application",
+    "phase": null,
+    "year": 1948,
+    "endYear": null,
+    "precision": "year",
+    "label": "Algebraic computation of the cohomology of compact Lie groups",
+    "work": "Chevalley C., Eilenberg S., Trans. Amer. Math. Soc. 63, 85-124, 1948",
+    "people": [
+     "Claude Chevalley",
+     "Samuel Eilenberg"
+    ],
+    "description": "The same 1948 paper computes the cohomology of compact Lie groups from the Lie algebra, the first purposeful use of the theory.",
+    "evidence": [
+     {
+      "claim": "MacTutor says the 1948 paper gave an algebraic approach to Lie-group cohomology via Lie algebras",
+      "source": "MacTutor, Eilenberg biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Eilenberg/",
+      "kind": "history_page"
+     },
+     {
+      "claim": "Crossref record for the 1948 paper",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/S0002-9947-1948-0024908-8",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "high",
+    "note": "Same paper as the first statement, repeated because it is both the statement and the first computation; no separate application paper was identified."
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1950,
+    "endYear": null,
+    "precision": "year",
+    "label": "Koszul: homology and cohomology of Lie algebras (modules)",
+    "work": "Koszul J.-L., Homologie et cohomologie des algebres de Lie, Bull. Soc. Math. France 78, 65-127, 1950",
+    "people": [
+     "Jean-Louis Koszul"
+    ],
+    "description": "Koszul extended the cohomology theory to arbitrary Lie modules.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Bull. SMF 78, 65-127, 1950",
+      "source": "Crossref",
+      "url": "https://doi.org/10.24033/bsmf.1410",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia says the theory was extended by Koszul to coefficients in an arbitrary Lie module",
+      "source": "Wikipedia, Lie algebra cohomology",
+      "url": "https://en.wikipedia.org/wiki/Lie_algebra_cohomology",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1953,
+    "endYear": null,
+    "precision": "year",
+    "label": "Hochschild and Serre: cohomology of Lie algebras",
+    "work": "Hochschild G., Serre J.-P., Cohomology of Lie algebras, Ann. of Math. 57, 591-603, 1953",
+    "people": [
+     "Gerhard Hochschild",
+     "Jean-Pierre Serre"
+    ],
+    "description": "Hochschild and Serre gave a spectral-sequence treatment of the cohomology of Lie algebras relative to subalgebras.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Ann. of Math. 57, 591-603, 1953",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/1969740",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor Hochschild biography lists the 1953 Annals paper with Serre",
+      "source": "MacTutor, Gerhard Hochschild biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hochschild/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high",
+    "note": "Content claim paraphrased from the standard result; the text was not read."
+   },
+   {
+    "role": "consolidation",
+    "phase": "Textbook consolidation (1962)",
+    "year": 1962,
+    "endYear": null,
+    "precision": "year",
+    "label": "Jacobson, Lie Algebras",
+    "work": "Jacobson N., Lie Algebras, Interscience, 1962",
+    "people": [
+     "Nathan Jacobson"
+    ],
+    "description": "A textbook treatment of Lie algebras, including their cohomology, consolidating the theory.",
+    "evidence": [
+     {
+      "claim": "Open Library record: Interscience, 1962",
+      "source": "Open Library",
+      "url": "https://openlibrary.org/search?q=lie+algebras+jacobson",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Priority as the first textbook on this subject was not checked; the record is a general Lie-algebra text."
+   }
+  ],
+  "people": [
+   {
+    "name": "Claude Chevalley",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Chevalley/",
+    "works": [
+     {
+      "citation": "Cohomology theory of Lie groups and Lie algebras, Trans. AMS 63, 1948",
+      "year": 1948,
+      "url": "https://doi.org/10.1090/S0002-9947-1948-0024908-8",
+      "whyItMatters": "Defines the Chevalley-Eilenberg complex."
+     }
+    ],
+    "roleNote": "Chevalley-Eilenberg complex (1948)"
+   },
+   {
+    "name": "Samuel Eilenberg",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Eilenberg/",
+    "works": [
+     {
+      "citation": "Cohomology theory of Lie groups and Lie algebras, Trans. AMS 63, 1948",
+      "year": 1948,
+      "url": "https://doi.org/10.1090/S0002-9947-1948-0024908-8",
+      "whyItMatters": "Co-author."
+     }
+    ],
+    "roleNote": "co-author of 1948 theory"
+   },
+   {
+    "name": "Jean-Louis Koszul",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Koszul/",
+    "works": [
+     {
+      "citation": "Homologie et cohomologie des algebres de Lie, Bull. SMF 78, 1950",
+      "year": 1950,
+      "url": "https://doi.org/10.24033/bsmf.1410",
+      "whyItMatters": "Extension to arbitrary Lie modules."
+     }
+    ],
+    "roleNote": "extension to modules (1950)"
+   },
+   {
+    "name": "Gerhard Hochschild",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Hochschild/",
+    "works": [
+     {
+      "citation": "Cohomology of Lie algebras (with Serre), Ann. of Math. 57, 1953",
+      "year": 1953,
+      "url": "https://doi.org/10.2307/1969740",
+      "whyItMatters": "Hochschild-Serre spectral sequence for Lie algebras."
+     }
+    ],
+    "roleNote": "spectral-sequence treatment (1953)"
+   },
+   {
+    "name": "Nathan Jacobson",
+    "role": "systematiser",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Jacobson/",
+    "works": [
+     {
+      "citation": "Lie Algebras, Interscience, 1962",
+      "year": 1962,
+      "url": "https://openlibrary.org/search?q=lie+algebras+jacobson",
+      "whyItMatters": "Textbook."
+     }
+    ],
+    "roleNote": "textbook consolidation (1962)"
+   }
+  ],
+  "notes": "Input summary is correct. The 1948 paper plays both the first statement and first application roles, recorded twice with a note. Naming: no dated naming record for 'Lie algebra cohomology' was found, so no naming milestone. Hochschild's 1946 work on the cohomology of group extensions is not part of this event.",
+  "derivedDates": {
+   "conceptual": 1948,
+   "methodological": 1948,
+   "institutional": 1962
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ },
+ {
+  "pid": "P023",
+  "eventId": "E31",
+  "canonicalName": "Weil conjectures",
+  "aliases": [
+   "Weil conjecture",
+   "Zeta functions of varieties over finite fields",
+   "Topology enters arithmetic"
+  ],
+  "phases": [
+   "Riemann hypothesis for curves (1940s, undated)",
+   "Weil's conjectures (1949)",
+   "Rationality and cohomology (1960-1965)",
+   "Riemann hypothesis proof (1974)"
+  ],
+  "milestones": [
+   {
+    "role": "first_statement",
+    "phase": null,
+    "year": 1949,
+    "endYear": null,
+    "precision": "year",
+    "label": "Weil: numbers of solutions of equations in finite fields",
+    "work": "Weil A., Numbers of solutions of equations in finite fields, Bull. Amer. Math. Soc. 55, 497-508, 1949",
+    "people": [
+     "Andre Weil"
+    ],
+    "description": "Weil stated the conjectures on the zeta function of varieties over finite fields, with the analogy to topology.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Bull. AMS 55, 497-508, 1949",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1090/S0002-9904-1949-09219-4",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "MacTutor says Weil raised the conjectures in 1949",
+      "source": "MacTutor, Andre Weil biography",
+      "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Weil/",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1960,
+    "endYear": null,
+    "precision": "year",
+    "label": "Dwork: rationality of the zeta function",
+    "work": "Dwork B., On the rationality of the zeta function of an algebraic variety, Amer. J. Math. 82, 631-648, 1960",
+    "people": [
+     "Bernard Dwork"
+    ],
+    "description": "Dwork proved the rationality part of the Weil conjectures, using p-adic methods.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Amer. J. Math. 82, 631-648, 1960",
+      "source": "Crossref",
+      "url": "https://doi.org/10.2307/2372974",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia says the rationality was proved first by Dwork using p-adic methods",
+      "source": "Wikipedia, Weil conjectures",
+      "url": "https://en.wikipedia.org/wiki/Weil_conjectures",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1965,
+    "endYear": null,
+    "precision": "year",
+    "label": "Grothendieck: cohomology proof of the functional equation (Lefschetz formula)",
+    "work": "Grothendieck A., Formule de Lefschetz et rationalite des fonctions L, Seminaire Bourbaki 279, 1964/65",
+    "people": [
+     "Alexander Grothendieck"
+    ],
+    "description": "Grothendieck's cohomological framework gave the functional equation of the zeta function, using the Lefschetz trace formula.",
+    "evidence": [
+     {
+      "claim": "Wikipedia cites Grothendieck (1965) for the functional equation",
+      "source": "Wikipedia, Weil conjectures",
+      "url": "https://en.wikipedia.org/wiki/Weil_conjectures",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Bibliographic record not retrieved (zbMATH blocked); year from Wikipedia's citation."
+   },
+   {
+    "role": "naming",
+    "phase": null,
+    "year": 1968,
+    "precision": "year",
+    "label": "Kleiman titles a survey with the Weil conjectures name",
+    "work": "Kleiman, S. L., Algebraic cycles and the Weil conjectures, 1968",
+    "people": [
+     "Kleiman"
+    ],
+    "description": "Earliest zbMATH title found that uses the Weil conjectures name.",
+    "evidence": [
+     {
+      "claim": "zbMATH record: \"Algebraic cycles and the Weil conjectures\", Kleiman, 1968",
+      "source": "zbMATH Open doc 3315839",
+      "url": "https://api.zbmath.org/v1/document/3315839",
+      "kind": "bibliographic_record"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Lubkin 1968 (\"A p-adic proof of Weil's conjectures\") is the same year; no title with the name in 1949-1967.",
+    "endYear": null
+   },
+   {
+    "role": "key_development",
+    "phase": null,
+    "year": 1974,
+    "endYear": null,
+    "precision": "year",
+    "label": "Deligne: the Riemann hypothesis analogue for Weil conjectures",
+    "work": "Deligne P., La conjecture de Weil I, Publ. Math. IHES 43, 273-307, 1974",
+    "people": [
+     "Pierre Deligne"
+    ],
+    "description": "Deligne proved the analogue of the Riemann hypothesis for varieties over finite fields, completing the Weil conjectures.",
+    "evidence": [
+     {
+      "claim": "Crossref record: Publ. Math. IHES 43, 273-307, 1974",
+      "source": "Crossref",
+      "url": "https://doi.org/10.1007/BF02684373",
+      "kind": "bibliographic_record"
+     },
+     {
+      "claim": "Wikipedia says the Riemann hypothesis analogue was proved by Deligne",
+      "source": "Wikipedia, Weil conjectures",
+      "url": "https://en.wikipedia.org/wiki/Weil_conjectures",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "high"
+   },
+   {
+    "role": "precursor",
+    "phase": null,
+    "year": null,
+    "endYear": null,
+    "precision": "unknown",
+    "label": "Gauss's antecedent on counting points on curves",
+    "work": null,
+    "people": [
+     "Carl Friedrich Gauss"
+    ],
+    "description": "Wikipedia names Gauss's work as the earliest antecedent, in the section of his Disquisitiones on congruences.",
+    "evidence": [
+     {
+      "claim": "Wikipedia says the earliest antecedent is by Gauss",
+      "source": "Wikipedia, Weil conjectures (Background)",
+      "url": "https://en.wikipedia.org/wiki/Weil_conjectures",
+      "kind": "history_page"
+     }
+    ],
+    "confidence": "medium",
+    "note": "Year not established from the text checked; not dated."
+   }
+  ],
+  "people": [
+   {
+    "name": "Andre Weil",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Weil/",
+    "works": [
+     {
+      "citation": "Numbers of solutions of equations in finite fields, Bull. AMS 55, 1949",
+      "year": 1949,
+      "url": "https://doi.org/10.1090/S0002-9904-1949-09219-4",
+      "whyItMatters": "Statement of the conjectures."
+     }
+    ],
+    "roleNote": "stated the conjectures (1949)"
+   },
+   {
+    "name": "Bernard Dwork",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://en.wikipedia.org/wiki/Bernard_Dwork",
+    "works": [
+     {
+      "citation": "On the rationality of the zeta function of an algebraic variety, Amer. J. Math. 82, 1960",
+      "year": 1960,
+      "url": "https://doi.org/10.2307/2372974",
+      "whyItMatters": "First proof of rationality."
+     }
+    ],
+    "roleNote": "rationality (1960)"
+   },
+   {
+    "name": "Alexander Grothendieck",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Grothendieck/",
+    "works": [
+     {
+      "citation": "Grothendieck, Formule de Lefschetz et rationalité des fonctions L, Séminaire Bourbaki 279 (1964/65), published 1966",
+      "year": 1966,
+      "url": "https://zbmath.org/?q=an:0199.24802",
+      "whyItMatters": "Cohomological route to the rationality and functional equation of zeta functions."
+     }
+    ],
+    "roleNote": "cohomological framework (1965)"
+   },
+   {
+    "name": "Pierre Deligne",
+    "role": "developer",
+    "lifespan": null,
+    "biographyUrl": "https://mathshistory.st-andrews.ac.uk/Biographies/Deligne/",
+    "works": [
+     {
+      "citation": "La conjecture de Weil I, Publ. Math. IHES 43, 1974",
+      "year": 1974,
+      "url": "https://doi.org/10.1007/BF02684373",
+      "whyItMatters": "Completes the Weil conjectures."
+     }
+    ],
+    "roleNote": "Riemann hypothesis analogue (1974)"
+   }
+  ],
+  "notes": "Input summary is correct in outline, and the 'topology enters arithmetic' framing matches Weil's analogy. The Riemann hypothesis for curves (Weil's 1940s proof) is undated in the sources checked, so it is not a milestone. No first_application is established, so the methodological derived date is null. Naming and consolidation not established; the institutional derived date is null. Grothendieck's 1965 record and Gauss's antecedent are not retrieved from primary sources. Bourbaki exposé 279 is confirmed in zbMATH (published 1966; seminar year 1964/65).",
+  "derivedDates": {
+   "conceptual": 1949,
+   "methodological": null,
+   "institutional": 1968
+  },
+  "pass": "source-first (Sonnet/Haiku), unadjudicated"
+ }
+]
