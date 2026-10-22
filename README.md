@@ -4,6 +4,10 @@ An atlas of mathematics through time. Each island is a field; it appears at its 
 
 Open `public/index.html` through any static server (`npm run serve`, then http://localhost:5174). Press the gear for search, the time-lapse, themes and event types.
 
+## Licence
+
+CC0 1.0 for the code and our own data; portraits, fonts and source-derived text keep their own terms (see `NOTICE.md`).
+
 ## Build
 
 The committed `public/` is the built site. To regenerate it:
