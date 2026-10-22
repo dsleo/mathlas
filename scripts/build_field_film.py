@@ -18,17 +18,14 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from field_map_taxonomy import LANES, map_lane  # noqa: E402
 
-SRC = ROOT / "data/source/field-emergence-explorer.html"
+SRC = ROOT / "data/events.json"
 OUT = ROOT / "data/field-film.json"
 STOPS = [-2000, -1000, -500, 0, 500, 1000, 1300, 1500, 1600, 1700, 1750, 1800, 1850, 1900, 1925, 1950, 1975, 2000, 2025]
 LINK_TYPES = {"birth-by-fusion": "fusion", "technique-transfer": "transfer", "dictionary-analogy": "analogy", "birth-by-abstraction": "abstraction", "reification": "reification", "split": "split"}
 
 
 def load_events():
-    html = SRC.read_text()
-    start = html.index('[{"pid"')
-    events, _ = json.JSONDecoder().raw_decode(html[start:])
-    return events
+    return json.loads(SRC.read_text())
 
 
 def lane_of_label(label):

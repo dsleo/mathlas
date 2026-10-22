@@ -1,6 +1,6 @@
 # Research notes
 
-What we keep from the research behind the 553 events, for extending and checking the map. The events themselves are in `data/source/field-emergence-explorer.html`.
+What we keep from the research behind the 553 events, for extending and checking the map. The events themselves are in `data/events.json`.
 
 - `enrichment/MILESTONE_SCHEMA.md`: the milestone format and roles (precursor, first statement, first application, …) and the dating rules. Follow it when adding or correcting an event.
 - `enrichment/STATUS.md`: where the checking stands (directly checked versus source-first events).

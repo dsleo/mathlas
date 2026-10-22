@@ -12,7 +12,9 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - id: rec
-        run: echo "n=$(python3 scripts/record_correction.py)" >> "$GITHUB_OUTPUT"
+        run: |
+          echo "n=$(python3 scripts/record_correction.py)" >> "$GITHUB_OUTPUT"
+          python3 scripts/correction_brief.py > "$RUNNER_TEMP/brief.md"
       - name: Open a pull request
         if: steps.rec.outputs.n != ''
         env:
@@ -26,5 +28,5 @@ jobs:
           git add public/data/corrections.json
           git commit -m "Record accepted correction #$N"
           git push origin "$branch"
-          gh pr create --base main --head "$branch" --title "Record accepted correction #$N" \
-            --body "Adds the accepted correction from #$N to the margin notes. Make the actual data fix in this pull request too, then merge. Closes #$N."
+          { cat "$RUNNER_TEMP/brief.md"; printf '\n\n---\nThis pull request adds the margin note. To apply the correction, ask an agent to "apply the brief in this pull request", or edit `data/events.json` by hand, then merge. Closes #%s.\n' "$N"; } > "$RUNNER_TEMP/body.md"
+          gh pr create --base main --head "$branch" --title "Record accepted correction #$N" --body-file "$RUNNER_TEMP/body.md"

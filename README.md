@@ -71,7 +71,7 @@ The raw research behind the events (catalogues, milestone research per event, va
 
 ### Corrections
 
-Every event card (and its core sample) has a pencil (✎) at the top right that opens a pre-filled GitHub issue (event, milestone, the page you were on, and a short form: what needs fixing, what it should say, a source). A GitHub account is needed. To accept one, add the label `accepted` and close the issue as completed: a workflow then opens a pull request that records it in `public/data/corrections.json`. Make the real data fix in that pull request and merge. Accepted corrections show in the margin of the milestone, credited to the contributor.
+Every event card (and its core sample) has a pencil (✎) at the top right that opens a pre-filled GitHub issue (event, milestone, the page you were on, and a short form: what needs fixing, what it should say, a source). A GitHub account is needed. To accept one, add the label `accepted` and close the issue as completed: a workflow then opens a pull request that records it in `public/data/corrections.json`. The pull request body carries a ready-made brief (what was reported, the current record, the source offered): ask an AI agent to "apply the brief in this pull request" (it follows [`AGENTS.md`](AGENTS.md)) or edit `data/events.json` by hand, rebuild, and merge. Accepted corrections show in the margin of the milestone, credited to the contributor.
 
 ## Licence
 
@@ -83,13 +83,13 @@ The committed `public/` is the built site. To regenerate it:
 
 ```bash
 npm install
-npm run build          # data/source/field-emergence-explorer.html -> public/
+npm run build          # data/events.json -> public/
 npm run layout         # optional: recompute island positions (needs numpy, scipy)
 npm run portraits      # optional: fetch missing portraits from Wikimedia Commons
 npm run serve          # http://localhost:5174
 ```
 
-- `data/source/field-emergence-explorer.html` holds the 553 events (embedded JSON).
+- `data/events.json` holds the 553 events (embedded JSON).
 - `scripts/build_field_film.py` assigns events to fields, picks main events, symbols and landmarks, and writes the page from `scripts/film_template.html`.
 - `scripts/build_film_art.mjs` draws each island with the terrain generator in `src/`.
 
