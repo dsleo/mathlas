@@ -69,9 +69,17 @@ Every event is one of seven types. The type says *how* mathematics changed, and 
 
 The raw research behind the events (catalogues, milestone research per event, validation scripts) is archived in [`research/`](research/).
 
-### Corrections
+## Collaborative editing
 
-Every event card (and its core sample) has a pencil (✎) at the top right that opens a pre-filled GitHub issue (event, milestone, the page you were on, and a short form: what needs fixing, what it should say, a source). A GitHub account is needed. To accept one, add the label `accepted` and close the issue as completed: a workflow then opens a pull request that records it in `public/data/corrections.json`. The pull request body carries a ready-made brief (what was reported, the current record, the source offered): ask an AI agent to "apply the brief in this pull request" (it follows [`AGENTS.md`](AGENTS.md)) or edit `data/events.json` by hand, rebuild, and merge. Accepted corrections show in the margin of the milestone, credited to the contributor.
+Anyone with a GitHub account can propose a correction; the maintainer decides, and an AI agent or a person applies it. No data changes without review.
+
+1. **Propose.** Every event card and its core sample has a pencil (✎) at the top right. It opens a pre-filled GitHub issue (event, the page you were on) with a short form: what needs fixing, what it should say, a source.
+2. **Accept.** The maintainer reviews the issue. To accept it, add the label `accepted` and close it as completed.
+3. **Brief.** A workflow opens a pull request that records the correction in `public/data/corrections.json` and carries a ready-made brief: what was reported, the current record of the milestone, the source offered.
+4. **Apply.** Ask an AI agent to "apply the brief in this pull request" (it follows [`AGENTS.md`](AGENTS.md)), or edit `data/events.json` by hand. The agent checks the claim against the source, edits only what is concerned, rebuilds and commits to the pull request. If the source does not support it, it changes nothing and says why.
+5. **Merge.** Merging deploys the site. The corrected milestone shows a dashed margin note, "✎ text, @contributor, #issue", crediting the contributor.
+
+`scripts/correction_brief.py --issue N` writes the same brief for any issue.
 
 ## Licence
 
