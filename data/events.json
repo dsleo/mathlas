@@ -669,8 +669,11 @@
   "product": "Calculus / analysis",
   "why": "Tangent, quadrature and series techniques are unified into an algorithm with a notation, with the inverse relation between differentiation and integration as its core.",
   "cat": "Seed set A",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "institutional": "B"
+  },
   "shown": {
    "conceptual": {
     "y": 1684,
@@ -713,15 +716,21 @@
     "pe": [
      "Isaac Barrow"
     ],
-    "d": "Barrow's lectures, edited by Collins, give a tangent method close to calculus and recognise integration and differentiation as inverse.",
+    "d": "Barrow's geometrical lectures give a tangent method close to the differential calculus and a geometric proof that areas and tangents are inverse problems.",
     "ph": "Newton's fluxions (private)",
     "c": "medium",
-    "n": "MacTutor claims Barrow as first to recognise the inverse relation; recorded as a precursor, not verified independently.",
+    "n": "Role kept as precursor: his method is case by case, not a general algorithm. Publication year 1670 agrees across MacTutor and Wikipedia (the Wikipedia body text says 1669, its work list 1670).",
     "ev": [
      {
       "c": "Lectiones Geometricae published 1670; Barrow first to recognise differentiation and integration as inverse operations.",
       "s": "MacTutor biography of Barrow",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Barrow/",
+      "k": "history_page"
+     },
+     {
+      "c": "Lectiones geometricae listed as 1670; Barrow credited with a proof of the fundamental theorem and a differential-triangle tangent method.",
+      "s": "English Wikipedia, Isaac Barrow",
+      "u": "https://en.wikipedia.org/wiki/Isaac_Barrow",
       "k": "history_page"
      }
     ]
@@ -739,12 +748,53 @@
     "d": "Newton unified area, tangent, length and extremum problems under the method of fluxions, with integration as the inverse of differentiation, but kept it unpublished.",
     "ph": "Newton's fluxions (private)",
     "c": "high",
-    "n": "Newton's foundations date earlier (1660s, MacTutor); private, so a precursor and not a derived date.",
+    "n": "Newton's foundations date earlier (1665-67 tracts); private, so a precursor and not a derived date. A 1736 print (Colson) and 1737 (1666 tract) are far later than the Leibniz 1684 statement.",
     "ev": [
      {
       "c": "Method of fluxions; De methodis written 1671, not printed until Colson's 1736 translation.",
       "s": "MacTutor biography of Newton",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Newton/",
+      "k": "history_page"
+     },
+     {
+      "c": "Newton began the method of fluxions about 1665-67 and finished the treatise in 1671; it was published only in 1736 (Colson).",
+      "s": "English Wikipedia, Method of Fluxions",
+      "u": "https://en.wikipedia.org/wiki/Method_of_Fluxions",
+      "k": "history_page"
+     },
+     {
+      "c": "Newton's October 1666 tract on fluxions was not published until 1737; De analysi (1669) and the Method of Fluxions (1671) were written but not printed.",
+      "s": "English Wikipedia, Leibniz-Newton calculus controversy",
+      "u": "https://en.wikipedia.org/wiki/Leibniz%E2%80%93Newton_calculus_controversy",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "precursor",
+    "y": 1675,
+    "ye": null,
+    "p": "year",
+    "l": "Leibniz's private notebooks introduce differentials and the integral sign",
+    "w": "Leibniz, manuscript notebooks, 1675 (unpublished)",
+    "pe": [
+     "Gottfried Wilhelm Leibniz"
+    ],
+    "d": "In 1675 Leibniz first wrote differentials and the long-s integral sign in private notebooks, nine years before any print.",
+    "ph": "Leibniz's published calculus",
+    "c": "medium",
+    "n": "Private, so a precursor; the print dates are 1684 (differential) and 1686 (integral sign).",
+    "ev": [
+     {
+      "c": "Leibniz's notebooks of 1675 first show differentials.",
+      "s": "English Wikipedia, Leibniz-Newton calculus controversy",
+      "u": "https://en.wikipedia.org/wiki/Leibniz%E2%80%93Newton_calculus_controversy",
+      "k": "history_page"
+     },
+     {
+      "c": "The notation for the indefinite integral was introduced by Leibniz in 1675.",
+      "s": "English Wikipedia, Integral",
+      "u": "https://en.wikipedia.org/wiki/Integral",
       "k": "history_page"
      }
     ]
@@ -762,7 +812,7 @@
     "d": "The first published account of the differential calculus, with the d notation and rules for powers, products and quotients (no proofs).",
     "ph": "Leibniz's published calculus",
     "c": "high",
-    "n": "The Crossref entry is a scholarly article about the 1684 printing, not the original.",
+    "n": "The Crossref entry is a scholarly article about the 1684 printing, not the original; MacTutor and the Wikipedia timeline give 1684 independently. Newton's own first printed statements (1687 geometric, 1693 partial, 1704 fuller) are all later, so the first public statement is Leibniz's.",
     "ev": [
      {
       "c": "Leibniz published the differential calculus in Acta Eruditorum in 1684.",
@@ -775,6 +825,12 @@
       "s": "Crossref record: Printing Leibniz's Calculus, The Library 2021",
       "u": "https://doi.org/10.1093/library/22.2.177",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Leibniz publishes Nova Methodus pro Maximis et Minimis in 1684.",
+      "s": "English Wikipedia, Leibniz-Newton calculus controversy",
+      "u": "https://en.wikipedia.org/wiki/Leibniz%E2%80%93Newton_calculus_controversy",
+      "k": "history_page"
      }
     ]
    },
@@ -788,16 +844,51 @@
     "pe": [
      "Gottfried Wilhelm Leibniz"
     ],
-    "d": "A 1686 paper gave the integral calculus and the first printed use of the integral sign.",
+    "d": "A June 1686 Acta paper (De geometria recondita) gave the integral calculus and the first printed use of the integral sign.",
     "ph": "Leibniz's published calculus",
     "c": "high",
-    "n": null,
+    "n": "Leibniz used the sign privately from 1675 (see the precursor); the 1686 print date follows Cajori's account and a MAA description, secondary accounts that did not examine the Acta text here.",
     "ev": [
      {
       "c": "1686 Acta paper with first printed integral sign.",
       "s": "MacTutor biography of Leibniz",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Leibniz/",
       "k": "history_page"
+     },
+     {
+      "c": "The June 1686 Acta Eruditorum paper contains the first public occurrence of the integral sign (Cajori, Isis 1929).",
+      "s": "Cajori, 'Leibniz, the master-builder of mathematical notations'",
+      "u": "https://www.journals.uchicago.edu/doi/pdfplus/10.1086/358328",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1687,
+    "ye": null,
+    "p": "year",
+    "l": "Newton's Principia presents a geometrical form of the calculus",
+    "w": "I. Newton, Philosophiae naturalis principia mathematica, London, 1687",
+    "pe": [
+     "Isaac Newton"
+    ],
+    "d": "Newton's first printed use of his calculus is geometrical, in limit form, and does not use fluxion notation.",
+    "ph": "Newton's fluxions (private)",
+    "c": "medium",
+    "n": "Not a statement of the fluxional algorithm; listed because it is Newton's earliest printed calculus, three years after Leibniz.",
+    "ev": [
+     {
+      "c": "1687: Newton's Principia presents a geometrical form of calculus.",
+      "s": "English Wikipedia, Leibniz-Newton calculus controversy",
+      "u": "https://en.wikipedia.org/wiki/Leibniz%E2%80%93Newton_calculus_controversy",
+      "k": "history_page"
+     },
+     {
+      "c": "Open Library work for the Principia, first published 1687.",
+      "s": "Open Library",
+      "u": "https://openlibrary.org/works/OL104736W",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -811,16 +902,51 @@
     "pe": [
      "Guillaume de L'Hôpital"
     ],
-    "d": "The first textbook of the differential calculus, based on Johann Bernoulli's lessons.",
+    "d": "The first textbook of the differential calculus, based on Johann Bernoulli's lessons, published anonymously.",
     "ph": "Leibniz's published calculus",
-    "c": "medium",
-    "n": "The 1696 first-edition year is background knowledge; only a 1716 edition was found. Needs a first-edition record.",
+    "c": "high",
+    "n": "First edition 1696 (Paris, Imprimerie royale) confirmed by Open Library and Wikipedia; the Internet Archive item is the 1716 edition. It covers only the differential calculus; Bernoulli's integral textbook is of 1724.",
     "ev": [
+     {
+      "c": "Open Library lists the Analyse des infiniment petits, first published 1696.",
+      "s": "Open Library",
+      "u": "https://openlibrary.org/works/OL5226330W",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "First edition 1696, Paris; called the first textbook on the infinitesimal calculus of Leibniz.",
+      "s": "English Wikipedia, Analyse des infiniment petits",
+      "u": "https://en.wikipedia.org/wiki/Analyse_des_infiniment_petits_pour_l%27intelligence_des_lignes_courbes",
+      "k": "history_page"
+     },
      {
       "c": "Record shows the 1716 edition of the Analyse (first edition year not shown).",
       "s": "Internet Archive record: Analyse des infiniment petits, 1716 edition",
       "u": "https://archive.org/details/infinimentpetits1716lhos00uoft",
       "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1704,
+    "ye": null,
+    "p": "year",
+    "l": "Newton's De quadratura curvarum printed with the Opticks",
+    "w": "I. Newton, Tractatus de quadratura curvarum, appended to Opticks, London, 1704",
+    "pe": [
+     "Isaac Newton"
+    ],
+    "d": "The fullest printed account of Newton's fluxions appeared as an appendix to the Opticks, more than twenty years after Leibniz.",
+    "ph": "Newton's fluxions (private)",
+    "c": "medium",
+    "n": "Wikipedia says Newton published his fluxional notation in partial form in 1693 (Wallis's Opera) and more fully in 1704; the 1693 print was not checked separately.",
+    "ev": [
+     {
+      "c": "1693 and 1704: Newton publishes his fluxional notation in partial then fuller form; De Quadratura Curvarum appears in 1704.",
+      "s": "English Wikipedia, Leibniz-Newton calculus controversy",
+      "u": "https://en.wikipedia.org/wiki/Leibniz%E2%80%93Newton_calculus_controversy",
+      "k": "history_page"
      }
     ]
    },
@@ -834,15 +960,21 @@
     "pe": [
      "Isaac Newton"
     ],
-    "d": "Newton's early analysis appeared in print only in 1711, after the priority dispute had begun.",
+    "d": "Newton's early analysis (the 1669 De analysi) was first printed in 1711 by William Jones, after the priority dispute had begun.",
     "ph": "Newton's fluxions (private)",
     "c": "medium",
-    "n": "Contents/composition date of the 1711 printing not checked beyond the title-page caption.",
+    "n": "Year is the printing, not the composition (1669). The title-page caption is the evidence; Wikipedia's timeline lists De Analysi under 1711.",
     "ev": [
      {
       "c": "MacTutor shows the title page of Analysis per quantitatum series fluxiones (1711).",
       "s": "MacTutor biography of Newton",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Newton/",
+      "k": "history_page"
+     },
+     {
+      "c": "1711: Newton enters the dispute; De Analysi is listed under 1711.",
+      "s": "English Wikipedia, Leibniz-Newton calculus controversy",
+      "u": "https://en.wikipedia.org/wiki/Leibniz%E2%80%93Newton_calculus_controversy",
       "k": "history_page"
      }
     ]
@@ -892,7 +1024,7 @@
     ]
    }
   ],
-  "notes": "Newton-Leibniz priority is disputed; by the schema private Newton work is a precursor, so conceptual date is Leibniz 1684. Wikipedia Calculus intro (saved lead) used only as a definition. Fermat's adequality and Cavalieri/Wallis indivisibles are separate events and not repeated. Naming of 'calculus' not dated; no institution milestone recorded.",
+  "notes": "Direct review (A1). Newton-Leibniz priority is disputed; by the schema private Newton work (1666-1671) and Leibniz's 1675 notebooks are precursors, so the conceptual date is Leibniz 1684 (Acta Eruditorum), earlier than every printed Newton statement (1687 geometric, 1693/1704 fluxional, 1711 De analysi). L'Hopital's 1696 Analyse is confirmed by Open Library and Wikipedia and sets the institutional date (it covers only the differential calculus). The 1686 integral-sign date and the content of Barrow's 1670 lectures rest on secondary accounts; the 1693 Wallis print of Newton's notation was not examined. No first_application is assigned and no naming of 'calculus' was dated. Fermat's adequality and Cavalieri/Wallis indivisibles are separate events.",
   "catalogueDates": [
    [
     1635,
@@ -2635,6 +2767,30 @@
    },
    {
     "r": "precursor",
+    "y": 1808,
+    "ye": null,
+    "p": "year",
+    "l": "Poisson's extract of Fourier's heat memoir",
+    "w": "S.-D. Poisson (signed P.), extract of Fourier's memoir on the propagation of heat in solids, Nouveau Bulletin des sciences, Soc. philomathique 1 (1808) 112-116",
+    "pe": [
+     "Simeon-Denis Poisson",
+     "Joseph Fourier"
+    ],
+    "d": "A four-page summary of the 1807 memoir is the earliest printed account of Fourier's heat theory that was found.",
+    "ph": "Fourier's heat conduction work",
+    "c": "low",
+    "n": "Known only from secondary sources (a bookseller's description and a note in Darboux's edition of Fourier as relayed by a web search); the extract was not read, so whether it states the arbitrary-function trigonometric series is open. This is why the first statement stays at 1822.",
+    "ev": [
+     {
+      "c": "Dealer description: Poisson's extract on heat in solids, Nouveau Bulletin des sciences, March 1808, pp. 112-116.",
+      "s": "Bibliorare lot description",
+      "u": "https://www.bibliorare.com/lot/362121",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "precursor",
     "y": 1811,
     "ye": null,
     "p": "year",
@@ -2669,7 +2825,7 @@
     "d": "The book printed Fourier's method: arbitrary functions represented by trigonometric series, with the heat equation as the motivating problem; it is also his systematic treatment.",
     "ph": "Fourier's heat conduction work",
     "c": "high",
-    "n": "Plays both first printed statement and first systematic treatment; consolidation not listed separately. Bessel used Fourier series for Kepler's equation in work published 1819 (Wikipedia), independent and earlier in print but not about heat; left as a note, not a milestone.",
+    "n": "Plays both first printed statement and first systematic treatment. Open Library and Internet Archive agree on 1822. Bessel's Kepler-equation use of Fourier series (1819, per Wikipedia) is independent, earlier in print and not about heat. A 1808 extract of the 1807 memoir (see the precursor) may be an earlier public account, not read.",
     "ev": [
      {
       "c": "Library record, Paris 1822.",
@@ -2704,7 +2860,7 @@
     "d": "Dirichlet gave the first rigorous sufficient conditions for a Fourier series to converge to its function.",
     "ph": "Rigour: Dirichlet and Riemann",
     "c": "high",
-    "n": "Characterisation of the theorem content is from memory of the title and Wikipedia's remark.",
+    "n": "Theorem content (sufficient conditions: integrable periodic functions with finitely many maxima and minima, average value at jumps) comes from secondary accounts of Riemann's description; the original French text is said to be on arXiv 0806.1294 and was not read. MacTutor says the paper was published in Crelle in 1828, while Crossref dates Crelle vol. 4 to 1829; 1829 is kept as the printed year.",
     "ev": [
      {
       "c": "Crossref record, Crelle's Journal 1829, pages 157-169.",
@@ -2717,23 +2873,29 @@
       "s": "English Wikipedia, Fourier series",
       "u": "https://en.wikipedia.org/wiki/Fourier_series",
       "k": "history_page"
+     },
+     {
+      "c": "MacTutor: Dirichlet's work on convergence is published in Crelle's Journal (dated 1828 there); Cauchy's proof was found defective.",
+      "s": "MacTutor, Dirichlet biography",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Dirichlet/",
+      "k": "history_page"
      }
     ]
    },
    {
     "r": "key_development",
-    "y": 1854,
+    "y": 1867,
     "ye": null,
     "p": "year",
     "l": "Riemann's habilitation on trigonometric series",
-    "w": "B. Riemann, Habilitation dissertation on representability of functions by trigonometric series, completed 1854 (printed 1867)",
+    "w": "B. Riemann, Ueber die Darstellbarkeit einer Function durch eine trigonometrische Reihe, Abh. K. Ges. Wiss. Goettingen 13 (1866-67) 87-132, ed. Dedekind; written 1853-54",
     "pe": [
      "Bernhard Riemann"
     ],
     "d": "Riemann studied which functions are integrable and the converse question of what a trigonometric series says about its function.",
     "ph": "Rigour: Dirichlet and Riemann",
     "c": "medium",
-    "n": "Year is the completion year, not the 1867 print year; print venue not verified.",
+    "n": "Year changed from the 1854 completion to the posthumous printing (Dedekind's edition, volume dated 1866-67; some sources say 1868), since publication governs; the 1854 date is the unpublished habilitation. Venue and pages come from secondary sources (Sunada, arXiv 1701.04699).",
     "ev": [
      {
       "c": "MacTutor: after thirty months of work the dissertation defined integrability (Riemann integral) and asked the reverse question for trigonometric series.",
@@ -2746,6 +2908,12 @@
       "s": "Internet Archive item",
       "u": "https://archive.org/details/per_abhandlungen-der-koniglichen-gesellschaft-der_1866-1867_13",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Dedekind edited the work after Riemann's death; it appeared in the Abhandlungen of the Goettingen Society, vol. 13, pp. 87-132.",
+      "s": "Sunada, Generalized Riemann sums (arXiv 1701.04699)",
+      "u": "https://arxiv.org/abs/1701.04699",
+      "k": "history_page"
      }
     ]
    },
@@ -2833,7 +3001,7 @@
     ]
    }
   ],
-  "notes": "Fourier's 1807 memoir is kept only as a first_application because it was read but not printed at the time. Main uncertainties: the Dirichlet 1829 characterisation rests on the title and Wikipedia, and the Riemann 1854 date is the completion year with the print venue unverified.",
+  "notes": "Review A1. Fourier's 1807 memoir was read, not printed; a 1808 extract by Poisson is added as a low-confidence precursor and could not be read, so the first statement (1822 Theorie analytique, confirmed by Internet Archive, Open Library and MacTutor) is not closed. Dirichlet's 1829 Crelle paper is a Crossref-confirmed record (MacTutor says 1828); Riemann's habilitation is moved from its 1854 completion to its posthumous printing (1867). The undated vibrating-string precursor (Euler, d'Alembert, Bernoulli) remains unchecked beyond Wikipedia. Stays source-first.",
   "catalogueDates": [
    [
     1807,
@@ -5281,8 +5449,8 @@
     ],
     "d": "Hadamard's book fixed the word 'functional' for a function of a function, replacing Volterra's own terminology.",
     "ph": "Functionals and functions of lines",
-    "c": "high",
-    "n": "This names the object (functional), not the field; see the Levy 1922 milestone for the field's name.",
+    "c": "medium",
+    "n": "This names the object (functional), not the field; see the Levy 1922 milestone for the field's name. MacTutor and Wikipedia both say Hadamard introduced the word in the 1910 book; a Hadamard note of 1903 on functional operations (not in Crossref) might use the word earlier, so the first-use claim is not closed.",
     "ev": [
      {
       "c": "Internet Archive catalogue record for the 1910 first volume, collected by Frechet.",
@@ -5301,6 +5469,12 @@
       "s": "Wikipedia: Functional analysis",
       "u": "https://en.wikipedia.org/wiki/Functional_analysis",
       "k": "history_page"
+     },
+     {
+      "c": "Open Library lists Hadamard, Lecons sur le calcul des variations, 1910.",
+      "s": "Open Library",
+      "u": "https://openlibrary.org/works/OL1209485W",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -5353,6 +5527,12 @@
       "s": "zbMATH Open",
       "u": "https://zbmath.org/2601621",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Open Library lists Levy, Lecons d'analyse fonctionnelle, 1922.",
+      "s": "Open Library",
+      "u": "https://openlibrary.org/works/OL1332336W",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -5381,6 +5561,12 @@
       "c": "Internet Archive scan listed under 1932.",
       "s": "Internet Archive",
       "u": "https://archive.org/details/in.ernet.dli.2015.73623",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Open Library lists Banach, Theorie des operations lineaires, 1932.",
+      "s": "Open Library",
+      "u": "https://openlibrary.org/works/OL15714758W",
       "k": "bibliographic_record"
      }
     ]
@@ -5484,7 +5670,7 @@
     ]
    }
   ],
-  "notes": "Sources: Wikipedia Functional_analysis; MacTutor biographies of Volterra, Hadamard, Frechet, Fredholm, Banach, Hilbert. Hilbert's integral-equation communications began in 1904 (not independently checked here); only the 1906 fourth communication and the 1910/1912 book were confirmed in zbMATH, so it is kept in people, not milestones. Riesz 1910 (Math. Ann. 69, Crossref 10.1007/BF01457637, L^p spaces) and Hadamard's 1903 note on functional operations (not found in zbMATH) were left out. Summary says 'fusion of analysis, algebra, topology'; the sources support abstract-space axiomatics (Frechet) rather than a single fusion date. Volterra priority: 1887 (publication) vs 1883 (MacTutor's idea). No MSC/journal institution milestone attempted (MSC 46 not verified).",
+  "notes": "Sources: Wikipedia Functional_analysis; MacTutor biographies of Volterra, Hadamard, Frechet, Fredholm, Banach, Hilbert. Hilbert's integral-equation communications began in 1904 (not independently checked here); only the 1906 fourth communication and the 1910/1912 book were confirmed in zbMATH, so it is kept in people, not milestones. Riesz 1910 (Math. Ann. 69, Crossref 10.1007/BF01457637, L^p spaces) and Hadamard's 1903 note on functional operations (not found in zbMATH) were left out. Summary says 'fusion of analysis, algebra, topology'; the sources support abstract-space axiomatics (Frechet) rather than a single fusion date. Volterra priority: 1887 (publication) vs 1883 (MacTutor's idea). No MSC/journal institution milestone attempted (MSC 46 not verified). Review A1: Crossref confirms Fredholm 1903, Frechet 1906, Banach 1922 and Riesz 1910 (Math. Ann. 69); Open Library confirms Hadamard 1910, Levy 1922 and Banach 1932. Still open: the Volterra 1890 first_application has no identified paper (year from MacTutor), Hilbert's 1904-1910 communications and Riesz 1910 are absent from the milestones, and an earlier Hadamard use of 'functional' is not excluded, so the record stays source-first.",
   "catalogueDates": [
    [
     1887,
@@ -57979,7 +58165,7 @@
     "d": "Laplace introduced the potential function and studied its equation in work on the attraction of spheroids, here dated by a range because sources differ.",
     "ph": null,
     "c": "low",
-    "n": "Exact memoir and year not verified in a bibliographic record. MacTutor also says the equation was known before Laplace; Lagrange (c. 1773) is a candidate for first use of the function and was not promoted.",
+    "n": "Exact memoir and year not verified in a bibliographic record. MacTutor also says the equation was known before Laplace; Lagrange (c. 1773) is a candidate for first use of the function and was not promoted. Review A1: other sources (a Cambridge University Press excerpt and Hathaway's note) date Laplace's 'Theorie des attractions des spheroides et de la figure des planetes' to 1782 (printed 1785) and argue the potential concept belongs to Lagrange (1773, 1777, 1780); the 1786 date is therefore not adopted as settled and the confidence stays low.",
     "ev": [
      {
       "c": "MacTutor says Laplace introduced the potential function in analysis",
@@ -57991,12 +58177,6 @@
       "c": "Wikipedia says Laplace first studied the properties of his equation in 1786",
       "s": "English Wikipedia, Laplace's equation",
       "u": "https://en.wikipedia.org/wiki/Laplace's_equation",
-      "k": "history_page"
-     },
-     {
-      "c": "Wikipedia: Laplace first studied the equation's properties in 1786, not 1782",
-      "s": "Wikipedia, Laplace's equation",
-      "u": "https://en.wikipedia.org/wiki/Laplace%27s_equation",
       "k": "history_page"
      }
     ]
@@ -58037,7 +58217,7 @@
     "d": "Poisson published the inhomogeneous equation for the potential in the context of magnetism, extending Laplace's equation.",
     "ph": null,
     "c": "medium",
-    "n": null,
+    "n": "Secondary sources also give 1813 for Poisson's extension of the equation to the interior of attracting masses, so 1813 and 1823 may describe the same result in different memoirs; the 1823 date follows Wikipedia and no bibliographic record was found.",
     "ev": [
      {
       "c": "Wikipedia says Poisson published the equation in 1823 in a memoir on the theory of magnetism in motion",
@@ -58185,7 +58365,7 @@
     ]
    }
   ],
-  "notes": "Sources: MacTutor Laplace, Poisson, Green; Wikipedia (Laplace's equation, Poisson's equation, Potential theory); archive.org; Crossref. The first_statement is low confidence: the sources I could reach date Laplace's work 1782-86 and say the equation preexisted him. Candidate not promoted: Lagrange's 1773 memoir on attraction of spheroids (recalled from general history, not checked). The term 'potential' in Gauss's 1840 Allgemeine Lehrsätze, Dirichlet's principle and Kellogg 1929 were also not verified. Mathematics Subject Classification code 31 (potential theory) was not searched. person without verified work: Siméon-Denis Poisson (developer). person without verified work: Adrien-Marie Legendre (developer). Thin pass 2: added Lagrange 1773 as a low-confidence precursor and Gauss 1840 as a key development. Poisson and Legendre works of 1813 and 1782 were searched in zbMATH and Crossref without a record, so Poisson (not in people list) is left as in the existing milestones. Laplace's first study of the equation is 1786 (Wikipedia), so the 1782 start is withdrawn. Lagrange's 1773 memoir and the first use of the potential function remain unsettled.",
+  "notes": "Sources: MacTutor Laplace, Poisson, Green; Wikipedia (Laplace's equation, Poisson's equation, Potential theory); archive.org; Crossref. The first_statement is low confidence: the sources I could reach date Laplace's work 1782-86 and say the equation preexisted him. Candidate not promoted: Lagrange's 1773 memoir on attraction of spheroids (recalled from general history, not checked). The term 'potential' in Gauss's 1840 Allgemeine Lehrsätze, Dirichlet's principle and Kellogg 1929 were also not verified. Mathematics Subject Classification code 31 (potential theory) was not searched. person without verified work: Siméon-Denis Poisson (developer). person without verified work: Adrien-Marie Legendre (developer). Thin pass 2: added Lagrange 1773 as a low-confidence precursor and Gauss 1840 as a key development. Poisson and Legendre works of 1813 and 1782 were searched in zbMATH and Crossref without a record, so Poisson (not in people list) is left as in the existing milestones. Laplace's first study of the equation is 1786 (Wikipedia), so the 1782 start is withdrawn. Lagrange's 1773 memoir and the first use of the potential function remain unsettled. Review A1: Laplace's 1782 memoir (printed 1785) and Lagrange's 1773-80 memoirs could not be resolved against a bibliographic record, so the first_statement stays low confidence and the record stays source-first.",
   "catalogueDates": [
    [
     1782,
@@ -61547,15 +61727,19 @@
   "product": null,
   "why": "Koopman's operator on function spaces let von Neumann prove the first rigorous ergodic theorem.",
   "cat": "Period run 1930-1990",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "C",
+   "methodological": "C",
+   "institutional": "B"
+  },
   "shown": {
    "conceptual": {
     "y": 1931,
     "basis": "first statement"
    },
    "methodological": {
-    "y": 1931,
+    "y": 1932,
     "basis": "first application"
    },
    "institutional": {
@@ -61567,41 +61751,50 @@
    "y": 1931,
    "role": "key_development",
    "label": "Birkhoff proves the pointwise ergodic theorem",
-   "same": true
+   "same": false
   },
   "y": 1931,
   "approx": false,
   "derived": {
    "conceptual": 1931,
-   "methodological": 1931,
+   "methodological": 1932,
    "institutional": 1932
   },
   "phases": [
-   "Ergodic hypothesis (Boltzmann)",
-   "Operator-theoretic ergodic theorems (1931-1932)",
-   "Textbook consolidation (1956)",
    "Boltzmann's ergodic hypothesis",
-   "Rigorous ergodic theorems (1931-32)",
-   "Monographs and modern ergodic theory"
+   "Operator-theoretic and pointwise ergodic theorems (1931-1932)",
+   "Monographs, textbooks and the field's journal"
   ],
   "ms": [
    {
     "r": "precursor",
-    "y": 1898,
+    "y": 1885,
     "ye": null,
     "p": "year",
-    "l": "Boltzmann introduces \"ergoden\" in his gas theory lectures",
-    "w": null,
+    "l": "Boltzmann introduces the 'Ergode' in his paper on monocyclic systems",
+    "w": "L. Boltzmann, Ueber die Eigenschaften monocyclischer und anderer damit verwandter Systeme, J. reine angew. Math. 98 (1885) 68-94",
     "pe": [
      "Ludwig Boltzmann"
     ],
-    "d": "Boltzmann's ergodic hypothesis is the statistical-mechanics ancestor of the theory.",
+    "d": "Boltzmann named the 'Ergode', a stationary ensemble with a single integral of motion, the statistical-mechanics ancestor of the ergodic hypothesis and of the field's name.",
     "ph": null,
     "c": "medium",
-    "n": "Precursor only, dated from the book citation in Wikipedia; Boltzmann's earlier papers were not checked, so the coinage date is open.",
+    "n": "Precursor only. The Stanford Encyclopedia dates the coinage to 1884; the journal printing is 1885. The hypothesis itself is older (Boltzmann's papers of 1868-71 and Maxwell 1879, not checked here) and the 1898 Vorlesungen use of 'Ergoden' has a broader, later sense. Judgment: the physical hypothesis is a precursor, the rigorous theory dates from 1931.",
     "ev": [
      {
-      "c": "Ergodic hypothesis originally due to Boltzmann; citation to Vorlesungen über Gastheorie (1898)",
+      "c": "Crossref record: Boltzmann, Ueber die Eigenschaften monocyclischer und anderer damit verwandter Systeme, Crelle 98, pp. 68-94, 1885.",
+      "s": "Crossref DOI 10.1515/crll.1885.98.68",
+      "u": "https://doi.org/10.1515/crll.1885.98.68",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Boltzmann introduced the 'Ergode' in 1884; by 1898 he used it for essentially a microcanonical ensemble.",
+      "s": "Stanford Encyclopedia of Philosophy, Notes to Boltzmann's work in statistical physics",
+      "u": "https://plato.stanford.edu/entries/statphys-boltzmann/notes.html",
+      "k": "history_page"
+     },
+     {
+      "c": "Ergodic hypothesis originally due to Boltzmann; 'Ergoden' appears in Vorlesungen ueber Gastheorie (1898).",
       "s": "Wikipedia: Ergodic hypothesis",
       "u": "https://en.wikipedia.org/wiki/Ergodic_hypothesis",
       "k": "history_page"
@@ -61613,33 +61806,27 @@
     "y": 1931,
     "ye": null,
     "p": "year",
-    "l": "Koopman: Hamiltonian flows as operators on Hilbert space",
-    "w": "B. O. Koopman, Hamiltonian systems and transformations in Hilbert space, PNAS 17 (1931)",
+    "l": "Koopman: Hamiltonian flows as unitary operators on Hilbert space",
+    "w": "B. O. Koopman, Hamiltonian systems and transformation in Hilbert space, PNAS 17(5) (1931) 315-318",
     "pe": [
      "Bernard O. Koopman"
     ],
-    "d": "Showed Hamiltonian flows can be studied through unitary operators on Hilbert space of functions, the operator route to ergodic theorems.",
+    "d": "Showed that Hamiltonian flows act as unitary operators on a Hilbert space of functions, the operator route that von Neumann's ergodic theorem then used.",
     "ph": null,
     "c": "medium",
-    "n": "Only the title and the Crossref record were checked; the operator content is from the event summary and general knowledge of the paper.",
+    "n": "Merged with a duplicate entry for the same paper that was listed as first_application. May 1931, earlier than Birkhoff (December 1931) and von Neumann (January 1932). The operator content is from MacTutor's account of von Neumann and later surveys, not from reading the paper; Crossref confirms the title, issue and pages.",
     "ev": [
      {
-      "c": "DOI record: PNAS 17 (1931)",
+      "c": "Crossref record: PNAS 17(5), pp. 315-318, May 1931.",
       "s": "Crossref",
       "u": "https://doi.org/10.1073/pnas.17.5.315",
       "k": "bibliographic_record"
      },
      {
-      "c": "Koopman operator on function spaces underlies von Neumann's ergodic theorem",
-      "s": "Wikipedia: Ergodic theory",
-      "u": "https://en.wikipedia.org/wiki/Ergodic_theory",
+      "c": "An idea of Koopman on treating problems of classical mechanics by operators on a function space stimulated von Neumann's first mathematically rigorous proof of an ergodic theorem.",
+      "s": "MacTutor, von Neumann biography",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Von_Neumann/",
       "k": "history_page"
-     },
-     {
-      "c": "Crossref: PNAS 17 (1931).",
-      "s": "Crossref",
-      "u": "https://doi.org/10.1073/pnas.17.2.656",
-      "k": "bibliographic_record"
      }
     ]
    },
@@ -61656,7 +61843,7 @@
     "d": "Proved that time averages along trajectories converge almost everywhere, the main ergodic theorem.",
     "ph": null,
     "c": "high",
-    "n": "Same year as Koopman's paper; the two papers are the two strands. The derived conceptual year is 1931 either way.",
+    "n": "Published December 1931 (PNAS 17(12)); the priority question with von Neumann's 1932 paper (proved by October 1931) is treated by Zund (Historia Math. 29, 2002), not read here. Wikipedia notes this paper covers flows on smooth manifolds, not the abstract setting.",
     "ev": [
      {
       "c": "DOI record: PNAS 17 (1931)",
@@ -61680,87 +61867,35 @@
    },
    {
     "r": "first_application",
-    "y": 1931,
-    "ye": null,
-    "p": "year",
-    "l": "Koopman: Hamiltonian systems as unitary operators on Hilbert space",
-    "w": "B. O. Koopman, Hamiltonian systems and transformation in Hilbert space, PNAS 17, 1931",
-    "pe": [
-     "Bernard Koopman"
-    ],
-    "d": "Koopman represented classical flows by unitary operators on Hilbert space, the idea von Neumann then used.",
-    "ph": null,
-    "c": "high",
-    "n": null,
-    "ev": [
-     {
-      "c": "Crossref: PNAS 17 (1931).",
-      "s": "Crossref",
-      "u": "https://doi.org/10.1073/pnas.17.5.315",
-      "k": "bibliographic_record"
-     },
-     {
-      "c": "Koopman's idea of operators on a function space stimulated von Neumann's ergodic theorem.",
-      "s": "MacTutor, von Neumann biography",
-      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Von_Neumann/",
-      "k": "history_page"
-     }
-    ]
-   },
-   {
-    "r": "first_application",
     "y": 1932,
     "ye": null,
     "p": "year",
-    "l": "von Neumann proves the quasi-ergodic hypothesis",
-    "w": "J. von Neumann, Proof of the quasi-ergodic hypothesis, PNAS 18 (1932) 70-82",
+    "l": "von Neumann proves the quasi-ergodic hypothesis (mean ergodic theorem)",
+    "w": "J. von Neumann, Proof of the quasi-ergodic hypothesis, PNAS 18(1) (1932) 70-82",
     "pe": [
      "John von Neumann"
     ],
-    "d": "Applied the new mean ergodic theorem to the quasi-ergodic hypothesis of statistical mechanics, which is the target problem.",
+    "d": "Proved the mean ergodic theorem by Hilbert-space methods and applied it to the quasi-ergodic hypothesis of statistical mechanics, the target problem.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Merged with a separate key_development entry for the same paper (rule 2): it plays both roles. Published January 1932 (PNAS 18(1)), proved by October 1931.",
     "ev": [
      {
-      "c": "DOI record: PNAS 18 (1932)",
+      "c": "Crossref record: PNAS 18(1), pp. 70-82, 1932.",
       "s": "Crossref",
       "u": "https://doi.org/10.1073/pnas.18.1.70",
       "k": "bibliographic_record"
      },
      {
-      "c": "Operator approach to the ergodic theorem for statistical mechanics",
+      "c": "Koopman's idea stimulated von Neumann to give the first mathematically rigorous proof of an ergodic theorem.",
+      "s": "MacTutor, von Neumann biography",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Von_Neumann/",
+      "k": "history_page"
+     },
+     {
+      "c": "Wikipedia attributes the mean ergodic theorem (Hilbert space) to von Neumann and lists his 1932 PNAS paper on the quasi-ergodic hypothesis.",
       "s": "Wikipedia: Ergodic theory",
       "u": "https://en.wikipedia.org/wiki/Ergodic_theory",
-      "k": "history_page"
-     }
-    ]
-   },
-   {
-    "r": "key_development",
-    "y": 1932,
-    "ye": null,
-    "p": "year",
-    "l": "von Neumann's mean ergodic theorem",
-    "w": "J. von Neumann, Proof of the quasi-ergodic hypothesis, PNAS 18, 1932",
-    "pe": [
-     "John von Neumann"
-    ],
-    "d": "Von Neumann proved the mean ergodic theorem using Hilbert space methods, giving a rigorous basis to Boltzmann's hypothesis.",
-    "ph": null,
-    "c": "high",
-    "n": null,
-    "ev": [
-     {
-      "c": "Crossref: PNAS 18 (1932).",
-      "s": "Crossref",
-      "u": "https://doi.org/10.1073/pnas.18.1.70",
-      "k": "bibliographic_record"
-     },
-     {
-      "c": "Described as the first rigorous proof of an ergodic theorem.",
-      "s": "MacTutor, von Neumann biography",
-      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Von_Neumann/",
       "k": "history_page"
      }
     ]
@@ -61776,10 +61911,10 @@
      "George David Birkhoff",
      "Bernard Koopman"
     ],
-    "d": "An early survey of the new theorems and their connections.",
+    "d": "A four-page early survey of the new theorems and their connections; its title already carries the phrase 'the ergodic theory'.",
     "ph": null,
     "c": "medium",
-    "n": null,
+    "n": "Short PNAS note (pp. 279-282), a thin consolidation; earlier title use of 'ergodic theory' was not searched.",
     "ev": [
      {
       "c": "Crossref: PNAS 18 (1932).",
@@ -61802,12 +61937,18 @@
     "d": "A monograph presenting the theory, including geodesic flow on surfaces of negative curvature.",
     "ph": null,
     "c": "medium",
-    "n": "'First monograph' not verified.",
+    "n": "Crossref confirms Springer 1937 (Ergebnisse der Mathematik) and Open Library 1937; 'first monograph' not established, so the confidence stays medium.",
     "ev": [
      {
       "c": "Crossref: Springer 1937, Ergodentheorie.",
       "s": "Crossref",
       "u": "https://doi.org/10.1007/978-3-642-86630-2",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Open Library lists Hopf, Ergodentheorie, 1937.",
+      "s": "Open Library",
+      "u": "https://openlibrary.org/works/OL7147874W",
       "k": "bibliographic_record"
      }
     ]
@@ -61869,7 +62010,7 @@
     "d": "A journal named after the field starts.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "The Crossref record is the volume index dated December 1981; volume 1 is 1981.",
     "ev": [
      {
       "c": "Crossref lists volume 1 (1981).",
@@ -61912,7 +62053,7 @@
    {
     "name": "Bernard O. Koopman",
     "role": "developer",
-    "life": null,
+    "life": "1900-1981",
     "url": "https://en.wikipedia.org/wiki/Bernard_O._Koopman",
     "works": [
      {
@@ -61926,7 +62067,7 @@
    {
     "name": "Paul R. Halmos",
     "role": "systematiser",
-    "life": null,
+    "life": "1916-2006",
     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Halmos/",
     "works": [
      {
@@ -61938,44 +62079,16 @@
     ]
    },
    {
-    "name": "George David Birkhoff",
-    "role": "developer",
-    "life": "1884-1944",
-    "url": "https://en.wikipedia.org/wiki/George_David_Birkhoff",
-    "works": [
-     {
-      "c": "Proof of the ergodic theorem",
-      "y": 1931,
-      "u": "https://doi.org/10.1073/pnas.17.2.656",
-      "w": "almost-everywhere time averages"
-     }
-    ]
-   },
-   {
-    "name": "Bernard Koopman",
-    "role": "developer",
-    "life": "1900-1981",
-    "url": "https://en.wikipedia.org/wiki/Bernard_Koopman",
-    "works": [
-     {
-      "c": "Hamiltonian systems and transformation in Hilbert space",
-      "y": 1931,
-      "u": "https://doi.org/10.1073/pnas.17.5.315",
-      "w": "unitary representation of flows"
-     }
-    ]
-   },
-   {
     "name": "Ludwig Boltzmann",
     "role": "developer",
     "life": "1844-1906",
     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Boltzmann/",
     "works": [
      {
-      "c": "Ueber die Eigenschaften monocyklischer und anderer damit verwandter Systeme (1885)",
+      "c": "Ueber die Eigenschaften monocyklischer und anderer damit verwandter Systeme, J. reine angew. Math. 98 (1885)",
       "y": 1885,
-      "u": "https://zbmath.org/?q=an:16.0863.02",
-      "w": "Ergodic hypothesis for mechanical systems."
+      "u": "https://doi.org/10.1515/crll.1885.98.68",
+      "w": "Introduces the 'Ergode'."
      }
     ]
    },
@@ -61994,7 +62107,7 @@
     ]
    }
   ],
-  "notes": "Searched: Wikipedia raw wikitext (Ergodic theory, Ergodic hypothesis); MacTutor George Birkhoff and von Neumann biographies; Crossref; Open Library. The saved wikipedia-leads entry for E21/MB11 had no candidates. The saved MacTutor topic 'Statistical material' was not used. MacTutor has no biography for Koopman in the cache. The 'ergodic' coinage is open: the Wikipedia 1898 date is a book citation, not a verified first use. No naming milestone was found for 'ergodic theory' as a field name.",
+  "notes": "Direct review (A1). Koopman's May 1931 note is kept as the first public statement of the rigorous operator route (conceptual date 1931 is the same for Koopman or Birkhoff); Boltzmann's physical hypothesis and the 'Ergode' (1884/85) are precursors, a judgment since the hypothesis itself dates from 1868-71 (not checked). Two paper-level duplicates were merged (Koopman first_statement/first_application; von Neumann first_application/key_development), which moves the first_application date to von Neumann 1932, the application to the quasi-ergodic hypothesis. Crossref confirms every 1931-1932 PNAS record; priority between Birkhoff (published Dec 1931) and von Neumann (proved Oct 1931) is disputed (Zund 2002, not read). Hopf 1937 as the first monograph and Halmos 1956 as the earliest textbook are not established; the field-name 'ergodic theory' has no dated naming milestone (the 1932 Birkhoff-Koopman title is an early use, not shown to be the first).",
   "catalogueDates": [
    [
     1931,
@@ -69696,8 +69809,12 @@
   "product": null,
   "why": "Principle of optimality recast multi-stage decisions as recursion.",
   "cat": "Period run 1930-1990",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "methodological": "C",
+   "institutional": "B"
+  },
   "shown": {
    "conceptual": {
     "y": 1952,
@@ -69705,7 +69822,7 @@
    },
    "methodological": {
     "y": 1953,
-    "basis": "earliest key development; no first application found"
+    "basis": "first application"
    },
    "institutional": {
     "y": 1952,
@@ -69722,7 +69839,7 @@
   "approx": false,
   "derived": {
    "conceptual": 1952,
-   "methodological": null,
+   "methodological": 1953,
    "institutional": 1952
   },
   "phases": [
@@ -69742,8 +69859,8 @@
     ],
     "d": "Sequential decision problems solved by backward recursion, a close ancestor of dynamic programming.",
     "ph": null,
-    "c": "medium",
-    "n": "The link to dynamic programming is Bellman's own acknowledged influence, recalled from standard history, not read here.",
+    "c": "low",
+    "n": "Close-ancestor claim is Bellman's own acknowledged influence as recalled from standard history; neither source here states it. Kept as a low-confidence precursor.",
     "ev": [
      {
       "c": "zbMATH record: Wald, Sequential analysis, Wiley, 1947.",
@@ -69760,6 +69877,31 @@
     ]
    },
    {
+    "r": "precursor",
+    "y": 1951,
+    "ye": null,
+    "p": "year",
+    "l": "Arrow, Harris and Marschak, Optimal Inventory Policy",
+    "w": "K. J. Arrow, T. E. Harris, J. Marschak, Optimal inventory policy, Econometrica 19(3) (1951) 250-272",
+    "pe": [
+     "Kenneth Arrow",
+     "Theodore Harris",
+     "Jacob Marschak"
+    ],
+    "d": "A dynamic stochastic inventory model solved stage by stage, an early multi-stage decision problem of the kind Bellman's method treats.",
+    "ph": "Multi-stage decisions as recursion (1952-1954)",
+    "c": "low",
+    "n": "Added in review as a related earlier model; the only support found is the Crossref record and a 1965 abstract saying the model was further improved in Bellman's 1957 book, so the link to dynamic programming is not itself established.",
+    "ev": [
+     {
+      "c": "Crossref record: Econometrica 19(3), p. 250, July 1951.",
+      "s": "Crossref",
+      "u": "https://doi.org/10.2307/1906813",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
     "r": "first_statement",
     "y": 1952,
     "ye": null,
@@ -69771,8 +69913,8 @@
     ],
     "d": "Bellman's first public statement of the method, recasting multi-stage decisions as recursion.",
     "ph": null,
-    "c": "high",
-    "n": null,
+    "c": "medium",
+    "n": "Crossref confirms PNAS 38(8), August 1952. RAND memoranda of 1952 on dynamic programming (for example RM-813, 'On a problem in dynamic programming') exist; the RAND pages returned HTTP 403 so their month and content could not be read. Memoranda had limited circulation, so the journal paper is kept as the public statement; the year 1952 is the same either way.",
     "ev": [
      {
       "c": "Title, journal, volume, pages and year verified",
@@ -69800,8 +69942,8 @@
     ],
     "d": "The first use of the term in a title, per the Wikipedia account of the origin of the name.",
     "ph": null,
-    "c": "high",
-    "n": "Same paper plays first_statement and naming (rule 2).",
+    "c": "medium",
+    "n": "Same paper plays first_statement and naming (rule 2). Russell and Norvig put Bellman's first paper using the term in 1952; a RAND memorandum of 1952 also carries the term in its title and may be earlier (not readable here).",
     "ev": [
      {
       "c": "Bellman's first paper using the term appeared in 1952",
@@ -69813,6 +69955,29 @@
       "c": "Same publication as first_statement",
       "s": "Crossref",
       "u": "https://doi.org/10.1073/pnas.38.8.716",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "first_application",
+    "y": 1953,
+    "ye": null,
+    "p": "year",
+    "l": "Bellman applies dynamic programming to bottleneck problems",
+    "w": "R. Bellman, Bottleneck problems and dynamic programming, PNAS 39(9) (1953) 947-951",
+    "pe": [
+     "Richard Bellman"
+    ],
+    "d": "An early printed application of the method to a target problem, bottleneck allocation in production.",
+    "ph": "Multi-stage decisions as recursion (1952-1954)",
+    "c": "low",
+    "n": "Added in review as the earliest applied use found in a journal; the title identifies a problem class, the paper content was not read, and 1952-53 RAND memoranda (RM-1069 on production bottlenecks) may precede it. The RAND 1953 introduction (R-245) was not verified.",
+    "ev": [
+     {
+      "c": "Crossref record: PNAS 39(9), pp. 947-951, September 1953.",
+      "s": "Crossref",
+      "u": "https://doi.org/10.1073/pnas.39.9.947",
       "k": "bibliographic_record"
      }
     ]
@@ -69830,12 +69995,18 @@
     "d": "Uses a contraction and recursive value equation of the same form as the Bellman equation.",
     "ph": null,
     "c": "medium",
-    "n": null,
+    "n": "The role is a judgment: Shapley's contraction argument has the same form as the Bellman equation, but it is a game-theory result, not a Bellman paper. Crossref confirms PNAS 39(10), October 1953, pp. 1095-1100.",
     "ev": [
      {
       "c": "zbMATH record: Shapley, Stochastic games, PNAS 39, 1095-1100, 1953.",
       "s": "zbMATH record 0051.35805",
       "u": "https://zbmath.org/?q=an:0051.35805",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Crossref record: Shapley, Stochastic Games, PNAS 39(10), pp. 1095-1100, 1953.",
+      "s": "Crossref",
+      "u": "https://doi.org/10.1073/pnas.39.10.1095",
       "k": "bibliographic_record"
      }
     ]
@@ -69882,12 +70053,18 @@
     "d": "Book-length treatment of dynamic programming.",
     "ph": null,
     "c": "medium",
-    "n": "Open Library lists a 1956 record too; 1957 is used as the commonly cited year. First systematic treatment not checked against the 1953 RAND introduction.",
+    "n": "Open Library has works dated 1956 (OL2763265W) and 1957 (OL10429568W); Science reviewed the Princeton book in April 1958; 1957 is the usual imprint year. First systematic treatment not checked against the 1953 RAND introduction.",
     "ev": [
      {
-      "c": "Book dated 1957 (Princeton University Press)",
-      "s": "Open Library record",
-      "u": "https://openlibrary.org/search?title=Dynamic+programming",
+      "c": "Open Library work, Bellman, Dynamic programming, 1957.",
+      "s": "Open Library",
+      "u": "https://openlibrary.org/works/OL10429568W",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Science book review of Bellman, Dynamic Programming (Princeton University Press), 25 April 1958.",
+      "s": "Crossref DOI 10.1126/science.127.3304.976.a",
+      "u": "https://doi.org/10.1126/science.127.3304.976.a",
       "k": "bibliographic_record"
      }
     ]
@@ -69912,6 +70089,12 @@
       "s": "zbMATH record 0091.16001",
       "u": "https://zbmath.org/?q=an:0091.16001",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Open Library lists Howard, Dynamic programming and Markov processes, 1960.",
+      "s": "Open Library",
+      "u": "https://openlibrary.org/works/OL7025027W",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -69935,6 +70118,12 @@
       "c": "zbMATH record: Bellman, Dreyfus, Applied dynamic programming, Princeton, 1962.",
       "s": "zbMATH record 0106.34901",
       "u": "https://zbmath.org/?q=an:0106.34901",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Open Library lists Bellman and Dreyfus, Applied dynamic programming, 1962.",
+      "s": "Open Library",
+      "u": "https://openlibrary.org/works/OL2763264W",
       "k": "bibliographic_record"
      }
     ]
@@ -69962,7 +70151,7 @@
      {
       "c": "Bellman, Dynamic Programming, Princeton University Press",
       "y": 1957,
-      "u": "https://openlibrary.org/search?title=Dynamic+programming",
+      "u": "https://openlibrary.org/works/OL10429568W",
       "w": "Monograph."
      }
     ]
@@ -70010,7 +70199,7 @@
     ]
    }
   ],
-  "notes": "Derived: institutional 1952 comes from naming, which shares the 1952 paper. The earliest first_application (applications at RAND) was not established, so methodological is null. Input summary's 'principle of optimality recast multi-stage decisions as recursion' is supported. Bellman's 1953 RAND introduction is mentioned by MacTutor but not verified as a record. Saved wikipedia-leads.json MB78 intro was used. Thin pass 2: added Wald 1947, Shapley 1953, Howard 1960, Bellman-Dreyfus 1962 (zbMATH). Bellman's 1953 RAND report (DTIC AD0074903, archive.org) was found but not added as a separate milestone. A first_application remains open.",
+  "notes": "Direct review (A1). Crossref confirms the 1952 PNAS paper (first_statement and naming; one paper, one year), the 1953 Shapley and Bellman bottleneck papers and the 1954 Bulletin survey; Open Library and a 1958 Science review confirm the 1957 Princeton monograph, Open Library the 1960 and 1962 books. Added the 1951 Arrow-Harris-Marschak inventory model as a low-confidence precursor and Bellman's 1953 bottleneck paper as the earliest published application found (so the methodological date is now 1953, low confidence). Outstanding: RAND memoranda of 1952-53 (RM-813, RM-1069, R-245) could not be read (HTTP 403) and may carry the term or the first applications earlier; Wald's influence is recalled history. The year 1952 for the first statement and the name is unaffected.",
   "catalogueDates": [
    [
     1952,
@@ -83820,8 +84009,12 @@
   "product": null,
   "why": "Ordered vector spaces and normed spaces were applied to approximation and equation solving.",
   "cat": "Period run 1930-1990",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "C",
+   "methodological": "C",
+   "institutional": "C"
+  },
   "shown": {
    "conceptual": {
     "y": 1935,
@@ -83832,7 +84025,7 @@
     "basis": "first application"
    },
    "institutional": {
-    "y": 1964,
+    "y": 1959,
     "basis": "naming, textbook or institution"
    }
   },
@@ -83847,12 +84040,12 @@
   "derived": {
    "conceptual": 1935,
    "methodological": 1936,
-   "institutional": 1964
+   "institutional": 1959
   },
   "phases": [
    "Semi-ordered linear spaces (1935)",
    "Application to numerical methods (1936-1948)",
-   "Textbook consolidation (1964)"
+   "Textbook consolidation (1959)"
   ],
   "ms": [
    {
@@ -83861,19 +84054,25 @@
     "ye": null,
     "p": "year",
     "l": "Kantorovich: semi-ordered linear spaces (K-spaces)",
-    "w": null,
+    "w": "L. V. Kantorovich, On semiordered linear spaces and their applications in the theory of linear operators, Dokl. Akad. Nauk SSSR 4 (1935) no. 1-2, 11-14",
     "pe": [
      "Leonid Kantorovich"
     ],
     "d": "Kantorovich defined a new type of ordered linear space, now called a K-space, which became the basis for applying ordered spaces to analysis.",
     "ph": "Semi-ordered linear spaces (1935)",
     "c": "medium",
-    "n": "Bibliographic record not located (Crossref did not index the Russian note); the year rests on MacTutor. zbMATH was blocked during this run.",
+    "n": "The year and citation come from MacTutor and from a citation in Kutateladze's article on Kantorovich; no Crossref or zbMATH record of the note was retrieved. The Encyclopedia of Mathematics names the 1937 Mat. Sbornik paper (Lineare halbgeordnete Raeume, 2, 121-165) as where the K-space concept is fully developed.",
     "ev": [
      {
       "c": "MacTutor says Kantorovich defined K-spaces in 1935",
       "s": "MacTutor, Kantorovich biography",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Kantorovich/",
+      "k": "history_page"
+     },
+     {
+      "c": "Citation of Kantorovich's first 1935 paper on semiordered linear spaces, described as his first paper on the new topic.",
+      "s": "Kutateladze, article on Kantorovich (arXiv 1502.06494)",
+      "u": "https://arxiv.org/abs/1502.06494",
       "k": "history_page"
      }
     ]
@@ -83884,20 +84083,26 @@
     "ye": null,
     "p": "year",
     "l": "Semi-ordered spaces applied to numerical methods",
-    "w": null,
+    "w": "L. V. Kantorovich, On a class of functional equations, C. R. (Dokl.) Acad. Sci. URSS (N.S.) 1936, no. 4, 219-224",
     "pe": [
      "Leonid Kantorovich"
     ],
     "d": "Kantorovich applied semi-ordered spaces to numerical methods, the first purposeful use of the functional-analytic idea for approximation.",
     "ph": "Application to numerical methods (1936-1948)",
     "c": "medium",
-    "n": "The 1936 paper's citation is from MacTutor's text; no bibliographic record was retrieved.",
+    "n": "Identification of the paper comes from the zbMATH entry recorded in the people list (an:0015.35501, not reopened here, Cloudflare blocks it) and MacTutor's title; its application content rests on MacTutor's quotation.",
     "ev": [
      {
       "c": "MacTutor says the 1936 paper On one class of functional equations applied semi-ordered spaces to numerical methods",
       "s": "MacTutor, Kantorovich biography",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Kantorovich/",
       "k": "history_page"
+     },
+     {
+      "c": "zbMATH entry for Kantorovich, On a class of functional equations, 1936.",
+      "s": "zbMATH Open",
+      "u": "https://zbmath.org/?q=an:0015.35501",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -83907,43 +84112,61 @@
     "ye": null,
     "p": "year",
     "l": "Newton-Kantorovich theorem on Newton's method",
-    "w": null,
+    "w": "L. V. Kantorovich, Functional analysis and applied mathematics, Uspekhi Mat. Nauk 3 (1948) no. 6(28), 89-185 (a 1948 Doklady note on Newton's method is also cited; not verified)",
     "pe": [
      "Leonid Kantorovich"
     ],
     "d": "A semi-local convergence theorem for Newton's method, the functional-analytic result for which Kantorovich is best known in numerical analysis.",
     "ph": "Application to numerical methods (1936-1948)",
     "c": "medium",
-    "n": "Crossref did not retrieve the 1948 record; the year rests on Wikipedia.",
+    "n": "The 1948 date of the theorem is given by Wikipedia (citing Deuflhard 2004 and Zeidler 1985) and by Polyak's historical survey; the UMN survey is verified as a 1948 paper (mathnet record) but its exact role in first stating the theorem was not read.",
     "ev": [
      {
-      "c": "Wikipedia says the Kantorovich theorem was first stated by Kantorovich in 1948",
+      "c": "The Kantorovich theorem was first stated by Kantorovich in 1948.",
       "s": "Wikipedia, Kantorovich theorem",
       "u": "https://en.wikipedia.org/wiki/Kantorovich_theorem",
+      "k": "history_page"
+     },
+     {
+      "c": "Bibliographic record of Functional analysis and applied mathematics, Uspekhi Mat. Nauk 3 (6), 1948, pp. 89-185.",
+      "s": "Mathnet.ru",
+      "u": "https://mathnet.ru/eng/rm8775",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Kantorovich carried Newton's method to functional spaces in 1948.",
+      "s": "Polyak, Newton-Kantorovich method and its global convergence, J. Math. Sci. 133 (2006)",
+      "u": "https://link.springer.com/article/10.1007/s10958-006-0066-1",
       "k": "history_page"
      }
     ]
    },
    {
     "r": "consolidation",
-    "y": 1964,
+    "y": 1959,
     "ye": null,
     "p": "year",
-    "l": "Kantorovich, Functional Analysis in Normed Spaces (English edition)",
-    "w": "Kantorovich L. V., Akilov G. P., Functional Analysis in Normed Spaces, Pergamon Press, 1964 (English edition)",
+    "l": "Kantorovich and Akilov, Functional Analysis in Normed Spaces (Russian original)",
+    "w": "L. V. Kantorovich, G. P. Akilov, Functional Analysis in Normed Spaces, Moscow, 1959 (English edition Pergamon, 1964)",
     "pe": [
      "Leonid Kantorovich",
      "G. P. Akilov"
     ],
-    "d": "The English edition of the main textbook on functional analysis in normed spaces and its numerical applications.",
-    "ph": "Textbook consolidation (1964)",
-    "c": "high",
-    "n": "Open Library lists Kantorovich as the only author; Akilov's co-authorship is from the book's title-page convention and was not verified here.",
+    "d": "The main textbook on functional analysis in normed spaces and its numerical applications; the English edition followed in 1964.",
+    "ph": "Textbook consolidation (1959)",
+    "c": "medium",
+    "n": "The 1959 Russian first edition is listed by MacTutor; no record of it was retrieved, so the year is medium confidence. The 1964 Pergamon edition (Open Library OL888289W) lists Akilov as co-author, which confirms the authorship; the English edition is one book with the Russian, not a second milestone.",
     "ev": [
      {
-      "c": "Open Library record: Pergamon Press, 1964",
+      "c": "MacTutor lists Functional Analysis in Normed Spaces (Russian) written with G. P. Akilov, 1959.",
+      "s": "MacTutor, Kantorovich biography",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Kantorovich/",
+      "k": "history_page"
+     },
+     {
+      "c": "Open Library: Kantorovich and Akilov, Functional analysis in normed spaces, first published 1964 (English edition).",
       "s": "Open Library",
-      "u": "https://openlibrary.org/search?q=functional+analysis+in+normed+spaces",
+      "u": "https://openlibrary.org/works/OL888289W",
       "k": "bibliographic_record"
      }
     ]
@@ -83953,7 +84176,7 @@
    {
     "name": "Leonid Kantorovich",
     "role": "originator",
-    "life": "(died 1986)",
+    "life": "1912-1986",
     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kantorovich/",
     "works": [
      {
@@ -83983,15 +84206,15 @@
     "url": "https://en.wikipedia.org/wiki/G._P._Akilov",
     "works": [
      {
-      "c": "Kantorovich L. V., Akilov G. P., Functional Analysis in Normed Spaces, Pergamon, 1964",
-      "y": 1964,
-      "u": "https://openlibrary.org/search?q=functional+analysis+in+normed+spaces",
-      "w": "Co-authored textbook; co-authorship not confirmed in Open Library."
+      "c": "Kantorovich L. V., Akilov G. P., Functional Analysis in Normed Spaces, Moscow 1959; Pergamon 1964",
+      "y": 1959,
+      "u": "https://openlibrary.org/works/OL888289W",
+      "w": "Co-authored textbook; co-authorship confirmed by the Open Library record of the 1964 English edition."
      }
     ]
    }
   ],
-  "notes": "Input summary says 'ordered vector spaces and normed spaces'; the MacTutor sources confirm ordered (K-) spaces and numerical application. The 1935 and 1936 milestones rest on MacTutor and have no bibliographic records, so they carry medium confidence. zbMATH lookup was blocked (Cloudflare) so the 1937 Mathematicheskii Sbornik paper was not verified. The naming (K-spaces named after Kantorovich) has no dated record. The 1935 K-space note could not be confirmed; the 1936 Doklady papers were confirmed in zbMATH and replace it.",
+  "notes": "Direct review (A1). The 1935 first statement (K-spaces, Dokl. Akad. Nauk SSSR 4) rests on MacTutor and a citation in Kutateladze's article, with no database record of the note; the 1936 application paper is identified through zbMATH (via an earlier pass) and MacTutor; the 1948 Newton-Kantorovich statement is dated by Wikipedia and Polyak's survey, with the UMN survey of 1948 confirmed in the mathnet record. The consolidation milestone is moved from the 1964 English edition to the 1959 Russian first edition (MacTutor), which sets the institutional date to 1959; the 1964 edition confirms Akilov as co-author. Gaps: no dated naming of 'K-spaces' or 'Kantorovich spaces', and the original Doklady note on Newton's method was not verified.",
   "catalogueDates": [
    [
     1948,
@@ -138188,19 +138411,54 @@
     "ye": null,
     "p": "year",
     "l": "Johann Bernoulli links inverse sine and logarithm",
-    "w": "Johann Bernoulli, work of 1702 on integration (Memoires de l'Academie des Sciences, Paris)",
+    "w": "Johann Bernoulli, Solution d'un probleme concernant le calcul integral, Mem. Acad. Roy. Sci. Paris for 1702 (printed 1704), pp. 289-297",
     "pe": [
      "Johann Bernoulli"
     ],
-    "d": "Bernoulli related the inverse sine of an argument to a logarithm of a complex expression, the first link between angle functions and logarithms.",
+    "d": "Bernoulli's treatment of integrals of the form dx/(a^2+x^2) led to the logarithm of an imaginary quantity and so to a relation between the inverse trigonometric functions and logarithms.",
     "ph": "Bernoulli and Cotes",
-    "c": "medium",
-    "n": "Specific paper not identified or checked in a bibliographic record; year taken from MacTutor only.",
+    "c": "low",
+    "n": "Paper identified through a bookseller's description and a lecture note, not read or found in Crossref. The Academie's volume for 1702 was printed in 1704, so under the publication-year rule the date may be 1704, which would move the derived conceptual date and the link distances; 1702 is kept pending a bibliographic record. Wikipedia describes the 1702 result as a partial-fractions identity and MacTutor as a sin^-1 and log relation.",
     "ev": [
      {
       "c": "MacTutor: Johann Bernoulli found the relation between the inverse sine and the logarithm in 1702.",
       "s": "MacTutor, Trigonometric functions",
       "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Trigonometric_functions/",
+      "k": "history_page"
+     },
+     {
+      "c": "1702: Bernoulli found that 1/(1+x^2) = 1/2(1/(1-ix) + 1/(1+ix)) but did not fully understand complex logarithms.",
+      "s": "English Wikipedia, Euler's formula",
+      "u": "https://en.wikipedia.org/wiki/Euler%27s_formula",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "precursor",
+    "y": 1707,
+    "ye": null,
+    "p": "year",
+    "l": "De Moivre's series for cos nx in terms of cos x",
+    "w": "A. de Moivre, Aequationum quarundam potestatis tertiae, quintae, septimae, nonae... resolutio analytica, Phil. Trans. 25(309) (1707) 2368-2371",
+    "pe": [
+     "Abraham de Moivre"
+    ],
+    "d": "A 1707 paper gives a series relation between cos x and cos nx, the real-variable ancestor of the multiple-angle theorem.",
+    "ph": "De Moivre",
+    "c": "medium",
+    "n": "Added in review; MacTutor says a closely related formula appeared in 1707, and Wikipedia describes the 1707 series. Crossref confirms the paper's title, volume and pages; its content was not read.",
+    "ev": [
+     {
+      "c": "Crossref record: Phil. Trans. 25(309), pp. 2368-2371, March 1707.",
+      "s": "Crossref DOI 10.1098/rstl.1706.0037",
+      "u": "https://doi.org/10.1098/rstl.1706.0037",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "1707: de Moivre's Phil. Trans. paper gives a series relation for cos x and cos nx.",
+      "s": "English Wikipedia, De Moivre's formula",
+      "u": "https://en.wikipedia.org/wiki/De_Moivre%27s_formula",
       "k": "history_page"
      }
     ]
@@ -138227,9 +138485,9 @@
       "k": "bibliographic_record"
      },
      {
-      "c": "Wikipedia, De Moivre's formula and Roger Cotes: the 1714 argument, once a misplaced factor is corrected, is equivalent to the logarithmic form of Euler's formula.",
-      "s": "English Wikipedia, De Moivre's formula",
-      "u": "https://en.wikipedia.org/wiki/De_Moivre%27s_formula",
+      "c": "1714: Cotes presented a geometrical argument that, after correcting a misplaced factor of sqrt(-1), reads ix = ln(cos x + i sin x).",
+      "s": "English Wikipedia, Euler's formula",
+      "u": "https://en.wikipedia.org/wiki/Euler%27s_formula",
       "k": "history_page"
      }
     ]
@@ -138239,20 +138497,32 @@
     "y": 1722,
     "ye": null,
     "p": "year",
-    "l": "De Moivre's power formula",
-    "w": "De Moivre, paper of 1722 (candidate: De sectione anguli, Phil. Trans. 32, pp. 228-230)",
+    "l": "De Moivre's multiple-angle theorem (De sectione anguli)",
+    "w": "A. de Moivre, De sectione anguli, Phil. Trans. 32(374) (1722) 228-230",
     "pe": [
      "Abraham de Moivre"
     ],
-    "d": "De Moivre published the rule for powers of cos x + i sin x, taking angle multiplication into complex arithmetic.",
+    "d": "The 1722 paper on the section of an angle is the paper MacTutor credits with De Moivre's theorem on powers of cos x + i sin x.",
     "ph": "De Moivre",
-    "c": "medium",
-    "n": "The exact paper was not confirmed. Crossref lists 'De sectione anguli' (Phil. Trans. 32, 1722) as a candidate, kept out of the evidence. Wikipedia says the explicit form came in Miscellanea analytica (1730).",
+    "c": "low",
+    "n": "Crossref confirms the paper (Phil. Trans. 32, pp. 228-230, 1722) but its text was not read. Wikipedia says de Moivre never stated the formula in this form in his works and dates the explicit cos nx treatment to Miscellanea analytica (1730); MacTutor credits 1722. This milestone therefore records the associated paper, not a verified statement of the modern formula.",
     "ev": [
      {
-      "c": "MacTutor: De Moivre published the theorem in 1722; a closely related formula appeared in an earlier paper of 1707.",
-      "s": "MacTutor, De Moivre",
-      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
+      "c": "MacTutor: De Moivre published his theorem in 1722.",
+      "s": "MacTutor, Trigonometric functions",
+      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Trigonometric_functions/",
+      "k": "history_page"
+     },
+     {
+      "c": "Crossref record: De sectione anguli, Phil. Trans. 32(374), pp. 228-230, 1722.",
+      "s": "Crossref DOI 10.1098/rstl.1722.0039",
+      "u": "https://doi.org/10.1098/rstl.1722.0039",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "The formula is named after de Moivre but he never stated it in his works; 1730 Miscellanea analytica treats cos theta and cos n theta.",
+      "s": "English Wikipedia, De Moivre's formula",
+      "u": "https://en.wikipedia.org/wiki/De_Moivre%27s_formula",
       "k": "history_page"
      }
     ]
@@ -138421,7 +138691,7 @@
     ]
    }
   ],
-  "notes": "Crossref confirms Cotes's Logometria in Phil. Trans. 29, issued 31 March 1714; MacTutor's 1722 date is the posthumous Harmonia mensurarum reprint, so 1714 is the first publication. The summary's 'Euler gave exp(ix)' is supported for the 1748 print but Euler's own private derivation is dated only 'around 1740'. Bernoulli 1702 has no bibliographic record found. De Moivre's De sectione anguli (Phil. Trans. 32, 1722) is a candidate for the explicit formula, but whether it states it is unresolved; Wikipedia cites Miscellanea analytica (1730).",
+  "notes": "Crossref confirms Cotes's Logometria in Phil. Trans. 29, issued 31 March 1714; MacTutor's 1722 date is the posthumous Harmonia mensurarum reprint, so 1714 is the first publication. The summary's 'Euler gave exp(ix)' is supported for the 1748 print but Euler's own private derivation is dated only 'around 1740'. Bernoulli 1702 has no bibliographic record found. De Moivre's De sectione anguli (Phil. Trans. 32, 1722) is a candidate for the explicit formula, but whether it states it is unresolved; Wikipedia cites Miscellanea analytica (1730). Review A1: Cotes 1714 confirmed by Crossref and Wikipedia's Euler's-formula history; the 1707 de Moivre paper was added from Crossref; the De Moivre 1722 milestone is now low confidence because sources disagree on whether he stated the formula. Bernoulli's paper is identified (Mem. Acad. 1702, printed 1704) but its year and content are unverified, so the first statement is open and the record stays source-first.",
   "catalogueDates": [
    [
     1702,
