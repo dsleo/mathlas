@@ -48,6 +48,7 @@ LINK_TO_TYPE = {"transfer": 0, "fusion": 1, "abstraction": 2, "analogy": 4, "rei
 TYPE_ALIAS = {"field-emergence": "birth-by-abstraction", "field-combination": "birth-by-fusion"}
 LAYOUT = ROOT / "data/field-film-layout.json"  # written by scripts/layout_field_film.py
 PAGE = ROOT / "public/index.html"
+RUNTIME = ROOT / "public/data/field-film-runtime.json"
 
 # the island styles of the proof map (its terrain generator knows five) and the lanes they suit
 PROOF_FAMILY = {}
@@ -383,12 +384,15 @@ def write_page(film):
         "world": placed["box"],
         "types": [{"id": t[0], "name": t[1], "color": t[2]} for t in TYPES],
         "fields": [{"id": f["id"], "x": f["x"], "y": f["y"], "n": f["events"], "fam": PROOF_FAMILY[f["id"]], "first": f["firstYear"]} for f in film["fields"]],
-        "events": [{"p": e["pid"], "y": e["year"], "t": tindex[TYPE_ALIAS.get(e["type"], e["type"])], "f": names.index(e["field"]), "n": e["name"], "g": e["glyph"], "m": e["main"], "w": e["weight"], "s": e["from"], "i": e["initials"], "c": e["cid"], "x": e["x"], "z": e["z"]} for e in film["events"]],
+        "events": [{"p": e["pid"], "y": e["year"], "a": e["approx"], "t": tindex[TYPE_ALIAS.get(e["type"], e["type"])], "f": names.index(e["field"]), "n": e["name"], "g": e["glyph"], "m": e["main"], "w": e["weight"], "s": e["from"], "i": e["initials"], "c": e["cid"], "x": e["x"], "z": e["z"]} for e in film["events"]],
         "links": [{"a": names.index(l["from"]), "b": names.index(l["to"]), "y": l["year"], "t": LINK_TO_TYPE.get(l["type"], 2)} for l in film["links"] if l["from"] in names and l["to"] in names],
         "ships": [{"y": s["year"], "t": names.index(s["to"])} for s in film["ships"] if s["to"] in names],
         "people": film["people"],
+        "searchPeople": film["searchPeople"],
     }
-    html = TEMPLATE.read_text().replace("/*DATA*/{}", json.dumps(data, ensure_ascii=False, separators=(",", ":")))
+    RUNTIME.parent.mkdir(parents=True, exist_ok=True)
+    RUNTIME.write_text(json.dumps(data, ensure_ascii=False, separators=(",", ":")) + "\n")
+    html = TEMPLATE.read_text()
     PAGE.write_text(html)
     fonts = ROOT / "public/fonts"
     fonts.mkdir(exist_ok=True)
@@ -397,6 +401,7 @@ def write_page(film):
                                "lm-sans-regular": "SansSerif-Regular", "lm-sans-italic": "SansSerif-Italic", "lm-sans-bold": "SansSerif-Bold",
                                "lm-ams": "AMS-Regular", "lm-fraktur": "Fraktur-Regular", "lm-caligraphic": "Caligraphic-Regular", "lm-math-italic": "Math-Italic"}.items():
         (fonts / f"{out_name}.woff2").write_bytes((katex / f"KaTeX_{src_name}.woff2").read_bytes())
+    print(f"wrote {RUNTIME.relative_to(ROOT)} ({RUNTIME.stat().st_size//1024} KB)")
     print(f"wrote {PAGE.relative_to(ROOT)} ({len(html)//1024} KB)")
 
 
@@ -429,7 +434,7 @@ def main():
             (splits if kind == "split" else links).append(row)
     GL = assign_glyphs(events)
     names_idx = {f["id"]: i for i, f in enumerate(fields)}
-    events_out = [{"pid": e["pid"], "year": e["y"], "type": e["type"], "field": e["cl"], "name": e["name"], "tier": e["tier"], "glyph": GL[e["pid"]][0], "main": GL[e["pid"]][1], "weight": round(importance(e), 1), "from": sorted({names_idx[lane_of_label(l)] for l in e["from"] if lane_of_label(l) in names_idx and lane_of_label(l) != e["cl"]}), "initials": initials(e), "cid": e["id"]} for e in events]
+    events_out = [{"pid": e["pid"], "year": e["y"], "approx": e.get("approx", False), "type": e["type"], "field": e["cl"], "name": e["name"], "tier": e["tier"], "glyph": GL[e["pid"]][0], "main": GL[e["pid"]][1], "weight": round(importance(e), 1), "from": sorted({names_idx[lane_of_label(l)] for l in e["from"] if lane_of_label(l) in names_idx and lane_of_label(l) != e["cl"]}), "initials": initials(e), "cid": e["id"]} for e in events]
     placed = json.loads(LAYOUT.read_text())
     for f in fields:
         f["x"], f["y"] = placed["positions"][f["id"]]
@@ -439,6 +444,17 @@ def main():
         e["x"], e["z"] = spots[e["pid"]]
     film["box"] = placed["box"]
     film["people"] = landmarks(events, film)
+    people_index = defaultdict(set)
+    for event in events:
+        for person in event.get("people") or []:
+            name = person.get("name")
+            if name:
+                people_index[name].add(event["pid"])
+    year_by_pid = {event["pid"]: event["year"] for event in events_out}
+    film["searchPeople"] = [
+        {"n": name, "p": sorted(pids, key=year_by_pid.__getitem__)}
+        for name, pids in sorted(people_index.items())
+    ]
     OUT.write_text(json.dumps(film, ensure_ascii=False, indent=1) + "\n")
     (ROOT / "data/field-film-families.json").write_text(json.dumps(PROOF_FAMILY, indent=1) + "\n")
     import subprocess

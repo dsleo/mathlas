@@ -39,7 +39,7 @@ def brief(issue):
     lines = [
         f"## Apply accepted correction #{issue['number']}",
         "",
-        f"Reported by @{issue['user']['login']} ({issue['html_url']}); the maintainer has accepted it.",
+        f"Reported by @{issue['user']['login']} ({issue['html_url']}); the maintainer has accepted it for investigation.",
         "",
         f"- **Event:** `{e['pid']}` {e['name']}",
         f"- **Milestone:** {f.get('milestone') or '(whole event)'}",
@@ -52,7 +52,7 @@ def brief(issue):
         "```json", json.dumps(record, ensure_ascii=False, indent=1), "```",
         "",
         "### What to do",
-        "Follow `AGENTS.md` (\"Applying an accepted correction\"): check the proposal against the source, edit `data/events.json` under the milestone rules, rebuild, and commit to this branch. If the source does not support it, say so here and change nothing. The margin note for this correction is already recorded in `public/data/corrections.json`.",
+        "Follow `AGENTS.md` (\"Applying an accepted correction\"): check the proposal against the source, edit `data/events.json` under the milestone rules, run verification and publish the margin note only after the correction is supported and applied. If the source does not support it, explain why here and leave the public record unchanged.",
     ]
     return "\n".join(lines)
 

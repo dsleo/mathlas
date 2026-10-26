@@ -15,7 +15,7 @@
 @font-face{font-family:'LM Fraktur';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/lm-fraktur.woff2') format('woff2')}
 @font-face{font-family:'LM Script';font-style:normal;font-weight:400;font-display:swap;src:url('fonts/lm-caligraphic.woff2') format('woff2')}
 @font-face{font-family:'LM Math';font-style:italic;font-weight:400;font-display:swap;src:url('fonts/lm-math-italic.woff2') format('woff2')}
-:root{--sea:#f2efe7;--paper:#fbf8f0;--ink:#3b4438;--text:#2d352b;--muted:#5a604e;--line:#cbc2b4;--accent:#ae6b1f;--tint:var(--tint);--mapfilter:none;--imgfix:none}
+:root{--sea:#f2efe7;--paper:#fbf8f0;--ink:#3b4438;--text:#2d352b;--muted:#5a604e;--line:#cbc2b4;--accent:#ae6b1f;--tint:#eee8da;--mapfilter:none;--imgfix:none}
 :root[data-theme=night]{--sea:#0d1118;--paper:#141a22;--ink:#c9cdbf;--text:#e6e3d6;--muted:#97a08f;--line:#33403f;--accent:#e6a65a;--tint:#1c242c;--mapfilter:invert(1) hue-rotate(180deg);--imgfix:invert(1) hue-rotate(180deg)}
 :root[data-theme=blueprint]{--sea:#12335c;--paper:#173d6b;--ink:#dbe8f6;--text:#eaf2fb;--muted:#9bb8d8;--line:#2f5a8c;--accent:#ffd36b;--tint:#1d4777;--mapfilter:invert(1) sepia(1) saturate(2.4) hue-rotate(172deg) brightness(.95);--imgfix:invert(1) sepia(1) saturate(2.4) hue-rotate(172deg)}
 :root[data-theme=parchment]{--sea:#e8dcc0;--paper:#f3e9d0;--ink:#4a3b24;--text:#3a2e1c;--muted:#6d5d44;--line:#c9b68f;--accent:#9a4f17;--tint:#e9dcbd;--mapfilter:sepia(.65) saturate(1.1) contrast(.96);--imgfix:none}
@@ -27,13 +27,14 @@ body,button,input{font-family:'LM Serif','LM Blackboard','LM Fraktur','LM Script
 #stage::after{content:'';position:absolute;inset:0;pointer-events:none;opacity:.07;background-image:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='180' height='180'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 .2  0 0 0 0 .2  0 0 0 0 .15  0 0 0 .9 0'/></filter><rect width='180' height='180' filter='url(%23n)'/></svg>")}
 #map{position:absolute;inset:0;width:100%;height:100%;cursor:grab;touch-action:none;display:block}
 #map.drag{cursor:grabbing}
-#map *:focus{outline:none}
+#map *:focus-visible{outline:2px solid var(--accent)}
 .world-minor{opacity:clamp(0,calc((var(--k) - 1.7)/1.2),1)}
 .world-major{opacity:clamp(.6,calc((var(--k) - 1)/.9),1)}
 .world-river{opacity:clamp(0,calc((var(--k) - 1.25)/.9),1)}
 .lbl{font-style:italic;font-weight:600;stroke-linejoin:round;paint-order:stroke}
-.hud{position:absolute;z-index:5;top:14px;left:14px;right:14px;display:flex;gap:10px;align-items:flex-start;pointer-events:none}
+.hud{position:absolute;z-index:5;top:14px;left:14px;right:14px;display:flex;align-items:flex-start;pointer-events:none}
 .hud>*{pointer-events:auto}
+button:focus-visible,a:focus-visible,[role=slider]:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .btn{border:1px solid var(--ink);background:var(--paper);color:var(--text);cursor:pointer;font-size:14px;min-height:36px;padding:0 13px;text-decoration:none;display:inline-flex;align-items:center;white-space:nowrap}
 .title{padding:2px 4px;max-width:520px;font-size:21px;font-weight:600;text-shadow:0 0 6px var(--sea),0 0 3px var(--sea),0 0 10px var(--sea)}
 .ib{width:32px;height:32px;min-height:0;padding:0;border-radius:50%;justify-content:center;font-size:15px;color:var(--muted);border-color:var(--line);background:color-mix(in srgb,var(--paper) 90%,transparent)}.ib:hover{color:var(--text);border-color:var(--ink)}
@@ -41,8 +42,7 @@ body,button,input{font-family:'LM Serif','LM Blackboard','LM Fraktur','LM Script
 #core button.xbtn{border:0;background:none;color:var(--text);min-height:0;padding:0 4px}.xbtn{border:0;background:none;cursor:pointer;font-size:26px;line-height:1;color:var(--text);padding:0 4px}
 .sp{margin-left:auto}
 .panel{border:1px solid var(--line);background:color-mix(in srgb,var(--paper) 96%,transparent)}
-#stats{position:absolute;z-index:4;left:14px;top:56px;width:244px;padding:12px 14px;max-height:calc(100vh - 250px);overflow:auto}
-#stats h3{margin:0;font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600;display:flex;justify-content:space-between;align-items:center;cursor:pointer}#stats h3::after{content:'\25BE';font-size:13px}#stats.shut h3::after{content:'\25B8'}#leg{margin-top:8px}#stats.shut #leg{display:none}#stats.shut{padding-bottom:10px}
+#leg{margin-top:8px}
 .row{display:grid;grid-template-columns:14px minmax(0,1fr) auto;gap:8px;align-items:center;cursor:pointer;padding:3px 4px;border:1px solid transparent;font-size:15px}
 .row:hover{border-color:#b9ae97}.row.on{border-color:var(--ink);background:var(--tint)}
 .row i{width:12px;height:12px;border-radius:50%;border:1.3px solid var(--ink)}.row .n{font-size:14px;font-variant-numeric:tabular-nums}
@@ -55,6 +55,7 @@ body,button,input{font-family:'LM Serif','LM Blackboard','LM Fraktur','LM Script
 #play svg{width:15px;height:15px;fill:var(--paper)}
 .clock small{font-size:12px;color:var(--muted);text-align:center;line-height:1.25;font-style:italic}
 #rail{position:relative;height:96px;cursor:ew-resize;touch-action:none;user-select:none}
+#rail:focus-visible{outline-offset:-3px}
 #rail svg{position:absolute;inset:0;width:100%;height:100%}
 #panel{position:absolute;z-index:6;top:0;right:0;bottom:0;width:min(430px,100vw);overflow:auto;padding:18px 20px 28px;background:var(--sea);border-left:1px solid var(--ink);box-shadow:-6px 0 18px rgba(45,53,43,.14);display:none}
 #panel h2{margin:0 0 2px;font-size:25px;line-height:1.15;font-weight:600}
@@ -63,7 +64,7 @@ body,button,input{font-family:'LM Serif','LM Blackboard','LM Fraktur','LM Script
 #panel li{display:grid;grid-template-columns:50px 12px minmax(0,1fr);gap:8px;padding:6px 0;border-top:1px solid var(--line);font-size:16px;line-height:1.25;align-items:baseline;cursor:pointer}
 #panel li:hover{background:var(--tint)}#panel li .y{font-size:13px;color:var(--muted)}#panel li i{width:10px;height:10px;border-radius:50%;display:inline-block}
 #panel .x{position:absolute;right:12px;top:6px;cursor:pointer;font-size:24px;line-height:1;border:0;background:none}
-#panel .back{font-style:italic;color:var(--muted);cursor:pointer;font-size:15px}
+#panel .back{font-style:italic;color:var(--muted);cursor:pointer;font-size:15px;border:0;background:none;padding:0;text-align:left}
 #panel .why{font-size:17px;line-height:1.4;margin:10px 0 12px}
 #panel .chip{display:flex;align-items:center;gap:7px;font-size:14px;font-weight:600;margin:0 0 3px}.chip i{width:11px;height:11px;border-radius:50%;border:1.3px solid var(--ink)}
 .st{display:grid;grid-template-columns:48px minmax(0,1fr);gap:8px;padding:8px 4px;border-top:1px solid var(--line);align-items:start}
@@ -80,52 +81,71 @@ body,button,input{font-family:'LM Serif','LM Blackboard','LM Fraktur','LM Script
 #core .hd{display:flex;justify-content:space-between;gap:20px;align-items:flex-start;border-bottom:1px solid var(--line);padding-bottom:12px;margin-bottom:14px}
 #core h2{margin:0;font-size:32px;line-height:1.1;font-weight:600}
 #core .grid{display:grid;grid-template-columns:minmax(0,7fr) minmax(0,4fr);gap:30px}
+#core .grid>*{min-width:0;overflow-wrap:anywhere}
 #core .layer{display:grid;grid-template-columns:64px minmax(0,1fr);gap:12px;padding:14px 10px;border-top:1px solid var(--line)}
 #core .layer:nth-child(odd){background:var(--tint)}
 #core .layer .y{font-size:17px}#core .layer h3{margin:0 0 3px;font-weight:600;font-size:20px;line-height:1.2}#core .layer p{margin:3px 0;font-size:16px;line-height:1.4}
 #core .role{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
-#core .ev{font-size:14.5px;line-height:1.38;color:#4a5446;margin:5px 0 0;padding-left:10px;border-left:2px solid var(--line)}
+#core .ev{font-size:14.5px;line-height:1.38;color:var(--text);margin:5px 0 0;padding-left:10px;border-left:2px solid var(--line)}
 #core a,.ev a{color:var(--text);border-bottom:1px dotted var(--muted);text-decoration:none}
 #core .gl{margin-top:10px;height:0;border-top:3px solid var(--ink)}#core .gl.pencil{border-top:2.5px solid #8c8378}#core .gl.dots{border-top:2.5px dotted #8c8378}#core .gl+div{font-size:11.5px;color:var(--muted);margin-top:4px}
 #core .side h4{margin:0 0 6px;font-weight:600;letter-spacing:.1em;font-size:13px;color:var(--muted);text-transform:uppercase}
 #core .person{border-top:1px solid var(--line);padding:8px 0;font-size:15.5px;line-height:1.35}
-#core .note{font-size:14px;line-height:1.4;color:#4a5446;border:1px dashed #8c8378;padding:10px 12px;margin-top:14px}
-.fb{width:40px;height:40px;border-radius:50%;border:1px solid var(--line);background:var(--paper);color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;font-size:17px;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+#core .note{font-size:14px;line-height:1.4;color:var(--text);border:1px dashed var(--line);padding:10px 12px;margin-top:14px}
+.fb{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:var(--paper);color:var(--text);cursor:pointer;display:flex;align-items:center;justify-content:center;padding:0;font-size:17px;box-shadow:0 2px 8px rgba(0,0,0,.15)}
 .fb:hover,.fb.on{border-color:var(--ink)}.fb svg{width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
-#fab{position:absolute;z-index:7;right:14px;bottom:14px;display:flex;flex-direction:column-reverse;gap:8px;align-items:center}
-#menu{display:none;flex-direction:column;gap:8px;position:relative}#fab.open #menu{display:flex}
-#menu .w{position:relative}
-.pop{position:absolute;right:50px;bottom:0;background:var(--paper);border:1px solid var(--line);box-shadow:0 6px 22px rgba(0,0,0,.22);padding:6px;display:none;min-width:230px}.pop.on{display:block}
-.pop .it{display:flex;align-items:center;gap:10px;padding:8px 10px;cursor:pointer;font-size:16px;border:0;background:none;width:100%;text-align:left;color:var(--text)}.pop .it:hover{background:var(--tint)}
-.pop .sw{width:18px;height:18px;border-radius:50%;border:1px solid var(--line);flex:none}
+.fb[aria-expanded=true]{border-color:var(--ink);background:var(--tint)}
+#fab{position:absolute;z-index:7;right:14px;bottom:14px;display:flex;flex-direction:column-reverse;gap:8px;align-items:flex-end}
+#menu{display:none;width:min(350px,calc(100vw - 28px));max-height:calc(100vh - 78px);overflow:auto;background:var(--paper);border:1px solid var(--ink);box-shadow:4px 5px 0 color-mix(in srgb,var(--ink) 18%,transparent);padding:10px}#fab.open #menu{display:block}
+#menu h2{font-size:19px;margin:2px 4px 8px}#menu h3{font-size:14px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin:4px 8px 6px}
+#menuhome[hidden],.menusub[hidden]{display:none}
+.menu-group+.menu-group{border-top:1px solid var(--line);margin-top:7px;padding-top:7px}
+.menu-row,.menu-back{display:flex;align-items:center;gap:10px;padding:9px 10px;min-height:42px;cursor:pointer;font-size:16px;border:0;background:none;width:100%;text-align:left;color:var(--text);text-decoration:none}
+.menu-row:hover,.menu-row:focus-visible,.menu-back:hover,.menu-back:focus-visible{background:var(--tint)}
+.menu-row svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;flex:none}.menu-row .state{margin-left:auto;color:var(--muted);font-size:13px}
+.menu-back{font-style:italic;color:var(--muted);padding-left:5px}.menu-back::before{content:'\2190';font-style:normal}
+.menusub>h2{margin-top:0}
+.pop .it,.menusub .it{display:flex;align-items:center;gap:10px;padding:8px 10px;cursor:pointer;font-size:16px;border:0;background:none;width:100%;text-align:left;color:var(--text)}.pop .it:hover,.menusub .it:hover{background:var(--tint)}
+.pop .sw,.menusub .sw{width:18px;height:18px;border-radius:50%;border:1px solid var(--line);flex:none}
 #sq{width:100%;border:0;border-bottom:1px solid var(--line);background:none;color:var(--text);font-size:17px;padding:8px 10px;outline:0}
-#sr{max-height:min(48vh,360px);overflow:auto;width:340px;max-width:calc(100vw - 90px)}#sr .it{font-size:15px;align-items:baseline}#sr small{color:var(--muted);margin-left:auto;white-space:nowrap;padding-left:8px}
-#stats{display:none}body.ev #stats{display:block}.dock{display:none}body.tl .dock{display:grid;right:68px}
+#sr{max-height:min(48vh,360px);overflow:auto;width:100%}#sr .it{font-size:15px;align-items:baseline}#sr small{color:var(--muted);margin-left:auto;white-space:nowrap;padding-left:8px}
+#browsefields{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:3px}#browsefields button{width:100%;text-align:left;border:0;background:none;color:var(--text);padding:8px;font-size:15px;line-height:1.25;cursor:pointer}#browsefields button:hover,#browsefields button:focus-visible{background:var(--tint)}
+.dock{display:none}body.tl .dock{display:grid;right:68px}
 body.pn #fab{right:calc(min(430px,100vw) + 14px)}body.pn.tl .dock{right:calc(min(430px,100vw) + 68px)}
 #tip{position:absolute;z-index:9;pointer-events:none;background:var(--paper);border:1px solid var(--ink);padding:5px 10px;font-size:14px;display:none;max-width:320px}
 #tip small{color:var(--muted)}
 #boot{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-style:italic;color:var(--muted);z-index:7;background:var(--sea)}
-@media(max-width:820px){body.ev #stats{display:none}#panel{top:auto;height:50%;width:100%;border-left:0;border-top:1px solid var(--ink)}.dock{grid-template-columns:96px minmax(0,1fr)}#year{font-size:22px}}
+@media(max-width:820px){#panel{top:auto;height:50%;width:100%;border-left:0;border-top:1px solid var(--ink)}.dock{grid-template-columns:96px minmax(0,1fr)}#year{font-size:22px}body.pn #fab{right:14px;bottom:calc(50% + 14px)}body.pn.tl .dock{right:14px;bottom:calc(50% + 14px)}#core{left:10px;right:10px;top:10px;bottom:10px;padding:16px}#core .grid{grid-template-columns:minmax(0,1fr);gap:24px}#core h2{font-size:clamp(24px,7vw,32px)}#core .hd{gap:10px}#core .hd>div:first-child{min-width:0}#core .layer{grid-template-columns:56px minmax(0,1fr);padding:12px 0}}
+@media(max-width:520px){#browsefields{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
 </style>
 <div id="boot">Drawing the map&hellip;</div>
+<noscript><style>#boot{display:none}</style><p style="position:relative;z-index:20;padding:24px;background:var(--paper)">The interactive map needs JavaScript. <a href="reference/">Read the Mathlas reference pages</a>.</p></noscript>
 <div id="stage"><svg id="map" role="img" aria-label="A map of mathematical fields as islands that appear and grow through time"></svg></div>
 <div class="hud"><div class="title">The mathematical world, through time</div></div>
-<div id="stats" class="panel" role="group" aria-label="Events by type"><h3 id="sth" role="button" tabindex="0" aria-expanded="true">Event types</h3><div id="leg"></div></div>
-<div id="fab"><div id="menu">
-<div class="w"><button class="fb" id="bsearch" title="Search" aria-label="Search"><svg viewBox="0 0 20 20"><circle cx="8.5" cy="8.5" r="5.5"/><path d="M13 13l4 4"/></svg></button><div class="pop" id="psearch"><input id="sq" placeholder="Search events, people, fields" autocomplete="off"><div id="sr"></div></div></div>
-<div class="w"><button class="fb" id="btl" title="Time-lapse" aria-label="Time-lapse"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="7.5"/><path d="M10 5.5V10l3 2"/></svg></button></div>
-<div class="w"><button class="fb" id="btheme" title="Theme" aria-label="Theme"><svg viewBox="0 0 20 20"><path d="M15.5 2.5l2 2-8 8-2.5.5.5-2.5z"/><path d="M7 11c-2 0-3.5 1.5-3.5 3.5 0 1.5-1 2-1.500 2.500 3 .5 6 0 6-3.500 0-1-.5-2-1-2.500"/></svg></button><div class="pop" id="ptheme"></div></div>
-<div class="w"><button class="fb" id="bev" title="Event types" aria-label="Event types"><svg viewBox="0 0 20 20"><circle cx="4" cy="5" r="1.2"/><circle cx="4" cy="10" r="1.2"/><circle cx="4" cy="15" r="1.2"/><path d="M8 5h9M8 10h9M8 15h9"/></svg></button></div>
-<div class="w"><button class="fb" id="credbtn" title="Credits" aria-label="Credits">&copy;</button></div>
-</div><button class="fb" id="gear" title="Menu" aria-label="Menu" aria-expanded="false"><svg viewBox="0 0 20 20"><circle cx="10" cy="10" r="2.6"/><path d="M10 2.5v2M10 15.5v2M2.5 10h2M15.5 10h2M4.7 4.7l1.400 1.400M13.900 13.900l1.400 1.400M15.300 4.700l-1.400 1.400M6.100 13.900l-1.400 1.400"/></svg></button></div>
-<div id="panel" role="dialog" aria-label="Details"><button class="x" id="px" aria-label="Close">&times;</button><div id="pbody"></div></div>
-<div id="core" role="dialog" aria-label="Core sample"></div>
+<div id="fab"><div id="menu" aria-label="Atlas menu">
+<div id="menuhome">
+<div class="menu-group">
+<button class="menu-row" id="bsearch" aria-controls="psearch" aria-expanded="false"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="8.5" cy="8.5" r="5.5"/><path d="M13 13l4 4"/></svg>Search</button>
+<button class="menu-row" id="browsebtn" aria-controls="browse" aria-expanded="false"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M3 4.5h5v5H3zM12 4.5h5v5h-5zM3 12.5h5v3H3zM12 12.5h5v3h-5z"/></svg>Browse fields</button>
+<button class="menu-row" id="bev" aria-controls="ptypes" aria-expanded="false"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="4" cy="5" r="1.2"/><circle cx="4" cy="10" r="1.2"/><circle cx="4" cy="15" r="1.2"/><path d="M8 5h9M8 10h9M8 15h9"/></svg>Event types<span class="state" id="typestate">All</span></button>
+</div>
+<div class="menu-group"><button class="menu-row" id="btl" aria-pressed="false"><svg viewBox="0 0 20 20" aria-hidden="true"><circle cx="10" cy="10" r="7.5"/><path d="M10 5.5V10l3 2"/></svg>Timeline and replay<span class="state" id="tlstate">Hidden</span></button></div>
+<div class="menu-group"><button class="menu-row" id="btheme" aria-controls="ptheme" aria-expanded="false"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M15.5 2.5l2 2-8 8-2.5.5.5-2.5z"/><path d="M7 11c-2 0-3.5 1.5-3.5 3.5 0 1.5-1 2-1.5 2.5 3 .5 6 0 6-3.5 0-1-.5-2-1-2.5"/></svg>Theme<span class="state" id="themestate">Old atlas</span></button></div>
+<div class="menu-group"><a class="menu-row" href="reference/"><svg viewBox="0 0 20 20" aria-hidden="true"><path d="M4 3.5h8.5a2 2 0 0 1 2 2V17H6a2 2 0 0 1-2-2z"/><path d="M6 17a2 2 0 0 1 0-4h8.5M8 7h4"/></svg>Read reference pages</a><button class="menu-row" id="credbtn"><span aria-hidden="true">&copy;</span>About and credits</button></div>
+</div>
+<section class="menusub" id="psearch" hidden><button class="menu-back" data-menu-back>Back</button><h2>Search</h2><input id="sq" aria-label="Search events, people and fields" placeholder="People, events, or fields" autocomplete="off"><div id="sr"></div></section>
+<nav class="menusub" id="browse" aria-label="Browse mathematical fields" hidden><button class="menu-back" data-menu-back>Back</button><h2 tabindex="-1">Browse fields</h2><div id="browsefields"></div></nav>
+<section class="menusub" id="ptypes" hidden><button class="menu-back" data-menu-back>Back</button><h2 tabindex="-1">Event types</h2><p class="hint">Select a type to highlight it on the map.</p><div id="leg"></div></section>
+<section class="menusub" id="ptheme" hidden><button class="menu-back" data-menu-back>Back</button><h2 tabindex="-1">Theme</h2><div id="themelist"></div></section>
+</div><button class="fb" id="gear" title="Open atlas menu" aria-label="Open atlas menu" aria-controls="menu" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12.22 2h-.44a2 2 0 0 0-2 2v.18a2 2 0 0 1-1 1.73l-.43.25a2 2 0 0 1-2 0l-.15-.08a2 2 0 0 0-2.73.73l-.22.38a2 2 0 0 0 .73 2.73l.15.1a2 2 0 0 1 1 1.72v.51a2 2 0 0 1-1 1.74l-.15.09a2 2 0 0 0-.73 2.73l.22.38a2 2 0 0 0 2.73.73l.15-.08a2 2 0 0 1 2 0l.43.25a2 2 0 0 1 1 1.73V20a2 2 0 0 0 2 2h.44a2 2 0 0 0 2-2v-.18a2 2 0 0 1 1-1.73l.43-.25a2 2 0 0 1 2 0l.15.08a2 2 0 0 0 2.73-.73l.22-.38a2 2 0 0 0-.73-2.73l-.15-.09a2 2 0 0 1-1-1.74v-.51a2 2 0 0 1 1-1.74l.15-.09a2 2 0 0 0 .73-2.73l-.22-.38a2 2 0 0 0-2.73-.73l-.15.08a2 2 0 0 1-2 0l-.43-.25a2 2 0 0 1-1-1.73V4a2 2 0 0 0-2-2z"/><circle cx="12" cy="12" r="3"/></svg></button></div>
+<div id="panel" role="region" aria-label="Details" tabindex="-1"><button class="x" id="px" aria-label="Close">&times;</button><div id="pbody"></div></div>
+<div id="core" role="dialog" aria-modal="true" aria-label="Core sample"></div>
 <div id="tip"></div>
-<div class="dock"><div class="clock"><div id="year">1700</div><button id="play" aria-label="Play"><svg viewBox="0 0 20 20" id="pi"><path d="M5 3 L17 10 L5 17 Z"/></svg></button><small>drag the rail<br>or press space</small></div><div id="rail"><svg id="railsvg" preserveAspectRatio="none"></svg></div></div>
+<div class="dock"><div class="clock"><div id="year">1700</div><button id="play" aria-label="Play time-lapse"><svg viewBox="0 0 20 20" id="pi"><path d="M5 3 L17 10 L5 17 Z"/></svg></button><small>Drag the rail or use arrow keys when it is focused</small></div><div id="rail" role="slider" tabindex="0" aria-label="Year in the atlas" aria-valuemin="-2000" aria-valuemax="2025" aria-valuenow="2025"><svg id="railsvg" preserveAspectRatio="none"></svg></div></div>
 <script>
-const DATA=/*DATA*/{};
-Promise.all([fetch('data/field-film-art.json').then(r=>r.json()),fetch('data/portraits.json').then(r=>r.json()).catch(()=>({}))]).then(([ART,PORT])=>{document.getElementById('boot').remove();start(ART,PORT)});
-function start(ART,PORT){
+Promise.all([fetch('data/field-film-runtime.json').then(r=>{if(!r.ok)throw new Error('Map index unavailable');return r.json()}),fetch('data/field-film-art.json').then(r=>{if(!r.ok)throw new Error('Map data unavailable');return r.json()}),fetch('data/portraits.json').then(r=>r.json()).catch(()=>({}))]).then(([DATA,ART,PORT])=>{document.getElementById('boot').remove();start(DATA,ART,PORT)}).catch(()=>{const boot=document.getElementById('boot');boot.innerHTML='<div>Could not load the atlas. <button type="button" id="retry">Try again</button> <a href="reference/">Read the reference pages</a></div>';document.getElementById('retry').onclick=()=>location.reload()});
+function start(DATA,ART,PORT){
 const [W,H]=DATA.world,F=DATA.fields,EV=DATA.events,LK=DATA.links,TYPE=DATA.types,ISL=ART.islands;
 const SEA='#f2efe7',PAPER='#fbf8f0',INK='#3b4438',TEXT='#2d352b',ACCENT='#ae6b1f';
 const WASH={analytic:'#f0f4e6',algebraic:'#f7ece4',geometric:'#f2f1e2',discrete:'#f7f2d9',logic:'#f6eedb'};
@@ -145,10 +165,12 @@ defs+='<clipPath id="pc" clipPathUnits="objectBoundingBox"><circle cx=".5" cy=".
 const art=a=>{const L=WASH[a.family],D=HUE.dark;return `<path d="${a.halo}" fill="none" stroke="${D}" stroke-opacity=".35" stroke-width="1.1" stroke-dasharray="9 9"/><path d="${a.near}" fill="none" stroke="${D}" stroke-opacity=".5" stroke-width="1.2" stroke-dasharray="14 6"/><path d="${a.path}" fill="url(#w-hatch)" opacity=".5" transform="translate(5 6)"/><path d="${a.path}" fill="${L}"/><path class="world-minor" d="${a.minor}" fill="none" stroke="${HUE.light}" stroke-width=".9" stroke-linecap="round"/><path class="world-major" d="${a.major}" fill="none" stroke="${D}" stroke-opacity=".45" stroke-width="1.1" stroke-linecap="round"/><path d="${a.lakes}" fill="#bdd0d4" stroke="${D}" stroke-opacity=".7" stroke-width="1"/>${a.rivers.map(r=>`<path class="world-river" d="${r}" fill="none" stroke="#bdd0d4" stroke-width="4" stroke-linecap="round"/>`).join('')}<path d="${a.fields}" fill="none" stroke="${D}" stroke-opacity=".65" stroke-width=".8" stroke-linejoin="round"/><path d="${a.squares}" fill="none" stroke="${D}" stroke-opacity=".7" stroke-width=".9" stroke-linejoin="round"/><path d="${a.dunes}" fill="none" stroke="${D}" stroke-opacity=".6" stroke-width=".9" stroke-linecap="round"/><path d="${a.spirals}" fill="none" stroke="${D}" stroke-opacity=".7" stroke-width="1" stroke-linecap="round"/><path d="${a.treeD}" fill="#f9f6ec" stroke="${D}" stroke-width="1" stroke-linejoin="round" stroke-linecap="round"/><path d="${a.treeH}" fill="none" stroke="${D}" stroke-opacity=".7" stroke-width=".8" stroke-linecap="round"/><path d="${a.mountains}" fill="${HUE.peak}" stroke="${D}" stroke-width="1.3" stroke-linejoin="round"/><path d="${a.hatch}" fill="none" stroke="${D}" stroke-opacity=".7" stroke-width=".9" stroke-linecap="round"/><path d="${a.ink}" fill="${PAPER}" fill-opacity=".92" stroke="${D}" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round"/><path d="${a.path}" fill="none" stroke="${D}" stroke-width="1.5" stroke-linejoin="round"/>`};
 svg.innerHTML=`<defs>${defs}</defs><rect x="-4000" y="-4000" width="9000" height="9000" fill="${SEA}"/><path d="${ART.wisps}" fill="#dcd6c6" fill-opacity=".8"/><g id="gL"></g><g id="gI">${ISL.map((a,i)=>`<g id="isl${i}" data-f="${i}" style="cursor:pointer">${art(a)}</g>`).join('')}</g><g id="gC"></g><g id="gE"></g><g id="gP"></g><g id="gR"></g><g id="gH"></g><g id="gA"></g>`;
 const gL=svg.querySelector('#gL'),gC=svg.querySelector('#gC'),gE=svg.querySelector('#gE'),gR=svg.querySelector('#gR'),gA=svg.querySelector('#gA'),gH=svg.querySelector('#gH');
+const layerHTML=new WeakMap(),setLayer=(el,html)=>{if(layerHTML.get(el)!==html){el.innerHTML=html;layerHTML.set(el,html)}};
 const islEls=ISL.map((_,i)=>svg.querySelector('#isl'+i));
 const bust=`<circle cx="0" cy="-.55" r=".5" fill="${PAPER}" stroke="${INK}" stroke-width="1.8" vector-effect="non-scaling-stroke"/><circle cx="0" cy="-.66" r=".15" fill="${PAPER}" stroke="${INK}" stroke-width="1.5" vector-effect="non-scaling-stroke"/><path d="M-.3,-.25Q-.3,-.48 0,-.5Q.3,-.48 .3,-.25Z" fill="${PAPER}" stroke="${INK}" stroke-width="1.5" vector-effect="non-scaling-stroke"/>`;
-svg.querySelector('#gP').innerHTML=(DATA.people||[]).map((pp,pi)=>{const pt=PORT[pp.name];return `<g id="st${pi}" data-p="${pi}" display="none" style="cursor:pointer"><circle cx="0" cy="-.55" r=".6" fill="transparent"/>${pt?`<image href="${pt.file}" x="-.5" y="-1.05" width="1" height="1" preserveAspectRatio="xMidYMid slice" clip-path="url(#pc)" /><circle cx="0" cy="-.55" r=".5" fill="none" stroke="${INK}" stroke-width="1.8" vector-effect="non-scaling-stroke"/>`:bust}<path d="M-.42,0H.42" stroke="${INK}" stroke-width="2" vector-effect="non-scaling-stroke"/></g>`}).join('');
+svg.querySelector('#gP').innerHTML=(DATA.people||[]).map((pp,pi)=>{const pt=PORT[pp.name];return `<g id="st${pi}" data-p="${pi}" display="none" style="cursor:pointer"><circle cx="0" cy="-.55" r=".6" fill="transparent"/>${pt?`<image data-src="${pt.file}" x="-.5" y="-1.05" width="1" height="1" preserveAspectRatio="xMidYMid slice" clip-path="url(#pc)" /><circle cx="0" cy="-.55" r=".5" fill="none" stroke="${INK}" stroke-width="1.8" vector-effect="non-scaling-stroke"/>`:bust}<path d="M-.42,0H.42" stroke="${INK}" stroke-width="2" vector-effect="non-scaling-stroke"/></g>`}).join('');
 const stEls=(DATA.people||[]).map((_,i)=>svg.querySelector('#st'+i));
+let portraitsLoaded=false;const loadPortraits=()=>{if(portraitsLoaded)return;portraitsLoaded=true;stEls.forEach(el=>{const image=el.querySelector('image[data-src]');if(image)image.setAttribute('href',image.dataset.src)})};
 // ---- data helpers ------------------------------------------------------------------------------------------------------
 const EVP=new Map(EV.map(e=>[e.p,e]));const PPL=DATA.people||[];const PSETN=new Map();PPL.forEach(p=>{if(!PSETN.has(p.name))PSETN.set(p.name,new Set(p.all))});const inP=pid=>selP===''||selP==null||PSETN.get(selP).has(pid);
 const EVF=F.map((_,i)=>EV.filter(e=>e.f===i).sort((a,b)=>a.y-b.y||(a.p<b.p?-1:1)));
@@ -163,6 +185,7 @@ const STOPS=[[-2000,0],[0,70],[1000,120],[1500,190],[1700,250],[1800,420],[1900,
 const xOf=y=>{if(y<=STOPS[0][0])return 0;for(let i=0;i<STOPS.length-1;i++){const a=STOPS[i],b=STOPS[i+1];if(y<=b[0])return a[1]+(b[1]-a[1])*(y-a[0])/(b[0]-a[0])}return 1000};
 const yOf=x=>{for(let i=0;i<STOPS.length-1;i++){const a=STOPS[i],b=STOPS[i+1];if(x<=b[1])return a[0]+(b[0]-a[0])*(x-a[1])/(b[1]-a[1])}return 2025};
 let T=2025,prevT=2025,anims=[],playing=false,sel=-1,selE=null,selP='',hl=-1,EVD=null,evdBusy=false,lastKey=null,coreOpen=null;
+const reduceMotion=matchMedia('(prefers-reduced-motion: reduce)');
 let vb={x:-60,y:-60,w:W+120,h:H+120};const vb0={...vb};
 const tcol=TYPE.map(t=>t.color);
 const rs=document.getElementById('railsvg');rs.setAttribute('viewBox','0 0 1000 96');
@@ -170,7 +193,7 @@ let rsH='';[['Antiquity',-2000,0],['Medieval and Islamic',0,1500],['Early modern
 EV.forEach(e=>{const x=xOf(Math.min(e.y,2025));rsH+=`<line class="tk" data-t="${e.t}" x1="${f1(x)}" y1="86" x2="${f1(x)}" y2="${f1(86-(8+((e.y*7+e.t*13+5)%34)))}" stroke="${tcol[e.t]}" stroke-width="2.2"/>`});
 rs.innerHTML=rsH+'<line x1="0" y1="86" x2="1000" y2="86" stroke="'+INK+'" stroke-width="1.6"/><line id="cur" x1="0" y1="2" x2="0" y2="94" stroke="'+ACCENT+'" stroke-width="3"/>';
 const cursor=rs.querySelector('#cur'),tks=[...rs.querySelectorAll('.tk')];
-const applyHl=()=>tks.forEach(l=>{l.style.opacity=hl<0||+l.dataset.t===hl?1:.12;l.setAttribute('stroke-width',hl>=0&&+l.dataset.t===hl?3.4:2.2)});
+const applyHl=()=>{tks.forEach(l=>{l.style.opacity=hl<0||+l.dataset.t===hl?1:.12;l.setAttribute('stroke-width',hl>=0&&+l.dataset.t===hl?3.4:2.2)});if(typeof legEl!=='undefined'){[...legEl.children].forEach((row,k)=>{const on=hl===k;row.classList.toggle('on',on);row.setAttribute('aria-pressed',String(on))});const state=document.getElementById('typestate');if(state)state.textContent=hl<0?'All':TYPE[hl].name}};
 // ---- the mark the card explorer gives every event ------------------------------------------------------------------------
 const hashCode=v=>{let h=2166136261;for(const ch of v){h^=ch.charCodeAt(0);h=Math.imul(h,16777619)}return h>>>0};
 function insignia(e,px){const seed=hashCode(e.p+'|'+e.c),orbit=18+(seed%8),rot=seed%360;const nodes=[0,1,2,3].map(i=>{const a=((seed>>>((i*7)%24))%360)*Math.PI/180,r=orbit+((seed>>>((i*5+3)%24))%7)-3;return{x:32+Math.cos(a)*r,y:32+Math.sin(a)*r,r:1.2+((seed>>>((i*3+1)%24))%10)/10}});const rays=nodes.slice(0,2).map(n=>'M32 32L'+n.x.toFixed(1)+' '+n.y.toFixed(1)).join(' ');const col=tcol[e.t],len=[...e.g].length,fs=len>2?15:len>1?20:25;
@@ -178,11 +201,11 @@ function insignia(e,px){const seed=hashCode(e.p+'|'+e.c),orbit=18+(seed%8),rot=s
 // width of a banner name in em, measured in the real (bold, capitals) face so the ribbon always holds it
 const capCtx=document.createElement('canvas').getContext('2d'),capMemo=new Map();
 const capW=t=>{if(!capMemo.has(t)){capCtx.font="700 100px 'LM Serif',Georgia,serif";capMemo.set(t,capCtx.measureText(t.toUpperCase()).width/100)}return capMemo.get(t)};
-if(document.fonts&&document.fonts.load)document.fonts.load("700 20px 'LM Serif'").then(()=>{capMemo.clear();render()});
+if(document.fonts&&document.fonts.load)document.fonts.load("700 20px 'LM Serif'").then(()=>{capMemo.clear();requestSceneRender()});
 // ---- drawing the moment ------------------------------------------------------------------------------------------------
 function render(){
  const zoom=Math.max(.05,svg.clientWidth/vb.w),kk=vb0.w/vb.w;
- if(T>prevT&&T-prevT<45){const fresh=EV.filter(e=>e.y>prevT&&e.y<=T);fresh.sort((a,b)=>b.y-a.y);fresh.slice(0,8).forEach(e=>anims.push({p:e.p,t0:performance.now()}))}prevT=T;svg.style.setProperty('--k',kk.toFixed(3));
+ if(!reduceMotion.matches&&T>prevT&&T-prevT<45){const fresh=EV.filter(e=>e.y>prevT&&e.y<=T);fresh.sort((a,b)=>b.y-a.y);fresh.slice(0,8).forEach(e=>anims.push({p:e.p,t0:performance.now()}))}prevT=T;if(reduceMotion.matches)anims=[];svg.style.setProperty('--k',kk.toFixed(3));
  const sizes=F.map((f,i)=>sizeAt(i,T)),rad=sizes.map(rOf),kf=rad.map((r,i)=>r/ISL[i].R);
  const cT=TYPE.map(()=>0),ft=F.map(()=>TYPE.map(()=>0));EV.forEach(e=>{const v=ramp((T-e.y+5)/10);if(v>0){cT[e.t]+=v;ft[e.f][e.t]+=v}});
  const tot=cT.reduce((a,b)=>a+b,0)||1;TYPE.forEach((ty,k)=>{document.getElementById('n'+k).textContent=Math.round(cT[k]);document.getElementById('b'+k).style.width=(100*cT[k]/tot).toFixed(1)+'%';legEl.children[k].classList.toggle('on',hl===k)});
@@ -201,7 +224,7 @@ function render(){
    const len=Math.hypot(ex-bx,ey-by);if(kk>1.7&&len>120&&wt>=3){const th=Math.min(60,22+len*.05+dw),at=t=>[bx+(ex-bx)*t,by+(ey-by)*t],T1=at(.2),T2=at(.8),t1=[T1[0],T1[1]-th],t2=[T2[0],T2[1]-th],mx=(t1[0]+t2[0])/2,my=(t1[1]+t2[1])/2+30;deck+=`<path d="M${f1(T1[0])},${f1(T1[1])}L${f1(t1[0])},${f1(t1[1])}M${f1(T2[0])},${f1(T2[1])}L${f1(t2[0])},${f1(t2[1])}" fill="none" stroke="${INK}" stroke-width="3" stroke-linecap="round"/><path d="M${f1(bx)},${f1(by-2)}L${f1(t1[0])},${f1(t1[1])}Q${f1(mx)},${f1(my)} ${f1(t2[0])},${f1(t2[1])}L${f1(ex)},${f1(ey-2)}" fill="none" stroke="${INK}" stroke-width="1.4"/>`}
    if(wt>=3)deck+=`<text x="${f1((bx+ex)/2)}" y="${f1((by+ey)/2-dw/2-4)}" text-anchor="middle" class="lbl" font-size="15" fill="${TEXT}" stroke="${SEA}" stroke-width="4" opacity="${f1(1-ramp((kk-2.4)/.8))}">${Math.round(wt)}</text>`;deck+='</g>'}
   hit+=`<path data-l="${p.id}" d="${route}" stroke="transparent" stroke-width="${f1(Math.max(12,wd+8))}" fill="none" style="cursor:help"/>`});
- gL.innerHTML=thin+deck+hot+hit;
+ setLayer(gL,thin+deck+hot+hit);
  // symbols and dots on the islands, statues of landmark mathematicians, names on ribbons
  stEls.forEach(e=>e.setAttribute('display','none'));
  let clr='',sy='',nm='',hd='',lt='';const rects=[],cands=[],overlap=(a,b)=>a.x0<b.x1&&a.x1>b.x0&&a.y0<b.y1&&a.y1>b.y0;
@@ -240,101 +263,133 @@ function render(){
   else if(e.t===5){const rr=(44-36*ease)*u;an+=`<circle cx="${f1(x)}" cy="${f1(y)}" r="${f1(rr)}" fill="none" stroke="${col}" stroke-width="${f1(2.4*u)}" stroke-dasharray="${f1(5*u)} ${f1(Math.max(0,10*(1-ease))*u)}" opacity="${f1(fadeo)}"/><circle cx="${f1(x)}" cy="${f1(y)}" r="${f1((2+4*ease)*u)}" fill="${col}" stroke="${PAPER}" stroke-width="${f1(1.4*u)}" opacity="${f1(.3+.7*ease)}"/>`+(p>.7?ring((6+14*(p-.7)/.3)*u,1-(p-.7)/.3,2):'')}
   else if(e.t===3){const ang=(hashCode(e.p)%360)*Math.PI/180,D=240*u,q=Math.min(1,p*1.4),qe=1-Math.pow(1-q,2),hx=x+Math.cos(ang)*D*(1-qe),hy=y+Math.sin(ang)*D*(1-qe);an+=`<path d="M${f1(x+Math.cos(ang)*D)},${f1(y+Math.sin(ang)*D)}L${f1(hx)},${f1(hy)}" stroke="${col}" stroke-width="${f1(2.4*u)}" opacity="${f1(fadeo*.55)}" stroke-linecap="round"/><circle cx="${f1(hx)}" cy="${f1(hy)}" r="${f1(5*u)}" fill="${col}" stroke="${PAPER}" stroke-width="${f1(1.4*u)}" opacity="${f1(fadeo)}"/>`+(p>.65?ring((8+46*(p-.65)/.35)*u,1-(p-.65)/.35,2.4):'')}
   else{const ang=(hashCode(e.p)%180)*Math.PI/180,d=30*u*ease;an+=`<path d="M${f1(x-Math.cos(ang)*d)},${f1(y-Math.sin(ang)*d)}L${f1(x+Math.cos(ang)*d)},${f1(y+Math.sin(ang)*d)}" stroke="${col}" stroke-width="${f1(1.6*u)}" stroke-dasharray="${f1(3*u)} ${f1(3*u)}" opacity="${f1(fadeo*.7)}"/><circle cx="${f1(x-Math.cos(ang)*d)}" cy="${f1(y-Math.sin(ang)*d)}" r="${f1(5*u)}" fill="${col}" stroke="${PAPER}" stroke-width="${f1(1.4*u)}" opacity="${f1(fadeo)}"/><circle cx="${f1(x+Math.cos(ang)*d)}" cy="${f1(y+Math.sin(ang)*d)}" r="${f1(5*u)}" fill="${col}" stroke="${PAPER}" stroke-width="${f1(1.4*u)}" opacity="${f1(fadeo)}"/>`}});
- gC.innerHTML=clr;gE.innerHTML=sy+lt;gR.innerHTML=nm;gH.innerHTML=hd;gA.innerHTML=an;
+ setLayer(gC,clr);setLayer(gE,sy+lt);setLayer(gR,nm);setLayer(gH,hd);setLayer(gA,an);
  document.getElementById('year').textContent=T<0?Math.abs(Math.round(T))+' BCE':Math.round(T);
+ rail.setAttribute('aria-valuenow',Math.round(T));rail.setAttribute('aria-valuetext',fmtY(Math.round(T)));
  cursor.setAttribute('x1',xOf(T));cursor.setAttribute('x2',xOf(T));
  applyHl();syncPanel();clearTimeout(hashT);hashT=setTimeout(writeHash,300);
 }
+let renderPending=false;function requestSceneRender(){if(renderPending)return;renderPending=true;requestAnimationFrame(()=>{renderPending=false;render()})}
 function fit(){svg.setAttribute('viewBox',`${vb.x} ${vb.y} ${vb.w} ${vb.h}`);svg.setAttribute('preserveAspectRatio','xMidYMid slice')}
 // ---- panels ----------------------------------------------------------------------------------------------------------------
 // ---- margin corrections: a pre-filled GitHub issue to propose one; accepted ones come back from data/corrections.json -------------
 const REPO='dsleo/mathlas';let CORR=[];
-fetch('data/corrections.json').then(r=>r.json()).then(j=>{if(Array.isArray(j)){CORR=j;lastKey=null;render();if(coreOpen)openCore(coreOpen)}}).catch(()=>{});
+fetch('data/corrections.json').then(r=>r.json()).then(j=>{if(Array.isArray(j)){CORR=j;lastKey=null;syncPanel();if(coreOpen)openCore(coreOpen)}}).catch(()=>{});
 const msKey=m=>(m.y==null?'':fmtY(m.y)+' ')+m.l;
 const fixUrl=(pid,mk,kind)=>{const q=new URLSearchParams({template:'correction.yml',title:'Correction: '+EVP.get(pid).n.slice(0,80),labels:'correction',event:pid,page:location.origin+location.pathname+'#e='+pid+'&core&t='+Math.round(T)});if(mk)q.set('milestone',mk);if(kind)q.set('kind',kind);return`https://github.com/${REPO}/issues/new?${q}`};
 const corrOf=pid=>CORR.filter(c=>c.event===pid);
 const marginNote=c=>`<div class="margin">&#9998; ${esc(c.summary||'')} <small>&mdash; @${esc(c.by||'')}${/^https:\/\/github\.com\//.test(c.url||'')?`, <a href="${esc(c.url)}" target="_blank" rel="noopener">#${esc(c.issue)}</a>`:''}</small></div>`;
-function ensureEvd(){if(EVD||evdBusy)return;evdBusy=true;fetch('data/field-film-events.json').then(r=>r.json()).then(j=>{EVD=j;addPeople();lastKey=null;render();if(coreOpen)openCore(coreOpen)}).catch(()=>{evdBusy=false})}
+let GENE=null,geneBusy=false,geneError=false,evdError=false;
+function ensureGene(){if(GENE||geneBusy||geneError)return;geneBusy=true;fetch('data/genealogy.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(j=>{GENE=j;lastKey=null;syncPanel();if(coreOpen)openCore(coreOpen)}).catch(()=>{geneError=true;lastKey=null;syncPanel();if(coreOpen)openCore(coreOpen)}).finally(()=>{geneBusy=false})}
+function ensureEvd(){ensureGene();if(EVD||evdBusy||evdError)return;evdBusy=true;fetch('data/field-film-events.json').then(r=>{if(!r.ok)throw Error(r.status);return r.json()}).then(j=>{EVD=j;lastKey=null;syncPanel();if(coreOpen)openCore(coreOpen)}).catch(()=>{evdError=true;lastKey=null;syncPanel();if(coreOpen)openCore(coreOpen)}).finally(()=>{evdBusy=false})}
+function retryDetails(){evdError=false;lastKey=null;syncPanel();ensureEvd()}
 function pickEvent(p){selE=p;sel=EVP.get(p).f;lastKey=null;render();ensureEvd()}
-function syncPanel(){const key=selE?'E'+selE+(EVD?1:0):selP?'P'+selP+':'+Math.round(T):sel>=0?'F'+sel+':'+Math.round(T)+':'+hl:'';if(key===lastKey)return;lastKey=key;const p=document.getElementById('panel');if(!key){p.style.display='none';B.classList.remove('pn');return}p.style.display='block';B.classList.add('pn');if(selE)eventCard(selE);else if(selP)personPanel(selP);else fieldPanel(sel)}
-function personPanel(name){const pp=PPL.find(x=>x.name===name),evs=pp.all.map(p=>EVP.get(p)).filter(e=>e.y<=T).sort((a,b)=>b.y-a.y),pt=PORT[name];document.getElementById('pbody').innerHTML=`<div style="display:flex;gap:14px;align-items:center">${pt?`<img src="${pt.file}" alt="" width="84" height="84" style="border-radius:50%;object-fit:cover;border:1px solid ${INK};filter:grayscale(1) contrast(1.1) sepia(.3)">`:''}<div><h2>${esc(pp.name)}</h2><div class="sub" style="margin:0">${pp.life?esc(pp.life)+' &middot; ':''}${pp.url?`<a href="${esc(pp.url)}" target="_blank" rel="noopener" style="color:inherit">biography &#8599;</a>`:''}</div></div></div><div class="sub" style="margin-top:10px">Primary in ${evs.length} of ${pp.all.length} events by ${Math.round(T)}${pp.credited>pp.all.length?` &middot; named in ${pp.credited-pp.all.length} more`:''}</div><ul>${evs.map(e=>`<li data-e="${e.p}"><span class="y">${e.y<0?Math.abs(e.y)+'BC':e.y}</span><i style="background:${tcol[e.t]}"></i><span>${esc(e.n)}<br><small style="color:var(--muted)">${esc(F[e.f].id)}</small></span></li>`).join('')}</ul>${pt?`<div class="hint" style="margin-top:14px">Portrait: ${esc(pt.author||'unknown')}, ${esc(pt.license)}, <a href="${esc(pt.source)}" target="_blank" rel="noopener" style="color:inherit">Wikimedia Commons</a></div>`:''}`}
-function pickPerson(i){selP=PPL[i].name;selE=null;sel=-1;lastKey=null;render()}
-function fieldPanel(i){const evs=EV.filter(e=>e.f===i&&e.y<=T).sort((a,b)=>b.y-a.y);document.getElementById('pbody').innerHTML=`<h2>${esc(F[i].id)}</h2><div class="sub">${evs.length} events by ${Math.round(T)} &middot; first recorded ${fmtY(F[i].first)}</div><ul>${evs.map(e=>`<li data-e="${e.p}" style="opacity:${hl<0||e.t===hl?1:.35}"><span class="y">${e.y<0?Math.abs(e.y)+'BC':e.y}</span><i style="background:${tcol[e.t]}"></i><span>${esc(e.n)}</span></li>`).join('')}</ul>`}
-function eventCard(pid){const e=EVP.get(pid),ty=TYPE[e.t],d=EVD&&EVD[pid];let h=`<a class="pen" target="_blank" rel="noopener" title="Pencil a correction" aria-label="Pencil a correction" href="${fixUrl(pid)}">&#9998;</a><a class="back" id="pback" role="button" tabindex="0">&larr; ${esc(F[e.f].id)}</a><div style="display:flex;gap:14px;align-items:flex-start;margin-top:8px">${insignia(e,60)}<div><div class="chip" style="color:${ty.color}"><i style="background:${ty.color}"></i>${ty.name}</div><div class="sub" style="margin:0">${fmtY(e.y)}</div></div></div><h2 style="margin-top:10px">${esc(e.n)}</h2>`;
- if(!d)h+='<p class="why">Loading the record&hellip;</p>';
+function syncPanel(){const key=selE?'E'+selE+(EVD?1:0)+(evdError?'!':'')+(GENE?1:0)+(geneError?'!':''):selP?'P'+selP+':'+Math.round(T):sel>=0?'F'+sel+':'+Math.round(T)+':'+hl:'';if(key===lastKey)return;lastKey=key;const p=document.getElementById('panel');if(!key){p.style.display='none';B.classList.remove('pn');return}p.style.display='block';B.classList.add('pn');if(selE)eventCard(selE);else if(selP)personPanel(selP);else fieldPanel(sel)}
+const eventDate=e=>(e.a?'≈ ':'')+fmtY(e.y);
+const eventRow=(e,sub='',opacity=1)=>`<li style="opacity:${opacity};display:block;padding:0"><a href="#e=${encodeURIComponent(e.p)}&t=${Math.max(Math.round(T),e.y)}" data-open-event="${esc(e.p)}" style="display:grid;grid-template-columns:50px 12px minmax(0,1fr);gap:8px;padding:6px 0;color:inherit;text-decoration:none"><span class="y">${eventDate(e)}</span><i style="background:${tcol[e.t]}"></i><span>${esc(e.n)}${sub?`<br><small style="color:var(--muted)">${esc(sub)}</small>`:''}</span></a></li>`;
+function personPanel(name){const pp=PPL.find(x=>x.name===name),evs=pp.all.map(p=>EVP.get(p)).filter(e=>e&&e.y<=T).sort((a,b)=>b.y-a.y),pt=PORT[name];document.getElementById('pbody').innerHTML=`<div style="display:flex;gap:14px;align-items:center">${pt?`<img src="${pt.file}" alt="" width="84" height="84" style="border-radius:50%;object-fit:cover;border:1px solid ${INK};filter:grayscale(1) contrast(1.1) sepia(.3)">`:''}<div><h2>${esc(pp.name)}</h2><div class="sub" style="margin:0">${pp.life?esc(pp.life)+' &middot; ':''}${pp.url?`<a href="${esc(pp.url)}" target="_blank" rel="noopener" style="color:inherit">biography &#8599;</a>`:''}</div></div></div><div class="sub" style="margin-top:10px">Primary in ${evs.length} of ${pp.all.length} events by ${Math.round(T)}${pp.credited>pp.all.length?` &middot; named in ${pp.credited-pp.all.length} more`:''}</div><ul>${evs.map(e=>eventRow(e,F[e.f].id)).join('')}</ul>${pt?`<div class="hint" style="margin-top:14px">Portrait: ${esc(pt.author||'unknown')}, ${esc(pt.license)}, <a href="${esc(pt.source)}" target="_blank" rel="noopener" style="color:inherit">Wikimedia Commons</a></div>`:''}`}
+function pickPerson(i){loadPortraits();selP=PPL[i].name;selE=null;sel=-1;lastKey=null;requestSceneRender()}
+function fieldPanel(i){const evs=EV.filter(e=>e.f===i&&e.y<=T).sort((a,b)=>b.y-a.y),first=EV.filter(e=>e.f===i).sort((a,b)=>a.y-b.y)[0];document.getElementById('pbody').innerHTML=`<h2>${esc(F[i].id)}</h2><div class="sub">${evs.length} selected events by ${Math.round(T)} &middot; earliest selected event ${first?eventDate(first):fmtY(F[i].first)}</div><ul>${evs.map(e=>eventRow(e,'',hl<0||e.t===hl?1:.35)).join('')}</ul>`}
+const relationKinds={feeds:'Conceptual link',named:'Named link',context:'Context',same:'Related thread'};
+function genealogyHTML(pid,core=false){
+ if(geneError)return '<p class="tip2">Curated connections could not be loaded.</p>';
+ if(!GENE)return '<p class="tip2">Loading curated connections&hellip;</p>';
+ const rel=GENE[pid]||{},groups=[['b','What came before'],['a','What followed'],['s','Closely related']].map(([key,title])=>{
+  const links=(Array.isArray(rel[key])?rel[key]:[]).filter(l=>l&&EVP.has(l.p));
+  if(!links.length)return '';
+  return `<div style="margin-top:12px"><h4 style="margin:0 0 5px;font-size:13px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted)">${title}</h4>${links.map(l=>{const target=EVP.get(l.p),kind=relationKinds[l.t]||'Curated link';return `<div style="border-top:1px solid var(--line);padding:7px 0;line-height:1.3"><a href="#e=${encodeURIComponent(l.p)}${core?'&core':''}&t=${Math.max(Math.round(T),target.y)}" data-genealogy="${esc(l.p)}" style="color:var(--text)">${esc(target.n)}</a> <small style="color:var(--muted)">(${eventDate(target)})</small><div style="font-size:13px;color:var(--muted)">${esc(kind)}${l.f?' · '+esc(l.f):''}</div></div>`}).join('')}</div>`
+ }).filter(Boolean);
+ if(!groups.length)return '<p class="tip2">No curated connections recorded yet.</p>';
+ return `<section aria-label="Curated event connections" style="border-top:1px solid var(--line);margin-top:14px;padding-top:10px"><h3 style="font-size:17px;margin:0 0 4px">Connections in the atlas</h3><p class="tip2" style="margin:0">These are reading links; they do not by themselves establish direct historical influence.</p>${groups.join('')}</section>`
+}
+function eventCard(pid){const e=EVP.get(pid),ty=TYPE[e.t],d=EVD&&EVD[pid];let h=`<a class="pen" target="_blank" rel="noopener" title="Pencil a correction" aria-label="Pencil a correction" href="${fixUrl(pid)}">&#9998;</a><button type="button" class="back" id="pback" style="background:none;border:0;padding:0;color:var(--muted)">&larr; ${esc(F[e.f].id)}</button><div style="display:flex;gap:14px;align-items:flex-start;margin-top:8px">${insignia(e,60)}<div><div class="chip" style="color:${ty.color}"><i style="background:${ty.color}"></i>${ty.name}</div><div class="sub" style="margin:0">${eventDate(e)}</div></div></div><h2 style="margin-top:10px">${esc(e.n)}</h2>`;
+ if(!d)h+=evdError?'<p class="why">The record could not be loaded. <button id="retrydetails">Retry</button></p>':'<p class="why">Loading the record&hellip;</p>';
  else{if(d.why)h+=`<p class="why">${esc(d.why)}</p>`;const ms=d.ms.slice().sort((a,b)=>b.y-a.y);h+=ms.map(m=>`<div class="st"><span class="y">${m.y==null?'':fmtY(m.y)}</span><span>${esc(m.l)}<small>${ROLE(m.r)}</small></span></div>`).join('');
   if(d.people&&d.people.length)h+=`<div class="ppl"><b>People.</b> ${d.people.map(p=>esc(p.name)).join(', ')}</div>`;
-  h+=`<div class="btns"><button id="opencore">Open the core sample</button></div>${corrOf(pid).length?`<div class="tip2">&#9998; ${corrOf(pid).length} accepted correction${corrOf(pid).length>1?'s':''}, shown in the core sample</div>`:''}<div class="tip2">Double-click this card for the same.</div>`}
+  h+=genealogyHTML(pid)+`<div class="btns"><button id="opencore">Open the core sample</button><a href="reference/events/${encodeURIComponent(pid)}/">Read reference page</a></div>${corrOf(pid).length?`<div class="tip2">&#9998; ${corrOf(pid).length} accepted correction${corrOf(pid).length>1?'s':''}, shown in the core sample</div>`:''}<div class="tip2">Double-click this card for the same.</div>`}
  document.getElementById('pbody').innerHTML=h}
-function openCore(pid){const e=EVP.get(pid),ty=TYPE[e.t],d=EVD&&EVD[pid],c=document.getElementById('core');coreOpen=pid;c.style.display='block';
+let focusBeforeCore=null;
+const coreBackground=()=>[document.getElementById('stage'),document.querySelector('.hud'),document.getElementById('fab'),document.getElementById('panel'),document.querySelector('.dock')];
+function modalState(on){coreBackground().forEach(el=>{if(el)el.inert=on})}
+function focusCore(c,wasOpen){if(!wasOpen)focusBeforeCore=document.activeElement;modalState(true);if(!c.contains(document.activeElement))c.querySelector('#coreclose')?.focus()}
+function openCore(pid){const e=EVP.get(pid),ty=TYPE[e.t],d=EVD&&EVD[pid],c=document.getElementById('core'),wasOpen=getComputedStyle(c).display!=='none';coreOpen=pid;c.setAttribute('aria-label','Core sample');c.style.display='block';
  let h=`<div class="hd"><div style="display:flex;gap:18px;align-items:center">${insignia(e,84)}<div><div class="chip" style="color:${ty.color};display:flex;align-items:center;gap:7px;font-size:14px;font-weight:600"><i style="width:11px;height:11px;border-radius:50%;background:${ty.color};border:1.3px solid ${INK}"></i>${ty.name} &middot; ${esc(F[e.f].id)}</div><h2>${esc(e.n)}</h2></div></div><div style="display:flex;align-items:flex-start"><a class="pen" target="_blank" rel="noopener" title="Pencil a correction" aria-label="Pencil a correction" href="${fixUrl(pid)}">&#9998;</a><button class="xbtn" id="coreclose" aria-label="Close">&times;</button></div></div>`;
- if(!d)h+='<p>Loading the record&hellip;</p>';
+ if(!d)h+=evdError?'<p>The record could not be loaded. <button id="retrydetails">Retry</button></p>':'<p>Loading the record&hellip;</p>';
  else{const ms=d.ms.slice().sort((a,b)=>b.y-a.y);h+=`<div class="grid"><div>${d.why?`<p style="font-size:19px;line-height:1.4;margin:0 0 12px">${esc(d.why)}</p>`:''}`+ms.map(m=>{return `<div class="layer"><div class="y">${m.y==null?'':fmtY(m.y)}${m.ye?'<br><small>to '+fmtY(m.ye)+'</small>':''}</div><div><h3>${esc(m.l)}${m.n?`<span class="info" tabindex="0" role="note" data-i="${esc(m.n)}">i</span>`:''}</h3>${corrOf(pid).filter(c=>c.milestone===msKey(m)).map(marginNote).join('')}<div class="role">${ROLE(m.r)}${m.ph?' &middot; '+esc(m.ph):''}</div>${m.w?`<p><i>${esc(m.w)}</i></p>`:''}${m.d?`<p>${esc(m.d)}</p>`:''}${(m.ev||[]).map(x=>`<div class="ev">${esc(x.c)} ${x.u?`<a href="${esc(x.u)}" target="_blank" rel="noopener">${esc(x.s||'source')}</a>`:esc(x.s||'')}</div>`).join('')}</div></div>`}).join('')+`</div><div class="side">${corrOf(pid).filter(c=>!ms.some(m=>msKey(m)===c.milestone)).map(marginNote).join('')}<h4>People</h4>${(d.people||[]).map(p=>`<div class="person"><b>${p.url?`<a href="${esc(p.url)}" target="_blank" rel="noopener">${esc(p.name)}</a>`:esc(p.name)}</b> <span class="role">${esc(p.role)}</span>${p.life?` <small>${esc(p.life)}</small>`:''}${(p.works||[]).map(w=>`<div class="ev">${esc(w.c)}${w.y&&!String(w.c).includes(String(w.y))?' ('+fmtY(w.y)+')':''}${w.w?' &mdash; '+esc(w.w):''}</div>`).join('')}</div>`).join('')}</div></div>`}
- c.innerHTML=h;ensureEvd()}
-function closeCore(){coreOpen=null;document.getElementById('core').style.display='none'}
+ if(d)h+=`<p><a href="reference/events/${encodeURIComponent(pid)}/">Read reference page</a></p>`+genealogyHTML(pid,true);
+ c.innerHTML=h;focusCore(c,wasOpen);ensureEvd()}
+function closeCore(){coreOpen=null;document.getElementById('core').style.display='none';modalState(false);if(focusBeforeCore&&document.contains(focusBeforeCore))focusBeforeCore.focus();else if(document.getElementById('panel').style.display!=='none')document.getElementById('panel').focus();else document.getElementById('gear').focus();focusBeforeCore=null}
 const panelEl=document.getElementById('panel');
-panelEl.addEventListener('click',e=>{const li=e.target.closest('[data-e]');if(li&&!selE){pickEvent(li.dataset.e);return}if(e.target.closest('#pback')){selE=null;lastKey=null;render();return}if(e.target.closest('#opencore')){ensureEvd();openCore(selE)}});
+panelEl.addEventListener('click',e=>{const link=e.target.closest('[data-open-event],[data-genealogy]');if(link&&EVP.has(link.dataset.openEvent||link.dataset.genealogy)){e.preventDefault();goEvent(link.dataset.openEvent||link.dataset.genealogy);focusPanelHeading();return}if(e.target.closest('#retrydetails')){retryDetails();return}if(e.target.closest('#pback')){selE=null;lastKey=null;render();focusPanelHeading();return}if(e.target.closest('#opencore')){ensureEvd();openCore(selE)}});
 panelEl.addEventListener('dblclick',e=>{if(selE&&!e.target.closest('button')){ensureEvd();openCore(selE)}});
-document.getElementById('core').addEventListener('click',e=>{if(e.target.closest('#coreclose'))closeCore()});
-document.getElementById('credbtn').onclick=()=>{const c=document.getElementById('core');coreOpen=null;c.style.display='block';c.innerHTML=`<div class="hd"><div><h2>Credits</h2><div class="sub" style="font-style:italic;color:var(--muted)">Portraits are shown with the licence and author recorded on Wikimedia Commons. Maps are drawn from the proof map's terrain generator.</div></div><button class="xbtn" id="coreclose" aria-label="Close">&times;</button></div>`+Object.entries(PORT).filter(([n,v])=>v).map(([n,v])=>`<div class="person"><b>${esc(n)}</b> &middot; ${esc(v.license)} &middot; ${esc(v.author||'unknown author')} &middot; <a href="${esc(v.source)}" target="_blank" rel="noopener">source</a></div>`).join('')};
+document.getElementById('core').addEventListener('click',e=>{const link=e.target.closest('[data-genealogy]');if(link&&EVP.has(link.dataset.genealogy)){e.preventDefault();goEvent(link.dataset.genealogy);openCore(link.dataset.genealogy);return}if(e.target.closest('#retrydetails')){retryDetails();return}if(e.target.closest('#coreclose'))closeCore()});
+document.getElementById('credbtn').onclick=()=>{setMenu(false);const c=document.getElementById('core'),wasOpen=getComputedStyle(c).display!=='none';coreOpen=null;c.setAttribute('aria-label','Credits');c.style.display='block';c.innerHTML=`<div class="hd"><div><h2>Credits</h2><div class="sub" style="font-style:italic;color:var(--muted)">Portraits are shown with the licence and author recorded on Wikimedia Commons. Maps are drawn from the proof map's terrain generator.</div></div><button class="xbtn" id="coreclose" aria-label="Close">&times;</button></div>`+Object.entries(PORT).filter(([n,v])=>v).map(([n,v])=>`<div class="person"><b>${esc(n)}</b> &middot; ${esc(v.license)} &middot; ${esc(v.author||'unknown author')} &middot; <a href="${esc(v.source)}" target="_blank" rel="noopener">source</a></div>`).join('');focusCore(c,wasOpen)};
+document.getElementById('core').addEventListener('keydown',e=>{if(e.key!=='Tab')return;const all=[...e.currentTarget.querySelectorAll('a[href],button:not([disabled]),[tabindex]:not([tabindex="-1"])')].filter(el=>el.getClientRects().length);if(!all.length)return;const first=all[0],last=all.at(-1);if(e.shiftKey&&document.activeElement===first){e.preventDefault();last.focus()}else if(!e.shiftKey&&document.activeElement===last){e.preventDefault();first.focus()}});
 document.getElementById('px').onclick=()=>{sel=-1;selE=null;selP='';lastKey=null;render()};
-document.getElementById('sth').onclick=()=>{const st=document.getElementById('stats');st.classList.toggle('shut');document.getElementById('sth').setAttribute('aria-expanded',!st.classList.contains('shut'))};
-document.getElementById('sth').addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){e.preventDefault();e.target.click()}});
 // hover (or focus) an info icon for a moment to read the caveat
 let infoT=0;const infoOn=el=>{clearTimeout(infoT);infoT=setTimeout(()=>{const r=el.getBoundingClientRect();tip.style.display='block';tip.style.maxWidth='340px';tip.innerHTML=esc(el.dataset.i);tip.style.left=Math.max(8,Math.min(r.left,innerWidth-350))+'px';tip.style.top=(r.bottom+8)+'px';tip.style.zIndex=20},450)};
 const infoOff=()=>{clearTimeout(infoT);tip.style.display='none'};
 document.addEventListener('pointerover',e=>{const i=e.target.closest&&e.target.closest('.info');if(i)infoOn(i)});document.addEventListener('pointerout',e=>{if(e.target.closest&&e.target.closest('.info'))infoOff()});
 document.addEventListener('focusin',e=>{if(e.target.classList&&e.target.classList.contains('info'))infoOn(e.target)});document.addEventListener('focusout',infoOff);
 const legEl=document.getElementById('leg');
-legEl.innerHTML=TYPE.map((ty,k)=>`<div class="row" data-k="${k}" role="button" tabindex="0"><i style="background:${ty.color}"></i><span>${ty.name}</span><span class="n" id="n${k}">0</span><div class="bar"><u id="b${k}" style="background:${ty.color};width:0"></u></div></div>`).join('');
-legEl.addEventListener('click',e=>{const r=e.target.closest('.row');if(!r)return;const k=+r.dataset.k;hl=hl===k?-1:k;render()});
+legEl.innerHTML=TYPE.map((ty,k)=>`<div class="row" data-k="${k}" role="button" tabindex="0" aria-pressed="false"><i style="background:${ty.color}"></i><span>${ty.name}</span><span class="n" id="n${k}">0</span><div class="bar"><u id="b${k}" style="background:${ty.color};width:0"></u></div></div>`).join('');
+legEl.addEventListener('click',e=>{const r=e.target.closest('.row');if(!r)return;const k=+r.dataset.k;hl=hl===k?-1:k;requestSceneRender()});
 legEl.addEventListener('keydown',e=>{if(e.key==='Enter'||e.key===' '){const r=e.target.closest('.row');if(r){e.preventDefault();r.click()}}});
 // ---- time controls -----------------------------------------------------------------------------------------------------------
 const rail=document.getElementById('rail'),playB=document.getElementById('play');
 const railAt=ev=>{const r=rail.getBoundingClientRect();return Math.max(0,Math.min(1000,(ev.clientX-r.left)/r.width*1000))};
-const upPlay=()=>{document.getElementById('pi').innerHTML=playing?'<path d="M4 3h4v14H4zM12 3h4v14h-4z"/>':'<path d="M5 3 L17 10 L5 17 Z"/>'};
-let rdrag=false;rail.addEventListener('pointerdown',e=>{rdrag=true;rail.setPointerCapture(e.pointerId);playing=false;upPlay();T=yOf(railAt(e));render()});
-rail.addEventListener('pointermove',e=>{if(rdrag){T=yOf(railAt(e));render()}});rail.addEventListener('pointerup',()=>{rdrag=false});
+const upPlay=()=>{document.getElementById('pi').innerHTML=playing?'<path d="M4 3h4v14H4zM12 3h4v14h-4z"/>':'<path d="M5 3 L17 10 L5 17 Z"/>';const label=playing?'Pause time-lapse':'Play time-lapse';playB.setAttribute('aria-label',label);playB.title=label};
+let rdrag=false;rail.addEventListener('pointerdown',e=>{rdrag=true;rail.setPointerCapture(e.pointerId);playing=false;upPlay();T=yOf(railAt(e));requestSceneRender()});
+rail.addEventListener('pointermove',e=>{if(rdrag){T=yOf(railAt(e));requestSceneRender()}});rail.addEventListener('pointerup',()=>{rdrag=false});
+rail.addEventListener('keydown',e=>{let next=T;if(e.key==='ArrowRight'||e.key==='ArrowUp')next+=e.shiftKey?25:5;else if(e.key==='ArrowLeft'||e.key==='ArrowDown')next-=e.shiftKey?25:5;else if(e.key==='PageUp')next+=50;else if(e.key==='PageDown')next-=50;else if(e.key==='Home')next=-2000;else if(e.key==='End')next=2025;else return;e.preventDefault();playing=false;upPlay();T=Math.max(-2000,Math.min(2025,Math.round(next)));render()});
 playB.onclick=()=>{if(T>=2024.5)T=-2000;playing=!playing;upPlay()};
-let last=0;function tick(ts){if(playing){const dt=Math.min(.05,(ts-last)/1000),x=xOf(T)+dt*30;if(x>=1000){T=2025;playing=false;upPlay()}else T=yOf(x);render()}else if(anims.length)render();last=ts;requestAnimationFrame(tick)}
-document.addEventListener('keydown',e=>{if(e.code==='Space'){e.preventDefault();playB.click()}if(e.code==='ArrowRight'){T=Math.min(2025,T+(e.shiftKey?25:5));render()}if(e.code==='ArrowLeft'){T=Math.max(-2000,T-(e.shiftKey?25:5));render()}if(e.code==='Escape'){if(coreOpen)closeCore();else{sel=-1;selE=null;selP='';lastKey=null;render()}}});
+let last=0,lastPaint=0;function tick(ts){if(!last)last=ts;const due=ts-lastPaint>=33;if(playing){const dt=Math.min(.1,(ts-last)/1000),x=xOf(T)+dt*15;if(x>=1000){T=2025;playing=false;upPlay();render();lastPaint=ts}else{T=yOf(x);if(due){render();lastPaint=ts}}}else if(anims.length&&due){render();lastPaint=ts}last=ts;requestAnimationFrame(tick)}
+document.addEventListener('keydown',e=>{if(e.key==='Escape'){if(getComputedStyle(document.getElementById('core')).display!=='none')closeCore();else if(activeMenuView)showMenuView('',true);else if(fab.classList.contains('open'))setMenu(false,true);else{sel=-1;selE=null;selP='';lastKey=null;requestSceneRender()}return}if(e.target.closest('input,button,a,[role=slider],[role=dialog],[contenteditable=true]'))return;if(e.code==='Space'){e.preventDefault();playB.click()}if(e.code==='ArrowRight'){T=Math.min(2025,T+(e.shiftKey?25:5));requestSceneRender()}if(e.code==='ArrowLeft'){T=Math.max(-2000,T-(e.shiftKey?25:5));requestSceneRender()}});
 // ---- pan, zoom, pick ---------------------------------------------------------------------------------------------------------
 let pd=null,moved=0;svg.addEventListener('pointerdown',e=>{pd={x:e.clientX,y:e.clientY,vx:vb.x,vy:vb.y};moved=0;svg.classList.add('drag')});
 window.addEventListener('pointermove',e=>{if(!pd)return;const k=vb.w/svg.clientWidth,dx=e.clientX-pd.x,dy=e.clientY-pd.y;moved=Math.max(moved,Math.hypot(dx,dy));vb.x=pd.vx-dx*k;vb.y=pd.vy-dy*k;fit()});
-window.addEventListener('pointerup',e=>{if(pd&&moved<5){const t=e.target.closest&&e.target.closest('[data-f]'),te=e.target.closest&&e.target.closest('[data-e]');const tp=e.target.closest&&e.target.closest('[data-p]');if(te)pickEvent(te.dataset.e);else if(tp)pickPerson(+tp.dataset.p);else if(t){sel=+t.dataset.f;selE=null;selP='';lastKey=null;render();ensureEvd()}}pd=null;svg.classList.remove('drag');render()});
-svg.addEventListener('wheel',e=>{e.preventDefault();const k=Math.exp(e.deltaY*.0012),r=svg.getBoundingClientRect(),mx=vb.x+(e.clientX-r.left)/r.width*vb.w,my=vb.y+(e.clientY-r.top)/r.height*vb.h,nw=Math.max(120,Math.min(vb0.w*1.8,vb.w*k)),nh=nw*vb.h/vb.w;vb.x=mx-(mx-vb.x)*nw/vb.w;vb.y=my-(my-vb.y)*nh/vb.h;vb.w=nw;vb.h=nh;fit();render()},{passive:false});
+window.addEventListener('pointerup',e=>{if(pd&&moved<5){const t=e.target.closest&&e.target.closest('[data-f]'),te=e.target.closest&&e.target.closest('[data-e]');const tp=e.target.closest&&e.target.closest('[data-p]');if(te)pickEvent(te.dataset.e);else if(tp)pickPerson(+tp.dataset.p);else if(t){sel=+t.dataset.f;selE=null;selP='';lastKey=null;requestSceneRender()}}pd=null;svg.classList.remove('drag');requestSceneRender()});
+svg.addEventListener('wheel',e=>{e.preventDefault();const k=Math.exp(e.deltaY*.0012),r=svg.getBoundingClientRect(),mx=vb.x+(e.clientX-r.left)/r.width*vb.w,my=vb.y+(e.clientY-r.top)/r.height*vb.h,nw=Math.max(120,Math.min(vb0.w*1.8,vb.w*k)),nh=nw*vb.h/vb.w;vb.x=mx-(mx-vb.x)*nw/vb.w;vb.y=my-(my-vb.y)*nh/vb.h;vb.w=nw;vb.h=nh;fit();requestSceneRender()},{passive:false});
+svg.addEventListener('dblclick',e=>{if(e.target.closest('[data-f],[data-e],[data-p],[data-l]'))return;Object.assign(vb,vb0);fit();requestSceneRender()});
 const tip=document.getElementById('tip');
 svg.addEventListener('pointermove',e=>{const t=e.target.closest&&e.target.closest('[data-f]'),lk=e.target.closest&&e.target.closest('[data-l]'),te=e.target.closest&&e.target.closest('[data-e]');if(pd){tip.style.display='none';return}
  const show=html=>{tip.style.display='block';tip.style.left=Math.min(e.clientX+14,innerWidth-330)+'px';tip.style.top=e.clientY+12+'px';tip.innerHTML=html};
  const tpp=e.target.closest&&e.target.closest('[data-p]');if(tpp){const pp=PPL[+tpp.dataset.p];show(esc(pp.name)+' &middot; '+pp.e.length+' events<br><small>click to follow their work across the map</small>');return}
- if(te){const ev=EVP.get(te.dataset.e);show(esc(ev.n)+' &middot; '+fmtY(ev.y)+'<br><small>'+TYPE[ev.t].name+'</small>');return}
+ if(te){const ev=EVP.get(te.dataset.e);show(esc(ev.n)+' &middot; '+eventDate(ev)+'<br><small>'+TYPE[ev.t].name+'</small>');return}
  if(lk){const p=PL[+lk.dataset.l],c={};p.y.forEach((y,k)=>{if(y<=T)c[p.t[k]]=(c[p.t[k]]||0)+1});const n=Object.values(c).reduce((a,b)=>a+b,0);show(esc(F[p.a].id)+' &harr; '+esc(F[p.b].id)+' &middot; '+n+' link'+(n==1?'':'s')+'<br><small>'+Object.entries(c).map(([k,v])=>TYPE[k].name+' '+v).join(', ')+'</small>');return}
  if(t){const i=+t.dataset.f;show(esc(F[i].id)+' &middot; '+Math.round(sizeAt(i,T))+' events by '+Math.round(T));return}
  tip.style.display='none'});
-// ---- floating menu: search, time-lapse, theme, event types, credits ----------------------------------------------------------
-const $=id=>document.getElementById(id),fab=$('fab'),B=document.body;
-const pops=['psearch','ptheme'];const shut=keep=>pops.forEach(id=>{if(id!==keep)$(id).classList.remove('on')});
-$('gear').onclick=()=>{const o=fab.classList.toggle('open');$('gear').setAttribute('aria-expanded',o);$('gear').classList.toggle('on',o);if(!o)shut()};
-const flag=(cls,btn,on)=>{B.classList.toggle(cls,on);$(btn).classList.toggle('on',on)};
-$('btl').onclick=()=>{flag('tl','btl',!B.classList.contains('tl'));shut();if(B.classList.contains('tl'))render()};
-$('bev').onclick=()=>{flag('ev','bev',!B.classList.contains('ev'));shut();render()};
+// ---- one atlas menu: exploration, time, appearance, and reference ----------------------------------------------------------
+const $=id=>document.getElementById(id),fab=$('fab'),B=document.body,menuHome=$('menuhome');
+const menuViews=['psearch','browse','ptypes','ptheme'];let activeMenuView='';
+function showMenuView(id='',focus=true){const previous=activeMenuView;activeMenuView=id;menuHome.hidden=!!id;menuViews.forEach(view=>$(view).hidden=view!==id);['bsearch','browsebtn','bev','btheme'].forEach(btn=>$(btn).setAttribute('aria-expanded',String($(btn).getAttribute('aria-controls')===id)));if(focus){const target=id?$(id).querySelector('input,h2'):document.querySelector(`[aria-controls="${previous}"]`);setTimeout(()=>target?.focus(),0)}}
+function setMenu(open,restore=false){fab.classList.toggle('open',open);$('gear').setAttribute('aria-expanded',String(open));$('gear').classList.toggle('on',open);const label=open?'Close atlas menu':'Open atlas menu';$('gear').title=label;$('gear').setAttribute('aria-label',label);if(!open){showMenuView('',false);if(restore)$('gear').focus()}}
+$('gear').onclick=()=>setMenu(!fab.classList.contains('open'));
+$('menu').addEventListener('click',e=>{if(e.target.closest('[data-menu-back]'))showMenuView('',true)});
+document.addEventListener('pointerdown',e=>{if(fab.classList.contains('open')&&!fab.contains(e.target))setMenu(false)});
+$('bsearch').onclick=()=>showMenuView('psearch');
+$('browsebtn').onclick=()=>showMenuView('browse');
+$('bev').onclick=()=>showMenuView('ptypes');
+$('btheme').onclick=()=>showMenuView('ptheme');
+$('btl').onclick=()=>{const on=!B.classList.contains('tl');B.classList.toggle('tl',on);$('btl').setAttribute('aria-pressed',String(on));$('tlstate').textContent=on?'Shown':'Hidden';setMenu(false);if(on)requestSceneRender()};
 const THEMES=[['atlas','Old atlas','#f2efe7','#3b4438'],['night','Night engraving','#0d1118','#c9cdbf'],['blueprint','Blueprint','#12335c','#dbe8f6'],['parchment','Parchment','#e8dcc0','#4a3b24']];
-const setTheme=k=>{document.documentElement.dataset.theme=k;try{localStorage.setItem('film-theme',k)}catch(_){}$('ptheme').querySelectorAll('.it').forEach(b=>b.classList.toggle('cur',b.dataset.k===k));$('ptheme').querySelectorAll('.ck').forEach(c=>c.textContent=c.dataset.k===k?'\u2713':'')};
-$('ptheme').innerHTML=THEMES.map(t=>`<button class="it" data-k="${t[0]}"><span class="sw" style="background:linear-gradient(135deg,${t[2]} 50%,${t[3]} 50%)"></span>${t[1]}<span class="ck" data-k="${t[0]}" style="margin-left:auto"></span></button>`).join('');
-$('ptheme').addEventListener('click',e=>{const b=e.target.closest('.it');if(b){setTheme(b.dataset.k);$('ptheme').classList.remove('on')}});
-$('btheme').onclick=()=>{shut('ptheme');$('ptheme').classList.toggle('on')};
+const setTheme=k=>{document.documentElement.dataset.theme=k;try{localStorage.setItem('film-theme',k)}catch(_){}$('themelist').querySelectorAll('.it').forEach(b=>{const on=b.dataset.k===k;b.classList.toggle('cur',on);b.setAttribute('aria-pressed',String(on))});$('themelist').querySelectorAll('.ck').forEach(c=>c.textContent=c.dataset.k===k?'\u2713':'');$('themestate').textContent=THEMES.find(t=>t[0]===k)?.[1]||''};
+$('themelist').innerHTML=THEMES.map(t=>`<button class="it" data-k="${t[0]}" aria-pressed="false"><span class="sw" style="background:linear-gradient(135deg,${t[2]} 50%,${t[3]} 50%)"></span>${t[1]}<span class="ck" data-k="${t[0]}" style="margin-left:auto"></span></button>`).join('');
+$('themelist').addEventListener('click',e=>{const b=e.target.closest('.it');if(b)setTheme(b.dataset.k)});
 {let k='atlas';try{k=localStorage.getItem('film-theme')||k}catch(_){}setTheme(THEMES.some(t=>t[0]===k)?k:'atlas')}
 const norm=v=>String(v).normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase();
-const SRCH=[...F.map((f,i)=>({k:'f',i,t:f.id,n:norm(f.id),sub:'field'})),...[...new Set(PPL.map(p=>p.name))].map(n=>({k:'p',t:n,n:norm(n),sub:'person'})),...EV.map(e=>({k:'e',p:e.p,t:e.n,n:norm(e.n),sub:F[e.f].id+' \u00b7 '+fmtY(e.y)}))];
-let peopleIn=false;function addPeople(){if(peopleIn||!EVD)return;peopleIn=true;const by=new Map();Object.entries(EVD).forEach(([pid,d])=>(d.people||[]).forEach(p=>{if(!p.name||PSETN.has(p.name))return;if(!by.has(p.name))by.set(p.name,[]);by.get(p.name).push(pid)}));by.forEach((l,n)=>{l.sort((x,y)=>EVP.get(x).y-EVP.get(y).y);SRCH.push({k:'q',p:l[0],t:n,n:norm(n),sub:'person \u00b7 '+l.length+(l.length>1?' events':' event')})})}
+const SRCH=[...F.map((f,i)=>({k:'f',i,t:f.id,n:norm(f.id),sub:'field'})),...(DATA.searchPeople||[]).map(p=>({k:'q',p:p.p[0],t:p.n,n:norm(p.n),sub:'person \u00b7 '+p.p.length+(p.p.length>1?' events':' event')})),...EV.map(e=>({k:'e',p:e.p,t:e.n,n:norm(e.n),sub:F[e.f].id+' \u00b7 '+fmtY(e.y)}))];
 const focusField=i=>{const w=Math.max(260,rOf(sizeAt(i,T))*5.2),h=w*vb.h/vb.w;vb.x=ISL[i].cx-w/2;vb.y=ISL[i].cy-h/2;vb.w=w;vb.h=h;fit()};
-const goField=i=>{sel=i;selE=null;selP='';lastKey=null;focusField(i);render();ensureEvd()};
+const goField=i=>{sel=i;selE=null;selP='';lastKey=null;focusField(i);requestSceneRender()};
 const goEvent=pid=>{const e=EVP.get(pid);if(T<e.y)T=Math.min(2025,e.y+8);prevT=T;selP='';selE=pid;sel=e.f;lastKey=null;focusField(e.f);render();ensureEvd()};
+const focusPanelHeading=()=>{const h=$('pbody').querySelector('h2');if(h){h.tabIndex=-1;h.focus()}else $('panel').focus()};
 const runSearch=()=>{const q=norm($('sq').value).trim();if(!q){$('sr').innerHTML='';return}const words=q.split(/\s+/);const hits=SRCH.filter(r=>words.every(w=>r.n.includes(w))).sort((a,b)=>(b.n.startsWith(q)-a.n.startsWith(q))||({f:0,p:1,q:1,e:2}[a.k]-{f:0,p:1,q:1,e:2}[b.k])).slice(0,14);$('sr').innerHTML=hits.map((r,i)=>`<button class="it" data-i="${SRCH.indexOf(r)}">${esc(r.t)}<small>${esc(r.sub)}</small></button>`).join('')||'<div class="it" style="cursor:default;color:var(--muted)">Nothing found</div>'};
 $('sq').addEventListener('input',runSearch);
 $('sq').addEventListener('keydown',e=>{if(e.key==='Enter'){const b=$('sr').querySelector('button');if(b)b.click()}e.stopPropagation()});
-$('sr').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;const r=SRCH[+b.dataset.i];$('psearch').classList.remove('on');if(r.k==='e'||r.k==='q')goEvent(r.p);else if(r.k==='f')goField(r.i);else{const i=PPL.findIndex(x=>x.name===r.t);pickPerson(i)}});
-$('bsearch').onclick=()=>{ensureEvd();shut('psearch');const o=$('psearch').classList.toggle('on');if(o)setTimeout(()=>$('sq').focus(),0)};
+$('sr').addEventListener('click',e=>{const b=e.target.closest('button');if(!b)return;const r=SRCH[+b.dataset.i];setMenu(false);if(r.k==='e'||r.k==='q')goEvent(r.p);else goField(r.i);focusPanelHeading()});
+const browse=$('browse'),browseBtn=$('browsebtn');
+$('browsefields').innerHTML=F.map((f,i)=>`<button type="button" data-f="${i}">${esc(f.id)} <small>(${f.n})</small></button>`).join('');
+$('browsefields').onclick=e=>{const b=e.target.closest('button[data-f]');if(!b)return;goField(+b.dataset.f);setMenu(false);focusPanelHeading()};
 // deep links: #e=<event id> | #p=<person> | #f=<field>, plus &core (open core sample) and &t=<year>
 let hashT=0;
 function writeHash(){const q=[];if(selE)q.push('e='+selE);else if(selP)q.push('p='+encodeURIComponent(selP));else if(sel>=0)q.push('f='+encodeURIComponent(F[sel].id));if(coreOpen)q.push('core');if(q.length||Math.round(T)!==2025)q.push('t='+Math.round(T));try{history.replaceState(null,'',location.pathname+location.search+(q.length?'#'+q.join('&'):''))}catch(_){}}
@@ -342,8 +397,8 @@ function writeHash(){const q=[];if(selE)q.push('e='+selE);else if(selP)q.push('p
  const e=h.get('e'),p=h.get('p'),f=h.get('f');
  if(e&&EVP.has(e)){selE=e;sel=EVP.get(e).f;ensureEvd();if(h.has('core'))coreOpen=e}
  else if(p&&PPL.some(x=>x.name===p))selP=p;
- else if(f){const i=F.findIndex(x=>x.id===f);if(i>=0){sel=i;ensureEvd()}}})();
-window.addEventListener('resize',()=>{fit();render()});fit();render();requestAnimationFrame(()=>{fit();render()});requestAnimationFrame(tick);
+ else if(f){const i=F.findIndex(x=>x.id===f);if(i>=0)sel=i}})();
+window.addEventListener('resize',()=>{fit();requestSceneRender()});fit();render();requestAnimationFrame(()=>{fit();requestSceneRender()});requestAnimationFrame(tick);setTimeout(loadPortraits,1200);
 }
 </script>
 </html>

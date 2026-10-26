@@ -27,7 +27,7 @@ The pilot showed that two careful passes disagree about a "birth date" mostly be
   "work": "author, title, venue, year" or null,
   "people": ["names"],
   "description": one sentence in your own words,
-  "evidence": [{"claim", "source", "url", "kind": "bibliographic_record" | "history_page" | "primary_text"}],
+  "evidence": [{"claim", "source", "url", "kind": "bibliographic_record" | "history_page" | "primary_text" | "primary_publication" | "primary_archive"}],
   "confidence": "high" | "medium" | "low",
   "note": optional
 }
@@ -60,3 +60,12 @@ The pilot showed that two careful passes disagree about a "birth date" mostly be
 - methodological = earliest `first_application`; if none, null
 - institutional = earliest of `naming`, `consolidation` and `institution`
 - `precursor` and `recognition` never set a derived date.
+
+The source catalogue uses `shown.conceptual.y` and `y` for the map date. When
+there is no dated first statement, these may fall back to the earliest dated
+milestone, including a precursor. Such a map date is an approximate navigation
+aid, not a verified public start: `derived.conceptual` remains null,
+`approx` must be true, and the displayed basis must say that no first
+statement was found. This distinction is especially important for ancient
+records whose surviving evidence gives a broad period rather than a precise
+publication date.

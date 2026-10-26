@@ -1,7 +1,18 @@
-# Independent cross-check of the source-first records (2026-10-20)
+# Preserved independent cross-check summary (2026-10-20)
 
-`milestones53.json` to `milestones87.json` hold an independent bibliographic pass over 400 events (Crossref, arXiv, MacTutor, Wikipedia, SEP), run in 35 packets. They are **not** in `scale/`, so they do not feed the coverage ledger or the explorer: each has about 1.4 milestones against 5.9 in the matching source-first record, and promoting them would have replaced richer records with thinner ones.
+The [summary](summary.json) records a reported independent bibliographic pass
+over an earlier set of 400 source-first events. It lists **40 unmatched
+milestones across 37 events**, with evidence URLs and the source-first years
+used in that comparison. These entries are research leads requiring individual
+adjudication; none was automatically merged into `data/events.json`.
 
-Use: [`summary.json`](summary.json) compares every dated milestone with the source-first record of the same event. 525 of 565 dated milestones (93%) fall within one year of a source-first year, so the source-first years are independently corroborated. The 40 others are listed with their evidence URLs; each is either a new fact or a conflict to adjudicate. Eight milestones are undated; 40 events came back with no milestone (no verifiable source reachable).
+The summary also reports 525 of 565 dated milestones within one year of a
+source-first year, plus eight undated milestones. **The 35 underlying packet
+files (`milestones53.json` through `milestones87.json`) are not present in this
+repository**, so those aggregate totals cannot be recomputed or independently
+verified from this checkout. The `eventsWithUnmatchedMilestones` value is 37;
+it is not the number of events examined in the original pass.
 
-Caveats: most evidence is a Crossref/arXiv record (title, author, year), not the paper text; Wikipedia/MacTutor-only items are medium or low confidence. The agents also reported inherited-citation errors (e.g. Turing 1937 not 1936 in Crossref, Euler's Konigsberg paper published 1741, Ruffini 1809, Argand 1806) that are worth checking against the catalogue.
+Most records in the pass were bibliographic title/year matches. Such a match
+can corroborate a publication date, but cannot by itself establish that a
+work was the first statement, use, or influence of a mathematical idea.

@@ -1,0 +1,6 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {"name": "mathlas", "runtimeExecutable": "npm", "runtimeArgs": ["run", "serve"], "port": 5174}
+  ]
+}

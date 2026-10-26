@@ -5,7 +5,7 @@
   "type": "module",
   "description": "An atlas of mathematics through time: fields as islands that emerge and grow with every recorded event.",
   "scripts": {
-    "build": "python3 scripts/build_field_film.py",
+    "build": "python3 scripts/validate_events.py && python3 scripts/validate_corrections.py && python3 scripts/build_field_film.py && python3 scripts/build_genealogy.py && python3 scripts/build_reference_pages.py",
     "layout": "python3 scripts/layout_field_film.py",
     "portraits": "python3 scripts/fetch_portraits.py",
     "serve": "python3 -m http.server 5174 -d public"

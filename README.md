@@ -2,7 +2,9 @@
 
 **An atlas of mathematics through time.** Each island is a field of mathematics. It appears at the first recorded event in that field and grows with every event after it, from 2000 BCE to 2025. Live at https://dsleo.github.io/mathlas/.
 
-The map starts at the present day. Press the gear (bottom right) for search, the time-lapse, themes, the event-type legend and credits. Drag the time rail to watch the fields emerge. Click an island for its events, an event for its card, and double-click the card for the full "core sample" (every dated milestone with its evidence).
+The map starts at the present day. Open the gear (bottom right) for the atlas menu: **Search**, **Browse fields**, **Event types**, the timeline and replay, themes, reference pages and credits. The menu keeps these routes available without covering the map. Drag the time rail or focus it and use the arrow keys. Click an island for its events, an event for its card, and open the full "core sample" for every dated milestone and its evidence.
+
+Every event also links to curated earlier, later and closely related events. These are reading connections; they do not, by themselves, prove direct historical influence. The [reference index](public/reference/index.html) works without the interactive map or JavaScript. An **≈** before a map date means no dated first public statement was established and the placement uses the earliest recorded milestone instead.
 
 ## What is on the map
 
@@ -33,7 +35,7 @@ Every event is one of seven types. The type says *how* mathematics changed, and 
 
 ### Reading the map
 
-- **Island size** is the cumulative number of events in the field; **position** keeps strongly linked fields close (see below).
+- **Island size** is the cumulative number of *selected catalogue events* in the field; **position** keeps strongly linked fields close (see below). Size is not a measure of a field's historical importance.
 - **Bridges** between islands are technique transfers (thicker means more of them). **Dotted and dashed chords** are the other kinds of link, coloured by type.
 - **Large symbols** mark each island's main events (155 in all, never two the same on one island). The rest are dots with names that appear as you zoom in.
 - **Statues** are landmark mathematicians, shown with a portrait where a reusable one exists. The same person can stand on several islands.
@@ -42,7 +44,7 @@ Every event is one of seven types. The type says *how* mathematics changed, and 
 
 **1. The catalogue of events.** The 553 events come from the field-emergence catalogue built for [Proofscape](https://github.com/dsleo/proofscape): a hand-seeded list of moments when a field, a technique or a bridge between fields came into being, extended batch by batch. Each event records its type, the fields it draws from, the field it produces, and a short account of what happened. It is a curated selection, not an exhaustive census of mathematics.
 
-**2. Dated milestones with evidence.** An event is not a single date. It is an ordered list of milestones, each with a role (precursor, first statement, first application, key development, consolidation, naming, institution, recognition), a year, and cited evidence. A milestone needs evidence, and publication year governs the date, not the year of a talk. Years come from bibliographic records (Crossref, zbMATH, Open Library, archive.org, arXiv) where they exist, and from history pages (MacTutor, Wikipedia) otherwise. Private letters and unpublished notes are precursors, never the start. An event sits on the map at its first public statement, derived by rule from its milestones.
+**2. Dated milestones with evidence.** An event is not a single date. It is an ordered list of milestones, each with a role (precursor, first statement, first application, key development, consolidation, naming, institution, recognition), a year, and cited evidence. A milestone needs evidence, and publication year governs the date, not the year of a talk. Years come from bibliographic records (Crossref, zbMATH, Open Library, archive.org, arXiv) where they exist, and from history pages (MacTutor, Wikipedia) otherwise. Private letters and unpublished notes are precursors. An event sits on the map at its first dated public statement when one is recorded. If none is recorded, it uses its earliest dated milestone with an **≈** label; that placement is not a claim of historical firstness.
 
 **3. Two tiers of checking.** 161 events are *directly checked*: each milestone was read against its source and audited. The other 392 are *source-first*: milestones assembled from cited sources but not yet held to that bar. Where a caveat remains it is shown behind an "i" icon on the milestone; confidence grades and bookkeeping notes stay in the data and are not shown.
 
@@ -64,7 +66,7 @@ Every event is one of seven types. The type says *how* mathematics changed, and 
 
 - Selection bias: the catalogue favours what is well documented in English-language and Western sources, although it includes Babylonian, Greek, Chinese, Indian and Islamic work.
 - Event types are an editorial classification, and many events could fairly carry two.
-- Dates are the first public statement, which is often later than when an idea was first used, and may be earlier than its acceptance.
+- Most map dates are the first recorded public statement, which may be later than an idea's first use and earlier than its acceptance. An **≈** date is a fallback to the earliest dated milestone when no dated first statement has been established.
 - Source-first events have not been independently verified milestone by milestone.
 
 The raw research behind the events (catalogues, milestone research per event, validation scripts) is archived in [`research/`](research/).
@@ -75,9 +77,9 @@ Anyone with a GitHub account can propose a correction; the maintainer decides, a
 
 1. **Propose.** Every event card and its core sample has a pencil (✎) at the top right. It opens a pre-filled GitHub issue (event, the page you were on) with a short form: what needs fixing, what it should say, a source.
 2. **Accept.** The maintainer reviews the issue. To accept it, add the label `accepted` and close it as completed.
-3. **Brief.** A workflow opens a pull request that records the correction in `public/data/corrections.json` and carries a ready-made brief: what was reported, the current record of the milestone, the source offered.
-4. **Apply.** Ask an AI agent to "apply the brief in this pull request" (it follows [`AGENTS.md`](AGENTS.md)), or edit `data/events.json` by hand. The agent checks the claim against the source, edits only what is concerned, rebuilds and commits to the pull request. If the source does not support it, it changes nothing and says why.
-5. **Merge.** Merging deploys the site. The corrected milestone shows a dashed margin note, "✎ text, @contributor, #issue", crediting the contributor.
+3. **Brief.** A workflow opens a pull request with a repository review brief: what was reported, the current record of the milestone, and the source offered. The claim is not published at this stage.
+4. **Apply.** Ask an AI agent to "apply the brief in this pull request" (it follows [`AGENTS.md`](AGENTS.md)), or edit `data/events.json` by hand. Check the claim against the source and edit only what the evidence supports. Record the verified resolution and publish its margin note with `scripts/record_correction.py`; if the source does not support the claim, explain why on the pull request and publish no note.
+5. **Merge.** The build checks that every public margin note has a verified and applied review. Merging deploys the site. A corrected milestone then shows a dashed margin note, "✎ text, @contributor, #issue", crediting the contributor.
 
 `scripts/correction_brief.py --issue N` writes the same brief for any issue.
 
@@ -98,7 +100,11 @@ npm run serve          # http://localhost:5174
 ```
 
 - `data/events.json` holds the 553 events (embedded JSON).
-- `scripts/build_field_film.py` assigns events to fields, picks main events, symbols and landmarks, and writes the page from `scripts/film_template.html`.
+- `scripts/validate_events.py` checks IDs, milestone evidence and date rules, and event relationships before building.
+- `scripts/validate_corrections.py` checks that public margin notes have verified review records.
+- `scripts/build_field_film.py` assigns events to fields, picks main events, symbols and landmarks, and writes the map page from `scripts/film_template.html`.
+- `scripts/build_genealogy.py` publishes the curated event connections for the map's event views.
+- `scripts/build_reference_pages.py` generates the browseable field and event pages in `public/reference/`.
 - `scripts/build_film_art.mjs` draws each island with the terrain generator in `src/`.
 
 Deep links: `#e=<event id>`, `#p=<person>` or `#f=<field>`, plus `&core` (open the core sample) and `&t=<year>`.

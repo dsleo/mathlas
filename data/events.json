@@ -5588,7 +5588,7 @@
   "approx": false,
   "derived": {
    "conceptual": 1933,
-   "methodological": null,
+   "methodological": 1933,
    "institutional": 1933
   },
   "phases": [
@@ -5823,7 +5823,7 @@
     ]
    }
   ],
-  "notes": "Derived: conceptual 1933 (Kolmogorov), methodological 1909 (Borel), institutional null (no naming or institution milestone found; not searched exhaustively). The 1901 Lebesgue note is a precursor and sets no date. Searched: zbMATH, Crossref, Open Library, MacTutor Kolmogorov, Borel and Lebesgue biographies. The probability content of Borel 1909 is from general knowledge.",
+  "notes": "Derived: conceptual 1933 (Kolmogorov), methodological 1933 (Kolmogorov's recorded test), institutional 1933 (monograph consolidation). Borel's 1909 work remains a precursor to this event. The 1901 Lebesgue note is a precursor and sets no date. Searched: zbMATH, Crossref, Open Library, MacTutor Kolmogorov, Borel and Lebesgue biographies. The probability content of Borel 1909 is from general knowledge.",
   "catalogueDates": [
    [
     1898,
@@ -8401,7 +8401,7 @@
   "derived": {
    "conceptual": 1970,
    "methodological": 1970,
-   "institutional": null
+   "institutional": 1993
   },
   "phases": [],
   "ms": [
@@ -8664,7 +8664,7 @@
   "derived": {
    "conceptual": 1963,
    "methodological": 1963,
-   "institutional": null
+   "institutional": 1965
   },
   "phases": [],
   "ms": [
@@ -9661,7 +9661,7 @@
   "derived": {
    "conceptual": 1978,
    "methodological": 1978,
-   "institutional": null
+   "institutional": 2003
   },
   "phases": [],
   "ms": [
@@ -11521,7 +11521,7 @@
   "derived": {
    "conceptual": 1985,
    "methodological": 1985,
-   "institutional": null
+   "institutional": 1987
   },
   "phases": [],
   "ms": [
@@ -12638,7 +12638,7 @@
   "derived": {
    "conceptual": 1991,
    "methodological": null,
-   "institutional": null
+   "institutional": 1997
   },
   "phases": [
    "prediction",
@@ -12881,11 +12881,11 @@
    "same": true
   },
   "y": 1996,
-  "approx": false,
+  "approx": true,
   "derived": {
    "conceptual": null,
    "methodological": null,
-   "institutional": null
+   "institutional": 2002
   },
   "phases": [],
   "ms": [
@@ -13085,7 +13085,7 @@
   "derived": {
    "conceptual": 1990,
    "methodological": 1991,
-   "institutional": null
+   "institutional": 1999
   },
   "phases": [
    "duality",
@@ -13755,7 +13755,7 @@
   "derived": {
    "conceptual": 1999,
    "methodological": 1999,
-   "institutional": null
+   "institutional": 2005
   },
   "phases": [],
   "ms": [
@@ -14212,7 +14212,7 @@
    "same": true
   },
   "y": 2008,
-  "approx": false,
+  "approx": true,
   "derived": {
    "conceptual": null,
    "methodological": 2008,
@@ -14432,7 +14432,7 @@
   "derived": {
    "conceptual": 2008,
    "methodological": 2008,
-   "institutional": null
+   "institutional": 2015
   },
   "phases": [
    "Finite-field sum-product tools",
@@ -15312,7 +15312,7 @@
   "derived": {
    "conceptual": 2004,
    "methodological": null,
-   "institutional": null
+   "institutional": 2009
   },
   "phases": [],
   "ms": [
@@ -15547,7 +15547,7 @@
   "derived": {
    "conceptual": 2015,
    "methodological": 2015,
-   "institutional": null
+   "institutional": 2018
   },
   "phases": [
    "graphs",
@@ -18009,11 +18009,11 @@
    "same": true
   },
   "y": 2006,
-  "approx": false,
+  "approx": true,
   "derived": {
    "conceptual": null,
    "methodological": 2008,
-   "institutional": null
+   "institutional": 2015
   },
   "phases": [],
   "ms": [
@@ -22614,7 +22614,7 @@
   "approx": false,
   "derived": {
    "conceptual": 1965,
-   "methodological": null,
+   "methodological": 1969,
    "institutional": 1965
   },
   "phases": [
@@ -22880,7 +22880,7 @@
     ]
    }
   ],
-  "notes": "The derived institutional date uses the 1965 naming, and the conceptual date is taken as the 1965 first_statement. If the idea is dated from Hilbert 1893 (orbit criterion), the conceptual date would move earlier; this is a classification choice and is flagged. No first_application milestone (Mumford's moduli application is in the same 1965 monograph, not separately recorded). Sources searched: Wikipedia (Geometric invariant theory), MacTutor (Cayley, Gordan, Hilbert, Mumford biographies), Crossref.",
+  "notes": "The derived institutional date uses the 1965 naming, and the conceptual date is taken as the 1965 first_statement. If the idea is dated from Hilbert 1893 (orbit criterion), the conceptual date would move earlier; this is a classification choice and is flagged. The recorded first application is Deligne–Mumford in 1969; Mumford's moduli application is in the same 1965 monograph but is not separately recorded. Sources searched: Wikipedia (Geometric invariant theory), MacTutor (Cayley, Gordan, Hilbert, Mumford biographies), Crossref.",
   "catalogueDates": [
    [
     1965,
@@ -23932,7 +23932,7 @@
   "derived": {
    "conceptual": 1992,
    "methodological": null,
-   "institutional": null
+   "institutional": 2003
   },
   "phases": [
    "counterexample",
@@ -24705,11 +24705,11 @@
    "same": true
   },
   "y": 1999,
-  "approx": false,
+  "approx": true,
   "derived": {
    "conceptual": null,
    "methodological": null,
-   "institutional": null
+   "institutional": 2012
   },
   "phases": [],
   "ms": [
@@ -24899,11 +24899,11 @@
    "same": true
   },
   "y": 1999,
-  "approx": false,
+  "approx": true,
   "derived": {
    "conceptual": null,
    "methodological": null,
-   "institutional": null
+   "institutional": 2005
   },
   "phases": [],
   "ms": [
@@ -25788,11 +25788,11 @@
    "same": true
   },
   "y": 2004,
-  "approx": false,
+  "approx": true,
   "derived": {
    "conceptual": null,
    "methodological": null,
-   "institutional": null
+   "institutional": 2006
   },
   "phases": [],
   "ms": [
@@ -37091,7 +37091,7 @@
    "same": true
   },
   "y": 1586,
-  "approx": false,
+  "approx": true,
   "derived": {
    "conceptual": null,
    "methodological": null,
@@ -43650,7 +43650,7 @@
   "approx": false,
   "derived": {
    "conceptual": 1591,
-   "methodological": null,
+   "methodological": 1593,
    "institutional": 1591
   },
   "phases": [
@@ -57235,7 +57235,7 @@
    "same": false
   },
   "y": -2000,
-  "approx": false,
+  "approx": true,
   "derived": {
    "conceptual": null,
    "methodological": null,
@@ -57337,7 +57337,7 @@
     ]
    }
   ],
-  "notes": "No precise original publication date or named ancient author has been established. Searches in MacTutor and the cited modern tablet editions provide a period only; conceptual and methodological derived dates stay empty. Modern naming is not an ancient institutional date.",
+  "notes": "No precise original publication date or named ancient author has been established. Searches in MacTutor and the cited modern tablet editions provide a period only; conceptual and methodological derived dates stay empty. Modern naming is not an ancient institutional date. The map year is an approximate fallback to this precursor; it does not assert a verified first public statement.",
   "catalogueDates": [
    [
     -1900,
@@ -73752,7 +73752,7 @@
   "derived": {
    "conceptual": 1987,
    "methodological": null,
-   "institutional": null
+   "institutional": 1999
   },
   "phases": [],
   "ms": [
@@ -79043,7 +79043,7 @@
   "approx": false,
   "derived": {
    "conceptual": 1933,
-   "methodological": null,
+   "methodological": 1951,
    "institutional": 1954
   },
   "phases": [
@@ -79265,7 +79265,7 @@
     ]
    }
   ],
-  "notes": "Wikipedia lead data for MB7 had no candidates. Live Wikipedia wikitext used instead (Tarski undefinability, Model theory). MacTutor topic match for MB7 is absent; MacTutor Tarski biography used. The 1933 date for the first statement is disputed (see milestone note). Methodological derived date null: no first_application was established in the sources searched (Tarski's later decision-procedure and algebra work not searched). Fresh check: zbMATH lists the German version as Zbl 3020851 (1935) and 2528648 (1936) and returned no record of the 1933 Polish monograph, so the 1933 first-statement year and the 1933 reprint citation remain unresolved.",
+  "notes": "Wikipedia lead data for MB7 had no candidates. Live Wikipedia wikitext used instead (Tarski undefinability, Model theory). MacTutor topic match for MB7 is absent; MacTutor Tarski biography used. The 1933 date for the first statement is disputed (see milestone note). The recorded first application is the 1951 decision method; an earlier qualifying application has not been established. Fresh check: zbMATH lists the German version as Zbl 3020851 (1935) and 2528648 (1936) and returned no record of the 1933 Polish monograph, so the 1933 first-statement year and the 1933 reprint citation remain unresolved.",
   "catalogueDates": [
    [
     1933,
@@ -85344,7 +85344,7 @@
   "approx": false,
   "derived": {
    "conceptual": 1989,
-   "methodological": null,
+   "methodological": 1989,
    "institutional": 1998
   },
   "phases": [],
@@ -90430,7 +90430,7 @@
    "same": true
   },
   "y": 2006,
-  "approx": false,
+  "approx": true,
   "derived": {
    "conceptual": null,
    "methodological": null,
@@ -90613,11 +90613,11 @@
    "same": true
   },
   "y": 1995,
-  "approx": false,
+  "approx": true,
   "derived": {
    "conceptual": null,
    "methodological": null,
-   "institutional": null
+   "institutional": 1995
   },
   "phases": [],
   "ms": [
@@ -90821,7 +90821,7 @@
   "derived": {
    "conceptual": 2010,
    "methodological": 2010,
-   "institutional": null
+   "institutional": 2016
   },
   "phases": [],
   "ms": [
@@ -91020,7 +91020,7 @@
   "derived": {
    "conceptual": 2016,
    "methodological": 2016,
-   "institutional": null
+   "institutional": 2023
   },
   "phases": [],
   "ms": [
@@ -91462,7 +91462,7 @@
   "derived": {
    "conceptual": 2015,
    "methodological": 2015,
-   "institutional": null
+   "institutional": 2018
   },
   "phases": [],
   "ms": [
@@ -92494,11 +92494,11 @@
    "same": true
   },
   "y": 1998,
-  "approx": false,
+  "approx": true,
   "derived": {
    "conceptual": null,
    "methodological": null,
-   "institutional": null
+   "institutional": 2012
   },
   "phases": [],
   "ms": [
@@ -92721,7 +92721,7 @@
   "derived": {
    "conceptual": 2001,
    "methodological": null,
-   "institutional": null
+   "institutional": 2006
   },
   "phases": [],
   "ms": [
@@ -93194,11 +93194,11 @@
    "same": true
   },
   "y": 2019,
-  "approx": false,
+  "approx": true,
   "derived": {
    "conceptual": null,
    "methodological": null,
-   "institutional": null
+   "institutional": 2020
   },
   "phases": [],
   "ms": [
@@ -93290,7 +93290,7 @@
     ]
    }
   ],
-  "notes": "The conjecture dates earlier than this proof; its original public statement and the first use of the signed-matrix method need separate sources. No institutional date is assigned.",
+  "notes": "The conjecture dates earlier than this proof; its original public statement and the first use of the signed-matrix method need separate sources. A 2020 consolidation is recorded; no named institution is established.",
   "catalogueDates": [
    [
     1992,
@@ -93373,7 +93373,7 @@
    "same": true
   },
   "y": 2004,
-  "approx": false,
+  "approx": true,
   "derived": {
    "conceptual": null,
    "methodological": null,
@@ -93801,7 +93801,7 @@
   "approx": false,
   "derived": {
    "conceptual": 1999,
-   "methodological": null,
+   "methodological": 2004,
    "institutional": null
   },
   "phases": [],
@@ -94395,7 +94395,7 @@
   "derived": {
    "conceptual": 1994,
    "methodological": null,
-   "institutional": null
+   "institutional": 1994
   },
   "phases": [],
   "ms": [
@@ -94501,7 +94501,7 @@
     ]
    }
   ],
-  "notes": "This 1994 paper is a verified formulation, but not asserted to be the absolute first: Witten’s topological sigma models and Ruan–Tian constructions need separate priority checks. Consequently first application and institutional date remain open.",
+  "notes": "This 1994 paper is a verified formulation, but not asserted to be the absolute first: Witten’s topological sigma models and Ruan–Tian constructions need separate priority checks. First application and a named institution remain open; the 1994 book supplies the derived consolidation date.",
   "catalogueDates": [
    [
     1988,
@@ -95580,7 +95580,7 @@
   "derived": {
    "conceptual": 2002,
    "methodological": null,
-   "institutional": null
+   "institutional": 2004
   },
   "phases": [],
   "ms": [
@@ -95674,7 +95674,7 @@
     ]
    }
   ],
-  "notes": "The 2002 public posting is the conceptual date, not the date printed in the Annals volume. A separate first application and institutional date remain open.",
+  "notes": "The 2002 public posting is the conceptual date, not the date printed in the Annals volume. A separate first application and named institution remain open; the 2004 monograph supplies the derived consolidation date.",
   "catalogueDates": [
    [
     2002,
@@ -95981,7 +95981,7 @@
   "derived": {
    "conceptual": 2007,
    "methodological": 2007,
-   "institutional": null
+   "institutional": 2016
   },
   "phases": [],
   "ms": [
@@ -96229,7 +96229,7 @@
   "derived": {
    "conceptual": 1994,
    "methodological": 2001,
-   "institutional": null
+   "institutional": 1995
   },
   "phases": [
    "Seiberg–Witten theory",
@@ -96435,7 +96435,7 @@
     ]
    }
   ],
-  "notes": "The catalogue bundles two independent theories; phases preserve their dates. A direct comparison of Heegaard Floer and monopole Floer homology is later, and the precise institutional date remains open.",
+  "notes": "The catalogue bundles two independent theories; phases preserve their dates. A direct comparison of Heegaard Floer and monopole Floer homology is later, and a named institution remains open; the 1995 monograph supplies the derived consolidation date.",
   "catalogueDates": [
    [
     1994,
@@ -96527,7 +96527,7 @@
   "derived": {
    "conceptual": 1994,
    "methodological": null,
-   "institutional": null
+   "institutional": 2008
   },
   "phases": [
    "natural proofs",
@@ -96788,11 +96788,11 @@
    "same": true
   },
   "y": 2000,
-  "approx": false,
+  "approx": true,
   "derived": {
    "conceptual": null,
    "methodological": 2000,
-   "institutional": null
+   "institutional": 2005
   },
   "phases": [
    "key exchange",
@@ -97005,11 +97005,11 @@
    "same": true
   },
   "y": 1995,
-  "approx": false,
+  "approx": true,
   "derived": {
    "conceptual": null,
    "methodological": null,
-   "institutional": null
+   "institutional": 2014
   },
   "phases": [],
   "ms": [
@@ -97128,7 +97128,7 @@
     ]
    }
   ],
-  "notes": "Sageev’s 1993 dissertation is an earlier public candidate and requires a separate priority check. The 2007 dated Haglund–Wise manuscript precedes the 2008 journal issue; first_statement and first_application are not assigned. Naming and institutional dates remain open.",
+  "notes": "Sageev’s 1993 dissertation is an earlier public candidate and requires a separate priority check. The 2007 dated Haglund–Wise manuscript precedes the 2008 journal issue; first_statement and first_application are not assigned. Naming and a named institution remain open; the 2014 survey supplies the derived consolidation date.",
   "catalogueDates": [
    [
     1995,
@@ -97217,11 +97217,11 @@
    "same": false
   },
   "y": 1994,
-  "approx": false,
+  "approx": true,
   "derived": {
    "conceptual": null,
    "methodological": null,
-   "institutional": null
+   "institutional": 2006
   },
   "phases": [],
   "ms": [
@@ -97378,7 +97378,7 @@
     ]
    }
   ],
-  "notes": "The 1994 paper is an important precursor, but the earliest public use of “categorification” as a programme needs direct checking. Naming, first application and institution remain open.",
+  "notes": "The 1994 paper is an important precursor, but the earliest public use of “categorification” as a programme needs direct checking. Naming, first application and institution remain open. The map year is an approximate fallback to this precursor; it does not assert a verified first public statement.",
   "catalogueDates": [
    [
     1994,
@@ -97669,7 +97669,7 @@
   "derived": {
    "conceptual": 2014,
    "methodological": 2014,
-   "institutional": null
+   "institutional": 2023
   },
   "phases": [
    "probabilistic LQG",
@@ -99168,11 +99168,11 @@
    "same": true
   },
   "y": 1993,
-  "approx": false,
+  "approx": true,
   "derived": {
    "conceptual": null,
    "methodological": null,
-   "institutional": 2009
+   "institutional": 2008
   },
   "phases": [],
   "ms": [
@@ -99432,7 +99432,7 @@
   "approx": false,
   "derived": {
    "conceptual": 1997,
-   "methodological": null,
+   "methodological": 2000,
    "institutional": null
   },
   "phases": [],
@@ -100252,7 +100252,7 @@
   "derived": {
    "conceptual": 1999,
    "methodological": null,
-   "institutional": null
+   "institutional": 2012
   },
   "phases": [],
   "ms": [
@@ -100656,7 +100656,7 @@
   "derived": {
    "conceptual": 1994,
    "methodological": null,
-   "institutional": null
+   "institutional": 1996
   },
   "phases": [],
   "ms": [
@@ -101070,7 +101070,7 @@
   "derived": {
    "conceptual": 1990,
    "methodological": null,
-   "institutional": null
+   "institutional": 2002
   },
   "phases": [],
   "ms": [
@@ -101290,7 +101290,7 @@
   "derived": {
    "conceptual": 2008,
    "methodological": 2008,
-   "institutional": null
+   "institutional": 2010
   },
   "phases": [],
   "ms": [
@@ -101516,7 +101516,7 @@
   "derived": {
    "conceptual": 2002,
    "methodological": null,
-   "institutional": null
+   "institutional": 2014
   },
   "phases": [],
   "ms": [
@@ -101741,7 +101741,7 @@
   "approx": false,
   "derived": {
    "conceptual": 2006,
-   "methodological": null,
+   "methodological": 2009,
    "institutional": 2014
   },
   "phases": [],
@@ -101943,7 +101943,7 @@
   "derived": {
    "conceptual": 1995,
    "methodological": null,
-   "institutional": null
+   "institutional": 1997
   },
   "phases": [],
   "ms": [
@@ -102130,7 +102130,7 @@
     ]
    }
   ],
-  "notes": "This event combines codes and fault-tolerance thresholds. Earlier independent threshold proofs and the first purposeful use on a target computation require comparison; institutional dating remains open.",
+  "notes": "This event combines codes and fault-tolerance thresholds. Earlier independent threshold proofs and the first purposeful use on a target computation require comparison; a named institution remains open; the 1997 survey supplies the derived consolidation date.",
   "catalogueDates": [
    [
     1995,
@@ -102903,7 +102903,7 @@
   "derived": {
    "conceptual": 2006,
    "methodological": 2006,
-   "institutional": null
+   "institutional": 2010
   },
   "phases": [],
   "ms": [
@@ -103129,11 +103129,11 @@
    "same": true
   },
   "y": 2002,
-  "approx": false,
+  "approx": true,
   "derived": {
    "conceptual": null,
    "methodological": 2002,
-   "institutional": null
+   "institutional": 2007
   },
   "phases": [],
   "ms": [
@@ -103350,7 +103350,7 @@
   "derived": {
    "conceptual": 2013,
    "methodological": 2013,
-   "institutional": null
+   "institutional": 2016
   },
   "phases": [],
   "ms": [
@@ -127678,7 +127678,7 @@
    "same": false
   },
   "y": 1751,
-  "approx": false,
+  "approx": true,
   "derived": {
    "conceptual": null,
    "methodological": null,
@@ -127907,7 +127907,7 @@
     ]
    }
   ],
-  "notes": "The summary says the idea first appeared in d'Alembert's loaded string; the pages I read credit Euler (1751 principal axes), Lagrange (inertia matrix, vibrating string) and Cauchy, not d'Alembert. No clear first_statement date could be verified; Cauchy's is left with a null year. No institution milestone. person without verified work: Joseph-Louis Lagrange (developer). Mismatch check (H17): a zbMATH title search for the 1836 Memoire on second-order linear differential equations returned no matching record in this pass, so that year stays unresolved.",
+  "notes": "The summary says the idea first appeared in d'Alembert's loaded string; the pages I read credit Euler (1751 principal axes), Lagrange (inertia matrix, vibrating string) and Cauchy, not d'Alembert. No clear first_statement date could be verified; Cauchy's is left with a null year. No institution milestone. person without verified work: Joseph-Louis Lagrange (developer). Mismatch check (H17): a zbMATH title search for the 1836 Memoire on second-order linear differential equations returned no matching record in this pass, so that year stays unresolved. The map year is an approximate fallback to this precursor; it does not assert a verified first public statement.",
   "catalogueDates": [
    [
     1743,
@@ -130146,7 +130146,7 @@
     ]
    }
   ],
-  "notes": "Borel 1909, Champernowne 1933 and Copeland-Erdos 1946 verified in Crossref. The input's Sierpinski (1917), Mahler and explicit examples were not verified (zbMATH Sierpinski search gave no record) and remain open. Institutional date is null: no naming or institution milestone found.",
+  "notes": "Borel 1909, Champernowne 1933 and Copeland-Erdos 1946 verified in Crossref. The input's Sierpinski (1917), Mahler and explicit examples were not verified (zbMATH Sierpinski search gave no record) and remain open. No naming or institution milestone was found; the 1974 book supplies the derived consolidation date.",
   "catalogueDates": [
    [
     1909,
@@ -135966,7 +135966,7 @@
     ]
    }
   ],
-  "notes": "Crossref returned only later reprints of Einstein 1905, so that year rests on the Wikipedia history section. The 1908 Minkowski Nachrichten version and the group-theoretic claims in Poincare's note were not checked against the texts. Derived institutional date is null: the term 'Minkowski space' was not traced to a naming source.",
+  "notes": "Crossref returned only later reprints of Einstein 1905, so that year rests on the Wikipedia history section. The 1908 Minkowski Nachrichten version and the group-theoretic claims in Poincare's note were not checked against the texts. The 1925 Brill title supplies the derived naming date, but the first use of 'Minkowski space' was not traced.",
   "catalogueDates": [
    [
     1905,
@@ -141332,7 +141332,7 @@
   "derived": {
    "conceptual": 1993,
    "methodological": null,
-   "institutional": null
+   "institutional": 1994
   },
   "phases": [],
   "ms": [
@@ -141428,7 +141428,7 @@
     ]
    }
   ],
-  "notes": "Both 1993 papers combine formulation and application. A separate first_application role is withheld pending comparison with earlier papers; naming and institutional date remain open.",
+  "notes": "Both 1993 papers combine formulation and application. A separate first_application role is withheld pending comparison with earlier papers; naming and a named institution remain open; the 1994 survey supplies the derived consolidation date.",
   "catalogueDates": [
    [
     1993,
@@ -142393,7 +142393,7 @@
   "derived": {
    "conceptual": 2009,
    "methodological": 2009,
-   "institutional": null
+   "institutional": 2014
   },
   "phases": [],
   "ms": [
@@ -144346,7 +144346,7 @@
   "derived": {
    "conceptual": 2001,
    "methodological": null,
-   "institutional": null
+   "institutional": 2003
   },
   "phases": [],
   "ms": [
@@ -146391,7 +146391,7 @@
   "derived": {
    "conceptual": 2001,
    "methodological": null,
-   "institutional": null
+   "institutional": 2006
   },
   "phases": [],
   "ms": [
@@ -146581,7 +146581,7 @@
   "derived": {
    "conceptual": 2012,
    "methodological": 2012,
-   "institutional": null
+   "institutional": 2021
   },
   "phases": [],
   "ms": [
@@ -146798,11 +146798,11 @@
    "same": true
   },
   "y": 2012,
-  "approx": false,
+  "approx": true,
   "derived": {
    "conceptual": null,
    "methodological": null,
-   "institutional": null
+   "institutional": 2014
   },
   "phases": [],
   "ms": [
@@ -146973,7 +146973,7 @@
     ]
    }
   ],
-  "notes": "The October 2012 announcement precedes the November 2012 detailed series. The stability concept and its first public statement predate both and require Tian/Donaldson source comparison; institutional dating remains open.",
+  "notes": "The October 2012 announcement precedes the November 2012 detailed series. The stability concept and its first public statement predate both and require Tian/Donaldson source comparison; a named institution remains open; the 2014 introduction supplies the derived consolidation date.",
   "catalogueDates": [
    [
     1993,
@@ -147056,7 +147056,7 @@
   "derived": {
    "conceptual": 1998,
    "methodological": null,
-   "institutional": null
+   "institutional": 2014
   },
   "phases": [],
   "ms": [
@@ -147285,7 +147285,7 @@
   "derived": {
    "conceptual": 1987,
    "methodological": null,
-   "institutional": null
+   "institutional": 2016
   },
   "phases": [],
   "ms": [
@@ -149295,7 +149295,7 @@
     ]
    }
   ],
-  "notes": "No naming or consolidation milestone was verified for the variation of Hodge structure. The period-domain monograph is by Carlson, Muller-Stach and Peters (Period Mappings and Period Domains, Cambridge Studies in Advanced Mathematics 85, 2003; zbMATH 1999219; Open Library OL13618068W), not by Stein and Voisin. It is found and dated 2003, but it is not promoted to a consolidation milestone because whether it is the first systematic book treatment was not checked. Derived institutional date is therefore null.",
+  "notes": "No naming or consolidation milestone was verified for the variation of Hodge structure. The period-domain monograph is by Carlson, Muller-Stach and Peters (Period Mappings and Period Domains, Cambridge Studies in Advanced Mathematics 85, 2003; zbMATH 1999219; Open Library OL13618068W), not by Stein and Voisin. It is found and dated 2003, but it is not promoted to a consolidation milestone because whether it is the first systematic book treatment was not checked. The 1978 Griffiths-Harris book supplies the derived consolidation date; no naming or institution milestone was established.",
   "catalogueDates": [
    [
     1968,
@@ -150002,7 +150002,7 @@
   "derived": {
    "conceptual": 2004,
    "methodological": null,
-   "institutional": null
+   "institutional": 2013
   },
   "phases": [],
   "ms": [
@@ -150109,7 +150109,7 @@
     ]
    }
   ],
-  "notes": "The catalogue’s 2006 journal dates conceal the 2004 public preprint. The first title containing “compressed sensing,” first practical application and institutional date still need verification.",
+  "notes": "The catalogue’s 2006 journal dates conceal the 2004 public preprint. The first title containing “compressed sensing,” first practical application and named institution still need verification; the 2013 textbook supplies the derived consolidation date.",
   "catalogueDates": [
    [
     2004,
@@ -151681,7 +151681,7 @@
   "derived": {
    "conceptual": 2005,
    "methodological": null,
-   "institutional": null
+   "institutional": 2009
   },
   "phases": [],
   "ms": [
@@ -151913,7 +151913,7 @@
   "derived": {
    "conceptual": 1992,
    "methodological": null,
-   "institutional": null
+   "institutional": 2010
   },
   "phases": [],
   "ms": [
@@ -152321,7 +152321,7 @@
   "derived": {
    "conceptual": 2009,
    "methodological": 2009,
-   "institutional": null
+   "institutional": 2014
   },
   "phases": [],
   "ms": [
@@ -153481,11 +153481,11 @@
    "same": true
   },
   "y": 1998,
-  "approx": false,
+  "approx": true,
   "derived": {
    "conceptual": null,
    "methodological": null,
-   "institutional": null
+   "institutional": 2001
   },
   "phases": [],
   "ms": [
@@ -155362,7 +155362,7 @@
   "derived": {
    "conceptual": 2010,
    "methodological": 2010,
-   "institutional": null
+   "institutional": 2014
   },
   "phases": [],
   "ms": [
@@ -156243,7 +156243,7 @@
   "derived": {
    "conceptual": 2006,
    "methodological": 2006,
-   "institutional": null
+   "institutional": 2018
   },
   "phases": [
    "totally positive Grassmannian",
@@ -158178,7 +158178,7 @@
   "approx": false,
   "derived": {
    "conceptual": 2022,
-   "methodological": 2019,
+   "methodological": null,
    "institutional": 2022
   },
   "phases": [
@@ -158987,7 +158987,7 @@
    "same": true
   },
   "y": 2022,
-  "approx": false,
+  "approx": true,
   "derived": {
    "conceptual": null,
    "methodological": 2022,
@@ -159220,7 +159220,7 @@
   "y": 2022,
   "approx": false,
   "derived": {
-   "conceptual": 1984,
+   "conceptual": 2022,
    "methodological": null,
    "institutional": null
   },
@@ -159477,7 +159477,7 @@
   "derived": {
    "conceptual": 2014,
    "methodological": 2022,
-   "institutional": null
+   "institutional": 2023
   },
   "phases": [
    "higher-form symmetries",
@@ -160715,7 +160715,7 @@
    "same": true
   },
   "y": 2021,
-  "approx": false,
+  "approx": true,
   "derived": {
    "conceptual": null,
    "methodological": null,
@@ -161816,7 +161816,7 @@
     ]
    }
   ],
-  "notes": "Input summary is correct that Manolescu's result covers dimension five and higher. Milestone years checked: JAMS (Crossref), G&T 2003 (Crossref), Galewski-Stern 1978/1980 (Crossref). The 2013 preprint year rests on Wikipedia because arXiv returned HTTP 429 on every attempt; a retry is needed for a bibliographic_record. MacTutor Topology in mathematics topic (live) has no entry on triangulation or Hauptvermutung matching the event. No naming or institution milestone exists for this event; institutional date is null by rule.",
+  "notes": "Input summary is correct that Manolescu's result covers dimension five and higher. Milestone years checked: JAMS (Crossref), G&T 2003 (Crossref), Galewski-Stern 1978/1980 (Crossref). The 2013 preprint year rests on Wikipedia because arXiv returned HTTP 429 on every attempt; a retry is needed for a bibliographic_record. MacTutor Topology in mathematics topic (live) has no entry on triangulation or Hauptvermutung matching the event. No naming or institution milestone exists for this event; the 2025 survey supplies the derived consolidation date.",
   "catalogueDates": [
    [
     1976,
@@ -161911,11 +161911,11 @@
    "same": false
   },
   "y": 1995,
-  "approx": false,
+  "approx": true,
   "derived": {
    "conceptual": null,
    "methodological": null,
-   "institutional": null
+   "institutional": 2017
   },
   "phases": [],
   "ms": [
@@ -162078,7 +162078,7 @@
     ]
    }
   ],
-  "notes": "The 1995 paper is an arithmetic precursor, not proof of an explicit motivic formulation. Earlier papers, especially by Belkale–Brosnan and Bloch–Esnault–Kreimer, must be compared before claiming first_statement or first_application. The inherited 2012 Brown–Schnetz lead remains unverified; naming and institutional dates are open.",
+  "notes": "The 1995 paper is an arithmetic precursor, not proof of an explicit motivic formulation. Earlier papers, especially by Belkale–Brosnan and Bloch–Esnault–Kreimer, must be compared before claiming first_statement or first_application. The inherited 2012 Brown–Schnetz lead remains unverified; naming and a named institution are open; the 2017 notes supply the derived consolidation date. The map year is an approximate fallback to this precursor; it does not assert a verified first public statement.",
   "catalogueDates": [
    [
     1995,
@@ -162779,7 +162779,7 @@
   "derived": {
    "conceptual": 2011,
    "methodological": 2011,
-   "institutional": null
+   "institutional": 2020
   },
   "phases": [],
   "ms": [
@@ -164584,7 +164584,7 @@
   "derived": {
    "conceptual": 1821,
    "methodological": null,
-   "institutional": null
+   "institutional": 1827
   },
   "phases": [],
   "ms": [
