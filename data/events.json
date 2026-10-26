@@ -1393,8 +1393,12 @@
   "product": "Graph theory",
   "why": "A puzzle about walks across bridges is stripped to vertices and edges, and a parity condition settles it, an early instance of 'geometry of position'.",
   "cat": "Seed set A",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "methodological": "C",
+   "institutional": "C"
+  },
   "shown": {
    "conceptual": {
     "y": 1741,
@@ -1452,6 +1456,12 @@
       "s": "Wikipedia, Seven Bridges of Königsberg",
       "u": "https://en.wikipedia.org/wiki/Seven_Bridges_of_K%C3%B6nigsberg",
       "k": "history_page"
+     },
+     {
+      "c": "Euler Archive E53 lists the date written as 1735",
+      "s": "Euler Archive record E53 (bepress metadata)",
+      "u": "https://scholarlycommons.pacific.edu/euler-works/53/",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -1465,10 +1475,10 @@
     "pe": [
      "Leonhard Euler"
     ],
-    "d": "Euler recasts the bridge puzzle as land masses and links, shows the walk is impossible and states the parity rule for general networks; history pages regard it as the first paper in graph theory.",
+    "d": "Euler recasts the bridge puzzle as land masses and links, shows the walk is impossible and states the parity rule for general networks.",
     "ph": "Euler and the geometry of position",
     "c": "high",
-    "n": "Volume 8 of the Commentarii is titled 1736 but was printed in 1741, so publication year governs (the paper was read in 1735, see the precursor). Wikipedia and MacTutor quote 1736, which is the volume title and presentation date, not the publication. Also plays the role of the first application (solves the target puzzle); not repeated. The 'first in graph theory' attribution is the usual textbook one; no graph vocabulary exists yet.",
+    "n": "The volume is titled 1736 but was printed in 1741 (Euler Archive E53: published 1741, written 1735), so the publication year 1741 governs. An earlier 1736-dated entry for the same paper was removed as a duplicate. Also plays the role of the first application (solves the target puzzle); not repeated.",
     "ev": [
      {
       "c": "Published in the St Petersburg Commentarii in 1741; mathematical formalisation and proof of impossibility laid the foundations of graph theory",
@@ -1477,22 +1487,10 @@
       "k": "history_page"
      },
      {
-      "c": "Euler Archive: Commentarii vol. 8, dated 1741",
+      "c": "Euler Archive E53: Commentarii Academiae Scientiarum Petropolitanae 8, pp. 128-140, published 1741, written 1735",
       "s": "Euler Archive record E53 (bepress metadata)",
       "u": "https://scholarlycommons.pacific.edu/euler-works/53/",
       "k": "bibliographic_record"
-     },
-     {
-      "c": "Calls Euler's paper (dated 1736) the first paper in the history of graph theory; the 1736 date is the volume title, not the printing",
-      "s": "English Wikipedia, Graph theory",
-      "u": "https://en.wikipedia.org/wiki/Graph_theory",
-      "k": "history_page"
-     },
-     {
-      "c": "Dates the first beginnings of topology to this paper (quoted as 1736) and states its degree-parity criterion",
-      "s": "MacTutor, A history of Topology",
-      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Topology_in_mathematics/",
-      "k": "history_page"
      }
     ]
    },
@@ -1512,7 +1510,7 @@
     "n": "Use of graph structure for a target problem outside pure combinatorics; the paper content itself was not read. Treated as the earliest application of the graph viewpoint, not as the start of the subject.",
     "ev": [
      {
-      "c": "Crossref record of the 1847 paper",
+      "c": "Crossref record: Annalen der Physik 148, 497-508, 1847, Kirchhoff",
       "s": "Crossref 10.1002/andp.18471481202",
       "u": "https://doi.org/10.1002/andp.18471481202",
       "k": "bibliographic_record"
@@ -1598,7 +1596,7 @@
     "d": "Euler stated that even degrees suffice for a closed tour of a connected network; Hierholzer later gave the proof.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Crossref lists the paper under Hierholzer and Wiener (Math. Ann. 6, 30-32, 1873); Hierholzer died in 1871, so it was published posthumously.",
     "ev": [
      {
       "c": "The condition is also sufficient, a result stated by Euler and later proved by Carl Hierholzer",
@@ -1627,7 +1625,7 @@
     "d": "Sylvester used the word graph for diagrams of atoms and bonds, giving the field its name.",
     "ph": null,
     "c": "medium",
-    "n": "Wikipedia gives the Nature paper; Crossref confirms its title and date. I did not read the text to confirm the word occurs there.",
+    "n": "The Nature note is dated 7 February 1878 (Crossref) and the American Journal of Mathematics paper is also 1878. Secondary accounts agree that 'graph' first appears in these 1878 papers; I did not read either text to confirm the word occurs there, hence medium.",
     "ev": [
      {
       "c": "The term graph was introduced by Sylvester in a paper in Nature in 1878",
@@ -1646,6 +1644,29 @@
       "s": "Crossref 10.2307/2369436",
       "u": "https://doi.org/10.2307/2369436",
       "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "consolidation",
+    "y": 1926,
+    "ye": null,
+    "p": "year",
+    "l": "Sainte-Laguë's monograph Les Réseaux (ou Graphes)",
+    "w": "A. Sainte-Laguë, Les Réseaux (ou Graphes), Paris, 1926",
+    "pe": [
+     "André Sainte-Laguë"
+    ],
+    "d": "An early French monograph on networks (graphs), sometimes called the zeroth book of graph theory, ten years before König's.",
+    "ph": null,
+    "c": "low",
+    "n": "Single history-page source, identified by title; not read. It is why König's 1936 book is not called the first graph-theory monograph here.",
+    "ev": [
+     {
+      "c": "MacTutor Extras page for Sainte-Laguë's Les Réseaux (ou Graphes), 1926",
+      "s": "MacTutor, Les Réseaux (ou Graphes)",
+      "u": "https://mathshistory.st-andrews.ac.uk/Extras/Les_reseaux",
+      "k": "history_page"
      }
     ]
    },
@@ -1682,10 +1703,10 @@
     "pe": [
      "Dénes Kőnig"
     ],
-    "d": "A book-length systematic treatment of graph theory as a subject.",
+    "d": "A book-length systematic treatment of graph theory as a subject, usually described as the first textbook.",
     "ph": null,
     "c": "low",
-    "n": "Review records confirm the book and year. That it is the first graph theory book is common lore not confirmed by a page I read, hence low confidence.",
+    "n": "Crossref review records and a zbMATH entry confirm the book and year. 'First textbook' is common usage; Sainte-Laguë's 1926 monograph is earlier, so the claim is kept at low confidence.",
     "ev": [
      {
       "c": "Crossref: contemporary review of Kőnig's Theorie der endlichen und unendlichen Graphen, Leipzig 1936",
@@ -1726,12 +1747,6 @@
       "y": 1741,
       "u": "https://scholarlycommons.pacific.edu/euler-works/53/",
       "w": "Founding paper."
-     },
-     {
-      "c": "Euler, Solutio problematis ad geometriam situs pertinentis, 1736",
-      "y": 1736,
-      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Topology_in_mathematics/",
-      "w": "Regarded as the first paper in graph theory"
      }
     ]
    },
@@ -1812,7 +1827,7 @@
     ]
    }
   ],
-  "notes": "Wikipedia's graph theory page also mentions Vandermonde's 1771 work as an early companion; I did not read it and omit it. Euler's letters about the problem exist (MacTutor Euler bibliography cites Euler's Königsberg letters) but were not read. MSC code 05C and the Journal of Graph Theory (1977) were not searched.",
+  "notes": "Euler's solution was presented in 1735 but printed in 1741 (Euler Archive E53); publication year governs, so the first statement is 1741, not 1736. Kirchhoff 1847 is an early application of graph structure to networks, taken from histories rather than from the paper itself. Sylvester's 1878 coinage of 'graph' rests on secondary accounts and Crossref records, not on the text. Sainte-Laguë 1926 precedes König's 1936 book. Vandermonde 1771 and Euler's 1736 letters were not examined; MSC 05C and the Journal of Graph Theory (1977) were not searched.",
   "catalogueDates": [
    [
     1736,
@@ -57732,7 +57747,7 @@
     "d": "Pingala systematically lists and counts all light/heavy syllable patterns of a given length, with a triangular array of binomial counts, using combinatorics on a purposeful target (metre).",
     "ph": "Pingala and enumerative prosody",
     "c": "low",
-    "n": "Date given as c. 3rd or 2nd century BCE; may be parallel to or later than the Jaina canon, so ordering against the Bhagavati Sutra is uncertain. Wikipedia is the only source read; not independently checked against Weber/other editions.",
+    "n": "Date given as c. 3rd or 2nd century BCE; may be parallel to or later than the Jaina canon, so ordering against the Bhagavati Sutra is uncertain. Wikipedia is the only source read; not independently checked against Weber/other editions. The MacTutor Jaina mathematics page does not mention Pingala.",
     "ev": [
      {
       "c": "Wikipedia Pingala: Chandahshastra enumerates metres by recursive generation of light/guru patterns, counts via binomial coefficients, meru-prastara triangle; Pingala c. 3rd-2nd century BCE",
@@ -57755,7 +57770,7 @@
     "d": "The Anuyogadvara Sutra is reported to contain the earliest known Indian description of factorial products, extending counting of arrangements.",
     "ph": "Jaina canonical texts",
     "c": "low",
-    "n": "Single secondary source; date range wide.",
+    "n": "Single secondary source (Wikipedia); the MacTutor Jaina page cites the Anuyogadvara Sutra but gives neither a date nor a factorial claim.",
     "ev": [
      {
       "c": "Wikipedia Indian mathematics: Anuyogadwara Sutra (c. 200 BCE-100 CE) includes the earliest known description of factorials in Indian mathematics",
@@ -57854,7 +57869,7 @@
     ]
    }
   ],
-  "notes": "Disputed: relative order of the Jaina canon and Pingala; both are dated only to broad ranges. No naming milestone found: no indigenous term for the field could be dated (searched MacTutor Jaina page, Wikipedia Indian mathematics). Modern scholarship: Kusuba and Plofker, Indian combinatorics (Combinatorics: Ancient and Modern, 2013, doi 10.1093/acprof:oso/9780199656592.003.0002) and Mathematics in Ancient Jaina Literature (2022, doi 10.1142/9789811255502_0005) were found in Crossref but not read. Event summary bundles Jaina cosmology and infinities; those are outside the permutations story. No MSC milestone: 05A has no dated origin for this event. Re-checked MacTutor Jaina mathematics and Wikipedia Pingala in this pass: Bhagavati Sutra about 300 BC, Sthananga about the 2nd century BC, Pingala c. 3rd-2nd century BCE; the ranges overlap, so the order stays open.",
+  "notes": "Disputed: relative order of the Jaina canon and Pingala; both are dated only to broad ranges. No naming milestone found: no indigenous term for the field could be dated (searched MacTutor Jaina page, Wikipedia Indian mathematics). Modern scholarship: Kusuba and Plofker, Indian combinatorics (Combinatorics: Ancient and Modern, 2013, doi 10.1093/acprof:oso/9780199656592.003.0002) and Mathematics in Ancient Jaina Literature (2022, doi 10.1142/9789811255502_0005) were found in Crossref but not read. Event summary bundles Jaina cosmology and infinities; those are outside the permutations story. No MSC milestone: 05A has no dated origin for this event. Re-checked MacTutor Jaina mathematics and Wikipedia Pingala in this pass: Bhagavati Sutra about 300 BC, Sthananga about the 2nd century BC, Pingala c. 3rd-2nd century BCE; the ranges overlap, so the order stays open. Review pass: MacTutor Jaina mathematics page re-read; it supports the Bhagabati (about 300 BC) and Sthananga (about the 2nd century BC) dates and rules, but not the Anuyogadvara factorial claim or Pingala. Kusuba and Plofker still unread.",
   "catalogueDates": [
    "c. -300 to 200",
    null,
@@ -79024,7 +79039,7 @@
     "basis": "first statement"
    },
    "methodological": {
-    "y": 1979,
+    "y": 1980,
     "basis": "first application"
    },
    "institutional": {
@@ -79033,16 +79048,16 @@
    }
   },
   "took": {
-   "y": 1979,
+   "y": 1980,
    "role": "first_application",
-   "label": "Kazhdan-Lusztig proof uses intersection cohomology",
+   "label": "Kazhdan-Lusztig polynomials read through intersection cohomology of Schubert varieties",
    "same": true
   },
   "y": 1977,
   "approx": false,
   "derived": {
    "conceptual": 1977,
-   "methodological": 1979,
+   "methodological": 1980,
    "institutional": 1984
   },
   "phases": [
@@ -79082,7 +79097,7 @@
     "ye": null,
     "p": "year",
     "l": "Poincare duality for singular spaces (note)",
-    "w": "Goresky, MacPherson, La dualite de Poincare pour les espaces singuliers, C. R. Acad. Sci. Paris 284 (1977)",
+    "w": "Goresky, MacPherson, La dualité de Poincaré pour les espaces singuliers, C. R. Acad. Sci. Paris Sér. A 284 (1977) 1549-1551",
     "pe": [
      "Mark Goresky",
      "Robert MacPherson"
@@ -79090,7 +79105,7 @@
     "d": "Short note announcing the Poincare-duality property for intersection homology of singular spaces.",
     "ph": null,
     "c": "medium",
-    "n": "Not found in Crossref; the citation comes from the Wikipedia reference list. Treat as unverified until a record is found.",
+    "n": "No Crossref record; the page range comes from the Wikipedia reference list and zbMATH could not be reached, so the note is not confirmed in an independent bibliographic record.",
     "ev": [
      {
       "c": "Wikipedia Intersection homology: references the 1977 Comptes Rendus note",
@@ -79102,25 +79117,31 @@
    },
    {
     "r": "first_application",
-    "y": 1979,
+    "y": 1980,
     "ye": null,
     "p": "year",
-    "l": "Kazhdan-Lusztig proof uses intersection cohomology",
-    "w": "Kazhdan, Lusztig, Representations of Coxeter groups and Hecke algebras, Invent. Math. (1979)",
+    "l": "Kazhdan-Lusztig polynomials read through intersection cohomology of Schubert varieties",
+    "w": "Kazhdan, Lusztig, Schubert varieties and Poincaré duality, Proc. Sympos. Pure Math. 36, AMS, 1980, 185-203 (preprint 1979)",
     "pe": [
      "David Kazhdan",
      "George Lusztig"
     ],
-    "d": "Intersection cohomology is used to prove the Kazhdan-Lusztig conjectures, an early purposeful application.",
+    "d": "Kazhdan and Lusztig interpret their polynomials through the intersection cohomology of Schubert varieties, the first use of the theory in representation theory.",
     "ph": null,
     "c": "medium",
-    "n": "The Crossref record confirms the paper; the IH use is taken from Wikipedia and not checked in the text.",
+    "n": "Replaces the earlier 1979 Inventiones entry: that paper (Crossref: Invent. Math. 53, 165-184) introduces the polynomials and the conjectures but is not shown to use intersection cohomology. The interpretation is in the 1980 paper (preprint 1979); the conjectures were proved in 1981 (Beilinson-Bernstein, Brylinski-Kashiwara). The 1980 paper was not read; the link is from secondary accounts.",
     "ev": [
      {
-      "c": "Record title, journal and year checked",
-      "s": "Crossref",
-      "u": "https://doi.org/10.1007/bf01390031",
+      "c": "Crossref record: Kazhdan, Lusztig, Schubert varieties and Poincaré duality, Proc. Sympos. Pure Math. 36, 185-203, 1980",
+      "s": "Crossref 10.1090/pspum/036/573434",
+      "u": "https://doi.org/10.1090/pspum/036/573434",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Kashiwara's survey: the polynomials are interpreted by intersection cohomology of Schubert varieties; conjecture proved 1981 via this link",
+      "s": "Kashiwara, survey on the Kazhdan-Lusztig conjecture",
+      "u": "https://www.kurims.kyoto-u.ac.jp/~kenkyubu/kashiwara/KL.pdf",
+      "k": "history_page"
      },
      {
       "c": "Wikipedia Intersection homology: IH was used to prove the Kazhdan-Lusztig conjectures",
@@ -79256,10 +79277,10 @@
     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Kazhdan/",
     "works": [
      {
-      "c": "Kazhdan, Lusztig, Invent. Math. (1979)",
-      "y": 1979,
-      "u": "https://doi.org/10.1007/bf01390031",
-      "w": "KL conjectures via IH"
+      "c": "Kazhdan, Lusztig, Schubert varieties and Poincaré duality, Proc. Sympos. Pure Math. 36 (1980)",
+      "y": 1980,
+      "u": "https://doi.org/10.1090/pspum/036/573434",
+      "w": "KL polynomials via IH of Schubert varieties"
      }
     ]
    },
@@ -79270,10 +79291,10 @@
     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lusztig/",
     "works": [
      {
-      "c": "Kazhdan, Lusztig, Invent. Math. (1979)",
-      "y": 1979,
-      "u": "https://doi.org/10.1007/bf01390031",
-      "w": "KL conjectures via IH"
+      "c": "Kazhdan, Lusztig, Schubert varieties and Poincaré duality, Proc. Sympos. Pure Math. 36 (1980)",
+      "y": 1980,
+      "u": "https://doi.org/10.1090/pspum/036/573434",
+      "w": "KL polynomials via IH of Schubert varieties"
      }
     ]
    },
@@ -79292,7 +79313,7 @@
     ]
    }
   ],
-  "notes": "The 1977 Comptes Rendus note is not in Crossref; it is cited from Wikipedia and kept as a medium first_statement. Derived conceptual therefore rests on an unverified record; if it cannot be confirmed, the first bibliographic statement is the 1980 Topology paper. Methodological is 1979 (Kazhdan-Lusztig), with the IH use from Wikipedia. Institutional is 1984 (book). MacTutor not checked for this event.",
+  "notes": "The 1977 Comptes Rendus note is cited from Wikipedia (Sér. A 284, pp. 1549-1551) and not found in Crossref or zbMATH here; if it cannot be confirmed, the first bibliographic statement is the 1980 Topology paper. Methodological was moved from 1979 to 1980: the 1979 Invent. Math. paper states the Kazhdan-Lusztig conjectures but is not shown to use intersection cohomology; the interpretation is in the 1980 Schubert varieties paper. The 1981 proofs (Brylinski-Kashiwara, Invent. Math. 64; Beilinson-Bernstein) and the 1982 Beilinson-Bernstein-Deligne 'Faisceaux pervers' (perverse sheaves, part of the event's target) are not recorded as milestones; the 1984 chapter is a Borel et al. volume. Kleiman's 1989 history was not read.",
   "catalogueDates": [
    [
     1974,
@@ -107126,14 +107147,14 @@
     "basis": "first application"
    },
    "institutional": {
-    "y": 1882,
+    "y": 1881,
     "basis": "naming, textbook or institution"
    }
   },
   "took": {
-   "y": 1882,
+   "y": 1881,
    "role": "naming",
-   "label": "Theory of Fuchsian groups",
+   "label": "Fuchsian functions named in the title of Poincaré's first note",
    "same": true
   },
   "y": 1881,
@@ -107141,7 +107162,7 @@
   "derived": {
    "conceptual": 1881,
    "methodological": 1882,
-   "institutional": 1882
+   "institutional": 1881
   },
   "phases": [
    "Fuchsian functions",
@@ -107183,15 +107204,15 @@
     "y": 1881,
     "ye": null,
     "p": "year",
-    "l": "Poincare's first notes on Fuchsian functions",
-    "w": "Poincare, notes in Comptes Rendus, 1881",
+    "l": "Poincaré's first note on Fuchsian functions",
+    "w": "Poincaré, Sur les fonctions fuchsiennes, C. R. Acad. Sci. Paris 92 (14 February 1881) 333-335",
     "pe": [
      "Henri Poincare"
     ],
     "d": "Poincare began publishing his theory of Fuchsian functions in 1881, linking their groups to non-Euclidean geometry.",
     "ph": "Fuchsian functions",
     "c": "medium",
-    "n": "Individual notes were not located in Crossref; year from MacTutor.",
+    "n": "No Crossref record for the 1881 notes; date and pages come from a Numdam bibliography of Klein's notes on Poincaré's early publications, scan not seen. About a dozen notes followed in 1881. His 1880 Grand Prix essay and its supplement of 28 June 1880 were not published, so are not a first statement.",
     "ev": [
      {
       "c": "Says Poincare began publishing an outline of automorphic function theory in 1881.",
@@ -107204,35 +107225,64 @@
       "s": "MacTutor biography of Poincare",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/",
       "k": "history_page"
+     },
+     {
+      "c": "Bibliography lists the note as Sur les fonctions fuchsiennes, C. R. 92 (14 February 1881) 333-335",
+      "s": "Numdam, Klein's notes about Poincaré's early publications (PHSC 1997)",
+      "u": "https://numdam.org/item/PHSC_1997__2_4_77_0/",
+      "k": "history_page"
      }
     ]
    },
    {
     "r": "naming",
+    "y": 1881,
+    "ye": null,
+    "p": "year",
+    "l": "Fuchsian functions named in the title of Poincaré's first note",
+    "w": "Poincaré, Sur les fonctions fuchsiennes, C. R. Acad. Sci. Paris 92 (14 February 1881) 333-335",
+    "pe": [
+     "Henri Poincare"
+    ],
+    "d": "The first note already carries the name Fuchsian functions, which MacTutor says honours Fuchs; Klein's term automorphic came later.",
+    "ph": "Fuchsian functions",
+    "c": "medium",
+    "n": "Same note as the first_statement, counted under naming because the name is in the title (title as in the Numdam bibliography; scan not seen). The date of Klein's automorphic was not checked.",
+    "ev": [
+     {
+      "c": "Bibliography gives the title Sur les fonctions fuchsiennes for the note of 14 February 1881",
+      "s": "Numdam, Klein's notes about Poincaré's early publications (PHSC 1997)",
+      "u": "https://numdam.org/item/PHSC_1997__2_4_77_0/",
+      "k": "history_page"
+     },
+     {
+      "c": "Poincaré first called automorphic functions Fuchsian after Lazarus Fuchs",
+      "s": "MacTutor biography of Poincare",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
     "y": 1882,
     "ye": null,
     "p": "year",
-    "l": "Theory of Fuchsian groups",
+    "l": "Théorie des groupes fuchsiens",
     "w": "Poincare, Theorie des groupes fuchsiens, Acta Math. 1, 1-62, 1882",
     "pe": [
      "Henri Poincare"
     ],
-    "d": "Poincare's Acta paper names and develops the groups of the theory.",
+    "d": "Poincaré's Acta paper develops the Fuchsian groups of the theory.",
     "ph": "Fuchsian functions",
     "c": "high",
-    "n": null,
+    "n": "Role changed from naming: the name Fuchsian functions already appears in the 1881 notes.",
     "ev": [
      {
       "c": "Record: Acta Math. 1 (1882) 1-62.",
       "s": "Crossref",
       "u": "https://doi.org/10.1007/bf02592124",
       "k": "bibliographic_record"
-     },
-     {
-      "c": "Says he named the functions Fuchsian after Fuchs; later called automorphic.",
-      "s": "MacTutor biography of Poincare",
-      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/",
-      "k": "history_page"
      }
     ]
    },
@@ -107249,7 +107299,7 @@
     "d": "The memoir uses the new functions to solve linear differential equations.",
     "ph": "Fuchsian functions",
     "c": "medium",
-    "n": "That the memoir integrates linear equations is from MacTutor's account; the paper was not read.",
+    "n": "That the memoir integrates linear equations is from MacTutor's account; the paper was not read, and the earlier 1881 notes may already contain such uses.",
     "ev": [
      {
       "c": "Record: Acta Math. 1 (1882) 193-294.",
@@ -107262,6 +107312,35 @@
       "s": "MacTutor biography of Poincare",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/",
       "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1882,
+    "ye": null,
+    "p": "year",
+    "l": "Klein's notes on single-valued functions with linear transformations",
+    "w": "Klein, Ueber eindeutige Functionen mit linearen Substitutionen in sich, Math. Ann. 20, 49-51, 1882; and Math. Ann. 19, 565-568, 1882",
+    "pe": [
+     "Felix Klein"
+    ],
+    "d": "Klein's own short notes enter the theory in the year of Poincaré's Acta memoirs.",
+    "ph": "Klein's modular and automorphic functions",
+    "c": "low",
+    "n": "Titles and years from Crossref only (10.1007/bf01443325, 10.1007/bf01446671); contents not read.",
+    "ev": [
+     {
+      "c": "Crossref record: Klein, Math. Ann. 20, 49-51, 1882",
+      "s": "Crossref 10.1007/bf01443325",
+      "u": "https://doi.org/10.1007/bf01443325",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Crossref record: Klein, Math. Ann. 19, 565-568, 1882",
+      "s": "Crossref 10.1007/bf01446671",
+      "u": "https://doi.org/10.1007/bf01446671",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -107308,7 +107387,7 @@
     "d": "First systematic textbook treatment under the name automorphic functions.",
     "ph": "Klein's modular and automorphic functions",
     "c": "high",
-    "n": null,
+    "n": "Bibliographic record confirms Bd. I, Leipzig, Teubner, 1897. The authors' earlier lectures on elliptic modular functions (1890, 1892) are narrower.",
     "ev": [
      {
       "c": "Archive.org record: 1897.",
@@ -107326,13 +107405,12 @@
     "l": "Koebe: rigorous uniformisation (Gottingen 1907)",
     "w": "P. Koebe, Ueber die Uniformisierung beliebiger analytischer Kurven, Gott. Nachr. 1907, 191-210",
     "pe": [
-     "Henri Poincare",
      "Paul Koebe"
     ],
-    "d": "Poincare and Koebe independently gave the first rigorous proofs of the general uniformisation theorem.",
+    "d": "Koebe's first Göttingen note on uniformisation of arbitrary analytic curves; Poincaré's own memoir follows as the 1908 entry.",
     "ph": "Uniformisation",
     "c": "high",
-    "n": "Submitted 1907, published in the 1908 volume.",
+    "n": "Submitted 1907, published in the 1908 volume. zbMATH could not be reached in this review, so that citation was not re-checked.",
     "ev": [
      {
       "c": "Says the first rigorous proofs were by Poincare and Koebe, completed by 1907.",
@@ -107444,7 +107522,7 @@
     ]
    }
   ],
-  "notes": "Fuchs's and Fricke's and Koebe's biography pages were not fetched; those biographyUrl values point to related MacTutor pages and should be replaced. The coinage of 'automorphic' (Klein, around 1890) is not verified, so the 1897 book is marked consolidation, not naming. The 1882 'first_application' is medium confidence. Fix pass 2: Crossref dates Poincare's Acta Math. 31 article to 1908, so it is a separate 1908 milestone; the 1907 milestone is now Koebe's Gottingen 1907 paper (zbMATH 38.0454.01). The 1907 date given for the Acta paper is not supported by the Crossref record.",
+  "notes": "The first published statement is Poincaré's note of 14 February 1881; the name Fuchsian functions is already in its title, so naming moved from 1882 to 1881 and the Acta paper became a key development. Date and title of the 1881 notes rest on a Numdam bibliography, not a scan. The coinage of 'automorphic' (Klein) is not verified, so the 1897 book is marked consolidation. Fuchs's, Fricke's and Koebe's biography pages were not fetched; those biographyUrl values point to related MacTutor pages. Contents of Klein 1882/1883 and of the Acta memoirs were not read.",
   "catalogueDates": [
    [
     1880,
@@ -122850,15 +122928,19 @@
   "product": null,
   "why": "Noether, Brauer and Hasse linked hypercomplex systems to commutative algebra and arithmetic via modules and cohomological ideas.",
   "cat": "Period run 1850-1930",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "methodological": "C",
+   "institutional": "C"
+  },
   "shown": {
    "conceptual": {
     "y": 1908,
     "basis": "first statement"
    },
    "methodological": {
-    "y": 1929,
+    "y": 1931,
     "basis": "first application"
    },
    "institutional": {
@@ -122876,7 +122958,7 @@
   "approx": false,
   "derived": {
    "conceptual": 1908,
-   "methodological": 1929,
+   "methodological": 1931,
    "institutional": 1935
   },
   "phases": [
@@ -122888,6 +122970,29 @@
   "ms": [
    {
     "r": "precursor",
+    "y": 1892,
+    "ye": null,
+    "p": "year",
+    "l": "Molien classifies simple algebras over the complex numbers",
+    "w": "T. Molien, Ueber Systeme höherer complexer Zahlen, Math. Ann. 41, 83-156 (volume cited as 1893)",
+    "pe": [
+     "Theodor Molien"
+    ],
+    "d": "An earlier memoir on systems of higher complex numbers, credited in standard accounts with the structure theory over the complex field.",
+    "ph": null,
+    "c": "low",
+    "n": "Crossref dates the memoir 1892 (the volume is usually cited as 1893); contents not read, and MacTutor's Wedderburn page does not mention it. Kept as precursor because it is earlier, over C only, and outside the arithmetic strand.",
+    "ev": [
+     {
+      "c": "Crossref record: Molien, Ueber Systeme höherer complexer Zahlen, Math. Ann. 41, 83-156",
+      "s": "Crossref 10.1007/bf01443450",
+      "u": "https://doi.org/10.1007/bf01443450",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "precursor",
     "y": 1906,
     "ye": null,
     "p": "year",
@@ -122896,10 +123001,10 @@
     "pe": [
      "Joseph H. Maclagan-Wedderburn"
     ],
-    "d": "Wedderburn's 1906 theorem on hypercomplex numbers was the first step toward the semisimple classification.",
+    "d": "An earlier note by Wedderburn on hypercomplex numbers (Proc. Roy. Soc. Edinburgh 26, 48-50); its content was not read here.",
     "ph": null,
-    "c": "medium",
-    "n": "Precursor only; the 1908 paper is the public classification.",
+    "c": "low",
+    "n": "Precursor by year only: MacTutor's Wedderburn biography names no 1906 result, so what the note proves was not checked. The 1908 paper is the public classification.",
     "ev": [
      {
       "c": "Crossref lists the 1906 Proc. Roy. Soc. Edinburgh paper with this title",
@@ -122922,7 +123027,7 @@
     "d": "Wedderburn showed that every semisimple algebra is a direct sum of matrix algebras over division algebras.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "MacTutor places the paper in 1907 (read to the London Mathematical Society); Crossref gives volume s2-6, 77-118, 1908. Publication year governs.",
     "ev": [
      {
       "c": "Crossref lists Wedderburn 1908 PLMS paper",
@@ -122931,10 +123036,39 @@
       "k": "bibliographic_record"
      },
      {
-      "c": "MacTutor Wedderburn biography describes the semisimple-algebra result of this paper",
+      "c": "MacTutor: in On hypercomplex numbers (PLMS) Wedderburn showed every semisimple algebra is a direct sum of simple algebras and a simple algebra is a matrix algebra over a division ring",
       "s": "MacTutor Wedderburn biography",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Wedderburn/",
       "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "precursor",
+    "y": 1923,
+    "ye": null,
+    "p": "year",
+    "l": "Dickson's Algebras and their arithmetics",
+    "w": "L. E. Dickson, Algebras and their arithmetics, University of Chicago Press, 1923",
+    "pe": [
+     "Leonard Eugene Dickson"
+    ],
+    "d": "A book on the arithmetic of algebras, earlier than the Brauer-Hasse-Noether work and Deuring's monograph.",
+    "ph": null,
+    "c": "medium",
+    "n": "Year from a 1923 review record and Dickson's own 1924 survey; the book was not read. Precursor because it predates the link with class field theory and local invariants.",
+    "ev": [
+     {
+      "c": "Review of Algebras and their Arithmetics by L. E. Dickson, 1923, University of Chicago Press",
+      "s": "Crossref 10.2307/3604667 (Mathematical Gazette)",
+      "u": "https://doi.org/10.2307/3604667",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Dickson, Algebras and their arithmetics, Bull. Amer. Math. Soc. 30 (1924) 247-257",
+      "s": "Crossref 10.1090/s0002-9904-1924-03895-6",
+      "u": "https://doi.org/10.1090/s0002-9904-1924-03895-6",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -122968,7 +123102,7 @@
     ]
    },
    {
-    "r": "first_application",
+    "r": "key_development",
     "y": 1929,
     "ye": null,
     "p": "year",
@@ -122977,10 +123111,10 @@
     "pe": [
      "Richard Brauer"
     ],
-    "d": "Brauer classified central simple algebras up to equivalence, starting the Brauer group, the purposeful use on the division-algebra classification problem.",
+    "d": "Brauer classified central simple algebras up to equivalence, starting the Brauer group.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Role changed from first_application: the paper classifies division algebras and starts the Brauer group but does not itself apply number-theoretic methods. Crossref: Math. Z. 30, 79-107.",
     "ev": [
      {
       "c": "Crossref lists Brauer 1929 Math. Z. paper with this title",
@@ -123026,6 +123160,29 @@
     ]
    },
    {
+    "r": "first_application",
+    "y": 1931,
+    "ye": null,
+    "p": "year",
+    "l": "Hasse's p-adic division algebras and the arithmetic of hypercomplex systems",
+    "w": "H. Hasse, Ueber p-adische Schiefkörper und ihre Bedeutung für die Arithmetik hyperkomplexer Zahlsysteme, Math. Ann. 104, 495-534, 1931",
+    "pe": [
+     "Helmut Hasse"
+    ],
+    "d": "Hasse applies p-adic local theory from number theory to division algebras, the purposeful transfer the event describes.",
+    "ph": null,
+    "c": "medium",
+    "n": "Role assigned from the title and standard accounts; the paper was not read. Hasse's 1932 Trans. AMS paper on cyclic algebras over number fields (Crossref 10.1090/s0002-9947-1932-1501634-5) continues it.",
+    "ev": [
+     {
+      "c": "Crossref record: Hasse, Math. Ann. 104, 495-534, 1931, title names p-adic division algebras and the arithmetic of hypercomplex systems",
+      "s": "Crossref 10.1007/bf01457954",
+      "u": "https://doi.org/10.1007/bf01457954",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
     "r": "key_development",
     "y": 1932,
     "ye": null,
@@ -123039,8 +123196,8 @@
     ],
     "d": "The main theorem of the theory of central simple algebras over number fields tied the algebras to local arithmetic.",
     "ph": null,
-    "c": "medium",
-    "n": "Co-authorship as stated by Wikipedia; the Crelle record carries Brauer's name.",
+    "c": "high",
+    "n": "Crossref lists the Crelle paper (167, 399-404) under Brauer, Hasse and Noether. Albert and Hasse's Trans. AMS 34 (1932) 722-726 on division algebras over number fields (Crossref 10.1090/s0002-9947-1932-1501659-x) is a companion, not separate here.",
     "ev": [
      {
       "c": "Crossref lists Brauer 1932 Crelle paper with the Hauptsatz title",
@@ -123060,10 +123217,10 @@
     "pe": [
      "Max Deuring"
     ],
-    "d": "Deuring's monograph was the first systematic book on the theory of algebras of this kind.",
+    "d": "Deuring's monograph is a systematic account of algebras including the Brauer-Hasse-Noether arithmetic.",
     "ph": null,
     "c": "medium",
-    "n": "Systematic-treatment role assigned from the Ergebnisse series; Albert's 1939 AMS Colloquium 'Structure of Algebras' (DOI 10.1090/coll/024) is a later monograph and is not counted separately.",
+    "n": "Systematic-treatment role assigned from the Ergebnisse series. Dickson's 1923 book on the arithmetic of algebras is earlier, so this is not claimed as the first book on algebras. Albert's 1939 AMS Colloquium 'Structure of Algebras' is later and not counted.",
     "ev": [
      {
       "c": "Crossref lists Deuring 1935 Algebren (Ergebnisse) volume",
@@ -123136,9 +123293,23 @@
       "w": "Modules and representation theory of hypercomplex systems."
      }
     ]
+   },
+   {
+    "name": "Helmut Hasse",
+    "role": "developer",
+    "life": "1898-1979",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hasse/",
+    "works": [
+     {
+      "c": "H. Hasse, Ueber p-adische Schiefkörper und ihre Bedeutung für die Arithmetik hyperkomplexer Zahlsysteme, Math. Ann. 104, 1931",
+      "y": 1931,
+      "u": "https://doi.org/10.1007/bf01457954",
+      "w": "p-adic division algebras and the arithmetic of algebras."
+     }
+    ]
    }
   ],
-  "notes": "Input summary is right that the field joins algebra, representation theory and arithmetic. Wedderburn 1906 is precursor only. The Artin 1927 and Noether 1929 items are different strands (chain conditions vs modules), both marked key_development. Brauer 1932 with Hasse and Noether is the Hauptsatz paper; the joint authorship is as stated by Wikipedia. Noncommutative algebra as a named field was not dated (no institution or naming milestone). Albert's 1939 book is noted but not counted. zbMATH blocked.",
+  "notes": "Wedderburn's 1908 structure theorem is the first statement of the algebra side; Molien (1892/93, over C) and Dickson (1923) are earlier precursors outside the arithmetic strand. The first application was reassigned from Brauer 1929 to Hasse 1931 (p-adic methods on division algebras), from the title and standard accounts, not the text. The Artin 1927 and Noether 1929 items are different strands (chain conditions vs modules). Brauer, Hasse and Noether are the authors of the 1932 Hauptsatz paper per Crossref. Noncommutative algebra as a named field was not dated. zbMATH was not reachable.",
   "catalogueDates": [
    [
     1927,
@@ -127514,8 +127685,11 @@
   "product": "non-commutative algebra",
   "why": "Hamilton's decade-long search for a multiplication on three-dimensional space ended in the four-dimensional non-commutative quaternions, the first prominent non-commutative number system, taken up in physics by Tait.",
   "cat": "Open harvest",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "institutional": "B"
+  },
   "shown": {
    "conceptual": {
     "y": 1844,
@@ -127555,14 +127729,14 @@
     "ye": null,
     "p": "year",
     "l": "Hamilton treats complex numbers as ordered pairs",
-    "w": "W. R. Hamilton, algebraic couples, read to the Royal Irish Academy 1833",
+    "w": "W. R. Hamilton, algebraic couples, read to the Royal Irish Academy 4 November 1833; printed Trans. Royal Irish Academy 17 (1837)",
     "pe": [
      "William Rowan Hamilton"
     ],
     "d": "Hamilton presents complex numbers as a two-dimensional system over the reals, then spends about ten years seeking a three-dimensional analogue.",
     "ph": "Algebraic couples and the search for triplets",
     "c": "medium",
-    "n": "Year is the date of presentation; the printed version appeared later (believed 1837, not verified in a record).",
+    "n": "Year is the date of the reading; the printed memoir is the 1837 milestone of event P432.",
     "ev": [
      {
       "c": "Topic page says he presented this to the Irish Academy in 1833 and then tried to define a product on 3-space.",
@@ -127585,7 +127759,7 @@
     "d": "Hamilton realises that the product on triples fails but a four-dimensional non-commutative system works, and records i^2=j^2=k^2=ijk=-1.",
     "ph": "Quaternions announced and developed",
     "c": "high",
-    "n": "Counts as precursor by the schema's public-versus-private rule; Gauss' unpublished 1819 work (published 1900) is noted in the Wikipedia article.",
+    "n": "Counts as precursor by the schema's public-versus-private rule: the discovery of 16 October 1843 was private; Hamilton communicated it to the Royal Irish Academy on 13 November 1843 (see the first statement). Gauss' unpublished 1819 work (published 1900) is noted in the Wikipedia article.",
     "ev": [
      {
       "c": "Biography dates the discovery to 16 October 1843 and calls quaternions the first non-commutative algebra studied.",
@@ -127614,7 +127788,7 @@
     "d": "Hamilton publishes the first part of a series presenting the quaternion system in print.",
     "ph": "Quaternions announced and developed",
     "c": "medium",
-    "n": "Hamilton also communicated the discovery to the Royal Irish Academy in November 1843 (printed in its Proceedings); that earlier record was not checked, so 1844 is the earliest verified print.",
+    "n": "Hamilton communicated the discovery to the Royal Irish Academy on 13 November 1843; that paper, 'On a new species of imaginary quantities connected with a theory of quaternions', is printed in Proc. Royal Irish Academy 2 (1844) 424-434 (Wilkins/TCD transcription). Both printings are 1844. The Phil. Mag. first part has a bibliographic record (Crossref, July 1844) and anchors the year; the print date of the Proceedings within 1844 was not established, so their order is open.",
     "ev": [
      {
       "c": "Crossref gives vol. 25, pp. 10-13, dated July 1844, for the first part; later parts have DOIs 10.1080/14786444408644984 and 10.1080/14786444408645047.",
@@ -127626,6 +127800,12 @@
       "c": "Article says quaternions were introduced by Hamilton in 1843 (announcement) with the series following.",
       "s": "English Wikipedia: Quaternion",
       "u": "https://en.wikipedia.org/wiki/Quaternion",
+      "k": "history_page"
+     },
+     {
+      "c": "Transcription of the Proc. R. Irish Acad. 2 (1844) 424-434 paper, communicated 13 November 1843, which calls the new quantities quaternions",
+      "s": "Wilkins, Trinity College Dublin History of Mathematics archive",
+      "u": "https://www.maths.tcd.ie/pub/HistMath/People/Hamilton/Quatern1/",
       "k": "history_page"
      }
     ]
@@ -127643,13 +127823,19 @@
     "d": "The new system is named quaternions in the title of the Philosophical Magazine series.",
     "ph": null,
     "c": "medium",
-    "n": "Same paper as first_statement; counted under naming because the name appears in the title. Hamilton's own earlier use in 1843 is not documented in sources read.",
+    "n": "Same paper as first_statement; counted under naming because the name appears in the title. The Royal Irish Academy paper communicated in November 1843 (printed 1844) already uses 'quaternions' in its text and title.",
     "ev": [
      {
       "c": "Title of the first part includes the term quaternions.",
       "s": "Crossref record 10.1080/14786444408644923",
       "u": "https://api.crossref.org/works/10.1080/14786444408644923",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Title of the Proc. R. Irish Acad. 2 (1844) paper contains 'a theory of Quaternions'",
+      "s": "Wilkins, Trinity College Dublin History of Mathematics archive",
+      "u": "https://www.maths.tcd.ie/pub/HistMath/People/Hamilton/Quatern1/",
+      "k": "history_page"
      }
     ]
    },
@@ -127659,7 +127845,7 @@
     "ye": null,
     "p": "year",
     "l": "Lectures on Quaternions",
-    "w": "W. R. Hamilton, Lectures on Quaternions, Dublin, 1853",
+    "w": "W. R. Hamilton, Lectures on Quaternions, Dublin: Hodges and Smith, 1853",
     "pe": [
      "William Rowan Hamilton"
     ],
@@ -127695,7 +127881,7 @@
     "d": "Tait becomes the main proponent, teaching quaternion methods for geometry and physics.",
     "ph": "Quaternions in physics",
     "c": "medium",
-    "n": "MacTutor cites 1873; the 1867 first edition date comes from the archive catalogue.",
+    "n": "1867 is the first edition (Clarendon Press, Oxford; Cambridge library record). MacTutor cites 1873, the second edition.",
     "ev": [
      {
       "c": "Archive catalogue gives 1867 for the first edition scan.",
@@ -127768,7 +127954,7 @@
     ]
    }
   ],
-  "notes": "Sources read: Wikipedia 'Quaternion' (raw), MacTutor biography of Hamilton and topic pages Abstract linear spaces and Ring theory. Tait's biography page was not fetched, so his biographyUrl points to the Hamilton page. Not resolved: exact date and venue of Hamilton's first public statement (Royal Irish Academy 13 Nov 1843 versus Phil Mag 1844); Graves' octonions (1843-45) not examined; Frobenius' classification (1878) is background only. MacTutor topic page on Quaternions (HistTopics/Quaternions) is a stub and was not used.",
+  "notes": "The discovery of 16 October 1843 is private and kept as a precursor; the earliest prints are the Royal Irish Academy Proceedings paper (communicated 13 November 1843) and the Philosophical Magazine series, both 1844, so the year is firm while their order is open. No first application was found, so there is no methodological date. Graves' octonions (1843-45) and Cayley's 1845 note were not examined; Frobenius' classification (1878) is background.",
   "catalogueDates": [
    [
     1833,
@@ -128805,14 +128991,14 @@
     "ye": null,
     "p": "year",
     "l": "Wessel's memoir on the analytic representation of direction",
-    "w": "Caspar Wessel, Om directionens analytiske betegning, Nye Samling af det Kongelige Danske Videnskabernes Selskabs Skrifter 5, 1799",
+    "w": "Caspar Wessel, Om Directionens analytiske Betegning, et Forsog, anvendt fornemmelig til plane og sphæriske Polygoners Oplosning, Nye Samling af det Kongelige Danske Videnskabernes Selskabs Skrifter 5, 469-518, 1799",
     "pe": [
      "Caspar Wessel"
     ],
     "d": "A Norwegian surveyor published a geometric way to add and multiply directed line segments, equivalent to the complex plane, which went unnoticed for about a century.",
     "ph": "Geometric representation (Wessel, Argand, Gauss)",
     "c": "medium",
-    "n": "No Crossref/archive.org record located for the 1799 volume; year rests on three history pages that agree. Memoir read 1797, printed 1799; publication year used.",
+    "n": "No Crossref/archive.org record located for the 1799 volume; year rests on three history pages that agree and the title and pages come from the Wikipedia reference list. Memoir read 1797, printed 1799; publication year used.",
     "ev": [
      {
       "c": "MacTutor says the geometric interpretation was first published by Wessel: paper submitted to the Danish Academy 10 March 1797, printed 1799, rediscovered 1895.",
@@ -128869,14 +129055,14 @@
     "ye": null,
     "p": "year",
     "l": "Gauss publishes his theory of complex numbers as plane points",
-    "w": "Carl Friedrich Gauss, Theoria residuorum biquadraticorum, commentatio secunda, Gottingische gelehrte Anzeigen 1831",
+    "w": "C. F. Gauss, announcement of the Theoria residuorum biquadraticorum, commentatio secunda, Göttingische gelehrte Anzeigen 1831",
     "pe": [
      "Carl Friedrich Gauss"
     ],
     "d": "Gauss overcame earlier doubts, presented complex numbers as points of the plane and fixed much of the modern notation and vocabulary.",
     "ph": "Geometric representation (Wessel, Argand, Gauss)",
     "c": "medium",
-    "n": "Work citation from memory; year 1831 is from Wikipedia. No bibliographic record checked.",
+    "n": "Year 1831 is from Wikipedia. The Commentatio secunda itself is printed in the Göttingen Commentationes (vol. 7, 1832, believed); not checked. No bibliographic record found.",
     "ev": [
      {
       "c": "Wikipedia says Gauss published his treatment of complex numbers as plane points in 1831, largely fixing modern notation and terminology.",
@@ -128942,7 +129128,7 @@
   "people": [
    {
     "name": "Caspar Wessel",
-    "role": "popularizer",
+    "role": "originator",
     "life": "1745-1818",
     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Wessel/",
     "works": [
@@ -128956,7 +129142,7 @@
    },
    {
     "name": "Jean-Robert Argand",
-    "role": "originator",
+    "role": "popularizer",
     "life": "fl. 1806 (standard dates doubtful)",
     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Argand/",
     "works": [
@@ -128997,7 +129183,7 @@
     ]
    }
   ],
-  "notes": "The event bundles a geometric stage (Wessel 1799, Argand 1806, Gauss 1831) and Hamilton's algebraic couples (1833 reading, 1837 printing). Main gaps: the 1799 Wessel volume rests on history pages without a bibliographic record, and the 1837 Hamilton item carries a placeholder date in the archive record.",
+  "notes": "The event bundles a geometric stage (Wessel 1799, Argand 1806, Gauss 1831) and Hamilton's algebraic couples (1833 reading, 1837 printing). Main gaps: the 1799 Wessel volume rests on history pages without a bibliographic record, and the 1837 Hamilton item carries a placeholder date in the archive record. Review pass: Wessel's title and pages were added from Wikipedia; Gauss's citation was corrected to the 1831 announcement. Forerunners sometimes cited (Kühn in the 1750s, Buée 1806) were not found in a record and not examined.",
   "catalogueDates": [
    [
     1797,
