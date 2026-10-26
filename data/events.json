@@ -5472,7 +5472,7 @@
     "basis": "first application"
    },
    "institutional": {
-    "y": 1910,
+    "y": 1903,
     "basis": "naming, textbook or institution"
    }
   },
@@ -5487,7 +5487,7 @@
   "derived": {
    "conceptual": 1887,
    "methodological": 1890,
-   "institutional": 1910
+   "institutional": 1903
   },
   "phases": [
    "Functionals and functions of lines",
@@ -5502,14 +5502,14 @@
     "ye": null,
     "p": "year",
     "l": "Volterra introduces functions that depend on other functions",
-    "w": "Volterra, Sopra le funzioni che dipendono da altre funzioni, Rend. Accad. Lincei (4), 1887",
+    "w": "V. Volterra, Sopra le funzioni che dipendono da altre funzioni, Rend. Accad. Lincei (4) 3 (1887), notes I-III",
     "pe": [
      "Vito Volterra"
     ],
     "d": "Volterra's note defined quantities depending on a whole function, the notion later called a functional.",
     "ph": "Functionals and functions of lines",
     "c": "high",
-    "n": "MacTutor says Volterra conceived the idea in 1883 (a private precursor, not dated by a publication).",
+    "n": "MacTutor says Volterra conceived the idea in 1883 (a private precursor, not dated by a publication). Review R2: the 1887 date is confirmed by zbMATH, the Opere matematiche listing and a Springer citation (Lincei vol. III, second semester 1887); page numbers were not confirmed and are omitted. The notes were not read; the content (a quantity depending on a whole function) rests on Wikipedia and Miller's Earliest Uses (Volterra's term 'functions of other functions'). No earlier public use found.",
     "ev": [
      {
       "c": "zbMATH lists a 1887 Volterra paper on functions depending on other functions in the Lincei Rendiconti.",
@@ -5522,6 +5522,12 @@
       "s": "Wikipedia: Functional analysis",
       "u": "https://en.wikipedia.org/wiki/Functional_analysis",
       "k": "history_page"
+     },
+     {
+      "c": "Volterra's Opere matematiche (Polish Academy digitisation) lists 'Sopra le funzioni che dipendono da altre funzioni', 1887, as three notes (Nota I-III); a Springer reference cites Rendiconti Lincei III (1887), second semester, fascicles 4, 6, 7.",
+      "s": "Opere matematiche di Vito Volterra, rcin.org.pl",
+      "u": "https://rcin.org.pl/dlibra/publication/181807/edition/147686",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -5531,20 +5537,26 @@
     "ye": null,
     "p": "year",
     "l": "Volterra's functional calculus applied to Hamilton-Jacobi theory",
-    "w": "Volterra, functional calculus papers, c. 1890",
+    "w": "V. Volterra, Sopra una estensione della teoria Jacobi-Hamilton del calcolo delle variazioni, Rend. Accad. Lincei (4) 6 (1890), 1st semester, pp. 127-138",
     "pe": [
      "Vito Volterra"
     ],
-    "d": "Volterra used functionals to extend the Hamilton-Jacobi integration theory of dynamics to other problems of mathematical physics.",
+    "d": "Volterra extended the Jacobi-Hamilton theory of the calculus of variations to multiple integrals, one of the first uses of his functional calculus on a target problem.",
     "ph": "Functionals and functions of lines",
     "c": "medium",
-    "n": "Year taken from a biography; the specific 1890 paper was not identified.",
+    "n": "Review R2: the 1890 paper was identified (title and Rendiconti reference from the Opere matematiche scan; the OCR volume reads 'VI1', taken as vol. 6 of series 4, 1890; pages 127-138 from the same scan). Its text was only skimmed through a search snippet, so the claim that it is the earliest application, and the Hamilton-Jacobi wording from MacTutor, remain medium.",
     "ev": [
      {
       "c": "MacTutor states that in 1890 he showed his functional calculus extends the Hamilton-Jacobi theory to other physics problems.",
       "s": "MacTutor Biographies/Volterra",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Volterra/",
       "k": "history_page"
+     },
+     {
+      "c": "The reprint's introduction says no attempt had been made to extend the Jacobi-Hamilton theory to variations of multiple integrals; it is dated 1890.",
+      "s": "Opere matematiche di Vito Volterra, vol. on 1890 notes (rcin.org.pl)",
+      "u": "https://rcin.org.pl/dlibra/publication/185769/edition/152798/todo",
+      "k": "primary_text"
      }
     ]
    },
@@ -5573,6 +5585,64 @@
       "c": "MacTutor remembers Fredholm for integral equations and spectral theory.",
       "s": "MacTutor Biographies/Fredholm",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Fredholm/",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "naming",
+    "y": 1903,
+    "ye": null,
+    "p": "year",
+    "l": "Hadamard's note 'Sur les operations fonctionnelles' (source of the noun 'functional')",
+    "w": "J. Hadamard, Sur les operations fonctionnelles, C. R. Acad. Sci. Paris 136 (1903), 351-354",
+    "pe": [
+     "Jacques Hadamard"
+    ],
+    "d": "Frechet, writing in 1906, ascribes the noun 'fonctionnelle' to this short note, earlier than the 1910 book usually credited.",
+    "ph": "Functionals and functions of lines",
+    "c": "medium",
+    "n": "The note itself was not read and is in no Crossref record, so the use of the word in the text is taken from Frechet's attribution as reported by Miller (MacTutor); the page range comes from a bibliography of Frechet's works found through search. This names the object (functional), not the field.",
+    "ev": [
+     {
+      "c": "Miller's entry says the noun 'functional' is generally attributed to Hadamard and that Frechet (Rend. Circ. Mat. Palermo 22, 1906, p. 38) ascribes the word to Hadamard's 'Sur les operations fonctionnelles'.",
+      "s": "MacTutor, Earliest Uses of Some of the Words of Mathematics (F), 'functional'",
+      "u": "https://mathshistory.st-andrews.ac.uk/Miller/mathword/f/",
+      "k": "history_page"
+     },
+     {
+      "c": "Frechet's 1906 paper (the attributing source) has a Crossref record: Rend. Circ. Mat. Palermo 22, pp. 1-72.",
+      "s": "Crossref 10.1007/BF03018603",
+      "u": "https://doi.org/10.1007/BF03018603",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1904,
+    "ye": null,
+    "p": "year",
+    "l": "Hilbert's first communication on linear integral equations",
+    "w": "D. Hilbert, Grundzuege einer allgemeinen Theorie der linearen Integralgleichungen (Erste Mitteilung), Nachr. Ges. Wiss. Goettingen, Math.-Phys. Kl. 1904, 49-91",
+    "pe": [
+     "David Hilbert"
+    ],
+    "d": "Hilbert began his series on integral equations, extending Fredholm's theory to eigenfunction expansions and, in later communications, to infinitely many variables.",
+    "ph": "Integral equations and Hilbert space",
+    "c": "medium",
+    "n": "EuDML record confirms title, journal, year and pages (a Czech survey gives different pages, 41-49, presented 5 March 1904). The text was not read; the content description is from the keywords and later accounts (Hilbert space came from this work, per Miller). The fourth communication (1906) and the 1912 book are listed under the person.",
+    "ev": [
+     {
+      "c": "EuDML record of the first communication, Goettingen Nachrichten 1904, pp. 49-91.",
+      "s": "EuDML doc 58572",
+      "u": "https://eudml.org/doc/58572",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Miller: the study of function spaces grew out of Hilbert's work on integral equations in the first decade of the century.",
+      "s": "MacTutor, Earliest Uses (F, H)",
+      "u": "https://mathshistory.st-andrews.ac.uk/Miller/mathword/f/",
       "k": "history_page"
      }
     ]
@@ -5607,19 +5677,19 @@
     ]
    },
    {
-    "r": "naming",
+    "r": "key_development",
     "y": 1910,
     "ye": null,
     "p": "year",
-    "l": "Hadamard's lectures introduce the noun 'functional'",
+    "l": "Hadamard's Lecons sur le calcul des variations",
     "w": "Hadamard, Lecons sur le calcul des variations, 1910",
     "pe": [
      "Jacques Hadamard"
     ],
-    "d": "Hadamard's book fixed the word 'functional' for a function of a function, replacing Volterra's own terminology.",
+    "d": "Hadamard's book recast the calculus of variations around the functional, spreading the noun and the Volterra-Hadamard viewpoint.",
     "ph": "Functionals and functions of lines",
     "c": "medium",
-    "n": "This names the object (functional), not the field; see the Levy 1922 milestone for the field's name. MacTutor and Wikipedia both say Hadamard introduced the word in the 1910 book; a Hadamard note of 1903 on functional operations (not in Crossref) might use the word earlier, so the first-use claim is not closed.",
+    "n": "Review R2: reclassified from naming. The noun 'fonctionnelle' is traced to Hadamard's 1903 note (see the 1903 naming milestone), so this book is where the usage was spread, not coined; MacTutor and Wikipedia date the word to the book. Only the first volume (1910) is cited.",
     "ev": [
      {
       "c": "Internet Archive catalogue record for the 1910 first volume, collected by Frechet.",
@@ -5628,13 +5698,13 @@
       "k": "bibliographic_record"
      },
      {
-      "c": "MacTutor says he introduced the word functional in this 1910 book.",
+      "c": "MacTutor dates Hadamard's introduction of the word functional to this 1910 book (Miller's Earliest Uses traces it to his 1903 note instead).",
       "s": "MacTutor Biographies/Hadamard",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Hadamard/",
       "k": "history_page"
      },
      {
-      "c": "Wikipedia dates the noun usage to Hadamard's 1910 book.",
+      "c": "Wikipedia dates the noun usage to Hadamard's 1910 book (earlier attribution to 1903 is in the Miller entry).",
       "s": "Wikipedia: Functional analysis",
       "u": "https://en.wikipedia.org/wiki/Functional_analysis",
       "k": "history_page"
@@ -5643,6 +5713,29 @@
       "c": "Open Library lists Hadamard, Lecons sur le calcul des variations, 1910.",
       "s": "Open Library",
       "u": "https://openlibrary.org/works/OL1209485W",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1910,
+    "ye": null,
+    "p": "year",
+    "l": "Riesz on systems of integrable functions",
+    "w": "F. Riesz, Untersuchungen ueber Systeme integrierbarer Funktionen, Math. Ann. 69 (1910), 449-497",
+    "pe": [
+     "Frigyes Riesz"
+    ],
+    "d": "Riesz studied the spaces of p-th power integrable functions and their norms, a main example of the abstract spaces of the field.",
+    "ph": "Abstract (metric, normed) spaces",
+    "c": "medium",
+    "n": "Crossref confirms the paper (Math. Ann. 69, pp. 449-497, issued 1910); the L^p content is from general history and was not checked in the text.",
+    "ev": [
+     {
+      "c": "Crossref record: Untersuchungen ueber Systeme integrierbarer Funktionen, Mathematische Annalen 69, pp. 449-497, 1910.",
+      "s": "Crossref 10.1007/BF01457637",
+      "u": "https://doi.org/10.1007/BF01457637",
       "k": "bibliographic_record"
      }
     ]
@@ -5688,8 +5781,8 @@
     ],
     "d": "The earliest title found that uses the phrase for the field, a course reflecting Hadamard's school of nonlinear functionals.",
     "ph": null,
-    "c": "low",
-    "n": "Earliest title use of the phrase was not established; 1922 is the earliest found in a zbMATH search, so earlier uses are possible.",
+    "c": "medium",
+    "n": "Review R2: Miller's Earliest Uses (MacTutor) independently dates the term 'functional analysis' to the title of Levy's Lecons d'analyse fonctionnelle (1922), written about functionals; the Open Library and zbMATH records agree on 1922. No earlier title use was found, but the search was not exhaustive.",
     "ev": [
      {
       "c": "zbMATH record for Levy's Lecons d'analyse fonctionnelle, 1922.",
@@ -5702,6 +5795,12 @@
       "s": "Open Library",
       "u": "https://openlibrary.org/works/OL1332336W",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Miller: the term functional analysis appears in the title of Paul Levy's Lecons de l'analyse fonctionelle (1922); the English term was established in the 1930s.",
+      "s": "MacTutor, Earliest Uses of Some of the Words of Mathematics (F)",
+      "u": "https://mathshistory.st-andrews.ac.uk/Miller/mathword/f/",
+      "k": "history_page"
      }
     ]
    },
@@ -5769,10 +5868,16 @@
     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hadamard/",
     "works": [
      {
+      "c": "Sur les operations fonctionnelles, C. R. Acad. Sci. Paris 136 (1903), 351-354",
+      "y": 1903,
+      "u": "https://mathshistory.st-andrews.ac.uk/Miller/mathword/f/",
+      "w": "Source of the noun functional, per Frechet 1906."
+     },
+     {
       "c": "Lecons sur le calcul des variations, 1910",
       "y": 1910,
       "u": "https://archive.org/details/leonssurlecalc00hadauoft",
-      "w": "Introduced the word functional."
+      "w": "Spread the word functional and the functional viewpoint in the calculus of variations."
      }
     ]
    },
@@ -5811,6 +5916,12 @@
     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/",
     "works": [
      {
+      "c": "Grundzuege ... (Erste Mitteilung), Nachr. Ges. Wiss. Goettingen 1904, 49-91",
+      "y": 1904,
+      "u": "https://eudml.org/doc/58572",
+      "w": "Opened the series on integral equations."
+     },
+     {
       "c": "Grundzuege einer allgemeinen Theorie der linearen Integralgleichungen (communications from 1904, book 1912)",
       "y": 1910,
       "u": "https://zbmath.org/2633627",
@@ -5837,9 +5948,23 @@
       "w": "First monograph."
      }
     ]
+   },
+   {
+    "name": "Frigyes Riesz",
+    "role": "developer",
+    "life": "1880-1956",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Riesz_Frigyes/",
+    "works": [
+     {
+      "c": "Untersuchungen ueber Systeme integrierbarer Funktionen, Math. Ann. 69 (1910)",
+      "y": 1910,
+      "u": "https://doi.org/10.1007/BF01457637",
+      "w": "L^p spaces."
+     }
+    ]
    }
   ],
-  "notes": "Sources: Wikipedia Functional_analysis; MacTutor biographies of Volterra, Hadamard, Frechet, Fredholm, Banach, Hilbert. Hilbert's integral-equation communications began in 1904 (not independently checked here); only the 1906 fourth communication and the 1910/1912 book were confirmed in zbMATH, so it is kept in people, not milestones. Riesz 1910 (Math. Ann. 69, Crossref 10.1007/BF01457637, L^p spaces) and Hadamard's 1903 note on functional operations (not found in zbMATH) were left out. Summary says 'fusion of analysis, algebra, topology'; the sources support abstract-space axiomatics (Frechet) rather than a single fusion date. Volterra priority: 1887 (publication) vs 1883 (MacTutor's idea). No MSC/journal institution milestone attempted (MSC 46 not verified). Review A1: Crossref confirms Fredholm 1903, Frechet 1906, Banach 1922 and Riesz 1910 (Math. Ann. 69); Open Library confirms Hadamard 1910, Levy 1922 and Banach 1932. Still open: the Volterra 1890 first_application has no identified paper (year from MacTutor), Hilbert's 1904-1910 communications and Riesz 1910 are absent from the milestones, and an earlier Hadamard use of 'functional' is not excluded, so the record stays source-first.",
+  "notes": "Sources: Wikipedia Functional_analysis; MacTutor biographies of Volterra, Hadamard, Frechet, Fredholm, Banach, Hilbert. Hilbert's integral-equation communications began in 1904 (not independently checked here); only the 1906 fourth communication and the 1910/1912 book were confirmed in zbMATH, so it is kept in people, not milestones. Riesz 1910 (Math. Ann. 69, Crossref 10.1007/BF01457637, L^p spaces) and Hadamard's 1903 note on functional operations (not found in zbMATH) were left out. Summary says 'fusion of analysis, algebra, topology'; the sources support abstract-space axiomatics (Frechet) rather than a single fusion date. Volterra priority: 1887 (publication) vs 1883 (MacTutor's idea). No MSC/journal institution milestone attempted (MSC 46 not verified). Review A1: Crossref confirms Fredholm 1903, Frechet 1906, Banach 1922 and Riesz 1910 (Math. Ann. 69); Open Library confirms Hadamard 1910, Levy 1922 and Banach 1932. Still open: the Volterra 1890 first_application has no identified paper (year from MacTutor), Hilbert's 1904-1910 communications and Riesz 1910 are absent from the milestones, and an earlier Hadamard use of 'functional' is not excluded, so the record stays source-first. Review R2: Volterra 1887 confirmed (zbMATH, Opere matematiche, Springer citation), the 1890 application paper identified, Hilbert 1904 (EuDML) and Riesz 1910 (Crossref) added, and the noun 'functional' traced to Hadamard's 1903 note via Frechet 1906 (Miller/MacTutor) rather than the 1910 book, which moves the institutional date to 1903. Not read: the Volterra, Hadamard and Hilbert texts; priority claims rest on bibliographic records and MacTutor.",
   "catalogueDates": [
    [
     1887,
@@ -45654,7 +45779,7 @@
     {
      "p": "P460",
      "f": "logarithms",
-     "d": 88,
+     "d": 90,
      "t": "feeds"
     },
     {
@@ -47717,7 +47842,7 @@
     {
      "p": "P460",
      "f": "trigonometry",
-     "d": 20,
+     "d": 18,
      "t": "context"
     },
     {
@@ -50288,7 +50413,7 @@
     {
      "p": "P460",
      "f": "trigonometry",
-     "d": 12,
+     "d": 10,
      "t": "context"
     }
    ],
@@ -58269,6 +58394,12 @@
       "s": "Wikipedia, Indian mathematics (Jain section)",
       "u": "https://en.wikipedia.org/wiki/Indian_mathematics",
       "k": "history_page"
+     },
+     {
+      "c": "Wikipedia History of combinatorics: the Bhagavati Sutra has the first mention of a combinatorics problem (selecting one, two, three, ... tastes from six) and of the choose function; Mahavira generalized its ideas in 850 AD. No date for the sutra is given there.",
+      "s": "Wikipedia, History of combinatorics",
+      "u": "https://en.wikipedia.org/wiki/History_of_combinatorics",
+      "k": "history_page"
      }
     ]
    },
@@ -58285,12 +58416,18 @@
     "d": "Pingala systematically lists and counts all light/heavy syllable patterns of a given length, with a triangular array of binomial counts, using combinatorics on a purposeful target (metre).",
     "ph": "Pingala and enumerative prosody",
     "c": "low",
-    "n": "Date given as c. 3rd or 2nd century BCE; may be parallel to or later than the Jaina canon, so ordering against the Bhagavati Sutra is uncertain. Wikipedia is the only source read; not independently checked against Weber/other editions. The MacTutor Jaina mathematics page does not mention Pingala.",
+    "n": "Date given as c. 3rd or 2nd century BCE; may be parallel to or later than the Jaina canon, so ordering against the Bhagavati Sutra is uncertain. Wikipedia is the only source read; not independently checked against Weber/other editions. The MacTutor Jaina mathematics page does not mention Pingala. Review R3: a second source dates Pingala to the second century BC and the date is described elsewhere as uncertain, so the start of the range (-300) is the earliest bound, not a point date. Pingala's work is Sanskrit prosody, not Jaina, so its role as first application of the Jaina counting rules is a catalogue convention.",
     "ev": [
      {
       "c": "Wikipedia Pingala: Chandahshastra enumerates metres by recursive generation of light/guru patterns, counts via binomial coefficients, meru-prastara triangle; Pingala c. 3rd-2nd century BCE",
       "s": "Wikipedia, Pingala",
       "u": "https://en.wikipedia.org/wiki/Pingala",
+      "k": "history_page"
+     },
+     {
+      "c": "Wikipedia History of combinatorics: Pingala is dated to the second century BC; the Chanda Sutra counts metres with n long and k short syllables, equivalent to binomial coefficients (citing Hall 2008, Kulkarni 2007).",
+      "s": "Wikipedia, History of combinatorics",
+      "u": "https://en.wikipedia.org/wiki/History_of_combinatorics",
       "k": "history_page"
      }
     ]
@@ -58407,7 +58544,7 @@
     ]
    }
   ],
-  "notes": "Disputed: relative order of the Jaina canon and Pingala; both are dated only to broad ranges. No naming milestone found: no indigenous term for the field could be dated (searched MacTutor Jaina page, Wikipedia Indian mathematics). Modern scholarship: Kusuba and Plofker, Indian combinatorics (Combinatorics: Ancient and Modern, 2013, doi 10.1093/acprof:oso/9780199656592.003.0002) and Mathematics in Ancient Jaina Literature (2022, doi 10.1142/9789811255502_0005) were found in Crossref but not read. Event summary bundles Jaina cosmology and infinities; those are outside the permutations story. No MSC milestone: 05A has no dated origin for this event. Re-checked MacTutor Jaina mathematics and Wikipedia Pingala in this pass: Bhagavati Sutra about 300 BC, Sthananga about the 2nd century BC, Pingala c. 3rd-2nd century BCE; the ranges overlap, so the order stays open. Review pass: MacTutor Jaina mathematics page re-read; it supports the Bhagabati (about 300 BC) and Sthananga (about the 2nd century BC) dates and rules, but not the Anuyogadvara factorial claim or Pingala. Kusuba and Plofker still unread.",
+  "notes": "Disputed: relative order of the Jaina canon and Pingala; both are dated only to broad ranges. No naming milestone found: no indigenous term for the field could be dated (searched MacTutor Jaina page, Wikipedia Indian mathematics). Modern scholarship: Kusuba and Plofker, Indian combinatorics (Combinatorics: Ancient and Modern, 2013, doi 10.1093/acprof:oso/9780199656592.003.0002) and Mathematics in Ancient Jaina Literature (2022, doi 10.1142/9789811255502_0005) were found in Crossref but not read. Event summary bundles Jaina cosmology and infinities; those are outside the permutations story. No MSC milestone: 05A has no dated origin for this event. Re-checked MacTutor Jaina mathematics and Wikipedia Pingala in this pass: Bhagavati Sutra about 300 BC, Sthananga about the 2nd century BC, Pingala c. 3rd-2nd century BCE; the ranges overlap, so the order stays open. Review pass: MacTutor Jaina mathematics page re-read; it supports the Bhagabati (about 300 BC) and Sthananga (about the 2nd century BC) dates and rules, but not the Anuyogadvara factorial claim or Pingala. Kusuba and Plofker still unread. Review R3: MacTutor Jaina mathematics re-read: Bhagabati about 300 BC (rules for 1, 2, 3 from n), Sthananga from about the 2nd century BC, Anuyoga Dwara Sutra cited for numerical speculation (2^96) and laws of indices but no factorial claim and no date; Pingala not mentioned. Kusuba, Plofker and Datta-Singh remain unread.",
   "catalogueDates": [
    "c. -300 to 200",
    null,
@@ -59401,7 +59538,7 @@
     {
      "p": "P460",
      "f": "trigonometry",
-     "d": 46,
+     "d": 44,
      "t": "context"
     },
     {
@@ -59849,7 +59986,7 @@
     "d": "MacTutor says only two printed papers (1700 and 1710) by Leibniz contain results on coefficient systems.",
     "ph": "Publication in Europe, 1700-1750",
     "c": "low",
-    "n": "Cannot be confirmed: MacTutor says only two printed Leibniz papers (1700 and 1710) contain coefficient-system results but names neither, and searches of Knobloch's chapter on Leibniz's elimination and determinants and of general sources did not identify them. The same page calls Maclaurin's 1748 treatise the first published results on determinants, so priority is contestable. Kept low as a placeholder, not as a verified first statement.",
+    "n": "Cannot be confirmed: MacTutor says only two printed Leibniz papers (1700 and 1710) contain coefficient-system results but names neither, and searches of Knobloch's chapter on Leibniz's elimination and determinants and of general sources did not identify them. The same page calls Maclaurin's 1748 treatise the first published results on determinants, so priority is contestable. Kept low as a placeholder, not as a verified first statement. Review R3: Muenster's Leibniz bibliography lists no Acta Eruditorum article of 1700 (only a letter dated Oct 1700, printed 1701), while the 1710 Miscellanea Berolinensia 1 contains 'Symbolismus memorabilis calculi Algebraici et Infinitesimalis' (pp. 160-165), the likely 1710 piece; neither item was read and Knobloch's chapter is paywalled, so the 1700 item remains unidentified. Knobloch's abstract notes that historians long doubted Leibniz treated determinants at all.",
     "ev": [
      {
       "c": "Only two publications (1700 and 1710) contain results on coefficient systems.",
@@ -60075,7 +60212,7 @@
     ]
    }
   ],
-  "notes": "Reviewed against MacTutor (Matrices and determinants), Crossref (Jacobi 1841 papers), zbMATH, and archive.org title searches. Changed: Jacobi 1841 is a key development, not the naming (Gauss 1801 coined the word; MacTutor), the consolidation is now Spottiswoode 1851 rather than Baltzer 1857, and the 1678 precursor is merged into the 1693 letter. The 1700 first statement is still unidentified and low confidence, and conflicts with MacTutor's remark about Maclaurin; Cauchy 1812 (modern sense of the term) is not entered; Seki's work is not independently sourced. Person without verified work: Seki Takakazu.",
+  "notes": "Reviewed against MacTutor (Matrices and determinants), Crossref (Jacobi 1841 papers), zbMATH, and archive.org title searches. Changed: Jacobi 1841 is a key development, not the naming (Gauss 1801 coined the word; MacTutor), the consolidation is now Spottiswoode 1851 rather than Baltzer 1857, and the 1678 precursor is merged into the 1693 letter. The 1700 first statement is still unidentified and low confidence, and conflicts with MacTutor's remark about Maclaurin; Cauchy 1812 (modern sense of the term) is not entered; Seki's work is not independently sourced. Person without verified work: Seki Takakazu. Review R3: MacTutor wording re-checked (1693 letter first European appearance; Maclaurin 1748 first published results; Cramer 1750; Gauss 1801 term; Cauchy 1812 modern sense; Seki 1683). Cauchy 1812 not entered as a milestone; Crossref was rate-limited so Cauchy and the 1810s were not bibliographically checked.",
   "catalogueDates": [
    "1678-1693",
    null,
@@ -60382,7 +60519,7 @@
     {
      "p": "P460",
      "f": "trigonometry and complex algebra",
-     "d": 107,
+     "d": 109,
      "t": "named"
     }
    ],
@@ -106410,6 +106547,12 @@
       "s": "Wikipedia, Lie group",
       "u": "https://en.wikipedia.org/wiki/Lie_group",
       "k": "history_page"
+     },
+     {
+      "c": "EuDML record 179698 confirms: Lie, Ueber Gruppen von Transformationen, Nachrichten Koenigl. Ges. Wiss. Goettingen 1874, 529-542.",
+      "s": "EuDML",
+      "u": "https://eudml.org/doc/179698",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -106478,7 +106621,7 @@
     "d": "Killing began the structural classification of the algebras of continuous groups, later completed by Cartan.",
     "ph": null,
     "c": "medium",
-    "n": "Part I is Math. Ann. 31 (1888); the Crossref record formerly cited (vol. 33, pp. 1-48) is part II, dated 1888 by Crossref and 1889 by zbMATH. Significance is stated from MacTutor/Wikipedia, the papers were not read.",
+    "n": "Part I is Math. Ann. 31 (1888); the Crossref record formerly cited (vol. 33, pp. 1-48) is part II, dated 1888 by Crossref and 1889 by zbMATH. Significance is stated from MacTutor/Wikipedia, the papers were not read. Review R3: MacTutor confirms the 1888-1890 four-part publication and the significance; the 1884 Braunsberg Programmschrift is an unpublished-in-journal precursor and was not entered (milestone limit).",
     "ev": [
      {
       "c": "Crossref: Killing, Die Zusammensetzung der stetigen endlichen Transformations-gruppen, Math. Ann. 31 (1888) 252-290 (part I).",
@@ -106496,6 +106639,12 @@
       "c": "Killing studied the Lie algebras of Lie groups independently; Cartan completed the classification of semisimple algebras in 1900.",
       "s": "MacTutor, Lie biography",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Lie/",
+      "k": "history_page"
+     },
+     {
+      "c": "MacTutor Killing: the classification theorems are in Die Zusammensetzung der stetigen endlichen Transformationsgruppen, four parts in Math. Annalen 1888-1890; the exceptional simple Lie algebras appear in parts III-IV; an 1884 Programmschrift (Braunsberg) already held the main ideas.",
+      "s": "MacTutor, Killing biography",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Killing/",
       "k": "history_page"
      }
     ]
@@ -106578,13 +106727,19 @@
     "d": "Weyl turned Lie groups into a central tool for representation theory and mathematical physics.",
     "ph": null,
     "c": "medium",
-    "n": "Significance from background knowledge; the paper was not read and no history page was checked for this claim.",
+    "n": "Part I is Math. Z. 23 (1925), II-III Math. Z. 24 (1926) per Crossref. Significance now supported by MacTutor, which dates the work 1924-26 and credits Hurwitz and Schur with the underlying ideas and Cartan with comparable work; the paper itself was not read.",
     "ev": [
      {
       "c": "Crossref: Math. Z. 23 (1925).",
       "s": "Crossref",
       "u": "https://doi.org/10.1007/bf01506234",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "MacTutor Weyl: his theory of representations of semisimple groups (1924-26) is described as very deep and as his own greatest achievement; Hurwitz and Schur introduced underlying ideas and Cartan's work on the topic is of comparable importance.",
+      "s": "MacTutor, Weyl biography",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Weyl/",
+      "k": "history_page"
      }
     ]
    }
@@ -106661,7 +106816,7 @@
     ]
    }
   ],
-  "notes": "Reviewed against Crossref (Math. Ann. 5, 16, 31, 33; Weyl; Tresse), zbMATH (Goettingen note 1874, Archiv 1876, Killing, Lie-Engel volumes), archive.org and MacTutor/Wikipedia. The first statement is now the 1874 Goettingen note; the 1876 Archiv paper is the first full account. The 1872 Math. Ann. contact-transformation paper (a precursor) was dropped to stay within eight milestones. 'Lie algebra' naming (Weyl, 1930s) not searched; no first_application dated (Lie's integration of ODEs by groups). Not read: Lie's 1874 note, Killing and Weyl papers, Tresse's thesis.",
+  "notes": "Reviewed against Crossref (Math. Ann. 5, 16, 31, 33; Weyl; Tresse), zbMATH (Goettingen note 1874, Archiv 1876, Killing, Lie-Engel volumes), archive.org and MacTutor/Wikipedia. The first statement is now the 1874 Goettingen note; the 1876 Archiv paper is the first full account. The 1872 Math. Ann. contact-transformation paper (a precursor) was dropped to stay within eight milestones. 'Lie algebra' naming (Weyl, 1930s) not searched; no first_application dated (Lie's integration of ODEs by groups). Not read: Lie's 1874 note, Killing and Weyl papers, Tresse's thesis. Review R3: Crossref re-confirmed Lie 1880, Weyl 1925 and Tresse 1894 (Acta Math. 18, thesis defended 1893); EuDML 179698 confirms the 1874 Goettingen note. Open: the 1874 note was not read (GDZ page not machine-readable), the name 'Lie algebra' is attributed to Weyl (1930s, Encyclopedia of Mathematics, secondary only) and was not entered, no first application.",
   "catalogueDates": [
    [
     1870,
@@ -130122,7 +130277,7 @@
     "basis": "first statement"
    },
    "methodological": {
-    "y": 1806,
+    "y": 1813,
     "basis": "earliest key development; no first application found"
    },
    "institutional": {
@@ -130131,9 +130286,9 @@
    }
   },
   "took": {
-   "y": 1806,
+   "y": 1813,
    "role": "key_development",
-   "label": "Argand's Essai on imaginary quantities in geometric constructions",
+   "label": "Argand's Essai printed in Gergonne's Annales",
    "same": false
   },
   "y": 1799,
@@ -130203,15 +130358,21 @@
       "s": "MacTutor, Caspar Wessel",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Wessel/",
       "k": "history_page"
+     },
+     {
+      "c": "MacTutor Wessel: presented to the Royal Danish Academy on 10 March 1797, published 1799 in its Memoires, unnoticed until 1895 (Juel); Lie republished it that year and Zeuthen's French translation appeared 1897.",
+      "s": "MacTutor, Caspar Wessel",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Wessel/",
+      "k": "history_page"
      }
     ]
    },
    {
-    "r": "key_development",
+    "r": "precursor",
     "y": 1806,
     "ye": null,
     "p": "year",
-    "l": "Argand's Essai on imaginary quantities in geometric constructions",
+    "l": "Argand's Essai, small private printing",
     "w": "Jean-Robert Argand, Essai sur une manière de représenter les quantités imaginaires dans les constructions géométriques, Paris, 1806 (small private printing; 2nd ed. Hoüel 1874)",
     "pe": [
      "Jean-Robert Argand"
@@ -130219,7 +130380,7 @@
     "d": "Argand independently gave the rotation-by-90-degrees reading of i and the modulus, and his name became attached to the diagram.",
     "ph": "Geometric representation (Wessel, Argand, Gauss)",
     "c": "medium",
-    "n": "Whether the 1806 memoir was properly published is uncertain per MacTutor; also the standard biography of Argand is doubted.",
+    "n": "Role changed from key development: MacTutor says there is no proof the 1806 memoir was published, only that Argand privately distributed very few copies between 1806 and 1813, anonymously. The public version is the 1813-14 milestone.",
     "ev": [
      {
       "c": "Argand produced the geometric interpretation in a memoir of 1806, possibly privately printed; copies circulated 1806-1813.",
@@ -130232,6 +130393,48 @@
       "s": "Internet Archive item",
       "u": "https://archive.org/details/essaisurunemani00argauoft",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "MacTutor Argand: 'no proof that it was published'; Argand privately distributed a very small number of copies 1806-1813; the memoir carried no name.",
+      "s": "MacTutor, Argand biography",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Argand/",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1813,
+    "ye": 1814,
+    "p": "year",
+    "l": "Argand's Essai printed in Gergonne's Annales",
+    "w": "J.-R. Argand, Philosophie mathematique. Essai sur une maniere de representer les quantites imaginaires, dans les constructions geometriques, Annales de mathematiques pures et appliquees 4 (1813-14) 133-147",
+    "pe": [
+     "Jean-Robert Argand",
+     "Jacques Francais"
+    ],
+    "d": "After Jacques Francais published an article based on Argand's ideas (Annales 4, 61-71, 1813), Argand identified himself and had a slightly modified Essai printed in the same volume, the first public printing.",
+    "ph": "Geometric representation (Wessel, Argand, Gauss)",
+    "c": "high",
+    "n": "Francais, Nouveaux principes de geometrie de position, et interpretation geometrique des symboles imaginaires, Annales 4 (1813-14) 61-71, preceded it and credited Argand's ideas. Numdam gives the volume as 1813-1814; the year 1813 is the start of the range.",
+    "ev": [
+     {
+      "c": "Numdam record: Argand, Philosophie mathematique. Essai sur une maniere de representer les quantites imaginaires, dans les constructions geometriques, Annales de mathematiques pures et appliquees 4 (1813-1814) 133-147.",
+      "s": "Numdam",
+      "u": "http://www.numdam.org/item/?id=AMPA_1813-1814__4__133_0",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Numdam record: J. F. Francais, Nouveaux principes de geometrie de position, et interpretation geometrique des symboles imaginaires, Annales 4 (1813-1814) 61-71.",
+      "s": "Numdam",
+      "u": "http://www.numdam.org/item/?id=AMPA_1813-1814__4__61_0",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "MacTutor Argand: Francais published in Sept 1813 a paper based on Argand's ideas; Argand then submitted a slightly modified Essai to the Annales.",
+      "s": "MacTutor, Argand biography",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Argand/",
+      "k": "history_page"
      }
     ]
    },
@@ -130369,7 +130572,7 @@
     ]
    }
   ],
-  "notes": "The event bundles a geometric stage (Wessel 1799, Argand 1806, Gauss 1831) and Hamilton's algebraic couples (1833 reading, 1837 printing). Main gaps: the 1799 Wessel volume rests on history pages without a bibliographic record, and the 1837 Hamilton item carries a placeholder date in the archive record. Review pass: Wessel's title and pages were added from Wikipedia; Gauss's citation was corrected to the 1831 announcement. Forerunners sometimes cited (Kühn in the 1750s, Buée 1806) were not found in a record and not examined.",
+  "notes": "The event bundles a geometric stage (Wessel 1799, Argand 1806, Gauss 1831) and Hamilton's algebraic couples (1833 reading, 1837 printing). Main gaps: the 1799 Wessel volume rests on history pages without a bibliographic record, and the 1837 Hamilton item carries a placeholder date in the archive record. Review pass: Wessel's title and pages were added from Wikipedia; Gauss's citation was corrected to the 1831 announcement. Forerunners sometimes cited (Kühn in the 1750s, Buée 1806) were not found in a record and not examined. Review R3: Argand 1806 is now a precursor (private printing) and the public Argand text is Annales 4 (1813-14), verified at Numdam together with Francais's article. Buee, Memoire sur les quantites imaginaires, Phil. Trans. 96 (1806) 23-88 (Crossref 10.1098/rstl.1806.0003) is a candidate forerunner whose geometric content could not be confirmed, so it is not entered. Still open: no bibliographic record of the 1799 Wessel volume, Gauss 1831 text, Wallis and Kuhn unread.",
   "catalogueDates": [
    [
     1797,
@@ -139068,7 +139271,7 @@
     {
      "p": "P460",
      "f": "complex numbers",
-     "d": 157,
+     "d": 159,
      "t": "context"
     },
     {
@@ -139549,7 +139752,7 @@
   "grade": {},
   "shown": {
    "conceptual": {
-    "y": 1702,
+    "y": 1704,
     "basis": "first statement"
    },
    "methodological": {
@@ -139567,10 +139770,10 @@
    "label": "Cotes's Logometria",
    "same": false
   },
-  "y": 1702,
+  "y": 1704,
   "approx": false,
   "derived": {
-   "conceptual": 1702,
+   "conceptual": 1704,
    "methodological": null,
    "institutional": 1748
   },
@@ -139582,18 +139785,18 @@
   "ms": [
    {
     "r": "first_statement",
-    "y": 1702,
+    "y": 1704,
     "ye": null,
     "p": "year",
     "l": "Johann Bernoulli links inverse sine and logarithm",
-    "w": "Johann Bernoulli, Solution d'un probleme concernant le calcul integral, Mem. Acad. Roy. Sci. Paris for 1702 (printed 1704), pp. 289-297",
+    "w": "Johann Bernoulli, Solution d'un probleme concernant le calcul integral, Mem. Acad. Roy. Sci. Paris, annee 1702 (Paris, 1704), pp. 289-297",
     "pe": [
      "Johann Bernoulli"
     ],
     "d": "Bernoulli's treatment of integrals of the form dx/(a^2+x^2) led to the logarithm of an imaginary quantity and so to a relation between the inverse trigonometric functions and logarithms.",
     "ph": "Bernoulli and Cotes",
     "c": "low",
-    "n": "Paper identified through a bookseller's description and a lecture note, not read or found in Crossref. The Academie's volume for 1702 was printed in 1704, so under the publication-year rule the date may be 1704, which would move the derived conceptual date and the link distances; 1702 is kept pending a bibliographic record. Wikipedia describes the 1702 result as a partial-fractions identity and MacTutor as a sin^-1 and log relation.",
+    "n": "Date moved from 1702 to 1704 (review R2): the paper is in the Memoires of the Paris Academy 'Annee 1702', printed in 1704; a bookseller's record of the separate 1704 Boudot offprint (pp. 289-297, 'first printing') confirms the imprint, and the source letter is dated Groningen, 5 August 1701. Publication year governs, so 1704 is the public date; MacTutor and Wikipedia say 1702 (the volume year). The paper was not read and is in no Crossref record. Candidate not promoted: Leibniz, Specimen novum analyseos, Acta Eruditorum, May 1702 pp. 210-219, which factorises rational integrands with imaginary roots; whether it states the arctan-log link was not checked. Wikipedia describes the 1702 result as a partial-fractions identity and MacTutor as a sin^-1 and log relation.",
     "ev": [
      {
       "c": "MacTutor: Johann Bernoulli found the relation between the inverse sine and the logarithm in 1702.",
@@ -139606,6 +139809,12 @@
       "s": "English Wikipedia, Euler's formula",
       "u": "https://en.wikipedia.org/wiki/Euler%27s_formula",
       "k": "history_page"
+     },
+     {
+      "c": "Bookseller record of the 1704 Paris (Boudot) offprint from the Memoires de l'Academie des Sciences, Annee 1702, pp. 289-297, described as the first printing; the paper shows dz/(1+z^2) as a sum of differentials of imaginary logarithms.",
+      "s": "Lynge & Son rare-book listing (Bernoulli, Solution d'un probleme)",
+      "u": "https://lynge.com/product/44723",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -139699,6 +139908,35 @@
       "s": "English Wikipedia, De Moivre's formula",
       "u": "https://en.wikipedia.org/wiki/De_Moivre%27s_formula",
       "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1730,
+    "ye": null,
+    "p": "year",
+    "l": "De Moivre's Miscellanea analytica states the cosine multiple-angle relation",
+    "w": "A. de Moivre, Miscellanea analytica de seriebus et quadraturis, London, 1730, Lemma 1",
+    "pe": [
+     "Abraham de Moivre"
+    ],
+    "d": "Lemma 1 of the book gives the cosine of a multiple arc through the n-th root of l + sqrt(l^2-1), the explicit form of the multiple-angle theorem.",
+    "ph": "De Moivre",
+    "c": "medium",
+    "n": "Open Library confirms the 1730 edition; the lemma text is quoted in Wikipedia's De Moivre's formula, which notes that De Moivre never wrote the modern (cos x + i sin x)^n form. The book itself was not read here. This is the earliest explicit cos nx treatment Wikipedia cites, so the 1722 milestone above stays low.",
+    "ev": [
+     {
+      "c": "In 1730 de Moivre explicitly considered the cases of cos x and cos nx (Miscellanea analytica, p. 1, Lemma 1).",
+      "s": "English Wikipedia, De Moivre's formula",
+      "u": "https://en.wikipedia.org/wiki/De_Moivre%27s_formula",
+      "k": "history_page"
+     },
+     {
+      "c": "Open Library work record: Miscellanea analytica de seriebus et quadraturis, first published 1730.",
+      "s": "Open Library OL7258966W",
+      "u": "https://openlibrary.org/works/OL7258966W",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -139810,9 +140048,9 @@
     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Bernoulli_Johann/",
     "works": [
      {
-      "c": "Work of 1702 on integration (unidentified paper)",
-      "y": 1702,
-      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Trigonometric_functions/",
+      "c": "Solution d'un probleme concernant le calcul integral, Mem. Acad. Sci. Paris 1702 (printed 1704), pp. 289-297",
+      "y": 1704,
+      "u": "https://lynge.com/product/44723",
       "w": "First angle-logarithm link."
      }
     ]
@@ -139842,6 +140080,12 @@
       "y": 1722,
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
       "w": "Multiple-angle formula in complex form."
+     },
+     {
+      "c": "Miscellanea analytica de seriebus et quadraturis (1730)",
+      "y": 1730,
+      "u": "https://openlibrary.org/works/OL7258966W",
+      "w": "Explicit cos nx lemma."
      }
     ]
    },
@@ -139866,7 +140110,7 @@
     ]
    }
   ],
-  "notes": "Crossref confirms Cotes's Logometria in Phil. Trans. 29, issued 31 March 1714; MacTutor's 1722 date is the posthumous Harmonia mensurarum reprint, so 1714 is the first publication. The summary's 'Euler gave exp(ix)' is supported for the 1748 print but Euler's own private derivation is dated only 'around 1740'. Bernoulli 1702 has no bibliographic record found. De Moivre's De sectione anguli (Phil. Trans. 32, 1722) is a candidate for the explicit formula, but whether it states it is unresolved; Wikipedia cites Miscellanea analytica (1730). Review A1: Cotes 1714 confirmed by Crossref and Wikipedia's Euler's-formula history; the 1707 de Moivre paper was added from Crossref; the De Moivre 1722 milestone is now low confidence because sources disagree on whether he stated the formula. Bernoulli's paper is identified (Mem. Acad. 1702, printed 1704) but its year and content are unverified, so the first statement is open and the record stays source-first.",
+  "notes": "Crossref confirms Cotes's Logometria in Phil. Trans. 29, issued 31 March 1714; MacTutor's 1722 date is the posthumous Harmonia mensurarum reprint, so 1714 is the first publication. The summary's 'Euler gave exp(ix)' is supported for the 1748 print but Euler's own private derivation is dated only 'around 1740'. Bernoulli 1702 has no bibliographic record found. De Moivre's De sectione anguli (Phil. Trans. 32, 1722) is a candidate for the explicit formula, but whether it states it is unresolved; Wikipedia cites Miscellanea analytica (1730). Review A1: Cotes 1714 confirmed by Crossref and Wikipedia's Euler's-formula history; the 1707 de Moivre paper was added from Crossref; the De Moivre 1722 milestone is now low confidence because sources disagree on whether he stated the formula. Bernoulli's paper is identified (Mem. Acad. 1702, printed 1704) but its year and content are unverified, so the first statement is open and the record stays source-first. Review R2: Bernoulli's paper re-dated 1702 to 1704 (publication year; Memoires for 1702 printed 1704, bookseller record of the 1704 offprint) and the derived conceptual date and link distances moved with it; De Moivre's 1730 Miscellanea analytica added. Stays source-first: neither Bernoulli's paper, Cotes's Logometria nor De Moivre's 1707/1722/1730 texts were read, and Crossref has no record of the Bernoulli paper.",
   "catalogueDates": [
    [
     1702,
@@ -139894,19 +140138,19 @@
     {
      "p": "P143",
      "f": "logarithms",
-     "d": 88,
+     "d": 90,
      "t": "feeds"
     },
     {
      "p": "P193",
      "f": "trigonometry and complex algebra",
-     "d": 107,
+     "d": 109,
      "t": "named"
     },
     {
      "p": "P458",
      "f": "complex numbers",
-     "d": 157,
+     "d": 159,
      "t": "context"
     }
    ],
@@ -139914,19 +140158,19 @@
     {
      "p": "P159",
      "f": "trigonometry",
-     "d": 12,
+     "d": 10,
      "t": "context"
     },
     {
      "p": "P150",
      "f": "trigonometry",
-     "d": 20,
+     "d": 18,
      "t": "context"
     },
     {
      "p": "P190",
      "f": "trigonometry",
-     "d": 46,
+     "d": 44,
      "t": "context"
     }
    ],
