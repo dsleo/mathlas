@@ -294,7 +294,7 @@
     ]
    }
   ],
-  "notes": "Direct-style review in progress (not promoted). Re-read MacTutor (Heath's order of the works; summer 1906 discovery) and Wikipedia (Quadrature of the Parabola: mechanical and geometric proofs side by side; Archimedes Palimpsest: photographed 1906, published 1910-15). Crossref confirms Heiberg's 1884 Philologus article only, not a 1907 Hermes paper. Outstanding: none of Archimedes's works has a datable year, so the three milestones carry the whole life range and the derived dates (-250) are an arbitrary point in it, not evidence; a source ordering the Quadrature and the Method by composition date is needed; Democritus's volume claim is Heath's reconstruction; On the Equilibrium of Planes is undated. Heiberg's 1907 first publication and the 1912 Heath edition record are unchecked beyond the Internet Archive.",
+  "notes": "Direct-style review in progress (not promoted). Re-read MacTutor (Heath's order of the works; summer 1906 discovery) and Wikipedia (Quadrature of the Parabola: mechanical and geometric proofs side by side; Archimedes Palimpsest: photographed 1906, published 1910-15). Crossref confirms Heiberg's 1884 Philologus article only, not a 1907 Hermes paper. Outstanding: none of Archimedes's works has a datable year, so the three milestones carry the whole life range and the derived dates (-250) are an arbitrary point in it, not evidence; a source ordering the Quadrature and the Method by composition date is needed; Democritus's volume claim is Heath's reconstruction; On the Equilibrium of Planes is undated. Heiberg's 1907 first publication and the 1912 Heath edition record are unchecked beyond the Internet Archive. Review R5 (not promoted): no new source ordering the works by composition date or giving a datable year was found, so nothing changed.",
   "catalogueDates": [
    [
     -250,
@@ -20079,7 +20079,7 @@
     {
      "p": "P242",
      "f": "stochastic processes",
-     "d": 41,
+     "d": 39,
      "t": "context"
     }
    ],
@@ -38447,7 +38447,7 @@
     ]
    }
   ],
-  "notes": "Direct-style review in progress (not promoted). Re-read MacTutor (al-Jayyani: born 989, died after 1079, 'first treatise'; al-Tusi: Maragheh 1259/1262), Crossref (Rashed-Papadopoulos 2017; Hogendijk 2005 matches) and the milestone wording. No milestone was changed in substance; two notes were made consistent with their ranges. Outstanding: no dated primary record for any of the 10th-century milestones (the sine-law priority between Abu'l-Wafa, Abu Nasr Mansur and al-Khujandi is unresolved and the 970 start is inferred from lifespans); composition dates of al-Jayyani's and al-Tusi's treatises are unknown; the 980 Abu'l-Wafa milestone is MacTutor's knowledge marker, not a work; Regiomontanus's 1464 is a writing date (printed 1533) and the transmission claim to al-Jayyani is only argued. A review needs Van Brummelen 2009 and Berggren read for exact dates.",
+  "notes": "Direct-style review in progress (not promoted). Re-read MacTutor (al-Jayyani: born 989, died after 1079, 'first treatise'; al-Tusi: Maragheh 1259/1262), Crossref (Rashed-Papadopoulos 2017; Hogendijk 2005 matches) and the milestone wording. No milestone was changed in substance; two notes were made consistent with their ranges. Outstanding: no dated primary record for any of the 10th-century milestones (the sine-law priority between Abu'l-Wafa, Abu Nasr Mansur and al-Khujandi is unresolved and the 970 start is inferred from lifespans); composition dates of al-Jayyani's and al-Tusi's treatises are unknown; the 980 Abu'l-Wafa milestone is MacTutor's knowledge marker, not a work; Regiomontanus's 1464 is a writing date (printed 1533) and the transmission claim to al-Jayyani is only argued. A review needs Van Brummelen 2009 and Berggren read for exact dates. Review R5 (not promoted): Menelaus/Rashed-Papadopoulos Crossref and MacTutor trig page re-read; no dated primary source found for the 10th-century milestones, so nothing changed.",
   "catalogueDates": [
    "c.830-1260",
    null,
@@ -59260,7 +59260,7 @@
     ]
    }
   ],
-  "notes": "The plane form of the theorem was known before Menelaus (MacTutor), and some historians think Hipparchus already solved spherical triangles (MacTutor, Theodosius), so Menelaus is better called the earliest surviving source. Sphaerica is undated; the milestones use the range 98-130 and the three roles all refer to the same treatise. Rashed's birth year is from general knowledge and was not verified. Searched: MacTutor Menelaus, Theodosius, Greek astronomy; Wikipedia Menelaus of Alexandria; Crossref, zbMATH and Open Library for editions. person without verified work: Theodosius of Bithynia (developer). person without verified work: Autolycus of Pitane (developer).",
+  "notes": "The plane form of the theorem was known before Menelaus (MacTutor), and some historians think Hipparchus already solved spherical triangles (MacTutor, Theodosius), so Menelaus is better called the earliest surviving source. Sphaerica is undated; the milestones use the range 98-130 and the three roles all refer to the same treatise. Rashed's birth year is from general knowledge and was not verified. Searched: MacTutor Menelaus, Theodosius, Greek astronomy; Wikipedia Menelaus of Alexandria; Crossref, zbMATH and Open Library for editions. person without verified work: Theodosius of Bithynia (developer). person without verified work: Autolycus of Pitane (developer). Review R5 (not promoted): MacTutor Menelaus re-read (definition of spherical triangle in Book I, Book II astronomy, Book III with the theorem, Arabic versions, Ptolemy's record of the 14 January 98 observations) and Crossref for Rashed-Papadopoulos 2017 (23 Oct 2017). No change; Arabic translators' dates and Halley's 1758 edition were not checked further.",
   "catalogueDates": [
    [
     90,
@@ -62215,7 +62215,7 @@
     ]
    }
   ],
-  "notes": "Open: whether De triangulis was composed before or after 1464 and the manuscript's circulation. Indirect source influence: MacTutor says one of Regiomontanus' sources was al-Jayyani. Zeller 1946 (Development of trigonometry from Regiomontanus to Pitiscus) named on MacTutor, not checked. Event overlaps with Tusi event P158. English Wikipedia could not be read in this pass (API returned rate-limit errors for every request), so the source-first step used MacTutor biographies and history topics only. person without verified work: Al-Jayyani (developer). The 1533 Nuremberg print is on Internet Archive (ARes352131); the composition year (about 1464) remains unfixed, so the milestone is marked decade precision.",
+  "notes": "Open: whether De triangulis was composed before or after 1464 and the manuscript's circulation. Indirect source influence: MacTutor says one of Regiomontanus' sources was al-Jayyani. Zeller 1946 (Development of trigonometry from Regiomontanus to Pitiscus) named on MacTutor, not checked. Event overlaps with Tusi event P158. English Wikipedia could not be read in this pass (API returned rate-limit errors for every request), so the source-first step used MacTutor biographies and history topics only. person without verified work: Al-Jayyani (developer). The 1533 Nuremberg print is on Internet Archive (ARes352131); the composition year (about 1464) remains unfixed, so the milestone is marked decade precision. Review R5 (not promoted): MacTutor re-read (De triangulis dated 1464, structured like the Elements, five books; trig page gives about 1464 and print 1533, and Pitiscus' Trigonometria 1595 as the first title use). No change. The Epitome milestone's second evidence line (a 1543 printing) does not support the 1462 completion date; that date rests on MacTutor alone.",
   "catalogueDates": [
    "1464 (printed 1533)",
    null,
@@ -67248,6 +67248,35 @@
     ]
    },
    {
+    "r": "precursor",
+    "y": 1965,
+    "ye": null,
+    "p": "year",
+    "l": "Smale's horseshoe: Diffeomorphisms with many periodic points",
+    "w": "Smale, Diffeomorphisms with many periodic points, in Differential and Combinatorial Topology, Princeton (1965) 63-80",
+    "pe": [
+     "Stephen Smale"
+    ],
+    "d": "The horseshoe example of a structurally stable diffeomorphism with infinitely many periodic points, the prototype of an axiom A system.",
+    "ph": null,
+    "c": "medium",
+    "n": "Record checked only; the paper was not read. Placement as precursor follows Wikipedia on axiom A (the horseshoe is an axiom A diffeomorphism).",
+    "ev": [
+     {
+      "c": "Crossref: Diffeomorphisms with Many Periodic Points, Differential and Combinatorial Topology, 1965.",
+      "s": "Crossref 10.1515/9781400874842-006",
+      "u": "https://doi.org/10.1515/9781400874842-006",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "The Smale horseshoe map is an axiom A diffeomorphism with infinitely many periodic points.",
+      "s": "Wikipedia, Axiom A",
+      "u": "https://en.wikipedia.org/wiki/Axiom_A",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
     "r": "first_statement",
     "y": 1967,
     "ye": null,
@@ -67300,6 +67329,35 @@
     ]
    },
    {
+    "r": "precursor",
+    "y": 1968,
+    "ye": null,
+    "p": "year",
+    "l": "Sinai's Markov partitions for Anosov diffeomorphisms",
+    "w": "Sinai, Markov partitions and C-diffeomorphisms, Funct. Anal. Appl. 2 (1968) 61-82",
+    "pe": [
+     "Yakov Sinai"
+    ],
+    "d": "Sinai builds Markov partitions for Anosov diffeomorphisms, the case that Bowen extended to axiom A.",
+    "ph": null,
+    "c": "medium",
+    "n": "Record checked only; Wikipedia's Markov partition article credits Sinai (1968) and Bowen for the Markov shift description.",
+    "ev": [
+     {
+      "c": "Crossref: Markov partitions and C-diffeomorphisms, Funct. Anal. Appl. 2 (1) 61-82, 1968.",
+      "s": "Crossref 10.1007/bf01075361",
+      "u": "https://doi.org/10.1007/bf01075361",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "The resulting dynamics is that of a Markov shift, due to theorems of Sinai (1968) and Bowen.",
+      "s": "Wikipedia, Markov partition",
+      "u": "https://en.wikipedia.org/wiki/Markov_partition",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
     "r": "key_development",
     "y": 1970,
     "ye": null,
@@ -67309,10 +67367,10 @@
     "pe": [
      "Rufus Bowen"
     ],
-    "d": "Bowen shows the non-wandering set of an axiom A diffeomorphism carries a Markov partition, so the dynamics is conjugate to a shift of finite type on a generic subset.",
+    "d": "Bowen shows that the basic sets of an axiom A diffeomorphism admit Markov partitions, so their dynamics is coded by a shift of finite type (a finite-to-one factor, not a conjugacy).",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Crossref confirms the record (Amer. J. Math. 92 (3), July 1970, from p. 725). The description of the coding was made cautious: the paper itself was not read.",
     "ev": [
      {
       "c": "Bowen 1970 Am. J. Math. record",
@@ -67491,7 +67549,7 @@
     ]
    }
   ],
-  "notes": "Input summary is loose: the topology-to-dynamics transfer started in 1958-1960 (Morse inequalities), axiom A was named in the 1967 survey, and strange attractors enter via Ruelle-Takens 1971. Robbin and Palis entries are record-checked only. Pontryagin's 1930s structural-stability work is not verified here. Derived dates use roles only.",
+  "notes": "Input summary is loose: the topology-to-dynamics transfer started in 1958-1960 (Morse inequalities), axiom A was named in the 1967 survey, and strange attractors enter via Ruelle-Takens 1971. Robbin and Palis entries are record-checked only. Pontryagin's 1930s structural-stability work is not verified here. Derived dates use roles only. Review R5 (not promoted): Crossref confirms 1960, 1967, 1970, 1971 (two) records; MacTutor confirms Smale learnt of Pontryagin's work in 1958; Wikipedia (Axiom A, Stephen Smale) confirms the term's origin in the 1967 survey and the Morse-Smale origin. Added the 1965 horseshoe and Sinai 1968 as precursors and corrected Bowen's description. Outstanding: the 1967 survey (AMS blocked), Robbin's scope and the Palis-de-Melo textbook role were not read.",
   "catalogueDates": [
    [
     1960,
@@ -70507,7 +70565,7 @@
     {
      "p": "P242",
      "f": "filtering",
-     "d": 19,
+     "d": 21,
      "t": "feeds"
     }
    ],
@@ -76058,15 +76116,18 @@
   "product": null,
   "why": "Optimal prediction of stationary processes was solved by spectral methods.",
   "cat": "Period run 1930-1990",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "institutional": "B"
+  },
   "shown": {
    "conceptual": {
-    "y": 1941,
+    "y": 1939,
     "basis": "first statement"
    },
    "methodological": {
-    "y": 1950,
+    "y": 1941,
     "basis": "earliest key development; no first application found"
    },
    "institutional": {
@@ -76080,24 +76141,50 @@
    "label": "Wiener's Extrapolation, Interpolation, and Smoothing of Stationary Time Series",
    "same": false
   },
-  "y": 1941,
+  "y": 1939,
   "approx": false,
   "derived": {
-   "conceptual": 1941,
+   "conceptual": 1939,
    "methodological": null,
    "institutional": 1949
   },
   "phases": [
-   "Discrete-time prediction (Kolmogorov, 1941)",
-   "Continuous-time filtering (Wiener, 1949)",
-   "Engineering form (Bode and Shannon, 1950)",
-   "Discrete-time prediction",
-   "Continuous-time filtering",
-   "Engineering form"
+   "Discrete-time prediction (Kolmogorov, 1939-1941)",
+   "Continuous-time filtering (Wiener, 1942 report, 1949 book)",
+   "Engineering form (Bode and Shannon, 1950)"
   ],
   "ms": [
    {
     "r": "first_statement",
+    "y": 1939,
+    "ye": null,
+    "p": "year",
+    "l": "Kolmogorov's note on interpolation and extrapolation of stationary sequences",
+    "w": "Kolmogoroff, Sur l'interpolation et extrapolation des suites stationnaires, C. R. Acad. Sci. Paris 208 (1939) 2043-2045",
+    "pe": [
+     "Andrey Kolmogorov"
+    ],
+    "d": "Kolmogorov announced the solution of the interpolation and extrapolation problem for stationary sequences by least squares, with the limiting error expressed through the spectral density.",
+    "ph": "Discrete-time prediction",
+    "c": "medium",
+    "n": "The note itself was not read; zbMATH's review (Iglisch) records an interpolation problem solved by least squares with limiting error (integral of 1/s)^-1, and an analogous extrapolation problem. Earlier than the 1941 Izvestiya paper and than Wiener's 1942 restricted report.",
+    "ev": [
+     {
+      "c": "Kolmogoroff, Sur l'interpolation et extrapolation des suites stationnaires, C. R. 208 (1939) 2043-2045",
+      "s": "zbMATH 2511388",
+      "u": "https://zbmath.org/2511388",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Review of the 1941 paper: the interpolation problem is solved 'as in Kolmogoroff, C. R. Acad. Sci. Paris 208 (1939), 2043-2045'.",
+      "s": "zbMATH 2503221 (review by H. Wold)",
+      "u": "https://zbmath.org/2503221",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
     "y": 1941,
     "ye": null,
     "p": "year",
@@ -76106,10 +76193,10 @@
     "pe": [
      "Andrey Kolmogorov"
     ],
-    "d": "Kolmogorov solved the discrete-time interpolation and extrapolation problem for stationary sequences.",
+    "d": "Kolmogorov's fuller account in the Izvestiya of the discrete-time interpolation and extrapolation problem, with the formula for the prediction error; proofs are only sketched and refer to a longer paper (Bull. Univ. Moscow 2, no. 6, 1941).",
     "ph": "Discrete-time prediction",
     "c": "high",
-    "n": null,
+    "n": "zbMATH (Wold's review) says the proofs are only indicated; the announcement is the 1939 note above.",
     "ev": [
      {
       "c": "Kolmogorov, Interpolation und Extrapolation von stationaren zufalligen Folgen, Bull. Acad. Sci. URSS (Izv. Ser. Mat.) (1941) 3-14",
@@ -76121,6 +76208,47 @@
       "c": "The discrete-time equivalent of Wiener's work was derived independently by Kolmogorov and published in 1941",
       "s": "Wikipedia, Wiener filter",
       "u": "https://en.wikipedia.org/wiki/Wiener_filter",
+      "k": "history_page"
+     },
+     {
+      "c": "Wold's review describes the prediction-error formula and states that proofs are only indicated, with a reference to the 1939 note.",
+      "s": "zbMATH 2503221 (review by H. Wold)",
+      "u": "https://zbmath.org/2503221",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "precursor",
+    "y": 1942,
+    "ye": null,
+    "p": "year",
+    "l": "Wiener's restricted wartime report on filtering",
+    "w": "Wiener, The interpolation, extrapolation and smoothing of stationary time series, NDRC report (DIC-6037, MIT), February 1942",
+    "pe": [
+     "Norbert Wiener"
+    ],
+    "d": "Wiener developed continuous-time filtering in a restricted wartime report in 1942, before the public book.",
+    "ph": "Continuous-time filtering",
+    "c": "medium",
+    "n": "Restricted circulation, so a precursor. Year and report series come from Wikipedia (reference list of Wiener filter); no library record of the report was found.",
+    "ev": [
+     {
+      "c": "Wiener proposed the filter during the 1940s and published it in 1949",
+      "s": "Wikipedia, Wiener filter",
+      "u": "https://en.wikipedia.org/wiki/Wiener_filter",
+      "k": "history_page"
+     },
+     {
+      "c": "Report of the Services 19, Research Project DIC-6037, MIT, February 1942; published 1949 by MIT Press.",
+      "s": "Wikipedia, Wiener filter (references)",
+      "u": "https://en.wikipedia.org/wiki/Wiener_filter",
+      "k": "history_page"
+     },
+     {
+      "c": "Wiener's 1942 classified report, nicknamed the 'yellow peril', published postwar in 1949.",
+      "s": "Wikipedia, Norbert Wiener",
+      "u": "https://en.wikipedia.org/wiki/Norbert_Wiener",
       "k": "history_page"
      }
     ]
@@ -76140,6 +76268,12 @@
     "c": "high",
     "n": "Also the public statement of the continuous-time theory; listed as consolidation to keep one role per milestone.",
     "ev": [
+     {
+      "c": "MIT Press record, Extrapolation, Interpolation, and Smoothing of Stationary Time Series, 1949.",
+      "s": "Crossref 10.7551/mitpress/2946.001.0001",
+      "u": "https://doi.org/10.7551/mitpress/2946.001.0001",
+      "k": "bibliographic_record"
+     },
      {
       "c": "Wiener, Extrapolation, Interpolation, and Smoothing of Stationary Time Series (1949)",
       "s": "Open Library search record (first publish year 1949)",
@@ -76175,29 +76309,6 @@
       "s": "Crossref DOI 10.1109/jrproc.1950.231821",
       "u": "https://doi.org/10.1109/jrproc.1950.231821",
       "k": "bibliographic_record"
-     }
-    ]
-   },
-   {
-    "r": "precursor",
-    "y": null,
-    "ye": null,
-    "p": "unknown",
-    "l": "Wiener's restricted wartime report on filtering",
-    "w": null,
-    "pe": [
-     "Norbert Wiener"
-    ],
-    "d": "Wiener developed continuous-time filtering in a restricted wartime report during the 1940s, before the public book.",
-    "ph": "Continuous-time filtering",
-    "c": "medium",
-    "n": "The report's year is not established in the consulted sources, so it is left undated (decade only). Precursor: restricted circulation.",
-    "ev": [
-     {
-      "c": "Wiener proposed the filter during the 1940s and published it in 1949",
-      "s": "Wikipedia, Wiener filter",
-      "u": "https://en.wikipedia.org/wiki/Wiener_filter",
-      "k": "history_page"
      }
     ]
    }
@@ -76260,7 +76371,7 @@
     ]
    }
   ],
-  "notes": "Sources: Wikipedia Wiener filter (wikitext: 1940s proposal, 1949 publication, Kolmogorov 1941); zbMATH for Kolmogorov 1941; Open Library for Wiener 1949; Crossref for Bode-Shannon 1950; MacTutor Kolmogorov, Wiener and Shannon biographies. Gap: applications (radar and fire control) are not dated in the consulted sources, so methodological is null. Derived dates: conceptual 1941, methodological null, institutional 1949 (Wiener monograph).",
+  "notes": "Direct review (R5). Kolmogorov's first public statement is the 1939 Comptes rendus note (zbMATH 2511388; zbMATH's review gives its content), not the 1941 Izvestiya paper, so the conceptual date moves from 1941 to 1939 and the 1941 paper becomes a key development (its zbMATH review says proofs are only sketched). Wiener's restricted report is dated February 1942 per Wikipedia's reference list; it stays a precursor. Wiener 1949 and Bode-Shannon 1950 confirmed by Crossref. Not read: the 1939 note itself (Gallica blocked), Wiener's report and book. Wold's 1938 Uppsala thesis on prediction of stationary sequences is a related precursor not added as a milestone (only cited in reviews). Applications (radar, fire control) are not dated in the sources consulted, so methodological stays null.",
   "catalogueDates": [
    [
     1939,
@@ -76291,19 +76402,19 @@
     {
      "p": "P247",
      "f": "stochastic processes",
-     "d": 10,
+     "d": 8,
      "t": "feeds"
     },
     {
      "p": "P369",
      "f": "stochastic processes",
-     "d": 35,
+     "d": 33,
      "t": "feeds"
     },
     {
      "p": "P060",
      "f": "stochastic processes",
-     "d": 41,
+     "d": 39,
      "t": "context"
     }
    ],
@@ -76311,13 +76422,13 @@
     {
      "p": "P223",
      "f": "filtering",
-     "d": 19,
+     "d": 21,
      "t": "feeds"
     },
     {
      "p": "P462",
      "f": "filtering",
-     "d": 19,
+     "d": 21,
      "t": "feeds"
     }
    ],
@@ -77834,7 +77945,7 @@
     {
      "p": "P242",
      "f": "stochastic processes",
-     "d": 10,
+     "d": 8,
      "t": "feeds"
     }
    ],
@@ -109334,7 +109445,7 @@
     "basis": "earliest key development; no first application found"
    },
    "institutional": {
-    "y": 1961,
+    "y": 1946,
     "basis": "naming, textbook or institution"
    }
   },
@@ -109349,13 +109460,42 @@
   "derived": {
    "conceptual": 1892,
    "methodological": null,
-   "institutional": 1961
+   "institutional": 1946
   },
   "phases": [
    "Lyapunov's thesis",
    "Revival (Chetaev, control theory)"
   ],
   "ms": [
+   {
+    "r": "precursor",
+    "y": 1846,
+    "ye": null,
+    "p": "year",
+    "l": "Dirichlet's criterion for stability of equilibrium",
+    "w": "Dirichlet, Ueber die Stabilitaet des Gleichgewichts, J. reine angew. Math. 32 (1846) 85-88",
+    "pe": [
+     "Peter Gustav Lejeune Dirichlet"
+    ],
+    "d": "Dirichlet's energy criterion for the stability of an equilibrium of a conservative system, the model that Lyapunov's auxiliary functions generalise.",
+    "ph": null,
+    "c": "medium",
+    "n": "The content was not read; the link to Lyapunov rests on MacTutor's account that Lyapunov's fluid-ellipsoid work used the sign of the potential-energy variations and on the bibliography item on the extremal-energy criterion 'from Lagrange to Lyapunov'.",
+    "ev": [
+     {
+      "c": "Crossref: Ueber die Stabilitaet des Gleichgewichts, Crelle 32 (1846) 85-88.",
+      "s": "Crossref 10.1515/crll.1846.32.85",
+      "u": "https://doi.org/10.1515/crll.1846.32.85",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Lyapunov showed stability when the second and higher variations of the potential energy are positive; the bibliography lists a history of the extremal-energy criterion from Lagrange to Lyapunov.",
+      "s": "MacTutor, Lyapunov biography",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Lyapunov/",
+      "k": "history_page"
+     }
+    ]
+   },
    {
     "r": "precursor",
     "y": 1885,
@@ -109411,6 +109551,12 @@
       "s": "MacTutor Biographies/Lyapunov",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Lyapunov/",
       "k": "history_page"
+     },
+     {
+      "c": "English translation of the thesis: The general problem of the stability of motion, Int. J. Control 55 (1992); the centenary of the Kharkov thesis.",
+      "s": "Crossref 10.1080/00207179208934253",
+      "u": "https://doi.org/10.1080/00207179208934253",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -109452,24 +109598,59 @@
    },
    {
     "r": "recognition",
-    "y": 1930,
+    "y": 1936,
     "ye": null,
     "p": "decade",
     "l": "Chetaev recognises the scale of Lyapunov's work",
-    "w": "Chetaev, Kazan Aviation Institute, 1930s",
+    "w": "Chetaev, On stable trajectories of dynamics, Kazan Univ. Sci. Notes 4(1), 1936; The Stability of Motion (Russian 1946)",
     "pe": [
      "Nikolay Chetaev"
     ],
     "d": "Chetaev was the first to grasp the importance of Lyapunov's theory and developed it in the 1930s.",
     "ph": null,
     "c": "medium",
-    "n": "Decade-level date from a history page; the specific publication was not identified.",
+    "n": "Wikipedia dates his work to the 1930s and cites the 1936 Kazan paper; the paper itself was not read.",
     "ev": [
      {
       "c": "Wikipedia: Chetaev, at the Kazan Aviation Institute in the 1930s, first realised the magnitude of Lyapunov's discovery.",
       "s": "Wikipedia: Lyapunov stability",
       "u": "https://en.wikipedia.org/wiki/Lyapunov_stability",
       "k": "history_page"
+     },
+     {
+      "c": "Cited reference: Chetaev, On stable trajectories of dynamics, Kazan Univ. Sci. Notes, vol. 4 no. 1, 1936.",
+      "s": "Wikipedia, Lyapunov stability (references)",
+      "u": "https://en.wikipedia.org/wiki/Lyapunov_stability",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "consolidation",
+    "y": 1946,
+    "ye": null,
+    "p": "year",
+    "l": "Chetaev, The Stability of Motion (Russian monograph)",
+    "w": "N. G. Chetaev, Ustoichivost dvizheniya, OGIZ, Moscow-Leningrad, 1946; English translation Oxford 1961",
+    "pe": [
+     "Nikolay Chetaev"
+    ],
+    "d": "A Russian monograph presenting and extending Lyapunov's theory, earlier than the Western monograph of 1961.",
+    "ph": null,
+    "c": "low",
+    "n": "Year from Wikipedia's reference list only (originally published in Russian in 1946); not checked against a library record, and other Russian texts (for example Malkin's) were not examined, so this is not claimed as the first systematic treatment.",
+    "ev": [
+     {
+      "c": "The Stability of Motion, originally published in Russian in 1946 by OGIZ, Moscow-Leningrad; translated by M. Nadler, Oxford, 1961.",
+      "s": "Wikipedia, Lyapunov stability (references)",
+      "u": "https://en.wikipedia.org/wiki/Lyapunov_stability",
+      "k": "history_page"
+     },
+     {
+      "c": "zbMATH lists a 1955 second edition of Chetaev's Stability of Motion.",
+      "s": "zbMATH (see 1961 milestone note)",
+      "u": "https://zbmath.org/3159665",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -109586,7 +109767,7 @@
     ]
    }
   ],
-  "notes": "First application is null: Wikipedia states Lyapunov himself made no applications in the control area, and the summary's 'general criteria using auxiliary functions' matches the thesis. No naming milestone ('Lyapunov function' coinage not found) and no institution milestone. Perron 1930 (Math. Z. 32, Crossref 10.1007/BF01194662) on stability questions was found but not read, so it was not promoted. The biography URLs for non-Lyapunov people are null (not fetched); lifespans from general knowledge. Fix pass 2: Crossref confirms Perron, 'Die Stabilitaetsfrage bei Differentialgleichungen', Math. Z. 32 (1930) 703-728 (doi 10.1007/BF01194662); its content was not read, so it is not promoted, and no first-use year for 'Lyapunov function' was found.",
+  "notes": "First application is null: Wikipedia states Lyapunov himself made no applications in the control area, and the summary's 'general criteria using auxiliary functions' matches the thesis. No naming milestone ('Lyapunov function' coinage not found) and no institution milestone. Perron 1930 (Math. Z. 32, Crossref 10.1007/BF01194662) on stability questions was found but not read, so it was not promoted. The biography URLs for non-Lyapunov people are null (not fetched); lifespans from general knowledge. Fix pass 2: Crossref confirms Perron, 'Die Stabilitaetsfrage bei Differentialgleichungen', Math. Z. 32 (1930) 703-728 (doi 10.1007/BF01194662); its content was not read, so it is not promoted, and no first-use year for 'Lyapunov function' was found. Review R5 (not promoted): added Dirichlet 1846 (Crossref) as a precursor, dated Chetaev's recognition to his 1936 paper, added Chetaev's 1946 monograph as an earlier consolidation (institutional date 1961 -> 1946; Wikipedia-only), and the 1992 English translation record as support for the thesis. Outstanding: the thesis, Perron 1930 and Chetaev's texts were not read; the Kharkov 1892 print has no bibliographic record.",
   "catalogueDates": [
    [
     1892,
@@ -109861,7 +110042,7 @@
     {
      "p": "P242",
      "f": "stochastic processes",
-     "d": 35,
+     "d": 33,
      "t": "feeds"
     },
     {
@@ -135402,8 +135583,8 @@
     "basis": "first statement"
    },
    "methodological": {
-    "y": 1869,
-    "basis": "first application"
+    "y": 1868,
+    "basis": "earliest key development; no first application found"
    },
    "institutional": {
     "y": 1868,
@@ -135420,7 +135601,7 @@
   "approx": false,
   "derived": {
    "conceptual": 1868,
-   "methodological": 1869,
+   "methodological": null,
    "institutional": 1868
   },
   "phases": [
@@ -135467,10 +135648,10 @@
     "pe": [
      "Eugenio Beltrami"
     ],
-    "d": "Beltrami realised Lobachevsky's plane on surfaces of constant negative curvature, linking it to Riemann's geometry.",
+    "d": "Beltrami realised Lobachevsky's plane on surfaces of constant negative curvature and also represented it inside a limit circle whose chords are the geodesics, linking it to Riemann's geometry.",
     "ph": null,
     "c": "high",
-    "n": "MacTutor stresses Beltrami did not set out to prove consistency; others drew that consequence.",
+    "n": "MacTutor stresses Beltrami did not set out to prove consistency; others drew that consequence. Checked in Houel's translation (Numdam): Beltrami says he succeeded for the plane but sees it as impossible for three dimensions, and the plane is mapped to a 'cercle-limite' whose chords are the geodesics, so the disc model with straight lines is already in this essay (the n-dimensional case is the Teoria fondamentale).",
     "ev": [
      {
       "c": "The 1868 essay gives a concrete realisation using the pseudosphere.",
@@ -135483,6 +135664,12 @@
       "s": "Wikipedia, Eugenio Beltrami",
       "u": "https://en.wikipedia.org/wiki/Eugenio_Beltrami",
       "k": "history_page"
+     },
+     {
+      "c": "The essay maps the region onto the inside of a limit circle in which geodesics correspond to chords.",
+      "s": "Numdam, Beltrami-Houel translation (1869)",
+      "u": "http://www.numdam.org/item/ASENS_1869_1_6__251_0/",
+      "k": "primary_publication"
      }
     ]
    },
@@ -135520,38 +135707,44 @@
     "y": 1868,
     "ye": null,
     "p": "year",
-    "l": "Beltrami's 'Essai d'interpretation de la geometrie non-euclidienne'",
-    "w": "E. Beltrami, 'Essai d'interpretation de la geometrie non-euclidienne' (in French; Italian original in Giornale di Matematiche, 1868), zbMATH record 2720244",
+    "l": "Beltrami's Saggio di interpretazione della geometria non-euclidea",
+    "w": "E. Beltrami, Saggio di interpretazione della geometria non-euclidea, Giornale di Matematiche 6 (1868); French title 'Essai d'interpretation de la geometrie non-euclidienne'",
     "pe": [
      "Eugenio Beltrami"
     ],
-    "d": "Beltrami's 1868 paper on an interpretation of non-Euclidean geometry, with 'non-Euclidean geometry' in the title, is the earliest title found that uses the field's name.",
+    "d": "The 1868 essay carries 'non-Euclidean geometry' in its title; it is the earliest such title found, not the result of a systematic search.",
     "ph": null,
     "c": "medium",
-    "n": "The zbMATH record is ambiguous about which version it describes (Italian original versus Hoüel's French translation); the year 1868 is consistent across the search hits. Klein's 1871 title 'Ueber die sogenannte Nicht-Euklidische Geometrie' is a later title and was not assigned a role.",
+    "n": "Same essay as the first_statement. Title and the Giornale di Matematiche t. VI, 1868 origin are confirmed by the Numdam scan of the French translation; the earlier zbMATH record is muddled between original and translation. Klein's 1871 title is later and has no role.",
     "ev": [
      {
       "c": "zbMATH record 2720244, year 1868, original title 'Essai d'interpretation de la geometrie non-euclidienne'; the English title field and source note are muddled, citing Giornale di Matematiche and Hoffmann Z. 130-132 (1868)",
       "s": "zbMATH Open API, document 2720244",
       "u": "https://api.zbmath.org/v1/document/2720244",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Translation headed 'Essai d'interpretation de la geometrie non euclidienne ... Extrait du Giornale di Matematiche, t. VI, 1868'.",
+      "s": "Numdam ASENS_1869_1_6__251_0",
+      "u": "http://www.numdam.org/item/ASENS_1869_1_6__251_0/",
+      "k": "primary_publication"
      }
     ]
    },
    {
-    "r": "first_application",
+    "r": "key_development",
     "y": 1869,
     "ye": null,
     "p": "year",
-    "l": "Houel translates Beltrami and notes independence of the parallel postulate",
+    "l": "Houel's French translation of Beltrami's Essai",
     "w": "J. Houel, French translation of Beltrami's Essai (Italian Saggio), Annales scientifiques de l'Ecole normale (1) 6, 251-288, 1869",
     "pe": [
      "Jules Houel"
     ],
-    "d": "Houel saw that Beltrami's interpretation shows the parallel postulate cannot be derived from the others.",
+    "d": "Houel's translation, with Beltrami's text unchanged, made the interpretation known in France.",
     "ph": null,
-    "c": "medium",
-    "n": "Fix pass 2: MacTutor says Houel translated both works in 1870; the Crossref print record gives 1869 for this translation and is used.",
+    "c": "high",
+    "n": "Read in the Numdam scan: Annales sci. ENS 6 (1869) 251-288, headed 'Extrait du Giornale di Matematiche, t. VI, 1868'. MacTutor says Houel translated in 1870 and noted the independence of the parallel postulate; no translator's note on independence was found in the scan, so the earlier first_application label was dropped and no first application is claimed.",
     "ev": [
      {
       "c": "Houel translated both works in 1870 and noted the independence.",
@@ -135564,6 +135757,12 @@
       "s": "Crossref 10.24033/asens.60",
       "u": "https://doi.org/10.24033/asens.60",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Scan of the translation, headed 'Extrait du Giornale di Matematiche, t. VI, 1868', Annales scientifiques de l'E.N.S. 1re serie, t. 6 (1869), pp. 251-288.",
+      "s": "Numdam ASENS_1869_1_6__251_0",
+      "u": "http://www.numdam.org/item/ASENS_1869_1_6__251_0/",
+      "k": "primary_publication"
      }
     ]
    },
@@ -135655,7 +135854,7 @@
     ]
    }
   ],
-  "notes": "The summary credits Klein with the consistency proof; MacTutor says Beltrami himself did not aim at it and Houel/others drew the consequence, while Cremona delayed publication over circularity worries. Naming 'Beltrami-Klein model' is modern and undated. Klein's 1873 follow-up (Math. Ann. 6) not used as a separate milestone. person without verified work: Jules Houel (popularizer). Fix pass 2: Crossref dates Houel's translation of Beltrami's Essai to 1869 (Ann. Sci. ENS 6, 251-288), so the first_application milestone is 1869, not 1870.",
+  "notes": "The summary credits Klein with the consistency proof; MacTutor says Beltrami himself did not aim at it and Houel/others drew the consequence, while Cremona delayed publication over circularity worries. Naming 'Beltrami-Klein model' is modern and undated. Klein's 1873 follow-up (Math. Ann. 6) not used as a separate milestone. person without verified work: Jules Houel (popularizer).  Review R5 (not promoted): Houel's 1869 translation (Numdam) read and shows the disc model with chords already in the 1868 Saggio; Houel's role was relabelled key_development because no independence note was found in it. Crossref confirms Cayley 1859, Beltrami's Teoria fondamentale (Annali 2, 1868, 232-255) and Klein 1871 (Math. Ann. 4, 573-625). Outstanding: Teoria fondamentale, Klein 1871 and Cayley 1859 were not read (Springer blocked).",
   "catalogueDates": [
    [
     1868,
@@ -140818,7 +141017,7 @@
     {
      "p": "P242",
      "f": "filtering",
-     "d": 19,
+     "d": 21,
      "t": "feeds"
     },
     {
