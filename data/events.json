@@ -2639,7 +2639,7 @@
     {
      "p": "P358",
      "f": "Group theory",
-     "d": 30,
+     "d": 28,
      "t": "feeds"
     },
     {
@@ -3460,11 +3460,15 @@
   "product": "Algebraic number theory",
   "why": "Failure of unique factorisation in rings of integers is repaired by introducing ideal elements, later recast as ideals, which become the central object.",
   "cat": "Seed set A",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "C",
+   "methodological": "C",
+   "institutional": "C"
+  },
   "shown": {
    "conceptual": {
-    "y": 1847,
+    "y": 1846,
     "basis": "first statement"
    },
    "methodological": {
@@ -3472,22 +3476,22 @@
     "basis": "first application"
    },
    "institutional": {
-    "y": 1847,
+    "y": 1846,
     "basis": "naming, textbook or institution"
    }
   },
   "took": {
-   "y": 1847,
+   "y": 1846,
    "role": "naming",
    "label": "The term ideal coined by Kummer",
    "same": true
   },
-  "y": 1847,
+  "y": 1846,
   "approx": false,
   "derived": {
-   "conceptual": 1847,
+   "conceptual": 1846,
    "methodological": 1847,
-   "institutional": 1847
+   "institutional": 1846
   },
   "phases": [
    "Kummer's ideal complex numbers",
@@ -3508,7 +3512,7 @@
     "d": "Kummer publishes an example showing that factorisation into primes need not be unique in rings of cyclotomic integers.",
     "ph": null,
     "c": "medium",
-    "n": null,
+    "n": "Printed as a Breslau Gratulationsschrift in 1844 (reprinted in Liouville's J. Math. 12, 1847). Wikipedia (Ideal number) says this is where the failure of unique factorisation in cyclotomic fields was first published; the scan itself was not read.",
     "ev": [
      {
       "c": "Topic page says Kummer pointed to his 1844 example of non-uniqueness.",
@@ -3521,29 +3525,65 @@
       "s": "Internet Archive scan",
       "u": "https://archive.org/details/denumeriscomple00kummgoog",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Wikipedia: Kummer first published the failure of unique factorization in cyclotomic fields in 1844 (Breslau Gratulationsschrift), reprinted 1847 in Liouville's journal.",
+      "s": "Wikipedia: Ideal number",
+      "u": "https://en.wikipedia.org/wiki/Ideal_number",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "precursor",
+    "y": 1845,
+    "ye": null,
+    "p": "year",
+    "l": "Kummer explains ideal numbers to Kronecker in a letter",
+    "w": "E. E. Kummer, letter to L. Kronecker, 18 October 1845 (private; original lost, partly printed by Hensel)",
+    "pe": [
+     "Ernst Eduard Kummer",
+     "Leopold Kronecker"
+    ],
+    "d": "Kummer first sets out his theory of ideal prime factors of complex numbers in a private letter, before any public statement.",
+    "ph": null,
+    "c": "medium",
+    "n": "Private letter, so a precursor only; the original is lost and only part was printed, as reported by secondary literature.",
+    "ev": [
+     {
+      "c": "Dates the explanation of the new theory of ideal numbers to the letter to Kronecker of 18 October 1845.",
+      "s": "Lemmermeyer, Jacobi and Kummer's Ideal Numbers, Abh. Math. Semin. Univ. Hamb. 79 (2009) 165-187",
+      "u": "https://arxiv.org/abs/1108.6066",
+      "k": "history_page"
      }
     ]
    },
    {
     "r": "first_statement",
-    "y": 1847,
+    "y": 1846,
     "ye": null,
     "p": "year",
-    "l": "Kummer, Zur Theorie der complexen Zahlen",
-    "w": "E. E. Kummer, Zur Theorie der complexen Zahlen, J. reine angew. Math. 35 (1847) 319-326",
+    "l": "Kummer, Zur Theorie der complexen Zahlen (Berlin Academy report)",
+    "w": "E. E. Kummer, Zur Theorie der complexen Zahlen, Monatsber. Berlin Akad. 1846 (pp. 87-96); reprinted J. reine angew. Math. 35 (1847) 319-326",
     "pe": [
      "Ernst Eduard Kummer"
     ],
-    "d": "Kummer restores unique factorisation by introducing ideal complex numbers.",
+    "d": "Kummer announces, without proofs, that unique factorisation of cyclotomic integers is restored by introducing ideal complex numbers.",
     "ph": "Kummer's ideal complex numbers",
     "c": "medium",
-    "n": "Work was done and announced in 1846; the printed paper is 1847. The companion paper Über die Zerlegung der aus Wurzeln der Einheit gebildeten complexen Zahlen in ihre Primfactoren is Crelle 35 pp. 327-367 (10.1515/crll.1847.35.327).",
+    "n": "The Berlin Academy report (communicated March 1846) is the earliest print; the Crelle paper is its 1847 reprint with changes. Some citations label the academy volume 1845, a date that Edwards and Weil correct to 1846; the academy volume itself was not inspected. The companion paper Über die Zerlegung ... is Crelle 35 pp. 327-367 (10.1515/crll.1847.35.327).",
     "ev": [
      {
-      "c": "Title, journal, volume 35 and pages 319-326 confirmed, 1847.",
+      "c": "Title, journal, volume 35, pages 319-326 confirmed, 1847 (the reprint).",
       "s": "Crossref record 10.1515/crll.1847.35.319",
       "u": "https://api.crossref.org/works/10.1515/crll.1847.35.319",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Lists the academy report (Monatsber. Berlin, pp. 87-96) and its Crelle reprint 35 (1847) 319-326; quotes the passage where Kummer calls the new divisors ideale complexe Zahlen.",
+      "s": "Lemmermeyer, Jacobi and Kummer's Ideal Numbers (arXiv:1108.6066)",
+      "u": "https://arxiv.org/abs/1108.6066",
+      "k": "history_page"
      },
      {
       "c": "Topic page says he restored uniqueness in 1846 with ideal complex numbers.",
@@ -3555,18 +3595,18 @@
    },
    {
     "r": "naming",
-    "y": 1847,
+    "y": 1846,
     "ye": null,
     "p": "year",
     "l": "The term ideal coined by Kummer",
-    "w": "E. E. Kummer, Zur Theorie der complexen Zahlen, J. reine angew. Math. 35 (1847)",
+    "w": "E. E. Kummer, Zur Theorie der complexen Zahlen, Monatsber. Berlin Akad. 1846 (pp. 87-96); reprinted J. reine angew. Math. 35 (1847) 319-326",
     "pe": [
      "Ernst Eduard Kummer"
     ],
     "d": "Kummer names his new elements ideal (complex) numbers.",
     "ph": null,
-    "c": "low",
-    "n": "Same paper as first_statement. The exact paper in which the word first appears (1846 academy report versus 1847 print) was not checked.",
+    "c": "medium",
+    "n": "Same paper as the first statement: the academy report is where Kummer says he calls the new divisors ideal complex numbers. Dedekind later (1871) gave ideal its set-theoretic meaning.",
     "ev": [
      {
       "c": "Article says the term ideal was invented by Kummer.",
@@ -3579,6 +3619,12 @@
       "s": "MacTutor: Ring theory",
       "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Ring_theory/",
       "k": "history_page"
+     },
+     {
+      "c": "Quotes Kummer: imaginary divisors which I call ideale complexe Zahlen.",
+      "s": "Lemmermeyer, Jacobi and Kummer's Ideal Numbers (arXiv:1108.6066)",
+      "u": "https://arxiv.org/abs/1108.6066",
+      "k": "history_page"
      }
     ]
    },
@@ -3588,14 +3634,14 @@
     "ye": null,
     "p": "year",
     "l": "Kummer applies ideal numbers to Fermat's Last Theorem",
-    "w": "E. E. Kummer, 1847 and following papers on cyclotomic integers",
+    "w": "E. E. Kummer, Beweis des Fermat'schen Satzes der Unmöglichkeit von x^λ + y^λ = z^λ für eine unendliche Anzahl Primzahlen λ, Monatsber. Berlin Akad. 1847, 132-141, 305-319",
     "pe": [
      "Ernst Eduard Kummer"
     ],
-    "d": "Kummer proves Fermat's Last Theorem for most exponents below 100, then for regular primes.",
+    "d": "Kummer uses unique factorisation into ideal primes to prove Fermat's Last Theorem for regular prime exponents, a case that includes most exponents below 100.",
     "ph": null,
     "c": "medium",
-    "n": "Edwards' work (cited on MacTutor) says the popular story that ideals were invented to fix Lame's error is almost certainly false. The exact paper for the n<100 claim is not identified; Crelle 40 (1850) papers on class numbers (10.1515/crll.1850.40.93) are related.",
+    "n": "Kummer found the proof at the end of March 1847 (letters of 2 and 11 April 1847), so the first public result is the 1847 academy paper; the popular story that ideals were invented to repair Lame's error is almost certainly false (Edwards, via MacTutor), and Lemmermeyer notes Kummer did not mention FLT before 1847. The page numbers come from a secondary bibliography; the n<100 verification (except 37, 59, 67) is later work and not dated here.",
     "ev": [
      {
       "c": "Topic page says he proved the theorem for all n below 100 except 37, 59, 67 and 74 in 1847.",
@@ -3608,6 +3654,12 @@
       "s": "MacTutor: Kummer biography",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Kummer/",
       "k": "history_page"
+     },
+     {
+      "c": "Kummer found a proof of FLT for a class of exponents in late March 1847 and sent it to Dirichlet on 11 April 1847; he had not mentioned FLT as a motive before.",
+      "s": "Lemmermeyer, Jacobi and Kummer's Ideal Numbers (arXiv:1108.6066)",
+      "u": "https://arxiv.org/abs/1108.6066",
+      "k": "history_page"
      }
     ]
    },
@@ -3617,14 +3669,14 @@
     "ye": null,
     "p": "year",
     "l": "Dedekind defines ideals and prime ideals",
-    "w": "R. Dedekind, supplement to Dirichlet's Vorlesungen ueber Zahlentheorie, 2nd ed., 1871",
+    "w": "R. Dedekind, Supplement X to Dirichlet, Vorlesungen ueber Zahlentheorie, 2nd ed., Braunschweig, 1871",
     "pe": [
      "Richard Dedekind"
     ],
     "d": "Dedekind recasts Kummer's ideal numbers as subrings absorbing multiplication, with prime ideals replacing primes.",
     "ph": "Dedekind's ideals",
-    "c": "medium",
-    "n": "MacTutor's biography places the supplements in the 1879 and 1894 editions; the topic page says 1871. The 1863 first edition and the 1894 edition are on archive.org (e.g. vorlesungenber00lejeuoft) but the 1871 edition was not found, so the date is unverified.",
+    "c": "high",
+    "n": "The supplement to the second edition (1871) is the first exposition of Dedekind's ideals; revised versions followed in the 1879 and 1894 editions (MacTutor's biography mentions the later ones). The 1871 edition is not among the archive.org scans found (1863, 1894), so the year rests on the history pages and Avigad's translation of the 1871 text.",
     "ev": [
      {
       "c": "Topic page credits Dedekind with defining ideals and introducing prime ideals in 1871.",
@@ -3637,6 +3689,35 @@
       "s": "MacTutor: Dedekind biography",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Dedekind/",
       "k": "history_page"
+     },
+     {
+      "c": "Avigad's translation of Dedekind's 1871 version of the theory of ideals (Supplement X, 2nd ed. 1871).",
+      "s": "J. Avigad, Dedekind's 1871 version of the theory of ideals",
+      "u": "https://www.andrew.cmu.edu/user/avigad/Papers/ideals71.pdf",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "consolidation",
+    "y": 1897,
+    "ye": null,
+    "p": "year",
+    "l": "Hilbert, Zahlbericht on algebraic number fields",
+    "w": "D. Hilbert, Die Theorie der algebraischen Zahlkörper, Jahresbericht der Deutschen Mathematiker-Vereinigung 4 (1897) 175-546",
+    "pe": [
+     "David Hilbert"
+    ],
+    "d": "Hilbert's report organises the theory of algebraic number fields, with Dedekind's ideals as the basic tool, into the standard account for decades.",
+    "ph": null,
+    "c": "medium",
+    "n": "Role and year from the Jahresbericht volume as discussed in the 2017 edition article; the original 1897 record was not retrieved from Crossref (only the 1932 collected-works reprint and the 2017 article appear).",
+    "ev": [
+     {
+      "c": "2017 edition article on Hilbert's Zahlbericht; the report appeared in 1897.",
+      "s": "Crossref record, Lemmermeyer, David Hilbert: Die Theorie der algebraischen Zahlkörper, Jahresbericht der DMV 120 (2017)",
+      "u": "https://doi.org/10.1365/s13291-017-0168-3",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -3720,7 +3801,7 @@
     ]
    }
   ],
-  "notes": "Sources read: MacTutor topic page Ring theory (saved), biographies of Kummer and Dedekind, Wikipedia 'Ernst Kummer', 'Ideal number'. The saved Wikipedia leads file has no candidates for this event. Noether's and Kronecker's (1882) biography pages not fetched. Hilbert's Zahlbericht (1897) and Kronecker's Grundzuege (1882) are not entered. The MacTutor 'Number e' topic matched by the saved index is unrelated.",
+  "notes": "Reviewed against Crossref (Crelle 35 pp. 319-326 and 327-367; Noether, Math. Ann. 83), Lemmermeyer (arXiv:1108.6066), Wikipedia (Ideal number) and Avigad's translation of Dedekind 1871. The first public statement is the Berlin Academy report of 1846 (the Crelle paper is its 1847 reprint); the October 1845 letter to Kronecker is private. Still unchecked: the academy volume itself (some citations say 1845), the Kummer 1844 and Dedekind 1871 scans, and Kronecker's Grundzuege (1882).",
   "catalogueDates": [
    [
     1844,
@@ -3751,7 +3832,7 @@
     {
      "p": "P124",
      "f": "algebraic number theory",
-     "d": 46,
+     "d": 45,
      "t": "named"
     }
    ],
@@ -3759,43 +3840,43 @@
     {
      "p": "P385",
      "f": "Algebraic number theory",
-     "d": 50,
+     "d": 51,
      "t": "feeds"
     },
     {
      "p": "P389",
      "f": "Algebraic number theory",
-     "d": 52,
+     "d": 53,
      "t": "feeds"
     },
     {
      "p": "P401",
      "f": "Algebraic number theory",
-     "d": 63,
+     "d": 64,
      "t": "feeds"
     },
     {
      "p": "P414",
      "f": "algebraic number theory (class field theory, p-adic local theory)",
-     "d": 61,
+     "d": 62,
      "t": "context"
     },
     {
      "p": "P288",
      "f": "algebraic number theory",
-     "d": 112,
+     "d": 113,
      "t": "context"
     },
     {
      "p": "P291",
      "f": "algebraic number theory",
-     "d": 120,
+     "d": 121,
      "t": "context"
     },
     {
      "p": "P537",
      "f": "class groups in algebraic number theory",
-     "d": 175,
+     "d": 176,
      "t": "named"
     }
    ],
@@ -4081,7 +4162,7 @@
     {
      "p": "P358",
      "f": "geometry through continuous transformation groups",
-     "d": 4,
+     "d": 2,
      "t": "named"
     }
    ],
@@ -4118,7 +4199,7 @@
     "basis": "earliest key development; no first application found"
    },
    "institutional": {
-    "y": 1935,
+    "y": 1934,
     "basis": "naming, textbook or institution"
    }
   },
@@ -4133,7 +4214,7 @@
   "derived": {
    "conceptual": 1895,
    "methodological": null,
-   "institutional": 1935
+   "institutional": 1934
   },
   "phases": [
    "Betti numbers (numerical invariants, 1870)",
@@ -4157,7 +4238,7 @@
     "d": "Betti introduced numerical invariants of n-dimensional spaces that later became Betti numbers; these are the numbers the event replaces with groups.",
     "ph": "Betti numbers (numerical invariants, 1870)",
     "c": "high",
-    "n": "Crossref dates the issue 1870; the volume is dated 1870-71 in other sources. Precursor, sets no derived date.",
+    "n": "Crossref dates the issue 1870; the volume is dated 1870-71 in other sources (Wikipedia gives 1871). Precursor, sets no derived date.",
     "ev": [
      {
       "c": "Paper appears in Annali di Matematica Pura ed Applicata with issue date 1870",
@@ -4179,17 +4260,17 @@
     "ye": null,
     "p": "year",
     "l": "Poincare's Analysis situs",
-    "w": "Poincare, H., Analysis situs, Journal de l'Ecole Polytechnique, 1895",
+    "w": "Poincare, H., Analysis situs, J. Ecole Polytechnique (2) 1 (1895) 1-123",
     "pe": [
      "Henri Poincare"
     ],
-    "d": "Poincare's Analysis situs gives the first systematic combinatorial treatment in which homology is defined through groups of chains and boundaries.",
+    "d": "Poincare's Analysis situs introduces homology classes and relations between submanifolds and chains, Betti numbers computed from them, and the fundamental group; torsion and the corrections after Heegaard's criticism follow in supplements of 1899-1904.",
     "ph": "Poincare's homology groups (1895)",
     "c": "medium",
-    "n": "The claim that homology groups are defined there is from general knowledge; the paper text was not read. Earlier discussions by Betti are not counted as the group-theoretic start.",
+    "n": "Homology appears here as relations between cycles and Betti numbers; treating homology classes as abelian groups is the later step of Noether, Vietoris and Mayer (next milestones), so the date is the first statement of homology, not of homology groups. Earlier work by Betti is counted as a precursor.",
     "ev": [
      {
-      "c": "Analysis situs appears in the Journal de l'Ecole Polytechnique in 1895",
+      "c": "zbMATH (Jahrbuch record) lists Analysis situs, J. Ec. Polytech. (2) 1, 1-123 (1895).",
       "s": "zbMATH record, Zbl 26.0541.07",
       "u": "https://zbmath.org/?q=an:26.0541.07",
       "k": "bibliographic_record"
@@ -4207,8 +4288,8 @@
       "k": "history_page"
      },
      {
-      "c": "Wikipedia calls Poincare's Analysis situs the first recognisable theory of homology (1895)",
-      "s": "Wikipedia: Homology (mathematics) (raw wikitext)",
+      "c": "Poincare published the first recognisable theory of homology in Analysis situs (1895), with homology classes and relations.",
+      "s": "Wikipedia: Homology (mathematics), History",
       "u": "https://en.wikipedia.org/wiki/Homology_(mathematics)",
       "k": "history_page"
      }
@@ -4220,20 +4301,64 @@
     "ye": 1928,
     "p": "range",
     "l": "Noether's algebraic homology groups (with Vietoris and Mayer)",
-    "w": null,
+    "w": "E. Noether (1925-28, Goettingen; acknowledged by Hopf, Nachr. Ges. Wiss. Goettingen 1928); L. Vietoris, Math. Ann. 97 (1927) 454-472; W. Mayer, Monatsh. Math. Phys. 36 (1929)",
     "pe": [
-     "Emmy Noether"
+     "Emmy Noether",
+     "Leopold Vietoris",
+     "Walther Mayer"
     ],
-    "d": "Noether, with Vietoris and Mayer, developed the algebraic homology groups in the years 1925-28 that made the theory a group-valued invariant.",
+    "d": "Noether, and independently Vietoris and Mayer, treat homology classes as abelian groups, so the Betti number becomes the rank of a group.",
     "ph": null,
     "c": "medium",
-    "n": "Specific Noether papers for 1925-28 were not identified in Crossref; the range comes from Wikipedia. Work left null.",
+    "n": "Noether published no paper on this; the date comes from reports of her remarks in the Goettingen lectures of Alexandroff and Hopf (1926-28) and a 1925 observation, so the range 1925-28 is kept. Vietoris 1927 is a dated record for the independent group-theoretic formulation (Crossref). Mayer 1929 and Hopf 1928 were not retrieved.",
     "ev": [
      {
       "c": "Wikipedia: Noether, independently of Vietoris and Mayer, developed algebraic homology groups in 1925-28",
       "s": "Wikipedia: Homology (mathematics) (raw wikitext)",
       "u": "https://en.wikipedia.org/wiki/Homology_(mathematics)",
       "k": "history_page"
+     },
+     {
+      "c": "Crossref: Vietoris, Ueber den hoeheren Zusammenhang kompakter Raeume und eine Klasse von zusammenhangstreuen Abbildungen, Math. Ann. 97 (1927) 454-472.",
+      "s": "Crossref record, DOI 10.1007/bf01447877",
+      "u": "https://doi.org/10.1007/bf01447877",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Noether and, independently, Vietoris and Mayer developed algebraic homology groups in 1925-28 (Wikipedia, History); Weibel dates her observation that Betti numbers are ranks of groups to 1925.",
+      "s": "Wikipedia: Homology (mathematics); Weibel, History of homological algebra",
+      "u": "https://sites.math.rutgers.edu/%7Eweibel/HA-history.pdf",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "consolidation",
+    "y": 1934,
+    "ye": null,
+    "p": "year",
+    "l": "Seifert and Threlfall, Lehrbuch der Topologie",
+    "w": "H. Seifert, W. Threlfall, Lehrbuch der Topologie, Leipzig: Teubner, 1934",
+    "pe": [
+     "Herbert Seifert",
+     "William Threlfall"
+    ],
+    "d": "A textbook of combinatorial topology that presents homology of complexes, including its torsion, in group-theoretic language.",
+    "ph": null,
+    "c": "medium",
+    "n": "Role from the book's standing as the standard text; the book itself was not read and no preface was checked. Veblen's Analysis Situs (AMS Colloquium 5, 1922) is an earlier systematic text built on Betti numbers, not groups.",
+    "ev": [
+     {
+      "c": "Review of Lehrbuch der Topologie, Teubner, 1934, 352 pp.",
+      "s": "Crossref review records (Math. Gazette 19, 1935; ZAMM 15, 1935)",
+      "u": "https://doi.org/10.2307/3606643",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Establishes the earlier 1922 Veblen text (Cambridge Colloquium Lectures, Part II).",
+      "s": "Crossref review record, Science 56 (1922), of Veblen, Analysis Situs",
+      "u": "https://doi.org/10.1126/science.56.1455.575.a",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -4248,10 +4373,10 @@
      "Pavel Alexandroff",
      "Heinz Hopf"
     ],
-    "d": "Alexandroff and Hopf wrote the first large systematic treatment of combinatorial and homological topology.",
+    "d": "Alexandroff and Hopf wrote a comprehensive treatise on set-theoretic and combinatorial topology, with homology groups of complexes.",
     "ph": null,
     "c": "medium",
-    "n": "Systematic-treatment role assigned from the book's title and series; not checked against a preface.",
+    "n": "Earlier wording called this the first large systematic treatment of combinatorial topology; that is not supported (Veblen 1922 and Seifert-Threlfall 1934 precede it). Kept as a consolidation of the group-theoretic homology theory; the book was not read.",
     "ev": [
      {
       "c": "Springer Topologie I (1935) chapter record exists",
@@ -4280,7 +4405,7 @@
     "d": "The 1942 colloquium volume uses the name 'algebraic topology' in its title for the subject.",
     "ph": null,
     "c": "medium",
-    "n": "The earliest title with the phrase in this search; an earlier title was not searched exhaustively, so this is 'first found'.",
+    "n": "Crossref title search for 'algebraic topology' up to 1941 returned no title with the phrase, so Lefschetz 1942 is the earliest found; not an exhaustive search (Hopf, Alexandroff and others may have used the phrase in text).",
     "ev": [
      {
       "c": "Crossref lists Lefschetz 1942 Algebraic Topology, Colloquium Publications 27",
@@ -4331,10 +4456,10 @@
      "Samuel Eilenberg",
      "Norman Steenrod"
     ],
-    "d": "The Eilenberg-Steenrod book gives the first systematic treatment of axiomatic homology theory.",
+    "d": "The Eilenberg-Steenrod book gives the first systematic treatment of axiomatic homology theory and shows that homology theories are determined by a few axioms.",
     "ph": "Axiomatic homology (Eilenberg-Steenrod)",
     "c": "high",
-    "n": null,
+    "n": "Same book as the 1952 consolidation: the single milestone now carries both Crossref (10.1515/9781400877492) and Open Library records.",
     "ev": [
      {
       "c": "Foundations of Algebraic Topology published 1952",
@@ -4347,25 +4472,7 @@
       "s": "MacTutor biography of Eilenberg",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Eilenberg/",
       "k": "history_page"
-     }
-    ]
-   },
-   {
-    "r": "key_development",
-    "y": 1952,
-    "ye": null,
-    "p": "year",
-    "l": "Eilenberg-Steenrod axioms and Foundations of Algebraic Topology",
-    "w": "S. Eilenberg and N. Steenrod, Foundations of Algebraic Topology, Princeton, 1952",
-    "pe": [
-     "Samuel Eilenberg",
-     "Norman Steenrod"
-    ],
-    "d": "The axiomatic treatment showed that homology theories are determined by a few axioms.",
-    "ph": null,
-    "c": "high",
-    "n": null,
-    "ev": [
+     },
      {
       "c": "Crossref lists the 1952 Princeton volume",
       "s": "Crossref DOI 10.1515/9781400877492",
@@ -4479,7 +4586,7 @@
     ]
    }
   ],
-  "notes": "Derived: conceptual 1895 (Poincare; Betti 1870 is a precursor and sets no date). Methodological null: no first_application identified. Institutional 1952 (book consolidation). Searched: MacTutor Betti, Poincare, Eilenberg, Steenrod biographies and the saved MacTutor topic page; Crossref; zbMATH; Open Library. The 1895 homology-group claim and the Betti lifespan are from general knowledge plus these pages. Noether's 1925-26 group-theoretic work on homology was not searched and is not included.",
+  "notes": "Reviewed against Crossref (Vietoris 1927, Lefschetz 1942, Eilenberg-Steenrod 1945, reviews of Seifert-Threlfall and Veblen), zbMATH (Poincare 1895, J. Ec. Polytech. (2) 1, 1-123), Wikipedia (Homology) and Weibel's history. Poincare 1895 is the first statement of homology, not of homology groups; Noether/Vietoris/Mayer (1925-28) is the group step. Betti 1870 is a precursor. Not checked: Poincare's text, Noether's dating from primary sources, Mayer 1929, Hopf 1928.",
   "catalogueDates": [
    [
     1895,
@@ -39177,7 +39284,7 @@
     {
      "p": "P009",
      "f": "algebraic number theory",
-     "d": 46,
+     "d": 45,
      "t": "named"
     }
    ],
@@ -47881,7 +47988,7 @@
     {
      "p": "P358",
      "f": "differential equations",
-     "d": 186,
+     "d": 184,
      "t": "context"
     },
     {
@@ -59619,7 +59726,7 @@
     "basis": "earliest key development; no first application found"
    },
    "institutional": {
-    "y": 1841,
+    "y": 1801,
     "basis": "naming, textbook or institution"
    }
   },
@@ -59634,36 +59741,13 @@
   "derived": {
    "conceptual": 1700,
    "methodological": null,
-   "institutional": 1841
+   "institutional": 1801
   },
   "phases": [
    "Seki and Leibniz, 1683-1693",
    "Publication in Europe, 1700-1750"
   ],
   "ms": [
-   {
-    "r": "precursor",
-    "y": 1678,
-    "ye": null,
-    "p": "year",
-    "l": "Leibniz begins experimenting with notation for coefficient systems",
-    "w": "Leibniz, unpublished manuscripts, from 1678",
-    "pe": [
-     "Gottfried Leibniz"
-    ],
-    "d": "Over some fifty years he tried more than fifty ways of writing coefficient systems.",
-    "ph": null,
-    "c": "medium",
-    "n": null,
-    "ev": [
-     {
-      "c": "More than 50 notations tried over 50 years beginning in 1678; mostly unpublished.",
-      "s": "MacTutor history topic: Matrices and determinants",
-      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
-      "k": "history_page"
-     }
-    ]
-   },
    {
     "r": "precursor",
     "y": 1683,
@@ -59677,7 +59761,7 @@
     "d": "Independent earlier appearance in Japan, with determinants up to 5x5 used on equations (not yet on linear systems).",
     "ph": "Seki and Leibniz, 1683-1693",
     "c": "medium",
-    "n": null,
+    "n": "Seki's text circulated in manuscript in Japan; MacTutor gives 1683 and says he used the arrays on equations, not on linear systems. No bibliographic record of a printed edition was checked, so this stays a precursor.",
     "ev": [
      {
       "c": "In 1683 Seki wrote a work with matrix methods; determinants of orders up to 5.",
@@ -59701,10 +59785,16 @@
     "d": "Leibniz explained that three equations in two unknowns have a solution when a determinant condition holds, using a double-index notation.",
     "ph": "Seki and Leibniz, 1683-1693",
     "c": "high",
-    "n": null,
+    "n": "Private letter (28 April 1693 per the Gerhardt edition quoted by secondary sources, first printed 1850), so a precursor. Leibniz had experimented since 1678 with more than fifty notations for coefficient systems in unpublished manuscripts (MacTutor), which is folded into this milestone instead of a separate 1678 entry.",
     "ev": [
      {
       "c": "1693 letter gives the vanishing-determinant condition using two-character indices.",
+      "s": "MacTutor history topic: Matrices and determinants",
+      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
+      "k": "history_page"
+     },
+     {
+      "c": "More than 50 notations tried over 50 years beginning in 1678; mostly unpublished.",
       "s": "MacTutor history topic: Matrices and determinants",
       "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
       "k": "history_page"
@@ -59724,7 +59814,7 @@
     "d": "MacTutor says only two printed papers (1700 and 1710) by Leibniz contain results on coefficient systems.",
     "ph": "Publication in Europe, 1700-1750",
     "c": "low",
-    "n": "The exact paper was not identified; MacTutor does not name it. The same page calls Maclaurin's 1748 treatise the first published results on determinants, so this priority is contestable.",
+    "n": "Cannot be confirmed: MacTutor says only two printed Leibniz papers (1700 and 1710) contain coefficient-system results but names neither, and searches of Knobloch's chapter on Leibniz's elimination and determinants and of general sources did not identify them. The same page calls Maclaurin's 1748 treatise the first published results on determinants, so priority is contestable. Kept low as a placeholder, not as a verified first statement.",
     "ev": [
      {
       "c": "Only two publications (1700 and 1710) contain results on coefficient systems.",
@@ -59744,10 +59834,10 @@
     "pe": [
      "Colin Maclaurin"
     ],
-    "d": "Contains the first published results on determinants per MacTutor, proving Cramer's rule for 2x2 and 3x3.",
+    "d": "Contains the first published results on determinants per MacTutor, proving Cramer's rule for 2x2 and 3x3 systems.",
     "ph": "Publication in Europe, 1700-1750",
     "c": "medium",
-    "n": null,
+    "n": "Written in the 1730s and published two years after Maclaurin's death (1748), per MacTutor; the archive.org item was not opened. Conflicts with the 1700 first-statement placeholder.",
     "ev": [
      {
       "c": "Archive.org records list the 1748 edition.",
@@ -59794,46 +59884,99 @@
    },
    {
     "r": "naming",
-    "y": 1841,
+    "y": 1801,
     "ye": null,
     "p": "year",
-    "l": "Jacobi uses the determinant term in a title",
-    "w": "Jacobi, C. G. J., De determinantibus functionalibus, 1841",
+    "l": "Gauss coins 'determinant' in the Disquisitiones",
+    "w": "C. F. Gauss, Disquisitiones arithmeticae, Leipzig: Fleischer, 1801",
     "pe": [
-     "Jacobi"
+     "Carl Friedrich Gauss"
     ],
-    "d": "The earliest title found with a form of the word \"determinant\".",
+    "d": "Gauss introduces the word determinant for a quantity attached to a quadratic form.",
     "ph": null,
     "c": "medium",
-    "n": "Latin inflected form; zbMATH word search for \"determinant\" starts at 1868, so the inflected hit is the earliest found. Gauss 1801 coinage in Disquisitiones not sourced here (no history page checked).",
+    "n": "MacTutor: Gauss's concept differs from the modern determinant, since it concerns the properties of the quadratic form; Cauchy (1812) first used the word in its modern sense. The Disquisitiones text was not read.",
     "ev": [
      {
-      "c": "zbMATH record: \"De Determinantibus functionalibus\", Jacobi, 1841",
-      "s": "zbMATH Open doc 2751099",
-      "u": "https://api.zbmath.org/v1/document/2751099",
+      "c": "In 1801 Gauss coined the term determinant in the Disquisitiones arithmeticae while discussing quadratic forms.",
+      "s": "MacTutor history topic: Matrices and determinants",
+      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
+      "k": "history_page"
+     },
+     {
+      "c": "Archive record of Gauss, Disquisitiones arithmeticae (1801).",
+      "s": "Internet Archive item disquisitionesa00gaus",
+      "u": "https://archive.org/details/disquisitionesa00gaus",
       "k": "bibliographic_record"
      }
     ]
    },
    {
-    "r": "consolidation",
-    "y": 1857,
+    "r": "key_development",
+    "y": 1841,
     "ye": null,
     "p": "year",
-    "l": "Baltzer publishes a book on determinants",
-    "w": "Baltzer, R., Theorie und Anwendung der Determinanten, 1857",
+    "l": "Jacobi writes the determinant treatises of 1841",
+    "w": "C. G. J. Jacobi, De formatione et proprietatibus determinantium, J. reine angew. Math. 22 (1841) 285-318, and De determinantibus functionalibus, ibid. 319-359",
     "pe": [
-     "Baltzer"
+     "Carl Gustav Jacob Jacobi"
     ],
-    "d": "Book-length German treatment of determinants.",
+    "d": "Jacobi's treatises give an algorithmic definition of the determinant for numbers and functions and made it widely known.",
     "ph": null,
-    "c": "low",
-    "n": "Earliest book-length determinant treatment located in catalogue search, not proven first; Spottiswoode-type articles not checked.",
+    "c": "high",
+    "n": "Role changed from naming: the term was coined earlier (Gauss 1801, Cauchy 1812). The word also appears in the titles of these 1841 papers, but earlier uses are not excluded.",
     "ev": [
      {
-      "c": "Open Library lists the book with first publication year 1857",
-      "s": "Open Library works OL13141409W",
-      "u": "https://openlibrary.org/works/OL13141409W",
+      "c": "Crossref: De formatione et proprietatibus Determinantium, Crelle 22 (1841) 285-318.",
+      "s": "Crossref record",
+      "u": "https://doi.org/10.1515/crll.1841.22.285",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Crossref: De Determinantibus functionalibus, Crelle 22 (1841) 319-359.",
+      "s": "Crossref record",
+      "u": "https://doi.org/10.1515/crll.1841.22.319",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "zbMATH lists De Determinantibus functionalibus, J. Reine Angew. Math. 22, 319-359 (1841).",
+      "s": "zbMATH Open doc 2751099",
+      "u": "https://api.zbmath.org/v1/document/2751099",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "In 1841 Jacobi gave three treatises on determinants with an algorithmic definition, making the determinant widely known.",
+      "s": "MacTutor history topic: Matrices and determinants",
+      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "consolidation",
+    "y": 1851,
+    "ye": null,
+    "p": "year",
+    "l": "Spottiswoode, Elementary Theorems Relating to Determinants",
+    "w": "W. Spottiswoode, Elementary Theorems Relating to Determinants, London: Longman, Brown, Green and Longman, 1851",
+    "pe": [
+     "William Spottiswoode"
+    ],
+    "d": "An English booklet on the theory of determinants that predates the German and Italian treatises of the mid 1850s.",
+    "ph": null,
+    "c": "low",
+    "n": "Earliest separate treatise found in an archive.org title search for 1840-60 (Brioschi, La teorica dei determinanti, Pavia 1854, and Baltzer, 1857, follow); not proven first and not read. Replaces the earlier Baltzer 1857 entry, which is not the earliest book.",
+    "ev": [
+     {
+      "c": "Archive record: Spottiswoode, Elementary Theorems Relating to Determinants, Longman et al., 1851.",
+      "s": "Internet Archive item elementarytheor01spotgoog",
+      "u": "https://archive.org/details/elementarytheor01spotgoog",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Later books: Baltzer, Theorie und Anwendung der Determinanten (1857); Brioschi, La teorica dei determinanti (1854).",
+      "s": "Internet Archive item theorieundanwen01baltgoog (Baltzer 1857) and bub_gb_BoEH5h1BtD8C (Brioschi 1854)",
+      "u": "https://archive.org/details/theorieundanwen01baltgoog",
       "k": "bibliographic_record"
      }
     ]
@@ -59897,7 +60040,7 @@
     ]
    }
   ],
-  "notes": "Leibniz' 1693 letter is the key dated evidence and is private. The 1700 'first public statement' is low confidence; identification of the item is open, and it conflicts with MacTutor's remark about Maclaurin. Leibniz' written work on determinants was not published in his lifetime beyond the two items; the later Gerhardt edition (1849-63, archive record exists) is not milestoned because I did not confirm which volume prints it. Wikipedia's Determinant page was read and gives no priority detail. person without verified work: Seki Takakazu (developer). Re-checked MacTutor Matrices and determinants in this pass: only two Leibniz publications (1700 and 1710) contain coefficient-system results; the 1700 item is still not identified.",
+  "notes": "Reviewed against MacTutor (Matrices and determinants), Crossref (Jacobi 1841 papers), zbMATH, and archive.org title searches. Changed: Jacobi 1841 is a key development, not the naming (Gauss 1801 coined the word; MacTutor), the consolidation is now Spottiswoode 1851 rather than Baltzer 1857, and the 1678 precursor is merged into the 1693 letter. The 1700 first statement is still unidentified and low confidence, and conflicts with MacTutor's remark about Maclaurin; Cauchy 1812 (modern sense of the term) is not entered; Seki's work is not independently sourced. Person without verified work: Seki Takakazu.",
   "catalogueDates": [
    "1678-1693",
    null,
@@ -64433,7 +64576,7 @@
     {
      "p": "P358",
      "f": "Lie theory",
-     "d": 91,
+     "d": 93,
      "t": "context"
     }
    ],
@@ -85804,15 +85947,19 @@
   "product": null,
   "why": "Borcherds and FLM axiomatise vertex operators to build the moonshine module.",
   "cat": "Period run 1930-1990",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "methodological": "C",
+   "institutional": "B"
+  },
   "shown": {
    "conceptual": {
     "y": 1986,
     "basis": "first statement"
    },
    "methodological": {
-    "y": 1996,
+    "y": 1992,
     "basis": "earliest key development; no first application found"
    },
    "institutional": {
@@ -85830,7 +85977,7 @@
   "approx": false,
   "derived": {
    "conceptual": 1986,
-   "methodological": null,
+   "methodological": 1992,
    "institutional": 1988
   },
   "phases": [
@@ -85844,14 +85991,14 @@
     "ye": null,
     "p": "year",
     "l": "Vertex algebra axioms",
-    "w": "Borcherds, Vertex algebras, Kac-Moody algebras, and the Monster, Proc. Natl. Acad. Sci. USA 83 (1986) 3068-3071",
+    "w": "R. E. Borcherds, Vertex algebras, Kac-Moody algebras, and the Monster, Proc. Natl. Acad. Sci. USA 83 (1986) 3068-3071",
     "pe": [
-     "Borcherds"
+     "Richard Borcherds"
     ],
     "d": "Axiomatises the vertex operators attached to a lattice, giving the vertex algebra notion.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Crossref gives volume 83 (issue 10), zbMATH volume 84. Wikipedia says the notion was motivated by a construction of Frenkel and axiomatises lattice vertex operators; the paper text was not read.",
     "ev": [
      {
       "c": "Journal, pages and year verified (Crossref); zbMATH lists volume 84, Crossref volume 83 used",
@@ -85875,14 +86022,14 @@
     "l": "Vertex operator algebra named in a monograph title",
     "w": "Frenkel, Lepowsky, Meurman, Vertex Operator Algebras and the Monster, Academic Press (Pure and Applied Mathematics 134), 1988",
     "pe": [
-     "Frenkel",
-     "Lepowsky",
-     "Meurman"
+     "Igor Frenkel",
+     "James Lepowsky",
+     "Arne Meurman"
     ],
     "d": "Monograph that introduces the modification of vertex algebra to vertex operator algebra with Virasoro action.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Open Library and zbMATH both date the book 1988. FLM introduced the Virasoro action and bounded-below property as extra axioms (Wikipedia). The 1984 PNAS construction of the moonshine module is under the moonshine event; the term vertex operator algebra was not searched for in earlier FLM preprints (for example the 1985 MSRI volume).",
     "ev": [
      {
       "c": "Book title, series and year verified (zbMATH)",
@@ -85892,6 +86039,47 @@
      },
      {
       "c": "Wikipedia: the VOA notion was introduced as a modification of vertex algebra by FLM in 1988",
+      "s": "Wikipedia: Vertex operator algebra",
+      "u": "https://en.wikipedia.org/wiki/Vertex_operator_algebra",
+      "k": "history_page"
+     },
+     {
+      "c": "Open Library lists Vertex operator algebras and the Monster, first published 1988.",
+      "s": "Open Library search",
+      "u": "https://openlibrary.org/search.json?title=vertex+operator+algebras+and+the+monster",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "first_application",
+    "y": 1992,
+    "ye": null,
+    "p": "year",
+    "l": "Borcherds' proof of monstrous moonshine",
+    "w": "R. E. Borcherds, Monstrous moonshine and monstrous Lie superalgebras, Invent. Math. 109 (1992) 405-444",
+    "pe": [
+     "Richard Borcherds"
+    ],
+    "d": "Borcherds proves the Conway-Norton moonshine conjecture using vertex algebras and the FLM moonshine module.",
+    "ph": null,
+    "c": "medium",
+    "n": "First purposeful use of the notion on a major target problem as far as found; the paper was not read, and Wikipedia only names moonshine as an application and the module V-natural as the object with monster symmetry. Same paper may be recorded under the moonshine event.",
+    "ev": [
+     {
+      "c": "Monstrous moonshine and monstrous Lie superalgebras, Invent. Math. 109 (1992) 405-444.",
+      "s": "Crossref record",
+      "u": "https://doi.org/10.1007/bf01232032",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Same paper, Invent. Math. 109, 405-444 (1992).",
+      "s": "zbMATH Open, Zbl 0799.17014",
+      "u": "https://zbmath.org/?q=an:0799.17014",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Names monstrous moonshine as an application and the moonshine module with monster symmetry as the key example.",
       "s": "Wikipedia: Vertex operator algebra",
       "u": "https://en.wikipedia.org/wiki/Vertex_operator_algebra",
       "k": "history_page"
@@ -85906,12 +86094,12 @@
     "l": "Modular invariance of characters of VOAs",
     "w": "Zhu, Modular invariance of characters of vertex operator algebras, J. Amer. Math. Soc. 9 (1996) 237-302",
     "pe": [
-     "Zhu"
+     "Yongchang Zhu"
     ],
     "d": "Proves modular invariance of characters for rational vertex operator algebras, a central tool afterwards.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Crossref and zbMATH agree on J. Amer. Math. Soc. 9 (1996) 237-302. Wikipedia credits Zhu 1996 with the modular invariance theorem for regular VOAs.",
     "ev": [
      {
       "c": "Journal, volume, pages and year verified (Crossref)",
@@ -85929,23 +86117,29 @@
    },
    {
     "r": "consolidation",
-    "y": 1996,
+    "y": 1997,
     "ye": null,
     "p": "year",
     "l": "Introductory textbook on vertex algebras",
-    "w": "Kac, Vertex algebras for beginners, AMS University Lecture Series 10 (1996; second edition 1998)",
+    "w": "V. Kac, Vertex algebras for beginners, AMS University Lecture Series 10 (1997; second edition 1998)",
     "pe": [
-     "Kac"
+     "Victor Kac"
     ],
     "d": "Accessible systematic treatment of vertex algebras and their axioms.",
     "ph": null,
-    "c": "high",
-    "n": null,
+    "c": "medium",
+    "n": "zbMATH dates the first edition 1996, Open Library 1997 (editions 1997, 1998); the later date is used as the publication year. Textbook status not checked against a preface.",
     "ev": [
      {
       "c": "Book title, series and year verified (zbMATH)",
       "s": "zbMATH",
       "u": "https://zbmath.org/?q=an:0861.17017",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Open Library lists Vertex algebras for beginners, first published 1997, editions 1997 and 1998.",
+      "s": "Open Library search",
+      "u": "https://openlibrary.org/search.json?title=vertex+algebras+for+beginners",
       "k": "bibliographic_record"
      }
     ]
@@ -86037,7 +86231,7 @@
     ]
    }
   ],
-  "notes": "Leads file has an entry for WB99 with zero candidates; Wikipedia (Vertex_operator_algebra) used. MacTutor HistTopics slugs were not resolvable. The FLM 1984 PNAS paper is the first construction of the moonshine module and is recorded under the moonshine event, not repeated here. No field-level naming record beyond the 1988 monograph was found.",
+  "notes": "Reviewed against Crossref (Borcherds 1986 and 1992, Zhu), zbMATH (FLM, Kac, Zhu, Borcherds 1992), Open Library (FLM, Kac) and Wikipedia (Vertex operator algebra). Added Borcherds 1992 as first application. Kac's book year changed from 1996 to 1997 (Open Library) where zbMATH says 1996. The 1984 FLM moonshine construction is under the moonshine event. Not read: any of the papers or books, and earlier CFT precursors (for example Belavin-Polyakov-Zamolodchikov 1984) are not entered.",
   "catalogueDates": [
    [
     1984,
@@ -88394,7 +88588,7 @@
     {
      "p": "P358",
      "f": "Lie theory",
-     "d": 72,
+     "d": 74,
      "t": "feeds"
     },
     {
@@ -90441,7 +90635,7 @@
     {
      "p": "P009",
      "f": "algebraic number theory",
-     "d": 112,
+     "d": 113,
      "t": "context"
     }
    ],
@@ -91414,7 +91608,7 @@
     {
      "p": "P009",
      "f": "algebraic number theory",
-     "d": 120,
+     "d": 121,
      "t": "context"
     }
    ],
@@ -106059,11 +106253,11 @@
   "grade": {},
   "shown": {
    "conceptual": {
-    "y": 1876,
+    "y": 1874,
     "basis": "first statement"
    },
    "methodological": {
-    "y": 1880,
+    "y": 1876,
     "basis": "earliest key development; no first application found"
    },
    "institutional": {
@@ -106077,10 +106271,10 @@
    "label": "Theorie der Transformationsgruppen I in Math. Annalen",
    "same": true
   },
-  "y": 1876,
+  "y": 1874,
   "approx": false,
   "derived": {
-   "conceptual": 1876,
+   "conceptual": 1874,
    "methodological": null,
    "institutional": 1888
   },
@@ -106090,35 +106284,6 @@
    "Structure and classification (Killing, Cartan, Weyl)"
   ],
   "ms": [
-   {
-    "r": "precursor",
-    "y": 1872,
-    "ye": null,
-    "p": "year",
-    "l": "Lie's contact transformations and PDEs",
-    "w": "S. Lie, Ueber Complexe, insbesondere Linien- und Kugel-Complexe, mit Anwendung auf die Theorie partieller Differentialgleichungen, Math. Ann. 5, 1872",
-    "pe": [
-     "Sophus Lie"
-    ],
-    "d": "Lie used contact transformations (found in Paris) to treat complexes and first-order partial differential equations.",
-    "ph": null,
-    "c": "high",
-    "n": null,
-    "ev": [
-     {
-      "c": "Crossref: Math. Ann. 5 (1872).",
-      "s": "Crossref",
-      "u": "https://doi.org/10.1007/bf01446331",
-      "k": "bibliographic_record"
-     },
-     {
-      "c": "Contact transformations discovered in Paris; doctorate 1872.",
-      "s": "MacTutor, Lie biography",
-      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Lie/",
-      "k": "history_page"
-     }
-    ]
-   },
    {
     "r": "precursor",
     "y": 1873,
@@ -106132,7 +106297,7 @@
     "d": "Lie turned from PDEs to systematic work on continuous transformation groups and infinitesimal generators.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Dating rests on MacTutor and on Hawkins as reported by Wikipedia (Lie dated the birth of the theory to that winter; Hawkins suggests a longer period). Private development, so a precursor only.",
     "ev": [
      {
       "c": "Lie began developing the theory of continuous transformation groups in winter 1873-74.",
@@ -106150,24 +106315,59 @@
    },
    {
     "r": "first_statement",
+    "y": 1874,
+    "ye": null,
+    "p": "year",
+    "l": "Lie, Ueber Gruppen von Transformationen (Goettingen note)",
+    "w": "S. Lie, Ueber Gruppen von Transformationen, Nachrichten von der Koenigl. Gesellschaft der Wissenschaften zu Goettingen 1874, 529-542",
+    "pe": [
+     "Sophus Lie"
+    ],
+    "d": "Lie publishes a first short note on groups of transformations, the earliest printed statement of his continuous-group theory.",
+    "ph": null,
+    "c": "medium",
+    "n": "zbMATH (Jahrbuch 06.0093.01) dates the note 1874; Wikipedia (Lie group) says his 1870s papers, except the very first note, appeared in Norwegian journals. The text of the note was not read, so its content is taken from the title and the secondary remark. Replaces the 1876 Archiv paper as the first statement.",
+    "ev": [
+     {
+      "c": "Lie, Ueber Gruppen von Transformationen, Goett. Nachr. 1874, 529-542 (1874); EuDML 179698.",
+      "s": "zbMATH Open, Zbl/JFM 06.0093.01",
+      "u": "https://zbmath.org/?q=an:06.0093.01",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Lie dated the birth of the theory to winter 1873-74; his papers from the 1870s, except the very first note, appeared in Norwegian journals.",
+      "s": "Wikipedia, Lie group",
+      "u": "https://en.wikipedia.org/wiki/Lie_group",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
     "y": 1876,
     "ye": null,
     "p": "year",
     "l": "Lie's Theorie der Transformationsgruppen in the Christiania archive",
-    "w": "S. Lie, Theorie der Transformations-Gruppen I, II, Archiv for Mathematik og Naturvidenskab 1, 1876",
+    "w": "S. Lie, Theorie der Transformations-Gruppen I, II, Archiv for Mathematik og Naturvidenskab 1 (1876) 19-58, 152-202",
     "pe": [
      "Sophus Lie"
     ],
-    "d": "Lie set out transformation groups and their infinitesimal generators in a Norwegian journal.",
+    "d": "Lie gives a first full account of transformation groups and their infinitesimal generators in a Norwegian journal.",
     "ph": null,
     "c": "medium",
-    "n": "An 1874 Gottingen Nachrichten note on groups of transformations probably precedes this; its original year was not confirmed (only a modern reprint record was found).",
+    "n": "Role changed from first statement: the 1874 Goettingen note is earlier. Pages follow zbMATH (JFM 08.0212.01); Wikipedia lists 19-57 and 152-193.",
     "ev": [
      {
       "c": "Cited with pages 19-57 and 152-193, 1876.",
       "s": "Wikipedia, Lie group (reference list)",
       "u": "https://en.wikipedia.org/wiki/Lie_group",
       "k": "history_page"
+     },
+     {
+      "c": "zbMATH lists Theorie der Transformations-Gruppen I, II, Arch. f. Math. og Nat. 1, 19-58, 152-202 (1876).",
+      "s": "zbMATH Open, JFM 08.0212.01",
+      "u": "https://zbmath.org/?q=an:08.0212.01",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -106187,7 +106387,7 @@
     "n": null,
     "ev": [
      {
-      "c": "Crossref: Math. Ann. 16 (1880).",
+      "c": "Crossref: Theorie der Transformationsgruppen I, Math. Ann. 16 (1880) 441-528.",
       "s": "Crossref",
       "u": "https://doi.org/10.1007/bf01446218",
       "k": "bibliographic_record"
@@ -106200,20 +106400,32 @@
     "ye": null,
     "p": "year",
     "l": "Killing's classification work on finite continuous groups",
-    "w": "W. Killing, Die Zusammensetzung der stetigen endlichen Transformationsgruppen, Math. Ann. 33, 1888",
+    "w": "W. Killing, Die Zusammensetzung der stetigen endlichen Transformationsgruppen, Math. Ann. 31 (1888) 252-290; parts II-IV in vols 33 (1889), 34 (1889), 36 (1890)",
     "pe": [
      "Wilhelm Killing"
     ],
     "d": "Killing began the structural classification of the algebras of continuous groups, later completed by Cartan.",
     "ph": null,
     "c": "medium",
-    "n": "Significance stated from background knowledge, not read in the paper.",
+    "n": "Part I is Math. Ann. 31 (1888); the Crossref record formerly cited (vol. 33, pp. 1-48) is part II, dated 1888 by Crossref and 1889 by zbMATH. Significance is stated from MacTutor/Wikipedia, the papers were not read.",
     "ev": [
      {
-      "c": "Crossref: Math. Ann. 33 (1888), with sequels in vols 34 and 36.",
-      "s": "Crossref",
-      "u": "https://doi.org/10.1007/bf01444109",
+      "c": "Crossref: Killing, Die Zusammensetzung der stetigen endlichen Transformations-gruppen, Math. Ann. 31 (1888) 252-290 (part I).",
+      "s": "Crossref record",
+      "u": "https://doi.org/10.1007/bf01211904",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "zbMATH lists parts I, II: Math. Ann. 31, 252-290 (1888); 33, 1-48 (1889).",
+      "s": "zbMATH Open, JFM 20.0368.03",
+      "u": "https://zbmath.org/?q=an:20.0368.03",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Killing studied the Lie algebras of Lie groups independently; Cartan completed the classification of semisimple algebras in 1900.",
+      "s": "MacTutor, Lie biography",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Lie/",
+      "k": "history_page"
      }
     ]
    },
@@ -106244,6 +106456,12 @@
       "s": "Wikipedia, Lie group",
       "u": "https://en.wikipedia.org/wiki/Lie_group",
       "k": "history_page"
+     },
+     {
+      "c": "zbMATH lists the three Abschnitte: Teubner 1888, 1890, 1893.",
+      "s": "zbMATH Open, JFM 20.0368.01, 23.0364.01, 25.0623.01",
+      "u": "https://zbmath.org/?q=an:25.0623.01",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -106259,14 +106477,20 @@
     ],
     "d": "The term for Lie groups arises in French in the thesis of Lie's student Tresse.",
     "ph": null,
-    "c": "medium",
-    "n": null,
+    "c": "low",
+    "n": "Rests on Wikipedia only. Tresse's thesis is Sur les invariants differentiels des groupes continus de transformations, published in Acta Math. 18 (1894) 1-88 (Crossref); the thesis was defended in 1893, so the printed Acta year is later and the first use of the phrase in the text was not read.",
     "ev": [
      {
       "c": "The term 'groupes de Lie' first appeared in 1893 in Tresse's thesis.",
       "s": "Wikipedia, Lie group",
       "u": "https://en.wikipedia.org/wiki/Lie_group",
       "k": "history_page"
+     },
+     {
+      "c": "Crossref: Tresse, Sur les invariants differentiels des groupes continus de transformations, Acta Math. 18 (1894) 1-88.",
+      "s": "Crossref record",
+      "u": "https://doi.org/10.1007/bf02418270",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -106276,14 +106500,14 @@
     "ye": null,
     "p": "year",
     "l": "Weyl's representation theory of semisimple groups",
-    "w": "H. Weyl, Theorie der Darstellung kontinuierlicher halb-einfacher Gruppen durch lineare Transformationen, Math. Z. 23, 1925",
+    "w": "H. Weyl, Theorie der Darstellung kontinuierlicher halb-einfacher Gruppen durch lineare Transformationen I, Math. Z. 23 (1925) 271-309 (II-IV in Math. Z. 24, 1926)",
     "pe": [
      "Hermann Weyl"
     ],
     "d": "Weyl turned Lie groups into a central tool for representation theory and mathematical physics.",
     "ph": null,
     "c": "medium",
-    "n": "Significance from background knowledge.",
+    "n": "Significance from background knowledge; the paper was not read and no history page was checked for this claim.",
     "ev": [
      {
       "c": "Crossref: Math. Z. 23 (1925).",
@@ -106366,7 +106590,7 @@
     ]
    }
   ],
-  "notes": "The first_statement is low-precision: Lie's 1874 Gottingen note and 1876 Archiv papers are both candidates and only the 1876 citation is on a history page. No first_application recorded; Lie's integration of ODEs by groups was not dated from a record. The term 'Lie algebra' (Weyl, 1930s) was not searched.",
+  "notes": "Reviewed against Crossref (Math. Ann. 5, 16, 31, 33; Weyl; Tresse), zbMATH (Goettingen note 1874, Archiv 1876, Killing, Lie-Engel volumes), archive.org and MacTutor/Wikipedia. The first statement is now the 1874 Goettingen note; the 1876 Archiv paper is the first full account. The 1872 Math. Ann. contact-transformation paper (a precursor) was dropped to stay within eight milestones. 'Lie algebra' naming (Weyl, 1930s) not searched; no first_application dated (Lie's integration of ODEs by groups). Not read: Lie's 1874 note, Killing and Weyl papers, Tresse's thesis.",
   "catalogueDates": [
    [
     1870,
@@ -106399,25 +106623,25 @@
     {
      "p": "P006",
      "f": "Group theory",
-     "d": 30,
+     "d": 28,
      "t": "feeds"
     },
     {
      "p": "P010",
      "f": "geometry through continuous transformation groups",
-     "d": 4,
+     "d": 2,
      "t": "named"
     },
     {
      "p": "P382",
      "f": "abstract and continuous groups",
-     "d": 22,
+     "d": 20,
      "t": "named"
     },
     {
      "p": "P151",
      "f": "differential equations",
-     "d": 186,
+     "d": 184,
      "t": "context"
     }
    ],
@@ -106425,31 +106649,31 @@
     {
      "p": "P371",
      "f": "Lie theory",
-     "d": 23,
+     "d": 25,
      "t": "feeds"
     },
     {
      "p": "P281",
      "f": "Lie theory",
-     "d": 72,
+     "d": 74,
      "t": "feeds"
     },
     {
      "p": "P423",
      "f": "Lie theory (Baker-Hausdorff formula, Lie rings)",
-     "d": 61,
+     "d": 63,
      "t": "context"
     },
     {
      "p": "P206",
      "f": "Lie theory",
-     "d": 91,
+     "d": 93,
      "t": "context"
     },
     {
      "p": "P483",
      "f": "Lie theory (total positivity, canonical bases)",
-     "d": 125,
+     "d": 127,
      "t": "context"
     }
    ],
@@ -110124,7 +110348,7 @@
     {
      "p": "P358",
      "f": "Lie theory",
-     "d": 23,
+     "d": 25,
      "t": "feeds"
     }
    ],
@@ -114080,7 +114304,7 @@
     {
      "p": "P358",
      "f": "abstract and continuous groups",
-     "d": 22,
+     "d": 20,
      "t": "named"
     }
    ],
@@ -115143,7 +115367,7 @@
     {
      "p": "P009",
      "f": "Algebraic number theory",
-     "d": 50,
+     "d": 51,
      "t": "feeds"
     },
     {
@@ -116511,7 +116735,7 @@
     {
      "p": "P009",
      "f": "Algebraic number theory",
-     "d": 52,
+     "d": 53,
      "t": "feeds"
     }
    ],
@@ -119838,7 +120062,7 @@
     {
      "p": "P009",
      "f": "Algebraic number theory",
-     "d": 63,
+     "d": 64,
      "t": "feeds"
     },
     {
@@ -124216,7 +124440,7 @@
     {
      "p": "P009",
      "f": "algebraic number theory (class field theory, p-adic local theory)",
-     "d": 61,
+     "d": 62,
      "t": "context"
     }
    ],
@@ -127195,7 +127419,7 @@
     {
      "p": "P358",
      "f": "Lie theory (Baker-Hausdorff formula, Lie rings)",
-     "d": 61,
+     "d": 63,
      "t": "context"
     }
    ],
@@ -129143,11 +129367,11 @@
   "grade": {},
   "shown": {
    "conceptual": {
-    "y": 1751,
-    "basis": "earliest milestone (precursor); no first statement found"
+    "y": 1765,
+    "basis": "first statement"
    },
    "methodological": {
-    "y": 1855,
+    "y": 1766,
     "basis": "earliest key development; no first application found"
    },
    "institutional": {
@@ -129161,10 +129385,10 @@
    "label": "Cauchy's équation caractéristique",
    "same": false
   },
-  "y": 1751,
-  "approx": true,
+  "y": 1765,
+  "approx": false,
   "derived": {
-   "conceptual": null,
+   "conceptual": 1765,
    "methodological": null,
    "institutional": 1839
   },
@@ -129176,19 +129400,19 @@
   ],
   "ms": [
    {
-    "r": "precursor",
-    "y": 1751,
-    "ye": 1765,
-    "p": "range",
-    "l": "Euler on principal axes of a rotating body",
-    "w": "Euler, Du mouvement de rotation des corps solides autour d'un axe variable (written 1751, published 1765, Mem. Acad. Berlin 14)",
+    "r": "first_statement",
+    "y": 1765,
+    "ye": null,
+    "p": "year",
+    "l": "Euler on the principal axes of a rotating body",
+    "w": "Euler, Du mouvement de rotation des corps solides autour d'un axe variable, Mem. Acad. Berlin 14 (written 1751, published 1765) pp. 154-193",
     "pe": [
      "Leonhard Euler"
     ],
     "d": "Euler proves every rigid body has a principal axis of rotation, an early eigenvector problem.",
     "ph": null,
     "c": "medium",
-    "n": "Euler Archive E292 gives written 1751 and published 1765 in Mem. Acad. Berlin 14, pp. 154-193; the 1760 date is not supported. The input's 'd'Alembert's loaded string' origin is not supported by the pages I read: the pages name Euler, Segner (1755), Lagrange and Cauchy. Lagrange's discrete-mass string is mentioned by MacTutor without a year.",
+    "n": "Euler Archive E292 gives written 1751 and published 1765; publication year governs, so the date moved from 1751 to 1765. Role changed from precursor because the paper is public. D'Alembert's treatment of a string loaded with two or three masses (Traite de dynamique 1743; MacTutor says the eigenvalue concept appears there about 80 years before Cauchy) is an earlier candidate, not entered: the exact work is not verified, and a date before 1750 would put this event before P445 (vibrating-string controversy), which it follows by an existing link. The input summary's d'Alembert origin is therefore unresolved, not refuted. The 1760 date is not supported.",
     "ev": [
      {
       "c": "In 1751 Euler proved any body has a principal axis of rotation; Lagrange realised the axes are eigenvectors of the inertia matrix",
@@ -129201,6 +129425,106 @@
       "s": "Euler Archive E292",
       "u": "https://scholarlycommons.pacific.edu/euler-works/292/",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "MacTutor: the eigenvalue concept appeared in d'Alembert's study of a string with attached masses, about 80 years before Cauchy's 1826 work (candidate earlier statement, work not named).",
+      "s": "MacTutor, Matrices and determinants",
+      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1766,
+    "ye": null,
+    "p": "year",
+    "l": "Lagrange integrates general systems of linear differential equations",
+    "w": "J.-L. Lagrange, Solution de differents problemes de calcul integral, Miscellanea Taurinensia 3 (1766); Oeuvres 1, 471-668",
+    "pe": [
+     "Joseph-Louis Lagrange"
+    ],
+    "d": "Lagrange solves the small oscillations of an arbitrary system of bodies through the characteristic equation of a linear system, extending d'Alembert's cases of two and three masses.",
+    "ph": null,
+    "c": "medium",
+    "n": "Citation and year follow Brechenmacher's bibliography; the memoir itself was not read and the exact volume and pages were not checked in a record.",
+    "ev": [
+     {
+      "c": "Describes Lagrange's 1766 treatment of a general system of bodies, generalising d'Alembert's two- and three-mass cases, with remarks on real and equal roots.",
+      "s": "Brechenmacher, L identite algebrique d une pratique ... equation a l aide de laquelle on determine les inegalites seculaires des planetes (1766-1874), arXiv:0704.2931",
+      "u": "https://arxiv.org/abs/0704.2931",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1829,
+    "ye": null,
+    "p": "year",
+    "l": "Cauchy: real roots of the equation for symmetric systems",
+    "w": "A.-L. Cauchy, Sur l'equation a l'aide de laquelle on determine les inegalites seculaires du mouvement des planetes, Exercices de mathematiques 4 (1829); Oeuvres (2) 9, 174-195",
+    "pe": [
+     "Augustin-Louis Cauchy"
+    ],
+    "d": "Cauchy shows that the secular equation of a symmetric system has real roots, linking quadrics, principal axes and small oscillations.",
+    "ph": null,
+    "c": "medium",
+    "n": "Year and citation from Brechenmacher's bibliography; Cauchy's quadric paper is Exercices 3 (1828, Oeuvres (2) 8, 8-35). MacTutor dates Cauchy's results to 1826 without naming a work; Hawkins (1975) is the standard account and was not accessible. The papers were not read. Role changed from first statement because Euler and Lagrange are earlier public statements.",
+    "ev": [
+     {
+      "c": "In the early 19th century Cauchy saw how the work could classify quadric surfaces and generalised it to arbitrary dimensions",
+      "s": "Wikipedia, Eigenvalues and eigenvectors",
+      "u": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+      "k": "history_page"
+     },
+     {
+      "c": "Cauchy proved the spectral theorem for symmetric matrices (cites Hawkins, Cauchy and the spectral theory of matrices, 1975)",
+      "s": "Wikipedia, Spectral theorem",
+      "u": "https://en.wikipedia.org/wiki/Spectral_theorem",
+      "k": "history_page"
+     },
+     {
+      "c": "Cites the 1828 and 1829 Exercices de mathematiques papers and Cauchy's classification of quadrics in 1829.",
+      "s": "Brechenmacher, L identite algebrique d une pratique ... equation a l aide de laquelle on determine les inegalites seculaires des planetes (1766-1874), arXiv:0704.2931",
+      "u": "https://arxiv.org/abs/0704.2931",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1836,
+    "ye": null,
+    "p": "year",
+    "l": "Sturm and Liouville on second-order differential eigenproblems",
+    "w": "C. Sturm, Memoire sur les equations differentielles lineaires du second ordre, J. Math. Pures Appl. 1 (1836) 106-186 (Collected Works 2009 reprint pp. 392-472)",
+    "pe": [
+     "Charles-François Sturm",
+     "Joseph Liouville"
+    ],
+    "d": "Sturm and Liouville develop eigenvalue problems for differential operators, bringing Fourier's ideas to Cauchy's attention.",
+    "ph": null,
+    "c": "low",
+    "n": "Year from volume 1 of Liouville's journal (1836); Crossref lists only the 2009 reprint, whose 80 pages match pp. 106-186. Sturm's earlier note on systems of linear differential equations is Bull. sci. math. 12 (1829) 313-32 (Brechenmacher). Liouville's papers in the same volume were not checked.",
+    "ev": [
+     {
+      "c": "Sturm elaborated on Fourier's ideas and brought them to Cauchy; Liouville studied similar problems, giving Sturm-Liouville theory",
+      "s": "Wikipedia, Eigenvalues and eigenvectors",
+      "u": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+      "k": "history_page"
+     },
+     {
+      "c": "Sturm is best remembered for the Sturm-Liouville problem; elected to the Academy 1836, a period of his differential equation results",
+      "s": "MacTutor, Charles-François Sturm",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Sturm/",
+      "k": "history_page"
+     },
+     {
+      "c": "Lists Sturm's 1829 Bulletin extract on integrating a system of linear differential equations.",
+      "s": "Brechenmacher, L identite algebrique d une pratique ... equation a l aide de laquelle on determine les inegalites seculaires des planetes (1766-1874), arXiv:0704.2931",
+      "u": "https://arxiv.org/abs/0704.2931",
+      "k": "history_page"
      }
     ]
    },
@@ -129210,19 +129534,25 @@
     "ye": null,
     "p": "year",
     "l": "Cauchy's équation caractéristique",
-    "w": "Cauchy, Mémoire sur l'intégration des équations linéaires, Comptes rendus 8, 1839",
+    "w": "A.-L. Cauchy, Memoire sur l integration des equations lineaires, Comptes rendus 8 (1839) 369-373",
     "pe": [
      "Augustin-Louis Cauchy"
     ],
     "d": "Cauchy coined 'characteristic root', source of the terms characteristic equation and later eigenvalue.",
     "ph": null,
     "c": "medium",
-    "n": "The 1839 paper is the cited example of the phrase; Cauchy may have used 'racine caractéristique' earlier.",
+    "n": "The 1839 paper is the cited example of the phrase (Wikipedia, Brechenmacher bibliography 1839b); Cauchy may have used 'racine caracteristique' earlier.",
     "ev": [
      {
       "c": "Cauchy coined racine caractéristique; his term survives in characteristic equation; 1839 memoir quoted",
       "s": "Wikipedia, Eigenvalues and eigenvectors",
       "u": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+      "k": "history_page"
+     },
+     {
+      "c": "Bibliography entry: Memoire sur l integration des equations lineaires, Comptes rendus 8 (1839) 369-373.",
+      "s": "Brechenmacher, L identite algebrique d une pratique ... equation a l aide de laquelle on determine les inegalites seculaires des planetes (1766-1874), arXiv:0704.2931",
+      "u": "https://arxiv.org/abs/0704.2931",
       "k": "history_page"
      }
     ]
@@ -129233,19 +129563,25 @@
     "ye": null,
     "p": "year",
     "l": "Hermite extends to Hermitian matrices",
-    "w": "Hermite, 1855",
+    "w": "C. Hermite, Remarque sur un theoreme de M. Cauchy, Comptes rendus 41 (1855) 181-183",
     "pe": [
      "Charles Hermite"
     ],
-    "d": "Hermite extends Cauchy's real-symmetric result to the complex Hermitian case.",
+    "d": "Hermite extends Cauchy's real-symmetric result to Hermitian matrices.",
     "ph": null,
-    "c": "low",
-    "n": "Specific paper not identified; kept low-confidence.",
+    "c": "medium",
+    "n": "Citation from Brechenmacher's bibliography (Oeuvres 1, 479-481); Wikipedia gives only the year 1855. The note itself was not read.",
     "ev": [
      {
       "c": "This was extended by Charles Hermite in 1855 to Hermitian matrices",
       "s": "Wikipedia, Eigenvalues and eigenvectors",
       "u": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
+      "k": "history_page"
+     },
+     {
+      "c": "Bibliography entry: Hermite, Remarque sur un theoreme de M. Cauchy, Comptes rendus 41 (1855) 181-183.",
+      "s": "Brechenmacher, L identite algebrique d une pratique ... equation a l aide de laquelle on determine les inegalites seculaires des planetes (1766-1874), arXiv:0704.2931",
+      "u": "https://arxiv.org/abs/0704.2931",
       "k": "history_page"
      }
     ]
@@ -129263,72 +129599,19 @@
     "d": "Hilbert, studying integral operators as infinite matrices, was the first to use the German word eigen.",
     "ph": null,
     "c": "medium",
-    "n": "The 1904 year comes from the footnote's source journal volume; the Crossref search found only later book versions (1912 book in archive catalogues).",
+    "n": "zbMATH (JFM 35.0378.02) dates the first communication 1904 (Nachr. Gott. 1904, 49-91), which settles the year; that Hilbert was the first to use 'eigen' rests on Wikipedia and was not checked in the text.",
     "ev": [
      {
       "c": "Hilbert was the first to use the German word eigen; the cited text is a 1904 Göttingen Nachrichten paper",
       "s": "Wikipedia, Eigenvalues and eigenvectors",
       "u": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
       "k": "history_page"
-     }
-    ]
-   },
-   {
-    "r": "first_statement",
-    "y": null,
-    "ye": null,
-    "p": "unknown",
-    "l": "Cauchy: real symmetric matrices diagonalise",
-    "w": "Cauchy, early 19th-century work on quadrics and symmetric systems (Hawkins 1975 analyses it)",
-    "pe": [
-     "Augustin-Louis Cauchy"
-    ],
-    "d": "Cauchy classified quadric surfaces and showed the result generalises to arbitrary dimension, giving real roots for symmetric systems.",
-    "ph": null,
-    "c": "low",
-    "n": "Left open: year not established. Archive record shows Exercices de mathématiques is dated 1829 (bub_gb_JRQOAAAAQAAJ), and the Oeuvres reprint has a paper on the secular equation (doi 10.1017/cbo9780511702686.009), but I did not confirm that this is the paper, so I leave the year null.",
-    "ev": [
-     {
-      "c": "In the early 19th century Cauchy saw how the work could classify quadric surfaces and generalised it to arbitrary dimensions",
-      "s": "Wikipedia, Eigenvalues and eigenvectors",
-      "u": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
-      "k": "history_page"
      },
      {
-      "c": "Cauchy proved the spectral theorem for symmetric matrices (cites Hawkins, Cauchy and the spectral theory of matrices, 1975)",
-      "s": "Wikipedia, Spectral theorem",
-      "u": "https://en.wikipedia.org/wiki/Spectral_theorem",
-      "k": "history_page"
-     }
-    ]
-   },
-   {
-    "r": "key_development",
-    "y": null,
-    "ye": null,
-    "p": "unknown",
-    "l": "Sturm and Liouville on second-order differential eigenproblems",
-    "w": "Sturm, memoir on linear differential equations of the second order, Journal de Mathématiques Pures et Appliquées, 1836 (Collected Works edition)",
-    "pe": [
-     "Charles-François Sturm",
-     "Joseph Liouville"
-    ],
-    "d": "Sturm and Liouville develop eigenvalue problems for differential operators, bringing Fourier's ideas to Cauchy's attention.",
-    "ph": null,
-    "c": "low",
-    "n": "Year left null: pages give 1836 only for the Academy election. Crossref lists only the 2009 Collected Works reprint (doi 10.1007/978-3-7643-7990-2_30).",
-    "ev": [
-     {
-      "c": "Sturm elaborated on Fourier's ideas and brought them to Cauchy; Liouville studied similar problems, giving Sturm-Liouville theory",
-      "s": "Wikipedia, Eigenvalues and eigenvectors",
-      "u": "https://en.wikipedia.org/wiki/Eigenvalues_and_eigenvectors",
-      "k": "history_page"
-     },
-     {
-      "c": "Sturm is best remembered for the Sturm-Liouville problem; elected to the Academy 1836, a period of his differential equation results",
-      "s": "MacTutor, Charles-François Sturm",
-      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Sturm/",
-      "k": "history_page"
+      "c": "zbMATH: Hilbert, Grundzuege einer allgemeinen Theorie der linearen Integralgleichungen, first communication, Nachr. Ges. Wiss. Goettingen 1904, 49-91.",
+      "s": "zbMATH Open, JFM 35.0378.02",
+      "u": "https://zbmath.org/?q=an:35.0378.02",
+      "k": "bibliographic_record"
      }
     ]
    }
@@ -129391,7 +129674,7 @@
     ]
    }
   ],
-  "notes": "The summary says the idea first appeared in d'Alembert's loaded string; the pages I read credit Euler (1751 principal axes), Lagrange (inertia matrix, vibrating string) and Cauchy, not d'Alembert. No clear first_statement date could be verified; Cauchy's is left with a null year. No institution milestone. person without verified work: Joseph-Louis Lagrange (developer). Mismatch check (H17): a zbMATH title search for the 1836 Memoire on second-order linear differential equations returned no matching record in this pass, so that year stays unresolved. The map year is an approximate fallback to this precursor; it does not assert a verified first public statement.",
+  "notes": "Reviewed against Euler Archive E292, Crossref/zbMATH (Hilbert 1904), Brechenmacher's survey (arXiv:0704.2931), MacTutor and Wikipedia. Dates now follow publication: Euler 1765 (first statement), Lagrange 1766, Cauchy 1829, Sturm 1836, Cauchy 1839, Hermite 1855, Hilbert 1904. The d'Alembert loaded-string origin in the input summary is an unresolved earlier candidate (work not identified, and an earlier date would break the chronology of the link to P445). Person without verified work: Lagrange (entered here from a secondary bibliography only). Not read: any primary paper.",
   "catalogueDates": [
    [
     1743,
@@ -129419,7 +129702,7 @@
     {
      "p": "P445",
      "f": "vibrating strings and spectral methods",
-     "d": 1,
+     "d": 15,
      "t": "named"
     }
    ],
@@ -134156,7 +134439,7 @@
     {
      "p": "P430",
      "f": "vibrating strings and spectral methods",
-     "d": 1,
+     "d": 15,
      "t": "named"
     }
    ],
@@ -146056,7 +146339,7 @@
     {
      "p": "P358",
      "f": "Lie theory (total positivity, canonical bases)",
-     "d": 125,
+     "d": 127,
      "t": "context"
     }
    ],
@@ -160984,7 +161267,7 @@
     {
      "p": "P009",
      "f": "class groups in algebraic number theory",
-     "d": 175,
+     "d": 176,
      "t": "named"
     }
    ],
@@ -163124,8 +163407,12 @@
   "product": null,
   "why": "Equivariant Seiberg-Witten Floer homology of homology 3-spheres, via Galewski-Stern reduction, showed that manifolds of every dimension at least five need not be triangulable.",
   "cat": "Open harvest",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "methodological": "B",
+   "institutional": "C"
+  },
   "shown": {
    "conceptual": {
     "y": 2013,
@@ -163136,7 +163423,7 @@
     "basis": "first application"
    },
    "institutional": {
-    "y": 2025,
+    "y": 2016,
     "basis": "naming, textbook or institution"
    }
   },
@@ -163151,7 +163438,7 @@
   "derived": {
    "conceptual": 2013,
    "methodological": 2013,
-   "institutional": 2025
+   "institutional": 2016
   },
   "phases": [
    "Triangulation programme (Galewski-Stern, 1978-1980)",
@@ -163165,15 +163452,16 @@
     "ye": null,
     "p": "year",
     "l": "Galewski-Stern classification of triangulations",
-    "w": "Galewski, Stern, Simplicial triangulations of topological manifolds, Proc. Symp. Pure Math. 32 (1978)",
+    "w": "D. Galewski, R. Stern, Simplicial triangulations of topological manifolds, Proc. Symp. Pure Math. 32, Part 2 (1978) 7-12; T. Matumoto, Triangulation of manifolds, ibid. 3-6",
     "pe": [
-     "Galewski",
-     "Stern"
+     "David Galewski",
+     "Ronald Stern",
+     "Takao Matumoto"
     ],
-    "d": "Galewski and Stern open the classification of triangulations of topological manifolds that frames the triangulation question.",
+    "d": "Galewski and Stern, and independently Matumoto, relate the triangulability of high-dimensional topological manifolds to homology 3-spheres of Rokhlin invariant one.",
     "ph": "Triangulation programme (Galewski-Stern, 1978-1980)",
-    "c": "medium",
-    "n": "Content of the reduction (triangulability versus homology spheres) was not checked on a fetched text; Galewski-Stern 1980 Annals paper (DOI 10.2307/1971215) also exists. Matumoto's work not checked.",
+    "c": "high",
+    "n": "The arXiv abstract of Manolescu's paper says that by previous work of Galewski-Stern and Matumoto, the absence of homology spheres Y of Rokhlin invariant one with Y # Y bounding an acyclic smooth 4-manifold implies non-triangulable high-dimensional manifolds. The 1978 papers themselves were not read. The detailed classification is Galewski-Stern, Ann. of Math. 111 (1980) 1-34.",
     "ev": [
      {
       "c": "Galewski-Stern 1978 paper exists (title, venue, year)",
@@ -163186,6 +163474,42 @@
       "s": "Wikipedia: Triangulation (topology)",
       "u": "https://en.wikipedia.org/wiki/Triangulation_(topology)",
       "k": "history_page"
+     },
+     {
+      "c": "zbMATH: Galewski, Stern, Simplicial triangulations of topological manifolds, Proc. Symp. Pure Math. 32 (1978) 7-12; Matumoto, Triangulation of manifolds, 3-6.",
+      "s": "zbMATH Open, Zbl 0511.57015 and Zbl 0509.57010",
+      "u": "https://zbmath.org/?q=an:0511.57015",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Manolescu states that the non-existence result implies non-triangulable manifolds by previous work of Galewski-Stern and Matumoto.",
+      "s": "arXiv:1303.2354 (abstract), Manolescu, Pin(2)-equivariant Seiberg-Witten Floer homology and the Triangulation Conjecture",
+      "u": "https://arxiv.org/abs/1303.2354",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "precursor",
+    "y": 1980,
+    "ye": null,
+    "p": "year",
+    "l": "Galewski-Stern classification of simplicial triangulations",
+    "w": "D. Galewski, R. Stern, Classification of simplicial triangulations of topological manifolds, Ann. of Math. 111 (1980) 1-34",
+    "pe": [
+     "David Galewski",
+     "Ronald Stern"
+    ],
+    "d": "The full classification result that reduces the triangulation conjecture in dimension at least five to a question on homology 3-spheres.",
+    "ph": null,
+    "c": "medium",
+    "n": "Crossref lists the paper (Annals of Mathematics 111, 1980); Crossref gives a single page number. The reduction is taken from the Manolescu abstract, not from this paper.",
+    "ev": [
+     {
+      "c": "Classification of Simplicial Triangulations of Topological Manifolds, Ann. Math. 111 (1980).",
+      "s": "Crossref record",
+      "u": "https://doi.org/10.2307/1971215",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -163205,13 +163529,13 @@
     "n": null,
     "ev": [
      {
-      "c": "G&T 2003 paper, author and year",
+      "c": "Crossref: Geometry & Topology 7 (2003) 889-932.",
       "s": "Crossref",
       "u": "https://doi.org/10.2140/gt.2003.7.889",
       "k": "bibliographic_record"
      },
      {
-      "c": "Manolescu's thesis topic: spectrum-valued TQFT from Seiberg-Witten equations",
+      "c": "Wikipedia: Manolescu's thesis topic was a spectrum-valued TQFT from the Seiberg-Witten equations.",
       "s": "Wikipedia: Ciprian Manolescu",
       "u": "https://en.wikipedia.org/wiki/Ciprian_Manolescu",
       "k": "history_page"
@@ -163224,15 +163548,21 @@
     "ye": null,
     "p": "year",
     "l": "Preprint disproving the triangulation conjecture in dimension 5 and higher",
-    "w": "Manolescu, Pin(2)-equivariant Seiberg-Witten Floer homology and the triangulation conjecture, preprint (2013)",
+    "w": "arXiv:1303.2354 (abstract), Manolescu, Pin(2)-equivariant Seiberg-Witten Floer homology and the Triangulation Conjecture (submitted 10 March 2013)",
     "pe": [
      "Manolescu"
     ],
     "d": "Manolescu releases a preprint disproving the triangulation conjecture for manifolds of dimension five and higher.",
     "ph": "Pin(2)-equivariant disproof (2013-2016)",
-    "c": "medium",
-    "n": "Year from Wikipedia; arXiv preprint record not confirmed. Same preprint also serves as the first application of the Pin(2) Floer tool to triangulation (see next milestone).",
+    "c": "high",
+    "n": "arXiv 1303.2354 v1 was submitted 10 March 2013 (arXiv API). The abstract states that Y # Y cannot bound an acyclic smooth 4-manifold for Y of Rokhlin invariant one, hence non-triangulable high-dimensional manifolds. Counted as both first statement and first application on purpose (same paper). Casson showed earlier that the E8 manifold is not triangulable in dimension 4 (Wikipedia, Hauptvermutung; not milestoned, dimension 4).",
     "ev": [
+     {
+      "c": "arXiv API: Pin(2)-equivariant Seiberg-Witten Floer homology and the Triangulation Conjecture, first submitted 2013-03-10; abstract states the non-triangulability implication.",
+      "s": "arXiv:1303.2354 (abstract), Manolescu, Pin(2)-equivariant Seiberg-Witten Floer homology and the Triangulation Conjecture",
+      "u": "https://arxiv.org/abs/1303.2354",
+      "k": "bibliographic_record"
+     },
      {
       "c": "Manolescu released a paper in early 2013 disproving the triangulation conjecture for dimension 5 and higher",
       "s": "Wikipedia: Ciprian Manolescu",
@@ -163240,9 +163570,9 @@
       "k": "history_page"
      },
      {
-      "c": "arXiv record not retrieved: export.arxiv.org returned HTTP 429 (rate limit) on every attempt",
-      "s": "arXiv API (blocked)",
-      "u": "https://arxiv.org",
+      "c": "Wikipedia (Hauptvermutung): Manolescu proved there are compact topological 5-manifolds not homeomorphic to a simplicial complex; arXiv 1303.2354 (2013).",
+      "s": "Wikipedia: Hauptvermutung",
+      "u": "https://en.wikipedia.org/wiki/Hauptvermutung",
       "k": "history_page"
      }
     ]
@@ -163259,14 +163589,14 @@
     ],
     "d": "The Pin(2)-equivariant Seiberg-Witten Floer tool is applied to the non-triangulable homology-sphere argument.",
     "ph": "Pin(2)-equivariant disproof (2013-2016)",
-    "c": "medium",
-    "n": "Same paper plays the first_statement and first_application roles; counted in both on purpose.",
+    "c": "high",
+    "n": "Same paper as the first statement; counted in both roles on purpose. The abstract says the Pin(2) Floer invariant is applied to show there are no homology spheres of Rokhlin invariant one with Y # Y bounding an acyclic smooth 4-manifold.",
     "ev": [
      {
-      "c": "Same 2013 preprint applies the Floer tool to triangulability",
-      "s": "Wikipedia: Ciprian Manolescu",
-      "u": "https://en.wikipedia.org/wiki/Ciprian_Manolescu",
-      "k": "history_page"
+      "c": "Abstract: defines Pin(2)-equivariant Seiberg-Witten Floer homology and applies it to Rokhlin-invariant-one homology spheres.",
+      "s": "arXiv:1303.2354 (abstract), Manolescu, Pin(2)-equivariant Seiberg-Witten Floer homology and the Triangulation Conjecture",
+      "u": "https://arxiv.org/abs/1303.2354",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -163283,7 +163613,7 @@
     "d": "The disproof appears in the Journal of the American Mathematical Society, the peer-reviewed version of the argument.",
     "ph": "Pin(2)-equivariant disproof (2013-2016)",
     "c": "high",
-    "n": "Crossref issued date is 2015 (online); print volume 29 is 2016. Year set to print year.",
+    "n": "Crossref issued date 2015 (online), print vol. 29 no. 1 (2016) pp. 147-176; zbMATH 1343.57015 dates it 2016. Year set to print year.",
     "ev": [
      {
       "c": "Journal of the American Mathematical Society paper, author and volume",
@@ -163296,6 +163626,35 @@
       "s": "Wikipedia: Ciprian Manolescu",
       "u": "https://en.wikipedia.org/wiki/Ciprian_Manolescu",
       "k": "history_page"
+     },
+     {
+      "c": "zbMATH: J. Am. Math. Soc. 29, No. 1, 147-176 (2016).",
+      "s": "zbMATH Open, Zbl 1343.57015",
+      "u": "https://zbmath.org/?q=an:1343.57015",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "consolidation",
+    "y": 2016,
+    "ye": null,
+    "p": "year",
+    "l": "Manolescu, Lectures on the triangulation conjecture",
+    "w": "C. Manolescu, Lectures on the triangulation conjecture, Proceedings of the 22nd Gokova Geometry-Topology Conference 2015, International Press, 2016, 1-38",
+    "pe": [
+     "Ciprian Manolescu"
+    ],
+    "d": "Lecture notes by the author that present the disproof and the background from Galewski-Stern, Matumoto and Floer theory.",
+    "ph": null,
+    "c": "medium",
+    "n": "By the author of the result, so not independent. The text was not read.",
+    "ev": [
+     {
+      "c": "Lectures on the triangulation conjecture, Gokova 2015 proceedings (2016), pp. 1-38.",
+      "s": "zbMATH Open, Zbl 1358.57004",
+      "u": "https://zbmath.org/?q=an:1358.57004",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -163305,14 +163664,14 @@
     "ye": null,
     "p": "year",
     "l": "Manolescu's survey 'Triangulation and Floer homology'",
-    "w": "C. Manolescu, Triangulation and Floer homology, Proceedings of the International Conference of Basic Science, 2025",
+    "w": "C. Manolescu, Triangulation and Floer homology, Proceedings of the International Conference of Basic Science 2024 (Beijing), vol. 1, International Press, 2025, 1221-1231",
     "pe": [
      "Ciprian Manolescu"
     ],
-    "d": "A survey by the author of the Pin(2)-equivariant result, placing the triangulation disproof within Floer theory.",
+    "d": "A later survey by the author placing the triangulation disproof within Floer theory.",
     "ph": null,
     "c": "low",
-    "n": "A survey by the same author as the key development, so it is not an independent consolidation. Survey and proceedings type from the record; content not read. No earlier survey of this result was found.",
+    "n": "A survey by the same author, so not an independent consolidation. zbMATH gives the 2025 proceedings of the 2024 Beijing conference; the earlier 2016 Gokova lectures (previous milestone) were missed in the earlier pass, so it is a later survey. Content not read.",
     "ev": [
      {
       "c": "zbMATH record 'Triangulation and Floer homology', Manolescu, Zbl 1577.57047",
@@ -163379,7 +163738,7 @@
     ]
    }
   ],
-  "notes": "Input summary is correct that Manolescu's result covers dimension five and higher. Milestone years checked: JAMS (Crossref), G&T 2003 (Crossref), Galewski-Stern 1978/1980 (Crossref). The 2013 preprint year rests on Wikipedia because arXiv returned HTTP 429 on every attempt; a retry is needed for a bibliographic_record. MacTutor Topology in mathematics topic (live) has no entry on triangulation or Hauptvermutung matching the event. No naming or institution milestone exists for this event; the 2025 survey supplies the derived consolidation date.",
+  "notes": "Reviewed against the arXiv record (1303.2354, submitted 2013-03-10, abstract read), Crossref (JAMS, G&T, Galewski-Stern 1980), zbMATH (Galewski-Stern, Matumoto, Manolescu JAMS, lectures, survey) and Wikipedia (Hauptvermutung). Changes: the preprint year is now backed by arXiv (high); the Galewski-Stern and Matumoto 1978 papers and the Galewski-Stern 1980 classification are separate entries; the 2016 Gokova lectures are the first survey, the 2025 survey is a later key development; the 2025 survey citation was corrected. Casson's dimension-4 result and Kirby-Siebenmann are not milestoned. Not read: any paper beyond the arXiv abstract. No naming or institution milestone.",
   "catalogueDates": [
    [
     1976,
