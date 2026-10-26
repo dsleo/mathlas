@@ -12,7 +12,7 @@ Every event also links to curated earlier, later and closely related events. The
 |---|---|
 | **553 events** | dated, typed episodes in which a mathematical idea, field or technique appears or changes |
 | **33 islands** | fields (the lanes of Proofscape's connection map), from Algebra and Geometry to Information & cryptography |
-| **3,052 milestones** | the dated steps inside the events, with **4,599 cited pieces of evidence** |
+| **3,077 milestones** | the dated steps inside the events, with **4,759 cited pieces of evidence** |
 | **1,180 people** | named in the events; **40 landmark mathematicians** stand as statues (37 with a portrait) |
 | **624 links** | between fields, each tied to the event that created it |
 | **Time span** | 2000 BCE to 2025 |
@@ -46,7 +46,7 @@ Every event is one of seven types. The type says *how* mathematics changed, and 
 
 **2. Dated milestones with evidence.** An event is not a single date. It is an ordered list of milestones, each with a role (precursor, first statement, first application, key development, consolidation, naming, institution, recognition), a year, and cited evidence. A milestone needs evidence, and publication year governs the date, not the year of a talk. Years come from bibliographic records (Crossref, zbMATH, Open Library, archive.org, arXiv) where they exist, and from history pages (MacTutor, Wikipedia) otherwise. Private letters and unpublished notes are precursors. An event sits on the map at its first dated public statement when one is recorded. If none is recorded, it uses its earliest dated milestone with an **≈** label; that placement is not a claim of historical firstness.
 
-**3. Two tiers of checking.** 184 events are *directly checked*: each milestone was read against its source and audited. The other 369 are *source-first*: milestones assembled from cited sources but not yet held to that bar. Where a caveat remains it is shown behind an "i" icon on the milestone; confidence grades and bookkeeping notes stay in the data and are not shown.
+**3. Two tiers of checking.** 192 events are *directly checked*: each milestone was read against its source and audited. The other 361 are *source-first*: milestones assembled from cited sources but not yet held to that bar. Where a caveat remains it is shown behind an "i" icon on the milestone; confidence grades and bookkeeping notes stay in the data and are not shown.
 
 **4. Fields.** Each event belongs to the field it *produces*. The 33 fields are the lanes of Proofscape's connection map. A field's island appears in the year of its first event.
 
