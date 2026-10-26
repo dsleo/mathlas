@@ -17159,16 +17159,28 @@
     "y": 1935,
     "ye": null,
     "p": "year",
-    "l": "Church's preliminary report in the Bulletin of the AMS",
-    "w": "Church, An unsolvable problem of elementary number theory. Preliminary report, Bulletin of the American Mathematical Society 41 (1935) 332-333",
+    "l": "Church's 1935 abstract in the Bulletin of the AMS",
+    "w": "Church, An unsolvable problem of elementary number theory. Preliminary report (abstract), Bulletin of the American Mathematical Society 41 (1935) 332-333, within 'Abstracts of papers' pp. 327-350",
     "pe": [
      "Alonzo Church"
     ],
-    "d": "A published preliminary report announcing Church's unsolvability work a year before the full paper.",
+    "d": "A short abstract of a ten-minute talk given to the AMS on 19 April 1935 (abstract received 22 March 1935), a year before the full paper in the American Journal of Mathematics.",
     "ph": null,
     "c": "medium",
-    "n": "Content not read here (the AMS PDF was not retrievable); if it states the result or the thesis it would be the first_statement and move the conceptual date to 1935. Recorded as a precursor until read.",
+    "n": "Crossref lists the containing item as 'Abstracts of papers' (Bull. AMS 41(5), 327-350, May 1935), so this is a meeting abstract. Its text could not be read (the AMS PDF returns 403), so whether it states the unsolvability result or the thesis is unconfirmed; it stays a precursor and the conceptual date stays 1936.",
     "ev": [
+     {
+      "c": "Crossref: Bull. AMS 41(5), May 1935, pp. 327-350, title 'Abstracts of papers' (Church's abstract is on pp. 332-333)",
+      "s": "Crossref 10.1090/S0002-9904-1935-06097-5",
+      "u": "https://doi.org/10.1090/S0002-9904-1935-06097-5",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Church thesis announced to the AMS on 19 April 1935 in a ten-minute contributed talk; abstract received 22 March 1935",
+      "s": "Annales UMCS (Lublin) paper on the Church-Turing thesis",
+      "u": "https://journals.umcs.pl/ai/article/download/2960/2156",
+      "k": "history_page"
+     },
      {
       "c": "Wikipedia, Church-Turing thesis, cites Church, May 1935, Bull. AMS 41(5) 332-333, Preliminary report",
       "s": "English Wikipedia, Church-Turing thesis (references)",
@@ -17251,8 +17263,8 @@
     "pe": [],
     "d": "Cambridge began a one-year postgraduate course in the Computer Laboratory that Wikipedia calls the world's first computer science degree programme; it was then titled Numerical Analysis and Automatic Computing.",
     "ph": null,
-    "c": "medium",
-    "n": "The 1953 start is confirmed by the Computer Laboratory's own history page, which calls the Diploma the first formal course leading to a university qualification in computing. The title 'Computer Science' came later, so 'computer science programme' is a retrospective label.",
+    "c": "high",
+    "n": "Confirmed on the Computer Laboratory's own history page: the Diploma in Numerical Analysis and Automatic Computing began in 1953 as a one-year postgraduate course and is called the first formal course leading to a university qualification in computing; three candidates passed in 1954; it was renamed the Diploma in Computer Science in 1965. The title 'Computer Science' came later, so 'computer science programme' is a retrospective label.",
     "ev": [
      {
       "c": "Computer Laboratory history: 1953 Diploma in Numerical Analysis and Automatic Computing began, the first formal course leading to a university qualification in computing; 1954 first examinations",
@@ -17281,7 +17293,7 @@
     "d": "Fein's CACM article argued for a graduate school in 'computer sciences', the earliest print use Wikipedia records for the term.",
     "ph": null,
     "c": "medium",
-    "n": "The term appears in the article's text, not its title. The 1956 proposal is not verified.",
+    "n": "Crossref: CACM 2(9), September 1959, pp. 7-14. The term appears in the article's text, not its title. Wikipedia says the term was first proposed in 1956 (citing Tedre); that earlier use is not verified here and Fein 1959 is the earliest print use cited.",
     "ev": [
      {
       "c": "Paper record: CACM 1959",
@@ -17307,9 +17319,15 @@
     "pe": [],
     "d": "Purdue formed the first computer science department in the United States.",
     "ph": null,
-    "c": "medium",
-    "n": "Institutional evidence from Wikipedia only; not checked against Purdue records.",
+    "c": "high",
+    "n": "Purdue's own history page dates the department to October 1962 and calls it the first Department of Computer Sciences in the United States (Wikipedia gives 24 October 1962).",
     "ev": [
+     {
+      "c": "Purdue's Department of Computer Sciences established October 1962, described as the first in the United States",
+      "s": "Purdue University Computer Science, department history",
+      "u": "https://www.cs.purdue.edu/history/",
+      "k": "history_page"
+     },
      {
       "c": "First US computer science department formed at Purdue in 1962",
       "s": "Wikipedia: Computer science (history)",
@@ -17431,7 +17449,7 @@
     ]
    }
   ],
-  "notes": "Direct-style review in progress (not promoted). Crossref checked for Church (Am. J. Math. 58, April 1936), Turing (Proc. LMS s2-42, print date 1937), Fein (CACM 2, 1959) and Newell-Perlis-Simon (Science 157, 1967). Found: the Cambridge course began in 1953 under the title Diploma in Numerical Analysis and Automatic Computing (Computer Laboratory history page), now relabelled; Purdue's department dated to 24 October 1962 by a second page. Church's May 1935 preliminary report in the Bulletin of the AMS is an earlier published item; its content could not be read, so it is a precursor and the conceptual date stays 1936. Outstanding: read the 1935 report (it may move the first statement to 1935); verify Fein's 1959 use as the first print use of 'computer science' (the 1956 proposal is unverified); no methodological date; Stanford 1965, ACM (1947) and journals not searched.",
+  "notes": "Direct-style review (R4), not promoted. Crossref re-checked for Church 1936 (Am. J. Math. 58(2), April 1936), Turing (Proc. LMS s2-42, print date 1937), Fein (CACM 2(9), Sept 1959), Newell-Perlis-Simon (Science 157, 22 Sept 1967) and Knuth (Amer. Math. Monthly 81(4), April 1974). Cambridge (1953, renamed 1965) and Purdue (October 1962) confirmed on the institutions' own pages. Church's May 1935 item is only a meeting abstract (Crossref: 'Abstracts of papers'); its text could not be read because the AMS PDF is blocked, so it stays a precursor and the conceptual date stays 1936. Outstanding: read that abstract (it may state the thesis or unsolvability result and move the first statement to 1935); verify the 1956 proposal of the term and whether Fein 1959 is the first print use; no first application or methodological date; Stanford 1965 and the ACM (1947) are not examined.",
   "catalogueDates": [
    [
     1936,
@@ -80428,8 +80446,12 @@
   "product": null,
   "why": "A semantic definition of truth in formal languages gave the basis for the study of models of theories.",
   "cat": "Period run 1930-1990",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "methodological": "C",
+   "institutional": "B"
+  },
   "shown": {
    "conceptual": {
     "y": 1932,
@@ -80526,14 +80548,20 @@
     ],
     "d": "A published paper in which Tarski defines which sets of reals are definable in a structure, the semantic idea later developed into model theory.",
     "ph": null,
-    "c": "low",
-    "n": "Record verified in Crossref; its role as the first published use of a semantic notion of definability is from general knowledge and was not read or sourced here.",
+    "c": "medium",
+    "n": "Crossref confirms Fund. Math. 17 (1931) 210-239. The Stanford Encyclopedia says this paper contains an early variant of the satisfaction-based definition of truth and a way of characterising definable relations. The paper itself was not read; it stays a precursor because the truth definition for formalised languages is first announced in the 1932 note.",
     "ev": [
      {
       "c": "Crossref: Fundamenta Mathematicae 17 (1931) 210-239, author Tarski",
       "s": "Crossref DOI 10.4064/fm-17-1-210-239",
       "u": "https://doi.org/10.4064/fm-17-1-210-239",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "The 1931 paper contains an early variant of the satisfaction-based truth definition",
+      "s": "Stanford Encyclopedia of Philosophy, Tarski's Truth Definitions",
+      "u": "https://plato.stanford.edu/entries/tarski-truth/",
+      "k": "history_page"
      }
     ]
    },
@@ -80549,13 +80577,25 @@
     ],
     "d": "A three-page published announcement of Tarski's work on the concept of truth for formalised languages, a year before the Polish monograph.",
     "ph": null,
-    "c": "medium",
-    "n": "Found in zbMATH (Zbl 0004.00101, JFM 58.0997.03); the note itself was not read, so that it states the definition (not only the aim) is inferred from its title and place as the summary of the monograph.",
+    "c": "high",
+    "n": "Confirmed by two zbMATH records (Zbl 0004.00101 = id 3004089, and id 2552710). The 1932 reviewer (Schmidt) says the note communicates the main ideas and results of a treatise to appear in Polish (JFM 58.1001.01): no exact truth definition is possible for colloquial language; general methods exist for formalised languages of finite order; the same assumption for infinite order leads to contradiction (by an argument like Godel's). The reviewer W. Ackermann calls it a short summary of the monograph later published as Studia Philosophica 1 (1935). It announces the results and the method; the full construction is in the 1933 monograph. The note itself was not read; the date of presentation to the Vienna Academy is not settled.",
     "ev": [
      {
       "c": "zbMATH lists Tarski, Der Wahrheitsbegriff in den Sprachen der deduktiven Disziplinen, Anz. Akad. Wiss. Wien 69, No. 2, 23-25 (1932), Zbl 0004.00101",
       "s": "zbMATH Open",
       "u": "https://zbmath.org/?q=an:0004.00101",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Review: the note states the main ideas and three results of the truth-definition treatise",
+      "s": "zbMATH Open id 3004089 (Zbl 0004.00101, review by A. Schmidt)",
+      "u": "https://zbmath.org/3004089",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Review: short summary of the monograph later published as Studia Philosophica 1 (1935)",
+      "s": "zbMATH Open id 2552710 (review by W. Ackermann)",
+      "u": "https://zbmath.org/2552710",
       "k": "bibliographic_record"
      }
     ]
@@ -80592,6 +80632,12 @@
       "s": "Crossref DOI 10.1080/01445340.2024.2334173",
       "u": "https://doi.org/10.1080/01445340.2024.2334173",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "German version Der Wahrheitsbegriff in den formalisierten Sprachen, Studia Philosophica 1 (1935), 261-401, appeared 1936",
+      "s": "zbMATH Open id 2528648 (review by W. Ackermann)",
+      "u": "https://zbmath.org/2528648",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -80608,7 +80654,7 @@
     "d": "Tarski uses semantic and model-theoretic methods to show that the first-order theory of the real numbers under addition and multiplication is decidable.",
     "ph": null,
     "c": "medium",
-    "n": "Year anchored to the 1951 bibliographic record; the 1948 RAND edition is the earlier printing per MacTutor. Whether the decision method counts as 'the idea' (semantic truth and model theory) rather than a neighbouring tool is a judgement call.",
+    "n": "Year anchored to the 1951 bibliographic record; the 1948 RAND edition is the earlier printing per MacTutor. Tarski's 1931 definable-sets paper already treats definability of sets of reals, so the first-application reading (and whether the decision method counts as an application of the idea) remains a judgement call.",
     "ev": [
      {
       "c": "Tarski showed the first-order theory of real numbers under addition and multiplication is decidable, in the book A Decision Method for Elementary Algebra and Geometry (listed 1948).",
@@ -80655,6 +80701,29 @@
    },
    {
     "r": "consolidation",
+    "y": 1963,
+    "ye": null,
+    "p": "year",
+    "l": "Robinson's Introduction to model theory and to the metamathematics of algebra",
+    "w": "A. Robinson, Introduction to Model Theory and to the Metamathematics of Algebra, North-Holland (Studies in Logic and the Foundations of Mathematics), 1963",
+    "pe": [
+     "Abraham Robinson"
+    ],
+    "d": "Robinson's North-Holland book is an early systematic textbook of the subject, linking model theory with algebra.",
+    "ph": null,
+    "c": "medium",
+    "n": "Year from the zbMATH record (IX + 284 p.). That it is the first systematic text was not checked against other 1950s-60s treatments; the naming milestone (1954) is earlier, so the institutional date does not change.",
+    "ev": [
+     {
+      "c": "Introduction to model theory and to the metamathematics of algebra, North-Holland, 1963, 284 p.",
+      "s": "zbMATH Open id 3192955",
+      "u": "https://zbmath.org/3192955",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "consolidation",
     "y": 1973,
     "ye": null,
     "p": "year",
@@ -80666,13 +80735,19 @@
     ],
     "d": "A systematic first-order monograph that served as the standard textbook for the subject.",
     "ph": null,
-    "c": "medium",
-    "n": "The Open Library 1973 record lists Chang alone; the Keisler co-authorship is from the 1990 edition record. The 1973 co-authorship is not separately confirmed.",
+    "c": "high",
+    "n": "Co-authorship in 1973 confirmed: zbMATH id 3433860 lists Chang and Keisler, Studies in Logic and the Foundations of Mathematics vol. 73, North-Holland 1973, 550 pages (the Open Library 1973 record lists Chang alone). Robinson's 1963 book is the earlier systematic text and is recorded separately.",
     "ev": [
      {
       "c": "Open Library record for 'Model theory', first published 1973 under C. C. Chang",
       "s": "Open Library search",
       "u": "https://openlibrary.org/search?q=Model+theory+Chang+Keisler",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Model theory, Chang and Keisler, Stud. Logic Found. Math. 73, North-Holland, 550 p. (1973)",
+      "s": "zbMATH Open id 3433860",
+      "u": "https://zbmath.org/3433860",
       "k": "bibliographic_record"
      }
     ]
@@ -80728,7 +80803,7 @@
     ]
    }
   ],
-  "notes": "Direct-style review in progress (not promoted). Crossref: Lowenheim 1915, Tarski 1931 (Fund. Math. 17), Tarski 1954 (Indag. Math. 57, 572-581) match. zbMATH lists a 1932 Vienna Academy note by Tarski on the truth concept (Zbl 0004.00101), so the earliest public statement is 1932, not the 1933 Polish monograph; the monograph becomes the key development. The 1933 Polish original has no catalogue record (SEP and MacTutor date it 1933); Milne (2024) is only about the German version (title page 1935, appeared 1936). The 1929-31 results and Godel's private 1930-31 discovery of undefinability are precursors. Outstanding: read the 1932 note to confirm it states the definition; confirm the 1931 definability paper's role; the 1973 Chang-Keisler co-authorship (Open Library lists Chang alone); whether the decision method (1948/1951) counts as a first application.",
+  "notes": "Direct review (R4). Crossref: Lowenheim 1915 (Math. Ann. 76(4), Dec 1915), Tarski 1931 (Fund. Math. 17, 210-239), Tarski 1954 (Indag. Math. 57, 572-581). zbMATH: the 1932 Vienna Academy note (two records with reviews) summarises the monograph and announces its main results, so the first statement is 1932; the 1933 Polish monograph is the key development (SEP and MacTutor date it 1933; the Polish original has no catalogue record); the German version has title page 1935 and appeared 1936. SEP says the 1931 definable-sets paper contains an early variant of the satisfaction-based definition: it is kept as a precursor because the truth definition for formalised languages is first announced in 1932. Chang-Keisler 1973 co-authorship confirmed (zbMATH 3433860); Robinson 1963 added as an earlier text. Caveats: the 1932 note, the 1931 paper and the 1933 monograph were not read; the 1929-31 results and Godel's private discovery rest on Wikipedia; whether the decision method (RAND 1948, book 1951) is the 'first application' is a judgement call.",
   "catalogueDates": [
    [
     1933,
@@ -89568,14 +89643,14 @@
     "basis": "no first application or key development"
    },
    "institutional": {
-    "y": 1951,
+    "y": 1950,
     "basis": "naming, textbook or institution"
    }
   },
   "took": {
-   "y": 1951,
-   "role": "consolidation",
-   "label": "Morse and Kimball's Methods of Operations Research",
+   "y": 1950,
+   "role": "institution",
+   "label": "Operational Research Quarterly, first issue",
    "same": true
   },
   "y": 1950,
@@ -89583,7 +89658,7 @@
   "derived": {
    "conceptual": 1950,
    "methodological": null,
-   "institutional": 1951
+   "institutional": 1950
   },
   "phases": [
    "Wartime radar and convoy analysis (1937-1945)",
@@ -89652,12 +89727,53 @@
     "d": "The earliest article found in Crossref with the field's name as its title; it states the idea of the new field in public, after the wartime work.",
     "ph": null,
     "c": "low",
-    "n": "Not established as the first public statement: the 1937-41 wartime work was not public and no earlier printed statement was checked. The article's text was not read, so the 'statement of the idea' role rests on the title and author. The Journal of the Operational Research Society also carries a 'Operational Research' item for March 1950 (DOI 10.1057/jors.1950.2) that is the same year. A reviewer should confirm which is the first.",
+    "n": "Crossref lists the same editorial twice: Operational Research Quarterly 1(1), March 1950, p. 3 (10.2307/3006455) and Journal of the Operational Research Society 1(1), 3-6 (10.1057/jors.1950.2; the Quarterly became the Journal), and a 2000 commentary by Fildes treats it as Blackett's statement of the field. Not established as the first public statement: wartime work was not public and earlier printed accounts (for example Blackett's 1948 articles, Crowther and Whiddington's Science at War, 1947) were not checked.",
     "ev": [
      {
       "c": "Crossref record 'Operational Research', author Blackett, Operational Research Quarterly (1950-1952), issued March 1950, DOI 10.2307/3006455",
       "s": "Crossref API",
       "u": "https://doi.org/10.2307/3006455",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Same editorial: Operational Research, JORS 1(1) 3-6, March 1950",
+      "s": "Crossref 10.1057/jors.1950.2",
+      "u": "https://doi.org/10.1057/jors.1950.2",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "A Commentary on Blackett: Operational Research, JORS 51(1), 2000",
+      "s": "Crossref 10.2307/253940",
+      "u": "https://doi.org/10.2307/253940",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "institution",
+    "y": 1950,
+    "ye": null,
+    "p": "year",
+    "l": "Operational Research Quarterly, first issue",
+    "w": "Operational Research Quarterly 1(1), March 1950 (later Journal of the Operational Research Society)",
+    "pe": [
+     "Patrick Blackett"
+    ],
+    "d": "A journal titled Operational Research begins in March 1950, opened by Blackett's editorial.",
+    "ph": null,
+    "c": "medium",
+    "n": "The same issue as the Blackett editorial, so it plays both roles (statement and journal start). Crossref records ORQ vol. 1 issues in March, June and September 1950.",
+    "ev": [
+     {
+      "c": "Operational Research Quarterly vol. 1 no. 1, March 1950",
+      "s": "Crossref 10.2307/3006455",
+      "u": "https://doi.org/10.2307/3006455",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Operational Research Quarterly 1(2), June 1950 and 1(3), September 1950 exist",
+      "s": "Crossref 10.2307/3006372",
+      "u": "https://doi.org/10.2307/3006372",
       "k": "bibliographic_record"
      }
     ]
@@ -89675,8 +89791,8 @@
     ],
     "d": "A wartime-derived methods book that presents operations research as a general quantitative method.",
     "ph": "Postwar consolidation",
-    "c": "medium",
-    "n": "Treated as the first systematic textbook of the method; priority over other 1950s books not checked.",
+    "c": "high",
+    "n": "Public edition 1951 (MIT Technology Press and Wiley), confirmed by zbMATH id 3068104 and by reviews in ORQ (Sept 1951) and Physics Today (Nov 1951). An earlier classified report of the same title (Crossref 10.21236/ad0200782, dated 1946) was not public; the Dover reissue describes it as originally classified. Priority over other early books (Crowther and Whiddington 1947) not checked.",
     "ev": [
      {
       "c": "Morse and Kimball, Methods of Operations Research, Wiley (1951)",
@@ -89689,6 +89805,18 @@
       "s": "Wikipedia, Operations research (history section)",
       "u": "https://en.wikipedia.org/wiki/Operations_research",
       "k": "history_page"
+     },
+     {
+      "c": "Methods of operations research, Technology Press MIT / Wiley, 1951",
+      "s": "zbMATH Open id 3068104",
+      "u": "https://zbmath.org/3068104",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Reviews of Methods of Operations Research: ORQ 2(3), Sept 1951; Physics Today 4(11), Nov 1951",
+      "s": "Crossref 10.2307/3006426",
+      "u": "https://doi.org/10.2307/3006426",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -89698,20 +89826,26 @@
     "ye": null,
     "p": "year",
     "l": "Operations Research Society of America and its journal",
-    "w": null,
+    "w": "Journal of the Operations Research Society of America 1(1), November 1952, with Morse, 'The Operations Research Society of America'",
     "pe": [
      "Philip M. Morse"
     ],
     "d": "The US Operations Research Society was founded in 1952, with the journal Operations Research.",
     "ph": "Postwar consolidation",
-    "c": "medium",
-    "n": "Crossref has no 1951-54 issues indexed for ISSN 0030-364X, so the 1952 date rests on Wikipedia.",
+    "c": "high",
+    "n": "Crossref now records vol. 1 no. 1 of the Journal of the Operations Research Society of America (November 1952), opening with Morse's piece on the Society, so the 1952 start of the society's journal is confirmed; the founding of the society itself is dated 1952 by Wikipedia.",
     "ev": [
      {
       "c": "Operations Research Society of America (ORSA) founded in 1952",
       "s": "Wikipedia, Operations research (history section)",
       "u": "https://en.wikipedia.org/wiki/Operations_research",
       "k": "history_page"
+     },
+     {
+      "c": "Morse, The Operations Research Society of America, J. ORSA 1(1), November 1952, pp. 1-2",
+      "s": "Crossref 10.1287/opre.1.1.1",
+      "u": "https://doi.org/10.1287/opre.1.1.1",
+      "k": "bibliographic_record"
      }
     ]
    }
@@ -89760,7 +89894,7 @@
     ]
    }
   ],
-  "notes": "Sources: Wikipedia Operations research (wikitext history section); Open Library for the 1951 Morse-Kimball book; Crossref checked for journal start dates (no early issues). No first_statement was found; the research did not establish one, so conceptual is null. The naming milestone is open: the name 'operational research' and 'operations research' were not dated against a primary source. Derived dates: conceptual null, methodological 1937 (Bawdsey), institutional 1951 (Morse-Kimball consolidation).",
+  "notes": "Direct-style review (R4), not promoted. Crossref: Blackett's editorial (ORQ 1(1) and JORS 1(1), March 1950), ORQ 1950 issues, Morse-Kimball reviews (1951), JORSA 1(1) November 1952; zbMATH: Morse-Kimball 1951. The ORQ first issue is added as an institution milestone, so the institutional date moves from 1951 to 1950. The conceptual date 1950 rests on Blackett's editorial, whose priority is not established (earlier public accounts of operational research from 1947-48 were not searched). Bawdsey 1937 and Blackett's 1941 convoy work rest on Wikipedia only. No naming milestone: the dates of the terms 'operational research' and 'operations research' were not traced.",
   "catalogueDates": [
    [
     1937,
@@ -109882,14 +110016,14 @@
     "ye": null,
     "p": "year",
     "l": "Markov's first paper on chains",
-    "w": "Markov, A. A., Rasprostranenie zakona bol'shih chisel na velichiny, zavisyashchie drug ot druga, Izvestiya SPb (1906)",
+    "w": "Markov, A. A., Rasprostranenie zakona bol'shikh chisel na velichiny, zavisyashchie drug ot druga, Izvestiya Fiziko-matematicheskogo obshchestva pri Kazanskom universitete, 2nd series, 15 (1906) 135-156",
     "pe": [
      "Andrey Markov"
     ],
     "d": "Markov shows that the law of large numbers extends to a chain of dependent trials.",
     "ph": null,
     "c": "medium",
-    "n": "zbMATH Open search (au:Markoff ti:dependent) returned no record for the 1906 paper; the 1906 paper rests on the Wikipedia history section.",
+    "n": "Venue corrected: the journal is the Izvestiya of the Kazan University Physico-mathematical Society (2nd series, vol. 15, pp. 135-156), as in Wikipedia's reference list, not an St Petersburg journal. zbMATH Open searches returned no record for the 1906 paper; the year rests on that Wikipedia reference and was not independently confirmed. Markov's 1907-08 extension to chains in the St Petersburg Academy was not examined.",
     "ev": [
      {
       "c": "First paper on Markov chains published 1906; reference cited",
@@ -109905,20 +110039,26 @@
     "ye": null,
     "p": "year",
     "l": "Markov's statistical study of Eugene Onegin",
-    "w": "Markov, A. A., Versuche einer statistischen Untersuchung uber den Text des Romans 'Eugen Onegin' (1913)",
+    "w": "Markov, A. A., Essai d'une recherche statistique sur le texte du roman 'Eugene Onegin' illustrant la liaison des epreuves en chaine, Bulletin de l'Academie Imperiale des Sciences de St.-Petersbourg, 6th series, 7(3) (1913) 153-162",
     "pe": [
      "Andrey Markov"
     ],
     "d": "Markov applies the chain model to the letter sequence of a literary text.",
     "ph": null,
-    "c": "medium",
-    "n": null,
+    "c": "high",
+    "n": "Journal, volume and pages confirmed by Math-Net.Ru (Izv. RAN, Ser. VI, 7:3, 153-162; JFM 44.0278.14). The zbMATH review of the 2006 English translation says the text is a lecture given on 23 January 1913 and applies the theory of dependent trials to empirical material for the first time.",
     "ev": [
      {
       "c": "The original Onegin statistical study appeared in the Imperial Academy bulletin 7(3) (1913), pp. 153–162.",
       "s": "Math-Net.Ru digitized original",
       "u": "https://www.mathnet.ru/eng/im6612",
       "k": "primary_text"
+     },
+     {
+      "c": "2006 translation of a lecture of 23 January 1913: first application of the theory of dependent trials to empirical material (the text of Onegin)",
+      "s": "zbMATH Open id 5229321 (Science in Context 19(4), 591-600)",
+      "u": "https://zbmath.org/5229321",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -109935,12 +110075,41 @@
     "d": "Kolmogorov's 1931 analytic method for Markov processes underpins the continuous-time theory.",
     "ph": null,
     "c": "medium",
-    "n": "Scope of Markov-process content not read in the text.",
+    "n": "Crossref and zbMATH confirm Math. Ann. 104 (1931) 415-458. The zbMATH reviews describe stochastically defined processes whose state at one time fixes the distribution of later states, with continuous time (Bachelier is named as the earlier attempt); the paper's treatment of chains was not read.",
     "ev": [
      {
       "c": "Paper exists with this title, journal and year",
       "s": "Crossref",
       "u": "https://doi.org/10.1007/bf01457949",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Review: processes in which the state at t0 determines the distribution of later states, with continuous time",
+      "s": "zbMATH Open id 3000412",
+      "u": "https://zbmath.org/3000412",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1936,
+    "ye": null,
+    "p": "year",
+    "l": "Kolmogorov: foundations of Markov chains with infinitely many states",
+    "w": "Kolmogorov, A., Anfangsgruende der Theorie der Markoffschen Ketten mit unendlich vielen moeglichen Zustaenden, Recueil mathematique (Matematicheskii sbornik) 1 (43) (1936) 607-610",
+    "pe": [
+     "Andrey Kolmogorov"
+    ],
+    "d": "Kolmogorov begins the classification of states of a countable Markov chain (essential and inessential states, communication classes).",
+    "ph": null,
+    "c": "medium",
+    "n": "Content from the zbMATH review, not read.",
+    "ev": [
+     {
+      "c": "Review: definition of essential and inessential states and the classification of states of a chain with infinitely many states",
+      "s": "zbMATH Open id 2526907 (Rec. math. Moscou (2) 1, 607-610)",
+      "u": "https://zbmath.org/2526907",
       "k": "bibliographic_record"
      }
     ]
@@ -109958,12 +110127,18 @@
     "d": "Doob's 1953 monograph gives a systematic treatment of Markov processes within stochastic process theory.",
     "ph": null,
     "c": "medium",
-    "n": "Consolidation role is provisional: the record shows title and year only.",
+    "n": "Doob's book is a treatise on stochastic processes in general, not on Markov chains alone; a zbMATH review of the 1990 reprint calls the 1953 edition the first comprehensive treatment of stochastic processes in English. Markov-chain texts (Kemeny and Snell, Finite Markov Chains, 1960, zbMATH 3145626; Feller 1950; Chung 1960) were not assessed, so the consolidation role is only provisional.",
     "ev": [
      {
       "c": "Monograph with this title and year",
       "s": "zbMATH Open",
       "u": "https://zbmath.org/?q=an:0053.26802",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Stochastic processes, Wiley, 654 p. (1953)",
+      "s": "zbMATH Open id 3085434",
+      "u": "https://zbmath.org/3085434",
       "k": "bibliographic_record"
      }
     ]
@@ -110013,7 +110188,7 @@
     ]
    }
   ],
-  "notes": "The 1906 Markov paper is not indexed in zbMATH under the searched forms (no record found), so its year rests on Wikipedia. The Eugene Onegin 1913 record is verified. The 1906 paper title is cited in Wikipedia's reference list. Institutional date is set by Doob 1953 consolidation; no naming milestone was traced.",
+  "notes": "Direct-style review (R4), not promoted. Onegin 1913 verified (Math-Net.Ru, zbMATH review of the translation); Kolmogorov 1931 and 1936 confirmed in zbMATH; Doob 1953 confirmed. The 1906 paper's venue is corrected to the Kazan Physico-mathematical Society's Izvestiya; the paper has no catalogue record found and its year rests on Wikipedia, so the conceptual date is unconfirmed. Outstanding: confirm the 1906 paper (and Markov's 1907-08 chain papers) in a catalogue or the paper itself; no naming milestone (the earliest use of 'Markov chain') was traced; the Markov-chain-specific consolidation was not identified.",
   "catalogueDates": [
    [
     1906,
@@ -111073,8 +111248,11 @@
   "product": null,
   "why": "Weierstrass, Cantor and Dedekind defined real numbers from rationals via limits or cuts, removing reliance on geometric intuition.",
   "cat": "Period run 1850-1930",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "institutional": "C"
+  },
   "shown": {
    "conceptual": {
     "y": 1869,
@@ -111155,6 +111333,29 @@
     ]
    },
    {
+    "r": "precursor",
+    "y": 1867,
+    "ye": null,
+    "p": "year",
+    "l": "Hankel's Theorie der complexen Zahlensysteme",
+    "w": "Hankel, H., Vorlesungen ueber die complexen Zahlen und ihre Functionen I: Theorie der complexen Zahlensysteme, Leipzig 1867",
+    "pe": [
+     "Hermann Hankel"
+    ],
+    "d": "A monograph by a student of Weierstrass that first put the new approach to number systems into print and asked what other systems obey the rules of the reals; it does not construct the reals.",
+    "ph": null,
+    "c": "medium",
+    "n": "MacTutor calls it the first published contribution to the new approach; no Crossref or zbMATH record was found for the 1867 book, so the year rests on MacTutor. Not a construction of the real numbers, so a precursor.",
+    "ev": [
+     {
+      "c": "The first published contribution to the new approach came in 1867 from Hankel, a student of Weierstrass",
+      "s": "MacTutor: Real numbers 2",
+      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Real_numbers_2/",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
     "r": "first_statement",
     "y": 1869,
     "ye": null,
@@ -111167,12 +111368,18 @@
     "d": "Meray defined irrational numbers as limits of convergent rational sequences, the first such theory to appear in print.",
     "ph": null,
     "c": "medium",
-    "n": "Original journal not located in Crossref; year rests on MacTutor. Hankel 1867 is described as proposing the change of viewpoint, not a construction.",
+    "n": "Year from MacTutor, which calls it the earliest coherent and rigorous theory of the irrationals to appear in print and says it was not influenced by Weierstrass's unpublished lectures or by Dedekind; Ohm (1829), Bolzano (1835) and Hamilton (1833) gave earlier but non-rigorous accounts. The original journal (Revue des Societes savantes) has no Crossref or zbMATH record found, so the venue and volume are not independently verified.",
     "ev": [
      {
       "c": "Cited as the first published arithmetical theory of irrational numbers (1869).",
       "s": "MacTutor, Meray biography",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Meray/",
+      "k": "history_page"
+     },
+     {
+      "c": "Hankel (1867), Meray (1869), then Heine (1872) independently of Meray",
+      "s": "MacTutor: Real numbers 2",
+      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Real_numbers_2/",
       "k": "history_page"
      }
     ]
@@ -111190,7 +111397,7 @@
     "d": "Heine built real numbers from Cauchy-type rational sequences with arithmetic and order, following Cantor's idea.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Crossref: Crelle 74 (1872) 172-188, 'Die Elemente der Functionenlehre'.",
     "ev": [
      {
       "c": "Crossref lists the paper in volume 74 (1872).",
@@ -111219,7 +111426,7 @@
     "d": "Cantor defined real numbers as classes of rational Cauchy sequences within a paper on trigonometric series.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Crossref: Math. Ann. 5(1), March 1872, pp. 123-132.",
     "ev": [
      {
       "c": "Crossref records the paper in Math. Ann. 5 (1872).",
@@ -111300,7 +111507,7 @@
     "d": "A textbook building naturals, rationals, reals and complexes step by step from Peano axioms.",
     "ph": null,
     "c": "medium",
-    "n": "Dated from a review; not the first systematic treatment of the construction, but a standard one.",
+    "n": "Dated from a review (Amer. Math. Monthly 37(9), Nov 1930; a ZAMM review is also dated 1930). Not the first systematic treatment of the construction, but a standard one; earlier textbook treatments (for example Stolz, Tannery, Pringsheim) were not examined.",
     "ev": [
      {
       "c": "Contemporary review in Amer. Math. Monthly 37 (1930).",
@@ -111383,7 +111590,7 @@
     ]
    }
   ],
-  "notes": "Priority is spread: Meray (1869) is first in print, Weierstrass and Dedekind earlier in private. Weierstrass's lectures are undated beyond 'from 1865'. Hankel 1867 not verified in a record. Fix pass 2: the naming milestone is Klein's 1895 address (zbMATH 26.0467.01), which predates Pierpont's 1899 title, so Pierpont is dropped; Kronecker's coinage was not verified.",
+  "notes": "Direct review (R4). Priority is spread: Meray (1869) is first in print (MacTutor), Weierstrass (lectures from 1865) and Dedekind (1858) earlier in private. Hankel 1867 is now recorded as a precursor on MacTutor's wording (first published contribution to the new approach, not a construction). Crossref confirms Heine (Crelle 74, 172-188), Cantor (Math. Ann. 5, 123-132) and the Landau review; the Dedekind 1872 booklet is confirmed by the archive.org record and zbMATH reissues. Klein's 1895 address (zbMATH 26.0467.01) is the naming milestone; Kronecker's 'Ueber den Zahlbegriff' (Crelle 101, 337-355, 1887, Crossref) was found but not read for the term. Caveats: Meray's journal text and the Weierstrass lecture content were not read; MacTutor is the source for both.",
   "catalogueDates": [
    [
     1858,
@@ -112356,6 +112563,58 @@
     ]
    },
    {
+    "r": "precursor",
+    "y": 1912,
+    "ye": null,
+    "p": "year",
+    "l": "Fisher's absolute criterion for fitting frequency curves",
+    "w": "R. A. Fisher, On an absolute criterion for fitting frequency curves, Messenger of Mathematics (2) 41 (1912) 155-160",
+    "pe": [
+     "Ronald Fisher"
+    ],
+    "d": "Fisher proposes choosing the curve that maximises the sum of the logarithms of the ordinate probabilities, the criterion later called maximum likelihood.",
+    "ph": null,
+    "c": "medium",
+    "n": "Record and content summary from the zbMATH review. It does not use the word likelihood and Fisher then framed it in terms of probability of the parameters; the term and theory date from 1921-22, so it is a precursor.",
+    "ev": [
+     {
+      "c": "Review: the curve is chosen to maximise log P' = sum of log p, with P' proportional to the probability of the observations",
+      "s": "zbMATH Open id 2625372 (Messenger (2) 41, 155-160)",
+      "u": "https://zbmath.org/2625372",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "precursor",
+    "y": 1918,
+    "ye": null,
+    "p": "year",
+    "l": "Fisher: Correlation between relatives (variance and its analysis)",
+    "w": "R. A. Fisher, The Correlation between Relatives on the Supposition of Mendelian Inheritance, Transactions of the Royal Society of Edinburgh 52 (1918) 399-433",
+    "pe": [
+     "Ronald Fisher"
+    ],
+    "d": "Fisher introduces the term variance and proposes the analysis of the variance into components, in a paper on population genetics.",
+    "ph": null,
+    "c": "medium",
+    "n": "Wikipedia dates the introduction of 'variance' and its formal analysis to this 1918 paper. Crossref gives an issued date of 1919 for the volume part (the paper is generally cited as 1918), so the year is uncertain by one. Held as a precursor because the event is Fisher's inference (estimation and significance testing) rather than the analysis of variance alone.",
+    "ev": [
+     {
+      "c": "Fisher introduced the term variance and proposed its formal analysis in a 1918 article on theoretical population genetics",
+      "s": "Wikipedia, Analysis of variance",
+      "u": "https://en.wikipedia.org/wiki/Analysis_of_variance",
+      "k": "history_page"
+     },
+     {
+      "c": "Trans. R. Soc. Edinburgh 52(2), 399-433; Crossref issued date 1919",
+      "s": "Crossref 10.1017/S0080456800012163",
+      "u": "https://doi.org/10.1017/S0080456800012163",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
     "r": "first_application",
     "y": 1921,
     "ye": null,
@@ -112368,13 +112627,19 @@
     "d": "Fisher analyses long-term Broadbalk wheat yields at Rothamsted with variance methods, the first purposeful test on field data.",
     "ph": "Rothamsted crop data and variance",
     "c": "high",
-    "n": null,
+    "n": "Crossref: J. Agric. Sci. 11(2), April 1921, pp. 107-135. Wikipedia (Analysis of variance) calls it Fisher's first application of the analysis of variance to data.",
     "ev": [
      {
       "c": "1921 J. Agric. Sci. record on Broadbalk yields",
       "s": "Crossref record",
       "u": "https://doi.org/10.1017/S0021859600003750",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "His first application of the analysis of variance to data was published in 1921, Studies in Crop Variation I",
+      "s": "Wikipedia, Analysis of variance",
+      "u": "https://en.wikipedia.org/wiki/Analysis_of_variance",
+      "k": "history_page"
      }
     ]
    },
@@ -112390,8 +112655,8 @@
     ],
     "d": "Fisher's 1921 paper introduces the likelihood interval, the earliest public form of the likelihood idea found.",
     "ph": null,
-    "c": "medium",
-    "n": "Identity and year taken from Wikipedia citation; the paper is not indexed in Crossref and its text was not read.",
+    "c": "low",
+    "n": "Identity and year (Metron 1, 1921, pp. 3-32) from Wikipedia citations only; the paper is not in Crossref or zbMATH and was not read. Wikipedia credits it with what is now called the likelihood interval, but Fisher himself (quoted there) says he proposed the term 'likelihood' in 1922, so the claim that this is the first statement of the inference theory is the weakest in the record.",
     "ev": [
      {
       "c": "Wikipedia: the 1921 Metron paper introduced what is today called the 'likelihood interval'; the 1922 paper introduced the term 'method of maximum likelihood'.",
@@ -112414,7 +112679,7 @@
     "d": "Fisher introduces the maximum-likelihood framework and criteria for estimators as the basis of statistical inference.",
     "ph": "Foundations of theoretical statistics",
     "c": "high",
-    "n": "Conflict: the MacTutor biography dates the likelihood concept to 1921; the publication year of the foundations paper (1922) governs the conceptual date under the rule.",
+    "n": "Crossref: Phil. Trans. R. Soc. A 222 (1922) 309-368. The MacTutor biography dates the likelihood concept to 1921; the 1922 paper is where Fisher names the method of maximum likelihood and defines consistency, efficiency and sufficiency.",
     "ev": [
      {
       "c": "1922 Phil. Trans. record",
@@ -112496,7 +112761,7 @@
     ]
    }
   ],
-  "notes": "Input summary: Fisher unified chi-squared, small-sample t and variance analysis on Rothamsted data; confirmed in outline (chi-squared is not checked). The 1922 paper is verified by record. Fix pass 2: Wikipedia credits the 1921 Metron paper with the likelihood interval, so the 1921 concept date is recorded as first_statement and 1922 as key_development for the term and theory. Derived dates: conceptual 1921, methodological 1921, institutional 1925.",
+  "notes": "Direct-style review (R4), not promoted. Crossref re-checked: J. Agric. Sci. 11 (1921) 107-135, Phil. Trans. A 222 (1922), Trans. R. Soc. Edinburgh 52 (Crossref issued 1919), Fisher-Mackenzie J. Agric. Sci. 13 (1923). zbMATH confirms the 1912 absolute-criterion paper (Messenger (2) 41, 155-160) and SMRW 1925; both added or confirmed. 1912 and 1918 are recorded as precursors (the maximum-likelihood criterion without the name; the variance and its analysis). Outstanding: the 1921 Metron paper is not catalogued and was not read, so the conceptual date 1921 rests on Wikipedia and is the weakest point; whether the first statement of Fisher's inference should be 1912, 1918, 1921 or 1922 depends on how the event is defined; chi-squared (1922 Fisher on goodness of fit) is not covered.",
   "catalogueDates": [
    [
     1918,
@@ -123021,26 +123286,29 @@
   "product": null,
   "why": "Baire, Lebesgue, Suslin and Lusin explored regularity of definable sets, leading to analytic and projective sets.",
   "cat": "Period run 1850-1930",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "institutional": "B"
+  },
   "shown": {
    "conceptual": {
     "y": 1917,
     "basis": "first statement"
    },
    "methodological": {
-    "y": null,
-    "basis": "no first application or key development"
+    "y": 1917,
+    "basis": "earliest key development; no first application found"
    },
    "institutional": {
-    "y": 1930,
+    "y": 1927,
     "basis": "naming, textbook or institution"
    }
   },
   "took": {
-   "y": 1930,
+   "y": 1927,
    "role": "consolidation",
-   "label": "Leçons sur les ensembles analytiques",
+   "label": "Lusin: Sur les ensembles analytiques",
    "same": false
   },
   "y": 1917,
@@ -123048,7 +123316,7 @@
   "derived": {
    "conceptual": 1917,
    "methodological": null,
-   "institutional": 1930
+   "institutional": 1927
   },
   "phases": [
    "regularity of definable sets",
@@ -123075,6 +123343,12 @@
       "s": "Crossref, DOI 10.1007/bf02419243",
       "u": "https://doi.org/10.1007/bf02419243",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Baire, Sur les fonctions de variables reelles, Annali di Mat. (3) 3, 1-123 (1899)",
+      "s": "zbMATH Open id 2668286",
+      "u": "https://zbmath.org/2668286",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -123084,19 +123358,25 @@
     "ye": null,
     "p": "year",
     "l": "Lebesgue's analytic functions and sets",
-    "w": "Lebesgue, H., 'Sur les fonctions représentables analytiquement', J. Math. Pures Appl. (1905)",
+    "w": "Lebesgue, H., 'Sur les fonctions representables analytiquement', Journal de Mathematiques Pures et Appliquees (6) 1 (1905) 139-216",
     "pe": [
      "Henri Lebesgue"
     ],
     "d": "Lebesgue treats the analytically representable functions and sets that lead to the analytic-set hierarchy.",
     "ph": null,
     "c": "medium",
-    "n": "Relevance to the analytic-set theory is assessed from the title and the MacTutor text; full text not read. Reclassified from key_development to precursor: it predates this event's first statement (1917) and belongs to the wider field.",
+    "n": "Journal and pages from zbMATH (J. Math. (6) 1, 139-216). Suslin's 1917 note (zbMATH review) refutes a claim of Lebesgue's from this circle of work, which is what led to the analytic sets. Full text not read. Precursor: it predates this event's first statement (1917) and belongs to the wider field.",
     "ev": [
      {
       "c": "zbMATH record: 'Sur les fonctions représentables analytiquement', year 1905",
       "s": "zbMATH API, query 'Lebesgue Sur les fonctions representables analytiquement'",
       "u": "https://zbmath.org/?q=Sur+les+fonctions+repr%C3%A9sentables+analytiquement",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Lebesgue, Sur les fonctions representables analytiquement, J. Math. Pures Appl. (6) 1, 139-216 (1905)",
+      "s": "zbMATH Open id 2650533",
+      "u": "https://zbmath.org/2650533",
       "k": "bibliographic_record"
      }
     ]
@@ -123113,8 +123393,8 @@
     ],
     "d": "Suslin gives a definition of the measurable B sets without transfinite numbers, the first explicit operation definition of analytic sets.",
     "ph": null,
-    "c": "medium",
-    "n": "The role description is from the MacTutor biography; the claim that it is the first operation definition is not separately verified.",
+    "c": "high",
+    "n": "Confirmed from the zbMATH review (JFM record 2610533): the note, prompted by Lusin, defines the sets (A) from a system of closed intervals indexed by finite sequences of integers, proves that a set is B-measurable iff it and its complement are (A) sets, and gives a counterexample to a claim of Lebesgue's of 1905. That no earlier operation defines these sets is taken from the same review and MacTutor, not from a search of earlier literature.",
     "ev": [
      {
       "c": "zbMATH record: 'Sur une définition des ensembles mesurables B...', year 1917",
@@ -123127,6 +123407,59 @@
       "s": "MacTutor, Suslin biography (live page)",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Suslin/",
       "k": "history_page"
+     },
+     {
+      "c": "Review: definition of the sets (A); a set is B-measurable iff it and its complement are (A); contradicts a claim of Lebesgue (1905)",
+      "s": "zbMATH Open id 2610533 (Souslin, C. R. 164, 88-91)",
+      "u": "https://zbmath.org/2610533",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1917,
+    "ye": null,
+    "p": "year",
+    "l": "Lusin on Baire's classification: analytic sets are measurable",
+    "w": "Lusin, N., 'Sur la classification de M. Baire', C. R. Acad. Sci. 164 (1917) 91-94",
+    "pe": [
+     "Nikolai Lusin",
+     "Mikhail Suslin"
+    ],
+    "d": "Lusin's note shows that every set (A) is Lebesgue measurable and reports Suslin's result that such a set contains a perfect subset or is at most countable.",
+    "ph": null,
+    "c": "medium",
+    "n": "Content taken from the zbMATH review (Satz V and the closing remark); the note was not read.",
+    "ev": [
+     {
+      "c": "Review: every set (A) is Lebesgue measurable; Souslin: an (A) set contains a perfect subset or is at most countable",
+      "s": "zbMATH Open id 2610854 (Lusin, C. R. 164, 91-94)",
+      "u": "https://zbmath.org/2610854",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "consolidation",
+    "y": 1927,
+    "ye": null,
+    "p": "year",
+    "l": "Lusin: Sur les ensembles analytiques",
+    "w": "Lusin, N., 'Sur les ensembles analytiques', Fundamenta Mathematicae 10 (1927) 1-95",
+    "pe": [
+     "Nikolai Lusin"
+    ],
+    "d": "A 95-page survey of the theory of analytic (Suslin) sets, the first systematic presentation in print found here.",
+    "ph": null,
+    "c": "medium",
+    "n": "Role from the zbMATH review, which calls it a comprehensive presentation of the analytic or Suslin sets. Hausdorff's Mengenlehre, 2nd ed. (1927), also contains a summary (mentioned in the review of Lusin's 1930 book) and was not examined, so priority within 1927 is not settled.",
+    "ev": [
+     {
+      "c": "Review: a comprehensive presentation of analytic (Suslin, A) sets; chapters on Lebesgue's construction, B-measurability, sieves, projections",
+      "s": "zbMATH Open id 2581385 (Fund. Math. 10, 1-95)",
+      "u": "https://zbmath.org/2581385",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -123143,12 +123476,18 @@
     "d": "A systematic monograph treatment of analytic sets, the first book-length consolidation.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Monograph of xv + 328 pages. The zbMATH review calls the theory 'created by the author and M. Suslin' and says a monographic presentation was urgently needed beyond Hausdorff's Mengenlehre (2nd ed. 1927). The earlier 1927 Fund. Math. survey is recorded as the first consolidation.",
     "ev": [
      {
       "c": "zbMATH record: 'Leçons sur les ensembles analytiques', year 1930",
       "s": "zbMATH API, query 'Lusin Lecons sur les ensembles analytiques'",
       "u": "https://zbmath.org/?q=Le%C3%A7ons+sur+les+ensembles+analytiques",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Review: monograph on the theory of analytic sets created by Lusin and Suslin",
+      "s": "zbMATH Open id 2562690",
+      "u": "https://zbmath.org/2562690",
       "k": "bibliographic_record"
      }
     ]
@@ -123212,7 +123551,7 @@
     ]
    }
   ],
-  "notes": "Naming of 'descriptive set theory' is not established: neither the saved Wikipedia wikitext nor the MacTutor saved pages give the coinage, and no naming milestone was recorded. The Lusin monograph dates the consolidation, not the name. Lusin's 1927 paper in Fund. Math. 10 is a candidate development but was not promoted. Institutional derived date is taken from the 1930 consolidation.",
+  "notes": "Direct review (R4). zbMATH records and reviews read for Baire 1899 (Annali (3) 3), Lebesgue 1905 (J. Math. (6) 1, 139-216), Suslin 1917 (C. R. 164, 88-91), Lusin 1917 (C. R. 164, 91-94), Lusin 1927 (Fund. Math. 10, 1-95) and Lusin 1930 (Gauthier-Villars). The Suslin review confirms the definition of the (A) sets and the refutation of a claim of Lebesgue's; Lusin's 1917 note is added as a key development; Lusin's 1927 survey is added as the first consolidation, so the institutional date moves from 1930 to 1927 (the 1930 monograph remains a consolidation). The coinage of 'descriptive set theory' is not established (the earliest titles found with the phrase are Kondo 1951 in French and Moschovakis 1980; Lusin's own use of 'descriptive' was not traced); no naming milestone. Hausdorff 1927 and Lusin-Sierpinski 1918 were not examined.",
   "catalogueDates": [
    [
     1899,
@@ -145382,8 +145721,8 @@
     ],
     "d": "The first volume applies mathematical analysis to running times of algorithms; Knuth later chose the name analysis of algorithms from this book's approach.",
     "ph": null,
-    "c": "low",
-    "n": "Same book already recorded as consolidation; it plays both roles here. Chapter-level content was not checked, and no earlier Knuth paper stating the idea was searched exhaustively.",
+    "c": "medium",
+    "n": "Same book as the consolidation, so it plays both roles. A contemporary zbMATH review (Zbl 0191.17903) says the author designates the subject of the work as 'analysis of algorithms' (the theory of the properties of particular computer algorithms), which supports the statement and the name. No earlier Knuth paper stating the idea was found; an exhaustive search was not made.",
     "ev": [
      {
       "c": "Open Library lists the first edition as 1968, Addison-Wesley.",
@@ -145402,6 +145741,41 @@
       "s": "Wikipedia, Analysis of algorithms and Donald Knuth",
       "u": "https://en.wikipedia.org/wiki/Analysis_of_algorithms",
       "k": "history_page"
+     },
+     {
+      "c": "Review: the author calls the subject of the book 'Analysis der Algorithmen', the theory of properties of specific computer algorithms",
+      "s": "zbMATH Open id 3303654 (review of vol. 1)",
+      "u": "https://zbmath.org/3303654",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "naming",
+    "y": 1968,
+    "ye": null,
+    "p": "year",
+    "l": "Knuth names the subject 'analysis of algorithms'",
+    "w": "Knuth, The Art of Computer Programming, Vol. 1, Addison-Wesley, 1968",
+    "pe": [
+     "Donald Knuth"
+    ],
+    "d": "Knuth's first volume describes its subject as the analysis of algorithms; Wikipedia credits him with coining the term.",
+    "ph": null,
+    "c": "medium",
+    "n": "Dated from the zbMATH review of Vol. 1, which quotes the author's designation; whether this is the first use of the phrase in print is not established (Wikipedia gives only that Knuth coined it).",
+    "ev": [
+     {
+      "c": "Review: the author calls the subject 'Analysis der Algorithmen'",
+      "s": "zbMATH Open id 3303654",
+      "u": "https://zbmath.org/3303654",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "The term 'analysis of algorithms' was coined by Donald Knuth",
+      "s": "Wikipedia, Analysis of algorithms",
+      "u": "https://en.wikipedia.org/wiki/Analysis_of_algorithms",
+      "k": "history_page"
      }
     ]
    },
@@ -145418,12 +145792,41 @@
     "d": "Knuth uses a mathematical analysis of expected search cost to find optimal search-tree structures.",
     "ph": null,
     "c": "medium",
-    "n": "Chosen as a concrete application of analysis of algorithms; the claim that it is the first such application was not checked against earlier analyses.",
+    "n": "Crossref: Acta Informatica 1(1), 1971, pp. 14-25. Chosen as a concrete application; that it is the first such application was not checked against earlier analyses (Vol. 1 of TAOCP itself analyses algorithms).",
     "ev": [
      {
       "c": "Knuth, Optimum binary search trees, Acta Informatica, DOI 10.1007/bf00264289",
       "s": "Crossref",
       "u": "https://doi.org/10.1007/bf00264289",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1973,
+    "ye": null,
+    "p": "year",
+    "l": "TAOCP Volume 3: Sorting and Searching",
+    "w": "Knuth, The Art of Computer Programming, Vol. 3: Sorting and Searching, Addison-Wesley, 1973",
+    "pe": [
+     "Donald Knuth"
+    ],
+    "d": "The volume applies the analysis of algorithms systematically to sorting and searching methods.",
+    "ph": null,
+    "c": "medium",
+    "n": "Year from the zbMATH record; the review's content was not read in full, so this role is judged from the title and scope.",
+    "ev": [
+     {
+      "c": "The art of computer programming, Vol. 3: Sorting and searching, Addison-Wesley (1973)",
+      "s": "zbMATH Open id 3473265",
+      "u": "https://zbmath.org/3473265",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Review of TAOCP Vol. 3, Mathematics of Computation 28 (1974)",
+      "s": "Crossref 10.2307/2005383",
+      "u": "https://doi.org/10.2307/2005383",
       "k": "bibliographic_record"
      }
     ]
@@ -145441,7 +145844,7 @@
     "d": "Knuth's article standardises the O, Omega and Theta notation used to state algorithmic running times.",
     "ph": null,
     "c": "medium",
-    "n": "This is a notational standard rather than a theorem; it is recorded as key_development because it fixed the vocabulary of the field.",
+    "n": "Crossref: ACM SIGACT News 8(2), April 1976, pp. 18-24. A notational standard rather than a theorem; recorded as key_development because it fixed the vocabulary of the field.",
     "ev": [
      {
       "c": "Knuth, Big Omicron and big Omega and big Theta, DOI 10.1145/1008328.1008329",
@@ -145518,7 +145921,7 @@
     ]
    }
   ],
-  "notes": "Event type is birth-by-fusion, and the record shows Knuth as the central figure. The coinage of 'analysis of algorithms' is dated only loosely in the history (after TAOCP Vol. 1); no year was recorded, so no naming milestone. The conceptual date is null because no first_statement is established. Sources searched: Wikipedia (Analysis of algorithms, Donald Knuth), MacTutor Knuth biography, Crossref.",
+  "notes": "Direct-style review (R4), not promoted. Crossref: Optimum binary search trees (Acta Inform. 1, 1971), Big Omicron (SIGACT News 8(2), 1976), the SIAM Review 1969 review of Vol. 1, Analytic Combinatorics (2009). zbMATH confirms Vol. 1 (1968), Vol. 2 (1969), Vol. 3 (1973) and, through its review of Vol. 1, that Knuth designates the subject 'analysis of algorithms' in 1968, so a naming milestone is added and the first statement's confidence raised to medium. Outstanding: whether any earlier Knuth text states the idea; the first_application reading of the 1971 paper; chapter-level content of Vol. 1 was not read.",
   "catalogueDates": [
    [
     1962,
