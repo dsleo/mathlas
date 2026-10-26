@@ -41897,8 +41897,12 @@
   "product": null,
   "why": "Central-force motion, universal gravitation and orbit theory were derived by geometric mathematics.",
   "cat": "Period run before 1850",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "methodological": "C",
+   "institutional": "C"
+  },
   "shown": {
    "conceptual": {
     "y": 1687,
@@ -41959,6 +41963,30 @@
    },
    {
     "r": "precursor",
+    "y": 1679,
+    "ye": null,
+    "p": "year",
+    "l": "Hooke-Newton correspondence on the inverse-square law",
+    "w": "Hooke-Newton letters of 1679-80",
+    "pe": [
+     "Isaac Newton",
+     "Robert Hooke"
+    ],
+    "d": "Hooke wrote to Newton claiming that attraction is in the inverse-square proportion of the distance from the centre; the exchange led Newton back to orbit problems.",
+    "ph": "Prelude, 1673-1684",
+    "c": "medium",
+    "n": "Private correspondence, hence a precursor; the content of the letters was not read. The priority dispute is not resolved here.",
+    "ev": [
+     {
+      "c": "MacTutor: in 1679 Newton corresponded with Hooke, who wrote claiming attraction is always in a duplicate proportion to the distance from the centre reciprocally.",
+      "s": "MacTutor: Isaac Newton",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Newton/",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "precursor",
     "y": 1684,
     "ye": null,
     "p": "year",
@@ -41971,12 +41999,18 @@
     "d": "After Halley asked about orbits under inverse-square force, Newton wrote a short tract proving the converse of what he claimed; Halley then persuaded him to write the full treatise.",
     "ph": "Prelude, 1673-1684",
     "c": "high",
-    "n": null,
+    "n": "The tract was not printed in 1684 (precursor). The title De motu corporum in gyrum is confirmed by English Wikipedia (the title appears on some surviving copies). MacTutor, following Nauenberg, says De Motu proved only the converse theorem (elliptical orbit implies inverse-square force).",
     "ev": [
      {
       "c": "In 1684 Halley asked Newton about the orbit; De Motu proved the converse; Halley persuaded him to write a full treatment.",
       "s": "MacTutor: Isaac Newton",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Newton/",
+      "k": "history_page"
+     },
+     {
+      "c": "Wikipedia: in November 1684 Newton sent Halley a 9-page manuscript, De motu corporum in gyrum; the opening sections of the Principia contain nearly all of its content.",
+      "s": "English Wikipedia, Philosophiae Naturalis Principia Mathematica",
+      "u": "https://en.wikipedia.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica",
       "k": "history_page"
      }
     ]
@@ -42030,7 +42064,7 @@
     "d": "Newton showed that a central inverse-square force corresponds to Kepler's laws and applied the theory to orbiting bodies, projectiles, pendulums and free fall.",
     "ph": "First edition, 1687",
     "c": "medium",
-    "n": "Same work as the first_statement. The proof that inverse-square force gives conic orbits is not in the first edition per MacTutor.",
+    "n": "Same work as the first_statement. MacTutor: the proof that inverse-square force implies conic orbits is sketched in Cor. 1 to Prop. 13 of Book 1 only in the second and third editions, not the first (see the 1713 milestone).",
     "ev": [
      {
       "c": "The results were applied to orbiting bodies, projectiles, pendulums and free-fall near the earth.",
@@ -42053,7 +42087,7 @@
     "d": "Oxford lecture textbook expounding Newtonian natural philosophy, an early systematic presentation of Newton's system.",
     "ph": null,
     "c": "low",
-    "n": "Textbook of Newtonian physics; it is not a treatment of the Principia's orbit theory itself, so the link to this event is weak.",
+    "n": "Textbook of Newtonian natural philosophy; it is not a treatment of the Principia's orbit theory itself, so the link to this event is weak (Open Library and Wikipedia confirm the 1702 Oxford Introductio ad veram physicam). Gregory's Astronomiae of the same year fits the orbit theory better and is listed separately.",
     "ev": [
      {
       "c": "Open Library record of the 1702 Introductio ad veram physicam.",
@@ -42066,6 +42100,35 @@
       "s": "Wikipedia, John Keill",
       "u": "https://en.wikipedia.org/wiki/John_Keill",
       "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "consolidation",
+    "y": 1702,
+    "ye": null,
+    "p": "year",
+    "l": "Gregory's Astronomiae physicae et geometricae elementa",
+    "w": "David Gregory, Astronomiae physicae et geometricae elementa, Oxford, 1702",
+    "pe": [
+     "David Gregory"
+    ],
+    "d": "Oxford textbook of physical astronomy founded on Kepler and Newton, stating in its preface that it aims to make the celestial physics Newton brought to its peak easier for students.",
+    "ph": null,
+    "c": "medium",
+    "n": "Role from the title page, imprint (Oxford, Sheldonian Theatre, 1702) and preface read in the Internet Archive scan; the rest of the book was not read. Whether it is the first systematic exposition of the Principia's orbit theory was not established.",
+    "ev": [
+     {
+      "c": "Open Library work record (D. Gregory, first published 1702).",
+      "s": "Open Library work OL9333169W",
+      "u": "https://openlibrary.org/works/OL9333169W",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Internet Archive scan: title page 'Oxonii, E Theatro Sheldoniano, An. Dom. MDCCII'; the preface says the book was published so that the celestial physics prepared by Kepler and brought to its peak by Newton would be easier for students.",
+      "s": "Internet Archive: Gregory, Astronomiae physicae et geometricae elementa (1702)",
+      "u": "https://archive.org/details/bub_gb_b6WHgpAkGLMC",
+      "k": "primary_text"
      }
     ]
    },
@@ -42170,7 +42233,7 @@
     ]
    }
   ],
-  "notes": "The first edition's wording and theorem proofs were not read; claims are from MacTutor and Wikipedia. Priority disputes with Hooke and Leibniz are not resolved. The year 1684 for De motu is given by MacTutor; the title De motu corporum in gyrum is from my background knowledge. The input says 'geometric mathematics', which is consistent with the sources (geometrical demonstrations). person without verified work: Edmond Halley (developer). person without verified work: Robert Hooke (developer).",
+  "notes": "Direct review (batch A2): MacTutor (Newton, Huygens) and Wikipedia (Principia, John Keill, David Gregory) checked for each claim; the 1687 and 1713 editions are confirmed by archive.org records; the Gregory 1702 preface was read in the Internet Archive scan. The first edition's text and theorem proofs were not read, so the first-application role (same work as the first statement) is medium confidence. Priority disputes with Hooke and Leibniz are not resolved. Added the 1679 Hooke-Newton correspondence (precursor) and Gregory's 1702 Astronomiae (consolidation); Keill 1702 is kept with a low-confidence note. The title of De motu is now supported by Wikipedia. The input says 'geometric mathematics', which is consistent with the sources (geometrical demonstrations). Person without verified work: Edmond Halley (developer), Robert Hooke (developer).",
   "catalogueDates": [
    [
     1679,
@@ -46065,8 +46128,11 @@
   "product": null,
   "why": "An algebraic adequality rule found extrema and tangents of curves.",
   "cat": "Period run before 1850",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "institutional": "B"
+  },
   "shown": {
    "conceptual": {
     "y": 1642,
@@ -46151,21 +46217,33 @@
     "ye": null,
     "p": "year",
     "l": "Hérigone prints Fermat's maxima and minima method",
-    "w": "Hérigone, Cursus mathematicus, supplement",
+    "w": "Hérigone, Supplementum cursus mathematici, Paris, 1642 (Supplementum algebrae, prop. XXVI, De maximis et minimis)",
     "pe": [
      "Pierre de Fermat",
      "Pierre Hérigone"
     ],
     "d": "Hérigone's course added a supplement carrying Fermat's method, its first public appearance.",
     "ph": "Printed publication (1642, 1679)",
-    "c": "low",
-    "n": "Year 1642 is from background knowledge, not from the pages read; Internet Archive shows Cursus editions dated 1639 and 1644. Treat as open until the supplement's imprint year is checked.",
+    "c": "medium",
+    "n": "Imprint year checked on the Internet Archive scan: the Supplementum Cursus Mathematici (vol. 6) is dated Paris M.DC.XLII and its Supplementum Algebrae, proposition XXVI 'De maximis & minimis', gives the method and says the same method yields tangents. Fermat's 1679 Varia opera reprints this passage as 'P. Herigonius, tom. 6 Cursus Mathematici p. 68', which calls Fermat the inventor, so the 1642 print is attributed to Fermat; the passage is in Hérigone's notation and is a short exposition, not Fermat's own text.",
     "ev": [
      {
       "c": "Says Hérigone added a supplement with Fermat's methods of maxima and minima to his Cursus mathematicus.",
       "s": "MacTutor biography of Fermat",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Fermat/",
       "k": "history_page"
+     },
+     {
+      "c": "Internet Archive scan: title page 'Supplementum Cursus Mathematici ... Par Pierre Herigone ... A Paris M.DC.XLII'; Supplementum algebrae, prop. XXVI, De maximis et minimis, with the remark that the same method finds tangents.",
+      "s": "Internet Archive: Hérigone, Supplementum Cursus mathematici (1642)",
+      "u": "https://archive.org/details/bub_gb_5_dsTRSiW68C",
+      "k": "primary_text"
+     },
+     {
+      "c": "The 1679 Varia opera quotes 'P. Herigonius, tom. 6. Cursus Mathematici p. 68. De Maximis & minimis' and names Fermat as the inventor of the method.",
+      "s": "Internet Archive: Fermat, Varia opera mathematica (1679)",
+      "u": "https://archive.org/details/variaoperamathe00ferm",
+      "k": "primary_text"
      }
     ]
    },
@@ -46182,8 +46260,8 @@
     ],
     "d": "The posthumous collected works first gave the Methodus and related tracts in print in full.",
     "ph": "Printed publication (1642, 1679)",
-    "c": "medium",
-    "n": "That the Methodus itself is in the 1679 volume rests on the MacTutor reference to the 1679 Maxima et minima extract; contents not checked page by page.",
+    "c": "high",
+    "n": "Checked on the Internet Archive scan: the 1679 Varia opera (Toulouse) prints 'Methodus ad disquirendam maximam & minimam' (Mathematica, p. 63 ff.) together with the Hérigone passage and the tangent method. A collected-works volume rather than a monograph, so 'consolidation' is a loose fit for a first full printing of the Methodus.",
     "ev": [
      {
       "c": "Record of the 1679 Varia opera mathematica.",
@@ -46196,6 +46274,12 @@
       "s": "Open Library search: Varia opera entries",
       "u": "https://openlibrary.org/search?q=Varia+opera+mathematica+Fermat",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Internet Archive scan of the 1679 Toulouse volume shows the heading 'Methodus ad disquirendam maximam & minimam' and, after it, the tangent and centre-of-gravity applications.",
+      "s": "Internet Archive: Fermat, Varia opera mathematica (1679)",
+      "u": "https://archive.org/details/variaoperamathe00ferm",
+      "k": "primary_text"
      }
     ]
    }
@@ -46230,7 +46314,7 @@
     ]
    }
   ],
-  "notes": "Scholars disagree about what adequality means (Wikipedia notes this). The adequality name is Fermat's own, borrowed from Diophantus (Wikipedia). Whether 1642 or 1679 is the first print is open; no naming milestone beyond Fermat's own term. The 'differential calculus (precursor)' label stays a label, not a milestone.",
+  "notes": "Direct review (batch A2). Scholars disagree about what adequality means (Wikipedia notes this). The adequality name is Fermat's own, borrowed from Diophantus (Wikipedia). The first print is now resolved: Hérigone's Supplementum cursus mathematici (Paris, 1642) prints the method and the 1679 Varia opera reprints that passage naming Fermat, so the 1642 first statement is supported (previously low-confidence); the 1679 volume prints the Methodus itself. No first application is dated, so no methodological date is derived; no naming milestone beyond Fermat's own term. The 1629-31 precursor rests on a MacTutor remark with no exact year (low confidence). The 'differential calculus (precursor)' label stays a label, not a milestone.",
   "catalogueDates": [
    "1629-1637",
    null,
@@ -47191,8 +47275,10 @@
   "product": null,
   "why": "Powers of cos x + i sin x tie multiple-angle trigonometry to complex arithmetic.",
   "cat": "Period run before 1850",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "C"
+  },
   "shown": {
    "conceptual": {
     "y": 1722,
@@ -47227,6 +47313,35 @@
   "ms": [
    {
     "r": "precursor",
+    "y": 1698,
+    "ye": null,
+    "p": "year",
+    "l": "De Moivre's series relating an arc and its multiple",
+    "w": "De Moivre, A method of extracting the root of an infinite equation, Phil. Trans. 20 (240), pp. 190-193, 1698",
+    "pe": [
+     "Abraham de Moivre"
+    ],
+    "d": "De Moivre derives the series relating the chords or sines of an arc and of a multiple of it, which Newton had given in a letter of 1676.",
+    "ph": null,
+    "c": "low",
+    "n": "Claim from English Wikipedia's History section ('In 1698, de Moivre derived the same series', p. 192); the paper was not read. Newton's 1676 letter to Oldenburg, printed in the Commercium epistolicum, is an earlier, initially private precursor and is not listed.",
+    "ev": [
+     {
+      "c": "Crossref: 'A method of extracting the root of an infinite equation', Phil. Trans. 20, pp. 190-193, issued 31 May 1698.",
+      "s": "Crossref DOI 10.1098/rstl.1698.0034",
+      "u": "https://doi.org/10.1098/rstl.1698.0034",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Wikipedia: in 1698 de Moivre derived the same series Newton had sent to Oldenburg in 1676 (see p. 192).",
+      "s": "English Wikipedia, De Moivre's formula (History)",
+      "u": "https://en.wikipedia.org/wiki/De_Moivre%27s_formula",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "precursor",
     "y": 1707,
     "ye": null,
     "p": "year",
@@ -47238,7 +47353,7 @@
     "d": "A closely related relation between multiples of an angle appears in an earlier paper on solving equations by series.",
     "ph": null,
     "c": "medium",
-    "n": "Identification of the 1707 paper with MacTutor's remark follows Wikipedia's citation; the content was not read.",
+    "n": "The paper itself was not read. Its identification with MacTutor's remark follows Wikipedia, which gives its equation (2), y = 1/2 (a + sqrt(aa-1))^(1/n) + 1/2 (a - sqrt(aa-1))^(1/n), and notes that y = cos x, a = cos nx turns it into the trigonometric formula. De Moivre's 1722 paper refers back to these solutions (Phil. Trans. no. 309, January-March 1707), which confirms the paper's subject.",
     "ev": [
      {
       "c": "Crossref: Phil. Trans. 25, pp. 2368-2371, dated 1707.",
@@ -47250,6 +47365,12 @@
       "c": "MacTutor: a closely related formula appeared in an earlier paper of 1707.",
       "s": "MacTutor, De Moivre",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
+      "k": "history_page"
+     },
+     {
+      "c": "Wikipedia: equation (2) of this paper, with y = cos x and a = cos nx, gives the cosine form of the formula.",
+      "s": "English Wikipedia, De Moivre's formula (History)",
+      "u": "https://en.wikipedia.org/wiki/De_Moivre%27s_formula",
       "k": "history_page"
      }
     ]
@@ -47267,7 +47388,7 @@
     "d": "An equivalent logarithmic statement for the angle, which implies the power rule, appeared eight years earlier.",
     "ph": null,
     "c": "medium",
-    "n": null,
+    "n": "Crossref lists Cotes as author and Halley as editor of the Logometria (Phil. Trans. 29, pp. 5-45, issued 31 March 1714). The equivalence to ix = ln(cos x + i sin x) is Wikipedia's statement (with a misplaced-factor correction) and was not checked in the text.",
     "ev": [
      {
       "c": "Crossref: Logometria, Phil. Trans. 29, 1714.",
@@ -47288,21 +47409,33 @@
     "y": 1722,
     "ye": null,
     "p": "year",
-    "l": "De Moivre's formula appears in a Philosophical Transactions paper",
-    "w": "De Moivre, paper of 1722 (candidate: De sectione anguli, Phil. Trans. 32, pp. 228-230)",
+    "l": "De sectione anguli relates an arc to its multiple",
+    "w": "De Moivre, De sectione anguli, Phil. Trans. 32, pp. 228-230, 1722",
     "pe": [
      "Abraham de Moivre"
     ],
     "d": "MacTutor says the formula for (cos x + i sin x)^n first appears in this exact form in a paper of 1722.",
     "ph": null,
-    "c": "medium",
-    "n": "Exact paper unconfirmed; Crossref candidate 'De sectione anguli' (1722) not read. Wikipedia instead cites Miscellanea analytica (1730) for the explicit lemma, so priority between 1722 and 1730 is open.",
+    "c": "low",
+    "n": "Read in the Internet Archive scan of Phil. Trans. vol. 32 (VII, De sectione anguli, pp. 228-230): the paper states a theorem on versed sines of arcs in the ratio n to 1 and 'cognate' roots, and refers back to the 1707 solutions (no. 309). The OCR is too garbled to confirm the explicit (cos x + i sin x)^n form that MacTutor reports, and Wikipedia cites Miscellanea analytica (1730) for the explicit lemma while its own text gives the equivalent algebraic relation in 1707. Priority among 1707, 1722 and 1730 is an interpretive question; 1722 follows MacTutor.",
     "ev": [
+     {
+      "c": "Crossref: 'De sectione anguli', Phil. Trans. 32, pp. 228-230, issued 31 December 1722 (volume 1722-23).",
+      "s": "Crossref DOI 10.1098/rstl.1722.0039",
+      "u": "https://doi.org/10.1098/rstl.1722.0039",
+      "k": "bibliographic_record"
+     },
      {
       "c": "MacTutor: the formula appears in this form in a paper that De Moivre published in 1722.",
       "s": "MacTutor, De Moivre",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
       "k": "history_page"
+     },
+     {
+      "c": "Internet Archive scan of Phil. Trans. vol. 32 (1722-23) contains item VII, 'De sectione anguli, Autore A. de Moivre'; its theorem on arcs in the ratio n to 1 refers to the solutions printed in no. 309 (1707).",
+      "s": "Internet Archive: Philosophical transactions vol. 32",
+      "u": "https://archive.org/details/bim_eighteenth-century_philosophical-transactio_royal-society-great-bri_1724_32",
+      "k": "primary_text"
      }
     ]
    },
@@ -47316,16 +47449,16 @@
     "pe": [
      "Abraham de Moivre"
     ],
-    "d": "Wikipedia cites the first page of this book for De Moivre's explicit lemma on cosines of an angle and its multiples.",
+    "d": "De Moivre's Lemma I of Liber I gives the cosine of an arc in terms of the cosine of its n-th multiple, the explicit form behind the formula.",
     "ph": null,
-    "c": "medium",
-    "n": null,
+    "c": "high",
+    "n": "Lemma I read on the first page of Liber I in the Internet Archive scan of the 1730 London edition: for l and x cosines of arcs A and B with A a multiple n of B, x = 1/2 (l + sqrt(ll-1))^(1/n) + 1/2 (l + sqrt(ll-1))^(-1/n).",
     "ev": [
      {
-      "c": "Internet Archive holds the 1730 London edition.",
+      "c": "Internet Archive scan of the 1730 London edition (Tonson and Watts); Liber I, Lemma I on p. 1 states the relation between the cosines of an arc and its n-th multiple.",
       "s": "Internet Archive",
       "u": "https://archive.org/details/bub_gb_TFX1165yEc4C",
-      "k": "bibliographic_record"
+      "k": "primary_text"
      },
      {
       "c": "Wikipedia, De Moivre's formula: in 1730 De Moivre explicitly considered cos of an angle and its integer multiple (p. 1).",
@@ -47415,7 +47548,7 @@
     ]
    }
   ],
-  "notes": "The date of first statement is genuinely disputed between sources (1707 related, 1722 per MacTutor, 1730 per Wikipedia, 1714 by Cotes in a different form). No naming milestone found: when 'de Moivre's formula' became the usual name was not established. Derived conceptual date 1722 is a low-certainty choice. De Moivre's formula appears in Phil. Trans. 32 (1722, De sectione anguli, pp. 228-230, Crossref); whether that paper states the explicit formula is unresolved, and Wikipedia cites Miscellanea analytica (1730).",
+  "notes": "Direct review (batch A2). The date of the first statement is genuinely disputed (1707 related, 1722 per MacTutor, 1730 per Wikipedia, 1714 by Cotes in a different form). Checked: Crossref records for the 1698, 1707, 1714 and 1722 papers; the 1722 paper (De sectione anguli, Phil. Trans. 32) and the 1730 Lemma I were read in Internet Archive scans. The 1722 paper treats versed sines of arcs in the ratio n to 1 and refers to the 1707 solutions; the 1730 lemma is explicit in cosines. Derived conceptual date 1722 follows MacTutor and is a low-certainty choice. No naming milestone found: when 'de Moivre's formula' became the usual name was not established. Added a 1698 precursor (Wikipedia's account; not read). Methodological date is blank: no first application found; the shown date falls back to the 1730 key development.",
   "catalogueDates": [
    "1707-1748",
    null,
@@ -60407,8 +60540,12 @@
   "product": null,
   "why": "Eudoxus gave a theory of ratios for incommensurables and the exhaustion method, a precursor of integration.",
   "cat": "Period run before 1850",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "C",
+   "methodological": "C",
+   "institutional": "B"
+  },
   "shown": {
    "conceptual": {
     "y": -370,
@@ -60542,7 +60679,7 @@
     "d": "Democritus had stated that cone and pyramid are one third of cylinder and prism; Eudoxus supplied the first proof using exhaustion.",
     "ph": null,
     "c": "medium",
-    "n": "Same date range as first_statement; order within it is unknown.",
+    "n": "Same date range as first_statement; order within it is unknown. Heath's introduction to The Method of Archimedes (read in the Internet Archive text) says Eudoxus first proved the cone and pyramid results scientifically and Democritus first asserted them, citing Archimedes' own statement in the preface to On the Sphere and Cylinder I.",
     "ev": [
      {
       "c": "Heath's introduction says Eudoxus first proved these results scientifically, while Democritus first asserted them.",
@@ -60640,8 +60777,8 @@
     ],
     "d": "The term exhaustion for the method is credited to Saint-Vincent, who wrote that a quantity is exhausted.",
     "ph": null,
-    "c": "medium",
-    "n": "Priority for the exact coinage rests on Wikipedia; MacTutor confirms only the book and the idea.",
+    "c": "low",
+    "n": "Coinage priority rests on English Wikipedia's Method of exhaustion (History); MacTutor quotes Saint-Vincent's phrase 'the quantity will be exhausted' and dates the Opus geometricum to 1647 but does not credit him with the term, and the book itself was not searched for the phrase.",
     "ev": [
      {
       "c": "The first use of the term was in 1647 by Gregory of Saint Vincent.",
@@ -60676,7 +60813,7 @@
     "d": "Dedekind's cuts are often compared with Eudoxus' definition, though whether Eudoxus influenced him is disputed.",
     "ph": null,
     "c": "medium",
-    "n": "Influence is contested; the milestone records the later reception, not a proven line.",
+    "n": "Influence is contested: MacTutor says Dedekind emphasised that Eudoxus inspired him (and quotes Heath), while Stein 1990 and others deny a proven line. The milestone records the later reception, not an influence.",
     "ev": [
      {
       "c": "Eudoxus' work inspired Dedekind's work on real numbers.",
@@ -60777,7 +60914,7 @@
     ]
    }
   ],
-  "notes": "No text by Eudoxus survives; both parts of the theory rest on Euclid, Archimedes and later testimony, so first_statement and first_application share one date range. Archimedes attributes the cone and pyramid proofs to Eudoxus. Antiphon and Bryson (circumscribed polygons) are earlier steps. Dedekind influence is disputed (Corry 1994 and Stein 1990 are discussed in MacTutor). Searched: MacTutor Eudoxus, Squaring the circle, Saint-Vincent; Wikipedia Method of exhaustion, Eudoxus, Euclid's Elements; Heath 1912 (Internet Archive); Joyce's Elements. person without verified work: Antiphon (originator).",
+  "notes": "Direct review (batch A2): each milestone checked against MacTutor (Eudoxus, Saint-Vincent), Wikipedia (Method of exhaustion), Heath's introduction to The Method of Archimedes and Crossref records for Knorr 1975 and Stein 1990. No text by Eudoxus survives; both parts of the theory rest on Euclid, Archimedes and later testimony, so first_statement and first_application share one date range (Eudoxus c. 408-355 BC) and the grades are C. Euclid's date (c. 300 BC) is inferred. The 'method of exhaustion' coinage by Saint-Vincent (1647) rests on Wikipedia alone, confidence lowered to low. Archimedes attributes the cone and pyramid proofs to Eudoxus. Antiphon and Bryson (circumscribed polygons) are earlier steps. Dedekind influence is disputed (Corry 1994 and Stein 1990 are discussed in MacTutor). Person without verified work: Antiphon (originator).",
   "catalogueDates": [
    [
     -370,
@@ -63009,8 +63146,11 @@
   "product": null,
   "why": "Generalised functions were defined as continuous linear functionals on test functions, unifying Dirac delta, weak derivatives and Fourier transforms.",
   "cat": "Period run 1930-1990",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "C",
+   "institutional": "B"
+  },
   "shown": {
    "conceptual": {
     "y": 1945,
@@ -63039,10 +63179,39 @@
    "institutional": 1948
   },
   "phases": [
-   "Delta functions and generalised derivatives (1930-1936)",
+   "Delta functions and generalised derivatives (1927-1936)",
    "Schwartz's theory (1945-1950)"
   ],
   "ms": [
+   {
+    "r": "precursor",
+    "y": 1927,
+    "ye": null,
+    "p": "year",
+    "l": "Dirac introduces the delta function",
+    "w": "Dirac, P. A. M., The physical interpretation of the quantum dynamics, Proc. R. Soc. Lond. A 113 (1927) 621-641",
+    "pe": [
+     "Paul Dirac"
+    ],
+    "d": "Dirac uses the delta function as a physical tool in quantum mechanics, before any rigorous theory of such objects existed.",
+    "ph": "Delta functions and generalised derivatives (1927-1936)",
+    "c": "medium",
+    "n": "Year and journal are confirmed by Crossref; the attribution of the first use of the delta function to this paper is Wikipedia's. The paper was not read.",
+    "ev": [
+     {
+      "c": "Proc. R. Soc. Lond. A 113, pp. 621-641, issued 1 January 1927.",
+      "s": "Crossref DOI 10.1098/rspa.1927.0012",
+      "u": "https://doi.org/10.1098/rspa.1927.0012",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Wikipedia: Dirac introduced the delta function in a 1927 paper, popularised in his 1930 book.",
+      "s": "English Wikipedia, Dirac delta function (History)",
+      "u": "https://en.wikipedia.org/wiki/Dirac_delta_function",
+      "k": "history_page"
+     }
+    ]
+   },
    {
     "r": "precursor",
     "y": 1930,
@@ -63054,9 +63223,9 @@
      "Paul Dirac"
     ],
     "d": "The delta function is used as a physical tool, before a rigorous theory of distributions existed.",
-    "ph": "Delta functions and generalised derivatives (1930-1936)",
+    "ph": "Delta functions and generalised derivatives (1927-1936)",
     "c": "medium",
-    "n": "The book is a bibliographic record; the delta-function content is taken from the Wikipedia statement, not the book itself.",
+    "n": "The book is a bibliographic record (zbMATH 56.0745.05); Wikipedia says Dirac introduced the delta function in the 1927 paper (listed above) and popularised it in this book, which is kept as the widely read exposition. Delta-function content is taken from Wikipedia, not read in the book.",
     "ev": [
      {
       "c": "zbMATH record: 'The principles of quantum mechanics', Milford 1930",
@@ -63083,7 +63252,7 @@
      "Sergei Sobolev"
     ],
     "d": "Uses generalised derivatives to treat the Cauchy problem for hyperbolic equations, the first purposeful use of the idea.",
-    "ph": "Delta functions and generalised derivatives (1930-1936)",
+    "ph": "Delta functions and generalised derivatives (1927-1936)",
     "c": "medium",
     "n": "The link between this 1936 paper and the later theory is from the Wikipedia history; the paper's content was not read. Reclassified from first_application to precursor: it predates this event's first statement (1945) and belongs to the wider field.",
     "ev": [
@@ -63120,7 +63289,7 @@
     "d": "The first public statement of generalised functions as an extension of functions and derivatives.",
     "ph": "Schwartz's theory (1945-1950)",
     "c": "medium",
-    "n": "Year and title are verified; the claim that the 1945 paper defines distributions as continuous functionals is inferred from the title and not read.",
+    "n": "Year: zbMATH (3097349, Zbl 0060.27504) gives 1945, and the paper is in volume 21 of the Annales de l'Universite de Grenoble, earlier than volume 23 (1948) of the next paper. MacTutor names this paper as the first publication of the ideas but dates it to 1948, apparently a slip; Schwartz's own account, quoted by MacTutor, puts the idea in 1944. That the 1945 paper already defines distributions as continuous functionals is inferred from the title and not read.",
     "ev": [
      {
       "c": "zbMATH record: Schwartz, Generalisation de la notion de fonction ..., Grenoble (1945)",
@@ -63129,7 +63298,7 @@
       "k": "bibliographic_record"
      },
      {
-      "c": "MacTutor: Schwartz's famous work on the theory of distributions",
+      "c": "MacTutor names 'Generalisation de la notion de fonction, de derivation, de transformation de Fourier et applications mathematiques et physiques' as the first publication presenting Schwartz's ideas, but dates it 1948 (zbMATH and the journal volume give 1945).",
       "s": "MacTutor Biography: Laurent Schwartz",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Schwartz/",
       "k": "history_page"
@@ -63149,7 +63318,7 @@
     "d": "The first title in the searched index that uses the term 'distributions' for the theory.",
     "ph": "Schwartz's theory (1945-1950)",
     "c": "medium",
-    "n": "Term-coinage date within Schwartz's own writing is not pinned; the 1948 title is the earliest record found in zbMATH.",
+    "n": "Term-coinage date within Schwartz's own writing is not pinned; the 1948 title is the earliest record found in zbMATH (title searches for 'distributions' before 1948 return only probability papers; a second zbMATH record with this title is dated 1949). Wikipedia, citing Schwartz's autobiography, says he chose the term by analogy with electrical charge distributions.",
     "ev": [
      {
       "c": "zbMATH record: 'Theorie des distributions et transformation de Fourier', 1948",
@@ -63178,7 +63347,7 @@
     "d": "The first systematic treatise of the theory, which established distributions as a field.",
     "ph": "Schwartz's theory (1945-1950)",
     "c": "high",
-    "n": null,
+    "n": "zbMATH indexes Tome I as Publications de l'Institut de Mathematique de l'Universite de Strasbourg, 1950 (the Actualites scientifiques et industrielles 1091 / Hermann numbers are the same publication run); MacTutor confirms 1950 and 1951 for the two volumes.",
     "ev": [
      {
       "c": "zbMATH record: 'Theorie des distributions. Tome I', Hermann 1950",
@@ -63191,6 +63360,12 @@
       "s": "Open Library search",
       "u": "https://openlibrary.org/search.json?q=Th%C3%A9orie+des+distributions+schwartz",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "MacTutor: Schwartz's Vancouver lectures of 1949 became the two-volume treatise Theorie des distributions (1950, 1951).",
+      "s": "MacTutor Biography: Laurent Schwartz",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Schwartz/",
+      "k": "history_page"
      }
     ]
    }
@@ -63243,6 +63418,12 @@
     "url": "https://en.wikipedia.org/wiki/Paul_Dirac",
     "works": [
      {
+      "c": "Dirac, P. A. M., The physical interpretation of the quantum dynamics, Proc. R. Soc. Lond. A 113 (1927)",
+      "y": 1927,
+      "u": "https://doi.org/10.1098/rspa.1927.0012",
+      "w": "Introduces the delta function"
+     },
+     {
       "c": "The Principles of Quantum Mechanics, Milford",
       "y": 1930,
       "u": "https://zbmath.org/?q=an:56.0745.05",
@@ -63251,7 +63432,7 @@
     ]
    }
   ],
-  "notes": "All four verified milestones have a zbMATH or Open Library record. Gap: Wikipedia's history places the practical use of distributions in Green functions of the 1830s; this earlier idea is noted, not a milestone. Gelfand and Shilov's Generalized functions (zbMATH 0091.11103, 1958) is a later systematic work and is not used as a milestone. The first application of distributions to a target problem after Sobolev is not established.",
+  "notes": "Direct review (batch A2): all milestones checked against zbMATH and Crossref records. Added Dirac 1927 as the earlier precursor (the 1930 book is kept as the popularising exposition). The 1945 first statement has a source conflict (zbMATH 1945 versus MacTutor 1948), resolved for 1945 by the journal volume number; the paper's content was not read, so the grade is C. Gap: Wikipedia's history places the practical use of distributions in Green functions of the 1830s; this earlier idea is noted, not a milestone. Gelfand and Shilov's Generalized functions (zbMATH 0091.11103, 1958) is a later systematic work and is not used as a milestone. The first application of distributions to a target problem after Sobolev is not established, so no methodological date is derived.",
   "catalogueDates": [
    [
     1944,
@@ -64280,8 +64461,12 @@
   "product": null,
   "why": "Yang-Baxter equation.",
   "cat": "Period run 1930-1990",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "methodological": "B",
+   "institutional": "C"
+  },
   "shown": {
    "conceptual": {
     "y": 1967,
@@ -64318,6 +64503,35 @@
   "ms": [
    {
     "r": "precursor",
+    "y": 1944,
+    "ye": null,
+    "p": "year",
+    "l": "Onsager's star-triangle relation noted in the Ising solution",
+    "w": "Onsager, L., Crystal Statistics. I. A Two-Dimensional Model with an Order-Disorder Transition, Phys. Rev. 65 (1944) 117-149",
+    "pe": [
+     "Lars Onsager"
+    ],
+    "d": "The star-triangle relation, the statistical-mechanics ancestor of the Yang-Baxter equation, is mentioned in the introduction to Onsager's solution of the two-dimensional Ising model.",
+    "ph": null,
+    "c": "low",
+    "n": "The link rests on English Wikipedia's History section, which says the equation 'probably goes back to' Onsager's star-triangle relation; Onsager's introduction was not read, so the exact statement is unchecked.",
+    "ev": [
+     {
+      "c": "Phys. Rev. 65, pp. 117-149, issued 1 February 1944.",
+      "s": "Crossref DOI 10.1103/PhysRev.65.117",
+      "u": "https://doi.org/10.1103/PhysRev.65.117",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Wikipedia: in statistical mechanics the source of the Yang-Baxter equation probably goes back to Onsager's star-triangle relation, briefly mentioned in the introduction to his solution of the Ising model.",
+      "s": "English Wikipedia, Yang-Baxter equation (History)",
+      "u": "https://en.wikipedia.org/wiki/Yang%E2%80%93Baxter_equation",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "precursor",
     "y": 1964,
     "ye": null,
     "p": "year",
@@ -64329,7 +64543,7 @@
     "d": "Solves a one-dimensional N-body problem by factorised scattering, the setting in which the Yang-Baxter relation first appears.",
     "ph": "Delta-function many-body problem (1964-67)",
     "c": "high",
-    "n": null,
+    "n": "McGuire's paper is a public publication; it is labelled precursor because Yang's 1967 letter states the factorised scattering-matrix condition explicitly (Wikipedia, citing Jimbo, names both). Priority between the two is an interpretive call. Crossref and zbMATH (3213526) confirm title, journal, pages and 1 May 1964.",
     "ev": [
      {
       "c": "Paper in J. Math. Phys. (1964), DOI 10.1063/1.1704156, pages 622-636",
@@ -64358,7 +64572,7 @@
     "d": "States the factorisation of the many-body scattering matrix, the consistency condition later named after Yang and Baxter.",
     "ph": "Delta-function many-body problem (1964-67)",
     "c": "high",
-    "n": "The Crossref title differs from the commonly quoted 'Some exactly solvable many-body problems'; the record title is used.",
+    "n": "The Crossref title differs from the commonly quoted 'Some exactly solvable many-body problems'; the record title (PRL 19, 1312-1315, 4 December 1967) is used. Paper not read: the claim that it contains the factorisation condition is Wikipedia's.",
     "ev": [
      {
       "c": "Paper in Phys. Rev. Lett. 19 (1967), DOI 10.1103/PhysRevLett.19.1312, published 4 December 1967",
@@ -64418,7 +64632,7 @@
     "d": "Builds the general operator framework that makes the Yang-Baxter relation the defining condition of quantum integrability.",
     "ph": "Quantum inverse problem method (1979)",
     "c": "medium",
-    "n": "zbMATH indexes the Russian-language author order differently in different entries; the author list here follows the Crossref record.",
+    "n": "Crossref gives Theoret. and Math. Phys. 40, 688-706 (the English translation), issued August 1979, authors in the order Sklyanin, Takhtadzhyan, Faddeev; zbMATH 3703277 lists Faddeev, Sklyanin, Takhtadzhyan. The paper's role is taken from its title and standard accounts; it was not read.",
     "ev": [
      {
       "c": "Paper titled 'Quantum inverse problem method. I' in Theoret. and Math. Phys., Crossref year 1979, DOI 10.1007/bf01018718",
@@ -64434,20 +64648,27 @@
     "ye": null,
     "p": "year",
     "l": "Yang-Baxter equation named in a title",
-    "w": "Kulish, P. P.; Reshetikhin, N. Yu., Yang-Baxter equation and representation theory. I, Letters in Mathematical Physics 5 (1981) 393-403",
+    "w": "Kulish, P. P.; Reshetikhin, N. Yu.; Sklyanin, E. K., Yang-Baxter equation and representation theory. I, Letters in Mathematical Physics 5 (1981) 393-403",
     "pe": [
      "P. P. Kulish",
-     "N. Yu. Reshetikhin"
+     "N. Yu. Reshetikhin",
+     "E. K. Sklyanin"
     ],
     "d": "The earliest zbMATH title found that uses the name 'Yang-Baxter equation'.",
     "ph": null,
     "c": "medium",
-    "n": "Based on a title-string search of zbMATH; spelling variants were not searched, so this is the earliest title found, not proof of the first use.",
+    "n": "Based on title searches of zbMATH and Crossref: a zbMATH title search for 'Yang-Baxter' over 1970-1981 returns only this paper (Letters in Mathematical Physics, issued September 1981; authors Kulish, Reshetikhin, Sklyanin); spelling variants and non-title uses were not searched, so this is the earliest title found, not proof of the first use. Kulish and Sklyanin, Solutions of the Yang-Baxter equation (J. Soviet Math. 19, 1982) is later.",
     "ev": [
      {
       "c": "zbMATH title 'Yang-Baxter equation and representation theory. I' (1981); a title search for 'Yang-Baxter' over 1950-1980 returned no record",
       "s": "zbMATH Open 3790922",
       "u": "https://zbmath.org/3790922",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Letters in Mathematical Physics 5, pp. 393-403, issued September 1981; authors Kulish, Reshetikhin, Sklyanin.",
+      "s": "Crossref DOI 10.1007/bf02285311",
+      "u": "https://doi.org/10.1007/bf02285311",
       "k": "bibliographic_record"
      }
     ]
@@ -64465,12 +64686,35 @@
     "d": "The first book-length systematic treatment of solvable lattice models and the Yang-Baxter relation.",
     "ph": "Monograph (1982)",
     "c": "medium",
-    "n": "A later Crossref entry (1985) is a reprint in a series, so 1982 is the first edition year.",
+    "n": "zbMATH 0538.60093 gives Baxter, Exactly solved models in statistical mechanics, 1982. Crossref has only a 1985 reprint chapter, so 1982 (Academic Press) is the first edition year.",
     "ev": [
      {
       "c": "Monograph indexed by zbMATH with 1982 year (0538.60093)",
       "s": "zbMATH",
       "u": "https://zbmath.org/?q=an:0538.60093",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1985,
+    "ye": null,
+    "p": "year",
+    "l": "Jimbo's q-deformation of U(g) from the Yang-Baxter equation",
+    "w": "Jimbo, M., A q-difference analogue of U(g) and the Yang-Baxter equation, Letters in Mathematical Physics 10 (1985) 63-69",
+    "pe": [
+     "Michio Jimbo"
+    ],
+    "d": "Builds q-deformed enveloping algebras from solutions of the Yang-Baxter equation, the start of quantum groups.",
+    "ph": null,
+    "c": "medium",
+    "n": "Title and record checked; the paper was not read. Drinfeld's 1985 note on Hopf algebras and the quantum Yang-Baxter equation is the parallel result; only a 1990 reprint was found in Crossref, so it is not listed.",
+    "ev": [
+     {
+      "c": "Letters in Mathematical Physics 10, pp. 63-69, issued July 1985; title links the q-deformation of U(g) to the Yang-Baxter equation.",
+      "s": "Crossref DOI 10.1007/bf00704588",
+      "u": "https://doi.org/10.1007/bf00704588",
       "k": "bibliographic_record"
      }
     ]
@@ -64568,7 +64812,7 @@
     ]
    }
   ],
-  "notes": "Sources: Wikipedia (raw wikitext, Yang-Baxter equation; history section citing Jimbo's account), Crossref and zbMATH for the 1964-1982 works. MacTutor's 'Baxter' biography is of Agnes Baxter (1870-1917) and was not used. Dispute: the input summary gives only 'Yang-Baxter equation'; the record shows the factorised solution (McGuire, Yang) as precursor and Baxter's 1972 solution as the first application to solvable lattice models. Onsager's 1944 star-triangle relation is mentioned in the Wikipedia history but not verified as a milestone. The name 'Yang-Baxter equation' is now dated by a zbMATH title search: no title with 'Yang-Baxter' appears for 1950-1980, and Kulish-Reshetikhin (1981) is the first hit, recorded as a naming milestone. Onsager's star-triangle claim remains unverified. The Faddeev-Sklyanin-Takhtajan paper's zbMATH author order differs from Crossref; the Crossref order is used.",
+  "notes": "Direct review (batch A2): all milestones checked against Crossref and zbMATH records (years, titles, authors, pages). Wikipedia's History section (citing Jimbo and Faddeev) is the only source for the role claims of McGuire 1964, Yang 1967 and Onsager 1944; those papers were not read. Added Onsager 1944 (precursor) and Jimbo 1985 (key development). Corrected the 1981 naming milestone's authors (Sklyanin was missing). The name 'Yang-Baxter equation' is dated by a title search only: zbMATH returns no title containing 'Yang-Baxter' for 1970-1980, and Kulish-Reshetikhin-Sklyanin (1981) is the first hit. The input summary gives only 'Yang-Baxter equation'; the record shows the factorised solution (McGuire, Yang) as precursor and first statement and Baxter's 1972 solution as the first application to solvable lattice models. MacTutor's 'Baxter' biography is of Agnes Baxter (1870-1917) and was not used.",
   "catalogueDates": [
    [
     1967,
@@ -90682,6 +90926,12 @@
       "s": "Wikipedia: Sobolev space",
       "u": "https://en.wikipedia.org/wiki/Sobolev_space",
       "k": "history_page"
+     },
+     {
+      "c": "zbMATH 2543418: Nikodym, Sur une classe de fonctions consideree dans l'etude du probleme de Dirichlet, Fundamenta Mathematicae, 1933.",
+      "s": "zbMATH Open 2543418",
+      "u": "https://zbmath.org/2543418",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -90709,20 +90959,49 @@
     ]
    },
    {
+    "r": "precursor",
+    "y": 1936,
+    "ye": null,
+    "p": "year",
+    "l": "Sobolev's estimates for functions with square-integrable derivatives",
+    "w": "S. Sobolev, Sur quelques evaluations concernant les familles de fonctions ayant des derivees a carre integrable, C. R. (Doklady) Acad. Sci. URSS 1 (1936)",
+    "pe": [
+     "Sergei Sobolev"
+    ],
+    "d": "A short note on estimates for families of functions whose derivatives are square-integrable, close in subject to the later function spaces.",
+    "ph": null,
+    "c": "low",
+    "n": "Found by a zbMATH author search; the note was not read, so whether it states the spaces (which would move the first statement to 1936) is open.",
+    "ev": [
+     {
+      "c": "zbMATH 2525918: Sobolev, Sur quelques evaluations concernant les familles de fonctions ayant des derivees a carre integrable, Comptes Rendus (Doklady) Acad. Sci. URSS, 1936.",
+      "s": "zbMATH Open 2525918",
+      "u": "https://zbmath.org/2525918",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
     "r": "first_statement",
     "y": 1938,
     "ye": null,
     "p": "year",
     "l": "Sobolev's function spaces",
-    "w": "Sobolev, 'On a theorem of functional analysis', Matematicheskii Sbornik 4 (1938) 471-497",
+    "w": "Soboleff, S., Sur un theoreme d'analyse fonctionnelle, Mat. Sb. 4 (46) (1938) 471-497 (English: On a theorem of functional analysis, AMS Transl. (2) 34 (1963) 39-68)",
     "pe": [
      "Sergei Sobolev"
     ],
     "d": "Sobolev introduced function spaces with a norm combining Lp-norms of a function and its derivatives, so that generalised solutions of PDE lie in them.",
     "ph": null,
     "c": "medium",
-    "n": "The 1938 record was not returned by Crossref; zbMATH was blocked. Year from Wikipedia's citation. Confirm the paper introduces the spaces, not only the embedding theorem.",
+    "n": "The 1938 record is now confirmed by zbMATH 3035784 (title 'Sur un theoreme d'analyse fonctionnelle', Rec. Math. Moscou, 1938) and the 1963 AMS translation (Crossref). The paper itself was not read: that it introduces the spaces and not only the embedding theorem is from Wikipedia and MacTutor. A 1936 Doklady note by Sobolev on estimates for families of functions with square-integrable derivatives (zbMATH 2525918) may state part of this earlier; its content was not read.",
     "ev": [
+     {
+      "c": "zbMATH 3035784: Soboleff, Sur un theoreme d'analyse fonctionnelle, Recueil Mathematique, 1938.",
+      "s": "zbMATH Open 3035784",
+      "u": "https://zbmath.org/3035784",
+      "k": "bibliographic_record"
+     },
      {
       "c": "English translation (AMS, 1963) cited as a translation of Mat. Sb. 4 (1938)",
       "s": "Wikipedia: Sobolev space (references)",
@@ -90734,6 +91013,12 @@
       "s": "MacTutor: Sobolev biography",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Sobolev/",
       "k": "history_page"
+     },
+     {
+      "c": "AMS translation of the paper, issued 1963 (pp. 39-68).",
+      "s": "Crossref DOI 10.1090/trans2/034/02",
+      "u": "https://doi.org/10.1090/trans2/034/02",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -90749,8 +91034,8 @@
     ],
     "d": "The monograph that collected the applications of the function spaces to PDE and mathematical physics.",
     "ph": null,
-    "c": "high",
-    "n": null,
+    "c": "medium",
+    "n": "The 1950 date rests on MacTutor (published 1950 in Russian) and the 1963 AMS translation (Crossref 10.1090/mmono/007). zbMATH indexes only the 1963 translation (3199111) and later Russian editions; no 1950-dated catalogue record was found.",
     "ev": [
      {
       "c": "AMS translation record (1963) of the book",
@@ -90782,9 +91067,9 @@
     "n": null,
     "ev": [
      {
-      "c": "Open Library record: 'Sobolev spaces' by Adams, first published 1975",
-      "s": "Open Library search",
-      "u": "https://openlibrary.org/search?q=Sobolev+spaces+Adams",
+      "c": "Open Library work record: 'Sobolev spaces' by R. A. Adams, first published 1975.",
+      "s": "Open Library work OL7009871W",
+      "u": "https://openlibrary.org/works/OL7009871W",
       "k": "bibliographic_record"
      }
     ]
@@ -90800,7 +91085,7 @@
      {
       "c": "Sobolev, On a theorem of functional analysis, Mat. Sb. 4 (1938)",
       "y": 1938,
-      "u": "https://en.wikipedia.org/wiki/Sobolev_space",
+      "u": "https://zbmath.org/3035784",
       "w": "Function spaces; record from Wikipedia citation."
      },
      {
@@ -90834,13 +91119,13 @@
      {
       "c": "Adams, Sobolev Spaces (Academic Press, 1975)",
       "y": 1975,
-      "u": "https://openlibrary.org/search?q=Sobolev+spaces+Adams",
+      "u": "https://openlibrary.org/works/OL7009871W",
       "w": "Standard monograph."
      }
     ]
    }
   ],
-  "notes": "Wikipedia lead data for MB20 had no candidates; live Wikipedia wikitext for Sobolev space used. MacTutor topic match ('Analysis' category) not used. Methodological derived date is 1936: Sobolev's 1936 Cauchy-problem paper (zbMATH 0014.05902) is the first application, checked by its zbMATH record and title only. The 1938 paper is zbMATH 0022.14803. Naming: 'Sobolev space' not dated in sources. The 1950 Leningrad book remains unresolved: a zbMATH search returned no 1950 record, and Open Library's title search returned a 1991 edition and no 1950 record.",
+  "notes": "Review (batch A2), left source-first. Checked: Crossref and zbMATH records for Nikodym 1933 and Sobolev 1936 (Cauchy problem) and 1938 (now confirmed by zbMATH 3035784 and the 1963 AMS translation), the 1950 book (dated only by MacTutor and the 1963 translation) and Adams 1975 (Open Library). Outstanding: no paper was read; a 1936 Sobolev Doklady note (zbMATH 2525918) may precede the 1938 first statement; 'Sobolev space' naming is undated; Meyers-Serrin 1964 (H = W, Crossref 10.1073/pnas.51.6.1055) is a candidate key development not yet adjudicated. The methodological date is blank: the 1936 Cauchy-problem paper is a precursor, not a first application on a target problem of the spaces.",
   "catalogueDates": [
    [
     1935,
@@ -104957,8 +105242,11 @@
   "product": null,
   "why": "Riemann treated multi-valued algebraic functions as single-valued functions on a covering surface, bringing topology into complex analysis.",
   "cat": "Period run 1850-1930",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "institutional": "B"
+  },
   "shown": {
    "conceptual": {
     "y": 1851,
@@ -105004,7 +105292,7 @@
     "d": "Analyses algebraic functions near branch points, the local picture Riemann's surfaces assemble.",
     "ph": null,
     "c": "medium",
-    "n": null,
+    "n": "Numdam confirms Puiseux, Recherches sur les fonctions algebriques, J. Math. Pures Appl. 15 (1850) pp. 365-480. MacTutor says Riemann's thesis builds on Puiseux's ideas of branch points.",
     "ev": [
      {
       "c": "Numdam record: Recherches sur les fonctions algebriques, J. Math. Pures Appl. 15.",
@@ -105032,8 +105320,8 @@
     ],
     "d": "Riemann's thesis studied analytic functions through geometric surfaces on which many-valued functions become single-valued, introducing topology into complex function theory.",
     "ph": "Riemann's surfaces for multi-valued functions",
-    "c": "medium",
-    "n": "The thesis was not found in Crossref, zbMATH or Open Library; evidence is a history page. The topology page links the surface introduction to 1857, the biography to the thesis, so the exact date of the first statement is slightly uncertain.",
+    "c": "high",
+    "n": "No database record exists for the thesis (not in Crossref, zbMATH or Open Library). Date and publication are confirmed by Neumann's 1865 preface, which cites Riemann's doctoral dissertation, Goettingen 1851, published fourteen years earlier, and by MacTutor (examined 16 December 1851). MacTutor's topology history attaches the surfaces to 1857, but that is the later Abelian-function paper.",
     "ev": [
      {
       "c": "MacTutor says the thesis studied what we now call Riemann surfaces and was examined on 16 December 1851, building on Puiseux's branch points",
@@ -105046,6 +105334,12 @@
       "s": "MacTutor, A history of Topology",
       "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Topology_in_mathematics/",
       "k": "history_page"
+     },
+     {
+      "c": "Neumann's 1865 preface cites Riemann's doctoral dissertation (Goettingen 1851) as introducing, for multivalued functions, surfaces made of several linked sheets, which Neumann calls a completely new idea.",
+      "s": "Neumann, Vorlesungen ueber Riemann's Theorie der Abel'schen Integrale (1865), Vorwort",
+      "u": "https://archive.org/details/10082480bsb",
+      "k": "primary_text"
      }
     ]
    },
@@ -105088,15 +105382,44 @@
     "pe": [
      "Carl Neumann"
     ],
-    "d": "First textbook account of Riemann's surfaces and Abelian integrals.",
+    "d": "An early textbook account of Riemann's surfaces and Abelian integrals, written fourteen years after the thesis.",
     "ph": null,
     "c": "medium",
-    "n": "'First textbook' is not checked beyond the title; Neumann's 1884 second edition also exists.",
+    "n": "Title page checked on the 1865 Teubner scan; the 'first textbook' priority was not established (Clebsch and Gordan's Theorie der Abelschen Functionen followed in 1866; Neumann's 1884 second edition also exists). The Internet Archive item vorlriemannstheo00neumrich, cited earlier, holds a different book (Koenigsberger, 1878) and was replaced by item 10082480bsb.",
     "ev": [
      {
-      "c": "Vorlesungen ueber Riemann's Theorie der Abel'schen Integrale, 1865.",
-      "s": "Internet Archive record vorlriemannstheo00neumrich",
-      "u": "https://archive.org/details/vorlriemannstheo00neumrich",
+      "c": "Internet Archive scan of the 1865 Teubner edition, title page and preface.",
+      "s": "Internet Archive 10082480bsb",
+      "u": "https://archive.org/details/10082480bsb",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "consolidation",
+    "y": 1882,
+    "ye": null,
+    "p": "year",
+    "l": "Klein's Riemann's theory of algebraic functions",
+    "w": "Felix Klein, Ueber Riemann's Theorie der algebraischen Functionen und ihrer Integrale, Leipzig: Teubner, 1882",
+    "pe": [
+     "Felix Klein"
+    ],
+    "d": "A book-length account of Riemann's theory of algebraic functions and their integrals through Riemann surfaces, offered as a supplement to the usual presentations.",
+    "ph": null,
+    "c": "medium",
+    "n": "Title, subtitle ('Eine Ergaenzung der gewoehnlichen Darstellungen') and 1882 imprint checked on records; the book was not read.",
+    "ev": [
+     {
+      "c": "Open Library work record: Klein, Ueber Riemann's Theorie der Algebraischen Functionen und ihrer Integrale, first published 1882.",
+      "s": "Open Library work OL3783629W",
+      "u": "https://openlibrary.org/works/OL3783629W",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Internet Archive scan of the 1882 Teubner edition.",
+      "s": "Internet Archive ueberriemannsthe00kleirich",
+      "u": "https://archive.org/details/ueberriemannsthe00kleirich",
       "k": "bibliographic_record"
      }
     ]
@@ -105114,7 +105437,7 @@
     "d": "Weyl gave a rigorous, abstract definition of a Riemann surface as a manifold with a complex structure, severing it from covering of the plane.",
     "ph": null,
     "c": "high",
-    "n": "Klein's 1882 treatment of Riemann's theory is a likely earlier systematic account but was not verified (Crossref shows only the 1923 reprint).",
+    "n": "Klein's 1882 book is listed separately as an earlier systematic account; Weyl's contribution is the abstract definition. Crossref shows only the 1923 reprint; zbMATH 2621710 and the Internet Archive copy record the 1913 first edition.",
     "ev": [
      {
       "c": "zbMATH lists Weyl, Die Idee der Riemannschen Fläche (1913)",
@@ -105148,14 +105471,20 @@
     ],
     "d": "Settles the abstract definition of a Riemann surface, showing the surfaces are not too large.",
     "ph": null,
-    "c": "medium",
-    "n": "The statement of the result is from memory of the standard account; the zbMATH record confirms title, author and year only.",
+    "c": "high",
+    "n": "Title, author and year confirmed by zbMATH 2591746 (Acta Szeged 2, 101-121); the statement of the result (every connected Riemann surface is second-countable) is Wikipedia's article on Rado's theorem. The paper was not read.",
     "ev": [
      {
       "c": "zbMATH record, Acta Szeged 2, 101-121 (1925).",
       "s": "zbMATH 2591746",
       "u": "https://zbmath.org/2591746",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Wikipedia: Rado's theorem, proved by Tibor Rado (1925), states that every connected Riemann surface is second-countable.",
+      "s": "English Wikipedia, Rado's theorem (Riemann surfaces)",
+      "u": "https://en.wikipedia.org/wiki/Rad%C3%B3%27s_theorem_(Riemann_surfaces)",
+      "k": "history_page"
      }
     ]
    }
@@ -105218,7 +105547,7 @@
      {
       "c": "Vorlesungen ueber Riemann's Theorie der Abel'schen Integrale",
       "y": 1865,
-      "u": "https://archive.org/details/vorlriemannstheo00neumrich",
+      "u": "https://archive.org/details/10082480bsb",
       "w": "First lecture-course exposition of Riemann's theory."
      }
     ]
@@ -105238,7 +105567,7 @@
     ]
    }
   ],
-  "notes": "Riemann's thesis (1851) and the 1857 paper are the dated milestones; MacTutor's biography and its topology history differ slightly on which introduced the surfaces. No dated first use of the name 'Riemann surface' was found; naming and institution milestones are open. Klein 1882 and the later triangulation theorem (Rado) were not located in bibliographic databases and are not listed. Puiseux's lifespan is from memory. person without verified work: Victor Puiseux (developer). Added in thin-3 pass: Puiseux 1850 (Numdam), Neumann 1865, Rado 1925. Klein was dropped from people (no verified work found); his 1882 book is part of the later story. Puiseux's lifespan (1820-1883) is from general knowledge; check before use. English Wikipedia's Riemann surface article has no history section, so MacTutor Riemann was the history source. Fix pass 2: an Open Library title search for the 1851 thesis returned no record in this pass, so the thesis year stays without a bibliographic record.",
+  "notes": "Direct review (batch A2): Crossref, Numdam, zbMATH and Internet Archive records checked for every milestone; Neumann's 1865 preface (read) confirms the 1851 thesis as the first statement. Corrections: the Internet Archive link for Neumann pointed to a different book and was replaced; Klein 1882 added as a consolidation; Rado's result now has a statement source. No dated first use of the name 'Riemann surface' was found (the 1913 Weyl title is the earliest title found, kept under consolidation): naming and institution milestones are open. English Wikipedia's Riemann surface article has no history section, so MacTutor Riemann was the history source. Puiseux's lifespan (1820-1883) agrees with MacTutor. Methodological date falls back to the 1857 key development; no first application found.",
   "catalogueDates": [
    [
     1851,
