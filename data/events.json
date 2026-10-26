@@ -2111,7 +2111,7 @@
     "d": "Euler writes the sum of powers of integers as a product over primes, linking primes to infinite series.",
     "ph": null,
     "c": "medium",
-    "n": "Dated 1737 in Wikipedia (writing or reading); printed 1744 per the Euler Archive. I matched E72 to the product from its well-known role; I did not open the text.",
+    "n": "Euler Archive E72: written 1737, printed 1744 in Comment. Acad. Sci. Petrop. 9, pp. 160-188; the Archive says Euler's product expansions first appeared here, and Wikipedia (Dirichlet's theorem) puts the product over primes in Theorema 7 of this paper. Publication year (1744) governs, though Wikipedia dates the result 1737. The text itself was not opened.",
     "ev": [
      {
       "c": "In 1737 Euler related prime numbers to the zeta function by an infinite product",
@@ -2134,6 +2134,35 @@
     ]
    },
    {
+    "r": "precursor",
+    "y": 1798,
+    "ye": null,
+    "p": "year",
+    "l": "Legendre's conjecture on primes in arithmetic progressions",
+    "w": "Legendre, Essai sur la theorie des nombres, Paris, 1798 (2nd ed. 1808)",
+    "pe": [
+     "Adrien-Marie Legendre"
+    ],
+    "d": "The statement that any progression with coprime start and difference holds infinitely many primes was conjectured before Dirichlet proved it.",
+    "ph": null,
+    "c": "medium",
+    "n": "Wikipedia cites the Essai (1798, 2nd ed. 1808) for Legendre's conjecture on primes in progressions, made while trying to prove quadratic reciprocity; Gauss (Disquisitiones, 1801, art. 297) remarks that Legendre found the proof hard. Legendre's earlier memoir (c. 1785) was not checked. Wikipedia also says Euler stated the case a = 1 in 1775 (printed 1785). The content of the Essai was not read (archive.org catalogue entry only).",
+    "ev": [
+     {
+      "c": "The general form was first conjectured by Legendre, as Gauss noted in the Disquisitiones",
+      "s": "Wikipedia, Dirichlet's theorem on arithmetic progressions",
+      "u": "https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions",
+      "k": "history_page"
+     },
+     {
+      "c": "The theorem had been conjectured by Legendre",
+      "s": "MacTutor, Lejeune Dirichlet",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Dirichlet/",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
     "r": "first_application",
     "y": 1838,
     "ye": null,
@@ -2146,7 +2175,7 @@
     "d": "Dirichlet proves infinitely many primes in each coprime progression by combining Euler's product, character sums and non-vanishing of L-series at 1.",
     "ph": null,
     "c": "medium",
-    "n": "History pages say 1837; the earliest print I could confirm is Crelle 1838 (a summary in French); the Berlin Akademie memoir was printed 1839. Author field was blank in Crossref.",
+    "n": "Crossref confirms Crelle 18 (1838) pp. 259-274, 'Sur l'usage des series infinies dans la theorie des nombres' (no author in Crossref). Wikipedia and MacTutor give 1837 for the memoir, which Wikipedia places in Abh. Berlin vol. 48, pp. 45-71 (printed 1839). Publication year governs, so 1838 is the earliest print found. Neither text was read, so whether the Crelle piece already contains the characters (rather than a summary of the series method) is unverified.",
     "ev": [
      {
       "c": "Dirichlet proved in 1837 that any such progression has infinitely many primes",
@@ -2181,7 +2210,7 @@
     "d": "Dirichlet extends the analytic method to quadratic forms and class numbers.",
     "ph": null,
     "c": "medium",
-    "n": "Relevance to class-number work is from the title and my background knowledge; no history page read for this paper.",
+    "n": "Crossref confirms Crelle 19 (1839) 324-369 (first part) and Crelle 21 (1840) 1-12 and 134-155 (further parts, no author in Crossref). MacTutor says the 1838/1839 papers introduce Dirichlet series and give the class number formula. Not read.",
     "ev": [
      {
       "c": "Crossref: Recherches sur diverses applications, Crelle 19, 1839 (continued in vol. 21, 1840)",
@@ -2218,35 +2247,12 @@
       "s": "Crossref record 10.1017/cbo9781139237321.012",
       "u": "https://doi.org/10.1017/cbo9781139237321.012",
       "k": "bibliographic_record"
-     }
-    ]
-   },
-   {
-    "r": "precursor",
-    "y": null,
-    "ye": null,
-    "p": "unknown",
-    "l": "Legendre's conjecture on primes in arithmetic progressions",
-    "w": "Legendre, in his attempted proofs of quadratic reciprocity",
-    "pe": [
-     "Adrien-Marie Legendre"
-    ],
-    "d": "The statement that any progression with coprime start and difference holds infinitely many primes was conjectured before Dirichlet proved it.",
-    "ph": null,
-    "c": "medium",
-    "n": "Year not established here; Wikipedia also says Euler stated special cases in 1775. Searched Legendre's Essai (1798) only by catalogue (archive.org essaisurlathor00lege), not its content.",
-    "ev": [
-     {
-      "c": "The general form was first conjectured by Legendre, as Gauss noted in the Disquisitiones",
-      "s": "Wikipedia, Dirichlet's theorem on arithmetic progressions",
-      "u": "https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions",
-      "k": "history_page"
      },
      {
-      "c": "The theorem had been conjectured by Legendre",
-      "s": "MacTutor, Lejeune Dirichlet",
-      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Dirichlet/",
-      "k": "history_page"
+      "c": "Open Library lists a 1863 edition of Dirichlet, Vorlesungen ueber Zahlentheorie.",
+      "s": "Open Library search",
+      "u": "https://openlibrary.org/search?q=dirichlet+vorlesungen+uber+zahlentheorie",
+      "k": "bibliographic_record"
      }
     ]
    }
@@ -2301,7 +2307,7 @@
     ]
    }
   ],
-  "notes": "Naming of 'analytic number theory' and of 'Dirichlet character' not found. Selberg's elementary proof (1949) and Riemann 1859 were seen only as mentions and are omitted. The input summary says 'Euler product and Dirichlet characters'; Dirichlet's characters are defined for finite abelian groups in his proof, which I did not read. Wikipedia says Dirichlet introduced the characters and the L-function in his 1837 paper on primes in progressions, and that the characters are named after him; who coined the phrases \"Dirichlet character\" and \"analytic number theory\" was not found.",
+  "notes": "Partial review (R2-R1b), not promoted. Changed: Euler E72 confirmed by the Euler Archive (1744 print, product over primes in Theorema 7 per Wikipedia); the undated Legendre precursor is dated by the Essai (1798); the Dirichlet 1837/1838/1839 puzzle is explained (Abh. Berlin 1837 volume, printed 1839; earliest print Crelle 1838; Crossref confirms 1838, 1839, 1840 records). Naming of 'analytic number theory' and of 'Dirichlet character' not found. Selberg 1949 and Riemann 1859 are omitted. Outstanding: none of Euler's, Dirichlet's or Legendre's texts was read, so the content of the Crelle 1838 piece and the point at which characters are defined are unverified (Wikipedia says Dirichlet introduced the characters and L-series in the 1837 paper).",
   "catalogueDates": [
    [
     1737,
@@ -4793,47 +4799,18 @@
   "ms": [
    {
     "r": "precursor",
-    "y": 1868,
-    "ye": null,
-    "p": "year",
-    "l": "Gordan's finiteness theorem for binary forms",
-    "w": "P. Gordan, 'Beweis, dass jede Covariante und Invariante einer binären Form eine ganze Function mit numerischen Coefficienten einer endlichen Anzahl solcher Formen ist', J. reine angew. Math. 69 (1868) 323-354",
-    "pe": [
-     "Paul Gordan"
-    ],
-    "d": "Gordan proves by explicit computation that the invariants of a binary form are finitely generated, the problem Hilbert's 1890 basis theorem settles in general.",
-    "ph": null,
-    "c": "high",
-    "n": null,
-    "ev": [
-     {
-      "c": "Gordan, Crelle 69 (1868) 323-354, DOI 10.1515/crll.1868.69.323",
-      "s": "Crossref",
-      "u": "https://doi.org/10.1515/crll.1868.69.323",
-      "k": "bibliographic_record"
-     },
-     {
-      "c": "Hilbert's basis theorem answered the finiteness question Gordan had solved for binary forms.",
-      "s": "MacTutor, Ring theory",
-      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Ring_theory/",
-      "k": "history_page"
-     }
-    ]
-   },
-   {
-    "r": "precursor",
     "y": 1871,
     "ye": null,
     "p": "year",
     "l": "Dedekind's ideals and modules",
-    "w": "Dedekind, supplement to Dirichlet's Vorlesungen ueber Zahlentheorie, 1871 onward",
+    "w": "R. Dedekind, supplement to Dirichlet's Vorlesungen ueber Zahlentheorie, 2nd ed. (1871); expanded in the 3rd ed. (1879)",
     "pe": [
      "Richard Dedekind"
     ],
     "d": "Dedekind defined ideals and the word module for rings of algebraic integers, the number-theoretic root of the subject.",
     "ph": "Dedekind's ideals",
     "c": "medium",
-    "n": "Wikipedia says the subject, first called ideal theory, began with Dedekind's work building on Kummer and Kronecker.",
+    "n": "Ideal theory of algebraic integers, not yet of abstract or polynomial rings. The 1871 date is the standard citation (MacTutor, Open Library edition); Crossref lists only the 1964 reprint. Wikipedia says the subject began with Dedekind's ideals, so keeping him as a precursor and Hilbert 1890 as the first statement is a judgement: this event is the invariant-theory route to commutative algebra.",
     "ev": [
      {
       "c": "MacTutor: Dedekind defined an ideal and introduced the word module in 1871.",
@@ -4846,29 +4823,18 @@
       "s": "zbMATH Open",
       "u": "https://zbmath.org/2707886",
       "k": "bibliographic_record"
-     }
-    ]
-   },
-   {
-    "r": "precursor",
-    "y": 1871,
-    "ye": null,
-    "p": "year",
-    "l": "Dedekind's ideal theory of algebraic integers",
-    "w": "R. Dedekind, 'Ueber die Theorie der ganzen algebraischen Zahlen' (supplement to Dirichlet's Vorlesungen), 1871",
-    "pe": [
-     "Richard Dedekind"
-    ],
-    "d": "Dedekind's ideals for algebraic integers gave the ideal-theoretic idea that later became abstract commutative algebra.",
-    "ph": null,
-    "c": "medium",
-    "n": "The 1871 date comes from the standard citation; Crossref lists only the 1964 reprint. Precursor only.",
-    "ev": [
+     },
      {
       "c": "Dedekind's supplement is indexed only through its 1964 reprint in the Gesammelte Werke",
       "s": "Crossref DOI 10.1007/978-3-322-98606-1_1 (reprint)",
       "u": "https://doi.org/10.1007/978-3-322-98606-1_1",
       "k": "history_page"
+     },
+     {
+      "c": "Open Library lists a 1871 edition of Dirichlet-Dedekind, Vorlesungen ueber Zahlentheorie.",
+      "s": "Open Library search",
+      "u": "https://openlibrary.org/search?q=dirichlet+vorlesungen+uber+zahlentheorie",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -4885,7 +4851,7 @@
     "d": "Hilbert proved the finite generation of invariants and ideals of polynomials by a non-constructive argument, replacing explicit computation.",
     "ph": "Hilbert's finiteness theorems",
     "c": "medium",
-    "n": "MacTutor dates the basis theorem to 1893 (the later paper); the 1890 date for the basis theorem rests on this memoir's content, which was not read here.",
+    "n": "Crossref confirms Math. Ann. 36, 473-534 (1890); Wikipedia places the basis theorem in this paper. MacTutor's Ring theory page dates the theorem to 1893, which is the later paper below (Math. Ann. 42, 313-373, Crossref 1893). Not read. Hilbert's earlier notes on invariants (Math. Ann. 33, 223-226, zbMATH 20.0110.01, 1888/89) were not opened and may state a finiteness result for binary forms.",
     "ev": [
      {
       "c": "Crossref: Mathematische Annalen 36, pp. 473-534, 1890.",
@@ -4904,34 +4870,17 @@
       "s": "Crossref 10.1007/bf01208503",
       "u": "https://doi.org/10.1007/bf01208503",
       "k": "bibliographic_record"
-     }
-    ]
-   },
-   {
-    "r": "precursor",
-    "y": 1890,
-    "ye": null,
-    "p": "year",
-    "l": "Hilbert's basis theorem applied to invariants",
-    "w": "D. Hilbert, 'Ueber die Theorie der algebraischen Formen', Math. Ann. 36, 1890",
-    "pe": [
-     "David Hilbert"
-    ],
-    "d": "Hilbert proved that polynomial ideals are finitely generated and applied this to the finiteness of invariant systems.",
-    "ph": null,
-    "c": "high",
-    "n": "MacTutor's Ring theory page dates the basis theorem to 1893; the 1890 Math. Ann. paper carries the theorem, so 1890 is used with the MacTutor 1893 date noted as the later paper. Reclassified from first_application to precursor: it predates this event's first statement (1921) and belongs to the wider field.",
-    "ev": [
-     {
-      "c": "Hilbert 1890 Math. Ann. paper with this title exists",
-      "s": "Crossref DOI 10.1007/bf01208503",
-      "u": "https://doi.org/10.1007/bf01208503",
-      "k": "bibliographic_record"
      },
      {
       "c": "MacTutor: Hilbert's basis theorem arose from invariant theory",
       "s": "MacTutor Ring theory topic; MacTutor Hilbert biography",
       "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Ring_theory/",
+      "k": "history_page"
+     },
+     {
+      "c": "Wikipedia: Hilbert stated and proved the basis theorem in his 1890 article on invariant theory, Math. Ann. 36, pp. 473-534.",
+      "s": "Wikipedia, Hilbert's basis theorem",
+      "u": "https://en.wikipedia.org/wiki/Hilbert%27s_basis_theorem",
       "k": "history_page"
      }
     ]
@@ -4949,7 +4898,7 @@
     "d": "Hilbert's second memoir on invariants, completing the finiteness theory for polynomial ideals.",
     "ph": "Hilbert's finiteness theorems",
     "c": "medium",
-    "n": "Dates of the basis theorem and the Nullstellensatz between the two memoirs are a labelling question left open.",
+    "n": "Crossref confirms Math. Ann. 42, 313-373 (1893). This is the date MacTutor gives for the basis theorem; the finite basis theorem itself is in the 1890 memoir. Not read.",
     "ev": [
      {
       "c": "Crossref: Mathematische Annalen 42, pp. 313-373, 1893.",
@@ -4978,7 +4927,7 @@
     "d": "Lasker introduced primary ideals and proved that ideals in polynomial rings decompose into them.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Crossref confirms Math. Ann. 60, 20-116 (1905). MacTutor and Wikipedia say Lasker introduced primary ideals. Not read.",
     "ev": [
      {
       "c": "Crossref: Mathematische Annalen 60, 1905.",
@@ -4991,64 +4940,12 @@
       "s": "MacTutor HistTopics/Ring_theory",
       "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Ring_theory/",
       "k": "history_page"
-     }
-    ]
-   },
-   {
-    "r": "precursor",
-    "y": 1905,
-    "ye": null,
-    "p": "year",
-    "l": "Lasker's primary decomposition",
-    "w": "E. Lasker, 'Zur Theorie der Moduln und Ideale', Math. Ann. 60, 1905",
-    "pe": [
-     "Emanuel Lasker"
-    ],
-    "d": "Lasker introduced primary ideals and proved that ideals decompose into primary components.",
-    "ph": null,
-    "c": "high",
-    "n": "Reclassified from key_development to precursor: it predates this event's first statement (1921) and belongs to the wider field.",
-    "ev": [
+     },
      {
       "c": "Lasker 1905 Math. Ann. paper with this title exists",
       "s": "Crossref DOI 10.1007/bf01447495",
       "u": "https://doi.org/10.1007/bf01447495",
       "k": "bibliographic_record"
-     },
-     {
-      "c": "MacTutor: Lasker introduced primary ideals in 1905",
-      "s": "MacTutor Ring theory topic",
-      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Ring_theory/",
-      "k": "history_page"
-     }
-    ]
-   },
-   {
-    "r": "precursor",
-    "y": 1916,
-    "ye": null,
-    "p": "year",
-    "l": "Macaulay's uniqueness of primary decomposition",
-    "w": "F. S. Macaulay, The Algebraic Theory of Modular Systems, Cambridge Tract, 1916",
-    "pe": [
-     "Francis S. Macaulay"
-    ],
-    "d": "Macaulay proved the uniqueness properties of the primary decomposition that Lasker had left open.",
-    "ph": null,
-    "c": "medium",
-    "n": "MacTutor dates uniqueness to 1915 (paper) while the monograph is 1916; the milestone uses the monograph year. Reclassified from key_development to precursor: it predates this event's first statement (1921) and belongs to the wider field.",
-    "ev": [
-     {
-      "c": "Macaulay's 1916 monograph (Cornell Historical Mathematical Monographs reprint) exists",
-      "s": "Crossref DOI 10.3792/chmm/1263317745",
-      "u": "https://doi.org/10.3792/chmm/1263317745",
-      "k": "bibliographic_record"
-     },
-     {
-      "c": "MacTutor says the uniqueness was proved by Macaulay in 1915",
-      "s": "MacTutor Ring theory topic",
-      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Ring_theory/",
-      "k": "history_page"
      }
     ]
    },
@@ -5065,7 +4962,7 @@
     "d": "Noether proved primary decomposition for any commutative ring with the ascending chain condition, unifying polynomial rings and rings of numbers.",
     "ph": "Noether's abstract ideal theory",
     "c": "high",
-    "n": null,
+    "n": "Crossref confirms Math. Ann. 83, 24-66 (1921). Wikipedia and MacTutor credit Noether with recasting the earlier results via the ascending chain condition and unifying polynomial and number rings 'in about 1921'. Key development, not first statement (see 1890). Not read.",
     "ev": [
      {
       "c": "Crossref: Mathematische Annalen 83, 1921.",
@@ -5078,24 +4975,7 @@
       "s": "MacTutor Biographies/Noether_Emmy",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Noether_Emmy/",
       "k": "history_page"
-     }
-    ]
-   },
-   {
-    "r": "first_statement",
-    "y": 1921,
-    "ye": null,
-    "p": "year",
-    "l": "Noether's abstract ideal theory in commutative rings",
-    "w": "E. Noether, 'Idealtheorie in Ringbereichen', Math. Ann. 83, 1921",
-    "pe": [
-     "Emmy Noether"
-    ],
-    "d": "Noether treated ideals in abstract commutative rings with chain conditions, uniting polynomial rings and number rings.",
-    "ph": null,
-    "c": "high",
-    "n": null,
-    "ev": [
+     },
      {
       "c": "Noether 1921 Math. Ann. paper with this title exists",
       "s": "Crossref DOI 10.1007/bf01464225",
@@ -5123,7 +5003,7 @@
     "d": "Krull extended abstract ideal theory beyond the chain-condition setting.",
     "ph": "Noether's abstract ideal theory",
     "c": "medium",
-    "n": null,
+    "n": "Crossref confirms Math. Ann. 101, 729-744 (1929). Wikipedia calls Krull the main figure of the mature subject. Not read.",
     "ev": [
      {
       "c": "Crossref: Mathematische Annalen 101, 1929.",
@@ -5152,7 +5032,7 @@
     "d": "The textbook that made Noether's abstract results widely available.",
     "ph": null,
     "c": "high",
-    "n": "Krull's Idealtheorie (Ergebnisse, 1935, zbMATH 2531505) is a later specialised survey.",
+    "n": "Wikipedia gives volume 1 as 1930 and volume 2 as 1931 and says the book drew on Noether's lectures. Which volume carries the ideal theory was not confirmed in the sources read; if it is volume 2 the consolidation date would be 1931. Krull's Idealtheorie (Ergebnisse, 1935) is a later specialised survey.",
     "ev": [
      {
       "c": "MacTutor: Noether's results became widely known through van der Waerden's 1930 Modern Algebra.",
@@ -5165,35 +5045,12 @@
       "s": "Crossref",
       "u": "https://api.crossref.org/works/10.1007/978-3-662-41906-9_7",
       "k": "bibliographic_record"
-     }
-    ]
-   },
-   {
-    "r": "consolidation",
-    "y": 1935,
-    "ye": null,
-    "p": "year",
-    "l": "Krull's Idealtheorie monograph",
-    "w": "W. Krull, 'Abstrakte additive Idealtheorie', in Idealtheorie, Ergebnisse der Mathematik, 1935",
-    "pe": [
-     "Wolfgang Krull"
-    ],
-    "d": "Krull's systematic monograph on ideal theory consolidated the abstract theory of commutative rings.",
-    "ph": null,
-    "c": "medium",
-    "n": "Monograph year 1935 from the Crossref chapter record; the book is the systematic treatment.",
-    "ev": [
-     {
-      "c": "Krull 1935 Ergebnisse volume chapter exists",
-      "s": "Crossref DOI 10.1007/978-3-642-94181-8_2",
-      "u": "https://doi.org/10.1007/978-3-642-94181-8_2",
-      "k": "bibliographic_record"
      },
      {
-      "c": "MacTutor: axiomatic commutative ring theory was developed by Noether and Krull in the 1920s",
-      "s": "MacTutor Ring theory topic",
-      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Ring_theory/",
-      "k": "history_page"
+      "c": "Crossref: Moderne Algebra, Springer, 1930; a Mathematical Gazette review dates Teil I (Grundlehren 33) 1930.",
+      "s": "Crossref API",
+      "u": "https://doi.org/10.1007/978-3-662-41906-9",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -5211,7 +5068,7 @@
     "d": "The earliest book title found that names the field 'commutative algebra' in place of ideal theory.",
     "ph": null,
     "c": "low",
-    "n": "Earlier uses of the phrase were not searched; Wikipedia says the field was first known as ideal theory without dating the rename.",
+    "n": "Open Library gives 1958 (Van Nostrand) as first publication; the Crossref DOI that was cited is a later Springer reprint (dated 1960 there) and was removed. Earlier uses of the phrase 'commutative algebra' were not searched; Wikipedia says the field was first known as ideal theory without dating the rename.",
     "ev": [
      {
       "c": "zbMATH record: Commutative algebra, vol. 1, 1958.",
@@ -5226,9 +5083,9 @@
       "k": "bibliographic_record"
      },
      {
-      "c": "The GTM reprint of the volume is indexed by Crossref",
-      "s": "Crossref DOI 10.1007/978-3-662-29244-0",
-      "u": "https://doi.org/10.1007/978-3-662-29244-0",
+      "c": "Open Library lists Zariski-Samuel, Commutative algebra, with first publication year 1958 (Van Nostrand).",
+      "s": "Open Library search",
+      "u": "https://openlibrary.org/search?q=zariski+samuel+commutative+algebra",
       "k": "bibliographic_record"
      }
     ]
@@ -5266,12 +5123,6 @@
       "y": 1893,
       "u": "https://api.crossref.org/works/10.1007/BF01444162",
       "w": "Second invariant memoir."
-     },
-     {
-      "c": "D. Hilbert, 'Ueber die Theorie der algebraischen Formen', Math. Ann. 36, 1890",
-      "y": 1890,
-      "u": "https://doi.org/10.1007/bf01208503",
-      "w": "Basis theorem and its application to invariants."
      }
     ]
    },
@@ -5286,12 +5137,6 @@
       "y": 1905,
       "u": "https://api.crossref.org/works/10.1007/bf01447495",
       "w": "Primary ideals."
-     },
-     {
-      "c": "E. Lasker, 'Zur Theorie der Moduln und Ideale', Math. Ann. 60, 1905",
-      "y": 1905,
-      "u": "https://doi.org/10.1007/bf01447495",
-      "w": "Primary decomposition of ideals."
      }
     ]
    },
@@ -5306,12 +5151,6 @@
       "y": 1921,
       "u": "https://api.crossref.org/works/10.1007/BF01464225",
       "w": "Unified polynomial and number rings."
-     },
-     {
-      "c": "E. Noether, 'Idealtheorie in Ringbereichen', Math. Ann. 83, 1921",
-      "y": 1921,
-      "u": "https://doi.org/10.1007/bf01464225",
-      "w": "Chain conditions and abstract ideal theory."
      }
     ]
    },
@@ -5378,7 +5217,7 @@
     ]
    }
   ],
-  "notes": "Disputed: MacTutor dates Hilbert's basis theorem 1893 while the finite-generation memoir is 1890. Fix pass 2: Crossref confirms the 1890 memoir (Math. Ann. 36, 473-534); the 1893 Math. Ann. 42 paper 'Ueber die vollen Invariantensysteme' is recorded separately, so the 1893 MacTutor date is not the 1890 memoir. Macaulay's uniqueness result is dated 1915 by MacTutor but Crossref lists a related Math. Ann. paper in 1913 and a 1916 Cambridge tract, so it was not promoted. Hilbert's coinage of 'ring' (Zahlbericht) has no year in the pages read, so no naming milestone for 'ring'. The summary's 'rings become the unit of study' matches the Noether milestone. Biography URLs for Lasker, Krull, van der Waerden are null (not fetched); lifespans from general knowledge. No institution (journal, MSC 13) milestone verified.",
+  "notes": "Partial review (R2-R1b), not promoted. Milestones were cut from 15 to 8 (schema cap) and the same papers are no longer listed under two roles (rule 2): Hilbert 1890, Lasker 1905 and Noether 1921 each appear once, and the two Dedekind entries are merged. Dropped from the list but relevant: Gordan 1868 (finiteness for binary forms, Crelle 69, 323-354; Crossref has no author), Macaulay on uniqueness of primary decomposition (MacTutor 1915; Crossref has a 1913 paper and the 1916 Cambridge Tract) and Krull's Idealtheorie (Ergebnisse, 1935). Dates and venues of Hilbert 1890/1893, Lasker, Noether and Krull are confirmed by Crossref; Zariski-Samuel 1958 by Open Library. Outstanding: no primary text was read; the content of Hilbert 1890 versus his 1888/89 notes, the coinage of 'ring' (Hilbert, Zahlbericht), the volume of Moderne Algebra with the ideal theory, and earlier uses of the phrase 'commutative algebra' are unchecked; no journal or classification milestone was verified. The first-statement choice (Hilbert 1890 rather than Dedekind 1871) is a judgement. Biography URLs for Lasker, Krull and van der Waerden were not fetched; lifespans from general knowledge.",
   "catalogueDates": [
    [
     1890,
@@ -13881,14 +13720,14 @@
     "basis": "first application"
    },
    "institutional": {
-    "y": 1968,
-    "basis": "naming, textbook or institution"
+    "y": null,
+    "basis": "no naming, textbook or institution found"
    }
   },
   "took": {
-   "y": 1968,
-   "role": "naming",
-   "label": "Giraud titles a note on the Shimura-Taniyama formula",
+   "y": 1986,
+   "role": "first_application",
+   "label": "Frey's link between a Fermat counterexample and modularity",
    "same": false
   },
   "y": 1956,
@@ -13896,7 +13735,7 @@
   "derived": {
    "conceptual": 1956,
    "methodological": 1986,
-   "institutional": 1968
+   "institutional": null
   },
   "phases": [
    "Taniyama problem (1955-56)",
@@ -13906,48 +13745,89 @@
   ],
   "ms": [
    {
+    "r": "precursor",
+    "y": 1955,
+    "ye": null,
+    "p": "year",
+    "l": "Taniyama's problem list distributed at the Tokyo-Nikko symposium",
+    "w": "Y. Taniyama, Problems of number theory (mimeographed), International Symposium on Algebraic Number Theory, Tokyo and Nikko, September 1955",
+    "pe": [
+     "Yutaka Taniyama"
+    ],
+    "d": "Taniyama hands out a mimeographed list of 36 problems, including the question linking elliptic curves and automorphic forms.",
+    "ph": null,
+    "c": "medium",
+    "n": "Mimeographed and circulated to symposium participants, so a precursor under schema rule 3; the first print found is Sugaku 1956. Not read.",
+    "ev": [
+     {
+      "c": "Taniyama distributed mimeographs of 'Problems of Number Theory' to participants of the 1955 symposium in Tokyo and Nikko.",
+      "s": "Wikipedia, Taniyama's problems",
+      "u": "https://en.wikipedia.org/wiki/Taniyama%27s_problems",
+      "k": "history_page"
+     },
+     {
+      "c": "MacTutor: Taniyama posed two problems at the 1955 Tokyo-Nikko symposium on algebraic number theory.",
+      "s": "MacTutor Biography: Yutaka Taniyama",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Taniyama/",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
     "r": "first_statement",
     "y": 1956,
     "ye": null,
     "p": "year",
     "l": "Taniyama's problem on elliptic curves and modular forms",
-    "w": "Taniyama, problem 12 of the unsolved problems list, Tokyo-Nikkō symposium on algebraic number theory, 1955 (proceedings 1956)",
+    "w": "Y. Taniyama, Problem 12, Sugaku 7 (1956) 269 (in Japanese); the list of 36 problems was distributed in English at the 1955 Tokyo-Nikko symposium",
     "pe": [
      "Yutaka Taniyama"
     ],
     "d": "Taniyama states a preliminary version of the modularity conjecture as one of 36 unsolved problems; later refined with Shimura.",
     "ph": null,
     "c": "medium",
-    "n": "Statement at the 1955 symposium; the year used is the proceedings year, which was not checked. Preliminary version was slightly incorrect per Wikipedia.",
+    "n": "Wikipedia (Modularity theorem; Taniyama's problems) cites Sugaku 7 (1956), p. 269 for Problem 12 and says the list was circulated in mimeograph at the 1955 symposium; the earlier note that it appeared in the symposium proceedings is not supported. Problem 12 asks whether the Fourier series of the L-function of an elliptic curve is an automorphic form of a special type; the preliminary version was slightly incorrect. The Sugaku piece was not seen, and the 1956 print date rests on Wikipedia. Weil 1967 (below) rediscovered the conjecture.",
     "ev": [
      {
       "c": "Wikipedia: Taniyama stated a preliminary version at the 1955 symposium as problem twelve of thirty-six",
       "s": "Wikipedia, Modularity theorem",
       "u": "https://en.wikipedia.org/wiki/Modularity_theorem",
       "k": "history_page"
+     },
+     {
+      "c": "Wikipedia: Taniyama, Problem 12, Sugaku 7 (1956) 269.",
+      "s": "Wikipedia, Taniyama's problems",
+      "u": "https://en.wikipedia.org/wiki/Taniyama%27s_problems",
+      "k": "history_page"
      }
     ]
    },
    {
-    "r": "naming",
-    "y": 1968,
+    "r": "key_development",
+    "y": 1967,
     "ye": null,
     "p": "year",
-    "l": "Giraud titles a note on the Shimura-Taniyama formula",
-    "w": "Giraud, J., Remarque sur une formule de Shimura-Taniyama, 1968",
+    "l": "Weil rediscovers the conjecture and gives evidence",
+    "w": "A. Weil, Ueber die Bestimmung Dirichletscher Reihen durch Funktionalgleichungen, Math. Ann. 168 (1967) 149-156",
     "pe": [
-     "Giraud"
+     "Andre Weil"
     ],
-    "d": "Earliest zbMATH title found that names the Shimura-Taniyama formula, the root of the modularity conjecture name.",
+    "d": "Weil shows the conjecture would follow from functional equations of twisted L-series and that the conductor is the level, the first serious evidence for it.",
     "ph": null,
-    "c": "low",
-    "n": "Samuel 1959 \"Travaux de Shimura et Taniyama\" uses both names but for their work, not the conjecture; kept out.",
+    "c": "medium",
+    "n": "Crossref confirms the paper (Math. Ann. 168, 149-156); the content claim is Wikipedia's. Not read.",
     "ev": [
      {
-      "c": "zbMATH record for the 1968 Giraud note with Shimura-Taniyama in the title",
-      "s": "zbMATH Open doc 3265593",
-      "u": "https://api.zbmath.org/v1/document/3265593",
+      "c": "Crossref: Ueber die Bestimmung Dirichletscher Reihen durch Funktionalgleichungen, Math. Ann. 168, 149-156 (1967).",
+      "s": "Crossref API",
+      "u": "https://doi.org/10.1007/bf01361551",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Wikipedia: Weil rediscovered the conjecture in 1967 and gave the first serious evidence.",
+      "s": "Wikipedia, Modularity theorem",
+      "u": "https://en.wikipedia.org/wiki/Modularity_theorem",
+      "k": "history_page"
      }
     ]
    },
@@ -13964,7 +13844,7 @@
     "d": "Frey shows that a counterexample to Fermat would give a semistable elliptic curve that cannot be modular, making modularity a route to FLT.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "zbMATH Zbl 0586.10010 records the 40-page paper in Ann. Univ. Saraviensis Ser. Math. 1 (1986); Wikipedia describes the idea (a Fermat counterexample would give a non-modular curve). Not read.",
     "ev": [
      {
       "c": "zbMATH record, Ann. Univ. Sarav. Ser. Math. 1 (1986), 40 p.",
@@ -13977,6 +13857,12 @@
       "s": "Wikipedia, Modularity theorem",
       "u": "https://en.wikipedia.org/wiki/Modularity_theorem",
       "k": "history_page"
+     },
+     {
+      "c": "zbMATH Zbl 0586.10010: Frey, Links between stable elliptic curves and certain diophantine equations, Ann. Univ. Sarav. Ser. Math. 1 (1986), 40 p.",
+      "s": "zbMATH Open API",
+      "u": "https://zbmath.org/?q=an:0586.10010",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -13993,7 +13879,7 @@
     "d": "Serre identifies the missing link in Frey's argument, the epsilon conjecture, which made the FLT route workable.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Crossref confirms Duke Math. J. 54, 179-230 (Crossref, 1987). Not read.",
     "ev": [
      {
       "c": "Article record, Duke Math. J. 1987",
@@ -14022,7 +13908,7 @@
     "d": "Ribet proves the epsilon conjecture (level lowering), completing the link from Frey's curve to a modular form.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Crossref confirms Invent. Math. 100, 431-476 (Crossref, December 1990). Not read.",
     "ev": [
      {
       "c": "Article record, Invent. Math. 1990",
@@ -14051,7 +13937,7 @@
     "d": "Wiles proves modularity for semistable elliptic curves, enough to deduce FLT; the first version had a gap, repaired with Taylor.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Crossref confirms Ann. of Math. 141, 443-551 (Crossref, May 1995). Not read.",
     "ev": [
      {
       "c": "Article record, Annals 1995",
@@ -14081,7 +13967,7 @@
     "d": "Taylor and Wiles supply the Hecke-algebra step that repairs the gap in the 1993 argument, completing the 1995 proof.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Crossref confirms Ann. of Math. 141, 553-572 (Crossref, May 1995). Not read.",
     "ev": [
      {
       "c": "Article record, Annals 1995",
@@ -14178,7 +14064,7 @@
     ]
    }
   ],
-  "notes": "Input summary is right in outline. Searched: Wikipedia Modularity theorem (fetched, history section); Wikipedia Taniyama-Shimura conjecture page was a 404, so the modularity article was used; MacTutor Wiles biography (fetched, 1993 gap); Crossref for Serre 1987, Ribet 1990, Wiles 1995, Taylor-Wiles 1995; zbMATH for Frey 1986. Not checked: Diamond 1996 and Breuil-Conrad-Diamond-Taylor 2001 (full modularity, per Wikipedia). No consolidation or naming milestone located; derived institutional is null. Taniyama's 1955 statement year is taken from the proceedings and is uncertain.",
+  "notes": "Partial review (R2-R1b), not promoted. Changed: the 1968 'naming' milestone is removed because Giraud's note (Invent. Math. 5, 231-236, Crossref 1968) is about the Shimura-Taniyama formula of complex multiplication, not the modularity conjecture; the derived institutional date is therefore null (no naming, consolidation or institution milestone located). Taniyama's statement is now a Sugaku 1956 print (Wikipedia) preceded by the 1955 mimeograph (precursor), not 'proceedings 1956'; Weil 1967 is added as the first serious evidence. Serre 1987, Ribet 1990, Wiles 1995 and Taylor-Wiles 1995 are confirmed by Crossref, Frey 1986 by zbMATH. Outstanding: the Sugaku print and Taniyama's text, and the primary papers, were not read; Diamond 1996 (Crossref: Ann. of Math. 144, 137), Conrad-Diamond-Taylor 1999 and Breuil-Conrad-Diamond-Taylor 2001 (J. AMS 14, 843-939) are real but were not made milestones (cap of 8); the name 'Taniyama-Shimura(-Weil)' is not dated.",
   "catalogueDates": [
    [
     1955,
@@ -17883,8 +17769,12 @@
   "product": "Homological algebra",
   "why": "Chain complexes, derived functors and exact sequences, first tools of algebraic topology, are turned into a general machinery for modules and then for sheaves.",
   "cat": "Seed set A",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "C",
+   "methodological": "B",
+   "institutional": "B"
+  },
   "shown": {
    "conceptual": {
     "y": 1942,
@@ -17961,13 +17851,31 @@
     "d": "An early algebraic definition of group homology and cohomology via extensions, which is the first public use of homology as an algebraic tool in this search.",
     "ph": null,
     "c": "medium",
-    "n": "This is a statement of the idea behind homological algebra, not the named field, which the 1956 book names. Its content was checked by title and journal only. Derived conceptual date changes from null to 1942 if accepted.",
+    "n": "Crossref gives Annals 43 (issue of October 1942) pp. 757-831. Barr's survey says the paper arose from the observation that Steenrod's groups coincided with the algebraic theory of group extensions, and MacTutor dates Hom and Ext to Eilenberg-Mac Lane 1942 (see also their PNAS 28, 537-543, December 1942). Hopf's topological paper on the fundamental group and H2 (Comment. Math. Helv. 14, 1941/42) is contemporary and topological. This is the idea behind homological algebra, not the named field, which the 1956 book names. Treating group cohomology via Ext as the first statement is a judgement.",
     "ev": [
      {
       "c": "Group Extensions and Homology appears in Annals of Mathematics 43 (1942), pp. 757–831.",
       "s": "Annals of Mathematics/JSTOR article record",
       "u": "https://www.jstor.org/stable/1968966",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Crossref: 'Group Extensions and Homology', Ann. of Math. 43, pp. 757-831, issued October 1942.",
+      "s": "Crossref API",
+      "u": "https://doi.org/10.2307/1968966",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Barr's history: the Eilenberg-Mac Lane paper originated from the observation that Steenrod's groups were the groups of the algebraic theory of group extensions.",
+      "s": "M. Barr, Algebraic cohomology: the early days",
+      "u": "https://www.math.mcgill.ca/barr/papers/algcohom.pdf",
+      "k": "history_page"
+     },
+     {
+      "c": "MacTutor: the 1942 paper introduced Hom and Ext for the first time.",
+      "s": "MacTutor Biography: Samuel Eilenberg",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Eilenberg/",
+      "k": "history_page"
      }
     ]
    },
@@ -17998,6 +17906,12 @@
       "s": "MacTutor Biography: Samuel Eilenberg",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Eilenberg/",
       "k": "history_page"
+     },
+     {
+      "c": "Crossref: 'General theory of natural equivalences', Trans. Amer. Math. Soc. 58 (1945) 231-294.",
+      "s": "Crossref API",
+      "u": "https://doi.org/10.1090/s0002-9947-1945-0013131-6",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -18014,13 +17928,25 @@
     "d": "Applies homological methods (derived functors) to coherent sheaves, the first target problem for the theory.",
     "ph": "Homological algebra as a field (1955-1957)",
     "c": "medium",
-    "n": "Content inferred from the title and the general history; not read.",
+    "n": "Read in Milne's English translation: the introduction says that section 4 relates the cohomology groups H^q(X, F) to the Ext functors of Cartan-Eilenberg [6] (then an unpublished book), and Grothendieck's 1958 ICM lecture says homological-algebra methods had entered algebraic geometry less than four years earlier in this paper. 'First' rests on those two statements, not on a search of earlier uses.",
     "ev": [
      {
       "c": "Crossref record: 'Faisceaux Algebriques Coherents', Annals, 1955",
       "s": "Crossref API",
       "u": "https://doi.org/10.2307/1969915",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Serre's introduction: section 4 relates the groups H^q(X, F) to the Ext functors introduced by Cartan-Eilenberg.",
+      "s": "Serre, FAC, English translation (Milne's page)",
+      "u": "https://www.jmilne.org/math/Documents/fac.pdf",
+      "k": "primary_text"
+     },
+     {
+      "c": "Grothendieck: it is less than four years since cohomological methods (methods of Homological Algebra) were introduced into Algebraic Geometry in Serre's paper.",
+      "s": "Grothendieck, The cohomology theory of abstract algebraic varieties (ICM 1958, printed 1960)",
+      "u": "https://download.uni-mainz.de/mathematik/Algebraische%20Geometrie/Lehre/WS23.Padische.1958.Grothendieck.pdf",
+      "k": "primary_text"
      }
     ]
    },
@@ -18068,13 +17994,25 @@
     "d": "The book title gives the field its name within the searched index (no earlier title found 1945-1956).",
     "ph": "Homological algebra as a field (1955-1957)",
     "c": "medium",
-    "n": "Same book as consolidation. Naming date is limited to the searched index; earlier use in lecture notes was not checked.",
+    "n": "Same book as consolidation. Naming date is limited to the searched index. MacTutor says the Cartan-Eilenberg manuscript was finished by 1953 and nLab (after Collins 2006) says the term was coined in the book; earlier lecture-note uses were not found but not excluded.",
     "ev": [
      {
       "c": "zbMATH search for titles with 'homological algebra' 1945-1956 returns only this book among general titles",
       "s": "zbMATH API (Zbl 0075.24305)",
       "u": "https://zbmath.org/?q=an:0075.24305",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "MacTutor: the manuscript of Homological Algebra was finished by 1953 but published in 1956.",
+      "s": "MacTutor Biography: Samuel Eilenberg",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Eilenberg/",
+      "k": "history_page"
+     },
+     {
+      "c": "nLab: the term 'homological algebra' was first coined in the Cartan-Eilenberg book.",
+      "s": "nLab: Homological Algebra",
+      "u": "https://ncatlab.org/nlab/show/Homological+Algebra",
+      "k": "history_page"
      }
     ]
    },
@@ -18186,7 +18124,7 @@
     ]
    }
   ],
-  "notes": "No first_statement is established: the Wikipedia history places origins in Poincare and Hilbert, and the first systematic statement is the 1956 book. The conceptual derived date is therefore null. Buchsbaum (1955, exactness in abelian categories) is a candidate that was not verified. Eilenberg-Mac Lane 1945 is a precursor only. Serre 1955 content and the 1956 naming date are limited to the searched indexes.",
+  "notes": "Direct review (R2-R1b). Every milestone was checked against Crossref (Eilenberg-Mac Lane 1942 and 1945, Serre 1955, Cartan-Eilenberg 1956, Grothendieck 1957, Buchsbaum 1955) and a history source (Barr, MacTutor, nLab); Serre's FAC introduction and Grothendieck's 1958 lecture were read. The first statement is a judgement: Eilenberg-Mac Lane 1942 (group cohomology through Ext) is the earliest algebraic use found, but Hopf 1941/42 is contemporary and topological, and Wikipedia places the origins of the subject in Poincare and Hilbert, so the conceptual grade is C. Buchsbaum 1955 (Exact categories and duality, Trans. AMS 80, 1-34) exists in Crossref and is a precursor of Grothendieck's abelian categories, but was not read and is not a milestone. The 1956 naming date is limited to the searched indexes (the term is credited to the book by nLab).",
   "catalogueDates": [
    [
     1945,
@@ -66470,8 +66408,12 @@
   "product": null,
   "why": "Grothendieck topologies gave cohomology theories for varieties over finite fields as required by Weil.",
   "cat": "Period run 1930-1990",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "methodological": "C",
+   "institutional": "B"
+  },
   "shown": {
    "conceptual": {
     "y": 1960,
@@ -66547,7 +66489,7 @@
     "d": "Grothendieck proposes defining the Weil cohomology from Galois cohomology and local triviality on unramified coverings, the starting point of etale cohomology.",
     "ph": null,
     "c": "medium",
-    "n": "Lecture was given in 1958, printed in 1960 (publication year used). The text does not use the word etale or define the topology; it states the idea only. Serre's 1956 Mexico paper is a precursor. Artin's 1962 notes and SGA 4 come later.",
+    "n": "Primary text read. The lecture (ICM Edinburgh, 1958; printed 1960, publication year used) says the Weil cohomology 'has to be defined by a completely different approach', suggested by Galois cohomology, Serre's 'tentative Mexico paper' and the idea that a principal bundle becomes locally trivial on a covering unramified over a point; he calls this definition 'the right one' but says he has not yet begun the investigation seriously. The text does not use the word etale or define the topology, so it states the idea only. Wikipedia dates the introduction of etale cohomology to 1960 (Grothendieck), which agrees. Artin's 1962 notes and SGA 4 come later.",
     "ev": [
      {
       "c": "The text says the Weil cohomology must come from a different approach, suggested by sheaf and Galois cohomology and unramified coverings, and that this opens a route to the Weil conjectures.",
@@ -66570,6 +66512,35 @@
     ]
    },
    {
+    "r": "precursor",
+    "y": 1962,
+    "ye": null,
+    "p": "year",
+    "l": "Artin's Harvard seminar notes on Grothendieck topologies",
+    "w": "M. Artin, Grothendieck topologies, Notes on a seminar, Spring 1962, Harvard University, Dept. of Mathematics (mimeographed)",
+    "pe": [
+     "Michael Artin"
+    ],
+    "d": "Artin's mimeographed seminar notes develop Grothendieck topologies and the cohomology of schemes in a form that circulated before SGA 4.",
+    "ph": null,
+    "c": "medium",
+    "n": "Mimeographed notes, so a precursor (schema rule 3). The details come from reference [1] of Grothendieck's Bourbaki exposé 279; Wikipedia cites 'Artin 1962'. No record in Crossref, zbMATH or Open Library; the notes were not read. This replaces the undated precursor on Grothendieck's introduction, whose content (introduced by Grothendieck using suggestions of Serre) is carried by the 1960 first statement.",
+    "ev": [
+     {
+      "c": "Reference [1] of Bourbaki exp. 279: Artin, Grothendieck topologies, Notes on a seminar, Spring 1962, Harvard University (multigraphie).",
+      "s": "Numdam, Seminaire Bourbaki exp. 279, bibliography",
+      "u": "https://www.numdam.org/item/SB_1964-1966__9__41_0/",
+      "k": "primary_publication"
+     },
+     {
+      "c": "Wikipedia: Grothendieck and Artin worked out the foundations, published as (Artin 1962) and SGA 4.",
+      "s": "Wikipedia, Etale cohomology",
+      "u": "https://en.wikipedia.org/wiki/%C3%89tale_cohomology",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
     "r": "first_application",
     "y": 1966,
     "ye": null,
@@ -66582,7 +66553,7 @@
     "d": "Grothendieck applies etale cohomology to the Lefschetz formula and the rationality of L-functions, the first purposeful use on the Weil problems.",
     "ph": null,
     "c": "medium",
-    "n": "The Bourbaki record is the earliest public write-up I could date. Lectures and seminar notes may be earlier, so this year may be a later bound. Dwork's 1960 rationality proof is p-adic and not counted.",
+    "n": "Exposé 279 of the Bourbaki seminar (17th year, 1964/65) is dated December 1964 and printed in 1966 (Numdam: vol. 9, pp. 41-55); publication year governs. Read: it proves rationality of L-functions through a Lefschetz-Verdier formula in etale (l-adic) cohomology with compact supports, citing Artin-Grothendieck, SGA 4 (IHES 1963/64) and Grothendieck's l-adic seminar (1964/65), and notes that Dwork's earlier proof (1960) is elementary and does not use cohomology, so it is not counted. The seminar of 1963/64 was circulated earlier, so 1966 is a later bound for the first use.",
     "ev": [
      {
       "c": "zbMATH record 'Lefschetz formula and rationality of L-functions' by Grothendieck, dated 1966",
@@ -66595,6 +66566,12 @@
       "s": "Wikipedia Etale cohomology",
       "u": "https://en.wikipedia.org/wiki/%C3%89tale_cohomology",
       "k": "history_page"
+     },
+     {
+      "c": "Bourbaki exp. 279, dated December 1964, 1964/65, printed 1966: proof of rationality of L-functions via etale cohomology and the Lefschetz formula.",
+      "s": "Numdam, Seminaire Bourbaki vol. 9, exp. 279",
+      "u": "https://www.numdam.org/item/SB_1964-1966__9__41_0/",
+      "k": "primary_publication"
      }
     ]
    },
@@ -66612,12 +66589,24 @@
     "d": "The seminar notes give the first systematic treatment of etale cohomology and its topos foundations.",
     "ph": null,
     "c": "high",
-    "n": "Seminar volume written 1963-64, published 1972; Open Library shows 1972 and 1973 entries for the same volume.",
+    "n": "Seminar held 1963-64 (as cited in Bourbaki exp. 279), published in Springer LNM 269 and 270 (1972) and 305 (1973); Crossref dates the two volumes checked 1972 and Open Library lists 1972 and 1973 entries.",
     "ev": [
      {
       "c": "Open Library record for the Springer 1972 volume SGA 4 (Michael Artin as author of the entry)",
       "s": "Open Library",
       "u": "https://openlibrary.org/works/OL4613907W",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Crossref: Theorie des Topos et Cohomologie Etale des Schemas (Springer LNM), 1972.",
+      "s": "Crossref API",
+      "u": "https://doi.org/10.1007/bfb0061319",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Crossref: Theorie des Topos et Cohomologie Etale des Schemas, second record, 1972.",
+      "s": "Crossref API",
+      "u": "https://doi.org/10.1007/bfb0081551",
       "k": "bibliographic_record"
      }
     ]
@@ -66671,30 +66660,12 @@
       "s": "Open Library",
       "u": "https://openlibrary.org/works/OL5273913W",
       "k": "bibliographic_record"
-     }
-    ]
-   },
-   {
-    "r": "precursor",
-    "y": null,
-    "ye": null,
-    "p": "unknown",
-    "l": "Grothendieck's introduction of etale cohomology (undated)",
-    "w": null,
-    "pe": [
-     "Alexander Grothendieck",
-     "Jean-Pierre Serre"
-    ],
-    "d": "Grothendieck introduced the etale theory, using suggestions from Serre, to build a Weil cohomology theory.",
-    "ph": null,
-    "c": "medium",
-    "n": "Year not established. The Wikipedia citation for the introduction is blank in the wikitext, and the MacTutor Grothendieck biography does not date it. Searched: Wikipedia, MacTutor Grothendieck, Crossref, Open Library. Left undated rather than guessed.",
-    "ev": [
+     },
      {
-      "c": "Wikipedia: etale cohomology was introduced by Grothendieck, using suggestions by Serre, to prove the Weil conjectures",
-      "s": "Wikipedia Etale cohomology",
-      "u": "https://en.wikipedia.org/wiki/%C3%89tale_cohomology",
-      "k": "history_page"
+      "c": "Crossref: Etale Cohomology (PMS-33), Princeton University Press, 1980.",
+      "s": "Crossref API",
+      "u": "https://doi.org/10.1515/9781400883981",
+      "k": "bibliographic_record"
      }
     ]
    }
@@ -66777,7 +66748,7 @@
     ]
    }
   ],
-  "notes": "No verified first_statement: the public etale statement is not dated in any bibliographic record I could reach (Artin's 1962 Harvard notes and the 1963-64 seminar are not verified in Crossref, zbMATH or Open Library), so the conceptual derived date is null. The 1966 Bourbaki record is a candidate first application, not a confirmed first. Naming: the term 'etale' is not dated in the sources read. Input summary says 'Grothendieck topologies gave cohomology theories as required by Weil', which is consistent with the sources. Searched: Wikipedia Etale cohomology, MacTutor Grothendieck and Weil, Crossref, zbMATH, Open Library.",
+  "notes": "Direct review (R2-R1b). The first statement is dated 1960 (printed ICM 1958 lecture, text read): it proposes the idea of a Weil cohomology from unramified coverings and Galois cohomology but does not define the etale topology, so conceptual is an idea-level date. Artin's mimeographed 1962 Harvard notes (reference [1] of Bourbaki exp. 279) are a precursor; they have no bibliographic record. The first application is the Bourbaki exposé 279 (December 1964, printed 1966), read; the 1963-64 SGA 4 seminar (published 1972-73) was circulating earlier, so 1966 may be a later bound. Weil 1949, Deligne 1974 and Milne 1980 are confirmed by Crossref. The date and wording of the coinage 'etale' are not established. Searched: Crossref, Open Library, zbMATH, Numdam, Wikipedia, MacTutor.",
   "catalogueDates": [
    [
     1958,
@@ -108701,7 +108672,7 @@
     "basis": "first statement"
    },
    "methodological": {
-    "y": 1882,
+    "y": 1881,
     "basis": "first application"
    },
    "institutional": {
@@ -108719,7 +108690,7 @@
   "approx": false,
   "derived": {
    "conceptual": 1881,
-   "methodological": 1882,
+   "methodological": 1881,
    "institutional": 1881
   },
   "phases": [
@@ -108770,7 +108741,7 @@
     "d": "Poincare began publishing his theory of Fuchsian functions in 1881, linking their groups to non-Euclidean geometry.",
     "ph": "Fuchsian functions",
     "c": "medium",
-    "n": "No Crossref record for the 1881 notes; date and pages come from a Numdam bibliography of Klein's notes on Poincaré's early publications, scan not seen. About a dozen notes followed in 1881. His 1880 Grand Prix essay and its supplement of 28 June 1880 were not published, so are not a first statement.",
+    "n": "C. R. 92 (14 February 1881) 333-335 is confirmed by two independent lists: the Numdam bibliography of Klein's notes (Bruning) and the Klein-Poincare correspondence (Henri Poincare Papers, Nantes). Klein's own transcribed notes on the note (Cod. MS. 14 G 1882) say it takes the Fuchsian group to be a discontinuous group of the hyperbolic plane and builds theta-Fuchsian functions, so it is a genuine first statement. Scan of the C. R. note itself not seen. About a dozen notes followed in 1881. His 1880 Grand Prix essay and its supplement of 28 June 1880 were not published, so are not a first statement.",
     "ev": [
      {
       "c": "Says Poincare began publishing an outline of automorphic function theory in 1881.",
@@ -108805,7 +108776,7 @@
     "d": "The first note already carries the name Fuchsian functions, which MacTutor says honours Fuchs; Klein's term automorphic came later.",
     "ph": "Fuchsian functions",
     "c": "medium",
-    "n": "Same note as the first_statement, counted under naming because the name is in the title (title as in the Numdam bibliography; scan not seen). The date of Klein's automorphic was not checked.",
+    "n": "Same note as the first_statement, counted under naming because the name is in the title. The Numdam article says the name Fuchsian functions was introduced by Poincare and annoyed Klein, who thought other mathematicians (such as Schwarz) deserved the credit. The date of Klein's 'automorphic' was not found.",
     "ev": [
      {
       "c": "Bibliography gives the title Sur les fonctions fuchsiennes for the note of 14 February 1881",
@@ -108818,6 +108789,29 @@
       "s": "MacTutor biography of Poincare",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/",
       "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "first_application",
+    "y": 1881,
+    "ye": null,
+    "p": "year",
+    "l": "Poincare integrates linear differential equations by Fuchsian functions",
+    "w": "Poincare, Sur les fonctions fuchsiennes, C. R. Acad. Sci. Paris 92 (21 February 1881) 395-398",
+    "pe": [
+     "Henri Poincare"
+    ],
+    "d": "Poincare shows that every Fuchsian function integrates an associated linear differential equation, with the hypergeometric series and the modular functions as examples.",
+    "ph": null,
+    "c": "medium",
+    "n": "Dated and paginated by the Numdam bibliography of Klein's notes and by the Klein-Poincare correspondence; the content is from Klein's transcribed notes on the note (Fuchsian function integrates an associated equation, hypergeometric series, modular functions). Scan of the C. R. note not seen.",
+    "ev": [
+     {
+      "c": "Klein's notes on C. R. 92, p. 395: every Fuchsian function integrates an associated differential equation; hypergeometric series and modular functions as examples.",
+      "s": "Bruning, Klein's notes about Poincare's early publications (Numdam)",
+      "u": "https://numdam.org/item/PHSC_1997__2_4_77_0/",
+      "k": "primary_archive"
      }
     ]
    },
@@ -108845,7 +108839,7 @@
     ]
    },
    {
-    "r": "first_application",
+    "r": "key_development",
     "y": 1882,
     "ye": null,
     "p": "year",
@@ -108857,7 +108851,7 @@
     "d": "The memoir uses the new functions to solve linear differential equations.",
     "ph": "Fuchsian functions",
     "c": "medium",
-    "n": "That the memoir integrates linear equations is from MacTutor's account; the paper was not read, and the earlier 1881 notes may already contain such uses.",
+    "n": "Role changed from first_application: Klein's notes show that the integration of linear differential equations by Fuchsian functions is already in the C. R. note of 21 February 1881. Crossref confirms Acta Math. 1, 193-294 (1882). Not read.",
     "ev": [
      {
       "c": "Record: Acta Math. 1 (1882) 193-294.",
@@ -108952,6 +108946,12 @@
       "s": "Internet Archive",
       "u": "https://archive.org/details/vorlesungenber01fricuoft",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Hutchinson's review of Fricke-Klein, Vorlesungen uber die Theorie der automorphen Functionen, Bull. AMS 9 (1903).",
+      "s": "Crossref API",
+      "u": "https://doi.org/10.1090/s0002-9904-1903-01020-9",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -108968,7 +108968,7 @@
     "d": "Koebe's first Göttingen note on uniformisation of arbitrary analytic curves; Poincaré's own memoir follows as the 1908 entry.",
     "ph": "Uniformisation",
     "c": "high",
-    "n": "Submitted 1907, published in the 1908 volume. zbMATH could not be reached in this review, so that citation was not re-checked.",
+    "n": "zbMATH lists the note in the 1907 volume of the Gottingen Nachrichten (pp. 191-210, Zbl 38.0454.01), so the earlier remark about the 1908 volume is withdrawn. A second communication follows in 1907 (pp. 633-669) and a third in 1908. Not read.",
     "ev": [
      {
       "c": "Says the first rigorous proofs were by Poincare and Koebe, completed by 1907.",
@@ -109080,7 +109080,7 @@
     ]
    }
   ],
-  "notes": "The first published statement is Poincaré's note of 14 February 1881; the name Fuchsian functions is already in its title, so naming moved from 1882 to 1881 and the Acta paper became a key development. Date and title of the 1881 notes rest on a Numdam bibliography, not a scan. The coinage of 'automorphic' (Klein) is not verified, so the 1897 book is marked consolidation. Fuchs's, Fricke's and Koebe's biography pages were not fetched; those biographyUrl values point to related MacTutor pages. Contents of Klein 1882/1883 and of the Acta memoirs were not read.",
+  "notes": "Partial review (R2-R1b), not promoted. The first published statement is Poincare's note of 14 February 1881 (confirmed by two lists and by Klein's contemporary notes on its content); the name Fuchsian functions is already in its title. The first application moves from the 1882 Acta memoir to the C. R. note of 21 February 1881, where Klein's notes record the integration of linear equations by Fuchsian functions. The coinage of 'automorphic' (Klein) is not verified, so the 1897 book is marked consolidation. Koebe 1907 is confirmed by zbMATH. Outstanding: the C. R. scans, the Acta memoirs, Klein 1882/1883 and Fricke-Klein were not read; Fuchs's, Fricke's and Koebe's biography pages were not fetched (the biographyUrl values point to related MacTutor pages).",
   "catalogueDates": [
    [
     1880,
