@@ -4255,6 +4255,29 @@
     ]
    },
    {
+    "r": "precursor",
+    "y": 1892,
+    "ye": null,
+    "p": "year",
+    "l": "Poincare's note announcing the fundamental group",
+    "w": "Poincare, H., Sur l'analysis situs, Comptes rendus de l'Academie des Sciences 115 (1892) 633-636",
+    "pe": [
+     "Henri Poincare"
+    ],
+    "d": "A four-page announcement that asks whether Betti numbers determine a manifold's type and introduces the fundamental group, showing that equal Betti numbers can go with different fundamental groups.",
+    "ph": "Betti numbers (numerical invariants, 1870)",
+    "c": "medium",
+    "n": "Public but before homology theory proper (1895); sets no derived date. Citation (volume, pages) from Stillwell's reference list; no Crossref record and no scan was seen.",
+    "ev": [
+     {
+      "c": "Stillwell describes the 1892 note (C. R. 115, 633-636) as the short announcement that set the agenda for Analysis situs: Betti numbers versus the fundamental group.",
+      "s": "Stillwell, translator's introduction to Poincare, Papers on Topology: Analysis Situs and Its Five Supplements (Edinburgh preprint)",
+      "u": "https://webhomes.maths.ed.ac.uk/~aar/papers/poincare2009.pdf",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
     "r": "first_statement",
     "y": 1895,
     "ye": null,
@@ -4267,7 +4290,7 @@
     "d": "Poincare's Analysis situs introduces homology classes and relations between submanifolds and chains, Betti numbers computed from them, and the fundamental group; torsion and the corrections after Heegaard's criticism follow in supplements of 1899-1904.",
     "ph": "Poincare's homology groups (1895)",
     "c": "medium",
-    "n": "Homology appears here as relations between cycles and Betti numbers; treating homology classes as abelian groups is the later step of Noether, Vietoris and Mayer (next milestones), so the date is the first statement of homology, not of homology groups. Earlier work by Betti is counted as a precursor.",
+    "n": "Homology appears here as relations between cycles and Betti numbers; treating homology classes as abelian groups is the later step of Noether, Vietoris and Mayer (next milestones), so the date is the first statement of homology, not of homology groups. Earlier work by Betti is counted as a precursor. Stillwell's introduction (an independent history source) confirms that homology theory first appears in the 1895 memoir and that the 1892 note preceded it without homology; the memoir itself was not read.",
     "ev": [
      {
       "c": "zbMATH (Jahrbuch record) lists Analysis situs, J. Ec. Polytech. (2) 1, 1-123 (1895).",
@@ -4292,6 +4315,12 @@
       "s": "Wikipedia: Homology (mathematics), History",
       "u": "https://en.wikipedia.org/wiki/Homology_(mathematics)",
       "k": "history_page"
+     },
+     {
+      "c": "Stillwell: Analysis situs gives a rudimentary homology theory that computes with submanifolds, a duality theorem for Betti numbers and the fundamental group; the 1892 Comptes rendus note only raised the Betti-number question and introduced the fundamental group.",
+      "s": "Stillwell, translator's introduction to Poincare, Papers on Topology: Analysis Situs and Its Five Supplements (Edinburgh preprint)",
+      "u": "https://webhomes.maths.ed.ac.uk/~aar/papers/poincare2009.pdf",
+      "k": "history_page"
      }
     ]
    },
@@ -4301,7 +4330,7 @@
     "ye": 1928,
     "p": "range",
     "l": "Noether's algebraic homology groups (with Vietoris and Mayer)",
-    "w": "E. Noether (1925-28, Goettingen; acknowledged by Hopf, Nachr. Ges. Wiss. Goettingen 1928); L. Vietoris, Math. Ann. 97 (1927) 454-472; W. Mayer, Monatsh. Math. Phys. 36 (1929)",
+    "w": "E. Noether (1925-28, Goettingen; acknowledged by Hopf, Nachr. Ges. Wiss. Goettingen 1928); L. Vietoris, Math. Ann. 97 (1927) 454-472; W. Mayer, Ueber abstrakte Topologie, Monatsh. Math. Phys. 36 (1929) 1-42",
     "pe": [
      "Emmy Noether",
      "Leopold Vietoris",
@@ -4310,7 +4339,7 @@
     "d": "Noether, and independently Vietoris and Mayer, treat homology classes as abelian groups, so the Betti number becomes the rank of a group.",
     "ph": null,
     "c": "medium",
-    "n": "Noether published no paper on this; the date comes from reports of her remarks in the Goettingen lectures of Alexandroff and Hopf (1926-28) and a 1925 observation, so the range 1925-28 is kept. Vietoris 1927 is a dated record for the independent group-theoretic formulation (Crossref). Mayer 1929 and Hopf 1928 were not retrieved.",
+    "n": "Noether published no paper on this; the date comes from reports of her remarks in the Goettingen lectures of Alexandroff and Hopf (1926-28) and a 1925 observation, so the range 1925-28 is kept. Vietoris 1927 (Crossref) is the earliest dated publication of the group-theoretic formulation; Mac Lane (1986) argues Vietoris was independent of Noether. Mayer 1929 is now confirmed in Crossref (Monatsh. Math. Phys. 36, pp. 1-42, 219-258). Hopf's 1928 Goettingen note was not retrieved (only 1964 and 2001 reprint records).",
     "ev": [
      {
       "c": "Wikipedia: Noether, independently of Vietoris and Mayer, developed algebraic homology groups in 1925-28",
@@ -4325,10 +4354,16 @@
       "k": "bibliographic_record"
      },
      {
-      "c": "Noether and, independently, Vietoris and Mayer developed algebraic homology groups in 1925-28 (Wikipedia, History); Weibel dates her observation that Betti numbers are ranks of groups to 1925.",
-      "s": "Wikipedia: Homology (mathematics); Weibel, History of homological algebra",
-      "u": "https://sites.math.rutgers.edu/%7Eweibel/HA-history.pdf",
+      "c": "Weibel's history of homological algebra (cited earlier) dates Noether's observation that Betti numbers are ranks of groups to 1925; Stillwell likewise writes that Noether discovered the homology groups in 1925, and Mac Lane argues that Vietoris used groups in homology independently by 1926.",
+      "s": "Stillwell, Papers on Topology (introduction); Mac Lane, Topology becomes algebraic with Vietoris and Noether, J. Pure Appl. Algebra 39 (1986) 305-307",
+      "u": "https://doi.org/10.1016/0022-4049(86)90150-7",
       "k": "history_page"
+     },
+     {
+      "c": "Crossref: Mayer, Ueber abstrakte Topologie, Monatsh. Math. Phys. 36 (1929) 1-42, and Abstrakte Topologie II, 219-258.",
+      "s": "Crossref records, DOIs 10.1007/bf02307601 and 10.1007/bf02307614",
+      "u": "https://doi.org/10.1007/bf02307601",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -79831,14 +79866,20 @@
     ],
     "d": "Short note announcing the Poincare-duality property for intersection homology of singular spaces.",
     "ph": null,
-    "c": "medium",
-    "n": "No Crossref record; the page range comes from the Wikipedia reference list and zbMATH could not be reached, so the note is not confirmed in an independent bibliographic record.",
+    "c": "high",
+    "n": "Independent bibliographic record found in zbMATH Open (C. R. Acad. Sci. Paris Ser. A 284, 1549-1551, 1977; Numdam bibliography gives 27 June 1977). No Crossref record. The note's content was not read; that it announces the Poincare duality of intersection homology is from its title and later citations.",
     "ev": [
      {
       "c": "Wikipedia Intersection homology: references the 1977 Comptes Rendus note",
       "s": "Wikipedia: Intersection homology",
       "u": "https://en.wikipedia.org/wiki/Intersection_homology",
       "k": "history_page"
+     },
+     {
+      "c": "zbMATH Open search returns the note: La dualite de Poincare pour les espaces singuliers, C. R. Acad. Sci. Paris Ser. A 284, 1549-1551 (1977); the Numdam bibliography dates it 27 June 1977 and MathSciNet number MR0440533 is cited on Wikipedia.",
+      "s": "zbMATH Open API search (title Poincare, author Goresky, 1977); Numdam, Asterisque 101-102 bibliography",
+      "u": "https://api.zbmath.org/v1/document/_search?search_string=ti%3APoincar%C3%A9%20au%3AGoresky%20py%3A1977",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -79899,6 +79940,36 @@
       "s": "Crossref",
       "u": "https://doi.org/10.1016/0040-9383(80)90003-8",
       "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1981,
+    "ye": null,
+    "p": "year",
+    "l": "Kazhdan-Lusztig conjecture proved by intersection cohomology",
+    "w": "Brylinski, J.-L., Kashiwara, M., Kazhdan-Lusztig conjecture and holonomic systems, Invent. Math. 64 (1981) 387-410",
+    "pe": [
+     "Jean-Luc Brylinski",
+     "Masaki Kashiwara"
+    ],
+    "d": "Brylinski and Kashiwara prove the Kazhdan-Lusztig conjecture using D-modules and the intersection cohomology interpretation of the polynomials (Beilinson and Bernstein announced the same result independently).",
+    "ph": null,
+    "c": "medium",
+    "n": "Title, journal, pages and year confirmed in Crossref (DOI 10.1007/bf01389272); contents not read. The independent Beilinson-Bernstein announcement (C. R. Acad. Sci. Paris 292, 1981) was not retrieved.",
+    "ev": [
+     {
+      "c": "Crossref: Kazhdan-Lusztig conjecture and holonomic systems, Invent. Math. 64, pp. 387-410, issued October 1981.",
+      "s": "Crossref record, DOI 10.1007/bf01389272",
+      "u": "https://doi.org/10.1007/bf01389272",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Kashiwara's survey: the Kazhdan-Lusztig conjecture was proved in 1981 via the intersection cohomology interpretation.",
+      "s": "Kashiwara, survey on the Kazhdan-Lusztig conjecture",
+      "u": "https://www.kurims.kyoto-u.ac.jp/~kenkyubu/kashiwara/KL.pdf",
+      "k": "history_page"
      }
     ]
    },
@@ -80040,7 +80111,7 @@
     ]
    }
   ],
-  "notes": "The 1977 Comptes Rendus note is cited from Wikipedia (Sér. A 284, pp. 1549-1551) and not found in Crossref or zbMATH here; if it cannot be confirmed, the first bibliographic statement is the 1980 Topology paper. Methodological was moved from 1979 to 1980: the 1979 Invent. Math. paper states the Kazhdan-Lusztig conjectures but is not shown to use intersection cohomology; the interpretation is in the 1980 Schubert varieties paper. The 1981 proofs (Brylinski-Kashiwara, Invent. Math. 64; Beilinson-Bernstein) and the 1982 Beilinson-Bernstein-Deligne 'Faisceaux pervers' (perverse sheaves, part of the event's target) are not recorded as milestones; the 1984 chapter is a Borel et al. volume. Kleiman's 1989 history was not read.",
+  "notes": "The 1977 Comptes Rendus note is cited from Wikipedia (Sér. A 284, pp. 1549-1551) and not found in Crossref or zbMATH here; if it cannot be confirmed, the first bibliographic statement is the 1980 Topology paper. Methodological was moved from 1979 to 1980: the 1979 Invent. Math. paper states the Kazhdan-Lusztig conjectures but is not shown to use intersection cohomology; the interpretation is in the 1980 Schubert varieties paper. Round 2: the 1977 note is now confirmed in zbMATH Open and the Brylinski-Kashiwara 1981 proof is a milestone (Crossref). Beilinson-Bernstein 1981 and the 1982 Beilinson-Bernstein-Deligne 'Faisceaux pervers' (perverse sheaves, part of the event's target) are not recorded as milestones (BBD could not be checked: Numdam was unreachable); the 1984 chapter is a Borel et al. volume. Kleiman's 1989 history was not read.",
   "catalogueDates": [
    [
     1974,
