@@ -1397,7 +1397,7 @@
   "grade": {},
   "shown": {
    "conceptual": {
-    "y": 1736,
+    "y": 1741,
     "basis": "first statement"
    },
    "methodological": {
@@ -1415,10 +1415,10 @@
    "label": "Kirchhoff's network equations",
    "same": false
   },
-  "y": 1736,
+  "y": 1741,
   "approx": false,
   "derived": {
-   "conceptual": 1736,
+   "conceptual": 1741,
    "methodological": 1847,
    "institutional": 1878
   },
@@ -1457,35 +1457,6 @@
    },
    {
     "r": "first_statement",
-    "y": 1736,
-    "ye": null,
-    "p": "year",
-    "l": "Euler's Königsberg bridge paper",
-    "w": "Euler, Solutio problematis ad geometriam situs pertinentis, 1736 (presented)",
-    "pe": [
-     "Leonhard Euler"
-    ],
-    "d": "Euler solved the seven-bridges problem and generalised it to a parity condition on vertex degrees, a paper that history pages regard as the first in graph theory.",
-    "ph": "Euler and the geometry of position",
-    "c": "medium",
-    "n": "The year is the date commonly given for the paper; its printing came later and I did not check the volume. The 'first' is the usual textbook attribution; no graph vocabulary exists yet.",
-    "ev": [
-     {
-      "c": "Wikipedia calls Euler's 1736 paper the first paper in the history of graph theory",
-      "s": "English Wikipedia, Graph theory",
-      "u": "https://en.wikipedia.org/wiki/Graph_theory",
-      "k": "history_page"
-     },
-     {
-      "c": "MacTutor dates the first beginnings of topology to this 1736 paper and states its degree-parity criterion",
-      "s": "MacTutor, A history of Topology",
-      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Topology_in_mathematics/",
-      "k": "history_page"
-     }
-    ]
-   },
-   {
-    "r": "first_statement",
     "y": 1741,
     "ye": null,
     "p": "year",
@@ -1494,10 +1465,10 @@
     "pe": [
      "Leonhard Euler"
     ],
-    "d": "Euler recasts the bridge puzzle as land masses and links, shows the walk is impossible and states the parity rule for general networks.",
-    "ph": null,
+    "d": "Euler recasts the bridge puzzle as land masses and links, shows the walk is impossible and states the parity rule for general networks; history pages regard it as the first paper in graph theory.",
+    "ph": "Euler and the geometry of position",
     "c": "high",
-    "n": "Volume is titled 1736 but printed 1741; Wikipedia's graph theory page quotes 1736. Also plays the role of the first application (solves the target puzzle); not repeated.",
+    "n": "Volume 8 of the Commentarii is titled 1736 but was printed in 1741, so publication year governs (the paper was read in 1735, see the precursor). Wikipedia and MacTutor quote 1736, which is the volume title and presentation date, not the publication. Also plays the role of the first application (solves the target puzzle); not repeated. The 'first in graph theory' attribution is the usual textbook one; no graph vocabulary exists yet.",
     "ev": [
      {
       "c": "Published in the St Petersburg Commentarii in 1741; mathematical formalisation and proof of impossibility laid the foundations of graph theory",
@@ -1510,6 +1481,18 @@
       "s": "Euler Archive record E53 (bepress metadata)",
       "u": "https://scholarlycommons.pacific.edu/euler-works/53/",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Calls Euler's paper (dated 1736) the first paper in the history of graph theory; the 1736 date is the volume title, not the printing",
+      "s": "English Wikipedia, Graph theory",
+      "u": "https://en.wikipedia.org/wiki/Graph_theory",
+      "k": "history_page"
+     },
+     {
+      "c": "Dates the first beginnings of topology to this paper (quoted as 1736) and states its degree-parity criterion",
+      "s": "MacTutor, A history of Topology",
+      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Topology_in_mathematics/",
+      "k": "history_page"
      }
     ]
    },
@@ -1867,37 +1850,37 @@
     {
      "p": "P181",
      "f": "graph theory",
-     "d": 109,
+     "d": 104,
      "t": "context"
     },
     {
      "p": "P245",
      "f": "graph theory",
-     "d": 199,
+     "d": 194,
      "t": "context"
     },
     {
      "p": "P278",
      "f": "graph theory",
-     "d": 220,
+     "d": 215,
      "t": "context"
     },
     {
      "p": "P254",
      "f": "graph theory",
-     "d": 223,
+     "d": 218,
      "t": "context"
     },
     {
      "p": "P342",
      "f": "graph theory",
-     "d": 268,
+     "d": 263,
      "t": "context"
     },
     {
      "p": "P308",
      "f": "graph theory (hypercube)",
-     "d": 283,
+     "d": 278,
      "t": "context"
     }
    ],
@@ -37053,6 +37036,29 @@
     ]
    },
    {
+    "r": "key_development",
+    "y": 1784,
+    "ye": null,
+    "p": "year",
+    "l": "Monge's memoir on the theory of déblais and remblais and the lines of curvature",
+    "w": "Monge, Sur la théorie des déblais et des remblais, Histoire de l'Académie royale des sciences (1781), pp. 666-704",
+    "pe": [
+     "Gaspard Monge"
+    ],
+    "d": "Monge studies the transport of earth between surfaces and in doing so introduces the lines of curvature of a surface and their differential equation, going beyond Euler's treatment of normal sections.",
+    "ph": null,
+    "c": "low",
+    "n": "Presented to the Academy on 28 March 1781; the volume is titled 1781 and one secondary source gives 1784 for its printing, which was not confirmed from the title page or a catalogue.",
+    "ev": [
+     {
+      "c": "Gives the memoir at Mém. de l'Académie 1781, pp. 666-704, and notes it establishes the curves of curvature of a surface",
+      "s": "BnF, Des tas de sable aux pixels (bibliography)",
+      "u": "https://www.bnf.fr/sites/default/files/2019-12/Des%20tas%20de%20sables%20aux%20pixels_bibliographie.pdf",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
     "r": "consolidation",
     "y": 1795,
     "ye": null,
@@ -40300,7 +40306,7 @@
     "basis": "first statement"
    },
    "methodological": {
-    "y": 1550,
+    "y": 1530,
     "basis": "earliest key development; no first application found"
    },
    "institutional": {
@@ -40309,7 +40315,7 @@
    }
   },
   "took": {
-   "y": 1550,
+   "y": 1530,
    "role": "key_development",
    "label": "Yuktibhasa gives derivations",
    "same": false
@@ -40387,9 +40393,9 @@
    },
    {
     "r": "key_development",
-    "y": 1550,
-    "ye": null,
-    "p": "decade",
+    "y": 1530,
+    "ye": 1550,
+    "p": "range",
     "l": "Yuktibhasa gives derivations",
     "w": "Jyesthadeva, Yuktibhasa (Ganita-yukti-bhasa), about 1550",
     "pe": [
@@ -40398,7 +40404,7 @@
     "d": "Malayalam text that explains how Madhava's series were found.",
     "ph": "Kerala reports and proofs",
     "c": "medium",
-    "n": "Date uncertain, about 1530-1550 in the literature.",
+    "n": "Date uncertain: Wikipedia gives about 1530; MacTutor's Jyesthadeva biography states both 1501 and about 1550, so it is not a single reliable date. The range 1530-1550 spans the literature.",
     "ev": [
      {
       "c": "Jyesthadeva wrote Yukti-Bhasa around 1550 and explains Madhava's series.",
@@ -40411,6 +40417,12 @@
       "s": "Open Library OL18719019W",
       "u": "https://openlibrary.org/works/OL18719019W",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Gives the Yuktibhasa's date as about 1530 and calls it the earliest text with proofs of the series",
+      "s": "Wikipedia, Yuktibhasa",
+      "u": "https://en.wikipedia.org/wiki/Yuktibh%C4%81%E1%B9%A3%C4%81",
+      "k": "history_page"
      }
     ]
    },
@@ -41420,6 +41432,29 @@
       "s": "MacTutor, Legendre",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Legendre/",
       "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1823,
+    "ye": null,
+    "p": "year",
+    "l": "Gauss's Theoria combinationis observationum erroribus minimis obnoxiae",
+    "w": "Gauss, Theoria combinationis observationum erroribus minimis obnoxiae, Pars prior and Pars posterior, Commentationes Societatis Regiae Scientiarum Gottingensis recentiores 5 (pp. 33-90)",
+    "pe": [
+     "Carl Friedrich Gauss"
+    ],
+    "d": "Gauss gives a systematic probabilistic treatment of combining observations by least squares, independent of the normal law assumed in his 1809 derivation.",
+    "ph": null,
+    "c": "low",
+    "n": "Pars prior was presented 15 Feb 1821 and Pars posterior 2 Feb 1823, both printed in volume 5 of the Commentationes, so the volume cannot have appeared before 1823; the exact print year was not found in a record. Which part holds each result was not checked.",
+    "ev": [
+     {
+      "c": "Bibliography of Gauss's least-squares writings: Pars prior (vol. 5, pp. 33-62, 15 Feb 1821) and Pars posterior (vol. 5, pp. 63-90, 2 Feb 1823); the dates given are those of the papers, not a confirmed print year",
+      "s": "Pulskamp, Gauss bibliography (Royal Holloway)",
+      "u": "https://gtfp.cs.rhul.ac.uk/pulskamp/Gauss/Gauss.html",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -56106,7 +56141,7 @@
     {
      "p": "P004",
      "f": "graph theory",
-     "d": 109,
+     "d": 104,
      "t": "context"
     }
    ],
@@ -76234,7 +76269,7 @@
     {
      "p": "P004",
      "f": "graph theory",
-     "d": 199,
+     "d": 194,
      "t": "context"
     }
    ],
@@ -78947,7 +78982,7 @@
     {
      "p": "P004",
      "f": "graph theory",
-     "d": 223,
+     "d": 218,
      "t": "context"
     }
    ],
@@ -86616,7 +86651,7 @@
     {
      "p": "P004",
      "f": "graph theory",
-     "d": 220,
+     "d": 215,
      "t": "context"
     }
    ],
@@ -93723,7 +93758,7 @@
     {
      "p": "P004",
      "f": "graph theory (hypercube)",
-     "d": 283,
+     "d": 278,
      "t": "context"
     }
    ],
@@ -101415,7 +101450,7 @@
     {
      "p": "P004",
      "f": "graph theory",
-     "d": 268,
+     "d": 263,
      "t": "context"
     }
    ],
@@ -134170,8 +134205,8 @@
    {
     "r": "precursor",
     "y": 1413,
-    "ye": null,
-    "p": "decade",
+    "ye": 1425,
+    "p": "range",
     "l": "Brunelleschi's perspective demonstrations",
     "w": "Filippo Brunelleschi, panels of Florence, about 1413 (lost)",
     "pe": [
@@ -134180,12 +134215,18 @@
     "d": "Credited with the first correct linear perspective, with a single vanishing point; he wrote no explanation.",
     "ph": "Artists' perspective",
     "c": "medium",
-    "n": "Panels lost, nothing written.",
+    "n": "Panels lost, nothing written; the account comes from Manetti, a century later. Dates in the literature run from about 1413 (MacTutor) through about 1420 (Smarthistory) to 1425 (Wikipedia); no primary source fixes the year.",
     "ev": [
      {
       "c": "Credited with first correct formulation, about 1413; wrote no explanation.",
       "s": "MacTutor, Mathematics and art - perspective",
       "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Art/",
+      "k": "history_page"
+     },
+     {
+      "c": "Dates Brunelleschi's perspective experiment at the Baptistery to c. 1420 and notes that no writing by him survives",
+      "s": "Smarthistory, Linear perspective: Brunelleschi's experiment",
+      "u": "https://smarthistory.org/linear-perspective",
       "k": "history_page"
      }
     ]

@@ -2,7 +2,7 @@
 
 Each lead in `summary.json` was checked against a bibliographic record or history page before any change to `data/events.json`. Publication year governs dates. Private or unpublished work is recorded as a precursor. **Fixed** means the record was edited (a milestone added or corrected). **Lead wrong** means the record already holds the right fact or the lead's date is not the publication date. **Unresolved** means no source settled it, so nothing changed. Every event stays `source-first`: none was given a full direct review.
 
-Totals: 20 fixed, 15 lead wrong, 5 unresolved.
+Totals after the second pass: 24 fixed, 16 lead wrong, 0 unresolved (the 5 first-pass unresolved leads: 4 fixed or improved, 1 rejected).
 
 | # | pid | Lead milestone | Verdict | Source checked / action |
 |---|-----|----------------|---------|-------------------------|
@@ -17,16 +17,16 @@ Totals: 20 fixed, 15 lead wrong, 5 unresolved.
 | 9 | P354 (merged into P004) | 1930 Kuratowski's planarity characterisation | fixed | Crossref 10.4064/fm-15-1-271-283 (Fund. Math. 15, 1930); added as key_development to P004 |
 | 10 | P420 | 1927 Schreier on subgroups of free groups | lead wrong | Already in the record as the 1924-1927 range "Nielsen and Schreier on free groups" with the same DOI; the matcher compared start years only |
 | 11 | P432 | 1797 Wessel's memoir presented | lead wrong | 1797 is the reading at the Academy; the record dates the publication (1799) as first_statement, as the schema requires |
-| 12 | P449 | 1425 Brunelleschi investigates perspective | unresolved | Wikipedia (Projective geometry) says 1425, MacTutor (Art) about 1413; the panels are lost and no primary date exists. No change |
+| 12 | P449 | 1425 Brunelleschi investigates perspective | fixed | Second pass: no source gives 1425 for the experiment (Smarthistory c. 1420, MacTutor c. 1413, Wikipedia 1425); precursor widened to the range 1413-1425 with the disagreement in the note |
 | 13 | P488 | 2009 Hill-Hopkins-Ravenel nonexistence | lead wrong | arXiv:0908.3724 is the preprint of the Annals 2016 paper, already recorded at 2016 with the arXiv link in its evidence |
 | 14 | P540 | 2014 Liouville quantum gravity on the sphere | lead wrong | arXiv:1410.7318 is the preprint of the CMP 2016 paper already recorded (first_application 2016) |
 | 15 | P080 | 2009 Mouhot-Villani preprint | lead wrong | arXiv:0904.2760 is the preprint of Acta Math. 207 (2011), already recorded |
 | 16 | P114 | 1736 First published proof of the little theorem | lead wrong | Euler E54 was presented in 1736 and printed in Commentarii 8 in 1741 (Euler Archive); the record has 1741 |
 | 17 | P118 | 1731 Clairaut on curves of double curvature | fixed | MacTutor (Clairaut) gives the 1731 title page and 1729 completion; precursor re-dated 1729 to 1731 by publication |
-| 18 | P118 | 1785 Monge memoir on generation of surfaces | unresolved | MacTutor (Monge) lists "the generation of curved surfaces ... (1785)" among memoirs presented, without a title or publication record. No change |
+| 18 | P118 | 1785 Monge memoir on generation of surfaces | fixed (different milestone) | The 1785 date was not matched to a publication. Second pass found Monge's 1781 memoir on déblais and remblais (Mém. Acad. 1781, pp. 666-704, presented 28 Mar 1781; BnF bibliography) which introduces the lines of curvature; added as key_development, year 1784 (printing, low confidence: one secondary source) |
 | 19 | P125 | 1209 Sharaf al-Din's Treatise on equations | lead wrong | Falls inside the recorded first_statement range 1165-1213; no source fixes the year more precisely |
-| 20 | P129 | 1530 Yuktibhasa | unresolved | MacTutor (Jyesthadeva) gives both 1501 and "about 1550"; Wikipedia gives about 1530. No change |
-| 21 | P132 | 1822 Gauss optimality of least squares | unresolved | Theoria combinationis pars prior presented 15 Feb 1821, pars posterior 1823, both in Commentationes vol. 5; which part holds the optimality theorem and the volume's print year were not confirmed from a record. No change |
+| 20 | P129 | 1530 Yuktibhasa | fixed | Second pass: Wikipedia about 1530; MacTutor states both 1501 and about 1550 so it is not a reliable single date; key_development re-dated to the range 1530-1550 (methodological fallback 1550 to 1530) |
+| 21 | P132 | 1822 Gauss optimality of least squares | fixed (low confidence) | Second pass: Pars prior vol. 5 pp. 33-62 (15 Feb 1821), Pars posterior pp. 63-90 (2 Feb 1823) per Pulskamp's bibliography; the volume cannot predate 1823; added key_development 1823 at low confidence. Print year and which part holds the optimality theorem still not confirmed |
 | 22 | P135 | 1811 expanded second edition | fixed | archive.org scan of vol. 1 (Paris, Courcier, 1811) and Wikipedia (vol. 2 posthumous 1815); added as key_development 1811-1815 (methodological fallback moves 1834 to 1811) |
 | 23 | P149 | 600 Wang Xiaotong's cubic approximation | lead wrong | Record has the better-supported 620-626 range (Jigu suanjing, before 626, MacTutor) |
 | 24 | P155 | 1000 Jia Xian and the triangle | lead wrong | MacTutor (Jia Xian) gives about 1050, as recorded; the lead's 1000 is a looser century date |
@@ -34,7 +34,7 @@ Totals: 20 fixed, 15 lead wrong, 5 unresolved.
 | 26 | P176 | -140 Hipparchus tests lunar models | lead wrong | Inside the recorded range -147 to -127 |
 | 27 | P185 | 1733 Normal approximation to the binomial | fixed | MacTutor (De Moivre) and Wikipedia: Latin pamphlet dated Nov 1733, privately circulated, published in the 1738 Doctrine of Chances; added as key_development 1738 with the 1733 pamphlet in the note |
 | 28 | P189 | 100 Sphaerica | lead wrong | Inside the recorded range 98-130 |
-| 29 | P190 | 1727 ln(-1) = pi i found | unresolved | Euler-Bernoulli letters (1727-1731, e.g. 10 Dec 1728) discuss log(-1) but no source checked shows Euler stating pi i then; private letters would be a precursor anyway. No change |
+| 29 | P190 | 1727 ln(-1) = pi i found | lead wrong | Second pass: sources only show the Euler-Bernoulli letters (e.g. 10 Dec 1728) arguing about log(-1); none shows Euler stating i pi in 1727 and the identity is not explicit even in his 1749 paper. Nothing added; letters would be a precursor at most and the evidence page could not be read |
 | 30 | P234 | 1943 On rings of operators IV | fixed | Crossref 10.2307/1969107 (Ann. Math. 44, 1943); added as key_development |
 | 31 | P250 | 1936 Sprague, Ueber mathematische Kampfspiele | fixed | J-STAGE record (Tohoku Math. J. 41, 1935, 438-444); first_statement 1930-1939 (decade) to 1935, confidence low to medium; map year 1930 to 1935 and the P250/E25 link distance updated |
 | 32 | P250 | 1939 Grundy, Mathematics and games | fixed | Eureka 2 (1939) 6-8 per Wikipedia and secondary citations; kept inside the Sprague milestone as an independent rediscovery rather than a separate milestone |
@@ -47,4 +47,4 @@ Totals: 20 fixed, 15 lead wrong, 5 unresolved.
 | 39 | P389 | 1921 Hasse local-global principle | lead wrong | 1921 is Hasse's dissertation year; the record dates the Crelle 152 publication (1923) |
 | 40 | P459 | -150 Hipparchus' table of chords | lead wrong | MacTutor gives about 140 BC, as recorded; neither year is attested in a source |
 
-Seen while checking, outside these leads: P004 carries two first_statement milestones for Euler's Koenigsberg paper (1736 and 1741). The paper was printed in 1741, so the 1736 entry (and the derived conceptual date 1736) should be reviewed.
+Resolved after the first pass: P004 carried two first_statement milestones for Euler's Königsberg paper (1736 and 1741). The paper was printed in 1741, so the 1736 entry was merged into the 1741 milestone (its two history-page sources kept, with the note that 1736 is the volume title and presentation year); the map and conceptual date is now 1741 and the six P004 link distances were recomputed.

@@ -75,7 +75,7 @@ P150,De Moivre's formula: trigonometry and complex powers,1722,False,Analysis,di
 P169,Clairaut: curves in space,1731,False,Differential geometry,birth-by-abstraction,source-first,4,Alexis Clairaut; Leonhard Euler; Joseph Alfred Serret,events/P169/
 P157,Euler: geodesics from mechanics,1732,False,Differential geometry,technique-transfer,source-first,5,Leonhard Euler; Alexis Clairaut,events/P157/
 P152,De Moivre: normal approximation to the binomial,1733,False,Probability,technique-transfer,source-first,5,Abraham de Moivre; James Stirling; Pierre-Simon Laplace,events/P152/
-P004,Graph theory from the Königsberg bridges,1736,False,Graph theory,birth-by-abstraction,source-first,10,Leonhard Euler; Carl Hierholzer; James Joseph Sylvester; Dénes Kőnig; Gustav Kirchhoff; Arthur Cayley,events/P004/
+P004,Graph theory from the Königsberg bridges,1741,False,Graph theory,birth-by-abstraction,source-first,9,Leonhard Euler; Carl Hierholzer; James Joseph Sylvester; Dénes Kőnig; Gustav Kirchhoff; Arthur Cayley,events/P004/
 P450,Topology from the geometry of position (Euler to Listing),1741,False,Topology,birth-by-abstraction,source-first,6,Leonhard Euler; Simon Lhuilier; Johann Benedict Listing,events/P450/
 P560,Clairaut applies hydrostatics to the figure of the Earth,1743,False,Geophysics & geodesy,field-emergence,direct,1,,events/P560/
 P005,Analytic number theory I: Euler's product and Dirichlet's characters,1744,False,Number theory,birth-by-fusion,source-first,5,Leonhard Euler; Peter Gustav Lejeune Dirichlet; Adrien-Marie Legendre,events/P005/
@@ -87,7 +87,7 @@ P430,Spectral ideas: eigenvalues from vibrating systems and quadratic forms,1751
 P558,Euler formulates the equations of fluid motion,1757,False,Fluid mechanics,field-emergence,direct,2,Leonhard Euler,events/P558/
 P120,Euler's polyhedron formula (V - E + F = 2),1758,False,Topology,birth-by-abstraction,source-first,5,Leonhard Euler; Simon Lhuilier,events/P120/
 P131,Bayes' inverse probability,1764,False,Statistics & decision theory,birth-by-abstraction,source-first,7,Thomas Bayes; Richard Price; Pierre-Simon Laplace; Marquis de Condorcet; Abraham de Moivre; Harold Jeffreys,events/P131/
-P118,"Differential geometry of surfaces (Clairaut, Euler, Monge, Gauss)",1767,False,Differential geometry,birth-by-fusion,source-first,5,Alexis Clairaut; Leonhard Euler; Gaspard Monge; Carl Friedrich Gauss,events/P118/
+P118,"Differential geometry of surfaces (Clairaut, Euler, Monge, Gauss)",1767,False,Differential geometry,birth-by-fusion,source-first,6,Alexis Clairaut; Leonhard Euler; Gaspard Monge; Carl Friedrich Gauss,events/P118/
 P130,Laplace's analytic probability,1782,False,Probability,technique-transfer,source-first,6,Pierre-Simon Laplace; Adrien-Marie Legendre; Abraham de Moivre; Stephen M. Stigler,events/P130/
 P456,Social choice theory: Condorcet's probability to Arrow's theorem,1785,False,Statistics & decision theory,import-from-outside,source-first,7,Marquis de Condorcet; Kenneth Arrow; Duncan Black; Allan Gibbard; Jean-Charles de Borda,events/P456/
 P188,Potential theory in celestial mechanics and physics,1786,False,Differential equations,import-from-outside,source-first,7,Pierre-Simon Laplace; George Green; Joseph-Louis Lagrange; Carl Friedrich Gauss,events/P188/
@@ -98,7 +98,7 @@ P444,Fundamental theorem of algebra: analytic and topological proofs,1799,False,
 P138,Impossibility of solving the general quintic by radicals,1799,False,Algebra,technique-transfer,source-first,8,Paolo Ruffini; Niels Henrik Abel; Joseph-Louis Lagrange; Augustin-Louis Cauchy; Pierre Wantzel,events/P138/
 P139,Monge's descriptive geometry,1799,False,Geometry,import-from-outside,source-first,5,Gaspard Monge; Jean Nicolas Pierre Hachette; Albrecht Dürer,events/P139/
 P124,Gauss's Disquisitiones Arithmeticae,1801,False,Number theory,reification,source-first,6,Carl Friedrich Gauss; Adrien-Marie Legendre; Peter Gustav Lejeune Dirichlet; Ernst Kummer,events/P124/
-P132,Least squares,1805,False,Statistics & decision theory,technique-transfer,source-first,8,Adrien-Marie Legendre; Carl Friedrich Gauss; Robert Adrain; Pierre-Simon Laplace,events/P132/
+P132,Least squares,1805,False,Statistics & decision theory,technique-transfer,source-first,9,Adrien-Marie Legendre; Carl Friedrich Gauss; Robert Adrain; Pierre-Simon Laplace,events/P132/
 P562,Babbage develops a calculus of functional equations,1815,False,Functional equations,field-emergence,direct,2,,events/P562/
 P561,Navier formulates equations for elastic solids,1821,False,Solid mechanics,field-emergence,direct,2,,events/P561/
 P007,Fourier series: from heat flow to analysis,1822,False,Functional & harmonic analysis,import-from-outside,source-first,6,Joseph Fourier; Peter Gustav Lejeune Dirichlet; Bernhard Riemann; Friedrich Wilhelm Bessel,events/P007/
