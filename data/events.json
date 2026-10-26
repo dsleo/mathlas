@@ -100,6 +100,12 @@
       "s": "MacTutor, Archimedes",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Archimedes/",
       "k": "history_page"
+     },
+     {
+      "c": "The Quadrature of the Parabola gives two proofs of the main theorem: one by abstract mechanics (a lever in equilibrium) and one by pure geometry",
+      "s": "Wikipedia, Quadrature of the Parabola",
+      "u": "https://en.wikipedia.org/wiki/Quadrature_of_the_Parabola",
+      "k": "history_page"
      }
     ]
    },
@@ -123,6 +129,12 @@
       "s": "Wikipedia, Archimedes",
       "u": "https://en.wikipedia.org/wiki/Archimedes",
       "k": "history_page"
+     },
+     {
+      "c": "Same lever argument in the Quadrature of the Parabola",
+      "s": "Wikipedia, Quadrature of the Parabola",
+      "u": "https://en.wikipedia.org/wiki/Quadrature_of_the_Parabola",
+      "k": "history_page"
      }
     ]
    },
@@ -140,7 +152,7 @@
     "d": "Archimedes explains in a letter how balancing slices of figures led him to results such as sphere and cylinder volumes, which he then proved by exhaustion.",
     "ph": null,
     "c": "medium",
-    "n": null,
+    "n": "MacTutor follows Heath's order, which places the Method immediately before On the Sphere and Cylinder, hence after the Quadrature of the Parabola; all dates remain the outer bound of Archimedes's life.",
     "ev": [
      {
       "c": "It is a letter to Eratosthenes and holds the first attested explicit use of indivisibles.",
@@ -175,7 +187,7 @@
     "d": "Heiberg recognised a tenth-century prayer book as carrying Archimedes' lost Method, so the text reached modern readers.",
     "ph": null,
     "c": "high",
-    "n": "Heiberg's 1907 publication in Hermes was not verified (not in Crossref).",
+    "n": "Crossref has no record of Heiberg's 1907 Hermes article; Wikipedia says Heiberg photographed the palimpsest in 1906 and published the text between 1910 and 1915. The milestone is the 1906 discovery.",
     "ev": [
      {
       "c": "In the summer of 1906 Heiberg discovered the manuscript that includes The Method.",
@@ -282,7 +294,7 @@
     ]
    }
   ],
-  "notes": "Dates of Archimedes' treatises are uncertain, so the first three milestones share the whole of his working life as a range. Archimedes did not count the method as a proof; he proved the same results by exhaustion (Wikipedia). Because the Method was lost until 1906, it had no direct influence on later calculus. No consolidation or naming milestone found; institutional date is null. Democritus' lifespan is from general knowledge. Netz and Noel, The Archimedes Codex (2007, Open Library OL16919237W) and the Palimpsest edition record the imaging; not used for a milestone. Searched: MacTutor Archimedes; Wikipedia Archimedes, The Method of Mechanical Theorems; Heath 1912 (Internet Archive); Crossref and zbMATH for Heiberg's 1907 paper (not found). person without verified work: Democritus (developer). Crossref search for Heiberg's 1907 Hermes article returned no match in this pass (only an 1884 Philologus article and an unrelated entry), so the 1907 date stays unverified; the 1906 discovery is the milestone date.",
+  "notes": "Direct-style review in progress (not promoted). Re-read MacTutor (Heath's order of the works; summer 1906 discovery) and Wikipedia (Quadrature of the Parabola: mechanical and geometric proofs side by side; Archimedes Palimpsest: photographed 1906, published 1910-15). Crossref confirms Heiberg's 1884 Philologus article only, not a 1907 Hermes paper. Outstanding: none of Archimedes's works has a datable year, so the three milestones carry the whole life range and the derived dates (-250) are an arbitrary point in it, not evidence; a source ordering the Quadrature and the Method by composition date is needed; Democritus's volume claim is Heath's reconstruction; On the Equilibrium of Planes is undated. Heiberg's 1907 first publication and the 1912 Heath edition record are unchecked beyond the Internet Archive.",
   "catalogueDates": [
    [
     -250,
@@ -13065,7 +13077,7 @@
     {
      "p": "P257",
      "f": "model theory in Diophantine geometry",
-     "d": 63,
+     "d": 64,
      "t": "named"
     }
    ],
@@ -16659,7 +16671,7 @@
   "took": {
    "y": 1953,
    "role": "institution",
-   "label": "Cambridge Diploma in Computer Science",
+   "label": "Cambridge Diploma in Numerical Analysis and Automatic Computing (later Diploma in Computer Science)",
    "same": false
   },
   "y": 1936,
@@ -16674,6 +16686,29 @@
    "Institutional separation (1953-1967)"
   ],
   "ms": [
+   {
+    "r": "precursor",
+    "y": 1935,
+    "ye": null,
+    "p": "year",
+    "l": "Church's preliminary report in the Bulletin of the AMS",
+    "w": "Church, An unsolvable problem of elementary number theory. Preliminary report, Bulletin of the American Mathematical Society 41 (1935) 332-333",
+    "pe": [
+     "Alonzo Church"
+    ],
+    "d": "A published preliminary report announcing Church's unsolvability work a year before the full paper.",
+    "ph": null,
+    "c": "medium",
+    "n": "Content not read here (the AMS PDF was not retrievable); if it states the result or the thesis it would be the first_statement and move the conceptual date to 1935. Recorded as a precursor until read.",
+    "ev": [
+     {
+      "c": "Wikipedia, Church-Turing thesis, cites Church, May 1935, Bull. AMS 41(5) 332-333, Preliminary report",
+      "s": "English Wikipedia, Church-Turing thesis (references)",
+      "u": "https://www.ams.org/journals/bull/1935-41-05/S0002-9904-1935-06097-5/S0002-9904-1935-06097-5.pdf",
+      "k": "history_page"
+     }
+    ]
+   },
    {
     "r": "first_statement",
     "y": 1936,
@@ -16743,16 +16778,22 @@
     "y": 1953,
     "ye": null,
     "p": "year",
-    "l": "Cambridge Diploma in Computer Science",
-    "w": "Cambridge Diploma in Computer Science, Cambridge University Computer Laboratory",
+    "l": "Cambridge Diploma in Numerical Analysis and Automatic Computing (later Diploma in Computer Science)",
+    "w": "Cambridge University Computer Laboratory, Diploma in Numerical Analysis and Automatic Computing, begun 1953 (renamed Diploma in Computer Science)",
     "pe": [],
-    "d": "Cambridge began what Wikipedia calls the world's first computer science degree programme in its Computer Laboratory.",
+    "d": "Cambridge began a one-year postgraduate course in the Computer Laboratory that Wikipedia calls the world's first computer science degree programme; it was then titled Numerical Analysis and Automatic Computing.",
     "ph": null,
     "c": "medium",
-    "n": "Institutional evidence only, from Wikipedia; no bibliographic record exists for a degree programme.",
+    "n": "The 1953 start is confirmed by the Computer Laboratory's own history page, which calls the Diploma the first formal course leading to a university qualification in computing. The title 'Computer Science' came later, so 'computer science programme' is a retrospective label.",
     "ev": [
      {
-      "c": "Cambridge Diploma in Computer Science began at the Computer Laboratory in 1953",
+      "c": "Computer Laboratory history: 1953 Diploma in Numerical Analysis and Automatic Computing began, the first formal course leading to a university qualification in computing; 1954 first examinations",
+      "s": "University of Cambridge Computer Laboratory, EDSAC 99 history page",
+      "u": "https://www.cl.cam.ac.uk/events/EDSAC99/history.html",
+      "k": "history_page"
+     },
+     {
+      "c": "Wikipedia: Cambridge Diploma in Computer Science began at the Computer Laboratory in 1953",
       "s": "Wikipedia: Computer science (history)",
       "u": "https://en.wikipedia.org/wiki/Computer_science",
       "k": "history_page"
@@ -16805,6 +16846,12 @@
       "c": "First US computer science department formed at Purdue in 1962",
       "s": "Wikipedia: Computer science (history)",
       "u": "https://en.wikipedia.org/wiki/Computer_science",
+      "k": "history_page"
+     },
+     {
+      "c": "Purdue's Department of Computer Science was established on 24 October 1962 and is described as the first in an American university",
+      "s": "Wikipedia, Department of Computer Science, Purdue University",
+      "u": "https://en.wikipedia.org/wiki/Purdue_University_Department_of_Computer_Science",
       "k": "history_page"
      }
     ]
@@ -16916,7 +16963,7 @@
     ]
    }
   ],
-  "notes": "Wikipedia lead data for E60 had no candidates; live Wikipedia wikitext (Computer science, History of computer science) used. Institutional milestones (Cambridge 1953, Purdue 1962) are Wikipedia-only. Derived methodological date null: no first_application (a purposeful use of computability in an applied setting) was established. The 'split' is interpreted through the institutional milestones; the summary's 'journals' and 'departments' were partly checked (CACM 1959 only). Searches for Stanford CS 1965 and ACM journals not done. Fresh check: Crossref gives the print date of Turing's paper as 1937 (volume 42, 1936-37), so the first_statement is 1937 under the publication-year rule; Church's 1936 paper still sets the conceptual date.",
+  "notes": "Direct-style review in progress (not promoted). Crossref checked for Church (Am. J. Math. 58, April 1936), Turing (Proc. LMS s2-42, print date 1937), Fein (CACM 2, 1959) and Newell-Perlis-Simon (Science 157, 1967). Found: the Cambridge course began in 1953 under the title Diploma in Numerical Analysis and Automatic Computing (Computer Laboratory history page), now relabelled; Purdue's department dated to 24 October 1962 by a second page. Church's May 1935 preliminary report in the Bulletin of the AMS is an earlier published item; its content could not be read, so it is a precursor and the conceptual date stays 1936. Outstanding: read the 1935 report (it may move the first statement to 1935); verify Fein's 1959 use as the first print use of 'computer science' (the 1956 proposal is unverified); no methodological date; Stanford 1965, ACM (1947) and journals not searched.",
   "catalogueDates": [
    [
     1936,
@@ -37801,7 +37848,7 @@
     "d": "A stand-alone treatise on spherical trigonometry in al-Andalus, with right-triangle rules, a general law of sines and the polar triangle.",
     "ph": "Independent treatises",
     "c": "low",
-    "n": "No exact date found. al-Jayyani lived 989-after 1079; the range 1010-1079 is bounded only by his adult life. 'First treatise' is MacTutor's wording and competes with the claim for al-Tusi below.",
+    "n": "No composition date found; 1060-1079 is a window for his later career (born 989 per MacTutor, active at the Jaen eclipse of 1079), not a dated fact. 'First treatise' is MacTutor's wording and competes with the claim for al-Tusi below.",
     "ev": [
      {
       "c": "Described as the first treatise on spherical trigonometry; contains formulae for right triangles, the general law of sines and solution by the polar triangle.",
@@ -37810,7 +37857,7 @@
       "k": "history_page"
      },
      {
-      "c": "al-Jayyani's computational work in 11th-century al-Andalus is studied by Hogendijk (2005).",
+      "c": "al-Jayyani's computational work in 11th-century al-Andalus is studied by Hogendijk, Centaurus 47 (2005) 87-114",
       "s": "zbMATH 2247744, Hogendijk, Centaurus 47 (2005)",
       "u": "https://doi.org/10.1111/j.1600-0498.2005.470201.x",
       "k": "bibliographic_record"
@@ -37830,7 +37877,7 @@
     "d": "The first extant exposition of plane and spherical trigonometry as a discipline apart from astronomy, listing all six right-triangle cases.",
     "ph": "Independent treatises",
     "c": "medium",
-    "n": "Date not located in the sources read: he worked at the Maragheh observatory (begun 1259, died 1274). Treat 1250-1274 as a window. Composition year is not given by MacTutor or Wikipedia; the range shown is an estimate.",
+    "n": "Date not located in the sources read: Maragheh observatory construction began 1259, operational 1262 (MacTutor), al-Tusi died 1274. The range 1260-1274 is an estimate, not a record.",
     "ev": [
      {
       "c": "In the Treatise on the Quadrilateral al-Tusi gave the first extant exposition of the whole system of plane and spherical trigonometry, as a discipline in its own right.",
@@ -37920,7 +37967,7 @@
     ]
    }
   ],
-  "notes": "Summary says 'all six functions and sine laws': these come in stages over about 300 years, so priority claims are split across the phases. The sine law priority (Abu'l-Wafa, Abu Nasr Mansur, al-Khujandi) is disputed and has no dated primary record here. A Wikipedia sentence that Regiomontanus copied al-Tusi uncredited was not used: it is not supported by the MacTutor or bibliographic sources read. No MSC code or journal; naming/institution milestone not applicable (pre-modern). Van Brummelen 2009 (Princeton, Crossref 10.1515/9781400833313) and Berggren (Crossref 10.1007/978-1-4939-3780-6_6) are the modern surveys to consult for exact dates. person without verified work: Abu Mahmud al-Khujandi (developer). person without verified work: Ibn Mu'adh al-Jayyani (systematiser). person without verified work: Nasir al-Din al-Tusi (systematiser). Re-checked MacTutor Al-Khujandi in this pass: no dated work; Abu'l-Wafa or Abu Nasr Mansur is more likely than al-Khujandi as originator; the sine-law priority stays open.",
+  "notes": "Direct-style review in progress (not promoted). Re-read MacTutor (al-Jayyani: born 989, died after 1079, 'first treatise'; al-Tusi: Maragheh 1259/1262), Crossref (Rashed-Papadopoulos 2017; Hogendijk 2005 matches) and the milestone wording. No milestone was changed in substance; two notes were made consistent with their ranges. Outstanding: no dated primary record for any of the 10th-century milestones (the sine-law priority between Abu'l-Wafa, Abu Nasr Mansur and al-Khujandi is unresolved and the 970 start is inferred from lifespans); composition dates of al-Jayyani's and al-Tusi's treatises are unknown; the 980 Abu'l-Wafa milestone is MacTutor's knowledge marker, not a work; Regiomontanus's 1464 is a writing date (printed 1533) and the transmission claim to al-Jayyani is only argued. A review needs Van Brummelen 2009 and Berggren read for exact dates.",
   "catalogueDates": [
    "c.830-1260",
    null,
@@ -62436,7 +62483,7 @@
     {
      "p": "P221",
      "f": "computability theory",
-     "d": 29,
+     "d": 28,
      "t": "feeds"
     },
     {
@@ -68728,34 +68775,37 @@
   "product": null,
   "why": "Resource-bounded computation was classified into hierarchies.",
   "cat": "Period run 1930-1990",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "C",
+   "institutional": "C"
+  },
   "shown": {
    "conceptual": {
-    "y": 1965,
+    "y": 1964,
     "basis": "first statement"
    },
    "methodological": {
-    "y": 1967,
+    "y": 1965,
     "basis": "earliest key development; no first application found"
    },
    "institutional": {
-    "y": 1965,
+    "y": 1964,
     "basis": "naming, textbook or institution"
    }
   },
   "took": {
-   "y": 1965,
+   "y": 1964,
    "role": "naming",
    "label": "'Computational complexity' in a title",
    "same": true
   },
-  "y": 1965,
+  "y": 1964,
   "approx": false,
   "derived": {
-   "conceptual": 1965,
+   "conceptual": 1964,
    "methodological": null,
-   "institutional": 1965
+   "institutional": 1964
   },
   "phases": [
    "Resource-bounded hierarchies",
@@ -68764,7 +68814,120 @@
   ],
   "ms": [
    {
+    "r": "precursor",
+    "y": 1962,
+    "ye": null,
+    "p": "year",
+    "l": "Real-time computation and time-bounded classes",
+    "w": "Yamada, Real-Time Computation and Recursive Functions Not Real-Time Computable, IEEE Transactions on Electronic Computers EC-11 (1962) 753-760",
+    "pe": [
+     "Hisao Yamada"
+    ],
+    "d": "An earlier study of Turing-machine computation under a time bound, listed by Wikipedia among the papers before Hartmanis and Stearns.",
+    "ph": null,
+    "c": "medium",
+    "n": "Role from the Wikipedia survey; the paper was not read.",
+    "ev": [
+     {
+      "c": "Crossref: IEEE Trans. Electronic Computers EC-11 (1962) 753-760",
+      "s": "Crossref DOI 10.1109/tec.1962.5219459",
+      "u": "https://doi.org/10.1109/tec.1962.5219459",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Earlier papers on Turing machines with bounded resources include Myhill 1960, Smullyan 1961 and Yamada 1962",
+      "s": "Wikipedia, Computational complexity theory",
+      "u": "https://en.wikipedia.org/wiki/Computational_complexity_theory",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
     "r": "first_statement",
+    "y": 1964,
+    "ye": null,
+    "p": "year",
+    "l": "Hartmanis and Stearns, computational complexity of recursive sequences",
+    "w": "Hartmanis, Stearns, Computational complexity of recursive sequences, Proc. 5th Annual Symposium on Switching Circuit Theory and Logical Design (Nov. 1964) 82-90",
+    "pe": [
+     "Juris Hartmanis",
+     "Richard Stearns"
+    ],
+    "d": "The conference paper that first classifies sequences by the time needed to compute them on Turing machines; the 1965 journal paper is its full version.",
+    "ph": null,
+    "c": "medium",
+    "n": "Earlier than the 1965 Transactions paper that is usually cited. That the conference paper contains the time-bounded classes is inferred from its title and from Stearns's retrospective; it was not read.",
+    "ev": [
+     {
+      "c": "Crossref: 1964 Proceedings of the Fifth Annual Symposium on Switching Circuit Theory and Logical Design, pp. 82-90 (Nov 1964)",
+      "s": "Crossref DOI 10.1109/swct.1964.6",
+      "u": "https://doi.org/10.1109/swct.1964.6",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Stearns, Juris Hartmanis: the beginnings of computational complexity",
+      "s": "Crossref DOI 10.1007/978-1-4612-4478-3_2",
+      "u": "https://doi.org/10.1007/978-1-4612-4478-3_2",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "naming",
+    "y": 1964,
+    "ye": null,
+    "p": "year",
+    "l": "'Computational complexity' in a title",
+    "w": "Hartmanis, Stearns (1964) (as above)",
+    "pe": [
+     "Juris Hartmanis",
+     "Richard Stearns"
+    ],
+    "d": "The field's name appears in the title of the 1964 Hartmanis-Stearns conference paper.",
+    "ph": null,
+    "c": "medium",
+    "n": "Same work as the previous milestone; recorded under naming because the title is the first use found (1965 journal paper has the same phrase).",
+    "ev": [
+     {
+      "c": "Title 'Computational complexity of recursive sequences' (spelled 'sequnces' in the Crossref record), 1964",
+      "s": "Crossref DOI 10.1109/swct.1964.6",
+      "u": "https://doi.org/10.1109/swct.1964.6",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1965,
+    "ye": null,
+    "p": "year",
+    "l": "Hartmanis-Stearns, On the computational complexity of algorithms",
+    "w": "Hartmanis, Stearns, On the computational complexity of algorithms, Trans. AMS 117 (1965) 285-306",
+    "pe": [
+     "Juris Hartmanis",
+     "Richard Stearns"
+    ],
+    "d": "The journal paper that defines time and space complexity and proves the hierarchy theorems; Wikipedia and the 1993 Turing Award citation treat it as the foundation of the field.",
+    "ph": null,
+    "c": "high",
+    "n": "Journal version of the 1964 conference paper; dated 1965 by Crossref.",
+    "ev": [
+     {
+      "c": "Hartmanis-Stearns 1965, Trans. AMS 117, DOI 10.1090/s0002-9947-1965-0170805-7",
+      "s": "Crossref",
+      "u": "https://doi.org/10.1090/s0002-9947-1965-0170805-7",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "The beginning of systematic studies in computational complexity is attributed to this 1965 paper; Hartmanis and Stearns received the 1993 Turing Award for it",
+      "s": "Wikipedia, Computational complexity theory; Juris Hartmanis",
+      "u": "https://en.wikipedia.org/wiki/Computational_complexity_theory",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
     "y": 1965,
     "ye": null,
     "p": "year",
@@ -68776,7 +68939,7 @@
     "d": "Cobham argues that feasible computation corresponds to polynomial-time algorithms.",
     "ph": null,
     "c": "medium",
-    "n": "The 1965 year comes from the standard citation of the congress proceedings; the proceedings record was not retrieved.",
+    "n": "The year 1965 is that of the North-Holland proceedings of the 1964 congress; the proceedings record was not retrieved. Cobham's paper is not the first statement because Hartmanis and Stearns (1964) precede it.",
     "ev": [
      {
       "c": "Cobham's thesis that feasibility corresponds to polynomial time",
@@ -68789,54 +68952,12 @@
       "s": "Crossref",
       "u": "https://doi.org/10.2307/2270886",
       "k": "bibliographic_record"
-     }
-    ]
-   },
-   {
-    "r": "first_statement",
-    "y": 1965,
-    "ye": null,
-    "p": "year",
-    "l": "Hartmanis-Stearns time-complexity hierarchy",
-    "w": "Hartmanis, Stearns, On the computational complexity of algorithms, Trans. AMS 117 (1965) 285-306",
-    "pe": [
-     "Juris Hartmanis",
-     "Richard Stearns"
-    ],
-    "d": "Hartmanis and Stearns classify algorithms by time-bounded computation and prove hierarchy results.",
-    "ph": null,
-    "c": "high",
-    "n": "Same paper plays first_statement and naming (its title uses the field name); both roles are recorded (rule 2).",
-    "ev": [
+     },
      {
-      "c": "Hartmanis-Stearns 1965, Trans. AMS, DOI 10.1090/s0002-9947-1965-0170805-7",
-      "s": "Crossref",
-      "u": "https://doi.org/10.1090/s0002-9947-1965-0170805-7",
-      "k": "bibliographic_record"
-     }
-    ]
-   },
-   {
-    "r": "naming",
-    "y": 1965,
-    "ye": null,
-    "p": "year",
-    "l": "'Computational complexity' in a title",
-    "w": "Hartmanis, Stearns (1965) (as above)",
-    "pe": [
-     "Juris Hartmanis",
-     "Richard Stearns"
-    ],
-    "d": "The field's name appears in the title of the Hartmanis-Stearns paper.",
-    "ph": null,
-    "c": "high",
-    "n": "Same work as the previous milestone; recorded under naming because the title is the first use found.",
-    "ev": [
-     {
-      "c": "Title 'On the computational complexity of algorithms', Trans. AMS 1965",
-      "s": "Crossref",
-      "u": "https://doi.org/10.1090/s0002-9947-1965-0170805-7",
-      "k": "bibliographic_record"
+      "c": "Cobham's thesis: a problem is feasibly solvable if and only if it has a polynomial-time algorithm (the Cobham-Edmonds thesis)",
+      "s": "Wikipedia: Computational complexity theory",
+      "u": "https://en.wikipedia.org/wiki/Computational_complexity_theory",
+      "k": "history_page"
      }
     ]
    },
@@ -68982,7 +69103,7 @@
     ]
    }
   ],
-  "notes": "No consolidation (textbook) record was retrieved, so the institutional date comes from the 1965 naming. No methodological date: a first_application was not established. Turing-era precursors (computability) were not milestoned, because no source in this batch gave a date for them. Sources searched: Wikipedia (Computational complexity theory, Analysis of algorithms), Crossref. The 1965 proceedings year for Cobham is unverified.",
+  "notes": "Direct review. Crossref confirms the Hartmanis-Stearns Transactions paper (1965), Blum (JACM 14, 1967), Cook (STOC 1971) and Karp (1972); it also lists the earlier Hartmanis-Stearns conference paper of November 1964 with the field's name in its title, so the first statement and naming are dated 1964, not 1965. Yamada (1962), Myhill (1960), Smullyan (1961) and Trakhtenbrot (1956) are earlier work on resource-bounded computation (Wikipedia) and only Yamada is recorded, as a precursor. Cobham's polynomial-time thesis is demoted to a key development: its 1965 proceedings year is unverified and it follows the 1964 paper. Grade C because the 1964 paper's content was inferred from its title and a retrospective, not read, and Cobham's record is missing. Not recorded (cap of 8): Edmonds 1965 'good algorithm', Hopcroft-Ullman 1969 and Garey-Johnson 1979 as consolidation, Rabin 1960; no methodological date.",
   "catalogueDates": [
    [
     1964,
@@ -69073,7 +69194,7 @@
     {
      "p": "P200",
      "f": "computability theory",
-     "d": 29,
+     "d": 28,
      "t": "feeds"
     }
    ],
@@ -69081,31 +69202,31 @@
     {
      "p": "P508",
      "f": "computational complexity",
-     "d": 14,
+     "d": 15,
      "t": "feeds"
     },
     {
      "p": "P506",
      "f": "computational complexity",
-     "d": 27,
+     "d": 28,
      "t": "feeds"
     },
     {
      "p": "P544",
      "f": "computational complexity",
-     "d": 55,
+     "d": 56,
      "t": "feeds"
     },
     {
      "p": "P478",
      "f": "the mathematical study of algorithms",
-     "d": 3,
+     "d": 4,
      "t": "named"
     },
     {
      "p": "P315",
      "f": "computational complexity and geometric complexity theory",
-     "d": 36,
+     "d": 37,
      "t": "named"
     }
    ],
@@ -72842,7 +72963,7 @@
     {
      "p": "P257",
      "f": "model theory",
-     "d": 32,
+     "d": 33,
      "t": "feeds"
     },
     {
@@ -79365,7 +79486,7 @@
   "grade": {},
   "shown": {
    "conceptual": {
-    "y": 1933,
+    "y": 1932,
     "basis": "first statement"
    },
    "methodological": {
@@ -79383,10 +79504,10 @@
    "label": "Decision method for elementary algebra and geometry (model-theoretic method applied to the decision problem)",
    "same": false
   },
-  "y": 1933,
+  "y": 1932,
   "approx": false,
   "derived": {
-   "conceptual": 1933,
+   "conceptual": 1932,
    "methodological": 1951,
    "institutional": 1954
   },
@@ -79448,29 +79569,81 @@
     ]
    },
    {
-    "r": "first_statement",
-    "y": 1933,
+    "r": "precursor",
+    "y": 1931,
     "ye": null,
     "p": "year",
-    "l": "Tarski's semantic definition of truth",
-    "w": "Tarski, 'Der Wahrheitsbegriff in den formalisierten Sprachen' (German version of the Polish 1933 monograph), Studia Philosophica vol. 1 (1935-36)",
+    "l": "Tarski on definable sets of real numbers",
+    "w": "Tarski, Sur les ensembles definissables de nombres reels I, Fundamenta Mathematicae 17 (1931) 210-239",
     "pe": [
      "Alfred Tarski"
     ],
-    "d": "Tarski gave a recursive semantic definition of truth for formal languages and showed truth cannot be defined inside those languages.",
+    "d": "A published paper in which Tarski defines which sets of reals are definable in a structure, the semantic idea later developed into model theory.",
     "ph": null,
-    "c": "medium",
-    "n": "Publication year disputed. The Polish 1933 monograph is the date used (MacTutor, Wikipedia); the Polish original was not found in Crossref. The German version is often dated 1935-36 and Milne (2024) is about that date. Confirm before relying on 1933 as the exact year.",
+    "c": "low",
+    "n": "Record verified in Crossref; its role as the first published use of a semantic notion of definability is from general knowledge and was not read or sourced here.",
     "ev": [
      {
-      "c": "1933 monograph on the concept of truth; paper discussed as a 1933 publication",
+      "c": "Crossref: Fundamenta Mathematicae 17 (1931) 210-239, author Tarski",
+      "s": "Crossref DOI 10.4064/fm-17-1-210-239",
+      "u": "https://doi.org/10.4064/fm-17-1-210-239",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "first_statement",
+    "y": 1932,
+    "ye": null,
+    "p": "year",
+    "l": "Tarski's Vienna Academy note on the truth concept",
+    "w": "Tarski, Der Wahrheitsbegriff in den Sprachen der deduktiven Disziplinen, Anzeiger der Akademie der Wissenschaften in Wien 69 (1932) 23-25",
+    "pe": [
+     "Alfred Tarski"
+    ],
+    "d": "A three-page published announcement of Tarski's work on the concept of truth for formalised languages, a year before the Polish monograph.",
+    "ph": null,
+    "c": "medium",
+    "n": "Found in zbMATH (Zbl 0004.00101, JFM 58.0997.03); the note itself was not read, so that it states the definition (not only the aim) is inferred from its title and place as the summary of the monograph.",
+    "ev": [
+     {
+      "c": "zbMATH lists Tarski, Der Wahrheitsbegriff in den Sprachen der deduktiven Disziplinen, Anz. Akad. Wiss. Wien 69, No. 2, 23-25 (1932), Zbl 0004.00101",
+      "s": "zbMATH Open",
+      "u": "https://zbmath.org/?q=an:0004.00101",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1933,
+    "ye": null,
+    "p": "year",
+    "l": "Tarski's monograph on the concept of truth",
+    "w": "Tarski, Pojecie prawdy w jezykach nauk dedukcyjnych, Prace Towarzystwa Naukowego Warszawskiego, Warsaw 1933 (German version: Der Wahrheitsbegriff in den formalisierten Sprachen, Studia Philosophica 1, title page 1935, appeared 1936)",
+    "pe": [
+     "Alfred Tarski"
+    ],
+    "d": "Tarski gave the full recursive definition of truth for formal languages and proved that truth cannot be defined inside them.",
+    "ph": null,
+    "c": "high",
+    "n": "The 1933 date is for the Polish original (Wikipedia and the Stanford Encyclopedia give 1933). Milne (2024) concerns only the year of the German version. The Polish original has no Crossref or zbMATH record.",
+    "ev": [
+     {
+      "c": "In 1933 Tarski published (in Polish) his analysis of the notion of a true sentence and definitions for particular formal languages",
+      "s": "Stanford Encyclopedia of Philosophy, Tarski's Truth Definitions",
+      "u": "https://plato.stanford.edu/entries/tarski-truth/",
+      "k": "history_page"
+     },
+     {
+      "c": "1933 monograph on the concept of truth",
       "s": "MacTutor: Tarski biography",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Tarski/",
       "k": "history_page"
      },
      {
-      "c": "German version reprinted in Logik-Texte; its publication year is itself the subject of Milne (2024)",
-      "s": "Crossref",
+      "c": "Milne, On the Year of Publication of Tarski's Der Wahrheitsbegriff in den formalisierten Sprachen (about the German version only)",
+      "s": "Crossref DOI 10.1080/01445340.2024.2334173",
       "u": "https://doi.org/10.1080/01445340.2024.2334173",
       "k": "bibliographic_record"
      }
@@ -79609,7 +79782,7 @@
     ]
    }
   ],
-  "notes": "Wikipedia lead data for MB7 had no candidates. Live Wikipedia wikitext used instead (Tarski undefinability, Model theory). MacTutor topic match for MB7 is absent; MacTutor Tarski biography used. The 1933 date for the first statement is disputed (see milestone note). The recorded first application is the 1951 decision method; an earlier qualifying application has not been established. Fresh check: zbMATH lists the German version as Zbl 3020851 (1935) and 2528648 (1936) and returned no record of the 1933 Polish monograph, so the 1933 first-statement year and the 1933 reprint citation remain unresolved.",
+  "notes": "Direct-style review in progress (not promoted). Crossref: Lowenheim 1915, Tarski 1931 (Fund. Math. 17), Tarski 1954 (Indag. Math. 57, 572-581) match. zbMATH lists a 1932 Vienna Academy note by Tarski on the truth concept (Zbl 0004.00101), so the earliest public statement is 1932, not the 1933 Polish monograph; the monograph becomes the key development. The 1933 Polish original has no catalogue record (SEP and MacTutor date it 1933); Milne (2024) is only about the German version (title page 1935, appeared 1936). The 1929-31 results and Godel's private 1930-31 discovery of undefinability are precursors. Outstanding: read the 1932 note to confirm it states the definition; confirm the 1931 definability paper's role; the 1973 Chang-Keisler co-authorship (Open Library lists Chang alone); whether the decision method (1948/1951) counts as a first application.",
   "catalogueDates": [
    [
     1933,
@@ -79637,7 +79810,7 @@
     {
      "p": "P436",
      "f": "mathematical logic",
-     "d": 49,
+     "d": 48,
      "t": "feeds"
     }
    ],
@@ -79645,37 +79818,37 @@
     {
      "p": "P233",
      "f": "model theory",
-     "d": 32,
+     "d": 33,
      "t": "feeds"
     },
     {
      "p": "P516",
      "f": "model theory",
-     "d": 65,
+     "d": 66,
      "t": "feeds"
     },
     {
      "p": "P349",
      "f": "model theory",
-     "d": 74,
+     "d": 75,
      "t": "feeds"
     },
     {
      "p": "P512",
      "f": "model theory",
-     "d": 76,
+     "d": 77,
      "t": "feeds"
     },
     {
      "p": "P461",
      "f": "model theory and nonstandard analysis",
-     "d": 28,
+     "d": 29,
      "t": "named"
     },
     {
      "p": "P038",
      "f": "model theory in Diophantine geometry",
-     "d": 63,
+     "d": 64,
      "t": "named"
     }
    ],
@@ -82100,8 +82273,11 @@
   "product": null,
   "why": "Production-planning problems were posed as linear optimisation with multipliers, with solution methods.",
   "cat": "Period run 1930-1990",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "institutional": "B"
+  },
   "shown": {
    "conceptual": {
     "y": 1939,
@@ -82173,12 +82349,18 @@
     ],
     "d": "Kantorovich set out linear optimisation for production planning, the first public statement of the method.",
     "ph": "Kantorovich's production planning",
-    "c": "medium",
-    "n": "The original 1939 edition was not located in a bibliographic record; its year is from history pages. Same work as the application milestone above; listed under both roles.",
+    "c": "high",
+    "n": "The 1939 date is the July 1939 pamphlet issued by Leningrad State University (MacTutor, quoting Montias); the original edition has no Crossref or zbMATH record, only the 1960 English translation does.",
     "ev": [
      {
-      "c": "Kantorovich, Mathematical Methods of Organizing and Planning Production, Leningrad (1939); English translation Management Science 6 (1960) 366-422",
-      "s": "Crossref DOI 10.1287/mnsc.6.4.366 (1960 translation); 1939 year from history pages",
+      "c": "MacTutor: in July 1939 Kantorovich published his results in a pamphlet issued by Leningrad State University, Mathematical Methods of Organizing and Planning Production",
+      "s": "MacTutor, Leonid Kantorovich biography",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Kantorovich/",
+      "k": "history_page"
+     },
+     {
+      "c": "Crossref record of the 1960 English translation (Management Science 6, 366-422); the translation confirms the work, not the 1939 year",
+      "s": "Crossref DOI 10.1287/mnsc.6.4.366",
       "u": "https://doi.org/10.1287/mnsc.6.4.366",
       "k": "bibliographic_record"
      },
@@ -82203,7 +82385,7 @@
     "d": "Dantzig formulated the general linear programming model and the simplex method for US Air Force planning, without publishing it at the time.",
     "ph": "Dantzig's simplex",
     "c": "high",
-    "n": "Unpublished at the time; the public statement is the 1951 chapter below.",
+    "n": "Unpublished at the time; the first public statement of the model is Dantzig 1949 (Econometrica 17), and of the simplex method the 1951 chapter below.",
     "ev": [
      {
       "c": "From 1946 to 1947 Dantzig developed the linear programming formulation for US Air Force planning; the simplex method was invented in 1947",
@@ -82226,7 +82408,7 @@
     "d": "Koopmans formulated classical economic problems as linear programs, showing the method applied to economics.",
     "ph": "Dantzig's simplex",
     "c": "medium",
-    "n": "The Crossref record matches the 1949 paper; the content match to the Wikipedia claim is medium.",
+    "n": "The Crossref record (Econometrica 17, supplement, 1949, p. 136) matches the paper; that it formulates transportation as a linear programme is the Wikipedia reading, not checked in the text.",
     "ev": [
      {
       "c": "Koopmans, Optimum utilization of the transportation system, Econometrica 17 (suppl.) (1949) 136",
@@ -82244,6 +82426,29 @@
    },
    {
     "r": "key_development",
+    "y": 1949,
+    "ye": null,
+    "p": "year",
+    "l": "Dantzig, Programming of Interdependent Activities, II: Mathematical Model",
+    "w": "Dantzig, Programming of Interdependent Activities, II. Mathematical Model, Econometrica 17 (1949) 200-211",
+    "pe": [
+     "George Dantzig"
+    ],
+    "d": "Dantzig's first journal statement of the linear programming model, in the same issue as Koopmans's paper and two years after his unpublished Air Force work.",
+    "ph": null,
+    "c": "medium",
+    "n": "Content checked by title only: the paper is the public Econometrica version of the model; the simplex method itself is in the 1951 chapter.",
+    "ev": [
+     {
+      "c": "Crossref record: Econometrica 17 (1949) 200-211, author Dantzig; part I (General Discussion, 193-199) is by Wood and Dantzig",
+      "s": "Crossref DOI 10.2307/1905523",
+      "u": "https://doi.org/10.2307/1905523",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
     "y": 1951,
     "ye": null,
     "p": "year",
@@ -82252,10 +82457,10 @@
     "pe": [
      "George Dantzig"
     ],
-    "d": "Dantzig's linear-programming statement appeared in the Cowles Commission volume edited by Koopmans in 1951.",
+    "d": "Dantzig's statement of the simplex method for linear programming appeared in the Cowles Commission volume edited by Koopmans in 1951.",
     "ph": "Dantzig's simplex",
     "c": "medium",
-    "n": "The chapter's year is from the Wikipedia reference link; the Open Library record confirms the volume year only.",
+    "n": "The chapter's year is from the Wikipedia reference; the Open Library record confirms the volume year (1951) only.",
     "ev": [
      {
       "c": "Activity Analysis of Production and Allocation (Cowles Commission, 1951), ed. Koopmans; chapter by Dantzig",
@@ -82285,7 +82490,7 @@
     "d": "An early textbook presenting linear programming as a teachable subject.",
     "ph": "Textbooks and recognition",
     "c": "medium",
-    "n": "Wikipedia calls it the first textbook; that priority claim was not checked against other books.",
+    "n": "Wikipedia calls it the first textbook on linear programming; that priority claim was not checked against other books. Henderson is the third author.",
     "ev": [
      {
       "c": "Charnes, Cooper, Henderson, An Introduction to Linear Programming, Wiley (1953)",
@@ -82390,7 +82595,7 @@
     ]
    }
   ],
-  "notes": "Sources: Wikipedia Linear programming (wikitext history section); Wikipedia Leonid Kantorovich and Operations research (wikitext); MacTutor Kantorovich and Dantzig biographies; Crossref for Koopmans 1949 and the 1960 translation; Open Library for the 1951 volume and 1953 textbook. The original 1939 Leningrad edition was not found in a bibliographic record. The naming milestone is open: the name 'linear programming' was not dated (a Koopmans suggestion is not checked). Derived dates: conceptual 1939, methodological 1938 (plywood allocation), institutional 1953 (Charnes-Cooper-Henderson textbook). Fresh check: zbMATH lists only the 1960 English translation (Zbl 1700596) for Kantorovich's book, so the 1939 original remains unrecorded and the first-statement year stays unresolved.",
+  "notes": "Direct review. Checked against MacTutor, Crossref, Open Library and Wikipedia. The 1939 Leningrad pamphlet is dated by MacTutor to July 1939; it has no catalogue record (Crossref and zbMATH list only the 1960 translation). Dantzig's Econometrica paper of 1949 is an earlier public statement of his model than the 1951 chapter, so it is recorded; the 1947 Air Force work stays a precursor. No first_application is assigned (the 1938-39 plywood problem is the precursor). The name 'linear programming' is not dated here: Koopmans's suggestion of the term was not checked. Koopmans's 1949 paper and the 'first textbook' claim for 1953 rest on a Crossref/Open Library record plus Wikipedia, not on the texts.",
   "catalogueDates": [
    [
     1939,
@@ -86338,8 +86543,11 @@
   "product": null,
   "why": "Max-flow min-cut ties graph theory to LP duality (Ford-Fulkerson, Edmonds).",
   "cat": "Period run 1930-1990",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "institutional": "B"
+  },
   "shown": {
    "conceptual": {
     "y": 1956,
@@ -86374,6 +86582,35 @@
    "Monograph and naming (1962, 1976)"
   ],
   "ms": [
+   {
+    "r": "precursor",
+    "y": 1927,
+    "ye": null,
+    "p": "year",
+    "l": "Menger's theorem on disjoint paths",
+    "w": "Menger, Zur allgemeinen Kurventheorie, Fundamenta Mathematicae 10 (1927) 96-115",
+    "pe": [
+     "Karl Menger"
+    ],
+    "d": "Menger's theorem on disjoint paths in graphs, a special case of max-flow min-cut.",
+    "ph": null,
+    "c": "high",
+    "n": "Record verified in Crossref; the link to max-flow min-cut is the Wikipedia statement that the theorem can be used to derive Menger.",
+    "ev": [
+     {
+      "c": "Crossref: Fundamenta Mathematicae 10 (1927) 96-115, author Menger",
+      "s": "Crossref DOI 10.4064/fm-10-1-96-115",
+      "u": "https://doi.org/10.4064/fm-10-1-96-115",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Max-flow min-cut is a special case of LP duality and can be used to derive Menger's theorem",
+      "s": "Wikipedia, Max-flow min-cut theorem",
+      "u": "https://en.wikipedia.org/wiki/Max-flow_min-cut_theorem",
+      "k": "history_page"
+     }
+    ]
+   },
    {
     "r": "precursor",
     "y": 1941,
@@ -86411,7 +86648,7 @@
     "d": "Ford and Fulkerson prove that maximum flow equals minimum cut in a network, the public statement of the duality.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Crossref: Canad. J. Math. 8 (1956) 399-404. Earlier non-journal versions exist (Ford and Fulkerson's RAND report of 1954 and Harris and Ross 1955); Elias, Feinstein and Shannon gave an independent proof in 1956. Publication year governs, so 1956.",
     "ev": [
      {
       "c": "Article record, Canad. J. Math. 1956",
@@ -86422,6 +86659,12 @@
      {
       "c": "Max-flow min-cut theorem described as the equality of maximum flow and minimum cut",
       "s": "Wikipedia, Max-flow min-cut theorem",
+      "u": "https://en.wikipedia.org/wiki/Max-flow_min-cut_theorem",
+      "k": "history_page"
+     },
+     {
+      "c": "Wikipedia: Ford and Fulkerson (1956) 'Maximal flow through a network', Canadian J. Math. 8; the problem was posed to them in spring 1955 by T. E. Harris",
+      "s": "Wikipedia, Max-flow min-cut theorem (history)",
       "u": "https://en.wikipedia.org/wiki/Max-flow_min-cut_theorem",
       "k": "history_page"
      }
@@ -86461,16 +86704,22 @@
     "pe": [
      "Jack Edmonds"
     ],
-    "d": "Edmonds gives a polynomial-time combinatorial algorithm, linking combinatorial structure to LP duality in a way that shaped combinatorial optimisation.",
+    "d": "Edmonds gave a polynomial-time algorithm for maximum matching and proposed polynomial running time as the criterion for a good algorithm.",
     "ph": null,
     "c": "medium",
-    "n": "Content inferred from the known literature; only the record was checked.",
+    "n": "Crossref: Canad. J. Math. 17 (1965) 449-467. The 'good algorithm' criterion is Wikipedia's account; the text was not read.",
     "ev": [
      {
       "c": "Article record, Canad. J. Math. 1965",
       "s": "Crossref",
       "u": "https://doi.org/10.4153/cjm-1965-045-4",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "In 1965 Edmonds suggested to consider a good algorithm to be one with running time bounded by a polynomial in the input size",
+      "s": "Wikipedia, Computational complexity theory",
+      "u": "https://en.wikipedia.org/wiki/Computational_complexity_theory",
+      "k": "history_page"
      }
     ]
    },
@@ -86500,18 +86749,41 @@
    },
    {
     "r": "naming",
+    "y": 1975,
+    "ye": null,
+    "p": "year",
+    "l": "'Combinatorial optimization' in a title (Edmonds)",
+    "w": "Edmonds, Some well-solved problems in combinatorial optimization, in Combinatorial Programming: Methods and Applications (1975) 285-301",
+    "pe": [
+     "Jack Edmonds"
+    ],
+    "d": "A paper whose title names the combinatorial optimisation field, a year before the Lawler monograph; the term was in use earlier in other forms.",
+    "ph": null,
+    "c": "medium",
+    "n": "First title use found, not shown to be the first: a Crossref search for earlier titles was not conclusive.",
+    "ev": [
+     {
+      "c": "Crossref: Combinatorial Programming: Methods and Applications (1975) 285-301, author Edmonds",
+      "s": "Crossref DOI 10.1007/978-94-011-7557-9_15",
+      "u": "https://doi.org/10.1007/978-94-011-7557-9_15",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "consolidation",
     "y": 1976,
     "ye": null,
     "p": "year",
-    "l": "Combinatorial optimization as a title term",
+    "l": "Lawler's Combinatorial Optimization: Networks and Matroids",
     "w": "Lawler, Combinatorial Optimization: Networks and Matroids, 1976",
     "pe": [
      "Eugene Lawler"
     ],
-    "d": "A monograph whose title names the combinatorial optimisation field; the term itself was in use earlier.",
+    "d": "A textbook-monograph on networks and matroids that brought combinatorial optimisation together as a subject.",
     "ph": null,
     "c": "medium",
-    "n": "Title use only; earlier use of the term not searched.",
+    "n": "Dated 1976 by zbMATH (Zbl 0413.90040); Open Library lists a 1975 first-publication year for the title, so the year is not fully settled. Role as consolidation is a judgement.",
     "ev": [
      {
       "c": "zbMATH 0413.90040 record, 1976",
@@ -86606,7 +86878,7 @@
     ]
    }
   ],
-  "notes": "Input summary is correct (max-flow min-cut via Ford-Fulkerson, Edmonds). Searched: Wikipedia Max-flow min-cut and Combinatorial optimization (fetched); Crossref for Hitchcock, Ford-Fulkerson 1956, Edmonds 1965 and Edmonds-Karp 1972; OpenLibrary for the 1962 monograph; zbMATH for Lawler 1976. No first_application found beyond the 1956 paper itself, so methodological is null. Edmonds 1965 content not fetched. Naming of the field is a title-use check only.",
+  "notes": "Direct review. Crossref confirms Hitchcock (J. Math. Phys. 20, 1941, 224-230), Ford-Fulkerson (Canad. J. Math. 8, 1956, 399-404), Edmonds (Canad. J. Math. 17, 1965, 449-467) and Edmonds-Karp (JACM 19, 1972, 248-264); Open Library confirms the 1962 monograph. Added Menger 1927 as a precursor. The 1956 paper stays the first statement by publication year; the RAND report of 1954 and Harris-Ross 1955 are earlier reports, and Elias-Feinstein-Shannon (1956) is an independent proof. Naming: Edmonds's 1975 title precedes Lawler's 1976 book, which becomes a consolidation; earlier uses of 'combinatorial optimization' were not excluded. No first_application is assigned. Edmonds 1965 and Lawler are described from Wikipedia and general accounts, not from the texts.",
   "catalogueDates": [
    [
     1954,
@@ -95181,7 +95453,7 @@
     {
      "p": "P221",
      "f": "computational complexity and geometric complexity theory",
-     "d": 36,
+     "d": 37,
      "t": "named"
     }
    ],
@@ -103050,7 +103322,7 @@
     {
      "p": "P257",
      "f": "model theory",
-     "d": 74,
+     "d": 75,
      "t": "feeds"
     }
    ],
@@ -104765,8 +105037,11 @@
   "product": null,
   "why": "Cantor's study of exceptional sets for trigonometric series led to countability, uncountability of the reals, and then transfinite ordinals and cardinals.",
   "cat": "Period run 1850-1930",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "institutional": "B"
+  },
   "shown": {
    "conceptual": {
     "y": 1874,
@@ -104896,7 +105171,7 @@
     "d": "Cantor named his subject 'Mannigfaltigkeitslehre' in a paper comparing the size of sets by one-to-one correspondence.",
     "ph": null,
     "c": "medium",
-    "n": "First use of the name in a title is inferred from the record; earlier titles were not exhaustively checked.",
+    "n": "Mannigfaltigkeitslehre in a Cantor title: none of his other Crossref-listed titles (1872, 1874, 1879-1884) use it before 1878, but earlier non-Cantor uses were not searched.",
     "ev": [
      {
       "c": "Crossref: Crelle 84 (1878).",
@@ -104948,12 +105223,18 @@
     "d": "A short note with the diagonal argument showing there is no largest cardinality.",
     "ph": null,
     "c": "medium",
-    "n": "Content of the note from background knowledge; only the citation was confirmed.",
+    "n": "Year and venue from two Wikipedia pages (no Crossref record for Jahresbericht DMV vol. 1); the note was not read.",
     "ev": [
      {
       "c": "Cited as Jahresbericht DMV 1 (1891), pp. 75-78.",
       "s": "Wikipedia, Georg Cantor (reference list)",
       "u": "https://en.wikipedia.org/wiki/Georg_Cantor",
+      "k": "history_page"
+     },
+     {
+      "c": "Cantor, Ueber eine elementare Frage der Mannigfaltigkeitslehre, Jahresbericht der DMV 1 (1891) 75-78, with the remark that it is not his first proof of uncountability (1874)",
+      "s": "English Wikipedia, Cantor's diagonal argument",
+      "u": "https://en.wikipedia.org/wiki/Cantor%27s_diagonal_argument",
       "k": "history_page"
      }
     ]
@@ -104971,7 +105252,7 @@
     "d": "Cantor's systematic two-part presentation of cardinals and ordinals; also the first appearance of 'Mengenlehre' in a title in this search.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Crossref: Math. Ann. 46 (1895) 481-512 and 49 (1897) 207-246. Same record checked for the first Mengenlehre title among Cantor's Crossref-listed papers.",
     "ev": [
      {
       "c": "Crossref: Math. Ann. 46 (1895), second part 49 (1897).",
@@ -105081,7 +105362,7 @@
     ]
    }
   ],
-  "notes": "Cantor's Math. Ann. series 1879-84 has six parts, only Parts I and V are cited. The diagonal paper (1891) and Grundlagen (1883 monograph) rest partly on history-page citations. A milestone on institutional recognition (DMV 1890, ICM 1897) was not established; MSC 03Exx not dated here. Thin-record pass: Dedekind now has a work (Was sind und was sollen die Zahlen?, 1888). Weierstrass was removed from people because no event-specific work was verified. Hausdorff's 1914 Grundzuege (OL5844028W) is a candidate consolidation not promoted (milestone cap). Dauben's biography was searched in Open Library but its first-publication year was ambiguous, so it is not cited.",
+  "notes": "Direct review. Every dated milestone except the 1873 correspondence and the 1891 note matches a Crossref record (journal, volume, pages and year checked: Math. Ann. 5, Crelle 77 and 84, Math. Ann. 21, 46, 49, 65). The 1874 paper is the earliest public statement; the December 1873 result is a precursor (MacTutor, with Dedekind). The 1891 diagonal note rests on Wikipedia citations (no bibliographic record exists for Jahresbericht DMV vol. 1). The naming claim for 1878 checks Cantor's own earlier titles only. Not milestones: the Math. Ann. series 1879-84 beyond part V, Dedekind's 1888 booklet, Hausdorff's 1914 Grundzuege, and any institutional recognition (DMV 1890, ICM 1897).",
   "catalogueDates": [
    [
     1872,
@@ -118933,8 +119214,11 @@
   "product": null,
   "why": "Hilbert justified Dirichlet's principle with direct variational methods, rescuing Riemann's use of minimisation in complex analysis.",
   "cat": "Period run 1850-1930",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "C",
+   "institutional": "B"
+  },
   "shown": {
    "conceptual": {
     "y": 1900,
@@ -118951,8 +119235,8 @@
   },
   "took": {
    "y": 1900,
-   "role": "key_development",
-   "label": "Hilbert announces a justification of Dirichlet's principle",
+   "role": "first_statement",
+   "label": "Hilbert announces a proof of Dirichlet's principle",
    "same": true
   },
   "y": 1900,
@@ -118969,6 +119253,35 @@
   "ms": [
    {
     "r": "precursor",
+    "y": 1851,
+    "ye": null,
+    "p": "year",
+    "l": "Riemann's use of Dirichlet's principle",
+    "w": "Riemann, doctoral thesis (Gottingen 1851); used again in Theorie der Abel'schen Functionen, Crelle 54 (1857) 115-155",
+    "pe": [
+     "Bernhard Riemann"
+    ],
+    "d": "Riemann used a variational principle in his thesis and again in 1857, which he later called the Dirichlet principle.",
+    "ph": null,
+    "c": "medium",
+    "n": "The thesis year is MacTutor's (examined 16 December 1851); the thesis itself has no catalogue record dated 1851 (Open Library editions are 1867 and later). The 1857 Crelle paper has a Crossref record.",
+    "ev": [
+     {
+      "c": "In his thesis Riemann used a variational principle he later called the Dirichlet Principle; he used it again in the 1857 paper",
+      "s": "MacTutor, Riemann",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Riemann/",
+      "k": "history_page"
+     },
+     {
+      "c": "Crossref: Theorie der Abelschen Functionen, Crelle 54 (1857) 115-155",
+      "s": "Crossref DOI 10.1515/crll.1857.54.115",
+      "u": "https://doi.org/10.1515/crll.1857.54.115",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "precursor",
     "y": 1870,
     "ye": null,
     "p": "year",
@@ -118980,41 +119293,18 @@
     "d": "Weierstrass gives a functional with greatest lower bound that is not attained, undermining the assumption that the minimum exists.",
     "ph": null,
     "c": "medium",
-    "n": "Paper not located in a bibliographic record.",
+    "n": "Weierstrass read the objection to the Berlin Academy in 1870 (Wikipedia says published 1870); it was printed in Mathematische Werke 2 (1895) 49-54, which Crossref records. The 1870 year is the Academy date, not a printing date.",
     "ev": [
      {
       "c": "Weierstrass published the first criticism in 1870 with a counterexample functional.",
       "s": "English Wikipedia, Dirichlet's principle",
       "u": "https://en.wikipedia.org/wiki/Dirichlet%27s_principle",
       "k": "history_page"
-     }
-    ]
-   },
-   {
-    "r": "key_development",
-    "y": 1900,
-    "ye": null,
-    "p": "year",
-    "l": "Hilbert announces a justification of Dirichlet's principle",
-    "w": "Hilbert, Ueber das Dirichletsche Prinzip, Jahresbericht DMV 8 (1900)",
-    "pe": [
-     "David Hilbert"
-    ],
-    "d": "Hilbert shows how the principle can be justified, opening the direct method.",
-    "ph": null,
-    "c": "low",
-    "n": "The 1900 date is Wikipedia's; the checked record is the 1905 Crelle paper.",
-    "ev": [
-     {
-      "c": "In 1900 Hilbert justified Riemann's use of the principle by the direct method.",
-      "s": "English Wikipedia, Dirichlet's principle",
-      "u": "https://en.wikipedia.org/wiki/Dirichlet%27s_principle",
-      "k": "history_page"
      },
      {
-      "c": "Hilbert, Ueber das Dirichletsche Prinzip, Crelle 129 (1905), 63-67, cited on the page.",
-      "s": "Crossref",
-      "u": "https://doi.org/10.1515/crll.1905.129.63",
+      "c": "Crossref: Uber das sogenannte Dirichletsche Princip, Mathematische Werke, pp. 49-54",
+      "s": "Crossref DOI 10.1017/cbo9781139567817.004",
+      "u": "https://doi.org/10.1017/cbo9781139567817.004",
       "k": "bibliographic_record"
      }
     ]
@@ -119032,7 +119322,7 @@
     "d": "Hilbert publishes his first treatment justifying the Dirichlet principle by direct variational methods, four years before the full Mathematische Annalen paper.",
     "ph": null,
     "c": "medium",
-    "n": "Note content was not opened (EuDML scan not read); relevance rests on title, date and Wikipedia. Problem 20 of the Paris address (Goettinger Nachrichten 1900) also raised the question. Full proof is Math. Ann. 59 (1904), already the first_application.",
+    "n": "Note content not read (zbMATH page blocked, EuDML scan not opened); date, title and pages from zbMATH; the same 1900 title is reprinted in Hilbert, Gesammelte Abhandlungen 3, pp. 10-14. Problem 20 of the Paris address (1900) raised the question; the full proof is Math. Ann. 59 (1904).",
     "ev": [
      {
       "c": "zbMATH lists the note in Jahresbericht DMV 8 (1900), pp. 184-188, with an EuDML scan.",
@@ -119045,6 +119335,12 @@
       "s": "Wikipedia, Dirichlet's principle",
       "u": "https://en.wikipedia.org/wiki/Dirichlet%27s_principle",
       "k": "history_page"
+     },
+     {
+      "c": "Hilbert, Gesammelte Abhandlungen 3, 'Uber das Dirichletsche Prinzip', pp. 10-14 (reprint)",
+      "s": "Crossref DOI 10.1007/978-3-662-25726-5_3",
+      "u": "https://doi.org/10.1007/978-3-662-25726-5_3",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -119054,24 +119350,24 @@
     "ye": null,
     "p": "year",
     "l": "Hilbert's justification of Dirichlet's principle",
-    "w": "Hilbert, D., 'Über das Dirichletsche Prinzip', Math. Ann. 59 (1904)",
+    "w": "Hilbert, Uber das Dirichletsche Prinzip, Mathematische Annalen 59 (1904) 161-186",
     "pe": [
      "David Hilbert"
     ],
     "d": "Hilbert justifies Dirichlet's principle by the direct method of the calculus of variations, rescuing Riemann's use.",
     "ph": null,
-    "c": "medium",
-    "n": "The 1900 Jahresbericht announcement is a candidate; the year 1904 is the record for the full paper. Venue Math. Ann. is taken from the zbMATH record and not separately checked.",
+    "c": "high",
+    "n": "Crossref confirms venue, pages and year (March 1904). The 1900 note and the 1905 Crelle paper (129, 63-67) are the short statements around it.",
     "ev": [
      {
-      "c": "zbMATH record: 'Über das Dirichletsche Prinzip', year 1904",
-      "s": "zbMATH API, query 'Hilbert Uber das Dirichletsche Prinzip'",
-      "u": "https://zbmath.org/?q=%C3%9Cber+das+Dirichletsche+Prinzip",
+      "c": "Crossref: Math. Ann. 59 (1904) 161-186, author Hilbert",
+      "s": "Crossref DOI 10.1007/bf01444753",
+      "u": "https://doi.org/10.1007/bf01444753",
       "k": "bibliographic_record"
      },
      {
       "c": "Hilbert justified Riemann's use of Dirichlet's principle by developing the direct method",
-      "s": "Wikipedia, Dirichlet's principle (saved wikitext)",
+      "s": "Wikipedia, Dirichlet's principle",
       "u": "https://en.wikipedia.org/wiki/Dirichlet%27s_principle",
       "k": "history_page"
      }
@@ -119090,7 +119386,7 @@
     "d": "Lower semicontinuity of functionals becomes the standard route to minimisers by the direct method.",
     "ph": null,
     "c": "medium",
-    "n": "Role inferred from title and general knowledge.",
+    "n": "Crossref: Rend. Circ. Mat. Palermo 44 (1920) 167-249. The role (standard route to minimisers) is from general knowledge, not a source read here.",
     "ev": [
      {
       "c": "Paper recorded in Crossref, 1920.",
@@ -119120,52 +119416,6 @@
       "s": "Open Library",
       "u": "https://openlibrary.org/works/OL811189W",
       "k": "bibliographic_record"
-     }
-    ]
-   },
-   {
-    "r": "consolidation",
-    "y": 1975,
-    "ye": null,
-    "p": "year",
-    "l": "Monna's history of Dirichlet's principle",
-    "w": "Monna, A. F., Dirichlet's Principle: A Mathematical Comedy of Errors (1975)",
-    "pe": [
-     "A. F. Monna"
-    ],
-    "d": "Historical study of the principle and its direct-method repair; cited in the Wikipedia lead.",
-    "ph": null,
-    "c": "low",
-    "n": "Historical study, not a mathematical consolidation; bibliographic record not checked.",
-    "ev": [
-     {
-      "c": "Cited as the historical source for the Dirichlet principle history",
-      "s": "Wikipedia, Dirichlet's principle (saved wikitext, citing Monna 1975)",
-      "u": "https://en.wikipedia.org/wiki/Dirichlet%27s_principle",
-      "k": "history_page"
-     }
-    ]
-   },
-   {
-    "r": "precursor",
-    "y": null,
-    "ye": null,
-    "p": "unknown",
-    "l": "Riemann's use of Dirichlet's principle",
-    "w": null,
-    "pe": [
-     "Bernhard Riemann"
-    ],
-    "d": "Riemann used the minimisation principle in complex analysis, which was later questioned; the date of his use is not verified here.",
-    "ph": null,
-    "c": "low",
-    "n": "Year not established; the saved lead does not give one. Recorded only as a precursor.",
-    "ev": [
-     {
-      "c": "Dirichlet's principle name due to Riemann, who applied it in complex analysis",
-      "s": "Wikipedia, Dirichlet's principle (saved wikitext)",
-      "u": "https://en.wikipedia.org/wiki/Dirichlet%27s_principle",
-      "k": "history_page"
      }
     ]
    }
@@ -119242,7 +119492,7 @@
     ]
    }
   ],
-  "notes": "The input summary is consistent with Hilbert's 1904 work. The 1900 announcement is not counted separately. The Riemann dating is open. The consolidation milestone rests on a citation in the saved lead and not on a bibliographic record, so it stays low confidence. Thin-record pass: Wikipedia gives Weierstrass 1870 and Hilbert 1900; the 1904 Math. Ann. and 1905 Crelle papers are Hilbert's full versions. Riemann's lifespan/biography entry stays but his own work year was not verified: Riemann's 1851 dissertation exists in Open Library (OL28468321W) but its edition years are 1867 and later, so it is not cited as a milestone. Weierstrass' work citation is a Wikipedia account, not a bibliographic record. No first_statement is recorded: Riemann's own use of the principle (1851 dissertation) was not tied to a checked record, so it is left out of the milestones.",
+  "notes": "Direct review. Hilbert's 1904 Math. Ann. paper, the 1905 Crelle paper, Tonelli 1920 and Riemann 1857 match Crossref records; the 1900 Jahresbericht note and Courant 1950 were checked in zbMATH and Open Library. Removed a duplicate Hilbert 1900 milestone (the same note was listed as key_development and first_statement) and Monna's 1975 history (a historical study, not a stage of the field; it is the source for Wikipedia's account). Riemann's use of the principle is now dated 1851 (thesis) and 1857. Weierstrass's 1870 objection is the Academy date; it was printed in 1895. Grade C for the conceptual date: the 1900 note's content was not read, and Arzela 1896 and Beppo Levi 1906 as parallel direct-method steps were not examined.",
   "catalogueDates": [
    [
     1900,
@@ -130380,7 +130630,7 @@
     {
      "p": "P257",
      "f": "mathematical logic",
-     "d": 49,
+     "d": 48,
      "t": "feeds"
     },
     {
@@ -133164,8 +133414,11 @@
   "product": "calculus of variations",
   "why": "The brachistochrone challenge and the Bernoullis' isoperimetric problems led Euler to a general variational method and Lagrange to an analytic version with the delta symbol.",
   "cat": "Open harvest",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "institutional": "B"
+  },
   "shown": {
    "conceptual": {
     "y": 1696,
@@ -133242,7 +133495,7 @@
     "d": "Bernoulli publicly challenged mathematicians to find the curve of quickest descent, the problem that opened the field.",
     "ph": "Bernoulli problems",
     "c": "high",
-    "n": "No Crossref/zbMATH record exists for Acta Eruditorum 1696; searched Crossref.",
+    "n": "No Crossref or zbMATH record exists for Acta Eruditorum 1696; MacTutor dates the problem to June 1696, and Euler/Leibniz-era sources agree on the Acta venue.",
     "ev": [
      {
       "c": "MacTutor: the problem was posed by Johann Bernoulli in Acta Eruditorum in June 1696.",
@@ -133265,16 +133518,39 @@
      "Gottfried Wilhelm Leibniz",
      "Isaac Newton"
     ],
-    "d": "Five solutions were obtained and four appeared in print in May 1697; Jakob Bernoulli's approach already treated the curve as an unknown to be varied.",
+    "d": "Solutions by Leibniz, Johann Bernoulli and Jakob Bernoulli, and a Latin translation of Newton's anonymous solution, appeared in print in May 1697.",
     "ph": "Bernoulli problems",
     "c": "medium",
-    "n": null,
+    "n": "Page numbers are MacTutors; the contents of the solutions were not read.",
     "ev": [
      {
       "c": "MacTutor lists the May 1697 Acta Eruditorum contents with page numbers of each solution.",
       "s": "MacTutor, The brachistochrone problem",
       "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Brachistochrone/",
       "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1732,
+    "ye": null,
+    "p": "year",
+    "l": "Euler, geodesics on a surface (first analytic foundations)",
+    "w": "Euler, De linea brevissima in superficie quacunque duo quaelibet puncta iungente, Comm. Acad. Sci. Petropol. 3 (1732), E9 (written 1730)",
+    "pe": [
+     "Leonhard Euler"
+    ],
+    "d": "Euler derived the shortest line on a surface by an analytic argument, one of the first analytic steps toward a general variational method.",
+    "ph": null,
+    "c": "medium",
+    "n": "Euler Archive records the date and summary; E27 (1738) and the 1701 isoperimetric solution of Jakob Bernoulli are not milestones here.",
+    "ev": [
+     {
+      "c": "Euler Archive E9: published 1732, written 1730; summary says the article provided some of the first analytical foundations for the calculus of variations",
+      "s": "Euler Archive",
+      "u": "https://scholarlycommons.pacific.edu/euler-works/9/",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -133312,24 +133588,24 @@
     "y": 1762,
     "ye": null,
     "p": "year",
-    "l": "Lagrange's analytic method with the delta symbol",
+    "l": "Lagrange's analytic method of variations",
     "w": "Lagrange, Essai d'une nouvelle methode pour determiner les maxima et les minima des formules integrales indefinies, Miscellanea Taurinensia 2 (1760-61, published 1762)",
     "pe": [
      "Joseph-Louis Lagrange"
     ],
     "d": "Lagrange replaced Euler's partly geometric reasoning by a purely analytic one based on variations of the function; Euler adopted it.",
     "ph": "Lagrange's analytic method",
-    "c": "medium",
-    "n": "Publication year 1762 taken from a secondary page; the Turin volume was not located in a catalogue. The 1755 letter to Euler is a private precursor.",
+    "c": "high",
+    "n": "Printed in Miscellanea Taurinensia volume 2; MacTutor gives 1762 for that volume (volume 1 1759, volume 3 1766). The 1755 letter to Euler is a private precursor. The attribution of the delta notation to Lagrange was not checked and is not claimed.",
     "ev": [
      {
-      "c": "Wikipedia (citing Thiele and Goldstine): Euler dropped his geometric approach for Lagrange's analytic one after seeing his 1755 work, and waited until Lagrange published in 1762.",
+      "c": "Wikipedia citing Thiele and Goldstine: Euler dropped his geometric approach for Lagrange's analytic one and waited until Lagrange published in 1762",
       "s": "English Wikipedia, Calculus of variations",
       "u": "https://en.wikipedia.org/wiki/Calculus_of_variations",
       "k": "history_page"
      },
      {
-      "c": "MacTutor Lagrange: results sent to Euler in August 1755 contributed to the new subject.",
+      "c": "Lagrange published his results on the calculus of variations in the Melanges de Turin, volume 2 of which appeared in 1762; results sent to Euler in August 1755",
       "s": "MacTutor, Lagrange",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
       "k": "history_page"
@@ -133430,7 +133706,7 @@
     ]
    }
   ],
-  "notes": "The summary's attribution of the 'delta symbol' to Lagrange rests on Wikipedia/MacTutor wording, not on a primary text I checked. Jakob Bernoulli's 1701 isoperimetric solution and Euler's earlier E9 (1732) and E27 (1738) were not made milestones. Mixed type 'birth-by-fusion' is plausible but not tested here. Searched: MacTutor, Euler Archive, Internet Archive, Crossref (no records for Acta Eruditorum or Turin volumes). The 1687 precursor is a judgement about where the field starts rather than a dated fact. The 1762 Lagrange printing year was not found in a catalogue; the Oeuvres note places Turin volume II at 1760-1761.",
+  "notes": "Direct review against MacTutor (brachistochrone page, Lagrange), the Euler Archive (E9, E65, E296) and Wikipedia. Johann Bernoulli's June 1696 challenge in Acta Eruditorum is the earliest public statement found; Galileo's 1638 least-time claim was wrong and is not a variational statement, and Newton's 1687 problem is a precursor. Added Euler's 1732 geodesic paper (E9) as a key development; Jakob Bernoulli's 1701 isoperimetric solution, Euler's 1738 E27, Legendre's second variation (1786) and Jacobi (1837) are not milestones (cap and scope). Lagrange's 1762 printing year is from MacTutor's dating of the Turin volume; no catalogue record was found. The Euler dates (1744, 1766) are Euler Archive publication years; 1766 is the printed title, read in 1756. The mixed type 'birth-by-fusion' was not tested. Acta Eruditorum has no Crossref or zbMATH records, so 1696 and 1697 rest on MacTutor.",
   "catalogueDates": [
    [
     1696,
@@ -138763,7 +139039,7 @@
     {
      "p": "P257",
      "f": "model theory and nonstandard analysis",
-     "d": 28,
+     "d": 29,
      "t": "named"
     }
    ],
@@ -143660,7 +143936,7 @@
     {
      "p": "P221",
      "f": "the mathematical study of algorithms",
-     "d": 3,
+     "d": 4,
      "t": "named"
     }
    ],
@@ -151472,7 +151748,7 @@
     {
      "p": "P221",
      "f": "computational complexity",
-     "d": 27,
+     "d": 28,
      "t": "feeds"
     }
    ],
@@ -152098,7 +152374,7 @@
     {
      "p": "P221",
      "f": "computational complexity",
-     "d": 14,
+     "d": 15,
      "t": "feeds"
     }
    ],
@@ -152948,7 +153224,7 @@
     {
      "p": "P257",
      "f": "model theory",
-     "d": 76,
+     "d": 77,
      "t": "feeds"
     }
    ],
@@ -154089,7 +154365,7 @@
     {
      "p": "P257",
      "f": "model theory",
-     "d": 65,
+     "d": 66,
      "t": "feeds"
     }
    ],
@@ -161539,7 +161815,7 @@
     {
      "p": "P221",
      "f": "computational complexity",
-     "d": 55,
+     "d": 56,
      "t": "feeds"
     },
     {
