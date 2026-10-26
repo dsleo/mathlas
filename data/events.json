@@ -37062,14 +37062,26 @@
     ],
     "d": "Monge studies the transport of earth between surfaces and in doing so introduces the lines of curvature of a surface and their differential equation, going beyond Euler's treatment of normal sections.",
     "ph": null,
-    "c": "low",
-    "n": "Presented to the Academy on 28 March 1781; the volume is titled 1781 and one secondary source gives 1784 for its printing, which was not confirmed from the title page or a catalogue.",
+    "c": "high",
+    "n": "Presented to the Academy on 28 March 1781. The volume of the Histoire de l'Académie royale des sciences for the year 1781 has the imprint 'De l'Imprimerie royale, M.DCCLXXXIV' on its title page (Internet Archive scan, also catalogued there as year 1784), so the publication year is 1784. The lines of greatest and least curvature appear in the memoir (printed volume, about pp. 689-690).",
     "ev": [
      {
-      "c": "Gives the memoir at Mém. de l'Académie 1781, pp. 666-704, and notes it establishes the curves of curvature of a surface",
+      "c": "Title page of the volume for the year 1781 reads 'Paris, de l'Imprimerie royale, M.DCCLXXXIV'; the table of contents lists the Monge memoir; the memoir defines the lines of greatest and least curvature",
+      "s": "Internet Archive, Histoire de l'Académie royale des sciences, année 1781 (printed 1784)",
+      "u": "https://archive.org/details/histoiredelacad81hist",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Gives the memoir at Mém. de l'Académie 1781, pp. 666-704",
       "s": "BnF, Des tas de sable aux pixels (bibliography)",
       "u": "https://www.bnf.fr/sites/default/files/2019-12/Des%20tas%20de%20sables%20aux%20pixels_bibliographie.pdf",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Says the memoir establishes, in connection with the earthwork problem, the curves of curvature of a surface",
+      "s": "Wikipedia, Gaspard Monge",
+      "u": "https://en.wikipedia.org/wiki/Gaspard_Monge",
+      "k": "history_page"
      }
     ]
    },
@@ -40438,6 +40450,12 @@
       "s": "Wikipedia, Yuktibhasa",
       "u": "https://en.wikipedia.org/wiki/Yuktibh%C4%81%E1%B9%A3%C4%81",
       "k": "history_page"
+     },
+     {
+      "c": "Says the Yuktibhasa was written in 1501 in one passage and in about 1550 in another, so no single date is reliable",
+      "s": "MacTutor, Jyesthadeva",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Jyesthadeva/",
+      "k": "history_page"
      }
     ]
    },
@@ -41462,13 +41480,25 @@
     ],
     "d": "Gauss gives a systematic probabilistic treatment of combining observations by least squares, independent of the normal law assumed in his 1809 derivation.",
     "ph": null,
-    "c": "low",
-    "n": "Pars prior was presented 15 Feb 1821 and Pars posterior 2 Feb 1823, both printed in volume 5 of the Commentationes, so the volume cannot have appeared before 1823; the exact print year was not found in a record. Which part holds each result was not checked.",
+    "c": "medium",
+    "n": "Pars prior (arts. 1-22) was presented 15 Feb 1821 and Pars posterior (arts. 23 ff.) 2 Feb 1823; both appear in volume 5 of the Commentationes recentiores, whose headings in Gauss's Werke 4 read 'Gottingae MDCCCXXIII', and a separate Dieterich edition is dated 1823, so the work was printed in 1823 (Gauss's own notice of Pars prior appeared in the Göttingische gelehrte Anzeigen on 26 Feb 1821). The minimum-variance result (among linear combinations without constant term, least squares has the smallest mean error) is in Pars prior, arts. 19-21 (the problem of art. 20); Pars posterior treats weights, elimination and the estimate of the mean error. A library record of volume 5 alone was not found.",
     "ev": [
      {
-      "c": "Bibliography of Gauss's least-squares writings: Pars prior (vol. 5, pp. 33-62, 15 Feb 1821) and Pars posterior (vol. 5, pp. 63-90, 2 Feb 1823); the dates given are those of the papers, not a confirmed print year",
+      "c": "Bibliography of Gauss's least-squares writings: Pars prior (vol. 5, pp. 33-62, 15 Feb 1821) and Pars posterior (vol. 5, pp. 63-90, 2 Feb 1823); the dates given are those of the papers, not a print year",
       "s": "Pulskamp, Gauss bibliography (Royal Holloway)",
       "u": "https://gtfp.cs.rhul.ac.uk/pulskamp/Gauss/Gauss.html",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Headings of both parts read 'Commentationes societatis regiae scientiarum Gottingensis recentiores. Vol. v. Gottingae MDCCCXXIII'; art. 20 poses and solves the minimum problem, art. 21 concludes that least squares is the most suitable combination",
+      "s": "Gauss, Werke vol. 4 (1873), Internet Archive scan",
+      "u": "https://archive.org/details/werke00gausgoog",
+      "k": "primary_text"
+     },
+     {
+      "c": "Separate Göttingen edition by Dieterich, dated 1823, containing Pars prior and Pars posterior",
+      "s": "Internet Archive, Theoria combinationis observationum erroribus minimis obnoxiae (Dieterich, 1823)",
+      "u": "https://archive.org/details/bub_gb_ZQ8OAAAAQAAJ",
       "k": "bibliographic_record"
      }
     ]
