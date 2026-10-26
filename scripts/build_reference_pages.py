@@ -7,7 +7,9 @@ the same records, with ordinary links that work without JavaScript or an SVG map
 
 from __future__ import annotations
 
+import csv
 import html
+import io
 import json
 import re
 import shutil
@@ -23,6 +25,8 @@ from build_field_film import clean_milestone  # noqa: E402
 
 SOURCE = ROOT / "data/events.json"
 DEST = ROOT / "public/reference"
+PORTRAITS = ROOT / "public/data/portraits.json"
+MIN_PERSON_EVENTS = 3  # people with fewer events (or no portrait) stay unlinked: thin pages add noise
 
 
 def escape(value: object) -> str:
@@ -116,7 +120,7 @@ def map_href(event: dict | None = None, field: str | None = None, *, prefix: str
 def event_listing(event: dict, href: str) -> str:
     description = event.get("why") or ""
     terms = " ".join([event["name"], description, *event.get("aliases", []), *event.get("searchTerms", []), *(p.get("name") or "" for p in event.get("people") or [])])
-    return f"""<li class="event-row" data-search="{escape(terms)}"><span class="event-year">{escape(event_year(event))}</span>
+    return f"""<li class="event-row" data-pid="{escape(event['pid'])}" data-y="{int(event.get('y') or 0)}" data-tier="{escape(event.get('tier'))}" data-search="{escape(terms)}"><span class="event-year">{escape(event_year(event))}</span>
 <div><a class="event-name" href="{escape(href)}">{escape(event['name'])}</a>
 <p>{escape(description)}</p></div></li>"""
 
@@ -155,21 +159,96 @@ def milestone(item: dict) -> str:
 {work}{description}{note}{source_block}</div></li>"""
 
 
-def person(item: dict) -> str:
+def search_text(event: dict) -> str:
+    """Everything a reader might search for: milestones, works, evidence sources, people."""
+    parts = [event["name"], event.get("why"), *event.get("aliases", []), *event.get("searchTerms", [])]
+    for m in event.get("ms") or []:
+        parts += [m.get("l"), m.get("d"), m.get("w"), *(e.get("s") for e in m.get("ev") or [])]
+    for p in event.get("people") or []:
+        parts += [p.get("name"), *(w.get("c") for w in p.get("works") or [])]
+    return " ".join(str(x) for x in parts if x)
+
+
+def events_csv(events: list[dict]) -> str:
+    out = io.StringIO()
+    w = csv.writer(out, lineterminator="\n")
+    w.writerow(["pid", "name", "year", "approximate", "field", "type", "review", "milestones", "people", "path"])
+    for e in sorted(events, key=sort_year):
+        w.writerow([e["pid"], e["name"], e.get("y"), e.get("approx"), e["cl"], e.get("type"), e.get("tier"), len(e.get("ms") or []),
+                    "; ".join(p.get("name") or "" for p in e.get("people") or []), f"events/{e['pid']}/"])
+    return out.getvalue()
+
+
+def cite_block(event: dict) -> str:
+    people = ", ".join(p["name"] for p in event.get("people") or [] if p.get("role") == "originator")
+    text = f"Mathlas. “{event['name']}.” Mathlas Reference, {event['pid']}"
+    return f"""<section class="cite" aria-labelledby="cite-title"><h2 id="cite-title">Cite this page</h2>
+<p class="section-intro">Stable identifier <code>{escape(event['pid'])}</code>; the record can change as sources are reviewed, so cite the date you accessed it.</p>
+<p class="cite-text" data-title="{escape(text)}">{escape(text)}.</p>{f'<p class="section-intro">Originator(s): {escape(people)}.</p>' if people else ''}</section>"""
+
+
+def person_page(name: str, info: dict, by_pid: dict[str, dict], people_slugs: dict[str, str], field_slugs: dict[str, str]) -> str:
+    portrait = info.get("portrait")
+    img = (f'<img class="portrait" src="../../../{escape(portrait["file"])}" alt="" width="120" height="120">'
+           f'<p class="section-intro">Portrait: {escape(portrait.get("author") or "unknown")}, {escape(portrait["license"])}, {safe_link(portrait.get("source"), "Wikimedia Commons")}.</p>') if portrait else ""
+    life = f'<p class="eyebrow">{escape(info["life"])}</p>' if info.get("life") else '<p class="eyebrow">Person</p>'
+    bio = f'<p class="map-link"><a href="{escape(info["url"])}" rel="noopener noreferrer" target="_blank">Biography <span aria-hidden="true">↗</span></a></p>' if str(info.get("url") or "").startswith("http") else ""
+    rows = []
+    for pid, role in sorted(info["events"], key=lambda x: sort_year(by_pid[x[0]])):
+        e = by_pid[pid]
+        rows.append(f'<li class="event-row"><span class="event-year">{escape(event_year(e))}</span><div><a class="event-name" href="../../events/{escape(pid)}/">{escape(e["name"])}</a><p>{escape(role.replace("_", " "))} · {escape(e["cl"])}</p></div></li>')
+    body = header([("All topics", "../../"), ("People", "../")], "../../../index.html")
+    body += f"""<main id="content" class="layout">{life}<h1>{escape(name)}</h1>{img}{bio}
+<section><h2>Events ({len(rows)})</h2><ol class="event-list">{''.join(rows)}</ol></section></main>
+<footer><a href="../">All people</a> · <a href="../../">Browse the reference</a></footer>"""
+    return page(name, f"{name}: {len(rows)} events in the Mathlas catalogue.", body, css="../../style.css")
+
+
+def people_index(linked: dict[str, dict], people_slugs: dict[str, str]) -> str:
+    rows = "".join(f'<li><a href="{people_slugs[n]}/">{escape(n)}</a> <span class="year">{len(i["events"])} events</span></li>' for n, i in sorted(linked.items(), key=lambda x: x[0].casefold()))
+    body = header([("All topics", "../")], "../../index.html")
+    body += f"""<main id="content" class="layout"><p class="eyebrow">{len(linked)} people</p><h1>People</h1>
+<p class="lede">People credited in at least {MIN_PERSON_EVENTS} catalogue events, or with a licensed portrait.</p><ul class="people">{rows}</ul></main>"""
+    return page("People", "People in the Mathlas catalogue.", body, css="../style.css")
+
+
+def collect_people(events: list[dict]) -> tuple[dict[str, dict], dict[str, str]]:
+    portraits = json.loads(PORTRAITS.read_text(encoding="utf-8")) if PORTRAITS.exists() else {}
+    info: dict[str, dict] = {}
+    for e in events:
+        for p in e.get("people") or []:
+            i = info.setdefault(p["name"], {"events": [], "life": p.get("life"), "url": p.get("url")})
+            i["events"].append((e["pid"], p.get("role") or ""))
+            i["life"] = i["life"] or p.get("life")
+            i["url"] = i["url"] or p.get("url")
+    linked = {}
+    for n, i in info.items():
+        i["portrait"] = portraits.get(n)
+        if len(i["events"]) >= MIN_PERSON_EVENTS or i["portrait"]:
+            linked[n] = i
+    slugs = {n: slug(n) for n in linked}
+    if len(set(slugs.values())) != len(slugs):
+        raise ValueError("Person slug collision")
+    return linked, slugs
+
+
+def person(item: dict, people_slugs: dict[str, str] | None = None) -> str:
     name = safe_link(item.get("url"), item.get("name"))
+    if people_slugs and item.get("name") in people_slugs:
+        name = f'<a href="../../people/{people_slugs[item["name"]]}/">{escape(item["name"])}</a>' + (f' <a class="bio" href="{escape(item["url"])}" rel="noopener noreferrer" target="_blank" aria-label="Biography of {escape(item["name"])}">↗</a>' if str(item.get("url") or "").startswith("http") else "")
     role = (item.get("role") or "").replace("_", " ")
     extra = f' <span class="year">{escape(item["life"])}</span>' if item.get("life") else ""
     return f'<li>{name}{extra}<small>{escape(role)}</small></li>'
 
 
-def event_page(event: dict, by_pid: dict[str, dict], field_slugs: dict[str, str]) -> str:
+def event_page(event: dict, by_pid: dict[str, dict], field_slugs: dict[str, str], people_slugs: dict[str, str]) -> str:
     field = event["cl"]
     intro = event.get("why") or ""
     alias = ", ".join(event.get("aliases") or [])
     aliases = f'<p class="aliases">Also known as: {escape(alias)}</p>' if alias else ""
     milestones = sorted(event.get("ms") or [], key=lambda x: (x.get("y") is None, x.get("y") or 0))
     milestone_html = "".join(milestone(item) for item in milestones)
-    people = "".join(person(item) for item in event.get("people") or [])
+    people = "".join(person(item, people_slugs) for item in event.get("people") or [])
     relations = "".join([
         relation_group(event, "b", "Earlier connections", by_pid),
         relation_group(event, "a", "Later connections", by_pid),
@@ -194,8 +273,10 @@ def event_page(event: dict, by_pid: dict[str, dict], field_slugs: dict[str, str]
 {relations}</section>
 <section aria-labelledby="people-title"><h2 id="people-title">People</h2>
 <ul class="people">{people}</ul></section>
+{cite_block(event)}
 </aside></div></main>
-<footer><a href="../../">Browse all fields and events</a> · <a href="../../../index.html">Explore the map</a></footer>"""
+<footer><a href="../../">Browse all fields and events</a> · <a href="../../../index.html">Explore the map</a></footer>
+<script>document.querySelectorAll('.cite-text').forEach(function(p){{p.textContent=p.dataset.title+', '+location.href+'.'}})</script>"""
     return page(event["name"], intro or event["name"], body, css="../../style.css")
 
 
@@ -228,8 +309,11 @@ def index_page(by_field: dict[str, list[dict]], field_slugs: dict[str, str]) -> 
 <p class="eyebrow">An atlas of mathematical ideas</p><h1>Browse the reference</h1>
 <p class="lede">Read selected events by field, follow their connections, and inspect the sources behind each milestone. The map is another way into the same catalogue.</p>
 <p class="approx-note">≈ marks an approximate map placement where a dated first statement is not established.</p>
-<form role="search" id="reference-search" autocomplete="off"><label for="query">Search fields, events, and people</label>
-<input id="query" type="search" placeholder="Try group theory or Emmy Noether" aria-describedby="search-help"><p id="search-help">Search filters the list below. Every field and event link is available without JavaScript.</p></form>
+<form role="search" id="reference-search" autocomplete="off"><label for="query">Search events, milestones, sources and people</label>
+<input id="query" type="search" placeholder="Try group theory or Emmy Noether" aria-describedby="search-help">
+<div class="filters"><label>Period <select id="period"><option value="">Any</option><option value="-99999,1500">Before 1500</option><option value="1500,1799">1500–1799</option><option value="1800,1899">1800–1899</option><option value="1900,99999">1900 on</option></select></label>
+<label>Review <select id="tier"><option value="">Any</option><option value="direct">Direct review</option><option value="source-first">Source-first</option></select></label></div>
+<p id="search-help">Filters the list below, including text inside milestones and sources. Every field and event link works without JavaScript. <a href="people/">People</a> · <a href="events.csv" download>Download all events (CSV)</a></p></form>
 <p id="search-status" role="status" aria-live="polite"></p>
 <div class="field-jump" aria-label="Jump to a field">{''.join(f'<a href="#field-{field_slugs[field]}">{escape(field)}</a>' for field in sorted(by_field, key=str.casefold))}</div>
 <div id="fields">{''.join(sections)}</div></main>
@@ -263,9 +347,17 @@ def main() -> None:
     write(DEST / "index.html", index_page(by_field, field_slugs))
     for field, field_events in by_field.items():
         write(DEST / "fields" / field_slugs[field] / "index.html", field_page(field, field_events, field_slugs))
+    linked, people_slugs = collect_people(events)
+    if (DEST / "people").exists():
+        shutil.rmtree(DEST / "people")
     for event in events:
-        write(DEST / "events" / event["pid"] / "index.html", event_page(event, by_pid, field_slugs))
-    print(f"Generated {len(events)} event pages and {len(by_field)} field pages in {DEST}")
+        write(DEST / "events" / event["pid"] / "index.html", event_page(event, by_pid, field_slugs, people_slugs))
+    for name, info in linked.items():
+        write(DEST / "people" / people_slugs[name] / "index.html", person_page(name, info, by_pid, people_slugs, field_slugs))
+    write(DEST / "people" / "index.html", people_index(linked, people_slugs))
+    write(DEST / "events.csv", events_csv(events))
+    write(DEST / "search-index.json", json.dumps({e["pid"]: search_text(e) for e in events}, ensure_ascii=False, separators=(",", ":")))
+    print(f"Generated {len(events)} event pages, {len(by_field)} field pages and {len(linked)} people pages in {DEST}")
 
 
 if __name__ == "__main__":

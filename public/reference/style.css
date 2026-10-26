@@ -43,3 +43,6 @@ footer{border-top:1px solid var(--line);padding:28px 24px;text-align:center;font
 [hidden]{display:none!important}
 @media(max-width:700px){.header-inner{padding:12px 16px;display:block}.brand{font-size:23px}.brand span{font-size:11px}nav{margin-top:4px}.layout{padding:30px 16px 50px}.content-grid{display:block}.milestone{grid-template-columns:1fr;gap:5px}.milestone-date{font-weight:700}.event-row{grid-template-columns:78px minmax(0,1fr);gap:12px}.event-name{font-size:18px}.event-row p{font-size:15px}.field-section h2{font-size:23px}.map-link{margin-bottom:34px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+.filters{display:flex;gap:18px;flex-wrap:wrap;margin:12px 0;font:15px LM Sans,Arial,sans-serif}.filters select{font:inherit;margin-left:6px;padding:5px 8px;background:var(--surface);border:1px solid var(--ink);color:var(--ink)}
+.portrait{float:right;border-radius:50%;object-fit:cover;filter:grayscale(1) sepia(.3);margin:0 0 10px 18px}
+.cite-text{font-size:15px;background:var(--wash);padding:10px 12px;border-left:3px solid var(--accent)}.bio{font-size:14px;color:var(--muted);text-decoration:none}
