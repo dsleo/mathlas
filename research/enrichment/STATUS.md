@@ -1,8 +1,8 @@
 # Milestone research status
 
 The committed source catalogue, `data/events.json`, currently contains **553 events**:
-**161** are marked `direct` and **392** are marked `source-first`. Together they
-have **3,002 milestones** and **4,433 evidence entries**. Each milestone has at
+**184** are marked `direct` and **369** are marked `source-first`. Together they
+have **3,052 milestones** and **4,599 evidence entries**. Each milestone has at
 least one evidence entry. These counts describe the present repository; they
 are not a claim that every historical priority or source has had an independent
 second review.
@@ -24,7 +24,7 @@ research leads, but the underlying packet files are not committed here, so
 the headline corroboration totals cannot be reproduced from this checkout.
 Candidate records and title/year matches do not establish historical firstness.
 
-Next research work: review the listed disagreements against primary and
+Review batches A1, A2, B1, B2 and C (`review/`) gave 23 of the highest-ranked events a direct review; the ranked worklist is `coverage_report.md`, and `crosscheck/ADJUDICATION.md` and `REVERIFY.md` record the cross-check leads and their independent re-check. Next research work: review the listed disagreements against primary and
 bibliographic sources, adjudicate priority and milestone roles, then make a
 fresh independent pass over the current 553-event catalogue. Record the new
 pass and its source packets in this repository before publishing new agreement

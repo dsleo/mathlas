@@ -3,7 +3,7 @@ P186,Old Babylonian quadratic and cubic problem-solving,-2000,True,Algebra,birth
 P156,Discovery of incommensurable magnitudes (irrationality of the diagonal),-450,False,Geometry,birth-by-abstraction,source-first,5,Hippasus of Metapontum; Theaetetus of Athens; Eudoxus of Cnidus; Euclid of Alexandria; Theodorus of Cyrene,events/P156/
 P197,Pythagorean number theory and musical ratios,-450,False,Number theory,import-from-outside,source-first,6,Pythagoras; Philolaus; Archytas; Euclid; Nicomachus of Gerasa,events/P197/
 P184,Eudoxus' homocentric spheres,-370,False,Astronomy & trigonometry,import-from-outside,source-first,6,Eudoxus of Cnidus; Aristotle; Giovanni Schiaparelli,events/P184/
-P195,Eudoxus: theory of proportion and method of exhaustion,-370,False,Analysis,birth-by-abstraction,source-first,8,Eudoxus of Cnidus; Euclid; Archimedes; Grégoire de Saint-Vincent; Richard Dedekind,events/P195/
+P195,Eudoxus: theory of proportion and method of exhaustion,-370,False,Analysis,birth-by-abstraction,direct,8,Eudoxus of Cnidus; Euclid; Archimedes; Grégoire de Saint-Vincent; Richard Dedekind,events/P195/
 P164,Euclid's Elements VII–IX: deductive arithmetic,-300,False,Number theory,birth-by-abstraction,source-first,7,Euclid; Archytas; Eudoxus of Cnidus; Nicomachus of Gerasa,events/P164/
 P134,Euclid's Elements: axiomatic geometry,-300,False,Geometry,reification,direct,6,Euclid of Alexandria,events/P134/
 P187,Jaina permutations and combinations (early Indian combinatorics),-300,False,Combinatorics,birth-by-abstraction,source-first,5,Pingala; Mahavira,events/P187/
@@ -47,7 +47,7 @@ P194,Kepler's Nova stereometria doliorum vinariorum (infinitesimal volumes of so
 P115,"Method of indivisibles (Cavalieri, Torricelli, Wallis)",1635,False,Analysis,technique-transfer,source-first,6,Bonaventura Cavalieri; Evangelista Torricelli; John Wallis; Gilles de Roberval,events/P115/
 P109,"Analytic geometry (Descartes, Fermat)",1637,False,Geometry,birth-by-fusion,source-first,5,Rene Descartes; Pierre de Fermat; Frans van Schooten,events/P109/
 P112,Desargues' projective geometry,1639,False,Geometry,birth-by-abstraction,source-first,4,Girard Desargues; Abraham Bosse; Blaise Pascal,events/P112/
-P146,"Fermat's adequality (method of maxima, minima and tangents)",1642,False,Analysis,technique-transfer,source-first,4,Pierre de Fermat; Rene Descartes,events/P146/
+P146,"Fermat's adequality (method of maxima, minima and tangents)",1642,False,Analysis,technique-transfer,direct,4,Pierre de Fermat; Rene Descartes,events/P146/
 P171,Saint-Vincent and Sarasa: hyperbolic area and the logarithm,1647,False,Analysis,dictionary-analogy,source-first,4,Gregoire de Saint-Vincent; Alphonse Antonio de Sarasa,events/P171/
 P174,Wallis: interpolation and infinite products,1656,False,Analysis,technique-transfer,source-first,6,John Wallis; Bonaventura Cavalieri; Isaac Newton; Leonhard Euler,events/P174/
 P003,Probability from games of chance,1657,False,Probability,import-from-outside,source-first,7,Blaise Pascal; Pierre de Fermat; Christiaan Huygens; Jakob Bernoulli; Abraham de Moivre; Pierre-Simon Laplace,events/P003/
@@ -57,25 +57,25 @@ P116,Pascal's arithmetical triangle,1665,False,Probability,technique-transfer,so
 P145,Leibniz combinatorial logic,1666,False,Logic & foundations,birth-by-abstraction,source-first,6,Gottfried Leibniz; Louis Couturat; Clarence Irving Lewis,events/P145/
 P114,"Fermat's number theory (little theorem, sums of squares, Fermat correspondence)",1670,False,Number theory,birth-by-abstraction,source-first,5,Pierre de Fermat; Leonhard Euler; Claude Gaspard Bachet,events/P114/
 P170,Huygens: evolutes and the isochronous pendulum,1673,False,Differential geometry,import-from-outside,source-first,8,Christiaan Huygens; Joella G. Yoder,events/P170/
-P002,The calculus (differential and integral calculus),1684,False,Analysis,birth-by-abstraction,source-first,6,Gottfried Wilhelm Leibniz; Isaac Newton; Isaac Barrow,events/P002/
+P002,The calculus (differential and integral calculus),1684,False,Analysis,birth-by-abstraction,direct,9,Gottfried Wilhelm Leibniz; Isaac Newton; Isaac Barrow,events/P002/
 P163,Newton: infinite series and binomial theorem,1685,False,Analysis,technique-transfer,source-first,7,Isaac Newton; John Wallis; Niels Henrik Abel,events/P163/
 P147,"Seki: resultants, determinants, elimination",1685,False,Algebra,birth-by-abstraction,source-first,4,Takakazu Seki; Katahiro Takebe; Gottfried Wilhelm Leibniz,events/P147/
-P133,Newton's Principia,1687,False,Mathematical physics,import-from-outside,source-first,6,Isaac Newton; Christiaan Huygens; Edmond Halley; Robert Hooke,events/P133/
+P133,Newton's Principia,1687,False,Mathematical physics,import-from-outside,direct,8,Isaac Newton; Christiaan Huygens; Edmond Halley; Robert Hooke,events/P133/
 P151,Differential equations from calculus and mechanics,1690,False,Differential equations,birth-by-fusion,direct,4,Gottfried Wilhelm Leibniz; Isaac Newton; Jacob Bernoulli; Leonhard Euler; George Boole,events/P151/
 P443,Elliptic integrals from lemniscate and elastica (Bernoulli),1694,False,Analysis,import-from-outside,source-first,8,Jakob Bernoulli; Giulio Fagnano; Leonhard Euler; Adrien-Marie Legendre; Niels Henrik Abel; Carl Gustav Jacobi,events/P443/
-P446,Calculus of variations from the brachistochrone,1696,False,Optimization & control,birth-by-fusion,source-first,6,Johann Bernoulli; Jakob Bernoulli; Leonhard Euler; Joseph-Louis Lagrange,events/P446/
+P446,Calculus of variations from the brachistochrone,1696,False,Optimization & control,birth-by-fusion,direct,7,Johann Bernoulli; Jakob Bernoulli; Leonhard Euler; Joseph-Louis Lagrange,events/P446/
 P192,Leibniz: determinants,1700,False,Algebra,birth-by-abstraction,source-first,8,Gottfried Leibniz; Colin Maclaurin; Gabriel Cramer; Seki Takakazu,events/P192/
-P460,"Trigonometry and the exponential: Cotes, De Moivre, Euler",1702,False,Analysis,dictionary-analogy,source-first,7,Johann Bernoulli; Roger Cotes; Abraham de Moivre; Leonhard Euler,events/P460/
+P460,"Trigonometry and the exponential: Cotes, De Moivre, Euler",1702,False,Analysis,dictionary-analogy,source-first,8,Johann Bernoulli; Roger Cotes; Abraham de Moivre; Leonhard Euler,events/P460/
 P185,De Moivre: probability and the trigonometry-complex number link,1707,False,Probability,technique-transfer,source-first,6,Abraham de Moivre; Leonhard Euler,events/P185/
 P179,Arbuthnot sex-ratio argument as an early significance test,1710,False,Statistics & decision theory,technique-transfer,direct,3,John Arbuthnot; Ronald A. Fisher,events/P179/
 P117,Bernoulli's Ars Conjectandi and the law of large numbers,1713,False,Probability,technique-transfer,source-first,5,Jakob Bernoulli; Christiaan Huygens; Nicolaus I Bernoulli; Abraham de Moivre,events/P117/
 P159,Cotes: logarithm of complex arguments,1714,False,Complex analysis,dictionary-analogy,direct,4,Roger Cotes; Leonhard Euler,events/P159/
 P154,Taylor: finite differences and Taylor's theorem,1715,False,Analysis,birth-by-abstraction,source-first,5,Brook Taylor; James Gregory; James Stirling,events/P154/
-P150,De Moivre's formula: trigonometry and complex powers,1722,False,Analysis,dictionary-analogy,source-first,5,Abraham de Moivre; Roger Cotes; Leonhard Euler,events/P150/
+P150,De Moivre's formula: trigonometry and complex powers,1722,False,Analysis,dictionary-analogy,direct,6,Abraham de Moivre; Roger Cotes; Leonhard Euler,events/P150/
 P169,Clairaut: curves in space,1731,False,Differential geometry,birth-by-abstraction,source-first,4,Alexis Clairaut; Leonhard Euler; Joseph Alfred Serret,events/P169/
 P157,Euler: geodesics from mechanics,1732,False,Differential geometry,technique-transfer,source-first,5,Leonhard Euler; Alexis Clairaut,events/P157/
 P152,De Moivre: normal approximation to the binomial,1733,False,Probability,technique-transfer,source-first,5,Abraham de Moivre; James Stirling; Pierre-Simon Laplace,events/P152/
-P004,Graph theory from the Königsberg bridges,1741,False,Graph theory,birth-by-abstraction,source-first,9,Leonhard Euler; Carl Hierholzer; James Joseph Sylvester; Dénes Kőnig; Gustav Kirchhoff; Arthur Cayley,events/P004/
+P004,Graph theory from the Königsberg bridges,1741,False,Graph theory,birth-by-abstraction,direct,10,Leonhard Euler; Carl Hierholzer; James Joseph Sylvester; Dénes Kőnig; Gustav Kirchhoff; Arthur Cayley,events/P004/
 P450,Topology from the geometry of position (Euler to Listing),1741,False,Topology,birth-by-abstraction,source-first,6,Leonhard Euler; Simon Lhuilier; Johann Benedict Listing,events/P450/
 P560,Clairaut applies hydrostatics to the figure of the Earth,1743,False,Geophysics & geodesy,field-emergence,direct,1,,events/P560/
 P005,Analytic number theory I: Euler's product and Dirichlet's characters,1744,False,Number theory,birth-by-fusion,source-first,5,Leonhard Euler; Peter Gustav Lejeune Dirichlet; Adrien-Marie Legendre,events/P005/
@@ -83,10 +83,10 @@ P142,Euler's Introductio in analysin infinitorum,1748,False,Analysis,reification
 P190,Euler: complex logarithms and exponentials,1748,False,Complex analysis,birth-by-fusion,source-first,4,Leonhard Euler; Johann Bernoulli; Roger Cotes,events/P190/
 P162,D'Alembert and Euler: the wave equation and partial differential equations,1749,False,Differential equations,import-from-outside,source-first,5,Jean le Rond d'Alembert; Leonhard Euler; Daniel Bernoulli; Brook Taylor; Joseph-Louis Lagrange,events/P162/
 P445,Vibrating-string controversy and the general function concept,1750,False,Differential equations,import-from-outside,source-first,4,Jean le Rond d'Alembert; Leonhard Euler; Johann Bernoulli,events/P445/
-P430,Spectral ideas: eigenvalues from vibrating systems and quadratic forms,1751,True,Algebra,birth-by-abstraction,source-first,6,Leonhard Euler; Augustin-Louis Cauchy; Charles-François Sturm; David Hilbert,events/P430/
 P558,Euler formulates the equations of fluid motion,1757,False,Fluid mechanics,field-emergence,direct,2,Leonhard Euler,events/P558/
 P120,Euler's polyhedron formula (V - E + F = 2),1758,False,Topology,birth-by-abstraction,source-first,5,Leonhard Euler; Simon Lhuilier,events/P120/
 P131,Bayes' inverse probability,1764,False,Statistics & decision theory,birth-by-abstraction,source-first,7,Thomas Bayes; Richard Price; Pierre-Simon Laplace; Marquis de Condorcet; Abraham de Moivre; Harold Jeffreys,events/P131/
+P430,Spectral ideas: eigenvalues from vibrating systems and quadratic forms,1765,False,Algebra,birth-by-abstraction,source-first,7,Leonhard Euler; Augustin-Louis Cauchy; Charles-François Sturm; David Hilbert,events/P430/
 P118,"Differential geometry of surfaces (Clairaut, Euler, Monge, Gauss)",1767,False,Differential geometry,birth-by-fusion,source-first,6,Alexis Clairaut; Leonhard Euler; Gaspard Monge; Carl Friedrich Gauss,events/P118/
 P130,Laplace's analytic probability,1782,False,Probability,technique-transfer,source-first,6,Pierre-Simon Laplace; Adrien-Marie Legendre; Abraham de Moivre; Stephen M. Stigler,events/P130/
 P456,Social choice theory: Condorcet's probability to Arrow's theorem,1785,False,Statistics & decision theory,import-from-outside,source-first,7,Marquis de Condorcet; Kenneth Arrow; Duncan Black; Allan Gibbard; Jean-Charles de Borda,events/P456/
@@ -101,7 +101,7 @@ P124,Gauss's Disquisitiones Arithmeticae,1801,False,Number theory,reification,so
 P132,Least squares,1805,False,Statistics & decision theory,technique-transfer,source-first,9,Adrien-Marie Legendre; Carl Friedrich Gauss; Robert Adrain; Pierre-Simon Laplace,events/P132/
 P562,Babbage develops a calculus of functional equations,1815,False,Functional equations,field-emergence,direct,2,,events/P562/
 P561,Navier formulates equations for elastic solids,1821,False,Solid mechanics,field-emergence,direct,2,,events/P561/
-P007,Fourier series: from heat flow to analysis,1822,False,Functional & harmonic analysis,import-from-outside,source-first,6,Joseph Fourier; Peter Gustav Lejeune Dirichlet; Bernhard Riemann; Friedrich Wilhelm Bessel,events/P007/
+P007,Fourier series: from heat flow to analysis,1822,False,Functional & harmonic analysis,import-from-outside,source-first,7,Joseph Fourier; Peter Gustav Lejeune Dirichlet; Bernhard Riemann; Friedrich Wilhelm Bessel,events/P007/
 P113,Poncelet and projective geometry,1822,False,Geometry,dictionary-analogy,source-first,7,Jean-Victor Poncelet; Joseph Gergonne; Julius Plucker,events/P113/
 P128,Cauchy and the beginnings of complex analysis,1825,False,Complex analysis,birth-by-abstraction,source-first,6,Augustin-Louis Cauchy; Edouard Goursat,events/P128/
 P161,Abel: elliptic functions as inverses of elliptic integrals,1827,False,Complex analysis,technique-transfer,source-first,6,Niels Henrik Abel; Carl Gustav Jacob Jacobi; Adrien-Marie Legendre,events/P161/
@@ -114,15 +114,15 @@ P447,Non-Euclidean geometry: the independence of the parallel postulate,1829,Fal
 P167,Pluecker: line geometry and algebraic curves,1839,False,Geometry,birth-by-abstraction,source-first,4,Julius Pluecker; Felix Klein,events/P167/
 P431,"Axioms for linear (vector) spaces: Moebius, Grassmann, Peano",1844,False,Algebra,birth-by-abstraction,source-first,6,August Ferdinand Moebius; Hermann Grassmann; Giuseppe Peano,events/P431/
 P398,Liouville and early transcendence theory,1844,False,Number theory,field-emergence,source-first,6,Joseph Liouville; Charles Hermite; Ferdinand von Lindemann; David Hilbert,events/P398/
-P428,Quaternions: non-commutative algebra from the geometry of 3-space,1844,False,Algebra,birth-by-abstraction,source-first,6,William Rowan Hamilton; Peter Guthrie Tait; Arthur Cayley,events/P428/
+P428,Quaternions: non-commutative algebra from the geometry of 3-space,1844,False,Algebra,birth-by-abstraction,direct,6,William Rowan Hamilton; Peter Guthrie Tait; Arthur Cayley,events/P428/
 P438,Transcendental numbers from continued fractions (Liouville),1844,False,Number theory,birth-by-abstraction,source-first,5,Joseph Liouville; Charles Hermite; Georg Cantor,events/P438/
 P181,Kirchhoff's circuit laws and the graph-theoretic treatment of networks,1845,False,Graph theory,import-from-outside,source-first,5,Gustav Kirchhoff; Georg Ohm; James Clerk Maxwell,events/P181/
 P006,Group theory from the solution of polynomial equations,1846,False,Algebra,birth-by-abstraction,direct,5,Evariste Galois; Arthur Cayley; Camille Jordan; Walther von Dyck; William Burnside,events/P006/
+P009,Ideals and algebraic number theory,1846,False,Number theory,birth-by-abstraction,direct,8,Ernst Eduard Kummer; Richard Dedekind; Emmy Noether,events/P009/
 P066,"Boolean algebra: logic as algebra, then topology (Boole to Stone)",1847,False,Logic & foundations,dictionary-analogy,direct,8,George Boole; Edward V. Huntington; Henry M. Sheffer; Marshall H. Stone; Ernst Schroeder,events/P066/
-P009,Ideals and algebraic number theory,1847,False,Number theory,birth-by-abstraction,source-first,6,Ernst Eduard Kummer; Richard Dedekind; Emmy Noether,events/P009/
 P457,Kirkman's schoolgirl problem and combinatorial designs,1847,False,Combinatorics,birth-by-abstraction,source-first,8,Thomas Kirkman; Jakob Steiner; Louise Cummings; Frank Yates; D. K. Ray-Chaudhuri,events/P457/
 P415,Dirichlet's principle,1851,False,Complex analysis,import-from-outside,source-first,7,Bernhard Riemann; Karl Weierstrass; David Hilbert; Peter Gustav Lejeune Dirichlet,events/P415/
-P356,Riemann surfaces,1851,False,Complex analysis,birth-by-fusion,source-first,6,Bernhard Riemann; Hermann Weyl; Victor Puiseux; Carl Neumann; Tibor Rado,events/P356/
+P356,Riemann surfaces,1851,False,Complex analysis,birth-by-fusion,direct,7,Bernhard Riemann; Hermann Weyl; Victor Puiseux; Carl Neumann; Tibor Rado,events/P356/
 P382,The abstract group concept,1854,False,Group & representation theory,birth-by-abstraction,source-first,7,Arthur Cayley; Leopold Kronecker; Heinrich Weber; Walther von Dyck; William Burnside; Camille Jordan,events/P382/
 P429,Matrix algebra as an abstract calculus (Cayley),1855,False,Algebra,birth-by-abstraction,source-first,4,Arthur Cayley; Gotthold Eisenstein; James Joseph Sylvester,events/P429/
 P559,Chebyshev’s theory of best uniform approximation,1857,False,Approximation theory,field-emergence,direct,1,Pafnuty Chebyshev,events/P559/
@@ -134,13 +134,13 @@ P008,Riemannian geometry and manifolds,1868,False,Differential geometry,birth-by
 P373,Arithmetization of analysis and the construction of the real numbers,1869,False,Logic & foundations,reification,source-first,8,Richard Dedekind; Georg Cantor; Karl Weierstrass; Charles Meray; Eduard Heine,events/P373/
 P397,Betti numbers and early combinatorial topology,1870,False,Topology,birth-by-abstraction,source-first,6,Enrico Betti; Bernhard Riemann; Johann Benedict Listing; Gustav Kirchhoff; Henri Poincaré,events/P397/
 P010,Klein's Erlangen programme,1872,False,Geometry,dictionary-analogy,source-first,6,Felix Klein; Sophus Lie; Arthur Cayley,events/P010/
-P357,Cantor's set theory,1874,False,Logic & foundations,birth-by-abstraction,source-first,8,Georg Cantor; Richard Dedekind; Ernst Zermelo; Felix Hausdorff,events/P357/
-P358,Lie theory (continuous transformation groups),1876,False,Group & representation theory,birth-by-fusion,source-first,8,Sophus Lie; Friedrich Engel; Wilhelm Killing; Felix Klein; Hermann Weyl,events/P358/
+P357,Cantor's set theory,1874,False,Logic & foundations,birth-by-abstraction,direct,8,Georg Cantor; Richard Dedekind; Ernst Zermelo; Felix Hausdorff,events/P357/
+P358,Lie theory (continuous transformation groups),1874,False,Group & representation theory,birth-by-fusion,source-first,8,Sophus Lie; Friedrich Engel; Wilhelm Killing; Felix Klein; Hermann Weyl,events/P358/
 P434,Cardinality versus dimension: R^n equinumerous with R,1878,False,Topology,birth-by-fusion,source-first,7,Georg Cantor; Giuseppe Peano; L. E. J. Brouwer; Karl Menger,events/P434/
 P393,Geometric (Clifford) algebra,1878,False,Algebra,birth-by-fusion,source-first,7,William Kingdon Clifford; Hermann Grassmann; William Rowan Hamilton; David Hestenes,events/P393/
 P453,Map colouring and the four colour problem (Kempe and Heawood),1879,False,Graph theory,birth-by-fusion,source-first,8,Alfred Bray Kempe; Percy John Heawood; Arthur Cayley; George David Birkhoff; Gerhard Ringel; Kenneth Appel,events/P453/
 P367,Dynamical systems from celestial mechanics (Poincare to Birkhoff),1880,False,Dynamics,birth-by-fusion,direct,8,Henri Poincare; George David Birkhoff,events/P367/
-P366,Automorphic functions and uniformisation,1881,False,Number theory,birth-by-fusion,source-first,8,Henri Poincare; Felix Klein; Lazarus Fuchs; Robert Fricke; Paul Koebe,events/P366/
+P366,Automorphic functions and uniformisation,1881,False,Number theory,birth-by-fusion,source-first,10,Henri Poincare; Felix Klein; Lazarus Fuchs; Robert Fricke; Paul Koebe,events/P366/
 P378,Vector analysis,1881,False,Analysis,import-from-outside,source-first,6,J. Willard Gibbs; Oliver Heaviside; Hermann Grassmann; Edwin Bidwell Wilson; William Rowan Hamilton,events/P378/
 P420,Combinatorial group theory,1882,False,Group & representation theory,birth-by-fusion,source-first,8,Walther von Dyck; Max Dehn; Heinrich Tietze; Jakob Nielsen; Otto Schreier; Henri Poincare,events/P420/
 P439,Transcendence of pi and the impossibility of squaring the circle,1882,False,Geometry,technique-transfer,source-first,6,Charles Hermite; Ferdinand von Lindemann; Karl Weierstrass; David Hilbert,events/P439/
@@ -169,7 +169,7 @@ P371,Cartan exterior differential calculus,1899,False,Differential geometry,birt
 P389,p-adic numbers,1899,False,Number theory,dictionary-analogy,source-first,5,Kurt Hensel; Jozsef Kurschak; Alexander Ostrowski; Helmut Hasse,events/P389/
 P264,Algebraic combinatorics: Young tableaux and symmetric functions,1900,False,Combinatorics,birth-by-fusion,source-first,5,Alfred Young; Craige Schensted; Donald Knuth; Alain Lascoux; Marcel-Paul Schutzenberger; Richard Stanley,events/P264/
 P060,Brownian motion: from physics and finance to measure on path space,1900,False,Probability,import-from-outside,source-first,6,Louis Bachelier; Albert Einstein; Norbert Wiener; Shizuo Kakutani,events/P060/
-P402,Calculus of variations to Hilbert's direct methods,1900,False,Optimization & control,technique-transfer,source-first,8,David Hilbert; Bernhard Riemann; Karl Weierstrass; Leonida Tonelli; Richard Courant,events/P402/
+P402,Calculus of variations to Hilbert's direct methods,1900,False,Optimization & control,technique-transfer,direct,6,David Hilbert; Bernhard Riemann; Karl Weierstrass; Leonida Tonelli; Richard Courant,events/P402/
 P412,Riemann-Hilbert problem and monodromy,1900,False,Differential equations,dictionary-analogy,source-first,8,Bernhard Riemann; David Hilbert; Josip Plemelj; Ludwig Schlesinger; Helmut Röhrl; Andrey Bolibrukh,events/P412/
 P435,Lebesgue measure and integral: set theory enters analysis,1901,False,Analysis,technique-transfer,source-first,4,Henri Lebesgue; Emile Borel,events/P435/
 P411,Schur: polynomial representations of GL(n) and invariant theory,1901,False,Group & representation theory,dictionary-analogy,source-first,7,Issai Schur; Alfred Young; Hermann Weyl; Ian G. Macdonald,events/P411/
@@ -183,7 +183,7 @@ P361,Hilbert space and integral equations,1907,False,Functional & harmonic analy
 P388,Intuitionism,1907,False,Logic & foundations,birth-by-abstraction,source-first,8,L. E. J. Brouwer; Arend Heyting; Andrei Kolmogorov; Kurt Gödel,events/P388/
 P381,Axiomatic set theory (Zermelo),1908,False,Logic & foundations,reification,source-first,8,Ernst Zermelo; Abraham Fraenkel; Thoralf Skolem; John von Neumann,events/P381/
 P433,Non-commutative ring theory: Wedderburn structure theory and chain conditions,1908,False,Algebra,birth-by-abstraction,source-first,7,Joseph Wedderburn; Emil Artin; Nathan Jacobson,events/P433/
-P414,"Noncommutative algebras, representation theory and number theory",1908,False,Algebra,technique-transfer,source-first,7,Joseph H. Maclagan-Wedderburn; Emil Artin; Richard Brauer; Emmy Noether,events/P414/
+P414,"Noncommutative algebras, representation theory and number theory",1908,False,Algebra,technique-transfer,direct,10,Joseph H. Maclagan-Wedderburn; Emil Artin; Richard Brauer; Emmy Noether; Helmut Hasse,events/P414/
 P451,Abstract topological spaces from point-set analysis,1909,False,Topology,birth-by-abstraction,source-first,4,Frigyes Riesz; Felix Hausdorff; Maurice Frechet; Kazimierz Kuratowski,events/P451/
 P437,Normal numbers: measure and probability applied to digit expansions (Borel),1909,False,Number theory,technique-transfer,source-first,5,Emile Borel; David Champernowne; Arthur Copeland,events/P437/
 P383,Brouwer topology,1910,False,Topology,technique-transfer,source-first,8,L. E. J. Brouwer; Piers Bohl; Juliusz Schauder,events/P383/
@@ -214,31 +214,31 @@ P364,Hilbert-space quantum mechanics,1928,False,Functional & harmonic analysis,i
 P027,Unipotent flows and the Oppenheim conjecture,1929,False,Number theory,technique-transfer,source-first,5,Alexander Oppenheim; Harold Davenport; Grigory Margulis; Marina Ratner,events/P027/
 P390,Ramsey theory,1930,False,Logic & foundations,technique-transfer,source-first,6,Frank Plumpton Ramsey; B. L. van der Waerden; Paul Erdős; Richard Rado; Ronald L. Graham,events/P390/
 P234,Von Neumann algebras,1930,False,Group & representation theory,birth-by-abstraction,source-first,5,John von Neumann; Francis J. Murray; Jacques Dixmier,events/P234/
-P199,Ergodic theory from statistical mechanics,1931,False,Dynamics,technique-transfer,source-first,11,George D. Birkhoff; John von Neumann; Bernard O. Koopman; Paul R. Halmos; George David Birkhoff; Bernard Koopman; Ludwig Boltzmann; Eberhard Hopf,events/P199/
+P199,Ergodic theory from statistical mechanics,1931,False,Dynamics,technique-transfer,direct,9,George D. Birkhoff; John von Neumann; Bernard O. Koopman; Paul R. Halmos; Ludwig Boltzmann; Eberhard Hopf,events/P199/
 P237,Gödel's incompleteness theorems,1931,False,Logic & foundations,technique-transfer,source-first,4,Kurt Gödel; J. Barkley Rosser; Stephen C. Kleene,events/P237/
 P247,Kolmogorov's diffusion theory and parabolic PDE,1931,False,Probability,technique-transfer,source-first,4,Andrey Kolmogorov; William Feller; Joseph L. Doob; Louis Bachelier,events/P247/
 P417,Subjective probability and decision,1931,False,Statistics & decision theory,birth-by-fusion,source-first,5,Bruno de Finetti; Frank P. Ramsey; John Maynard Keynes; Leonard J. Savage,events/P417/
 P225,Tarski's quantifier elimination for real algebra (decision method),1931,False,Algebraic geometry,technique-transfer,source-first,5,Alfred Tarski; A. Seidenberg,events/P225/
+P257,Tarski's semantic truth definition and model theory,1932,False,Logic & foundations,birth-by-abstraction,source-first,8,Alfred Tarski; Leopold Lowenheim; C. C. Chang,events/P257/
 P251,Haar measure and abstract harmonic analysis (Weil),1933,False,Functional & harmonic analysis,birth-by-fusion,source-first,7,Alfréd Haar; Lev S. Pontryagin; André Weil; Edwin Hewitt,events/P251/
 P014,Measure theory meets probability (Kolmogorov),1933,False,Probability,birth-by-fusion,source-first,6,Andrei Kolmogorov; Emile Borel; Henri Lebesgue,events/P014/
-P257,Tarski's semantic truth definition and model theory,1933,False,Logic & foundations,birth-by-abstraction,source-first,6,Alfred Tarski; Leopold Lowenheim; C. C. Chang,events/P257/
 P230,"Curry-Howard correspondence (proofs as programs, propositions as types)",1934,False,Logic & foundations,dictionary-analogy,source-first,6,Haskell B. Curry; William Alvin Howard; Per Martin-Lof; Gerhard Gentzen; Philip Wadler,events/P230/
 P463,Leray-Schauder degree and topological methods for nonlinear PDE,1934,False,Functional & harmonic analysis,technique-transfer,source-first,5,Jean Leray; Juliusz Schauder; L. E. J. Brouwer; Deimling,events/P463/
 P104,Ahlfors' covering surfaces and value distribution,1935,False,Analysis,technique-transfer,source-first,4,Rolf Nevanlinna; Lars Ahlfors; Walter Kurt Hayman,events/P104/
 P250,Combinatorial game theory (impartial and partisan games),1935,False,Game theory & economics,birth-by-fusion,source-first,4,John H. Conway; Elwyn Berlekamp; Richard K. Guy; Roland Sprague,events/P250/
 P464,Fibre bundles and characteristic classes,1935,False,Topology,birth-by-fusion,source-first,6,Hassler Whitney; Eduard Stiefel; Shiing-shen Chern; Norman Steenrod; Herbert Seifert,events/P464/
 P248,Hodge theory of harmonic integrals,1935,False,Algebraic geometry,dictionary-analogy,source-first,4,William V. D. Hodge; Erich Kähler,events/P248/
-P270,Kantorovich's functional analysis for numerical methods,1935,False,Numerical analysis,technique-transfer,source-first,4,Leonid Kantorovich; G. P. Akilov,events/P270/
+P270,Kantorovich's functional analysis for numerical methods,1935,False,Numerical analysis,technique-transfer,direct,4,Leonid Kantorovich; G. P. Akilov,events/P270/
 P245,Matroid theory and combinatorial geometry,1935,False,Combinatorics,birth-by-abstraction,source-first,5,Hassler Whitney; W. T. Tutte; D. J. A. Welsh,events/P245/
 P480,Mobius inversion on posets and incidence algebras (Rota),1935,False,Combinatorics,birth-by-abstraction,source-first,6,Gian-Carlo Rota; Louis Weisner; Philip Hall; Richard Stanley,events/P480/
 P200,Computability theory (Church-Turing),1936,False,Logic & foundations,birth-by-abstraction,source-first,6,Alonzo Church; Alan Turing; Emil Post; Stephen Cole Kleene; Hartley Rogers Jr.,events/P200/
 P425,Computational group theory: computers enter group theory,1936,False,Group & representation theory,import-from-outside,source-first,8,J. A. Todd; H. S. M. Coxeter; Alan Turing; M. H. A. Newman; Charles C. Sims,events/P425/
-P052,Computer science separates from mathematics,1936,False,Computer science,split,source-first,7,Alan Turing; Alonzo Church; Louis Fein; Allen Newell,events/P052/
+P052,Computer science separates from mathematics,1936,False,Computer science,split,source-first,8,Alan Turing; Alonzo Church; Louis Fein; Allen Newell,events/P052/
 P050,Erdős discrepancy problem,1936,False,Combinatorics,technique-transfer,source-first,8,Paul Erdős; Paul Turán; Terence Tao; Klaus Roth; Jiří Matoušek,events/P050/
 P423,Lie-ring methods enter the Burnside problem (Magnus to Zelmanov),1937,False,Group & representation theory,technique-transfer,source-first,7,William Burnside; Wilhelm Magnus; A. I. Kostrikin; Efim Zelmanov,events/P423/
 P208,Shannon switching circuits,1938,False,Algorithms & complexity,technique-transfer,source-first,5,George Boole; Claude Shannon; Samuel H. Caldwell,events/P208/
-P290,Sobolev spaces and generalised solutions,1938,False,Functional & harmonic analysis,reification,source-first,5,Sergei Sobolev; Otto Nikodym; Robert A. Adams,events/P290/
-P265,Kantorovich linear programming,1939,False,Optimization & control,import-from-outside,source-first,7,Leonid Kantorovich; George Dantzig; Tjalling Koopmans; Abraham Charnes,events/P265/
+P290,Sobolev spaces and generalised solutions,1938,False,Functional & harmonic analysis,reification,source-first,6,Sergei Sobolev; Otto Nikodym; Robert A. Adams,events/P290/
+P265,Kantorovich linear programming,1939,False,Optimization & control,import-from-outside,direct,8,Leonid Kantorovich; George Dantzig; Tjalling Koopmans; Abraham Charnes,events/P265/
 P209,Linear programming and the simplex method,1939,False,Optimization & control,technique-transfer,source-first,8,Leonid Kantorovich; George Dantzig; Tjalling C. Koopmans; Frank L. Hitchcock,events/P209/
 P236,Statistical decision theory,1939,False,Statistics & decision theory,birth-by-fusion,source-first,4,Abraham Wald; John von Neumann; Oskar Morgenstern,events/P236/
 P016,"Weil's dictionary: number fields, function fields, Riemann surfaces",1939,False,Number theory,dictionary-analogy,source-first,8,Andre Weil; Emil Artin; Helmut Hasse; Richard Dedekind; Heinrich Weber; Bernard Dwork,events/P016/
@@ -253,7 +253,7 @@ P279,Chern: intrinsic Gauss-Bonnet and characteristic classes,1944,False,Differe
 P520,Ito calculus and stochastic differential equations,1944,False,Probability,birth-by-fusion,source-first,6,Kiyosi Ito; Norbert Wiener; Joseph L. Doob,events/P520/
 P210,Axiomatic homology,1945,False,Algebraic topology,reification,source-first,5,Samuel Eilenberg; Norman Steenrod; John Milnor; George W. Whitehead,events/P210/
 P019,Category theory,1945,False,Algebra,reification,direct,4,Samuel Eilenberg; Saunders Mac Lane; Norman Steenrod; Alexander Grothendieck,events/P019/
-P203,Distributions,1945,False,Functional & harmonic analysis,reification,source-first,5,Laurent Schwartz; Sergei Sobolev; Paul Dirac,events/P203/
+P203,Distributions,1945,False,Functional & harmonic analysis,reification,direct,6,Laurent Schwartz; Sergei Sobolev; Paul Dirac,events/P203/
 P219,Recursion theory and realizability,1945,False,Logic & foundations,dictionary-analogy,source-first,5,Stephen C. Kleene; Georg Kreisel,events/P219/
 P080,Landau damping: plasma physics to nonlinear PDE,1946,False,Differential equations,import-from-outside,source-first,7,Lev Landau; John H. Malmberg; Donald Lynden-Bell; Clement Mouhot; Cedric Villani,events/P080/
 P021,Sheaf theory and sheaf cohomology,1946,False,Algebraic geometry,birth-by-fusion,direct,4,Jean Leray; Henri Cartan; Jean-Pierre Serre; Alexander Grothendieck; Roger Godement,events/P021/
@@ -270,7 +270,7 @@ P284,Operations research,1950,False,Applied mathematics,import-from-outside,sour
 P267,Cellular automata and self-reproducing machines,1951,False,Algorithms & complexity,import-from-outside,source-first,8,John von Neumann; Stanislaw Ulam; Gustav A. Hedlund; Stephen Wolfram,events/P267/
 P263,Serre's spectral sequence and homotopy groups,1951,False,Algebraic topology,technique-transfer,source-first,7,Jean-Pierre Serre; Armand Borel; Jean Leray,events/P263/
 P469,Calderon-Zygmund singular integrals in PDE,1952,False,Differential equations,technique-transfer,source-first,4,Alberto Calderon; Antoni Zygmund; Elias M. Stein,events/P469/
-P224,Dynamic programming: Bellman's principle of optimality,1952,False,Dynamics,birth-by-abstraction,source-first,8,Richard Bellman; Abraham Wald; Lloyd Shapley; Ronald Howard,events/P224/
+P224,Dynamic programming: Bellman's principle of optimality,1952,False,Dynamics,birth-by-abstraction,direct,10,Richard Bellman; Abraham Wald; Lloyd Shapley; Ronald Howard,events/P224/
 P473,Mathematical general relativity: nonlinear PDE for Einstein's equations,1952,False,Geometry,import-from-outside,source-first,5,Yvonne Choquet-Bruhat; Demetrios Christodoulou; Sergiu Klainerman,events/P473/
 P103,Kodaira vanishing via harmonic integrals,1953,False,Geometry,technique-transfer,source-first,6,Kunihiko Kodaira; W. V. D. Hodge,events/P103/
 P266,Markov chain Monte Carlo and the Bayesian revival,1953,False,Statistics & decision theory,technique-transfer,source-first,7,Nicholas Metropolis; W. K. Hastings; Stuart Geman and Donald Geman; Alan E. Gelfand and Adrian F. M. Smith; Christian P. Robert and George Casella,events/P266/
@@ -289,7 +289,7 @@ P068,Exotic spheres: algebraic topology reaches differential structures,1956,Fal
 P232,Formal language theory (Chomsky hierarchy and automata),1956,False,Algorithms & complexity,import-from-outside,direct,8,Noam Chomsky; Stephen Cole Kleene; Marcel-Paul Schutzenberger; Michael O. Rabin; Dana S. Scott; Seymour Ginsburg,events/P232/
 P239,Kleene's theorem: regular events and finite automata,1956,False,Algorithms & complexity,birth-by-fusion,source-first,6,Stephen Cole Kleene; Warren McCulloch and Walter Pitts; Michael O. Rabin and Dana Scott,events/P239/
 P040,Modularity of elliptic curves and Fermat's Last Theorem,1956,False,Number theory,technique-transfer,source-first,7,Yutaka Taniyama; Gerhard Frey; Jean-Pierre Serre; Kenneth Ribet; Andrew Wiles; Richard Taylor,events/P040/
-P278,Network flows and combinatorial optimisation,1956,False,Optimization & control,birth-by-fusion,source-first,6,Lester R. Ford Jr.; D. Ray Fulkerson; Jack Edmonds; Richard Karp; Frank Hitchcock,events/P278/
+P278,Network flows and combinatorial optimisation,1956,False,Optimization & control,birth-by-fusion,direct,8,Lester R. Ford Jr.; D. Ray Fulkerson; Jack Edmonds; Richard Karp; Frank Hitchcock,events/P278/
 P269,Pontryagin maximum principle,1956,False,Optimization & control,technique-transfer,source-first,5,Lev Pontryagin; Vladimir Boltyanskii; Revaz Gamkrelidze; Olvi Mangasarian,events/P269/
 P475,Selberg trace formula links spectra of surfaces to number theory,1956,False,Number theory,dictionary-analogy,source-first,5,Atle Selberg; James Arthur; Dennis Hejhal; Henry McKean,events/P475/
 P085,Shannon capacity of graphs and the Lovász theta function,1956,False,Combinatorics,technique-transfer,source-first,6,Claude Shannon; László Lovász; Martin Grötschel; Alexander Schrijver; Donald Knuth,events/P085/
@@ -316,12 +316,12 @@ P277,Surgery theory (controlled modification of manifolds),1961,False,Topology,b
 E33,Atiyah-Singer index theorem,1963,False,Geometry,birth-by-fusion,direct,5,Michael Atiyah; Isadore Singer,events/E33/
 P095,Forcing: independence results enter algebra and analysis,1963,False,Algebra,technique-transfer,source-first,6,Paul Cohen; Kurt Godel; Saharon Shelah,events/P095/
 P258,Hales–Jewett theorem and structured Ramsey partitions,1963,False,Combinatorics,technique-transfer,source-first,6,Alfred W. Hales; Robert I. Jewett; Ronald L. Graham; Hillel Furstenberg,events/P258/
+P221,Computational complexity,1964,False,Algorithms & complexity,split,direct,8,Alan Cobham; Juris Hartmanis; Manuel Blum; Stephen Cook; Richard Karp,events/P221/
 P484,Deformation theory of rings and algebras (Gerstenhaber),1964,False,Algebra,dictionary-analogy,source-first,7,Murray Gerstenhaber; Gerhard Hochschild; Kunihiko Kodaira; Donald Spencer,events/P484/
 P424,Golod-Shafarevich: nil algebras produce infinite periodic groups,1964,False,Group & representation theory,technique-transfer,source-first,4,Evgeny Golod; Igor Shafarevich; Sergei Adian; Pyotr Novikov,events/P424/
 P241,Rota combinatorial theory,1964,False,Combinatorics,reification,source-first,4,Gian-Carlo Rota; Philip Hall; Richard Stanley; Martin Aigner,events/P241/
 P226,Algorithmic information theory (randomness via program length),1965,False,Algorithms & complexity,birth-by-fusion,source-first,8,Ray Solomonoff; Andrey Kolmogorov; Gregory Chaitin; Per Martin-Lof,events/P226/
 P233,Ax-Kochen,1965,False,Logic & foundations,technique-transfer,source-first,4,James Ax; Simon B. Kochen; Alexander Prestel; Martin Ziegler,events/P233/
-P221,Computational complexity,1965,False,Algorithms & complexity,split,source-first,6,Alan Cobham; Juris Hartmanis; Manuel Blum; Stephen Cook; Richard Karp,events/P221/
 P204,Fermi-Pasta-Ulam problem and solitons,1965,False,Differential equations,import-from-outside,source-first,7,Norman Zabusky; Martin Kruskal; Clifford Gardner; Peter Lax; Mark Ablowitz,events/P204/
 P227,Fuzzy sets,1965,False,Logic & foundations,birth-by-abstraction,source-first,6,Lotfi A. Zadeh; Joseph A. Goguen; Ebrahim H. Mamdani; Didier Dubois,events/P227/
 P070,Geometric invariant theory and moduli,1965,False,Algebraic geometry,technique-transfer,source-first,7,Arthur Cayley; Paul Gordan; David Hilbert; David Mumford,events/P070/
@@ -337,7 +337,7 @@ P206,Kac-Moody algebras,1967,False,Group & representation theory,birth-by-abstra
 P214,"Smale's hyperbolic dynamics (Axiom A, structural stability)",1967,False,Dynamics,technique-transfer,source-first,8,Stephen Smale; Rufus Bowen; David Ruelle; Floris Takens; Joel Robbin; Jacob Palis,events/P214/
 P291,Tate's thesis and adelic harmonic analysis,1967,False,Number theory,technique-transfer,source-first,5,John Tate; Roger Godement and Herve Jacquet,events/P291/
 P240,Twistor theory,1967,False,Mathematical physics,import-from-outside,source-first,6,Roger Penrose; Michael Atiyah; R. S. Ward; Raymond O. Wells jun.; Nigel Hitchin; Isadore Singer,events/P240/
-P207,Yang-Baxter and solvable lattice models,1967,False,Differential equations,import-from-outside,source-first,6,Chen-Ning Yang; J. B. McGuire; Rodney J. Baxter; Ludwig D. Faddeev; Evgeny K. Sklyanin; Leon A. Takhtajan,events/P207/
+P207,Yang-Baxter and solvable lattice models,1967,False,Differential equations,import-from-outside,direct,8,Chen-Ning Yang; J. B. McGuire; Rodney J. Baxter; Ludwig D. Faddeev; Evgeny K. Sklyanin; Leon A. Takhtajan,events/P207/
 P478,Analysis of algorithms (Knuth),1968,False,Computer science,birth-by-fusion,source-first,5,Donald Knuth; Philippe Flajolet,events/P478/
 P500,Variation of Hodge structure and period domains (Griffiths),1968,False,Algebraic geometry,birth-by-fusion,source-first,5,Phillip Griffiths; Kunihiko Kodaira,events/P500/
 P218,Catastrophe theory,1969,False,Dynamics,import-from-outside,source-first,6,René Thom; Christopher Zeeman; Hassler Whitney,events/P218/
@@ -414,7 +414,7 @@ P072,Quantum groups from statistical mechanics,1985,False,Algebra,import-from-ou
 P035,Symplectic topology,1985,False,Differential geometry,birth-by-fusion,source-first,6,Hermann Weyl; Mikhail Gromov; Andreas Floer; Dusa McDuff; Dietmar Salamon; Vladimir Arnold,events/P035/
 P474,Hida theory: p-adic families of modular forms,1986,False,Number theory,birth-by-fusion,source-first,6,Haruzo Hida; Jean-Pierre Serre; Nicholas Katz,events/P474/
 P273,Ribet and modularity,1986,False,Number theory,technique-transfer,source-first,6,Gerhard Frey; Jean-Pierre Serre; Kenneth Ribet; Andrew Wiles,events/P273/
-P274,Vertex operator algebras,1986,False,Group & representation theory,birth-by-fusion,source-first,4,Richard Borcherds; Igor Frenkel; James Lepowsky; Arne Meurman; Yongchang Zhu; Victor Kac,events/P274/
+P274,Vertex operator algebras,1986,False,Group & representation theory,birth-by-fusion,direct,5,Richard Borcherds; Igor Frenkel; James Lepowsky; Arne Meurman; Yongchang Zhu; Victor Kac,events/P274/
 P486,Elliptic cohomology and topological modular forms,1987,False,Algebraic topology,birth-by-fusion,source-first,6,Edward Witten; Serge Ochanine; Peter Landweber; Michael Hopkins; Jacob Lurie,events/P486/
 P238,Floer homology,1987,False,Algebraic topology,technique-transfer,direct,4,Andreas Floer,events/P238/
 P058,Geometric Langlands and its physics,1987,False,Algebraic geometry,dictionary-analogy,source-first,8,Robert Langlands; Vladimir Drinfeld; Gerard Laumon; Edward Witten; Dennis Gaitsgory; Edward Frenkel,events/P058/
@@ -514,7 +514,7 @@ P527,Amplituhedron: scattering amplitudes as volumes in positive geometry,2013,F
 P353,Kadison-Singer via interlacing polynomials,2013,False,Group & representation theory,technique-transfer,direct,6,Daniel A. Spielman,events/P353/
 P310,Ramanujan graphs / interlacing,2013,False,Graph theory,technique-transfer,direct,4,Daniel A. Spielman,events/P310/
 P049,Regularity structures,2013,False,Probability,birth-by-fusion,direct,6,Martin Hairer,events/P049/
-P547,Triangulation conjecture disproved via Pin(2)-equivariant Seiberg-Witten Floer theory,2013,False,Topology,technique-transfer,source-first,6,Ciprian Manolescu; D. Galewski; Stern,events/P547/
+P547,Triangulation conjecture disproved via Pin(2)-equivariant Seiberg-Witten Floer theory,2013,False,Topology,technique-transfer,direct,8,Ciprian Manolescu; D. Galewski; Stern,events/P547/
 P101,Virtual fundamental cycles via homotopical algebra,2013,False,Geometry,technique-transfer,direct,5,John Pardon,events/P101/
 P538,Higher-form and non-invertible symmetries in quantum field theory,2014,False,Category & homological algebra,birth-by-abstraction,direct,4,Davide Gaiotto,events/P538/
 P350,"Kakeya and Bourgain-Guth, decoupling for Vinogradov",2014,False,Number theory,technique-transfer,direct,4,Ciprian Demeter,events/P350/

@@ -1030,7 +1030,7 @@
   },
   {
    "pid": "P009",
-   "year": 1847,
+   "year": 1846,
    "type": "abstraction",
    "from": "Algebra",
    "to": "Number theory",
@@ -4166,7 +4166,7 @@
   },
   {
    "pid": "P358",
-   "year": 1876,
+   "year": 1874,
    "type": "fusion",
    "from": "Differential equations",
    "to": "Group & representation theory",
@@ -4174,7 +4174,7 @@
   },
   {
    "pid": "P358",
-   "year": 1876,
+   "year": 1874,
    "type": "fusion",
    "from": "Geometry",
    "to": "Group & representation theory",
@@ -4694,7 +4694,7 @@
   },
   {
    "pid": "P430",
-   "year": 1751,
+   "year": 1765,
    "type": "abstraction",
    "from": "Differential equations",
    "to": "Algebra",
@@ -6804,7 +6804,7 @@
   },
   {
    "pid": "P221",
-   "year": 1965,
+   "year": 1964,
    "type": "split",
    "from": "Logic & foundations",
    "to": "Algorithms & complexity",
@@ -6872,8 +6872,8 @@
    ],
    "initials": "MI",
    "cid": "E02",
-   "x": 0.684,
-   "z": 0.197
+   "x": 0.584,
+   "z": 0.191
   },
   {
    "pid": "P002",
@@ -6882,18 +6882,18 @@
    "type": "birth-by-abstraction",
    "field": "Analysis",
    "name": "The calculus (differential and integral calculus)",
-   "tier": "source-first",
+   "tier": "direct",
    "glyph": "∫",
-   "main": 0,
-   "weight": 7.5,
+   "main": 1,
+   "weight": 12.5,
    "from": [
     0,
     2
    ],
    "initials": "GW",
    "cid": "E04",
-   "x": -0.52,
-   "z": -0.105
+   "x": -0.727,
+   "z": -0.06
   },
   {
    "pid": "P003",
@@ -6921,10 +6921,10 @@
    "type": "birth-by-abstraction",
    "field": "Graph theory",
    "name": "Graph theory from the Königsberg bridges",
-   "tier": "source-first",
+   "tier": "direct",
    "glyph": "⇝",
    "main": 1,
-   "weight": 12.0,
+   "weight": 15.0,
    "from": [
     2,
     5
@@ -6950,8 +6950,8 @@
    ],
    "initials": "LE",
    "cid": "E07",
-   "x": -0.107,
-   "z": 0.075
+   "x": -0.148,
+   "z": 0.04
   },
   {
    "pid": "P006",
@@ -6962,13 +6962,13 @@
    "name": "Group theory from the solution of polynomial equations",
    "tier": "direct",
    "glyph": "Gal",
-   "main": 1,
+   "main": 0,
    "weight": 9.5,
    "from": [],
    "initials": "EG",
    "cid": "E08",
-   "x": -0.095,
-   "z": -0.541
+   "x": -0.085,
+   "z": -0.513
   },
   {
    "pid": "P007",
@@ -6978,16 +6978,16 @@
    "field": "Functional & harmonic analysis",
    "name": "Fourier series: from heat flow to analysis",
    "tier": "source-first",
-   "glyph": "ℱ",
-   "main": 0,
-   "weight": 8.0,
+   "glyph": "κ",
+   "main": 1,
+   "weight": 9.0,
    "from": [
     14
    ],
    "initials": "JF",
    "cid": "E09",
-   "x": 0.021,
-   "z": -0.101
+   "x": 0.048,
+   "z": -0.023
   },
   {
    "pid": "P008",
@@ -7011,22 +7011,22 @@
   },
   {
    "pid": "P009",
-   "year": 1847,
+   "year": 1846,
    "approx": false,
    "type": "birth-by-abstraction",
    "field": "Number theory",
    "name": "Ideals and algebraic number theory",
-   "tier": "source-first",
+   "tier": "direct",
    "glyph": "⟨a⟩",
-   "main": 0,
-   "weight": 7.5,
+   "main": 1,
+   "weight": 11.5,
    "from": [
     0
    ],
    "initials": "EE",
    "cid": "E11",
-   "x": -0.587,
-   "z": -0.542
+   "x": -0.722,
+   "z": -0.087
   },
   {
    "pid": "P010",
@@ -7084,8 +7084,8 @@
    ],
    "initials": "RD",
    "cid": "E17",
-   "x": 0.731,
-   "z": -0.009
+   "x": 0.729,
+   "z": -0.045
   },
   {
    "pid": "P013",
@@ -7105,8 +7105,8 @@
    ],
    "initials": "VV",
    "cid": "E18",
-   "x": -0.224,
-   "z": 0.127
+   "x": -0.66,
+   "z": 0.018
   },
   {
    "pid": "P014",
@@ -7144,8 +7144,8 @@
    ],
    "initials": "HW",
    "cid": "E20",
-   "x": -0.062,
-   "z": -0.041
+   "x": -0.028,
+   "z": -0.054
   },
   {
    "pid": "P016",
@@ -7164,8 +7164,8 @@
    ],
    "initials": "AW",
    "cid": "E23",
-   "x": -0.102,
-   "z": -0.157
+   "x": -0.211,
+   "z": -0.099
   },
   {
    "pid": "E25",
@@ -7221,8 +7221,8 @@
    ],
    "initials": "SE",
    "cid": "E27",
-   "x": 0.36,
-   "z": 0.371
+   "x": 0.451,
+   "z": 0.442
   },
   {
    "pid": "P020",
@@ -7302,8 +7302,8 @@
    ],
    "initials": "AW",
    "cid": "E31",
-   "x": 0.266,
-   "z": -0.367
+   "x": 0.245,
+   "z": -0.427
   },
   {
    "pid": "E32",
@@ -7321,8 +7321,8 @@
    ],
    "initials": "YM",
    "cid": "E32",
-   "x": 0.132,
-   "z": -0.099
+   "x": 0.131,
+   "z": -0.057
   },
   {
    "pid": "E33",
@@ -7361,8 +7361,8 @@
    ],
    "initials": "RP",
    "cid": "E34",
-   "x": -0.716,
-   "z": -0.112
+   "x": -0.483,
+   "z": -0.41
   },
   {
    "pid": "P027",
@@ -7381,8 +7381,8 @@
    ],
    "initials": "AO",
    "cid": "E35",
-   "x": -0.365,
-   "z": -0.297
+   "x": -0.295,
+   "z": -0.359
   },
   {
    "pid": "E36",
@@ -7419,8 +7419,8 @@
    ],
    "initials": "HM",
    "cid": "E37",
-   "x": 0.115,
-   "z": -0.343
+   "x": 0.212,
+   "z": -0.297
   },
   {
    "pid": "P030",
@@ -7457,8 +7457,8 @@
    ],
    "initials": "MG",
    "cid": "E39",
-   "x": 0.639,
-   "z": -0.541
+   "x": 0.688,
+   "z": -0.532
   },
   {
    "pid": "P032",
@@ -7517,8 +7517,8 @@
    ],
    "initials": "VJ",
    "cid": "E42",
-   "x": -0.021,
-   "z": -0.568
+   "x": -0.008,
+   "z": -0.554
   },
   {
    "pid": "P035",
@@ -7558,8 +7558,8 @@
    ],
    "initials": "JC",
    "cid": "E44",
-   "x": 0.557,
-   "z": 0.354
+   "x": 0.581,
+   "z": 0.331
   },
   {
    "pid": "P037",
@@ -7597,8 +7597,8 @@
    ],
    "initials": "EH",
    "cid": "E46",
-   "x": -0.083,
-   "z": -0.429
+   "x": -0.038,
+   "z": -0.439
   },
   {
    "pid": "P039",
@@ -7628,7 +7628,7 @@
    "name": "Modularity of elliptic curves and Fermat's Last Theorem",
    "tier": "source-first",
    "glyph": "E",
-   "main": 1,
+   "main": 0,
    "weight": 10.0,
    "from": [
     0,
@@ -7637,8 +7637,8 @@
    ],
    "initials": "YT",
    "cid": "E48",
-   "x": -0.473,
-   "z": -0.416
+   "x": -0.346,
+   "z": -0.478
   },
   {
    "pid": "E49",
@@ -7677,8 +7677,8 @@
    ],
    "initials": "BG",
    "cid": "E50",
-   "x": 0.208,
-   "z": -0.723
+   "x": 0.183,
+   "z": -0.614
   },
   {
    "pid": "E51",
@@ -7715,8 +7715,8 @@
    ],
    "initials": "JB",
    "cid": "E52",
-   "x": 0.742,
-   "z": 0.456
+   "x": 0.711,
+   "z": 0.473
   },
   {
    "pid": "P045",
@@ -7736,8 +7736,8 @@
    ],
    "initials": "RH",
    "cid": "E53",
-   "x": -0.266,
-   "z": -0.508
+   "x": -0.265,
+   "z": -0.509
   },
   {
    "pid": "P046",
@@ -7868,7 +7868,7 @@
    "tier": "source-first",
    "glyph": "λ",
    "main": 1,
-   "weight": 9.0,
+   "weight": 10.0,
    "from": [
     0,
     7
@@ -7894,8 +7894,8 @@
    ],
    "initials": "BR",
    "cid": "E61",
-   "x": -0.179,
-   "z": -0.25
+   "x": -0.244,
+   "z": -0.238
   },
   {
    "pid": "P054",
@@ -7913,8 +7913,8 @@
    ],
    "initials": "HP",
    "cid": "E62",
-   "x": 0.22,
-   "z": 0.233
+   "x": 0.177,
+   "z": 0.213
   },
   {
    "pid": "P055",
@@ -7932,8 +7932,8 @@
    ],
    "initials": "AG",
    "cid": "E63",
-   "x": -0.392,
-   "z": -0.191
+   "x": -0.207,
+   "z": -0.182
   },
   {
    "pid": "P056",
@@ -7951,8 +7951,8 @@
    ],
    "initials": "JP",
    "cid": "E64",
-   "x": -0.036,
-   "z": -0.642
+   "x": 0.017,
+   "z": -0.636
   },
   {
    "pid": "P057",
@@ -7970,8 +7970,8 @@
    ],
    "initials": "VD",
    "cid": "E65",
-   "x": 0.672,
-   "z": -0.217
+   "x": 0.216,
+   "z": -0.168
   },
   {
    "pid": "P058",
@@ -8009,8 +8009,8 @@
    ],
    "initials": "GH",
    "cid": "E67",
-   "x": -0.193,
-   "z": -0.356
+   "x": -0.127,
+   "z": -0.341
   },
   {
    "pid": "P060",
@@ -8067,8 +8067,8 @@
    ],
    "initials": "WP",
    "cid": "E71",
-   "x": 0.029,
-   "z": -0.399
+   "x": -0.114,
+   "z": -0.364
   },
   {
    "pid": "P063",
@@ -8124,8 +8124,8 @@
    ],
    "initials": "HM",
    "cid": "E76",
-   "x": 0.085,
-   "z": 0.036
+   "x": 0.042,
+   "z": 0.062
   },
   {
    "pid": "P066",
@@ -8163,8 +8163,8 @@
    ],
    "initials": "RT",
    "cid": "B01",
-   "x": -0.299,
-   "z": 0.013
+   "x": -0.324,
+   "z": 0.014
   },
   {
    "pid": "P068",
@@ -8182,8 +8182,8 @@
    ],
    "initials": "JM",
    "cid": "B02",
-   "x": -0.572,
-   "z": -0.033
+   "x": -0.613,
+   "z": -0.019
   },
   {
    "pid": "P069",
@@ -8258,8 +8258,8 @@
    ],
    "initials": "VD",
    "cid": "B06",
-   "x": 0.476,
-   "z": -0.225
+   "x": 0.55,
+   "z": -0.309
   },
   {
    "pid": "P073",
@@ -8277,8 +8277,8 @@
    ],
    "initials": "MG",
    "cid": "B07",
-   "x": 0.29,
-   "z": -0.514
+   "x": 0.427,
+   "z": -0.475
   },
   {
    "pid": "P074",
@@ -8297,8 +8297,8 @@
    ],
    "initials": "WT",
    "cid": "B08",
-   "x": 0.563,
-   "z": 0.57
+   "x": 0.583,
+   "z": 0.561
   },
   {
    "pid": "P075",
@@ -8316,8 +8316,8 @@
    ],
    "initials": "MK",
    "cid": "B09",
-   "x": 0.928,
-   "z": -0.26
+   "x": 0.943,
+   "z": -0.227
   },
   {
    "pid": "P076",
@@ -8336,8 +8336,8 @@
    ],
    "initials": "DS",
    "cid": "B10",
-   "x": -0.625,
-   "z": -0.284
+   "x": -0.433,
+   "z": -0.44
   },
   {
    "pid": "P077",
@@ -8394,8 +8394,8 @@
    ],
    "initials": "EL",
    "cid": "B13",
-   "x": -0.053,
-   "z": -0.544
+   "x": -0.042,
+   "z": -0.545
   },
   {
    "pid": "P080",
@@ -8413,8 +8413,8 @@
    ],
    "initials": "LL",
    "cid": "B14",
-   "x": -0.02,
-   "z": -0.545
+   "x": 0.107,
+   "z": -0.54
   },
   {
    "pid": "P081",
@@ -8433,8 +8433,8 @@
    ],
    "initials": "MB",
    "cid": "B15",
-   "x": -0.378,
-   "z": -0.547
+   "x": -0.31,
+   "z": -0.584
   },
   {
    "pid": "P082",
@@ -8452,8 +8452,8 @@
    ],
    "initials": "PS",
    "cid": "B16",
-   "x": 0.372,
-   "z": -0.47
+   "x": 0.413,
+   "z": -0.451
   },
   {
    "pid": "P083",
@@ -8471,8 +8471,8 @@
    ],
    "initials": "CS",
    "cid": "B17",
-   "x": 0.286,
-   "z": -0.01
+   "x": 0.267,
+   "z": -0.111
   },
   {
    "pid": "P084",
@@ -8491,8 +8491,8 @@
    ],
    "initials": "AH",
    "cid": "B18",
-   "x": 0.174,
-   "z": -0.53
+   "x": 0.329,
+   "z": -0.487
   },
   {
    "pid": "P085",
@@ -8549,8 +8549,8 @@
    ],
    "initials": "DS",
    "cid": "B21",
-   "x": -0.846,
-   "z": -0.098
+   "x": -0.87,
+   "z": -0.127
   },
   {
    "pid": "P088",
@@ -8569,8 +8569,8 @@
    ],
    "initials": "VM",
    "cid": "B22",
-   "x": 0.436,
-   "z": -0.17
+   "x": 0.534,
+   "z": -0.182
   },
   {
    "pid": "P089",
@@ -8608,8 +8608,8 @@
    ],
    "initials": "ZM",
    "cid": "B24",
-   "x": 0.907,
-   "z": 0.116
+   "x": 0.964,
+   "z": 0.022
   },
   {
    "pid": "P091",
@@ -8627,8 +8627,8 @@
    ],
    "initials": "JT",
    "cid": "B25",
-   "x": 0.623,
-   "z": -0.353
+   "x": 0.473,
+   "z": -0.487
   },
   {
    "pid": "P092",
@@ -8648,7 +8648,7 @@
    "initials": "JT",
    "cid": "B26",
    "x": 0.023,
-   "z": -0.207
+   "z": -0.295
   },
   {
    "pid": "P093",
@@ -8666,8 +8666,8 @@
    ],
    "initials": "GF",
    "cid": "B27",
-   "x": 0.116,
-   "z": -0.593
+   "x": 0.123,
+   "z": -0.511
   },
   {
    "pid": "P094",
@@ -8685,8 +8685,8 @@
    ],
    "initials": "YV",
    "cid": "B28",
-   "x": -0.301,
-   "z": -0.425
+   "x": -0.188,
+   "z": -0.469
   },
   {
    "pid": "P095",
@@ -8704,8 +8704,8 @@
    ],
    "initials": "PC",
    "cid": "B29",
-   "x": 0.537,
-   "z": 0.078
+   "x": 0.783,
+   "z": 0.128
   },
   {
    "pid": "P096",
@@ -8724,8 +8724,8 @@
    ],
    "initials": "GM",
    "cid": "B30",
-   "x": -0.482,
-   "z": -0.646
+   "x": -0.514,
+   "z": -0.552
   },
   {
    "pid": "P097",
@@ -8743,8 +8743,8 @@
    ],
    "initials": "EW",
    "cid": "B31",
-   "x": 0.048,
-   "z": -0.221
+   "x": 0.236,
+   "z": -0.232
   },
   {
    "pid": "P098",
@@ -8763,8 +8763,8 @@
    ],
    "initials": "LH",
    "cid": "B32",
-   "x": -0.149,
-   "z": -0.376
+   "x": -0.615,
+   "z": -0.513
   },
   {
    "pid": "B33",
@@ -8783,8 +8783,8 @@
    ],
    "initials": "HW",
    "cid": "B33",
-   "x": 0.459,
-   "z": 0.389
+   "x": 0.545,
+   "z": 0.35
   },
   {
    "pid": "P100",
@@ -8802,8 +8802,8 @@
    ],
    "initials": "LB",
    "cid": "B34",
-   "x": 0.699,
-   "z": -0.162
+   "x": 0.73,
+   "z": -0.034
   },
   {
    "pid": "P101",
@@ -8880,8 +8880,8 @@
    ],
    "initials": "RN",
    "cid": "B38",
-   "x": 0.404,
-   "z": 0.181
+   "x": 0.653,
+   "z": 0.172
   },
   {
    "pid": "P105",
@@ -8900,7 +8900,7 @@
    "initials": "SS",
    "cid": "B39",
    "x": -0.52,
-   "z": -0.613
+   "z": -0.629
   },
   {
    "pid": "P106",
@@ -8937,8 +8937,8 @@
    ],
    "initials": "ME",
    "cid": "B41",
-   "x": -0.214,
-   "z": -0.621
+   "x": -0.254,
+   "z": -0.714
   },
   {
    "pid": "P108",
@@ -8994,8 +8994,8 @@
    ],
    "initials": "NO",
    "cid": "WA33/MA40",
-   "x": 0.12,
-   "z": -0.166
+   "x": -0.196,
+   "z": -0.189
   },
   {
    "pid": "P111",
@@ -9013,8 +9013,8 @@
    ],
    "initials": "A",
    "cid": "MA17/WA19",
-   "x": -0.688,
-   "z": -0.421
+   "x": -0.673,
+   "z": -0.462
   },
   {
    "pid": "P112",
@@ -9064,8 +9064,8 @@
    "from": [],
    "initials": "PF",
    "cid": "WA63/MA58",
-   "x": -0.523,
-   "z": 0.272
+   "x": -0.584,
+   "z": 0.265
   },
   {
    "pid": "P115",
@@ -9084,8 +9084,8 @@
    ],
    "initials": "BC",
    "cid": "WA43/MA57",
-   "x": 0.351,
-   "z": 0.691
+   "x": 0.362,
+   "z": 0.688
   },
   {
    "pid": "P116",
@@ -9184,8 +9184,8 @@
    ],
    "initials": "LE",
    "cid": "MA82/WA60",
-   "x": 0.45,
-   "z": -0.647
+   "x": 0.455,
+   "z": -0.657
   },
   {
    "pid": "P121",
@@ -9222,8 +9222,8 @@
    ],
    "initials": "A",
    "cid": "MA31/WA25",
-   "x": 0.134,
-   "z": 0.387
+   "x": 0.208,
+   "z": 0.392
   },
   {
    "pid": "P123",
@@ -9241,8 +9241,8 @@
    ],
    "initials": "DO",
    "cid": "WA13/MA16",
-   "x": -0.154,
-   "z": 0.126
+   "x": -0.038,
+   "z": 0.124
   },
   {
    "pid": "P124",
@@ -9260,8 +9260,8 @@
    ],
    "initials": "CF",
    "cid": "WA81/MA89",
-   "x": -0.486,
-   "z": -0.185
+   "x": -0.427,
+   "z": -0.276
   },
   {
    "pid": "P125",
@@ -9279,8 +9279,8 @@
    ],
    "initials": "OK",
    "cid": "WA28/MA36",
-   "x": 0.245,
-   "z": -0.195
+   "x": 0.363,
+   "z": -0.198
   },
   {
    "pid": "P126",
@@ -9299,8 +9299,8 @@
    ],
    "initials": "B",
    "cid": "MA19/WA21",
-   "x": -0.353,
-   "z": 0.182
+   "x": -0.382,
+   "z": 0.246
   },
   {
    "pid": "P127",
@@ -9357,8 +9357,8 @@
    ],
    "initials": "MO",
    "cid": "WA22/MA42",
-   "x": -0.165,
-   "z": 0.171
+   "x": -0.081,
+   "z": 0.225
   },
   {
    "pid": "P130",
@@ -9426,10 +9426,10 @@
    "type": "import-from-outside",
    "field": "Mathematical physics",
    "name": "Newton's Principia",
-   "tier": "source-first",
+   "tier": "direct",
    "glyph": "F=ma",
    "main": 1,
-   "weight": 8.0,
+   "weight": 12.0,
    "from": [
     2,
     3
@@ -9512,8 +9512,8 @@
    ],
    "initials": "SZ",
    "cid": "MA24/WA17",
-   "x": -0.422,
-   "z": -0.048
+   "x": -0.549,
+   "z": -0.167
   },
   {
    "pid": "P138",
@@ -9529,8 +9529,8 @@
    "from": [],
    "initials": "PR",
    "cid": "WA65/MA98",
-   "x": -0.555,
-   "z": 0.098
+   "x": -0.726,
+   "z": -0.013
   },
   {
    "pid": "P139",
@@ -9567,8 +9567,8 @@
    ],
    "initials": "FV",
    "cid": "MA46/WA38",
-   "x": 0.82,
-   "z": -0.416
+   "x": 0.782,
+   "z": -0.37
   },
   {
    "pid": "P141",
@@ -9605,8 +9605,8 @@
    ],
    "initials": "LE",
    "cid": "MA79/WA61",
-   "x": -0.394,
-   "z": 0.281
+   "x": -0.603,
+   "z": 0.171
   },
   {
    "pid": "P143",
@@ -9626,8 +9626,8 @@
    ],
    "initials": "JN",
    "cid": "WA39/MA49",
-   "x": -0.228,
-   "z": 0.434
+   "x": -0.201,
+   "z": 0.401
   },
   {
    "pid": "P144",
@@ -9672,18 +9672,18 @@
    "type": "technique-transfer",
    "field": "Analysis",
    "name": "Fermat's adequality (method of maxima, minima and tangents)",
-   "tier": "source-first",
+   "tier": "direct",
    "glyph": "∫",
    "main": 0,
-   "weight": 5.0,
+   "weight": 7.0,
    "from": [
     0,
     2
    ],
    "initials": "PF",
    "cid": "MA56/WA41",
-   "x": -0.233,
-   "z": -0.103
+   "x": -0.31,
+   "z": -0.121
   },
   {
    "pid": "P147",
@@ -9699,8 +9699,8 @@
    "from": [],
    "initials": "TS",
    "cid": "WA51",
-   "x": 0.221,
-   "z": -0.509
+   "x": 0.081,
+   "z": -0.393
   },
   {
    "pid": "P148",
@@ -9748,18 +9748,18 @@
    "type": "dictionary-analogy",
    "field": "Analysis",
    "name": "De Moivre's formula: trigonometry and complex powers",
-   "tier": "source-first",
+   "tier": "direct",
    "glyph": "lim",
    "main": 0,
-   "weight": 6.5,
+   "weight": 9.5,
    "from": [
     0,
     3
    ],
    "initials": "AM",
    "cid": "MA75",
-   "x": -0.605,
-   "z": 0.414
+   "x": -0.647,
+   "z": 0.453
   },
   {
    "pid": "P151",
@@ -9778,8 +9778,8 @@
    ],
    "initials": "GW",
    "cid": "WA52",
-   "x": -0.132,
-   "z": 0.154
+   "x": -0.144,
+   "z": -0.022
   },
   {
    "pid": "P152",
@@ -9816,8 +9816,8 @@
    ],
    "initials": "CG",
    "cid": "WA83",
-   "x": -0.225,
-   "z": -0.038
+   "x": -0.34,
+   "z": 0.003
   },
   {
    "pid": "P154",
@@ -9833,8 +9833,8 @@
    "from": [],
    "initials": "BT",
    "cid": "MA77",
-   "x": -0.361,
-   "z": -0.285
+   "x": -0.552,
+   "z": -0.23
   },
   {
    "pid": "P155",
@@ -9947,8 +9947,8 @@
    ],
    "initials": "OK",
    "cid": "MA33",
-   "x": 0.015,
-   "z": -0.197
+   "x": -0.062,
+   "z": -0.229
   },
   {
    "pid": "P161",
@@ -9986,8 +9986,8 @@
    ],
    "initials": "JR",
    "cid": "WA75",
-   "x": -0.107,
-   "z": -0.1
+   "x": -0.41,
+   "z": -0.135
   },
   {
    "pid": "P163",
@@ -10005,8 +10005,8 @@
    ],
    "initials": "IN",
    "cid": "MA65",
-   "x": -0.384,
-   "z": 0.071
+   "x": -0.335,
+   "z": 0.13
   },
   {
    "pid": "P164",
@@ -10024,8 +10024,8 @@
    ],
    "initials": "E",
    "cid": "MA9",
-   "x": 0.471,
-   "z": -0.055
+   "x": 0.509,
+   "z": -0.099
   },
   {
    "pid": "P165",
@@ -10062,8 +10062,8 @@
    ],
    "initials": "CG",
    "cid": "MA101",
-   "x": -0.299,
-   "z": -0.164
+   "x": -0.37,
+   "z": -0.142
   },
   {
    "pid": "P167",
@@ -10157,8 +10157,8 @@
    ],
    "initials": "GS",
    "cid": "WA40",
-   "x": 0.404,
-   "z": -0.575
+   "x": 0.339,
+   "z": -0.581
   },
   {
    "pid": "P172",
@@ -10195,8 +10195,8 @@
    ],
    "initials": "LZ",
    "cid": "MA26",
-   "x": 0.272,
-   "z": 0.527
+   "x": 0.309,
+   "z": 0.564
   },
   {
    "pid": "P174",
@@ -10212,8 +10212,8 @@
    "from": [],
    "initials": "JW",
    "cid": "MA62",
-   "x": 0.485,
-   "z": -0.369
+   "x": 0.589,
+   "z": -0.379
   },
   {
    "pid": "P175",
@@ -10267,8 +10267,8 @@
    ],
    "initials": "FM",
    "cid": "MA32",
-   "x": -0.007,
-   "z": 0.255
+   "x": -0.001,
+   "z": 0.297
   },
   {
    "pid": "P178",
@@ -10287,8 +10287,8 @@
    ],
    "initials": "A",
    "cid": "WA32",
-   "x": 0.223,
-   "z": 0.345
+   "x": 0.185,
+   "z": 0.305
   },
   {
    "pid": "P179",
@@ -10325,8 +10325,8 @@
    ],
    "initials": "JL",
    "cid": "MA86",
-   "x": -0.84,
-   "z": 0.305
+   "x": -0.826,
+   "z": 0.296
   },
   {
    "pid": "P181",
@@ -10439,8 +10439,8 @@
    ],
    "initials": "ON",
    "cid": "MA2",
-   "x": 0.083,
-   "z": 0.1
+   "x": 0.167,
+   "z": 0.059
   },
   {
    "pid": "P187",
@@ -10469,16 +10469,16 @@
    "field": "Differential equations",
    "name": "Potential theory in celestial mechanics and physics",
    "tier": "source-first",
-   "glyph": "Δφ",
-   "main": 1,
+   "glyph": "{,}",
+   "main": 0,
    "weight": 9.0,
    "from": [
     14
    ],
    "initials": "PL",
    "cid": "MA88",
-   "x": 0.16,
-   "z": 0.018
+   "x": -0.156,
+   "z": -0.272
   },
   {
    "pid": "P189",
@@ -10552,8 +10552,8 @@
    "from": [],
    "initials": "GL",
    "cid": "MA71",
-   "x": 0.445,
-   "z": -0.433
+   "x": 0.23,
+   "z": -0.518
   },
   {
    "pid": "P193",
@@ -10571,8 +10571,8 @@
    ],
    "initials": "FV",
    "cid": "MA47",
-   "x": -0.105,
-   "z": 0.407
+   "x": -0.083,
+   "z": 0.45
   },
   {
    "pid": "P194",
@@ -10590,8 +10590,8 @@
    ],
    "initials": "JK",
    "cid": "MA50",
-   "x": 0.157,
-   "z": -0.224
+   "x": 0.074,
+   "z": -0.265
   },
   {
    "pid": "P195",
@@ -10600,18 +10600,18 @@
    "type": "birth-by-abstraction",
    "field": "Analysis",
    "name": "Eudoxus: theory of proportion and method of exhaustion",
-   "tier": "source-first",
-   "glyph": "∫",
+   "tier": "direct",
+   "glyph": "lim",
    "main": 1,
-   "weight": 10.5,
+   "weight": 12.5,
    "from": [
     1,
     2
    ],
    "initials": "EO",
    "cid": "WA4",
-   "x": 0.002,
-   "z": 0.012
+   "x": 0.124,
+   "z": 0.074
   },
   {
    "pid": "P196",
@@ -10644,8 +10644,8 @@
    "from": [],
    "initials": "P",
    "cid": "MA3",
-   "x": 0.443,
-   "z": 0.096
+   "x": 0.459,
+   "z": 0.054
   },
   {
    "pid": "P198",
@@ -10671,10 +10671,10 @@
    "type": "technique-transfer",
    "field": "Dynamics",
    "name": "Ergodic theory from statistical mechanics",
-   "tier": "source-first",
+   "tier": "direct",
    "glyph": "↺",
    "main": 1,
-   "weight": 15.0,
+   "weight": 14.0,
    "from": [
     12,
     24
@@ -10731,18 +10731,18 @@
    "type": "reification",
    "field": "Functional & harmonic analysis",
    "name": "Distributions",
-   "tier": "source-first",
+   "tier": "direct",
    "glyph": "ℱ",
-   "main": 0,
-   "weight": 6.5,
+   "main": 1,
+   "weight": 9.5,
    "from": [
     4,
     15
    ],
    "initials": "LS",
    "cid": "E72/MB19/WB51",
-   "x": 0.047,
-   "z": 0.43
+   "x": -0.064,
+   "z": 0.539
   },
   {
    "pid": "P204",
@@ -10761,8 +10761,8 @@
    ],
    "initials": "NZ",
    "cid": "MB64/WB82",
-   "x": 0.561,
-   "z": -0.35
+   "x": 0.487,
+   "z": -0.176
   },
   {
    "pid": "P205",
@@ -10798,8 +10798,8 @@
    "from": [],
    "initials": "RV",
    "cid": "MB124/WB100",
-   "x": -0.468,
-   "z": -0.423
+   "x": -0.557,
+   "z": -0.471
   },
   {
    "pid": "P207",
@@ -10808,18 +10808,18 @@
    "type": "import-from-outside",
    "field": "Differential equations",
    "name": "Yang-Baxter and solvable lattice models",
-   "tier": "source-first",
+   "tier": "direct",
    "glyph": "ℤ²",
-   "main": 0,
-   "weight": 9.0,
+   "main": 1,
+   "weight": 13.0,
    "from": [
     0,
     12
    ],
    "initials": "CY",
    "cid": "MB126/WB102",
-   "x": -0.661,
-   "z": -0.153
+   "x": -0.731,
+   "z": -0.025
   },
   {
    "pid": "P208",
@@ -10850,7 +10850,7 @@
    "name": "Linear programming and the simplex method",
    "tier": "source-first",
    "glyph": "min",
-   "main": 1,
+   "main": 0,
    "weight": 10.0,
    "from": [
     0,
@@ -10858,8 +10858,8 @@
    ],
    "initials": "LK",
    "cid": "MB18/WB10",
-   "x": 0.097,
-   "z": -0.023
+   "x": -0.104,
+   "z": 0.136
   },
   {
    "pid": "P210",
@@ -10992,8 +10992,8 @@
    ],
    "initials": "LH",
    "cid": "MB52/WB53",
-   "x": -0.338,
-   "z": -0.246
+   "x": -0.642,
+   "z": -0.253
   },
   {
    "pid": "P217",
@@ -11011,8 +11011,8 @@
    ],
    "initials": "AC",
    "cid": "MB53/WB50",
-   "x": 0.447,
-   "z": 0.432
+   "x": 0.604,
+   "z": 0.308
   },
   {
    "pid": "P218",
@@ -11073,15 +11073,15 @@
   },
   {
    "pid": "P221",
-   "year": 1965,
+   "year": 1964,
    "approx": false,
    "type": "split",
    "field": "Algorithms & complexity",
    "name": "Computational complexity",
-   "tier": "source-first",
+   "tier": "direct",
    "glyph": "P",
    "main": 1,
-   "weight": 8.5,
+   "weight": 12.5,
    "from": [
     7
    ],
@@ -11128,8 +11128,8 @@
    ],
    "initials": "RE",
    "cid": "MB77/WB33",
-   "x": -0.53,
-   "z": 0.625
+   "x": -0.404,
+   "z": 0.675
   },
   {
    "pid": "P224",
@@ -11138,10 +11138,10 @@
    "type": "birth-by-abstraction",
    "field": "Dynamics",
    "name": "Dynamic programming: Bellman's principle of optimality",
-   "tier": "source-first",
+   "tier": "direct",
    "glyph": "V(x)",
    "main": 1,
-   "weight": 10.0,
+   "weight": 14.0,
    "from": [
     16
    ],
@@ -11227,8 +11227,8 @@
    ],
    "initials": "IG",
    "cid": "MB82/WB110",
-   "x": -0.606,
-   "z": 0.15
+   "x": -0.669,
+   "z": 0.283
   },
   {
    "pid": "P229",
@@ -11341,8 +11341,8 @@
    ],
    "initials": "JN",
    "cid": "MB9/WB111",
-   "x": -0.624,
-   "z": -0.283
+   "x": -0.371,
+   "z": -0.344
   },
   {
    "pid": "P235",
@@ -11533,8 +11533,8 @@
    ],
    "initials": "MS",
    "cid": "WB52",
-   "x": 0.442,
-   "z": 0.217
+   "x": 0.373,
+   "z": 0.28
   },
   {
    "pid": "P245",
@@ -11572,8 +11572,8 @@
    ],
    "initials": "AB",
    "cid": "WB101",
-   "x": 0.577,
-   "z": -0.031
+   "x": 0.654,
+   "z": -0.022
   },
   {
    "pid": "P247",
@@ -11658,14 +11658,14 @@
    "field": "Functional & harmonic analysis",
    "name": "Haar measure and abstract harmonic analysis (Weil)",
    "tier": "source-first",
-   "glyph": "μ",
-   "main": 1,
+   "glyph": "σ",
+   "main": 0,
    "weight": 9.0,
    "from": [],
    "initials": "AH",
    "cid": "MB31",
-   "x": -0.52,
-   "z": -0.384
+   "x": -0.277,
+   "z": -0.417
   },
   {
    "pid": "P252",
@@ -11745,7 +11745,7 @@
   },
   {
    "pid": "P257",
-   "year": 1933,
+   "year": 1932,
    "approx": false,
    "type": "birth-by-abstraction",
    "field": "Logic & foundations",
@@ -11753,7 +11753,7 @@
    "tier": "source-first",
    "glyph": "⊨",
    "main": 0,
-   "weight": 7.5,
+   "weight": 9.5,
    "from": [],
    "initials": "AT",
    "cid": "MB7",
@@ -11816,8 +11816,8 @@
    ],
    "initials": "GK",
    "cid": "WB104",
-   "x": 0.696,
-   "z": 0.168
+   "x": 0.693,
+   "z": 0.176
   },
   {
    "pid": "P261",
@@ -11899,18 +11899,18 @@
    "type": "import-from-outside",
    "field": "Optimization & control",
    "name": "Kantorovich linear programming",
-   "tier": "source-first",
+   "tier": "direct",
    "glyph": "min",
-   "main": 0,
-   "weight": 9.0,
+   "main": 1,
+   "weight": 12.0,
    "from": [
     12,
     24
    ],
    "initials": "LK",
    "cid": "MB16",
-   "x": -0.142,
-   "z": 0.348
+   "x": 0.132,
+   "z": 0.537
   },
   {
    "pid": "P266",
@@ -11982,8 +11982,8 @@
    "from": [],
    "initials": "LP",
    "cid": "MB79",
-   "x": -0.431,
-   "z": -0.18
+   "x": -0.344,
+   "z": -0.582
   },
   {
    "pid": "P270",
@@ -11992,10 +11992,10 @@
    "type": "technique-transfer",
    "field": "Numerical analysis",
    "name": "Kantorovich's functional analysis for numerical methods",
-   "tier": "source-first",
+   "tier": "direct",
    "glyph": "≈",
    "main": 0,
-   "weight": 5.0,
+   "weight": 7.0,
    "from": [
     24
    ],
@@ -12021,8 +12021,8 @@
    ],
    "initials": "MK",
    "cid": "MB96",
-   "x": 0.072,
-   "z": -0.737
+   "x": -0.143,
+   "z": -0.731
   },
   {
    "pid": "P272",
@@ -12040,8 +12040,8 @@
    ],
    "initials": "MA",
    "cid": "WB105",
-   "x": -0.467,
-   "z": 0.237
+   "x": -0.428,
+   "z": 0.125
   },
   {
    "pid": "P273",
@@ -12059,8 +12059,8 @@
    ],
    "initials": "GF",
    "cid": "WB90",
-   "x": 0.716,
-   "z": -0.367
+   "x": 0.743,
+   "z": -0.328
   },
   {
    "pid": "P274",
@@ -12069,17 +12069,17 @@
    "type": "birth-by-fusion",
    "field": "Group & representation theory",
    "name": "Vertex operator algebras",
-   "tier": "source-first",
-   "glyph": "𝔤",
-   "main": 0,
-   "weight": 7.0,
+   "tier": "direct",
+   "glyph": "j",
+   "main": 1,
+   "weight": 10.0,
    "from": [
     0
    ],
    "initials": "RB",
    "cid": "WB99",
-   "x": -0.981,
-   "z": -0.106
+   "x": -0.649,
+   "z": -0.252
   },
   {
    "pid": "P275",
@@ -12117,8 +12117,8 @@
    ],
    "initials": "LB",
    "cid": "MB44",
-   "x": -0.438,
-   "z": 0.573
+   "x": -0.405,
+   "z": 0.545
   },
   {
    "pid": "P277",
@@ -12136,8 +12136,8 @@
    ],
    "initials": "JM",
    "cid": "WB56",
-   "x": 0.237,
-   "z": -0.095
+   "x": 0.226,
+   "z": -0.053
   },
   {
    "pid": "P278",
@@ -12146,17 +12146,17 @@
    "type": "birth-by-fusion",
    "field": "Optimization & control",
    "name": "Network flows and combinatorial optimisation",
-   "tier": "source-first",
+   "tier": "direct",
    "glyph": "s→t",
    "main": 1,
-   "weight": 8.5,
+   "weight": 12.5,
    "from": [
     19
    ],
    "initials": "LR",
    "cid": "WB114",
-   "x": -0.161,
-   "z": -0.532
+   "x": 0.147,
+   "z": -0.371
   },
   {
    "pid": "P279",
@@ -12326,8 +12326,8 @@
    ],
    "initials": "MG",
    "cid": "WB60",
-   "x": -0.736,
-   "z": -0.494
+   "x": -0.817,
+   "z": -0.418
   },
   {
    "pid": "P288",
@@ -12375,14 +12375,14 @@
    "tier": "source-first",
    "glyph": "y′",
    "main": 0,
-   "weight": 6.5,
+   "weight": 7.5,
    "from": [
     15
    ],
    "initials": "SS",
    "cid": "MB20",
-   "x": 0.257,
-   "z": 0.182
+   "x": 0.237,
+   "z": 0.227
   },
   {
    "pid": "P291",
@@ -12400,8 +12400,8 @@
    ],
    "initials": "JT",
    "cid": "MB32",
-   "x": -0.204,
-   "z": -0.511
+   "x": -0.161,
+   "z": -0.607
   },
   {
    "pid": "P292",
@@ -12419,8 +12419,8 @@
    ],
    "initials": "JS",
    "cid": "WB61",
-   "x": -0.888,
-   "z": 0.104
+   "x": -0.955,
+   "z": 0.086
   },
   {
    "pid": "P294",
@@ -12457,8 +12457,8 @@
    ],
    "initials": "AW",
    "cid": "E48/QC33/WC17",
-   "x": 0.284,
-   "z": -0.583
+   "x": 0.321,
+   "z": -0.556
   },
   {
    "pid": "P296",
@@ -12612,8 +12612,8 @@
    ],
    "initials": "TG",
    "cid": "QC7/WC43",
-   "x": 0.277,
-   "z": 0.531
+   "x": 0.146,
+   "z": 0.575
   },
   {
    "pid": "P306",
@@ -12650,8 +12650,8 @@
    ],
    "initials": "RL",
    "cid": "WC21/QC69",
-   "x": 0.491,
-   "z": -0.202
+   "x": 0.564,
+   "z": -0.246
   },
   {
    "pid": "P308",
@@ -12826,8 +12826,8 @@
    ],
    "initials": "RL",
    "cid": "WC23/QC68",
-   "x": 0.703,
-   "z": -0.521
+   "x": 0.735,
+   "z": -0.48
   },
   {
    "pid": "P317",
@@ -12905,7 +12905,7 @@
    ],
    "initials": "VV",
    "cid": "WC7",
-   "x": -0.048,
+   "x": -0.047,
    "z": -0.738
   },
   {
@@ -12935,8 +12935,8 @@
    "field": "Topology",
    "name": "Heegaard Floer and Seiberg-Witten theory",
    "tier": "direct",
-   "glyph": "HF",
-   "main": 1,
+   "glyph": "M",
+   "main": 0,
    "weight": 9.5,
    "from": [
     14,
@@ -12944,8 +12944,8 @@
    ],
    "initials": "EW",
    "cid": "WC12",
-   "x": 0.247,
-   "z": -0.514
+   "x": 0.122,
+   "z": -0.384
   },
   {
    "pid": "P323",
@@ -13001,8 +13001,8 @@
    ],
    "initials": "MS",
    "cid": "QC49",
-   "x": -0.496,
-   "z": -0.638
+   "x": -0.433,
+   "z": -0.665
   },
   {
    "pid": "P326",
@@ -13039,8 +13039,8 @@
    ],
    "initials": "EM",
    "cid": "QC18",
-   "x": 0.715,
-   "z": -0.189
+   "x": 0.726,
+   "z": -0.203
   },
   {
    "pid": "P328",
@@ -13079,8 +13079,8 @@
    ],
    "initials": "JT",
    "cid": "WC20",
-   "x": 0.279,
-   "z": 0.004
+   "x": 0.249,
+   "z": 0.059
   },
   {
    "pid": "P331",
@@ -13099,8 +13099,8 @@
    ],
    "initials": "TZ",
    "cid": "QC8",
-   "x": 0.322,
-   "z": -0.258
+   "x": 0.372,
+   "z": -0.207
   },
   {
    "pid": "P332",
@@ -13118,8 +13118,8 @@
    ],
    "initials": "EZ",
    "cid": "WC40",
-   "x": -0.722,
-   "z": -0.09
+   "x": -0.689,
+   "z": 0.183
   },
   {
    "pid": "P333",
@@ -13196,8 +13196,8 @@
    ],
    "initials": "MG",
    "cid": "WC54",
-   "x": -0.624,
-   "z": -0.575
+   "x": -0.491,
+   "z": -0.642
   },
   {
    "pid": "P337",
@@ -13256,8 +13256,8 @@
    ],
    "initials": "KJ",
    "cid": "WC55",
-   "x": -0.98,
-   "z": -0.112
+   "x": -0.948,
+   "z": -0.216
   },
   {
    "pid": "P340",
@@ -13295,8 +13295,8 @@
    ],
    "initials": "EW",
    "cid": "QC37",
-   "x": 0.203,
-   "z": -0.721
+   "x": 0.199,
+   "z": -0.71
   },
   {
    "pid": "P342",
@@ -13336,8 +13336,8 @@
    ],
    "initials": "MK",
    "cid": "WC108",
-   "x": 0.006,
-   "z": -0.574
+   "x": 0.073,
+   "z": -0.531
   },
   {
    "pid": "P344",
@@ -13472,8 +13472,8 @@
    ],
    "initials": "CD",
    "cid": "QC24",
-   "x": 0.205,
-   "z": -0.474
+   "x": 0.389,
+   "z": -0.329
   },
   {
    "pid": "P351",
@@ -13491,8 +13491,8 @@
    ],
    "initials": "EW",
    "cid": "QC31",
-   "x": 0.371,
-   "z": -0.686
+   "x": 0.281,
+   "z": -0.709
   },
   {
    "pid": "P352",
@@ -13530,8 +13530,8 @@
    ],
    "initials": "DA",
    "cid": "QC12",
-   "x": 0.125,
-   "z": -0.378
+   "x": 0.17,
+   "z": -0.313
   },
   {
    "pid": "P355",
@@ -13557,10 +13557,10 @@
    "type": "birth-by-fusion",
    "field": "Complex analysis",
    "name": "Riemann surfaces",
-   "tier": "source-first",
+   "tier": "direct",
    "glyph": "ℂ",
    "main": 1,
-   "weight": 8.5,
+   "weight": 11.5,
    "from": [
     0,
     18
@@ -13577,10 +13577,10 @@
    "type": "birth-by-abstraction",
    "field": "Logic & foundations",
    "name": "Cantor's set theory",
-   "tier": "source-first",
+   "tier": "direct",
    "glyph": "ℵ₀",
    "main": 1,
-   "weight": 10.0,
+   "weight": 12.0,
    "from": [
     1,
     3
@@ -13592,7 +13592,7 @@
   },
   {
    "pid": "P358",
-   "year": 1876,
+   "year": 1874,
    "approx": false,
    "type": "birth-by-fusion",
    "field": "Group & representation theory",
@@ -13607,8 +13607,8 @@
    ],
    "initials": "SL",
    "cid": "E15/M16/W9",
-   "x": -0.253,
-   "z": -0.512
+   "x": -0.213,
+   "z": -0.522
   },
   {
    "pid": "P360",
@@ -13627,8 +13627,8 @@
    ],
    "initials": "VV",
    "cid": "W45/M41",
-   "x": -0.112,
-   "z": -0.66
+   "x": 0.007,
+   "z": -0.593
   },
   {
    "pid": "P361",
@@ -13646,8 +13646,8 @@
    ],
    "initials": "DH",
    "cid": "M42/W44",
-   "x": -0.66,
-   "z": -0.129
+   "x": -0.544,
+   "z": -0.241
   },
   {
    "pid": "P362",
@@ -13666,8 +13666,8 @@
    ],
    "initials": "SB",
    "cid": "W46/M45",
-   "x": -0.958,
-   "z": 0.026
+   "x": -0.989,
+   "z": -0.048
   },
   {
    "pid": "P363",
@@ -13685,8 +13685,8 @@
    ],
    "initials": "MF",
    "cid": "W40/M43",
-   "x": -0.448,
-   "z": 0.183
+   "x": -0.475,
+   "z": 0.186
   },
   {
    "pid": "P364",
@@ -13704,8 +13704,8 @@
    ],
    "initials": "DH",
    "cid": "W75/M66",
-   "x": -0.463,
-   "z": -0.654
+   "x": -0.328,
+   "z": -0.698
   },
   {
    "pid": "P366",
@@ -13717,7 +13717,7 @@
    "tier": "source-first",
    "glyph": "ℍ",
    "main": 1,
-   "weight": 10.5,
+   "weight": 12.5,
    "from": [
     2,
     9,
@@ -13725,8 +13725,8 @@
    ],
    "initials": "HP",
    "cid": "E70/W76/M33",
-   "x": 0.187,
-   "z": 0.161
+   "x": 0.167,
+   "z": 0.207
   },
   {
    "pid": "P367",
@@ -13935,8 +13935,8 @@
    ],
    "initials": "WK",
    "cid": "W10/M19",
-   "x": -0.051,
-   "z": 0.089
+   "x": -0.242,
+   "z": 0.011
   },
   {
    "pid": "P378",
@@ -13955,8 +13955,8 @@
    ],
    "initials": "JW",
    "cid": "M77/W86",
-   "x": -0.171,
-   "z": 0.64
+   "x": -0.134,
+   "z": 0.603
   },
   {
    "pid": "P379",
@@ -13975,8 +13975,8 @@
    ],
    "initials": "GC",
    "cid": "W83/M71",
-   "x": 0.16,
-   "z": -0.046
+   "x": 0.179,
+   "z": -0.09
   },
   {
    "pid": "P380",
@@ -14022,8 +14022,8 @@
    "field": "Group & representation theory",
    "name": "The abstract group concept",
    "tier": "source-first",
-   "glyph": "G",
-   "main": 1,
+   "glyph": "Gal",
+   "main": 0,
    "weight": 10.0,
    "from": [
     1,
@@ -14031,8 +14031,8 @@
    ],
    "initials": "AC",
    "cid": "W8/M15",
-   "x": 0.082,
-   "z": 0.289
+   "x": -0.007,
+   "z": 0.116
   },
   {
    "pid": "P383",
@@ -14048,8 +14048,8 @@
    "from": [],
    "initials": "LE",
    "cid": "W39/M46",
-   "x": 0.647,
-   "z": -0.255
+   "x": 0.266,
+   "z": -0.508
   },
   {
    "pid": "P384",
@@ -14067,8 +14067,8 @@
    ],
    "initials": "GF",
    "cid": "W67/M20",
-   "x": -0.326,
-   "z": 0.057
+   "x": -0.509,
+   "z": 0.034
   },
   {
    "pid": "P385",
@@ -14086,8 +14086,8 @@
    ],
    "initials": "HW",
    "cid": "W20/M13",
-   "x": 0.704,
-   "z": 0.148
+   "x": 0.716,
+   "z": -0.113
   },
   {
    "pid": "P386",
@@ -14106,8 +14106,8 @@
    ],
    "initials": "OH",
    "cid": "W92/M78",
-   "x": 0.03,
-   "z": 0.497
+   "x": 0.343,
+   "z": 0.477
   },
   {
    "pid": "P387",
@@ -14162,8 +14162,8 @@
    ],
    "initials": "KH",
    "cid": "W19/M11",
-   "x": -0.028,
-   "z": -0.313
+   "x": -0.096,
+   "z": -0.206
   },
   {
    "pid": "P390",
@@ -14201,8 +14201,8 @@
    ],
    "initials": "HW",
    "cid": "W68",
-   "x": -0.327,
-   "z": -0.137
+   "x": -0.303,
+   "z": -0.041
   },
   {
    "pid": "P392",
@@ -14235,8 +14235,8 @@
    "from": [],
    "initials": "WK",
    "cid": "W13",
-   "x": -0.409,
-   "z": 0.249
+   "x": -0.472,
+   "z": 0.263
   },
   {
    "pid": "P394",
@@ -14293,8 +14293,8 @@
    ],
    "initials": "EB",
    "cid": "W37",
-   "x": -0.689,
-   "z": -0.455
+   "x": -0.59,
+   "z": -0.441
   },
   {
    "pid": "P398",
@@ -14312,8 +14312,8 @@
    ],
    "initials": "JL",
    "cid": "W94",
-   "x": -0.038,
-   "z": -0.059
+   "x": -0.039,
+   "z": -0.077
   },
   {
    "pid": "P399",
@@ -14331,8 +14331,8 @@
    ],
    "initials": "EP",
    "cid": "W79",
-   "x": 0.868,
-   "z": 0.3
+   "x": 0.819,
+   "z": 0.304
   },
   {
    "pid": "P400",
@@ -14369,8 +14369,8 @@
    ],
    "initials": "ES",
    "cid": "M27",
-   "x": 0.388,
-   "z": 0.68
+   "x": 0.537,
+   "z": 0.618
   },
   {
    "pid": "P402",
@@ -14379,7 +14379,7 @@
    "type": "technique-transfer",
    "field": "Optimization & control",
    "name": "Calculus of variations to Hilbert's direct methods",
-   "tier": "source-first",
+   "tier": "direct",
    "glyph": "δS",
    "main": 1,
    "weight": 10.5,
@@ -14388,8 +14388,8 @@
    ],
    "initials": "DH",
    "cid": "W47",
-   "x": -0.671,
-   "z": 0.217
+   "x": -0.611,
+   "z": 0.3
   },
   {
    "pid": "P403",
@@ -14399,8 +14399,8 @@
    "field": "Analysis",
    "name": "Fredholm integral equations",
    "tier": "source-first",
-   "glyph": "∫K",
-   "main": 1,
+   "glyph": "∫",
+   "main": 0,
    "weight": 9.5,
    "from": [
     0,
@@ -14408,8 +14408,8 @@
    ],
    "initials": "IF",
    "cid": "M40",
-   "x": 0.627,
-   "z": 0.281
+   "x": 0.365,
+   "z": 0.19
   },
   {
    "pid": "P404",
@@ -14427,8 +14427,8 @@
    ],
    "initials": "EB",
    "cid": "M38",
-   "x": 0.134,
-   "z": 0.167
+   "x": -0.109,
+   "z": 0.024
   },
   {
    "pid": "P405",
@@ -14463,8 +14463,8 @@
    ],
    "initials": "LF",
    "cid": "W78",
-   "x": -0.241,
-   "z": 0.42
+   "x": 0.032,
+   "z": 0.186
   },
   {
    "pid": "P407",
@@ -14499,8 +14499,8 @@
    ],
    "initials": "RD",
    "cid": "W65",
-   "x": 0.04,
-   "z": 0.545
+   "x": -0.225,
+   "z": 0.224
   },
   {
    "pid": "P409",
@@ -14518,8 +14518,8 @@
    ],
    "initials": "MD",
    "cid": "W70",
-   "x": -0.542,
-   "z": 0.34
+   "x": -0.117,
+   "z": 0.327
   },
   {
    "pid": "P410",
@@ -14554,8 +14554,8 @@
    "from": [],
    "initials": "IS",
    "cid": "M21",
-   "x": -0.132,
-   "z": -0.33
+   "x": -0.089,
+   "z": -0.357
   },
   {
    "pid": "P412",
@@ -14575,8 +14575,8 @@
    ],
    "initials": "BR",
    "cid": "W77",
-   "x": -0.722,
-   "z": 0.089
+   "x": -0.507,
+   "z": 0.393
   },
   {
    "pid": "P413",
@@ -14605,17 +14605,17 @@
    "type": "technique-transfer",
    "field": "Algebra",
    "name": "Noncommutative algebras, representation theory and number theory",
-   "tier": "source-first",
+   "tier": "direct",
    "glyph": "ρ",
-   "main": 0,
-   "weight": 9.0,
+   "main": 1,
+   "weight": 14.5,
    "from": [
     1
    ],
    "initials": "JH",
    "cid": "M29",
-   "x": 0.512,
-   "z": 0.529
+   "x": 0.099,
+   "z": 0.541
   },
   {
    "pid": "P415",
@@ -14689,8 +14689,8 @@
    "from": [],
    "initials": "HH",
    "cid": "M12",
-   "x": 0.767,
-   "z": -0.003
+   "x": 0.771,
+   "z": 0.038
   },
   {
    "pid": "P419",
@@ -14706,8 +14706,8 @@
    "from": [],
    "initials": "WB",
    "cid": "M22",
-   "x": 0.285,
-   "z": 0.457
+   "x": 0.189,
+   "z": 0.346
   },
   {
    "pid": "P420",
@@ -14726,8 +14726,8 @@
    ],
    "initials": "WD",
    "cid": "H3",
-   "x": -0.131,
-   "z": -0.108
+   "x": 0.031,
+   "z": -0.1
   },
   {
    "pid": "P421",
@@ -14745,8 +14745,8 @@
    ],
    "initials": "MD",
    "cid": "H4",
-   "x": 0.466,
-   "z": 0.044
+   "x": 0.467,
+   "z": 0.063
   },
   {
    "pid": "P422",
@@ -14764,8 +14764,8 @@
    ],
    "initials": "MD",
    "cid": "H5",
-   "x": -0.487,
-   "z": -0.084
+   "x": -0.742,
+   "z": -0.062
   },
   {
    "pid": "P423",
@@ -14781,8 +14781,8 @@
    "from": [],
    "initials": "WB",
    "cid": "H6",
-   "x": -0.003,
-   "z": 0.503
+   "x": 0.026,
+   "z": 0.527
   },
   {
    "pid": "P424",
@@ -14800,8 +14800,8 @@
    ],
    "initials": "EG",
    "cid": "H8",
-   "x": -0.902,
-   "z": -0.307
+   "x": -0.945,
+   "z": -0.216
   },
   {
    "pid": "P425",
@@ -14819,8 +14819,8 @@
    ],
    "initials": "JA",
    "cid": "H10",
-   "x": 0.35,
-   "z": -0.479
+   "x": 0.37,
+   "z": -0.471
   },
   {
    "pid": "P426",
@@ -14858,8 +14858,8 @@
    ],
    "initials": "CS",
    "cid": "H13",
-   "x": -0.601,
-   "z": 0.122
+   "x": -0.38,
+   "z": 0.212
   },
   {
    "pid": "P428",
@@ -14868,17 +14868,17 @@
    "type": "birth-by-abstraction",
    "field": "Algebra",
    "name": "Quaternions: non-commutative algebra from the geometry of 3-space",
-   "tier": "source-first",
+   "tier": "direct",
    "glyph": "ker",
    "main": 0,
-   "weight": 7.5,
+   "weight": 9.5,
    "from": [
     10
    ],
    "initials": "WR",
    "cid": "H15",
-   "x": -0.345,
-   "z": 0.422
+   "x": -0.309,
+   "z": 0.396
   },
   {
    "pid": "P429",
@@ -14894,27 +14894,27 @@
    "from": [],
    "initials": "AC",
    "cid": "H16",
-   "x": -0.205,
-   "z": 0.568
+   "x": -0.254,
+   "z": 0.57
   },
   {
    "pid": "P430",
-   "year": 1751,
-   "approx": true,
+   "year": 1765,
+   "approx": false,
    "type": "birth-by-abstraction",
    "field": "Algebra",
    "name": "Spectral ideas: eigenvalues from vibrating systems and quadratic forms",
    "tier": "source-first",
    "glyph": "y′",
    "main": 0,
-   "weight": 8.0,
+   "weight": 9.0,
    "from": [
     15
    ],
    "initials": "LE",
    "cid": "H17",
-   "x": 0.309,
-   "z": 0.089
+   "x": 0.373,
+   "z": 0.128
   },
   {
    "pid": "P431",
@@ -14932,8 +14932,8 @@
    ],
    "initials": "AF",
    "cid": "H18",
-   "x": 0.299,
-   "z": -0.34
+   "x": 0.326,
+   "z": -0.362
   },
   {
    "pid": "P432",
@@ -14951,8 +14951,8 @@
    ],
    "initials": "CW",
    "cid": "H19",
-   "x": 0.077,
-   "z": -0.361
+   "x": 0.16,
+   "z": -0.246
   },
   {
    "pid": "P433",
@@ -14968,8 +14968,8 @@
    "from": [],
    "initials": "JW",
    "cid": "H20",
-   "x": 0.562,
-   "z": -0.075
+   "x": 0.568,
+   "z": 0.044
   },
   {
    "pid": "P434",
@@ -14987,8 +14987,8 @@
    ],
    "initials": "GC",
    "cid": "H23",
-   "x": -0.46,
-   "z": -0.382
+   "x": -0.441,
+   "z": -0.168
   },
   {
    "pid": "P435",
@@ -15006,8 +15006,8 @@
    ],
    "initials": "HL",
    "cid": "H24",
-   "x": -0.022,
-   "z": 0.322
+   "x": 0.026,
+   "z": 0.427
   },
   {
    "pid": "P436",
@@ -15044,8 +15044,8 @@
    ],
    "initials": "EB",
    "cid": "H31",
-   "x": 0.314,
-   "z": -0.132
+   "x": 0.329,
+   "z": -0.067
   },
   {
    "pid": "P438",
@@ -15063,8 +15063,8 @@
    ],
    "initials": "JL",
    "cid": "H32",
-   "x": -0.57,
-   "z": -0.307
+   "x": -0.617,
+   "z": -0.315
   },
   {
    "pid": "P439",
@@ -15161,8 +15161,8 @@
    ],
    "initials": "JB",
    "cid": "H38",
-   "x": 0.207,
-   "z": -0.431
+   "x": 0.312,
+   "z": -0.375
   },
   {
    "pid": "P444",
@@ -15181,8 +15181,8 @@
    ],
    "initials": "JR",
    "cid": "H39",
-   "x": 0.371,
-   "z": -0.058
+   "x": 0.368,
+   "z": -0.026
   },
   {
    "pid": "P445",
@@ -15200,8 +15200,8 @@
    ],
    "initials": "JR",
    "cid": "H40",
-   "x": -0.049,
-   "z": -0.326
+   "x": 0.174,
+   "z": -0.055
   },
   {
    "pid": "P446",
@@ -15210,18 +15210,18 @@
    "type": "birth-by-fusion",
    "field": "Optimization & control",
    "name": "Calculus of variations from the brachistochrone",
-   "tier": "source-first",
+   "tier": "direct",
    "glyph": "δ",
-   "main": 0,
-   "weight": 8.0,
+   "main": 1,
+   "weight": 11.0,
    "from": [
     2,
     14
    ],
    "initials": "JB",
    "cid": "H41",
-   "x": -0.979,
-   "z": -0.115
+   "x": -0.653,
+   "z": -0.246
   },
   {
    "pid": "P447",
@@ -15293,8 +15293,8 @@
    ],
    "initials": "LE",
    "cid": "H47",
-   "x": 0.268,
-   "z": -0.306
+   "x": 0.405,
+   "z": -0.349
   },
   {
    "pid": "P451",
@@ -15312,8 +15312,8 @@
    ],
    "initials": "FR",
    "cid": "H48",
-   "x": -0.202,
-   "z": -0.338
+   "x": -0.376,
+   "z": -0.345
   },
   {
    "pid": "P452",
@@ -15332,8 +15332,8 @@
    ],
    "initials": "WT",
    "cid": "H50",
-   "x": 0.459,
-   "z": -0.166
+   "x": 0.467,
+   "z": -0.141
   },
   {
    "pid": "P453",
@@ -15446,8 +15446,8 @@
    "from": [],
    "initials": "GC",
    "cid": "H74",
-   "x": -0.59,
-   "z": -0.323
+   "x": -0.363,
+   "z": -0.347
   },
   {
    "pid": "P459",
@@ -15478,15 +15478,15 @@
    "tier": "source-first",
    "glyph": "eⁱˣ",
    "main": 1,
-   "weight": 9.0,
+   "weight": 10.0,
    "from": [
     0,
     3
    ],
    "initials": "JB",
    "cid": "H76",
-   "x": -0.609,
-   "z": 0.186
+   "x": -0.421,
+   "z": 0.33
   },
   {
    "pid": "P461",
@@ -15504,8 +15504,8 @@
    ],
    "initials": "AR",
    "cid": "P7",
-   "x": 0.089,
-   "z": 0.699
+   "x": 0.071,
+   "z": 0.737
   },
   {
    "pid": "P462",
@@ -15515,8 +15515,8 @@
    "field": "Optimization & control",
    "name": "Control theory becomes a mathematical discipline (Kalman state space; ICM 1966 section)",
    "tier": "source-first",
-   "glyph": "u(t)",
-   "main": 1,
+   "glyph": "ℙ",
+   "main": 0,
    "weight": 9.5,
    "from": [
     11,
@@ -15524,8 +15524,8 @@
    ],
    "initials": "RK",
    "cid": "P1",
-   "x": 0.353,
-   "z": 0.478
+   "x": 0.455,
+   "z": 0.215
   },
   {
    "pid": "P463",
@@ -15543,8 +15543,8 @@
    ],
    "initials": "JL",
    "cid": "P10",
-   "x": -0.341,
-   "z": 0.399
+   "x": -0.291,
+   "z": 0.312
   },
   {
    "pid": "P464",
@@ -15562,8 +15562,8 @@
    ],
    "initials": "HW",
    "cid": "P12",
-   "x": -0.031,
-   "z": -0.02
+   "x": -0.061,
+   "z": -0.011
   },
   {
    "pid": "P465",
@@ -15581,8 +15581,8 @@
    ],
    "initials": "RB",
    "cid": "P13",
-   "x": -0.165,
-   "z": -0.161
+   "x": 0.019,
+   "z": -0.192
   },
   {
    "pid": "P466",
@@ -15660,8 +15660,8 @@
    ],
    "initials": "AC",
    "cid": "P17",
-   "x": -0.859,
-   "z": -0.368
+   "x": -0.769,
+   "z": -0.467
   },
   {
    "pid": "P470",
@@ -15698,8 +15698,8 @@
    ],
    "initials": "SL",
    "cid": "P19",
-   "x": -0.31,
-   "z": -0.515
+   "x": -0.196,
+   "z": -0.497
   },
   {
    "pid": "P472",
@@ -15718,8 +15718,8 @@
    ],
    "initials": "JB",
    "cid": "P21",
-   "x": -0.411,
-   "z": -0.002
+   "x": -0.771,
+   "z": 0.212
   },
   {
    "pid": "P473",
@@ -15755,8 +15755,8 @@
    "from": [],
    "initials": "HH",
    "cid": "P25",
-   "x": -0.551,
-   "z": 0.117
+   "x": -0.538,
+   "z": 0.113
   },
   {
    "pid": "P475",
@@ -15775,8 +15775,8 @@
    ],
    "initials": "AS",
    "cid": "P26",
-   "x": 0.171,
-   "z": -0.23
+   "x": 0.071,
+   "z": -0.19
   },
   {
    "pid": "P476",
@@ -15796,8 +15796,8 @@
    ],
    "initials": "PS",
    "cid": "P27",
-   "x": -0.145,
-   "z": -0.731
+   "x": -0.087,
+   "z": -0.736
   },
   {
    "pid": "P477",
@@ -15934,8 +15934,8 @@
    ],
    "initials": "SF",
    "cid": "P38",
-   "x": -0.306,
-   "z": 0.484
+   "x": -0.297,
+   "z": 0.497
   },
   {
    "pid": "P484",
@@ -15954,8 +15954,8 @@
    ],
    "initials": "MG",
    "cid": "P39",
-   "x": 0.917,
-   "z": -0.082
+   "x": 0.543,
+   "z": -0.126
   },
   {
    "pid": "P485",
@@ -16030,8 +16030,8 @@
    ],
    "initials": "MK",
    "cid": "P43",
-   "x": 0.143,
-   "z": 0.095
+   "x": 0.118,
+   "z": 0.124
   },
   {
    "pid": "P489",
@@ -16069,8 +16069,8 @@
    ],
    "initials": "PO",
    "cid": "P46",
-   "x": 0.478,
-   "z": -0.421
+   "x": 0.606,
+   "z": -0.479
   },
   {
    "pid": "P491",
@@ -16088,8 +16088,8 @@
    ],
    "initials": "IA",
    "cid": "P47",
-   "x": -0.898,
-   "z": -0.313
+   "x": -0.86,
+   "z": -0.368
   },
   {
    "pid": "P492",
@@ -16166,8 +16166,8 @@
    ],
    "initials": "CG",
    "cid": "P52",
-   "x": 0.244,
-   "z": -0.245
+   "x": 0.169,
+   "z": -0.305
   },
   {
    "pid": "P496",
@@ -16185,8 +16185,8 @@
    ],
    "initials": "CS",
    "cid": "P53",
-   "x": -0.551,
-   "z": -0.359
+   "x": -0.463,
+   "z": -0.422
   },
   {
    "pid": "P497",
@@ -16204,8 +16204,8 @@
    ],
    "initials": "MS",
    "cid": "P54",
-   "x": 0.438,
-   "z": 0.265
+   "x": 0.479,
+   "z": 0.293
   },
   {
    "pid": "P498",
@@ -16223,8 +16223,8 @@
    ],
    "initials": "DK",
    "cid": "P55",
-   "x": 0.392,
-   "z": -0.265
+   "x": 0.458,
+   "z": -0.261
   },
   {
    "pid": "P499",
@@ -16282,8 +16282,8 @@
    ],
    "initials": "UG",
    "cid": "P58",
-   "x": 0.615,
-   "z": 0.042
+   "x": 0.477,
+   "z": 0.017
   },
   {
    "pid": "P502",
@@ -16362,8 +16362,8 @@
    ],
    "initials": "LL",
    "cid": "P62",
-   "x": 0.062,
-   "z": -0.453
+   "x": 0.09,
+   "z": -0.388
   },
   {
    "pid": "P506",
@@ -16598,8 +16598,8 @@
    ],
    "initials": "YE",
    "cid": "P75",
-   "x": -0.288,
-   "z": -0.707
+   "x": -0.283,
+   "z": -0.708
   },
   {
    "pid": "P518",
@@ -16733,8 +16733,8 @@
    ],
    "initials": "SD",
    "cid": "Q4",
-   "x": -0.884,
-   "z": -0.335
+   "x": -0.894,
+   "z": -0.32
   },
   {
    "pid": "P525",
@@ -16803,16 +16803,16 @@
    "field": "Functional & harmonic analysis",
    "name": "Chowla cosine problem via Cayley graph eigenvalues and MaxCut",
    "tier": "source-first",
-   "glyph": "cos",
-   "main": 1,
+   "glyph": "⇝",
+   "main": 0,
    "weight": 8.5,
    "from": [
     19
    ],
    "initials": "BB",
    "cid": "Q9",
-   "x": 0.58,
-   "z": -0.115
+   "x": 0.389,
+   "z": -0.217
   },
   {
    "pid": "Q10",
@@ -16948,8 +16948,8 @@
    ],
    "initials": "AV",
    "cid": "Q28",
-   "x": 0.042,
-   "z": -0.739
+   "x": 0.096,
+   "z": -0.736
   },
   {
    "pid": "P536",
@@ -16988,8 +16988,8 @@
    ],
    "initials": "HC",
    "cid": "Q30",
-   "x": 0.553,
-   "z": -0.452
+   "x": 0.558,
+   "z": -0.543
   },
   {
    "pid": "P538",
@@ -17086,8 +17086,8 @@
    ],
    "initials": "PS",
    "cid": "Q42",
-   "x": 0.492,
-   "z": -0.588
+   "x": 0.451,
+   "z": -0.658
   },
   {
    "pid": "P543",
@@ -17125,8 +17125,8 @@
    ],
    "initials": "TV",
    "cid": "Q45",
-   "x": -0.357,
-   "z": -0.236
+   "x": -0.453,
+   "z": -0.145
   },
   {
    "pid": "P545",
@@ -17174,17 +17174,17 @@
    "type": "technique-transfer",
    "field": "Topology",
    "name": "Triangulation conjecture disproved via Pin(2)-equivariant Seiberg-Witten Floer theory",
-   "tier": "source-first",
+   "tier": "direct",
    "glyph": "H",
-   "main": 0,
-   "weight": 7.5,
+   "main": 1,
+   "weight": 11.5,
    "from": [
     27
    ],
    "initials": "CM",
    "cid": "Q53",
-   "x": 0.687,
-   "z": -0.533
+   "x": 0.651,
+   "z": -0.25
   },
   {
    "pid": "P548",
@@ -17242,8 +17242,8 @@
    ],
    "initials": "JF",
    "cid": "Q58",
-   "x": -0.265,
-   "z": 0.269
+   "x": -0.555,
+   "z": 0.385
   },
   {
    "pid": "Q62",
@@ -17261,8 +17261,8 @@
    ],
    "initials": "FC",
    "cid": "Q62",
-   "x": -0.331,
-   "z": -0.697
+   "x": -0.431,
+   "z": -0.666
   },
   {
    "pid": "P552",
@@ -17300,8 +17300,8 @@
    ],
    "initials": "LM",
    "cid": "Q65",
-   "x": 0.274,
-   "z": -0.289
+   "x": 0.041,
+   "z": -0.309
   },
   {
    "pid": "P554",
@@ -17376,8 +17376,8 @@
    ],
    "initials": "JF",
    "cid": "FM1",
-   "x": 0.462,
-   "z": -0.342
+   "x": 0.564,
+   "z": -0.392
   },
   {
    "pid": "P558",
@@ -17498,9 +17498,9 @@
     "P005",
     "P142",
     "P190",
-    "P430",
     "P558",
-    "P120"
+    "P120",
+    "P430"
    ],
    "credited": 23,
    "y": 1741,
@@ -17525,9 +17525,9 @@
     "P005",
     "P142",
     "P190",
-    "P430",
     "P558",
-    "P120"
+    "P120",
+    "P430"
    ],
    "credited": 23,
    "y": 1670,
@@ -17552,9 +17552,9 @@
     "P005",
     "P142",
     "P190",
-    "P430",
     "P558",
-    "P120"
+    "P120",
+    "P430"
    ],
    "credited": 23,
    "y": 1741,
@@ -17578,9 +17578,9 @@
     "P005",
     "P142",
     "P190",
-    "P430",
     "P558",
-    "P120"
+    "P120",
+    "P430"
    ],
    "credited": 23,
    "y": 1748,
@@ -17604,9 +17604,9 @@
     "P005",
     "P142",
     "P190",
-    "P430",
     "P558",
-    "P120"
+    "P120",
+    "P430"
    ],
    "credited": 23,
    "y": 1690,
@@ -17630,9 +17630,9 @@
     "P005",
     "P142",
     "P190",
-    "P430",
     "P558",
-    "P120"
+    "P120",
+    "P430"
    ],
    "credited": 23,
    "y": 1732,
@@ -17656,9 +17656,9 @@
     "P005",
     "P142",
     "P190",
-    "P430",
     "P558",
-    "P120"
+    "P120",
+    "P430"
    ],
    "credited": 23,
    "y": 1748,
@@ -17682,12 +17682,12 @@
     "P005",
     "P142",
     "P190",
-    "P430",
     "P558",
-    "P120"
+    "P120",
+    "P430"
    ],
    "credited": 23,
-   "y": 1751,
+   "y": 1765,
    "x": -0.613,
    "z": 0.535
   },
@@ -17708,9 +17708,9 @@
     "P005",
     "P142",
     "P190",
-    "P430",
     "P558",
-    "P120"
+    "P120",
+    "P430"
    ],
    "credited": 23,
    "y": 1757,
@@ -19444,8 +19444,8 @@
   {
    "n": "Alan Turing",
    "p": [
-    "P425",
     "P052",
+    "P425",
     "P200"
    ]
   },
@@ -19555,8 +19555,8 @@
     "P289",
     "P055",
     "P213",
-    "E30",
     "P212",
+    "E30",
     "P229",
     "P069",
     "P259"
@@ -20017,8 +20017,8 @@
    "p": [
     "P430",
     "P180",
-    "P444",
     "P138",
+    "P444",
     "P128",
     "P182"
    ]
@@ -20141,12 +20141,6 @@
    ]
   },
   {
-   "n": "Bernard Koopman",
-   "p": [
-    "P199"
-   ]
-  },
-  {
    "n": "Bernard Malgrange",
    "p": [
     "P216"
@@ -20174,8 +20168,8 @@
     "P053",
     "P008",
     "P397",
-    "P402",
     "P412",
+    "P402",
     "P413"
    ]
   },
@@ -20189,8 +20183,8 @@
   {
    "n": "Bertrand Toën",
    "p": [
-    "P317",
-    "P345"
+    "P345",
+    "P317"
    ]
   },
   {
@@ -20202,8 +20196,8 @@
   {
    "n": "Bhaskara II",
    "p": [
-    "P111",
     "P141",
+    "P111",
     "P126"
    ]
   },
@@ -20253,8 +20247,8 @@
   {
    "n": "Brahmagupta",
    "p": [
-    "P111",
     "P141",
+    "P111",
     "P126",
     "P001"
    ]
@@ -20342,8 +20336,8 @@
     "P161",
     "P144",
     "P182",
-    "P153",
-    "P166"
+    "P166",
+    "P153"
    ]
   },
   {
@@ -20397,8 +20391,8 @@
   {
    "n": "Charles Hermite",
    "p": [
-    "P438",
     "P398",
+    "P438",
     "P439"
    ]
   },
@@ -20763,8 +20757,8 @@
     "P394",
     "P385",
     "P387",
-    "P402",
     "P412",
+    "P402",
     "P403",
     "P361",
     "P061",
@@ -21038,12 +21032,12 @@
     "P071",
     "P097",
     "P033",
-    "P058",
     "P486",
+    "P058",
     "P489",
     "P037",
-    "P322",
     "P341",
+    "P322",
     "P351"
    ]
   },
@@ -21312,8 +21306,8 @@
    "n": "Eudoxus of Cnidus",
    "p": [
     "P156",
-    "P184",
     "P195",
+    "P184",
     "P164"
    ]
   },
@@ -21717,8 +21711,8 @@
   {
    "n": "Georg Frobenius",
    "p": [
-    "P384",
-    "P419"
+    "P419",
+    "P384"
    ]
   },
   {
@@ -21756,8 +21750,8 @@
   {
    "n": "George Dantzig",
    "p": [
-    "P265",
-    "P209"
+    "P209",
+    "P265"
    ]
   },
   {
@@ -21765,8 +21759,7 @@
    "p": [
     "P453",
     "P367",
-    "P387",
-    "P199"
+    "P387"
    ]
   },
   {
@@ -22226,6 +22219,7 @@
    "p": [
     "P385",
     "P389",
+    "P414",
     "P418",
     "P016"
    ]
@@ -22367,8 +22361,8 @@
     "P413",
     "P372",
     "P392",
-    "P015",
     "P391",
+    "P015",
     "P035"
    ]
   },
@@ -22682,8 +22676,8 @@
    "n": "Jacques Hadamard",
    "p": [
     "P053",
-    "P360",
-    "P013"
+    "P013",
+    "P360"
    ]
   },
   {
@@ -22960,13 +22954,13 @@
     "P021",
     "P263",
     "P282",
-    "P211",
     "P289",
+    "P211",
     "P040",
     "P055",
     "P292",
-    "P273",
-    "P474"
+    "P474",
+    "P273"
    ]
   },
   {
@@ -23158,8 +23152,8 @@
    "p": [
     "E25",
     "P215",
-    "P275",
-    "P468"
+    "P468",
+    "P275"
    ]
   },
   {
@@ -23271,8 +23265,8 @@
   {
    "n": "Joseph J. Kohn",
    "p": [
-    "P217",
-    "P280"
+    "P280",
+    "P217"
    ]
   },
   {
@@ -23298,8 +23292,8 @@
   {
    "n": "Joseph Liouville",
    "p": [
-    "P438",
-    "P398"
+    "P398",
+    "P438"
    ]
   },
   {
@@ -23634,8 +23628,8 @@
   {
    "n": "Lars Hormander",
    "p": [
-    "P217",
-    "P280"
+    "P280",
+    "P217"
    ]
   },
   {
@@ -23757,16 +23751,16 @@
     "P150",
     "P169",
     "P157",
-    "P004",
     "P450",
+    "P004",
     "P005",
-    "P190",
     "P142",
+    "P190",
     "P162",
     "P445",
-    "P430",
     "P558",
     "P120",
+    "P430",
     "P118",
     "P135"
    ]
@@ -23781,8 +23775,8 @@
    "n": "Leonid Kantorovich",
    "p": [
     "P270",
-    "P265",
-    "P209"
+    "P209",
+    "P265"
    ]
   },
   {
@@ -24021,8 +24015,8 @@
   {
    "n": "Manfred Einsiedler",
    "p": [
-    "P107",
-    "P079"
+    "P079",
+    "P107"
    ]
   },
   {
@@ -24246,8 +24240,8 @@
   {
    "n": "Maurice Frechet",
    "p": [
-    "P360",
     "P013",
+    "P360",
     "P363",
     "P451"
    ]
@@ -24273,8 +24267,8 @@
    "p": [
     "P320",
     "P037",
-    "P314",
     "P515",
+    "P314",
     "P075",
     "Q10"
    ]
@@ -25845,8 +25839,8 @@
    "p": [
     "P011",
     "P054",
-    "P210",
     "P019",
+    "P210",
     "P281",
     "P286"
    ]
@@ -26254,8 +26248,8 @@
    "n": "Terence Tao",
    "p": [
     "P050",
-    "P309",
     "E50",
+    "P309",
     "P300",
     "P051"
    ]
@@ -26529,8 +26523,8 @@
   {
    "n": "Vito Volterra",
    "p": [
-    "P360",
     "P013",
+    "P360",
     "P403",
     "P416"
    ]
@@ -26675,8 +26669,8 @@
   {
    "n": "Wilhelm Magnus",
    "p": [
-    "P422",
     "P409",
+    "P422",
     "P423",
     "P332"
    ]
@@ -26717,8 +26711,8 @@
    "p": [
     "P006",
     "P382",
-    "P384",
     "P419",
+    "P384",
     "P423"
    ]
   },
