@@ -1667,6 +1667,29 @@
     ]
    },
    {
+    "r": "key_development",
+    "y": 1930,
+    "ye": null,
+    "p": "year",
+    "l": "Kuratowski's planarity characterisation",
+    "w": "K. Kuratowski, 'Sur le probleme des courbes gauches en topologie', Fundamenta Mathematicae 15 (1930) 271-283",
+    "pe": [
+     "Kazimierz Kuratowski"
+    ],
+    "d": "Kuratowski proves that a graph is planar exactly when it contains no subdivision of K5 or K3,3.",
+    "ph": null,
+    "c": "high",
+    "n": null,
+    "ev": [
+     {
+      "c": "Kuratowski, Fund. Math. 15 (1930) 271-283, DOI 10.4064/fm-15-1-271-283",
+      "s": "Crossref",
+      "u": "https://doi.org/10.4064/fm-15-1-271-283",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
     "r": "consolidation",
     "y": 1936,
     "ye": null,
@@ -4450,6 +4473,35 @@
   "ms": [
    {
     "r": "precursor",
+    "y": 1868,
+    "ye": null,
+    "p": "year",
+    "l": "Gordan's finiteness theorem for binary forms",
+    "w": "P. Gordan, 'Beweis, dass jede Covariante und Invariante einer binären Form eine ganze Function mit numerischen Coefficienten einer endlichen Anzahl solcher Formen ist', J. reine angew. Math. 69 (1868) 323-354",
+    "pe": [
+     "Paul Gordan"
+    ],
+    "d": "Gordan proves by explicit computation that the invariants of a binary form are finitely generated, the problem Hilbert's 1890 basis theorem settles in general.",
+    "ph": null,
+    "c": "high",
+    "n": null,
+    "ev": [
+     {
+      "c": "Gordan, Crelle 69 (1868) 323-354, DOI 10.1515/crll.1868.69.323",
+      "s": "Crossref",
+      "u": "https://doi.org/10.1515/crll.1868.69.323",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Hilbert's basis theorem answered the finiteness question Gordan had solved for binary forms.",
+      "s": "MacTutor, Ring theory",
+      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Ring_theory/",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "precursor",
     "y": 1871,
     "ye": null,
     "p": "year",
@@ -6750,7 +6802,7 @@
     {
      "p": "P250",
      "f": "distinct branches of game theory",
-     "d": 2,
+     "d": 7,
      "t": "same"
     }
    ]
@@ -16798,6 +16850,29 @@
       "k": "bibliographic_record"
      }
     ]
+   },
+   {
+    "r": "key_development",
+    "y": 1974,
+    "ye": null,
+    "p": "year",
+    "l": "Knuth: Computer science and its relation to mathematics",
+    "w": "D. E. Knuth, 'Computer Science and its Relation to Mathematics', American Mathematical Monthly 81 (1974) 323-343",
+    "pe": [
+     "Donald Knuth"
+    ],
+    "d": "Knuth sets out how computer science differs from mathematics in its algorithmic outlook while drawing on it, a statement of the separation by a leading practitioner.",
+    "ph": null,
+    "c": "medium",
+    "n": "Lead from the independent cross-check proposed this as a consolidation; it is an essay, not a systematic treatment, so it is recorded as a key development.",
+    "ev": [
+     {
+      "c": "Knuth, Amer. Math. Monthly 81 (1974) 323-343, DOI 10.1080/00029890.1974.11993556",
+      "s": "Crossref",
+      "u": "https://doi.org/10.1080/00029890.1974.11993556",
+      "k": "bibliographic_record"
+     }
+    ]
    }
   ],
   "people": [
@@ -17815,6 +17890,30 @@
     ]
    },
    {
+    "r": "key_development",
+    "y": 1961,
+    "ye": null,
+    "p": "year",
+    "l": "Atiyah-Hirzebruch: topological K-theory",
+    "w": "M. F. Atiyah and F. Hirzebruch, 'Vector bundles and homogeneous spaces', Proc. Sympos. Pure Math. 3 (Differential Geometry), AMS, 1961, 7-38",
+    "pe": [
+     "Michael Atiyah",
+     "Friedrich Hirzebruch"
+    ],
+    "d": "Atiyah and Hirzebruch define K-theory for topological spaces as a generalised cohomology theory, carrying Grothendieck's construction into topology.",
+    "ph": null,
+    "c": "high",
+    "n": null,
+    "ev": [
+     {
+      "c": "Atiyah, Hirzebruch, Vector bundles and homogeneous spaces, Proc. Sympos. Pure Math. 3 (1961) 7-38, DOI 10.1090/pspum/003/0139181",
+      "s": "Crossref",
+      "u": "https://doi.org/10.1090/pspum/003/0139181",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
     "r": "consolidation",
     "y": 1964,
     "ye": null,
@@ -18694,6 +18793,30 @@
       "c": "Crossref record of Frenkel's 2007 book",
       "s": "Crossref / publisher record",
       "u": "https://openlibrary.org/search?q=Langlands+Correspondence+for+Loop+Groups",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 2021,
+    "ye": null,
+    "p": "year",
+    "l": "Fargues-Scholze: geometric Langlands on the Fargues-Fontaine curve",
+    "w": "L. Fargues and P. Scholze, 'Geometrization of the local Langlands correspondence', arXiv:2102.13459 (2021)",
+    "pe": [
+     "Laurent Fargues",
+     "Peter Scholze"
+    ],
+    "d": "Fargues and Scholze develop the geometric Langlands programme on the Fargues-Fontaine curve and use it to construct local Langlands parameters for p-adic groups.",
+    "ph": null,
+    "c": "medium",
+    "n": "Preprint year; this work is about local Langlands and is linked to the geometric programme by its methods (sheaves on Bun_G, geometric Satake), as its abstract states.",
+    "ev": [
+     {
+      "c": "Abstract: 'we develop the foundations of the geometric Langlands program on the Fargues-Fontaine curve'; v1 submitted 26 Feb 2021",
+      "s": "arXiv",
+      "u": "https://arxiv.org/abs/2102.13459",
       "k": "bibliographic_record"
      }
     ]
@@ -20392,6 +20515,29 @@
       "s": "Wikipedia, Four color theorem",
       "u": "https://en.wikipedia.org/wiki/Four_color_theorem",
       "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 2017,
+    "ye": null,
+    "p": "year",
+    "l": "Formal proof of the Kepler conjecture",
+    "w": "T. Hales et al., 'A formal proof of the Kepler conjecture', Forum of Mathematics, Pi 5 (2017) e2",
+    "pe": [
+     "Thomas Hales"
+    ],
+    "d": "The Flyspeck project checks Hales's computer-assisted proof of the Kepler conjecture completely in the HOL Light and Isabelle proof assistants.",
+    "ph": null,
+    "c": "high",
+    "n": null,
+    "ev": [
+     {
+      "c": "Hales, Adams, Bauer et al., A formal proof of the Kepler conjecture, Forum Math. Pi 5 (2017), DOI 10.1017/fmp.2017.1",
+      "s": "Crossref",
+      "u": "https://doi.org/10.1017/fmp.2017.1",
+      "k": "bibliographic_record"
      }
     ]
    }
@@ -30216,7 +30362,7 @@
     "basis": "first statement"
    },
    "methodological": {
-    "y": 1980,
+    "y": 1974,
     "basis": "first application"
    },
    "institutional": {
@@ -30234,7 +30380,7 @@
   "approx": false,
   "derived": {
    "conceptual": 1963,
-   "methodological": 1980,
+   "methodological": 1974,
    "institutional": 1966
   },
   "phases": [
@@ -30354,18 +30500,47 @@
    },
    {
     "r": "first_application",
+    "y": 1974,
+    "ye": null,
+    "p": "year",
+    "l": "Shelah: Whitehead problem independent of ZFC",
+    "w": "S. Shelah, 'Infinite abelian groups, Whitehead problem and some constructions', Israel J. Math. 18 (1974) 243-256",
+    "pe": [
+     "Saharon Shelah"
+    ],
+    "d": "Shelah shows that every Whitehead group is free under V=L but not under Martin's axiom with not-CH, a consistency obtained by forcing, so an algebra problem becomes independent of ZFC.",
+    "ph": null,
+    "c": "medium",
+    "n": "That the MA + not-CH half rests on forcing is from the standard account of the result; the paper text was not read.",
+    "ev": [
+     {
+      "c": "Shelah, Israel J. Math. 18 (1974) 243-256, DOI 10.1007/bf02757281",
+      "s": "Crossref",
+      "u": "https://doi.org/10.1007/bf02757281",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Shelah proved in 1974 that the Whitehead problem is independent of ZFC.",
+      "s": "Wikipedia, Whitehead problem",
+      "u": "https://en.wikipedia.org/wiki/Whitehead_problem",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
     "y": 1980,
     "ye": null,
     "p": "year",
-    "l": "Whitehead problem independent by forcing-type methods",
+    "l": "Whitehead groups need not be free even under CH",
     "w": "Shelah, Whitehead groups may not be free even assuming CH, II, Israel J. Math. (1980)",
     "pe": [
      "Saharon Shelah"
     ],
-    "d": "Shelah applies set-theoretic independence to a problem in abelian group theory, the first algebraic use of the method in this record.",
+    "d": "Shelah shows that CH alone does not decide the Whitehead problem, refining his 1974 independence result.",
     "ph": null,
     "c": "medium",
-    "n": "Mechanism (forcing versus a related set-theoretic method) was not checked in the paper text. Shelah 1974 (Israel J. Math., DOI 10.1007/bf02757281) is a candidate earlier algebra application, not evaluated here.",
+    "n": "The paper's method (forcing versus a related set-theoretic argument) was not checked in the text.",
     "ev": [
      {
       "c": "Shelah, Whitehead groups may not be free even assuming CH II, DOI 10.1007/bf02760652",
@@ -36792,18 +36967,18 @@
   "ms": [
    {
     "r": "precursor",
-    "y": 1729,
+    "y": 1731,
     "ye": null,
     "p": "year",
     "l": "Clairaut's work on curves of double curvature",
-    "w": "Clairaut, research on space curves completed 1729 (book c. 1731)",
+    "w": "Clairaut, Recherches sur les courbes a double courbure, Paris, 1731 (research completed 1729)",
     "pe": [
      "Alexis Clairaut"
     ],
     "d": "A teenager's study of curves in space, the first step toward curvature theory beyond plane curves.",
     "ph": "Space curves (Clairaut)",
     "c": "medium",
-    "n": "The year given is when the work was completed. I did not find a bibliographic record for the 1731 book, so its publication year is not verified.",
+    "n": "Dated by publication (1731, from the title page MacTutor reproduces); the research was completed in 1729. No separate library record was retrieved.",
     "ev": [
      {
       "c": "Clairaut did research on curves of double curvature completed in 1729, leading to his Academy election in 1731",
@@ -42062,7 +42237,7 @@
     "basis": "first statement"
    },
    "methodological": {
-    "y": 1834,
+    "y": 1811,
     "basis": "earliest key development; no first application found"
    },
    "institutional": {
@@ -42183,6 +42358,35 @@
       "c": "MacTutor says the work summarised the mechanics done since Newton and turned mechanics into a branch of analysis",
       "s": "MacTutor, Lagrange",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1811,
+    "ye": 1815,
+    "p": "range",
+    "l": "Revised second edition of the Mecanique analytique",
+    "w": "J.-L. Lagrange, Mecanique analytique, nouvelle edition, 2 vols., Paris, Courcier, 1811-1815",
+    "pe": [
+     "Joseph-Louis Lagrange"
+    ],
+    "d": "Lagrange revises and enlarges the treatise; the second volume, nearly finished when he died in 1813, appeared in 1815.",
+    "ph": null,
+    "c": "medium",
+    "n": null,
+    "ev": [
+     {
+      "c": "Mecanique analytique, vol. 1, Paris, Ve Courcier, 1811 (scan)",
+      "s": "archive.org",
+      "u": "https://archive.org/details/mcaniqueanalyt01lagr",
+      "k": "primary_text"
+     },
+     {
+      "c": "Second edition 1811-1815; volume 2 published posthumously in 1815",
+      "s": "Wikipedia, Mecanique analytique",
+      "u": "https://en.wikipedia.org/wiki/M%C3%A9canique_analytique",
       "k": "history_page"
      }
     ]
@@ -57090,6 +57294,35 @@
    },
    {
     "r": "key_development",
+    "y": 1738,
+    "ye": null,
+    "p": "year",
+    "l": "Normal approximation to the binomial",
+    "w": "A. de Moivre, The Doctrine of Chances, 2nd ed., London, 1738, pp. 235-243 (English version of the Latin Approximatio of 1733)",
+    "pe": [
+     "Abraham de Moivre"
+    ],
+    "d": "De Moivre approximates sums of binomial terms by what is now the normal curve, the first form of the central limit theorem.",
+    "ph": null,
+    "c": "medium",
+    "n": "A seven-page Latin pamphlet, Approximatio ad summam terminorum binomii, was dated 12 November 1733 and circulated privately; the date here is its first publication in the 1738 Doctrine of Chances.",
+    "ev": [
+     {
+      "c": "De Moivre first published the result in a Latin pamphlet of 1733 and in the 1738 Doctrine of Chances.",
+      "s": "MacTutor, De Moivre",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/",
+      "k": "history_page"
+     },
+     {
+      "c": "Approximatio privately printed 1733, translated in the 1738 second edition",
+      "s": "Wikipedia, Abraham de Moivre",
+      "u": "https://en.wikipedia.org/wiki/Abraham_de_Moivre",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
     "y": 1748,
     "ye": null,
     "p": "year",
@@ -61896,6 +62129,29 @@
    "Recursion theory as a textbook subject"
   ],
   "ms": [
+   {
+    "r": "precursor",
+    "y": 1931,
+    "ye": null,
+    "p": "year",
+    "l": "Goedel's incompleteness paper defines primitive recursive functions",
+    "w": "K. Goedel, 'Ueber formal unentscheidbare Saetze der Principia Mathematica und verwandter Systeme I', Monatshefte fuer Mathematik und Physik 38 (1931) 173-198",
+    "pe": [
+     "Kurt Goedel"
+    ],
+    "d": "Goedel's arithmetisation of syntax uses the recursive (now primitive recursive) functions, the class later widened to general recursive functions.",
+    "ph": null,
+    "c": "medium",
+    "n": null,
+    "ev": [
+     {
+      "c": "Goedel, Monatsh. Math. Phys. 38 (1931) 173-198, DOI 10.1007/bf01700692",
+      "s": "Crossref",
+      "u": "https://doi.org/10.1007/bf01700692",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
    {
     "r": "precursor",
     "y": 1933,
@@ -72685,6 +72941,30 @@
     ]
    },
    {
+    "r": "key_development",
+    "y": 1943,
+    "ye": null,
+    "p": "year",
+    "l": "Murray-von Neumann: Rings of operators IV",
+    "w": "F. J. Murray and J. von Neumann, 'On rings of operators IV', Annals of Mathematics 44 (1943) 716-808",
+    "pe": [
+     "Francis Murray",
+     "John von Neumann"
+    ],
+    "d": "The fourth paper constructs the hyperfinite II1 factor, proves its uniqueness and exhibits non-isomorphic II1 factors.",
+    "ph": null,
+    "c": "medium",
+    "n": null,
+    "ev": [
+     {
+      "c": "Murray, von Neumann, On Rings of Operators IV, Ann. of Math. 44 (1943) 716, DOI 10.2307/1969107",
+      "s": "Crossref",
+      "u": "https://doi.org/10.2307/1969107",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
     "r": "consolidation",
     "y": 1957,
     "ye": null,
@@ -77202,7 +77482,7 @@
   "grade": {},
   "shown": {
    "conceptual": {
-    "y": 1930,
+    "y": 1935,
     "basis": "first statement"
    },
    "methodological": {
@@ -77220,10 +77500,10 @@
    "label": "Conway's On Numbers and Games",
    "same": false
   },
-  "y": 1930,
+  "y": 1935,
   "approx": false,
   "derived": {
-   "conceptual": 1930,
+   "conceptual": 1935,
    "methodological": null,
    "institutional": 1982
   },
@@ -77264,24 +77544,30 @@
    },
    {
     "r": "first_statement",
-    "y": 1930,
-    "ye": 1939,
-    "p": "decade",
+    "y": 1935,
+    "ye": null,
+    "p": "year",
     "l": "Sprague-Grundy theorem (impartial games as nim-heaps)",
-    "w": "Sprague, 'Uber mathematische Kampfspiele', Tohoku Mathematical Journal (1935-36); Grundy, 'Mathematics and games', Eureka (1939)",
+    "w": "R. Sprague, 'Ueber mathematische Kampfspiele', Tohoku Mathematical Journal (1st ser.) 41 (1935) 438-444; independently P. M. Grundy, 'Mathematics and games', Eureka 2 (1939) 6-8",
     "pe": [
      "Roland Sprague",
      "Patrick Grundy"
     ],
     "d": "Each impartial game is equivalent to a nim-heap value, so impartial games are unified by one number system.",
     "ph": null,
-    "c": "low",
-    "n": "Decade precision only. The years 1935 (Sprague) and 1939 (Grundy) are commonly cited but were not verified: Crossref has no matching record and zbMATH was blocked. Derived conceptual 1930 is therefore a lower bound, not the paper year.",
+    "c": "medium",
+    "n": "Dated by Sprague's paper (J-STAGE gives 1935; the volume is sometimes cited 1935-36). Grundy's 1939 note is an independent rediscovery; its year is from secondary sources only.",
     "ev": [
      {
-      "c": "Sprague-Grundy theorem placed in the 1930s",
-      "s": "Wikipedia: Combinatorial game theory (history)",
-      "u": "https://en.wikipedia.org/wiki/Combinatorial_game_theory",
+      "c": "Sprague, Ueber mathematische Kampfspiele, Tohoku Math. J. 41 (1935) 438-444",
+      "s": "J-STAGE",
+      "u": "https://www.jstage.jst.go.jp/article/tmj1911/41/0/41_0_438/_article",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Sprague (1935) and Grundy (1939) found the theorem independently.",
+      "s": "Wikipedia, Sprague-Grundy theorem",
+      "u": "https://en.wikipedia.org/wiki/Sprague%E2%80%93Grundy_theorem",
       "k": "history_page"
      }
     ]
@@ -77441,7 +77727,7 @@
     {
      "p": "E25",
      "f": "distinct branches of game theory",
-     "d": -2,
+     "d": -7,
      "t": "same"
     }
    ]
@@ -78228,6 +78514,29 @@
       "s": "Wikipedia: Computer algebra",
       "u": "https://en.wikipedia.org/wiki/Computer_algebra",
       "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1975,
+    "ye": null,
+    "p": "year",
+    "l": "Collins: cylindrical algebraic decomposition",
+    "w": "G. E. Collins, 'Quantifier elimination for real closed fields by cylindrical algebraic decomposition', Automata Theory and Formal Languages, LNCS 33, Springer, 1975, 134-183",
+    "pe": [
+     "George Collins"
+    ],
+    "d": "Collins gives the first practical algorithm for quantifier elimination over the reals, a core method of computer algebra.",
+    "ph": null,
+    "c": "high",
+    "n": null,
+    "ev": [
+     {
+      "c": "Collins, LNCS 33 (1975) 134-183, DOI 10.1007/3-540-07407-4_17",
+      "s": "Crossref",
+      "u": "https://doi.org/10.1007/3-540-07407-4_17",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -80047,6 +80356,29 @@
       "c": "Record title, journal and year checked",
       "s": "Crossref",
       "u": "https://doi.org/10.1090/s0002-9904-1973-13284-7",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "precursor",
+    "y": 1975,
+    "ye": null,
+    "p": "year",
+    "l": "Kasparov's K-homology of elliptic operators",
+    "w": "G. G. Kasparov, 'Topological invariants of elliptic operators. I: K-homology', Izv. Akad. Nauk SSSR 39 (1975); Math. USSR Izv. 9 (1975) 751-792",
+    "pe": [
+     "Gennadi Kasparov"
+    ],
+    "d": "Kasparov defines analytic K-homology through abstract elliptic operators, the homology half that KK-theory later unifies with K-theory.",
+    "ph": null,
+    "c": "medium",
+    "n": "The cross-check lead proposed this as the first statement; it is recorded as a precursor, like the BDF papers, because KK itself appears in 1979-1980.",
+    "ev": [
+     {
+      "c": "Kasparov, Math. USSR Izv. 9 (1975) 751-792, DOI 10.1070/im1975v009n04abeh001497",
+      "s": "Crossref",
+      "u": "https://doi.org/10.1070/im1975v009n04abeh001497",
       "k": "bibliographic_record"
      }
     ]
@@ -82551,6 +82883,29 @@
   ],
   "ms": [
    {
+    "r": "precursor",
+    "y": 1949,
+    "ye": null,
+    "p": "year",
+    "l": "Von Neumann's Illinois lectures on complicated automata",
+    "w": "J. von Neumann, 'Theory and Organization of Complicated Automata', five lectures, University of Illinois, December 1949 (published as Part I of Theory of Self-Reproducing Automata, 1966)",
+    "pe": [
+     "John von Neumann"
+    ],
+    "d": "Von Neumann lectures on the logic of self-reproduction; the transcripts stayed unpublished until Burks edited them.",
+    "ph": null,
+    "c": "high",
+    "n": "Lectures, not a publication, hence a precursor.",
+    "ev": [
+     {
+      "c": "'Five lectures delivered at the University of Illinois in December, 1949. This is Part I of the present volume.' (Burks, editor's introduction)",
+      "s": "von Neumann, Theory of Self-Reproducing Automata, ed. Burks, 1966 (scan)",
+      "u": "https://archive.org/details/theoryofselfrepr00vonn_0",
+      "k": "primary_text"
+     }
+    ]
+   },
+   {
     "r": "first_statement",
     "y": 1951,
     "ye": null,
@@ -84108,6 +84463,29 @@
       "c": "Record title, journal and year checked",
       "s": "Crossref",
       "u": "https://doi.org/10.1007/bf01425417",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1983,
+    "ye": null,
+    "p": "year",
+    "l": "Getzler's supersymmetric proof via supermanifolds",
+    "w": "E. Getzler, 'Pseudodifferential operators on supermanifolds and the Atiyah-Singer index theorem', Comm. Math. Phys. 92 (1983) 163-178",
+    "pe": [
+     "Ezra Getzler"
+    ],
+    "d": "Getzler proves the local index theorem with a symbol calculus on supermanifolds, following the supersymmetry idea of Alvarez-Gaume and Witten.",
+    "ph": null,
+    "c": "medium",
+    "n": null,
+    "ev": [
+     {
+      "c": "Getzler, Comm. Math. Phys. 92 (1983) 163-178, DOI 10.1007/bf01210843",
+      "s": "Crossref",
+      "u": "https://doi.org/10.1007/bf01210843",
       "k": "bibliographic_record"
      }
     ]
@@ -88287,6 +88665,29 @@
       "c": "Paper recorded in Crossref, 1974.",
       "s": "Crossref",
       "u": "https://doi.org/10.1016/0304-4068(74)90003-2",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "consolidation",
+    "y": 1981,
+    "ye": null,
+    "p": "year",
+    "l": "Smale's handbook survey 'Global analysis and economics'",
+    "w": "S. Smale, 'Global analysis and economics', ch. 8 in Handbook of Mathematical Economics, vol. 1, North-Holland, 1981, 331-370",
+    "pe": [
+     "Stephen Smale"
+    ],
+    "d": "Smale surveys the use of global analysis in equilibrium theory for the standard handbook of the field.",
+    "ph": null,
+    "c": "high",
+    "n": null,
+    "ev": [
+     {
+      "c": "Smale, Chapter 8 Global analysis and economics, Handbook of Mathematical Economics 1 (1981) 331-370, DOI 10.1016/s1573-4382(81)01012-6",
+      "s": "Crossref",
+      "u": "https://doi.org/10.1016/s1573-4382(81)01012-6",
       "k": "bibliographic_record"
      }
     ]
@@ -108183,6 +108584,36 @@
      },
      {
       "c": "SEP: Hilbert presented a sketch of a consistency proof in his Heidelberg talk (1905); his own programme was presented in Hamburg talks of 1921, published 1922.",
+      "s": "Stanford Encyclopedia of Philosophy, Hilbert's Program",
+      "u": "https://plato.stanford.edu/entries/hilbert-program/",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1928,
+    "ye": null,
+    "p": "year",
+    "l": "Hilbert and Ackermann's Grundzuege der theoretischen Logik",
+    "w": "D. Hilbert and W. Ackermann, Grundzuege der theoretischen Logik, Grundlehren 27, Springer, Berlin, 1928",
+    "pe": [
+     "David Hilbert",
+     "Wilhelm Ackermann"
+    ],
+    "d": "The textbook sets out first-order logic and poses its completeness and decision problems, questions central to the programme.",
+    "ph": null,
+    "c": "low",
+    "n": "The cross-check lead proposed a consolidation; the book is a logic textbook rather than a treatment of the programme, which Hilbert-Bernays (1934) gives. The content claim is from secondary accounts.",
+    "ev": [
+     {
+      "c": "Hilbert, Ackermann, Grundzuege der theoretischen Logik, Springer, Berlin, 1928, Grundlehren 27",
+      "s": "CiNii Books",
+      "u": "https://ci.nii.ac.jp/ncid/BA01700588?l=en",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Hilbert-Ackermann (1928) posed the completeness question for first-order logic.",
       "s": "Stanford Encyclopedia of Philosophy, Hilbert's Program",
       "u": "https://plato.stanford.edu/entries/hilbert-program/",
       "k": "history_page"

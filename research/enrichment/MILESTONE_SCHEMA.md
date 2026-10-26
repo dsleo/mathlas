@@ -13,6 +13,7 @@ The pilot showed that two careful passes disagree about a "birth date" mostly be
 - `milestones`: 0 to 8 items, ordered by year (see below). Zero is valid when research has not established a dated event; record the searches and gap in `notes` / `searchedSources`.
 - `people`: up to 6 key mathematicians, each `{name, role, lifespan, biographyUrl, works: [{citation, year, url, whyItMatters}]}` with works relevant to this event
 - `notes`: disputes and gaps
+- `trad` (optional, proposed): the mathematical tradition the event's first statement belongs to. It lets coverage be counted by tradition, which no other field records (`cat` is the harvest batch, `cl` the field). Use one of `babylonian`, `egyptian`, `greek`, `chinese`, `indian`, `islamic`, `japanese`, `european` (Latin and later European, up to about 1900) or `global` (after about 1900, when one tradition no longer fits), or a list when a transfer joins two traditions (for example `["babylonian", "greek"]`). Leave it out when unsure. Add it only while reviewing an event; do not mass-tag from names. `scripts/coverage_report.py` lists the gap until enough events carry it.
 
 ## Milestone
 
