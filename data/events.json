@@ -21515,16 +21515,20 @@
   "product": "Geometry of numbers",
   "why": "Convex bodies and lattices in R^n are used to prove existence of integer points, with consequences for quadratic forms and algebraic number fields.",
   "cat": "Seed set A",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "methodological": "B",
+   "institutional": "B"
+  },
   "shown": {
    "conceptual": {
     "y": 1896,
     "basis": "first statement"
    },
    "methodological": {
-    "y": 1907,
-    "basis": "earliest key development; no first application found"
+    "y": 1896,
+    "basis": "first application"
    },
    "institutional": {
     "y": 1896,
@@ -21541,7 +21545,7 @@
   "approx": false,
   "derived": {
    "conceptual": 1896,
-   "methodological": null,
+   "methodological": 1896,
    "institutional": 1896
   },
   "phases": [
@@ -21562,13 +21566,42 @@
     "d": "A lecture, unpublished until 1991, already contained an early instance of the method later called the geometry of numbers.",
     "ph": null,
     "c": "low",
-    "n": "The year 1887 is inferred from MacTutor placing this lecture in the Bonn habilitation context; it is not stated outright.",
+    "n": "MacTutor says Minkowski presented the lecture as his Bonn habilitation lecture and that it was unpublished until 1991; the year 1887 is inferred from that context, not stated. MacTutor also says he initiated the geometry of numbers in 1890, which is consistent with Wikipedia's statement that he began at age 26 (born 1864); 1896 is the date of the first instalment, not of the start of the research.",
     "ev": [
      {
       "c": "MacTutor, quoting Dieudonne: it contains the first example of the method later developed as the geometry of numbers.",
       "s": "MacTutor Biographies/Minkowski",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Minkowski/",
       "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "precursor",
+    "y": 1891,
+    "ye": null,
+    "p": "year",
+    "l": "Minkowski's Crelle paper giving a geometric proof of Hermite's theorem on positive quadratic forms",
+    "w": "Minkowski, Ueber die positiven quadratischen Formen und ueber kettenbruchaehnliche Algorithmen, J. reine angew. Math. 107 (1891) 278-297",
+    "pe": [
+     "Hermann Minkowski"
+    ],
+    "d": "A new geometric proof, via the ellipsoid, of Hermite's bound on the minimum of a positive quadratic form; Minkowski later saw that only convexity and central symmetry were needed.",
+    "ph": null,
+    "c": "medium",
+    "n": "Minkowski's own 1893 publisher's announcement (reprinted in the 1910 edition of Geometrie der Zahlen) says he first proved Hermite's theorem anew in Crelle 107 and only afterwards noticed that the property of the ellipsoid rests on its being a centrally symmetric surface nowhere concave. The Crelle paper itself was not read.",
+    "ev": [
+     {
+      "c": "Crossref record: Minkowski, Ueber die positiven quadratischen Formen und ueber kettenbruchaehnliche Algorithmen, Crelle 107 (1891) 278-297.",
+      "s": "Crossref 10.1515/crll.1891.107.278",
+      "u": "https://doi.org/10.1515/crll.1891.107.278",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Minkowski's Anzeige in the 1910 edition: he obtained a new, more fruitful proof of Hermite's theorem in vol. 107 of Crelle's Journal and then noticed that the property rests on the ellipsoid being a centrally symmetric nowhere-concave surface.",
+      "s": "Minkowski, Geometrie der Zahlen (1910), Anzeige (archive.org full text, read)",
+      "u": "https://archive.org/details/geometriederzahl00minkrich",
+      "k": "primary_text"
      }
     ]
    },
@@ -21584,9 +21617,27 @@
     ],
     "d": "Minkowski presented lattice points in convex bodies, with the first and second theorems, as a geometric method for number theory.",
     "ph": null,
-    "c": "medium",
-    "n": "Only the completed 1910 edition has a bibliographic record in the sources searched; the 1896 date for the first instalment comes from history pages.",
+    "c": "high",
+    "n": "Confirmed from the text: the editors' preface to the 1910 edition says the first instalment, pp. 1-240, appeared in 1896 (the Ankuendigung on its cover is dated February 1896), and MacTutor agrees (240 of 256 pages in 1896). Chapter 3 section 30 (p. 73) is the theorem on centrally symmetric nowhere-concave bodies. Minkowski also printed the theorem in 'Sur les proprietes des nombres entiers qui sont derivees de l'intuition de l'espace' (Nouvelles annales, 3e s., 15 (1896) 393-403), a French translation of a paper for the Chicago congress of 1893 (Mathematical Papers, New York, 1896), which cites the book as 1896. Caveat: the 1910 edition reprints a Teubner announcement of the book (Mitteilungen, dated 1893 in the scan) that states the principle and the title earlier; an announcement is not a statement with proof, and its OCR year is uncertain, so 1896 remains the first printed statement found.",
     "ev": [
+     {
+      "c": "Editors' preface (Hilbert, Speiser): the first instalment, pp. 1-240, appeared in 1896; the second was delayed and found as a manuscript after Minkowski's death.",
+      "s": "Minkowski, Geometrie der Zahlen (1910), Vorwort der Herausgeber (archive.org full text, read)",
+      "u": "https://archive.org/details/geometriederzahl00minkrich",
+      "k": "primary_text"
+     },
+     {
+      "c": "Minkowski states the convex-body theorem (a centrally symmetric nowhere-concave body of large enough volume contains a lattice point other than the origin) and cites his book Geometrie der Zahlen (1896, Teubner).",
+      "s": "Minkowski, Sur les proprietes des nombres entiers qui sont derivees de l'intuition de l'espace, Nouvelles annales de mathematiques 3e s. 15 (1896) 393-403 (Numdam; read)",
+      "u": "https://numdam.org/item/NAM_1896_3_15__393_0/",
+      "k": "primary_publication"
+     },
+     {
+      "c": "MacTutor: the first 240 of the book's 256 pages appeared as its first section in 1896; the complete work was first published in 1910.",
+      "s": "MacTutor Biographies/Minkowski (re-read in review)",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Minkowski/",
+      "k": "history_page"
+     },
      {
       "c": "Wikipedia: in 1896 he presented his geometry of numbers.",
       "s": "Wikipedia: Hermann Minkowski",
@@ -21614,10 +21665,51 @@
     "d": "The field's name is the title of Minkowski's book.",
     "ph": null,
     "c": "medium",
-    "n": "Same work as the first_statement milestone; it genuinely plays both roles.",
+    "n": "Same work as the first_statement milestone; it genuinely plays both roles. In the announcement reprinted in the 1910 edition Minkowski says why he chose the title: the methods that yield arithmetic theorems came to him through spatial intuition, although the exposition is analytic throughout.",
     "ev": [
      {
       "c": "Wikipedia says the term arose from Minkowski's embedding of numbers in higher-dimensional space and his book of that name.",
+      "s": "Wikipedia: Geometry of numbers",
+      "u": "https://en.wikipedia.org/wiki/Geometry_of_numbers",
+      "k": "history_page"
+     },
+     {
+      "c": "Minkowski: 'Geometrie der Zahlen habe ich diese Schrift betitelt, weil ich zu den Methoden ... durch raeumliche Anschauung gefuehrt bin.'",
+      "s": "Minkowski, Geometrie der Zahlen (1910), Anzeige (archive.org full text, read)",
+      "u": "https://archive.org/details/geometriederzahl00minkrich",
+      "k": "primary_text"
+     }
+    ]
+   },
+   {
+    "r": "first_application",
+    "y": 1896,
+    "ye": null,
+    "p": "year",
+    "l": "Class-number finiteness, units and discriminants from the lattice-point theorem",
+    "w": "Minkowski, Geometrie der Zahlen, Teubner, 1896 (sections 41-44 and 51); Nouvelles annales 15 (1896) 393-403",
+    "pe": [
+     "Hermann Minkowski"
+    ],
+    "d": "Minkowski applies the convex-body theorem to Dirichlet's theorem on units, to a lower bound for the discriminant of a number field and to the finiteness of the number of classes of positive quadratic forms.",
+    "ph": null,
+    "c": "medium",
+    "n": "Same instalment as the first statement, so the application is contemporaneous with it. The 1896 Nouvelles annales text says the theorems allowed Dirichlet's unit theorem, the finiteness of the number of ideal classes and the divisibility of every field discriminant by a prime to be proved, the last 'for the first time'; the finiteness of the ideal class number is Minkowski's own claim and its proof was not read. Wikipedia says geometry of numbers gave the first proof that the ideal class group is finite.",
+    "ev": [
+     {
+      "c": "Table of contents of the book: section 42 lower bound for a discriminant (p. 133), section 44 Dirichlet's theorem on complex units (p. 137), section 51 finiteness of class numbers of positive quadratic forms (p. 196), all within pp. 1-240.",
+      "s": "Minkowski, Geometrie der Zahlen (1910), Inhalt (archive.org full text, read)",
+      "u": "https://archive.org/details/geometriederzahl00minkrich",
+      "k": "primary_text"
+     },
+     {
+      "c": "Minkowski: the theorems on linear forms are applicable to the proof of Dirichlet's unit theorem and of the finiteness of the number of ideal classes, and established for the first time that the discriminant of every algebraic number field is divisible by at least one prime.",
+      "s": "Minkowski, Nouvelles annales de mathematiques 3e s. 15 (1896) 393-403, section IV (Numdam; read)",
+      "u": "https://numdam.org/item/NAM_1896_3_15__393_0/",
+      "k": "primary_publication"
+     },
+     {
+      "c": "Wikipedia: the geometry of numbers gave the first proof that the ideal class group is finite.",
       "s": "Wikipedia: Geometry of numbers",
       "u": "https://en.wikipedia.org/wiki/Geometry_of_numbers",
       "k": "history_page"
@@ -21640,7 +21732,7 @@
     "n": null,
     "ev": [
      {
-      "c": "Internet Archive record dated 1907.",
+      "c": "Internet Archive metadata: Minkowski, Diophantische Approximationen: eine Einfuehrung in die Zahlentheorie, 1907.",
       "s": "Internet Archive",
       "u": "https://archive.org/details/diophantischeapp00mink",
       "k": "bibliographic_record"
@@ -21679,6 +21771,12 @@
       "s": "Wikipedia: Hermann Minkowski",
       "u": "https://en.wikipedia.org/wiki/Hermann_Minkowski",
       "k": "history_page"
+     },
+     {
+      "c": "Editors' preface to the 1910 edition: the second instalment was found as a finished manuscript in Minkowski's papers and published to give the work a certain conclusion.",
+      "s": "Minkowski, Geometrie der Zahlen (1910), Vorwort (archive.org full text, read)",
+      "u": "https://archive.org/details/geometriederzahl00minkrich",
+      "k": "primary_text"
      }
     ]
    },
@@ -21708,6 +21806,12 @@
       "s": "Wikipedia: Geometry of numbers",
       "u": "https://en.wikipedia.org/wiki/Geometry_of_numbers",
       "k": "history_page"
+     },
+     {
+      "c": "Open Library: Cassels, An Introduction to the Geometry of Numbers, Springer, first published 1959.",
+      "s": "Open Library work OL1376413W",
+      "u": "https://openlibrary.org/works/OL1376413W",
+      "k": "bibliographic_record"
      }
     ]
    }
@@ -21762,7 +21866,7 @@
     ]
    }
   ],
-  "notes": "Hurwitz and Cassels biographies were not fetched (null URLs; lifespans from general knowledge); Hurwitz has no works listed. Not established: the exact year of first public statement (a series of notes in the early 1890s may precede the 1896 book), the first application to class-number finiteness (Wikipedia credits geometry of numbers with the first proof the ideal class group is finite but gives no year), and an MSC institution milestone (code 11H not verified; the zbMATH classification page could not be read). Minkowski's 1891 Crelle paper on positive quadratic forms (Crossref 10.1515/crll.1891.107.278) is a candidate precursor not promoted. Wikipedia's lead says Minkowski began the research at age 26, which does not fit 1896 (age 31).",
+  "notes": "Direct review R2-R3b. Read: the 1910 edition of Geometrie der Zahlen (editors' preface, the announcement, contents), Minkowski's 1896 Nouvelles annales paper (Numdam), MacTutor Minkowski, Wikipedia (Minkowski; Geometry of numbers); Internet Archive metadata for 1907 and 1910, Open Library for Cassels 1959, Crossref for the 1891 Crelle paper. The 1896 first instalment contains the convex-body theorem (section 30), the unit, discriminant and class-number applications and the title, so the first statement, first application and naming all fall in 1896. Added the 1891 Crelle paper as a precursor and a 1896 first application. Open: the 1891 and 1896 texts were not read beyond the contents and the French paper; Teubner's announcement (dated 1893 in the scan) states the principle earlier but without proof; Hurwitz has no works listed and an MSC institution milestone (11H) was not verified; Hancock's 1939 history 'Development of the Minkowski Geometry of Numbers' is an earlier survey than Cassels.",
   "catalogueDates": [
    [
     1889,
@@ -38551,8 +38655,8 @@
    {
     "r": "first_statement",
     "y": 1010,
-    "ye": null,
-    "p": "decade",
+    "ye": 1015,
+    "p": "range",
     "l": "Al-Karaji, Al-Fakhri: monomials and polynomial arithmetic",
     "w": "Al-Karaji, Al-Fakhri fi'l-jabr wa'l-muqabala",
     "pe": [
@@ -38561,7 +38665,7 @@
     "d": "Defined the powers x^n and 1/x^n as monomials and gave multiplication of polynomials, freeing algebra from geometric operations.",
     "ph": "Algebra of polynomials",
     "c": "medium",
-    "n": "Al-Fakhri was written in Baghdad before he left the city; no firmer date was found.",
+    "n": "Al-Fakhri was written in Baghdad and dedicated to the city's ruler (MacTutor); no source gives a year for it. Britannica puts his Baghdad service at about 1010-1015, when he wrote his three main works, so 1010-1015 is a range, not a date. The text itself (surviving in at least four manuscripts per Wikipedia) was not read; Woepcke's 1853 extract is the earliest printed access. MacTutor also records the critical view (Crossley) that al-Karaji usually gave numerical examples and geometric pictures instead of proofs.",
     "ev": [
      {
       "c": "What al-Karaji achieved in Al-Fakhri was first to define the monomials x, x^2, x^3, ... and 1/x, 1/x^2, ...",
@@ -38573,6 +38677,18 @@
       "c": "His work gave rules for adding, subtracting and multiplying polynomials, though division was only by monomials.",
       "s": "English Wikipedia, Al-Karaji",
       "u": "https://en.wikipedia.org/wiki/Al-Karaji",
+      "k": "history_page"
+     },
+     {
+      "c": "Britannica (as found by search, page itself not opened): al-Karaji's service in Baghdad about 1010-1015, during which he wrote his main works including al-Fakhri.",
+      "s": "Encyclopaedia Britannica, al-Karaji",
+      "u": "https://www.britannica.com/biography/al-Karaji",
+      "k": "history_page"
+     },
+     {
+      "c": "MacTutor: he gave rules for adding, subtracting and multiplying sums of monomials, division only by a monomial; Rashed argues he freed algebra from geometric operations, Crossley was less impressed.",
+      "s": "MacTutor, Al-Karaji biography (re-read in review)",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Karaji/",
       "k": "history_page"
      }
     ]
@@ -38590,11 +38706,17 @@
     "d": "Treated polynomial arithmetic more fully, including division and root extraction, and defined powers with negative exponents.",
     "ph": "Algebra of polynomials",
     "c": "medium",
-    "n": "Year derived from birth c. 1130 plus age 19.",
+    "n": "MacTutor gives birth about 1130 and says al-Bahir was written at nineteen, but no year for the book, so 1149 is derived. MacTutor says Book 1 defines powers (including negative ones), describes addition, subtraction, multiplication and division of polynomials, and gives the binomial theorem with Pascal-triangle coefficients, which he attributes to al-Karaji; 'resembling polynomial rings' is a modern interpretation, not a claim of the source. The text of al-Bahir was not read.",
     "ev": [
      {
       "c": "Al-Samawal extended arithmetic to polynomials; in Book 1 he defines x, x^2, ..., x^-1, x^-2 and the study resembles polynomial rings.",
       "s": "MacTutor, Al-Samawal biography",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Samawal/",
+      "k": "history_page"
+     },
+     {
+      "c": "MacTutor: in the first book of al-Bahir he defines powers and describes addition, subtraction, multiplication and division of polynomials; the binomial theorem with Pascal-triangle coefficients is attributed to al-Karaji.",
+      "s": "MacTutor, Al-Samawal biography (re-read in review)",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Samawal/",
       "k": "history_page"
      }
@@ -38610,10 +38732,10 @@
     "pe": [
      "Franz Woepcke"
     ],
-    "d": "French extract of al-Karaji's algebra, the first printed exposition of his polynomial arithmetic available to European readers.",
+    "d": "French extract of al-Karaji's al-Fakhri, the printed edition through which European historians first learned of his polynomial arithmetic.",
     "ph": null,
     "c": "medium",
-    "n": "Relies on the Wikipedia statement about Woepcke; the 'first printed exposition' wording is my summary and was not checked against the text itself.",
+    "n": "The 1853 year and the Imprimerie imperiale imprint are confirmed by the Internet Archive and Open Library records; MacTutor says Woepcke was the first historian to recognise the importance of al-Karaji's work. That the extract is the first printed exposition is not checked against the text; the work is an extract, not a full edition.",
     "ev": [
      {
       "c": "Open Library record of Woepcke's 1853 Extrait du Fakhri.",
@@ -38625,6 +38747,18 @@
       "c": "Woepcke was the first historian to realise the importance of al-Karaji's work.",
       "s": "Wikipedia, Al-Karaji",
       "u": "https://en.wikipedia.org/wiki/Al-Karaji",
+      "k": "history_page"
+     },
+     {
+      "c": "Internet Archive record: Woepcke, Extrait du Fakhri: traite d'algebre, Imprimerie imperiale, 1853.",
+      "s": "Internet Archive item extraitdufakhrt00karagoog",
+      "u": "https://archive.org/details/extraitdufakhrt00karagoog",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "MacTutor: Woepcke was the first historian to recognise the importance of al-Karaji's work and found that much of Diophantus' first and third books is included in al-Fakhri.",
+      "s": "MacTutor, Al-Karaji biography (re-read in review)",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Karaji/",
       "k": "history_page"
      }
     ]
@@ -38702,7 +38836,7 @@
     ]
    }
   ],
-  "notes": "The wording 'freed from geometry' is MacTutor's, and MacTutor also quotes a more critical modern view (Berggren-style) that al-Karaji often still justifies by pictures. Neither a dated manuscript nor a naming/institution milestone was found; the word 'algebra' itself belongs to al-Khwarizmi's title (c. 820) and is not a milestone of this event. The relation to P177 (induction) is the same lost text, so milestones overlap on al-Samaw'al. person without verified work: Al-Karaji (originator). person without verified work: Al-Samaw'al (developer).",
+  "notes": "The wording 'freed from geometry' is MacTutor's, and MacTutor also quotes a more critical modern view (Berggren-style) that al-Karaji often still justifies by pictures. Neither a dated manuscript nor a naming/institution milestone was found; the word 'algebra' itself belongs to al-Khwarizmi's title (c. 820) and is not a milestone of this event. The relation to P177 (induction) is the same lost text, so milestones overlap on al-Samaw'al. person without verified work: Al-Karaji (originator). person without verified work: Al-Samaw'al (developer). Review R2-R3b: MacTutor (Al-Khwarizmi, Abu Kamil, Al-Karaji, Al-Samawal), Wikipedia, Britannica (via search), Open Library and the Internet Archive were checked. The year of al-Fakhri is now a range 1010-1015 because no source dates it; al-Samaw'al's 1149 is derived from age 19 and a birth about 1130; al-Khwarizmi's c. 820 and Abu Kamil's c. 900 are inferred from lifespans (MacTutor gives no date for either book). No manuscript or edition of al-Fakhri, al-Bahir or Rashed's studies was read, so the polynomial claims rest on MacTutor and Wikipedia; not promoted.",
   "catalogueDates": [
    "c.1010",
    null,
@@ -59573,10 +59707,10 @@
     "d": "Moebius describes each point of the plane by weights placed at the vertices of a triangle, giving homogeneous coordinates that also cover points at infinity.",
     "ph": "Moebius barycentric/homogeneous point coordinates",
     "c": "high",
-    "n": null,
+    "n": "Year and title confirmed by the Internet Archive record, Open Library (first publication 1827) and MacTutor; the book was not read (the scan's OCR is unusable). The claim that it contains homogeneous coordinates rests on MacTutor and Wikipedia.",
     "ev": [
      {
-      "c": "Digitised copy of the 1827 Leipzig edition of the book exists in the archive catalogue.",
+      "c": "Internet Archive (Bayerische Staatsbibliothek) scan: Der barycentrische Calcul: ein neues Huelfsmittel zur analytischen Behandlung der Geometrie, Moebius, 1827; the scan's OCR is too poor to read the passage.",
       "s": "Internet Archive scan",
       "u": "https://archive.org/details/10082429bsb",
       "k": "bibliographic_record"
@@ -59598,6 +59732,12 @@
       "s": "MacTutor: Abstract linear spaces",
       "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Abstract_linear_spaces/",
       "k": "history_page"
+     },
+     {
+      "c": "Open Library: Der barycentrische calcul, first publication 1827.",
+      "s": "Open Library works OL13462549W",
+      "u": "https://openlibrary.org/works/OL13462549W",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -59614,7 +59754,7 @@
     "d": "The first title found using \"barycentric calculus\", an alias for the event.",
     "ph": null,
     "c": "medium",
-    "n": "Name is the event alias, not the modern \"homogeneous coordinates\" label. The zbMATH entry is searched by title, its id was not kept.",
+    "n": "Name is the event alias, not the modern 'homogeneous coordinates' label; 'barycentric calculus' names Moebius' method, of which homogeneous coordinates are the by-product. Open Library gives 1827 for the first publication.",
     "ev": [
      {
       "c": "Open Library lists the title with first publication year 1827",
@@ -59637,7 +59777,7 @@
     "d": "In the second volume Pluecker treats conics as envelopes of lines using homogeneous line coordinates, making duality a matter of symbolic calculation.",
     "ph": "Pluecker homogeneous line coordinates and duality",
     "c": "medium",
-    "n": "No bibliographic record for the 1831 volume was found in Crossref or the archive.org catalogue searched, so evidence stays at history_page level.",
+    "n": "MacTutor: vol. 1 (1828) uses non-homogeneous affine point coordinates; vol. 2, 'three years later', introduces homogeneous line coordinates and treats conics as envelopes of lines, so the 1831 year is inferred from '1828 plus three years'. No bibliographic record of the 1831 volume was found in Crossref or the archive.org catalogue searched. The volumes were not read.",
     "ev": [
      {
       "c": "Biography summarises vol. 1 (1828) with affine point coordinates and vol. 2 (three years later) with homogeneous line coordinates.",
@@ -59660,7 +59800,7 @@
     "d": "Pluecker uses both point and line coordinates for a detailed theory of plane cubic curves.",
     "ph": "Pluecker homogeneous line coordinates and duality",
     "c": "medium",
-    "n": null,
+    "n": "Merged with a duplicate consolidation entry for the same book (schema rule 2); MacTutor describes the book as treating point and line coordinates and mainly plane cubics. The text was not read.",
     "ev": [
      {
       "c": "Archive catalogue lists the 1835 System der analytischen Geometrie.",
@@ -59673,26 +59813,9 @@
       "s": "MacTutor: Plucker biography",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Plucker/",
       "k": "history_page"
-     }
-    ]
-   },
-   {
-    "r": "consolidation",
-    "y": 1835,
-    "ye": null,
-    "p": "year",
-    "l": "Plucker publishes an analytic geometry system with new coordinate methods",
-    "w": "Plucker, J., System der analytischen Geometrie, auf neue Betrachtungsweisen gegrundet, 1835",
-    "pe": [
-     "Plucker"
-    ],
-    "d": "Book-length treatment that introduces new analytic coordinate methods, the basis for later line coordinates.",
-    "ph": null,
-    "c": "medium",
-    "n": "Catalogue year; content on homogeneous and line coordinates not checked page by page.",
-    "ev": [
+     },
      {
-      "c": "Open Library lists the book with first publication year 1835",
+      "c": "Open Library: Pluecker, System der analytischen Geometrie, auf neue Betrachtungsweisen gegruendet, first published 1835.",
       "s": "Open Library works OL7169341W",
       "u": "https://openlibrary.org/works/OL7169341W",
       "k": "bibliographic_record"
@@ -59765,7 +59888,7 @@
     ]
    }
   ],
-  "notes": "Sources read: Wikipedia 'Homogeneous coordinates' (raw wikitext), MacTutor biographies of Moebius and Pluecker and the topic page Abstract linear spaces. Wikipedia's Julius Pluecker article could not be retrieved (server error). The first use of the phrase 'homogeneous coordinates' was not found and is left open. The term 'Pluecker coordinates' for line coordinates is later; no dated coinage found. Priority between Moebius (1827) and Pluecker (1828-31) is not argued in the pages read; the 1831 volume year rests on MacTutor only. The saved leads file has no candidates for this event.",
+  "notes": "Sources read: Wikipedia 'Homogeneous coordinates' (raw wikitext), MacTutor biographies of Moebius and Pluecker and the topic page Abstract linear spaces. Wikipedia's Julius Pluecker article could not be retrieved (server error). The first use of the phrase 'homogeneous coordinates' was not found and is left open. The term 'Pluecker coordinates' for line coordinates is later; no dated coinage found. Priority between Moebius (1827) and Pluecker (1828-31) is not argued in the pages read; the 1831 volume year rests on MacTutor only. The saved leads file has no candidates for this event. Review R2-R3b: MacTutor (Moebius, Pluecker) and Wikipedia (Homogeneous coordinates) re-read; Open Library and the Internet Archive record titles and years for 1827, 1835 and 1839. Wikipedia and MacTutor say Moebius introduced homogeneous coordinates in 1827, and Wikipedia credits Pluecker only with six line coordinates in projective 3-space. The duplicate 1835 consolidation entry was merged into the key development. Leads not entered because they were not read: Pluecker's Crelle paper 'Ueber ein neues Coordinatensystem' (J. reine angew. Math. 5 (1830) 1-36, Crossref 10.1515/crll.1830.5.1), which may be his own earlier introduction of homogeneous point coordinates; and Feuerbach (1822) and Bobillier (1827-28) on trilinear coordinates. The Moebius text was not read (the Internet Archive scan has unusable OCR); not promoted.",
   "catalogueDates": [
    [
     1827,
@@ -59942,7 +60065,7 @@
     "d": "MacTutor says only two printed papers (1700 and 1710) by Leibniz contain results on coefficient systems.",
     "ph": "Publication in Europe, 1700-1750",
     "c": "low",
-    "n": "Cannot be confirmed: MacTutor says only two printed Leibniz papers (1700 and 1710) contain coefficient-system results but names neither, and searches of Knobloch's chapter on Leibniz's elimination and determinants and of general sources did not identify them. The same page calls Maclaurin's 1748 treatise the first published results on determinants, so priority is contestable. Kept low as a placeholder, not as a verified first statement. Review R3: Muenster's Leibniz bibliography lists no Acta Eruditorum article of 1700 (only a letter dated Oct 1700, printed 1701), while the 1710 Miscellanea Berolinensia 1 contains 'Symbolismus memorabilis calculi Algebraici et Infinitesimalis' (pp. 160-165), the likely 1710 piece; neither item was read and Knobloch's chapter is paywalled, so the 1700 item remains unidentified. Knobloch's abstract notes that historians long doubted Leibniz treated determinants at all.",
+    "n": "Cannot be confirmed: MacTutor says only two printed Leibniz papers (1700 and 1710) contain coefficient-system results but names neither, and searches of Knobloch's chapter on Leibniz's elimination and determinants and of general sources did not identify them. The same page calls Maclaurin's 1748 treatise the first published results on determinants, so priority is contestable. Kept low as a placeholder, not as a verified first statement. Review R3: Muenster's Leibniz bibliography lists no Acta Eruditorum article of 1700 (only a letter dated Oct 1700, printed 1701), while the 1710 Miscellanea Berolinensia 1 contains 'Symbolismus memorabilis calculi Algebraici et Infinitesimalis' (pp. 160-165), the likely 1710 piece; neither item was read and Knobloch's chapter is paywalled, so the 1700 item remains unidentified. Knobloch's abstract notes that historians long doubted Leibniz treated determinants at all. Review R2-R3b: Wikisource's index of Miscellanea Berolinensia 1 (1710) confirms that 'Symbolismus memorabilis calculi Algebraici et Infinitesimalis, in comparatione potentiarum et differentiarum' is in volume 1 (scan at digilib.bbaw.de, images only, no text to read); its subject (comparison of powers and differentials) is not obviously determinants, and the 1700 item was again not identified, so this milestone remains a placeholder. Seki's elimination work printed in 1710-1711 is a separate matter.",
     "ev": [
      {
       "c": "Only two publications (1700 and 1710) contain results on coefficient systems.",
@@ -60023,7 +60146,7 @@
     "d": "Gauss introduces the word determinant for a quantity attached to a quadratic form.",
     "ph": null,
     "c": "medium",
-    "n": "MacTutor: Gauss's concept differs from the modern determinant, since it concerns the properties of the quadratic form; Cauchy (1812) first used the word in its modern sense. The Disquisitiones text was not read.",
+    "n": "MacTutor: Gauss's concept differs from the modern determinant, since it concerns the properties of the quadratic form; Cauchy first used the word in its modern sense (read 1812, printed 1815; see the Cauchy milestone). The Disquisitiones text was not read, though an open copy exists (archive.org disquisitionesa00gaus).",
     "ev": [
      {
       "c": "In 1801 Gauss coined the term determinant in the Disquisitiones arithmeticae while discussing quadratic forms.",
@@ -60036,6 +60159,35 @@
       "s": "Internet Archive item disquisitionesa00gaus",
       "u": "https://archive.org/details/disquisitionesa00gaus",
       "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1815,
+    "ye": null,
+    "p": "year",
+    "l": "Cauchy's memoir on alternating symmetric functions and determinants",
+    "w": "A.-L. Cauchy, Memoire sur les fonctions qui ne peuvent obtenir que deux valeurs egales et de signes contraires par suite des transpositions operees entre les variables qu'elles renferment, J. Ecole Polytechnique 17 (cahier 10) (1815) 29-112 (read to the Institut 30 November 1812)",
+    "pe": [
+     "Augustin-Louis Cauchy"
+    ],
+    "d": "Cauchy uses 'determinant' in its modern sense and proves the multiplication theorem for determinants.",
+    "ph": null,
+    "c": "medium",
+    "n": "MacTutor dates this to 1812 (Cauchy used 'determinant' in its modern sense in 1812, and the multiplication theorem is proved there for the first time); the memoir was read on 30 November 1812 but printed only in 1815, and publication year governs, so 1815. The text was not read; the journal citation comes from a secondary history article. Vandermonde (1771, printed 1772), Bezout (1764) and Laplace (1772) also gave methods and expansions (MacTutor) and are not entered separately.",
+    "ev": [
+     {
+      "c": "MacTutor: Cauchy in 1812 used 'determinant' in its modern sense; the multiplication theorem for determinants is proved for the first time in the 1812 paper.",
+      "s": "MacTutor history topic: Matrices and determinants (re-read in review)",
+      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
+      "k": "history_page"
+     },
+     {
+      "c": "The two founding memoirs were read to the Institut on 30 November 1812 but published only in 1815, in Journal de l'Ecole Polytechnique, cahier 17, pp. 29-112 (Oeuvres (2) 1, 91-169).",
+      "s": "Revue d'histoire des mathematiques 19 (2013), 'A case of mathematical eponymy: the Vandermonde determinant' (search excerpt; article not opened)",
+      "u": "https://www.numdam.org/item/RHM_2013__19_1_43_0",
+      "k": "history_page"
      }
     ]
    },
@@ -60168,7 +60320,7 @@
     ]
    }
   ],
-  "notes": "Reviewed against MacTutor (Matrices and determinants), Crossref (Jacobi 1841 papers), zbMATH, and archive.org title searches. Changed: Jacobi 1841 is a key development, not the naming (Gauss 1801 coined the word; MacTutor), the consolidation is now Spottiswoode 1851 rather than Baltzer 1857, and the 1678 precursor is merged into the 1693 letter. The 1700 first statement is still unidentified and low confidence, and conflicts with MacTutor's remark about Maclaurin; Cauchy 1812 (modern sense of the term) is not entered; Seki's work is not independently sourced. Person without verified work: Seki Takakazu. Review R3: MacTutor wording re-checked (1693 letter first European appearance; Maclaurin 1748 first published results; Cramer 1750; Gauss 1801 term; Cauchy 1812 modern sense; Seki 1683). Cauchy 1812 not entered as a milestone; Crossref was rate-limited so Cauchy and the 1810s were not bibliographically checked.",
+  "notes": "Reviewed against MacTutor (Matrices and determinants), Crossref (Jacobi 1841 papers), zbMATH, and archive.org title searches. Changed: Jacobi 1841 is a key development, not the naming (Gauss 1801 coined the word; MacTutor), the consolidation is now Spottiswoode 1851 rather than Baltzer 1857, and the 1678 precursor is merged into the 1693 letter. The 1700 first statement is still unidentified and low confidence, and conflicts with MacTutor's remark about Maclaurin; Cauchy 1812 (modern sense of the term) is not entered; Seki's work is not independently sourced. Person without verified work: Seki Takakazu. Review R3: MacTutor wording re-checked (1693 letter first European appearance; Maclaurin 1748 first published results; Cramer 1750; Gauss 1801 term; Cauchy 1812 modern sense; Seki 1683). Cauchy 1812 not entered as a milestone; Crossref was rate-limited so Cauchy and the 1810s were not bibliographically checked. Review R2-R3b: MacTutor re-read once more; Crossref confirmed Jacobi's Crelle 22 (1841) 285-318; archive.org metadata confirmed Maclaurin (1748), Cramer (1750), Gauss (1801) and Spottiswoode (1851); Cauchy added as a 1815 key development (read 1812, printed 1815). Knobloch's chapter (Springer 2013, paywalled) says historians doubted until 1938 that Leibniz had worked on determinants at all and notes Kline's mistaken credit to Maclaurin. Still unresolved, hence not promoted: the 1700 first statement, Seki's printed date, and the fact that Leibniz's 1693 letter was only printed in the 19th century (Gerhardt), which makes 'first public statement' for Leibniz doubtful; the milestone list now has 9 entries, one over the schema cap.",
   "catalogueDates": [
    "1678-1693",
    null,
@@ -60222,11 +60374,15 @@
   "product": null,
   "why": "A degree-45 equation posed by van Roomen was solved by recognising a trigonometric identity.",
   "cat": "Period run before 1850",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "methodological": "C",
+   "institutional": "B"
+  },
   "shown": {
    "conceptual": {
-    "y": 1595,
+    "y": 1593,
     "basis": "first statement"
    },
    "methodological": {
@@ -60242,12 +60398,12 @@
    "y": 1595,
    "role": "first_application",
    "label": "Trigonometry used on an algebraic equation",
-   "same": true
+   "same": false
   },
-  "y": 1595,
+  "y": 1593,
   "approx": false,
   "derived": {
-   "conceptual": 1595,
+   "conceptual": 1593,
    "methodological": 1595,
    "institutional": 1646
   },
@@ -60268,14 +60424,20 @@
     ],
     "d": "Viete introduces letters for unknowns and parameters, the symbolic algebra that his answer to van Roomen relies on.",
     "ph": "Viete's solution",
-    "c": "medium",
-    "n": "Publication year taken from the MacTutor page; no bibliographic record was found.",
+    "c": "high",
+    "n": null,
     "ev": [
      {
       "c": "MacTutor places the Isagoge among Viete's main algebra publications of the early 1590s.",
       "s": "MacTutor, biography of Viete",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Viete/",
       "k": "history_page"
+     },
+     {
+      "c": "Internet Archive record: Francisci Vietae In artem analyticem isagoge, Tours, Iamettius Mettayer, 1591.",
+      "s": "Internet Archive item bub_gb_BWTyywN39KEC",
+      "u": "https://archive.org/details/bub_gb_BWTyywN39KEC",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -60291,8 +60453,8 @@
     ],
     "d": "Public challenge to mathematicians.",
     "ph": "The challenge",
-    "c": "medium",
-    "n": "Whether the problem is printed in this very volume was not checked.",
+    "c": "high",
+    "n": "Confirmed in the text: the Internet Archive scan of Ideae mathematicae pars prima (1593) prints the problem ('Problema mathematicum omnibus totius orbis mathematicis ad construendum propositum') with the degree-45 equation 45x - 3795x^3 + ... and Viete's 1595 reply quotes it.",
     "ev": [
      {
       "c": "Roomen proposed the problem in 1593.",
@@ -60305,29 +60467,47 @@
       "s": "Internet Archive bub_gb_qinevzxnHFoC",
       "u": "https://archive.org/details/bub_gb_qinevzxnHFoC",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "The scan prints the problem with the coefficients 45, 3795, 95634 ... (OCR garbled but the numbers and the heading are legible).",
+      "s": "Van Roomen, Ideae mathematicae pars prima, Antwerp 1593 (archive.org full text, read)",
+      "u": "https://archive.org/details/bub_gb_qinevzxnHFoC",
+      "k": "primary_text"
      }
     ]
    },
    {
     "r": "first_statement",
-    "y": 1595,
+    "y": 1593,
     "ye": null,
     "p": "year",
-    "l": "Viete publishes his answer",
-    "w": "Viete, Responsum ad problema (answer to van Roomen), 1595",
+    "l": "Viete's theorems on multiple angles in Variorum responsorum liber VIII",
+    "w": "Viete, Variorum de rebus mathematicis responsorum liber VIII, Tours: Mettayer, 1593, chapter X (Progressio linearum rectarum quae circumferentiis circuli subtenduntur)",
     "pe": [
      "Francois Viete"
     ],
-    "d": "Recognises the equation as a trigonometric identity and solves it.",
-    "ph": "Viete's solution",
+    "d": "Viete states, without proof, how the sides of right triangles with an angle that is a multiple (double, triple, quadruple, quintuple) of a given acute angle are polynomials in the sides of the first triangle, the algebra of angle multiplication.",
+    "ph": null,
     "c": "medium",
-    "n": "Title of the 1595 answer is not in the page read; no bibliographic record found. Same paper plays the role of first application.",
+    "n": "Read in the Internet Archive scan (chapter X, theorem I and the rules for the double to quintuple angle). Viete says there that he has condensed the analytic part of his Canon mathematicus (first issued in 1579) into the 'mystery of angular sections'; the 1579 Canon was not read, so an earlier statement is not excluded. Alexander Anderson (1615 and later) says Viete had published only bare theorems, in book VIII and in the reply to van Roomen, and supplied the proofs himself. The statement applies the idea to triangles, not yet to a polynomial equation: that is the 1595 reply.",
     "ev": [
      {
-      "c": "Viete solved it by seeing an underlying trigonometric relation; answer published 1595.",
-      "s": "MacTutor, Viete biography",
-      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Viete/",
-      "k": "history_page"
+      "c": "Chapter X, theorem I: for right triangles whose acute angles stand in a ratio of numbers, the hypotenuse, base and perpendicular of the multiple-angle triangle are given as powers and combinations of those of the first, with explicit rules for the double, triple, quadruple and quintuple angle.",
+      "s": "Viete, Variorum de rebus mathematicis responsorum liber VIII (1593), archive.org full text, read",
+      "u": "https://archive.org/details/bub_gb_SM2Az-oKgoEC",
+      "k": "primary_text"
+     },
+     {
+      "c": "Internet Archive record: Francisci Vietae Variorum de rebus mathematicis responsorum liber 8, Tours, Mettayer, 1593; the preface is dated May 1593.",
+      "s": "Internet Archive item bub_gb_SM2Az-oKgoEC",
+      "u": "https://archive.org/details/bub_gb_SM2Az-oKgoEC",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Anderson: apart from bare theorems without demonstration in book VIII of the Variorum and in the reply to Adriaan van Roomen, Viete published nothing in this genre; Anderson supplied the proofs.",
+      "s": "Viete, Opera mathematica, ed. van Schooten (1646), Anderson's preface text (archive.org full text, read)",
+      "u": "https://archive.org/details/bub_gb_25iHrtJpy9oC",
+      "k": "primary_text"
      }
     ]
    },
@@ -60337,20 +60517,32 @@
     "ye": null,
     "p": "year",
     "l": "Trigonometry used on an algebraic equation",
-    "w": "Viete's answer to van Roomen, 1595",
+    "w": "Viete, Ad problema quod omnibus mathematicis totius orbis construendum proposuit Adrianus Romanus, Responsum, Paris: Mettayer, 1595",
     "pe": [
      "Francois Viete"
     ],
-    "d": "First purposeful use of angle-multiplication identities to solve an algebraic equation.",
+    "d": "Viete recognises van Roomen's degree-45 equation as a relation between chords of multiple arcs, solves it by the angular-section theorems, and gives the root as a chord.",
     "ph": "Viete's solution",
     "c": "medium",
-    "n": "Same work as previous; 'first' not verified.",
+    "n": "Merged with the former first_statement entry for the same reply (schema rule 2). The 1595 year and title come from a journal reference list (Revista Brasileira de Historia da Matematica) and MacTutor; the 1595 print was not seen. Viete's text as reprinted in the 1646 Opera (pp. 305-313, read) quotes van Roomen's problem verbatim, says the construction is taught by the 'Analysis angularium sectionum liber primus seu catholicus' and lists those theorems, and shows that the problem asks to divide an angle into three and five parts; the reading of the equation as a trigonometric relation is MacTutor's. 'First' application of trigonometry to an algebraic equation is not verified beyond the absence of an earlier case in the sources read.",
     "ev": [
      {
-      "c": "As above.",
-      "s": "MacTutor, Viete biography",
+      "c": "MacTutor: Viete solved the problem by realising there was an underlying trigonometric relation; his answer was published in 1595.",
+      "s": "MacTutor, Viete biography (re-read in review)",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Viete/",
       "k": "history_page"
+     },
+     {
+      "c": "Reference list gives the title 'Ad problema quod omnibus mathematicis totius orbis construendum proposuit Adrianus Romanus Francisci Vietae Responsum' (Paris: Iametium Mettayer, 1595).",
+      "s": "Oliveira and Haddad, Adriaan van Roomen e sua correspondencia, Rev. Bras. Hist. Mat. 18 (2020)",
+      "u": "http://www.rbhm.org.br/index.php/RBHM/article/view/20",
+      "k": "history_page"
+     },
+     {
+      "c": "The reply, reprinted in the Opera, quotes van Roomen's problem word for word, then states that the construction is taught by the Analysis of angular sections and lists theorems on right triangles with added angles.",
+      "s": "Viete, Opera mathematica, ed. van Schooten (1646), pp. 305-313 (archive.org full text, read)",
+      "u": "https://archive.org/details/bub_gb_25iHrtJpy9oC",
+      "k": "primary_text"
      },
      {
       "c": "MacTutor notes Viete knew formulas for sin nx.",
@@ -60365,20 +60557,26 @@
     "y": 1615,
     "ye": null,
     "p": "year",
-    "l": "Ad angulares sectiones published",
-    "w": "François Viète, Ad angulares sectiones theoremata, ed. Alexander Anderson, Paris 1615",
+    "l": "Ad angularium sectionum analyticen theoremata, proofs by Anderson",
+    "w": "Viete, Ad angularium sectionum analyticen theoremata katholikotera, ed. and with demonstrations by Alexander Anderson, Paris: Olivier de Varennes, 1615",
     "pe": [
-     "François Viète",
+     "Francois Viete",
      "Alexander Anderson"
     ],
-    "d": "The posthumous treatise on angle sections sets out the multiple-angle relations behind the degree-45 solution.",
+    "d": "Anderson publishes the angular-section theorems found by Viete 'without any demonstration', now proved, and refers readers to Viete's reply to van Roomen for examples.",
     "ph": "Viete's solution",
-    "c": "low",
-    "n": "Year of the posthumous edition not confirmed in a bibliographic record; the earlier note in this file also left it open.",
+    "c": "high",
+    "n": "Year and imprint read on the title page of the Internet Archive scan (Paris, Olivier de Varennes, 1615; dedication dated Paris, 1 January 1615). Posthumous for Viete (d. 1603), the proofs are Anderson's.",
     "ev": [
      {
-      "c": "MacTutor lists Viete's posthumous work on angular sections edited by Anderson.",
-      "s": "MacTutor, biography of Viete",
+      "c": "Title page: Ad angularium sectionum analyticen theoremata katholikotera, a Francisco Vieta primum excogitata, at absque vlla demonstratione ad nos transmissa, iam tandem demonstrationibus confirmata, opera et studio Alexandri Andersoni Scoti, Paris, 1615; the text refers to 'Vietae responsum ad problema Romani' for examples.",
+      "s": "Internet Archive item bub_gb_q58_zsoFgzIC (full text, read)",
+      "u": "https://archive.org/details/bub_gb_q58_zsoFgzIC",
+      "k": "primary_text"
+     },
+     {
+      "c": "MacTutor lists Viete's posthumous work on angular sections edited by Anderson (the page gives no date).",
+      "s": "MacTutor, Viete biography",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Viete/",
       "k": "history_page"
      }
@@ -60397,12 +60595,18 @@
     "d": "Collected edition of Viete's mathematical works, which brings together the trigonometric-algebra material of the event.",
     "ph": null,
     "c": "medium",
-    "n": "Editor of the 1646 edition not checked; the year is from the catalogue record.",
+    "n": "The Internet Archive record names Frans van Schooten as editor (Leiden, Elzevir, 1646); the volume contains the Responsum to van Roomen (pp. 305ff) and the Variorum material, read for this review.",
     "ev": [
      {
       "c": "Open Library record of the 1646 Opera mathematica of Viete.",
       "s": "Open Library work record",
       "u": "https://openlibrary.org/works/OL3842467W",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Internet Archive record: Francisci Vietae Opera mathematica, in unum volumen congesta, ac recognita opera atque studio Francisci a Schooten, Elzevir, 1646.",
+      "s": "Internet Archive item bub_gb_25iHrtJpy9oC",
+      "u": "https://archive.org/details/bub_gb_25iHrtJpy9oC",
       "k": "bibliographic_record"
      }
     ]
@@ -60438,7 +60642,7 @@
     ]
    }
   ],
-  "notes": "Open: Viete's later Ad angulares sectiones (posthumous, translation named on MacTutor) and its date were not verified. Zbmath: Bockstaele 2009 (1207.01007) on van Roomen. Lifespans unsourced here. No naming or institution milestone. English Wikipedia could not be read in this pass (API returned rate-limit errors for every request), so the source-first step used MacTutor biographies and history topics only. Thin pass 2: only two further milestones (Isagoge 1591, Ad angulares sectiones 1615) could be added from MacTutor; both are history-page only. Searches of zbMATH for Viete, Ad angulares sectiones and van Roomen, Ideae mathematicae returned no record, and the archive.org search for the title returned none. No naming or institution milestone exists; the history is short for this event. Re-checked MacTutor Viete in this pass: the reply to van Roomen is published 1595. No dated record of the posthumous Ad angulares sectiones (1615) was found; the Internet Archive copies located are Schooten's 1646 Opera and Viete's De aequationum recognitione (1615), a different work, so the 1615 date stays unresolved.",
+  "notes": "Direct review R2-R3b. Read in the Internet Archive scans: Viete, Variorum responsorum liber VIII (1593, chapter X), the Responsum to van Roomen as reprinted in the 1646 Opera, the 1615 Ad angularium sectionum (title page, dedication, references), van Roomen's Ideae mathematicae (1593; the problem is printed there), and the records for the Isagoge (1591) and the Opera. Main change: the multiple-angle theorems were already printed, without proof, in Variorum VIII (1593), so the first statement moves from 1595 to 1593 and the 1595 reply is the first application only (the two former entries were the same paper). The 1615 date, previously unresolved, is confirmed from the title page; the 1615 posthumous edition has the proofs by Anderson. Open: the 1595 print itself and the 1579 Canon mathematicus were not seen, the trigonometric reading of the equation rests on MacTutor, Bockstaele (Arch. Hist. Exact Sci. 2009, Crossref 10.1007/s00407-009-0043-4) was not read, no naming or institution milestone exists, and lifespans are unsourced.",
   "catalogueDates": [
    [
     1593,
@@ -60467,7 +60671,7 @@
     {
      "p": "P198",
      "f": "trigonometry applied to algebra",
-     "d": 131,
+     "d": 129,
      "t": "named"
     }
    ],
@@ -60475,7 +60679,7 @@
     {
      "p": "P460",
      "f": "trigonometry and complex algebra",
-     "d": 109,
+     "d": 111,
      "t": "named"
     }
    ],
@@ -62201,7 +62405,7 @@
     {
      "p": "P193",
      "f": "trigonometry applied to algebra",
-     "d": 131,
+     "d": 129,
      "t": "named"
     }
    ],
@@ -140682,7 +140886,7 @@
     {
      "p": "P193",
      "f": "trigonometry and complex algebra",
-     "d": 109,
+     "d": 111,
      "t": "named"
     },
     {
