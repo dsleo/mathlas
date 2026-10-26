@@ -12,7 +12,7 @@ Every event also links to curated earlier, later and closely related events. The
 |---|---|
 | **553 events** | dated, typed episodes in which a mathematical idea, field or technique appears or changes |
 | **33 islands** | fields (the lanes of Proofscape's connection map), from Algebra and Geometry to Information & cryptography |
-| **3,002 milestones** | the dated steps inside the events, with **4,433 cited pieces of evidence** |
+| **3,052 milestones** | the dated steps inside the events, with **4,599 cited pieces of evidence** |
 | **1,180 people** | named in the events; **40 landmark mathematicians** stand as statues (37 with a portrait) |
 | **624 links** | between fields, each tied to the event that created it |
 | **Time span** | 2000 BCE to 2025 |
