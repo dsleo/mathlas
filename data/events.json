@@ -2733,7 +2733,7 @@
   "grade": {},
   "shown": {
    "conceptual": {
-    "y": 1822,
+    "y": 1808,
     "basis": "first statement"
    },
    "methodological": {
@@ -2741,8 +2741,8 @@
     "basis": "earliest key development; no first application found"
    },
    "institutional": {
-    "y": null,
-    "basis": "no naming, textbook or institution found"
+    "y": 1822,
+    "basis": "naming, textbook or institution"
    }
   },
   "took": {
@@ -2751,12 +2751,12 @@
    "label": "Dirichlet's convergence theorem",
    "same": false
   },
-  "y": 1822,
+  "y": 1808,
   "approx": false,
   "derived": {
-   "conceptual": 1822,
+   "conceptual": 1808,
    "methodological": null,
-   "institutional": null
+   "institutional": 1822
   },
   "phases": [
    "Fourier's heat conduction work",
@@ -2776,7 +2776,7 @@
     "d": "Fourier used sums of sines and cosines to solve the heat equation for a solid, the purpose that created the theory.",
     "ph": "Fourier's heat conduction work",
     "c": "medium",
-    "n": "Memoir was read, not printed at the time; full printing came much later (not checked), so it is not used as first_statement. Reclassified from first_application to precursor: it predates this event's first statement (1822) and belongs to the wider field.",
+    "n": "Memoir was read, not printed, in 1807, so it is a precursor; its content became public through the 1808 extract. Whether and when it was first printed in full was not checked.",
     "ev": [
      {
       "c": "MacTutor: work began around 1804; the 1807 memoir was read on 21 December 1807, with Lagrange and Laplace objecting to its generality and rigour.",
@@ -2789,27 +2789,45 @@
       "s": "English Wikipedia, Fourier series",
       "u": "https://en.wikipedia.org/wiki/Fourier_series",
       "k": "history_page"
+     },
+     {
+      "c": "Riemann's 1867 history of the question (read in the Abhandlungen volume): Fourier, in his first heat work submitted to the Academy (21 Dec. 1807), first stated that a quite arbitrary (graphically given) function can be expressed by a trigonometric series, and Lagrange opposed it.",
+      "s": "B. Riemann, Ueber die Darstellbarkeit einer Function durch eine trigonometrische Reihe, Abh. Gott. 13 (1868), section 'Geschichte der Frage'",
+      "u": "https://archive.org/details/per_abhandlungen-der-koniglichen-gesellschaft-der_1866-1867_13",
+      "k": "primary_text"
      }
     ]
    },
    {
-    "r": "precursor",
+    "r": "first_statement",
     "y": 1808,
     "ye": null,
     "p": "year",
-    "l": "Poisson's extract of Fourier's heat memoir",
-    "w": "S.-D. Poisson (signed P.), extract of Fourier's memoir on the propagation of heat in solids, Nouveau Bulletin des sciences, Soc. philomathique 1 (1808) 112-116",
+    "l": "Poisson's extract of Fourier's heat memoir states the arbitrary-function series",
+    "w": "Extract signed P. (S.-D. Poisson) of Fourier's Memoire sur la propagation de la chaleur dans les corps solides, Nouveau Bulletin des sciences, Soc. philomathique 1 (issue of March 1808), pp. 112-116",
     "pe": [
      "Simeon-Denis Poisson",
      "Joseph Fourier"
     ],
-    "d": "A four-page summary of the 1807 memoir is the earliest printed account of Fourier's heat theory that was found.",
+    "d": "A five-page account of the 1807 memoir expands the temperature of a plate in cosine terms and fixes the coefficients by integrating the given function times cosines, so an arbitrary function on an interval is represented by a trigonometric series for the heat problem.",
     "ph": "Fourier's heat conduction work",
-    "c": "low",
-    "n": "Known only from secondary sources (a bookseller's description and a note in Darboux's edition of Fourier as relayed by a web search); the extract was not read, so whether it states the arbitrary-function trigonometric series is open. This is why the first statement stays at 1822.",
+    "c": "high",
+    "n": "Read in the Internet Archive scan of Tome I (the extract precedes the issue headed April 1808; running heads (114)-(116) visible). The text states the series for an arbitrary phi(y) on (-1,1), the coefficient integrals and the remark that the series equals phi only on that interval unless phi is periodic. It is for the symmetric cosine case of a plate, not the full sine-and-cosine theory. The signature is only 'P.'; attribution to Poisson rests on a dealer description and a note in Darboux's edition, not read. Riemann (1868) cites exactly this place ('Bulletin d. sc. Tom. I. p. 115') for the statement of the coefficients. This printed account predates the 1822 book, which is why the first statement moves to 1808.",
     "ev": [
      {
-      "c": "Dealer description: Poisson's extract on heat in solids, Nouveau Bulletin des sciences, March 1808, pp. 112-116.",
+      "c": "Full text of Nouveau Bulletin des sciences, Tome I (1807-08): the extract 'Memoire sur la propagation de la Chaleur dans les corps solides; par M. Fourier', signed P., gives the series sum of cosines, the integral for the coefficients and the validity interval; it is followed by the issue headed April 1808.",
+      "s": "Internet Archive, Nouveau Bulletin des Sciences, Tome 1 (nouveaubulletind11807soci), djvu text",
+      "u": "https://archive.org/details/nouveaubulletind11807soci",
+      "k": "primary_publication"
+     },
+     {
+      "c": "Riemann cites 'Bulletin d. sc. Tom. I. p. 115. Les coefficients a, a', a''... etant ainsi determines' as the place where Fourier's statement is found.",
+      "s": "B. Riemann, Abh. Gott. 13 (1868), footnote to the history section",
+      "u": "https://archive.org/details/per_abhandlungen-der-koniglichen-gesellschaft-der_1866-1867_13",
+      "k": "primary_text"
+     },
+     {
+      "c": "Dealer description: Poisson's extract on heat in solids, Nouveau Bulletin des sciences, March 1808, pp. 112-116 (authorship and pages).",
       "s": "Bibliorare lot description",
       "u": "https://www.bibliorare.com/lot/362121",
       "k": "history_page"
@@ -2840,22 +2858,22 @@
     ]
    },
    {
-    "r": "first_statement",
+    "r": "consolidation",
     "y": 1822,
     "ye": null,
     "p": "year",
-    "l": "Theorie analytique de la chaleur",
+    "l": "Theorie analytique de la chaleur (systematic treatment)",
     "w": "Joseph Fourier, Theorie analytique de la chaleur, Paris, 1822",
     "pe": [
      "Joseph Fourier"
     ],
-    "d": "The book printed Fourier's method: arbitrary functions represented by trigonometric series, with the heat equation as the motivating problem; it is also his systematic treatment.",
+    "d": "The book gives the full printed theory: heat equation solved by trigonometric series and integrals for arbitrary functions, with the motivating physical problems; it is Fourier's systematic treatment.",
     "ph": "Fourier's heat conduction work",
     "c": "high",
-    "n": "Plays both first printed statement and first systematic treatment. Open Library and Internet Archive agree on 1822. Bessel's Kepler-equation use of Fourier series (1819, per Wikipedia) is independent, earlier in print and not about heat. A 1808 extract of the 1807 memoir (see the precursor) may be an earlier public account, not read.",
+    "n": "Reclassified from first_statement: the 1808 extract already printed the arbitrary-function series. Title page read in the Internet Archive scan; Open Library and Internet Archive agree on 1822. Bessel's 1819 use of Fourier series (per Wikipedia, not checked) is independent and not about heat.",
     "ev": [
      {
-      "c": "Library record, Paris 1822.",
+      "c": "Library record and title page (Firmin Didot, Paris) of the 1822 first edition, read in the scan.",
       "s": "Internet Archive item thorieanalytiq00four",
       "u": "https://archive.org/details/thorieanalytiq00four",
       "k": "bibliographic_record"
@@ -2887,13 +2905,19 @@
     "d": "Dirichlet gave the first rigorous sufficient conditions for a Fourier series to converge to its function.",
     "ph": "Rigour: Dirichlet and Riemann",
     "c": "high",
-    "n": "Theorem content (sufficient conditions: integrable periodic functions with finitely many maxima and minima, average value at jumps) comes from secondary accounts of Riemann's description; the original French text is said to be on arXiv 0806.1294 and was not read. MacTutor says the paper was published in Crelle in 1828, while Crossref dates Crelle vol. 4 to 1829; 1829 is kept as the printed year.",
+    "n": "Crossref gives volume 4 (1829), pp. 157-169, title as given. The theorem's conditions were checked in Riemann's own account of the paper (read in the Abhandlungen); the paper's French text was not read. MacTutor says the paper was published in 1828; 1829 is kept as the printed volume year.",
     "ev": [
      {
       "c": "Crossref record, Crelle's Journal 1829, pages 157-169.",
       "s": "Crossref DOI 10.1515/crll.1829.4.157",
       "u": "https://doi.org/10.1515/crll.1829.4.157",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "arXiv 0806.1294 is a transcription of the paper from Crelle's Journal (1829) with the title 'Sur la convergence des series trigonometriques qui servent a representer une fonction arbitraire entre des limites donnees'; Riemann's account (read) states its result: functions integrable throughout with finitely many maxima and minima are represented by their series.",
+      "s": "arXiv 0806.1294; Riemann 1868 (history section)",
+      "u": "https://arxiv.org/abs/0806.1294",
+      "k": "primary_text"
      },
      {
       "c": "Wikipedia notes Dirichlet and Riemann later put Fourier's results on precise footing.",
@@ -2911,18 +2935,18 @@
    },
    {
     "r": "key_development",
-    "y": 1867,
+    "y": 1868,
     "ye": null,
     "p": "year",
-    "l": "Riemann's habilitation on trigonometric series",
+    "l": "Riemann's habilitation on trigonometric series (printed posthumously)",
     "w": "B. Riemann, Ueber die Darstellbarkeit einer Function durch eine trigonometrische Reihe, Abh. K. Ges. Wiss. Goettingen 13 (1866-67) 87-132, ed. Dedekind; written 1853-54",
     "pe": [
      "Bernhard Riemann"
     ],
     "d": "Riemann studied which functions are integrable and the converse question of what a trigonometric series says about its function.",
     "ph": "Rigour: Dirichlet and Riemann",
-    "c": "medium",
-    "n": "Year changed from the 1854 completion to the posthumous printing (Dedekind's edition, volume dated 1866-67; some sources say 1868), since publication governs; the 1854 date is the unpublished habilitation. Venue and pages come from secondary sources (Sunada, arXiv 1701.04699).",
+    "c": "high",
+    "n": "Written 1853-54, unpublished in his lifetime (a precursor then); printed from the Nachlass by Dedekind (preface dated July 1867) in Abh. K. Ges. Wiss. Gottingen 13, pp. 87-132. The volume is headed 'von den Jahren 1866 und 1867' but its title page is dated 1868, so 1868 is used; a separate offprint dated 1867 was not checked. Venue, pages and Dedekind's role read in the volume itself.",
     "ev": [
      {
       "c": "MacTutor: after thirty months of work the dissertation defined integrability (Riemann integral) and asked the reverse question for trigonometric series.",
@@ -2931,10 +2955,10 @@
       "k": "history_page"
      },
      {
-      "c": "Volume 13 of the Gottingen Abhandlungen (1866-67) record exists; the paper's inclusion there is from memory.",
-      "s": "Internet Archive item",
+      "c": "Read in the scan: contents list and text give the paper at p. 87 of volume 13 (title page 1868, 'von den Jahren 1866 und 1867'), 'Aus dem Nachlass mitgetheilt durch R. Dedekind', preface dated July 1867; it covers the history of the question, the definition of the integral and the representability theorems.",
+      "s": "Internet Archive, Abh. Konigl. Ges. Wiss. Gottingen vol. 13 (1866-67), djvu text",
       "u": "https://archive.org/details/per_abhandlungen-der-koniglichen-gesellschaft-der_1866-1867_13",
-      "k": "bibliographic_record"
+      "k": "primary_text"
      },
      {
       "c": "Dedekind edited the work after Riemann's death; it appeared in the Abhandlungen of the Goettingen Society, vol. 13, pp. 87-132.",
@@ -2959,13 +2983,19 @@
     "d": "Earlier work on wave motion used trigonometric sums, providing the toolkit Fourier generalised.",
     "ph": "Fourier's heat conduction work",
     "c": "low",
-    "n": "Exact dates not established here; unknown year allowed for a precursor.",
+    "n": "Exact dates not set here (the dated string papers are under P162); an undated precursor is allowed. Riemann's historical account (read) confirms the people and the dispute.",
     "ev": [
      {
       "c": "Wikipedia names Euler, d'Alembert and Daniel Bernoulli as having done preliminary investigations before Fourier.",
       "s": "English Wikipedia, Fourier series (History)",
       "u": "https://en.wikipedia.org/wiki/Fourier_series",
       "k": "history_page"
+     },
+     {
+      "c": "Riemann's history section (read) names Euler, d'Alembert, Daniel Bernoulli and Lagrange as the earlier disputants on representing arbitrary functions of the vibrating string by trigonometric series, with Lagrange claiming a proof of the possibility.",
+      "s": "B. Riemann, Abh. Gott. 13 (1868), section 1",
+      "u": "https://archive.org/details/per_abhandlungen-der-koniglichen-gesellschaft-der_1866-1867_13",
+      "k": "primary_text"
      }
     ]
    }
@@ -3028,7 +3058,7 @@
     ]
    }
   ],
-  "notes": "Review A1. Fourier's 1807 memoir was read, not printed; a 1808 extract by Poisson is added as a low-confidence precursor and could not be read, so the first statement (1822 Theorie analytique, confirmed by Internet Archive, Open Library and MacTutor) is not closed. Dirichlet's 1829 Crelle paper is a Crossref-confirmed record (MacTutor says 1828); Riemann's habilitation is moved from its 1854 completion to its posthumous printing (1867). The undated vibrating-string precursor (Euler, d'Alembert, Bernoulli) remains unchecked beyond Wikipedia. Stays source-first.",
+  "notes": "Direct-style review R2b, partial. Read in open copies: the Poisson (signed P.) extract of Fourier's 1807 memoir in Nouveau Bulletin des sciences, Tome I (Internet Archive), which prints the series for an arbitrary function and the coefficient integrals in 1808, so it, not the 1822 book, is the first public statement; the 1822 title page; Riemann's 1868 history section and his habilitation volume (which cites the Bulletin page and gives Dirichlet's conditions). Crossref and arXiv confirm Dirichlet 1829. Changes: first_statement 1822 -> 1808 (extract), 1822 book -> consolidation, Riemann's printing 1867 -> 1868 (title page of the volume). Outstanding: attribution of the 'P.' extract to Poisson is from a dealer and Darboux (not read); Fourier's 1807 memoir was not read; the Dirichlet and Fourier 1822 texts were not read in full; Bessel 1819 and the vibrating-string dates unchecked. Stays source-first.",
   "catalogueDates": [
    [
     1807,
@@ -3059,61 +3089,61 @@
     {
      "p": "P251",
      "f": "harmonic analysis",
-     "d": 111,
+     "d": 125,
      "t": "context"
     },
     {
      "p": "P469",
      "f": "harmonic analysis (Hilbert transform, Fourier series)",
-     "d": 130,
+     "d": 144,
      "t": "context"
     },
     {
      "p": "P217",
      "f": "harmonic analysis (singular integrals)",
-     "d": 143,
+     "d": 157,
      "t": "context"
     },
     {
      "p": "P472",
      "f": "harmonic analysis (Fourier restriction)",
-     "d": 171,
+     "d": 185,
      "t": "context"
     },
     {
      "p": "P309",
      "f": "harmonic analysis",
-     "d": 182,
+     "d": 196,
      "t": "context"
     },
     {
      "p": "P503",
      "f": "harmonic analysis (uncertainty principles)",
-     "d": 182,
+     "d": 196,
      "t": "context"
     },
     {
      "p": "P336",
      "f": "harmonic analysis (Littlewood-Paley paraproducts)",
-     "d": 190,
+     "d": 204,
      "t": "context"
     },
     {
      "p": "P350",
      "f": "harmonic analysis (decoupling)",
-     "d": 192,
+     "d": 206,
      "t": "context"
     },
     {
      "p": "P524",
      "f": "harmonic analysis",
-     "d": 193,
+     "d": 207,
      "t": "context"
     },
     {
      "p": "P046",
      "f": "Fourier methods in sphere packing",
-     "d": 194,
+     "d": 208,
      "t": "named"
     }
    ],
@@ -5472,7 +5502,7 @@
     "basis": "first application"
    },
    "institutional": {
-    "y": 1903,
+    "y": 1922,
     "basis": "naming, textbook or institution"
    }
   },
@@ -5487,7 +5517,7 @@
   "derived": {
    "conceptual": 1887,
    "methodological": 1890,
-   "institutional": 1903
+   "institutional": 1922
   },
   "phases": [
    "Functionals and functions of lines",
@@ -5528,6 +5558,35 @@
       "s": "Opere matematiche di Vito Volterra, rcin.org.pl",
       "u": "https://rcin.org.pl/dlibra/publication/181807/edition/147686",
       "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1889,
+    "ye": null,
+    "p": "year",
+    "l": "Volterra's first memoir on functions of lines",
+    "w": "V. Volterra, Sur une generalisation de la theorie des fonctions d'une variable imaginaire, Acta Math. 12 (1889) 233-286",
+    "pe": [
+     "Vito Volterra"
+    ],
+    "d": "Volterra develops a systematic calculus for quantities depending on a whole curve (functions of lines), the basis of his functional calculus.",
+    "ph": null,
+    "c": "medium",
+    "n": "Crossref confirms title, volume, pages and year (two records, one marked 'Ier Memoire'). Content from Frechet (1906), who reads this paper and Arzela's work as the first systematic study of functions depending on a line; the paper itself was not read.",
+    "ev": [
+     {
+      "c": "Crossref: Acta Mathematica 12, pp. 233-286, 1889, 'Sur une generalisation de la theorie des fonctions d'une variable imaginaire'.",
+      "s": "Crossref 10.1007/BF02391880",
+      "u": "https://doi.org/10.1007/BF02391880",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Frechet 1906 (read): 'MM. Volterra (xv) et Arzela (v) paraissent avoir ete les premiers a etudier systematiquement les fonctions dont la valeur depend de la position et de la forme d'une ligne variable', with (xv) this Acta memoir of 1889.",
+      "s": "Frechet, Sur quelques points du calcul fonctionnel, Rend. Circ. Mat. Palermo 22 (1906), introduction and bibliography",
+      "u": "https://archive.org/details/rendicontidelci18palegoog",
+      "k": "primary_text"
      }
     ]
    },
@@ -5590,31 +5649,31 @@
     ]
    },
    {
-    "r": "naming",
+    "r": "key_development",
     "y": 1903,
     "ye": null,
     "p": "year",
-    "l": "Hadamard's note 'Sur les operations fonctionnelles' (source of the noun 'functional')",
+    "l": "Hadamard on linear functional operations",
     "w": "J. Hadamard, Sur les operations fonctionnelles, C. R. Acad. Sci. Paris 136 (1903), 351-354",
     "pe": [
      "Jacques Hadamard"
     ],
-    "d": "Frechet, writing in 1906, ascribes the noun 'fonctionnelle' to this short note, earlier than the 1910 book usually credited.",
+    "d": "Hadamard shows that a continuous linear operation taking a function on an interval to a number is a limit of integrals of the function against a sequence of kernels, an early representation theorem for what are now called continuous linear functionals.",
     "ph": "Functionals and functions of lines",
-    "c": "medium",
-    "n": "The note itself was not read and is in no Crossref record, so the use of the word in the text is taken from Frechet's attribution as reported by Miller (MacTutor); the page range comes from a bibliography of Frechet's works found through search. This names the object (functional), not the field.",
+    "c": "high",
+    "n": "Reclassified from naming after reading the note (Comptes rendus 136, 9 Feb 1903, pp. 351-354, in the Gallica-derived Internet Archive scan): it speaks only of 'operations fonctionnelles lineaires' and 'fonctions de lignes' (Volterra) and never uses the noun 'fonctionnelle'. The noun is first met in print in Frechet's 1906 paper, which ascribes it to Hadamard citing this note; Miller's Earliest Uses already suggests Frechet may have coined it. The word thus names an object, not the field, and sets no institutional date.",
     "ev": [
      {
-      "c": "Miller's entry says the noun 'functional' is generally attributed to Hadamard and that Frechet (Rend. Circ. Mat. Palermo 22, 1906, p. 38) ascribes the word to Hadamard's 'Sur les operations fonctionnelles'.",
-      "s": "MacTutor, Earliest Uses of Some of the Words of Mathematics (F), 'functional'",
-      "u": "https://mathshistory.st-andrews.ac.uk/Miller/mathword/f/",
-      "k": "history_page"
+      "c": "Read: 'Sur les operations fonctionnelles', Note de M. Hadamard presentee par M. Jordan, C. R. 136, pp. 351-354; defines linear functional operations on f(x) on (a,b), cites Volterra, Pincherle and Bourlet, and gives the representation by limits of integrals against F_n(x - u).",
+      "s": "Comptes rendus hebdomadaires de l'Academie des sciences, t. 136, 1er semestre 1903, no. 6 (9 February 1903)",
+      "u": "https://archive.org/details/comptes-rendus-hebdomadaires-academie-des-sciences_1903-02-09_136_6",
+      "k": "primary_publication"
      },
      {
-      "c": "Frechet's 1906 paper (the attributing source) has a Crossref record: Rend. Circ. Mat. Palermo 22, pp. 1-72.",
-      "s": "Crossref 10.1007/BF03018603",
-      "u": "https://doi.org/10.1007/BF03018603",
-      "k": "bibliographic_record"
+      "c": "Miller: the noun 'functional' is generally attributed to Hadamard via Frechet 1906 p. 38, but the 1903 note uses the word only in the phrase operation fonctionnelle, so Frechet may be responsible for the noun himself.",
+      "s": "MacTutor, Earliest Uses of Some of the Words of Mathematics (F)",
+      "u": "https://mathshistory.st-andrews.ac.uk/Miller/mathword/f/",
+      "k": "history_page"
      }
     ]
    },
@@ -5630,14 +5689,20 @@
     ],
     "d": "Hilbert began his series on integral equations, extending Fredholm's theory to eigenfunction expansions and, in later communications, to infinitely many variables.",
     "ph": "Integral equations and Hilbert space",
-    "c": "medium",
-    "n": "EuDML record confirms title, journal, year and pages (a Czech survey gives different pages, 41-49, presented 5 March 1904). The text was not read; the content description is from the keywords and later accounts (Hilbert space came from this work, per Miller). The fourth communication (1906) and the 1912 book are listed under the person.",
+    "c": "high",
+    "n": "Citation confirmed twice: EuDML, and Hilbert's own 1912 preface (read in the Internet Archive scan of Grundzuege einer allgemeinen Theorie der linearen Integralgleichungen), which lists 'Erste Mitteilung (Gott. Nachr. 1904, S. 49-91)' and the five further communications to 1910. The introduction (read) states the aim, a general theory of linear integral equations with symmetric kernels leading to expansions of an arbitrary function in eigenfunctions. The 1904 text itself was not read separately; the fourth communication (1906) and the 1912 book are under the person.",
     "ev": [
      {
       "c": "EuDML record of the first communication, Goettingen Nachrichten 1904, pp. 49-91.",
       "s": "EuDML doc 58572",
       "u": "https://eudml.org/doc/58572",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Read: Hilbert's preface to the 1912 book lists the six communications, the first being Gott. Nachr. 1904, pp. 49-91, and the introduction states the eigenfunction-expansion programme.",
+      "s": "D. Hilbert, Grundzuege einer allgemeinen Theorie der linearen Integralgleichungen, Teubner 1912 (Internet Archive grundzgeeinera00hilbuoft)",
+      "u": "https://archive.org/details/grundzgeeinera00hilbuoft",
+      "k": "primary_text"
      },
      {
       "c": "Miller: the study of function spaces grew out of Hilbert's work on integral equations in the first decade of the century.",
@@ -5660,7 +5725,7 @@
     "d": "Frechet's thesis introduced metric spaces and an axiomatic setting for analysis on spaces of functions, built on ideas of Hadamard and Volterra.",
     "ph": "Abstract (metric, normed) spaces",
     "c": "high",
-    "n": null,
+    "n": "Read in the Internet Archive scan of Rend. Circ. Mat. Palermo vol. 22: the introduction credits Volterra and Arzela with the first systematic study of functions of a line, and section 59 says that operations on continuous functions are 'specialement appelees des fonctionnelles par M. Hadamard (xi)', where (xi) is the 1903 note. This is the earliest printed use of the noun found (see the Hadamard 1903 milestone and the 1910 book).",
     "ev": [
      {
       "c": "Crossref: Rendiconti del Circolo Matematico di Palermo 22, pp. 1-72, 1906.",
@@ -5673,6 +5738,12 @@
       "s": "MacTutor Biographies/Frechet",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Frechet/",
       "k": "history_page"
+     },
+     {
+      "c": "Read: section 59, 'Les operations portant sur des fonctions continues sont specialement appelees des fonctionnelles par M. Hadamard (xi)', and the linear functional U(f) = integral of m(x) f(x) dx given as an example.",
+      "s": "Frechet, Rend. Circ. Mat. Palermo 22 (1906)",
+      "u": "https://archive.org/details/rendicontidelci18palegoog",
+      "k": "primary_text"
      }
     ]
    },
@@ -5689,7 +5760,7 @@
     "d": "Hadamard's book recast the calculus of variations around the functional, spreading the noun and the Volterra-Hadamard viewpoint.",
     "ph": "Functionals and functions of lines",
     "c": "medium",
-    "n": "Review R2: reclassified from naming. The noun 'fonctionnelle' is traced to Hadamard's 1903 note (see the 1903 naming milestone), so this book is where the usage was spread, not coined; MacTutor and Wikipedia date the word to the book. Only the first volume (1910) is cited.",
+    "n": "Read in the Internet Archive scan: section 232 'Fonctionnelles' (chapter 'Generalisations. Le calcul fonctionnel') defines a quantity U determined by a function as 'une fonctionnelle' and distinguishes it from a function of a function; the preface credits Volterra, Pincherle and Bourlet for opening the way. So this book is the first treatment found that defines the noun itself, after Frechet's 1906 attribution; the 1903 note only has the adjective. Only the first volume (1910) is cited.",
     "ev": [
      {
       "c": "Internet Archive catalogue record for the 1910 first volume, collected by Frechet.",
@@ -5714,6 +5785,12 @@
       "s": "Open Library",
       "u": "https://openlibrary.org/works/OL1209485W",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Read: preface and section 232 define 'fonctionnelle' and develop continuity and derivative of functionals.",
+      "s": "J. Hadamard, Lecons sur le calcul des variations, t. I (1910), Internet Archive leonssurlecalc00hadauoft",
+      "u": "https://archive.org/details/leonssurlecalc00hadauoft",
+      "k": "primary_text"
      }
     ]
    },
@@ -5782,7 +5859,7 @@
     "d": "The earliest title found that uses the phrase for the field, a course reflecting Hadamard's school of nonlinear functionals.",
     "ph": null,
     "c": "medium",
-    "n": "Review R2: Miller's Earliest Uses (MacTutor) independently dates the term 'functional analysis' to the title of Levy's Lecons d'analyse fonctionnelle (1922), written about functionals; the Open Library and zbMATH records agree on 1922. No earlier title use was found, but the search was not exhaustive.",
+    "n": "Review R2: Miller's Earliest Uses (MacTutor) independently dates the term 'functional analysis' to the title of Levy's Lecons d'analyse fonctionnelle (1922), written about functionals; the Open Library and zbMATH records agree on 1922. No earlier title use was found, but the search was not exhaustive. Because the 1903 note does not use the noun, the institutional date of the event is now this field-name title (1922).",
     "ev": [
      {
       "c": "zbMATH record for Levy's Lecons d'analyse fonctionnelle, 1922.",
@@ -5964,7 +6041,7 @@
     ]
    }
   ],
-  "notes": "Sources: Wikipedia Functional_analysis; MacTutor biographies of Volterra, Hadamard, Frechet, Fredholm, Banach, Hilbert. Hilbert's integral-equation communications began in 1904 (not independently checked here); only the 1906 fourth communication and the 1910/1912 book were confirmed in zbMATH, so it is kept in people, not milestones. Riesz 1910 (Math. Ann. 69, Crossref 10.1007/BF01457637, L^p spaces) and Hadamard's 1903 note on functional operations (not found in zbMATH) were left out. Summary says 'fusion of analysis, algebra, topology'; the sources support abstract-space axiomatics (Frechet) rather than a single fusion date. Volterra priority: 1887 (publication) vs 1883 (MacTutor's idea). No MSC/journal institution milestone attempted (MSC 46 not verified). Review A1: Crossref confirms Fredholm 1903, Frechet 1906, Banach 1922 and Riesz 1910 (Math. Ann. 69); Open Library confirms Hadamard 1910, Levy 1922 and Banach 1932. Still open: the Volterra 1890 first_application has no identified paper (year from MacTutor), Hilbert's 1904-1910 communications and Riesz 1910 are absent from the milestones, and an earlier Hadamard use of 'functional' is not excluded, so the record stays source-first. Review R2: Volterra 1887 confirmed (zbMATH, Opere matematiche, Springer citation), the 1890 application paper identified, Hilbert 1904 (EuDML) and Riesz 1910 (Crossref) added, and the noun 'functional' traced to Hadamard's 1903 note via Frechet 1906 (Miller/MacTutor) rather than the 1910 book, which moves the institutional date to 1903. Not read: the Volterra, Hadamard and Hilbert texts; priority claims rest on bibliographic records and MacTutor.",
+  "notes": "Review R2b, partial. Read in open copies: Hadamard's 1903 note (Comptes rendus 136, scan), Frechet 1906 (Palermo 22, introduction, section 59 and bibliography), Hadamard's 1910 Lecons (section 232), Hilbert's 1912 book (preface and introduction). Findings: (1) the 1903 note uses only 'operations fonctionnelles' and not the noun, so it is now a key development (representation of linear functional operations) and no longer a naming/institutional milestone; the noun is first printed in Frechet 1906 (ascribed to Hadamard) and defined in Hadamard 1910; the institutional date becomes Levy's 1922 title. (2) Hilbert 1904 citation confirmed by his own preface (pp. 49-91). (3) Volterra's 1889 Acta memoir (Crossref) added, with Frechet crediting Volterra and Arzela as first on functions of lines. Volterra 1890 is still identified only from the Opere matematiche scan and MacTutor; Volterra 1887, 1889, 1890, Fredholm, Riesz, Banach and Levy texts were not read (Riesz/Annalen volume is lending-only), Arzela 1895 not checked. Volterra priority 1887 (publication) vs 1883 (MacTutor's idea). Stays source-first.",
   "catalogueDates": [
    [
     1887,
@@ -15772,7 +15849,7 @@
     {
      "p": "P007",
      "f": "Fourier methods in sphere packing",
-     "d": 194,
+     "d": 208,
      "t": "named"
     }
    ],
@@ -51060,14 +51137,14 @@
     "ye": null,
     "p": "year",
     "l": "D'Alembert: curve formed by a vibrating string",
-    "w": "d'Alembert, Recherches sur la courbe que forme une corde tendue mise en vibration, Histoire de l'Académie de Berlin 3 (volume dated 1747)",
+    "w": "J. le Rond d'Alembert, Recherches sur la courbe que forme une corde tendue mise en vibration, Histoire de l'Academie royale des sciences et belles lettres de Berlin, annee 1747 (3), Berlin 1749",
     "pe": [
      "Jean le Rond d'Alembert"
     ],
     "d": "D'Alembert derives the one-dimensional wave equation and its solution as a sum of two travelling waves.",
     "ph": null,
-    "c": "medium",
-    "n": "Dates differ: 1746 (MacTutor), volume year 1747 (Wikipedia citations). I give 1749 for printing the Berlin volume 3, inferred from the Euler Archive dating of vol. 4 to 1750; not verified for this volume. Treat as range 1746-1749.",
+    "c": "high",
+    "n": "Printing year confirmed: the volume (annee 1747) was read in a Google/Internet Archive scan whose title page is dated MDCCXLIX (1749); MacTutor's 1746 refers to the date of the work, 1747 is the volume year. The opening of the paper (read) takes the displacement as an unknown function of time and abscissa and derives partial differential relations, with the full solution in the later articles (not read to the end).",
     "ev": [
      {
       "c": "His most famous achievements include the wave equation and D'Alembert's formula; the papers cited are the 1747 Berlin memoirs",
@@ -51080,6 +51157,12 @@
       "s": "MacTutor, The function concept",
       "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Functions/",
       "k": "history_page"
+     },
+     {
+      "c": "Read: title page 'Annee MDCCXLVII ... Berlin ... MDCCXLIX' and the opening of the paper, which treats the displacement of the string as an unknown function of time and abscissa and says there are infinitely many curves other than Taylor's companion of the cycloid.",
+      "s": "Histoire de l'Academie royale des sciences et belles lettres de Berlin, annee 1747, Berlin 1749 (Internet Archive bub_gb_lJQDAAAAMAAJ)",
+      "u": "https://archive.org/details/bub_gb_lJQDAAAAMAAJ",
+      "k": "primary_publication"
      }
     ]
    },
@@ -51096,7 +51179,7 @@
     "d": "Euler solves the string problem with initial shapes more general than d'Alembert allowed, opening the controversy on admissible functions.",
     "ph": null,
     "c": "high",
-    "n": "Read 1749, printed 1750.",
+    "n": "Printing confirmed in the volume scan: the Berlin volume for annee 1748 has the title-page date MDCCL and lists 'Sur la vibration des cordes, par M. Euler' at p. 69; article XXX of the paper (read) gives the general solution of the problem, and Bernoulli's reply (read) says the 1747 and 1748 memoirs allow infinitely many curves. The paper was not read in full.",
     "ev": [
      {
       "c": "Euler published a paper in 1749 objecting to d'Alembert's restriction",
@@ -51109,23 +51192,29 @@
       "s": "Euler Archive record E140 (bepress metadata)",
       "u": "https://scholarlycommons.pacific.edu/euler-works/140/",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Read: volume annee 1748, title page 1750, contents list Euler's 'Sur la vibration des cordes' (p. 69); the text states a general solution for the vibrating string.",
+      "s": "Histoire de l'Academie royale des sciences et belles lettres de Berlin, annee 1748, Berlin 1750 (Internet Archive berlin-histoire-1748-pub1750)",
+      "u": "https://archive.org/details/berlin-histoire-1748-pub1750",
+      "k": "primary_publication"
      }
     ]
    },
    {
     "r": "key_development",
-    "y": 1753,
+    "y": 1755,
     "ye": null,
     "p": "year",
     "l": "Daniel Bernoulli's superposition of modes",
-    "w": "Daniel Bernoulli, Réflexions et éclaircissemens sur les nouvelles vibrations des cordes, Mém. Acad. Berlin 1755 (read 1753)",
+    "w": "Daniel Bernoulli, Reflexions et eclaircissemens sur les nouvelles vibrations des cordes exposees dans les Memoires de l'Academie de 1747 et 1748, Memoires de l'Academie de Berlin, annee 1753 (9), Berlin 1755",
     "pe": [
      "Daniel Bernoulli"
     ],
     "d": "Bernoulli proposes that general string motion is a sum of simple modes, which opened the debate with Euler and d'Alembert about admissible solutions.",
     "ph": "Euler's general solutions",
-    "c": "medium",
-    "n": "1753 is the date of the memoir in the Berlin academy; original-volume record not found.",
+    "c": "high",
+    "n": "Year changed from 1753 (the volume year) to 1755, the title-page printing date (MDCCLV) of the volume read in the Internet Archive scan. Bernoulli (read) argues that the d'Alembert-Euler vibrations are combinations of the simple (Taylor) vibrations, i.e. superposition of modes, in a first and a second memoir in the same volume.",
     "ev": [
      {
       "c": "zbMATH record of a 2021 translation of Bernoulli's Réflexions et éclaircissemens sur les nouvelles vibrations des cordes, confirming the title.",
@@ -51138,6 +51227,12 @@
       "s": "MacTutor, biography of Bernoulli Daniel",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Bernoulli_Daniel/",
       "k": "history_page"
+     },
+     {
+      "c": "Read: the memoir opens by saying Taylor found the number of vibrations and that the curve of simple vibration is the companion of the cycloid, and treats the 'nouvelles vibrations' of d'Alembert and Euler as built from these; the volume title page is dated MDCCLV.",
+      "s": "Histoire de l'Academie royale des sciences et belles lettres de Berlin, annee 1753, Berlin 1755 (Internet Archive berlin-histoire-1753-pub1755)",
+      "u": "https://archive.org/details/berlin-histoire-1753-pub1755",
+      "k": "primary_publication"
      }
     ]
    },
@@ -51249,7 +51344,7 @@
     ]
    }
   ],
-  "notes": "The MacTutor d'Alembert biography could not be fetched (404), so d'Alembert's evidence is from Wikipedia and the MacTutor function-concept topic. Daniel Bernoulli's 1753 superposition and Taylor's earlier string work were not verified. Euler's three-dimensional wave equation was mentioned in Wikipedia with no year. Search found no naming or institution milestone for the wave equation or for PDEs. person without verified work: Joseph-Louis Lagrange (developer). Thin pass 2: added Taylor 1713 (Crossref) and Bernoulli 1753 (zbMATH translation record). The d'Alembert MacTutor biography URL gives 404 under D'Alembert, D_Alembert and Alembert, so his biography stays on Wikipedia. Lagrange's 1759 work is cited via MacTutor only; no Crossref or zbMATH record was found for it.",
+  "notes": "Review R2b, partial. Read in open scans of the Berlin Academy volumes: d'Alembert's memoir (annee 1747, printed 1749), the volume with Euler's memoir (annee 1748, printed 1750) and Bernoulli's memoirs (annee 1753, printed 1755), plus Lagrange's Oeuvres (vol. 1) for his later string papers. Changes: d'Alembert's 1749 printing year confirmed (range 1746-1749 resolved), Bernoulli moved from 1753 to the printing year 1755. Outstanding: Taylor 1713 and Euler 1766 were confirmed only by Crossref and Euler Archive records; Lagrange's Recherches sur la nature et la propagation du son (Miscellanea Taurinensia t. I, 1759-62) is a likely missing key development whose printing year was not fixed; the d'Alembert and Euler papers were read at the opening and solution passages, not through. Stays source-first.",
   "catalogueDates": [
    "1746-1755",
    null,
@@ -51279,7 +51374,7 @@
     {
      "p": "P188",
      "f": "partial differential equations",
-     "d": 37,
+     "d": 36,
      "t": "feeds"
     }
    ],
@@ -58602,12 +58697,12 @@
   "grade": {},
   "shown": {
    "conceptual": {
-    "y": 1786,
+    "y": 1785,
     "basis": "first statement"
    },
    "methodological": {
     "y": 1813,
-    "basis": "first application"
+    "basis": "earliest key development; no first application found"
    },
    "institutional": {
     "y": 1828,
@@ -58616,15 +58711,15 @@
   },
   "took": {
    "y": 1813,
-   "role": "first_application",
-   "label": "Poisson's potential inside attracting masses",
+   "role": "key_development",
+   "label": "Poisson extends the equation inside attracting masses",
    "same": false
   },
-  "y": 1786,
+  "y": 1785,
   "approx": false,
   "derived": {
-   "conceptual": 1786,
-   "methodological": 1813,
+   "conceptual": 1785,
+   "methodological": null,
    "institutional": 1828
   },
   "phases": [
@@ -58638,16 +58733,22 @@
     "y": 1773,
     "ye": null,
     "p": "year",
-    "l": "Lagrange on attraction of spheroids",
-    "w": "J.-L. Lagrange, Sur l'attraction des sphéroïdes elliptiques, Mém. Acad. Berlin (1773)",
+    "l": "Lagrange on the attraction of elliptic spheroids",
+    "w": "J.-L. Lagrange, Sur l'attraction des spheroides elliptiques, Nouveaux Memoires de l'Academie de Berlin, annee 1773 (volume printed later)",
     "pe": [
      "Joseph-Louis Lagrange"
     ],
     "d": "Lagrange expresses attraction through a single function whose derivatives give the force components, the idea later called the potential.",
     "ph": null,
-    "c": "low",
-    "n": "Year and exact paper recalled from standard accounts; no record found in the zbMATH or Crossref searches done.",
+    "c": "medium",
+    "n": "Read in Lagrange's Oeuvres, vol. 3 (the memoir is headed 'annee 1773'): an analytic solution of Maclaurin's problem by integrating the three components of attraction directly. The single function whose derivatives give the components (the potential) was not found in it, so it is a precursor in the field, not the first statement; the volume's printing year (c. 1775) was not checked. Lagrange's other 1770s memoirs (the claim that he used the potential function first) were not located.",
     "ev": [
+     {
+      "c": "Read: memoir 'Sur l'attraction des spheroides elliptiques', Nouveaux Memoires Berlin, annee 1773; Problem I gives the attraction of a body on a point as three integrated components, and the memoir solves the ellipsoid case analytically against Maclaurin's synthetic method.",
+      "s": "Oeuvres de Lagrange, t. III, Internet Archive oeuvresdelagrang03lagr",
+      "u": "https://archive.org/details/oeuvresdelagrang03lagr",
+      "k": "primary_text"
+     },
      {
       "c": "MacTutor biography of Lagrange, covering his work on gravitational attraction.",
       "s": "MacTutor, biography of Lagrange",
@@ -58658,19 +58759,31 @@
    },
    {
     "r": "first_statement",
-    "y": 1786,
+    "y": 1785,
     "ye": null,
     "p": "year",
-    "l": "Laplace's potential function and equation for attracting spheroids",
-    "w": null,
+    "l": "Laplace: the function V for attracting spheroids and its partial differential equation",
+    "w": "P.-S. Laplace, Theorie des attractions des spheroides et de la figure des planetes, Memoires de l'Academie royale des Sciences de Paris, annee 1782; 1785 (Oeuvres completes, t. X)",
     "pe": [
      "Pierre-Simon Laplace"
     ],
-    "d": "Laplace introduced the potential function and studied its equation in work on the attraction of spheroids, here dated by a range because sources differ.",
+    "d": "Laplace defines V as the sum of the masses over their distances to the attracted point, shows that its derivatives give the attractions, and derives the second-order partial differential equation it satisfies, the base of his theory of the figure of the planets.",
     "ph": null,
-    "c": "low",
-    "n": "Exact memoir and year not verified in a bibliographic record. MacTutor also says the equation was known before Laplace; Lagrange (c. 1773) is a candidate for first use of the function and was not promoted. Review A1: other sources (a Cambridge University Press excerpt and Hathaway's note) date Laplace's 'Theorie des attractions des spheroides et de la figure des planetes' to 1782 (printed 1785) and argue the potential concept belongs to Lagrange (1773, 1777, 1780); the 1786 date is therefore not adopted as settled and the confidence stays low.",
+    "c": "high",
+    "n": "Moved from 1786 to 1785 after reading the memoir in the Oeuvres completes (vol. X): the header gives 'annee 1782; 1785', article IV and section II introduce V and the equation (in spherical coordinates). Poisson's 1813 note (read) calls this equation the base of Laplace's researches on the attraction of spheroids. The 1786 date in Wikipedia and in earlier notes refers to a later study (the Cartesian form, not checked). Lagrange's 1773 attraction memoir (read) integrates the components directly and does not state a potential, and the memoir shows no credit to Lagrange; his other 1770s memoirs were not located, so priority for the function V alone is not fully closed. Laplace does not call V a potential.",
     "ev": [
+     {
+      "c": "Read: heading 'Memoires de l'Academie royale des Sciences de Paris, annee 1782; 1785'; section II: V, the sum of the molecules divided by their distances, gives the attractions by differentiation, and satisfies a second-order partial differential equation, called the fundamental equation of his researches on the figure of the planets.",
+      "s": "Oeuvres completes de Laplace, t. X, Internet Archive uvrescompltesde11fragoog (pp. 341ff)",
+      "u": "https://archive.org/details/uvrescompltesde11fragoog",
+      "k": "primary_text"
+     },
+     {
+      "c": "Read: Poisson writes that this equation (sum of the second derivatives of V equal to zero outside the masses) is the one 'dont M. Laplace a fait la base de ses belles recherches sur l'attraction des spheroides'.",
+      "s": "S.-D. Poisson, Remarques sur une equation..., Nouveau Bulletin des sciences 3 (1813)",
+      "u": "https://archive.org/details/nouveaubulletind31812soci",
+      "k": "primary_publication"
+     },
      {
       "c": "MacTutor says Laplace introduced the potential function in analysis",
       "s": "MacTutor, Laplace",
@@ -58678,7 +58791,7 @@
       "k": "history_page"
      },
      {
-      "c": "Wikipedia says Laplace first studied the properties of his equation in 1786",
+      "c": "Wikipedia dates Laplace's study of his equation to 1786, later than the memoir printed in 1785.",
       "s": "English Wikipedia, Laplace's equation",
       "u": "https://en.wikipedia.org/wiki/Laplace's_equation",
       "k": "history_page"
@@ -58686,22 +58799,28 @@
     ]
    },
    {
-    "r": "first_application",
+    "r": "key_development",
     "y": 1813,
     "ye": null,
     "p": "year",
-    "l": "Poisson's potential inside attracting masses",
-    "w": null,
+    "l": "Poisson extends the equation inside attracting masses",
+    "w": "S.-D. Poisson, Remarques sur une equation qui se presente dans la theorie des attractions des spheroides, Nouveau Bulletin des sciences, Soc. philomathique 3 (1813), pp. 388-392",
     "pe": [
      "Siméon-Denis Poisson"
     ],
-    "d": "Poisson studied the potential in the interior of attracting masses, a result applied to electrostatics.",
+    "d": "Poisson shows that the sum of the second derivatives of V is not zero when the attracted point lies in the mass but equals minus four pi times the density there.",
     "ph": "Poisson, Green and electrostatics (1813-1828)",
-    "c": "medium",
-    "n": "Specific paper not identified.",
+    "c": "high",
+    "n": "Paper identified and read in the Internet Archive scan of Tome III (in the issue run of 1813; the note carries the page heads (589)-(591) misread, i.e. 389-391, and the usual citation is pp. 388-392). Reclassified from first_application: it is a result extending Laplace's equation, not an application to a target problem; the electrostatic memoirs of 1811-12 that Green credits to Poisson were not read, and may be the first application. The exact month was not read from the issue heading.",
     "ev": [
      {
-      "c": "MacTutor says that in 1813 Poisson studied the potential inside attracting masses with application to electrostatics",
+      "c": "Read: the note states that V satisfies Laplace's equation outside the attracting body and, by splitting the body and using a homogeneous sphere, that the sum of second derivatives equals -4 pi rho (rho the density at the attracted point) for a body of any form.",
+      "s": "Internet Archive, Nouveau Bulletin des Sciences, Tome III (nouveaubulletind31812soci), 'Remarques sur une equation...'",
+      "u": "https://archive.org/details/nouveaubulletind31812soci",
+      "k": "primary_publication"
+     },
+     {
+      "c": "MacTutor says that in 1813 Poisson studied the potential inside attracting masses.",
       "s": "MacTutor, Poisson",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Poisson/",
       "k": "history_page"
@@ -58713,15 +58832,15 @@
     "y": 1823,
     "ye": null,
     "p": "year",
-    "l": "Poisson's equation published",
+    "l": "Poisson's memoir on magnetism in motion",
     "w": null,
     "pe": [
      "Siméon-Denis Poisson"
     ],
     "d": "Poisson published the inhomogeneous equation for the potential in the context of magnetism, extending Laplace's equation.",
     "ph": null,
-    "c": "medium",
-    "n": "Secondary sources also give 1813 for Poisson's extension of the equation to the interior of attracting masses, so 1813 and 1823 may describe the same result in different memoirs; the 1823 date follows Wikipedia and no bibliographic record was found.",
+    "c": "low",
+    "n": "Wikipedia dates the published equation to a Poisson memoir on magnetism in motion (1823). The 1813 note (read) already contains the equation, so this is not the first publication; the 1823 memoir was not read and its volume and printing year were not checked.",
     "ev": [
      {
       "c": "Wikipedia says Poisson published the equation in 1823 in a memoir on the theory of magnetism in motion",
@@ -58744,7 +58863,7 @@
     "d": "Green named the sum of masses divided by distance the potential and developed its general properties for electricity and magnetism.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Green's Essay was read in the Internet Archive scan: he speaks of 'what have, in this Essay, been termed potential functions' and credits Poisson's two memoirs presented to the Institute about 1812 as founded on them. The 1828 date rests on the library record and MacTutor, not on the scan's title page.",
     "ev": [
      {
       "c": "Internet Archive item for Green's 1828 Essay on the application of mathematical analysis to the theories of electricity and magnetism",
@@ -58757,6 +58876,12 @@
       "s": "MacTutor, Green",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Green/",
       "k": "history_page"
+     },
+     {
+      "c": "Read: the introduction says Poisson presented two memoirs about 1812 on the distribution of electricity on conducting spheres, founded on the consideration of 'what have, in this Essay, been termed potential functions'.",
+      "s": "G. Green, An Essay on the Application of Mathematical Analysis to the Theories of Electricity and Magnetism",
+      "u": "https://archive.org/details/essayonapplicati00gree",
+      "k": "primary_text"
      }
     ]
    },
@@ -58869,7 +58994,7 @@
     ]
    }
   ],
-  "notes": "Sources: MacTutor Laplace, Poisson, Green; Wikipedia (Laplace's equation, Poisson's equation, Potential theory); archive.org; Crossref. The first_statement is low confidence: the sources I could reach date Laplace's work 1782-86 and say the equation preexisted him. Candidate not promoted: Lagrange's 1773 memoir on attraction of spheroids (recalled from general history, not checked). The term 'potential' in Gauss's 1840 Allgemeine Lehrsätze, Dirichlet's principle and Kellogg 1929 were also not verified. Mathematics Subject Classification code 31 (potential theory) was not searched. person without verified work: Siméon-Denis Poisson (developer). person without verified work: Adrien-Marie Legendre (developer). Thin pass 2: added Lagrange 1773 as a low-confidence precursor and Gauss 1840 as a key development. Poisson and Legendre works of 1813 and 1782 were searched in zbMATH and Crossref without a record, so Poisson (not in people list) is left as in the existing milestones. Laplace's first study of the equation is 1786 (Wikipedia), so the 1782 start is withdrawn. Lagrange's 1773 memoir and the first use of the potential function remain unsettled. Review A1: Laplace's 1782 memoir (printed 1785) and Lagrange's 1773-80 memoirs could not be resolved against a bibliographic record, so the first_statement stays low confidence and the record stays source-first.",
+  "notes": "Review R2b, partial. Read in open copies: Laplace's memoir of 1782 (printed 1785) in the Oeuvres completes, Lagrange's 1773 attraction memoir, Poisson's 1813 note (Nouveau Bulletin des sciences, Tome III) and Green's Essay introduction. Changes: first statement moved from 1786 to 1785 (the memoir with V and its partial differential equation); Poisson 1813 identified and read, reclassified from first application to key development (the -4 pi rho equation); the 1823 memoir is a later, unread item; Lagrange 1773 remains a precursor because the memoir does not state a potential. Outstanding: whether another Lagrange memoir of the 1770s printed the potential function earlier than 1785; Poisson's electrostatic memoirs of 1811-12 (possible first application); Laplace's Cartesian equation (1787); Gauss 1840 and Potential Analysis unread. Stays source-first.",
   "catalogueDates": [
    [
     1782,
@@ -58896,13 +59021,13 @@
     {
      "p": "P558",
      "f": "partial differential equations",
-     "d": 29,
+     "d": 28,
      "t": "feeds"
     },
     {
      "p": "P162",
      "f": "partial differential equations",
-     "d": 37,
+     "d": 36,
      "t": "feeds"
     }
    ],
@@ -58910,7 +59035,7 @@
     {
      "p": "P367",
      "f": "celestial, mechanics",
-     "d": 94,
+     "d": 95,
      "t": "feeds"
     }
    ],
@@ -67904,7 +68029,7 @@
    },
    "methodological": {
     "y": 1956,
-    "basis": "first application"
+    "basis": "earliest key development; no first application found"
    },
    "institutional": {
     "y": 1963,
@@ -67913,15 +68038,15 @@
   },
   "took": {
    "y": 1956,
-   "role": "first_application",
-   "label": "Malgrange on existence and approximation of PDE solutions",
+   "role": "key_development",
+   "label": "Malgrange's full treatment of existence and approximation of PDE solutions",
    "same": true
   },
   "y": 1955,
   "approx": false,
   "derived": {
    "conceptual": 1955,
-   "methodological": 1956,
+   "methodological": null,
    "institutional": 1963
   },
   "phases": [
@@ -67930,6 +68055,35 @@
    "Monograph consolidation (1963)"
   ],
   "ms": [
+   {
+    "r": "precursor",
+    "y": 1953,
+    "ye": null,
+    "p": "year",
+    "l": "Malgrange announces elementary solutions of constant-coefficient operators",
+    "w": "B. Malgrange, Equations aux derivees partielles a coefficients constants. I. Solution elementaire, C. R. Acad. Sci. Paris 237 (1953) 1620-1622",
+    "pe": [
+     "Bernard Malgrange"
+    ],
+    "d": "A short note announces that every nonzero differential operator with constant coefficients has an elementary solution, the result now called the Malgrange-Ehrenpreis theorem.",
+    "ph": null,
+    "c": "medium",
+    "n": "Citation and content come from later citations and a search result (the note was not read); Schwartz's Bourbaki talk of 1954 on the same theorem confirms the result was public by 1954. The note predates Ehrenpreis' paper of 1954; both are precursors here because they establish existence of fundamental solutions, not the general theory of Hormander's thesis.",
+    "ev": [
+     {
+      "c": "Schwartz's Seminaire Bourbaki talk no. 87 (1954), 'Solution elementaire d'une equation aux derivees partielles a coefficients constants', pp. 345-350 (Numdam record, metadata read).",
+      "s": "L. Schwartz, Seminaire Bourbaki vol. 2, expose 87, Numdam",
+      "u": "https://numdam.org/item/SB_1951-1954__2__345_0/",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "A later AMS paper cites Malgrange's note as C. R. Acad. Sci. Paris 237 (1953), 1620-1622, for the existence of elementary solutions (found by search, paper not opened).",
+      "s": "Search result citing the note",
+      "u": "https://www.ams.org/proc/1994-120-04/S0002-9939-1994-1197539-8/",
+      "k": "history_page"
+     }
+    ]
+   },
    {
     "r": "precursor",
     "y": 1954,
@@ -67943,7 +68097,7 @@
     "d": "Ehrenpreis works on division problems for constant-coefficient operators with Fourier and distribution methods, an ancestor of the general variable-coefficient theory rather than its public start.",
     "ph": null,
     "c": "medium",
-    "n": "Priority among Ehrenpreis, Malgrange and Hörmander is contested in this period; this is a precursor, not a ranked birth date.",
+    "n": "Crossref confirms Amer. J. Math. 76 (1954), p. 883 (part I). Priority between Ehrenpreis and Malgrange is contested; Malgrange's note of 1953 is earlier in print, so the existence of fundamental solutions belongs to both and is a precursor of Hormander's thesis, not a ranked birth date.",
     "ev": [
      {
       "c": "Article record: Ehrenpreis, Part I, Amer. J. Math., 1954",
@@ -67972,7 +68126,7 @@
     "d": "Hörmander's Acta paper gives a general Fourier-analytic theory of existence and regularity for linear PDE with variable coefficients.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Crossref confirms Acta Mathematica 94, pp. 161-248, 1955 (thesis; MR 76151). The Project Euclid copy could not be retrieved (bot protection), so the text was not read and the description rests on MacTutor and Wikipedia.",
     "ev": [
      {
       "c": "Article record, Acta Math. 1955; zbMATH 0067.32201 for the same paper",
@@ -67989,24 +68143,30 @@
     ]
    },
    {
-    "r": "first_application",
+    "r": "key_development",
     "y": 1956,
     "ye": null,
     "p": "year",
-    "l": "Malgrange on existence and approximation of PDE solutions",
+    "l": "Malgrange's full treatment of existence and approximation of PDE solutions",
     "w": "Malgrange, Existence et approximation des solutions des équations aux dérivées partielles et des équations de convolution, Annales de l'Institut Fourier, 1956",
     "pe": [
      "Bernard Malgrange"
     ],
-    "d": "Malgrange applies distribution and Fourier methods to existence and approximation of solutions of linear PDE; the earliest published record found for this use.",
+    "d": "Malgrange gives the full proof that every constant-coefficient operator has a fundamental solution, solutions on convex sets, and approximation by exponential-polynomial solutions, extending mean-periodic function theory.",
     "ph": null,
     "c": "medium",
-    "n": "Malgrange's thesis was announced in 1954 per MacTutor but no 1954 publication was checked, so 1956 is the earliest published record found, not a verified first.",
+    "n": "Reclassified from first_application: this is the full treatment of the existence theorem, not an application of Hormander's theory. Numdam abstract read: chapter I on constant-coefficient equations (fundamental solution E, convex sets, approximation by exponential polynomials), chapter II on convolution equations, chapter III on elliptic-type equations on vector bundles. Crossref gives vol. 6, 1956, pp. 271-355 (the volume is dated 1955-56); the earlier announcements are the 1953 and 1954 notes.",
     "ev": [
      {
       "c": "Article record, Ann. Inst. Fourier 1956",
       "s": "Crossref",
       "u": "https://doi.org/10.5802/aif.65",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Read: Numdam record and abstract of the paper (Annales de l'Institut Fourier 6, 1956, pp. 271-355).",
+      "s": "Numdam AIF_1956__6__271_0",
+      "u": "https://www.numdam.org/item/AIF_1956__6__271_0/",
       "k": "bibliographic_record"
      }
     ]
@@ -68024,7 +68184,7 @@
     "d": "The first systematic monograph built on Schwartz distributions and Fourier analysis for linear PDE.",
     "ph": null,
     "c": "medium",
-    "n": "Year conflict between catalogue records (1963 vs 1964); 1963 used.",
+    "n": "Crossref lists the first-edition chapters of the Springer book (Grundlehren) as 1963 (reprints 1964, 1969), so 1963 is kept; the 'Island Press' Open Library edition is a catalogue artefact. The book was not read; the lectures of 1961-62 come from MacTutor.",
     "ev": [
      {
       "c": "OpenLibrary record lists first publication 1963 (Island Press); a Springer edition is listed as 1964",
@@ -68037,6 +68197,12 @@
       "s": "MacTutor, Lars Hörmander biography",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Hormander/",
       "k": "history_page"
+     },
+     {
+      "c": "Crossref: 'Distribution theory', chapter 1 of Linear Partial Differential Operators, 1963 (later printings 1964 and 1969).",
+      "s": "Crossref 10.1007/978-3-642-46175-0_1",
+      "u": "https://doi.org/10.1007/978-3-642-46175-0_1",
+      "k": "bibliographic_record"
      }
     ]
    }
@@ -68091,7 +68257,7 @@
     ]
    }
   ],
-  "notes": "Input summary is correct in outline. Searched: Wikipedia (Lars Hörmander) and MacTutor Hörmander biography (fetched); Crossref and zbMATH for Acta 1955; Crossref for Malgrange 1956 and Ehrenpreis 1954; OpenLibrary for the 1963 monograph. Not checked: Hörmander 1960 L^p paper, lifespans of Ehrenpreis and Malgrange. Derived dates follow the role rule.",
+  "notes": "Review R2b, partial. Checked Crossref (Hormander 1955 and 1963, Ehrenpreis 1954, Malgrange 1956), the Numdam abstract of Malgrange 1956, Schwartz's 1954 Bourbaki record and a citation of Malgrange's 1953 note. Changes: Malgrange's C. R. note of 1953 added as a precursor that predates Ehrenpreis; Malgrange 1956 reclassified from first application to key development (it is the full existence theorem); 1963 confirmed for the book. Outstanding: none of the texts (Hormander 1955 thesis, Ehrenpreis, Malgrange 1953 and 1956, the book) was read in full, Project Euclid being blocked; Hormander 1958-60 papers (for example the Lewy-type non-solvability) and the lifespans of Ehrenpreis and Malgrange are not covered. Stays source-first.",
   "catalogueDates": [
    [
     1954,
@@ -68190,9 +68356,9 @@
    }
   },
   "took": {
-   "y": 1965,
-   "role": "naming",
-   "label": "Term 'pseudo-differential operators' in a title",
+   "y": 1967,
+   "role": "first_application",
+   "label": "Pseudo-differential operators applied to hypoelliptic equations",
    "same": true
   },
   "y": 1965,
@@ -68239,6 +68405,36 @@
     ]
    },
    {
+    "r": "precursor",
+    "y": 1957,
+    "ye": null,
+    "p": "year",
+    "l": "Calderon and Zygmund: singular integral operators and differential equations",
+    "w": "A. P. Calderon, A. Zygmund, Singular integral operators and differential equations, American Journal of Mathematics 79 (1957) 901-921",
+    "pe": [
+     "Alberto Calderon",
+     "Antoni Zygmund"
+    ],
+    "d": "The paper uses singular integral operators with symbols to treat linear elliptic equations, the step from singular integrals to the symbolic calculus of pseudo-differential operators.",
+    "ph": null,
+    "c": "medium",
+    "n": "Crossref confirms title, journal, volume, first page (901) and year; the paper's content and the claim that it leads directly to the 1965 calculus come from histories (the Wikipedia history section already cited) and were not read. The page range 901-921 is from standard citations, not from the record.",
+    "ev": [
+     {
+      "c": "Crossref: American Journal of Mathematics 79, p. 901, 1957.",
+      "s": "Crossref 10.2307/2372441",
+      "u": "https://doi.org/10.2307/2372441",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Wikipedia's history section names the Calderon-Zygmund singular integral work as the root of the calculus.",
+      "s": "English Wikipedia, Pseudo-differential operator (History)",
+      "u": "https://en.wikipedia.org/wiki/Pseudo-differential_operator",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
     "r": "first_statement",
     "y": 1965,
     "ye": null,
@@ -68252,7 +68448,7 @@
     "d": "Introduces the operator algebra with symbols in the form that became the standard pseudodifferential calculus.",
     "ph": "Symbol calculus (Kohn-Nirenberg, Hormander)",
     "c": "high",
-    "n": "Same paper also carries the name in its title (naming milestone below), so it plays both roles. A 1964 note by Unterberger and Bokobza (C. R. Acad. Sci. Paris 259, 1612-1614; zbMATH 3231475) is related, but its title does not use the term. The first title found using 'pseudo-differentiels' is their C. R. 261 (1965) note (zbMATH 3231478), after Kohn-Nirenberg, so 1965 stands.",
+    "n": "Same paper also carries the name in its title (naming milestone below), so it plays both roles. A 1964 note by Unterberger and Bokobza (C. R. Acad. Sci. Paris 259, 1612-1614; zbMATH 3231475) is related, but its title does not use the term. The first title found using 'pseudo-differentiels' is their C. R. 261 (1965) note (zbMATH 3231478), after Kohn-Nirenberg, so 1965 stands. Review R2b: Crossref confirms Comm. Pure Appl. Math. 18, pp. 269-305, 1965; the paper itself is not open and was not read, and Unterberger-Bokobza's C. R. notes could not be retrieved in this pass, so the order of the French notes still rests on the earlier zbMATH check.",
     "ev": [
      {
       "c": "Title and 1965 year of the Kohn-Nirenberg paper (DOI 10.1002/cpa.3160180121)",
@@ -68299,6 +68495,29 @@
     ]
    },
    {
+    "r": "key_development",
+    "y": 1965,
+    "ye": null,
+    "p": "year",
+    "l": "Hormander's 'Pseudo-differential operators'",
+    "w": "L. Hormander, Pseudo-differential operators, Comm. Pure Appl. Math. 18 (1965) 501-517",
+    "pe": [
+     "Lars Hormander"
+    ],
+    "d": "Hormander's own 1965 paper on pseudo-differential operators appeared in the same volume as Kohn and Nirenberg's, developing the calculus by a different route.",
+    "ph": null,
+    "c": "medium",
+    "n": "Crossref confirms title, journal, volume 18, pages 501-517 and year 1965; the volume has Kohn-Nirenberg (pp. 269-305) earlier, but the order within 1965 was not fixed by dates. Content description is from the title and histories, not from the paper.",
+    "ev": [
+     {
+      "c": "Crossref: Communications on Pure and Applied Mathematics 18, pp. 501-517, 1965.",
+      "s": "Crossref 10.1002/cpa.3160180307",
+      "u": "https://doi.org/10.1002/cpa.3160180307",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
     "r": "first_application",
     "y": 1967,
     "ye": null,
@@ -68323,6 +68542,29 @@
    },
    {
     "r": "key_development",
+    "y": 1971,
+    "ye": null,
+    "p": "year",
+    "l": "Hormander: Fourier integral operators I",
+    "w": "L. Hormander, Fourier integral operators. I, Acta Mathematica 127 (1971) 79-183",
+    "pe": [
+     "Lars Hormander"
+    ],
+    "d": "The first part of the theory of Fourier integral operators, extending the pseudo-differential calculus to operators with general phase functions.",
+    "ph": null,
+    "c": "medium",
+    "n": "Added from Crossref (Acta Mathematica 127, pp. 79-183, 1971); the content statement is from the paper's title and general history, not from the text.",
+    "ev": [
+     {
+      "c": "Crossref: Acta Mathematica 127, pp. 79-183, 1971, 'Fourier integral operators. I'.",
+      "s": "Crossref 10.1007/BF02392052",
+      "u": "https://doi.org/10.1007/BF02392052",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
     "y": 1972,
     "ye": null,
     "p": "year",
@@ -68341,6 +68583,12 @@
       "c": "Duistermaat-Hormander, Fourier integral operators II, Acta Math. 1972, pages 183-269",
       "s": "zbMATH 0232.47055",
       "u": "https://zbmath.org/?q=an:0232.47055",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Crossref: Acta Mathematica 128, pp. 183-269, 1972, 'Fourier integral operators. II'.",
+      "s": "Crossref 10.1007/BF02392165",
+      "u": "https://doi.org/10.1007/BF02392165",
       "k": "bibliographic_record"
      }
     ]
@@ -68461,7 +68709,7 @@
     ]
    }
   ],
-  "notes": "Sources: Wikipedia (raw wikitext, Pseudo-differential operator, history section); MacTutor biographies of Calderon, Zygmund, Hormander, Nirenberg; Crossref and zbMATH for all works. The saved Wikipedia leads for this eventId were empty. Dispute: the naming and first_statement milestones are the same 1965 paper, and the precedence of the French notes by Unterberger and Bokobza was checked in zbMATH: the 1964 note (3231475) does not use the term in its title, and the first title using 'pseudo-differentiels' is C. R. 261 (1965), after the Kohn-Nirenberg paper; the order of the two 1965 items rests on volume numbers. The 1965 KN paper is the earliest verified statement, so derived dates rely on the Crossref record. Lifespans left null where no source was checked.",
+  "notes": "Review R2b, partial. Checked Crossref for Calderon-Zygmund 1952 and 1957, Kohn-Nirenberg 1965, Hormander 1965 and 1967, Hormander FIO I and Duistermaat-Hormander 1972, and Taylor 1981. Changes: Calderon-Zygmund 1957 (singular integral operators and differential equations) added as the nearer precursor, Hormander's own 1965 paper and Fourier integral operators I added as key developments. Outstanding: no text of any paper was readable (Wiley, Springer and Project Euclid copies are closed or bot-protected), so the 1965 first statement, the naming priority against Unterberger-Bokobza, the claim that the 1967 paper is the first application (Kohn-Nirenberg's own applications were not checked) and the 1972 propagation-of-singularities wording all rest on bibliographic records and histories. Stays source-first.",
   "catalogueDates": [
    [
     1965,
@@ -68516,7 +68764,7 @@
     {
      "p": "P007",
      "f": "harmonic analysis (singular integrals)",
-     "d": 143,
+     "d": 157,
      "t": "context"
     }
    ],
@@ -79059,7 +79307,7 @@
     {
      "p": "P007",
      "f": "harmonic analysis",
-     "d": 111,
+     "d": 125,
      "t": "context"
     }
    ],
@@ -95167,7 +95415,7 @@
     {
      "p": "P007",
      "f": "harmonic analysis",
-     "d": 182,
+     "d": 196,
      "t": "context"
     }
    ],
@@ -101443,7 +101691,7 @@
     {
      "p": "P007",
      "f": "harmonic analysis (Littlewood-Paley paraproducts)",
-     "d": 190,
+     "d": 204,
      "t": "context"
     }
    ],
@@ -104501,7 +104749,7 @@
     {
      "p": "P007",
      "f": "harmonic analysis (decoupling)",
-     "d": 192,
+     "d": 206,
      "t": "context"
     },
     {
@@ -109246,7 +109494,7 @@
     {
      "p": "P188",
      "f": "celestial, mechanics",
-     "d": 94,
+     "d": 95,
      "t": "feeds"
     },
     {
@@ -124735,7 +124983,7 @@
     "basis": "earliest key development; no first application found"
    },
    "institutional": {
-    "y": 1870,
+    "y": 1857,
     "basis": "naming, textbook or institution"
    }
   },
@@ -124750,7 +124998,7 @@
   "derived": {
    "conceptual": 1851,
    "methodological": null,
-   "institutional": 1870
+   "institutional": 1857
   },
   "phases": [
    "Riemann's use of the minimum principle",
@@ -124770,8 +125018,8 @@
     ],
     "d": "Riemann relied on a minimum principle for Dirichlet's integral to guarantee that functions with prescribed boundary behaviour exist, and he is credited with naming it after Dirichlet.",
     "ph": "Riemann's use of the minimum principle",
-    "c": "medium",
-    "n": "The thesis is also the first application to existence of complex functions, so the same paper plays both roles. The thesis itself is not in the bibliographic databases I searched.",
+    "c": "high",
+    "n": "Riemann's thesis (Inauguraldissertation, Gottingen 1851) was read in Weber and Dedekind's Gesammelte Werke (1876): Article 16 states that the integral over the surface takes a minimum for some admissible function and (when removable singularities are excluded) for only one, and Article 17 tries to justify it by a limit method. The thesis does not name Dirichlet; the name and the credit to Dirichlet's lectures appear only in 1857 (next milestones). The same paper is the first application to the existence of complex functions.",
     "ev": [
      {
       "c": "Wikipedia: the name 'Dirichlet's principle' is due to Riemann, who applied it to complex analytic functions and assumed the minimum is attained",
@@ -124784,6 +125032,12 @@
       "s": "MacTutor biography of Riemann",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Riemann/",
       "k": "history_page"
+     },
+     {
+      "c": "Read: Art. 16 'Lehrsatz' on the minimum of the Dirichlet integral and Art. 17 'Begruendung ... mittelst der Grenzmethode' in the thesis, reprinted as paper I of the Werke, p. 30ff.; the title line reads 'Inauguraldissertation, Goettingen 1851'.",
+      "s": "Bernhard Riemann's Gesammelte mathematische Werke (Teubner 1876), Internet Archive gesammeltemath1876riemuoft",
+      "u": "https://archive.org/details/gesammeltemath1876riemuoft",
+      "k": "primary_text"
      }
     ]
    },
@@ -124800,7 +125054,7 @@
     "d": "The principle again underpins the existence results for functions on Riemann surfaces, exposing it to Weierstrass' later criticism.",
     "ph": "Riemann's use of the minimum principle",
     "c": "high",
-    "n": null,
+    "n": "Read in the Werke: the paper (Crelle 54, 1857) says the principle is one that Dirichlet has long been accustomed to give in his lectures on forces acting inversely as the square of the distance, perhaps prompted by a similar idea of Gauss, and that Riemann will present it in the form needed for functions with prescribed discontinuities, referring to his dissertation for side questions. Crossref confirms Crelle 54, pp. 115-155.",
     "ev": [
      {
       "c": "Crossref record of the paper",
@@ -124813,6 +125067,42 @@
       "s": "MacTutor biography of Riemann",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Riemann/",
       "k": "history_page"
+     },
+     {
+      "c": "Read: 'ein Princip, welches Dirichlet ... in seinen Vorlesungen ueber die dem umgekehrten Quadrat der Entfernung proportional wirkenden Kraefte seit einer Reihe von Jahren zu geben pflegt' and later 'nach dem Dirichlet'schen Princip' (the page reference 'S. 92').",
+      "s": "Riemann, Theorie der Abel'schen Functionen, in Gesammelte Werke (1876)",
+      "u": "https://archive.org/details/gesammeltemath1876riemuoft",
+      "k": "primary_text"
+     }
+    ]
+   },
+   {
+    "r": "naming",
+    "y": 1857,
+    "ye": null,
+    "p": "year",
+    "l": "Riemann names 'Dirichlet's principle' and credits Dirichlet's lectures",
+    "w": "Riemann, Theorie der Abel'schen Functionen, J. reine angew. Math. 54 (1857) 115-155",
+    "pe": [
+     "Bernhard Riemann",
+     "Peter Gustav Lejeune Dirichlet"
+    ],
+    "d": "Riemann uses the term Dirichlet'sches Princip in the text and attributes the idea to Dirichlet's lectures on potential theory, the earliest naming found.",
+    "ph": null,
+    "c": "medium",
+    "n": "Same paper as the 1857 key development; it also carries the term, so it plays both roles (schema rule 2). The earliest use of the name in a title found is Weber's note of 1870 (next milestones); a search of earlier printed uses was not exhaustive. The 1851 thesis does not use the name.",
+    "ev": [
+     {
+      "c": "Read: the paper calls the method 'das Dirichlet'sche Princip' and attributes it to Dirichlet's lectures, not to his own earlier thesis.",
+      "s": "Riemann, Theorie der Abel'schen Functionen, Gesammelte Werke (1876), pp. 91-92",
+      "u": "https://archive.org/details/gesammeltemath1876riemuoft",
+      "k": "primary_text"
+     },
+     {
+      "c": "Crossref record of the paper (Crelle 54, 115-155, 1857).",
+      "s": "Crossref 10.1515/crll.1857.54.115",
+      "u": "https://doi.org/10.1515/crll.1857.54.115",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -124829,7 +125119,7 @@
     "d": "Weierstrass gave a functional whose greatest lower bound is not attained, showing Riemann's assumption that the minimum exists was not justified.",
     "ph": "Weierstrass' objection",
     "c": "high",
-    "n": "Only reprints are in Crossref; the 1870 year of first publication rests on Wikipedia.",
+    "n": "Read in Weierstrass' Mathematische Werke vol. 2: 'Ueber das sogenannte Dirichlet'sche Princip', read in the Berlin Academy on 14 July 1870 (Werke pp. 49-54). Weierstrass says Dirichlet used the argument in his lectures on Newtonian forces, that Riemann applied it widely and that the name 'Dirichlet'sches Princip' arose, and that doubts about its admissibility are well founded. The Monatsberichte printing itself (1870) was not seen; the Werke reprint is later.",
     "ev": [
      {
       "c": "Wikipedia: Weierstrass published the first criticism in 1870 with a functional whose infimum is not attained",
@@ -124842,6 +125132,12 @@
       "s": "Crossref 10.1017/cbo9781139567817.004",
       "u": "https://doi.org/10.1017/cbo9781139567817.004",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Read: heading 'Ueber das sogenannte Dirichlet'sche Princip (Gelesen in der Koenigl. Akademie der Wissenschaften am 14. Juli 1870)' and the opening paragraph on Dirichlet's lectures, Riemann's use and the doubts.",
+      "s": "Karl Weierstrass, Mathematische Werke II, Internet Archive mathematischewer02weieuoft",
+      "u": "https://archive.org/details/mathematischewer02weieuoft",
+      "k": "primary_text"
      }
     ]
    },
@@ -124850,20 +125146,26 @@
     "y": 1870,
     "ye": null,
     "p": "year",
-    "l": "Weber titles a note on Riemann's proof of the Dirichlet principle",
+    "l": "Weber titles a note on Riemann's proof of Dirichlet's principle",
     "w": "Weber, H., A note on Riemann's proof of the Dirichlet principle, 1870",
     "pe": [
-     "Weber"
+     "Heinrich Weber"
     ],
     "d": "The earliest zbMATH title found that names the Dirichlet principle.",
     "ph": null,
     "c": "medium",
-    "n": "Earlier titles with Dirichlet principle absent in zbMATH 1850-1869. Riemann's own use in 1857 papers is not a title match.",
+    "n": "zbMATH (record fetched) gives the German title 'Note zu Riemann's Beweis des Dirichlet'schen Princips', Crelle 71, pp. 29-39, 1870; Crossref confirms the title, journal, pages and year (1870). It is the first title with the term found, but Riemann's 1857 text uses the term earlier. No earlier titles with the term were found in zbMATH for 1850-1869; the note itself was not read.",
     "ev": [
      {
       "c": "zbMATH record: title with \"Dirichlet principle\", Weber, 1870",
       "s": "zbMATH Open doc 2721338",
       "u": "https://api.zbmath.org/v1/document/2721338",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Crossref: 'Note zu Riemanns Beweis der Dirichletschen Princips', Crelle's Journal 1870, pp. 29-39.",
+      "s": "Crossref 10.1515/crll.1870.71.29",
+      "u": "https://doi.org/10.1515/crll.1870.71.29",
       "k": "bibliographic_record"
      }
     ]
@@ -124931,9 +125233,10 @@
     "y": null,
     "ye": null,
     "p": "unknown",
-    "l": "Earlier uses of the variational principle in potential theory",
+    "l": "Earlier uses of the variational principle in potential theory (Dirichlet's lectures, Gauss, Green, Thomson)",
     "w": "Gauss, Green and Thomson (Kelvin), earlier work in potential theory",
     "pe": [
+     "Peter Gustav Lejeune Dirichlet",
      "Carl Friedrich Gauss",
      "George Green",
      "William Thomson"
@@ -124941,13 +125244,19 @@
     "d": "MacTutor notes that Gauss, Green and Thomson had all made use of the minimum principle before Riemann used it for function theory.",
     "ph": "Riemann's use of the minimum principle",
     "c": "low",
-    "n": "Years and works were not identified in the page; searched MacTutor Riemann biography, Wikipedia 'Dirichlet's principle'. Left unknown.",
+    "n": "Years not established, so left unknown. Riemann (1857) and Weierstrass (1870), both read, say Dirichlet used the argument in lectures on Newtonian forces for years before 1857, Riemann adding that Gauss may have inspired it; MacTutor names Gauss, Green and Thomson. Lectures given orally are private precursors.",
     "ev": [
      {
       "c": "MacTutor's Riemann biography says the principle was not new with Riemann because Gauss, Green and Thomson had used it",
       "s": "MacTutor biography of Riemann",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Riemann/",
       "k": "history_page"
+     },
+     {
+      "c": "Read: Dirichlet is said to have given the principle in his lectures on forces acting inversely as the square of the distance, 'wohl durch einen aehnlichen Gedanken von Gauss veranlasst'.",
+      "s": "Riemann, Theorie der Abel'schen Functionen, Gesammelte Werke (1876)",
+      "u": "https://archive.org/details/gesammeltemath1876riemuoft",
+      "k": "primary_text"
      }
     ]
    }
@@ -125010,7 +125319,7 @@
     ]
    }
   ],
-  "notes": "Early uses by Gauss, Green and Thomson are only mentioned in a history page, so the precursor has no year. Riemann's first use of the name 'Dirichlet'sche Princip' in print was not located (naming milestone left open). Courant's 1950 monograph (cited in Wikipedia) is a likely consolidation but 'first systematic treatment' was not checked. Hilbert's 1900 Jahresbericht paper is not in Crossref; Schwarz, Neumann and Poincare alternatives were not searched. person without verified work: Peter Gustav Lejeune Dirichlet (popularizer). Fix pass 2: zbMATH confirms Hilbert's 1900 note on the Dirichlet principle (Jahresber. DMV 8, 184-188), which is the 1900 part of the range milestone. Open Library's Courant 1950 book was not added as a milestone in this pass. Fix pass 2: a zbMATH author/year search for Weierstrass 1870 returned no record; only a 1898 Polish translation (JFM 29.0373.06) of 'On the so called Dirichlet principle' is listed, so the 1870 date stays unresolved.",
+  "notes": "Review R2b, partial. Read in open copies: Riemann's 1851 thesis (Art. 16-17), his 1857 Abelian-functions paper (credit to Dirichlet's lectures, first use of the name) and Weierstrass' 1870 paper from the Werke. Crossref confirms Riemann 1857, Weber 1870 and Hilbert 1904; zbMATH (record fetched) gives Weber's German title. Changes: the 1857 paper now also carries a naming milestone (so the institutional date moves from 1870 to 1857); thesis confidence raised to high; Weber's 1870 note is the first title use; the earlier-uses precursor is attributed to Dirichlet's lectures first. Outstanding: Hilbert 1900/1904 texts, Weber's note and Kellogg 1929 were not read; Courant 1950 and the Schwarz, Neumann and Poincare alternatives to the principle were not searched; the Monatsberichte printing of Weierstrass 1870 was not seen. Stays source-first.",
   "catalogueDates": [
    [
     1851,
@@ -142815,7 +143124,7 @@
     {
      "p": "P007",
      "f": "harmonic analysis (Hilbert transform, Fourier series)",
-     "d": 130,
+     "d": 144,
      "t": "context"
     }
    ],
@@ -143615,7 +143924,7 @@
     {
      "p": "P007",
      "f": "harmonic analysis (Fourier restriction)",
-     "d": 171,
+     "d": 185,
      "t": "context"
     },
     {
@@ -152323,7 +152632,7 @@
     {
      "p": "P007",
      "f": "harmonic analysis (uncertainty principles)",
-     "d": 182,
+     "d": 196,
      "t": "context"
     }
    ],
@@ -157972,7 +158281,7 @@
     {
      "p": "P007",
      "f": "harmonic analysis",
-     "d": 193,
+     "d": 207,
      "t": "context"
     }
    ],
@@ -166523,7 +166832,7 @@
     {
      "p": "P188",
      "f": "partial differential equations",
-     "d": 29,
+     "d": 28,
      "t": "feeds"
     },
     {
