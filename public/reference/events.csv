@@ -35,8 +35,8 @@ P173,Tian yuan (celestial element) algebra,1248,False,Algebra,birth-by-abstracti
 P158,Al-Tusi: trigonometry as an independent discipline,1250,False,Astronomy & trigonometry,split,source-first,5,Nasir al-Din al-Tusi; Menelaus of Alexandria; Regiomontanus,events/P158/
 P110,Oresme: graphing motion (configurations of qualities and motions),1350,False,Group & representation theory,birth-by-fusion,source-first,5,Nicole Oresme; Marshall Clagett; Galileo Galilei,events/P110/
 P449,Projective geometry from Renaissance perspective,1435,False,Geometry,birth-by-abstraction,source-first,6,Leon Battista Alberti; Piero della Francesca; Guidobaldo del Monte; Girard Desargues; Filippo Brunelleschi,events/P449/
-P198,Regiomontanus: trigonometry separated from astronomy in Europe,1464,False,Astronomy & trigonometry,split,source-first,4,Regiomontanus; Bartholomaeus Pitiscus,events/P198/
 P129,Kerala series (Madhava-Gregory-Leibniz school),1501,False,Analysis,technique-transfer,source-first,5,Madhava of Sangamagrama; Nilakantha Somayaji; Jyesthadeva; Charles Whish,events/P129/
+P198,Regiomontanus: trigonometry separated from astronomy in Europe,1533,False,Astronomy & trigonometry,split,source-first,4,Regiomontanus; Bartholomaeus Pitiscus,events/P198/
 P458,Complex numbers from the cubic: Cardano and Bombelli,1545,False,Algebra,birth-by-abstraction,source-first,7,Gerolamo Cardano; Rafael Bombelli; Niccolo Tartaglia; René Descartes; Jean-Robert Argand; Carl Friedrich Gauss,events/P458/
 P119,Archimedean statics and hydrostatics,1586,True,Applied mathematics,birth-by-fusion,direct,3,Archimedes of Syracuse,events/P119/
 P140,Viete: symbolic algebra (the analytic art),1591,False,Algebra,reification,source-first,7,Francois Viete; Rene Descartes; Frans van Schooten; Thomas Harriot,events/P140/
@@ -78,15 +78,15 @@ P152,De Moivre: normal approximation to the binomial,1733,False,Probability,tech
 P004,Graph theory from the Königsberg bridges,1741,False,Graph theory,birth-by-abstraction,direct,10,Leonhard Euler; Carl Hierholzer; James Joseph Sylvester; Dénes Kőnig; Gustav Kirchhoff; Arthur Cayley,events/P004/
 P450,Topology from the geometry of position (Euler to Listing),1741,False,Topology,birth-by-abstraction,source-first,6,Leonhard Euler; Simon Lhuilier; Johann Benedict Listing,events/P450/
 P560,Clairaut applies hydrostatics to the figure of the Earth,1743,False,Geophysics & geodesy,field-emergence,direct,1,,events/P560/
+P430,Spectral ideas: eigenvalues from vibrating systems and quadratic forms,1743,False,Algebra,birth-by-abstraction,source-first,8,Jean le Rond d'Alembert; Leonhard Euler; Augustin-Louis Cauchy; Charles-François Sturm; David Hilbert,events/P430/
 P005,Analytic number theory I: Euler's product and Dirichlet's characters,1744,False,Number theory,birth-by-fusion,source-first,5,Leonhard Euler; Peter Gustav Lejeune Dirichlet; Adrien-Marie Legendre,events/P005/
 P142,Euler's Introductio in analysin infinitorum,1748,False,Analysis,reification,source-first,5,Leonhard Euler; Johann Bernoulli,events/P142/
-P190,Euler: complex logarithms and exponentials,1748,False,Complex analysis,birth-by-fusion,source-first,4,Leonhard Euler; Johann Bernoulli; Roger Cotes,events/P190/
+P190,Euler: complex logarithms and exponentials,1748,False,Complex analysis,birth-by-fusion,source-first,7,Leonhard Euler; Johann Bernoulli; Roger Cotes,events/P190/
 P162,D'Alembert and Euler: the wave equation and partial differential equations,1749,False,Differential equations,import-from-outside,source-first,5,Jean le Rond d'Alembert; Leonhard Euler; Daniel Bernoulli; Brook Taylor; Joseph-Louis Lagrange,events/P162/
 P445,Vibrating-string controversy and the general function concept,1750,False,Differential equations,import-from-outside,source-first,4,Jean le Rond d'Alembert; Leonhard Euler; Johann Bernoulli,events/P445/
 P558,Euler formulates the equations of fluid motion,1757,False,Fluid mechanics,field-emergence,direct,2,Leonhard Euler,events/P558/
 P120,Euler's polyhedron formula (V - E + F = 2),1758,False,Topology,birth-by-abstraction,source-first,5,Leonhard Euler; Simon Lhuilier,events/P120/
 P131,Bayes' inverse probability,1764,False,Statistics & decision theory,birth-by-abstraction,source-first,7,Thomas Bayes; Richard Price; Pierre-Simon Laplace; Marquis de Condorcet; Abraham de Moivre; Harold Jeffreys,events/P131/
-P430,Spectral ideas: eigenvalues from vibrating systems and quadratic forms,1765,False,Algebra,birth-by-abstraction,source-first,7,Leonhard Euler; Augustin-Louis Cauchy; Charles-François Sturm; David Hilbert,events/P430/
 P118,"Differential geometry of surfaces (Clairaut, Euler, Monge, Gauss)",1767,False,Differential geometry,birth-by-fusion,source-first,6,Alexis Clairaut; Leonhard Euler; Gaspard Monge; Carl Friedrich Gauss,events/P118/
 P130,Laplace's analytic probability,1782,False,Probability,technique-transfer,source-first,6,Pierre-Simon Laplace; Adrien-Marie Legendre; Abraham de Moivre; Stephen M. Stigler,events/P130/
 P188,Potential theory in celestial mechanics and physics,1785,False,Differential equations,import-from-outside,source-first,7,Pierre-Simon Laplace; George Green; Joseph-Louis Lagrange; Carl Friedrich Gauss,events/P188/
@@ -226,6 +226,7 @@ P230,"Curry-Howard correspondence (proofs as programs, propositions as types)",1
 P463,Leray-Schauder degree and topological methods for nonlinear PDE,1934,False,Functional & harmonic analysis,technique-transfer,source-first,5,Jean Leray; Juliusz Schauder; L. E. J. Brouwer; Deimling,events/P463/
 P104,Ahlfors' covering surfaces and value distribution,1935,False,Analysis,technique-transfer,source-first,4,Rolf Nevanlinna; Lars Ahlfors; Walter Kurt Hayman,events/P104/
 P250,Combinatorial game theory (impartial and partisan games),1935,False,Game theory & economics,birth-by-fusion,source-first,4,John H. Conway; Elwyn Berlekamp; Richard K. Guy; Roland Sprague,events/P250/
+P052,Computer science separates from mathematics,1935,False,Computer science,split,source-first,8,Alan Turing; Alonzo Church; Louis Fein; Allen Newell,events/P052/
 P464,Fibre bundles and characteristic classes,1935,False,Topology,birth-by-fusion,source-first,6,Hassler Whitney; Eduard Stiefel; Shiing-shen Chern; Norman Steenrod; Herbert Seifert,events/P464/
 P248,Hodge theory of harmonic integrals,1935,False,Algebraic geometry,dictionary-analogy,source-first,4,William V. D. Hodge; Erich Kähler,events/P248/
 P270,Kantorovich's functional analysis for numerical methods,1935,False,Numerical analysis,technique-transfer,direct,4,Leonid Kantorovich; G. P. Akilov,events/P270/
@@ -233,7 +234,6 @@ P245,Matroid theory and combinatorial geometry,1935,False,Combinatorics,birth-by
 P480,Mobius inversion on posets and incidence algebras (Rota),1935,False,Combinatorics,birth-by-abstraction,source-first,6,Gian-Carlo Rota; Louis Weisner; Philip Hall; Richard Stanley,events/P480/
 P200,Computability theory (Church-Turing),1936,False,Logic & foundations,birth-by-abstraction,source-first,6,Alonzo Church; Alan Turing; Emil Post; Stephen Cole Kleene; Hartley Rogers Jr.,events/P200/
 P425,Computational group theory: computers enter group theory,1936,False,Group & representation theory,import-from-outside,source-first,8,J. A. Todd; H. S. M. Coxeter; Alan Turing; M. H. A. Newman; Charles C. Sims,events/P425/
-P052,Computer science separates from mathematics,1936,False,Computer science,split,source-first,8,Alan Turing; Alonzo Church; Louis Fein; Allen Newell,events/P052/
 P050,Erdős discrepancy problem,1936,False,Combinatorics,technique-transfer,source-first,8,Paul Erdős; Paul Turán; Terence Tao; Klaus Roth; Jiří Matoušek,events/P050/
 P423,Lie-ring methods enter the Burnside problem (Magnus to Zelmanov),1937,False,Group & representation theory,technique-transfer,source-first,7,William Burnside; Wilhelm Magnus; A. I. Kostrikin; Efim Zelmanov,events/P423/
 P208,Shannon switching circuits,1938,False,Algorithms & complexity,technique-transfer,source-first,5,George Boole; Claude Shannon; Samuel H. Caldwell,events/P208/

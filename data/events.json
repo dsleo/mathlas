@@ -17087,11 +17087,11 @@
   "grade": {},
   "shown": {
    "conceptual": {
-    "y": 1936,
+    "y": 1935,
     "basis": "first statement"
    },
    "methodological": {
-    "y": 1967,
+    "y": 1936,
     "basis": "earliest key development; no first application found"
    },
    "institutional": {
@@ -17105,59 +17105,59 @@
    "label": "Cambridge Diploma in Numerical Analysis and Automatic Computing (later Diploma in Computer Science)",
    "same": false
   },
-  "y": 1936,
+  "y": 1935,
   "approx": false,
   "derived": {
-   "conceptual": 1936,
+   "conceptual": 1935,
    "methodological": null,
    "institutional": 1953
   },
   "phases": [
-   "Computability foundations (1936)",
+   "Computability foundations (1935-1937)",
    "Institutional separation (1953-1967)"
   ],
   "ms": [
    {
-    "r": "precursor",
+    "r": "first_statement",
     "y": 1935,
     "ye": null,
     "p": "year",
-    "l": "Church's 1935 abstract in the Bulletin of the AMS",
+    "l": "Church's 1935 abstract in the Bulletin of the AMS (thesis and unsolvability result)",
     "w": "Church, An unsolvable problem of elementary number theory. Preliminary report (abstract), Bulletin of the American Mathematical Society 41 (1935) 332-333, within 'Abstracts of papers' pp. 327-350",
     "pe": [
      "Alonzo Church"
     ],
-    "d": "A short abstract of a ten-minute talk given to the AMS on 19 April 1935 (abstract received 22 March 1935), a year before the full paper in the American Journal of Mathematics.",
+    "d": "A short abstract (No. 205, received 22 March 1935, for the meeting of 19 April 1935) printed in the May 1935 Bulletin: it adopts a Godel-Herbrand definition of recursive function, maintains that effectively calculable functions of positive integers should be identified with the recursive ones, and states that finding a complete set of effectively calculable invariants of formulas under conversion is unsolvable. The full paper followed in 1936.",
     "ph": null,
-    "c": "medium",
-    "n": "Crossref lists the containing item as 'Abstracts of papers' (Bull. AMS 41(5), 327-350, May 1935), so this is a meeting abstract. Its text could not be read (the AMS PDF returns 403), so whether it states the unsolvability result or the thesis is unconfirmed; it stays a precursor and the conceptual date stays 1936.",
+    "c": "high",
+    "n": "Read in the AMS scan of the issue (Bull. AMS 41(5), May 1935, pp. 327-350, abstract 205 on pp. 332-333). It states both the identification of effective calculability with recursiveness and the unsolvability result, without proof ('preliminary report'). A printed abstract is a public statement, so under the publication-year rule the first statement is 1935, not 1936; the 19 April 1935 talk date does not govern. Before this review the item was a precursor because its text could not be read.",
     "ev": [
      {
-      "c": "Crossref: Bull. AMS 41(5), May 1935, pp. 327-350, title 'Abstracts of papers' (Church's abstract is on pp. 332-333)",
+      "c": "Crossref: Bull. AMS 41(5), issued May 1935, pp. 327-350, title 'Abstracts of papers' (Church's abstract is on pp. 332-333)",
       "s": "Crossref 10.1090/S0002-9904-1935-06097-5",
       "u": "https://doi.org/10.1090/S0002-9904-1935-06097-5",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Abstract 205 (received March 22, 1935): adopts Godel's recursive functions, maintains that effectively calculable = recursive, and proves the invariants-of-conversion problem unsolvable",
+      "s": "Bull. AMS 41 (1935) 332-333, AMS scan of the issue",
+      "u": "https://www.ams.org/journals/bull/1935-41-05/S0002-9904-1935-06097-5/S0002-9904-1935-06097-5.pdf",
+      "k": "primary_publication"
      },
      {
       "c": "Church thesis announced to the AMS on 19 April 1935 in a ten-minute contributed talk; abstract received 22 March 1935",
       "s": "Annales UMCS (Lublin) paper on the Church-Turing thesis",
       "u": "https://journals.umcs.pl/ai/article/download/2960/2156",
       "k": "history_page"
-     },
-     {
-      "c": "Wikipedia, Church-Turing thesis, cites Church, May 1935, Bull. AMS 41(5) 332-333, Preliminary report",
-      "s": "English Wikipedia, Church-Turing thesis (references)",
-      "u": "https://www.ams.org/journals/bull/1935-41-05/S0002-9904-1935-06097-5/S0002-9904-1935-06097-5.pdf",
-      "k": "history_page"
      }
     ]
    },
    {
-    "r": "first_statement",
+    "r": "key_development",
     "y": 1936,
     "ye": null,
     "p": "year",
-    "l": "Church's unsolvable problem and the thesis",
+    "l": "Church's unsolvable problem: the full paper",
     "w": "Church, 'An Unsolvable Problem of Elementary Number Theory', American Journal of Mathematics 58 (1936)",
     "pe": [
      "Alonzo Church"
@@ -17165,7 +17165,7 @@
     "d": "Church proved that no decision procedure exists for a class of arithmetical statements, using lambda-definability; the Church thesis of effective calculability first appeared in print in 1936.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "The result and the thesis were already printed in the May 1935 abstract (previous milestone); this is the full proof, in Am. J. Math. 58 (April 1936).",
     "ev": [
      {
       "c": "Paper record: Am. J. Math. 1936",
@@ -17182,7 +17182,7 @@
     ]
    },
    {
-    "r": "first_statement",
+    "r": "key_development",
     "y": 1937,
     "ye": null,
     "p": "year",
@@ -17194,7 +17194,7 @@
     "d": "Turing introduced the abstract machine and the notion of computable number, the basis of computability theory.",
     "ph": null,
     "c": "medium",
-    "n": "Volume 42 is labelled 1936-37 and many citations use 1936 (the received or read year). Crossref's print date is 1937, which the publication-year rule uses here.",
+    "n": "Volume 42 is labelled 1936-37 and many citations use 1936 (the received or read year). Crossref's print date is 1937, which the publication-year rule uses here. Role changed from first statement to key development in review R3: Church's 1935 abstract is the earlier printed statement of the thesis and of unsolvability; Turing's machine analysis is an independent, fuller formulation.",
     "ev": [
      {
       "c": "Crossref: Proc. LMS (2) 42, pp. 230-265; published-print date 1937",
@@ -17376,6 +17376,12 @@
     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Church/",
     "works": [
      {
+      "c": "Church, An unsolvable problem of elementary number theory. Preliminary report (abstract), Bull. AMS 41 (1935) 332-333",
+      "y": 1935,
+      "u": "https://doi.org/10.1090/S0002-9904-1935-06097-5",
+      "w": "First printed statement of the thesis and of unsolvability."
+     },
+     {
       "c": "Church, An Unsolvable Problem of Elementary Number Theory, Am. J. Math. (1936)",
       "y": 1936,
       "u": "https://doi.org/10.2307/2371045",
@@ -17412,7 +17418,7 @@
     ]
    }
   ],
-  "notes": "Direct-style review (R4), not promoted. Crossref re-checked for Church 1936 (Am. J. Math. 58(2), April 1936), Turing (Proc. LMS s2-42, print date 1937), Fein (CACM 2(9), Sept 1959), Newell-Perlis-Simon (Science 157, 22 Sept 1967) and Knuth (Amer. Math. Monthly 81(4), April 1974). Cambridge (1953, renamed 1965) and Purdue (October 1962) confirmed on the institutions' own pages. Church's May 1935 item is only a meeting abstract (Crossref: 'Abstracts of papers'); its text could not be read because the AMS PDF is blocked, so it stays a precursor and the conceptual date stays 1936. Outstanding: read that abstract (it may state the thesis or unsolvability result and move the first statement to 1935); verify the 1956 proposal of the term and whether Fein 1959 is the first print use; no first application or methodological date; Stanford 1965 and the ACM (1947) are not examined.",
+  "notes": "Review R3: Church's May 1935 Bulletin abstract (No. 205) was read in the AMS scan; it states the identification of effective calculability with recursiveness and the unsolvability result, so the first statement moves from 1936 to 1935 (publication year) and the 1936 paper and Turing's paper become key developments. Earlier checks: Crossref re-checked for Church 1936 (Am. J. Math. 58(2), April 1936), Turing (Proc. LMS s2-42, print date 1937), Fein (CACM 2(9), Sept 1959), Newell-Perlis-Simon (Science 157, 22 Sept 1967) and Knuth (Amer. Math. Monthly 81(4), April 1974). Cambridge (1953, renamed 1965) and Purdue (October 1962) confirmed on the institutions' own pages. Outstanding, not promoted: the 1956 proposal of the term and whether Fein 1959 is the first print use (a search finds Forsythe 1961, J. Eng. Educ. 52, cited as an early use and Knuth reporting Fein used the idea by 1957, both unread); no first application or methodological date; Stanford 1965 (department) and the ACM (1947) not examined; Newell-Perlis-Simon, Fein and Knuth texts unread.",
   "catalogueDates": [
    [
     1936,
@@ -17443,43 +17449,43 @@
     {
      "p": "P284",
      "f": "mathematics",
-     "d": 14,
+     "d": 15,
      "t": "feeds"
     },
     {
      "p": "P222",
      "f": "Computer science",
-     "d": 35,
+     "d": 36,
      "t": "feeds"
     },
     {
      "p": "P063",
      "f": "Computer science",
-     "d": 40,
+     "d": 41,
      "t": "feeds"
     },
     {
      "p": "P502",
      "f": "mathematics",
-     "d": 42,
+     "d": 43,
      "t": "feeds"
     },
     {
      "p": "P086",
      "f": "Computer science",
-     "d": 52,
+     "d": 53,
      "t": "feeds"
     },
     {
      "p": "P541",
      "f": "mathematics",
-     "d": 83,
+     "d": 84,
      "t": "feeds"
     },
     {
      "p": "P426",
      "f": "computer science (symbolic computation)",
-     "d": 34,
+     "d": 35,
      "t": "context"
     }
    ],
@@ -21176,7 +21182,7 @@
     {
      "p": "P052",
      "f": "Computer science",
-     "d": 40,
+     "d": 41,
      "t": "feeds"
     },
     {
@@ -28417,7 +28423,7 @@
     {
      "p": "P052",
      "f": "Computer science",
-     "d": 52,
+     "d": 53,
      "t": "feeds"
     }
    ],
@@ -38742,7 +38748,7 @@
     "d": "Defined the powers x^n and 1/x^n as monomials and gave multiplication of polynomials, freeing algebra from geometric operations.",
     "ph": "Algebra of polynomials",
     "c": "medium",
-    "n": "Al-Fakhri was written in Baghdad and dedicated to the city's ruler (MacTutor); no source gives a year for it. Britannica puts his Baghdad service at about 1010-1015, when he wrote his three main works, so 1010-1015 is a range, not a date. The text itself (surviving in at least four manuscripts per Wikipedia) was not read; Woepcke's 1853 extract is the earliest printed access. MacTutor also records the critical view (Crossley) that al-Karaji usually gave numerical examples and geometric pictures instead of proofs.",
+    "n": "Al-Fakhri was written in Baghdad and dedicated to the city's ruler (MacTutor); no source gives a year for it. Britannica puts his Baghdad service at about 1010-1015, when he wrote his three main works, so 1010-1015 is a range, not a date. The text itself (surviving in at least four manuscripts per Wikipedia) was not read; Woepcke's 1853 extract is the earliest printed access. MacTutor also records the critical view (Crossley) that al-Karaji usually gave numerical examples and geometric pictures instead of proofs. Review R3: Woepcke's 1853 extract confirms the contents (powers of the unknown extended without limit, reciprocal powers, multiplication, and division only by a single power) and dates the work by its dedicatee, the vizir Fakhr al-Mulk, who died in September 1017 (Ibn Khallikan, quoted by Woepcke), and 'about the beginning of the 11th century'; this is consistent with the 1010-1015 range and fixes 1017 as an upper bound. The Arabic manuscript itself was not read.",
     "ev": [
      {
       "c": "What al-Karaji achieved in Al-Fakhri was first to define the monomials x, x^2, x^3, ... and 1/x, 1/x^2, ...",
@@ -38767,6 +38773,12 @@
       "s": "MacTutor, Al-Karaji biography (re-read in review)",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Al-Karaji/",
       "k": "history_page"
+     },
+     {
+      "c": "Woepcke's extract (read in the Internet Archive scan) gives the rules of al-Fakhri for the algebraic powers (without limit), their reciprocals, multiplication and division (a composite divided by a single power only); it says the work was dedicated to the vizir Fakhr al-Mulk of the Buyid prince Baha al-Dawla, composed about the beginning of the 11th century.",
+      "s": "Woepcke, Extrait du Fakhri (Paris, 1853), Notice pp. 1-4 and Extrait pp. 48-53",
+      "u": "https://archive.org/details/extraitdufakhrt00karagoog",
+      "k": "primary_text"
      }
     ]
    },
@@ -38913,7 +38925,7 @@
     ]
    }
   ],
-  "notes": "The wording 'freed from geometry' is MacTutor's, and MacTutor also quotes a more critical modern view (Berggren-style) that al-Karaji often still justifies by pictures. Neither a dated manuscript nor a naming/institution milestone was found; the word 'algebra' itself belongs to al-Khwarizmi's title (c. 820) and is not a milestone of this event. The relation to P177 (induction) is the same lost text, so milestones overlap on al-Samaw'al. person without verified work: Al-Karaji (originator). person without verified work: Al-Samaw'al (developer). Review R2-R3b: MacTutor (Al-Khwarizmi, Abu Kamil, Al-Karaji, Al-Samawal), Wikipedia, Britannica (via search), Open Library and the Internet Archive were checked. The year of al-Fakhri is now a range 1010-1015 because no source dates it; al-Samaw'al's 1149 is derived from age 19 and a birth about 1130; al-Khwarizmi's c. 820 and Abu Kamil's c. 900 are inferred from lifespans (MacTutor gives no date for either book). No manuscript or edition of al-Fakhri, al-Bahir or Rashed's studies was read, so the polynomial claims rest on MacTutor and Wikipedia; not promoted.",
+  "notes": "The wording 'freed from geometry' is MacTutor's, and MacTutor also quotes a more critical modern view (Berggren-style) that al-Karaji often still justifies by pictures. Neither a dated manuscript nor a naming/institution milestone was found; the word 'algebra' itself belongs to al-Khwarizmi's title (c. 820) and is not a milestone of this event. The relation to P177 (induction) is the same lost text, so milestones overlap on al-Samaw'al. person without verified work: Al-Karaji (originator). person without verified work: Al-Samaw'al (developer). Review R2-R3b: MacTutor (Al-Khwarizmi, Abu Kamil, Al-Karaji, Al-Samawal), Wikipedia, Britannica (via search), Open Library and the Internet Archive were checked. The year of al-Fakhri is now a range 1010-1015 because no source dates it; al-Samaw'al's 1149 is derived from age 19 and a birth about 1130; al-Khwarizmi's c. 820 and Abu Kamil's c. 900 are inferred from lifespans (MacTutor gives no date for either book). No manuscript or edition of al-Fakhri, al-Bahir or Rashed's studies was read, so the polynomial claims rest on MacTutor and Wikipedia; not promoted. Review R3: Woepcke's extract of al-Fakhri (1853) was read in the Internet Archive scan: it confirms the polynomial-arithmetic claims for al-Karaji and gives 1017 (death of the dedicatee) as an upper bound for the date. Al-Bahir, Abu Kamil and al-Khwarizmi dates (inferred from lifespans) remain unchecked against texts; not promoted.",
   "catalogueDates": [
    "c.1010",
    null,
@@ -50340,7 +50352,7 @@
     {
      "p": "P198",
      "f": "trigonometry as an independent subject",
-     "d": 214,
+     "d": 283,
      "t": "named"
     }
    ],
@@ -58653,7 +58665,7 @@
     "d": "The Sthananga Sutra names permutations and combinations as a standing branch of mathematics and uses them, setting the curriculum for later Indian work.",
     "ph": "Jaina canonical texts",
     "c": "low",
-    "n": null,
+    "n": "Second source (a Czech survey, read only as a search excerpt) gives the 3rd or 2nd century BC; the dating remains secondary and uncertain.",
     "ev": [
      {
       "c": "MacTutor: Sthananga Sutra from about the 2nd century BC lists topics incl. permutations and combinations; permutations and combinations used in it",
@@ -58665,6 +58677,12 @@
       "c": "MacTutor Indian mathematics: main topics of Jaina mathematics c. 150 BC include permutations and combinations",
       "s": "MacTutor, Indian mathematics overview",
       "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Indian_mathematics/",
+      "k": "history_page"
+     },
+     {
+      "c": "Sthananga Sutra, 3rd or 2nd century BC, lists ten topics of mathematics including combinatorics (vikalpa); permutations and combinations are found in Jaina works and the combination rule forms an early Pascal triangle (found by search excerpt; article not opened).",
+      "s": "Dejiny matematiky 59 (2016), Matematika ve stare Indii",
+      "u": "https://dml.cz/bitstream/handle/10338.dmlcz/404230/DejinyMat_59-2016-1_15.pdf",
       "k": "history_page"
      }
     ]
@@ -58729,7 +58747,7 @@
     ]
    }
   ],
-  "notes": "Disputed: relative order of the Jaina canon and Pingala; both are dated only to broad ranges. No naming milestone found: no indigenous term for the field could be dated (searched MacTutor Jaina page, Wikipedia Indian mathematics). Modern scholarship: Kusuba and Plofker, Indian combinatorics (Combinatorics: Ancient and Modern, 2013, doi 10.1093/acprof:oso/9780199656592.003.0002) and Mathematics in Ancient Jaina Literature (2022, doi 10.1142/9789811255502_0005) were found in Crossref but not read. Event summary bundles Jaina cosmology and infinities; those are outside the permutations story. No MSC milestone: 05A has no dated origin for this event. Re-checked MacTutor Jaina mathematics and Wikipedia Pingala in this pass: Bhagavati Sutra about 300 BC, Sthananga about the 2nd century BC, Pingala c. 3rd-2nd century BCE; the ranges overlap, so the order stays open. Review pass: MacTutor Jaina mathematics page re-read; it supports the Bhagabati (about 300 BC) and Sthananga (about the 2nd century BC) dates and rules, but not the Anuyogadvara factorial claim or Pingala. Kusuba and Plofker still unread. Review R3: MacTutor Jaina mathematics re-read: Bhagabati about 300 BC (rules for 1, 2, 3 from n), Sthananga from about the 2nd century BC, Anuyoga Dwara Sutra cited for numerical speculation (2^96) and laws of indices but no factorial claim and no date; Pingala not mentioned. Kusuba, Plofker and Datta-Singh remain unread.",
+  "notes": "Disputed: relative order of the Jaina canon and Pingala; both are dated only to broad ranges. No naming milestone found: no indigenous term for the field could be dated (searched MacTutor Jaina page, Wikipedia Indian mathematics). Modern scholarship: Kusuba and Plofker, Indian combinatorics (Combinatorics: Ancient and Modern, 2013, doi 10.1093/acprof:oso/9780199656592.003.0002) and Mathematics in Ancient Jaina Literature (2022, doi 10.1142/9789811255502_0005) were found in Crossref but not read. Event summary bundles Jaina cosmology and infinities; those are outside the permutations story. No MSC milestone: 05A has no dated origin for this event. Re-checked MacTutor Jaina mathematics and Wikipedia Pingala in this pass: Bhagavati Sutra about 300 BC, Sthananga about the 2nd century BC, Pingala c. 3rd-2nd century BCE; the ranges overlap, so the order stays open. Review pass: MacTutor Jaina mathematics page re-read; it supports the Bhagabati (about 300 BC) and Sthananga (about the 2nd century BC) dates and rules, but not the Anuyogadvara factorial claim or Pingala. Kusuba and Plofker still unread. Review R3: MacTutor Jaina mathematics re-read: Bhagabati about 300 BC (rules for 1, 2, 3 from n), Sthananga from about the 2nd century BC, Anuyoga Dwara Sutra cited for numerical speculation (2^96) and laws of indices but no factorial claim and no date; Pingala not mentioned. Kusuba, Plofker and Datta-Singh remain unread. Review R3: a second history-of-mathematics source (a Czech survey of ancient Indian mathematics, seen only as a search excerpt) places the Sthananga Sutra in the 3rd or 2nd century BC and lists combinatorics (vikalpa) among its topics. Primary or critical-edition dating of the Bhagavati, Sthananga and Anuyogadvara sutras, Kusuba and Plofker's chapters and Datta-Singh remain unread; the Anuyogadvara factorial claim is still single-source; not promoted.",
   "catalogueDates": [
    "c. -300 to 200",
    null,
@@ -59573,23 +59591,65 @@
   "ms": [
    {
     "r": "precursor",
-    "y": 1702,
+    "y": 1704,
     "ye": null,
     "p": "year",
-    "l": "Johann Bernoulli on inverse sine and logarithm",
-    "w": null,
+    "l": "Johann Bernoulli on inverse sine and logarithm (Paris Academy, Memoires for 1702)",
+    "w": "Johann Bernoulli, Solution d'un probleme concernant le calcul integral, Mem. Acad. Roy. Sci. Paris, annee 1702 (Paris, 1704), pp. 289-297",
     "pe": [
      "Johann Bernoulli"
     ],
-    "d": "Bernoulli's 1702 relation between inverse sine and logarithm preceded Euler's treatment.",
+    "d": "Bernoulli's reduction of an integral of 1/(1+x^2) to logarithms of imaginary quantities, linked to the inverse tangent, preceded Euler's treatment.",
     "ph": null,
-    "c": "medium",
-    "n": "Specific paper not identified.",
+    "c": "low",
+    "n": "Dated 1704, the printing of the Memoires 'annee 1702' (publication year governs; MacTutor and Wikipedia give the volume year 1702), consistent with P460. The paper itself could not be found in a scan and was not read; its content rests on a dealer's description, Wikipedia and a university paper summarising Cajori, and which of the sin^-1 or arctan forms it prints is unverified.",
     "ev": [
      {
-      "c": "MacTutor: Bernoulli found the relation between inverse sine and logarithm in 1702.",
+      "c": "MacTutor: Johann Bernoulli found the relation between the inverse sine and the logarithm in 1702.",
       "s": "MacTutor, Trigonometric functions",
       "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Trigonometric_functions/",
+      "k": "history_page"
+     },
+     {
+      "c": "Wikipedia cites Bernoulli (1702), 'Solution d'un probleme concernant le calcul integral', Mem. Acad. Roy. Sci. Paris 1702, 289-297: 1/(1+x^2) = (1/2)(1/(1-ix)+1/(1+ix)), logarithm not evaluated.",
+      "s": "English Wikipedia, Euler's formula",
+      "u": "https://en.wikipedia.org/wiki/Euler%27s_formula",
+      "k": "history_page"
+     },
+     {
+      "c": "Dealer's record of the 1704 Paris (Boudot) offprint of the paper, pp. 289-297, described as the first printing.",
+      "s": "Lynge & Son rare-book listing",
+      "u": "https://lynge.com/product/44723",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "precursor",
+    "y": 1712,
+    "ye": 1713,
+    "p": "range",
+    "l": "Leibniz and Bernoulli correspond on the logarithms of negative numbers",
+    "w": "Leibniz-Bernoulli letters, 16 March 1712 to 29 July 1713 (twelve letters); printed 1745 in the Commercium philosophicum et mathematicum",
+    "pe": [
+     "Gottfried Wilhelm Leibniz",
+     "Johann Bernoulli"
+    ],
+    "d": "Bernoulli argued log(-x) = log(x) (integrating dx/x = d(-x)/(-x)); Leibniz denied that negative numbers have logarithms; the quarrel set the problem Euler later settled.",
+    "ph": null,
+    "c": "medium",
+    "n": "Private letters, hence a precursor; the correspondence was only published in 1745. Dates and arguments are from a university paper summarising Cajori's account; the letters were not read.",
+    "ev": [
+     {
+      "c": "Twelve letters from 16 March 1712 to 29 July 1713; Bernoulli: log(x) = log(-x) by integration; Leibniz: not valid for negative arguments; correspondence published 1745.",
+      "s": "D. Bal, Leibniz, Bernoulli and the logarithms of negative numbers (summary of Cajori 1913 and Euler E168)",
+      "u": "https://msuweb.montclair.edu/~bald/files/LeibBernLogs.pdf",
+      "k": "history_page"
+     },
+     {
+      "c": "Both studied the logarithm of a negative number by 1712 and held opposing views; Bernoulli: ln(-x) = ln x by integrating dx/x; Leibniz: valid only for positive x.",
+      "s": "ProofWiki, Complex natural logarithm, historical note (after Stewart and Tall)",
+      "u": "https://proofwiki.org/wiki/Definition:Complex_Natural_Logarithm/Historical_Note",
       "k": "history_page"
      }
     ]
@@ -59600,20 +59660,85 @@
     "ye": null,
     "p": "year",
     "l": "Cotes's Logometria",
-    "w": "Cotes, Logometria, Phil. Trans. 29, pp. 5-45, 1714",
+    "w": "Cotes, Logometria, Phil. Trans. 29 (338) (1714) 5-45",
     "pe": [
      "Roger Cotes"
     ],
     "d": "Cotes already had the logarithm of cos x + i sin x in geometric form.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Read in the Internet Archive scan of the Royal Society paper: near the end Cotes writes that the arc of a quadrant is the measure of the ratio between EX + XC*sqrt(-1) and CE, multiplied by sqrt(-1), when the construction passes from the logarithmic to the trigonometric case. This is the logarithmic form of the exponential-trigonometric relation, stated geometrically; it is not a statement about ln(-1) or multivaluedness.",
     "ev": [
      {
       "c": "Crossref: Logometria, Phil. Trans. 29, 1714.",
       "s": "Crossref DOI 10.1098/rstl.1714.0002",
       "u": "https://doi.org/10.1098/rstl.1714.0002",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Text of Logometria (Philosophical Transactions 29, 1714) read in a scan: the quadrant arc as measure of the ratio between EX + XC sqrt(-1) and CE, times sqrt(-1).",
+      "s": "Internet Archive scan of Phil. Trans. 29, Logometria",
+      "u": "https://archive.org/details/paper-doi-10_1098_rstl_1714_0002",
+      "k": "primary_text"
+     }
+    ]
+   },
+   {
+    "r": "precursor",
+    "y": 1728,
+    "ye": null,
+    "p": "year",
+    "l": "Euler, aged about twenty, corresponds with Bernoulli on log(-1)",
+    "w": "Euler-Bernoulli letters on the logarithms of negative numbers (c. 1727-1729)",
+    "pe": [
+     "Leonhard Euler",
+     "Johann Bernoulli"
+    ],
+    "d": "In letters to his teacher Euler set out arguments for and against Bernoulli's view that log(n) = log(-n); Bernoulli did not change his mind.",
+    "ph": null,
+    "c": "low",
+    "n": "Private letters (precursor). The year 1728 is only indicative: one source mentions an exchange of December 1728 and a university paper says Euler was twenty (so about 1727); the letters were not read. A claim that Euler wrote ln(-1) = i*pi in 1727 was looked for and not found in any source.",
+    "ev": [
+     {
+      "c": "When Euler was twenty he corresponded with his teacher Bernoulli on the subject; Bernoulli still held log(n) = log(-n).",
+      "s": "D. Bal, Leibniz, Bernoulli and the logarithms of negative numbers",
+      "u": "https://msuweb.montclair.edu/~bald/files/LeibBernLogs.pdf",
+      "k": "history_page"
+     },
+     {
+      "c": "Wikipedia: Euler's correspondence with Bernoulli shows Bernoulli did not fully understand complex logarithms.",
+      "s": "English Wikipedia, Euler's formula",
+      "u": "https://en.wikipedia.org/wiki/Euler%27s_formula",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "precursor",
+    "y": 1747,
+    "ye": null,
+    "p": "year",
+    "l": "Euler writes his memoir on the logarithms of negative and imaginary numbers (unpublished until 1862)",
+    "w": "Euler, Sur les logarithmes des nombres negatifs et imaginaires, written 1747, Opera postuma 1 (1862) 269-281, E807",
+    "pe": [
+     "Leonhard Euler"
+    ],
+    "d": "An unpublished memoir of 1747 that proves, from i*v = log(cos v + i sin v), that every number has infinitely many logarithms.",
+    "ph": null,
+    "c": "medium",
+    "n": "Unpublished until 1862, so a precursor (publication year governs). The Euler Archive gives written 1747, published 1862 (E807); the description of its proof is from a university paper citing Cajori. The text was not read (the English translation and PDF are on the Archive page but the files could not be fetched).",
+    "ev": [
+     {
+      "c": "Euler Archive E807: Sur les logarithmes des nombres negatifs et imaginaires, Opera postuma 1, pp. 269-281; published 1862, written 1747.",
+      "s": "Euler Archive E807",
+      "u": "https://scholarlycommons.pacific.edu/euler-works/807/",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "The 1747 paper, unpublished until 1862, proves the same theorem from the formula i*v = log(cos v + i sin v); Cajori judged it more convincing than the 1751 paper.",
+      "s": "D. Bal, Leibniz, Bernoulli and the logarithms of negative numbers",
+      "u": "https://msuweb.montclair.edu/~bald/files/LeibBernLogs.pdf",
+      "k": "history_page"
      }
     ]
    },
@@ -59630,7 +59755,7 @@
     "d": "Euler's first book on analysis prints exp(ix) = cos x + i sin x and the exponential as the base of the elementary functions.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Year from the Euler Archive record; Wikipedia places the formula in chapter 8, section 138. The Introductio scan on the Internet Archive (bub_gb_jQ1bAAAAQAAJ) has an OCR too poor to read the formulas, so the passage itself was not checked. Euler Archive gives written 1745. Wikipedia and Robin Wilson (via Wikipedia, Euler's identity): Euler does not appear to have stated e^(i*pi) + 1 = 0, equivalently ln(-1) = i*pi, explicitly in any publication.",
     "ev": [
      {
       "c": "Euler Archive E101: published 1748.",
@@ -59659,7 +59784,7 @@
     "d": "The paper treats the dispute over the logarithm of negative numbers; Euler held that logarithms are multi-valued.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Year and venue from the Euler Archive. The Archive gives written 1747; a university paper citing the English translation (Langton 1999) gives 1749 for the writing, so the written year is uncertain, the printing is 1751. Per that paper the memoir argues that Bernoulli's integration neglects the constant of integration and proves that every number has infinitely many logarithms, concluding that Leibniz was right that logarithms of negative numbers are imaginary. The memoir was not read and an explicit value ln(-1) = (2k+1)*i*pi was not seen in any source read; the point is inferred.",
     "ev": [
      {
       "c": "Euler Archive E168: published 1751, written 1747.",
@@ -59671,6 +59796,12 @@
       "c": "Wikipedia, Euler's formula: Euler suggested complex logarithms have infinitely many values.",
       "s": "English Wikipedia, Euler's formula",
       "u": "https://en.wikipedia.org/wiki/Euler%27s_formula",
+      "k": "history_page"
+     },
+     {
+      "c": "The paper proves that each number has an infinity of logarithms and that logarithms of negative numbers are imaginary (summary of the English translation).",
+      "s": "D. Bal, Leibniz, Bernoulli and the logarithms of negative numbers",
+      "u": "https://msuweb.montclair.edu/~bald/files/LeibBernLogs.pdf",
       "k": "history_page"
      }
     ]
@@ -59704,10 +59835,10 @@
     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Bernoulli_Johann/",
     "works": [
      {
-      "c": "Work of 1702 (unidentified)",
-      "y": 1702,
-      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Trigonometric_functions/",
-      "w": "Early link."
+      "c": "Solution d'un probleme concernant le calcul integral, Mem. Acad. Sci. Paris 1702 (printed 1704)",
+      "y": 1704,
+      "u": "https://lynge.com/product/44723",
+      "w": "Early link between logarithm and inverse trigonometric function."
      }
     ]
    },
@@ -59726,7 +59857,7 @@
     ]
    }
   ],
-  "notes": "Same underlying history as H76 but centred on Euler. The summary 'logarithms of negatives' is represented by the 1751 paper; the Leibniz side of the controversy (Acta Eruditorum 1712-13) was not verified. The complex-analysis target named in the input is not itself tied to a dated milestone here.",
+  "notes": "Same underlying history as H76 but centred on Euler. The summary 'logarithms of negatives' is represented by the 1751 paper; the Leibniz side of the controversy (Acta Eruditorum 1712-13) was not verified. The complex-analysis target named in the input is not itself tied to a dated milestone here. Review R3: Bernoulli re-dated 1704 (printing of the 1702 Memoires), the Leibniz-Bernoulli letters of 1712-13 (printed 1745) and Euler's letters and unpublished 1747 memoir (E807, printed 1862) added as precursors; Cotes's Logometria read in the Internet Archive scan. Euler's memoir E168 (1751) and the Introductio (1748) were not read; 'ln(-1) = i*pi' is not stated in any source seen, only inferred. Not promoted.",
   "catalogueDates": [
    [
     1727,
@@ -60796,7 +60927,7 @@
     {
      "p": "P198",
      "f": "trigonometry applied to algebra",
-     "d": 129,
+     "d": 60,
      "t": "named"
     }
    ],
@@ -62316,12 +62447,12 @@
   "grade": {},
   "shown": {
    "conceptual": {
-    "y": 1464,
+    "y": 1533,
     "basis": "first statement"
    },
    "methodological": {
-    "y": 1533,
-    "basis": "earliest key development; no first application found"
+    "y": null,
+    "basis": "no first application or later key development found"
    },
    "institutional": {
     "y": 1595,
@@ -62330,14 +62461,14 @@
   },
   "took": {
    "y": 1533,
-   "role": "key_development",
-   "label": "Printed at Nuremberg",
+   "role": "first_statement",
+   "label": "First printed: De triangulis omnimodis, Nuremberg",
    "same": false
   },
-  "y": 1464,
+  "y": 1533,
   "approx": false,
   "derived": {
-   "conceptual": 1464,
+   "conceptual": 1533,
    "methodological": null,
    "institutional": 1595
   },
@@ -62352,7 +62483,7 @@
     "ye": null,
     "p": "year",
     "l": "Epitome of the Almagest",
-    "w": "Peurbach and Regiomontanus, Epitome of Ptolemy's Almagest, completed 1462",
+    "w": "Peurbach and Regiomontanus, Epitome of Ptolemy's Almagest, completed 1462 (printed Venice, 1496)",
     "pe": [
      "Regiomontanus",
      "Georg Peurbach"
@@ -62360,7 +62491,7 @@
     "d": "Regiomontanus promised a separate treatise on trigonometry while completing the Epitome.",
     "ph": "Astronomical trigonometry",
     "c": "medium",
-    "n": null,
+    "n": "Completed 1462 per Museo Galileo and the EBSCO research starter (end of 1462), as well as MacTutor; first printed Venice 1496. Dating now rests on three secondary sources, not MacTutor alone. A precursor, not a statement of trigonometry: the Epitome is astronomy and Regiomontanus found no systematic account of triangles to cite.",
     "ev": [
      {
       "c": "Epitome completed 1462; he promised a systematic account of trigonometry, then wrote De triangulis.",
@@ -62369,27 +62500,33 @@
       "k": "history_page"
      },
      {
-      "c": "1543 printing catalogued.",
-      "s": "Open Library OL32262864W",
-      "u": "https://openlibrary.org/works/OL32262864W",
-      "k": "bibliographic_record"
+      "c": "Epitome of the Almagest completed in 1462 in Italy and printed in Venice in 1496.",
+      "s": "Museo Galileo, Johannes Regiomontanus",
+      "u": "https://catalogue.museogalileo.it/biography/JohannesRegiomontanus.html",
+      "k": "history_page"
+     },
+     {
+      "c": "Regiomontanus finished the Epitome manuscript at the end of 1462; first printed in 1496; De triangulis composed 1464, published 1533.",
+      "s": "EBSCO Research Starters, Epitome of Ptolemy's Almagest",
+      "u": "https://www.ebsco.com/research-starters/history/epitome-ptolemys-almagest",
+      "k": "history_page"
      }
     ]
    },
    {
-    "r": "first_statement",
+    "r": "precursor",
     "y": 1464,
     "ye": null,
-    "p": "decade",
-    "l": "De triangulis omnimodis written",
-    "w": "Regiomontanus, De triangulis omnimodis libri quinque, about 1464",
+    "p": "year",
+    "l": "De triangulis omnimodis completed in manuscript",
+    "w": "Regiomontanus, De triangulis omnimodis libri quinque, completed 1464 (manuscript; printed 1533)",
     "pe": [
      "Regiomontanus"
     ],
-    "d": "Systematic account of solving plane and spherical triangles, presented as a subject in its own right.",
+    "d": "The first systematic Latin account of plane and spherical triangles, structured like Euclid's Elements, completed in 1464 and unprinted until 1533.",
     "ph": "Independent trigonometry",
     "c": "medium",
-    "n": "The work circulated in manuscript; public print date is 1533 (next milestone). Which year counts as 'public' is a judgement; both are given. About 1464 is an estimate; the composition year is not fixed by a source read here.",
+    "n": "Completed 1464 in Italy per Wikipedia, Museo Galileo, EBSCO and MacTutor (MacTutor 'about 1464'); a manuscript only, so a precursor under the publication-year rule: it was not printed for 69 years and the first printed statement is 1533. Schoener's 1533 preface says the manuscript was held by Bilibald Pirckheimer; the dates 1464 printed in the 1533 volume belong to Regiomontanus's quadrature texts, not to De triangulis. Review R3 changed this milestone from first statement 1464 to precursor.",
     "ev": [
      {
       "c": "Systematic account of solving triangles, dated 1464.",
@@ -62398,39 +62535,52 @@
       "k": "history_page"
      },
      {
-      "c": "Work in about 1464, published 1533.",
-      "s": "MacTutor, Trigonometric functions",
-      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Trigonometric_functions/",
+      "c": "In 1464, he completed De triangulis omnimodis.",
+      "s": "English Wikipedia, Regiomontanus",
+      "u": "https://en.wikipedia.org/wiki/Regiomontanus",
+      "k": "history_page"
+     },
+     {
+      "c": "De triangulis omnimodis completed in 1464 in Italy, printed in Nuremberg in 1533.",
+      "s": "Museo Galileo, Johannes Regiomontanus",
+      "u": "https://catalogue.museogalileo.it/biography/JohannesRegiomontanus.html",
       "k": "history_page"
      }
     ]
    },
    {
-    "r": "key_development",
+    "r": "first_statement",
     "y": 1533,
     "ye": null,
     "p": "year",
-    "l": "Printed at Nuremberg",
-    "w": "De triangulis omnimodis, Nuremberg, 1533",
+    "l": "First printed: De triangulis omnimodis, Nuremberg",
+    "w": "Regiomontanus, De triangulis omnimodis libri quinque, ed. Johann Schoener, Nuremberg, Johann Petreius, 1533",
     "pe": [
-     "Regiomontanus"
+     "Regiomontanus",
+     "Johann Schoener"
     ],
-    "d": "First printing made the treatise widely available.",
+    "d": "The five books on triangles reach print, edited by Schoener and bound with Nicholas of Cusa's De quadratura circuli.",
     "ph": "Independent trigonometry",
     "c": "high",
-    "n": null,
+    "n": "Title page read in the Internet Archive scan: 'De triangulis omnimodis libri quinque ... Norunberg. apud Io. Petreium, anno Christi M.D.XXXIII', with Schoener's dedication to the Nuremberg council. Moved from key development to first statement in review R3 under the publication-year rule (the manuscript of 1464 is a precursor). This is a judgement: the work was composed 1464 and the map date is now 1533; both dates are given.",
     "ev": [
      {
-      "c": "Printed edition scan exists.",
-      "s": "Internet Archive ARes352131",
+      "c": "Scan of the 1533 edition: title page 'anno Christi M.D.XXXIII', Nuremberg, Petreius; edited by Schoener.",
+      "s": "Internet Archive item ARes352131",
       "u": "https://archive.org/details/ARes352131",
-      "k": "bibliographic_record"
+      "k": "primary_publication"
      },
      {
       "c": "Published 1533.",
       "s": "MacTutor, Trigonometric functions",
       "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Trigonometric_functions/",
       "k": "history_page"
+     },
+     {
+      "c": "Catalogue record: Nuremberg, Johann Petreius, 1533, edited by Johann Schoener, with Nicholas of Cusa's De quadratura circuli.",
+      "s": "Internet Archive metadata for ARes352131",
+      "u": "https://archive.org/metadata/ARes352131",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -62473,7 +62623,7 @@
     "works": [
      {
       "c": "De triangulis omnimodis",
-      "y": 1464,
+      "y": 1533,
       "u": "https://archive.org/details/ARes352131",
       "w": "First systematic Latin trigonometry"
      },
@@ -62500,7 +62650,7 @@
     ]
    }
   ],
-  "notes": "Open: whether De triangulis was composed before or after 1464 and the manuscript's circulation. Indirect source influence: MacTutor says one of Regiomontanus' sources was al-Jayyani. Zeller 1946 (Development of trigonometry from Regiomontanus to Pitiscus) named on MacTutor, not checked. Event overlaps with Tusi event P158. English Wikipedia could not be read in this pass (API returned rate-limit errors for every request), so the source-first step used MacTutor biographies and history topics only. person without verified work: Al-Jayyani (developer). The 1533 Nuremberg print is on Internet Archive (ARes352131); the composition year (about 1464) remains unfixed, so the milestone is marked decade precision. Review R5 (not promoted): MacTutor re-read (De triangulis dated 1464, structured like the Elements, five books; trig page gives about 1464 and print 1533, and Pitiscus' Trigonometria 1595 as the first title use). No change. The Epitome milestone's second evidence line (a 1543 printing) does not support the 1462 completion date; that date rests on MacTutor alone.",
+  "notes": "Review R3: the 1533 Nuremberg edition (Petreius, ed. Schoener) was read in the Internet Archive scan (title page and preface); Epitome 1462 and De triangulis 1464 confirmed by Museo Galileo, EBSCO and Wikipedia besides MacTutor. Under the publication-year rule the manuscript of 1464 is now a precursor and the 1533 print the first statement (map date 1533; links to P158 and P193 recomputed). The earlier reading (first statement 1464) is a defensible alternative. Still open: whether and how widely the manuscript circulated before 1533; indirect source influence (al-Jayyani, via MacTutor); Zeller 1946 unchecked; the text of the books was not read; event overlaps with P158 (Tusi). Al-Jayyani is a person without verified work. Not promoted.",
   "catalogueDates": [
    "1464 (printed 1533)",
    null,
@@ -62522,7 +62672,7 @@
     {
      "p": "P158",
      "f": "trigonometry as an independent subject",
-     "d": 214,
+     "d": 283,
      "t": "named"
     }
    ],
@@ -62530,7 +62680,7 @@
     {
      "p": "P193",
      "f": "trigonometry applied to algebra",
-     "d": 129,
+     "d": 60,
      "t": "named"
     }
    ],
@@ -70690,7 +70840,7 @@
     {
      "p": "P052",
      "f": "Computer science",
-     "d": 35,
+     "d": 36,
      "t": "feeds"
     }
    ],
@@ -90346,7 +90496,7 @@
     {
      "p": "P052",
      "f": "mathematics",
-     "d": 14,
+     "d": 15,
      "t": "feeds"
     }
    ],
@@ -129618,7 +129768,7 @@
     {
      "p": "P052",
      "f": "computer science (symbolic computation)",
-     "d": 34,
+     "d": 35,
      "t": "context"
     }
    ],
@@ -130626,11 +130776,11 @@
   "grade": {},
   "shown": {
    "conceptual": {
-    "y": 1765,
+    "y": 1743,
     "basis": "first statement"
    },
    "methodological": {
-    "y": 1766,
+    "y": 1765,
     "basis": "earliest key development; no first application found"
    },
    "institutional": {
@@ -130644,10 +130794,10 @@
    "label": "Cauchy's équation caractéristique",
    "same": false
   },
-  "y": 1765,
+  "y": 1743,
   "approx": false,
   "derived": {
-   "conceptual": 1765,
+   "conceptual": 1743,
    "methodological": null,
    "institutional": 1839
   },
@@ -130660,6 +130810,41 @@
   "ms": [
    {
     "r": "first_statement",
+    "y": 1743,
+    "ye": null,
+    "p": "year",
+    "l": "D'Alembert: small oscillations of a weightless string loaded with two weights",
+    "w": "d'Alembert, Traite de dynamique, Paris, 1743, arts. 98-104 (pp. 97-107)",
+    "pe": [
+     "Jean le Rond d'Alembert"
+    ],
+    "d": "For a weightless thread with two weights close to the vertical, d'Alembert writes the equations ddx = (ax+by)dt^2, ddy = (cx+ey)dt^2, asks for the ratio of displacements at which both bodies reach the vertical together, and obtains it from a quadratic (Y/X = +-sqrt2 in the equal-weights case), the first normal-mode (eigenvalue) analysis of a vibrating system.",
+    "ph": null,
+    "c": "medium",
+    "n": "Read in the Internet Archive scan of the 1743 first edition (arts. 98-104, with the remarks and the corollary extending the method to three or more weights). The quadratic for the ratio of displacements is what later authors call the eigenvalue equation, but d'Alembert has no notion of eigenvalue; Brechenmacher quotes the same problem from the 1758 edition, where the indeterminate-coefficient method is spelled out, and places the integration of the resulting linear equations in the Berlin memoir of 1747 (printed 1748/1750). This replaces the earlier unresolved candidate. The link to the vibrating-string controversy (1750) now points forward (the loaded string precedes the continuous string).",
+    "ev": [
+     {
+      "c": "Treatise text read: equations ddx = (ax+by)dt^2 and ddy = (cx+ey)dt^2, the condition that both bodies reach the vertical together (ratio of x to y), the equal-weights case giving YY = 2XX, and the extension to three or more weights",
+      "s": "d'Alembert, Traite de dynamique (Paris, 1743), Internet Archive scan b30530593",
+      "u": "https://archive.org/details/b30530593",
+      "k": "primary_text"
+     },
+     {
+      "c": "MacTutor: the eigenvalue concept appeared in d'Alembert's study of a string with attached masses, about 80 years before Cauchy's 1826 work.",
+      "s": "MacTutor, Matrices and determinants",
+      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
+      "k": "history_page"
+     },
+     {
+      "c": "The two-weight string appears already in the 1743 Traite; d'Alembert treated only two or three masses, Lagrange generalised (1766).",
+      "s": "Brechenmacher, arXiv:0704.2931",
+      "u": "https://arxiv.org/abs/0704.2931",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
     "y": 1765,
     "ye": null,
     "p": "year",
@@ -130671,7 +130856,7 @@
     "d": "Euler proves every rigid body has a principal axis of rotation, an early eigenvector problem.",
     "ph": null,
     "c": "medium",
-    "n": "Euler Archive E292 gives written 1751 and published 1765; publication year governs, so the date moved from 1751 to 1765. Role changed from precursor because the paper is public. D'Alembert's treatment of a string loaded with two or three masses (Traite de dynamique 1743; MacTutor says the eigenvalue concept appears there about 80 years before Cauchy) is an earlier candidate, not entered: the exact work is not verified, and a date before 1750 would put this event before P445 (vibrating-string controversy), which it follows by an existing link. The input summary's d'Alembert origin is therefore unresolved, not refuted. The 1760 date is not supported.",
+    "n": "Euler Archive E292 gives written 1751 and published 1765; publication year governs, so the date moved from 1751 to 1765. Role key development, not first statement: d'Alembert's 1743 loaded-string analysis (first milestone) is earlier. The 1760 date is not supported.",
     "ev": [
      {
       "c": "In 1751 Euler proved any body has a principal axis of rotation; Lagrange realised the axes are eigenvectors of the inertia matrix",
@@ -130684,12 +130869,6 @@
       "s": "Euler Archive E292",
       "u": "https://scholarlycommons.pacific.edu/euler-works/292/",
       "k": "bibliographic_record"
-     },
-     {
-      "c": "MacTutor: the eigenvalue concept appeared in d'Alembert's study of a string with attached masses, about 80 years before Cauchy's 1826 work (candidate earlier statement, work not named).",
-      "s": "MacTutor, Matrices and determinants",
-      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
-      "k": "history_page"
      }
     ]
    },
@@ -130877,6 +131056,20 @@
   ],
   "people": [
    {
+    "name": "Jean le Rond d'Alembert",
+    "role": "originator",
+    "life": "1717-1783",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/D%27Alembert/",
+    "works": [
+     {
+      "c": "Traite de dynamique (1743), arts. 98-104",
+      "y": 1743,
+      "u": "https://archive.org/details/b30530593",
+      "w": "Loaded weightless string; normal modes of a two-mass system."
+     }
+    ]
+   },
+   {
     "name": "Leonhard Euler",
     "role": "developer",
     "life": "1707-1783",
@@ -130933,7 +131126,7 @@
     ]
    }
   ],
-  "notes": "Reviewed against Euler Archive E292, Crossref/zbMATH (Hilbert 1904), Brechenmacher's survey (arXiv:0704.2931), MacTutor and Wikipedia. Dates now follow publication: Euler 1765 (first statement), Lagrange 1766, Cauchy 1829, Sturm 1836, Cauchy 1839, Hermite 1855, Hilbert 1904. The d'Alembert loaded-string origin in the input summary is an unresolved earlier candidate (work not identified, and an earlier date would break the chronology of the link to P445). Person without verified work: Lagrange (entered here from a secondary bibliography only). Not read: any primary paper.",
+  "notes": "Review R3: d'Alembert's origin is resolved: arts. 98-104 of the 1743 Traite de dynamique (read in the Internet Archive scan) treat the weightless string with two weights and find the ratio of displacements from a quadratic, so the first statement moves from Euler 1765 to 1743 and Euler becomes a key development. Because the loaded string (1743) precedes the vibrating-string controversy (P445, 1750), the old 'P430 follows P445' link was reversed (P430 now precedes P445, d=7, kind context). Earlier checks: Euler Archive E292, zbMATH (Hilbert 1904), Brechenmacher's survey (arXiv:0704.2931), MacTutor and Wikipedia; dates follow publication: Lagrange 1766, Cauchy 1829, Sturm 1836, Cauchy 1839, Hermite 1855, Hilbert 1904. Person without verified work: Lagrange (secondary bibliography only). Not read: Euler 1765, Lagrange 1766, Cauchy, Sturm, Hermite and Hilbert texts; the 1758 edition's expanded treatment. Not promoted.",
   "catalogueDates": [
    [
     1743,
@@ -130957,15 +131150,15 @@
    "Sturm-Liouville theory"
   ],
   "rel": {
-   "b": [
+   "b": [],
+   "a": [
     {
      "p": "P445",
      "f": "vibrating strings and spectral methods",
-     "d": 15,
-     "t": "named"
+     "d": 7,
+     "t": "context"
     }
    ],
-   "a": [],
    "s": []
   },
   "cl": "Algebra",
@@ -135741,15 +135934,15 @@
    "Function concept"
   ],
   "rel": {
-   "b": [],
-   "a": [
+   "b": [
     {
      "p": "P430",
      "f": "vibrating strings and spectral methods",
-     "d": 15,
-     "t": "named"
+     "d": 7,
+     "t": "context"
     }
    ],
+   "a": [],
    "s": []
   },
   "cl": "Differential equations",
@@ -140882,7 +141075,7 @@
     "d": "A 1707 paper gives a series relation between cos x and cos nx, the real-variable ancestor of the multiple-angle theorem.",
     "ph": "De Moivre",
     "c": "medium",
-    "n": "Added in review; MacTutor says a closely related formula appeared in 1707, and Wikipedia describes the 1707 series. Crossref confirms the paper's title, volume and pages; its content was not read.",
+    "n": "Read in the Internet Archive scan (Phil. Trans. 25 no. 309, 2368-2371): de Moivre gives the roots of the equations n*y + ... = a (series in odd n) as sums of n-th roots of a +- sqrt(a^2 +- 1), and for the case that looks impossible shows how to read the root from a table of sines (a is the sine of an arc and one takes 1/n of the arc). No sqrt(-1) form of cos nx appears in the part read; Wikipedia's description ('a series relation for cos x and cos nx') is a modern reading.",
     "ev": [
      {
       "c": "Crossref record: Phil. Trans. 25(309), pp. 2368-2371, March 1707.",
@@ -140895,6 +141088,12 @@
       "s": "English Wikipedia, De Moivre's formula",
       "u": "https://en.wikipedia.org/wiki/De_Moivre%27s_formula",
       "k": "history_page"
+     },
+     {
+      "c": "Text read: roots of n*y + (nn-1)/(2*3) ... = a as n-th-root sums, and the sine-table rule for the case a < 1.",
+      "s": "Internet Archive scan of Phil. Trans. 25 (1707), de Moivre, Aequationum quarundam",
+      "u": "https://archive.org/details/paper-doi-10_1098_rstl_1706_0037",
+      "k": "primary_text"
      }
     ]
    },
@@ -140911,7 +141110,7 @@
     "d": "Cotes gave a geometric statement equivalent to ix = log(cos x + i sin x), up to a misplaced factor of i.",
     "ph": "Bernoulli and Cotes",
     "c": "high",
-    "n": "MacTutor dates this result to 1722, the posthumous Harmonia mensurarum, which reprinted Logometria; the 1714 paper is earlier.",
+    "n": "MacTutor dates this result to 1722, the posthumous Harmonia mensurarum, which reprinted Logometria; the 1714 paper is earlier. Read in the Internet Archive scan: near the end Cotes states that the quadrant arc measures the ratio between EX + XC*sqrt(-1) and CE, times sqrt(-1) (logarithmic-trigonometric conversion); it is geometric, with no mention of ln(-1) or multivaluedness.",
     "ev": [
      {
       "c": "Crossref: Logometria, Phil. Trans. 29, pp. 5-45, dated 1714.",
@@ -140924,6 +141123,12 @@
       "s": "English Wikipedia, Euler's formula",
       "u": "https://en.wikipedia.org/wiki/Euler%27s_formula",
       "k": "history_page"
+     },
+     {
+      "c": "Logometria read in a scan: the arc as measure of the ratio between EX + XC sqrt(-1) and CE, times sqrt(-1).",
+      "s": "Internet Archive scan of Phil. Trans. 29, Logometria",
+      "u": "https://archive.org/details/paper-doi-10_1098_rstl_1714_0002",
+      "k": "primary_text"
      }
     ]
    },
@@ -140939,8 +141144,8 @@
     ],
     "d": "The 1722 paper on the section of an angle is the paper MacTutor credits with De Moivre's theorem on powers of cos x + i sin x.",
     "ph": "De Moivre",
-    "c": "low",
-    "n": "Crossref confirms the paper (Phil. Trans. 32, pp. 228-230, 1722) but its text was not read. Wikipedia says de Moivre never stated the formula in this form in his works and dates the explicit cos nx treatment to Miscellanea analytica (1730); MacTutor credits 1722. This milestone therefore records the associated paper, not a verified statement of the modern formula.",
+    "c": "medium",
+    "n": "Read in the Internet Archive scan (Phil. Trans. 32, 228-230): de Moivre cites his 1707 method and states a multiple-angle theorem for versed sines, with auxiliary equations in z for an arc that is n times another (and the special cases for a semicircle, circle, 60 and 120 degrees). It contains no sqrt(-1) and no (cos x + i sin x)^n form, consistent with Wikipedia's remark that de Moivre never wrote the modern formula; this milestone is the multiple-angle theorem, not the exponential form.",
     "ev": [
      {
       "c": "MacTutor: De Moivre published his theorem in 1722.",
@@ -140959,6 +141164,12 @@
       "s": "English Wikipedia, De Moivre's formula",
       "u": "https://en.wikipedia.org/wiki/De_Moivre%27s_formula",
       "k": "history_page"
+     },
+     {
+      "c": "Text read: the versed-sine multiple-angle theorem with the equations 1 - z^n ..., corollaries for the semicircle, circumference, 60 and 120 degrees.",
+      "s": "Internet Archive scan of Phil. Trans. 32 (1722), de Moivre, De sectione anguli",
+      "u": "https://archive.org/details/paper-doi-10_1098_rstl_1722_0039",
+      "k": "primary_text"
      }
     ]
    },
@@ -140974,8 +141185,8 @@
     ],
     "d": "Lemma 1 of the book gives the cosine of a multiple arc through the n-th root of l + sqrt(l^2-1), the explicit form of the multiple-angle theorem.",
     "ph": "De Moivre",
-    "c": "medium",
-    "n": "Open Library confirms the 1730 edition; the lemma text is quoted in Wikipedia's De Moivre's formula, which notes that De Moivre never wrote the modern (cos x + i sin x)^n form. The book itself was not read here. This is the earliest explicit cos nx treatment Wikipedia cites, so the 1722 milestone above stays low.",
+    "c": "high",
+    "n": "Read in the Google Books scan on the Internet Archive: Liber primus, Lemma I states that if x and y are the cosines of two arcs of a circle of radius 1 and the second arc is n times the first, then x = 1/2 [(y + sqrt(yy - 1))^(1/n) + (y - sqrt(yy - 1))^(1/n)], the cosine form of the multiple-angle relation with sqrt(-1) inside the roots. De Moivre never wrote the modern (cos x + i sin x)^n form (Wikipedia).",
     "ev": [
      {
       "c": "In 1730 de Moivre explicitly considered the cases of cos x and cos nx (Miscellanea analytica, p. 1, Lemma 1).",
@@ -140988,6 +141199,12 @@
       "s": "Open Library OL7258966W",
       "u": "https://openlibrary.org/works/OL7258966W",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Lemma I read in the scan: cosines of two arcs, the second a multiple n of the first, related through (y +- sqrt(yy-1))^(1/n).",
+      "s": "Internet Archive scan (Google Books) of Miscellanea analytica, 1730",
+      "u": "https://archive.org/details/bub_gb_TFX1165yEc4C",
+      "k": "primary_text"
      }
     ]
    },
@@ -141080,7 +141297,7 @@
     "d": "Euler resolved the old Leibniz-Bernoulli dispute by showing that logarithms of complex numbers are many-valued.",
     "ph": "Euler",
     "c": "high",
-    "n": "The 'many-valued' description of the paper's conclusion is standard but not stated in the Euler Archive record; Wikipedia Euler's formula supports the infinitely-many-values point.",
+    "n": "The 'many-valued' description of the paper's conclusion is standard but not stated in the Euler Archive record; Wikipedia Euler's formula supports the infinitely-many-values point. Review R3: the memoir was not read; per a summary of its English translation it shows that every number has infinitely many logarithms, but a specific value for ln(-1) was not seen.",
     "ev": [
      {
       "c": "Euler Archive E168: published 1751, written 1747, Berlin Memoires vol. 5 pp. 139-179.",
@@ -141161,7 +141378,7 @@
     ]
    }
   ],
-  "notes": "Crossref confirms Cotes's Logometria in Phil. Trans. 29, issued 31 March 1714; MacTutor's 1722 date is the posthumous Harmonia mensurarum reprint, so 1714 is the first publication. The summary's 'Euler gave exp(ix)' is supported for the 1748 print but Euler's own private derivation is dated only 'around 1740'. Bernoulli 1702 has no bibliographic record found. De Moivre's De sectione anguli (Phil. Trans. 32, 1722) is a candidate for the explicit formula, but whether it states it is unresolved; Wikipedia cites Miscellanea analytica (1730). Review A1: Cotes 1714 confirmed by Crossref and Wikipedia's Euler's-formula history; the 1707 de Moivre paper was added from Crossref; the De Moivre 1722 milestone is now low confidence because sources disagree on whether he stated the formula. Bernoulli's paper is identified (Mem. Acad. 1702, printed 1704) but its year and content are unverified, so the first statement is open and the record stays source-first. Review R2: Bernoulli's paper re-dated 1702 to 1704 (publication year; Memoires for 1702 printed 1704, bookseller record of the 1704 offprint) and the derived conceptual date and link distances moved with it; De Moivre's 1730 Miscellanea analytica added. Stays source-first: neither Bernoulli's paper, Cotes's Logometria nor De Moivre's 1707/1722/1730 texts were read, and Crossref has no record of the Bernoulli paper.",
+  "notes": "Crossref confirms Cotes's Logometria in Phil. Trans. 29, issued 31 March 1714; MacTutor's 1722 date is the posthumous Harmonia mensurarum reprint, so 1714 is the first publication. The summary's 'Euler gave exp(ix)' is supported for the 1748 print but Euler's own private derivation is dated only 'around 1740'. Bernoulli 1702 has no bibliographic record found. De Moivre's De sectione anguli (Phil. Trans. 32, 1722) is a candidate for the explicit formula, but whether it states it is unresolved; Wikipedia cites Miscellanea analytica (1730). Review A1: Cotes 1714 confirmed by Crossref and Wikipedia's Euler's-formula history; the 1707 de Moivre paper was added from Crossref; the De Moivre 1722 milestone is now low confidence because sources disagree on whether he stated the formula. Bernoulli's paper is identified (Mem. Acad. 1702, printed 1704) but its year and content are unverified, so the first statement is open and the record stays source-first. Review R2: Bernoulli's paper re-dated 1702 to 1704 (publication year; Memoires for 1702 printed 1704, bookseller record of the 1704 offprint) and the derived conceptual date and link distances moved with it; De Moivre's 1730 Miscellanea analytica added. Stays source-first: neither Bernoulli's paper, Cotes's Logometria nor De Moivre's 1707/1722/1730 texts were read, and Crossref has no record of the Bernoulli paper. Review R3: Cotes's Logometria (1714), de Moivre's 1707 and 1722 Phil. Trans. papers and the 1730 Miscellanea analytica (Lemma I) were read in Internet Archive scans; the 1730 lemma is now high confidence and the 1722 milestone medium. Still unread: Bernoulli's 1702/1704 Memoires paper (no scan of that volume found) and the Introductio passage (scan OCR unreadable), so the first statement stays low-confidence and the record source-first.",
   "catalogueDates": [
    [
     1702,
@@ -153222,7 +153439,7 @@
     {
      "p": "P052",
      "f": "mathematics",
-     "d": 42,
+     "d": 43,
      "t": "feeds"
     }
    ],
@@ -163694,7 +163911,7 @@
     {
      "p": "P052",
      "f": "mathematics",
-     "d": 83,
+     "d": 84,
      "t": "feeds"
     },
     {

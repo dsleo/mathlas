@@ -15,207 +15,207 @@ Score = inbound links from other events + 2 x weakness (low/medium confidence on
 | 3 | P358 | Lie theory (continuous transformation groups) | Group & representation theory | 1874 | 9 | 1 | 11 |
 | 4 | P013 | Functional analysis | Functional & harmonic analysis | 1887 | 10 | 0 | 10 |
 | 5 | P460 | Trigonometry and the exponential: Cotes, De Moivre, Euler | Analysis | 1704 | 6 | 2 | 10 |
-| 6 | P052 | Computer science separates from mathematics | Computer science | 1936 | 7 | 1 | 9 |
-| 7 | P121 | Islamic spherical trigonometry | Astronomy & trigonometry | 970 | 3 | 3 | 9 |
-| 8 | P000 | Archimedes' mechanical method for areas and volumes | Geometry | -250 | 2 | 3 | 8 |
-| 9 | P192 | Leibniz: determinants | Algebra | 1700 | 2 | 3 | 8 |
-| 10 | P376 | Fisher's statistical inference | Statistics & decision theory | 1921 | 2 | 3 | 8 |
+| 6 | P121 | Islamic spherical trigonometry | Astronomy & trigonometry | 970 | 3 | 3 | 9 |
+| 7 | P000 | Archimedes' mechanical method for areas and volumes | Geometry | -250 | 2 | 3 | 8 |
+| 8 | P192 | Leibniz: determinants | Algebra | 1700 | 2 | 3 | 8 |
+| 9 | P376 | Fisher's statistical inference | Statistics & decision theory | 1921 | 2 | 3 | 8 |
+| 10 | P052 | Computer science separates from mathematics | Computer science | 1935 | 7 | 0 | 7 |
 | 11 | P366 | Automorphic functions and uniformisation | Number theory | 1881 | 3 | 2 | 7 |
 | 12 | P432 | Complex numbers as points of the plane and as two-dimensional real algebra | Algebra | 1799 | 3 | 2 | 7 |
 | 13 | P187 | Jaina permutations and combinations (early Indian combinatorics) | Combinatorics | -300 | 1 | 3 | 7 |
 | 14 | P005 | Analytic number theory I: Euler's product and Dirichlet's characters | Number theory | 1744 | 4 | 1 | 6 |
 | 15 | P012 | Commutative algebra from invariant theory and ideals | Algebra | 1890 | 4 | 1 | 6 |
 | 16 | P040 | Modularity of elliptic curves and Fermat's Last Theorem | Number theory | 1956 | 2 | 2 | 6 |
-| 17 | P122 | Al-Karaji polynomial algebra | Algebra | 1010 | 2 | 2 | 6 |
-| 18 | P189 | Menelaus: Sphaerica and spherical trigonometry | Astronomy & trigonometry | 98 | 2 | 2 | 6 |
-| 19 | P198 | Regiomontanus: trigonometry separated from astronomy in Europe | Astronomy & trigonometry | 1464 | 2 | 2 | 6 |
-| 20 | P284 | Operations research | Applied mathematics | 1950 | 2 | 2 | 6 |
-| 21 | P369 | Markov chains | Probability | 1906 | 2 | 2 | 6 |
-| 22 | P191 | Homogeneous coordinates (Moebius, Pluecker) | Algebraic geometry | 1827 | 5 | 0 | 5 |
-| 23 | P214 | Smale's hyperbolic dynamics (Axiom A, structural stability) | Dynamics | 1967 | 5 | 0 | 5 |
-| 24 | P216 | Hörmander linear partial differential operators | Differential equations | 1955 | 5 | 0 | 5 |
-| 25 | P217 | Pseudodifferential operators | Functional & harmonic analysis | 1965 | 5 | 0 | 5 |
-| 26 | P435 | Lebesgue measure and integral: set theory enters analysis | Analysis | 1901 | 5 | 0 | 5 |
-| 27 | P436 | Logicism: reducing arithmetic to logic | Logic & foundations | 1884 | 5 | 0 | 5 |
-| 28 | P440 | Hausdorff dimension and fractal dimension | Geometry | 1918 | 5 | 0 | 5 |
-| 29 | P473 | Mathematical general relativity: nonlinear PDE for Einstein's equations | Geometry | 1952 | 5 | 0 | 5 |
-| 30 | P008 | Riemannian geometry and manifolds | Differential geometry | 1868 | 3 | 1 | 5 |
-| 31 | P127 | Ptolemy's Almagest | Astronomy & trigonometry | 150 | 3 | 1 | 5 |
-| 32 | P128 | Cauchy and the beginnings of complex analysis | Complex analysis | 1825 | 3 | 1 | 5 |
-| 33 | P209 | Linear programming and the simplex method | Optimization & control | 1939 | 3 | 1 | 5 |
-| 34 | P230 | Curry-Howard correspondence (proofs as programs, propositions as types) | Logic & foundations | 1934 | 3 | 1 | 5 |
-| 35 | P231 | Domain theory | Algorithms & complexity | 1972 | 3 | 1 | 5 |
-| 36 | P286 | Abelian categories and derived functors (Tohoku) | Category & homological algebra | 1955 | 3 | 1 | 5 |
-| 37 | P290 | Sobolev spaces and generalised solutions | Functional & harmonic analysis | 1938 | 3 | 1 | 5 |
-| 38 | P372 | Affine connections (parallel transport, Weyl and Cartan) | Differential geometry | 1916 | 3 | 1 | 5 |
-| 39 | P379 | Italian algebraic geometry | Algebra | 1894 | 3 | 1 | 5 |
-| 40 | P421 | Knot problems become group-theoretic: knot groups (Dehn) | Topology | 1910 | 3 | 1 | 5 |
-| 41 | P454 | Noether's theorems (symmetries and conservation laws) | Mathematical physics | 1918 | 3 | 1 | 5 |
-| 42 | P462 | Control theory becomes a mathematical discipline (Kalman state space; ICM 1966 section) | Optimization & control | 1960 | 3 | 1 | 5 |
-| 43 | P554 | Universality of rotational invariance at 2D criticality via coupling and integrability | Probability | 2020 | 3 | 1 | 5 |
-| 44 | P059 | Hardy-Littlewood circle method | Number theory | 1917 | 1 | 2 | 5 |
-| 45 | P096 | Superrigidity and arithmeticity of lattices | Number theory | 1975 | 1 | 2 | 5 |
-| 46 | P111 | Indian place-value notation and zero | Number theory | 499 | 1 | 2 | 5 |
-| 47 | P123 | Diophantus and the Arithmetica (symbolic algebra and Diophantine problems) | Algebra | 250 | 1 | 2 | 5 |
-| 48 | P125 | Sharaf al-Din al-Tusi | Algebra | 1165 | 1 | 2 | 5 |
-| 49 | P129 | Kerala series (Madhava-Gregory-Leibniz school) | Analysis | 1501 | 1 | 2 | 5 |
-| 50 | P137 | Chinese remainder theorem | Number theory | 300 | 1 | 2 | 5 |
-| 51 | P147 | Seki: resultants, determinants, elimination | Algebra | 1685 | 1 | 2 | 5 |
-| 52 | P148 | Interpolation and finite differences in Chinese astronomy and mathematics | Numerical analysis | 544 | 1 | 2 | 5 |
-| 53 | P149 | Numerical solution of polynomial equations in China (Ruffini-Horner) | Numerical analysis | 620 | 1 | 2 | 5 |
-| 54 | P152 | De Moivre: normal approximation to the binomial | Probability | 1733 | 1 | 2 | 5 |
-| 55 | P155 | Binomial coefficient triangle in China | Combinatorics | 1050 | 1 | 2 | 5 |
-| 56 | P156 | Discovery of incommensurable magnitudes (irrationality of the diagonal) | Geometry | -450 | 1 | 2 | 5 |
-| 57 | P160 | Al-Mahani: geometric problems reduced to algebra | Algebra | 860 | 1 | 2 | 5 |
-| 58 | P172 | Islamic work on the parallel postulate | Logic & foundations | 870 | 1 | 2 | 5 |
-| 59 | P175 | Pingala: combinatorics of poetic metres | Combinatorics | -300 | 1 | 2 | 5 |
-| 60 | P178 | Ibn al-Haytham and Ibn Sinan: quadrature | Analysis | 870 | 1 | 2 | 5 |
-| 61 | P196 | Transmission of Hindu-Arabic numerals to the Islamic world and Europe | Number theory | 825 | 1 | 2 | 5 |
-| 62 | P330 | Sato-Tate conjecture (Frobenius angle distribution of elliptic curves) | Number theory | 1965 | 1 | 2 | 5 |
-| 63 | P332 | Restricted Burnside problem | Group & representation theory | 1940 | 1 | 2 | 5 |
-| 64 | P392 | Weyl's gauge theory (local scale invariance) | Differential geometry | 1918 | 1 | 2 | 5 |
-| 65 | P424 | Golod-Shafarevich: nil algebras produce infinite periodic groups | Group & representation theory | 1964 | 1 | 2 | 5 |
-| 66 | P443 | Elliptic integrals from lemniscate and elastica (Bernoulli) | Analysis | 1694 | 1 | 2 | 5 |
-| 67 | P058 | Geometric Langlands and its physics | Algebraic geometry | 1987 | 4 | 0 | 4 |
-| 68 | P061 | General relativity and the absolute differential calculus | Mathematical physics | 1913 | 4 | 0 | 4 |
-| 69 | P064 | Public-key cryptography | Computer science | 1976 | 4 | 0 | 4 |
-| 70 | P072 | Quantum groups from statistical mechanics | Algebra | 1985 | 4 | 0 | 4 |
-| 71 | P083 | Entropy of dynamical systems (Kolmogorov-Sinai entropy) | Analysis | 1958 | 4 | 0 | 4 |
-| 72 | P113 | Poncelet and projective geometry | Geometry | 1822 | 4 | 0 | 4 |
-| 73 | P201 | Information theory | Information & cryptography | 1948 | 4 | 0 | 4 |
-| 74 | P211 | Coherent sheaves (FAC) in algebraic geometry | Algebraic geometry | 1955 | 4 | 0 | 4 |
-| 75 | P222 | NP-completeness | Algorithms & complexity | 1971 | 4 | 0 | 4 |
-| 76 | P248 | Hodge theory of harmonic integrals | Algebraic geometry | 1935 | 4 | 0 | 4 |
-| 77 | P262 | Automata and formal verification | Logic & foundations | 1967 | 4 | 0 | 4 |
-| 78 | P285 | Global analysis and mathematical economics | Statistics & decision theory | 1970 | 4 | 0 | 4 |
-| 79 | P368 | Lyapunov stability | Dynamics | 1892 | 4 | 0 | 4 |
-| 80 | P442 | Fractal geometry: self-similarity, dimension and computer experiment (Mandelbrot) | Geometry | 1967 | 4 | 0 | 4 |
-| 81 | P448 | Beltrami and Klein models of non-Euclidean geometry | Geometry | 1868 | 4 | 0 | 4 |
-| 82 | P449 | Projective geometry from Renaissance perspective | Geometry | 1435 | 4 | 0 | 4 |
-| 83 | P458 | Complex numbers from the cubic: Cardano and Bombelli | Algebra | 1545 | 4 | 0 | 4 |
-| 84 | P469 | Calderon-Zygmund singular integrals in PDE | Differential equations | 1952 | 4 | 0 | 4 |
-| 85 | P063 | Computers enter proof: four colour theorem and the Kepler conjecture | Combinatorics | 1976 | 2 | 1 | 4 |
-| 86 | P103 | Kodaira vanishing via harmonic integrals | Geometry | 1953 | 2 | 1 | 4 |
-| 87 | P130 | Laplace's analytic probability | Probability | 1782 | 2 | 1 | 4 |
-| 88 | P158 | Al-Tusi: trigonometry as an independent discipline | Astronomy & trigonometry | 1250 | 2 | 1 | 4 |
-| 89 | P213 | Topological K-theory | Algebraic topology | 1959 | 2 | 1 | 4 |
-| 90 | P229 | Elementary topos theory | Category & homological algebra | 1971 | 2 | 1 | 4 |
-| 91 | P253 | Computer algebra and Groebner bases | Computer science | 1970 | 2 | 1 | 4 |
-| 92 | P260 | Operator K-theory and KK-theory | Topology | 1979 | 2 | 1 | 4 |
-| 93 | P374 | Peano arithmetic axioms | Logic & foundations | 1888 | 2 | 1 | 4 |
-| 94 | P385 | Class field theory | Number theory | 1897 | 2 | 1 | 4 |
-| 95 | P400 | Russell paradox, type theory and Principia Mathematica | Logic & foundations | 1903 | 2 | 1 | 4 |
-| 96 | P423 | Lie-ring methods enter the Burnside problem (Magnus to Zelmanov) | Group & representation theory | 1937 | 2 | 1 | 4 |
-| 97 | P427 | Permutation-group algorithms meet complexity theory | Group & representation theory | 1980 | 2 | 1 | 4 |
-| 98 | P429 | Matrix algebra as an abstract calculus (Cayley) | Algebra | 1855 | 2 | 1 | 4 |
-| 99 | P453 | Map colouring and the four colour problem (Kempe and Heawood) | Graph theory | 1879 | 2 | 1 | 4 |
-| 100 | P459 | Trigonometry from astronomy: Hipparchus and chord tables | Astronomy & trigonometry | -140 | 2 | 1 | 4 |
-| 101 | P470 | Caffarelli-Kohn-Nirenberg partial regularity for Navier-Stokes | Fluid mechanics | 1976 | 2 | 1 | 4 |
-| 102 | P477 | Explicit expander graphs from property (T) (Margulis) | Graph theory | 1973 | 2 | 1 | 4 |
-| 103 | P478 | Analysis of algorithms (Knuth) | Computer science | 1968 | 2 | 1 | 4 |
-| 104 | P480 | Mobius inversion on posets and incidence algebras (Rota) | Combinatorics | 1935 | 2 | 1 | 4 |
-| 105 | P504 | Ellipsoid method in combinatorial optimisation | Combinatorics | 1976 | 2 | 1 | 4 |
-| 106 | P514 | Teichmuller dynamics: homogeneous dynamics on moduli spaces | Algebraic geometry | 1982 | 2 | 1 | 4 |
-| 107 | P003 | Probability from games of chance | Probability | 1657 | 3 | 0 | 3 |
-| 108 | P023 | Weil conjectures | Number theory | 1949 | 3 | 0 | 3 |
-| 109 | P143 | Napier's logarithms | Analysis | 1614 | 3 | 0 | 3 |
-| 110 | P154 | Taylor: finite differences and Taylor's theorem | Analysis | 1715 | 3 | 0 | 3 |
-| 111 | P169 | Clairaut: curves in space | Differential geometry | 1731 | 3 | 0 | 3 |
-| 112 | P188 | Potential theory in celestial mechanics and physics | Differential equations | 1785 | 3 | 0 | 3 |
-| 113 | P200 | Computability theory (Church-Turing) | Logic & foundations | 1936 | 3 | 0 | 3 |
-| 114 | P205 | Finite element method | Numerical analysis | 1943 | 3 | 0 | 3 |
-| 115 | P215 | Nash equilibrium: existence via fixed points | Game theory & economics | 1950 | 3 | 0 | 3 |
-| 116 | P244 | Hyperfunctions and algebraic analysis | Algebra | 1959 | 3 | 0 | 3 |
-| 117 | P246 | Conformal field theory | Group & representation theory | 1984 | 3 | 0 | 3 |
-| 118 | P256 | Intersection cohomology | Algebraic topology | 1977 | 3 | 0 | 3 |
-| 119 | P258 | Hales–Jewett theorem and structured Ramsey partitions | Combinatorics | 1963 | 3 | 0 | 3 |
-| 120 | P261 | Kodaira-Spencer deformation theory | Category & homological algebra | 1958 | 3 | 0 | 3 |
-| 121 | P266 | Markov chain Monte Carlo and the Bayesian revival | Statistics & decision theory | 1953 | 3 | 0 | 3 |
-| 122 | P275 | Mathematical economics via fixed-point theorems | Statistics & decision theory | 1954 | 3 | 0 | 3 |
-| 123 | P283 | Feigenbaum universality (period-doubling universality) | Dynamics | 1978 | 3 | 0 | 3 |
-| 124 | P381 | Axiomatic set theory (Zermelo) | Logic & foundations | 1908 | 3 | 0 | 3 |
-| 125 | P384 | Representation theory of finite groups | Group & representation theory | 1896 | 3 | 0 | 3 |
-| 126 | P389 | p-adic numbers | Number theory | 1899 | 3 | 0 | 3 |
-| 127 | P416 | Mathematical biology | Applied mathematics | 1920 | 3 | 0 | 3 |
-| 128 | P467 | KAM theory: stability of Hamiltonian systems | Dynamics | 1954 | 3 | 0 | 3 |
-| 129 | P497 | KP hierarchy and the infinite Grassmannian (Sato) | Group & representation theory | 1981 | 3 | 0 | 3 |
-| 130 | P498 | Canonical bases and character sheaves: geometry in representation theory | Group & representation theory | 1979 | 3 | 0 | 3 |
-| 131 | P501 | Pattern theory and variational image models (Grenander, Mumford) | Analysis | 1976 | 3 | 0 | 3 |
-| 132 | P507 | Quantum computation: Shor's algorithm | Computer science | 1985 | 3 | 0 | 3 |
-| 133 | P520 | Ito calculus and stochastic differential equations | Probability | 1944 | 3 | 0 | 3 |
-| 134 | P016 | Weil's dictionary: number fields, function fields, Riemann surfaces | Number theory | 1939 | 1 | 1 | 3 |
-| 135 | P032 | Noncommutative geometry | Geometry | 1980 | 1 | 1 | 3 |
-| 136 | P035 | Symplectic topology | Differential geometry | 1985 | 1 | 1 | 3 |
-| 137 | P050 | Erdős discrepancy problem | Combinatorics | 1936 | 1 | 1 | 3 |
-| 138 | P062 | Hyperbolic geometry in three-manifold topology (Thurston) | Topology | 1982 | 1 | 1 | 3 |
-| 139 | P076 | Sullivan's dictionary: rational maps and Kleinian groups | Analysis | 1983 | 1 | 1 | 3 |
-| 140 | P085 | Shannon capacity of graphs and the Lovász theta function | Combinatorics | 1956 | 1 | 1 | 3 |
-| 141 | P090 | D-modules and the Riemann-Hilbert correspondence | Algebra | 1980 | 1 | 1 | 3 |
-| 142 | P102 | Real-variable methods in complex analysis (Hardy spaces) | Complex analysis | 1971 | 1 | 1 | 3 |
-| 143 | P110 | Oresme: graphing motion (configurations of qualities and motions) | Group & representation theory | 1350 | 1 | 1 | 3 |
-| 144 | P115 | Method of indivisibles (Cavalieri, Torricelli, Wallis) | Analysis | 1635 | 1 | 1 | 3 |
-| 145 | P135 | Lagrange's analytical mechanics | Mathematical physics | 1788 | 1 | 1 | 3 |
-| 146 | P136 | Khayyam cubics via conics | Algebraic geometry | 1070 | 1 | 1 | 3 |
-| 147 | P141 | Indian sine (jya) and the birth of trigonometric functions | Astronomy & trigonometry | 499 | 1 | 1 | 3 |
-| 148 | P144 | Hamiltonian optics and mechanics | Mathematical physics | 1828 | 1 | 1 | 3 |
-| 149 | P153 | Jacobi: four squares via elliptic (theta) functions | Number theory | 1829 | 1 | 1 | 3 |
-| 150 | P163 | Newton: infinite series and binomial theorem | Analysis | 1685 | 1 | 1 | 3 |
-| 151 | P164 | Euclid's Elements VII–IX: deductive arithmetic | Number theory | -300 | 1 | 1 | 3 |
-| 152 | P176 | Babylonian astronomical parameters enter Greek astronomy | Astronomy & trigonometry | -147 | 1 | 1 | 3 |
-| 153 | P177 | Al-Karaji: binomial coefficients and early induction | Algebra | 1000 | 1 | 1 | 3 |
-| 154 | P180 | Lagrange's algebraic foundation for the calculus | Analysis | 1797 | 1 | 1 | 3 |
-| 155 | P181 | Kirchhoff's circuit laws and the graph-theoretic treatment of networks | Graph theory | 1845 | 1 | 1 | 3 |
-| 156 | P182 | Abel's theorem and abelian integrals | Algebraic geometry | 1829 | 1 | 1 | 3 |
-| 157 | P184 | Eudoxus' homocentric spheres | Astronomy & trigonometry | -370 | 1 | 1 | 3 |
-| 158 | P185 | De Moivre: probability and the trigonometry-complex number link | Probability | 1707 | 1 | 1 | 3 |
-| 159 | P197 | Pythagorean number theory and musical ratios | Number theory | -450 | 1 | 1 | 3 |
-| 160 | P226 | Algorithmic information theory (randomness via program length) | Algorithms & complexity | 1965 | 1 | 1 | 3 |
-| 161 | P250 | Combinatorial game theory (impartial and partisan games) | Game theory & economics | 1935 | 1 | 1 | 3 |
-| 162 | P267 | Cellular automata and self-reproducing machines | Algorithms & complexity | 1951 | 1 | 1 | 3 |
-| 163 | P268 | Computational geometry | Computer science | 1975 | 1 | 1 | 3 |
-| 164 | P291 | Tate's thesis and adelic harmonic analysis | Number theory | 1967 | 1 | 1 | 3 |
-| 165 | P292 | Bass-Serre theory | Group & representation theory | 1976 | 1 | 1 | 3 |
-| 166 | P301 | Bloch-Kato / norm residue | Algebraic topology | 1970 | 1 | 1 | 3 |
-| 167 | P316 | Fundamental lemma (Langlands programme) | Number theory | 1983 | 1 | 1 | 3 |
-| 168 | P355 | Tensor calculus (absolute differential calculus of Ricci and Levi-Civita) | Differential geometry | 1888 | 1 | 1 | 3 |
-| 169 | P375 | Biometric mathematical statistics | Statistics & decision theory | 1894 | 1 | 1 | 3 |
-| 170 | P378 | Vector analysis | Analysis | 1881 | 1 | 1 | 3 |
-| 171 | P383 | Brouwer topology | Topology | 1910 | 1 | 1 | 3 |
-| 172 | P386 | Heaviside operational calculus | Analysis | 1892 | 1 | 1 | 3 |
-| 173 | P388 | Intuitionism | Logic & foundations | 1907 | 1 | 1 | 3 |
-| 174 | P394 | Hilbert's Nullstellensatz and algebraic geometry as ideal theory | Algebraic geometry | 1893 | 1 | 1 | 3 |
-| 175 | P411 | Schur: polynomial representations of GL(n) and invariant theory | Group & representation theory | 1901 | 1 | 1 | 3 |
-| 176 | P419 | Burnside's use of character theory for finite group theory | Group & representation theory | 1896 | 1 | 1 | 3 |
-| 177 | P430 | Spectral ideas: eigenvalues from vibrating systems and quadratic forms | Algebra | 1765 | 1 | 1 | 3 |
-| 178 | P441 | Complex dynamics: iteration of rational functions (Julia and Fatou) | Complex analysis | 1917 | 1 | 1 | 3 |
-| 179 | P444 | Fundamental theorem of algebra: analytic and topological proofs | Algebra | 1799 | 1 | 1 | 3 |
-| 180 | P451 | Abstract topological spaces from point-set analysis | Topology | 1909 | 1 | 1 | 3 |
-| 181 | P455 | Lorentz group and Minkowski spacetime: group theory enters physics | Differential geometry | 1906 | 1 | 1 | 3 |
-| 182 | P474 | Hida theory: p-adic families of modular forms | Number theory | 1986 | 1 | 1 | 3 |
-| 183 | P495 | Finite-gap integration of soliton equations | Differential equations | 1974 | 1 | 1 | 3 |
-| 184 | P499 | Mixed Hodge theory (Deligne) | Algebraic geometry | 1971 | 1 | 1 | 3 |
-| 185 | P521 | Constructive quantum field theory | Mathematical physics | 1967 | 1 | 1 | 3 |
-| 186 | P528 | Chowla cosine problem via Cayley graph eigenvalues and MaxCut | Functional & harmonic analysis | 2025 | 1 | 1 | 3 |
-| 187 | P540 | Probabilistic construction of Liouville conformal field theory | Probability | 1985 | 1 | 1 | 3 |
-| 188 | P001 | Algebra as a discipline (al-Khwarizmi, al-Jabr) | Algebra | 820 | 2 | 0 | 2 |
-| 189 | P031 | Geometric group theory | Algebra | 1981 | 2 | 0 | 2 |
-| 190 | P033 | Gauge theory transforms four-manifold topology | Topology | 1983 | 2 | 0 | 2 |
-| 191 | P036 | Monstrous moonshine | Algebra | 1979 | 2 | 0 | 2 |
-| 192 | P055 | K-theory and Grothendieck-Riemann-Roch: algebraic geometry enters topology | Topology | 1958 | 2 | 0 | 2 |
-| 193 | P060 | Brownian motion: from physics and finance to measure on path space | Probability | 1900 | 2 | 0 | 2 |
-| 194 | P067 | Cobordism: homotopy computes manifold invariants | Topology | 1954 | 2 | 0 | 2 |
-| 195 | P109 | Analytic geometry (Descartes, Fermat) | Geometry | 1637 | 2 | 0 | 2 |
-| 196 | P116 | Pascal's arithmetical triangle | Probability | 1665 | 2 | 0 | 2 |
-| 197 | P118 | Differential geometry of surfaces (Clairaut, Euler, Monge, Gauss) | Differential geometry | 1767 | 2 | 0 | 2 |
-| 198 | P124 | Gauss's Disquisitiones Arithmeticae | Number theory | 1801 | 2 | 0 | 2 |
-| 199 | P132 | Least squares | Statistics & decision theory | 1805 | 2 | 0 | 2 |
-| 200 | P138 | Impossibility of solving the general quintic by radicals | Algebra | 1799 | 2 | 0 | 2 |
-| 201 | P142 | Euler's Introductio in analysin infinitorum | Analysis | 1748 | 2 | 0 | 2 |
-| 202 | P157 | Euler: geodesics from mechanics | Differential geometry | 1732 | 2 | 0 | 2 |
-| 203 | P162 | D'Alembert and Euler: the wave equation and partial differential equations | Differential equations | 1749 | 2 | 0 | 2 |
-| 204 | P167 | Pluecker: line geometry and algebraic curves | Geometry | 1839 | 2 | 0 | 2 |
-| 205 | P190 | Euler: complex logarithms and exponentials | Complex analysis | 1748 | 2 | 0 | 2 |
-| 206 | P194 | Kepler's Nova stereometria doliorum vinariorum (infinitesimal volumes of solids of revolution) | Analysis | 1615 | 2 | 0 | 2 |
+| 17 | P189 | Menelaus: Sphaerica and spherical trigonometry | Astronomy & trigonometry | 98 | 2 | 2 | 6 |
+| 18 | P284 | Operations research | Applied mathematics | 1950 | 2 | 2 | 6 |
+| 19 | P369 | Markov chains | Probability | 1906 | 2 | 2 | 6 |
+| 20 | P191 | Homogeneous coordinates (Moebius, Pluecker) | Algebraic geometry | 1827 | 5 | 0 | 5 |
+| 21 | P214 | Smale's hyperbolic dynamics (Axiom A, structural stability) | Dynamics | 1967 | 5 | 0 | 5 |
+| 22 | P216 | Hörmander linear partial differential operators | Differential equations | 1955 | 5 | 0 | 5 |
+| 23 | P217 | Pseudodifferential operators | Functional & harmonic analysis | 1965 | 5 | 0 | 5 |
+| 24 | P435 | Lebesgue measure and integral: set theory enters analysis | Analysis | 1901 | 5 | 0 | 5 |
+| 25 | P436 | Logicism: reducing arithmetic to logic | Logic & foundations | 1884 | 5 | 0 | 5 |
+| 26 | P440 | Hausdorff dimension and fractal dimension | Geometry | 1918 | 5 | 0 | 5 |
+| 27 | P473 | Mathematical general relativity: nonlinear PDE for Einstein's equations | Geometry | 1952 | 5 | 0 | 5 |
+| 28 | P008 | Riemannian geometry and manifolds | Differential geometry | 1868 | 3 | 1 | 5 |
+| 29 | P127 | Ptolemy's Almagest | Astronomy & trigonometry | 150 | 3 | 1 | 5 |
+| 30 | P128 | Cauchy and the beginnings of complex analysis | Complex analysis | 1825 | 3 | 1 | 5 |
+| 31 | P209 | Linear programming and the simplex method | Optimization & control | 1939 | 3 | 1 | 5 |
+| 32 | P230 | Curry-Howard correspondence (proofs as programs, propositions as types) | Logic & foundations | 1934 | 3 | 1 | 5 |
+| 33 | P231 | Domain theory | Algorithms & complexity | 1972 | 3 | 1 | 5 |
+| 34 | P286 | Abelian categories and derived functors (Tohoku) | Category & homological algebra | 1955 | 3 | 1 | 5 |
+| 35 | P290 | Sobolev spaces and generalised solutions | Functional & harmonic analysis | 1938 | 3 | 1 | 5 |
+| 36 | P372 | Affine connections (parallel transport, Weyl and Cartan) | Differential geometry | 1916 | 3 | 1 | 5 |
+| 37 | P379 | Italian algebraic geometry | Algebra | 1894 | 3 | 1 | 5 |
+| 38 | P421 | Knot problems become group-theoretic: knot groups (Dehn) | Topology | 1910 | 3 | 1 | 5 |
+| 39 | P454 | Noether's theorems (symmetries and conservation laws) | Mathematical physics | 1918 | 3 | 1 | 5 |
+| 40 | P462 | Control theory becomes a mathematical discipline (Kalman state space; ICM 1966 section) | Optimization & control | 1960 | 3 | 1 | 5 |
+| 41 | P554 | Universality of rotational invariance at 2D criticality via coupling and integrability | Probability | 2020 | 3 | 1 | 5 |
+| 42 | P059 | Hardy-Littlewood circle method | Number theory | 1917 | 1 | 2 | 5 |
+| 43 | P096 | Superrigidity and arithmeticity of lattices | Number theory | 1975 | 1 | 2 | 5 |
+| 44 | P111 | Indian place-value notation and zero | Number theory | 499 | 1 | 2 | 5 |
+| 45 | P123 | Diophantus and the Arithmetica (symbolic algebra and Diophantine problems) | Algebra | 250 | 1 | 2 | 5 |
+| 46 | P125 | Sharaf al-Din al-Tusi | Algebra | 1165 | 1 | 2 | 5 |
+| 47 | P129 | Kerala series (Madhava-Gregory-Leibniz school) | Analysis | 1501 | 1 | 2 | 5 |
+| 48 | P137 | Chinese remainder theorem | Number theory | 300 | 1 | 2 | 5 |
+| 49 | P147 | Seki: resultants, determinants, elimination | Algebra | 1685 | 1 | 2 | 5 |
+| 50 | P148 | Interpolation and finite differences in Chinese astronomy and mathematics | Numerical analysis | 544 | 1 | 2 | 5 |
+| 51 | P149 | Numerical solution of polynomial equations in China (Ruffini-Horner) | Numerical analysis | 620 | 1 | 2 | 5 |
+| 52 | P152 | De Moivre: normal approximation to the binomial | Probability | 1733 | 1 | 2 | 5 |
+| 53 | P155 | Binomial coefficient triangle in China | Combinatorics | 1050 | 1 | 2 | 5 |
+| 54 | P156 | Discovery of incommensurable magnitudes (irrationality of the diagonal) | Geometry | -450 | 1 | 2 | 5 |
+| 55 | P160 | Al-Mahani: geometric problems reduced to algebra | Algebra | 860 | 1 | 2 | 5 |
+| 56 | P172 | Islamic work on the parallel postulate | Logic & foundations | 870 | 1 | 2 | 5 |
+| 57 | P175 | Pingala: combinatorics of poetic metres | Combinatorics | -300 | 1 | 2 | 5 |
+| 58 | P178 | Ibn al-Haytham and Ibn Sinan: quadrature | Analysis | 870 | 1 | 2 | 5 |
+| 59 | P196 | Transmission of Hindu-Arabic numerals to the Islamic world and Europe | Number theory | 825 | 1 | 2 | 5 |
+| 60 | P330 | Sato-Tate conjecture (Frobenius angle distribution of elliptic curves) | Number theory | 1965 | 1 | 2 | 5 |
+| 61 | P332 | Restricted Burnside problem | Group & representation theory | 1940 | 1 | 2 | 5 |
+| 62 | P392 | Weyl's gauge theory (local scale invariance) | Differential geometry | 1918 | 1 | 2 | 5 |
+| 63 | P424 | Golod-Shafarevich: nil algebras produce infinite periodic groups | Group & representation theory | 1964 | 1 | 2 | 5 |
+| 64 | P443 | Elliptic integrals from lemniscate and elastica (Bernoulli) | Analysis | 1694 | 1 | 2 | 5 |
+| 65 | P058 | Geometric Langlands and its physics | Algebraic geometry | 1987 | 4 | 0 | 4 |
+| 66 | P061 | General relativity and the absolute differential calculus | Mathematical physics | 1913 | 4 | 0 | 4 |
+| 67 | P064 | Public-key cryptography | Computer science | 1976 | 4 | 0 | 4 |
+| 68 | P072 | Quantum groups from statistical mechanics | Algebra | 1985 | 4 | 0 | 4 |
+| 69 | P083 | Entropy of dynamical systems (Kolmogorov-Sinai entropy) | Analysis | 1958 | 4 | 0 | 4 |
+| 70 | P113 | Poncelet and projective geometry | Geometry | 1822 | 4 | 0 | 4 |
+| 71 | P201 | Information theory | Information & cryptography | 1948 | 4 | 0 | 4 |
+| 72 | P211 | Coherent sheaves (FAC) in algebraic geometry | Algebraic geometry | 1955 | 4 | 0 | 4 |
+| 73 | P222 | NP-completeness | Algorithms & complexity | 1971 | 4 | 0 | 4 |
+| 74 | P248 | Hodge theory of harmonic integrals | Algebraic geometry | 1935 | 4 | 0 | 4 |
+| 75 | P262 | Automata and formal verification | Logic & foundations | 1967 | 4 | 0 | 4 |
+| 76 | P285 | Global analysis and mathematical economics | Statistics & decision theory | 1970 | 4 | 0 | 4 |
+| 77 | P368 | Lyapunov stability | Dynamics | 1892 | 4 | 0 | 4 |
+| 78 | P442 | Fractal geometry: self-similarity, dimension and computer experiment (Mandelbrot) | Geometry | 1967 | 4 | 0 | 4 |
+| 79 | P448 | Beltrami and Klein models of non-Euclidean geometry | Geometry | 1868 | 4 | 0 | 4 |
+| 80 | P449 | Projective geometry from Renaissance perspective | Geometry | 1435 | 4 | 0 | 4 |
+| 81 | P458 | Complex numbers from the cubic: Cardano and Bombelli | Algebra | 1545 | 4 | 0 | 4 |
+| 82 | P469 | Calderon-Zygmund singular integrals in PDE | Differential equations | 1952 | 4 | 0 | 4 |
+| 83 | P063 | Computers enter proof: four colour theorem and the Kepler conjecture | Combinatorics | 1976 | 2 | 1 | 4 |
+| 84 | P103 | Kodaira vanishing via harmonic integrals | Geometry | 1953 | 2 | 1 | 4 |
+| 85 | P122 | Al-Karaji polynomial algebra | Algebra | 1010 | 2 | 1 | 4 |
+| 86 | P130 | Laplace's analytic probability | Probability | 1782 | 2 | 1 | 4 |
+| 87 | P158 | Al-Tusi: trigonometry as an independent discipline | Astronomy & trigonometry | 1250 | 2 | 1 | 4 |
+| 88 | P213 | Topological K-theory | Algebraic topology | 1959 | 2 | 1 | 4 |
+| 89 | P229 | Elementary topos theory | Category & homological algebra | 1971 | 2 | 1 | 4 |
+| 90 | P253 | Computer algebra and Groebner bases | Computer science | 1970 | 2 | 1 | 4 |
+| 91 | P260 | Operator K-theory and KK-theory | Topology | 1979 | 2 | 1 | 4 |
+| 92 | P374 | Peano arithmetic axioms | Logic & foundations | 1888 | 2 | 1 | 4 |
+| 93 | P385 | Class field theory | Number theory | 1897 | 2 | 1 | 4 |
+| 94 | P400 | Russell paradox, type theory and Principia Mathematica | Logic & foundations | 1903 | 2 | 1 | 4 |
+| 95 | P423 | Lie-ring methods enter the Burnside problem (Magnus to Zelmanov) | Group & representation theory | 1937 | 2 | 1 | 4 |
+| 96 | P427 | Permutation-group algorithms meet complexity theory | Group & representation theory | 1980 | 2 | 1 | 4 |
+| 97 | P429 | Matrix algebra as an abstract calculus (Cayley) | Algebra | 1855 | 2 | 1 | 4 |
+| 98 | P453 | Map colouring and the four colour problem (Kempe and Heawood) | Graph theory | 1879 | 2 | 1 | 4 |
+| 99 | P459 | Trigonometry from astronomy: Hipparchus and chord tables | Astronomy & trigonometry | -140 | 2 | 1 | 4 |
+| 100 | P470 | Caffarelli-Kohn-Nirenberg partial regularity for Navier-Stokes | Fluid mechanics | 1976 | 2 | 1 | 4 |
+| 101 | P477 | Explicit expander graphs from property (T) (Margulis) | Graph theory | 1973 | 2 | 1 | 4 |
+| 102 | P478 | Analysis of algorithms (Knuth) | Computer science | 1968 | 2 | 1 | 4 |
+| 103 | P480 | Mobius inversion on posets and incidence algebras (Rota) | Combinatorics | 1935 | 2 | 1 | 4 |
+| 104 | P504 | Ellipsoid method in combinatorial optimisation | Combinatorics | 1976 | 2 | 1 | 4 |
+| 105 | P514 | Teichmuller dynamics: homogeneous dynamics on moduli spaces | Algebraic geometry | 1982 | 2 | 1 | 4 |
+| 106 | P003 | Probability from games of chance | Probability | 1657 | 3 | 0 | 3 |
+| 107 | P023 | Weil conjectures | Number theory | 1949 | 3 | 0 | 3 |
+| 108 | P143 | Napier's logarithms | Analysis | 1614 | 3 | 0 | 3 |
+| 109 | P154 | Taylor: finite differences and Taylor's theorem | Analysis | 1715 | 3 | 0 | 3 |
+| 110 | P169 | Clairaut: curves in space | Differential geometry | 1731 | 3 | 0 | 3 |
+| 111 | P188 | Potential theory in celestial mechanics and physics | Differential equations | 1785 | 3 | 0 | 3 |
+| 112 | P200 | Computability theory (Church-Turing) | Logic & foundations | 1936 | 3 | 0 | 3 |
+| 113 | P205 | Finite element method | Numerical analysis | 1943 | 3 | 0 | 3 |
+| 114 | P215 | Nash equilibrium: existence via fixed points | Game theory & economics | 1950 | 3 | 0 | 3 |
+| 115 | P244 | Hyperfunctions and algebraic analysis | Algebra | 1959 | 3 | 0 | 3 |
+| 116 | P246 | Conformal field theory | Group & representation theory | 1984 | 3 | 0 | 3 |
+| 117 | P256 | Intersection cohomology | Algebraic topology | 1977 | 3 | 0 | 3 |
+| 118 | P258 | Hales–Jewett theorem and structured Ramsey partitions | Combinatorics | 1963 | 3 | 0 | 3 |
+| 119 | P261 | Kodaira-Spencer deformation theory | Category & homological algebra | 1958 | 3 | 0 | 3 |
+| 120 | P266 | Markov chain Monte Carlo and the Bayesian revival | Statistics & decision theory | 1953 | 3 | 0 | 3 |
+| 121 | P275 | Mathematical economics via fixed-point theorems | Statistics & decision theory | 1954 | 3 | 0 | 3 |
+| 122 | P283 | Feigenbaum universality (period-doubling universality) | Dynamics | 1978 | 3 | 0 | 3 |
+| 123 | P381 | Axiomatic set theory (Zermelo) | Logic & foundations | 1908 | 3 | 0 | 3 |
+| 124 | P384 | Representation theory of finite groups | Group & representation theory | 1896 | 3 | 0 | 3 |
+| 125 | P389 | p-adic numbers | Number theory | 1899 | 3 | 0 | 3 |
+| 126 | P416 | Mathematical biology | Applied mathematics | 1920 | 3 | 0 | 3 |
+| 127 | P467 | KAM theory: stability of Hamiltonian systems | Dynamics | 1954 | 3 | 0 | 3 |
+| 128 | P497 | KP hierarchy and the infinite Grassmannian (Sato) | Group & representation theory | 1981 | 3 | 0 | 3 |
+| 129 | P498 | Canonical bases and character sheaves: geometry in representation theory | Group & representation theory | 1979 | 3 | 0 | 3 |
+| 130 | P501 | Pattern theory and variational image models (Grenander, Mumford) | Analysis | 1976 | 3 | 0 | 3 |
+| 131 | P507 | Quantum computation: Shor's algorithm | Computer science | 1985 | 3 | 0 | 3 |
+| 132 | P520 | Ito calculus and stochastic differential equations | Probability | 1944 | 3 | 0 | 3 |
+| 133 | P016 | Weil's dictionary: number fields, function fields, Riemann surfaces | Number theory | 1939 | 1 | 1 | 3 |
+| 134 | P032 | Noncommutative geometry | Geometry | 1980 | 1 | 1 | 3 |
+| 135 | P035 | Symplectic topology | Differential geometry | 1985 | 1 | 1 | 3 |
+| 136 | P050 | Erdős discrepancy problem | Combinatorics | 1936 | 1 | 1 | 3 |
+| 137 | P062 | Hyperbolic geometry in three-manifold topology (Thurston) | Topology | 1982 | 1 | 1 | 3 |
+| 138 | P076 | Sullivan's dictionary: rational maps and Kleinian groups | Analysis | 1983 | 1 | 1 | 3 |
+| 139 | P085 | Shannon capacity of graphs and the Lovász theta function | Combinatorics | 1956 | 1 | 1 | 3 |
+| 140 | P090 | D-modules and the Riemann-Hilbert correspondence | Algebra | 1980 | 1 | 1 | 3 |
+| 141 | P102 | Real-variable methods in complex analysis (Hardy spaces) | Complex analysis | 1971 | 1 | 1 | 3 |
+| 142 | P110 | Oresme: graphing motion (configurations of qualities and motions) | Group & representation theory | 1350 | 1 | 1 | 3 |
+| 143 | P115 | Method of indivisibles (Cavalieri, Torricelli, Wallis) | Analysis | 1635 | 1 | 1 | 3 |
+| 144 | P135 | Lagrange's analytical mechanics | Mathematical physics | 1788 | 1 | 1 | 3 |
+| 145 | P136 | Khayyam cubics via conics | Algebraic geometry | 1070 | 1 | 1 | 3 |
+| 146 | P141 | Indian sine (jya) and the birth of trigonometric functions | Astronomy & trigonometry | 499 | 1 | 1 | 3 |
+| 147 | P144 | Hamiltonian optics and mechanics | Mathematical physics | 1828 | 1 | 1 | 3 |
+| 148 | P153 | Jacobi: four squares via elliptic (theta) functions | Number theory | 1829 | 1 | 1 | 3 |
+| 149 | P163 | Newton: infinite series and binomial theorem | Analysis | 1685 | 1 | 1 | 3 |
+| 150 | P164 | Euclid's Elements VII–IX: deductive arithmetic | Number theory | -300 | 1 | 1 | 3 |
+| 151 | P176 | Babylonian astronomical parameters enter Greek astronomy | Astronomy & trigonometry | -147 | 1 | 1 | 3 |
+| 152 | P177 | Al-Karaji: binomial coefficients and early induction | Algebra | 1000 | 1 | 1 | 3 |
+| 153 | P180 | Lagrange's algebraic foundation for the calculus | Analysis | 1797 | 1 | 1 | 3 |
+| 154 | P181 | Kirchhoff's circuit laws and the graph-theoretic treatment of networks | Graph theory | 1845 | 1 | 1 | 3 |
+| 155 | P182 | Abel's theorem and abelian integrals | Algebraic geometry | 1829 | 1 | 1 | 3 |
+| 156 | P184 | Eudoxus' homocentric spheres | Astronomy & trigonometry | -370 | 1 | 1 | 3 |
+| 157 | P185 | De Moivre: probability and the trigonometry-complex number link | Probability | 1707 | 1 | 1 | 3 |
+| 158 | P197 | Pythagorean number theory and musical ratios | Number theory | -450 | 1 | 1 | 3 |
+| 159 | P226 | Algorithmic information theory (randomness via program length) | Algorithms & complexity | 1965 | 1 | 1 | 3 |
+| 160 | P250 | Combinatorial game theory (impartial and partisan games) | Game theory & economics | 1935 | 1 | 1 | 3 |
+| 161 | P267 | Cellular automata and self-reproducing machines | Algorithms & complexity | 1951 | 1 | 1 | 3 |
+| 162 | P268 | Computational geometry | Computer science | 1975 | 1 | 1 | 3 |
+| 163 | P291 | Tate's thesis and adelic harmonic analysis | Number theory | 1967 | 1 | 1 | 3 |
+| 164 | P292 | Bass-Serre theory | Group & representation theory | 1976 | 1 | 1 | 3 |
+| 165 | P301 | Bloch-Kato / norm residue | Algebraic topology | 1970 | 1 | 1 | 3 |
+| 166 | P316 | Fundamental lemma (Langlands programme) | Number theory | 1983 | 1 | 1 | 3 |
+| 167 | P355 | Tensor calculus (absolute differential calculus of Ricci and Levi-Civita) | Differential geometry | 1888 | 1 | 1 | 3 |
+| 168 | P375 | Biometric mathematical statistics | Statistics & decision theory | 1894 | 1 | 1 | 3 |
+| 169 | P378 | Vector analysis | Analysis | 1881 | 1 | 1 | 3 |
+| 170 | P383 | Brouwer topology | Topology | 1910 | 1 | 1 | 3 |
+| 171 | P386 | Heaviside operational calculus | Analysis | 1892 | 1 | 1 | 3 |
+| 172 | P388 | Intuitionism | Logic & foundations | 1907 | 1 | 1 | 3 |
+| 173 | P394 | Hilbert's Nullstellensatz and algebraic geometry as ideal theory | Algebraic geometry | 1893 | 1 | 1 | 3 |
+| 174 | P411 | Schur: polynomial representations of GL(n) and invariant theory | Group & representation theory | 1901 | 1 | 1 | 3 |
+| 175 | P419 | Burnside's use of character theory for finite group theory | Group & representation theory | 1896 | 1 | 1 | 3 |
+| 176 | P430 | Spectral ideas: eigenvalues from vibrating systems and quadratic forms | Algebra | 1743 | 1 | 1 | 3 |
+| 177 | P441 | Complex dynamics: iteration of rational functions (Julia and Fatou) | Complex analysis | 1917 | 1 | 1 | 3 |
+| 178 | P444 | Fundamental theorem of algebra: analytic and topological proofs | Algebra | 1799 | 1 | 1 | 3 |
+| 179 | P451 | Abstract topological spaces from point-set analysis | Topology | 1909 | 1 | 1 | 3 |
+| 180 | P455 | Lorentz group and Minkowski spacetime: group theory enters physics | Differential geometry | 1906 | 1 | 1 | 3 |
+| 181 | P474 | Hida theory: p-adic families of modular forms | Number theory | 1986 | 1 | 1 | 3 |
+| 182 | P495 | Finite-gap integration of soliton equations | Differential equations | 1974 | 1 | 1 | 3 |
+| 183 | P499 | Mixed Hodge theory (Deligne) | Algebraic geometry | 1971 | 1 | 1 | 3 |
+| 184 | P521 | Constructive quantum field theory | Mathematical physics | 1967 | 1 | 1 | 3 |
+| 185 | P528 | Chowla cosine problem via Cayley graph eigenvalues and MaxCut | Functional & harmonic analysis | 2025 | 1 | 1 | 3 |
+| 186 | P540 | Probabilistic construction of Liouville conformal field theory | Probability | 1985 | 1 | 1 | 3 |
+| 187 | P001 | Algebra as a discipline (al-Khwarizmi, al-Jabr) | Algebra | 820 | 2 | 0 | 2 |
+| 188 | P031 | Geometric group theory | Algebra | 1981 | 2 | 0 | 2 |
+| 189 | P033 | Gauge theory transforms four-manifold topology | Topology | 1983 | 2 | 0 | 2 |
+| 190 | P036 | Monstrous moonshine | Algebra | 1979 | 2 | 0 | 2 |
+| 191 | P055 | K-theory and Grothendieck-Riemann-Roch: algebraic geometry enters topology | Topology | 1958 | 2 | 0 | 2 |
+| 192 | P060 | Brownian motion: from physics and finance to measure on path space | Probability | 1900 | 2 | 0 | 2 |
+| 193 | P067 | Cobordism: homotopy computes manifold invariants | Topology | 1954 | 2 | 0 | 2 |
+| 194 | P109 | Analytic geometry (Descartes, Fermat) | Geometry | 1637 | 2 | 0 | 2 |
+| 195 | P116 | Pascal's arithmetical triangle | Probability | 1665 | 2 | 0 | 2 |
+| 196 | P118 | Differential geometry of surfaces (Clairaut, Euler, Monge, Gauss) | Differential geometry | 1767 | 2 | 0 | 2 |
+| 197 | P124 | Gauss's Disquisitiones Arithmeticae | Number theory | 1801 | 2 | 0 | 2 |
+| 198 | P132 | Least squares | Statistics & decision theory | 1805 | 2 | 0 | 2 |
+| 199 | P138 | Impossibility of solving the general quintic by radicals | Algebra | 1799 | 2 | 0 | 2 |
+| 200 | P142 | Euler's Introductio in analysin infinitorum | Analysis | 1748 | 2 | 0 | 2 |
+| 201 | P157 | Euler: geodesics from mechanics | Differential geometry | 1732 | 2 | 0 | 2 |
+| 202 | P162 | D'Alembert and Euler: the wave equation and partial differential equations | Differential equations | 1749 | 2 | 0 | 2 |
+| 203 | P167 | Pluecker: line geometry and algebraic curves | Geometry | 1839 | 2 | 0 | 2 |
+| 204 | P190 | Euler: complex logarithms and exponentials | Complex analysis | 1748 | 2 | 0 | 2 |
+| 205 | P194 | Kepler's Nova stereometria doliorum vinariorum (infinitesimal volumes of solids of revolution) | Analysis | 1615 | 2 | 0 | 2 |
+| 206 | P198 | Regiomontanus: trigonometry separated from astronomy in Europe | Astronomy & trigonometry | 1533 | 2 | 0 | 2 |
 | 207 | P204 | Fermi-Pasta-Ulam problem and solitons | Differential equations | 1965 | 2 | 0 | 2 |
 | 208 | P218 | Catastrophe theory | Dynamics | 1969 | 2 | 0 | 2 |
 | 209 | P220 | Monte Carlo method | Numerical analysis | 1949 | 2 | 0 | 2 |
@@ -431,8 +431,8 @@ Score = inbound links from other events + 2 x weakness (low/medium confidence on
 | 12 CE | 1 | 0 | 1 |
 | 13 CE | 2 | 0 | 2 |
 | 14 CE | 1 | 0 | 1 |
-| 15 CE | 2 | 0 | 2 |
-| 16 CE | 5 | 2 | 3 |
+| 15 CE | 1 | 0 | 1 |
+| 16 CE | 6 | 2 | 4 |
 | 17 CE | 24 | 5 | 19 |
 | 18 CE | 32 | 6 | 26 |
 | 19 CE | 74 | 16 | 58 |
