@@ -40,7 +40,7 @@ P198,Regiomontanus: trigonometry separated from astronomy in Europe,1533,False,A
 P458,Complex numbers from the cubic: Cardano and Bombelli,1545,False,Algebra,birth-by-abstraction,source-first,7,Gerolamo Cardano; Rafael Bombelli; Niccolo Tartaglia; René Descartes; Jean-Robert Argand; Carl Friedrich Gauss,events/P458/
 P119,Archimedean statics and hydrostatics,1586,True,Applied mathematics,birth-by-fusion,direct,3,Archimedes of Syracuse,events/P119/
 P140,Viete: symbolic algebra (the analytic art),1591,False,Algebra,reification,source-first,7,Francois Viete; Rene Descartes; Frans van Schooten; Thomas Harriot,events/P140/
-P193,Viete: trigonometry applied to algebra (van Roomen's problem),1593,False,Algebra,technique-transfer,direct,6,Francois Viete; Adriaan van Roomen,events/P193/
+P193,Viete: trigonometry applied to algebra (van Roomen's problem),1593,False,Algebra,technique-transfer,direct,7,Francois Viete; Adriaan van Roomen,events/P193/
 P165,Kepler's laws of planetary motion,1609,False,Astronomy & trigonometry,import-from-outside,source-first,5,Johannes Kepler; Isaac Newton,events/P165/
 P143,Napier's logarithms,1614,False,Analysis,birth-by-fusion,source-first,4,John Napier; Henry Briggs,events/P143/
 P194,Kepler's Nova stereometria doliorum vinariorum (infinitesimal volumes of solids of revolution),1615,False,Analysis,technique-transfer,source-first,5,Johannes Kepler; Bonaventura Cavalieri; Archimedes; John Wallis,events/P194/
@@ -82,7 +82,7 @@ P430,Spectral ideas: eigenvalues from vibrating systems and quadratic forms,1743
 P005,Analytic number theory I: Euler's product and Dirichlet's characters,1744,False,Number theory,birth-by-fusion,source-first,6,Leonhard Euler; Peter Gustav Lejeune Dirichlet; Adrien-Marie Legendre,events/P005/
 P142,Euler's Introductio in analysin infinitorum,1748,False,Analysis,reification,source-first,5,Leonhard Euler; Johann Bernoulli,events/P142/
 P190,Euler: complex logarithms and exponentials,1748,False,Complex analysis,birth-by-fusion,source-first,7,Leonhard Euler; Johann Bernoulli; Roger Cotes,events/P190/
-P162,D'Alembert and Euler: the wave equation and partial differential equations,1749,False,Differential equations,import-from-outside,source-first,5,Jean le Rond d'Alembert; Leonhard Euler; Daniel Bernoulli; Brook Taylor; Joseph-Louis Lagrange,events/P162/
+P162,D'Alembert and Euler: the wave equation and partial differential equations,1749,False,Differential equations,import-from-outside,direct,6,Jean le Rond d'Alembert; Leonhard Euler; Daniel Bernoulli; Brook Taylor; Joseph-Louis Lagrange,events/P162/
 P445,Vibrating-string controversy and the general function concept,1750,False,Differential equations,import-from-outside,source-first,4,Jean le Rond d'Alembert; Leonhard Euler; Johann Bernoulli,events/P445/
 P558,Euler formulates the equations of fluid motion,1757,False,Fluid mechanics,field-emergence,direct,2,Leonhard Euler,events/P558/
 P120,Euler's polyhedron formula (V - E + F = 2),1758,False,Topology,birth-by-abstraction,source-first,5,Leonhard Euler; Simon Lhuilier,events/P120/
@@ -121,7 +121,7 @@ P006,Group theory from the solution of polynomial equations,1846,False,Algebra,b
 P009,Ideals and algebraic number theory,1846,False,Number theory,birth-by-abstraction,direct,8,Ernst Eduard Kummer; Richard Dedekind; Emmy Noether,events/P009/
 P066,"Boolean algebra: logic as algebra, then topology (Boole to Stone)",1847,False,Logic & foundations,dictionary-analogy,direct,8,George Boole; Edward V. Huntington; Henry M. Sheffer; Marshall H. Stone; Ernst Schroeder,events/P066/
 P457,Kirkman's schoolgirl problem and combinatorial designs,1847,False,Combinatorics,birth-by-abstraction,source-first,8,Thomas Kirkman; Jakob Steiner; Louise Cummings; Frank Yates; D. K. Ray-Chaudhuri,events/P457/
-P415,Dirichlet's principle,1851,False,Complex analysis,import-from-outside,source-first,8,Bernhard Riemann; Karl Weierstrass; David Hilbert; Peter Gustav Lejeune Dirichlet,events/P415/
+P415,Dirichlet's principle,1851,False,Complex analysis,import-from-outside,source-first,10,Bernhard Riemann; Karl Weierstrass; David Hilbert; Peter Gustav Lejeune Dirichlet,events/P415/
 P356,Riemann surfaces,1851,False,Complex analysis,birth-by-fusion,direct,7,Bernhard Riemann; Hermann Weyl; Victor Puiseux; Carl Neumann; Tibor Rado,events/P356/
 P382,The abstract group concept,1854,False,Group & representation theory,birth-by-abstraction,source-first,7,Arthur Cayley; Leopold Kronecker; Heinrich Weber; Walther von Dyck; William Burnside; Camille Jordan,events/P382/
 P429,Matrix algebra as an abstract calculus (Cayley),1855,False,Algebra,birth-by-abstraction,source-first,4,Arthur Cayley; Gotthold Eisenstein; James Joseph Sylvester,events/P429/
@@ -129,7 +129,7 @@ P559,Chebyshev’s theory of best uniform approximation,1857,False,Approximation
 P053,Riemann's zeta function and the prime number theorem,1859,False,Number theory,technique-transfer,source-first,7,Bernhard Riemann; Jacques Hadamard; Charles de la Vallee Poussin; Hans von Mangoldt; Pafnuty Chebyshev,events/P053/
 P406,Fuchs-Frobenius theory of regular singular points (Frobenius method),1866,False,Differential equations,technique-transfer,direct,6,Lazarus Fuchs; Ferdinand Georg Frobenius; Ludwig Schlesinger,events/P406/
 P452,Vortex atoms and the origin of knot tabulation,1867,False,Topology,import-from-outside,source-first,7,William Thomson (Lord Kelvin); Peter Guthrie Tait; Thomas Kirkman; Hermann von Helmholtz,events/P452/
-P448,Beltrami and Klein models of non-Euclidean geometry,1868,False,Geometry,technique-transfer,source-first,6,Eugenio Beltrami; Felix Klein; Arthur Cayley; Jules Houel,events/P448/
+P448,Beltrami and Klein models of non-Euclidean geometry,1868,False,Geometry,technique-transfer,direct,7,Eugenio Beltrami; Felix Klein; Arthur Cayley; Jules Houel,events/P448/
 P008,Riemannian geometry and manifolds,1868,False,Differential geometry,birth-by-abstraction,source-first,6,Bernhard Riemann; Carl Friedrich Gauss; Elwin Bruno Christoffel; Tullio Levi-Civita,events/P008/
 P373,Arithmetization of analysis and the construction of the real numbers,1869,False,Logic & foundations,reification,direct,9,Richard Dedekind; Georg Cantor; Karl Weierstrass; Charles Meray; Eduard Heine,events/P373/
 P397,Betti numbers and early combinatorial topology,1870,False,Topology,birth-by-abstraction,source-first,6,Enrico Betti; Bernhard Riemann; Johann Benedict Listing; Gustav Kirchhoff; Henri Poincaré,events/P397/
@@ -153,7 +153,7 @@ P374,Peano arithmetic axioms,1888,False,Logic & foundations,birth-by-abstraction
 P355,Tensor calculus (absolute differential calculus of Ricci and Levi-Civita),1888,False,Differential geometry,birth-by-abstraction,source-first,7,Gregorio Ricci-Curbastro; Tullio Levi-Civita; Elwin Christoffel; Woldemar Voigt,events/P355/
 P012,Commutative algebra from invariant theory and ideals,1890,False,Algebra,birth-by-abstraction,source-first,8,Richard Dedekind; David Hilbert; Emanuel Lasker; Emmy Noether; Wolfgang Krull; Bartel van der Waerden; Francis S. Macaulay; Oscar Zariski,events/P012/
 P386,Heaviside operational calculus,1892,False,Analysis,import-from-outside,source-first,8,Oliver Heaviside; Thomas Bromwich; Norbert Wiener; Harold Jeffreys; Jan Mikusinski,events/P386/
-P368,Lyapunov stability,1892,False,Dynamics,birth-by-abstraction,source-first,8,Aleksandr Lyapunov; Nikolay Chetaev; Rudolf Kalman; Joseph LaSalle,events/P368/
+P368,Lyapunov stability,1892,False,Dynamics,birth-by-abstraction,source-first,9,Aleksandr Lyapunov; Nikolay Chetaev; Rudolf Kalman; Joseph LaSalle,events/P368/
 P408,Abstract (axiomatic) rings and fields,1893,False,Algebra,birth-by-abstraction,direct,5,Richard Dedekind; Heinrich Weber; Ernst Steinitz; Abraham Fraenkel; Emmy Noether; Bartel van der Waerden,events/P408/
 P394,Hilbert's Nullstellensatz and algebraic geometry as ideal theory,1893,False,Algebraic geometry,dictionary-analogy,source-first,6,David Hilbert; Emanuel Lasker; Francis Sowerby Macaulay; Emmy Noether; Bartel Leendert van der Waerden,events/P394/
 P375,Biometric mathematical statistics,1894,False,Statistics & decision theory,import-from-outside,source-first,8,Karl Pearson; Raphael Weldon; Francis Galton; William Palin Elderton,events/P375/
@@ -161,7 +161,7 @@ P379,Italian algebraic geometry,1894,False,Algebra,birth-by-abstraction,source-f
 P011,Algebraic topology: Betti numbers to homology groups,1895,False,Algebraic topology,birth-by-abstraction,source-first,9,Enrico Betti; Henri Poincare; Samuel Eilenberg; Norman Steenrod; Solomon Lefschetz; Heinz Hopf,events/P011/
 P404,Borel sets and measure,1895,False,Analysis,birth-by-fusion,source-first,4,Emile Borel; Henri Lebesgue,events/P404/
 P419,Burnside's use of character theory for finite group theory,1896,False,Group & representation theory,technique-transfer,source-first,5,William Burnside; Georg Frobenius,events/P419/
-P065,Geometry of numbers (Minkowski),1896,False,Number theory,technique-transfer,direct,8,Hermann Minkowski; Adolf Hurwitz; J. W. S. Cassels,events/P065/
+P065,Geometry of numbers (Minkowski),1896,False,Number theory,technique-transfer,direct,9,Hermann Minkowski; Adolf Hurwitz; J. W. S. Cassels,events/P065/
 P384,Representation theory of finite groups,1896,False,Group & representation theory,birth-by-fusion,source-first,5,Georg Frobenius; William Burnside; Issai Schur,events/P384/
 P385,Class field theory,1897,False,Number theory,dictionary-analogy,source-first,8,Heinrich Weber; David Hilbert; Teiji Takagi; Emil Artin; Helmut Hasse; Leopold Kronecker,events/P385/
 P387,Axiomatisation of geometry,1899,False,Logic & foundations,reification,source-first,6,David Hilbert; Moritz Pasch; Giuseppe Peano; Oswald Veblen; George David Birkhoff,events/P387/

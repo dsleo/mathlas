@@ -21772,7 +21772,7 @@
     "d": "A new geometric proof, via the ellipsoid, of Hermite's bound on the minimum of a positive quadratic form; Minkowski later saw that only convexity and central symmetry were needed.",
     "ph": null,
     "c": "medium",
-    "n": "Minkowski's own 1893 publisher's announcement (reprinted in the 1910 edition of Geometrie der Zahlen) says he first proved Hermite's theorem anew in Crelle 107 and only afterwards noticed that the property of the ellipsoid rests on its being a centrally symmetric surface nowhere concave. The Crelle paper itself was not read.",
+    "n": "Minkowski's own 1893 publisher's announcement (reprinted in the 1910 edition of Geometrie der Zahlen) says he first proved Hermite's theorem anew in Crelle 107 and only afterwards noticed that the property of the ellipsoid rests on its being a centrally symmetric surface nowhere concave. Review R3-G4: the first page of the Crelle paper (pp. 278-, GDZ scan) was read: it treats positive quadratic forms with real coefficients as 'the analytic expression of simple geometric configurations, the regular systems of points arranged parallelepipedally', with classes defined by integral substitutions, which is the lattice-point view; the rest was not read.",
     "ev": [
      {
       "c": "Crossref record: Minkowski, Ueber die positiven quadratischen Formen und ueber kettenbruchaehnliche Algorithmen, Crelle 107 (1891) 278-297.",
@@ -21783,6 +21783,41 @@
      {
       "c": "Minkowski's Anzeige in the 1910 edition: he obtained a new, more fruitful proof of Hermite's theorem in vol. 107 of Crelle's Journal and then noticed that the property rests on the ellipsoid being a centrally symmetric nowhere-concave surface.",
       "s": "Minkowski, Geometrie der Zahlen (1910), Anzeige (archive.org full text, read)",
+      "u": "https://archive.org/details/geometriederzahl00minkrich",
+      "k": "primary_text"
+     },
+     {
+      "c": "Read: opening page of the paper (positive quadratic forms as the analytic expression of regular parallelepipedal point systems).",
+      "s": "Minkowski, Ueber die positiven quadratischen Formen und ueber kettenbruchaehnliche Algorithmen, Crelle 107 (1891) 278-297 (GDZ PPN243919689_0107)",
+      "u": "https://gdz.sub.uni-goettingen.de/id/PPN243919689_0107",
+      "k": "primary_publication"
+     }
+    ]
+   },
+   {
+    "r": "precursor",
+    "y": 1893,
+    "ye": null,
+    "p": "year",
+    "l": "Teubner announcement of Minkowski's book",
+    "w": "Anzeige zur Geometrie der Zahlen, Mitteilungen von B. G. Teubner, 1893, p. 7 (reprinted in the 1910 edition, pp. IV-V)",
+    "pe": [
+     "Hermann Minkowski"
+    ],
+    "d": "A publisher's announcement states the principle (a nowhere-concave centrally symmetric surface) and the title, and describes the planned eight chapters, before the book appeared.",
+    "ph": "Minkowski's geometry of numbers",
+    "c": "high",
+    "n": "The year is read from the page image of the 1910 edition: the heading says 'Mitteilungen von B. G. Teubner, 1893 S. 7' (the OCR text reads 1803), and the 1896 Ankündigung on the cover of the first instalment refers to the same place ('Mittheilungen von B. G. Teubner, 1893 S. 7') for the prehistory of the results and to articles in the Bulletin des sciences mathématiques (January 1893) and the Annales de l'École normale supérieure (February 1896). It names the principle and the title but gives no theorem with proof, so it stays a precursor and the first statement stays 1896; the original 1893 Teubner leaflet was not seen, only its reprint.",
+    "ev": [
+     {
+      "c": "Read (page image): heading 'Anzeige zur Geometrie der Zahlen (Mitteilungen von B. G. Teubner, 1893 S. 7)', with the principle for nowhere-concave centrally symmetric surfaces and the title.",
+      "s": "Minkowski, Geometrie der Zahlen (1910), Anzeige, pp. IV-V (Internet Archive geometriederzahl00minkrich)",
+      "u": "https://archive.org/details/geometriederzahl00minkrich",
+      "k": "primary_text"
+     },
+     {
+      "c": "Read: the 1896 Ankündigung refers to 'Mittheilungen von B. G. Teubner, 1893 S. 7' for the prehistory of the results.",
+      "s": "Minkowski, Geometrie der Zahlen (1910), Ankündigung (Internet Archive geometriederzahl00minkrich)",
       "u": "https://archive.org/details/geometriederzahl00minkrich",
       "k": "primary_text"
      }
@@ -21801,7 +21836,7 @@
     "d": "Minkowski presented lattice points in convex bodies, with the first and second theorems, as a geometric method for number theory.",
     "ph": null,
     "c": "high",
-    "n": "Confirmed from the text: the editors' preface to the 1910 edition says the first instalment, pp. 1-240, appeared in 1896 (the Ankuendigung on its cover is dated February 1896), and MacTutor agrees (240 of 256 pages in 1896). Chapter 3 section 30 (p. 73) is the theorem on centrally symmetric nowhere-concave bodies. Minkowski also printed the theorem in 'Sur les proprietes des nombres entiers qui sont derivees de l'intuition de l'espace' (Nouvelles annales, 3e s., 15 (1896) 393-403), a French translation of a paper for the Chicago congress of 1893 (Mathematical Papers, New York, 1896), which cites the book as 1896. Caveat: the 1910 edition reprints a Teubner announcement of the book (Mitteilungen, dated 1893 in the scan) that states the principle and the title earlier; an announcement is not a statement with proof, and its OCR year is uncertain, so 1896 remains the first printed statement found.",
+    "n": "Confirmed from the text: the editors' preface to the 1910 edition says the first instalment, pp. 1-240, appeared in 1896 (the Ankuendigung on its cover is dated February 1896), and MacTutor agrees (240 of 256 pages in 1896). Chapter 3 section 30 (p. 73) is the theorem on centrally symmetric nowhere-concave bodies. Minkowski also printed the theorem in 'Sur les proprietes des nombres entiers qui sont derivees de l'intuition de l'espace' (Nouvelles annales, 3e s., 15 (1896) 393-403), a French translation of a paper for the Chicago congress of 1893 (Mathematical Papers, New York, 1896), which cites the book as 1896. Caveat: the 1910 edition reprints a Teubner announcement of the book (Mitteilungen von B. G. Teubner, 1893, p. 7; year read from the page image in review R3-G4) that states the principle and the title earlier; it is recorded as a 1893 precursor because an announcement is not a statement with proof, so 1896 remains the first printed statement with theorem and proof.",
     "ev": [
      {
       "c": "Editors' preface (Hilbert, Speiser): the first instalment, pp. 1-240, appeared in 1896; the second was delayed and found as a manuscript after Minkowski's death.",
@@ -22049,7 +22084,7 @@
     ]
    }
   ],
-  "notes": "Direct review R2-R3b. Read: the 1910 edition of Geometrie der Zahlen (editors' preface, the announcement, contents), Minkowski's 1896 Nouvelles annales paper (Numdam), MacTutor Minkowski, Wikipedia (Minkowski; Geometry of numbers); Internet Archive metadata for 1907 and 1910, Open Library for Cassels 1959, Crossref for the 1891 Crelle paper. The 1896 first instalment contains the convex-body theorem (section 30), the unit, discriminant and class-number applications and the title, so the first statement, first application and naming all fall in 1896. Added the 1891 Crelle paper as a precursor and a 1896 first application. Open: the 1891 and 1896 texts were not read beyond the contents and the French paper; Teubner's announcement (dated 1893 in the scan) states the principle earlier but without proof; Hurwitz has no works listed and an MSC institution milestone (11H) was not verified; Hancock's 1939 history 'Development of the Minkowski Geometry of Numbers' is an earlier survey than Cassels.",
+  "notes": "Direct review R2-R3b. Read: the 1910 edition of Geometrie der Zahlen (editors' preface, the announcement, contents), Minkowski's 1896 Nouvelles annales paper (Numdam), MacTutor Minkowski, Wikipedia (Minkowski; Geometry of numbers); Internet Archive metadata for 1907 and 1910, Open Library for Cassels 1959, Crossref for the 1891 Crelle paper. The 1896 first instalment contains the convex-body theorem (section 30), the unit, discriminant and class-number applications and the title, so the first statement, first application and naming all fall in 1896. Added the 1891 Crelle paper as a precursor and a 1896 first application. Open: the 1891 and 1896 texts were not read beyond the contents and the French paper; Teubner's announcement (dated 1893 in the scan) states the principle earlier but without proof; Hurwitz has no works listed and an MSC institution milestone (11H) was not verified; Hancock's 1939 history 'Development of the Minkowski Geometry of Numbers' is an earlier survey than Cassels. Review R3-G4: the Teubner announcement is dated 1893 on the page image (heading and the cover Ankündigung agree) and is now a precursor milestone; the first page of the 1891 Crelle paper was read (lattice-point view of quadratic forms). Still open: the rest of the 1891 paper and the 1896 book text beyond the contents and French paper, Hurwitz's works, MSC 11H.",
   "catalogueDates": [
    [
     1889,
@@ -51270,8 +51305,10 @@
   "product": null,
   "why": "The vibrating string led to the wave equation and series solutions.",
   "cat": "Period run before 1850",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B"
+  },
   "shown": {
    "conceptual": {
     "y": 1749,
@@ -51314,10 +51351,10 @@
     "pe": [
      "Brook Taylor"
     ],
-    "d": "Taylor treats the fundamental mode of a vibrating string by a dynamical argument, before the partial differential equation.",
+    "d": "Taylor treats the fundamental mode of a vibrating string dynamically, finding that the acceleration of each point is proportional to its distance from the axis, before the partial differential equation.",
     "ph": "D'Alembert's solution",
-    "c": "medium",
-    "n": "Content summary is from general history; only title and year are confirmed by the record.",
+    "c": "high",
+    "n": "Read in the Internet Archive copy of the Philosophical Transactions paper (Latin; Lemma 2 makes the acceleration of a point of the string proportional to the curvature, Problem 1 'Definire motum Nervi tensi' treats a string drawn aside at one point). Taylor repeats the result as Proposition 22 of the Methodus incrementorum (1715; read): the acceleration of each point is proportional to its distance from the axis, so all points reach the axis together and the vibrations have the period of a pendulum, the 'companion of the cycloid' shape. Lagrange (Miscellanea Taurinensia I, 1759, art. 10) credits Taylor as the first to subject the string to calculation and cites the Methodus incrementorum. Crossref gives Phil. Trans. 28 (1713) pp. 26-32.",
     "ev": [
      {
       "c": "Crossref record: De motu nervi tensi, Philosophical Transactions, 1713.",
@@ -51330,6 +51367,18 @@
       "s": "MacTutor, biography of Taylor",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Taylor/",
       "k": "history_page"
+     },
+     {
+      "c": "Read: Lemma 2 (acceleration of a point of the string proportional to the curvature) and Problem 1 (motion of the stretched string), Phil. Trans. 28 (1713) 26-32.",
+      "s": "Taylor, De motu nervi tensi (Internet Archive paper-doi-10_1098_rstl_1713_0004, JSTOR scan)",
+      "u": "https://archive.org/details/paper-doi-10_1098_rstl_1713_0004",
+      "k": "primary_publication"
+     },
+     {
+      "c": "Read: Proposition XXII of the Methodus incrementorum directa et inversa (1715), the same result for the string: all points reach the axis together, period like a pendulum.",
+      "s": "Taylor, Methodus incrementorum directa et inversa, London 1715 (Internet Archive bim_eighteenth-century_methodus-incrementorum-d_taylor-brook_1715)",
+      "u": "https://archive.org/details/bim_eighteenth-century_methodus-incrementorum-d_taylor-brook_1715",
+      "k": "primary_publication"
      }
     ]
    },
@@ -51440,6 +51489,35 @@
    },
    {
     "r": "key_development",
+    "y": 1759,
+    "ye": null,
+    "p": "year",
+    "l": "Lagrange: vibrating string as a limit of n masses",
+    "w": "J.-L. de la Grange, Recherches sur la nature et la propagation du son, Miscellanea philosophico-mathematica Societatis privatae Taurinensis, tomus I, Turin 1759 (chapter II, Des vibrations des cordes)",
+    "pe": [
+     "Joseph-Louis Lagrange"
+    ],
+    "d": "Lagrange treats the sonorous fibre as a finite number of elastic particles, shows the equations are those of the string loaded with masses, passes to infinitely many masses, and judges the earlier calculations of Taylor, d'Alembert and Euler against his own solution.",
+    "ph": "Euler's general solutions",
+    "c": "high",
+    "n": "Read in the Internet Archive scan of tome I (title page MDCCLIX = 1759): the introduction says the particle problem has the same equations as the problem of vibrating strings 'de chordis vibrantibus', so that increasing the number to infinity compares the sound fibre with a string; chapter II (arts. 9-14) summarises Taylor (art. 10, Methodus incrementorum), d'Alembert (the two Berlin memoirs, general solution with arbitrary functions, curves held to be continuous) and Euler (the next volume, art. 13, arbitrary curves), and notes d'Alembert had seen the relation between the two problems. His own solution by finite masses (n -> infinity) is his answer to the controversy; the details of that solution were not followed through. The Internet Archive scan is the source; no separate bibliographic record was fetched. Role key_development: it changes how the controversy is argued (discrete model, no appeal to continuous functions).",
+    "ev": [
+     {
+      "c": "Read: title page of tome I (Augustae Taurinorum, Ex typographia regia, MDCCLIX); the memoir 'Recherches sur la nature et la propagation du son par M. Louis de la Grange', its introduction and chapter II 'Des vibrations des cordes'.",
+      "s": "Miscellanea philosophico-mathematica Societatis privatae Taurinensis, tomus I, Turin 1759 (Internet Archive miscellaneaphilo01acca)",
+      "u": "https://archive.org/details/miscellaneaphilo01acca",
+      "k": "primary_publication"
+     },
+     {
+      "c": "MacTutor: Lagrange's major study on vibrating strings appeared in the Turin Mélanges, engaging Euler and d'Alembert.",
+      "s": "MacTutor, Joseph-Louis Lagrange",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
     "y": 1766,
     "ye": null,
     "p": "year",
@@ -51448,10 +51526,10 @@
     "pe": [
      "Leonhard Euler"
     ],
-    "d": "A later Euler paper on the same problem, in the Turin Mélanges, by which the debate continued.",
+    "d": "Euler restates the string problem with two arbitrary functions, allows initial curves that need no analytic expression or continuity law, and answers the objections of d'Alembert and Bernoulli.",
     "ph": null,
-    "c": "low",
-    "n": "Role is a lead: I confirmed the title and year only.",
+    "c": "high",
+    "n": "Read in the Internet Archive scan of Mélanges de philosophie et de mathématique de la Société royale de Turin, tome III (title page: pour les années 1762-1765, MDCCLXVI; the contents list 'Éclaircissemens sur le mouvement des cordes vibrantes, par M. Euler', p. 1). Articles I-XXVII read: the three conditions of earlier authors, the string given any shape 'which could not be expressed by any analytic equation', the integral y = Gamma:(x+ct) + Delta:(x-ct) with two arbitrary functions, and the remark that the functions need follow no law of continuity. The Euler Archive (E317) gives pp. 1-26. The role (clarification in the controversy) is read from the text, not only from the record.",
     "ev": [
      {
       "c": "Euler Archive: Éclaircissemens sur le mouvement des cordes vibrantes, dated 1766",
@@ -51464,6 +51542,12 @@
       "s": "MacTutor, Joseph-Louis Lagrange",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
       "k": "history_page"
+     },
+     {
+      "c": "Read: title page 1766 (volume for 1762-1765) and Euler's articles I-XXVII: arbitrary, discontinuous initial figures; solution with two arbitrary functions.",
+      "s": "Mélanges de philosophie et de mathématique de la Société royale de Turin, tome III (Internet Archive mlangesdephilo03soci)",
+      "u": "https://archive.org/details/mlangesdephilo03soci",
+      "k": "primary_publication"
      }
     ]
    }
@@ -51510,8 +51594,8 @@
     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Bernoulli_Daniel/",
     "works": [
      {
-      "c": "Réflexions et éclaircissemens sur les nouvelles vibrations des cordes (1753)",
-      "y": 1753,
+      "c": "Réflexions et éclaircissemens sur les nouvelles vibrations des cordes (année 1753, printed 1755)",
+      "y": 1755,
       "u": "https://zbmath.org/?q=an:1490.01021",
       "w": "proposed superposition of modes (zbMATH lists the 2021 translation)"
      }
@@ -51538,15 +51622,15 @@
     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
     "works": [
      {
-      "c": "Recherches sur la nature et la propagation du son (Miscellanea Taurinensia, 1759)",
+      "c": "Recherches sur la nature et la propagation du son (Miscellanea Taurinensia, tome I, 1759)",
       "y": 1759,
-      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
-      "w": "treated the vibrating string by discrete masses (per MacTutor; no record found)"
+      "u": "https://archive.org/details/miscellaneaphilo01acca",
+      "w": "treats the string as n loaded masses with n -> infinity (read in the 1759 volume)"
      }
     ]
    }
   ],
-  "notes": "Review R2b, partial. Read in open scans of the Berlin Academy volumes: d'Alembert's memoir (annee 1747, printed 1749), the volume with Euler's memoir (annee 1748, printed 1750) and Bernoulli's memoirs (annee 1753, printed 1755), plus Lagrange's Oeuvres (vol. 1) for his later string papers. Changes: d'Alembert's 1749 printing year confirmed (range 1746-1749 resolved), Bernoulli moved from 1753 to the printing year 1755. Outstanding: Taylor 1713 and Euler 1766 were confirmed only by Crossref and Euler Archive records; Lagrange's Recherches sur la nature et la propagation du son (Miscellanea Taurinensia t. I, 1759-62) is a likely missing key development whose printing year was not fixed; the d'Alembert and Euler papers were read at the opening and solution passages, not through. Stays source-first.",
+  "notes": "Review R3-G4 (promoted, grade B). Read: Taylor's De motu nervi tensi (1713) and Methodus incrementorum prop. 22 (1715), Lagrange's Recherches (Miscellanea Taurinensia I, 1759), Euler's Eclaircissemens (Mélanges de Turin III, 1766, arts. I-XXVII), plus the earlier R2b readings of the Berlin volumes (d'Alembert 1749, Euler 1750, Bernoulli 1755). Changes: Lagrange 1759 added as a key development (title page 1759); Taylor and Euler 1766 raised to high on the texts; Bernoulli year corrected in the people list. The d'Alembert and Euler 1750 papers were read at the opening and solution passages, not to the end; Euler's 1766 paper was read through art. XXVII (the later articles were not read); Lagrange's own solution by finite masses was not worked through. Open: later Euler and d'Alembert papers on the string (1760s) and the 2021 Bernoulli translation record were not examined.",
   "catalogueDates": [
    "1746-1755",
    null,
@@ -60770,6 +60854,35 @@
   "ms": [
    {
     "r": "precursor",
+    "y": 1579,
+    "ye": null,
+    "p": "year",
+    "l": "Viete's Canon mathematicus (trigonometric tables and triangle rules)",
+    "w": "Francois Viete, Canon mathematicus seu ad triangula, with the Universalium inspectionum ad Canonem mathematicum liber singularis, 1579",
+    "pe": [
+     "Francois Viete"
+    ],
+    "d": "Viete's tables of plane and spherical triangles with the rules for using them, including relations between arcs and their doubles.",
+    "ph": "The challenge",
+    "c": "medium",
+    "n": "The Internet Archive microfilm scan (title 'Francisci Vietaei Opera mathematica', date 1579; the title page reads Canon mathematicus seu ad triangula ... Universalium inspectionum ... libro singulari) was searched in its OCR text: it holds trigonometric tables for plane and spherical triangles and rules for sines, versed sines and the double arc ('sinus duplus', 'peripheria dupla'), but no general multiple-angle theorems (triple to quintuple angle) were found, and the OCR is poor, so the full text was not read. MacTutor says Viete began publishing the Canon mathematicus in 1571 and that it contains the trigonometric tables and their construction; the 1579 date of the printed work is that of the scan record. The multiple-angle theorems of the first statement are stated in Variorum VIII (1593), which says the analytic part of the Canon was condensed into the 'mystery of angular sections'.",
+    "ev": [
+     {
+      "c": "Search of the OCR text: title page (Canon mathematicus seu ad triangula; Canonion triangulorum laterum rationalium; Universalium inspectionum liber singularis), trigonometric tables, rules for the double arc and for triangles; no multiple-angle theorems found.",
+      "s": "Francisci Vietaei Opera mathematica 1579 (Internet Archive bim_early-english-books-1475-1640_francisci-vietaei-opera-_vieta-franciscus_1579)",
+      "u": "https://archive.org/details/bim_early-english-books-1475-1640_francisci-vietaei-opera-_vieta-franciscus_1579",
+      "k": "primary_publication"
+     },
+     {
+      "c": "MacTutor: Viete began publishing the Canon Mathematicus in 1571; it covers trigonometry with tables and the mathematics of their construction.",
+      "s": "MacTutor, biography of Viete",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Viete/",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "precursor",
     "y": 1591,
     "ye": null,
     "p": "year",
@@ -60845,7 +60958,7 @@
     "d": "Viete states, without proof, how the sides of right triangles with an angle that is a multiple (double, triple, quadruple, quintuple) of a given acute angle are polynomials in the sides of the first triangle, the algebra of angle multiplication.",
     "ph": null,
     "c": "medium",
-    "n": "Read in the Internet Archive scan (chapter X, theorem I and the rules for the double to quintuple angle). Viete says there that he has condensed the analytic part of his Canon mathematicus (first issued in 1579) into the 'mystery of angular sections'; the 1579 Canon was not read, so an earlier statement is not excluded. Alexander Anderson (1615 and later) says Viete had published only bare theorems, in book VIII and in the reply to van Roomen, and supplied the proofs himself. The statement applies the idea to triangles, not yet to a polynomial equation: that is the 1595 reply.",
+    "n": "Read in the Internet Archive scan (chapter X, theorem I and the rules for the double to quintuple angle). Viete says there that he has condensed the analytic part of his Canon mathematicus (first issued in 1579) into the 'mystery of angular sections'; the 1579 Canon was searched in review R3-G4 (OCR of the Internet Archive scan): it has tables, triangle rules and double-arc relations but no general multiple-angle theorems were found, so 1593 stands as the first statement of the multiple-angle theorems; the OCR is poor and the Canon was not read through. Alexander Anderson (1615 and later) says Viete had published only bare theorems, in book VIII and in the reply to van Roomen, and supplied the proofs himself. The statement applies the idea to triangles, not yet to a polynomial equation: that is the 1595 reply.",
     "ev": [
      {
       "c": "Chapter X, theorem I: for right triangles whose acute angles stand in a ratio of numbers, the hypotenuse, base and perpendicular of the multiple-angle triangle are given as powers and combinations of those of the first, with explicit rules for the double, triple, quadruple and quintuple angle.",
@@ -60880,7 +60993,7 @@
     "d": "Viete recognises van Roomen's degree-45 equation as a relation between chords of multiple arcs, solves it by the angular-section theorems, and gives the root as a chord.",
     "ph": "Viete's solution",
     "c": "medium",
-    "n": "Merged with the former first_statement entry for the same reply (schema rule 2). The 1595 year and title come from a journal reference list (Revista Brasileira de Historia da Matematica) and MacTutor; the 1595 print was not seen. Viete's text as reprinted in the 1646 Opera (pp. 305-313, read) quotes van Roomen's problem verbatim, says the construction is taught by the 'Analysis angularium sectionum liber primus seu catholicus' and lists those theorems, and shows that the problem asks to divide an angle into three and five parts; the reading of the equation as a trigonometric relation is MacTutor's. 'First' application of trigonometry to an algebraic equation is not verified beyond the absence of an earlier case in the sources read.",
+    "n": "Merged with the former first_statement entry for the same reply (schema rule 2). The 1595 year and title come from a journal reference list (Revista Brasileira de Historia da Matematica) and MacTutor; the 1595 print was not seen. Viete's text as reprinted in the 1646 Opera (pp. 305-313, read) quotes van Roomen's problem verbatim, says the construction is taught by the 'Analysis angularium sectionum liber primus seu catholicus' and lists those theorems, and shows that the problem asks to divide an angle into three and five parts; the reading of the equation as a trigonometric relation is MacTutor's. 'First' application of trigonometry to an algebraic equation is not verified beyond the absence of an earlier case in the sources read. Review R3-G4: no scan of the 1595 print (Mettayer, Paris) could be found on the Internet Archive, Open Library, Google Books (rate-limited) or Gallica (blocked); the 1646 Opera reprint was read, so the text is checked but not the 1595 imprint.",
     "ev": [
      {
       "c": "MacTutor: Viete solved the problem by realising there was an underlying trigonometric relation; his answer was published in 1595.",
@@ -60998,7 +61111,7 @@
     ]
    }
   ],
-  "notes": "Direct review R2-R3b. Read in the Internet Archive scans: Viete, Variorum responsorum liber VIII (1593, chapter X), the Responsum to van Roomen as reprinted in the 1646 Opera, the 1615 Ad angularium sectionum (title page, dedication, references), van Roomen's Ideae mathematicae (1593; the problem is printed there), and the records for the Isagoge (1591) and the Opera. Main change: the multiple-angle theorems were already printed, without proof, in Variorum VIII (1593), so the first statement moves from 1595 to 1593 and the 1595 reply is the first application only (the two former entries were the same paper). The 1615 date, previously unresolved, is confirmed from the title page; the 1615 posthumous edition has the proofs by Anderson. Open: the 1595 print itself and the 1579 Canon mathematicus were not seen, the trigonometric reading of the equation rests on MacTutor, Bockstaele (Arch. Hist. Exact Sci. 2009, Crossref 10.1007/s00407-009-0043-4) was not read, no naming or institution milestone exists, and lifespans are unsourced.",
+  "notes": "Direct review R2-R3b. Read in the Internet Archive scans: Viete, Variorum responsorum liber VIII (1593, chapter X), the Responsum to van Roomen as reprinted in the 1646 Opera, the 1615 Ad angularium sectionum (title page, dedication, references), van Roomen's Ideae mathematicae (1593; the problem is printed there), and the records for the Isagoge (1591) and the Opera. Main change: the multiple-angle theorems were already printed, without proof, in Variorum VIII (1593), so the first statement moves from 1595 to 1593 and the 1595 reply is the first application only (the two former entries were the same paper). The 1615 date, previously unresolved, is confirmed from the title page; the 1615 posthumous edition has the proofs by Anderson. Open: the 1595 print itself and the 1579 Canon mathematicus were not seen, the trigonometric reading of the equation rests on MacTutor, Bockstaele (Arch. Hist. Exact Sci. 2009, Crossref 10.1007/s00407-009-0043-4) was not read, no naming or institution milestone exists, and lifespans are unsourced. Review R3-G4: lifespans confirmed in MacTutor (Viete born 1540 Fontenay-le-Comte, died 13 December 1603 Paris; van Roomen born 29 September 1561 Leuven, died 4 May 1615 Mainz). The 1579 Canon mathematicus was searched (Internet Archive microfilm scan) and added as a precursor; no multiple-angle theorems were found in it. Still open: the 1595 print itself, Bockstaele (2009), the trigonometric reading of the equation (MacTutor), no naming or institution milestone.",
   "catalogueDates": [
    [
     1593,
@@ -68568,8 +68681,8 @@
     ],
     "d": "A short note announces that every nonzero differential operator with constant coefficients has an elementary solution, the result now called the Malgrange-Ehrenpreis theorem.",
     "ph": null,
-    "c": "medium",
-    "n": "Citation and content come from later citations and a search result (the note was not read); Schwartz's Bourbaki talk of 1954 on the same theorem confirms the result was public by 1954. The note predates Ehrenpreis' paper of 1954; both are precursors here because they establish existence of fundamental solutions, not the general theory of Hormander's thesis.",
+    "c": "high",
+    "n": "The citation is confirmed in Malgrange's own bibliography (Annales de l'Institut Fourier 6, 1956, ref. [19]: C. R. Acad. Sci. 237 (1953), 1620-1622) and Schwartz's Bourbaki talk no. 87, dated December 1953 and written 'd'après B. Malgrange', which sets out the elementary-solution theorem (read in Numdam). The note itself was not read. Malgrange states that most of his chapter I was found independently by Ehrenpreis (refs. [36], [38]); the 1953 note predates Ehrenpreis' paper of 1954 in print.",
     "ev": [
      {
       "c": "Schwartz's Seminaire Bourbaki talk no. 87 (1954), 'Solution elementaire d'une equation aux derivees partielles a coefficients constants', pp. 345-350 (Numdam record, metadata read).",
@@ -68582,6 +68695,18 @@
       "s": "Search result citing the note",
       "u": "https://www.ams.org/proc/1994-120-04/S0002-9939-1994-1197539-8/",
       "k": "history_page"
+     },
+     {
+      "c": "Read: Malgrange's bibliography lists [19] the C. R. note 237 (1953) 1620-1622, [20] the second note 238 (1954) 196-198, and the introduction says the essential results were summarised in four C. R. notes.",
+      "s": "Malgrange, Existence et approximation des solutions..., Ann. Inst. Fourier 6 (1956) 271-355 (Numdam AIF_1956__6__271_0)",
+      "u": "https://www.numdam.org/item/AIF_1956__6__271_0/",
+      "k": "primary_publication"
+     },
+     {
+      "c": "Read: the exposé (December 1953) presents the elementary solution of a constant-coefficient operator after Malgrange.",
+      "s": "L. Schwartz, Séminaire Bourbaki exposé 87 (Dec. 1953), Numdam SB_1951-1954__2__345_0",
+      "u": "https://numdam.org/item/SB_1951-1954__2__345_0/",
+      "k": "primary_publication"
      }
     ]
    },
@@ -68598,7 +68723,7 @@
     "d": "Ehrenpreis works on division problems for constant-coefficient operators with Fourier and distribution methods, an ancestor of the general variable-coefficient theory rather than its public start.",
     "ph": null,
     "c": "medium",
-    "n": "Crossref confirms Amer. J. Math. 76 (1954), p. 883 (part I). Priority between Ehrenpreis and Malgrange is contested; Malgrange's note of 1953 is earlier in print, so the existence of fundamental solutions belongs to both and is a precursor of Hormander's thesis, not a ranked birth date.",
+    "n": "Crossref confirms Amer. J. Math. 76 (1954), part I. Malgrange's bibliography (read, ref. [36]) gives pp. 883-903 and lists Ehrenpreis' later papers [37] (1955, part II), [38] Mean periodic functions I (1955) and the notes [39], [40]; Malgrange says most of his chapter I (elementary solutions) and theorems 1, 4, 5 of chapter II were found independently by Ehrenpreis, so the existence of fundamental solutions belongs to both. Malgrange's 1953 note is earlier in print; the Ehrenpreis paper itself was not read.",
     "ev": [
      {
       "c": "Article record: Ehrenpreis, Part I, Amer. J. Math., 1954",
@@ -68611,6 +68736,12 @@
       "s": "MacTutor, Lars Hörmander biography",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Hormander/",
       "k": "history_page"
+     },
+     {
+      "c": "Read: Malgrange states that most of chapter I was found independently by Ehrenpreis, and cites Ehrenpreis, Amer. J. Math. 76 (1954) 883-903.",
+      "s": "Malgrange, Ann. Inst. Fourier 6 (1956) 271-355 (Numdam)",
+      "u": "https://www.numdam.org/item/AIF_1956__6__271_0/",
+      "k": "primary_publication"
      }
     ]
    },
@@ -68627,7 +68758,7 @@
     "d": "Hörmander's Acta paper gives a general Fourier-analytic theory of existence and regularity for linear PDE with variable coefficients.",
     "ph": null,
     "c": "high",
-    "n": "Crossref confirms Acta Mathematica 94, pp. 161-248, 1955 (thesis; MR 76151). The Project Euclid copy could not be retrieved (bot protection), so the text was not read and the description rests on MacTutor and Wikipedia.",
+    "n": "Crossref confirms Acta Mathematica 94, pp. 161-248, 1955 (thesis; MR 76151); Malgrange (1956) cites it as Acta Math. 94 (1955) and says Hörmander obtained new results on neighbouring subjects, in particular on elliptic equations with constant coefficients. Project Euclid, Springer and Intl. Press copies are bot-protected or closed, so the text was not read and the description rests on MacTutor, Wikipedia and Malgrange's mention.",
     "ev": [
      {
       "c": "Article record, Acta Math. 1955; zbMATH 0067.32201 for the same paper",
@@ -68640,6 +68771,12 @@
       "s": "MacTutor, Lars Hörmander biography",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Hormander/",
       "k": "history_page"
+     },
+     {
+      "c": "Read: Malgrange cites Hörmander, On the theory of general partial differential operators, Acta Math. 94 (1955), as new results on neighbouring subjects, in particular elliptic equations with constant coefficients.",
+      "s": "Malgrange, Ann. Inst. Fourier 6 (1956) 271-355 (Numdam)",
+      "u": "https://www.numdam.org/item/AIF_1956__6__271_0/",
+      "k": "primary_publication"
      }
     ]
    },
@@ -68655,8 +68792,8 @@
     ],
     "d": "Malgrange gives the full proof that every constant-coefficient operator has a fundamental solution, solutions on convex sets, and approximation by exponential-polynomial solutions, extending mean-periodic function theory.",
     "ph": null,
-    "c": "medium",
-    "n": "Reclassified from first_application: this is the full treatment of the existence theorem, not an application of Hormander's theory. Numdam abstract read: chapter I on constant-coefficient equations (fundamental solution E, convex sets, approximation by exponential polynomials), chapter II on convolution equations, chapter III on elliptic-type equations on vector bundles. Crossref gives vol. 6, 1956, pp. 271-355 (the volume is dated 1955-56); the earlier announcements are the 1953 and 1954 notes.",
+    "c": "high",
+    "n": "Read in the Numdam PDF (Ann. Inst. Fourier 6, 1956, pp. 271-355): the introduction asks whether every constant-coefficient equation with a right-hand side is solvable and whether such an operator has an elementary solution in Schwartz's sense; chapter I proves that every constant-coefficient operator has an elementary solution E with E * f locally square-summable for f in L2 with compact support (theorem 1), that in a convex open set the equation is solvable, and that solutions in a convex set are limits of exponential-polynomial solutions; chapter II treats convolution equations; chapter III the operators d-bar and the Laplacian on analytic Riemannian spaces. Malgrange notes Ehrenpreis' independent results and that the essential results were summarised in four C. R. notes (1953-55).",
     "ev": [
      {
       "c": "Article record, Ann. Inst. Fourier 1956",
@@ -68669,6 +68806,12 @@
       "s": "Numdam AIF_1956__6__271_0",
       "u": "https://www.numdam.org/item/AIF_1956__6__271_0/",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Read: introduction and chapter I (theorem 1: elementary solution with the L2-local property; solvability and approximation on convex open sets).",
+      "s": "Malgrange, Ann. Inst. Fourier 6 (1956) 271-355 (Numdam PDF)",
+      "u": "https://www.numdam.org/item/AIF_1956__6__271_0/",
+      "k": "primary_publication"
      }
     ]
    },
@@ -68732,7 +68875,7 @@
    {
     "name": "Bernard Malgrange",
     "role": "developer",
-    "life": "unknown",
+    "life": "1928-2024",
     "url": "https://en.wikipedia.org/wiki/Bernard_Malgrange",
     "works": [
      {
@@ -68746,7 +68889,7 @@
    {
     "name": "Leon Ehrenpreis",
     "role": "developer",
-    "life": "unknown",
+    "life": "1930-2010",
     "url": "https://en.wikipedia.org/wiki/Leon_Ehrenpreis",
     "works": [
      {
@@ -68758,7 +68901,7 @@
     ]
    }
   ],
-  "notes": "Review R2b, partial. Checked Crossref (Hormander 1955 and 1963, Ehrenpreis 1954, Malgrange 1956), the Numdam abstract of Malgrange 1956, Schwartz's 1954 Bourbaki record and a citation of Malgrange's 1953 note. Changes: Malgrange's C. R. note of 1953 added as a precursor that predates Ehrenpreis; Malgrange 1956 reclassified from first application to key development (it is the full existence theorem); 1963 confirmed for the book. Outstanding: none of the texts (Hormander 1955 thesis, Ehrenpreis, Malgrange 1953 and 1956, the book) was read in full, Project Euclid being blocked; Hormander 1958-60 papers (for example the Lewy-type non-solvability) and the lifespans of Ehrenpreis and Malgrange are not covered. Stays source-first.",
+  "notes": "Review R3-G4 (changed, not promoted). Read in full-text Numdam PDFs: Malgrange's 1956 memoir (introduction, chapter I theorem 1, bibliography) and Schwartz's Bourbaki exposé no. 87 (Dec. 1953); Crossref re-checked. Changes: Malgrange's 1953 C. R. note is now confirmed by Malgrange's own bibliography and Schwartz's dated talk (confidence high), Ehrenpreis' independence is documented from Malgrange's own statement, Malgrange 1956 raised to high on the text, lifespans of Malgrange (1928-2024) and Ehrenpreis (1930-2010) added from Wikipedia descriptions. Open: Hörmander's Acta paper (Project Euclid, Springer, Intl. Press all closed), Ehrenpreis 1954 (JSTOR) and the 1953 note itself were not read; the 1963 book and Hörmander's 1958-60 papers were not examined. Stays source-first.",
   "catalogueDates": [
    [
     1954,
@@ -68918,8 +69061,8 @@
     ],
     "d": "The paper uses singular integral operators with symbols to treat linear elliptic equations, the step from singular integrals to the symbolic calculus of pseudo-differential operators.",
     "ph": null,
-    "c": "medium",
-    "n": "Crossref confirms title, journal, volume, first page (901) and year; the paper's content and the claim that it leads directly to the 1965 calculus come from histories (the Wikipedia history section already cited) and were not read. The page range 901-921 is from standard citations, not from the record.",
+    "c": "high",
+    "n": "Crossref confirms title, journal, volume 79, issue 4, first page 901 and print date October 1957, and Kohn-Nirenberg's and Hörmander's 1965 reference lists (Crossref) both cite this paper, which supports its place as the nearer precursor. The page range 901-921 is from standard citations. The paper was not read.",
     "ev": [
      {
       "c": "Crossref: American Journal of Mathematics 79, p. 901, 1957.",
@@ -68949,7 +69092,7 @@
     "d": "Introduces the operator algebra with symbols in the form that became the standard pseudodifferential calculus.",
     "ph": "Symbol calculus (Kohn-Nirenberg, Hormander)",
     "c": "high",
-    "n": "Same paper also carries the name in its title (naming milestone below), so it plays both roles. A 1964 note by Unterberger and Bokobza (C. R. Acad. Sci. Paris 259, 1612-1614; zbMATH 3231475) is related, but its title does not use the term. The first title found using 'pseudo-differentiels' is their C. R. 261 (1965) note (zbMATH 3231478), after Kohn-Nirenberg, so 1965 stands. Review R2b: Crossref confirms Comm. Pure Appl. Math. 18, pp. 269-305, 1965; the paper itself is not open and was not read, and Unterberger-Bokobza's C. R. notes could not be retrieved in this pass, so the order of the French notes still rests on the earlier zbMATH check.",
+    "n": "Same paper as the naming milestone. Crossref gives Comm. Pure Appl. Math. 18 (1965), issue 1-2, pp. 269-305, published (print) February 1965 and with a reference list citing Calderon-Zygmund 1957 (10.2307/2372441), Seeley, Lax and a forthcoming Hormander paper in the same journal. Priority against Unterberger-Bokobza checked on bibliographic records: their 1964 note is titled 'Les operateurs de Calderon-Zygmund precises' (C. R. 259, 1612-1614; zbMATH 3231475), without the term, and the first French title with 'pseudo-differentiels' is C. R. 261, pp. 2271-2273, in the second half of 1965 (zbMATH 3231478), after February 1965, so Kohn-Nirenberg stand first with the name. The paper was not read (Wiley blocked); the 1964 U-B note was not read either, so whether it already contains the calculus is not checked.",
     "ev": [
      {
       "c": "Title and 1965 year of the Kohn-Nirenberg paper (DOI 10.1002/cpa.3160180121)",
@@ -68968,6 +69111,24 @@
       "s": "zbMATH Open 3231478, 3231475",
       "u": "https://zbmath.org/3231478",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Crossref: print date February 1965, issue 1-2, pp. 269-305, and the reference list.",
+      "s": "Crossref 10.1002/cpa.3160180121",
+      "u": "https://api.crossref.org/works/10.1002/cpa.3160180121",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Author index of vol. 18 (1965): Kohn-Nirenberg, An algebra of pseudo-differential operators, p. 269; Hörmander, Pseudo-differential operators, p. 501.",
+      "s": "Communications on Pure and Applied Mathematics 18 (1965), author index (Internet Archive sim_communications-on-pure-and-applied-mathematics_1965_18_index)",
+      "u": "https://archive.org/details/sim_communications-on-pure-and-applied-mathematics_1965_18_index",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "zbMATH: Unterberger-Bokobza, 'Les operateurs de Calderon-Zygmund precises', C. R. 259 (1964) 1612-1614.",
+      "s": "zbMATH Open 3231475",
+      "u": "https://api.zbmath.org/v1/document/3231475",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -68985,7 +69146,7 @@
     "d": "The field's name appears in the title of the 1965 Kohn-Nirenberg paper.",
     "ph": "Symbol calculus (Kohn-Nirenberg, Hormander)",
     "c": "medium",
-    "n": "Same paper as the first_statement milestone; an earlier use of the term in a French title was not excluded.",
+    "n": "Same paper as the first_statement milestone. Earlier French titles were checked on zbMATH: the 1964 Unterberger-Bokobza note title has no 'pseudo-differentiel'; the first title with it is C. R. 261 (1965) 2271-2273, later than the February 1965 Kohn-Nirenberg issue. Other earlier uses (talks, preprints) were not searched.",
     "ev": [
      {
       "c": "Title of the 1965 paper uses the term",
@@ -69008,7 +69169,7 @@
     "d": "Hormander's own 1965 paper on pseudo-differential operators appeared in the same volume as Kohn and Nirenberg's, developing the calculus by a different route.",
     "ph": null,
     "c": "medium",
-    "n": "Crossref confirms title, journal, volume 18, pages 501-517 and year 1965; the volume has Kohn-Nirenberg (pp. 269-305) earlier, but the order within 1965 was not fixed by dates. Content description is from the title and histories, not from the paper.",
+    "n": "Crossref gives Comm. Pure Appl. Math. 18, issue 3, pp. 501-517, print date August 1965, i.e. later than Kohn-Nirenberg (February 1965); its reference list cites Kohn-Nirenberg, Calderon-Zygmund 1957 and Lax 1957. Content description is from the title and histories, not from the paper.",
     "ev": [
      {
       "c": "Crossref: Communications on Pure and Applied Mathematics 18, pp. 501-517, 1965.",
@@ -69030,13 +69191,19 @@
     ],
     "d": "Uses the symbol calculus on a target problem, the hypoellipticity of differential equations.",
     "ph": "Symbol calculus (Kohn-Nirenberg, Hormander)",
-    "c": "medium",
-    "n": "Earliest verified application on a target problem in the records consulted; the applications inside the 1965 Kohn-Nirenberg paper were not checked.",
+    "c": "low",
+    "n": "Earliest verified application on a target problem in the records consulted, but probably not the first: Kohn and Nirenberg's 'Non-coercive boundary value problems' (CPAM 18, issue 3, pp. 443-492, August 1965; Crossref 10.1002/cpa.3160180305) cites the algebra paper in its reference list, so an application of the calculus to boundary value problems may exist in 1965. That paper was not read (Wiley blocked), so the 1967 date is kept with low confidence rather than replaced.",
     "ev": [
      {
       "c": "Hormander 1967 paper in Proc. Symp. Pure Math. 10 (DOI 10.1090/pspum/010/0383152)",
       "s": "Crossref; zbMATH 0167.09603",
       "u": "https://doi.org/10.1090/pspum/010/0383152",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Crossref: Kohn-Nirenberg, Non-coercive boundary value problems, CPAM 18 (1965) 443-492, reference list includes An algebra of pseudo-differential operators (lead only, not read).",
+      "s": "Crossref 10.1002/cpa.3160180305",
+      "u": "https://api.crossref.org/works/10.1002/cpa.3160180305",
       "k": "bibliographic_record"
      }
     ]
@@ -69150,7 +69317,7 @@
    {
     "name": "Joseph J. Kohn",
     "role": "developer",
-    "life": null,
+    "life": "1932-2023",
     "url": "https://en.wikipedia.org/wiki/Joseph_J._Kohn",
     "works": [
      {
@@ -69210,7 +69377,7 @@
     ]
    }
   ],
-  "notes": "Review R2b, partial. Checked Crossref for Calderon-Zygmund 1952 and 1957, Kohn-Nirenberg 1965, Hormander 1965 and 1967, Hormander FIO I and Duistermaat-Hormander 1972, and Taylor 1981. Changes: Calderon-Zygmund 1957 (singular integral operators and differential equations) added as the nearer precursor, Hormander's own 1965 paper and Fourier integral operators I added as key developments. Outstanding: no text of any paper was readable (Wiley, Springer and Project Euclid copies are closed or bot-protected), so the 1965 first statement, the naming priority against Unterberger-Bokobza, the claim that the 1967 paper is the first application (Kohn-Nirenberg's own applications were not checked) and the 1972 propagation-of-singularities wording all rest on bibliographic records and histories. Stays source-first.",
+  "notes": "Review R3-G4 (changed, not promoted). Checked Crossref reference lists and print dates for Kohn-Nirenberg (Feb 1965), Hormander (Aug 1965), the Kohn-Nirenberg non-coercive paper (Aug 1965) and Calderon-Zygmund 1957, the CPAM 1965 author index (Internet Archive) and zbMATH titles of the two Unterberger-Bokobza notes. Changes: priority of Kohn-Nirenberg (February 1965) over the French 'pseudo-differentiels' title confirmed on dates; Calderon-Zygmund 1957 confidence raised (cited by both 1965 papers); first application lowered to low confidence with a lead to the Kohn-Nirenberg non-coercive paper; Kohn's lifespan added. Open: no paper text was readable (Wiley, Springer, Project Euclid, Gallica blocked), so the 1965 content, the 1964 U-B note and the 1972 propagation wording rest on records. Stays source-first.",
   "catalogueDates": [
    [
     1965,
@@ -110489,7 +110656,7 @@
     "d": "Lyapunov gave a general nonlinear approach to stability of motion with two methods, the second using auxiliary functions.",
     "ph": null,
     "c": "high",
-    "n": "The original Russian was printed in Kharkov in 1892 per the history pages; no bibliographic record for it was found, only the later French translation.",
+    "n": "Read in the Numdam PDF of the French translation (Ann. Fac. Sci. Toulouse (2) 9, 1907, pp. 203-474): a translator's note says the memoir 'Общая задача об устойчивости движения' was 'imprimé en 1892 par la Société mathématique de Kharkow', that the translation was revised by the author, who added a note based on a paper of 1893 in the Communications of the Kharkov Mathematical Society; the preface is dated 'Kharkow, 5 avril 1892'; the text sets out a first method (series, characteristic exponents) and a second method (general theorems with auxiliary functions, section 14 onward). No library record of the original Kharkov print (Russian catalogues, WorldCat, Open Library) was reached; the 1892 date rests on the translator's note, the preface date, MacTutor/Wikipedia and the 1992 centenary translation.",
     "ev": [
      {
       "c": "Wikipedia: he defended the thesis at Kharkov in 1892, a global approach compared with linearization.",
@@ -110508,6 +110675,12 @@
       "s": "Crossref 10.1080/00207179208934253",
       "u": "https://doi.org/10.1080/00207179208934253",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Read: translator's footnote 'imprime en 1892 par la Societe mathematique de Kharkow'; preface dated Kharkow, 5 avril 1892; first and second methods.",
+      "s": "Liapounoff, Probleme general de la stabilite du mouvement, Ann. Fac. Sci. Toulouse (2) 9 (1907) 203-474 (Numdam AFST_1907_2_9__203_0)",
+      "u": "https://www.numdam.org/item/AFST_1907_2_9__203_0/",
+      "k": "primary_publication"
      }
     ]
    },
@@ -110544,6 +110717,35 @@
       "s": "Wikipedia: Lyapunov stability",
       "u": "https://en.wikipedia.org/wiki/Lyapunov_stability",
       "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1930,
+    "ye": null,
+    "p": "year",
+    "l": "Perron: the stability question for differential equations",
+    "w": "O. Perron, Die Stabilitätsfrage bei Differentialgleichungen, Mathematische Zeitschrift 32 (1930) 703-728",
+    "pe": [
+     "Oskar Perron"
+    ],
+    "d": "Perron shows that the expectation that a system with negative real parts of the characteristic roots of its linear part stays stable under small nonlinear terms fails once the coefficients of the linear part vary with time (the 'Perron effect'), and gives a corrected theorem.",
+    "ph": "Revival (Chetaev, control theory)",
+    "c": "medium",
+    "n": "Read the first two pages in the GDZ scan (Math. Z. 32, pp. 703-704): the introduction states that earlier investigations (his own Math. Z. 29, 1928, 129-160) show that for dx/dt = linear + small terms the integrals tending to zero are as many as without the added terms, that the methods use characteristic roots and so do not carry over to systems with variable coefficients f(t), that 'after long attempts to prove' the natural conjecture he found it 'not correct at all', shows this by an example in section 2, and then gives a correct theorem under an added boundedness condition. The paper does not name Lyapunov on these pages and the rest (sections 2-) was not read; the label 'Perron effect' and the link to Lyapunov's first method are the standard reading, not checked here.",
+    "ev": [
+     {
+      "c": "Read: introduction (pp. 703-704) on the failed conjecture for systems with variable coefficients.",
+      "s": "Perron, Die Stabilitätsfrage bei Differentialgleichungen, Math. Z. 32 (1930) 703-728 (GDZ PPN266833020_0032, LOG_0049)",
+      "u": "https://gdz.sub.uni-goettingen.de/id/PPN266833020_0032",
+      "k": "primary_publication"
+     },
+     {
+      "c": "Crossref record: Math. Z. 32 (1930) 703-728.",
+      "s": "Crossref 10.1007/BF01194662",
+      "u": "https://doi.org/10.1007/BF01194662",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -110671,7 +110873,7 @@
       "c": "The general problem of the stability of motion (French transl. 1907)",
       "y": 1907,
       "u": "https://api.crossref.org/works/10.5802/afst.246",
-      "w": "Standard form of the thesis."
+      "w": "second method with auxiliary functions; Russian original printed Kharkov 1892 (translator's note in the 1907 French translation)"
      }
     ]
    },
@@ -110718,7 +110920,7 @@
     ]
    }
   ],
-  "notes": "First application is null: Wikipedia states Lyapunov himself made no applications in the control area, and the summary's 'general criteria using auxiliary functions' matches the thesis. No naming milestone ('Lyapunov function' coinage not found) and no institution milestone. Perron 1930 (Math. Z. 32, Crossref 10.1007/BF01194662) on stability questions was found but not read, so it was not promoted. The biography URLs for non-Lyapunov people are null (not fetched); lifespans from general knowledge. Fix pass 2: Crossref confirms Perron, 'Die Stabilitaetsfrage bei Differentialgleichungen', Math. Z. 32 (1930) 703-728 (doi 10.1007/BF01194662); its content was not read, so it is not promoted, and no first-use year for 'Lyapunov function' was found. Review R5 (not promoted): added Dirichlet 1846 (Crossref) as a precursor, dated Chetaev's recognition to his 1936 paper, added Chetaev's 1946 monograph as an earlier consolidation (institutional date 1961 -> 1946; Wikipedia-only), and the 1992 English translation record as support for the thesis. Outstanding: the thesis, Perron 1930 and Chetaev's texts were not read; the Kharkov 1892 print has no bibliographic record.",
+  "notes": "First application is null: Wikipedia states Lyapunov himself made no applications in the control area, and the summary's 'general criteria using auxiliary functions' matches the thesis. No naming milestone ('Lyapunov function' coinage not found) and no institution milestone. Perron 1930 (Math. Z. 32, Crossref 10.1007/BF01194662) on stability questions was found but not read, so it was not promoted. The biography URLs for non-Lyapunov people are null (not fetched); lifespans from general knowledge. Fix pass 2: Crossref confirms Perron, 'Die Stabilitaetsfrage bei Differentialgleichungen', Math. Z. 32 (1930) 703-728 (doi 10.1007/BF01194662); its content was not read, so it is not promoted, and no first-use year for 'Lyapunov function' was found. Review R5 (not promoted): added Dirichlet 1846 (Crossref) as a precursor, dated Chetaev's recognition to his 1936 paper, added Chetaev's 1946 monograph as an earlier consolidation (institutional date 1961 -> 1946; Wikipedia-only), and the 1992 English translation record as support for the thesis. Outstanding: the thesis, Perron 1930 and Chetaev's texts were not read; the Kharkov 1892 print has no bibliographic record. Review R3-G4 (changed, not promoted): read the Numdam PDF of the 1907 French translation (translator's note on the 1892 Kharkov print by the Kharkov Mathematical Society; preface dated 5 April 1892; first and second methods) and the first two pages of Perron 1930 (GDZ). Added Perron 1930 as a key development (Perron's conjecture-refuting example for variable coefficients). Chetaev's 1936 paper and 1946 monograph, and the sources for the first appearance of 'Lyapunov function', were not read (Open Library has only the 1961 Pergamon translation). Open: no library record of the original print; the thesis was read through the translation's preface and method statements only.",
   "catalogueDates": [
    [
     1892,
@@ -126096,6 +126298,44 @@
   ],
   "ms": [
    {
+    "r": "precursor",
+    "y": 1839,
+    "ye": 1856,
+    "p": "range",
+    "l": "Earlier uses of the minimum principle in potential theory (Gauss 1839, Thomson 1847, Dirichlet's lectures to 1856)",
+    "w": "Gauss, Green and Thomson (Kelvin), earlier work in potential theory",
+    "pe": [
+     "Peter Gustav Lejeune Dirichlet",
+     "Carl Friedrich Gauss",
+     "George Green",
+     "William Thomson"
+    ],
+    "d": "MacTutor notes that Gauss, Green and Thomson had all made use of the minimum principle before Riemann used it for function theory.",
+    "ph": "Riemann's use of the minimum principle",
+    "c": "low",
+    "n": "The years come from Hilbert's own statement (Math. Ann. 59, 1904, read): 'Gauss (1839), Thomson (1847), Dirichlet (1856) and other mathematicians' used the argument; the 1856 date is Hilbert's for Dirichlet, and Riemann (1857) says Dirichlet had given it for years in lectures. Gauss' 1839 work and Thomson's 1847 paper were not read. MacTutor adds Green. Lectures given orally are private precursors.",
+    "ev": [
+     {
+      "c": "MacTutor's Riemann biography says the principle was not new with Riemann because Gauss, Green and Thomson had used it",
+      "s": "MacTutor biography of Riemann",
+      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Riemann/",
+      "k": "history_page"
+     },
+     {
+      "c": "Read: Dirichlet is said to have given the principle in his lectures on forces acting inversely as the square of the distance, 'wohl durch einen aehnlichen Gedanken von Gauss veranlasst'.",
+      "s": "Riemann, Theorie der Abel'schen Functionen, Gesammelte Werke (1876)",
+      "u": "https://archive.org/details/gesammeltemath1876riemuoft",
+      "k": "primary_text"
+     },
+     {
+      "c": "Read: Hilbert names Gauss (1839), Thomson (1847) and Dirichlet (1856) as having applied the argument to boundary value problems.",
+      "s": "Hilbert, Über das Dirichletsche Prinzip, Math. Ann. 59 (1904) 161-186 (Internet Archive sim_mathematische-annalen_1904_59)",
+      "u": "https://archive.org/details/sim_mathematische-annalen_1904_59",
+      "k": "primary_text"
+     }
+    ]
+   },
+   {
     "r": "first_statement",
     "y": 1851,
     "ye": null,
@@ -126242,8 +126482,8 @@
     ],
     "d": "The earliest zbMATH title found that names the Dirichlet principle.",
     "ph": null,
-    "c": "medium",
-    "n": "zbMATH (record fetched) gives the German title 'Note zu Riemann's Beweis des Dirichlet'schen Princips', Crelle 71, pp. 29-39, 1870; Crossref confirms the title, journal, pages and year (1870). It is the first title with the term found, but Riemann's 1857 text uses the term earlier. No earlier titles with the term were found in zbMATH for 1850-1869; the note itself was not read.",
+    "c": "high",
+    "n": "Read in the Internet Archive scan of Crelle vol. 71 (1870): 'Note zu Riemanns Beweis des Dirichletschen Princips. Von Herrn H. Weber in Heidelberg', pp. 29-39, the text dated Heidelberg, June 1869. Weber says the principle, 'whose application by Riemann in the theory of Abelian functions has led to such great results', has recently been attacked in generality and rigour, chiefly against applying the calculus of variations to a function of unknown properties, and he completes Riemann's sketched proof by a convergent iterative procedure for the Dirichlet integral. It is the first title found with the term; Riemann's 1857 text uses the term earlier. No earlier titles with the term were found in zbMATH for 1850-1869.",
     "ev": [
      {
       "c": "zbMATH record: title with \"Dirichlet principle\", Weber, 1870",
@@ -126256,41 +126496,82 @@
       "s": "Crossref 10.1515/crll.1870.71.29",
       "u": "https://doi.org/10.1515/crll.1870.71.29",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Read: title, text and dating (Heidelberg, Juni 1869) of Weber's note in vol. 71 (1870).",
+      "s": "Journal für die reine und angewandte Mathematik 71 (1870) (Internet Archive sim_journal-fuer-die-reine-und-angewandte-mathematik_1870_71)",
+      "u": "https://archive.org/details/sim_journal-fuer-die-reine-und-angewandte-mathematik_1870_71",
+      "k": "primary_publication"
      }
     ]
    },
    {
     "r": "key_development",
     "y": 1900,
-    "ye": 1904,
-    "p": "range",
-    "l": "Hilbert justifies the principle",
-    "w": "Hilbert, Über das Dirichlet'sche Princip, 1900; full proof in Mathematische Annalen 59, 161-186, 1904",
+    "ye": null,
+    "p": "year",
+    "l": "Hilbert proposes to revive the principle (lecture of 1899, printed 1900)",
+    "w": "Hilbert, Über das Dirichlet'sche Princip, Jahresbericht der Deutschen Mathematiker-Vereinigung 8 (1900) 184-188 (lecture at the Munich meeting, text dated Göttingen 12 October 1899)",
     "pe": [
      "David Hilbert"
     ],
-    "d": "Hilbert's direct method in the calculus of variations restored the principle under suitable assumptions, answering Weierstrass' objection.",
+    "d": "Hilbert recasts the principle as the claim that every variational problem has a solution under suitable restrictions, and sketches rigorous existence proofs (shortest curve on a surface) as a way to revive it after Weierstrass.",
     "ph": "Hilbert's direct method",
-    "c": "medium",
-    "n": "The 1900 date is from Wikipedia (talk and short paper); the verified publication is 1904. Both dates cited so the milestone stands as a range of about 1900 to 1904.",
+    "c": "high",
+    "n": "Read in the Internet Archive scan of JDMV vol. 8 (Achter Band): the text is dated 'Göttingen, den 12. October 1899', says the principle was used by Dirichlet 'through an idea of Gauss' and by Riemann, that Weierstrass showed it unsafe, and that Neumann, Schwarz and Poincaré established solvability of the boundary value problem by other routes; it proposes the general form 'every variational problem has a solution' and gives two examples. This is a programme with examples, not the full proof, which is the next milestone. Kellogg (1929) also dates Hilbert's revival to 1899 and cites JDMV 8 (1900), p. 184.",
     "ev": [
      {
-      "c": "Wikipedia: Hilbert justified Riemann's use in 1900 by the direct method",
-      "s": "English Wikipedia, Dirichlet's principle",
-      "u": "https://en.wikipedia.org/wiki/Dirichlet%27s_principle",
-      "k": "history_page"
+      "c": "Read: Hilbert's note, text dated 12 October 1899, printed in vol. 8; proposes the general variational form of the principle.",
+      "s": "Jahresbericht der Deutschen Mathematiker-Vereinigung 8 (1900) 184-188 (Internet Archive bub_gb_jb8GAAAAYAAJ)",
+      "u": "https://archive.org/details/bub_gb_jb8GAAAAYAAJ",
+      "k": "primary_publication"
      },
      {
-      "c": "Crossref record of Hilbert's full treatment in Math. Ann. 59 (1904)",
+      "c": "zbMATH 31.0418.01: Hilbert, 'On the Dirichlet principle', JDMV 8 (1900) pp. 184-188.",
+      "s": "zbMATH Open, document 31.0418.01",
+      "u": "https://api.zbmath.org/v1/document/2665638",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Read: Hilbert in 1899 'reestablished' the method; reference JDMV 8 (1900) p. 184.",
+      "s": "Kellogg, Foundations of potential theory (1929), Internet Archive foundationsofpot037624mbp",
+      "u": "https://archive.org/details/foundationsofpot037624mbp",
+      "k": "primary_text"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1901,
+    "ye": null,
+    "p": "year",
+    "l": "Hilbert's rigorous proof of the principle (Göttingen Festschrift 1901, reprinted 1904)",
+    "w": "Hilbert, Über das Dirichletsche Prinzip, Festschrift zur Feier des 150jährigen Bestehens der Königl. Gesellschaft der Wissenschaften zu Göttingen, 1901; reprinted Mathematische Annalen 59 (1904) 161-186",
+    "pe": [
+     "David Hilbert"
+    ],
+    "d": "Hilbert proves the existence of the minimising potential function on a Riemann surface (finitely many sheets and branch points) by a direct variational construction, closing the gap Weierstrass had found.",
+    "ph": "Hilbert's direct method",
+    "c": "high",
+    "n": "Read in the Internet Archive scan of Math. Ann. 59 (1904): the footnote reads 'Abdruck aus der Festschrift zur Feier des 150jährigen Bestehens der Königl. Gesellschaft der Wissenschaften zu Göttingen 1901' and refers to the 1900 lecture; the introduction names Gauss (1839), Thomson (1847) and Dirichlet (1856) as users of the principle and Weierstrass as the first to see its inadmissibility, and says the 1899 indications have since been carried out by Noble and Hedrick (Göttingen dissertations 1901). The sections cover auxiliary lemmas, construction of the potential function, existence of u and the value of its Dirichlet integral on a Riemann surface. The 1901 Festschrift is dated from the footnote; the Crossref record dates the Annalen reprint to March 1904 (pp. 161-186). Replaces the former undated 1900-1904 range.",
+    "ev": [
+     {
+      "c": "Read: footnote 'Abdruck aus der Festschrift ... Göttingen 1901', statement of the principle with Gauss 1839, Thomson 1847, Dirichlet 1856, Weierstrass, and the sections of the proof.",
+      "s": "Hilbert, Über das Dirichletsche Prinzip, Math. Ann. 59 (1904) 161-186 (Internet Archive sim_mathematische-annalen_1904_59)",
+      "u": "https://archive.org/details/sim_mathematische-annalen_1904_59",
+      "k": "primary_publication"
+     },
+     {
+      "c": "Crossref record of the Annalen printing (vol. 59, pp. 161-186, 1904).",
       "s": "Crossref 10.1007/bf01444753",
       "u": "https://doi.org/10.1007/bf01444753",
       "k": "bibliographic_record"
      },
      {
-      "c": "zbMATH 31.0418.01: Hilbert, 'On the Dirichlet principle', Jahresbericht DMV 8 (1900), pp. 184-188.",
-      "s": "zbMATH Open, document 31.0418.01",
-      "u": "https://api.zbmath.org/v1/document/2665638",
-      "k": "bibliographic_record"
+      "c": "A report in the Jahresbericht lists Hilbert's 'Über das Dirichletsche Princip' among the contents of the Göttingen Festschrift for the 150th anniversary.",
+      "s": "Jahresbericht der Deutschen Mathematiker-Vereinigung (Internet Archive bub_gb_eV5aAAAAYAAJ)",
+      "u": "https://archive.org/details/bub_gb_eV5aAAAAYAAJ",
+      "k": "primary_publication"
      }
     ]
    },
@@ -126306,46 +126587,49 @@
     ],
     "d": "Monograph covering the variational (Dirichlet) approach to potential problems.",
     "ph": null,
-    "c": "low",
-    "n": "Monograph chosen as the broad consolidation of potential theory; coverage of the Dirichlet principle not checked page by page.",
+    "c": "medium",
+    "n": "Read in the Internet Archive scan (preface dated Cambridge, Mass., August 1929): the book states the Dirichlet principle for the Dirichlet problem, criticises it (the infimum need not be attained; Weierstrass 1870 example) and reports its revival by Hilbert in 1899 (JDMV 8, 1900, p. 184); it treats the principle as one method among several (Poincare, Fredholm) for the boundary value problems, so it consolidates potential theory, not the principle alone.",
     "ev": [
      {
       "c": "Open Library lists the monograph with first publication year 1929",
       "s": "Open Library works OL10480305W",
       "u": "https://openlibrary.org/works/OL10480305W",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Read: Kellogg's discussion of the Dirichlet principle, Weierstrass' 1870 example and Hilbert's 1899 revival.",
+      "s": "Kellogg, Foundations of potential theory, Springer 1929 (Internet Archive foundationsofpot037624mbp)",
+      "u": "https://archive.org/details/foundationsofpot037624mbp",
+      "k": "primary_text"
      }
     ]
    },
    {
-    "r": "precursor",
-    "y": null,
+    "r": "consolidation",
+    "y": 1950,
     "ye": null,
-    "p": "unknown",
-    "l": "Earlier uses of the variational principle in potential theory (Dirichlet's lectures, Gauss, Green, Thomson)",
-    "w": "Gauss, Green and Thomson (Kelvin), earlier work in potential theory",
+    "p": "year",
+    "l": "Courant: Dirichlet's Principle, Conformal Mapping, and Minimal Surfaces",
+    "w": "R. Courant, Dirichlet's Principle, Conformal Mapping, and Minimal Surfaces, Interscience, New York, 1950",
     "pe": [
-     "Peter Gustav Lejeune Dirichlet",
-     "Carl Friedrich Gauss",
-     "George Green",
-     "William Thomson"
+     "Richard Courant"
     ],
-    "d": "MacTutor notes that Gauss, Green and Thomson had all made use of the minimum principle before Riemann used it for function theory.",
-    "ph": "Riemann's use of the minimum principle",
-    "c": "low",
-    "n": "Years not established, so left unknown. Riemann (1857) and Weierstrass (1870), both read, say Dirichlet used the argument in lectures on Newtonian forces for years before 1857, Riemann adding that Gauss may have inspired it; MacTutor names Gauss, Green and Thomson. Lectures given orally are private precursors.",
+    "d": "A monograph whose title and subject are the principle, with the direct methods, conformal mapping and minimal surfaces treated through the Dirichlet integral.",
+    "ph": null,
+    "c": "medium",
+    "n": "Title, author and 1950 first publication year are from Open Library; Crossref lists the 1950 chapters of the Springer reprint (1977). The book was not read, so its coverage and the claim that it is the first monograph on the principle itself are not verified.",
     "ev": [
      {
-      "c": "MacTutor's Riemann biography says the principle was not new with Riemann because Gauss, Green and Thomson had used it",
-      "s": "MacTutor biography of Riemann",
-      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Riemann/",
-      "k": "history_page"
+      "c": "Open Library: Courant, Dirichlet's principle, conformal mapping, and minimal surfaces, first published 1950 (Interscience).",
+      "s": "Open Library work OL811189W",
+      "u": "https://openlibrary.org/works/OL811189W",
+      "k": "bibliographic_record"
      },
      {
-      "c": "Read: Dirichlet is said to have given the principle in his lectures on forces acting inversely as the square of the distance, 'wohl durch einen aehnlichen Gedanken von Gauss veranlasst'.",
-      "s": "Riemann, Theorie der Abel'schen Functionen, Gesammelte Werke (1876)",
-      "u": "https://archive.org/details/gesammeltemath1876riemuoft",
-      "k": "primary_text"
+      "c": "Crossref lists the book (Springer reprint 1977) and chapters dated 1950.",
+      "s": "Crossref 10.1007/978-1-4612-9917-2",
+      "u": "https://doi.org/10.1007/978-1-4612-9917-2",
+      "k": "bibliographic_record"
      }
     ]
    }
@@ -126386,10 +126670,16 @@
     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/",
     "works": [
      {
-      "c": "Hilbert, Über das Dirichletsche Prinzip, Math. Ann. 1904",
-      "y": 1904,
+      "c": "Über das Dirichlet'sche Princip, JDMV 8 (1900) 184-188",
+      "y": 1900,
+      "u": "https://archive.org/details/bub_gb_jb8GAAAAYAAJ",
+      "w": "revives the principle as a general variational existence principle"
+     },
+     {
+      "c": "Hilbert, Über das Dirichletsche Prinzip, Math. Ann. 59 (1904) (Festschrift 1901)",
+      "y": 1901,
       "u": "https://doi.org/10.1007/bf01444753",
-      "w": "Full justification"
+      "w": "rigorous existence proof on Riemann surfaces"
      }
     ]
    },
@@ -126408,7 +126698,7 @@
     ]
    }
   ],
-  "notes": "Review R2b, partial. Read in open copies: Riemann's 1851 thesis (Art. 16-17), his 1857 Abelian-functions paper (credit to Dirichlet's lectures, first use of the name) and Weierstrass' 1870 paper from the Werke. Crossref confirms Riemann 1857, Weber 1870 and Hilbert 1904; zbMATH (record fetched) gives Weber's German title. Changes: the 1857 paper now also carries a naming milestone (so the institutional date moves from 1870 to 1857); thesis confidence raised to high; Weber's 1870 note is the first title use; the earlier-uses precursor is attributed to Dirichlet's lectures first. Outstanding: Hilbert 1900/1904 texts, Weber's note and Kellogg 1929 were not read; Courant 1950 and the Schwarz, Neumann and Poincare alternatives to the principle were not searched; the Monatsberichte printing of Weierstrass 1870 was not seen. Stays source-first.",
+  "notes": "Review R3-G4 (changed, not promoted). Read: Hilbert's JDMV 8 note (text dated 12 Oct 1899), Hilbert's Math. Ann. 59 paper (reprint of the 1901 Göttingen Festschrift), Weber's Crelle 71 note (June 1869, printed 1870) and Kellogg 1929, besides the earlier R2b readings of Riemann 1851 and 1857 and Weierstrass 1870. Changes: Hilbert's former 1900-1904 range split into the 1899/1900 programme and the 1901 proof (reprinted 1904); the precursor milestone now carries the dates Hilbert gives (Gauss 1839, Thomson 1847, Dirichlet 1856); Weber's note raised to high (dated June 1869); Kellogg checked (a broad potential-theory text, confidence medium); Courant 1950 added from catalogue records. Open: Courant's book was not read, Gauss 1839 and Thomson 1847 were not read, the Monatsberichte printing of Weierstrass 1870 was not seen, and Poincare's and Schwarz's alternative routes were not searched. Stays source-first.",
   "catalogueDates": [
    [
     1851,
@@ -136853,8 +137143,11 @@
   "product": null,
   "why": "Beltrami realised hyperbolic geometry on a surface in Euclidean space and Klein completed models using Cayley's distance, reducing consistency of non-Euclidean geometry to Euclidean.",
   "cat": "Open harvest",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "institutional": "B"
+  },
   "shown": {
    "conceptual": {
     "y": 1868,
@@ -136900,7 +137193,7 @@
     "d": "Cayley defined metric notions inside projective geometry via an absolute conic, the tool Klein would later use.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Read in Cayley's Collected Mathematical Papers vol. 2 (Internet Archive collectedmathema02cayl), paper 158: 'Received November 18, 1858, Read January 6, 1859', Phil. Trans. 149 (1859) pp. 61-90; the memoir says a chief object is 'the establishment, upon purely descriptive principles, of the notion of distance', with a point-pair 'Absolute' on the line (nos. 209-229). Klein (1871, read) credits it with the projective measure and says that for Cayley the point was to show Euclidean metric geometry as a special case.",
     "ev": [
      {
       "c": "Crossref: Phil. Trans. 1859.",
@@ -136913,6 +137206,47 @@
       "s": "Wikipedia, Beltrami-Klein model",
       "u": "https://en.wikipedia.org/wiki/Beltrami%E2%80%93Klein_model",
       "k": "history_page"
+     },
+     {
+      "c": "Read: the introduction (notion of distance upon descriptive principles) and 'On the Theory of Distance, Nos. 209 to 229' with the Absolute.",
+      "s": "Cayley, A sixth memoir upon quantics, Collected Mathematical Papers vol. 2, no. 158 (Internet Archive collectedmathema02cayl)",
+      "u": "https://archive.org/details/collectedmathema02cayl",
+      "k": "primary_text"
+     },
+     {
+      "c": "Read: Klein's footnote cites 'Sixth Memoir upon Quantics, Phil. Transactions t. 149, 1859' for the projective measure.",
+      "s": "Klein, Ueber die sogenannte Nicht-Euklidische Geometrie, Math. Ann. 4 (1871) 573-625 (Internet Archive sim_mathematische-annalen_1871_4)",
+      "u": "https://archive.org/details/sim_mathematische-annalen_1871_4",
+      "k": "primary_text"
+     }
+    ]
+   },
+   {
+    "r": "precursor",
+    "y": 1865,
+    "ye": null,
+    "p": "year",
+    "l": "Beltrami: surfaces whose geodesics are straight lines",
+    "w": "E. Beltrami, Risoluzione del problema: riportare i punti di una superficie sopra un piano in modo che le linee geodetiche vengano rappresentate da linee rette, Annali di Matematica (1) 7 (1865) 185-204",
+    "pe": [
+     "Eugenio Beltrami"
+    ],
+    "d": "Beltrami finds that a surface can be mapped onto the plane with geodesics going to straight lines only if its curvature is constant, the property he later extends to spaces of constant curvature.",
+    "ph": "Beltrami's differential-geometric interpretation (1868)",
+    "c": "medium",
+    "n": "The record (Crossref: Annali di Matematica Pura ed Applicata, series 1, vol. 7, pp. 185-204, December 1865) and the result are confirmed by Beltrami's own opening of the Teoria fondamentale (read in the Opere matematiche), which says he sought surfaces whose geodesics are given by linear equations and found only constant curvature, and by Klein's 1871 footnote citing the paper. The 1865 paper itself was not read.",
+    "ev": [
+     {
+      "c": "Crossref: Annali di Matematica Pura ed Applicata, series 1, vol. 7, pp. 185-204 (1865).",
+      "s": "Crossref 10.1007/bf03198517",
+      "u": "https://doi.org/10.1007/bf03198517",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Read: Beltrami's opening of the Teoria fondamentale refers to this memoir (vol. VII, 1865, p. 185; Opere vol. I, p. 262).",
+      "s": "Beltrami, Opere matematiche vol. 1, no. 25 (Internet Archive operematematiche01beltuoft)",
+      "u": "https://archive.org/details/operematematiche01beltuoft",
+      "k": "primary_text"
      }
     ]
    },
@@ -136929,7 +137263,7 @@
     "d": "Beltrami realised Lobachevsky's plane on surfaces of constant negative curvature and also represented it inside a limit circle whose chords are the geodesics, linking it to Riemann's geometry.",
     "ph": null,
     "c": "high",
-    "n": "MacTutor stresses Beltrami did not set out to prove consistency; others drew that consequence. Checked in Houel's translation (Numdam): Beltrami says he succeeded for the plane but sees it as impossible for three dimensions, and the plane is mapped to a 'cercle-limite' whose chords are the geodesics, so the disc model with straight lines is already in this essay (the n-dimensional case is the Teoria fondamentale).",
+    "n": "MacTutor stresses Beltrami did not set out to prove consistency; others drew that consequence. Checked in Houel's translation (Numdam): Beltrami says he succeeded for the plane but sees it as impossible for three dimensions, and the plane is mapped to a 'cercle-limite' whose chords are the geodesics, so the disc model with straight lines is already in this essay (the n-dimensional case is the Teoria fondamentale). Original reference confirmed in the Opere matematiche (vol. 1, no. 24): Giornale di Matematiche 6 (1868), pp. 284-312.",
     "ev": [
      {
       "c": "The 1868 essay gives a concrete realisation using the pseudosphere.",
@@ -136948,6 +137282,12 @@
       "s": "Numdam, Beltrami-Houel translation (1869)",
       "u": "http://www.numdam.org/item/ASENS_1869_1_6__251_0/",
       "k": "primary_publication"
+     },
+     {
+      "c": "Read: contents list gives the Saggio in Giornale di Matematiche vol. VI (1868) pp. 284-312 and the Teoria fondamentale in Annali di Matematica (2) 2 (1868-69) pp. 232-255.",
+      "s": "Beltrami, Opere matematiche vol. 1 (Internet Archive operematematiche01beltuoft)",
+      "u": "https://archive.org/details/operematematiche01beltuoft",
+      "k": "primary_text"
      }
     ]
    },
@@ -136964,7 +137304,7 @@
     "d": "The general n-dimensional treatment, in which the model with straight lines inside a ball first appears.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Read in Beltrami's Opere matematiche vol. 1 (Internet Archive), no. 25: the memoir (Annali di Matematica (2) 2, 1868-69, pp. 232-255) opens by recalling his 1865 search for surfaces with geodesics represented by linear equations, announces much more general results linked to Riemann's Hypothesen, then treats n-dimensional spaces of constant curvature: the geodesics are given by n-1 linear equations in the coordinates x, the 'first-order surfaces' play the role of planes (a surface contains a whole geodesic as soon as it contains two of its points), and for negative curvature the geometry is the pseudospherical (non-Euclidean) one. This confirms that the straight-line (projective) model first appears for all n here. Houel's French translation (Ann. sci. ENS 6, 1869, pp. 345-375) is noted in the Opere.",
     "ev": [
      {
       "c": "Crossref: Annali di Matematica 2 (1868).",
@@ -136977,6 +137317,12 @@
       "s": "Wikipedia, Beltrami-Klein model",
       "u": "https://en.wikipedia.org/wiki/Beltrami%E2%80%93Klein_model",
       "k": "history_page"
+     },
+     {
+      "c": "Read: introduction, the linear representation of geodesics for constant curvature, first-order surfaces, and the negative-curvature case.",
+      "s": "Beltrami, Teoria fondamentale degli spazii di curvatura costante, Opere matematiche vol. 1, no. 25 (Internet Archive operematematiche01beltuoft)",
+      "u": "https://archive.org/details/operematematiche01beltuoft",
+      "k": "primary_text"
      }
     ]
    },
@@ -137057,7 +137403,7 @@
     "d": "Klein used Cayley's projective distance to build models of hyperbolic and elliptic geometry inside projective geometry.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Read in the Internet Archive scan of Math. Ann. 4 (1871): Klein's paper (pp. 573-625) says its aim is to present the mathematical results of the non-Euclidean parallel theories 'in a new, intuitive way' through projective geometry, using Cayley's projective measure (Sixth Memoir, 1859) with a fundamental quadric; he credits Beltrami with first showing the plane hyperbolic geometry on surfaces of constant negative curvature and, for n dimensions, in the Teoria fondamentale, and says that geodesics as straight lines and the quadric at infinity are results Beltrami had already found 'from other considerations', and that from Beltrami's formulas to Cayley's 'hardly a step' remains. A first note under the same title is cited (Göttinger Nachrichten 1871, no. 17), not seen.",
     "ev": [
      {
       "c": "Crossref: Math. Ann. 4 (1871).",
@@ -137070,6 +137416,12 @@
       "s": "Wikipedia, Beltrami-Klein model",
       "u": "https://en.wikipedia.org/wiki/Beltrami%E2%80%93Klein_model",
       "k": "history_page"
+     },
+     {
+      "c": "Read: Klein's introduction, footnotes citing Cayley (1859) and Beltrami (Giornale di Matematiche 1868; Annali (2) 2, 1868/69) and the remark on what Beltrami had already shown.",
+      "s": "Klein, Ueber die sogenannte Nicht-Euklidische Geometrie, Math. Ann. 4 (1871) 573-625 (Internet Archive sim_mathematische-annalen_1871_4)",
+      "u": "https://archive.org/details/sim_mathematische-annalen_1871_4",
+      "k": "primary_text"
      }
     ]
    }
@@ -137120,7 +137472,7 @@
    {
     "name": "Jules Houel",
     "role": "popularizer",
-    "life": null,
+    "life": "1823-1886",
     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Houel/",
     "works": [
      {
@@ -137132,7 +137484,7 @@
     ]
    }
   ],
-  "notes": "The summary credits Klein with the consistency proof; MacTutor says Beltrami himself did not aim at it and Houel/others drew the consequence, while Cremona delayed publication over circularity worries. Naming 'Beltrami-Klein model' is modern and undated. Klein's 1873 follow-up (Math. Ann. 6) not used as a separate milestone. person without verified work: Jules Houel (popularizer).  Review R5 (not promoted): Houel's 1869 translation (Numdam) read and shows the disc model with chords already in the 1868 Saggio; Houel's role was relabelled key_development because no independence note was found in it. Crossref confirms Cayley 1859, Beltrami's Teoria fondamentale (Annali 2, 1868, 232-255) and Klein 1871 (Math. Ann. 4, 573-625). Outstanding: Teoria fondamentale, Klein 1871 and Cayley 1859 were not read (Springer blocked).",
+  "notes": "The summary credits Klein with the consistency proof; MacTutor says Beltrami himself did not aim at it and Houel/others drew the consequence, while Cremona delayed publication over circularity worries. Naming 'Beltrami-Klein model' is modern and undated. Klein's 1873 follow-up (Math. Ann. 6) not used as a separate milestone. person without verified work: Jules Houel (popularizer).  Review R5 (not promoted): Houel's 1869 translation (Numdam) read and shows the disc model with chords already in the 1868 Saggio; Houel's role was relabelled key_development because no independence note was found in it. Crossref confirms Cayley 1859, Beltrami's Teoria fondamentale (Annali 2, 1868, 232-255) and Klein 1871 (Math. Ann. 4, 573-625). Outstanding: Teoria fondamentale, Klein 1871 and Cayley 1859 were not read (Springer blocked). Review R3-G4 (promoted, grades B/B): read Cayley 1859 (Collected Papers vol. 2), Beltrami's Teoria fondamentale and the contents list giving the Saggio and the Teoria in the Opere matematiche vol. 1, and Klein 1871 (Math. Ann. 4). Added Beltrami 1865 (geodesics to straight lines) as a precursor from Crossref, Beltrami's own opening of the Teoria and Klein's footnote. The 1865 paper, Klein's Göttingen note (1871) and the independent Houel translation of the Teoria fondamentale were not read.",
   "catalogueDates": [
    [
     1868,
