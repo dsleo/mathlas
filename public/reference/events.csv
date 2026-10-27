@@ -79,7 +79,7 @@ P004,Graph theory from the Königsberg bridges,1741,False,Graph theory,birth-by-
 P450,Topology from the geometry of position (Euler to Listing),1741,False,Topology,birth-by-abstraction,source-first,6,Leonhard Euler; Simon Lhuilier; Johann Benedict Listing,events/P450/
 P560,Clairaut applies hydrostatics to the figure of the Earth,1743,False,Geophysics & geodesy,field-emergence,direct,1,,events/P560/
 P430,Spectral ideas: eigenvalues from vibrating systems and quadratic forms,1743,False,Algebra,birth-by-abstraction,source-first,8,Jean le Rond d'Alembert; Leonhard Euler; Augustin-Louis Cauchy; Charles-François Sturm; David Hilbert,events/P430/
-P005,Analytic number theory I: Euler's product and Dirichlet's characters,1744,False,Number theory,birth-by-fusion,source-first,5,Leonhard Euler; Peter Gustav Lejeune Dirichlet; Adrien-Marie Legendre,events/P005/
+P005,Analytic number theory I: Euler's product and Dirichlet's characters,1744,False,Number theory,birth-by-fusion,source-first,6,Leonhard Euler; Peter Gustav Lejeune Dirichlet; Adrien-Marie Legendre,events/P005/
 P142,Euler's Introductio in analysin infinitorum,1748,False,Analysis,reification,source-first,5,Leonhard Euler; Johann Bernoulli,events/P142/
 P190,Euler: complex logarithms and exponentials,1748,False,Complex analysis,birth-by-fusion,source-first,7,Leonhard Euler; Johann Bernoulli; Roger Cotes,events/P190/
 P162,D'Alembert and Euler: the wave equation and partial differential equations,1749,False,Differential equations,import-from-outside,source-first,5,Jean le Rond d'Alembert; Leonhard Euler; Daniel Bernoulli; Brook Taylor; Joseph-Louis Lagrange,events/P162/
@@ -378,7 +378,7 @@ P504,Ellipsoid method in combinatorial optimisation,1976,False,Combinatorics,tec
 P501,"Pattern theory and variational image models (Grenander, Mumford)",1976,False,Analysis,import-from-outside,source-first,5,Ulf Grenander; David Mumford; J. Shah,events/P501/
 P064,Public-key cryptography,1976,False,Computer science,technique-transfer,source-first,8,Whitfield Diffie; Martin E. Hellman; Ronald L. Rivest; Victor S. Miller; Neal Koblitz,events/P064/
 P030,Furstenberg: ergodic theory proves Szemeredi's theorem,1977,False,Combinatorics,technique-transfer,source-first,6,Hillel Furstenberg; Yitzhak Katznelson; Endre Szemeredi; Donald Ornstein,events/P030/
-P256,Intersection cohomology,1977,False,Algebraic topology,birth-by-fusion,source-first,7,Mark Goresky; Robert MacPherson; David Kazhdan; George Lusztig; Armand Borel,events/P256/
+P256,Intersection cohomology,1977,False,Algebraic topology,birth-by-fusion,source-first,8,Mark Goresky; Robert MacPherson; David Kazhdan; George Lusztig; Armand Borel,events/P256/
 P087,Rational homotopy theory via differential forms,1977,False,Topology,dictionary-analogy,source-first,6,Dennis Sullivan; Daniel Quillen; Micheline Vigue-Poirrier; Yves Felix,events/P087/
 P283,Feigenbaum universality (period-doubling universality),1978,False,Dynamics,import-from-outside,source-first,7,Mitchell Feigenbaum; Oscar E. Lanford III; Jean-Pierre Eckmann; Peter Wittwer; Albert Libchaber,events/P283/
 E36,Topology proves Kneser's conjecture,1978,False,Combinatorics,technique-transfer,direct,5,László Lovász,events/E36/

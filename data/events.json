@@ -2082,7 +2082,7 @@
   "took": {
    "y": 1838,
    "role": "first_application",
-   "label": "Dirichlet applies characters and series to primes in progressions",
+   "label": "Dirichlet's Crelle note announces the series method for primes in progressions",
    "same": false
   },
   "y": 1744,
@@ -2146,7 +2146,7 @@
     "d": "The statement that any progression with coprime start and difference holds infinitely many primes was conjectured before Dirichlet proved it.",
     "ph": null,
     "c": "medium",
-    "n": "Wikipedia cites the Essai (1798, 2nd ed. 1808) for Legendre's conjecture on primes in progressions, made while trying to prove quadratic reciprocity; Gauss (Disquisitiones, 1801, art. 297) remarks that Legendre found the proof hard. Legendre's earlier memoir (c. 1785) was not checked. Wikipedia also says Euler stated the case a = 1 in 1775 (printed 1785). The content of the Essai was not read (archive.org catalogue entry only).",
+    "n": "Wikipedia cites the Essai (1798, 2nd ed. 1808) for Legendre's conjecture on primes in progressions, made while trying to prove quadratic reciprocity; Gauss (Disquisitiones, 1801, art. 297) remarks that Legendre found the proof hard. Legendre's earlier memoir (c. 1785) was not checked. Wikipedia also says Euler stated the case a = 1 in 1775 (printed 1785). The content of the Essai was not read (archive.org catalogue entry only). Review G3: Dirichlet himself, in the 1837 memoir and the 1838 note, says Legendre attempted the proof with an inductively supported theorem (read in Werke I), which confirms the nature of the precursor; the Essai itself was not read.",
     "ev": [
      {
       "c": "The general form was first conjectured by Legendre, as Gauss noted in the Disquisitiones",
@@ -2159,6 +2159,12 @@
       "s": "MacTutor, Lejeune Dirichlet",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Dirichlet/",
       "k": "history_page"
+     },
+     {
+      "c": "Dirichlet: Legendre used the proposition as a lemma (reciprocity law) and tried to prove it, but his proof rests on a theorem established only by induction; Dirichlet could not complete it and used other means. Dirichlet cites Legendre, Theorie des Nombres, 4th part, section IX.",
+      "s": "Dirichlet, Werke I, pp. 313-316 (Abh. Berlin 1837) and p. 357 (Crelle 18, 1838)",
+      "u": "https://archive.org/details/werkehrsgaufvera01lejeuoft",
+      "k": "primary_text"
      }
     ]
    },
@@ -2167,15 +2173,15 @@
     "y": 1838,
     "ye": null,
     "p": "year",
-    "l": "Dirichlet applies characters and series to primes in progressions",
-    "w": "Dirichlet, Sur l'usage des séries infinies dans la théorie des nombres, J. reine angew. Math. 18, 1838 (full memoir read 1837, Berlin Abhandlungen 1839)",
+    "l": "Dirichlet's Crelle note announces the series method for primes in progressions",
+    "w": "Dirichlet, Sur l'usage des series infinies dans la theorie des nombres, J. reine angew. Math. 18 (1838) 259-274 (preliminary note; memoir read to the Berlin Academy 27 July 1837, printed in the Abhandlungen volume \"von 1837\")",
     "pe": [
      "Peter Gustav Lejeune Dirichlet"
     ],
-    "d": "Dirichlet proves infinitely many primes in each coprime progression by combining Euler's product, character sums and non-vanishing of L-series at 1.",
+    "d": "A preliminary note announces that the theorem on primes in arithmetic progressions has been proved with a class of infinite series and applies the quadratic character (Legendre symbol) series to the class number of binary quadratic forms.",
     "ph": null,
     "c": "medium",
-    "n": "Crossref confirms Crelle 18 (1838) pp. 259-274, 'Sur l'usage des series infinies dans la theorie des nombres' (no author in Crossref). Wikipedia and MacTutor give 1837 for the memoir, which Wikipedia places in Abh. Berlin vol. 48, pp. 45-71 (printed 1839). Publication year governs, so 1838 is the earliest print found. Neither text was read, so whether the Crelle piece already contains the characters (rather than a summary of the series method) is unverified.",
+    "n": "Review G3, read in Dirichlet's Werke I (archive.org): the Crelle 18 piece (pp. 259-274, 1838) is explicitly a preliminary note (\"Depuis que j'ai ecrit le Memoire qui contient cette demonstration, et qui paraitra dans le volume de l'Academie de Berlin, actuellement sous presse\") that states the theorem on progressions, says the proof rests on series analogous to Euler's, and applies series built from the Legendre symbol to quadratic forms of determinant -q (class numbers). The general characters (via indices modulo a primitive root and the (p-1)th roots of unity) are in the memoir, read 27 July 1837 and printed in the Abhandlungen volume (next milestone); Werke I also lists a notice \"Beweis eines Satzes ueber die arithmetische Progression\" in the Berlin Monatsbericht 1837, pp. 108-110, not read and possibly the earliest print. Crossref confirms Crelle 18 pp. 259-274 (no author in Crossref). Publication year governs, so 1838 is the earliest print read.",
     "ev": [
      {
       "c": "Dirichlet proved in 1837 that any such progression has infinitely many primes",
@@ -2194,6 +2200,41 @@
       "s": "Crossref record 10.1515/crll.1838.18.259",
       "u": "https://doi.org/10.1515/crll.1838.18.259",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Preliminary note announcing the progression theorem, the series method and its application to quadratic forms; memoir \"sous presse\".",
+      "s": "Dirichlet, Werke I, no. XXIV (Crelle 18, 259-274), archive.org",
+      "u": "https://archive.org/details/werkehrsgaufvera01lejeuoft",
+      "k": "primary_text"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1839,
+    "ye": null,
+    "p": "year",
+    "l": "Dirichlet's memoir proving the theorem with characters and series",
+    "w": "Dirichlet, Beweis des Satzes, dass jede unbegrenzte arithmetische Progression, deren erstes Glied und Differenz ganze Zahlen ohne gemeinschaftlichen Factor sind, unendlich viele Primzahlen enthaelt, Abh. Koenigl. Preuss. Akad. Wiss. Berlin, Jahrgang 1837 (printed 1839), 45-81 (read 27 July 1837)",
+    "pe": [
+     "Peter Gustav Lejeune Dirichlet"
+    ],
+    "d": "Dirichlet proves the theorem by series over the (p-1) characters of the residue classes, built from indices modulo a primitive root, and a limit argument at s = 1.",
+    "ph": null,
+    "c": "medium",
+    "n": "Read the first part in Werke I (archive.org, no. XXI, pp. 313-342): the proof first treats a prime modulus p, uses the index (with Gauss) with respect to a primitive root c, forms the series L_omega over integers prime to p with the p-1 values of the root of unity omega (the Euler product over primes of this series), and discusses convergence for s > 1. The reading date 27 July 1837 is printed in the Werke. The printing year 1839 follows Wikipedia (volume of 1837 printed 1839); Dirichlet's 1838 note says the volume was still in press. The name \"character\" is not used in the part read; the second half (composite modulus, the limit s -> 1) was not read.",
+    "ev": [
+     {
+      "c": "Memoir read 27 July 1837; first part: indices modulo a primitive root, series L over integers prime to p, Euler product over primes.",
+      "s": "Dirichlet, Werke I, no. XXI (Abh. Berlin 1837, 45-81), archive.org",
+      "u": "https://archive.org/details/werkehrsgaufvera01lejeuoft",
+      "k": "primary_text"
+     },
+     {
+      "c": "Abh. Berlin vol. 48, pp. 45-71 printed 1839 per Wikipedia (Werke gives pp. 45-81).",
+      "s": "Wikipedia, Dirichlet's theorem on arithmetic progressions",
+      "u": "https://en.wikipedia.org/wiki/Dirichlet%27s_theorem_on_arithmetic_progressions",
+      "k": "history_page"
      }
     ]
    },
@@ -2307,7 +2348,7 @@
     ]
    }
   ],
-  "notes": "Partial review (R2-R1b), not promoted. Changed: Euler E72 confirmed by the Euler Archive (1744 print, product over primes in Theorema 7 per Wikipedia); the undated Legendre precursor is dated by the Essai (1798); the Dirichlet 1837/1838/1839 puzzle is explained (Abh. Berlin 1837 volume, printed 1839; earliest print Crelle 1838; Crossref confirms 1838, 1839, 1840 records). Naming of 'analytic number theory' and of 'Dirichlet character' not found. Selberg 1949 and Riemann 1859 are omitted. Outstanding: none of Euler's, Dirichlet's or Legendre's texts was read, so the content of the Crelle 1838 piece and the point at which characters are defined are unverified (Wikipedia says Dirichlet introduced the characters and L-series in the 1837 paper).",
+  "notes": "Partial review (R2-R1b), updated in G3, not promoted. Euler E72 confirmed by the Euler Archive (1744 print, product over primes in Theorema 7 per Wikipedia); Legendre dated by the Essai (1798). Review G3 read Dirichlet's Werke I (archive.org): the Crelle 18 (1838) piece is a preliminary note announcing the method (it applies the Legendre-symbol series to quadratic forms), while the general characters and the proof of the progression theorem are in the Berlin memoir read on 27 July 1837 and printed in the Abhandlungen volume of 1837 (issued 1839); this resolves the 1837/1838/1839 puzzle and puts the characters in the memoir, not the Crelle note. Naming of \"analytic number theory\" and of \"Dirichlet character\" not found. Selberg 1949 and Riemann 1859 omitted. Still open: the 1837 Monatsbericht notice (Werke pp. 307-312) and the second half of the memoir were not read; Euler E72, Legendre and the 1839-40 class number papers were not read; the printing year 1839 of the memoir rests on Wikipedia.",
   "catalogueDates": [
    [
     1737,
@@ -4325,8 +4366,8 @@
     ],
     "d": "Poincare's Analysis situs introduces homology classes and relations between submanifolds and chains, Betti numbers computed from them, and the fundamental group; torsion and the corrections after Heegaard's criticism follow in supplements of 1899-1904.",
     "ph": "Poincare's homology groups (1895)",
-    "c": "medium",
-    "n": "Homology appears here as relations between cycles and Betti numbers; treating homology classes as abelian groups is the later step of Noether, Vietoris and Mayer (next milestones), so the date is the first statement of homology, not of homology groups. Earlier work by Betti is counted as a precursor. Stillwell's introduction (an independent history source) confirms that homology theory first appears in the 1895 memoir and that the 1892 note preceded it without homology; the memoir itself was not read.",
+    "c": "high",
+    "n": "Homology appears here as relations between cycles and Betti numbers; treating homology classes as abelian groups is the later step of Noether, Vietoris and Mayer, so the date is the first statement of homology, not of homology groups. Review G3: read sections 5 (Homologies) and 6 (Nombres de Betti) in Poincare's Oeuvres VI (archive.org): a relation k1 v1 + ... + kp vp ~ 0 with integer coefficients means that the manifolds bound a submanifold (\"homologies\"), homologies combine like ordinary equations, and manifolds are \"lineairement independantes\" if no integer-coefficient homology links them; P_m - 1 independent closed m-dimensional manifolds define the Betti number. A later note in the Oeuvres (C. R. 133, 1901) confirms the memoir is in the first cahier of the second series of the Journal de l'Ecole Polytechnique and introduces the fundamental group. Stillwell's introduction (independent history) agrees that homology first appears in the 1895 memoir.",
     "ev": [
      {
       "c": "zbMATH (Jahrbuch record) lists Analysis situs, J. Ec. Polytech. (2) 1, 1-123 (1895).",
@@ -4357,6 +4398,12 @@
       "s": "Stillwell, translator's introduction to Poincare, Papers on Topology: Analysis Situs and Its Five Supplements (Edinburgh preprint)",
       "u": "https://webhomes.maths.ed.ac.uk/~aar/papers/poincare2009.pdf",
       "k": "history_page"
+     },
+     {
+      "c": "Section 5 defines homologies with integer coefficients, section 6 the Betti numbers via integral linear independence.",
+      "s": "Poincare, Analysis situs (J. Ec. Polytech. 1895), sections 5-6, in Oeuvres de Henri Poincare, t. VI, archive.org scan",
+      "u": "https://archive.org/details/uvresdehenripoin06poin",
+      "k": "primary_text"
      }
     ]
    },
@@ -4657,7 +4704,7 @@
     ]
    }
   ],
-  "notes": "Reviewed against Crossref (Vietoris 1927, Lefschetz 1942, Eilenberg-Steenrod 1945, reviews of Seifert-Threlfall and Veblen), zbMATH (Poincare 1895, J. Ec. Polytech. (2) 1, 1-123), Wikipedia (Homology) and Weibel's history. Poincare 1895 is the first statement of homology, not of homology groups; Noether/Vietoris/Mayer (1925-28) is the group step. Betti 1870 is a precursor. Not checked: Poincare's text, Noether's dating from primary sources, Mayer 1929, Hopf 1928.",
+  "notes": "Reviewed against Crossref (Vietoris 1927, Lefschetz 1942, Eilenberg-Steenrod 1945, reviews of Seifert-Threlfall and Veblen), zbMATH (Poincare 1895, J. Ec. Polytech. (2) 1, 1-123), Wikipedia (Homology) and Weibel's history. Poincare 1895 is the first statement of homology, not of homology groups; Noether/Vietoris/Mayer (1925-28) is the group step. Betti 1870 is a precursor. Not checked: Poincare's text, Noether's dating from primary sources, Mayer 1929, Hopf 1928. Review G3: Poincare's 1895 definitions of homology and Betti numbers were read in the Oeuvres (sections 5-6), raising the first-statement entry to high. Still open and not promoted: Noether's date (1925 versus the 1926-28 lectures) rests on secondary reports, Mayer 1929, Hopf 1928, Vietoris 1927, Seifert-Threlfall and Alexandroff-Hopf were not read.",
   "catalogueDates": [
    [
     1895,
@@ -4801,7 +4848,7 @@
     "basis": "earliest key development; no first application found"
    },
    "institutional": {
-    "y": 1930,
+    "y": 1931,
     "basis": "naming, textbook or institution"
    }
   },
@@ -4816,7 +4863,7 @@
   "derived": {
    "conceptual": 1890,
    "methodological": null,
-   "institutional": 1930
+   "institutional": 1931
   },
   "phases": [
    "Dedekind's ideals",
@@ -4881,7 +4928,7 @@
     "d": "Hilbert proved the finite generation of invariants and ideals of polynomials by a non-constructive argument, replacing explicit computation.",
     "ph": "Hilbert's finiteness theorems",
     "c": "medium",
-    "n": "Crossref confirms Math. Ann. 36, 473-534 (1890); Wikipedia places the basis theorem in this paper. MacTutor's Ring theory page dates the theorem to 1893, which is the later paper below (Math. Ann. 42, 313-373, Crossref 1893). Not read. Hilbert's earlier notes on invariants (Math. Ann. 33, 223-226, zbMATH 20.0110.01, 1888/89) were not opened and may state a finiteness result for binary forms.",
+    "n": "Crossref confirms Math. Ann. 36, 473-534 (1890). Review G3: the opening was read in the archive.org scan of vol. 36: section I, \"Die Endlichkeit der Formen in einem beliebigen Formensysteme\", Theorem I says that for any non-terminating sequence of forms F1, F2, ... in n variables there is an m such that every F of the sequence is a combination A1 F1 + ... + Am Fm with forms Ai; this is the finite basis theorem for polynomial ideals, and the proof reduces n variables to n-1. Hilbert's footnote lists preliminary communications, \"Zur Theorie der algebraischen Gebilde\", Nachr. Koenigl. Ges. Wiss. Goettingen 1888 (first note) and 1889 (second and third notes), which were not found online and not read; whether the 1888 note already states Theorem I would move the first statement earlier, so the 1890 date stays medium. The separate Math. Ann. 33 piece (zbMATH 20.0110.01, vol. dated 1889), \"Ueber die Endlichkeit des Invariantensystems fuer binaere Grundformen\", was read: it gives a new proof of Gordan's finiteness theorem for the invariants of binary forms (via linear diophantine systems and power sums), not the basis theorem, so it is not a first statement for this event. MacTutor's 1893 date for the basis theorem is the later Math. Ann. 42 paper below.",
     "ev": [
      {
       "c": "Crossref: Mathematische Annalen 36, pp. 473-534, 1890.",
@@ -4912,6 +4959,12 @@
       "s": "Wikipedia, Hilbert's basis theorem",
       "u": "https://en.wikipedia.org/wiki/Hilbert%27s_basis_theorem",
       "k": "history_page"
+     },
+     {
+      "c": "Theorem I of section I: every sequence of forms has a finite basis (finite m with F = A1 F1 + ... + Am Fm); footnote cites the 1888/1889 Goettingen notes.",
+      "s": "Hilbert, Ueber die Theorie der algebraischen Formen, Math. Ann. 36 (1890) 473ff., archive.org scan of vol. 36",
+      "u": "https://archive.org/details/sim_mathematische-annalen_1890_36",
+      "k": "primary_text"
      }
     ]
    },
@@ -5051,18 +5104,18 @@
    },
    {
     "r": "consolidation",
-    "y": 1930,
+    "y": 1931,
     "ye": null,
     "p": "year",
-    "l": "van der Waerden: Moderne Algebra",
-    "w": "van der Waerden, Moderne Algebra, Springer, 1930-31",
+    "l": "van der Waerden: Moderne Algebra, Teil II (ideal theory)",
+    "w": "van der Waerden, Moderne Algebra, Zweiter Teil, Grundlehren 34, Berlin: Springer, 1931 (Teil I, 1930)",
     "pe": [
      "Bartel van der Waerden"
     ],
-    "d": "The textbook that made Noether's abstract results widely available.",
+    "d": "The second volume of the textbook, drawing on Noether's lectures, gives the first textbook treatment of the ideal theory of commutative rings, polynomial ideals, elimination theory and integral algebraic quantities.",
     "ph": null,
     "c": "high",
-    "n": "Wikipedia gives volume 1 as 1930 and volume 2 as 1931 and says the book drew on Noether's lectures. Which volume carries the ideal theory was not confirmed in the sources read; if it is volume 2 the consolidation date would be 1931. Krull's Idealtheorie (Ergebnisse, 1935) is a later specialised survey.",
+    "n": "Review G3: Crossref chapter records of the Springer reprint of Teil II (first ed. 1931) list \"Eliminationstheorie\", \"Allgemeine Idealtheorie der kommutativen Ringe\", \"Theorie der Polynomideale\" and \"Ganze algebraische Groessen\" in the second volume, while Teil I (1930) holds groups, rings and fields, polynomials, field theory and Galois theory. So the ideal theory is in Teil II, 1931, and the consolidation date moves from 1930 to 1931. Wikipedia says the book drew on Noether's lectures (1924-28) and Artin's (1926). The book itself was not opened (the archive.org copies are lending-only). Krull's Idealtheorie (Ergebnisse, 1935) is a later specialised survey.",
     "ev": [
      {
       "c": "MacTutor: Noether's results became widely known through van der Waerden's 1930 Modern Algebra.",
@@ -5081,6 +5134,12 @@
       "s": "Crossref API",
       "u": "https://doi.org/10.1007/978-3-662-41906-9",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Teil II chapters: Eliminationstheorie; Allgemeine Idealtheorie der kommutativen Ringe; Theorie der Polynomideale; Ganze algebraische Groessen; Lineare Algebra; hyperkomplexe Groessen; Darstellungstheorie (1931 record, ISBN 9783662419588).",
+      "s": "Crossref chapter records, Moderne Algebra II (e.g. 10.1007/978-3-662-42016-4_2 and _3)",
+      "u": "https://doi.org/10.1007/978-3-662-42016-4_3",
+      "k": "bibliographic_record"
      }
     ]
    },
@@ -5098,7 +5157,7 @@
     "d": "The earliest book title found that names the field 'commutative algebra' in place of ideal theory.",
     "ph": null,
     "c": "low",
-    "n": "Open Library gives 1958 (Van Nostrand) as first publication; the Crossref DOI that was cited is a later Springer reprint (dated 1960 there) and was removed. Earlier uses of the phrase 'commutative algebra' were not searched; Wikipedia says the field was first known as ideal theory without dating the rename.",
+    "n": "Open Library gives 1958 (Van Nostrand) as first publication; the Crossref DOI that was cited is a later Springer reprint (dated 1960 there) and was removed. Earlier uses of the phrase 'commutative algebra' were not searched; Wikipedia says the field was first known as ideal theory without dating the rename. Review G3: a Crossref title search up to 1958 for \"commutative algebra\" found only unrelated uses (Vandiver, PNAS 1934-35, \"Discrete Commutative Algebra\" for a different structure; commutative Banach algebras, semigroups, matrices), so Zariski-Samuel 1958 stays the earliest use found in the sense of this field; the search was of titles only and is not exhaustive.",
     "ev": [
      {
       "c": "zbMATH record: Commutative algebra, vol. 1, 1958.",
@@ -5247,7 +5306,7 @@
     ]
    }
   ],
-  "notes": "Partial review (R2-R1b), not promoted. Milestones were cut from 15 to 8 (schema cap) and the same papers are no longer listed under two roles (rule 2): Hilbert 1890, Lasker 1905 and Noether 1921 each appear once, and the two Dedekind entries are merged. Dropped from the list but relevant: Gordan 1868 (finiteness for binary forms, Crelle 69, 323-354; Crossref has no author), Macaulay on uniqueness of primary decomposition (MacTutor 1915; Crossref has a 1913 paper and the 1916 Cambridge Tract) and Krull's Idealtheorie (Ergebnisse, 1935). Dates and venues of Hilbert 1890/1893, Lasker, Noether and Krull are confirmed by Crossref; Zariski-Samuel 1958 by Open Library. Outstanding: no primary text was read; the content of Hilbert 1890 versus his 1888/89 notes, the coinage of 'ring' (Hilbert, Zahlbericht), the volume of Moderne Algebra with the ideal theory, and earlier uses of the phrase 'commutative algebra' are unchecked; no journal or classification milestone was verified. The first-statement choice (Hilbert 1890 rather than Dedekind 1871) is a judgement. Biography URLs for Lasker, Krull and van der Waerden were not fetched; lifespans from general knowledge.",
+  "notes": "Partial review (R2-R1b), updated in G3, not promoted. Milestones were cut from 15 to 8 (schema cap) and each paper appears under one role. Review G3: read Hilbert 1890 Theorem I (finite basis theorem for arbitrary systems of forms) and Hilbert's 1888/89 Math. Ann. 33 note (a new proof of Gordan's theorem for binary invariants, not the basis theorem); the 1888/89 Goettingen preliminary notes cited by Hilbert were not found; the ideal theory of Moderne Algebra is in Teil II (1931), so the consolidation and the derived institutional date move to 1931; no earlier use of the phrase \"commutative algebra\" in this sense was found before Zariski-Samuel 1958. Gordan 1868, Macaulay 1913/1916 and Krull 1935 stay in the notes. Dedekind 1871 is kept as a precursor: the choice of Hilbert 1890 rather than Dedekind 1871 as the first statement is a judgement for the invariant-theory route. Still open: Dedekind, Lasker 1905, Noether 1921, Krull 1929 and Zariski-Samuel were not read; the coinage of \"ring\" (Hilbert, Zahlbericht) unchecked; no journal or classification milestone verified; biography URLs for Lasker, Krull and van der Waerden not fetched.",
   "catalogueDates": [
    [
     1890,
@@ -13822,35 +13881,6 @@
   ],
   "ms": [
    {
-    "r": "precursor",
-    "y": 1955,
-    "ye": null,
-    "p": "year",
-    "l": "Taniyama's problem list distributed at the Tokyo-Nikko symposium",
-    "w": "Y. Taniyama, Problems of number theory (mimeographed), International Symposium on Algebraic Number Theory, Tokyo and Nikko, September 1955",
-    "pe": [
-     "Yutaka Taniyama"
-    ],
-    "d": "Taniyama hands out a mimeographed list of 36 problems, including the question linking elliptic curves and automorphic forms.",
-    "ph": null,
-    "c": "medium",
-    "n": "Mimeographed and circulated to symposium participants, so a precursor under schema rule 3; the first print found is Sugaku 1956. Not read.",
-    "ev": [
-     {
-      "c": "Taniyama distributed mimeographs of 'Problems of Number Theory' to participants of the 1955 symposium in Tokyo and Nikko.",
-      "s": "Wikipedia, Taniyama's problems",
-      "u": "https://en.wikipedia.org/wiki/Taniyama%27s_problems",
-      "k": "history_page"
-     },
-     {
-      "c": "MacTutor: Taniyama posed two problems at the 1955 Tokyo-Nikko symposium on algebraic number theory.",
-      "s": "MacTutor Biography: Yutaka Taniyama",
-      "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Taniyama/",
-      "k": "history_page"
-     }
-    ]
-   },
-   {
     "r": "first_statement",
     "y": 1956,
     "ye": null,
@@ -13863,7 +13893,7 @@
     "d": "Taniyama states a preliminary version of the modularity conjecture as one of 36 unsolved problems; later refined with Shimura.",
     "ph": null,
     "c": "medium",
-    "n": "Wikipedia (Modularity theorem; Taniyama's problems) cites Sugaku 7 (1956), p. 269 for Problem 12 and says the list was circulated in mimeograph at the 1955 symposium; the earlier note that it appeared in the symposium proceedings is not supported. Problem 12 asks whether the Fourier series of the L-function of an elliptic curve is an automorphic form of a special type; the preliminary version was slightly incorrect. The Sugaku piece was not seen, and the 1956 print date rests on Wikipedia. Weil 1967 (below) rediscovered the conjecture.",
+    "n": "Wikipedia (Modularity theorem; Taniyama's problems) and nLab cite Sugaku 7 (1956), p. 269 for Problem 12; the list of 36 problems was handed out in English, mimeographed, to participants of the International Symposium on Algebraic Number Theory, Tokyo-Nikko, September 1955 (MacTutor places the problems at that symposium), so the 1955 mimeograph is a private precursor and the earliest print found is the 1956 Sugaku item. Lang (Notices AMS 42, 1995) is the standard history; Virtues of Priority (arXiv 2003.08242) copies Lang's translation of items 12 and 13 and notes that Taniyama's version was not literally correct. Problem 12 asks whether the Fourier series of the L-function of an elliptic curve is an automorphic form of a special type. The Sugaku page and Lang's article were not seen, so the 1956 print year rests on Wikipedia/nLab; no independent bibliographic record (J-STAGE, zbMATH) was found.",
     "ev": [
      {
       "c": "Wikipedia: Taniyama stated a preliminary version at the 1955 symposium as problem twelve of thirty-six",
@@ -13875,6 +13905,18 @@
       "c": "Wikipedia: Taniyama, Problem 12, Sugaku 7 (1956) 269.",
       "s": "Wikipedia, Taniyama's problems",
       "u": "https://en.wikipedia.org/wiki/Taniyama%27s_problems",
+      "k": "history_page"
+     },
+     {
+      "c": "Taniyama's items 12 and 13 at the Tokyo-Nikko conference, translation copied from Lang's AMS Notices article; version not literally correct.",
+      "s": "Virtues of Priority, arXiv:2003.08242, section 1",
+      "u": "https://arxiv.org/abs/2003.08242",
+      "k": "history_page"
+     },
+     {
+      "c": "Taniyama, Problem 12 (1956), Sugaku 7: 269 (Japanese).",
+      "s": "nLab, Yutaka Taniyama",
+      "u": "https://ncatlab.org/nlab/show/Yutaka+Taniyama",
       "k": "history_page"
      }
     ]
@@ -14006,15 +14048,16 @@
     "y": 1995,
     "ye": null,
     "p": "year",
-    "l": "Wiles's proof of modularity for semistable curves",
-    "w": "Wiles, Modular elliptic curves and Fermat's Last Theorem, Annals of Mathematics, 1995",
+    "l": "Wiles and Taylor-Wiles prove modularity for semistable curves",
+    "w": "A. Wiles, Modular elliptic curves and Fermat's Last Theorem, Ann. of Math. 141 (1995) 443-551; R. Taylor and A. Wiles, Ring-theoretic properties of certain Hecke algebras, Ann. of Math. 141 (1995) 553-572",
     "pe": [
-     "Andrew Wiles"
+     "Andrew Wiles",
+     "Richard Taylor"
     ],
-    "d": "Wiles proves modularity for semistable elliptic curves, enough to deduce FLT; the first version had a gap, repaired with Taylor.",
+    "d": "Wiles proves modularity for semistable elliptic curves over Q, with the Hecke-algebra step completed by Taylor and Wiles, which gives Fermat's Last Theorem.",
     "ph": null,
     "c": "high",
-    "n": "Crossref confirms Ann. of Math. 141, 443-551 (Crossref, May 1995). Not read.",
+    "n": "Crossref confirms both papers (Ann. of Math. 141, 443-551 and 553-572, May 1995), published in the same issue; merged here to stay within eight milestones (formerly two entries). Not read. Darmon's encyclopedia entry (Shimura-Taniyama conjecture) lists [W] and [TW] as the Wiles-Taylor proof, with Diamond 1996 and Conrad-Diamond-Taylor as refinements.",
     "ev": [
      {
       "c": "Article record, Annals 1995",
@@ -14027,30 +14070,87 @@
       "s": "MacTutor, Andrew Wiles biography",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Wiles/",
       "k": "history_page"
-     }
-    ]
-   },
-   {
-    "r": "key_development",
-    "y": 1995,
-    "ye": null,
-    "p": "year",
-    "l": "Taylor-Wiles repair of the Hecke algebra argument",
-    "w": "Taylor and Wiles, Ring-theoretic properties of certain Hecke algebras, Annals of Mathematics, 1995",
-    "pe": [
-     "Richard Taylor",
-     "Andrew Wiles"
-    ],
-    "d": "Taylor and Wiles supply the Hecke-algebra step that repairs the gap in the 1993 argument, completing the 1995 proof.",
-    "ph": null,
-    "c": "high",
-    "n": "Crossref confirms Ann. of Math. 141, 553-572 (Crossref, May 1995). Not read.",
-    "ev": [
+     },
      {
       "c": "Article record, Annals 1995",
       "s": "Crossref",
       "u": "https://doi.org/10.2307/2118560",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Darmon: almost completely proved thanks to Wiles and Taylor [W], [TW] and refinements [Di], [CDT].",
+      "s": "Darmon, The Shimura-Taniyama conjecture (encyclopedia entry, c. 1999)",
+      "u": "https://www.math.mcgill.ca/darmon/pub/Articles/Expository/07.Encyclopedia/paper.pdf",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1999,
+    "ye": null,
+    "p": "year",
+    "l": "Conrad-Diamond-Taylor extend modularity beyond the semistable case",
+    "w": "B. Conrad, F. Diamond, R. Taylor, Modularity of certain potentially Barsotti-Tate Galois representations, J. Amer. Math. Soc. 12 (1999) 521-567",
+    "pe": [
+     "Brian Conrad",
+     "Fred Diamond",
+     "Richard Taylor"
+    ],
+    "d": "The Wiles method is extended to many non-semistable curves, giving modularity when 27 does not divide the conductor.",
+    "ph": null,
+    "c": "medium",
+    "n": "Crossref confirms J. Amer. Math. Soc. 12(2), 521-567 (1999). The scope (27 does not divide the conductor) is from Darmon's encyclopedia entry; the paper was not read. Diamond, On deformation rings and Hecke rings, Ann. of Math. 144 (1996) 137-166 (Crossref), the intermediate step that extended the semistable result, is left to this note because of the eight-milestone limit; the 1996 paper was not read either.",
+    "ev": [
+     {
+      "c": "Conrad, Diamond, Taylor, J. Amer. Math. Soc. 12 (1999), no. 2, 521-567.",
+      "s": "Crossref 10.1090/s0894-0347-99-00287-8",
+      "u": "https://doi.org/10.1090/s0894-0347-99-00287-8",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Wiles (cf. [CDT]): E is modular if 27 does not divide the conductor.",
+      "s": "Darmon, The Shimura-Taniyama conjecture (encyclopedia entry)",
+      "u": "https://www.math.mcgill.ca/darmon/pub/Articles/Expository/07.Encyclopedia/paper.pdf",
+      "k": "history_page"
+     },
+     {
+      "c": "Diamond, On deformation rings and Hecke rings, Ann. of Math. 144 (1996) 137-166.",
+      "s": "Crossref 10.2307/2118586",
+      "u": "https://doi.org/10.2307/2118586",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 2001,
+    "ye": null,
+    "p": "year",
+    "l": "Breuil-Conrad-Diamond-Taylor complete the proof of modularity",
+    "w": "C. Breuil, B. Conrad, F. Diamond, R. Taylor, On the modularity of elliptic curves over Q: wild 3-adic exercises, J. Amer. Math. Soc. 14 (2001) 843-939",
+    "pe": [
+     "Christophe Breuil",
+     "Brian Conrad",
+     "Fred Diamond",
+     "Richard Taylor"
+    ],
+    "d": "The remaining cases are settled, so every elliptic curve over Q is modular.",
+    "ph": null,
+    "c": "medium",
+    "n": "Crossref confirms J. Amer. Math. Soc. 14(4), 843-939 (15 May 2001). That the paper completes the proof for all elliptic curves over Q is from Wikipedia (the lead gives 2001; its body says 1999 for the same result, which matches the CDT paper, so 2001 is used for completion); not read.",
+    "ev": [
+     {
+      "c": "Breuil, Conrad, Diamond, Taylor, J. Amer. Math. Soc. 14 (2001), no. 4, 843-939.",
+      "s": "Crossref 10.1090/s0894-0347-01-00370-8",
+      "u": "https://doi.org/10.1090/s0894-0347-01-00370-8",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "The modularity theorem was proved in full by Breuil, Conrad, Diamond and Taylor (2001); known before as the Taniyama-Shimura conjecture.",
+      "s": "Wikipedia, Modularity theorem",
+      "u": "https://en.wikipedia.org/wiki/Modularity_theorem",
+      "k": "history_page"
      }
     ]
    }
@@ -14141,7 +14241,7 @@
     ]
    }
   ],
-  "notes": "Partial review (R2-R1b), not promoted. Changed: the 1968 'naming' milestone is removed because Giraud's note (Invent. Math. 5, 231-236, Crossref 1968) is about the Shimura-Taniyama formula of complex multiplication, not the modularity conjecture; the derived institutional date is therefore null (no naming, consolidation or institution milestone located). Taniyama's statement is now a Sugaku 1956 print (Wikipedia) preceded by the 1955 mimeograph (precursor), not 'proceedings 1956'; Weil 1967 is added as the first serious evidence. Serre 1987, Ribet 1990, Wiles 1995 and Taylor-Wiles 1995 are confirmed by Crossref, Frey 1986 by zbMATH. Outstanding: the Sugaku print and Taniyama's text, and the primary papers, were not read; Diamond 1996 (Crossref: Ann. of Math. 144, 137), Conrad-Diamond-Taylor 1999 and Breuil-Conrad-Diamond-Taylor 2001 (J. AMS 14, 843-939) are real but were not made milestones (cap of 8); the name 'Taniyama-Shimura(-Weil)' is not dated.",
+  "notes": "Partial review (R2-R1b), updated in G3, not promoted. The 1968 \"naming\" milestone was removed (Giraud's note concerns the Shimura-Taniyama formula of complex multiplication); the derived institutional date is null because no naming, consolidation or institution milestone has been located. G3: the 1955 mimeograph precursor was folded into the note of the 1956 milestone and Wiles / Taylor-Wiles were merged (same Annals issue) to make room for Conrad-Diamond-Taylor 1999 and Breuil-Conrad-Diamond-Taylor 2001 (Crossref, J. Amer. Math. Soc. 12 and 14); Diamond 1996 (Ann. of Math. 144, 137-166) is recorded in the 1999 milestone's note. Naming: the conjecture is called Shimura-Taniyama(-Weil), Taniyama-Shimura(-Weil), Taniyama-Weil or the modularity conjecture (Darmon; Virtues of Priority; Wikipedia); Lang (Notices 1995) credits Shimura with stating it before Weil, in conversation with Serre and Weil at the IAS, most likely in 1964 (reported via arXiv 2003.08242); no dated coinage of any of these names was found, so no naming milestone is entered. Still open: the Sugaku 1956 print and Lang 1995 were not seen, and none of the papers was read.",
   "catalogueDates": [
    [
     1955,
@@ -80755,6 +80855,12 @@
       "s": "Wikipedia: Intersection homology",
       "u": "https://en.wikipedia.org/wiki/Intersection_homology",
       "k": "history_page"
+     },
+     {
+      "c": "Kazhdan and Lusztig's second paper reinterprets the polynomials via the intersection cohomology of Schubert varieties, following a suggestion of Deligne; P_{y,w}(q) is the sum of q^i dim IH^{2i} stalks.",
+      "s": "Wikipedia, Kazhdan-Lusztig conjectures",
+      "u": "https://en.wikipedia.org/wiki/Kazhdan%E2%80%93Lusztig_conjectures",
+      "k": "history_page"
      }
     ]
    },
@@ -80796,7 +80902,7 @@
     "d": "Brylinski and Kashiwara prove the Kazhdan-Lusztig conjecture using D-modules and the intersection cohomology interpretation of the polynomials (Beilinson and Bernstein announced the same result independently).",
     "ph": null,
     "c": "medium",
-    "n": "Title, journal, pages and year confirmed in Crossref (DOI 10.1007/bf01389272); contents not read. The independent Beilinson-Bernstein announcement (C. R. Acad. Sci. Paris 292, 1981) was not retrieved.",
+    "n": "Title, journal, pages and year confirmed in Crossref (DOI 10.1007/bf01389272); contents not read. The independent proof by Beilinson and Bernstein, Localisation de g-modules, C. R. Acad. Sci. Paris Ser. I 292 (1981) 15-18, is recorded in zbMATH Open (document 3747331); Wikipedia states that the conjectures were proved independently by these two pairs in 1981. The two proofs are one milestone here (same year, same result).",
     "ev": [
      {
       "c": "Crossref: Kazhdan-Lusztig conjecture and holonomic systems, Invent. Math. 64, pp. 387-410, issued October 1981.",
@@ -80808,6 +80914,49 @@
       "c": "Kashiwara's survey: the Kazhdan-Lusztig conjecture was proved in 1981 via the intersection cohomology interpretation.",
       "s": "Kashiwara, survey on the Kazhdan-Lusztig conjecture",
       "u": "https://www.kurims.kyoto-u.ac.jp/~kenkyubu/kashiwara/KL.pdf",
+      "k": "history_page"
+     },
+     {
+      "c": "Beilinson and Bernstein, Localisation de g-modules, C. R. Acad. Sci. Paris Ser. I 292, 15-18 (1981).",
+      "s": "zbMATH Open, document 3747331",
+      "u": "https://zbmath.org/3747331",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Conjectures proved independently by Beilinson-Bernstein and Brylinski-Kashiwara in 1981.",
+      "s": "Wikipedia, Kazhdan-Lusztig conjectures",
+      "u": "https://en.wikipedia.org/wiki/Kazhdan%E2%80%93Lusztig_conjectures",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1982,
+    "ye": null,
+    "p": "year",
+    "l": "Faisceaux pervers (perverse sheaves)",
+    "w": "A. A. Beilinson, J. Bernstein, P. Deligne, Faisceaux pervers, Asterisque 100 (1982), 172 pp.",
+    "pe": [
+     "Alexander Beilinson",
+     "Joseph Bernstein",
+     "Pierre Deligne"
+    ],
+    "d": "Introduces perverse sheaves and the decomposition theorem framework in which intersection cohomology complexes become simple objects.",
+    "ph": null,
+    "c": "medium",
+    "n": "zbMATH Open records the volume (Asterisque 100, 172 p., 1982; authors Beilinson, Bernstein, Deligne; the 2018 re-edition adds Gabber). Wikipedia says perverse sheaves were introduced in 1982 and that intersection homology could be described by perverse sheaves. The text was not read (Numdam and the SMF page not reachable).",
+    "ev": [
+     {
+      "c": "Faisceaux pervers, Asterisque 100, 172 p. (1982).",
+      "s": "zbMATH Open, document 3851256",
+      "u": "https://zbmath.org/3851256",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "The concept was introduced in 1982 by Bernstein, Beilinson, Deligne and Gabber; intersection homology can be described by perverse sheaves.",
+      "s": "Wikipedia, Perverse sheaf",
+      "u": "https://en.wikipedia.org/wiki/Perverse_sheaf",
       "k": "history_page"
      }
     ]
@@ -80950,7 +81099,7 @@
     ]
    }
   ],
-  "notes": "The 1977 Comptes Rendus note is cited from Wikipedia (Sér. A 284, pp. 1549-1551) and not found in Crossref or zbMATH here; if it cannot be confirmed, the first bibliographic statement is the 1980 Topology paper. Methodological was moved from 1979 to 1980: the 1979 Invent. Math. paper states the Kazhdan-Lusztig conjectures but is not shown to use intersection cohomology; the interpretation is in the 1980 Schubert varieties paper. Round 2: the 1977 note is now confirmed in zbMATH Open and the Brylinski-Kashiwara 1981 proof is a milestone (Crossref). Beilinson-Bernstein 1981 and the 1982 Beilinson-Bernstein-Deligne 'Faisceaux pervers' (perverse sheaves, part of the event's target) are not recorded as milestones (BBD could not be checked: Numdam was unreachable); the 1984 chapter is a Borel et al. volume. Kleiman's 1989 history was not read.",
+  "notes": "The 1977 Comptes Rendus note is confirmed by zbMATH Open (Ser. A 284, 1549-1551; Numdam dates it 27 June 1977). Methodological moved from 1979 to 1980: the 1979 Invent. Math. paper states the Kazhdan-Lusztig conjectures but the intersection cohomology reading is in the 1980 paper (Wikipedia: second paper, after a suggestion of Deligne). Brylinski-Kashiwara 1981 is a milestone (Crossref) with Beilinson-Bernstein 1981 (C. R. 292, zbMATH) in its note. Review G3: Beilinson-Bernstein-Deligne, Faisceaux pervers (Asterisque 100, 1982), is now a milestone from the zbMATH record. Still open: none of the papers (Goresky-MacPherson 1977, Kazhdan-Lusztig 1980, Beilinson-Bernstein, Brylinski-Kashiwara, BBD) was read; Kleiman's 1989 history was not read; the 1984 chapter is a Borel et al. volume. Not promoted.",
   "catalogueDates": [
    [
     1974,
@@ -107323,7 +107472,7 @@
     "d": "Lie turned from PDEs to systematic work on continuous transformation groups and infinitesimal generators.",
     "ph": null,
     "c": "high",
-    "n": "Dating rests on MacTutor and on Hawkins as reported by Wikipedia (Lie dated the birth of the theory to that winter; Hawkins suggests a longer period). Private development, so a precursor only.",
+    "n": "Dating rests on Lie himself and on MacTutor/Hawkins. Read in Lie's preface to Lie-Engel vol. 1 (1888): he worked on first-order PDEs in 1872-73, was led to infinitesimal contact transformations, and says the discoveries \"in den Jahren 1873 und 1874\" were the foundation of the theory of finite continuous transformation groups; the 1880 Math. Ann. paper likewise says he has worked on it eagerly since 1873. Private development, so a precursor only.",
     "ev": [
      {
       "c": "Lie began developing the theory of continuous transformation groups in winter 1873-74.",
@@ -107336,6 +107485,18 @@
       "s": "Wikipedia, Lie group",
       "u": "https://en.wikipedia.org/wiki/Lie_group",
       "k": "history_page"
+     },
+     {
+      "c": "Lie's preface (Vorrede) to Theorie der Transformationsgruppen I: PDE work 1872-73 led to infinitesimal transformations; the discoveries of 1873 and 1874 founded the theory of finite continuous transformation groups.",
+      "s": "Lie and Engel, Theorie der Transformationsgruppen I (Teubner 1888), Vorrede pp. v-vi",
+      "u": "https://archive.org/details/theotransformation01liesrich",
+      "k": "primary_text"
+     },
+     {
+      "c": "Lie: the investigations that he calls \"Theorie der Transformationsgruppen\" occupy him eagerly since 1873.",
+      "s": "Lie, Theorie der Transformationsgruppen I, Math. Ann. 16 (1880), opening paragraph",
+      "u": "https://archive.org/details/sim_mathematische-annalen_1880_16",
+      "k": "primary_text"
      }
     ]
    },
@@ -107352,7 +107513,7 @@
     "d": "Lie publishes a first short note on groups of transformations, the earliest printed statement of his continuous-group theory.",
     "ph": null,
     "c": "medium",
-    "n": "zbMATH (Jahrbuch 06.0093.01) dates the note 1874; Wikipedia (Lie group) says his 1870s papers, except the very first note, appeared in Norwegian journals. The text of the note was not read, so its content is taken from the title and the secondary remark. Replaces the 1876 Archiv paper as the first statement.",
+    "n": "zbMATH (Jahrbuch 06.0093.01) and EuDML 179698 date the note 1874. Both Lie-Engel vol. 1 (introduction: \"Lie, Goettinger Nachrichten 1874, 3. Decbr.\") and Lie's 1880 Math. Ann. paper (footnote: Goettinger Nachrichten Nr. 22, 1874) cite it as his first printed statement, which corroborates the year. The text of the note itself was not read (no scan found on archive.org, GDZ page not machine-readable), so its content is taken from these citations and from Lie's own description of the 1873-74 discoveries. Replaces the 1876 Archiv paper as the first statement.",
     "ev": [
      {
       "c": "Lie, Ueber Gruppen von Transformationen, Goett. Nachr. 1874, 529-542 (1874); EuDML 179698.",
@@ -107371,6 +107532,18 @@
       "s": "EuDML",
       "u": "https://eudml.org/doc/179698",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Lie-Engel vol. 1 introduction cites \"Lie, Goettinger Nachrichten 1874, 3. Decbr.\" for the notion of a group of transformations.",
+      "s": "Lie and Engel, Theorie der Transformationsgruppen I (1888), Einleitung p. 3 footnote",
+      "u": "https://archive.org/details/theotransformation01liesrich",
+      "k": "primary_text"
+     },
+     {
+      "c": "Lie's 1880 paper cites \"Goettinger Nachrichten Nr. 22. 1874\" and the Christiania archive for his earlier work.",
+      "s": "Lie, Math. Ann. 16 (1880), footnote to the opening paragraph",
+      "u": "https://archive.org/details/sim_mathematische-annalen_1880_16",
+      "k": "primary_text"
      }
     ]
    },
@@ -107400,6 +107573,12 @@
       "s": "zbMATH Open, JFM 08.0212.01",
       "u": "https://zbmath.org/?q=an:08.0212.01",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Lie-Engel vol. 1 cites \"Lie, Archiv for Mathematik og Naturv. Bd. 1, Christiania 1876\" for the basic theorem on the solvability of the composition equations of an r-parameter group.",
+      "s": "Lie and Engel, Theorie der Transformationsgruppen I (1888), Kapitel 1",
+      "u": "https://archive.org/details/theotransformation01liesrich",
+      "k": "primary_text"
      }
     ]
    },
@@ -107416,13 +107595,19 @@
     "d": "A major German-language account that brought the theory to a wide readership.",
     "ph": null,
     "c": "high",
-    "n": null,
+    "n": "Read the opening of the paper (archive.org scan of Math. Ann. 16): Lie announces a new theory \"die ich die Theorie der Transformationsgruppen nenne\", to be developed in a series of papers; this first one has two sections, determining all transformation groups of a one-dimensional and of a two-dimensional manifold. The rest of the memoir was not read.",
     "ev": [
      {
       "c": "Crossref: Theorie der Transformationsgruppen I, Math. Ann. 16 (1880) 441-528.",
       "s": "Crossref",
       "u": "https://doi.org/10.1007/bf01446218",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Lie announces a new theory he calls the Theorie der Transformationsgruppen; this first paper determines all groups of a one- and a two-dimensional manifold.",
+      "s": "Lie, Theorie der Transformationsgruppen I, Math. Ann. 16 (1880), opening",
+      "u": "https://archive.org/details/sim_mathematische-annalen_1880_16",
+      "k": "primary_text"
      }
     ]
    },
@@ -107439,7 +107624,7 @@
     "d": "Killing began the structural classification of the algebras of continuous groups, later completed by Cartan.",
     "ph": null,
     "c": "medium",
-    "n": "Part I is Math. Ann. 31 (1888); the Crossref record formerly cited (vol. 33, pp. 1-48) is part II, dated 1888 by Crossref and 1889 by zbMATH. Significance is stated from MacTutor/Wikipedia, the papers were not read. Review R3: MacTutor confirms the 1888-1890 four-part publication and the significance; the 1884 Braunsberg Programmschrift is an unpublished-in-journal precursor and was not entered (milestone limit).",
+    "n": "Part I is Math. Ann. 31 (1888) 252-290; the Crossref record formerly cited (vol. 33, pp. 1-48) is part II, dated 1888 by Crossref and 1889 by zbMATH. Review R3: MacTutor confirms the four-part series 1888-1890. Review G3: the opening of part I was read in the archive.org scan of vol. 31: Killing adopts Lie's notation, writes the infinitesimal transformations as X1 f ... Xr f, forms the brackets (Xi Xk) = sum c_iks Xs f, derives the Jacobi relations on the c_iks and calls two groups \"gleich zusammengesetzt\" when they have the same structure constants; he cites his own Braunsberg Programmschriften of 1884 and 1886 (not entered here, milestone limit). The classification theorems (parts II-IV) and the exceptional algebras were not read; their significance is from MacTutor.",
     "ev": [
      {
       "c": "Crossref: Killing, Die Zusammensetzung der stetigen endlichen Transformations-gruppen, Math. Ann. 31 (1888) 252-290 (part I).",
@@ -107464,6 +107649,12 @@
       "s": "MacTutor, Killing biography",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Killing/",
       "k": "history_page"
+     },
+     {
+      "c": "Killing, part I, introduction: uses Lie's notation, structure constants c_iks of the brackets (Xi Xk), Jacobi relations, groups of the same composition; cites Programme 1884 and 1886.",
+      "s": "Killing, Die Zusammensetzung der stetigen endlichen Transformationsgruppen I, Math. Ann. 31 (1888) 252ff.",
+      "u": "https://archive.org/details/sim_mathematische-annalen_1888_31",
+      "k": "primary_text"
      }
     ]
    },
@@ -107634,7 +107825,7 @@
     ]
    }
   ],
-  "notes": "Reviewed against Crossref (Math. Ann. 5, 16, 31, 33; Weyl; Tresse), zbMATH (Goettingen note 1874, Archiv 1876, Killing, Lie-Engel volumes), archive.org and MacTutor/Wikipedia. The first statement is now the 1874 Goettingen note; the 1876 Archiv paper is the first full account. The 1872 Math. Ann. contact-transformation paper (a precursor) was dropped to stay within eight milestones. 'Lie algebra' naming (Weyl, 1930s) not searched; no first_application dated (Lie's integration of ODEs by groups). Not read: Lie's 1874 note, Killing and Weyl papers, Tresse's thesis. Review R3: Crossref re-confirmed Lie 1880, Weyl 1925 and Tresse 1894 (Acta Math. 18, thesis defended 1893); EuDML 179698 confirms the 1874 Goettingen note. Open: the 1874 note was not read (GDZ page not machine-readable), the name 'Lie algebra' is attributed to Weyl (1930s, Encyclopedia of Mathematics, secondary only) and was not entered, no first application.",
+  "notes": "Reviewed against Crossref (Math. Ann. 5, 16, 31, 33; Weyl; Tresse), zbMATH (Goettingen note 1874, Archiv 1876, Killing, Lie-Engel volumes), archive.org and MacTutor/Wikipedia. The first statement is the 1874 Goettingen note; the 1876 Archiv paper is the first full account. The 1872 Math. Ann. contact-transformation paper (a precursor) was dropped to stay within eight milestones. No first_application is dated (Lie's integration of ODEs by groups). Review R3: Crossref re-confirmed Lie 1880, Weyl 1925 and Tresse 1894 (Acta Math. 18, thesis defended 1893); EuDML 179698 confirms the 1874 note. Review G3 (primary texts): read Lie's preface to Lie-Engel vol. 1 (1873-74 discoveries; citations of the Goettingen note of 3 Dec 1874 and of the Archiv 1876), the opening of Lie 1880 (Math. Ann. 16) and the opening of Killing part I (Math. Ann. 31, 1888). Naming of \"Lie algebra\": the Encyclopedia of Mathematics attributes it to Weyl in 1934 (earlier \"infinitesimal group\"; other sources say only \"the 1930s\", one ScienceDirect excerpt cites Weyl 1935); no Weyl text was located, so it is a candidate and not a milestone (schema rule 6). Still open: the 1874 note and Tresse's thesis were not read, Weyl 1925 was not read, Killing parts II-IV not read, no first application, the Lie algebra coinage is unverified in a primary text. Not promoted.",
   "catalogueDates": [
    [
     1870,
@@ -109342,8 +109533,8 @@
     ],
     "d": "Poincare began publishing his theory of Fuchsian functions in 1881, linking their groups to non-Euclidean geometry.",
     "ph": "Fuchsian functions",
-    "c": "medium",
-    "n": "C. R. 92 (14 February 1881) 333-335 is confirmed by two independent lists: the Numdam bibliography of Klein's notes (Bruning) and the Klein-Poincare correspondence (Henri Poincare Papers, Nantes). Klein's own transcribed notes on the note (Cod. MS. 14 G 1882) say it takes the Fuchsian group to be a discontinuous group of the hyperbolic plane and builds theta-Fuchsian functions, so it is a genuine first statement. Scan of the C. R. note itself not seen. About a dozen notes followed in 1881. His 1880 Grand Prix essay and its supplement of 28 June 1880 were not published, so are not a first statement.",
+    "c": "high",
+    "n": "C. R. 92 (14 February 1881) 333-335 is confirmed by two independent lists (the Numdam bibliography of Klein's notes and the Klein-Poincare correspondence, Nantes) and now by the printed note itself (archive.org scan of the C. R. issue of 14 February 1881, pp. 333-334 read): Poincare states the aim of finding analytic functions analogous to elliptic functions that integrate linear differential equations with algebraic coefficients, defines the hyperbolic group, discontinuous groups, Fuchsian groups and Fuchsian functions (uniform functions invariant under a Fuchsian group), and says the fundamental circle is tiled by curvilinear polygons using non-Euclidean geometry. Klein's transcribed notes (Cod. MS. 14 G 1882) agree. About a dozen notes followed in 1881. His 1880 Grand Prix essay and its supplement were not published, so are not a first statement.",
     "ev": [
      {
       "c": "Says Poincare began publishing an outline of automorphic function theory in 1881.",
@@ -109362,6 +109553,12 @@
       "s": "Numdam, Klein's notes about Poincaré's early publications (PHSC 1997)",
       "u": "https://numdam.org/item/PHSC_1997__2_4_77_0/",
       "k": "history_page"
+     },
+     {
+      "c": "Printed note, C. R. 92 pp. 333-334: aim, definitions of groupe fuchsien and fonction fuchsienne, tiling of the fundamental circle by non-Euclidean polygons.",
+      "s": "Poincare, Sur les fonctions fuchsiennes, C. R. Acad. Sci. Paris 92 (14 Feb 1881), archive.org scan",
+      "u": "https://archive.org/details/comptes-rendus-lacademie-des-sciences-vie-academique_1881-02-14_92_7",
+      "k": "primary_publication"
      }
     ]
    },
@@ -109377,8 +109574,8 @@
     ],
     "d": "The first note already carries the name Fuchsian functions, which MacTutor says honours Fuchs; Klein's term automorphic came later.",
     "ph": "Fuchsian functions",
-    "c": "medium",
-    "n": "Same note as the first_statement, counted under naming because the name is in the title. The Numdam article says the name Fuchsian functions was introduced by Poincare and annoyed Klein, who thought other mathematicians (such as Schwarz) deserved the credit. The date of Klein's 'automorphic' was not found.",
+    "c": "high",
+    "n": "Same note as the first_statement, counted under naming because the name is in the title. Read in the printed note (p. 333): Poincare says the class of functions is one \"auxquelles j'ai donne le nom de fonctions fuchsiennes, en l'honneur de M. Fuchs\". The Numdam article adds that the name annoyed Klein. The later term \"automorphic\": Adelmann and Gerbracht (arXiv 0712.4296, footnote 8) say Klein coined \"automorphic function\" about 1890 (citing Klein's collected papers), and the 1897 Fricke-Klein Vorlesungen carry \"automorphen Functionen\" in the title; no primary text of Klein's coinage was located, so the exact year (about 1890) is unverified and is not a milestone.",
     "ev": [
      {
       "c": "Bibliography gives the title Sur les fonctions fuchsiennes for the note of 14 February 1881",
@@ -109390,6 +109587,18 @@
       "c": "Poincaré first called automorphic functions Fuchsian after Lazarus Fuchs",
       "s": "MacTutor biography of Poincare",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Poincare/",
+      "k": "history_page"
+     },
+     {
+      "c": "Poincare: \"auxquelles j'ai donne le nom de fonctions fuchsiennes, en l'honneur de M. Fuchs\".",
+      "s": "Poincare, C. R. 92 (14 Feb 1881) p. 333, archive.org scan",
+      "u": "https://archive.org/details/comptes-rendus-lacademie-des-sciences-vie-academique_1881-02-14_92_7",
+      "k": "primary_publication"
+     },
+     {
+      "c": "Klein coined the term automorphic function about 1890 (footnote 8, citing Klein's collected works).",
+      "s": "Adelmann and Gerbracht, Letters from William Burnside to Robert Fricke, arXiv:0712.4296",
+      "u": "https://arxiv.org/abs/0712.4296",
       "k": "history_page"
      }
     ]
@@ -109406,14 +109615,20 @@
     ],
     "d": "Poincare shows that every Fuchsian function integrates an associated linear differential equation, with the hypergeometric series and the modular functions as examples.",
     "ph": null,
-    "c": "medium",
-    "n": "Dated and paginated by the Numdam bibliography of Klein's notes and by the Klein-Poincare correspondence; the content is from Klein's transcribed notes on the note (Fuchsian function integrates an associated equation, hypergeometric series, modular functions). Scan of the C. R. note not seen.",
+    "c": "high",
+    "n": "Dated and paginated by the Numdam bibliography of Klein's notes and the Klein-Poincare correspondence (C. R. 92, 21 February 1881, pp. 395-398). Read in the printed note (archive.org scan, pp. 395-396): the quotient of two theta-Fuchsian functions is a Fuchsian function; Poincare proves two theorems, (1) an algebraic relation between two Fuchsian functions of the same group and (2) every Fuchsian function permits the integration of a linear equation with algebraic coefficients, with the hypergeometric-type equation with integer exponents as the first example. Pages 397-398 not read.",
     "ev": [
      {
       "c": "Klein's notes on C. R. 92, p. 395: every Fuchsian function integrates an associated differential equation; hypergeometric series and modular functions as examples.",
       "s": "Bruning, Klein's notes about Poincare's early publications (Numdam)",
       "u": "https://numdam.org/item/PHSC_1997__2_4_77_0/",
       "k": "primary_archive"
+     },
+     {
+      "c": "Printed note, C. R. 92 pp. 395-396: two theorems, the second integrating linear equations with algebraic coefficients by Fuchsian functions.",
+      "s": "Poincare, Sur les fonctions fuchsiennes, C. R. Acad. Sci. Paris 92 (21 Feb 1881), archive.org scan",
+      "u": "https://archive.org/details/comptes-rendus-lacademie-des-sciences-vie-academique_1881-02-21_92_8",
+      "k": "primary_publication"
      }
     ]
    },
@@ -109682,7 +109897,7 @@
     ]
    }
   ],
-  "notes": "Partial review (R2-R1b), not promoted. The first published statement is Poincare's note of 14 February 1881 (confirmed by two lists and by Klein's contemporary notes on its content); the name Fuchsian functions is already in its title. The first application moves from the 1882 Acta memoir to the C. R. note of 21 February 1881, where Klein's notes record the integration of linear equations by Fuchsian functions. The coinage of 'automorphic' (Klein) is not verified, so the 1897 book is marked consolidation. Koebe 1907 is confirmed by zbMATH. Outstanding: the C. R. scans, the Acta memoirs, Klein 1882/1883 and Fricke-Klein were not read; Fuchs's, Fricke's and Koebe's biography pages were not fetched (the biographyUrl values point to related MacTutor pages).",
+  "notes": "Partial review (R2-R1b), updated in G3, not promoted. G3 read the two printed C. R. notes of 14 and 21 February 1881 (archive.org): the first defines Fuchsian groups and functions and names them after Fuchs; the second contains the integration of linear differential equations with algebraic coefficients, so the first_statement, naming and first_application dates are now confirmed from the primary text. The coinage of \"automorphic\" is placed about 1890 (Klein) by a secondary source only; the 1897 book is the consolidation. Koebe 1907 is confirmed by zbMATH. Still open: the Acta memoirs, Klein 1882/1883 and Fricke-Klein were not read; Fuchs 1866, Fricke and Koebe biography pages were not fetched; the 1890 coinage lacks a primary text.",
   "catalogueDates": [
    [
     1880,
@@ -131541,14 +131756,20 @@
     ],
     "d": "Wallis's algebra treatise is said to have foreshadowed the idea of a complex number as a point in a plane, though not developed.",
     "ph": "Geometric representation (Wessel, Argand, Gauss)",
-    "c": "low",
-    "n": "Wikipedia statement only; Wallis text not checked.",
+    "c": "medium",
+    "n": "Review G3: the preface of the 1685 Treatise of Algebra (archive.org scan) advertises \"a Discourse of Negative Squares, and the Roots of them; on which depend (what they call Imaginary Roots of Impossible Equations)\", showing \"what is the true Import thereof in nature, with divers Geometrical Constructions\". So Wallis does give a geometrical reading of roots of negative squares in 1685; the chapters themselves were not read, so whether he places them in a plane as Wessel and Argand do remains unchecked (Wikipedia only says he anticipated it). Precursor, not a first statement.",
     "ev": [
      {
       "c": "Wikipedia notes the plane idea was anticipated in Wallis's 1685 algebra treatise and that Wessel first described it in 1799.",
       "s": "English Wikipedia, Complex number (History)",
       "u": "https://en.wikipedia.org/wiki/Complex_number",
       "k": "history_page"
+     },
+     {
+      "c": "Wallis's preface lists a Discourse of Negative Squares and their roots (imaginary roots), with geometrical constructions.",
+      "s": "Wallis, A Treatise of Algebra (1685), preface \"to the Reader\", archive.org scan",
+      "u": "https://archive.org/details/bim_early-english-books-1641-1700_a-treatise-of-algebra-_wallis-john_1685",
+      "k": "primary_text"
      }
     ]
    },
@@ -131564,8 +131785,8 @@
     ],
     "d": "A Norwegian surveyor published a geometric way to add and multiply directed line segments, equivalent to the complex plane, which went unnoticed for about a century.",
     "ph": "Geometric representation (Wessel, Argand, Gauss)",
-    "c": "medium",
-    "n": "No Crossref/archive.org record located for the 1799 volume; year rests on three history pages that agree and the title and pages come from the Wikipedia reference list. Memoir read 1797, printed 1799; publication year used.",
+    "c": "high",
+    "n": "Memoir read 1797, printed 1799; publication year used. Review G3: the archive.org copy of the Nye Samling vol. 5 (record dated 1799) lists in its contents \"Caspar Wessel om Directionens analytiske Betegning, et Forsog, anvendt fornemmelig til plane og sphaeriske Polygoners Oplosning\", starting p. 469 (the next article starts p. 519), and the opening of the memoir is in the OCR: it asks how direction should be denoted analytically so that line segments follow the algebraic rules of operation. The volume contains meteorological observations of 1788-1798, consistent with a 1799 printing; the title page year is not legible in the OCR. The geometric representation of complex numbers beyond the opening was not read.",
     "ev": [
      {
       "c": "MacTutor says the geometric interpretation was first published by Wessel: paper submitted to the Danish Academy 10 March 1797, printed 1799, rediscovered 1895.",
@@ -131590,6 +131811,12 @@
       "s": "MacTutor, Caspar Wessel",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Wessel/",
       "k": "history_page"
+     },
+     {
+      "c": "Contents and opening of the memoir, Nye Samling vol. 5, pp. 469-518; volume record dated 1799.",
+      "s": "Nye Samling af det Kongelige Danske Videnskabernes Selskabs Skrifter, vol. 5 (Copenhagen), archive.org",
+      "u": "https://archive.org/details/nyesamlingafdetk5179kong",
+      "k": "primary_publication"
      }
     ]
    },
@@ -131669,21 +131896,27 @@
     "y": 1831,
     "ye": null,
     "p": "year",
-    "l": "Gauss publishes his theory of complex numbers as plane points",
-    "w": "C. F. Gauss, announcement of the Theoria residuorum biquadraticorum, commentatio secunda, Göttingische gelehrte Anzeigen 1831",
+    "l": "Gauss shows complex integers as a lattice of points in the plane",
+    "w": "C. F. Gauss, Anzeige of the Theoria residuorum biquadraticorum, commentatio secunda, Goettingische gelehrte Anzeigen, 23 April 1831 (Werke II, pp. 169-178); the Commentatio itself, presented 15 April 1831, was printed in Commentationes Soc. Reg. Sci. Gottingensis recentiores 7 (1832)",
     "pe": [
      "Carl Friedrich Gauss"
     ],
-    "d": "Gauss overcame earlier doubts, presented complex numbers as points of the plane and fixed much of the modern notation and vocabulary.",
+    "d": "Gauss presents complex integers as a lattice of points in a plane and calls this the true metaphysics of imaginary quantities, in the announcement of his second memoir on biquadratic residues.",
     "ph": "Geometric representation (Wessel, Argand, Gauss)",
-    "c": "medium",
-    "n": "Year 1831 is from Wikipedia. The Commentatio secunda itself is printed in the Göttingen Commentationes (vol. 7, 1832, believed); not checked. No bibliographic record found.",
+    "c": "high",
+    "n": "Review G3, read in Gauss' Werke II (archive.org): the Anzeige dated 23 April 1831 (Werke II, 169-178; the passage on pp. 174-175) says the arithmetic of complex numbers admits the most intuitive representation, with integers as equally spaced points on a line extended by parallel rows to a plane lattice of squares, the point next to 0 on the first parallel row standing for i, and that this puts \"die wahre Metaphysik der imaginaeren Groessen\" in a new light. The commentatio was presented to the Royal Society on 15 April 1831 and printed in vol. 7 of the Commentationes recentiores, dated MDCCCXXXII on the title page, so the first public statement is the April 1831 Anzeige. Wessel and Argand are not mentioned in the part read.",
     "ev": [
      {
       "c": "Wikipedia says Gauss published his treatment of complex numbers as plane points in 1831, largely fixing modern notation and terminology.",
       "s": "English Wikipedia, Complex number (History)",
       "u": "https://en.wikipedia.org/wiki/Complex_number",
       "k": "history_page"
+     },
+     {
+      "c": "Anzeige of 23 April 1831 describes complex integers as a plane lattice of points (Werke II pp. 174-175); commentatio presented 15 April 1831, printed in vol. 7 (1832).",
+      "s": "Gauss, Werke II (Goettingen 1863), Anzeige and Theoria residuorum biquadraticorum commentatio secunda, archive.org",
+      "u": "https://archive.org/details/werkecarlf02gausrich",
+      "k": "primary_text"
      }
     ]
    },
@@ -131798,7 +132031,7 @@
     ]
    }
   ],
-  "notes": "The event bundles a geometric stage (Wessel 1799, Argand 1806, Gauss 1831) and Hamilton's algebraic couples (1833 reading, 1837 printing). Main gaps: the 1799 Wessel volume rests on history pages without a bibliographic record, and the 1837 Hamilton item carries a placeholder date in the archive record. Review pass: Wessel's title and pages were added from Wikipedia; Gauss's citation was corrected to the 1831 announcement. Forerunners sometimes cited (Kühn in the 1750s, Buée 1806) were not found in a record and not examined. Review R3: Argand 1806 is now a precursor (private printing) and the public Argand text is Annales 4 (1813-14), verified at Numdam together with Francais's article. Buee, Memoire sur les quantites imaginaires, Phil. Trans. 96 (1806) 23-88 (Crossref 10.1098/rstl.1806.0003) is a candidate forerunner whose geometric content could not be confirmed, so it is not entered. Still open: no bibliographic record of the 1799 Wessel volume, Gauss 1831 text, Wallis and Kuhn unread.",
+  "notes": "The event bundles a geometric stage (Wessel 1799, Argand 1806/1813, Gauss 1831) and Hamilton's algebraic couples (1833 reading, 1837 printing). Review R3: Argand 1806 is a precursor (private printing) and the public text is Annales 4 (1813-14), verified at Numdam with Francais. Buee, Phil. Trans. 96 (1806) 23-88 (Crossref 10.1098/rstl.1806.0003) is a candidate forerunner whose geometric content could not be confirmed. Review G3 (primary texts): the 1799 Wessel volume is now an archive.org record with the article and pages 469-518 (previously only history pages); Gauss's 1831 statement is read in the Werke (Anzeige of 23 April 1831 plus the memoir's reading date and printing in 1832); Wallis's 1685 preface confirms a geometrical discourse on negative squares and imaginary roots. Still open: the content of Wessel's memoir beyond its opening, Wallis's chapters, Argand 1806 printing, Kuhn (1750s) and Buee unread; the Hamilton 1833/1837 items were not rechecked. Not promoted.",
   "catalogueDates": [
    [
     1797,
