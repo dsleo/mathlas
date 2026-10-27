@@ -256,7 +256,7 @@ def arrange(film, events_raw, placed):
         pref, groups = [], defaultdict(list)
         for k, e in enumerate(evs):
             src = {lane_of_label(l) for l in raw[e["pid"]]["from"]} - {field, "Other fields"}
-            src = [x for x in src if x in centre]
+            src = [x for x in sorted(src) if x in centre]
             if src:
                 vx = sum(centre[x][0] - cx for x in src); vy = sum(centre[x][1] - cy for x in src)
                 ang = math.atan2(vy, vx)
@@ -452,7 +452,7 @@ def main():
                 people_index[name].add(event["pid"])
     year_by_pid = {event["pid"]: event["year"] for event in events_out}
     film["searchPeople"] = [
-        {"n": name, "p": sorted(pids, key=year_by_pid.__getitem__)}
+        {"n": name, "p": sorted(pids, key=lambda p: (year_by_pid[p], p))}
         for name, pids in sorted(people_index.items())
     ]
     OUT.write_text(json.dumps(film, ensure_ascii=False, indent=1) + "\n")
