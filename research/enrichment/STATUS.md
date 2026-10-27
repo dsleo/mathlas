@@ -1,8 +1,8 @@
 # Milestone research status
 
 The committed source catalogue, `data/events.json`, currently contains **553 events**:
-**192** are marked `direct` and **361** are marked `source-first`. Together they
-have **3,077 milestones** and **4,759 evidence entries**. Each milestone has at
+**196** are marked `direct` and **357** are marked `source-first`. Together they
+have **3,094 milestones** and **4,889 evidence entries**. Each milestone has at
 least one evidence entry. These counts describe the present repository; they
 are not a claim that every historical priority or source has had an independent
 second review.

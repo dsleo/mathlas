@@ -64,7 +64,6 @@ P133,Newton's Principia,1687,False,Mathematical physics,import-from-outside,dire
 P151,Differential equations from calculus and mechanics,1690,False,Differential equations,birth-by-fusion,direct,4,Gottfried Wilhelm Leibniz; Isaac Newton; Jacob Bernoulli; Leonhard Euler; George Boole,events/P151/
 P443,Elliptic integrals from lemniscate and elastica (Bernoulli),1694,False,Analysis,import-from-outside,source-first,8,Jakob Bernoulli; Giulio Fagnano; Leonhard Euler; Adrien-Marie Legendre; Niels Henrik Abel; Carl Gustav Jacobi,events/P443/
 P446,Calculus of variations from the brachistochrone,1696,False,Optimization & control,birth-by-fusion,direct,7,Johann Bernoulli; Jakob Bernoulli; Leonhard Euler; Joseph-Louis Lagrange,events/P446/
-P192,Leibniz: determinants,1700,False,Algebra,birth-by-abstraction,source-first,9,Gottfried Leibniz; Colin Maclaurin; Gabriel Cramer; Seki Takakazu,events/P192/
 P460,"Trigonometry and the exponential: Cotes, De Moivre, Euler",1704,False,Analysis,dictionary-analogy,source-first,9,Johann Bernoulli; Roger Cotes; Abraham de Moivre; Leonhard Euler,events/P460/
 P185,De Moivre: probability and the trigonometry-complex number link,1707,False,Probability,technique-transfer,source-first,6,Abraham de Moivre; Leonhard Euler,events/P185/
 P179,Arbuthnot sex-ratio argument as an early significance test,1710,False,Statistics & decision theory,technique-transfer,direct,3,John Arbuthnot; Ronald A. Fisher,events/P179/
@@ -82,14 +81,15 @@ P430,Spectral ideas: eigenvalues from vibrating systems and quadratic forms,1743
 P005,Analytic number theory I: Euler's product and Dirichlet's characters,1744,False,Number theory,birth-by-fusion,source-first,6,Leonhard Euler; Peter Gustav Lejeune Dirichlet; Adrien-Marie Legendre,events/P005/
 P142,Euler's Introductio in analysin infinitorum,1748,False,Analysis,reification,source-first,5,Leonhard Euler; Johann Bernoulli,events/P142/
 P190,Euler: complex logarithms and exponentials,1748,False,Complex analysis,birth-by-fusion,source-first,7,Leonhard Euler; Johann Bernoulli; Roger Cotes,events/P190/
+P192,Leibniz: determinants,1748,False,Algebra,birth-by-abstraction,source-first,8,Gottfried Leibniz; Colin Maclaurin; Gabriel Cramer; Seki Takakazu,events/P192/
 P162,D'Alembert and Euler: the wave equation and partial differential equations,1749,False,Differential equations,import-from-outside,direct,6,Jean le Rond d'Alembert; Leonhard Euler; Daniel Bernoulli; Brook Taylor; Joseph-Louis Lagrange,events/P162/
 P445,Vibrating-string controversy and the general function concept,1750,False,Differential equations,import-from-outside,source-first,4,Jean le Rond d'Alembert; Leonhard Euler; Johann Bernoulli,events/P445/
 P558,Euler formulates the equations of fluid motion,1757,False,Fluid mechanics,field-emergence,direct,2,Leonhard Euler,events/P558/
 P120,Euler's polyhedron formula (V - E + F = 2),1758,False,Topology,birth-by-abstraction,source-first,5,Leonhard Euler; Simon Lhuilier,events/P120/
 P131,Bayes' inverse probability,1764,False,Statistics & decision theory,birth-by-abstraction,source-first,7,Thomas Bayes; Richard Price; Pierre-Simon Laplace; Marquis de Condorcet; Abraham de Moivre; Harold Jeffreys,events/P131/
 P118,"Differential geometry of surfaces (Clairaut, Euler, Monge, Gauss)",1767,False,Differential geometry,birth-by-fusion,source-first,6,Alexis Clairaut; Leonhard Euler; Gaspard Monge; Carl Friedrich Gauss,events/P118/
+P188,Potential theory in celestial mechanics and physics,1777,False,Differential equations,import-from-outside,source-first,8,Pierre-Simon Laplace; George Green; Joseph-Louis Lagrange; Simeon Denis Poisson; Carl Friedrich Gauss,events/P188/
 P130,Laplace's analytic probability,1782,False,Probability,technique-transfer,source-first,6,Pierre-Simon Laplace; Adrien-Marie Legendre; Abraham de Moivre; Stephen M. Stigler,events/P130/
-P188,Potential theory in celestial mechanics and physics,1785,False,Differential equations,import-from-outside,source-first,7,Pierre-Simon Laplace; George Green; Joseph-Louis Lagrange; Carl Friedrich Gauss,events/P188/
 P456,Social choice theory: Condorcet's probability to Arrow's theorem,1785,False,Statistics & decision theory,import-from-outside,source-first,7,Marquis de Condorcet; Kenneth Arrow; Duncan Black; Allan Gibbard; Jean-Charles de Borda,events/P456/
 P135,Lagrange's analytical mechanics,1788,False,Mathematical physics,reification,source-first,6,Joseph-Louis Lagrange; Leonhard Euler; William Rowan Hamilton,events/P135/
 P180,Lagrange's algebraic foundation for the calculus,1797,False,Analysis,technique-transfer,source-first,6,Joseph-Louis Lagrange; George Berkeley; Augustin-Louis Cauchy; Judith V. Grabiner,events/P180/
@@ -99,13 +99,13 @@ P138,Impossibility of solving the general quintic by radicals,1799,False,Algebra
 P139,Monge's descriptive geometry,1799,False,Geometry,import-from-outside,source-first,5,Gaspard Monge; Jean Nicolas Pierre Hachette; Albrecht Dürer,events/P139/
 P124,Gauss's Disquisitiones Arithmeticae,1801,False,Number theory,reification,source-first,6,Carl Friedrich Gauss; Adrien-Marie Legendre; Peter Gustav Lejeune Dirichlet; Ernst Kummer,events/P124/
 P132,Least squares,1805,False,Statistics & decision theory,technique-transfer,source-first,9,Adrien-Marie Legendre; Carl Friedrich Gauss; Robert Adrain; Pierre-Simon Laplace,events/P132/
-P007,Fourier series: from heat flow to analysis,1808,False,Functional & harmonic analysis,import-from-outside,source-first,7,Joseph Fourier; Peter Gustav Lejeune Dirichlet; Bernhard Riemann; Friedrich Wilhelm Bessel,events/P007/
+P007,Fourier series: from heat flow to analysis,1808,False,Functional & harmonic analysis,import-from-outside,direct,7,Joseph Fourier; Simeon Denis Poisson; Peter Gustav Lejeune Dirichlet; Bernhard Riemann; Friedrich Wilhelm Bessel,events/P007/
 P562,Babbage develops a calculus of functional equations,1815,False,Functional equations,field-emergence,direct,2,,events/P562/
 P561,Navier formulates equations for elastic solids,1821,False,Solid mechanics,field-emergence,direct,2,,events/P561/
 P113,Poncelet and projective geometry,1822,False,Geometry,dictionary-analogy,source-first,7,Jean-Victor Poncelet; Joseph Gergonne; Julius Plucker,events/P113/
 P128,Cauchy and the beginnings of complex analysis,1825,False,Complex analysis,birth-by-abstraction,source-first,6,Augustin-Louis Cauchy; Edouard Goursat,events/P128/
 P161,Abel: elliptic functions as inverses of elliptic integrals,1827,False,Complex analysis,technique-transfer,source-first,6,Niels Henrik Abel; Carl Gustav Jacob Jacobi; Adrien-Marie Legendre,events/P161/
-P191,"Homogeneous coordinates (Moebius, Pluecker)",1827,False,Algebraic geometry,technique-transfer,source-first,5,August Ferdinand Moebius; Julius Pluecker,events/P191/
+P191,"Homogeneous coordinates (Moebius, Pluecker)",1827,False,Algebraic geometry,technique-transfer,direct,8,August Ferdinand Moebius; Karl Wilhelm Feuerbach; Etienne Bobillier; Julius Pluecker,events/P191/
 P144,Hamiltonian optics and mechanics,1828,False,Mathematical physics,technique-transfer,source-first,6,William Rowan Hamilton; Carl Gustav Jacob Jacobi; Humphrey Lloyd,events/P144/
 P182,Abel's theorem and abelian integrals,1829,False,Algebraic geometry,birth-by-fusion,source-first,8,Niels Henrik Abel; Augustin-Louis Cauchy; Carl Gustav Jacob Jacobi; Bernhard Riemann,events/P182/
 P153,Jacobi: four squares via elliptic (theta) functions,1829,False,Number theory,technique-transfer,source-first,5,Carl Gustav Jacob Jacobi; James Whitbread Lee Glaisher,events/P153/
@@ -146,7 +146,7 @@ P420,Combinatorial group theory,1882,False,Group & representation theory,birth-b
 P439,Transcendence of pi and the impossibility of squaring the circle,1882,False,Geometry,technique-transfer,source-first,6,Charles Hermite; Ferdinand von Lindemann; Karl Weierstrass; David Hilbert,events/P439/
 P436,Logicism: reducing arithmetic to logic,1884,False,Logic & foundations,birth-by-fusion,source-first,7,Gottlob Frege; Bertrand Russell; Alfred North Whitehead; Richard Dedekind; Giuseppe Peano,events/P436/
 P399,Differential Galois theory,1887,False,Algebra,dictionary-analogy,source-first,6,Emile Picard; Ernest Vessiot; Ellis Kolchin; Joseph Ritt,events/P399/
-P013,Functional analysis,1887,False,Functional & harmonic analysis,birth-by-fusion,source-first,12,Vito Volterra; Jacques Hadamard; Ivar Fredholm; Maurice Frechet; David Hilbert; Stefan Banach; Frigyes Riesz,events/P013/
+P013,Functional analysis,1887,False,Functional & harmonic analysis,birth-by-fusion,source-first,13,Vito Volterra; Jacques Hadamard; Ivar Fredholm; Maurice Frechet; David Hilbert; Stefan Banach; Frigyes Riesz,events/P013/
 P360,Volterra functionals,1887,False,Functional & harmonic analysis,birth-by-abstraction,source-first,6,Vito Volterra; Jacques Hadamard; Maurice Frechet; Paul Levy,events/P360/
 P377,Killing-Cartan classification,1888,False,Group & representation theory,birth-by-abstraction,source-first,7,Wilhelm Killing; Elie Cartan; Sophus Lie; Bartel van der Waerden,events/P377/
 P374,Peano arithmetic axioms,1888,False,Logic & foundations,birth-by-abstraction,source-first,8,Richard Dedekind; Giuseppe Peano; Hermann Grassmann; Charles S. Peirce,events/P374/

@@ -2776,8 +2776,11 @@
   "product": "Harmonic analysis / rigorous analysis",
   "why": "The heat equation leads to arbitrary functions represented as trigonometric series, forcing a redefinition of function and integral.",
   "cat": "Seed set A",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "institutional": "B"
+  },
   "shown": {
    "conceptual": {
     "y": 1808,
@@ -2812,6 +2815,37 @@
   "ms": [
    {
     "r": "precursor",
+    "y": 1753,
+    "ye": null,
+    "p": "year",
+    "l": "Trigonometric series in the vibrating-string dispute (Euler, d'Alembert, D. Bernoulli)",
+    "w": "Memoires de l'Academie de Berlin, volumes for 1750 and 1753 (d'Alembert, Euler, D. Bernoulli); Lagrange's later memoir",
+    "pe": [
+     "Leonhard Euler",
+     "Jean le Rond d'Alembert",
+     "Daniel Bernoulli"
+    ],
+    "d": "Earlier work on wave motion used trigonometric sums, providing the toolkit Fourier generalised.",
+    "ph": "Fourier's heat conduction work",
+    "c": "medium",
+    "n": "Dated from Riemann's history section (read): the dispute begins with d'Alembert's and Euler's solutions and Daniel Bernoulli's trigonometric solution, with the volume years 1750 (d'Alembert's reply, p. 358) and 1753 (Euler p. 196; Riemann's contents give 'Jahre 1753') as the footnotes cite. 1753 is the volume year of the Berlin memoirs; the volumes were printed later and the print year was not checked, so the date is the volume year. Riemann reports that Bernoulli held that the string could vibrate as a sum of sines, Euler and d'Alembert held that this was not general, and Lagrange thought he could prove the possibility; the papers themselves were not read.",
+    "ev": [
+     {
+      "c": "Wikipedia names Euler, d'Alembert and Daniel Bernoulli as having done preliminary investigations before Fourier.",
+      "s": "English Wikipedia, Fourier series (History)",
+      "u": "https://en.wikipedia.org/wiki/Fourier_series",
+      "k": "history_page"
+     },
+     {
+      "c": "Riemann's history section (read) names Euler, d'Alembert, Daniel Bernoulli and Lagrange as the earlier disputants on representing arbitrary functions of the vibrating string by trigonometric series, with Lagrange claiming a proof of the possibility.",
+      "s": "B. Riemann, Abh. Gott. 13 (1868), section 1",
+      "u": "https://archive.org/details/per_abhandlungen-der-koniglichen-gesellschaft-der_1866-1867_13",
+      "k": "primary_text"
+     }
+    ]
+   },
+   {
+    "r": "precursor",
     "y": 1807,
     "ye": null,
     "p": "year",
@@ -2823,8 +2857,14 @@
     "d": "Fourier used sums of sines and cosines to solve the heat equation for a solid, the purpose that created the theory.",
     "ph": "Fourier's heat conduction work",
     "c": "medium",
-    "n": "Memoir was read, not printed, in 1807, so it is a precursor; its content became public through the 1808 extract. Whether and when it was first printed in full was not checked.",
+    "n": "Memoir read (communicated) to the Academy on 21 December 1807; not printed. Darboux (Oeuvres de Fourier, vol. 1, Avant-propos, read) says the memoir did not reach him and is known only through the four-page extract of 1808, adding that it was read and deposited but probably withdrawn by Fourier in 1810; Fourier's own Discours preliminaire (read) calls it a manuscript handed to the Institut at the end of 1807 and cites the extract. The manuscript was later located in the Academy archives and edited by Grattan-Guinness and Ravetz (1972), which was not read. Precursor because unprinted; its content became public through the 1808 extract.",
     "ev": [
+     {
+      "c": "Primary text read: Darboux's Avant-propos says Fourier's heat researches were communicated to the Academy on 21 December 1807, that the memoir has not come down to the editors and is known only by a four-page extract in the Bulletin de la Societe philomathique (1808).",
+      "s": "Oeuvres de Fourier, ed. G. Darboux, t. 1 (Gauthier-Villars, 1888), Avant-propos",
+      "u": "https://archive.org/details/uvresdefourier00darbgoog",
+      "k": "primary_text"
+     },
      {
       "c": "MacTutor: work began around 1804; the 1807 memoir was read on 21 December 1807, with Lagrange and Laplace objecting to its generality and rigour.",
       "s": "MacTutor, Fourier biography",
@@ -2856,10 +2896,10 @@
      "Simeon-Denis Poisson",
      "Joseph Fourier"
     ],
-    "d": "A five-page account of the 1807 memoir expands the temperature of a plate in cosine terms and fixes the coefficients by integrating the given function times cosines, so an arbitrary function on an interval is represented by a trigonometric series for the heat problem.",
+    "d": "A five-page account (pp. 112-116) of the 1807 memoir expands the temperature of a plate in cosine terms and fixes the coefficients by integrating the given function times cosines, so an arbitrary function on an interval is represented by a trigonometric series for the heat problem.",
     "ph": "Fourier's heat conduction work",
-    "c": "medium",
-    "n": "Read in the Internet Archive scan of Tome I (the extract precedes the issue headed April 1808; running heads (114)-(116) visible). The text states the series for an arbitrary phi(y) on (-1,1), the coefficient integrals and the remark that the series equals phi only on that interval unless phi is periodic. It is for the symmetric cosine case of a plate, not the full sine-and-cosine theory. The signature is only 'P.'; attribution to Poisson rests on a dealer description and a note in Darboux's edition, not read. Riemann (1868) cites exactly this place ('Bulletin d. sc. Tom. I. p. 115') for the statement of the coefficients. This printed account predates the 1822 book, which is why the first statement moves to 1808. Confidence lowered at merge: the extract is signed 'P.' and its attribution to Poisson rests on a dealer description and Darboux, neither read.",
+    "c": "high",
+    "n": "Read in the Internet Archive scan of Tome I (the extract precedes the issue headed April 1808; running heads (114)-(116) visible). The text states the series for an arbitrary phi(y) on (-1,1), the coefficient integrals and the remark that the series equals phi only on that interval unless phi is periodic. It is for the symmetric cosine case of a plate, not the full sine-and-cosine theory. Attribution settled: the extract is signed only 'P.', but Darboux's note in his edition (Oeuvres de Fourier, t. 2, 1890, p. 215, read in the scan) says the article is not by Fourier, that signed with the initial P it was written by Poisson, who was one of the editors of the Bulletin des Sciences for the mathematical part, and that it is the first writing in which Fourier's theory was made known. Fourier's own Discours preliminaire (t. 1, read) cites the same extract (Bulletin des Sciences, Societe philomathique, 1808, pp. 112-116). Riemann (1868) cites exactly this place ('Bulletin d. sc. Tom. I. p. 115') for the coefficients. The printed account predates the 1822 book, which is why the first statement is 1808; the memoir it reports was read in 1807 and the extract is a secondary account by a third party, which is why the milestone is labelled as Poisson's extract rather than Fourier's text.",
     "ev": [
      {
       "c": "Full text of Nouveau Bulletin des sciences, Tome I (1807-08): the extract 'Memoire sur la propagation de la Chaleur dans les corps solides; par M. Fourier', signed P., gives the series sum of cosines, the integral for the coefficients and the validity interval; it is followed by the issue headed April 1808.",
@@ -2868,34 +2908,46 @@
       "k": "primary_publication"
      },
      {
+      "c": "Primary text read: Darboux's note to the reprinted memoir of 1807 says the Bulletin article, signed P., was written by Poisson, an editor of the Bulletin des Sciences for mathematics, and is the first writing to make Fourier's theory known.",
+      "s": "Oeuvres de Fourier, ed. G. Darboux, t. 2 (Gauthier-Villars, 1890), note at p. 215 (Internet Archive scan, OCR text read)",
+      "u": "https://archive.org/details/oeuvresdefourier02four",
+      "k": "primary_text"
+     },
+     {
+      "c": "Primary text read: Fourier's Discours preliminaire refers to the 1807 manuscript and its extract in the Bulletin des Sciences (Societe philomathique, 1808, pp. 112-116).",
+      "s": "Oeuvres de Fourier, t. 1 (1888), Discours preliminaire (Internet Archive scan)",
+      "u": "https://archive.org/details/uvresdefourier00natigoog",
+      "k": "primary_text"
+     },
+     {
       "c": "Riemann cites 'Bulletin d. sc. Tom. I. p. 115. Les coefficients a, a', a''... etant ainsi determines' as the place where Fourier's statement is found.",
       "s": "B. Riemann, Abh. Gott. 13 (1868), footnote to the history section",
       "u": "https://archive.org/details/per_abhandlungen-der-koniglichen-gesellschaft-der_1866-1867_13",
       "k": "primary_text"
-     },
-     {
-      "c": "Dealer description: Poisson's extract on heat in solids, Nouveau Bulletin des sciences, March 1808, pp. 112-116 (authorship and pages).",
-      "s": "Bibliorare lot description",
-      "u": "https://www.bibliorare.com/lot/362121",
-      "k": "history_page"
      }
     ]
    },
    {
     "r": "precursor",
     "y": 1811,
-    "ye": null,
-    "p": "year",
-    "l": "Paris Institute prize for the theory of heat",
-    "w": "Fourier's prize essay, 1811",
+    "ye": 1812,
+    "p": "range",
+    "l": "Paris Institute prize for the theory of heat (essay of 1811, crowned January 1812)",
+    "w": "Fourier's prize essay, sent 28 September 1811, crowned 6 January 1812; printed in Mem. Acad. Sci. Inst. France 4 (1819-20, publ. 1824) and 5 (1821-22, publ. 1826)",
     "pe": [
      "Joseph Fourier"
     ],
     "d": "The Institute's prize on heat propagation was awarded to Fourier, though the report criticised rigour.",
     "ph": "Fourier's heat conduction work",
     "c": "medium",
-    "n": "Reclassified from recognition to precursor: it predates this event's first statement (1822) and belongs to the wider field.",
+    "n": "Reclassified from recognition to precursor: it predates the 1822 book and belongs to the wider field. Darboux (t. 2 note, read) gives the dates: the essay was presented on 28 September 1811 and crowned in the public session of 6 January 1812, and its full printing (Memoires de l'Academie, tomes IV and V, the latter published 1826) came after the Theorie analytique of 1822, though its results had been indicated in articles in the Annales de chimie et de physique and the Bulletin des Sciences. The Institute's report criticised rigour (MacTutor).",
     "ev": [
+     {
+      "c": "Primary text read: Fourier presented a memoir on 28 September 1811, crowned on 6 January 1812; its integral printing is later than the 1822 book.",
+      "s": "Oeuvres de Fourier, t. 2 (1890), Darboux's note on chapter IX (Internet Archive scan, OCR text read)",
+      "u": "https://archive.org/details/oeuvresdefourier02four",
+      "k": "primary_text"
+     },
      {
       "c": "MacTutor: the 1811 prize subject was heat propagation in solids and Fourier's essay won, with reservations.",
       "s": "MacTutor, Fourier biography",
@@ -2917,7 +2969,7 @@
     "d": "The book gives the full printed theory: heat equation solved by trigonometric series and integrals for arbitrary functions, with the motivating physical problems; it is Fourier's systematic treatment.",
     "ph": "Fourier's heat conduction work",
     "c": "high",
-    "n": "Reclassified from first_statement: the 1808 extract already printed the arbitrary-function series. Title page read in the Internet Archive scan; Open Library and Internet Archive agree on 1822. Bessel's 1819 use of Fourier series (per Wikipedia, not checked) is independent and not about heat.",
+    "n": "Reclassified from first_statement: the 1808 extract already printed the arbitrary-function series. Title page read in the Internet Archive scan; Open Library and Internet Archive agree on 1822. Bessel's 1819 use of Fourier series (per Wikipedia, not checked) is independent and not about heat. Fourier's Discours preliminaire and Darboux's notes (read in the 1888-90 edition) also treat the book as the first full exposition of the theory, the earlier memoirs being manuscripts and extracts.",
     "ev": [
      {
       "c": "Library record and title page (Firmin Didot, Paris) of the 1822 first edition, read in the scan.",
@@ -2952,7 +3004,7 @@
     "d": "Dirichlet gave the first rigorous sufficient conditions for a Fourier series to converge to its function.",
     "ph": "Rigour: Dirichlet and Riemann",
     "c": "high",
-    "n": "Crossref gives volume 4 (1829), pp. 157-169, title as given. The theorem's conditions were checked in Riemann's own account of the paper (read in the Abhandlungen); the paper's French text was not read. MacTutor says the paper was published in 1828; 1829 is kept as the printed volume year.",
+    "n": "Crossref gives volume 4 (1829), pp. 157-169. The paper was read in the arXiv transcription of the Crelle text (arXiv 0806.1294): Dirichlet says Fourier had stated the convergence of the series in his first memoir on heat but that nobody had given a general proof except Cauchy (1823), whose proof he finds insufficient, and then proves convergence for a function with a finite number of discontinuities and of maxima and minima; this matches Riemann's account. MacTutor says the paper was published in 1828; 1829 is kept as the printed volume year.",
     "ev": [
      {
       "c": "Crossref record, Crelle's Journal 1829, pages 157-169.",
@@ -2961,8 +3013,8 @@
       "k": "bibliographic_record"
      },
      {
-      "c": "arXiv 0806.1294 is a transcription of the paper from Crelle's Journal (1829) with the title 'Sur la convergence des series trigonometriques qui servent a representer une fonction arbitraire entre des limites donnees'; Riemann's account (read) states its result: functions integrable throughout with finitely many maxima and minima are represented by their series.",
-      "s": "arXiv 0806.1294; Riemann 1868 (history section)",
+      "c": "Primary text read: arXiv 0806.1294 is a transcription of the Crelle 1829 paper; its introduction says the convergence property was stated in Fourier's first memoir on heat, that Cauchy's attempt of 1823 is defective, and the paper proves the result for functions with finitely many maxima, minima and discontinuities. Riemann's 1868 account (read) states the same result.",
+      "s": "arXiv 0806.1294 (read); Riemann 1868, history section (read)",
       "u": "https://arxiv.org/abs/0806.1294",
       "k": "primary_text"
      },
@@ -3014,37 +3066,6 @@
       "k": "history_page"
      }
     ]
-   },
-   {
-    "r": "precursor",
-    "y": null,
-    "ye": null,
-    "p": "unknown",
-    "l": "Trigonometric series in the vibrating-string problem",
-    "w": "Euler, d'Alembert, D. Bernoulli, mid-18th century",
-    "pe": [
-     "Leonhard Euler",
-     "Jean le Rond d'Alembert",
-     "Daniel Bernoulli"
-    ],
-    "d": "Earlier work on wave motion used trigonometric sums, providing the toolkit Fourier generalised.",
-    "ph": "Fourier's heat conduction work",
-    "c": "low",
-    "n": "Exact dates not set here (the dated string papers are under P162); an undated precursor is allowed. Riemann's historical account (read) confirms the people and the dispute.",
-    "ev": [
-     {
-      "c": "Wikipedia names Euler, d'Alembert and Daniel Bernoulli as having done preliminary investigations before Fourier.",
-      "s": "English Wikipedia, Fourier series (History)",
-      "u": "https://en.wikipedia.org/wiki/Fourier_series",
-      "k": "history_page"
-     },
-     {
-      "c": "Riemann's history section (read) names Euler, d'Alembert, Daniel Bernoulli and Lagrange as the earlier disputants on representing arbitrary functions of the vibrating string by trigonometric series, with Lagrange claiming a proof of the possibility.",
-      "s": "B. Riemann, Abh. Gott. 13 (1868), section 1",
-      "u": "https://archive.org/details/per_abhandlungen-der-koniglichen-gesellschaft-der_1866-1867_13",
-      "k": "primary_text"
-     }
-    ]
    }
   ],
   "people": [
@@ -3059,6 +3080,20 @@
       "y": 1822,
       "u": "https://archive.org/details/thorieanalytiq00four",
       "w": "Founding treatise."
+     }
+    ]
+   },
+   {
+    "name": "Simeon Denis Poisson",
+    "role": "developer",
+    "life": "1781-1840",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Poisson/",
+    "works": [
+     {
+      "c": "Extract of Fourier's memoir on the propagation of heat in solid bodies, Nouveau Bulletin des sciences (Societe philomathique) 1 (1808) 112-116, signed P.",
+      "y": 1808,
+      "u": "https://archive.org/details/nouveaubulletind11807soci",
+      "w": "First printed account of Fourier's arbitrary-function series; authorship by Poisson stated by Darboux."
      }
     ]
    },
@@ -3083,8 +3118,8 @@
     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Riemann/",
     "works": [
      {
-      "c": "Habilitation on trigonometric series",
-      "y": 1854,
+      "c": "Ueber die Darstellbarkeit einer Function durch eine trigonometrische Reihe (written 1853-54, printed 1868)",
+      "y": 1868,
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Riemann/",
       "w": "Riemann integral and the converse representation question."
      }
@@ -3100,12 +3135,12 @@
       "c": "Fourier series for Kepler's equation",
       "y": 1819,
       "u": "https://en.wikipedia.org/wiki/Fourier_series",
-      "w": "Independent earlier printed use of such series (per Wikipedia)."
+      "w": "Independent earlier printed use of such series (per Wikipedia; date and title not checked in a primary source)."
      }
     ]
    }
   ],
-  "notes": "Direct-style review R2b, partial. Read in open copies: the Poisson (signed P.) extract of Fourier's 1807 memoir in Nouveau Bulletin des sciences, Tome I (Internet Archive), which prints the series for an arbitrary function and the coefficient integrals in 1808, so it, not the 1822 book, is the first public statement; the 1822 title page; Riemann's 1868 history section and his habilitation volume (which cites the Bulletin page and gives Dirichlet's conditions). Crossref and arXiv confirm Dirichlet 1829. Changes: first_statement 1822 -> 1808 (extract), 1822 book -> consolidation, Riemann's printing 1867 -> 1868 (title page of the volume). Outstanding: attribution of the 'P.' extract to Poisson is from a dealer and Darboux (not read); Fourier's 1807 memoir was not read; the Dirichlet and Fourier 1822 texts were not read in full; Bessel 1819 and the vibrating-string dates unchecked. Stays source-first.",
+  "notes": "Direct review R3-G1. Every milestone was checked against a primary text or a bibliographic record. Read: the Nouveau Bulletin des sciences extract of March 1808 (pp. 112-116); Darboux's edition of Fourier (t. 1 Avant-propos and Discours preliminaire, t. 2 note at p. 215 which names Poisson as the author of the extract signed P.); Riemann's 1868 history section and habilitation volume; the 1822 title page; Dirichlet 1829 (arXiv transcription of the Crelle text); Crossref for Dirichlet. Changes: attribution of the 1808 extract to Poisson is now sourced (Darboux, t. 2), confidence raised to high; the 1807 precursor and the 1811 prize essay were checked against Darboux (prize crowned 6 January 1812, essay printed 1824-26); the undated vibrating-string precursor is dated 1753 (volume year of the Berlin memoirs) from Riemann's footnotes; Poisson added to the people. Open caveats: the 1807 manuscript itself (edited by Grattan-Guinness and Ravetz, 1972) and the 1750-53 Berlin papers were not read; Bessel 1819 is unchecked; Dirichlet's date is the printed volume year (MacTutor says 1828).",
   "catalogueDates": [
    [
     1807,
@@ -5396,7 +5431,7 @@
     "basis": "first statement"
    },
    "methodological": {
-    "y": 1890,
+    "y": 1887,
     "basis": "first application"
    },
    "institutional": {
@@ -5405,16 +5440,16 @@
    }
   },
   "took": {
-   "y": 1890,
+   "y": 1887,
    "role": "first_application",
-   "label": "Volterra's functional calculus applied to Hamilton-Jacobi theory",
+   "label": "Volterra applies functions of lines to extend Riemann's theory of complex functions",
    "same": true
   },
   "y": 1887,
   "approx": false,
   "derived": {
    "conceptual": 1887,
-   "methodological": 1890,
+   "methodological": 1887,
    "institutional": 1922
   },
   "phases": [
@@ -5434,11 +5469,23 @@
     "pe": [
      "Vito Volterra"
     ],
-    "d": "Volterra's note defined quantities depending on a whole function, the notion later called a functional.",
+    "d": "Volterra's notes define a quantity y that depends on all the values of a function over an interval (written y = y[phi(x)]), distinguish it from a function of a function, and study its continuity, variation and analytic expression, the notion later called a functional.",
     "ph": "Functionals and functions of lines",
     "c": "high",
-    "n": "MacTutor says Volterra conceived the idea in 1883 (a private precursor, not dated by a publication). Review R2: the 1887 date is confirmed by zbMATH, the Opere matematiche listing and a Springer citation (Lincei vol. III, second semester 1887); page numbers were not confirmed and are omitted. The notes were not read; the content (a quantity depending on a whole function) rests on Wikipedia and Miller's Earliest Uses (Volterra's term 'functions of other functions'). No earlier public use found.",
+    "n": "Read in the Internet Archive scan of Rendiconti della R. Accademia dei Lincei, ser. 4, vol. III, 2nd semester (1887): 'Sopra le funzioni che dipendono da altre funzioni', Nota I (p. 97, in the fascicle for communications up to 18 September 1887), Nota II (p. 141) and Nota III (p. 153), as the volume index also shows. The opening of Nota I defines quantities that depend on all the values of a function (the temperature of a plate from its boundary values is the example), says this differs essentially from a 'funzione di funzione', and introduces the notation y = y[phi(x)] on (A...B) and conditions of continuity and boundedness of variation; it is announced as preparation for 'una estensione della teoria di Riemann sulle funzioni di variabili complesse'. MacTutor says Volterra conceived the idea in 1883 (a private precursor, not dated by a publication). Paul Levy's Lecons d'analyse fonctionnelle (1922, read) also dates the birth of the 'calcul fonctionnel' to Volterra's Lincei notes of the 1880s and says Volterra extracted the general notion from earlier particular examples (calculus of variations); the OCR digit of the year in Levy is damaged. Page numbers 97-105, 141-146, 153-158 are Volterra's own citation in Opere matematiche. No earlier public use found; the noun 'functional' itself is not used by Volterra (he writes 'funzioni dipendenti da altre funzioni' and later 'funzioni di linee').",
     "ev": [
+     {
+      "c": "Primary text read: 'Sopra le funzioni che dipendono da altre funzioni', Nota I (Rend. Lincei IV, vol. III, 2nd sem., 1887, p. 97): defines y = y[phi(x)] depending on all values of a function on an interval, as different from a function of a function; Nota II p. 141, Nota III p. 153 (index of the volume).",
+      "s": "Atti della R. Accademia dei Lincei, Rendiconti, serie 4, vol. III, 2o semestre (1887), Internet Archive scan rendiconti4321887real (OCR text read)",
+      "u": "https://archive.org/details/rendiconti4321887real",
+      "k": "primary_text"
+     },
+     {
+      "c": "Volterra's own later citation of the three notes with pages (Rend. Lincei IV, III, 2nd sem. 1887, pp. 97-105, 141-146, 153-158) in the 1889 memoir and in the later note 'Sopra le funzioni dipendenti da linee', Opere matematiche vol. 1 (reprint, read).",
+      "s": "Opere matematiche di Vito Volterra, vol. 1, items XVII, XVIII, XXII (rcin.org.pl, read)",
+      "u": "https://rcin.org.pl/dlibra/publication/185758/edition/152719",
+      "k": "primary_text"
+     },
      {
       "c": "zbMATH lists a 1887 Volterra paper on functions depending on other functions in the Lincei Rendiconti.",
       "s": "zbMATH Open",
@@ -5446,16 +5493,45 @@
       "k": "bibliographic_record"
      },
      {
-      "c": "Wikipedia credits Volterra with the general concept of a functional in 1887.",
+      "c": "Levy, Lecons d'analyse fonctionnelle (1922), chapter I section 3: the functional calculus took birth when Volterra began to publish in the Rendiconti of the Lincei a series of notes; the quantity depending on all values of another function is called a 'fonctionnelle' after Hadamard.",
+      "s": "Internet Archive item leonsdanalysef00lvuoft (OCR text read)",
+      "u": "https://archive.org/details/leonsdanalysef00lvuoft",
+      "k": "primary_text"
+     },
+     {
+      "c": "Wikipedia credits Volterra with the general concept of a functional in 1887 (secondary; consistent with the primary texts above).",
       "s": "Wikipedia: Functional analysis",
       "u": "https://en.wikipedia.org/wiki/Functional_analysis",
       "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "first_application",
+    "y": 1887,
+    "ye": null,
+    "p": "year",
+    "l": "Volterra applies functions of lines to extend Riemann's theory of complex functions",
+    "w": "V. Volterra, Sopra una estensione della teoria di Riemann sulle funzioni di variabili complesse, Nota I, Rend. Accad. Lincei (4) 3, 2nd semester (1887) 281-287; Nota II etc. 1888",
+    "pe": [
+     "Vito Volterra"
+    ],
+    "d": "Volterra uses quantities depending on closed lines in three-dimensional space (functions of lines) to generalise Riemann's definition of a function of a complex variable from surfaces to three-dimensional space.",
+    "ph": "Functionals and functions of lines",
+    "c": "medium",
+    "n": "Read in the reprint (Opere matematiche, item XIX) and in the Internet Archive scan of the 1887 Rendiconti (contents list and opening of Nota I): Volterra says Riemann's considerations for a two-dimensional space can be extended to three-dimensional space provided one starts from functions that depend on the lines of space, and refers to his note 'Sopra le funzioni dipendenti da linee'; the programme was already announced in Nota I of 'Sopra le funzioni che dipendono da altre funzioni'. This purposeful use of the new notion in the same semester as the first statement is why it is the first application (the 1890 Jacobi-Hamilton paper and the 1889 Acta memoir are later). Whether any 1887 note applied the notion earlier to a different problem was not checked beyond these notes.",
+    "ev": [
+     {
+      "c": "Primary text read: Nota I (Rend. Lincei IV, III, 2nd sem. 1887, pp. 281-287): extension of Riemann's method for functions of complex variables to three-dimensional space by functions that depend on lines.",
+      "s": "Opere matematiche di Vito Volterra, vol. 1, item XIX (rcin.org.pl, read)",
+      "u": "https://rcin.org.pl/dlibra/publication/185753/edition/152689",
+      "k": "primary_text"
      },
      {
-      "c": "Volterra's Opere matematiche (Polish Academy digitisation) lists 'Sopra le funzioni che dipendono da altre funzioni', 1887, as three notes (Nota I-III); a Springer reference cites Rendiconti Lincei III (1887), second semester, fascicles 4, 6, 7.",
-      "s": "Opere matematiche di Vito Volterra, rcin.org.pl",
-      "u": "https://rcin.org.pl/dlibra/publication/181807/edition/147686",
-      "k": "bibliographic_record"
+      "c": "The 1887 Rendiconti (vol. III, 2nd sem.) list 'Sopra una estensione della teoria di Riemann sulle funzioni di variabili complesse. Nota I' by Volterra, presented by Dini, after 'Sopra le funzioni dipendenti da linee' (Nota I p. 225, Nota II p. 274).",
+      "s": "Atti della R. Accademia dei Lincei, Rendiconti, serie 4, vol. III, 2o semestre (1887), Internet Archive scan rendiconti4321887real",
+      "u": "https://archive.org/details/rendiconti4321887real",
+      "k": "primary_text"
      }
     ]
    },
@@ -5469,11 +5545,17 @@
     "pe": [
      "Vito Volterra"
     ],
-    "d": "Volterra develops a systematic calculus for quantities depending on a whole curve (functions of lines), the basis of his functional calculus.",
-    "ph": null,
-    "c": "medium",
-    "n": "Crossref confirms title, volume, pages and year (two records, one marked 'Ier Memoire'). Content from Frechet (1906), who reads this paper and Arzela's work as the first systematic study of functions depending on a line; the paper itself was not read.",
+    "d": "Volterra develops a calculus for quantities depending on a whole closed curve (functions of lines), including a generalisation of Taylor's series, and uses it to generalise the theory of functions of a complex variable to three dimensions.",
+    "ph": "Functionals and functions of lines",
+    "c": "high",
+    "n": "Read in the reprint in Opere matematiche (item XXII, pp. 363 ff., 'Ier Memoire', Acta Mathematica 12, 1889, pp. 233-286): the introduction defines functions of lines and of surfaces, notes that a quantity depending on all values of a function is different from a function of a function, gives a generalisation of Taylor's series for a quantity y depending on a function f(x) as a sum of multiple integrals of symmetric kernels, cites Poincare's generalisation of Cauchy's theorem, refers to his 1887 Lincei notes, and outlines chapter I (functions of lines) and chapter II (monogenic condition, characteristic properties, differential operations). Crossref has two records for this paper (10.1007/BF02391880 and 10.1007/BF02592183, 'Ier Memoire'), both 1889, pp. 233-286. Frechet (1906) credits Volterra and Arzela as first on functions of lines.",
     "ev": [
+     {
+      "c": "Primary text read: introduction and chapter I of Volterra's first memoir on the generalisation of the theory of functions of an imaginary variable, with the Taylor-type series for a quantity depending on a function, reprinted in Opere matematiche.",
+      "s": "Opere matematiche di Vito Volterra, vol. 1, item XXII (rcin.org.pl, read)",
+      "u": "https://rcin.org.pl/dlibra/publication/185758/edition/152719",
+      "k": "primary_text"
+     },
      {
       "c": "Crossref: Acta Mathematica 12, pp. 233-286, 1889, 'Sur une generalisation de la theorie des fonctions d'une variable imaginaire'.",
       "s": "Crossref 10.1007/BF02391880",
@@ -5489,19 +5571,19 @@
     ]
    },
    {
-    "r": "first_application",
+    "r": "key_development",
     "y": 1890,
     "ye": null,
     "p": "year",
-    "l": "Volterra's functional calculus applied to Hamilton-Jacobi theory",
+    "l": "Volterra extends the Jacobi-Hamilton theory to multiple integrals",
     "w": "V. Volterra, Sopra una estensione della teoria Jacobi-Hamilton del calcolo delle variazioni, Rend. Accad. Lincei (4) 6 (1890), 1st semester, pp. 127-138",
     "pe": [
      "Vito Volterra"
     ],
-    "d": "Volterra extended the Jacobi-Hamilton theory of the calculus of variations to multiple integrals, one of the first uses of his functional calculus on a target problem.",
+    "d": "Volterra extends the Jacobi-Hamilton theory of the calculus of variations to multiple integrals, where the characteristic function becomes a function of the boundary lines, so that functions of lines are needed.",
     "ph": "Functionals and functions of lines",
     "c": "medium",
-    "n": "Review R2: the 1890 paper was identified (title and Rendiconti reference from the Opere matematiche scan; the OCR volume reads 'VI1', taken as vol. 6 of series 4, 1890; pages 127-138 from the same scan). Its text was only skimmed through a search snippet, so the claim that it is the earliest application, and the Hamilton-Jacobi wording from MacTutor, remain medium.",
+    "n": "Read in the reprint (Opere matematiche, item XXVIII): Rend. Accad. Lincei, ser. 4, vol. VI (1st semester 1890), pp. 127-138. Volterra says that no attempt had been made, to his knowledge, to extend the Jacobi-Hamilton theory to multiple integrals, because the characteristic function of a double integral depends on the boundary lines of the domain and is no longer an ordinary function; the paper then works with functions of lines. Role changed from first_application: the 1887 Riemann-extension notes apply the same notion earlier. Hamilton-Jacobi wording of MacTutor is consistent with the text.",
     "ev": [
      {
       "c": "MacTutor states that in 1890 he showed his functional calculus extends the Hamilton-Jacobi theory to other physics problems.",
@@ -5510,9 +5592,9 @@
       "k": "history_page"
      },
      {
-      "c": "The reprint's introduction says no attempt had been made to extend the Jacobi-Hamilton theory to variations of multiple integrals; it is dated 1890.",
-      "s": "Opere matematiche di Vito Volterra, vol. on 1890 notes (rcin.org.pl)",
-      "u": "https://rcin.org.pl/dlibra/publication/185769/edition/152798/todo",
+      "c": "Read: the paper opens with Hamilton's memoirs of 1834-35 and Jacobi's generalisation, says no attempt had been made to extend the theory to multiple integrals, and treats the characteristic function as a function of lines; dated Rend. Lincei 1890 pp. 127-138.",
+      "s": "Opere matematiche di Vito Volterra, item XXVIII (rcin.org.pl, read)",
+      "u": "https://rcin.org.pl/dlibra/publication/185769/edition/152798",
       "k": "primary_text"
      }
     ]
@@ -5527,11 +5609,17 @@
     "pe": [
      "Ivar Fredholm"
     ],
-    "d": "Fredholm solved integral equations by the determinant method, giving the model for treating them as infinite linear systems.",
+    "d": "Fredholm solved the integral equation phi(x) + integral f(x,y) phi(y) dy = psi(x) by a determinant D_f that plays the role of the determinant of a system of linear equations, the model for treating integral equations as infinite linear systems.",
     "ph": "Integral equations and Hilbert space",
     "c": "high",
-    "n": null,
+    "n": "Read in the Zenodo copy of Acta Mathematica 27 (printed 30 March 1903, pp. 365-390): the introduction names the equation (b), treats Volterra's equation as the special case in which f(x,y) vanishes for y > x, notes that Neumann's series does not converge in general, and says that for f finite and integrable there exists a quantity D_f that plays for the functional equation the role that the determinant plays for a system of linear equations. The heading and the title speak of 'equations fonctionnelles' (integral equations).",
     "ev": [
+     {
+      "c": "Primary text read: Fredholm, Sur une classe d'equations fonctionnelles, Acta Math. 27 (1903) 365-390: introduction (equation (b), relation to Volterra's equation, determinant D_f playing the role of the determinant of a linear system).",
+      "s": "Zenodo copy of Acta Math. 27, DOI 10.1007/BF02421317 (record 1925972; read)",
+      "u": "https://doi.org/10.1007/BF02421317",
+      "k": "primary_text"
+     },
      {
       "c": "Crossref: Acta Mathematica 27, pp. 365-390, 1903.",
       "s": "Crossref",
@@ -5588,7 +5676,7 @@
     "d": "Hilbert began his series on integral equations, extending Fredholm's theory to eigenfunction expansions and, in later communications, to infinitely many variables.",
     "ph": "Integral equations and Hilbert space",
     "c": "high",
-    "n": "Citation confirmed twice: EuDML, and Hilbert's own 1912 preface (read in the Internet Archive scan of Grundzuege einer allgemeinen Theorie der linearen Integralgleichungen), which lists 'Erste Mitteilung (Gott. Nachr. 1904, S. 49-91)' and the five further communications to 1910. The introduction (read) states the aim, a general theory of linear integral equations with symmetric kernels leading to expansions of an arbitrary function in eigenfunctions. The 1904 text itself was not read separately; the fourth communication (1906) and the 1912 book are under the person.",
+    "n": "Citation confirmed twice: EuDML, and Hilbert's own 1912 preface (read in the Internet Archive scan of Grundzuege einer allgemeinen Theorie der linearen Integralgleichungen), which lists 'Erste Mitteilung (Gott. Nachr. 1904, S. 49-91)' and the five further communications to 1910. The introduction (read) states the aim, a general theory of linear integral equations with symmetric kernels leading to expansions of an arbitrary function in eigenfunctions. The 1904 text itself was not read separately; the fourth communication (1906) and the 1912 book are under the person. Review R3-G1: the 1912 book is Hilbert's own revised presentation of the six communications; its chapters I-III (read in the OCR text) pass from the algebraic problem of a quadratic form in n variables to the limit n -> infinity and recover Fredholm's formulas, and chapter XIII/XIV deduce Fredholm's theorems and the symmetric theory from the theory of infinitely many unknowns. The 1904 Nachrichten text itself could not be obtained (EuDML has only the record), so the milestone is checked against the citation, Hilbert's own preface and the 1912 book. A Czech review article quoted by a search result gives different pages (41-49) which conflict with EuDML and Hilbert's preface (49-91) and were not followed.",
     "ev": [
      {
       "c": "EuDML record of the first communication, Goettingen Nachrichten 1904, pp. 49-91.",
@@ -5702,11 +5790,17 @@
     "pe": [
      "Frigyes Riesz"
     ],
-    "d": "Riesz studied the spaces of p-th power integrable functions and their norms, a main example of the abstract spaces of the field.",
+    "d": "Riesz introduces the classes [L^p] of functions whose p-th power is Lebesgue integrable, studies strong and weak convergence in them, solves a system of integral equations of the form integral f(x) phi_k(x) dx = c_k, and represents linear functional operations by integrals.",
     "ph": "Abstract (metric, normed) spaces",
-    "c": "medium",
-    "n": "Crossref confirms the paper (Math. Ann. 69, pp. 449-497, issued 1910); the L^p content is from general history and was not checked in the text.",
+    "c": "high",
+    "n": "Read in the Zenodo copy of Math. Ann. 69 (1910) 449-497: the introduction states the central question (solvability of a system of equations integral f(x) phi_k(x) dx = c_k for the unknown function), replaces the condition of square integrability by integrability of |f|^p for rational or irrational p > 1 and defines the class [L^p]; the table of contents lists the class [L^p], strong and weak convergence, the main theorem on weak convergence, the criterion of solvability of the system, section 11 'Darstellung der linearen Funktionaloperation durch ein Integral' and section 12 on the linear functional transformation. The word 'norm' in the modern sense is not used in the passages read; the abstract-space (normed) setting is Banach's. Crossref confirms Math. Ann. 69, pp. 449-497.",
     "ev": [
+     {
+      "c": "Primary text read: Riesz, Untersuchungen ueber Systeme integrierbarer Funktionen: introduction, classes [L^p], weak convergence, representation of linear functional operations by integrals (section 11), linear functional transformation (section 12).",
+      "s": "Zenodo copy of Math. Ann. 69, DOI 10.1007/BF01457637 (record 2456593; read)",
+      "u": "https://doi.org/10.1007/BF01457637",
+      "k": "primary_text"
+     },
      {
       "c": "Crossref record: Untersuchungen ueber Systeme integrierbarer Funktionen, Mathematische Annalen 69, pp. 449-497, 1910.",
       "s": "Crossref 10.1007/BF01457637",
@@ -5725,11 +5819,17 @@
     "pe": [
      "Stefan Banach"
     ],
-    "d": "Banach defined complete normed spaces and proved the contraction principle, launching the Polish school of linear operator theory.",
+    "d": "Banach postulates a complete normed vector space (axioms I, II, III), proves the continuity and boundedness theorems and a contraction principle, and applies them to integral equations, launching the Polish school of linear operator theory.",
     "ph": "Banach spaces and operator theory",
     "c": "high",
-    "n": null,
+    "n": "Read in the Polish Virtual Library scan (OCR): the thesis (Lwow, June 1920) opens by saying the 'fonction de ligne' was introduced by Volterra and studied by Frechet, Hadamard, F. Riesz and others and that Hilbert's work made the transfer to square-integrable functions possible; section 1 lists the vector-space axioms I1-I13, the norm axioms II1-II4 and the completeness axiom III (the definition of a Banach space, not yet named that); chapter II section 2 proves Theoreme 6 (a contraction U with |U(X')-U(X'')| <= M|X'-X''|, M < 1, has a fixed point) and Theoreme 7 (solution of X + a F(X) = Y by a Neumann series for |a M| < 1); chapter III treats particular function spaces (continuous, summable, L^p, ...). Crossref and EuDML give Fund. Math. 3, pp. 133-181.",
     "ev": [
+     {
+      "c": "Primary text read: Banach, Sur les operations dans les ensembles abstraits et leur application aux equations integrales: introduction, axioms of a complete normed space, contraction principle (Theoreme 6) and the Neumann-series solution (Theoreme 7).",
+      "s": "Fundamenta Mathematicae 3 (1922) 133-181, Virtual Library of Mathematics scan (OCR text read); EuDML doc 213289",
+      "u": "https://eudml.org/doc/213289",
+      "k": "primary_text"
+     },
      {
       "c": "Crossref: Fundamenta Mathematicae 3, pp. 133-181, 1922.",
       "s": "Crossref",
@@ -5757,8 +5857,14 @@
     "d": "The earliest title found that uses the phrase for the field, a course reflecting Hadamard's school of nonlinear functionals.",
     "ph": null,
     "c": "medium",
-    "n": "Review R2: Miller's Earliest Uses (MacTutor) independently dates the term 'functional analysis' to the title of Levy's Lecons d'analyse fonctionnelle (1922), written about functionals; the Open Library and zbMATH records agree on 1922. No earlier title use was found, but the search was not exhaustive. Because the 1903 note does not use the noun, the institutional date of the event is now this field-name title (1922).",
+    "n": "Review R2: Miller's Earliest Uses (MacTutor) independently dates the term 'functional analysis' to the title of Levy's Lecons d'analyse fonctionnelle (1922); Open Library and zbMATH agree on 1922. Review R3-G1: the Internet Archive catalogue titles the book 'Lecons d'analyse fonctionnelle professees au College de France, avec une preface de J. Hadamard' (1922), and the first chapter (read in OCR) treats the 'calcul fonctionnel' of Volterra and Hadamard's fonctionnelles, which is the subject of the field; the OCR does not reproduce the title page. No earlier title use was found, but the search was not exhaustive. Because the 1903 note does not use the noun, the institutional date of the event is this field-name title (1922).",
     "ev": [
+     {
+      "c": "Internet Archive records: 'Lecons d'analyse fonctionnelle professees au College de France, avec une preface de J. Hadamard', 1922; chapter I read.",
+      "s": "Internet Archive items leonsdanalysef00lvuoft and leconsdanalysefo00levyrich",
+      "u": "https://archive.org/details/leonsdanalysef00lvuoft",
+      "k": "bibliographic_record"
+     },
      {
       "c": "zbMATH record for Levy's Lecons d'analyse fonctionnelle, 1922.",
       "s": "zbMATH Open",
@@ -5792,8 +5898,14 @@
     "d": "The first monograph presenting linear operators on Banach spaces as a unified theory.",
     "ph": "Banach spaces and operator theory",
     "c": "high",
-    "n": null,
+    "n": "Only the title page and the table of contents were read, in a Chelsea reprint of the 1932 text (University of Trento repository, 4 pages): the contents list chapters on groups, general vector spaces and the extension of additive and homogeneous functionals (Hahn-Banach), spaces of type (F) and (B), normed spaces and linear functionals, weak convergence and bases. This supports the consolidation role (the first monograph on the subject) but the body of the book was not read. zbMATH and Open Library give 1932 (Monografje Matematyczne 1, Warsaw).",
     "ev": [
+     {
+      "c": "Title page and table of contents of Banach's Theorie des operations lineaires (Chelsea reprint of the 1932 text), read.",
+      "s": "University of Trento repository, Banach, Theorie des operations lineaires (reprint)",
+      "u": "https://dspace.unitn.it/items/2a53c153-f5e4-4d1a-9e1c-8a9567acb697/full",
+      "k": "bibliographic_record"
+     },
      {
       "c": "zbMATH record for Banach, Theorie des operations lineaires, 1932.",
       "s": "zbMATH Open",
@@ -5939,7 +6051,7 @@
     ]
    }
   ],
-  "notes": "Review R2b, partial. Read in open copies: Hadamard's 1903 note (Comptes rendus 136, scan), Frechet 1906 (Palermo 22, introduction, section 59 and bibliography), Hadamard's 1910 Lecons (section 232), Hilbert's 1912 book (preface and introduction). Findings: (1) the 1903 note uses only 'operations fonctionnelles' and not the noun, so it is now a key development (representation of linear functional operations) and no longer a naming/institutional milestone; the noun is first printed in Frechet 1906 (ascribed to Hadamard) and defined in Hadamard 1910; the institutional date becomes Levy's 1922 title. (2) Hilbert 1904 citation confirmed by his own preface (pp. 49-91). (3) Volterra's 1889 Acta memoir (Crossref) added, with Frechet crediting Volterra and Arzela as first on functions of lines. Volterra 1890 is still identified only from the Opere matematiche scan and MacTutor; Volterra 1887, 1889, 1890, Fredholm, Riesz, Banach and Levy texts were not read (Riesz/Annalen volume is lending-only), Arzela 1895 not checked. Volterra priority 1887 (publication) vs 1883 (MacTutor's idea). Stays source-first.",
+  "notes": "Direct review R3-G1. Read in primary or authoritative copies: Volterra's three 1887 notes 'Sopra le funzioni che dipendono da altre funzioni' (Lincei Rendiconti vol. III, 2nd sem., Internet Archive scan) and his notes of 1887 on functions of lines and on the extension of Riemann's theory; the 1889 Acta memoir and the 1890 Jacobi-Hamilton paper (Opere matematiche reprints); Fredholm 1903 (Zenodo copy of Acta 27); Hadamard 1903 (Comptes rendus) and 1910 (Lecons), Frechet 1906, Hilbert's 1912 book, as in R2b; Riesz 1910 (Zenodo copy of Math. Ann. 69); Banach 1922 (Virtual Library scan); Levy 1922 (chapter I). Changes: the first application moves from the 1890 Jacobi-Hamilton paper to Volterra's 1887 extension of Riemann's theory by functions of lines (derived methodological date 1890 -> 1887); the 1890 paper is now a key development; the 1887, 1889, 1890, Fredholm, Riesz, Banach 1922 and Levy milestones now cite primary texts; the Hilbert 1904 communication is checked through the 1912 book and Hilbert's preface (the 1904 Nachrichten text was not obtainable); Banach 1932 was checked only through the title page and table of contents of a reprint. Still open: the Hilbert 1904 text, the body of Banach's 1932 monograph, Arzela 1895 and Pincherle/Bourlet as other early lines of work, and Volterra's 1883 priority (MacTutor) against the 1887 print. The event now has 13 milestones, above the 8 suggested in the schema; no milestone was dropped because each was individually checked.",
   "catalogueDates": [
    [
     1887,
@@ -47166,7 +47278,7 @@
     {
      "p": "P192",
      "f": "determinants in separate traditions",
-     "d": 15,
+     "d": 63,
      "t": "same"
     }
    ]
@@ -51660,7 +51772,7 @@
     {
      "p": "P188",
      "f": "partial differential equations",
-     "d": 36,
+     "d": 28,
      "t": "feeds"
     }
    ],
@@ -58989,12 +59101,12 @@
   "grade": {},
   "shown": {
    "conceptual": {
-    "y": 1785,
+    "y": 1777,
     "basis": "first statement"
    },
    "methodological": {
-    "y": 1813,
-    "basis": "earliest key development; no first application found"
+    "y": 1812,
+    "basis": "first application"
    },
    "institutional": {
     "y": 1828,
@@ -59002,21 +59114,21 @@
    }
   },
   "took": {
-   "y": 1813,
-   "role": "key_development",
-   "label": "Poisson extends the equation inside attracting masses",
-   "same": false
+   "y": 1812,
+   "role": "first_application",
+   "label": "Poisson applies the potential to electricity on conducting spheres",
+   "same": true
   },
-  "y": 1785,
+  "y": 1777,
   "approx": false,
   "derived": {
-   "conceptual": 1785,
-   "methodological": null,
+   "conceptual": 1777,
+   "methodological": 1812,
    "institutional": 1828
   },
   "phases": [
-   "Potential function for attraction (1780s)",
-   "Poisson, Green and electrostatics (1813-1828)",
+   "Potential function for attraction (1770s-1780s)",
+   "Poisson, Green and electrostatics (1812-1828)",
    "Modern potential theory"
   ],
   "ms": [
@@ -59031,9 +59143,9 @@
      "Joseph-Louis Lagrange"
     ],
     "d": "Lagrange expresses attraction through a single function whose derivatives give the force components, the idea later called the potential.",
-    "ph": null,
+    "ph": "Potential function for attraction (1770s-1780s)",
     "c": "medium",
-    "n": "Read in Lagrange's Oeuvres, vol. 3 (the memoir is headed 'annee 1773'): an analytic solution of Maclaurin's problem by integrating the three components of attraction directly. The single function whose derivatives give the components (the potential) was not found in it, so it is a precursor in the field, not the first statement; the volume's printing year (c. 1775) was not checked. Lagrange's other 1770s memoirs (the claim that he used the potential function first) were not located.",
+    "n": "Read in Lagrange's Oeuvres, vol. 3 (the memoir is headed 'annee 1773'): an analytic solution of Maclaurin's problem by integrating the three components of attraction directly. The single function whose derivatives give the components (the potential) was not found in it, so it is a precursor in the field, not the first statement; the volume's printing year (c. 1775) was not checked. Lagrange's other 1770s memoirs (the claim that he used the potential function first) were not located. Review R3-G1: the memoir was searched for 'partial' differences and for a single function of the attracted point's coordinates and none occurs, confirming the precursor role; Lagrange's own 1792-93 memoir (quoted in Todhunter, Art. 1008) cites this 1773 memoir for the interior and surface points and an addition printed in the 1775 volume for points on the axes, not a potential.",
     "ev": [
      {
       "c": "Read: memoir 'Sur l'attraction des spheroides elliptiques', Nouveaux Memoires Berlin, annee 1773; Problem I gives the attraction of a body on a point as three integrated components, and the memoir solves the ellipsoid case analytically against Maclaurin's synthetic method.",
@@ -59051,6 +59163,41 @@
    },
    {
     "r": "first_statement",
+    "y": 1777,
+    "ye": 1779,
+    "p": "range",
+    "l": "Lagrange: forces of attracting bodies as partial derivatives of one function",
+    "w": "J.-L. Lagrange, Remarques generales sur le mouvement de plusieurs corps qui s'attirent mutuellement en raison inverse des carres des distances, Nouveaux Memoires de l'Academie de Berlin, annee 1777 (Oeuvres, t. 4, pp. 401-421)",
+    "pe": [
+     "Joseph-Louis Lagrange"
+    ],
+    "d": "For a system of attracting bodies Lagrange puts Omega equal to the sum of the products of masses divided by their distances and shows that the force on each body is the partial derivative of Omega divided by its mass, the function later called the potential.",
+    "ph": "Potential function for attraction (1770s-1780s)",
+    "c": "medium",
+    "n": "Read in Lagrange's Oeuvres, t. 4 (Internet Archive scan): the memoir, read to the Berlin Academy in October 1777, starts with M, M', M'' masses and Omega = MM'/r + MM''/r' + ... and states that (1/M) dOmega/dx, (1/M) dOmega/dy, (1/M) dOmega/dz are the forces on the body M along the three axes, and likewise for M', M'', 'cette maniere de representer les forces est ... extremement commode par sa simplicite et par sa generalite'; it then deduces the motion of the centre of gravity and the other general laws. Gauss' editor Wangerin (Ostwalds Klassiker 2, 1889, read) says Lagrange first observed that the components of the attraction of a system of points are partial derivatives of one function (Berlin Memoires 1777, p. 155) and that Laplace used the same representation for a continuous mass in 1782 (printed 1785); Todhunter (History of the Theories of Attraction, read) assigns the function V to Laplace via Legendre, and notes that Lagrange in 1792-93 does not claim it for himself, which concerns the continuous-body potential and the name. The volume 'annee 1777' of the Nouveaux Memoires was printed after that year (printing year not checked), hence the range. Lagrange's function is for point masses and does not state a differential equation; the equation is Laplace's.",
+    "ev": [
+     {
+      "c": "Primary text read: Lagrange, Remarques generales sur le mouvement de plusieurs corps qui s'attirent mutuellement (Berlin, annee 1777), no. 1-3: the function Omega and the forces as its partial derivatives divided by the masses.",
+      "s": "Oeuvres de Lagrange, t. 4 (Internet Archive oeuvresdelagrang04lagr; OCR text read)",
+      "u": "https://archive.org/details/oeuvresdelagrang04lagr",
+      "k": "primary_text"
+     },
+     {
+      "c": "Editor's note to Gauss' Allgemeine Lehrsaetze: that the components of attraction of a system of points are partial derivatives of one function was first noted by Lagrange (Memoires de Berlin 1777, p. 155); Laplace used it for continuous masses in 1782 (printed 1785); the name 'Potential' is Gauss', Green said 'potential function'.",
+      "s": "Gauss, Allgemeine Lehrsaetze, ed. A. Wangerin, Ostwalds Klassiker 2 (Leipzig 1889), Anmerkungen zu Art. 2 u. 3",
+      "u": "https://archive.org/details/allgemeinelehrs01gausgoog",
+      "k": "history_page"
+     },
+     {
+      "c": "A short biography of Lagrange (search excerpt; page not opened) says the 1773 work on the Moon's secular motion contains the earliest idea of the potential and that the theory was elaborated in a paper sent to Berlin in 1777; the 1773 Moon memoir (Oeuvres t. 6, OCR) was searched for partial derivatives of an attraction function and none was found, so the excerpt is not relied on beyond the 1777 date.",
+      "s": "W. W. Rouse Ball, Lagrange (A Short Account of the History of Mathematics, Trinity College Dublin copy)",
+      "u": "https://www.maths.tcd.ie/pub/HistMath/People/Lagrange/RouseBall/RB_Lagrange.html",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
     "y": 1785,
     "ye": null,
     "p": "year",
@@ -59059,10 +59206,10 @@
     "pe": [
      "Pierre-Simon Laplace"
     ],
-    "d": "Laplace defines V as the sum of the masses over their distances to the attracted point, shows that its derivatives give the attractions, and derives the second-order partial differential equation it satisfies, the base of his theory of the figure of the planets.",
-    "ph": null,
+    "d": "Laplace defines V as the sum of the molecules of a body divided by their distances from the attracted point, shows that its derivatives give the attractions, and derives the second-order partial differential equation it satisfies; the rectangular-coordinate form of the equation appears in his Saturn-ring memoir of 1787.",
+    "ph": "Potential function for attraction (1770s-1780s)",
     "c": "high",
-    "n": "Moved from 1786 to 1785 after reading the memoir in the Oeuvres completes (vol. X): the header gives 'annee 1782; 1785', article IV and section II introduce V and the equation (in spherical coordinates). Poisson's 1813 note (read) calls this equation the base of Laplace's researches on the attraction of spheroids. The 1786 date in Wikipedia and in earlier notes refers to a later study (the Cartesian form, not checked). Lagrange's 1773 attraction memoir (read) integrates the components directly and does not state a potential, and the memoir shows no credit to Lagrange; his other 1770s memoirs were not located, so priority for the function V alone is not fully closed. Laplace does not call V a potential.",
+    "n": "Role changed from first_statement: Lagrange's 1777 memoir already writes the forces of a system of bodies as derivatives of one function; Laplace's contribution is V for continuous bodies and the partial differential equation. Moved from 1786 to 1785 after reading the memoir in the Oeuvres completes (vol. X): the header gives 'annee 1782; 1785', article IV and section II introduce V and the equation (in spherical coordinates). Review R3-G1 also read Laplace's 'Memoire sur la theorie de l'anneau de Saturne' (Memoires de l'Academie de Paris, annee 1787; 1789; Oeuvres t. 11, pp. 275-293): section II defines V as the sum of the molecules divided by their distances, says the attraction in any direction is minus the derivative of V with respect to the coordinate in that direction, and gives d2V/dx2 + d2V/dy2 + d2V/dz2 = 0 for points outside the mass, adding 'cette equation, rapportee a d'autres coordonnees, est la base de la theorie que j'ai presentee dans nos Memoires de 1782'. Todhunter (read, Art. 851 and 866) says the 1782 memoir has the equation for the first time in polar form and the 1787 memoir for the first time in rectangular coordinates. Poisson's 1813 note (read) calls the equation the base of Laplace's researches on the attraction of spheroids. Laplace does not call V a potential.",
     "ev": [
      {
       "c": "Read: heading 'Memoires de l'Academie royale des Sciences de Paris, annee 1782; 1785'; section II: V, the sum of the molecules divided by their distances, gives the attractions by differentiation, and satisfies a second-order partial differential equation, called the fundamental equation of his researches on the figure of the planets.",
@@ -59075,6 +59222,18 @@
       "s": "S.-D. Poisson, Remarques sur une equation..., Nouveau Bulletin des sciences 3 (1813)",
       "u": "https://archive.org/details/nouveaubulletind31812soci",
       "k": "primary_publication"
+     },
+     {
+      "c": "Primary text read: Memoire sur la theorie de l'anneau de Saturne (annee 1787; 1789), section II: V and the attractions as derivatives of V, and the equation d2V/dx2 + d2V/dy2 + d2V/dz2 = 0 outside the mass in rectangular coordinates.",
+      "s": "Oeuvres completes de Laplace, t. 11 (Internet Archive oeuvrescomplte11lapluoft; OCR text read)",
+      "u": "https://archive.org/details/oeuvrescomplte11lapluoft",
+      "k": "primary_text"
+     },
+     {
+      "c": "Todhunter: the equation first occurs in the 1782 memoir in polar form (Art. 851) and in rectangular coordinates in the Saturn-ring memoir (Art. 866); Legendre credits Laplace with the function V (Art. 789).",
+      "s": "I. Todhunter, A History of the Mathematical Theories of Attraction and the Figure of the Earth, vol. 2 (1873)",
+      "u": "https://archive.org/details/historyofmathema02todhrich",
+      "k": "history_page"
      },
      {
       "c": "MacTutor says Laplace introduced the potential function in analysis",
@@ -59091,6 +59250,35 @@
     ]
    },
    {
+    "r": "first_application",
+    "y": 1812,
+    "ye": null,
+    "p": "year",
+    "l": "Poisson applies the potential to electricity on conducting spheres",
+    "w": "S.-D. Poisson, Memoire sur la distribution de l'electricite a la surface des corps conducteurs, Memoires de l'Institut de France, annee 1811 (two parts, printed 1812-13)",
+    "pe": [
+     "Simeon Denis Poisson"
+    ],
+    "d": "Poisson uses the potential function and its equation to find the distribution of electricity on conducting spheres and the jump of the normal attraction across a charged surface.",
+    "ph": "Poisson, Green and electrostatics (1812-1828)",
+    "c": "medium",
+    "n": "Not read: the memoirs are in the Memoires de la classe des sciences mathematiques et physiques de l'Institut (annee 1811) and no open scan was located. Identified and dated from two read sources: Green's Essay (1828, introduction, read) says that about 1812 Poisson presented two memoirs on the distribution of electricity on conducting spheres, 'founded upon the consideration of what have, in this Essay, been termed potential functions', and cites Poisson's first memoir as Mem. de l'Institut 1811; Wangerin's notes to Gauss (read) say Poisson found in it (Memoires de l'Institut t. XII, 1811) the theorem on the jump of the normal attraction across a charged surface. The printing year (1812-13) was not checked, so 1812 follows Green. Cauchy later extended the jump theorem to the other components (Wangerin).",
+    "ev": [
+     {
+      "c": "Primary text read: Green's introduction credits two Poisson memoirs of about 1812 on the electric distribution on spheres as founded on potential functions, and cites Mem. de l'Institut 1811.",
+      "s": "G. Green, An Essay on the Application of Mathematical Analysis to the Theories of Electricity and Magnetism (Nottingham 1828), preface (Internet Archive essayonapplicati00gree; read)",
+      "u": "https://archive.org/details/essayonapplicati00gree",
+      "k": "primary_text"
+     },
+     {
+      "c": "Editor's note: the theorem on the difference of the normal attraction components of a surface on either side was first found by Poisson (Memoire sur la distribution de l'electricite, Memoires de l'Institut t. XII, 1811).",
+      "s": "Gauss, Allgemeine Lehrsaetze, ed. A. Wangerin (1889), Anmerkungen zu Art. 13",
+      "u": "https://archive.org/details/allgemeinelehrs01gausgoog",
+      "k": "history_page"
+     }
+    ]
+   },
+   {
     "r": "key_development",
     "y": 1813,
     "ye": null,
@@ -59101,9 +59289,9 @@
      "Siméon-Denis Poisson"
     ],
     "d": "Poisson shows that the sum of the second derivatives of V is not zero when the attracted point lies in the mass but equals minus four pi times the density there.",
-    "ph": "Poisson, Green and electrostatics (1813-1828)",
+    "ph": "Poisson, Green and electrostatics (1812-1828)",
     "c": "high",
-    "n": "Paper identified and read in the Internet Archive scan of Tome III (in the issue run of 1813; the note carries the page heads (589)-(591) misread, i.e. 389-391, and the usual citation is pp. 388-392). Reclassified from first_application: it is a result extending Laplace's equation, not an application to a target problem; the electrostatic memoirs of 1811-12 that Green credits to Poisson were not read, and may be the first application. The exact month was not read from the issue heading.",
+    "n": "Paper identified and read in the Internet Archive scan of Tome III (in the issue run of 1813; the note carries the page heads (589)-(591) misread, i.e. 389-391, and the usual citation is pp. 388-392). Reclassified from first_application: it is a result extending Laplace's equation, not an application to a target problem; the electrostatic memoirs of 1811-12 that Green credits to Poisson were not read, and may be the first application. The exact month was not read from the issue heading. Review R3-G1: in the Internet Archive scan the note follows the issue heading 'Paris, Decembre 1813' in Tome III (the last issue of the tome), so the month is December 1813; Wangerin's note to Gauss dates the same note 1812, which the scan does not support. Wangerin adds that Poisson was first to see that Laplace's equation holds only outside the mass and put the -4 pi rho equation in its place, but did not prove it rigorously, a proof Gauss supplied in 1840.",
     "ev": [
      {
       "c": "Read: the note states that V satisfies Laplace's equation outside the attracting body and, by splitting the body and using a homogeneous sphere, that the sum of second derivatives equals -4 pi rho (rho the density at the attracted point) for a body of any form.",
@@ -59116,28 +59304,11 @@
       "s": "MacTutor, Poisson",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Poisson/",
       "k": "history_page"
-     }
-    ]
-   },
-   {
-    "r": "key_development",
-    "y": 1823,
-    "ye": null,
-    "p": "year",
-    "l": "Poisson's memoir on magnetism in motion",
-    "w": null,
-    "pe": [
-     "Siméon-Denis Poisson"
-    ],
-    "d": "Poisson published the inhomogeneous equation for the potential in the context of magnetism, extending Laplace's equation.",
-    "ph": null,
-    "c": "low",
-    "n": "Wikipedia dates the published equation to a Poisson memoir on magnetism in motion (1823). The 1813 note (read) already contains the equation, so this is not the first publication; the 1823 memoir was not read and its volume and printing year were not checked.",
-    "ev": [
+     },
      {
-      "c": "Wikipedia says Poisson published the equation in 1823 in a memoir on the theory of magnetism in motion",
-      "s": "English Wikipedia, Poisson's equation",
-      "u": "https://en.wikipedia.org/wiki/Poisson's_equation",
+      "c": "Editor's note: Poisson first remarked that Laplace's equation holds only for points outside the mass (Bulletin de la Societe philomathique, t. 3, p. 388) and replaced it by the equation named after him, without a rigorous proof; Gauss gave one.",
+      "s": "Gauss, Allgemeine Lehrsaetze, ed. A. Wangerin (1889), Anmerkungen zu Art. 8-11",
+      "u": "https://archive.org/details/allgemeinelehrs01gausgoog",
       "k": "history_page"
      }
     ]
@@ -59153,9 +59324,9 @@
      "George Green"
     ],
     "d": "Green named the sum of masses divided by distance the potential and developed its general properties for electricity and magnetism.",
-    "ph": null,
+    "ph": "Poisson, Green and electrostatics (1812-1828)",
     "c": "high",
-    "n": "Green's Essay was read in the Internet Archive scan: he speaks of 'what have, in this Essay, been termed potential functions' and credits Poisson's two memoirs presented to the Institute about 1812 as founded on them. The 1828 date rests on the library record and MacTutor, not on the scan's title page.",
+    "n": "Green's Essay was read in the Internet Archive scan: he speaks of 'what have, in this Essay, been termed potential functions' and credits Poisson's two memoirs presented to the Institute about 1812 as founded on them. The 1828 date is now read on the title page of the scan ('Nottingham ... 1828', printed for the author by T. Wheelhouse).",
     "ev": [
      {
       "c": "Internet Archive item for Green's 1828 Essay on the application of mathematical analysis to the theories of electricity and magnetism",
@@ -59170,7 +59341,7 @@
       "k": "history_page"
      },
      {
-      "c": "Read: the introduction says Poisson presented two memoirs about 1812 on the distribution of electricity on conducting spheres, founded on the consideration of 'what have, in this Essay, been termed potential functions'.",
+      "c": "Read: the introduction says Poisson presented two memoirs about 1812 on the distribution of electricity on conducting spheres, founded on the consideration of 'what have, in this Essay, been termed potential functions'. Title page read: Nottingham, printed for the author by T. Wheelhouse, 1828.",
       "s": "G. Green, An Essay on the Application of Mathematical Analysis to the Theories of Electricity and Magnetism",
       "u": "https://archive.org/details/essayonapplicati00gree",
       "k": "primary_text"
@@ -59183,15 +59354,27 @@
     "ye": null,
     "p": "year",
     "l": "Gauss's general theorems on inverse-square forces",
-    "w": "C. F. Gauss, Allgemeine Lehrsätze in Beziehung auf die im verkehrten Verhältnisse des Quadrats der Entfernung wirkenden Anziehungs- und Abstossungs-Kräfte, 1840",
+    "w": "C. F. Gauss, Allgemeine Lehrsaetze in Beziehung auf die im verkehrten Verhaeltnisse des Quadrats der Entfernung wirkenden Anziehungs- und Abstossungs-Kraefte, Resultate aus den Beobachtungen des magnetischen Vereins im Jahre 1839, Leipzig: Weidmann, 1840",
     "pe": [
      "Carl Friedrich Gauss"
     ],
-    "d": "Gauss gives a systematic treatment of potentials with the divergence-type theorems, and uses the word potential independently of Green.",
-    "ph": null,
-    "c": "medium",
-    "n": "Crossref lists the 1877 Werke reprint; 1840 is the original publication year.",
+    "d": "Gauss defines V as the sum of the masses divided by their distances, gives it the name Potential, and proves the general theorems on volume and surface potentials, including Poisson's equation, systematically and rigorously.",
+    "ph": "Poisson, Green and electrostatics (1812-1828)",
+    "c": "high",
+    "n": "Read in the original volume (Resultate aus den Beobachtungen des magnetischen Vereins im Jahre 1839, Leipzig 1840, Internet Archive bub_gb_WII5AAAAcAAJ) and in Wangerin's reprint: article 3 introduces V as the aggregate of all acting mass elements each divided by its distance and says 'diese Groesse das Potential der Massen ... nennen', adding that in the wider sense the potential is the function whose partial derivatives are the components of the force. Wangerin: the paper is the foundation of present potential theory, gives the first rigorous proof of the Laplace-Poisson equation and the behaviour of the surface potential; Green's 1828 Essay was unknown until Thomson republished it (Crelle 1850-54). Todhunter (read) infers that Gauss, who cites no authority, chose the name independently of Green. The Crossref record is the Werke reprint (1877); 1840 is the date of the original.",
     "ev": [
+     {
+      "c": "Primary text read: article 3, V as the sum of masses over distances and the name 'Potential'; the force components as partial derivatives; the theorems that follow.",
+      "s": "Gauss, Allgemeine Lehrsaetze (1840), Internet Archive bub_gb_WII5AAAAcAAJ (original volume, OCR text read) and allgemeinelehrs01gausgoog (Wangerin's reprint)",
+      "u": "https://archive.org/details/bub_gb_WII5AAAAcAAJ",
+      "k": "primary_text"
+     },
+     {
+      "c": "Editor's notes: the paper as the foundation of potential theory; first rigorous proof of the Laplace-Poisson equation; Green independent and unnoticed until 1846-50.",
+      "s": "Gauss, Allgemeine Lehrsaetze, ed. A. Wangerin, Ostwalds Klassiker 2 (1889), Anmerkungen",
+      "u": "https://archive.org/details/allgemeinelehrs01gausgoog",
+      "k": "history_page"
+     },
      {
       "c": "Crossref record of the paper as reprinted in Gauss' Werke (1877); original date 1840 taken from the title series, not the record.",
       "s": "Crossref, DOI 10.1007/978-3-642-49319-5_11",
@@ -59212,7 +59395,7 @@
     "ye": null,
     "p": "year",
     "l": "Potential Analysis begins",
-    "w": null,
+    "w": "Potential Analysis, vol. 1 (Kluwer, 1992)",
     "pe": [],
     "d": "A journal named for the field starts publication; the first volume is 1992.",
     "ph": null,
@@ -59235,6 +59418,12 @@
     "life": "1749-1827",
     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Laplace/",
     "works": [
+     {
+      "c": "Theorie des attractions des spheroides et de la figure des planetes, Mem. Acad. Sci. Paris, annee 1782 (1785)",
+      "y": 1785,
+      "u": "https://archive.org/details/uvrescompltesde11fragoog",
+      "w": "The function V and its partial differential equation."
+     },
      {
       "c": "Laplace, Traite de mecanique celeste (1798)",
       "y": 1798,
@@ -59264,10 +59453,30 @@
     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Lagrange/",
     "works": [
      {
+      "c": "Remarques generales sur le mouvement de plusieurs corps qui s'attirent mutuellement (Berlin, annee 1777)",
+      "y": 1777,
+      "u": "https://archive.org/details/oeuvresdelagrang04lagr",
+      "w": "Forces of a system of attracting bodies as partial derivatives of one function."
+     },
+     {
       "c": "Lagrange, Mecanique analytique (2nd ed., 1811)",
       "y": 1811,
       "u": "https://openlibrary.org/works/OL1794115W",
       "w": "Treatise on analytical mechanics built on potential-based and variational methods."
+     }
+    ]
+   },
+   {
+    "name": "Simeon Denis Poisson",
+    "role": "developer",
+    "life": "1781-1840",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Poisson/",
+    "works": [
+     {
+      "c": "Remarques sur une equation qui se presente dans la theorie des attractions des spheroides, Nouveau Bulletin des sciences 3 (December 1813) 388-392",
+      "y": 1813,
+      "u": "https://archive.org/details/nouveaubulletind31812soci",
+      "w": "The equation with minus four pi rho inside the attracting mass."
      }
     ]
    },
@@ -59278,15 +59487,15 @@
     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Gauss/",
     "works": [
      {
-      "c": "Allgemeine Lehrsätze ... Anziehungs- und Abstossungs-Kräfte (1840; Werke reprint record)",
+      "c": "Allgemeine Lehrsaetze in Beziehung auf die im verkehrten Verhaeltnisse des Quadrats der Entfernung wirkenden Anziehungs- und Abstossungs-Kraefte (1840)",
       "y": 1840,
-      "u": "https://doi.org/10.1007/978-3-642-49319-5_11",
+      "u": "https://archive.org/details/bub_gb_WII5AAAAcAAJ",
       "w": "systematic potential theory"
      }
     ]
    }
   ],
-  "notes": "Review R2b, partial. Read in open copies: Laplace's memoir of 1782 (printed 1785) in the Oeuvres completes, Lagrange's 1773 attraction memoir, Poisson's 1813 note (Nouveau Bulletin des sciences, Tome III) and Green's Essay introduction. Changes: first statement moved from 1786 to 1785 (the memoir with V and its partial differential equation); Poisson 1813 identified and read, reclassified from first application to key development (the -4 pi rho equation); the 1823 memoir is a later, unread item; Lagrange 1773 remains a precursor because the memoir does not state a potential. Outstanding: whether another Lagrange memoir of the 1770s printed the potential function earlier than 1785; Poisson's electrostatic memoirs of 1811-12 (possible first application); Laplace's Cartesian equation (1787); Gauss 1840 and Potential Analysis unread. Stays source-first.",
+  "notes": "Direct review R3-G1. Read: Lagrange's 1773 attraction memoir and his 1777 memoir on the motion of several attracting bodies (Oeuvres, t. 3 and 4); Laplace's memoir of 1782 (printed 1785) and his Saturn-ring memoir of 1787 (printed 1789) in the Oeuvres completes; Poisson's note of December 1813 (Nouveau Bulletin des sciences, Tome III); Green's Essay of 1828 (title page, introduction); Gauss' paper of 1840 in the original volume and in Wangerin's annotated reprint; Todhunter's history for Legendre, Lagrange 1792-93 and Laplace's equation; Crossref for the journal. Changes: the first statement moves from Laplace 1785 to Lagrange 1777 (a function Omega whose derivatives are the forces of a system of attracting bodies), Laplace 1785 becomes a key development (V for continuous bodies and the partial differential equation; the rectangular form dated 1787 in the same note); map year 1785 -> 1777 with link distances updated on both sides (P558, P162, P367); Poisson's electrostatic memoirs of 1811-12 are entered as the first application (identified from Green and Wangerin, not read; derived methodological date 1813 -> 1812); the unsourced 1823 entry was removed: Wikipedia's claim that Poisson published his equation in a memoir on magnetism in motion (1823) is superseded by the December 1813 note, and Green (1828) lists the magnetism memoirs of 1821-22 and the third on magnetism in motion as later work. Open caveats: Poisson's 1811 memoirs and the 1823-27 magnetism memoirs were not read; the printing year of the Berlin volume for 1777 was not checked; Legendre's 1782-85 memoir (which credits Laplace with the function V, per Todhunter) and Lagrange's 1792-93 memoir were seen only through Todhunter; Lagrange's function is for point masses, so whether it counts as the 'potential' is a question of definition, and the priority between Lagrange 1777 and Laplace 1782 for the continuous case is stated as in Wangerin.",
   "catalogueDates": [
    [
     1782,
@@ -59313,13 +59522,13 @@
     {
      "p": "P558",
      "f": "partial differential equations",
-     "d": 28,
+     "d": 20,
      "t": "feeds"
     },
     {
      "p": "P162",
      "f": "partial differential equations",
-     "d": 36,
+     "d": 28,
      "t": "feeds"
     }
    ],
@@ -59327,7 +59536,7 @@
     {
      "p": "P367",
      "f": "celestial, mechanics",
-     "d": 95,
+     "d": 103,
      "t": "feeds"
     }
    ],
@@ -60100,15 +60309,19 @@
   "product": null,
   "why": "Algebraic coordinates made duality and line geometry computational.",
   "cat": "Period run before 1850",
-  "tier": "source-first",
-  "grade": {},
+  "tier": "direct",
+  "grade": {
+   "conceptual": "B",
+   "methodological": "B",
+   "institutional": "B"
+  },
   "shown": {
    "conceptual": {
     "y": 1827,
     "basis": "first statement"
    },
    "methodological": {
-    "y": 1831,
+    "y": 1830,
     "basis": "first application"
    },
    "institutional": {
@@ -60117,23 +60330,58 @@
    }
   },
   "took": {
-   "y": 1827,
-   "role": "naming",
-   "label": "Mobius titles his book with the barycentric-calculus name",
+   "y": 1830,
+   "role": "first_application",
+   "label": "Pluecker's new coordinate system of distances from a triangle, with homogeneous equations",
    "same": true
   },
   "y": 1827,
   "approx": false,
   "derived": {
    "conceptual": 1827,
-   "methodological": 1831,
+   "methodological": 1830,
    "institutional": 1827
   },
   "phases": [
    "Moebius barycentric/homogeneous point coordinates",
-   "Pluecker homogeneous line coordinates and duality"
+   "Pluecker trilinear and line coordinates, duality"
   ],
   "ms": [
+   {
+    "r": "precursor",
+    "y": 1827,
+    "ye": null,
+    "p": "year",
+    "l": "Feuerbach's coefficients of a point for the tetrahedron",
+    "w": "K. W. Feuerbach, Grundriss zu analytischen Untersuchungen der dreyeckigen Pyramide, Nuernberg 1827 (48 pp.; announced in Isis 1826, pp. 565-569)",
+    "pe": [
+     "Karl Wilhelm Feuerbach"
+    ],
+    "d": "Feuerbach assigns to a point of space four 'coordinated coefficients', the ratios of its distances from the faces of a tetrahedron to the distances of the opposite vertices, a barycentric-type system used to express tetrahedron invariants.",
+    "ph": "Moebius barycentric/homogeneous point coordinates",
+    "c": "low",
+    "n": "Known only through Moritz Cantor's 1910 account (Heidelberg, read) and Straume's survey (read): Cantor describes the unprinted manuscript (dated Ansbach 7 July 1826), the Isis announcement (1826) and the 1827 booklet as three versions of one work and, from the manuscript, section 82 defines the coefficients o, l, n, m of a point with o + l + n + m = 1; Cantor dates the booklet's preface 22 October 1826. The booklet itself (Fraktur scan, unusable OCR) was not read, so it is not confirmed that the definition is printed there. Straume says Feuerbach 'was not concerned with new coordinates' but with theorems on the tetrahedron. Wikipedia and some histories credit Feuerbach with homogeneous coordinates independently of Moebius in the same year; the normalisation to sum 1 makes them barycentric rather than homogeneous. The 1822 lead is closed: Feuerbach's 'Eigenschaften einiger merkwuerdigen Punkte des geradlinigen Dreiecks' (Nuernberg 1822, read in the 1908 reprint and in Cantor's description) is an analytic-trigonometric treatise on triangle centres (the nine-point circle) with no coordinate language.",
+    "ev": [
+     {
+      "c": "Primary account read: Feuerbach's Grundriss (Nuernberg 1827, 48 pp.), the Isis announcement of 1826 and the manuscript of 1826; section 82 defines coordinated coefficients of a point for a tetrahedron (sum 1).",
+      "s": "M. Cantor, 'Karl Wilhelm von Feuerbach', Sitzungsberichte Heidelberger Akademie 1910, no. 25 (Heidelberger Texte zur Mathematikgeschichte)",
+      "u": "http://archiv.ub.uni-heidelberg.de/volltextserver/12969/1/feuerbach.pdf",
+      "k": "history_page"
+     },
+     {
+      "c": "E. Straume, survey: Feuerbach's 1827 investigation of tetrahedra yields a quadruple of volumes that is a kind of homogeneous coordinates closely related to Moebius' barycentric coordinates, but Feuerbach was after theorems, not a coordinate system.",
+      "s": "E. Straume, A Survey of the Development of Geometry up to 1870 (arXiv 1409.1140)",
+      "u": "https://arxiv.org/abs/1409.1140",
+      "k": "history_page"
+     },
+     {
+      "c": "Internet Archive record of the 1827 booklet.",
+      "s": "Internet Archive item grundrisszuanal00feuegoog",
+      "u": "https://archive.org/details/grundrisszuanal00feuegoog",
+      "k": "bibliographic_record"
+     }
+    ]
+   },
    {
     "r": "first_statement",
     "y": 1827,
@@ -60144,11 +60392,23 @@
     "pe": [
      "August Ferdinand Moebius"
     ],
-    "d": "Moebius describes each point of the plane by weights placed at the vertices of a triangle, giving homogeneous coordinates that also cover points at infinity.",
+    "d": "Moebius fixes a point of the plane by the ratios of weights p:q:r placed at three fundamental points (a point at infinity when the weights sum to zero), which are homogeneous coordinates in the modern sense.",
     "ph": "Moebius barycentric/homogeneous point coordinates",
     "c": "high",
-    "n": "Year and title confirmed by the Internet Archive record, Open Library (first publication 1827) and MacTutor; the book was not read (the scan's OCR is unusable). The claim that it contains homogeneous coordinates rests on MacTutor and Wikipedia.",
+    "n": "Read in Moebius, Gesammelte Werke, vol. 1 (Leipzig 1885; the book keeps its 1827 pagination): Chapter 3, 'Neue Methode, die Lage von Puncten zu bestimmen', sections 28-32 (pp. 50-53). The coordinates are 'die Verhaeltnisse, welche zwischen den Coefficienten der Fundamentalpuncte stattfinden muessen', i.e. the ratios p:q:r in P = pA + qB + rC; a point with p + q + r = 0 is an infinitely distant point (section 32), and the preface notes that each fundamental point plays the part of an origin of coordinates. The editor's preface (Baltzer, 1885) calls these 'die ersten homogenen Coordinaten, welche in die Geometrie eingefuehrt wurden'. The word 'homogeneous' does not occur in Moebius' own text of these sections. Priority within 1827 against Feuerbach's tetrahedron booklet is not settled (see the Feuerbach milestone); the 1827 date is the print year, month not checked.",
     "ev": [
+     {
+      "c": "Primary text read: sections 28-32 (pp. 50-53) define a point of a line, plane or space by the ratios of the coefficients of fundamental points with P = pA + qB + rC; points with coefficient sum zero are at infinity.",
+      "s": "A. F. Moebius, Der barycentrische Calcul (1827), Gesammelte Werke vol. 1 (1885), Internet Archive gesammeltewerkeh01mbuoft",
+      "u": "https://archive.org/details/gesammeltewerkeh01mbuoft",
+      "k": "primary_text"
+     },
+     {
+      "c": "Baltzer's preface (1885, same volume): the barycentric coordinates of a point are the first homogeneous coordinates introduced into geometry; Pluecker's Entwickelungen soon surpassed them with homogeneous coordinates and equations.",
+      "s": "R. Baltzer, Vorrede ueber Moebius, Gesammelte Werke vol. 1 (1885)",
+      "u": "https://archive.org/details/gesammeltewerkeh01mbuoft",
+      "k": "history_page"
+     },
      {
       "c": "Internet Archive (Bayerische Staatsbibliothek) scan: Der barycentrische Calcul: ein neues Huelfsmittel zur analytischen Behandlung der Geometrie, Moebius, 1827; the scan's OCR is too poor to read the passage.",
       "s": "Internet Archive scan",
@@ -60165,12 +60425,6 @@
       "c": "Biography says the 1827 book introduced homogeneous coordinates and projective transformations.",
       "s": "MacTutor: Mobius biography",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Mobius/",
-      "k": "history_page"
-     },
-     {
-      "c": "Topic page shows every plane point fixed by weights [a,b,c] at triangle vertices.",
-      "s": "MacTutor: Abstract linear spaces",
-      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Abstract_linear_spaces/",
       "k": "history_page"
      },
      {
@@ -60194,33 +60448,115 @@
     "d": "The first title found using \"barycentric calculus\", an alias for the event.",
     "ph": null,
     "c": "medium",
-    "n": "Name is the event alias, not the modern 'homogeneous coordinates' label; 'barycentric calculus' names Moebius' method, of which homogeneous coordinates are the by-product. Open Library gives 1827 for the first publication.",
+    "n": "Name is the event alias, not the modern 'homogeneous coordinates' label; 'barycentric calculus' names Moebius' method, of which homogeneous coordinates are the by-product. Open Library gives 1827 for the first publication. Review R3-G1: the title, 'Der barycentrische Calcul: ein neues Huelfsmittel zur analytischen Behandlung der Geometrie ...', appears on the contents page of the reprint (Gesammelte Werke vol. 1, 'Der barycentrische Calcul 1827') and in the Internet Archive records of the original (10082429bsb, 11267597bsb). The compound 'homogeneous coordinates' was searched in Moebius' sections, Pluecker 1830, 1831, 1835 and 1839 (OCR text) and does not occur there; only Baltzer's 1885 preface uses it in the volumes read.",
     "ev": [
      {
       "c": "Open Library lists the title with first publication year 1827",
       "s": "Open Library works OL13462549W",
       "u": "https://openlibrary.org/works/OL13462549W",
       "k": "bibliographic_record"
+     },
+     {
+      "c": "Contents of the reprint: 'Der barycentrische Calcul 1827', Vorrede und Inhalt p. 1, sections I-III; title as given.",
+      "s": "Moebius, Gesammelte Werke vol. 1 (1885), Internet Archive gesammeltewerkeh01mbuoft",
+      "u": "https://archive.org/details/gesammeltewerkeh01mbuoft",
+      "k": "primary_text"
+     }
+    ]
+   },
+   {
+    "r": "precursor",
+    "y": 1827,
+    "ye": 1828,
+    "p": "range",
+    "l": "Bobillier's triangle of linear functions and abridged notation",
+    "w": "E. Bobillier, Essai sur un nouveau mode de recherche des proprietes de l'etendue, Annales de mathematiques pures et appliquees 18 (1827-28) 320-339",
+    "pe": [
+     "Etienne Bobillier"
+    ],
+    "d": "Bobillier takes three independent linear functions A, B, C of x and y as the sides of a triangle and writes lines and the conics circumscribed to it as combinations of A, B, C and of the products BC, CA, AB with undetermined constants.",
+    "ph": "Moebius barycentric/homogeneous point coordinates",
+    "c": "low",
+    "n": "Volume year 1827-28 (the issue month was not read). Numdam's scan of the article was read as OCR text, which is garbled: it shows the opening 'trois fonctions lineaires independantes quelconques' A, B, C of x and y forming a triangle, a family of conics through its vertices with undetermined constants and tangent lines through its vertices, but the formulas are not legible, so the exact equations quoted from secondary accounts are not confirmed. Straume (secondary, read) states that the parameters a, b, c in aC1 + bC2 + cC3 = 0 and aC1C2 + bC2C3 + cC3C1 = 0 act as homogeneous line coordinates but that Bobillier 'really did not have the coordinate concept in mind'. Plucker's 1830 paper (read) cites Bobillier's later 'Recherche sur les lois generales qui regissent les courbes algebriques' (Annales 19), so Plucker knew his work by 1830.",
+    "ev": [
+     {
+      "c": "Primary text (garbled OCR) read: opening of Bobillier's Essai, triangle of three linear functions A, B, C of x and y and conics circumscribed to it.",
+      "s": "Numdam, Annales de mathematiques pures et appliquees 18 (1827-1828), item AMPA_1827-1828__18__320_1",
+      "u": "https://www.numdam.org/item/AMPA_1827-1828__18__320_1/",
+      "k": "primary_text"
+     },
+     {
+      "c": "Straume: the abridged notation of Bobillier (1827-28) with the triangle Ci = 0 gives homogeneous line parameters, although he did not have a coordinate concept in mind; the idea of homogeneous coordinates arose almost simultaneously around 1827 with Bobillier, Moebius, Feuerbach and Plucker.",
+      "s": "E. Straume, A Survey of the Development of Geometry up to 1870 (arXiv 1409.1140)",
+      "u": "https://arxiv.org/abs/1409.1140",
+      "k": "history_page"
      }
     ]
    },
    {
     "r": "first_application",
-    "y": 1831,
+    "y": 1830,
     "ye": null,
     "p": "year",
-    "l": "Pluecker uses homogeneous line coordinates for conics",
-    "w": "J. Pluecker, Analytisch-geometrische Entwickelungen, vol. 2, Essen, 1831",
+    "l": "Pluecker's new coordinate system of distances from a triangle, with homogeneous equations",
+    "w": "J. Pluecker, Ueber ein neues Coordinatensystem, J. reine angew. Math. 5 (1830) 1-36",
     "pe": [
      "Julius Pluecker"
     ],
-    "d": "In the second volume Pluecker treats conics as envelopes of lines using homogeneous line coordinates, making duality a matter of symbolic calculation.",
-    "ph": "Pluecker homogeneous line coordinates and duality",
+    "d": "Pluecker takes the distances p, q, r of a point from the three sides of a triangle as coordinates, studies equations homogeneous in p, q, r, represents the line at infinity by a linear equation and applies the system to conics, poles and polars and Poncelet's theorems.",
+    "ph": "Pluecker trilinear and line coordinates, duality",
     "c": "medium",
-    "n": "MacTutor: vol. 1 (1828) uses non-homogeneous affine point coordinates; vol. 2, 'three years later', introduces homogeneous line coordinates and treats conics as envelopes of lines, so the 1831 year is inferred from '1828 plus three years'. No bibliographic record of the 1831 volume was found in Crossref or the archive.org catalogue searched. The volumes were not read.",
+    "n": "Read in the Zenodo copy of the Crelle volume (CC0 scan, OCR text): the introduction says that for curves of all orders equations arise that are 'in Beziehung auf drei Veraenderlichen p, q, r homogen', so that Euler's theorem on homogeneous functions gives the tangent and osculating curves of any point; section 11 shows that the points at infinity satisfy the linear equation p sin a'' - q sin a' + r sin a = 0 and so lie on a line, as in Poncelet; the paper then treats harmonic lines, tangent conditions and polar curves with the three 'Coordinatenpuncte'. Plucker refers to his Entwickelungen no. 31 for the sign convention. In the preface of the second volume of the Entwickelungen (1831, read) he calls this paper 'nur als eine unvollkommene Vorarbeit' to the line-coordinate work. Crossref confirms title, volume and pages (De Gruyter, DOI 10.1515/crll.1830.5.1). This is the earliest purposeful application of triangle-based homogeneous coordinates found that is expressed with the word 'homogen'; Moebius' own book already applies barycentric coordinates to conics (1827).",
     "ev": [
      {
-      "c": "Biography summarises vol. 1 (1828) with affine point coordinates and vol. 2 (three years later) with homogeneous line coordinates.",
+      "c": "Primary text read: Pluecker, Ueber ein neues Coordinatensystem, Crelle 5 (1830) 1-36: distances p, q, r from a triangle as coordinates, equations homogeneous in p, q, r, the line at infinity as a linear equation.",
+      "s": "Zenodo copy of J. reine angew. Math. 5 (1830) 1-36, record 1778033 (read)",
+      "u": "https://zenodo.org/records/1778033",
+      "k": "primary_text"
+     },
+     {
+      "c": "Crossref: 'Ueber ein neues Coordinatensystem', Crelle's Journal 5 (1830), pages 1-36.",
+      "s": "Crossref DOI 10.1515/crll.1830.5.1",
+      "u": "https://doi.org/10.1515/crll.1830.5.1",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "Plucker's own preface to the second volume of the Entwickelungen: the paper in Crelle vol. 5 was only an imperfect preparation.",
+      "s": "Analytisch-geometrische Entwickelungen, vol. 2 (Essen 1831), Vorrede (Internet Archive analytischgeome02plgoog; read)",
+      "u": "https://archive.org/details/analytischgeome02plgoog",
+      "k": "primary_text"
+     }
+    ]
+   },
+   {
+    "r": "key_development",
+    "y": 1831,
+    "ye": null,
+    "p": "year",
+    "l": "Pluecker uses homogeneous line coordinates and the principle of reciprocity",
+    "w": "J. Pluecker, Analytisch-geometrische Entwickelungen, vol. 2, Essen: G. D. Baedeker, 1831",
+    "pe": [
+     "Julius Pluecker"
+    ],
+    "d": "In the second volume Pluecker takes the constants of a line as its coordinates (u, v, w), writes loci of the second class by homogeneous equations in u, v, w, and derives the principle of reciprocity, making duality a matter of symbolic calculation.",
+    "ph": "Pluecker trilinear and line coordinates, duality",
+    "c": "high",
+    "n": "Title page read in the Internet Archive scan analytischgeome02plgoog: 'Zweiter Band ... Essen, bei G. D. Baedeker. 1831' (the library record gives 1828-1831 for the two volumes), which replaces the earlier date inferred from MacTutor's 'three years later'. The text (nos. 401-416, 454) takes the three quantities u, v, w as line coordinates, calls the equations au + bv + cw = 0 and loci 'Aw^2 + 2Bvw + ... = 0' homogeneous, and remarks that a homogeneous equation in both the point and the line variables treats points and lines symmetrically; the preface says the line-coordinate idea came at the end of August 1829 and that the first volume (1828) used the constants q and p 'weil die beiden Constanten b und a nicht homogen sind'. Role changed from first_application: Pluecker's 1830 paper applies triangle coordinates earlier.",
+    "ev": [
+     {
+      "c": "Primary text read: title page of the second volume (1831) and nos. 401-416, 454: line coordinates u, v, w, homogeneous equations, loci of the second class; preface on the origin of the idea (August 1829) and on the earlier paper in Crelle 5.",
+      "s": "J. Pluecker, Analytisch-geometrische Entwickelungen, vol. 2 (1831), Internet Archive analytischgeome02plgoog",
+      "u": "https://archive.org/details/analytischgeome02plgoog",
+      "k": "primary_text"
+     },
+     {
+      "c": "Library record: Essen, G. D. Baedeker, 1828-1831, two volumes.",
+      "s": "Internet Archive item analytischgeome01plgoog (catalogue record)",
+      "u": "https://archive.org/details/analytischgeome01plgoog",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "MacTutor: vol. 1 (1828) uses non-homogeneous affine point coordinates; vol. 2 uses homogeneous line coordinates in the plane and treats conics as envelopes of lines.",
       "s": "MacTutor: Plucker biography",
       "u": "https://mathshistory.st-andrews.ac.uk/Biographies/Plucker/",
       "k": "history_page"
@@ -60238,10 +60574,16 @@
      "Julius Pluecker"
     ],
     "d": "Pluecker uses both point and line coordinates for a detailed theory of plane cubic curves.",
-    "ph": "Pluecker homogeneous line coordinates and duality",
-    "c": "medium",
-    "n": "Merged with a duplicate consolidation entry for the same book (schema rule 2); MacTutor describes the book as treating point and line coordinates and mainly plane cubics. The text was not read.",
+    "ph": "Pluecker trilinear and line coordinates, duality",
+    "c": "high",
+    "n": "Read in the Internet Archive scan (OCR text): the introductory nos. 7-8 introduce p, q, r (distances from three lines) as coordinates, so that 'ein Punct drei Coordinaten' has, and remark that the equation of a curve keeps its degree and becomes homogeneous; no. 44 turns to all possible systems of line coordinates in which the equation of a point is of the first degree. Merged with a duplicate consolidation entry for the same book (schema rule 2).",
     "ev": [
+     {
+      "c": "Primary text read: introduction (nos. 7-8): coordinates p, q, r, homogeneous equations; no. 44: systems of line coordinates.",
+      "s": "J. Pluecker, System der analytischen Geometrie (Berlin 1835), Internet Archive bub_gb_0b_Y9GirdDQC (OCR text read)",
+      "u": "https://archive.org/details/bub_gb_0b_Y9GirdDQC",
+      "k": "primary_text"
+     },
      {
       "c": "Archive catalogue lists the 1835 System der analytischen Geometrie.",
       "s": "Internet Archive scan",
@@ -60273,10 +60615,16 @@
      "Julius Pluecker"
     ],
     "d": "The book studies singular points and points at infinity and states the relations between the order and class of a curve, a result of the dual coordinate viewpoint.",
-    "ph": "Pluecker homogeneous line coordinates and duality",
-    "c": "medium",
-    "n": null,
+    "ph": "Pluecker trilinear and line coordinates, duality",
+    "c": "high",
+    "n": "Title page (Bonn, bei Adolph Marcus, 1839) and the contents read in the Internet Archive scan: sections 65-67 give six general relations between the order, the class and the numbers of double points, double tangents, cusps and inflexions of an algebraic curve, which reduce to three independent ones, and the introduction treats linear functions as homogeneous functions of three variables.",
     "ev": [
+     {
+      "c": "Primary text read: title page and contents (sections 62-70), six relations between order, class and singularities.",
+      "s": "J. Pluecker, Theorie der algebraischen Curven (Bonn 1839), Internet Archive theoriederalgeb00plgoog (OCR text read)",
+      "u": "https://archive.org/details/theoriederalgeb00plgoog",
+      "k": "primary_text"
+     },
      {
       "c": "Archive catalogue lists the 1839 Theorie der algebraischen Curven.",
       "s": "Internet Archive scan",
@@ -60308,11 +60656,51 @@
     ]
    },
    {
+    "name": "Karl Wilhelm Feuerbach",
+    "role": "developer",
+    "life": "1800-1834",
+    "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Feuerbach/",
+    "works": [
+     {
+      "c": "Grundriss zu analytischen Untersuchungen der dreyeckigen Pyramide (1827)",
+      "y": 1827,
+      "u": "https://archive.org/details/grundrisszuanal00feuegoog",
+      "w": "Coordinated coefficients of a point for the tetrahedron; known here through Cantor's account."
+     }
+    ]
+   },
+   {
+    "name": "Etienne Bobillier",
+    "role": "developer",
+    "life": "1798-1840",
+    "url": "https://en.wikipedia.org/wiki/%C3%89tienne_Bobillier",
+    "works": [
+     {
+      "c": "Essai sur un nouveau mode de recherche des proprietes de l'etendue, Annales 18 (1827-28)",
+      "y": 1828,
+      "u": "https://www.numdam.org/item/AMPA_1827-1828__18__320_1/",
+      "w": "Abridged notation with the sides of a triangle."
+     }
+    ]
+   },
+   {
     "name": "Julius Pluecker",
     "role": "developer",
     "life": "1801-1868",
     "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Plucker/",
     "works": [
+     {
+      "c": "Ueber ein neues Coordinatensystem, J. reine angew. Math. 5 (1830) 1-36",
+      "y": 1830,
+      "u": "https://doi.org/10.1515/crll.1830.5.1",
+      "w": "Distances from a triangle as coordinates, homogeneous equations."
+     },
+     {
+      "c": "Analytisch-geometrische Entwickelungen, vol. 2 (1831)",
+      "y": 1831,
+      "u": "https://archive.org/details/analytischgeome02plgoog",
+      "w": "Homogeneous line coordinates and the principle of reciprocity."
+     },
      {
       "c": "System der analytischen Geometrie",
       "y": 1835,
@@ -60328,7 +60716,7 @@
     ]
    }
   ],
-  "notes": "Sources read: Wikipedia 'Homogeneous coordinates' (raw wikitext), MacTutor biographies of Moebius and Pluecker and the topic page Abstract linear spaces. Wikipedia's Julius Pluecker article could not be retrieved (server error). The first use of the phrase 'homogeneous coordinates' was not found and is left open. The term 'Pluecker coordinates' for line coordinates is later; no dated coinage found. Priority between Moebius (1827) and Pluecker (1828-31) is not argued in the pages read; the 1831 volume year rests on MacTutor only. The saved leads file has no candidates for this event. Review R2-R3b: MacTutor (Moebius, Pluecker) and Wikipedia (Homogeneous coordinates) re-read; Open Library and the Internet Archive record titles and years for 1827, 1835 and 1839. Wikipedia and MacTutor say Moebius introduced homogeneous coordinates in 1827, and Wikipedia credits Pluecker only with six line coordinates in projective 3-space. The duplicate 1835 consolidation entry was merged into the key development. Leads not entered because they were not read: Pluecker's Crelle paper 'Ueber ein neues Coordinatensystem' (J. reine angew. Math. 5 (1830) 1-36, Crossref 10.1515/crll.1830.5.1), which may be his own earlier introduction of homogeneous point coordinates; and Feuerbach (1822) and Bobillier (1827-28) on trilinear coordinates. The Moebius text was not read (the Internet Archive scan has unusable OCR); not promoted.",
+  "notes": "Direct review R3-G1. Read: Moebius' Barycentrischer Calcul (chapter 3, sections 28-32, in the Gesammelte Werke vol. 1, with Baltzer's preface); Pluecker's Crelle paper of 1830 (Zenodo scan); the second volume of the Entwickelungen (title page 1831, preface, nos. 401-416, 454); the 1835 System (introduction) and the 1839 Theorie (title page, contents); Moritz Cantor's 1910 account of Feuerbach; the numdam scan of Bobillier's 1827-28 Essai (garbled OCR); Straume's survey and MacTutor. Changes: Moebius' 1827 coordinate definition checked in the text (high); Pluecker's second volume dated 1831 from its title page (the earlier date was inferred); Pluecker's 1830 paper added and made the first application (derived methodological date 1831 -> 1830); the 1831 volume is now a key development; Feuerbach (1827 tetrahedron booklet) and Bobillier (1827-28) added as low-confidence precursors, Feuerbach 1822 closed as a trigonometric treatise without coordinates. Open: priority between Moebius and Feuerbach inside 1827 (Feuerbach's booklet unread), the legible formulas of Bobillier's Essai, and the first use of the compound 'homogeneous coordinates' (it does not occur in the Moebius, Pluecker 1830-1839 texts read; Baltzer's 1885 preface uses it). The 'Pluecker coordinates' name for line coordinates is later and undated here.",
   "catalogueDates": [
    [
     1827,
@@ -60403,17 +60791,17 @@
    "linear algebra"
   ],
   "product": null,
-  "why": "Systems of linear equations were handled by an indexed notation for determinants, left unpublished.",
+  "why": "Systems of linear equations were first handled by an indexed notation for determinants (Leibniz, in a private letter and unpublished papers); the first printed determinant results are Maclaurin's and Cramer's.",
   "cat": "Period run before 1850",
   "tier": "source-first",
   "grade": {},
   "shown": {
    "conceptual": {
-    "y": 1700,
+    "y": 1748,
     "basis": "first statement"
    },
    "methodological": {
-    "y": 1748,
+    "y": 1750,
     "basis": "earliest key development; no first application found"
    },
    "institutional": {
@@ -60422,21 +60810,21 @@
    }
   },
   "took": {
-   "y": 1748,
+   "y": 1750,
    "role": "key_development",
-   "label": "Maclaurin's Treatise of Algebra",
+   "label": "Cramer's general rule",
    "same": false
   },
-  "y": 1700,
+  "y": 1748,
   "approx": false,
   "derived": {
-   "conceptual": 1700,
+   "conceptual": 1748,
    "methodological": null,
    "institutional": 1801
   },
   "phases": [
-   "Seki and Leibniz, 1683-1693",
-   "Publication in Europe, 1700-1750"
+   "Seki and Leibniz, 1683-1700",
+   "Publication in Europe, 1748-1750"
   ],
   "ms": [
    {
@@ -60450,7 +60838,7 @@
      "Seki Takakazu"
     ],
     "d": "Independent earlier appearance in Japan, with determinants up to 5x5 used on equations (not yet on linear systems).",
-    "ph": "Seki and Leibniz, 1683-1693",
+    "ph": "Seki and Leibniz, 1683-1700",
     "c": "medium",
     "n": "Seki's text circulated in manuscript in Japan; MacTutor gives 1683 and says he used the arrays on equations, not on linear systems. No bibliographic record of a printed edition was checked, so this stays a precursor.",
     "ev": [
@@ -60465,58 +60853,53 @@
    {
     "r": "precursor",
     "y": 1693,
-    "ye": null,
-    "p": "year",
-    "l": "Leibniz' letter to de l'Hopital",
-    "w": "Leibniz, letter to de l'Hopital, 1693 (private)",
+    "ye": 1700,
+    "p": "range",
+    "l": "Leibniz' index notation: the 1693 letter to de l'Hopital and the 1700 Acta Eruditorum paper",
+    "w": "Leibniz, letter to de l'Hopital, Hanover 28 April 1693 (first printed in Gerhardt, Mathematische Schriften II, 1850, pp. 239-241); and 'Responsio ad Dn. Nic. Fatii Duillierii imputationes. Accessit nova Artis Analyticae promotio ...', Acta Eruditorum, 1700, signed G.G.L. (Gerhardt, Math. Schriften V, pp. 340-349)",
     "pe": [
      "Gottfried Leibniz",
      "Guillaume de l'Hopital"
     ],
-    "d": "Leibniz explained that three equations in two unknowns have a solution when a determinant condition holds, using a double-index notation.",
-    "ph": "Seki and Leibniz, 1683-1693",
+    "d": "Leibniz wrote coefficients with two-digit numeral indices (the first for the equation, the second for the unknown), eliminated two unknowns from three linear equations and stated a general combinatorial rule for the resulting condition, which is the vanishing of a determinant; the 1700 paper printed the same index notation but for series reversion, not for linear systems.",
+    "ph": "Seki and Leibniz, 1683-1700",
     "c": "high",
-    "n": "Private letter (28 April 1693 per the Gerhardt edition quoted by secondary sources, first printed 1850), so a precursor. Leibniz had experimented since 1678 with more than fifty notations for coefficient systems in unpublished manuscripts (MacTutor), which is folded into this milestone instead of a separate 1678 entry.",
+    "n": "Read in Gerhardt's edition (Internet Archive scans). The letter (Hanover, 28 April 1693) writes the three equations 10+11x+12y=0, 20+21x+22y=0, 30+31x+32y=0, eliminates y and then x and gets the condition 10.21.32 + 11.22.30 + 12.20.31 = 10.22.31 + 11.20.32 + 12.21.30 (as MacTutor transcribes it), then states a general rule for any number of simple equations; it is a private letter, first printed in 1850, so it is a precursor. The 1700 Acta Eruditorum paper (Leibniz' reply to Fatio de Duillier, with a 'nova Artis Analyticae promotio' on designating coefficients by numbers instead of letters) prints the same two-index notation for the coefficients of an equation relating z and y and a theorem for the inverse series; it expresses the wish for general canons for elimination but contains no linear system and no determinant. So the 1700 print is the first public use of the index notation, not a determinant statement. Leibniz had experimented since 1678 with more than fifty notations for coefficient systems in unpublished manuscripts (MacTutor), folded in here. The printed page range of the 1700 paper is from a bookseller listing (pp. 198-208) and was not checked in the volume.",
     "ev": [
      {
-      "c": "1693 letter gives the vanishing-determinant condition using two-character indices.",
+      "c": "Primary text read: Leibniz to de l'Hopital, Hanover 28 April 1693, Mathematische Schriften II (Briefwechsel mit Huygens und de l'Hopital), Berlin: Asher, 1850: three linear equations with two-character indices, elimination, and the general rule.",
+      "s": "Leibnizens mathematische Schriften, ed. C. I. Gerhardt, Band II (Internet Archive scan of vol. 1-2, 1849-50)",
+      "u": "https://archive.org/details/leibnizensmathe08leibgoog",
+      "k": "primary_text"
+     },
+     {
+      "c": "Primary text read: the 1700 Acta Eruditorum reply to Fatio de Duillier with the 'nova Artis Analyticae promotio' using numbers for letters (theorem on the reversion of a series with coefficients 01, 02, 10, 11, 12, 20, ...), reprinted in Mathematische Schriften V, pp. 340-349.",
+      "s": "Leibnizens mathematische Schriften, Band V (Internet Archive scan); Acta Eruditorum 1700 (Internet Archive item s1id13206680 shows the title and text)",
+      "u": "https://archive.org/details/leibnizensmathe07leibgoog",
+      "k": "primary_text"
+     },
+     {
+      "c": "Title and volume of the Acta Eruditorum for 1700 in the Internet Archive.",
+      "s": "Internet Archive item s1id13206680",
+      "u": "https://archive.org/details/s1id13206680",
+      "k": "bibliographic_record"
+     },
+     {
+      "c": "The 1693 letter gives the vanishing-determinant condition using two-character indices; more than 50 notations tried over 50 years from 1678, mostly unpublished; only two publications (1700 and 1710) have results on coefficient systems.",
       "s": "MacTutor history topic: Matrices and determinants",
       "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
       "k": "history_page"
      },
      {
-      "c": "More than 50 notations tried over 50 years beginning in 1678; mostly unpublished.",
-      "s": "MacTutor history topic: Matrices and determinants",
-      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
+      "c": "Leibniz introduced indexing of unknown coefficients in the 1693 letter to l'Hopital and in 1700 in Acta Eruditorum, but nobody noticed.",
+      "s": "A. A. Kosinski, 'Cramer's Rule Is Due to Cramer', Mathematics Magazine 74 (2001)",
+      "u": "https://sites.math.rutgers.edu/~zeilberg/mamarim/mamarimhtml/cramerKosinski2001.pdf",
       "k": "history_page"
      }
     ]
    },
    {
     "r": "first_statement",
-    "y": 1700,
-    "ye": null,
-    "p": "year",
-    "l": "Leibniz' first printed results on coefficient systems",
-    "w": "Leibniz, publications of 1700 and 1710",
-    "pe": [
-     "Gottfried Leibniz"
-    ],
-    "d": "MacTutor says only two printed papers (1700 and 1710) by Leibniz contain results on coefficient systems.",
-    "ph": "Publication in Europe, 1700-1750",
-    "c": "low",
-    "n": "Cannot be confirmed: MacTutor says only two printed Leibniz papers (1700 and 1710) contain coefficient-system results but names neither, and searches of Knobloch's chapter on Leibniz's elimination and determinants and of general sources did not identify them. The same page calls Maclaurin's 1748 treatise the first published results on determinants, so priority is contestable. Kept low as a placeholder, not as a verified first statement. Review R3: Muenster's Leibniz bibliography lists no Acta Eruditorum article of 1700 (only a letter dated Oct 1700, printed 1701), while the 1710 Miscellanea Berolinensia 1 contains 'Symbolismus memorabilis calculi Algebraici et Infinitesimalis' (pp. 160-165), the likely 1710 piece; neither item was read and Knobloch's chapter is paywalled, so the 1700 item remains unidentified. Knobloch's abstract notes that historians long doubted Leibniz treated determinants at all. Review R2-R3b: Wikisource's index of Miscellanea Berolinensia 1 (1710) confirms that 'Symbolismus memorabilis calculi Algebraici et Infinitesimalis, in comparatione potentiarum et differentiarum' is in volume 1 (scan at digilib.bbaw.de, images only, no text to read); its subject (comparison of powers and differentials) is not obviously determinants, and the 1700 item was again not identified, so this milestone remains a placeholder. Seki's elimination work printed in 1710-1711 is a separate matter.",
-    "ev": [
-     {
-      "c": "Only two publications (1700 and 1710) contain results on coefficient systems.",
-      "s": "MacTutor history topic: Matrices and determinants",
-      "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
-      "k": "history_page"
-     }
-    ]
-   },
-   {
-    "r": "key_development",
     "y": 1748,
     "ye": null,
     "p": "year",
@@ -60525,14 +60908,20 @@
     "pe": [
      "Colin Maclaurin"
     ],
-    "d": "Contains the first published results on determinants per MacTutor, proving Cramer's rule for 2x2 and 3x3 systems.",
-    "ph": "Publication in Europe, 1700-1750",
+    "d": "Maclaurin's chapter on 'general theorems for exterminating unknown quantities' gives the solution of two and three linear equations as quotients of sums of signed products of 'opposite' coefficients, and states the same pattern for four, which is Cramer's rule in determinant form.",
+    "ph": "Publication in Europe, 1748-1750",
     "c": "medium",
-    "n": "Written in the 1730s and published two years after Maclaurin's death (1748), per MacTutor; the archive.org item was not opened. Conflicts with the 1700 first-statement placeholder.",
+    "n": "Role changed from key_development to first_statement because the 1700 Leibniz item is not a determinant statement (see the Leibniz milestone). Read in the Internet Archive scan of the 1748 first edition (title page 'M.DCC.XLVIII', printed for A. Millar and J. Nourse; the reader's preface says the plan existed in a letter of 19 April 1729): Part I, chapter XII, Theorems I and II (sections 86-87, pp. 82-84), with the sign rule for four equations. The treatise was written in the 1730s and published after his death in 1746 (MacTutor); publication year governs, so 1748. 'First' means the earliest printed determinant results on linear systems found in the European record (MacTutor, Kosinski); it is not a claim over the Japanese tradition (Seki 1683 manuscript, Takebe 1685, see P147) and no exhaustive search of earlier prints was made, so confidence is medium.",
     "ev": [
      {
-      "c": "Archive.org records list the 1748 edition.",
-      "s": "archive.org item atreatisealgebr00lawsgoog",
+      "c": "Primary text read: A Treatise of Algebra, London 1748, Part I chapter XII, Theorems I and II (sections 86-87, pp. 82-84): solutions of 2 and 3 linear equations as quotients of sums of products of opposite coefficients; the four-equation case by the same rule with signs.",
+      "s": "Internet Archive item atreatisealgebr03maclgoog (1748 first edition, title page read)",
+      "u": "https://archive.org/details/atreatisealgebr03maclgoog",
+      "k": "primary_text"
+     },
+     {
+      "c": "Library record of the 1748 edition (London: A. Millar and J. Nourse).",
+      "s": "archive.org item atreatisealgebr00lawsgoog (record dated 1748; the scan itself is the 1796 sixth edition)",
       "u": "https://archive.org/details/atreatisealgebr00lawsgoog",
       "k": "bibliographic_record"
      },
@@ -60540,6 +60929,12 @@
       "c": "Maclaurin's treatise, published 1748, has the first published results on determinants.",
       "s": "MacTutor history topic: Matrices and determinants",
       "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
+      "k": "history_page"
+     },
+     {
+      "c": "Some authors credit Maclaurin for the rule from the Treatise of Algebra (pp. 82-85) edited from manuscripts and published posthumously in 1748; Maclaurin used unindexed small letters.",
+      "s": "A. A. Kosinski, 'Cramer's Rule Is Due to Cramer', Mathematics Magazine 74 (2001)",
+      "u": "https://sites.math.rutgers.edu/~zeilberg/mamarim/mamarimhtml/cramerKosinski2001.pdf",
       "k": "history_page"
      }
     ]
@@ -60555,15 +60950,15 @@
      "Gabriel Cramer"
     ],
     "d": "Gave the rule for n unknowns in an appendix, without proof.",
-    "ph": "Publication in Europe, 1700-1750",
+    "ph": "Publication in Europe, 1748-1750",
     "c": "high",
-    "n": null,
+    "n": "Appendix of the book (on the elimination of unknowns, near p. 657) read in the Internet Archive scan: Cramer introduces letters with exponent indices for the coefficients (Z, Y, X with numbers), writes the solutions for one, two and three unknowns as quotients of sums of signed products and states the common denominator whose vanishing makes the problem indeterminate or impossible; the rule for n unknowns is stated by a sign rule without proof. The appendix page numbers were taken from OCR and may be off by a page.",
     "ev": [
      {
-      "c": "Archive.org record dates the book to 1750.",
-      "s": "archive.org item bub_gb_HzcVAAAAQAAJ",
+      "c": "Primary text read: Appendix of Introduction a l'analyse des lignes courbes algebriques (Geneva, 1750): notation with indexed coefficients, solutions for two and three equations, common denominator, indeterminate and impossible cases.",
+      "s": "Internet Archive item bub_gb_HzcVAAAAQAAJ (scan, OCR text read)",
       "u": "https://archive.org/details/bub_gb_HzcVAAAAQAAJ",
-      "k": "bibliographic_record"
+      "k": "primary_text"
      },
      {
       "c": "Cramer gave the rule for n x n systems in the 1750 book.",
@@ -60586,19 +60981,19 @@
     "d": "Gauss introduces the word determinant for a quantity attached to a quadratic form.",
     "ph": null,
     "c": "medium",
-    "n": "MacTutor: Gauss's concept differs from the modern determinant, since it concerns the properties of the quadratic form; Cauchy first used the word in its modern sense (read 1812, printed 1815; see the Cauchy milestone). The Disquisitiones text was not read, though an open copy exists (archive.org disquisitionesa00gaus).",
+    "n": "Read in the Internet Archive scan (disquisitionesa00gaus, OCR text): in the section on binary quadratic forms (arts. 153 ff.), Gauss calls the quantity b*b - a*c of a binary quadratic form (a, b, c) its 'determinans' (for example the form (3, 7, -8) is given its 'determinans'), so the word is used for the invariant of a quadratic form, not for the array of a linear system. MacTutor: Gauss's concept differs from the modern determinant; Cauchy first used the word in its modern sense (read 1812, printed 1815; see the Cauchy milestone).",
     "ev": [
+     {
+      "c": "Primary text read: Disquisitiones arithmeticae (Leipzig, 1801), binary forms (arts. 153 ff.): 'determinans' of a form, the invariant of its equivalence class.",
+      "s": "Internet Archive item disquisitionesa00gaus (OCR text read)",
+      "u": "https://archive.org/details/disquisitionesa00gaus",
+      "k": "primary_text"
+     },
      {
       "c": "In 1801 Gauss coined the term determinant in the Disquisitiones arithmeticae while discussing quadratic forms.",
       "s": "MacTutor history topic: Matrices and determinants",
       "u": "https://mathshistory.st-andrews.ac.uk/HistTopics/Matrices_and_determinants/",
       "k": "history_page"
-     },
-     {
-      "c": "Archive record of Gauss, Disquisitiones arithmeticae (1801).",
-      "s": "Internet Archive item disquisitionesa00gaus",
-      "u": "https://archive.org/details/disquisitionesa00gaus",
-      "k": "bibliographic_record"
      }
     ]
    },
@@ -60608,14 +61003,14 @@
     "ye": null,
     "p": "year",
     "l": "Cauchy's memoir on alternating symmetric functions and determinants",
-    "w": "A.-L. Cauchy, Memoire sur les fonctions qui ne peuvent obtenir que deux valeurs egales et de signes contraires par suite des transpositions operees entre les variables qu'elles renferment, J. Ecole Polytechnique 17 (cahier 10) (1815) 29-112 (read to the Institut 30 November 1812)",
+    "w": "A.-L. Cauchy, Memoire sur les fonctions qui ne peuvent obtenir que deux valeurs egales et de signes contraires par suite des transpositions operees entre les variables qu'elles renferment, J. Ecole Polytechnique 17e cahier, tome 10 (1815) (Oeuvres (2) 1, pp. 91-169; read to the Institut 30 November 1812)",
     "pe": [
      "Augustin-Louis Cauchy"
     ],
     "d": "Cauchy uses 'determinant' in its modern sense and proves the multiplication theorem for determinants.",
     "ph": null,
     "c": "medium",
-    "n": "MacTutor dates this to 1812 (Cauchy used 'determinant' in its modern sense in 1812, and the multiplication theorem is proved there for the first time); the memoir was read on 30 November 1812 but printed only in 1815, and publication year governs, so 1815. The text was not read; the journal citation comes from a secondary history article. Vandermonde (1771, printed 1772), Bezout (1764) and Laplace (1772) also gave methods and expansions (MacTutor) and are not entered separately.",
+    "n": "MacTutor dates this to 1812 (Cauchy used 'determinant' in its modern sense in 1812, and the multiplication theorem is proved there for the first time); the memoir was read on 30 November 1812 but printed only in 1815, and publication year governs, so 1815. Title, 17e cahier (tome 10, 1815) and the reading date are confirmed in the history article in Revue d'histoire des mathematiques 19 (2013) (full text read), which also reports that Cauchy's definition via the difference-product and the modern index notation a(i,j) already occur in the memoir. The memoir itself was not read. The journal page range 29-112 given earlier comes from a secondary source and was not confirmed; the Oeuvres pagination is 91-169. Vandermonde (1771, printed 1772/1776), Bezout (1764) and Laplace (1772) also gave methods and expansions (MacTutor) and are not entered separately.",
     "ev": [
      {
       "c": "MacTutor: Cauchy in 1812 used 'determinant' in its modern sense; the multiplication theorem for determinants is proved for the first time in the 1812 paper.",
@@ -60624,8 +61019,8 @@
       "k": "history_page"
      },
      {
-      "c": "The two founding memoirs were read to the Institut on 30 November 1812 but published only in 1815, in Journal de l'Ecole Polytechnique, cahier 17, pp. 29-112 (Oeuvres (2) 1, 91-169).",
-      "s": "Revue d'histoire des mathematiques 19 (2013), 'A case of mathematical eponymy: the Vandermonde determinant' (search excerpt; article not opened)",
+      "c": "Cauchy's two founding memoirs were read to the Institut on 30 November 1812 and published in 1815 (Journal de l'Ecole polytechnique, XVIIe cahier, tome X; Oeuvres (2) 1); the second one defines the determinant through the difference-product and uses the double-index notation.",
+      "s": "Revue d'histoire des mathematiques 19 (2013), 'A case of mathematical eponymy: the Vandermonde determinant' (full text read)",
       "u": "https://www.numdam.org/item/RHM_2013__19_1_43_0",
       "k": "history_page"
      }
@@ -60760,7 +61155,7 @@
     ]
    }
   ],
-  "notes": "Reviewed against MacTutor (Matrices and determinants), Crossref (Jacobi 1841 papers), zbMATH, and archive.org title searches. Changed: Jacobi 1841 is a key development, not the naming (Gauss 1801 coined the word; MacTutor), the consolidation is now Spottiswoode 1851 rather than Baltzer 1857, and the 1678 precursor is merged into the 1693 letter. The 1700 first statement is still unidentified and low confidence, and conflicts with MacTutor's remark about Maclaurin; Cauchy 1812 (modern sense of the term) is not entered; Seki's work is not independently sourced. Person without verified work: Seki Takakazu. Review R3: MacTutor wording re-checked (1693 letter first European appearance; Maclaurin 1748 first published results; Cramer 1750; Gauss 1801 term; Cauchy 1812 modern sense; Seki 1683). Cauchy 1812 not entered as a milestone; Crossref was rate-limited so Cauchy and the 1810s were not bibliographically checked. Review R2-R3b: MacTutor re-read once more; Crossref confirmed Jacobi's Crelle 22 (1841) 285-318; archive.org metadata confirmed Maclaurin (1748), Cramer (1750), Gauss (1801) and Spottiswoode (1851); Cauchy added as a 1815 key development (read 1812, printed 1815). Knobloch's chapter (Springer 2013, paywalled) says historians doubted until 1938 that Leibniz had worked on determinants at all and notes Kline's mistaken credit to Maclaurin. Still unresolved, hence not promoted: the 1700 first statement, Seki's printed date, and the fact that Leibniz's 1693 letter was only printed in the 19th century (Gerhardt), which makes 'first public statement' for Leibniz doubtful; the milestone list now has 9 entries, one over the schema cap.",
+  "notes": "Reviewed R3-G1 against primary texts. Read: Leibniz' letter to de l'Hopital of 28 April 1693 (Gerhardt, Math. Schriften II, 1850, the first print) and the 1700 Acta Eruditorum reply to Fatio de Duillier with the 'nova Artis Analyticae promotio' (Math. Schriften V, pp. 340-349); the 1710 'Symbolismus memorabilis calculi algebraici et infinitesimalis' (Miscellanea Berolinensia 1, Math. Schriften V, pp. 377-382; Latin text read); Maclaurin's 1748 first edition (Part I ch. XII); Cramer's 1750 appendix; Gauss' Disquisitiones (the word determinans for forms); the Revue d'histoire des mathematiques article on Cauchy; MacTutor and Kosinski. Finding: MacTutor's 'only two publications (1700 and 1710) contain results on coefficient systems' is not borne out as determinant statements. The 1700 paper prints Leibniz' two-index coefficient notation for series reversion, with the wish for canons of elimination, and the 1710 paper compares powers of a multinomial with differentials of a product (multinomial coefficients as numbers of transpositions); neither contains a linear system or a determinant. Leibniz' determinant results survive in the 1693 letter (first printed 1850) and in manuscripts (Knobloch 1980, not read; the chapter in Springer 2013 is paywalled). Changes: the 1700 'first printed results' placeholder was removed; the 1693 letter and the 1700 print are one precursor (the first public use of the index notation); Maclaurin 1748 is now the first_statement (map year 1700 -> 1748, link distances updated on both sides, P147 and P429), Cramer 1750 the earliest key development; milestone count reduced from 9 to 8 by that merge. Still open: Knobloch's manuscript dating of Leibniz' determinant papers; the printed Seki/Takebe record (see P147) which may precede Maclaurin in a different tradition; the page range of the 1700 paper; Cauchy's memoir and Spottiswoode 1851 not read; Seki is sourced only from MacTutor. Stays source-first.",
   "catalogueDates": [
    "1678-1693",
    null,
@@ -60783,7 +61178,7 @@
     {
      "p": "P429",
      "f": "determinants and matrix algebra",
-     "d": 155,
+     "d": 107,
      "t": "named"
     }
    ],
@@ -60791,7 +61186,7 @@
     {
      "p": "P147",
      "f": "determinants in separate traditions",
-     "d": -15,
+     "d": -63,
      "t": "same"
     }
    ]
@@ -110475,7 +110870,7 @@
     {
      "p": "P188",
      "f": "celestial, mechanics",
-     "d": 95,
+     "d": 103,
      "t": "feeds"
     },
     {
@@ -131251,7 +131646,7 @@
     {
      "p": "P192",
      "f": "determinants and matrix algebra",
-     "d": 155,
+     "d": 107,
      "t": "named"
     }
    ],
@@ -168440,7 +168835,7 @@
     {
      "p": "P188",
      "f": "partial differential equations",
-     "d": 28,
+     "d": 20,
      "t": "feeds"
     },
     {
