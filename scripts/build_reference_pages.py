@@ -357,6 +357,10 @@ def main() -> None:
     write(DEST / "people" / "index.html", people_index(linked, people_slugs))
     write(DEST / "events.csv", events_csv(events))
     write(DEST / "search-index.json", json.dumps({e["pid"]: search_text(e) for e in events}, ensure_ascii=False, separators=(",", ":")))
+    site = "https://dsleo.github.io/mathlas/"
+    pages = ["", *sorted(str(q.parent.relative_to(DEST.parent)).replace("\\", "/") + "/" for q in DEST.rglob("index.html"))]
+    (DEST.parent / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' + "".join(f"<url><loc>{site}{u}</loc></url>\n" for u in pages) + "</urlset>\n")
+    (DEST.parent / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {site}sitemap.xml\n")
     print(f"Generated {len(events)} event pages, {len(by_field)} field pages and {len(linked)} people pages in {DEST}")
 
 
